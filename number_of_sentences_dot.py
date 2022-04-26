@@ -4,7 +4,7 @@ file = open("/home/muhammed/Desktop/counter/test.txt", 'r')
 
 
 number_of_lines = 0
-number_of_words = 0
+number_of_words = 10
 number_of_sentences = 0
 number_of_characters = 0
 for line in file:
