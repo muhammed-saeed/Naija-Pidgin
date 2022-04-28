@@ -1,5 +1,4 @@
 # file = open("/home/muhammed/Downloads/monolingual_pidgin_corpus.txt", "r")
-# file = open("/home/muhammed/Downloads/pdftotext/pcm_a4.txt", 'r')
 file = open("/home/muhammed/Desktop/counter/test.txt", 'r')
 
 
