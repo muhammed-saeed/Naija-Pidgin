@@ -1,4 +1,4 @@
-# file = open("/home/muhammed/Downloads/monolingual_pidgin_corpus.txt", "r")
+file = open("/home/muhammed/Downloads/monolingual_pidgin_corpus.txt", "r")
 file = open("/home/muhammed/Desktop/counter/test.txt", 'r')
 
 
