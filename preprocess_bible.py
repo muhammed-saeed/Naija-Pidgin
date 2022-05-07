@@ -92,7 +92,7 @@ for path in paths:
                     remaining_text = verses[1]
             text_array.append(remaining_text)
 
-            # text_array contain the text for the entire verses
+            # text_array contain the text for the entire verses " in this specific chapter"
             # the online_text contains the data in single verse
 
             # with open(folder_path+"/all.txt", "w") as f:
