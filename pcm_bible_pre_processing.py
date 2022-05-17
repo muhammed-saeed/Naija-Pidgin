@@ -87,7 +87,7 @@ for page in range(len(pcm_chapters_start)-1):
             for item in FF:
                 fb.write(item)
     else:
-        print("dsafdsafasdfdsafasfdfdsfdfdsafadsf")
+        print("asdfsadfadfsd")
         print(f"hte checker value is {checker} and hte correpsoning {page}")
         FF = FF[checker:]
         chapter_path = "/home/muhammed/Desktop/pcm_en_parrellel/pcm_chapters/files_with_problems/pcm_chapter_" + \
