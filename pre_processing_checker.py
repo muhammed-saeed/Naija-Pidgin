@@ -57,7 +57,7 @@ for i in range(4, 49):
     # print("############################")
     for item in aa:
         if len(item) > 3:
-            print(item)
+            # print(item)
             item += " "
             new_aa = new_aa + item
         else:
