@@ -40,3 +40,4 @@ print(counter)
 
 #         # call read text file function
 #         counter += read_text_file(file_path)
+#
