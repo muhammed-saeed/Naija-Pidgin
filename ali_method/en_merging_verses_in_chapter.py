@@ -71,21 +71,21 @@ print(len(to_be_ordered_list_2))
 print(to_be_ordered_list_2[60])
 print(ordered_list[60])
 print(to_be_ordered_list_2)
-# counter = 1
-# for chapter in to_be_ordered_list_2:
-#     general_path = '/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/en_bible/en'
-#     for i in chapter:
-#         verse_path = general_path + "/"+str(i)
-#         chapter_path = "/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/en_bible/chapters/"
-#         chapter_path_counter = chapter_path + "en_" + str(counter) + ".txt"
-#         timer = chapter_path + str(counter)
-#         verse = ""
-#         with open(verse_path, "r") as fb:
-#             verse = fb.readlines()
-#         with open(chapter_path_counter, "a") as fb:
-#             fb.writelines(verse)
-#         verse = ""
-#     counter += 1
+counter = 1
+for chapter in to_be_ordered_list_2:
+    general_path = '/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/en_bible/en'
+    for i in chapter:
+        verse_path = general_path + "/"+str(i)
+        chapter_path = "/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/en_bible/chapters/"
+        chapter_path_counter = chapter_path + "en_" + str(counter) + ".txt"
+        timer = chapter_path + str(counter)
+        verse = ""
+        with open(verse_path, "r") as fb:
+            verse = fb.readlines()
+        with open(chapter_path_counter, "a") as fb:
+            fb.writelines(verse)
+        verse = ""
+    counter += 1
 
 
 # print(files)
