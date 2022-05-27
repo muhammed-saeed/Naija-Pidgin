@@ -7,8 +7,8 @@ import sys
 import json
 
 # file_big[5].get_text()
-
-#########
+#here reading the bibdle and detecting the patterns 
+#using different mehtod rather than the regex one
 # English Bible
 
 
