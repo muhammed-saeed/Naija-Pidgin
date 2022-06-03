@@ -29,7 +29,7 @@ for i in range(150):
     pcm_verse_path = pcm_path + pcm_chapter_19[i]
     pcm_counter = 0
     pcm_verse = ""
-    with open(pcm_verse_path, "r", encoding="ISO-8859-1") as fb:
+    with open(pcm_verse_path, "r", encoding="utf-8") as fb:
         pcm_verse = fb.readlines()
 
     if len(pcm_verse) != len(en_verse):
@@ -50,7 +50,7 @@ for book in two_chapters:
         pcm_verse_path = pcm_path + verse
         pcm_counter = 0
         pcm_verse = ""
-        with open(pcm_verse_path, "r", encoding="ISO-8859-1") as fb:
+        with open(pcm_verse_path, "r", encoding="utf-8") as fb:
             pcm_verse = fb.readlines()
 
         if len(pcm_verse) != len(en_verse):
@@ -76,9 +76,9 @@ for i in range(150):
         pcm_verse_path = pcm_path + pcm_chapter_19[i]
         pcm_counter = 0
         pcm_verse = ""
-        with open(pcm_verse_path, "r", encoding="ISO-8859-1") as fb:
+        with open(pcm_verse_path, "r") as fb:
             pcm_verse = fb.readlines()
-        with open(chapter_19_path_pcm, "a", encoding="ISO-8859-1") as fb:
+        with open(chapter_19_path_pcm, "a") as fb:
             fb.writelines(pcm_verse)
 
 
@@ -101,7 +101,7 @@ for j, book in enumerate(two_chapters):
             pcm_verse_path = pcm_path + i
             pcm_counter = 0
             pcm_verse = ""
-            with open(pcm_verse_path, "r", encoding="ISO-8859-1") as fb:
+            with open(pcm_verse_path, "r") as fb:
                 pcm_verse = fb.readlines()
-            with open(output_path_pcm, "a",encoding="ISO-8859-1") as fb:
+            with open(output_path_pcm, "a") as fb:
                 fb.writelines(pcm_verse)
