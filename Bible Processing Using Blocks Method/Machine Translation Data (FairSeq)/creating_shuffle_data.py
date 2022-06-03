@@ -6,7 +6,7 @@ print(df.columns)
 pcm_df = df["Pcm"]
 
 a = pcm_df.values
-with open(r"C:\Users\lst\Desktop\Naija-Pidgin\Bible Processing Using Blocks Method\Machine Translation Data (FairSeq)\text_files\pcm_shuffled.txt", 'w', encoding="ISO-8859-1") as f:
+with open(r"C:\Users\lst\Desktop\Naija-Pidgin\Bible Processing Using Blocks Method\Machine Translation Data (FairSeq)\text_files\pcm_shuffled.txt", 'w', encoding="utf-8") as f:
     for line in a:
         f.write(str(line))
         f.write("\n")
