@@ -1,8 +1,8 @@
 import os
-en_path = "/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/en_bible/en/"
-pcm_path = "/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/pcm_bible/pcm/"
+en_path = r"C:\Users\lst\Desktop\Naija-Pidgin\BLOCKS_SPANS\BLOCKS_SPANS\en_bible\en\\"
+pcm_path = r"C:\Users\lst\Desktop\Naija-Pidgin\BLOCKS_SPANS\BLOCKS_SPANS\pcm_bible\pcm\\"
 files = os.listdir(
-    '/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/en_bible/en')
+    en_path)
 verses_out = []
 dump = []
 books_to_be_solved = [['4_1.txt', '4_2.txt', '4_3.txt', '4_4.txt', '4_5.txt', '4_6.txt', '4_7.txt', '4_8.txt', '4_9.txt', '4_10.txt', '4_11.txt', '4_12.txt', '4_13.txt', '4_14.txt', '4_15.txt', '4_16.txt', '4_17.txt', '4_18.txt', '4_19.txt', '4_20.txt', '4_21.txt', '4_22.txt', '4_23.txt', '4_24.txt', '4_25.txt', '4_26.txt', '4_27.txt', '4_28.txt', '4_29.txt', '4_30.txt', '4_31.txt', '4_32.txt', '4_33.txt', '4_34.txt', '4_35.txt', '4_36.txt'], ['19_2.txt', '19_3.txt', '19_4.txt', '19_5.txt', '19_6.txt', '19_7.txt', '19_8.txt', '19_9.txt', '19_10.txt', '19_11.txt', '19_12.txt', '19_13.txt', '19_14.txt', '19_15.txt', '19_16.txt', '19_17.txt', '19_18.txt', '19_19.txt', '19_20.txt', '19_21.txt', '19_22.txt', '19_23.txt', '19_24.txt', '19_25.txt', '19_26.txt', '19_27.txt', '19_28.txt', '19_29.txt', '19_30.txt', '19_31.txt', '19_32.txt', '19_33.txt', '19_34.txt', '19_35.txt', '19_36.txt', '19_37.txt', '19_38.txt', '19_39.txt', '19_40.txt', '19_41.txt', '19_42.txt', '19_43.txt', '19_44.txt', '19_45.txt', '19_46.txt', '19_47.txt', '19_48.txt', '19_49.txt', '19_50.txt', '19_51.txt', '19_52.txt', '19_53.txt', '19_54.txt', '19_55.txt', '19_56.txt', '19_57.txt', '19_58.txt', '19_59.txt', '19_60.txt', '19_61.txt', '19_62.txt', '19_63.txt', '19_64.txt', '19_65.txt', '19_66.txt', '19_67.txt', '19_68.txt', '19_69.txt', '19_70.txt', '19_71.txt',
@@ -21,7 +21,7 @@ en_chapters_19 = ['19_1.txt', '19_2.txt', '19_3.txt', '19_4.txt', '19_5.txt', '1
 
 
 for i in range(150):
-    en_verse_path = en_path + en_chapters_19[i]
+    en_verse_path = en_path +   en_chapters_19[i]
     en_counter = 0
     en_verse = ""
     with open(en_verse_path, "r") as fb:
@@ -29,7 +29,7 @@ for i in range(150):
     pcm_verse_path = pcm_path + pcm_chapter_19[i]
     pcm_counter = 0
     pcm_verse = ""
-    with open(pcm_verse_path, "r") as fb:
+    with open(pcm_verse_path, "r", encoding="ISO-8859-1") as fb:
         pcm_verse = fb.readlines()
 
     if len(pcm_verse) != len(en_verse):
@@ -50,7 +50,7 @@ for book in two_chapters:
         pcm_verse_path = pcm_path + verse
         pcm_counter = 0
         pcm_verse = ""
-        with open(pcm_verse_path, "r") as fb:
+        with open(pcm_verse_path, "r", encoding="ISO-8859-1") as fb:
             pcm_verse = fb.readlines()
 
         if len(pcm_verse) != len(en_verse):
@@ -62,8 +62,8 @@ solving_chapter_19_arr = verses_out[0]
 solving_chapter_19_arr.append(1)
 print(solving_chapter_19_arr)
 
-chapter_19_path_pcm = "/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/pcm_bible/chapter_19.txt"
-chapter_19_path_en = "/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/en_bible/chapter_19.txt"
+chapter_19_path_pcm = r"C:\Users\lst\Desktop\Naija-Pidgin\BLOCKS_SPANS\BLOCKS_SPANS\pcm_bible\chapter_19.txt"
+chapter_19_path_en = r"C:\Users\lst\Desktop\Naija-Pidgin\BLOCKS_SPANS\BLOCKS_SPANS\en_bible\chapter_19.txt"
 for i in range(150):
     if i not in solving_chapter_19_arr:
         en_verse_path = en_path + en_chapters_19[i]
@@ -76,15 +76,15 @@ for i in range(150):
         pcm_verse_path = pcm_path + pcm_chapter_19[i]
         pcm_counter = 0
         pcm_verse = ""
-        with open(pcm_verse_path, "r") as fb:
+        with open(pcm_verse_path, "r", encoding="ISO-8859-1") as fb:
             pcm_verse = fb.readlines()
-        with open(chapter_19_path_pcm, "a") as fb:
+        with open(chapter_19_path_pcm, "a", encoding="ISO-8859-1") as fb:
             fb.writelines(pcm_verse)
 
 
 two_capters_problems = ['4_1.txt', '66_12.txt']
-path_en = "/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/en_bible/c_"
-path_pcm = "/home/muhammed/Desktop/pcm_en_parrellel/BLOCKS_SPANS/pcm_bible/c_"
+path_en = r"C:\Users\lst\Desktop\Naija-Pidgin\BLOCKS_SPANS\BLOCKS_SPANS\en_bible\c_"
+path_pcm = r"C:\Users\lst\Desktop\Naija-Pidgin\BLOCKS_SPANS\BLOCKS_SPANS\pcm_bible\c_"
 for j, book in enumerate(two_chapters):
     output_path_en = path_en + str(j) + ".txt"
     output_path_pcm = path_pcm + str(j) + ".txt"
@@ -101,7 +101,7 @@ for j, book in enumerate(two_chapters):
             pcm_verse_path = pcm_path + i
             pcm_counter = 0
             pcm_verse = ""
-            with open(pcm_verse_path, "r") as fb:
+            with open(pcm_verse_path, "r", encoding="ISO-8859-1") as fb:
                 pcm_verse = fb.readlines()
-            with open(output_path_pcm, "a") as fb:
+            with open(output_path_pcm, "a",encoding="ISO-8859-1") as fb:
                 fb.writelines(pcm_verse)
