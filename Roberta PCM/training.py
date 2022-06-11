@@ -1,6 +1,8 @@
 #/home/CE/musaeed/RoBERTa/config.json
 import os
 from transformers import RobertaForMaskedLM, RobertaConfig
+token_dir = '/home/CE/musaeed/RoBERTa'
+
 config = RobertaConfig.from_pretrained("/home/CE/musaeed/RoBERTa/config.json")
 model = RobertaForMaskedLM(config=config)
 print(model)
@@ -11,28 +13,8 @@ print(model)
 ####################################
 from transformers import LineByLineTextDataset
 
-from tokenizers.implementations import ByteLevelBPETokenizer
-from tokenizers.processors import BertProcessing
-
-tokenizer = ByteLevelBPETokenizer(
-    "/home/CE/musaeed/RoBERTa/vocab.json",
-    "/home/CE/musaeed/RoBERTa/merges.txt",
-)
-
-dataset = LineByLineTextDataset(
-    tokenizer=tokenizer,
-    file_path="/home/CE/musaeed/pcm_mono.txt",
-    block_size=128,
-)
-
-
-########################################
-tokenizer._tokenizer.post_processor = BertProcessing(
-    ("</s>", tokenizer.token_to_id("</s>")),
-    ("<s>", tokenizer.token_to_id("<s>")),
-)
-tokenizer.enable_truncation(max_length=512)
-
+from transformers import RobertaTokenizer
+tokenizer = RobertaTokenizer.from_pretrained(token_dir, max_length=512)
 
 dataset = LineByLineTextDataset(
     tokenizer=tokenizer,
