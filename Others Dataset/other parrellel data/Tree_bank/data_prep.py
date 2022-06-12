@@ -21,11 +21,27 @@ total_data.extend(train_data)
 total_data.extend(dev_data)
 total_data.extend(test_data)
 print(f"total {len(total_data)} train {len(train_data)} test {len(test_data)} dev {len(dev_data)}")
+counter_pcm= 0
+counter_en= 0 
 for line in total_data:
-    if "text_ortho = " in line:
-        pcm_data.append(line[15:])
-    if "text_en = " in line:
+    if "text_en" in line:
         en_data.append(line[12:])
+        counter_en+=1
+    if "text_ortho" in line:
+        pcm_data.append(line[15:])
+        counter_pcm += 1
+        if counter_pcm < counter_en :
+            #the line 3905 in the train.conllu is only english one
+            print("##########################3")
+            print(counter_pcm)
+            counter_pcm += 1
+    
+    
+   
+
+# for line in total_data:
+#     if "text_en" in line:
+#         en_data.append(line[12:])
 print(f"the parrellel pcm is {len(pcm_data)} and the parrellel en is {len(en_data)}")
 
 parrellel_pcm = r"C:\Users\lst\Desktop\Naija-Pidgin\Others Dataset\other parrellel data\Tree_bank\pcm_parrellel.txt"
@@ -37,4 +53,13 @@ with open(parrellel_en, "w") as fb:
 with open(parrellel_pcm, "w") as fb:
     fb.writelines(pcm_data)
 
+en_arr = []
+with open(parrellel_en, "r") as fb:
+    en_arr = fb.readlines()
+
+pcm_arr = []
+with open(parrellel_pcm, "r") as fb:
+    pcm_arr = fb.readlines()
+print(len(en_arr))
+print(len(pcm_arr))
 print(en_data[0][12:])
