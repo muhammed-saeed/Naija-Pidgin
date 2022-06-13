@@ -72,3 +72,8 @@ with open(pcm_train_path,"w", encoding="utf-8") as fb:
     # print(len(pcm_total_data))
 
 
+
+
+
+
+# fairseq-train "/home/CE/musaeed/ironside_nmt/pcm_en.tokenized.pcm-en"  --arch transformer   --dropout 0.3   --attention-dropout 0.1   --encoder-embed-dim 300   --encoder-ffn-embed-dim 1024  --encoder-layers 4   --encoder-attention-heads 10  --encoder-learned-pos   --decoder-embed-dim 300   --decoder-ffn-embed-dim 1024   --decoder-layers 4   --decoder-attention-heads 10   --decoder-learned-pos   --max-epoch 350   --optimizer adam   --lr 5e-4   --batch-size 64   --seed 1   --encoder-layerdrop 0.0   --decoder-layerdrop 0.2  --criterion=label_smoothed_cross_entropy --activation-dropout 0.3 --warmup-updates 4000 --source-lang=pcm --target-lang=en --label-smoothing=0.5 --lr-scheduler=inverse_sqrt --save-dir /home/CE/musaeed/ironside_nmt/ --find-unused-parameters  --ddp-backend=no_c10d > /local/home/CE/musaeed/training_log.txt

@@ -48,12 +48,12 @@ with open(path_64, "r") as fb:
 
 # #######################################3
 
-tree_bank_data = ""
-with open(r"C:\Users\lst\Desktop\Naija-Pidgin\Bible Processing Using Blocks Method\Machine Translation Data (FairSeq)\text_files\en_parrellel.txt", "r") as fb:
-    tree_bank_data = fb.read()
+# tree_bank_data = ""
+# with open(r"C:\Users\lst\Desktop\Naija-Pidgin\Bible Processing Using Blocks Method\Machine Translation Data (FairSeq)\text_files\en_parrellel.txt", "r") as fb:
+#     tree_bank_data = fb.read()
 # new_path = en_path + "en_entire_bible.txt"
 
-total = data_1 + "\n" + data_2 + "\n"  + data_3 + "\n"  +data_4 + "\n"  +data_chapter_64 + "\n" +tree_bank_data
+total = data_1 + "\n" + data_2 + "\n"  + data_3 + "\n"  +data_4 + "\n"  +data_chapter_64 + "\n" 
 # with open(new_path,"w") as fb:
 #      for book in parrellel_lines:
 #          for line in book:
@@ -112,15 +112,15 @@ with open(path_64, "r", encoding="utf-8") as fb:
     data_64 = fb.read()
     #read read the file as str not list
 
-tree_bank_data = ""
+# tree_bank_data = ""
 
-with open(r"C:\Users\lst\Desktop\Naija-Pidgin\Bible Processing Using Blocks Method\Machine Translation Data (FairSeq)\text_files\pcm_parrellel.txt","r", encoding="utf-8") as fb:
-    tree_bank_data = fb.read()
+# with open(r"C:\Users\lst\Desktop\Naija-Pidgin\Bible Processing Using Blocks Method\Machine Translation Data (FairSeq)\text_files\pcm_parrellel.txt","r", encoding="utf-8") as fb:
+#     tree_bank_data = fb.read()
 
 
 
 # ####################################
-total = data_1 + "\n" + data_2 + "\n"  + data_3 + "\n"  +data_4 + "\n"  +data_64 + "\n" + tree_bank_data
+total = data_1 + "\n" + data_2 + "\n"  + data_3 + "\n"  +data_4 + "\n"  +data_64 + "\n" 
 # with open(new_path,"w") as fb:
 #     for book in parrellel_lines:
 #         for line in book:

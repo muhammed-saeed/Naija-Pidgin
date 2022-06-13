@@ -1,0 +1,13 @@
+python -m examples.roberta.multiprocessing_bpe_encoder  --encoder-json "/home/CE/musaeed/pcm_roberta/RoBERTa/vocab.json"  --vocab-bpe "/home/CE/musaeed/pcm_roberta/RoBERTa/merges.txt"   --inputs "/home/CE/musaeed/pcm_roberta/data/pcm.train.raw"  --outputs "/home/CE/musaeed/pcm_roberta/data/pcm.train.bpe" --keep-empty         --workers 60;
+
+python -m examples.roberta.multiprocessing_bpe_encoder  --encoder-json "/home/CE/musaeed/pcm_roberta/RoBERTa/vocab.json"  --vocab-bpe "/home/CE/musaeed/pcm_roberta/RoBERTa/merges.txt"   --inputs "/home/CE/musaeed/pcm_roberta/data/pcm.test.raw"  --outputs "/home/CE/musaeed/pcm_roberta/data/pcm.test.bpe" --keep-empty         --workers 60;
+
+python -m examples.roberta.multiprocessing_bpe_encoder  --encoder-json "/home/CE/musaeed/pcm_roberta/RoBERTa/vocab.json"  --vocab-bpe "/home/CE/musaeed/pcm_roberta/RoBERTa/merges.txt"   --inputs "/home/CE/musaeed/pcm_roberta/data/pcm.val.raw"  --outputs "/home/CE/musaeed/pcm_roberta/data/pcm.valid.bpe" --keep-empty         --workers 60;
+######################################
+
+fairseq-preprocess    --only-source     --trainpref /home/CE/musaeed/pcm_roberta/data/pcm.train.bpe --validpref /home/CE/musaeed/pcm_roberta/data/pcm.valid.bpe --testpref /home/CE/musaeed/pcm_roberta/data/pcm.test.bpe --destdir /home/CE/musaeed/pcm_roberta/data-bin/pcm --workers 60
+
+##############################################
+
+fairseq-hydra-train -m --config-dir /home/CE/musaeed/fairseq/examples/roberta/config/pretraining --config-name base task.data=/home/CE/musaeed/pcm_roberta/data-bin/pcm  >> "/home/CE/musaeed/pcm_roberta/log.txt"
+modify the base.yaml dataset: batchsize = 8 and make skip_invalid_validatoian_test true and then train the model

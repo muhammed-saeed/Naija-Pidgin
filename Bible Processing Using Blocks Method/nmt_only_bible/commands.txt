@@ -1,0 +1,1 @@
+fairseq-preprocess --source-lang pcm --target-lang en --trainpref "/home/CE/musaeed/ironside_nmt/nmt_only_bible/train/train" --validpref "/home/CE/musaeed/ironside_nmt/nmt_only_bible/val/val" --testpref "/home/CE/musaeed/ironside_nmt/nmt_only_bible/test/test" --destdir "/home/CE/musaeed/ironside_nmt/nmt_only_bible/pcm_en.tokenized.pcm-en" --thresholdsrc 0 --thresholdtgt 0
