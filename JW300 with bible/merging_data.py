@@ -70,11 +70,47 @@ res1, res2 = zip(*temp)
 # res1 and res2 come out as tuples, and so must be converted to lists.
 our_pcm, our_en = list(res1), list(res2)
 
-pcm_shuffled = r"C:\Users\lst\Desktop\Naija-Pidgin\Bible Processing Using Blocks Method\Machine Translation Data (FairSeq)\text_files\pcm_shuffled.txt"
-en_shuffled = r"C:\Users\lst\Desktop\Naija-Pidgin\Bible Processing Using Blocks Method\Machine Translation Data (FairSeq)\text_files\en_shuffled.txt"
+# entire_Data = r"C:\Users\lst\Desktop\Naija-Pidgin\Bible Processing Using Blocks Method\Machine Translation Data (FairSeq)\text_files\pcm_shuffled.txt"
+# en_shuffled = r"C:\Users\lst\Desktop\Naija-Pidgin\Bible Processing Using Blocks Method\Machine Translation Data (FairSeq)\text_files\en_shuffled.txt"
 
-with open(pcm_shuffled, "w", encoding="utf-8") as fb:
-    fb.writelines(our_pcm)
+# with open(pcm_shuffled, "w", encoding="utf-8") as fb:
+#     fb.writelines(our_pcm)
 
-with open(en_shuffled, "w", encoding="utf-8") as fb:
-    fb.writelines(our_en)
+# with open(en_shuffled, "w", encoding="utf-8") as fb:
+#     fb.writelines(our_en)
+
+
+
+
+train_en = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\train\train.en"
+train_pcm = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\train\train.pcm"
+
+test_en = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test\test.en"
+test_pcm = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test\test.pcm"
+
+val_en = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\val\val.en"
+val_pcm = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\val\val.pcm"
+
+with open(train_en, "w", encoding="utf-8") as fb:
+    fb.writelines(our_en[:-3200])
+
+
+with open(train_pcm, "w", encoding="utf-8") as fb:
+    fb.writelines(our_pcm[:-3200])
+
+
+with open(val_en, "w", encoding="utf-8") as fb:
+    fb.writelines(our_en[-3200:-2200])
+
+
+
+with open(val_pcm, "w", encoding="utf-8") as fb:
+    fb.writelines(our_pcm[-3200:-2200])
+
+
+with open(test_en, "w", encoding="utf-8") as fb:
+    fb.writelines(our_en[-2200:])
+
+
+with open(test_pcm, "w", encoding="utf-8") as fb:
+    fb.writelines(our_pcm[-2200:])
