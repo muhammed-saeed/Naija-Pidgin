@@ -1,5 +1,5 @@
-pcm_bible_tree_bank = r"C:\Users\lst\Desktop\Naija-Pidgin\BLOCKS_SPANS\BLOCKS_SPANS\pcm_bible\pcm_entire_bible_2.txt"
-en_bible_tree_bank = r"C:\Users\lst\Desktop\Naija-Pidgin\BLOCKS_SPANS\BLOCKS_SPANS\en_bible\en_entire_bible_2.txt"
+pcm_bible = r"C:\Users\lst\Desktop\Naija-Pidgin\BLOCKS_SPANS\BLOCKS_SPANS\pcm_bible\pcm_entire_bible_2.txt"
+en_bible = r"C:\Users\lst\Desktop\Naija-Pidgin\BLOCKS_SPANS\BLOCKS_SPANS\en_bible\en_entire_bible_2.txt"
 
 train_jw300_en = r"C:\Users\lst\Desktop\masakhane_benchmarks\en-pcm\jw300-baseline\data\train.en"
 train_jw300_pcm = r"C:\Users\lst\Desktop\masakhane_benchmarks\en-pcm\jw300-baseline\data\train.pcm"
@@ -18,11 +18,17 @@ with open(train_jw300_en, "r", encoding="utf-8") as fb:
 with open(train_jw300_pcm, "r", encoding="utf-8") as fb:
     jw_300_pcm.extend(fb.readlines())
 
+test_en_data = []
+test_pcm_data = []
+# with open(test_jw300_en, "r", encoding="utf-8") as fb:
+#     jw300_en.extend(fb.readlines())
 with open(test_jw300_en, "r", encoding="utf-8") as fb:
-    jw300_en.extend(fb.readlines())
-
+    test_en_data = fb.readlines()
+# with open(test_jw300_pcm, "r", encoding="utf-8") as fb:
+#     jw_300_pcm.extend(fb.readlines())
 with open(test_jw300_pcm, "r", encoding="utf-8") as fb:
-    jw_300_pcm.extend(fb.readlines())
+    test_pcm_data = fb.readlines()
+
 
 with open(dev_jw300_en, "r", encoding="utf-8") as fb:
     jw300_en.extend(fb.readlines())
@@ -32,10 +38,10 @@ with open(dev_jw300_pcm, "r", encoding="utf-8") as fb:
 
 print(f"length of en {len(jw300_en)} and pcm is {len(jw_300_pcm)}")
 
-with open(pcm_bible_tree_bank, "r", encoding="utf-8") as fb:
+with open(pcm_bible, "r", encoding="utf-8") as fb:
     our_pcm.extend(fb.readlines())
 
-with open(en_bible_tree_bank, "r", encoding="utf-8") as fb:
+with open(en_bible, "r", encoding="utf-8") as fb:
     our_en.extend(fb.readlines())
 
 our_pcm.extend(jw_300_pcm)
@@ -100,17 +106,19 @@ with open(train_pcm, "w", encoding="utf-8") as fb:
 
 
 with open(val_en, "w", encoding="utf-8") as fb:
-    fb.writelines(our_en[-3200:-2200])
+    fb.writelines(our_en[-2200:])
 
 
 
 with open(val_pcm, "w", encoding="utf-8") as fb:
-    fb.writelines(our_pcm[-3200:-2200])
+    fb.writelines(our_pcm[-2200:])
 
 
 with open(test_en, "w", encoding="utf-8") as fb:
-    fb.writelines(our_en[-2200:])
+    # fb.writelines(our_en[-2200:])
+    fb.writelines(test_en_data)
 
 
 with open(test_pcm, "w", encoding="utf-8") as fb:
-    fb.writelines(our_pcm[-2200:])
+    # fb.writelines(our_pcm[-2200:])
+    fb.writelines(test_pcm_data)
