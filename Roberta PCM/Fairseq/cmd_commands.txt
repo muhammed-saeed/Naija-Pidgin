@@ -1,3 +1,7 @@
+Pre-Training:
+
+script_1 multiprocessing_bpe_encoder for (train, dev, test) datasets
+
 python -m examples.roberta.multiprocessing_bpe_encoder  --encoder-json "/home/CE/musaeed/pcm_roberta/RoBERTa/vocab.json"  --vocab-bpe "/home/CE/musaeed/pcm_roberta/RoBERTa/merges.txt"   --inputs "/home/CE/musaeed/pcm_roberta/data/pcm.train.raw"  --outputs "/home/CE/musaeed/pcm_roberta/data/pcm.train.bpe" --keep-empty         --workers 60;
 
 python -m examples.roberta.multiprocessing_bpe_encoder  --encoder-json "/home/CE/musaeed/pcm_roberta/RoBERTa/vocab.json"  --vocab-bpe "/home/CE/musaeed/pcm_roberta/RoBERTa/merges.txt"   --inputs "/home/CE/musaeed/pcm_roberta/data/pcm.test.raw"  --outputs "/home/CE/musaeed/pcm_roberta/data/pcm.test.bpe" --keep-empty         --workers 60;
@@ -5,9 +9,108 @@ python -m examples.roberta.multiprocessing_bpe_encoder  --encoder-json "/home/CE
 python -m examples.roberta.multiprocessing_bpe_encoder  --encoder-json "/home/CE/musaeed/pcm_roberta/RoBERTa/vocab.json"  --vocab-bpe "/home/CE/musaeed/pcm_roberta/RoBERTa/merges.txt"   --inputs "/home/CE/musaeed/pcm_roberta/data/pcm.val.raw"  --outputs "/home/CE/musaeed/pcm_roberta/data/pcm.valid.bpe" --keep-empty         --workers 60;
 ######################################
 
+script_2 data-preparation - masking - to be passed to the hydra train to start the training_process.
+
 fairseq-preprocess    --only-source     --trainpref /home/CE/musaeed/pcm_roberta/data/pcm.train.bpe --validpref /home/CE/musaeed/pcm_roberta/data/pcm.valid.bpe --testpref /home/CE/musaeed/pcm_roberta/data/pcm.test.bpe --destdir /home/CE/musaeed/pcm_roberta/data-bin/pcm --workers 60
 
 ##############################################
 
+script_3 training the model:
+
 fairseq-hydra-train -m --config-dir /home/CE/musaeed/fairseq/examples/roberta/config/pretraining --config-name base task.data=/home/CE/musaeed/pcm_roberta/data-bin/pcm  >> "/home/CE/musaeed/pcm_roberta/log.txt"
 modify the base.yaml dataset: batchsize = 8 and make skip_invalid_validatoian_test true and then train the model
+
+##############################################
+
+Fine-Tuning:
+
+1- run the sentiment_prep.py script (in which the csv files containing the data will be prepared for the model for further proces)
+
+
+#####################################################################
+
+
+2- input text into input 0
+
+2.1- train.input0 into bpe
+
+python -m examples.roberta.multiprocessing_bpe_encoder   --encoder-json "/home/CE/musaeed/pcm_roberta/RoBERTa/vocab.json" --vocab-bpe "/home/CE/musaeed/pcm_roberta/RoBERTa/merges.txt"   --inputs "/home/CE/musaeed/pcm_roberta/pcm_senti/train.input0"   --outputs "/home/CE/musaeed/pcm_roberta/pcm_senti/train.input0.bpe" --workers 60   --keep-empty
+
+
+2.2- dev.input0 into bpe
+
+python -m examples.roberta.multiprocessing_bpe_encoder   --encoder-json "/home/CE/musaeed/pcm_roberta/RoBERTa/vocab.json"  --vocab-bpe "/home/CE/musaeed/pcm_roberta/RoBERTa/merges.txt"   --inputs "/home/CE/musaeed/pcm_roberta/pcm_senti/dev.input0"   --outputs "/home/CE/musaeed/pcm_roberta/pcm_senti/dev.input0.bpe"   --workers 60   --keep-empty
+
+
+3- train.input0.bpe and dev.input0 into data preparation
+
+fairseq-preprocess     --only-source     --trainpref "/home/CE/musaeed/pcm_roberta/pcm_senti/train.input0.bpe"     --validpref "/home/CE/musaeed/pcm_roberta/pcm_senti/dev.input0.bpe"     --destdir "/home/CE/musaeed/pcm_roberta/pcm-bin/input0"     --workers 60     --srcdict /home/CE/musaeed/pcm_roberta/data-bin/pcm/dict.txt
+
+######################################################
+
+4- Label
+
+
+fairseq-preprocess     --only-source     --trainpref "/home/CE/musaeed/pcm_roberta/pcm_senti/train.label"     --validpref "/home/CE/musaeed/pcm_roberta/pcm_senti/dev.label"     --destdir "/home/CE/musaeed/pcm_roberta/pcm-bin/label"   --workers 60
+
+###################################################################################
+
+5- 
+
+TOTAL_NUM_UPDATES=7812  # 10 epochs through IMDB for bsz 32
+WARMUP_UPDATES=469      # 6 percent of the number of updates
+LR=1e-05                # Peak LR for polynomial LR scheduler.
+HEAD_NAME="pcm_head"     # Custom name for the classification head.
+NUM_CLASSES=3         # Number of classes for the classification task.
+MAX_SENTENCES=8         # Batch size.
+ROBERTA_PATH="/home/CE/musaeed/pcm_roberta/data-bin/multirun/2022-06-12/13-27-34/0/checkpoints/checkpoint_best.pt"
+# ROBERTA_PATH = "/content/checkpoint_best.pt"
+
+# CUDA_VISIBLE_DEVICES=0 
+!fairseq-train pcm-bin/ \
+    --restore-file ROBERTA_PATH \
+    --max-positions 512 \
+    --batch-size $MAX_SENTENCES \
+    --max-tokens 4400 \
+    --task sentence_prediction \
+    --reset-optimizer --reset-dataloader --reset-meters \
+    --required-batch-size-multiple 1 \
+    --init-token 0 --separator-token 2 \
+    --arch roberta_large \
+    --criterion sentence_prediction \
+    --classification-head-name HEAD_NAME \
+    --num-classes $NUM_CLASSES \
+    --dropout 0.1 --attention-dropout 0.1 \
+    --weight-decay 0.1 --optimizer adam --adam-betas "(0.9, 0.98)" --adam-eps 1e-06 \
+    --clip-norm 0.0 \
+    --lr-scheduler polynomial_decay --lr $LR --total-num-update $TOTAL_NUM_UPDATES --warmup-updates $WARMUP_UPDATES \
+    --fp16 --fp16-init-scale 4 --threshold-loss-scale 1 --fp16-scale-window 128 \
+    --max-epoch 10 \
+    --best-checkpoint-metric accuracy --maximize-best-checkpoint-metric \
+    --shorten-method "truncate" \
+    --find-unused-parameters \
+    --update-freq 4
+
+
+
+
+####################################################
+
+
+
+TOTAL_NUM_UPDATES=7812  # 10 epochs through IMDB for bsz 32
+WARMUP_UPDATES=469      # 6 percent of the number of updates
+LR=1e-05                # Peak LR for polynomial LR scheduler.
+HEAD_NAME="pcm_head"     # Custom name for the classification head.
+NUM_CLASSES=3         # Number of classes for the classification task.
+MAX_SENTENCES=8         # Batch size.
+ROBERTA_PATH="/home/CE/musaeed/pcm_roberta/data-bin/multirun/2022-06-12/13-27-34/0/checkpoints/checkpoint_best.pt"
+# ROBERTA_PATH = "/content/checkpoint_best.pt"
+
+# CUDA_VISIBLE_DEVICES=0 
+!fairseq-train /home/CE/musaeed/pcm_roberta/pcm-bin/     --restore-file "/home/CE/musaeed/pcm_roberta/data-bin/multirun/2022-06-12/13-27-34/0/checkpoints/checkpoint_best.pt"     --max-positions 512     --batch-size 2     --max-tokens 4400     --task sentence_prediction     --reset-optimizer --reset-dataloader --reset-meters     --required-batch-size-multiple 1     --init-token 0 --separator-token 2     --arch roberta_large     --criterion sentence_prediction     --classification-head-name "pcm_head"     --num-classes 3     --dropout 0.1 --attention-dropout 0.1     --weight-decay 0.1 --optimizer adam --adam-betas "(0.9, 0.98)" --adam-eps 1e-06     --clip-norm 0.0     --lr-scheduler polynomial_decay --lr 1e-05 --total-num-update 7812 --warmup-updates 469     --fp16 --fp16-init-scale 4 --threshold-loss-scale 1 --fp16-scale-window 128     --max-epoch 10     --best-checkpoint-metric accuracy --maximize-best-checkpoint-metric     --shorten-method "truncate"     --find-unused-parameters  --update-freq 2
+
+
+
+
+
