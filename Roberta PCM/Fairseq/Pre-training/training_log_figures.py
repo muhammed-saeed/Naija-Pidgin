@@ -1,5 +1,7 @@
 log_lines = []
 log_file_path = r"C:\Users\lst\Desktop\Naija-Pidgin\Roberta PCM\Fairseq\Pre-training\hydra_train.log"
+# log_lines = []
+# log_file_path = "/content/hydra_train.log"
 with open(log_file_path, "r") as fb:
     log_lines = fb.readlines()
 
@@ -27,13 +29,29 @@ for line in train_data:
 for line in train_figures:
     train_ppl.append(line[2])
 
-for lin in train_ppl:
-        
-   
-    aa=train_ppl[10][14:][1:]
+for line in train_ppl:
+    aa=line[14:][1:]
     aa = aa[:-1]
-    float_train_ppl.append(aa)
+    float_train_ppl.append(float(aa))
 
+
+
+
+
+
+
+valid_figures = []
+valid_ppl = []
+float_valid_ppl = []
+for line in valid_data:
+    valid_figures.append(line.split(","))
+for line in valid_figures:
+    valid_ppl.append(line[2])
+
+for line in valid_ppl:
+    aa=line[14:][1:]
+    aa = aa[:-1]
+    float_valid_ppl.append(float(aa))
 # print(train_figures[10])
 # print(train_ppl[10][14:])
 # aa=train_ppl[10][14:][1:]
