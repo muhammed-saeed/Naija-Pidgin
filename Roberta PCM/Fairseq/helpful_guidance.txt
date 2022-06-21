@@ -1,0 +1,7 @@
+#in_order to train RoBERTa model using fairseq then we need to prepare the data in specific formatting
+
+#step 0 is 
+STEPS :
+0- RUN the data_prep.py -modify the code to append all new input of pcm data 
+1- RUN  tokenization.py script on the entire PCM-MONO data that we have, then we have merges.txt and vocab.json
+2- then go and use the commands in their ordering numbers

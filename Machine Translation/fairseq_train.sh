@@ -19,6 +19,7 @@ SAVE_DIR=/home/CE/musaeed/ironside_nmt/en_pcm_300_64_checkpoints/
 LABEL_CROSS_ENTROPY=label_smoothed_cross_entropy
 WARMUP_UPDATES=4000
 lEARNING_POLICY=inverse_sqrt
+WAND_PROJECT_NAME="LARGE SCALE PCM TO EN Translation"
 
 fairseq-train "/home/CE/musaeed/ironside_nmt/entire_parrellel/en_pcm.tokenized.en-pcm" \
     --arch transformer \
@@ -45,5 +46,5 @@ fairseq-train "/home/CE/musaeed/ironside_nmt/entire_parrellel/en_pcm.tokenized.e
     --target-lang $TARGET_LANGUAGE \
     --activation-dropout $ACTIVATION_DROPOUT  \
     --ddp-backend=no_c10d \
-    --no-epoch-checkpoints \
+    --no-epoch-checkpoints --wandb-project $WAND_PROJECT_NAME \
     --log-format=json --log-interval=10 2>&1    |  tee  "/home/CE/musaeed/ironside_nmt/entire_parrellel/en_pcm_4__10_300_2048_550_64_arch_training_log.log"
