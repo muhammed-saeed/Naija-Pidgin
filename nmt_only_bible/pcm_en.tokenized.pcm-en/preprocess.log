@@ -1,0 +1,14 @@
+Namespace(no_progress_bar=False, log_interval=100, log_format=None, log_file=None, aim_repo=None, aim_run_hash=None, tensorboard_logdir=None, wandb_project=None, azureml_logging=False, seed=1, cpu=False, tpu=False, bf16=False, memory_efficient_bf16=False, fp16=False, memory_efficient_fp16=False, fp16_no_flatten_grads=False, fp16_init_scale=128, fp16_scale_window=None, fp16_scale_tolerance=0.0, on_cpu_convert_precision=False, min_loss_scale=0.0001, threshold_loss_scale=None, amp=False, amp_batch_retries=2, amp_init_scale=128, amp_scale_window=None, user_dir=None, empty_cache_freq=0, all_gather_list_size=16384, model_parallel_size=1, quantization_config_path=None, profile=False, reset_logging=False, suppress_crashes=False, use_plasma_view=False, plasma_path='/tmp/plasma', criterion='cross_entropy', tokenizer=None, bpe=None, optimizer=None, lr_scheduler='fixed', simul_type=None, scoring='bleu', task='translation', source_lang='pcm', target_lang='en', trainpref='/home/CE/musaeed/ironside_nmt/nmt_only_bible/train/train', validpref='/home/CE/musaeed/ironside_nmt/nmt_only_bible/val/val', testpref='/home/CE/musaeed/ironside_nmt/nmt_only_bible/test/test', align_suffix=None, destdir='/home/CE/musaeed/ironside_nmt/nmt_only_bible/pcm_en.tokenized.pcm-en', thresholdtgt=0, thresholdsrc=0, tgtdict=None, srcdict=None, nwordstgt=-1, nwordssrc=-1, alignfile=None, dataset_impl='mmap', joined_dictionary=False, only_source=False, padding_factor=8, workers=1, dict_only=False)
+[pcm] Dictionary: 17488 types
+[pcm] /home/CE/musaeed/ironside_nmt/nmt_only_bible/train/train.pcm: 29737 sents, 776315 tokens, 0.0% replaced (by <unk>)
+[pcm] Dictionary: 17488 types
+[pcm] /home/CE/musaeed/ironside_nmt/nmt_only_bible/val/val.pcm: 4460 sents, 116631 tokens, 0.0% replaced (by <unk>)
+[pcm] Dictionary: 17488 types
+[pcm] /home/CE/musaeed/ironside_nmt/nmt_only_bible/test/test.pcm: 29737 sents, 776315 tokens, 0.0% replaced (by <unk>)
+[en] Dictionary: 18640 types
+[en] /home/CE/musaeed/ironside_nmt/nmt_only_bible/train/train.en: 29737 sents, 862941 tokens, 0.0% replaced (by <unk>)
+[en] Dictionary: 18640 types
+[en] /home/CE/musaeed/ironside_nmt/nmt_only_bible/val/val.en: 4460 sents, 129585 tokens, 0.0% replaced (by <unk>)
+[en] Dictionary: 18640 types
+[en] /home/CE/musaeed/ironside_nmt/nmt_only_bible/test/test.en: 29737 sents, 862941 tokens, 0.0% replaced (by <unk>)
+Wrote preprocessed data to /home/CE/musaeed/ironside_nmt/nmt_only_bible/pcm_en.tokenized.pcm-en

@@ -15,7 +15,7 @@ pcm_val_bpe_output = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\val_bp
 
 en_test_input = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test\test.en"
 en_test_bpe_output = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test_bpe\test.bpe.en"
-pcm_test_input = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test\test.en"
+pcm_test_input = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test\test.pcm"
 pcm_test_bpe_output = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test_bpe\test.bpe.pcm"
 
 vocab_size = 4000
