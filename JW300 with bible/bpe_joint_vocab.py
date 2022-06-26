@@ -20,7 +20,7 @@ en_test_bpe_output = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test_b
 pcm_test_input = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test\test.en"
 pcm_test_bpe_output = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test_bpe\test.bpe.pcm"
 
-vocab_size = 4000
+vocab_size = 15000
 
 pcm_source_file = ""
 en_source_file = ""
@@ -61,8 +61,8 @@ def train_pcm(vocab_size):
   )
 train_pcm(vocab_size)
 
-en_tokenizer = spm.SentencePieceProcessor(model_file=r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\bpe_dict_path\en__vocab_4000.model")
-pcm_tokenizer = spm.SentencePieceProcessor(model_file=r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\bpe_dict_path\pcm__vocab_4000.model")
+en_tokenizer = spm.SentencePieceProcessor(model_file=r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\bpe_dict_path\en__vocab_15000.model")
+pcm_tokenizer = spm.SentencePieceProcessor(model_file=r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\bpe_dict_path\pcm__vocab_15000.model")
 
 
 with open(en_train_input, "r", encoding="utf-8") as rf, open(en_train_bpe_output, "w", encoding="utf-8") as wf:
