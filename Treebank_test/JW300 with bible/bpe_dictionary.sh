@@ -1,2 +1,2 @@
-cut -f1 "C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\bpe_dict_path\en__vocab_4000.vocab" | tail -n +4 | sed "s/$/ 100/g" > "C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\converted_dict_for_fairseq\fairseq_en.vocab"
-cut -f1 "C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\bpe_dict_path\pcm__vocab_4000.vocab" | tail -n +4 | sed "s/$/ 100/g" > "C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\converted_dict_for_fairseq\fairseq_pcm.vocab"
+cut -f1 "C:\Users\lst\Desktop\Naija-Pidgin\Treebank_test\JW300 with bible\bpe_dict_path\en__vocab_4000.vocab" | tail -n +4 | sed "s/$/ 100/g" > "C:\Users\lst\Desktop\Naija-Pidgin\Treebank_test\JW300 with bible\converted_dict_for_fairseq\fairseq_en.vocab"
+cut -f1 "C:\Users\lst\Desktop\Naija-Pidgin\Treebank_test\JW300 with bible\bpe_dict_path\pcm__vocab_4000.vocab" | tail -n +4 | sed "s/$/ 100/g" > "C:\Users\lst\Desktop\Naija-Pidgin\Treebank_test\JW300 with bible\converted_dict_for_fairseq\fairseq_pcm.vocab"
