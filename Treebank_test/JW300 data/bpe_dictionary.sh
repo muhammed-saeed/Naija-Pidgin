@@ -1,0 +1,2 @@
+cut -f1 "C:\Users\lst\Desktop\Naija-Pidgin\Treebank_test\JW300 data\bpe_dict_path\en__vocab_4000.vocab" | tail -n +4 | sed "s/$/ 100/g" > "C:\Users\lst\Desktop\Naija-Pidgin\Treebank_test\JW300 data\converted_dict_for_fairseq\fairseq_en.vocab"
+cut -f1 "C:\Users\lst\Desktop\Naija-Pidgin\Treebank_test\JW300 data\bpe_dict_path\pcm__vocab_4000.vocab" | tail -n +4 | sed "s/$/ 100/g" > "C:\Users\lst\Desktop\Naija-Pidgin\Treebank_test\JW300 data\converted_dict_for_fairseq\fairseq_pcm.vocab"
