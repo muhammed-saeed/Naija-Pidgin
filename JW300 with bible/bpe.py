@@ -18,6 +18,7 @@ en_test_bpe_output = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test_b
 pcm_test_input = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test\test.pcm"
 pcm_test_bpe_output = r"C:\Users\lst\Desktop\Naija-Pidgin\JW300 with bible\test_bpe\test.bpe.pcm"
 
+#dum
 vocab_size = 4000
 
 
