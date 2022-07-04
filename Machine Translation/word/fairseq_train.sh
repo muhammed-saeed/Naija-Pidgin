@@ -20,6 +20,7 @@ LABEL_CROSS_ENTROPY=label_smoothed_cross_entropy
 WARMUP_UPDATES=4000
 lEARNING_POLICY=inverse_sqrt
 WAND_PROJECT_NAME="LARGE SCALE PCM TO EN Translation"
+# name can contain only "_" as non characters
 
 fairseq-train "/home/CE/musaeed/ironside_nmt/entire_parrellel/en_pcm.tokenized.en-pcm" \
     --arch transformer \
