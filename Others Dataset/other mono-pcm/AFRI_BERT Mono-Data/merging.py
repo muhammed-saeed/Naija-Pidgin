@@ -8,7 +8,7 @@ with open(eval, "r", encoding="utf8") as fb:
     data_2 = fb.read()
 
 total = data_1 + "\n" + data_2
-merged_data =  r"C:\Users\lst\Desktop\Naija-Pidgin\bbc_scrapper\AFRI_BERT Mono-Data\AFRI_BERT_MONO.txt"
+merged_data =  r"C:\Users\lst\Desktop\Naija-Pidgin\Others Dataset\other mono-pcm\AFRI_BERT Mono-Data\AFRI_BERT_MONO.txt"
 
 with open(merged_data, "w", encoding="utf-8") as fb:
     fb.write(total)
