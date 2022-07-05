@@ -12,8 +12,8 @@ from tokenizers import ByteLevelBPETokenizer
 # print(paths_new)
 # # Customize training
 tokenizer = ByteLevelBPETokenizer()
-
-tokenizer.train(files=["/home/CE/musaeed/pcm_roberta/pcm_text.txt"], vocab_size=52_000, min_frequency=2, special_tokens=[
+#used to be 52_000
+tokenizer.train(files=["/home/CE/musaeed/pcm_roberta/pcm_text.txt"], vocab_size=50_265, min_frequency=2, special_tokens=[
     "<s>",
     "<pad>",
     "</s>",
