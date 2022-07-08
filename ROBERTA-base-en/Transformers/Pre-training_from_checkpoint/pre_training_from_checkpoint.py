@@ -10,8 +10,9 @@ from transformers import LineByLineTextDataset
 dataset = LineByLineTextDataset(
     tokenizer=tokenizer,
     file_path= mono_path,
-    block_size=512,
+    block_size=64,
 )
+#block_size if large value then the model will simply crash
 from transformers import DataCollatorForLanguageModeling
 
 data_collator = DataCollatorForLanguageModeling(
@@ -20,13 +21,15 @@ data_collator = DataCollatorForLanguageModeling(
 from transformers import Trainer, TrainingArguments
 
 training_args = TrainingArguments(
-    output_dir="./roberta-retrained",
+    output_dir="./roberta-more-pre-trained",
     overwrite_output_dir=True,
     num_train_epochs=25,
     per_device_train_batch_size=48,
     save_steps=500,
     save_total_limit=2,
-    seed=1
+    seed=1,
+    report_to="wandb",
+    run_name="RoBERTa more pre-training using Transfomers on PCM Data"
 )
 
 trainer = Trainer(
