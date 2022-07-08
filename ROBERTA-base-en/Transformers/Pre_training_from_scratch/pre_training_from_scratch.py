@@ -7,8 +7,9 @@ paths = ["/content/train_file.txt"]
 # Initialize a tokenizer
 tokenizer = ByteLevelBPETokenizer(lowercase=True)
 
-
+model_folder = "/content/models/model"
 tokenizer_folder = "/content/models/tokenizer"
+mono_pcm_file = "/content/mono_pcm_file.txt"
 # Customize training
 tokenizer.train(files=paths, vocab_size=50_260, min_frequency=2,
                 show_progress=True,
@@ -65,8 +66,8 @@ class CustomDataset(Dataset):
 
 
 import pandas as pd
-train_df = pd.read_csv("/content/train_file.txt", on_bad_lines='skip', header=None)
-test_df = pd.read_csv("/content/train_file.txt", on_bad_lines='skip', header=None)
+train_df = pd.read_csv(mono_pcm_file, on_bad_lines='skip', header=None)
+test_df = pd.read_csv(mono_pcm_file, on_bad_lines='skip', header=None)
 
 
 
@@ -86,7 +87,7 @@ data_collator = DataCollatorForLanguageModeling(
 import torch
 from transformers import Trainer, TrainingArguments
 # Define the training arguments
-model_folder = "/content/models/model"
+
 TRAIN_EPOCHS= 10
 VALID_BATCH_SIZE = 8
 TRAIN_BATCH_SIZE = 16
@@ -117,6 +118,18 @@ trainer = Trainer(
 # Train the model
 trainer.train()
 
-
+from transformers import pipeline
+# Create a Fill mask pipeline
+fill_mask = pipeline(
+    "fill-mask",
+    model=model_folder,
+    tokenizer=tokenizer_folder
+)
+# Test some examples
+# knit midi dress with vneckline
+# =>
+fill_mask("midi <mask> with vneckline.")
+# The test text: Round neck sweater with long sleeves
+fill_mask("Round neck sweater with <mask> sleeves.")
 
 
