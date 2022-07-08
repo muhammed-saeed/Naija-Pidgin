@@ -1,7 +1,7 @@
 from transformers import RobertaTokenizer, RobertaForMaskedLM
 
 
-mono_path = "/tmp/tweeteval/datasets/hate/train_text.txt"
+mono_path = "/home/VD/cychang/ironside_roberta/ROBERTA-base-en/Mono_lingual_data/pcm_entire_mono.txt"
 tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 model = RobertaForMaskedLM.from_pretrained('roberta-base')
 
@@ -12,7 +12,6 @@ dataset = LineByLineTextDataset(
     file_path= mono_path,
     block_size=64,
 )
-#block_size if large value then the model will simply crash
 from transformers import DataCollatorForLanguageModeling
 
 data_collator = DataCollatorForLanguageModeling(
@@ -24,7 +23,7 @@ training_args = TrainingArguments(
     output_dir="./roberta-more-pre-trained",
     overwrite_output_dir=True,
     num_train_epochs=25,
-    per_device_train_batch_size=48,
+    per_device_train_batch_size=64,
     save_steps=500,
     save_total_limit=2,
     seed=1,
@@ -40,13 +39,13 @@ trainer = Trainer(
 )
 trainer.train()
 
-trainer.save_model("./roberta-retrained")
+trainer.save_model("/home/VD/cychang/ironside_roberta/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/roberta-retrained")
 
 from transformers import pipeline
 
 fill_mask = pipeline(
     "fill-mask",
-    model="./roberta-retrained",
+    model="/home/VD/cychang/ironside_roberta/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/roberta-retrained",
     tokenizer="roberta-base"
 )
 fill_mask("Send these <mask> back!")
