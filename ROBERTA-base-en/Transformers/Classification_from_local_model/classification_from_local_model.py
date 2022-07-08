@@ -45,6 +45,25 @@ test_df_path = "C:\Users\lst\Desktop\Naija-Pidgin\Sentiment Analysis PCM\naijase
 model_path = "/content/models/model"
 tokenizer_path = "/content/models/tokenzier"
 
+
+
+isExist = os.path.exists(model_path)
+
+if not isExist:
+  
+  # Create a new directory because it does not exist 
+  os.makedirs(model_path)
+  print("The new directory is created!")
+
+
+isExist = os.path.exists(tokenizer_path)
+
+if not isExist:
+  
+  # Create a new directory because it does not exist 
+  os.makedirs(tokenizer_path)
+  print("The new directory is created!")
+
 mapping = {"positive":2, "neutral":1, "negative":2 }
 
 train_df = pd.read_csv(train_df_path)

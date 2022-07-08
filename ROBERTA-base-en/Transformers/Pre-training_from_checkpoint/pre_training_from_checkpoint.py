@@ -5,6 +5,33 @@ mono_path = "/home/VD/cychang/ironside_roberta/ROBERTA-base-en/Mono_lingual_data
 tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 model = RobertaForMaskedLM.from_pretrained('roberta-base')
 
+
+
+isExist = os.path.exists(model_folder)
+
+if not isExist:
+  
+  # Create a new directory because it does not exist 
+  os.makedirs(model_folder)
+  print("The new directory is created!")
+
+
+isExist = os.path.exists(tokenizer_folder)
+
+if not isExist:
+  
+  # Create a new directory because it does not exist 
+  os.makedirs(tokenizer_folder)
+  print("The new directory is created!")
+
+
+
+
+
+
+
+
+
 from transformers import LineByLineTextDataset
 
 dataset = LineByLineTextDataset(
