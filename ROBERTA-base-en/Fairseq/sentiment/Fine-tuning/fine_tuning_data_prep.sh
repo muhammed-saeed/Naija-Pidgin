@@ -16,6 +16,8 @@ train_label_path=/home/CE/musaeed/ironside_nmt/ROBERTA-base-en/sentiment/sentime
 dev_label_path=/home/CE/musaeed/ironside_nmt/ROBERTA-base-en/sentiment/sentiment_analysis_data/pidgin/pcm_dev.label
 preprocess_label_dest_dir=/home/CE/musaeed/ironside_nmt/ironside_roberta/pcm_roberta_fairseq/data-bin/pcm-bin/label
 
+#/local/home/VD/cychang/ironside_nmt/ironside_roberta
+
 python -m examples.roberta.multiprocessing_bpe_encoder \
     --encoder-json $vocab_json \
     --vocab-bpe $merges_text  \

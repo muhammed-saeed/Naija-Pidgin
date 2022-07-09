@@ -1,15 +1,37 @@
 from tokenizers import ByteLevelBPETokenizer
 from tokenizers.processors import BertProcessing
 from pathlib import Path
+import os
 
-paths = ["/content/train_file.txt"]
+paths = ["/home/CE/musaeed/ROBERTA-EN-TRANS/Mono_lingual_data/pcm_entire_mono.txt"]
 
 # Initialize a tokenizer
 tokenizer = ByteLevelBPETokenizer(lowercase=True)
 
-model_folder = "/content/models/model"
-tokenizer_folder = "/content/models/tokenizer"
-mono_pcm_file = "/content/mono_pcm_file.txt"
+model_folder = "/home/CE/musaeed/ROBERTA-EN-TRANS/Transformers/Pre_training_from_scratch/models/model"
+tokenizer_folder = "/home/CE/musaeed/ROBERTA-EN-TRANS/Transformers/Pre_training_from_scratch/models/tokenizer"
+mono_pcm_file = "/home/CE/musaeed/ROBERTA-EN-TRANS/Mono_lingual_data/pcm_entire_mono.txt"
+
+
+isExist = os.path.exists(model_folder)
+
+if not isExist:
+  
+  # Create a new directory because it does not exist 
+  os.makedirs(model_folder)
+  print("The new directory is created!")
+
+
+isExist = os.path.exists(tokenizer_folder)
+
+if not isExist:
+  
+  # Create a new directory because it does not exist 
+  os.makedirs(tokenizer_folder)
+  print("The new directory is created!")
+
+
+
 # Customize training
 tokenizer.train(files=paths, vocab_size=50_260, min_frequency=2,
                 show_progress=True,
@@ -38,43 +60,28 @@ config = RobertaConfig(
 model = RobertaForMaskedLM(config=config)
 print('Num parameters: ',model.num_parameters())
 
+
+
 from transformers import RobertaTokenizerFast
 # Create the tokenizer from a trained one
 MAX_LEN = 512
 tokenizer = RobertaTokenizerFast.from_pretrained(tokenizer_folder, max_len=MAX_LEN)
 
-from torch.utils.data import Dataset
-
-class CustomDataset(Dataset):
-    def __init__(self, df, tokenizer):
-        # or use the RobertaTokenizer from `transformers` directly.
-        self.examples = []
-        # For every value in the dataframe 
-        for example in df.values:
-            # 
-            x=tokenizer.encode_plus(example, max_length = MAX_LEN, truncation=True, padding=True)
-            self.examples += [x.input_ids]
-
-    def __len__(self):
-        return len(self.examples)
-
-    def __getitem__(self, i):
-        # We’ll pad at the batch level.
-        return torch.tensor(self.examples[i])
-      
 
 
 
-import pandas as pd
-train_df = pd.read_csv(mono_pcm_file, on_bad_lines='skip', header=None)
-test_df = pd.read_csv(mono_pcm_file, on_bad_lines='skip', header=None)
+from transformers import LineByLineTextDataset
 
+train_dataset = LineByLineTextDataset(
+    tokenizer=tokenizer,
+    file_path= mono_pcm_file,
+    block_size=64,
+)
+from transformers import DataCollatorForLanguageModeling
 
-
-# Create the train and evaluation dataset
-train_dataset = CustomDataset(train_df[0], tokenizer)
-eval_dataset = CustomDataset(test_df[0], tokenizer)
-
+data_collator = DataCollatorForLanguageModeling(
+    tokenizer=tokenizer, mlm=True, mlm_probability=0.15
+)
 
 from transformers import DataCollatorForLanguageModeling
 
@@ -90,7 +97,7 @@ from transformers import Trainer, TrainingArguments
 
 TRAIN_EPOCHS= 10
 VALID_BATCH_SIZE = 8
-TRAIN_BATCH_SIZE = 16
+TRAIN_BATCH_SIZE = 8
 WEIGHT_DECAY = 0.0
 LEARNING_RATE = 1e-3
 training_args = TrainingArguments(
@@ -101,9 +108,11 @@ training_args = TrainingArguments(
     learning_rate=LEARNING_RATE,
     weight_decay=WEIGHT_DECAY ,
     per_device_train_batch_size=TRAIN_BATCH_SIZE ,
-    per_device_eval_batch_size=VALID_BATCH_SIZE ,
     save_steps=8192,
     #eval_steps=4096,
+    # per_device_eval_batch_size=VALID_BATCH_SIZE ,
+    report_to="wandb",
+    run_name="RoBERTa scratch pre-training using Transfomers on PCM Data",
     save_total_limit=1,
 )
 # Create the trainer for our model
@@ -112,8 +121,9 @@ trainer = Trainer(
     args=training_args,
     data_collator=data_collator,
     train_dataset=train_dataset,
-    eval_dataset=eval_dataset,
+    # eval_dataset=eval_dataset,
     #prediction_loss_only=True,
+    
 )
 # Train the model
 trainer.train()
