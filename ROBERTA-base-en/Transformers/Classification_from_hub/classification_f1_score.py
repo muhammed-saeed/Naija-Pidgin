@@ -40,7 +40,7 @@ device = 'cuda' if cuda.is_available() else 'cpu'
 MAX_LEN = 200
 TRAIN_BATCH_SIZE = 8
 VALID_BATCH_SIZE = 4
-EPOCHS = 1
+EPOCHS = 10
 LEARNING_RATE = 1e-05
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
