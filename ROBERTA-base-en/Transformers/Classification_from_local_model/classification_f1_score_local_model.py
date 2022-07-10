@@ -8,6 +8,8 @@ from torch.nn.functional import one_hot
 from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampler
 from transformers import BertTokenizer, BertModel, BertConfig
 
+
+model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/pretraining_from_scratch_train_eval/checkpoint-32768"
 # Preparing for TPU usage
 # import torch_xla
 # import torch_xla.core.xla_model as xm
@@ -130,7 +132,7 @@ testing_loader = DataLoader(testing_set, **test_params)
 class RobertaClass(torch.nn.Module):
     def __init__(self):
         super(RobertaClass, self).__init__()
-        self.l1 = RobertaModel.from_pretrained("roberta-base")
+        self.l1 = RobertaModel.from_pretrained(model_path)
         self.pre_classifier = torch.nn.Linear(768, 768)
         self.dropout = torch.nn.Dropout(0.3)
         self.classifier = torch.nn.Linear(768, 3)
