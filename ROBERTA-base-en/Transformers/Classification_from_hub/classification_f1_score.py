@@ -45,7 +45,7 @@ TRAIN_BATCH_SIZE = 8
 VALID_BATCH_SIZE = 4
 EPOCHS = 10
 LEARNING_RATE = 1e-05
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 
 class CustomDataset(Dataset):
 
