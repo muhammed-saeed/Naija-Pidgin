@@ -1,6 +1,6 @@
 
 from transformers import RobertaTokenizer, RobertaForMaskedLM
-
+#don't know why using evaluaiton in the more pretraining results in worse results
 model_folder = "/home/VD/cychang/ironside_roberta/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/pretraining_from_scratch_train_eval/"
 mono_path = "/home/VD/cychang/ironside_roberta/ROBERTA-base-en/Mono_lingual_data/pcm_entire_mono.txt"
 tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
