@@ -14,10 +14,12 @@ for i in bible_pd_ov_dict:
 
 print(bible_pd_ov_dict)
 
+mono_ov = {}
 for i,j in enumerate(occurrences):
+    mono_ov[bible_pd_ov_dict[i]] = j
     print(f"{bible_pd_ov_dict[i]} occurred {j} times")
 print(f"the length of the occurance data is {len(bible_pd_ov_dict)}")
-
+print(mono_ov)
 
 
 
