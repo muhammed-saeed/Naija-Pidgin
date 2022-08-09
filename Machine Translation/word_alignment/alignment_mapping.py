@@ -44,8 +44,6 @@ with open(mapped_data_path, "w", encoding="utf-8") as fb:
 
 
 
-#this for debugging :::
-######
 # print(final_algin_data[:10])
 # print("$$$$$$$$$$$$$$$$$$$$$$")
 # print(final_mapped[:10])
