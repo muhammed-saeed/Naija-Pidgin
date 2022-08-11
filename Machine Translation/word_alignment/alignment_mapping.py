@@ -45,7 +45,7 @@ with open(mapped_data_path, "w", encoding="utf-8") as fb:
 
 
 # print(final_algin_data[:10])
-# print("$$$$$$$$$$$$$$$$$$$$$$")
+
 # print(final_mapped[:10])
 
 # final_align_str = str(final_algin_data[8].strip()).split(" ")
