@@ -32,8 +32,7 @@ for counter in range(len(final_algin_data)):
         src_word = src_addbegin_line[int(elements[0])]
         tgt_word = tgt_addbegin_line[int(elements[1])]
         mapped = src_word + "-" + tgt_word
-        # print("############################33")
-        # print(mapped)
+      
         final_mapped_line.append(mapped)
     final_mapped_line.append("\n")
     final_mapped.append(" ".join(final_mapped_line))
