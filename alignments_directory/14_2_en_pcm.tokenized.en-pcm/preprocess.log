@@ -1,0 +1,14 @@
+Namespace(aim_repo=None, aim_run_hash=None, align_suffix=None, alignfile=None, all_gather_list_size=16384, amp=False, amp_batch_retries=2, amp_init_scale=128, amp_scale_window=None, azureml_logging=False, bf16=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='/home/VD/cychang/ironside_nmt/JW300 with bible/en_pcm.tokenized.en-pcm', dict_only=False, empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_file=None, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, on_cpu_convert_precision=False, only_source=False, optimizer=None, padding_factor=8, plasma_path='/tmp/plasma', profile=False, quantization_config_path=None, reset_logging=False, scoring='bleu', seed=1, simul_type=None, source_lang='en', srcdict=None, suppress_crashes=False, target_lang='pcm', task='translation', tensorboard_logdir=None, testpref='/home/VD/cychang/ironside_nmt/JW300 with bible/test/test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='/home/VD/cychang/ironside_nmt/JW300 with bible/train/train', use_plasma_view=False, user_dir=None, validpref='/home/VD/cychang/ironside_nmt/JW300 with bible/val/val', wandb_project=None, workers=1)
+[en] Dictionary: 29560 types
+[en] /home/VD/cychang/ironside_nmt/JW300 with bible/train/train.en: 47755 sents, 1175272 tokens, 0.0% replaced (by <unk>)
+[en] Dictionary: 29560 types
+[en] /home/VD/cychang/ironside_nmt/JW300 with bible/val/val.en: 2200 sents, 54954 tokens, 1.01% replaced (by <unk>)
+[en] Dictionary: 29560 types
+[en] /home/VD/cychang/ironside_nmt/JW300 with bible/test/test.en: 2103 sents, 34850 tokens, 0.987% replaced (by <unk>)
+[pcm] Dictionary: 20384 types
+[pcm] /home/VD/cychang/ironside_nmt/JW300 with bible/train/train.pcm: 47755 sents, 1159388 tokens, 0.0% replaced (by <unk>)
+[pcm] Dictionary: 20384 types
+[pcm] /home/VD/cychang/ironside_nmt/JW300 with bible/val/val.pcm: 2200 sents, 53833 tokens, 0.84% replaced (by <unk>)
+[pcm] Dictionary: 20384 types
+[pcm] /home/VD/cychang/ironside_nmt/JW300 with bible/test/test.pcm: 2103 sents, 39937 tokens, 0.451% replaced (by <unk>)
+Wrote preprocessed data to /home/VD/cychang/ironside_nmt/JW300 with bible/en_pcm.tokenized.en-pcm
