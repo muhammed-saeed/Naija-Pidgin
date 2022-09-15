@@ -1,0 +1,2 @@
+cut -f1 "/home/VD/cychang/ironside_nmt/JW300_with_bible_joined_embeddings/bpe_dict_path/en__vocab_4000.vocab" | tail -n +4 | sed "s/$/ 100/g" > "/home/VD/cychang/ironside_nmt/JW300_with_bible_joined_embeddings/converted_dict_for_fairseq/fairseq.en.vocab"
+cut -f1 "/home/VD/cychang/ironside_nmt/JW300_with_bible_joined_embeddings/bpe_dict_path/pcm__vocab_4000.vocab" | tail -n +4 | sed "s/$/ 100/g" > "/home/VD/cychang/ironside_nmt/JW300_with_bible_joined_embeddings/converted_dict_for_fairseq/fairseq.pcm.vocab"
