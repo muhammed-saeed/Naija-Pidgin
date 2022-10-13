@@ -49,7 +49,7 @@ tree_en_unique_words = set(treebank_en_words)
 
 print(f"Bible English and PCM intersetion {(len(set(bible_en_unique_words).intersection(bible_pcm_unique_words)))/len(bible_en_unique_words)}")
 print(f"JW300 English to PCM intersetciotn {(len(set(jw300_en_unique_words).intersection(jw300_pcm_unique_words)))/len(jw300_en_unique_words)}")
-print(f"TreeBank English to PCM intersection {(len(set(tree_en_unique_words).intersection(tree_pcm_unique_words))/len(tree_en_unique_words)})")
+print(f"TreeBank English to PCM intersection {(len(set(tree_en_unique_words).intersection(tree_pcm_unique_words))/len(tree_en_unique_words))}")
 print("#####################################")
 print(f"Bible English and JW00 PCM intersetion {(len(set(bible_en_unique_words).intersection(jw300_pcm_unique_words)))/len(bible_en_unique_words)}")
 print(f"Bible English to Tree PCM intersetciotn {(len(set(bible_en_unique_words).intersection(tree_pcm_unique_words)))/len(bible_en_unique_words)}")
