@@ -14,7 +14,7 @@ model_args.max_length = 512
 model_args.length_penalty = 1
 model_args.num_beams = 10
 
-model_output_dir = ""
+model_output_dir = "/home/CE/musaeed/t5_translation/output_dir/checkpoint-4996-epoch-1"
 model = T5Model("mt5", model_output_dir, args=model_args)
 
 eval_df = pd.read_csv("/home/CE/musaeed/Naija-Pidgin/t5_translation/data/tsv/eval.tsv", sep="\t").astype(str)
