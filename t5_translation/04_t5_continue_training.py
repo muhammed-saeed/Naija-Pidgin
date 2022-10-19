@@ -34,7 +34,7 @@ model_args.n_gpu = 2
 model_args.output_dir = "/home/CE/musaeed/t5_translation/output_dir"
 
 model_args.wandb_project = "MT5 PCM-English Translation"
-model_output_dir = "/home/CE/musaeed/t5_translation/output_dir/firt_epoch"
+model_output_dir = "/home/CE/musaeed/t5_translation/firt_epoch"
 
 model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[3,2])
 

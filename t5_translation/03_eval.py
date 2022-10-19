@@ -1,3 +1,5 @@
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "3,2"
 import logging
 import sacrebleu
 import pandas as pd
@@ -15,7 +17,7 @@ model_args.length_penalty = 1
 model_args.num_beams = 10
 
 model_output_dir = "/home/CE/musaeed/t5_translation/output_dir/checkpoint-4996-epoch-1"
-model = T5Model("mt5", model_output_dir, args=model_args)
+model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[3,2])
 
 eval_df = pd.read_csv("/home/CE/musaeed/Naija-Pidgin/t5_translation/data/tsv/eval.tsv", sep="\t").astype(str)
 
