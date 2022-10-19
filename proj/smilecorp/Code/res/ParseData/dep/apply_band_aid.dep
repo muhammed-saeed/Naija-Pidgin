@@ -1,0 +1,611 @@
+dep(wash-1, cut-2)
+
+nn(aid-3, band-2)
+dobj(open-1, aid-3)
+
+nn(aid-3, band-2)
+dobj(place-1, aid-3)
+prep_over(place-1, cut-5)
+
+det(package-3, a-2)
+dobj(locate-1, package-3)
+nn(aids-6, band-5)
+prep_of(package-3, aids-6)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(remove-1, aid-4)
+det(package-7, the-6)
+prep_from(remove-1, package-7)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(remove-1, aid-4)
+poss(covering-8, its-6)
+amod(covering-8, protective-7)
+prep_from(remove-1, covering-8)
+
+prt(peel-1, off-2)
+det(backing-4, the-3)
+dobj(peel-1, backing-4)
+det(aid-8, the-6)
+nn(aid-8, band-7)
+prep_of(backing-4, aid-8)
+
+det(aid-4, the-2)
+nn(aid-4, band-3)
+dobj(apply-1, aid-4)
+det(skin-7, the-6)
+prep_to(apply-1, skin-7)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(open-1, aid-4)
+
+nn(aid-3, band-2)
+dobj(stick-1, aid-3)
+prep_to(stick-1, wound-5)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(find-1, aid-4)
+
+det(aid-4, the-2)
+nn(aid-4, band-3)
+dobj(open-1, aid-4)
+
+det(cut-3, the-2)
+dobj(find-1, cut-3)
+
+det(aid-4, the-2)
+nn(aid-4, band-3)
+dobj(put-1, aid-4)
+det(cut-7, the-6)
+prep_on(put-1, cut-7)
+
+prt(tear-1, off-2)
+det(paper-5, the-3)
+nn(paper-5, protection-4)
+dobj(tear-1, paper-5)
+
+det(aid-4, the-2)
+nn(aid-4, band-3)
+dobj(affix-1, aid-4)
+det(skin-7, the-6)
+prep_on(aid-4, skin-7)
+
+nn(aid-3, band-2)
+dobj(remove-1, aid-3)
+prep_from(remove-1, wrap-5)
+
+nn(aid-3, band-2)
+dobj(apply-1, aid-3)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(find-1, aid-4)
+
+nn(aid-3, band-2)
+dobj(remove-1, aid-3)
+prep_from(remove-1, packaging-5)
+
+amod(backing-3, non-stick-2)
+dobj(remove-1, backing-3)
+nn(aid-6, band-5)
+prep_from(remove-1, aid-6)
+
+nn(aid-3, band-2)
+dobj(press-1, aid-3)
+advmod(press-1, lightly-4)
+det(person-7, a-6)
+prep_onto(press-1, person-7)
+dobj(wound-9, person-7)
+nsubj(wound-9, s-8)
+rcmod(person-7, wound-9)
+
+det(injury-3, the-2)
+dobj(find-1, injury-3)
+
+det(aid-5, an-2)
+amod(aid-5, appropriate-3)
+nn(aid-5, band-4)
+dobj(select-1, aid-5)
+
+dobj(remove-1, wrapper-2)
+nn(aid-5, band-4)
+prep_from(remove-1, aid-5)
+
+dobj(remove-1, cover-2)
+nn(adhesives-6, band-4)
+nn(adhesives-6, aid-5)
+prep_for(remove-1, adhesives-6)
+
+nn(aid-3, band-2)
+dobj(press-1, aid-3)
+det(injury-6, the-5)
+prep_against(press-1, injury-6)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(take-1, aid-4)
+det(box-8, the-7)
+prep_out_of(take-1, box-8)
+
+det(aid-4, the-2)
+nn(aid-4, band-3)
+dobj(unpack-1, aid-4)
+
+det(strips-4, the-2)
+amod(strips-4, white-3)
+dobj(take-1, strips-4)
+det(aid-8, the-6)
+nn(aid-8, band-7)
+prep_off(take-1, aid-8)
+parataxis(take-1, making-10)
+acomp(making-10, sure-11)
+neg(touch-14, not-12)
+aux(touch-14, to-13)
+dep(sure-11, touch-14)
+det(part-16, the-15)
+dobj(touch-14, part-16)
+nsubj(touch-19, part-16)
+aux(touch-19, will-18)
+rcmod(part-16, touch-19)
+det(wound-21, the-20)
+dobj(touch-19, wound-21)
+
+nn(aid-3, band-2)
+dobj(put-1, aid-3)
+det(wound-6, the-5)
+prep_on(put-1, wound-6)
+
+nn(aid-3, band-2)
+dobj(get-1, aid-3)
+
+dobj(remove-1, cover-2)
+
+nn(aid-3, band-2)
+dobj(place-1, aid-3)
+prep_on(place-1, wound-5)
+
+nn(aid-3, band-2)
+dobj(press-1, aid-3)
+aux(attach-5, to-4)
+infmod(aid-3, attach-5)
+prep_to(attach-5, skin-7)
+
+det(wound-3, the-2)
+dobj(inspect-1, wound-3)
+
+det(wound-3, the-2)
+dobj(clean-1, wound-3)
+
+det(package-4, the-2)
+amod(package-4, bandaid-3)
+dobj(open-1, package-4)
+
+det(bandaid-3, the-2)
+dobj(place-1, bandaid-3)
+det(wound-6, the-5)
+prep_on(place-1, wound-6)
+
+prt(throw-1, away-2)
+det(packaging-4, the-3)
+dobj(throw-1, packaging-4)
+
+amod(area-3, affected-2)
+dobj(clean-1, area-3)
+
+nn(aid-3, band-2)
+dobj(get-1, aid-3)
+
+nn(packaging-4, band-2)
+nn(packaging-4, aid-3)
+dobj(remove-1, packaging-4)
+
+nn(aid-4, band-3)
+prep_on(put-1, aid-4)
+advmod(covers-8, so-5)
+dep(covers-8, that-6)
+nsubj(covers-8, it-7)
+ccomp(put-1, covers-8)
+amod(area-10, affected-9)
+dobj(covers-8, area-10)
+
+dobj(get-1, plasters-2)
+
+dobj(clean-1, wound-2)
+
+prep_on(put-1, plaster-3)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(locate-1, aid-4)
+
+det(location-3, the-2)
+dobj(locate-1, location-3)
+det(aid-7, the-5)
+nn(aid-7, band-6)
+prep_for(location-3, aid-7)
+aux(placed-10, to-8)
+auxpass(placed-10, be-9)
+infmod(aid-7, placed-10)
+
+amod(paper-3, protective-2)
+dobj(remove-1, paper-3)
+prep_from(remove-1, back-5)
+nn(aid-8, band-7)
+prep_of(back-5, aid-8)
+
+dobj(apply-1, adhesive-2)
+nn(aid-5, band-4)
+prep_of(adhesive-2, aid-5)
+prep_to(apply-1, skin-7)
+
+det(kit-5, the-3)
+nn(kit-5, aid-4)
+prep_to(go-1, kit-5)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(pick-1, aid-4)
+
+dobj(choose-1, place-2)
+aux(put-4, to-3)
+infmod(place-2, put-4)
+dobj(put-4, it-5)
+
+det(aid-4, the-2)
+nn(aid-4, band-3)
+dobj(apply-1, aid-4)
+
+acomp(aquire-1, band-aid-2)
+
+dobj(locate-1, wound-2)
+
+amod(strips-3, adhesive-2)
+dobj(remove-1, strips-3)
+
+nsubj(band-aid-2, press-1)
+prep_on(band-aid-2, wound-4)
+
+nn(aid-3, band-2)
+dobj(locate-1, aid-3)
+
+dobj(remove-1, packaging-2)
+nn(aid-5, band-4)
+prep_around(remove-1, aid-5)
+
+nn(aid-3, band-2)
+dobj(place-1, aid-3)
+prep_over(place-1, wound-5)
+
+dobj(apply-1, pressure-2)
+aux(band-4, to-3)
+xcomp(apply-1, band-4)
+dobj(band-4, aid-5)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(buy-1, aid-4)
+
+dobj(take-1, it-2)
+det(cover-6, the-5)
+prep_out_of(take-1, cover-6)
+
+det(strips-3, the-2)
+dobj(peel-1, strips-3)
+partmod(strips-3, covering-4)
+det(portion-7, the-5)
+amod(portion-7, adhesive-6)
+dobj(covering-4, portion-7)
+
+dobj(put-1, it-2)
+det(wound-5, the-4)
+prep_on(put-1, wound-5)
+
+amod(wrapper-3, bandaid-2)
+dobj(remove-1, wrapper-3)
+
+amod(strips-3, adhesive-2)
+dobj(remove-1, strips-3)
+
+dep(apply-1, bandaid-2)
+prep_to(bandaid-2, wound-4)
+
+prep_over(cry-1, injury-3)
+
+amod(medicines-3, antibacterial-2)
+dobj(find-1, medicines-3)
+
+dobj(apply-1, medicines-2)
+
+dobj(discern-1, need-2)
+aux(cover-4, to-3)
+infmod(need-2, cover-4)
+dobj(cover-4, wound-5)
+
+dobj(find-1, bandaids-2)
+
+dep(remove-1, bandaid-2)
+prep_from(bandaid-2, packet-4)
+
+dep(apply-1, bandaid-2)
+
+amod(package-3, open-2)
+dobj(rip-1, package-3)
+
+prt(peel-1, off-2)
+amod(paper-4, adhesive-3)
+dobj(peel-1, paper-4)
+
+nn(aid-3, band-2)
+dobj(apply-1, aid-3)
+
+amod(wrapper-3, protective-2)
+dobj(remove-1, wrapper-3)
+
+amod(plastic-3, protective-2)
+dobj(remove-1, plastic-3)
+
+nn(aid-3, band-2)
+dobj(apply-1, aid-3)
+
+dobj(clean-1, wound-2)
+
+dobj(dry-1, wound-2)
+
+nn(aid-3, band-2)
+dobj(unwrap-1, aid-3)
+
+prep_on(place-1, wound-3)
+
+nn(aid-3, band-2)
+dobj(take-1, aid-3)
+prep_from(take-1, wrapper-5)
+
+nn(aid-3, band-2)
+dobj(place-1, aid-3)
+prep_on(place-1, wound-5)
+
+nn(aid-3, band-2)
+dobj(taking-1, aid-3)
+prep_from(taking-1, box-5)
+
+dobj(cleaning-1, the-2)
+aux(cleaning-1, are-3)
+nsubj(cleaning-1, you-4)
+dep(cleaning-1, put-5)
+det(bandaid-7, the-6)
+dobj(put-5, bandaid-7)
+
+dobj(taking-1, wraper-2)
+prep(wraper-2, of-3)
+pobj(of-3, of-4)
+pobj(of-4, bandaid-5)
+
+dep(want-5, apply-1)
+prep_to(apply-1, area-3)
+nsubj(want-5, you-4)
+dobj(want-5, it-6)
+
+dobj(find-1, wound-2)
+
+prt(wash-1, out-2)
+det(wound-4, the-3)
+dobj(wash-1, wound-4)
+conj_and(wash-1, dry-6)
+dobj(dry-6, it-7)
+
+cc(wipe-2, or-1)
+prep_with(wipe-2, alcohol-4)
+
+dep(unwrap-1, bandaid-2)
+
+dobj(remove-1, flaps-2)
+
+amod(part-3, gauzy-2)
+dobj(place-1, part-3)
+prep_over(place-1, wound-5)
+
+nsubj(press-2, gently-1)
+amod(part-4, sticky-3)
+dobj(press-2, part-4)
+aux(hold-6, to-5)
+xcomp(press-2, hold-6)
+nn(aid-8, band-7)
+dobj(hold-6, aid-8)
+prep_in(hold-6, place-10)
+
+nn(box-4, band-2)
+nn(box-4, aid-3)
+dobj(open-1, box-4)
+
+nn(aid-3, band-2)
+dobj(remove-1, aid-3)
+
+dobj(take-1, wrapper-2)
+nn(aid-5, band-4)
+prep_off(take-1, aid-5)
+
+dobj(remove-1, strips-2)
+amod(part-5, sticky-4)
+prep_on(strips-2, part-5)
+
+nn(aid-3, band-2)
+dobj(place-1, aid-3)
+prep_on(place-1, wound-5)
+
+det(wound-3, the-2)
+dobj(clean-1, wound-3)
+
+det(paper-4, the-2)
+amod(paper-4, wax-3)
+dobj(take-1, paper-4)
+num(side-7, one-6)
+prep_on(take-1, side-7)
+advmod(take-1, off-8)
+
+det(piece-3, the-2)
+dobj(place-1, piece-3)
+prep_of(piece-3, fabric-5)
+det(aid-9, the-7)
+nn(aid-9, band-8)
+prep_from(place-1, aid-9)
+det(wound-12, the-11)
+prep_over(place-1, wound-12)
+conj_and(place-1, stick-14)
+det(side-18, the-15)
+dep(side-18, one-16)
+dep(one-16, revealed-17)
+dobj(stick-14, side-18)
+prt(stick-14, down-19)
+
+prt(take-1, off-2)
+amod(paper-4, wax-3)
+dobj(take-1, paper-4)
+det(side-8, the-6)
+amod(side-8, other-7)
+prep_on(take-1, side-8)
+advmod(take-1, off-9)
+
+nn(aid-3, ban-2)
+dobj(stick-1, aid-3)
+prt(stick-1, down-4)
+
+dobj(clean-1, area-2)
+advmod(applied-7, where-3)
+rel(applied-7, where-3)
+nsubjpass(applied-7, bandaid-4)
+aux(applied-7, will-5)
+auxpass(applied-7, be-6)
+rcmod(area-2, applied-7)
+
+det(area-3, the-2)
+dobj(dry-1, area-3)
+
+nn(package-3, bandage-2)
+dobj(open-1, package-3)
+
+dobj(take-1, plastic-2)
+amod(tabs-5, sticky-4)
+prep_off(take-1, tabs-5)
+
+dobj(place-1, bandage-2)
+prep_over(place-1, cut-4)
+prep_over(place-1, press-6)
+conj_and(cut-4, press-6)
+prep_onto(place-1, skin-8)
+
+nn(aid-3, band-2)
+dobj(remove-1, aid-3)
+prep_from(remove-1, package-5)
+
+dobj(wash-1, wound-2)
+
+dobj(apply-1, disinfectant-2)
+
+dobj(open-1, bandaid-2)
+
+dobj(pull-1, paper-2)
+prep_of(paper-2, tape-4)
+
+aux(finger-3, to-2)
+xcomp(apply-1, finger-3)
+det(part-7, the-5)
+nn(part-7, cotton-6)
+prep_with(finger-3, part-7)
+det(wound-10, the-9)
+prep_over(part-7, wound-10)
+
+amod(aid-4, open-2)
+nn(aid-4, band-3)
+dobj(peel-1, aid-4)
+
+nsubj(place-2, gently-1)
+advmod(place-2, over-3)
+dep(place-2, cut-4)
+
+dobj(apply-1, pressure-2)
+aux(make-4, to-3)
+xcomp(apply-1, make-4)
+acomp(make-4, sure-5)
+dep(stuck-8, bandaid-6)
+auxpass(stuck-8, is-7)
+dep(sure-5, stuck-8)
+prep_onto(stuck-8, skin-10)
+
+dobj(clean-1, wound-2)
+
+dobj(dry-1, wound-2)
+
+nn(aid-3, band-2)
+dobj(get-1, aid-3)
+
+nn(aid-3, band-2)
+dobj(open-1, aid-3)
+
+nn(aid-3, band-2)
+dobj(put-1, aid-3)
+prep_on(put-1, wound-5)
+
+det(wound-3, the-2)
+dobj(rinse-1, wound-3)
+
+det(wound-3, the-2)
+dobj(clean-1, wound-3)
+nn(swab-6, alcohol-5)
+prep_with(clean-1, swab-6)
+
+det(bandaid-5, a-2)
+amod(bandaid-5, proper-3)
+nn(bandaid-5, size-4)
+dobj(find-1, bandaid-5)
+
+amod(wrapper-3, bandaid-2)
+dobj(open-1, wrapper-3)
+
+dep(apply-1, bandaid-2)
+
+prt(press-1, down-2)
+
+dobj(keep-1, bandaid-2)
+dep(keep-1, dry-3)
+
+dep(clean-1, cut-2)
+
+auxpass(banaid-2, get-1)
+
+dobj(open-1, bandaid-2)
+
+dep(put-1, bandaid-2)
+prep_on(bandaid-2, cut-4)
+
+det(bandaid-3, a-2)
+dobj(find-1, bandaid-3)
+
+amod(size-3, correct-2)
+dobj(get-1, size-3)
+
+prep_to(apply-1, area-3)
+
+dobj(clean-1, wound-2)
+
+auxpass(bandaid-2, get-1)
+
+dobj(open-1, wrapper-2)
+
+dobj(open-1, bandaid-2)
+
+dep(put-1, bandaid-2)
+prep_on(bandaid-2, cut-4)
+
+dep(remove-1, bandaid-2)
+prep_from(bandaid-2, box-4)
+
+dobj(open-1, wrapper-2)
+
+nn(aid-3, band-2)
+dobj(place-1, aid-3)
+prep_on(place-1, wound-5)
+

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0007157" url="http://www.ajcn.org/content/91/3/771.full" time="2012-07-13-00:08" support="1" score="0.000584378730298263" bingtitle="Interactive effects of reward sensitivity and residential fast ..." webtitle="Interactive effects of reward sensitivity and residential fast-food restaurant exposure on fast-food consumption">
+			<query id="001013" bing-rank="241"/>
+	<description>Fast-food restaurant exposure was operationalized as the number of fast-food ... are reported in Table 2 (model 1). The association between fast-food restaurant ...</description>
+	<body>
+		The American Journal of Clinical Nutrition
+ 
+ Skip to main page content 
+
+ HOME CURRENT ISSUE EMAIL ALERTS ARCHIVES SUBSCRIPTIONS SEARCH FOR ARTICLES 
+
+ CUSTOM PUBLICATION FAQ 
+ Search AJCN Submit Advanced Search 
+ 
+ 
+ 
+ 
+ © 2010 American Society for Nutrition 
+
+Interactive effects of reward sensitivity and residential fast-food restaurant exposure on fast-food consumption 1 , 2 , 3 
+ 
+ Catherine Paquet , Mark Daniel , Bärbel Knäuper , Lise Gauvin , Yan Kestens , and Laurette Dubé 
+
+ 1 From the School of Health Sciences University of South Australia Adelaide Australia (CPMD); the Department of Medicine St
+ Vincent&apos;s Hospital The University of Melbourne Melbourne Australia (MD); the Psychology Department McGill University Montreal
+ Canada (BK); the Département de Medecine Sociale et Préventive Université de Montréal Montreal Canada; Centre de Recherche
+ du Centre Hospitalier de l&apos;Université de Montréal Montreal Canada (LGYK); the Direction de Santé Publique de Montréal Montreal
+ Canada (YK);the Faculty of Management McGill University Montreal Canada (LD). 
+
+ 
+ ↵ 2 Data collection was provided in equal parts through the Canada Research Chairs program and the Canada Foundation for Innovation
+ (grant 201252; MD), Canadian Institutes of Health Research (grant 200203 MOP 57805; to LG), and Fonds de la Recherche en Santé
+ du Québec (team grant 8394; to LD). CP was supported by a postdoctoral fellowship from the Fonds de la Recherche en Santé
+ du Québec; MD was supported by a Canada Research Chair for Biopsychosocial Pathways in Population Health, awarded by the Canadian
+ Institutes of Health Research; and YK was supported by a postdoctoral fellowship from the Heart and Stroke Foundation of Canada.
+ LG holds a Canadian Institutes for Health Research/Centre de Recherche en Prevention de l&apos;Obésité Chair in Applied Public
+ Health Chair on Neighbourhoods, Lifestyle, and Healthy Body Weight. LD holds the James McGill Chair in Consumer and Lifestyle
+ Psychology and Marketing. MD holds a Research Chair for Social Epidemiology at the University of South Australia.
+ 
+ ↵ 3 Address correspondence to C Paquet, School of Health Sciences, University of South Australia, City East Campus, GPO Box 2471,
+ Adelaide, South Australia 5001, Australia. E-mail: catherine.paquet{at}unisa.edu.au .
+ 
+ Next Section 
+Abstract
+
+ Background: Local fast-food environments have been increasingly linked to obesity and related outcomes. Individuals who are more sensitive
+ to reward-related cues might be more responsive to such environments.
+
+ Objective: This study aimed to assess the moderating role of sensitivity to reward on the relation between residential fast-food restaurant
+ exposure and fast-food consumption.
+
+ Design: Four hundred fifteen individuals (49.6% men; mean age: 34.7 y) were sampled from 7 Montreal census tracts stratified by socioeconomic
+ status and French/English language. The frequency of fast-food restaurant visits in the previous week was self-reported. Sensitivity
+ to reward was self-reported by using the Behavioral Activation System (BAS) scale. Fast-food restaurant exposure within 500
+ m of the participants&apos; residence was determined by using a Geographic Information System. Main and interactive effects of
+ the BAS and fast-food restaurant exposure on fast-food consumption were tested with logistic regression models that accounted
+ for clustering of observations and participants&apos; age, sex, education, and household income.
+
+ Results: Regression results showed a significant interaction between BAS and fast-food restaurant exposure ( P &lt;0.001). Analysis of BAS tertiles indicated that the association between neighborhood fast-food restaurant exposure and
+ consumption was positive for the highest tertile (odds ratio: 1.49; 95% CI: 1.20, 1.84; P &lt;0.001) but null for the intermediate (odds ratio: 1.03; 95% CI: 0.80, 1.34; P = 0.81) and lowest (odds ratio: 0.84; 95% CI: 0.51, 1.37; P = 0.49) tertiles.
+
+ Conclusion: Reward-sensitive individuals may be more responsive to unhealthful cues in their immediate environment.
+ Previous Section Next Section 
+INTRODUCTION
+
+Cues associated with palatable food are strong drivers of food consumption, even beyond homeostatic needs ( 1 ). The preponderance of such cues in our modern environment is considered to be a major contributor to the current obesity
+ epidemic. However, not all individuals exposed to obesogenic environments will necessarily become obese. Various factors might
+ influence individual responsiveness to environmental food cues. The need to identify such differences for explaining variations
+ in individual resistance and susceptibility to weight gain ( 2 ) and obesity ( 3 ) is increasingly recognized. In addition, understanding for whom or under what circumstances the food environment is more
+ likely to lead to overconsumption might assist the development and implementation of tailored environmental interventions
+ to fight obesity.
+
+Recent advances in neuroscience could help in identifying individual characteristics that capture a propensity to respond
+ to palatable food cues. Palatable foods such as those high in sugar and fat are highly reinforcing. The reinforcing effect
+ of food is tied to reward brain pathways ( 4 , 5 ), mediated in part by the dopaminergic systems ( 6 , 7 ). Cues associated with palatable foods are known to activate such systems ( 4 , 5 , 8 ) and, in turn, to promote food intake ( 7 ). Important individual differences have been reported in these neural responses to food cues ( 9 ), thus highlighting potential individual variations in sensitivity to the reward properties of food.
+
+Individual differences in responsiveness to incentive-related environmental cues are supported by studies measuring trait
+ reward sensitivity using, for example, the Behavioral Activation System (BAS) scale. Measures of BAS have been shown to covary
+ with differences in neural responses to food cues ( 9 ) and reflect a tendency for individuals to experience positive affect in response to incentives or appetitive stimuli and
+ to engage in approach behaviors to attain these stimuli. Reward sensitivity has been positively associated with caloric consumption
+ ( 10 , 11 ), preference for sweet/fat food ( 10 ), obesity, and dysfunctional eating ( 12 , 13 ). It was also found to discriminate individual responses when exposed to either rewarding (ie, varied) or monotonous food
+ in a laboratory setting ( 14 ), which suggests that, in this study, reward sensitivity moderated responses to the manipulated food environment.
+
+On the basis of this previous research, it was proposed that individual differences in reward sensitivity should be evaluated
+ to understand variations in the influence of palatable food cues on health behaviors and related outcomes in the current obesogenic
+ environment. The main effect of the accessibility or availability of fast-food restaurants (as measures of exposure to palatable
+ but unhealthful food cues) on diet quality and obesity-related outcomes has been the object of many studies. Such studies
+ have provided mixed support for a significant association. For instance, some studies have shown that a lower access to fast-food
+ restaurants is associated with healthier diets and lower rates of obesity ( 15 – 17 ), whereas others ( 18 – 22 ) failed to support such relations. Limited research has addressed individual factors that could explain variations in the
+ association between obesogenic environmental cues, such as cues potentially triggering intake of high-sugar and/or high-fat
+ foods, and health outcomes. In particular, there is a need for population-based studies that evaluate the moderating role
+ of psychological factors, such as reward sensitivity. This study sought to assess in a representative sample of urban-dwelling
+ residents the moderating role of sensitivity to reward measured with the BAS scale on the association between residential
+ exposure to fast-food restaurants, which are known to present extensive cues for high-fat, high-sugar foods ( 23 ), and fast-food consumption.
+ Previous Section Next Section 
+SUBJECTS AND METHODS
+ 
+Context
+
+This study derives from the Montreal Neighborhood Survey of Lifestyle and Health, which was designed to collect behavioral,
+ psychosocial, and biological markers of health status and to integrate these into a Geographic Information System ( 24 ). The study used a stratified cluster sampling, where Montreal Island census tracts ( n = 521) were stratified into tertiles of socioeconomic status (SES) based on census income and education data ( 25 ). Using 2001 Canada Census data, for each SES tertile, one dominantly French-speaking and one dominantly English-speaking
+ census tract were randomly selected to represent both official Canadian languages. The resulting 6 census tracts were subsequently
+ complemented with an additional medium-SES French tract to augment sample size.
+
+Recruiters delivered informational material to noncommercial addresses within each census tract. Recruiters visited addresses
+ 48–72 h after the delivery of material to inquire about willingness to participate in the study. Contact could not be established
+ with residents of ≈40% of addresses. Of those reached and eligible, ≈15% agreed to participate. Inclusion criteria were as
+ follows: aged between 18 and 55 y, no diagnosis of cardiovascular or metabolic disease, and ability to read French or English.
+ A total of 415 individuals participated in the study. For the present study, complete data were obtained for 404 participants
+ (7 individuals were excluded because of missing BAS measures and 4 because of missing age values).
+ 
+Data collection
+
+Participants completed a questionnaire on health behaviors and psychosocial factors relevant to cardiovascular health by telephone,
+ Internet, or hard copy mailers. Data were collected from March 2006 to April 2007. The participants&apos; addresses were geocoded
+ and integrated into a Geographic Information System ( 24 ) containing, among other databases, census data ( 25 ) and a comprehensive inventory of businesses and services ( 26 ) located within the Montreal Census Metropolitan Area (CMA) in 2005. The study was conducted in accordance with the ethical
+ standards stated in the Canadian Tri-Council Policy Statement and were approved by the ethics committee of the Centre de Recherche
+ du Centre Hospitalier de l&apos;Université de Montréal.
+ 
+Measures
+
+Fast-food consumption was measured by using a 4-point scale, where individuals reported the number of times they had visited
+ a fast-food restaurant in their neighborhood in the previous 7 d (0, 1–2, 3–4, or ≥5 times). Neighborhood was not a priori
+ defined to allow participants to use their own definition of neighborhood. Given the high percentage of participants who had
+ not been to a fast-food restaurant in that period (71%), responses were dichotomized in terms of one or more visits or no
+ visits.
+
+Reward sensitivity was measured by using the BAS component (thirteen 5-point items) of the Behavioral Inhibition System/BAS
+ scales developed by Carver and White ( 27 ), a well-established measure that taps individual differences in the BAS ( 27 ). Items on the BAS scale pertain to persistence at pursuing goals, seeking new and pleasing stimuli, and anticipation of
+ rewarding event. The scale includes items such as “When I see an opportunity for something I like, I get excited right away,”
+ “When I want something, I usually go ‘all-out’ to get it,” and “I will often do things for no reason other than that they
+ might be fun.” The convergence and discriminant validity as well as the internal consistency of the scale have been demonstrated
+ ( 27 , 28 ). Items were summed to obtain an overall BAS score (scale: 0–65) for which the predictive ability in the domain of food was
+ previously shown ( 10 ). Internal consistency among items was determined for the present study and was found adequate (Cronbach&apos;s α = 0.81).
+
+Fast-food restaurant exposure was operationalized as the number of fast-food restaurants located within 500 m of the participants&apos;
+ residence. Restaurants were extracted by using Standard Industry Classification codes from a commercial database ( 26 ) containing a comprehensive inventory of businesses and services located within the Montreal CMA in 2005. All businesses
+ and services were geocoded by using GeoPinPoint software (version 6.4; DMTI Spatial Inc, Markham, Canada) either at the address
+ (82%) or the 6-digit postal code (18%) level. Six-digit Canadian postal codes pertain to one side of one street section. A
+ validation study of this commercial database in the Montreal CMA showed that it was valid in terms of the likelihood that
+ a listed establishment was present in the field (positive predictive value = 0.90) and that a food establishment present in
+ the field was correctly listed in the database (sensitivity = 0.84) ( 29 ). Restaurants were coded as fast-food or non–fast-food by a rater with extensive knowledge of the Montreal restaurant industry.
+ Fast-food restaurants were defined as any chain or nonchain restaurant offering rapidly prepared and served, primarily high-caloric
+ food, for home or out-of-home consumption and were coded based on restaurant names only ( 30 ). Intrarater reliability was 90.2% when fast-food restaurants were recoded again, 3 mo later. Interrater reliability for
+ classifications of fast-food restaurants by the same coder was also high (κ = 0.73) when previously assessed for the 2003
+ version of the database ( 30 ).
+
+Covariates included the participants&apos; age, sex, education, and household income. In a secondary analysis, we also accounted
+ for area-level SES, given its reported inverse relation with the density of fast-food outlets ( 30 – 36 ). The participants self-reported their date of birth, educational attainment (9 categories), and household income (9 categories).
+ Educational attainment was operationalized as being a university graduate or not and household income as low [&lt;20,000 Canadian
+ dollars (CAD)], medium (CAD 20,000-50,000), or high (more than CAD 50,000). We also accounted for the socioeconomic background
+ within the participants&apos; immediate residential environment by considering the proportion of households spending ≥20% on food,
+ shelter, and clothing than the average of households of similar size, region, and resident density ( 25 ). This variable was obtained at the census tract level by using 2001 census data and defined for a buffer zone of 500-m radii
+ centered on the participant&apos;s residence by using the weighted average of values from any adjacent census tracts, with weights
+ being defined by the proportion of the area of the buffer represented by each census tract.
+ 
+Statistical analysis
+
+Logistic regression analyses were conducted to test the main and interactive effects of BAS and fast-food restaurant exposure
+ on fast-food consumption, with adjustment for age, sex, individual-level education and income, and residential SES (secondary
+ analysis). Generalized estimating equations estimators were used to account for the clustering of observations within census
+ tracts. All analyses were conducted by using SAS version 9.1.3 (SAS Institute, Cary, NC). Continuous predictors were standardized.
+ Statistical significance was set at α = 0.05.
+ Previous Section Next Section 
+RESULTS
+
+Characteristics of the sample analyzed appear in Table 1 . Two-sided exact binomial probability tests comparing characteristics of participants with Canada Census data (2001) for
+ each selected census tract showed a greater proportion of participants holding a bachelor&apos;s degree than the general population
+ of Montreal. In 3 census tracts, greater proportions of married and households with income greater than CAD 100,000 participants
+ were found. One hundred eighteen participants had visited a fast-food restaurant in their neighborhood in the previous week.
+ Results from the generalized estimating equations logistic regression analysis are reported in Table 2 (model 1). The association between fast-food restaurant exposure and fast-food consumption was not statistically significant,
+ whereas the BAS was positively associated with fast-food consumption. The BAS interacted significantly with fast-food restaurant
+ exposure, with the positive association between fast-food restaurant exposure and fast-food consumption being stronger among
+ persons with higher BAS scores. None of the covariates were statistically significant in relation to fast-food consumption.
+ View this table: 
+ In this window In a new window 
+ TABLE 1 
+Descriptive information for participants in the Montreal Neighborhood Survey of Lifestyle and Health: 2006–2007 ( n = 404)
+ View this table: 
+ In this window In a new window 
+ TABLE 2 
+Logistic regression results for the associations between fast-food consumption, Behavioral Activation System (BAS) scale,
+ and fast-food restaurant exposure (main and interactive effects) accounting for covariates among participants in the Montreal
+ Neighborhood Survey of Lifestyle and Health ( n = 404)
+ 
+To explore the nature of the interaction between BAS and fast-food restaurant exposure, we estimated the association between
+ fast-food restaurant exposure and fast-food consumption for different levels of BAS. To do so, the sample was divided into
+ tertiles of BAS. Compared with individuals in the first 2 tertiles, individuals in the highest BAS tertile were younger [aged
+ 33.0 (high BAS) compared with 35.6 (low-intermediate BAS) y; P = 0.01] and were less likely to be male [40.0% (high BAS) compared with 53.8% (low-intermediate BAS); P = 0.02] and to have a university degree [39.1% (high BAS) compared with 50.6% (low-intermediate BAS); P = 0.04] and a high income [&gt;$50,000; 22.6% (high BAS) compared with 35.2% (low-intermediate BAS); P = 0.02]. Results from analyses performed for each BAS tertile are illustrated in Figure 1 , where the predicted log odds of having consumed fast-food in the past 7 d is plotted for different values of fast-food restaurant
+ exposure (mean and 1 SD above and 1 SD below the mean) for all 3 tertiles of BAS. As illustrated, the association between
+ neighborhood fast-food restaurant exposure and consumption was positive for the highest tertile (odds ratio: 1.49; 95% CI:
+ 1.20, 1.84; P &lt;0.001), but null for the intermediate (odds ratio: 1.03; 95% CI: 0.80, 1.34; P = 0.81) and lowest (odds ratio: 0.84; 95% CI: 0.51, 1.37; P = 0.49) tertiles. For high-BAS individuals, an increase of 1 SD in fast-food restaurants was associated with a 49% greater
+ likelihood of having visited a fast-food restaurant in the previous week.
+ View larger version: 
+ In this window In a new window 
+
+ Download as PowerPoint Slide 
+ FIGURE 1 
+Predicted log odds ratios (ORs) of having visited a local fast-food restaurant at low (1 SD below the mean), intermediate
+ (mean), and high (1 SD above the mean) levels of fast-food restaurant exposure for tertiles of the Behavioral Activation System
+ (BAS) scale from logistic regression analyses with values estimated for average-aged, middle-income men with a university
+ education.
+ 
+A secondary analysis was conducted on the basis of evidence that fast-food restaurants are more commonly found in deprived
+ neighborhoods than in affluent neighborhoods ( 31 , 33 , 35 , 36 ). Hence, our results might not be specific to fast-food restaurant exposure, but rather to the socioeconomic characteristics
+ of the participants&apos; immediate environment. To rule out this alternate explanation, we repeated the logistic regression analysis
+ testing the main and interactive effects of BAS and fast-food restaurant exposure in association with fast-food consumption
+ while accounting for the proportion of individuals under a low-income cutoff within 500 m of the participants&apos; residence ( Table 2 , model 2). The main effect of BAS and its interaction with fast-food restaurant exposure remained statistically significant.
+ The proportion of low-income individuals living in proximity to participants was not statistically significantly associated
+ with fast-food consumption.
+ Previous Section Next Section 
+DISCUSSION
+
+The results of the present study indicate that the association between exposure to fast-food restaurants and fast-food consumption
+ varies with an individual&apos;s predisposition to engage in rewarding behaviors. This study provides initial evidence for the
+ moderating influence of reward sensitivity in a natural setting with a population-based sample. The results echo laboratory
+ findings showing that a palatability manipulation was found to be effective only in participants who were highly sensitive
+ to reward ( 14 ). The present study extends previous laboratory work by showing that such associations hold in a real-world setting.
+
+Significant research efforts are underway to evaluate the importance of the food environment in shaping dietary behaviors
+ that contribute to current obesity rates. The available evidence is mixed. Hence, there is a need for more refined hypotheses
+ to evaluate under what circumstances or for whom environmental factors may influence energy balance-related behaviors ( 37 – 39 ) and obesity-related outcomes ( 40 ). Despite the recognition that individual factors are likely to play a role in moderating environmental influences on health
+ and health behaviors, studies explicitly focusing on this issue have been scarce. Research investigating individual-level
+ moderators of the association between the fast-food environment and health behaviors and outcomes have focused mainly on individual
+ or area-level sociodemographic factors such as age, sex, education, income, and ethnicity ( 15 , 18 , 19 , 21 , 22 ). In these studies, none of these sociodemographic factors were found to statistically moderate the association between exposure
+ to fast-food restaurant and behavioral/obesity outcomes.
+
+Moving beyond sociodemographic moderating factors, the present study assessed and provides evidence for the moderating influence
+ of psychological factors on the relation between the food environment and health-related behavior. Future studies are needed
+ to explore the moderating role of other psychological constructs. Of particular relevance in the current obesogenic context
+ is the ability of individuals to execute control over their impulses. Beyond the homeostatic regulation of eating, 2 brain
+ systems appear to be important in the regulation of eating behavior. The present study examined one of these systems, namely
+ the striatal-dopaminergic reward brain system, which underlies responsiveness to incentive-related environmental cues. The
+ second system represents the cognitive processes involving the prefrontal cortex, which can inhibit cue-induced responses
+ when these have negative consequences ( 41 , 42 ). Future research is needed to assess whether or not individual differences in inhibitory processes could also explain which
+ individuals are more likely to respond to the current obesogenic food environment. Studies could also evaluate the moderating
+ role of food-specific reward sensitivity as assessed by the newly developed power of food scale ( 43 ), which was developed specifically to represent individual differences in the psychological effect of living in food-abundant
+ environments.
+
+By identifying individual factors contributing to susceptibility to environmental influences, this study is relevant to 1 ) determining priorities for implementing environmental interventions by prioritizing groups of individuals who would be most
+ likely to benefit from such interventions, and 2 ) developing broadly-based public health mass media campaigns addressing both factors predisposing (eg, sensitivity to reward)
+ and reinforcing (eg, fast-food exposure) unhealthful diets as well as their combined influence. Identification of individuals
+ at risk could be achieved by using simple assessment tools such as the BAS or the aforementioned power of food scale. Susceptible
+ individuals could also be identified by determining potential correlates of reward sensitivity. In our sample, high-BAS individuals
+ tended to come from poorer socioeconomic backgrounds. If this observation is generalizable, it implies that individuals of
+ low socioeconomic backgrounds are potentially more sensitive to fast-food cues, although the direction of this association
+ remains to be determined. These individuals are also more likely to live in deprived neighborhoods, which could potentially
+ compound their risk of overconsuming fast-food given accumulating evidence that the density of fast-food outlets is greater
+ in relatively more deprived neighborhoods ( 31 , 33 , 35 , 36 ).
+
+Understanding which individuals are more susceptible to environmental food cues might also help tailor individual interventions
+ addressing such vulnerabilities as either a complement or an alternative to environmental interventions. A recent study showed
+ that the effectiveness of strategies to cope with food cravings depends on the psychological sensitivity to the food environment
+ ( 44 ). Specifically, acceptance-based strategies, which entails recognizing and accepting (as opposed to controlling) one&apos;s thoughts
+ and feelings about food, were found to be particularly effective in individuals who were considered more susceptible to the
+ influence of food environment. Similar strategies could potentially be developed to help susceptible individuals coping with
+ their tendency to respond to environmental food cues.
+
+Limitations of this study include its cross-sectional design, which precludes inference regarding the direction of relations.
+ In addition, fast-food consumption was based on a proxy measure using visits to a local fast-food restaurant in the previous
+ week. Future studies could provide a more direct measure of eating habits as provided by food diaries and food-frequency questionnaires.
+ Many studies investigating the health correlates of local fast-food environments have used a relative measure of exposure,
+ such as the number of facilities per capita ( 45 ) or the proportions of restaurants that serve primarily fast-food ( 15 ). In the present study, we opted for a more direct measure of exposure. Results from post hoc analyses using a relative measure
+ of fast-food restaurant exposure (proportion of restaurants that are fast-food) did not largely differ from the ones presented
+ above. In addition, the study context limits the generalizability of the results. Our investigation was limited to 7 census
+ tracts on the Island of Montreal, selected to be representative of the Montreal population in terms of spectrum of socioeconomic
+ level and language. These census tracts may not have been representative of the fast-food environment of the entire Island.
+ The low response rate could also have influenced the generalizability of the results. The sample, however, did not largely
+ differ from the base population, except in terms of education, which has already been associated with higher response rates
+ ( 46 ). Future studies are required to assess whether or not the moderating role of reward sensitivity extends to biological markers
+ of cardiometabolic risk, which have also been associated with the fast-food environment.
+
+In conclusion, reward-sensitive individuals may be more responsive to unhealthful cues in their immediate environment than
+ are individuals less sensitive to reward signals. Understanding these moderating factors can provide valuable insights into
+ environmental influences on health-related outcomes in vulnerable populations ( 39 ) and also help direct resources to those most likely to benefit through tailored interventions based on such observations
+ ( 47 ). Future research is needed to develop health promotion and public health strategies recognizing and addressing the sensitivity
+ to environmental food reward cues for certain individuals residing in unhealthful food environments.
+ Previous Section Next Section 
+Acknowledgments
+
+We thank Karine Léger, geomatics specialist, for assistance in geocoding the participants&apos; and businesses&apos; addresses and extraction
+ of area-level variables.
+
+The authors&apos; responsibilities were as follows—LD, MD, and BK: contributed to the conception and design of the larger research
+ program under which this report falls; CP, MD, and LD: formulated the study hypothesis for this study; MD and LG: supervised
+ the survey data collection; YK: contributed to the acquisition of geospatial data; CP: prepared the data, conducted statistical
+ analyses, and wrote the paper; and CP and MD: interpreted the data. All authors critically revised the article for important
+ intellectual content and approved the final version. None of the authors declared a conflict of interest.
+ 
+ Received September 11, 2009. Accepted December 23, 2009. 
+ Previous Section 
+REFERENCES
+
+ 1. ↵ 
+ Cohen DA , Farley TA 
+ . Eating as an automatic behavior . Prev Chronic Dis 2008 ; 5 : A23 (abstr) . Medline 2. ↵ 
+ Blundell JE , Stubbs RJ , Golding C , et al 
+ . Resistance and susceptibility to weight gain: individual variability in response to a high-fat diet . Physiol Behav 2005 ; 86 : 614 – 22 . CrossRef Medline 3. ↵ 
+ Davis CA , Levitan RD , Reid C , et al 
+ . Dopamine for “wanting” and opioids for “liking”: a comparison of obese adults with and without binge eating . Obesity (Silver Spring) 2009 ; 17 : 1220 – 5 . Medline 4. ↵ 
+ Wang GJ , Volkow ND , Telang F , et al 
+ . Exposure to appetitive food stimuli markedly activates the human brain . Neuroimage 2004 ; 21 : 1790 – 7 . CrossRef Medline 5. ↵ 
+ Killgore WDS , Young AD , Femia LA , Bogorodzki P , Rogowska J , Yurgelun-Todd DA 
+ . Cortical and limbic activation during viewing of high-versus low-calorie foods . Neuroimage 2003 ; 19 : 1381 – 94 . CrossRef Medline 6. ↵ 
+ Epstein LH , Leddy JJ 
+ . Food reinforcement . Appetite 2006 ; 46 : 22 – 5 . CrossRef Medline 7. ↵ 
+ Wise RA 
+ . Role of brain dopamine in food reward and reinforcement . Philos Trans R Soc Lond B Biol Sci 2006 ; 361 : 1149 – 58 . Abstract / FREE Full Text 8. ↵ 
+ Rothemund Y , Preuschhof C , Bohner G , et al 
+ . Differential activation of the dorsal striatum by high-calorie visual food stimuli in obese individuals . Neuroimage 2007 ; 37 : 410 – 21 . CrossRef Medline 9. ↵ 
+ Beaver JD , Lawrence AD , van Ditzhuijzen J , Davis MH , Woods A , Calder AJ 
+ . Individual differences in reward drive predict neural responses to images of food . J Neurosci 2006 ; 26 : 5160 – 6 . Abstract / FREE Full Text 10. ↵ 
+ Davis C , Patte K , Levitan R , Reid C , Tweed S , Curtis C 
+ . From motivation to behaviour: a model of reward sensitivity, overeating, and food preferences in the risk profile for obesity . Appetite 2007 ; 48 : 12 – 9 . CrossRef Medline 11. ↵ 
+ Guerrieri R , Nederkoorn C , Stankiewicz K , et al 
+ . The influence of trait and induced state impulsivity on food intake in normal-weight healthy women . Appetite 2007 ; 49 : 66 – 73 . CrossRef Medline 12. ↵ 
+ Nederkoorn C , Braet C , Van Eijs Y , Tanghe A , Jansen A 
+ . Why obese children cannot resist food: the role of impulsivity . Eat Behav 2006 ; 7 : 315 – 22 . CrossRef Medline 13. ↵ 
+ Loxton NJ , Dawe S 
+ . Alcohol abuse and dysfunctional eating in adolescent girls: the influence of individual differences in sensitivity to reward
+ and punishment . Int J Eat Disord 2001 ; 29 : 455 – 62 . CrossRef Medline 14. ↵ 
+ Guerrieri R , Nederkoorn C , Jansen A 
+ . The interaction between impulsivity and a varied food environment: its influence on food intake and overweight . Int J Obes 2008 ; 32 : 708 – 14 . CrossRef 15. ↵ 
+ Mehta NK , Chang VW 
+ . Weight status and restaurant availability. A multilevel analysis . Am J Prev Med 2008 ; 34 : 127 – 33 . CrossRef Medline 16. 
+ Maddock J 
+ . The relationship between obesity and the prevalence of fast food restaurants: state-level analysis . Am J Health Promot 2004 ; 19 : 137 – 43 . CrossRef Medline 17. ↵ 
+ Li F , Harmer PA , Cardinal BJ , et al 
+ . Built environment, adiposity, and physical activity in adults aged 50-75 . Am J Prev Med 2008 ; 35 : 38 – 46 . CrossRef Medline 18. ↵ 
+ Pearce J , Hiscock R , Blakely T , Witten K 
+ . A national study of the association between neighbourhood access to fast-food outlets and the diet and weight of local residents . Health Place 2009 ; 15 : 193 – 7 . CrossRef Medline 19. ↵ 
+ Jeffery RW , Baxter J , McGuire M , Linde J 
+ . Are fast food restaurants an environmental risk factor for obesity . Int J Behav Nutr Phys Act 2006 ; 3 : 35 . CrossRef 20. 
+ Simmons D , McKenzie A , Eaton S , et al 
+ . Choice and availability of takeaway and restaurant food is not related to the prevalence of adult obesity in rural communities
+ in Australia . Int J Obes 2005 ; 29 : 703 – 10 . CrossRef Medline 21. ↵ 
+ Morland K , Wing S , Roux AD 
+ . The contextual effect of the local food environment on residents&apos; diets: the Atherosclerosis Risk in Communities Study . Am J Public Health 2002 ; 92 : 1761 – 8 . Medline 22. ↵ 
+ Burdette HL , Whitaker RC 
+ . Neighborhood playgrounds, fast food restaurants, and crime: relationships to overweight in low-income preschool children . Prev Med 2004 ; 38 : 57 – 63 . CrossRef Medline 23. ↵ 
+ Prentice AM , Jebb SA 
+ . Fast foods, energy density and obesity: a possible mechanistic link . Obes Rev 2003 ; 4 : 187 – 94 . CrossRef Medline 24. ↵ 
+ Daniel M , Kestens Y 
+ . MEGAPHONE: Montreal epidemiological and geographic analysis of population health outcomes and neighbourhood effects . Montreal, Canada : Centre de Recherche du Centre Hospitalier de l&apos;Université de Montréal , 2007 . 25. ↵ Statistics Canada . 2001 Census Data . Ottawa, Canada : Statistics Canada , 2001 . 26. ↵ Tamec Inc. Zipcom database . Montreal, Canada : Tamec Inc , 2003 . 27. ↵ 
+ Carver CS , White TL 
+ . Behavioral inhibition, behavioral activation, and affective responses to impending reward and punishment: the BIS/BAS scales . J Pers Soc Psychol 1994 ; 67 : 319 – 33 . CrossRef 28. ↵ 
+ Jorm AF , Christensen H , Henderson AS , Jacomb PA , Korten AE , Rodgers B 
+ . Using the BIS/BAS scales to measure behavioural inhibition and behavioural activation: factor structure, validity and norms
+ in a large community sample . Pers Individ Dif 1998 ; 26 : 49 – 58 . CrossRef 29. ↵ 
+ Paquet C , Daniel M , Kestens Y , Léger K , Gauvin L 
+ . Field validation of listings of food stores and commercial physical activity establishments from secondary data . Int J Behav Nutr Phys Act 2008 ; 5 : 58 . CrossRef Medline 30. ↵ 
+ Daniel M , Kestens Y , Paquet C 
+ . Demographic and urban form correlates of healthful and unhealthful food availability in Montréal, Canada: implications for
+ the obesity epidemic . Can J Public Health 2009 ; 100 : 189 – 93 . Medline 31. ↵ 
+ Hemphill E , Raine K , Spence JC , Smoyer-Tomic KE 
+ . Exploring obesogenic food environments in Edmonton, Canada: the association between socioeconomic factors and fast-food outlet
+ access . Am J Health Promot 2008 ; 22 : 426 – 32 . Medline 32. 
+ Smoyer-Tomic KE , Spence JC , Raine KD , et al 
+ . The association between neighborhood socioeconomic status and exposure to supermarkets and fast food outlets . Health Place 2008 ; 14 : 740 – 54 . CrossRef Medline 33. ↵ 
+ Cummins SCJ , McKay L , MacIntyre S 
+ . McDonald&apos;s restaurants and neighborhood deprivation in Scotland and England . Am J Prev Med 2005 ; 29 : 308 – 10 . CrossRef Medline 34. 
+ Macdonald L , Cummins S , Macintyre S 
+ . Neighbourhood fast food environment and area deprivation-substitution or concentration? Appetite 2007 ; 49 : 251 – 4 . CrossRef Medline 35. ↵ 
+ Reidpath DD , Burns C , Garrard J , Mahoney M , Townsend M 
+ . An ecological study of the relationship between social and environmental determinants of obesity . Health Place 2002 ; 8 : 141 – 5 . CrossRef Medline 36. ↵ 
+ Pearce J , Blakely T , Witten K , Bartie P 
+ . Neighborhood deprivation and access to fast-food retailing a national study . Am J Prev Med 2007 ; 32 : 375 – 82 . CrossRef Medline 37. ↵ 
+ Kremers SPJ , de Bruijn GJ , Visscher TLS , van Mechelen W , de Vries NK , Brug J 
+ . Environmental influences on energy balance-related behaviors: a dual-process view . Int J Behav Nutr Phys Act 2006 ; 3 : 9 . CrossRef Medline 38. 
+ Ball K , Timperio AF , Crawford DA 
+ . Understanding environmental influences on nutrition and physical activity behaviors: where should we look and what should
+ we count? Int J Behav Nutr Phys Act 2006 ; 3 : 33 . CrossRef Medline 39. ↵ 
+ Wells NM , Ashdown SP , Davies EHS , Cowett FD , Yang Y 
+ . Environment, design, and obesity: opportunities for interdisciplinary collaborative research . Environ Behav 2007 ; 39 : 6 – 33 . Abstract / FREE Full Text 40. ↵ 
+ Black JL , Macinko J 
+ . Neighborhoods and obesity . Nutr Rev 2008 ; 66 : 2 – 20 . CrossRef Medline 41. ↵ 
+ Schroeder BE , Binzak JM , Kelley AE 
+ . A common profile of prefrontal cortical activation following exposure to nicotine- or chocolate-associated contextual cues . Neuroscience 2001 ; 105 : 535 – 45 . CrossRef Medline 42. ↵ 
+ Goldstein RZ , Volkow ND 
+ . Drug addiction and its underlying neurobiological basis: neuroimaging evidence for the involvement of the frontal cortex . Am J Psychiatry 2002 ; 159 : 1642 – 52 . CrossRef Medline 43. ↵ 
+ Lowe MR , Butryn ML 
+ . Hedonic hunger: a new dimension of appetite? Physiol Behav 2007 ; 91 : 432 – 9 . CrossRef Medline 44. ↵ 
+ Forman EM , Hoffman KL , McGrath KB , Herbert JD , Brandsma LL , Lowe MR 
+ . A comparison of acceptance- and control-based strategies for coping with food cravings: an analog study . Behav Res Ther 2007 ; 45 : 2372 – 86 . CrossRef Medline 45. ↵ 
+ Powell LM , Auld MC , Chaloupka FJ , O&apos;Malley PM , Johnston LD 
+ . Access to fast food and food prices: relationship with fruit and vegetable consumption and overweight among adolescents . Adv Health Econ Health Serv Res 2007 ; 17 : 23 – 48 . Medline 46. ↵ 
+ Etter JF , Perneger TV 
+ . Analysis of non-response bias in a mailed health survey . J Clin Epidemiol 1997 ; 50 : 1123 – 8 . CrossRef Medline 47. ↵ 
+ MacKinnon DP , Luecken LJ 
+ . How and for whom? Mediation and moderation in health psychology . Health Psychol 2008 ; 27 : S99 – 100 . CrossRef Medline 
+ « Previous | Next Article » Table of Contents 
+ This Article 
+ 
+ First published January 20, 2010 ,
+ doi: 10.3945/ ajcn.2009.28648 Am J Clin Nutr March 2010 vol. 91 no. 3 771-776 
+ 
+ Abstract Free » Full Text Free Full Text (PDF) Free All Versions of this Article: 
+ ajcn.2009.28648v1 91/3/771 most recent 
+ 
+ 
+ Purchase Article 
+ 
+ Classifications 
+
+ 
+ Nutritional epidemiology and public health 
+ 
+ 
+ Services 
+
+ Email this article to a colleague Alert me when this article is cited Alert me if a correction is posted Article Usage Statistics Similar articles in this journal Similar articles in Web of Science Similar articles in PubMed Download to citation manager Reprints and Permissions 
+ 
+ Citing Articles 
+
+ Load citing article information Citing articles via Web of Science Citing articles via Google Scholar 
+ 
+ Google Scholar 
+
+ Articles by Paquet, C. Articles by Dubé, L. Search for related content 
+ 
+ PubMed 
+
+ PubMed citation Articles by Paquet, C. Articles by Dubé, L. 
+ 
+ Agricola 
+
+ Articles by Paquet, C. Articles by Dubé, L. 
+ 
+ Related Content 
+
+ Load related web page information 
+ 
+ Navigate This Article 
+ 
+ Top Abstract INTRODUCTION SUBJECTS AND METHODS RESULTS DISCUSSION Acknowledgments REFERENCES 
+ 
+ Current Issue 
+ 
+ July 2012, 96 (1) 
+ 
+ 
+ 
+ Alert me to new issues of Am J Clin Nutr 
+ 
+ About AJCN Information for Authors Manuscript Submission Editorial Board Reprints Permissions Advertising Feedback Advances in Nutrition The Journal of Nutrition Nutrition Notes 
+ 
+ 
+ 
+The American Journal of Clinical Nutrition®
+ Copyright © 2012 by the American Society for Nutrition 
+
+9650 Rockville Pike, Bethesda, MD 20814
+ 
+ Print ISSN: 0002-9165 Online ISSN: 1938-3207 
+ For an alternate route to AJCN Online use this URL: http://intl.ajcn.org
+	</body>
+</document>

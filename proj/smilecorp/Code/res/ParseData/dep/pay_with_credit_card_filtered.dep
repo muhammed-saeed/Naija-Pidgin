@@ -1,0 +1,111 @@
+nn(ring-3, cashier-2)
+dobj(have-1, ring-3)
+prep_up(have-1, item-5)
+
+nn(card-2, swipe-1)
+dep(needed-4, where-3)
+dep(card-2, needed-4)
+
+prep_for(wait-1, approval-3)
+
+poss(name-3, your-2)
+dobj(sign-1, name-3)
+
+dobj(take-1, receipt-2)
+
+prep_through(dig-1, purse-3)
+
+dobj(find-1, wallet-2)
+
+dobj(get-1, card-2)
+prep_out_of(get-1, wallet-5)
+
+dobj(hand-1, card-2)
+prep_to(hand-1, cashier-4)
+
+prep_on(wait-1, cashier-3)
+aux(run-5, to-4)
+xcomp(wait-1, run-5)
+dobj(run-5, card-6)
+
+dobj(sign-1, receipt-2)
+
+prep_with(leave-1, purchase-3)
+
+nn(card-3, credit-2)
+dobj(get-1, card-3)
+prep_from(get-1, wallet-5)
+
+nn(card-3, credit-2)
+dobj(hand-1, card-3)
+prep_to(hand-1, cashier-5)
+
+dobj(hand-1, id-2)
+prep_to(hand-1, cashier-4)
+
+dobj(sign-1, receipt-2)
+
+prt(get-1, back-2)
+poss(card-4, my-3)
+dobj(get-1, card-4)
+dobj(get-1, id-6)
+conj_and(card-4, id-6)
+
+prt(take-1, out-2)
+nn(card-4, credit-3)
+dobj(take-1, card-4)
+
+nn(card-3, swipe-1)
+nn(card-3, credit-2)
+prep_in(card-3, scanner-5)
+
+nn(code-3, zip-2)
+dobj(enter-1, code-3)
+prep_into(enter-1, scanner-5)
+
+nn(slip-3, charge-2)
+dobj(take-1, slip-3)
+prep_from(take-1, cashier-5)
+
+nn(slip-3, charge-2)
+dobj(sign-1, slip-3)
+
+amod(slip-4, cashier-2)
+dep(cashier-2, signed-3)
+dobj(give-1, slip-4)
+
+nn(card-3, credit-2)
+dobj(put-1, card-3)
+advmod(put-1, back-4)
+prep_in(put-1, wallet-6)
+
+dobj(put-1, receipt-2)
+prep_in(put-1, bag-4)
+
+dobj(slide-1, card-2)
+prep_through(slide-1, reader-4)
+
+prep_for(wait-1, cashier-3)
+prep_to(wait-1, process-5)
+
+det(receipt-3, the-2)
+dobj(sign-1, receipt-3)
+
+poss(receipt-3, my-2)
+dobj(get-1, receipt-3)
+
+poss(card-3, my-2)
+dobj(put-1, card-3)
+poss(wallet-6, my-5)
+prep_in(put-1, wallet-6)
+
+
+nn(card-3, credit-2)
+dobj(obtain-1, card-3)
+
+det(store-4, a-3)
+prep_to(go-1, store-4)
+
+dobj(hand-1, card-2)
+prep_to(hand-1, teller-4)
+

@@ -1,0 +1,637 @@
+amod(clothes-3, dirty-2)
+dobj(gather-1, clothes-3)
+
+amod(machine-3, washing-2)
+dobj(fill-1, machine-3)
+amod(clothes-6, dirty-5)
+prep_with(fill-1, clothes-6)
+
+amod(machine-4, washing-3)
+prep_on(turn-1, machine-4)
+
+advmod(done-5, when-1)
+amod(machine-3, washing-2)
+nsubjpass(done-5, machine-3)
+auxpass(done-5, is-4)
+csubj(take-6, done-5)
+prt(take-6, out-7)
+dobj(take-6, clothes-8)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, dryer-4)
+
+prep_on(turn-1, dryer-3)
+
+advmod(done-4, when-1)
+nsubjpass(done-4, dryer-2)
+auxpass(done-4, is-3)
+csubj(take-5, done-4)
+prt(take-5, out-6)
+dobj(take-5, clothes-7)
+
+amod(laundry-3, dirty-2)
+dobj(gather-1, laundry-3)
+
+amod(laundry-3, dirty-2)
+dobj(take-1, laundry-3)
+amod(machine-6, washing-5)
+prep_to(take-1, machine-6)
+
+dep(put-1, laundry-2)
+dep(put-1, inside-3)
+
+dobj(add-1, detergent-2)
+
+nn(program-3, washing-2)
+dobj(select-1, program-3)
+
+prep_on(turn-1, machine-3)
+
+prep_for(wait-1, cloths-3)
+aux(wash-5, to-4)
+xcomp(wait-1, wash-5)
+dep(wash-5, remove-7)
+
+amod(clothes-3, dirty-2)
+dobj(collect-1, clothes-3)
+
+nn(machine-4, laundry-3)
+prep_in(put-1, machine-4)
+
+prt(pour-1, out-2)
+dobj(pour-1, detergent-3)
+
+
+dobj(put-1, clothes-2)
+prep_in(put-1, dryer-4)
+
+num(hour-3, 1-2)
+dobj(wait-1, hour-3)
+
+dobj(collect-1, clothes-2)
+
+amod(laundry-3, dirty-2)
+dobj(find-1, laundry-3)
+
+prt(pick-1, up-2)
+amod(laundry-4, dirty-3)
+dobj(pick-1, laundry-4)
+
+iobj(find-1, clothes-2)
+amod(machine-4, washing-3)
+dobj(find-1, machine-4)
+
+dobj(place-1, clothes-2)
+amod(machine-5, washing-4)
+prep_into(place-1, machine-5)
+
+nn(soap-3, laundry-2)
+dobj(add-1, soap-3)
+amod(machine-6, washing-5)
+prep_to(add-1, machine-6)
+
+amod(machine-4, washing-3)
+prep_on(turn-1, machine-4)
+
+dobj(gather-1, laundry-2)
+prep_in(gather-1, basket-4)
+
+dobj(separate-1, laundry-2)
+prep_into(separate-1, piles-4)
+
+amod(amount-3, proper-2)
+dobj(put-1, amount-3)
+prep_of(amount-3, detergent-5)
+prep_into(put-1, washer-7)
+
+aux(wash-3, do-1)
+neg(wash-3, not-2)
+amod(clothes-5, white-4)
+dobj(wash-3, clothes-5)
+amod(clothes-8, colored-7)
+prep_with(wash-3, clothes-8)
+
+dobj(wash-1, towels-2)
+amod(clothes-7, hot-4)
+conj_and(hot-4, other-6)
+amod(clothes-7, other-6)
+prep_on(wash-1, clothes-7)
+prep_on(wash-1, cold-9)
+
+amod(laundry-3, dirty-2)
+dobj(find-1, laundry-3)
+
+prt(pick-1, up-2)
+amod(laundry-4, dirty-3)
+dobj(pick-1, laundry-4)
+
+amod(laundry-3, dirty-2)
+dobj(place-1, laundry-3)
+amod(machine-6, washing-5)
+prep_in(place-1, machine-6)
+
+det(soap-4, some-2)
+nn(soap-4, laundry-3)
+dobj(pour-1, soap-4)
+det(machine-8, the-6)
+amod(machine-8, washing-7)
+prep_in(pour-1, machine-8)
+
+dobj(press-1, button-2)
+amod(machine-5, washing-4)
+prep_on(press-1, machine-5)
+aux(start-7, to-6)
+infmod(machine-5, start-7)
+det(cycle-10, the-8)
+nn(cycle-10, wash-9)
+dobj(start-7, cycle-10)
+
+amod(clothes-3, dirty-2)
+dobj(find-1, clothes-3)
+
+det(tub-4, a-2)
+nn(tub-4, laundry-3)
+dobj(find-1, tub-4)
+
+det(tub-4, the-2)
+nn(tub-4, laundry-3)
+dobj(fill-1, tub-4)
+amod(water-7, warm-6)
+prep_with(fill-1, water-7)
+
+nn(soap-3, laundry-2)
+dobj(mix-1, soap-3)
+det(water-6, the-5)
+prep_into(mix-1, water-6)
+
+nsubj(clean-12, scrub-1)
+det(piece-3, a-2)
+dep(until-9, piece-3)
+prep_of(piece-3, clothing-5)
+det(tub-8, the-7)
+prep_in(clothing-5, tub-8)
+prep(clean-12, until-9)
+nsubj(clean-12, it-10)
+cop(clean-12, is-11)
+
+mark(clean-6, until-2)
+det(clothes-4, all-3)
+nsubj(clean-6, clothes-4)
+cop(clean-6, are-5)
+advcl(repeat-1, clean-6)
+
+det(clothes-4, the-2)
+nn(clothes-4, dirt-3)
+dobj(pick-1, clothes-4)
+
+det(room-5, the-3)
+nn(room-5, laundry-4)
+prep_to(go-1, room-5)
+
+det(laundry-3, the-2)
+dobj(separate-1, laundry-3)
+prep_by(separate-1, color-5)
+
+det(laundry-3, the-2)
+dobj(separate-1, laundry-3)
+prep_by(separate-1, type-5)
+
+det(group-3, a-2)
+dobj(put-1, group-3)
+det(washer-6, the-5)
+prep_in(put-1, washer-6)
+
+det(washer-4, the-3)
+prep_on(turn-1, washer-4)
+
+aux(step-3, to-2)
+xcomp(go-1, step-3)
+dobj(step-3, 5-4)
+
+amod(machine-3, washing-2)
+dobj(open-1, machine-3)
+
+amod(cup-3, one-half-2)
+dobj(pour-1, cup-3)
+prep_of(cup-3, deterget-5)
+amod(machine-8, washing-7)
+prep_into(pour-1, machine-8)
+
+nsubj(soiled-2, place-1)
+dobj(soiled-2, clothes-3)
+amod(machine-6, washing-5)
+prep_in(soiled-2, machine-6)
+
+amod(lid-4, washing-2)
+dep(washing-2, machine-3)
+dobj(close-1, lid-4)
+
+dobj(start-1, washer-2)
+
+amod(clothes-3, dirty-2)
+dobj(need-1, clothes-3)
+
+amod(machine-3, washing-2)
+dobj(need-1, machine-3)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, machine-4)
+
+dobj(dry-1, clothes-2)
+
+amod(clothes-3, dirty-2)
+dobj(gather-1, clothes-3)
+
+amod(machine-3, washing-2)
+dobj(open-1, machine-3)
+
+amod(clothes-3, dirty-2)
+dobj(place-1, clothes-3)
+amod(machine-6, washing-5)
+prep_in(place-1, machine-6)
+
+dobj(place-1, detergent-2)
+amod(machine-5, washing-4)
+prep_in(place-1, machine-5)
+
+amod(machine-3, washing-2)
+dobj(close-1, machine-3)
+
+amod(machine-3, washing-2)
+dobj(start-1, machine-3)
+
+det(laundry-4, the-2)
+amod(laundry-4, dirty-3)
+dobj(gather-1, laundry-4)
+
+det(machine-4, the-2)
+amod(machine-4, washing-3)
+dobj(set-1, machine-4)
+
+aux(running-4, start-1)
+det(water-3, the-2)
+nsubj(running-4, water-3)
+
+dobj(add-1, soap-2)
+
+dobj(check-1, pockets-2)
+prep_for(pockets-2, change-4)
+
+dobj(add-1, laundry-2)
+
+aux(dryer-3, to-2)
+xcomp(move-1, dryer-3)
+mark(completed-7, after-4)
+nsubjpass(completed-7, wash-5)
+auxpass(completed-7, is-6)
+advcl(dryer-3, completed-7)
+
+det(clothes-4, the-2)
+amod(clothes-4, dirty-3)
+dobj(gather-1, clothes-4)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, washer-4)
+
+dobj(add-1, detergent-2)
+
+dobj(run-1, washer-2)
+
+dobj(move-1, clothes-2)
+prep_from(move-1, washer-4)
+aux(dryer-6, to-5)
+xcomp(move-1, dryer-6)
+advmod(done-8, when-7)
+dep(dryer-6, done-8)
+
+prep_on(turn-1, dryer-3)
+
+nsubj(dryer-2, empty-1)
+advmod(done-4, when-3)
+advcl(dryer-2, done-4)
+
+amod(clothes-3, dirty-2)
+dobj(collect-1, clothes-3)
+
+dobj(separate-1, lights-2)
+prep_from(separate-1, darks-4)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, machine-4)
+
+nn(temperature-3, water-2)
+dobj(choose-1, temperature-3)
+
+nn(length-3, cycle-2)
+dobj(choose-1, length-3)
+
+prep_on(turn-1, machine-3)
+
+dobj(add-1, soap-2)
+dobj(add-1, bleach-4)
+conj_and(soap-2, bleach-4)
+
+det(machine-4, the-2)
+amod(machine-4, washing-3)
+dobj(turn-1, machine-4)
+prt(turn-1, on-5)
+
+amod(detergent-3, liquid-2)
+dobj(put-1, detergent-3)
+
+det(clothes-4, the-2)
+amod(clothes-4, dirty-3)
+dobj(add-1, clothes-4)
+
+det(cover-3, the-2)
+dobj(close-1, cover-3)
+det(machine-7, the-5)
+amod(machine-7, washing-6)
+prep_of(cover-3, machine-7)
+
+dobj(insert-1, laundry-2)
+amod(machine-5, washing-4)
+prep_in(insert-1, machine-5)
+
+dobj(insert-1, detergent-2)
+
+amod(machine-4, washing-3)
+prep_on(turn-1, machine-4)
+
+dobj(close-1, lid-2)
+
+amod(clothing-3, dirty-2)
+dobj(gather-1, clothing-3)
+
+dobj(open-1, washer-2)
+
+xcomp(start-1, wash-2)
+dobj(wash-2, cycle-3)
+
+nn(detergent-3, laundry-2)
+dobj(add-1, detergent-3)
+
+dobj(add-1, clothing-2)
+
+dobj(close-1, washer-2)
+
+dobj(remove-1, clothes-2)
+prep_from(remove-1, washer-4)
+conj_and(remove-1, hang-6)
+aux(dry-8, to-7)
+xcomp(hang-6, dry-8)
+
+dobj(get-1, laundry-2)
+
+dobj(process-1, laundry-2)
+
+dobj(get-1, laundry-2)
+
+dobj(wash-1, laundry-2)
+
+dobj(dry-1, laundry-2)
+
+dobj(put-1, laundry-2)
+prt(put-1, away-3)
+
+dobj(sort-1, clothes-2)
+prep_by(sort-1, colors-4)
+
+dobj(load-1, washer-2)
+
+nn(cycle-3, wash-2)
+dobj(run-1, cycle-3)
+
+prep_to(move-1, dryer-3)
+
+amod(cycle-3, dryer-2)
+dobj(run-1, cycle-3)
+
+dobj(fold-1, laudry-2)
+
+amod(clothes-3, dirty-2)
+dobj(put-1, clothes-3)
+prep_in(put-1, washer-5)
+
+dobj(put-1, detergent-2)
+prep_in(put-1, washer-4)
+
+dobj(turn-1, laundry-2)
+prt(turn-1, on-3)
+
+nn(cycle-4, wash-3)
+prep_for(wait-1, cycle-4)
+aux(finish-6, to-5)
+xcomp(wait-1, finish-6)
+
+amod(clothes-3, wet-2)
+dobj(put-1, clothes-3)
+prep_in(put-1, dryer-5)
+
+dobj(turn-1, dryer-2)
+prt(turn-1, on-3)
+
+prep_for(wait-1, dryer-3)
+aux(finish-5, to-4)
+xcomp(wait-1, finish-5)
+xcomp(wait-1, get-7)
+conj_and(finish-5, get-7)
+dobj(get-7, clothes-8)
+
+amod(machine-3, washing-2)
+dobj(open-1, machine-3)
+
+prep_in(put-1, laundry-3)
+
+dobj(close-1, door-2)
+
+nn(drawer-3, powder-2)
+dobj(open-1, drawer-3)
+
+amod(amount-5, required-3)
+nn(amount-5, powder-4)
+prep_in(put-1, amount-5)
+
+dobj(close-1, drawer-2)
+
+dobj(set-1, program-2)
+dobj(set-1, turn-4)
+conj_and(program-2, turn-4)
+amod(machine-7, washing-6)
+prep_on(set-1, machine-7)
+
+aux(hamper-5, move-1)
+nsubj(hamper-5, clothes-2)
+advmod(hamper-5, from-3)
+dep(from-3, laundry-4)
+amod(machine-10, inside-7)
+det(machine-10, the-8)
+amod(machine-10, washing-9)
+prep_to(hamper-5, machine-10)
+
+num(measure-3, 1-2)
+dobj(pour-1, measure-3)
+amod(soap-6, powder\/liquid-5)
+prep_of(measure-3, soap-6)
+amod(machine-9, washing-8)
+prep_into(pour-1, machine-9)
+
+dobj(close-1, lid-2)
+
+dep(rotate-1, wash-3)
+poss(knob-6, cycle-4)
+dobj(wash-3, knob-6)
+aux(start-8, to-7)
+infmod(knob-6, start-8)
+
+dobj(separate-1, clothes-2)
+prep_by(separate-1, color-4)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, washer-4)
+prep_in(put-1, sink\/tub-6)
+conj_or(washer-4, sink\/tub-6)
+
+dobj(wash-1, items-2)
+
+dobj(put-1, items-2)
+nn(line-7, dryer-4)
+conj_or(dryer-4, clothes-6)
+nn(line-7, clothes-6)
+prep_in(put-1, line-7)
+
+dobj(let-1, clothes-2)
+dep(let-1, dry-3)
+
+dobj(place-1, laundry-2)
+prep_in(place-1, washer-4)
+
+dobj(select-1, program-2)
+
+dobj(add-1, detergent-2)
+
+dobj(start-1, washer-2)
+
+dobj(sort-1, laundry-2)
+
+prep_on(turn-1, washer-3)
+
+dobj(add-1, detergent-2)
+
+dobj(put-1, clothes-2)
+amod(lid-6, washer-4)
+amod(lid-6, close-5)
+prep_into(put-1, lid-6)
+
+advmod(finished-2, when-1)
+amod(clothes-4, put-3)
+dobj(finished-2, clothes-4)
+prep_in(finished-2, dryer-6)
+
+advmod(finished-3, when-1)
+nsubj(finished-3, dryer-2)
+csubj(fold-4, finished-3)
+dobj(fold-4, clothes-5)
+
+dobj(put-1, clothes-2)
+prt(put-1, away-3)
+
+dobj(get-1, clothes-2)
+
+dobj(put-1, clothes-2)
+prep_into(put-1, washer-4)
+
+dobj(add-1, detergent-2)
+
+nn(softener-3, cloth-2)
+dobj(add-1, softener-3)
+
+dobj(close-1, lid-2)
+
+dobj(change-1, settings-2)
+
+prt(turn-1, on-2)
+
+dobj(place-1, laundry-2)
+prep_into(place-1, washer-4)
+
+dobj(add-1, detergent-2)
+
+prep_on(turn-1, washer-3)
+
+amod(clothes-3, dirty-2)
+dobj(find-1, clothes-3)
+
+amod(clothes-3, dirty-2)
+dobj(put-1, clothes-3)
+prep_in(put-1, basket-5)
+
+dobj(take-1, clothes-2)
+amod(machine-5, washing-4)
+prep_to(take-1, machine-5)
+
+dobj(put-1, clothes-2)
+amod(machine-5, washing-4)
+prep_in(put-1, machine-5)
+
+nn(detergent-3, laundry-2)
+dobj(add-1, detergent-3)
+
+amod(machine-3, washing-2)
+dobj(set-1, machine-3)
+amod(setting-6, desired-5)
+prep_to(set-1, setting-6)
+
+amod(machine-4, washing-3)
+prep_on(turn-1, machine-4)
+
+amod(clothes-3, dirty-2)
+dobj(get-1, clothes-3)
+
+dobj(start-1, washer-2)
+
+prep_in(put-1, detergent-3)
+
+prep_in(put-1, clothes-3)
+
+nsubj(washed-2, after-1)
+xcomp(washed-2, hang-3)
+dobj(hang-3, clothes-4)
+aux(dry-6, to-5)
+xcomp(hang-3, dry-6)
+
+dobj(fold-1, clothes-2)
+
+dobj(put-1, clothes-2)
+prt(put-1, away-3)
+
+amod(laundry-3, dirty-2)
+dobj(choose-1, laundry-3)
+
+dobj(seperate-1, colors-2)
+prep_from(seperate-1, whites-4)
+
+dobj(place-1, clothing-2)
+amod(machine-5, washing-4)
+prep_in(place-1, machine-5)
+
+dobj(add-1, detergent-2)
+
+nn(settings-3, washer-2)
+dobj(choose-1, settings-3)
+
+dobj(close-1, lid-2)
+
+dobj(push-1, start-2)
+
+amod(clothes-3, dirty-2)
+dobj(get-1, clothes-3)
+
+dobj(fill-1, washer-2)
+
+dobj(put-1, soap-2)
+prep_in(put-1, washer-4)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, washer-4)
+

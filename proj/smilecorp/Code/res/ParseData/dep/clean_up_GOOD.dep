@@ -1,0 +1,466 @@
+prt(pick-1, up-2)
+det(clothes-4, the-3)
+dobj(pick-1, clothes-4)
+
+amod(clothes-3, dirty-2)
+dobj(wash-1, clothes-3)
+
+dobj(make-1, bed-2)
+
+prep_through(sort-1, papers-3)
+
+dobj(arrange-1, bookself-2)
+
+nn(dresser-2, dust-1)
+
+dobj(vacuum-1, floor-2)
+
+dobj(load-1, dishwasher-2)
+
+dobj(empty-1, dishwasher-2)
+
+prt(throw-1, out-2)
+amod(food-4, old-3)
+dobj(throw-1, food-4)
+
+prt(take-1, out-2)
+dobj(take-1, trash-3)
+
+nn(kitchen-2, sweep-1)
+
+dobj(clean-1, bathroom-2)
+dobj(clean-1, kitchen-4)
+conj_and(bathroom-2, kitchen-4)
+
+det(furniture-3, the-2)
+dep(dust-1, furniture-3)
+
+dobj(move-1, furniture-2)
+prep_to(move-1, vacuum-4)
+
+dobj(put-1, furniture-2)
+advmod(put-1, back-3)
+prep_in(put-1, place-5)
+
+dobj(clean-1, windows-2)
+dobj(clean-1, patio-4)
+conj_and(windows-2, patio-4)
+
+det(time-4, the-2)
+amod(time-4, proper-3)
+dobj(select-1, time-4)
+
+det(equipment-3, the-2)
+dobj(take-1, equipment-3)
+
+det(things-3, the-2)
+dobj(place-1, things-3)
+
+dobj(do-1, the-2)
+amod(the-2, dusting-3)
+
+det(carpet-3, the-2)
+dobj(clean-1, carpet-3)
+prep_by(clean-1, vacuum-clean-5)
+
+dobj(take-1, bath-2)
+
+det(articles-3, all-2)
+dobj(put-1, articles-3)
+prt(put-1, away-4)
+
+dobj(vacuum-1, floor-2)
+
+nn(floor-2, sweep-1)
+
+dobj(mop-1, floor-2)
+
+dobj(wash-1, dishes-2)
+
+dobj(make-1, beds-2)
+
+dobj(clean-1, bathroom-2)
+
+nn(towels-3, paper-2)
+dobj(buy-1, towels-3)
+
+nn(solutions-3, cleaning-2)
+dobj(buy-1, solutions-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, items-3)
+prep_off(pick-1, floor-5)
+
+dobj(put-1, items-2)
+advmod(put-1, away-3)
+conj_or(put-1, in-5)
+pobj(in-5, trash-6)
+
+det(vacuum-3, the-2)
+dobj(run-1, vacuum-3)
+
+prt(wipe-1, off-2)
+dobj(wipe-1, counters-3)
+
+prt(dust-1, off-2)
+det(furniture-4, the-3)
+dobj(dust-1, furniture-4)
+
+det(floor-4, the-2)
+nn(floor-4, kitchen-3)
+dep(sweep-1, floor-4)
+
+det(floor-4, the-2)
+nn(floor-4, bathroom-3)
+dep(sweep-1, floor-4)
+
+amod(floor-5, kitchen-2)
+conj_and(kitchen-2, bathroom-4)
+amod(floor-5, bathroom-4)
+dobj(mop-1, floor-5)
+
+dobj(put-1, kaboom-2)
+prep_in(put-1, toilet-4)
+
+nn(toilet-2, scrub-1)
+conj_and(toilet-2, flush-4)
+
+nn(bubbles-3, scrubbing-2)
+dobj(put-1, bubbles-3)
+prep_in(put-1, tub-5)
+
+nn(tub-2, scrub-1)
+
+dobj(clean-1, sink-2)
+
+dobj(rinse-1, tub-2)
+dobj(rinse-1, sink-4)
+conj_and(tub-2, sink-4)
+
+mark(dirty-6, until-2)
+nsubj(dirty-6, it-3)
+cop(dirty-6, is-4)
+advmod(dirty-6, very-5)
+advcl(wait-1, dirty-6)
+
+det(filth-3, the-2)
+dobj(notice-1, filth-3)
+
+prt(pick-1, up-2)
+dep(clothes-5, objects-3)
+dobj(pick-1, clothes-5)
+dep(clothes-5, etc-7)
+
+
+
+dobj(do-1, laundry-2)
+
+dobj(straighten-1, things-2)
+prt(straighten-1, up-3)
+
+
+prt(pick-1, up-2)
+dobj(pick-1, clutter-3)
+
+dobj(wash-1, clothes-2)
+
+
+dobj(clean-1, kitchen-2)
+
+dobj(clean-1, bathrooms-2)
+
+dobj(mop-1, floors-2)
+
+dobj(vacuum-1, carpets-2)
+
+prt(take-1, out-2)
+dobj(take-1, trash-3)
+
+dobj(put-1, garbage-2)
+prep_in(put-1, bin-4)
+
+dobj(organize-1, tables-2)
+
+dobj(put-1, things-2)
+amod(places-5, proper-4)
+prep_in(put-1, places-5)
+
+dobj(vacuum-1, floor-2)
+
+nn(shelves-2, dust-1)
+
+dobj(wash-1, laundry-2)
+
+dobj(wash-1, dishes-2)
+
+prt(pick-1, up-2)
+amod(items-4, stray-3)
+dobj(pick-1, items-4)
+
+nn(surfaces-2, dust-1)
+
+amod(floors-3, hard-2)
+dobj(mop-1, floors-3)
+
+dobj(vacuum-1, carpets-2)
+
+nn(kitchen-2, scrub-1)
+nsubj(counter-3, kitchen-2)
+
+nn(mirror-3, bathroom-2)
+dobj(wipe-1, mirror-3)
+
+nn(bowl-3, toilet-2)
+dobj(brush-1, bowl-3)
+
+dobj(put-1, laundry-2)
+prep_in(put-1, basket-4)
+
+prt(take-1, out-2)
+dobj(take-1, trash-3)
+
+prt(sort-1, out-2)
+amod(papers-4, loose-3)
+dobj(sort-1, papers-4)
+
+amod(clothes-3, dirty-2)
+dobj(throw-1, clothes-3)
+prep_in(throw-1, laundry-5)
+
+
+nn(hardwood-2, sweep-1)
+
+dobj(mop-1, hardwood-2)
+
+dobj(vaccuum-1, carpet-2)
+
+nn(floor-3, kitchen-2)
+dobj(mop-1, floor-3)
+
+amod(floors-3, carpetted-2)
+dobj(vacuum-1, floors-3)
+
+dobj(wipe-1, kitchen-2)
+advmod(wipe-1, counter-3)
+
+prt(clean-1, out-2)
+dobj(clean-1, microwave-3)
+
+nn(furniture-2, dust-1)
+
+dobj(wipe-1, bathroom-2)
+advmod(wipe-1, counter-3)
+
+nn(sinks-5, kitchen-2)
+conj_and(kitchen-2, bathroom-4)
+nn(sinks-5, bathroom-4)
+dobj(clean-1, sinks-5)
+
+dobj(clean-1, toilet-2)
+dobj(clean-1, shower-4)
+conj_and(toilet-2, shower-4)
+
+nn(furniture-2, dust-1)
+
+dobj(cover-1, belongings-2)
+
+dobj(use-1, broom-2)
+
+
+dobj(vacuum-1, cleaner-2)
+
+prep_in(clean-1, corners-3)
+
+dobj(use-1, water-2)
+
+dobj(use-1, phenol-2)
+
+aux(keep-3, to-2)
+infmod(salt-1, keep-3)
+dobj(keep-3, roaches-4)
+advmod(keep-3, away-5)
+
+dobj(mop-1, floor-2)
+
+dobj(clean-1, dust-2)
+dep(clean-1, using-3)
+dobj(using-3, cloth-4)
+
+prt(find-1, out-2)
+dobj(need-6, what-3)
+advmod(need-6, all-4)
+nsubj(need-6, we-5)
+ccomp(find-1, need-6)
+
+conj_and(clean-1, pack-3)
+dobj(pack-3, them-4)
+advmod(pack-3, carefully-6)
+
+amod(stuff-2, unwanted-1)
+nsubj(separate-3, stuff-2)
+dobj(separate-3, them-4)
+
+amod(glass-7, plastic-3)
+dep(plastic-3, metal-5)
+prep_as(divide-1, glass-7)
+
+prep_in(food-dispose-1, pulper-3)
+
+det(stuff-4, the-2)
+amod(stuff-4, unwanted-3)
+dobj(clear-1, stuff-4)
+
+advmod(empty-6, now-1)
+det(flat-4, the-3)
+nsubj(empty-6, flat-4)
+cop(empty-6, is-5)
+
+prep_from(start-1, ceiling-3)
+prep_from(start-1, corners-5)
+conj_and(ceiling-3, corners-5)
+
+advmod(wall-2, then-1)
+dobj(wall-2, window-4)
+dobj(wall-2, doors-6)
+conj_and(window-4, doors-6)
+
+dep(drop-4, all-2)
+nsubj(drop-4, we-3)
+ccomp(pick-1, drop-4)
+det(floor-7, the-6)
+prep_on(drop-4, floor-7)
+
+amod(chemical-3, right-2)
+dobj(use-1, chemical-3)
+prep_for(use-1, clean-5)
+
+amod(chemical-3, heavy-1)
+nn(chemical-3, duty-2)
+prep_for(chemical-3, kitchen-5)
+
+amod(chemical-2, strong-1)
+prep_for(chemical-2, toilet-4)
+
+det(floor-3, the-2)
+dobj(clean-1, floor-3)
+nn(oil-6, soap-5)
+prep_with(clean-1, oil-6)
+
+nn(glass-3, eye-2)
+dobj(use-1, glass-3)
+dobj(use-1, gloves-5)
+conj_and(glass-3, gloves-5)
+dobj(use-1, mask-7)
+conj_and(glass-3, mask-7)
+
+dobj(arrange-1, things-2)
+det(places-5, the-4)
+prep_on(arrange-1, places-5)
+
+poss(appliances-4, my-2)
+amod(appliances-4, electrical-3)
+dobj(close-1, appliances-4)
+
+det(windows-3, the-2)
+dobj(open-1, windows-3)
+
+poss(bed-3, my-2)
+dobj(cover-1, bed-3)
+
+poss(sofa-3, my-2)
+dobj(cover-1, sofa-3)
+
+poss(laundry-3, my-2)
+dobj(do-1, laundry-3)
+
+poss(table-4, my-3)
+prep_up(tidy-1, table-4)
+
+poss(room-3, my-2)
+dobj(vacuum-1, room-3)
+
+det(can-4, the-2)
+nn(can-4, trash-3)
+dobj(empty-1, can-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, items-3)
+prep_on(pick-1, floor-5)
+
+dobj(fold-1, items-2)
+
+dobj(put-1, items-2)
+advmod(put-1, away-3)
+
+dobj(clear-1, counters-2)
+
+dobj(wipe-1, counters-2)
+
+amod(shelves-2, empty-1)
+
+nn(shelves-2, dust-1)
+
+dobj(re-stock-1, shelves-2)
+
+nn(carpets-2, hoover-1)
+
+dobj(straighten-1, furniture-2)
+
+dobj(make-1, bed-2)
+
+dobj(clean-1, bathtub-2)
+dobj(clean-1, sink-4)
+conj_and(bathtub-2, sink-4)
+
+dobj(clean-1, toilet-2)
+
+dobj(wash-1, floors-2)
+
+dobj(change-1, towels-2)
+
+det(brush-4, a-2)
+nn(brush-4, cleaning-3)
+dobj(pick-1, brush-4)
+
+det(bucket-3, a-2)
+dobj(take-1, bucket-3)
+
+dobj(collect-1, water-2)
+
+det(lotion-3, some-2)
+dep(mixed-1, lotion-3)
+dep(lotion-3, solution-5)
+
+dep(and-1, then-2)
+dep(and-1, clean-3)
+
+dobj(wash-1, dishes-2)
+
+prt(pick-1, up-2)
+det(clothes-4, the-3)
+dobj(pick-1, clothes-4)
+prep_off(pick-1, floor-6)
+
+det(bed-3, the-2)
+dobj(make-1, bed-3)
+
+det(furniture-3, the-2)
+dep(dust-1, furniture-3)
+
+det(floor-3, the-2)
+dobj(vacumn-1, floor-3)
+
+det(counter-3, the-2)
+dobj(clean-1, counter-3)
+
+det(windows-3, the-2)
+dobj(wash-1, windows-3)
+
+det(pillows-4, the-2)
+nn(pillows-4, couch-3)
+dep(fluff-1, pillows-4)
+
+det(trays-4, the-2)
+nn(trays-4, ash-3)
+dobj(empty-1, trays-4)
+

@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0002981" url="http://www.freshpatents.com/Method-of-inducing-nucleation-of-a-material-dt20070816ptan20070186567.php" time="2012-07-12-19:04" support="1" score="0.0017883265278963178" bingtitle="Method Of Inducing Nucleation Of A Material" webtitle="Method Of Inducing Nucleation Of A Material">
+			<query id="000201" bing-rank="186"/>
+	<description>Track keywords without receiving email. ... to obtain vial temperatures of near -5 ... of the solution within the tray. The results are also summarized in Table 6.</description>
+	<body>
+		Free Services  
+ MONITOR KEYWORDS 
+Enter keywords&amp;we&apos;ll notify you when a new patent matches your request (weekly update).
+ ORGANIZER 
+Save&amp;organize patents so you can view them later.
+ CUSTOM RSS 
+Create custom RSS feeds. Track keywords without receiving email.
+ ARCHIVE 
+View the last few months of your Keyword emails.
+ POPULAR PATENTS 
+Most popular patents recently. Top 40.
+ COMPANY PATENTS 
+Patents sorted by company.
+
+ 
+ 
+   Info     Monitor Keywords     Archive     Organizer     Account  |   Prev - Next 
+   SEARCH FreshPatents:       Monitor Keywords  |  Custom RSS 
+
+Method of inducing nucleation of a material 
+ 
+
+ Abstract: Methods of inducing nucleation of a material is provided. The disclosed methods comprise the steps of bringing the material to a temperature near or below a phase transition temperature and altering the pressure to induce nucleation of the material. The disclosed methods are useful in freeze-drying processes, particularly pharmaceutical freeze-drying processes. ...
+
+ Agent: Praxair, Inc. Law Department - M1 557 - Danbury, CT, US
+ Inventors: Theodore Hall Gasteyer , Robert Rex Sever , Balazs Hunek , Nigel Grinter , Melinda Lee Verdone 
+ USPTO Applicaton #: #20070186567 - Class: 62 66 (USPTO)
+
+ 
+
+
+The Patent Description&amp;Claims data below is from USPTO Patent Application 20070186567, Method of inducing nucleation of a material.
+
+   
+ 
+
+
+CROSS REFERENCE TO RELATED APPLICATIONS
+
+[0001]This application claims priority to U.S. provisional patent
+ application Ser. No. 60/771,868 filed on Feb. 10, 2006, the disclosure of
+ which is incorporated by reference herein.
+
+FIELD OF THE INVENTION
+
+[0002]The present invention relates to a nucleation process, and more
+ particularly, to a method of inducing nucleation of a phase transition of
+ a material wherein the material is initially brought to a temperature
+ near or below a phase transition temperature and subsequently
+ de-pressurized so as to induce nucleation of the material.
+
+BACKGROUND OF THE INVENTION
+
+[0003]Controlling the generally random process of nucleation in the
+ freezing stage of a lyophilization or freeze-drying process to both
+ decrease processing time necessary to complete freeze-drying and to
+ increase the product uniformity from vial-to-vial in the finished product
+ would be highly desirable in the art. In a typical pharmaceutical
+ freeze-drying process, multiple vials containing a common aqueous
+ solution are placed on shelves that are cooled, generally at a controlled
+ rate, to low temperatures. The aqueous solution in each vial is cooled
+ below the thermodynamic freezing temperature of the solution and remains
+ in a sub-cooled metastable liquid state until nucleation occurs.
+
+[0004]The range of nucleation temperatures across the vials is distributed
+ randomly between a temperature near the thermodynamic freezing
+ temperature and some value significantly (e.g., up to about 30.degree.
+ C.) lower than the thermodynamic freezing temperature. This distribution
+ of nucleation temperatures causes vial-to-vial variation in ice crystal
+ structure and ultimately the physical properties of the lyophilized
+ product. Furthermore, the drying stage of the freeze-drying process must
+ be excessively long to accommodate the range of ice crystal sizes and
+ structures produced by the natural stochastic nucleation phenomenon.
+
+[0005]Additives have been used to increase the nucleation temperature of
+ sub-cooled solutions. These additives can take many forms. It is well
+ known that certain bacteria (e.g., Pseudomonas syringae) synthesize
+ proteins that help nucleate ice formation in sub-cooled aqueous
+ solutions. Either the bacteria or their isolated proteins can be added to
+ solutions to increase the nucleation temperature. Several inorganic
+ additives also demonstrate a nucleating effect; the most common such
+ additive is silver iodide, AgI. In general, any additive or contaminant
+ has the potential to serve as a nucleating agent. Lyophilization vials
+ prepared in environments containing high particulate levels will
+ generally nucleate and freeze at a lower degree of sub-cooling than vials
+ prepared in low particulate environments.
+
+[0006]All the nucleating agents described above are labeled &quot;additives,&quot;
+ because they change the composition of the medium in which they nucleate
+ a phase transition. These additives are not typically acceptable or
+ desirable for FDA regulated and approved freeze-dried pharmaceutical
+ products. These additives also do not provide control over the time and
+ temperature when the vials nucleate and freeze. Rather, the additives
+ only operate to increase the average nucleation temperature of the vials.
+
+[0007]Ice crystals can themselves act as nucleating agents for ice
+ formation in sub-cooled aqueous solutions. In the &quot;ice fog&quot; method, a
+ humid freeze-dryer is filled with a cold gas to produce a vapor
+ suspension of small ice particles. The ice particles are transported into
+ the vials and initiate nucleation when they contact the fluid interface.
+
+[0008]The &quot;ice fog&quot; method does not control the nucleation of multiple
+ vials simultaneously at a controlled time and temperature. In other
+ words, the nucleation event does not occur concurrently or
+ instantaneously within all vials upon introduction of the cold vapor into
+ the freeze-dryer. The ice crystals will take some time to work their way
+ into each of the vials to initiate nucleation, and transport times are
+ likely to be different for vials in different locations within the
+ freeze-dryer. For large scale industrial freeze-dryers, implementation of
+ the &quot;ice fog&quot; method would require system design changes as internal
+ convection devices may be required to assist a more uniform distribution
+ of the &quot;ice fog&quot; throughout the freeze-dryer. When the freeze-dryer
+ shelves are continually cooled, the time difference between when the
+ first vial freezes and the last vial freezes will create a temperature
+ difference between the vials, which will increase the vial-to-vial
+ non-uniformity in freeze-dried products.
+
+[0009]Vial pre-treatment by scoring, scratching, or roughening has also
+ been used to lower the degree of sub-cooling required for nucleation. As
+ with the other prior art methods, vial pre-treatment also does not impart
+ any degree of control over the time and temperature when the individual
+ vials nucleate and freeze, but instead only increases the average
+ nucleation temperature of all vials.
+
+[0010]Vibration has also been used to nucleate a phase transition in a
+ metastable material. Vibration sufficient to induce nucleation occurs at
+ frequencies above 10 kHz and can be produced using a variety of
+ equipment. Often vibrations in this frequency range are termed
+ &quot;ultrasonic,&quot; although frequencies in the range 10 kHz to 20 kHz are
+ typically within the audible range of humans. Ultrasonic vibration often
+ produces cavitation, or the formation of small gas bubbles, in a
+ sub-cooled solution. In the transient or inertial cavitation regime, the
+ gas bubbles rapidly grow and collapse, causing very high localized
+ pressure and temperature fluctuations. The ability of ultrasonic
+ vibration to induce nucleation in a metastable material is often
+ attributed to the disturbances caused by transient cavitation. The other
+ cavitation regime, termed stable or non-inertial, is characterized by
+ bubbles that exhibit stable volume or shape oscillations without
+ collapse. U.S. Patent Application 20020031577 A1 discloses that
+ ultrasonic vibration can induce nucleation even in the stable cavitation
+ regime, but no explanation of the phenomenon is offered. GB Patent
+ Application 2400901A also discloses that the likelihood of causing
+ cavitation, and hence nucleation, in a solution using vibrations with
+ frequencies above 10 kHz may be increased by reducing the ambient
+ pressure around the solution or dissolving a volatile fluid in the
+ solution.
+
+[0011]An electrofreezing method has also been used in the past to induce
+ nucleation in sub-cooled liquids. Electrofreezing is generally
+ accomplished by delivering relatively high electric fields (.about.1
+ V/nm) in a continuous or pulsed manner between narrowly spaced electrodes
+ immersed in a sub-cooled liquid or solution. Drawbacks associated with an
+ electrofreezing process in typical lyophilization applications include
+ the relative complexity and cost to implement and maintain, particularly
+ for lyophilization applications using multiple vials or containers. Also,
+ electrofreezing cannot be directly applied to solutions containing ionic
+ species (e.g., NaCl).
+
+[0012]Recently, there are studies that examine the concept of
+ `vacuum-induced surface freezing` (See e.g., U.S. Pat. No. 6,684,524). In
+ such `vacuum induced surface freezing`, vials containing an aqueous
+ solution are loaded on a temperature controlled shelf in a freeze-dryer
+ and held initially at about 10 degrees Celsius. The freeze-drying chamber
+ is then evacuated to near vacuum pressure (e.g., 1 mbar) which causes
+ surface freezing of the aqueous solutions to depths of a few millimeters.
+ Subsequent release of vacuum and decrease of shelf temperature below the
+ solution freezing point allows growth of ice crystals from the pre-frozen
+ surface layer through the remainder of the solution. A major drawback for
+ implementing this `vacuum induced surface freezing` process in a typical
+ lyophilization application is the high risk of violently boiling or
+ out-gassing the solution under stated conditions.
+
+[0013]Improved control of the nucleation process can enable the freezing
+ of all unfrozen pharmaceutical solution vials in a freeze-dryer to occur
+ within a more narrow temperature and time range, thereby yielding a
+ lyophilized product with greater uniformity from vial-to-vial.
+ Controlling the minimum nucleation temperature can affect the ice crystal
+ structure formed within the vial and allow for a greatly accelerated
+ freeze-drying process.
+
+[0014]Therefore, a need exists for controlling the random process of
+ nucleation in various freezing processes including the freezing stage of
+ a freeze-drying or lyophilization process to both decrease processing
+ time necessary to complete freeze-drying and improve the product
+ uniformity from vial-to-vial in the finished product. It would therefore
+ be desirable to provide a process that possesses some, or preferably all,
+ of the above characteristics.
+
+SUMMARY OF THE INVENTION
+
+[0015]The present invention may be characterized as a method for inducing
+ nucleation of a phase transition in a material, the method comprising the
+ steps of bringing the material to a temperature near or below a phase
+ transition temperature of the material and decreasing the pressure to
+ induce nucleation of the phase transition in the material.
+
+[0016]The invention may also be characterized as a method of controlling
+ the freezing process of a material comprising the steps of: cooling the
+ material at a prescribed cooling rate; rapidly decreasing the pressure to
+ induce nucleation of freezing within the material; and continuing cooling
+ of the nucleated material to a prescribed final temperature to freeze the
+ material. Depressurization is initiated when the material or solution
+ attains a desired nucleation temperature or at a desired time after
+ initiation of the cooling step.
+
+[0017]The invention may be further characterized as a solidification
+ process comprising the steps of: cooling a material to a temperature near
+ or below a phase transition temperature; rapidly decreasing the pressure
+ proximate the material to induce nucleation within the material; and
+ continuing cooling of the nucleated material to a prescribed final
+ temperature to further solidification.
+
+[0018]Finally, the invention may be characterized as a method of
+ controlling the condensation process of a gas comprising the steps of:
+ cooling the gas to a temperature near or below a phase transition
+ temperature; rapidly decreasing the pressure to induce nucleation within
+ the gas; and continuing cooling of the nucleated gas to a prescribed
+ final temperature to condense the gas.
+
+BRIEF DESCRIPTION OF THE DRAWINGS
+
+[0019]The above and other aspects, features, and advantages of the present
+ invention will be more apparent from the following, more detailed
+ description thereof, presented in conjunction with the following
+ drawings, wherein:
+
+[0020]FIG. 1 is a graph depicting the temperature versus time plot of a
+ solution undergoing a stochastic nucleation process and further showing
+ the range of nucleation temperatures of the solution;
+
+[0021]FIG. 2 is a graph depicting the temperature versus time plot of a
+ solution undergoing an equilibrated cooling process with depressurized
+ nucleation in accordance with the present methods; and
+
+[0022]FIG. 3 is a graph depicting the temperature versus time plot of a
+ solution undergoing a dynamic cooling process with depressurized
+ nucleation in accordance with the present methods.
+
+DETAILED DESCRIPTION OF THE INVENTION
+
+[0023]Nucleation is the onset of a phase transition in a small region of a
+ material. For example, the phase transition can be the formation of a
+ crystal from a liquid. The crystallization process (i.e., formation of
+ solid crystals from a solution) often associated with freezing of a
+ solution starts with a nucleation event followed by crystal growth.
+
+[0024]In the crystallization process, nucleation is the step where
+ selected molecules dispersed in the solution or other material start to
+ gather to create clusters in the nanometer scale as to become stable
+ under the current operating conditions. These stable clusters constitute
+ the nuclei. The clusters need to reach a critical size in order to become
+ stable nuclei. Such critical size is usually dictated by the operating
+ conditions such as temperature, contaminants, degree of supersaturation,
+ etc. and can vary from one sample of the solution to another. It is
+ during the nucleation event that the atoms in the solution arrange in a
+ defined and periodic manner that defines the crystal structure.
+
+[0025]Crystal growth is the subsequent growth of the nuclei that succeed
+ in achieving the critical cluster size. Depending upon the conditions
+ either nucleation or crystal growth may predominate over the other, and
+ as a result, crystals with different sizes and shapes are obtained.
+ Control of crystal size and shape constitutes one of the main challenges
+ in industrial manufacturing, such as for pharmaceuticals.
+
+[0026]The present method relates to a process for controlling the time
+ and/or temperature at which a nucleated phase transition occurs in a
+ material. In freezing applications, the probability that a material will
+ spontaneously nucleate and begin changing phase is related to the degree
+ of sub-cooling of the material and the absence or presence of
+ contaminants, additives, structures, or disturbances that provide a site
+ or surface for nucleation.
+
+[0027]The freezing or solidification step is particularly important in the
+ freeze-drying process where existing techniques result in nucleation
+ temperature differences across a multitude of vials or containers. The
+ nucleation temperature differences tend to produce a non-uniform product
+ and an excessively long drying time. The present methods, on the other
+ hand, provide a higher degree of process control in batch solidification
+ processes (e.g., freeze-drying) and produce a product with more uniform
+ structure and properties. Unlike some of the prior art techniques to
+ induce nucleation, the present methods require minimal equipment and
+ operational changes for implementation.
+
+[0028]In principle, the present methods can be applied to any material
+ processing step that involves a nucleated phase transition. Examples of
+ such processes include the freezing of a liquid, crystallization of ice
+ from an aqueous solution, crystallization of polymers and metals from
+ melts, crystallization of inorganic materials from supersaturated
+ solutions, crystallization of proteins, artificial snow production,
+ deposition of ice from vapor, food freezing, freeze concentration,
+ fractional crystallization, cryopreservation, or condensation of vapors
+ to liquids. From a conceptual standpoint, the present methods may also be
+ applied to phase transitions such as melting and boiling.
+
+[0029]The presently disclosed method represents an improvement to current
+ pharmaceutical lyophilization processes. For example, within a large
+ industrial freeze-dryer there can be over 100,000 vials containing a
+ pharmaceutical product that needs to be frozen and dried. Current
+ practice in the industry is to cool the solution to a very high degree so
+ that the solution in all vials or containers in the freeze-dryer are
+ guaranteed to freeze. The content of each vial or container, however,
+ freezes randomly over a range of temperatures below the freezing point,
+ because the nucleation process is uncontrolled.
+
+[0030]Turning now to the Figures, and in particular FIG. 1, there is
+ depicted a temperature versus time plot of six vials of an aqueous
+ solution undergoing a conventional stochastic nucleation process showing
+ the typical range of nucleation temperatures of the solution within the
+ vials (11,12,13,14,15, and 16). As seen therein, the vial contents have a
+ thermodynamic freezing temperature of about 0.degree. C. yet the solution
+ within each vial naturally nucleates over the broad temperature range of
+ about -7.degree. C. to -20 C. or more, as highlighted by area 18. Plot 19
+ represents the shelf temperature inside the freeze-drying chamber.
+
+[0031]Conversely, FIG. 2 and FIG. 3 depict temperature versus time plots
+ of a solution undergoing a freezing process with depressurized nucleation
+ in accordance with the present methods. In particular, FIG. 2 shows the
+ temperature versus time plot of six vials of an aqueous solution
+ undergoing an equilibrated cooling process (See Example 2) with
+ nucleation induced via depressurization of the chamber (21,22,23,24,25,
+ and 26). The vial contents have a thermodynamic freezing temperature of
+ about 0.degree. C. yet the solution within each vial nucleates at the
+ same time upon depressurization and within a very narrow temperature
+ range (i.e., -40.degree. C. to -5.degree. C.) as seen in area 28. Plot 29
+ represents the shelf temperature inside the freeze-drying chamber and
+ depicts an equilibrated freezing process, one where the temperature of
+ the shelves is held more or less steady prior to depressurization.
+
+[0032]Similarly, FIG. 3 shows the temperature versus time plot of three
+ vials of an aqueous solution undergoing a dynamic cooling process (See
+ Example 7) with nucleation induced via depressurization of the chamber
+ (31,32, and 33). Again, the vial contents have a thermodynamic freezing
+ temperature of about 0.degree. C. yet the solution within each vial
+ nucleates at the same time upon depressurization at a temperature range
+ of about -7.degree. C. to -10.degree. C. as seen in area 38. Plot 39
+ represents the shelf temperature inside the freeze-drying chamber and
+ generally depicts a dynamic cooling process, one where the temperature of
+ the shelves is actively lowered during or prior to depressurization.
+
+[0033]As illustrated in the Figures, the present methods provide improved
+ control of the nucleation process by enabling the freezing of
+ pharmaceutical solutions in a freeze-dryer to occur within a more narrow
+ temperature range (e.g., about 0.degree. C. to -10.degree. C.) and/or
+ concurrently, thereby yielding a lyophilized product with greater
+ uniformity from vial-to-vial. While not demonstrated, it is foreseeable
+ that the induced nucleation temperature range may even extend slightly
+ above the phase transition temperature and may also extend to about
+ 40.degree. C. of sub-cooling.
+
+[0034]Another benefit associated with the present methods is that by
+ controlling the lowest nucleation temperature and/or the precise time of
+ nucleation one can affect the ice crystal structure formed within the
+ frozen vials or containers. The ice crystal structure is a variable that
+ affects the time it takes for the ice to sublimate. Thus, by controlling
+ the ice crystal structure, it is possible to greatly accelerate the
+ overall freeze-drying process.
+
+[0035]In a broad sense, the presently disclosed methods for inducing
+ nucleation of a phase transition within material comprise the steps of:
+ (i) cooling the material to a temperature near or below a phase
+ transition temperature of the material; and (ii) rapidly decreasing the
+ pressure to induce nucleation of the material. Each of these important
+ steps will be discussed in more detail below.
+
+Step 1--Cooling The Material
+
+[0036]Illustrative materials useful in the present method include pure
+ substances, gases, suspensions, gels, liquids, solutions, mixtures, or
+ components within a solution or mixture. Suitable materials for use in
+ the present method may include, for example, pharmaceutical materials,
+ biopharmaceutical materials, foodstuffs, chemical materials, and may
+ include products such as wound-care products, cosmetics, veterinary
+ products and in vivo/in vitro diagnostics related products and the like.
+ When the material is a liquid, it may be desirable to dissolve gases into
+ the liquid. Liquids in a controlled gas environment will generally have
+ gases dissolved in them.
+
+[0037]Other illustrative materials useful in the present method include
+ biological or biopharmaceutical material such as tissues, organs and
+ multi-cellular structures. For certain biological and pharmaceutical
+ applications, the material may be a solution or mixture that includes: a
+ live or attenuated viruses; nucleic acids; monoclonal antibodies;
+ polyclonal antibodies; biomolecules; nonpeptide analogues; peptides,
+ including polypeptides, peptide mimetics and modified peptides; proteins,
+ including fusion and modified proteins; RNA, DNA and subclasses thereof;
+ oligonucleotides; viral particles; and similar such materials or
+ components thereof.
+
+[0038]Pharmaceutical or biopharmaceutical solutions contained in vials or
+ containers for freeze-drying would be a good example of a material that
+ would benefit from the present method. The solutions are mostly water and
+ are substantially incompressible. Such pharmaceutical or
+ biopharmaceutical solutions are also highly pure and generally free of
+ particulates that may form sites for nucleation. Uniform nucleation
+ temperature is important to creating a consistent and uniform ice crystal
+ structure from vial to vial or container to container. The ice crystal
+ structure developed also greatly affects the time required for drying.
+
+[0039]As applied to a freeze-drying process, the material is preferably
+ placed in a chamber, such as a freeze-drying chamber. Preferably, the
+ chamber is configured so as to allow control of the temperature,
+ pressure, and gas atmosphere within the chamber. The gas atmosphere may
+ include, but is not limited to: argon, nitrogen, helium, air, water
+ vapor, oxygen, carbon dioxide, carbon monoxide, nitrous oxide, nitric
+ oxide, neon, xenon, krypton, methane, hydrogen, propane, butane, and the
+ like, including permissible mixtures thereof. The preferred gas
+ atmosphere comprises an inert gas, such as argon, at a pressure between
+ about 7 to about 50 psig or more. Temperatures within the freeze-dryer
+ chamber are often dictated by the freeze-drying process and are easily
+ controlled via the use of a heat transfer fluid that cools or warms the
+ shelves within the chamber to drive the temperature of the vials or
+ containers and the material within each vial or container.
+
+[0040]In accordance with the present methods, the material is cooled to a
+ temperature near or below its phase transition temperature. In the case
+ of an aqueous based solution undergoing a freeze-drying process, the
+ phase transition temperature is the thermodynamic freezing point of the
+ solution. Where the solution reaches temperatures below the thermodynamic
+ freezing point of the solution, it is said to be sub-cooled. When applied
+ to a freezing process of an aqueous-based solution, the present method is
+ effective when the degree of sub-cooling ranges from near or below the
+ phase transition temperature up to about 40.degree. C. of sub-cooling,
+ and more preferably between about 3.degree. C. of sub-cooling and
+ 10.degree. C. of sub-cooling. In some of the examples described below,
+ the present method of inducing nucleation works desirably even where the
+ solution has only about 1.degree. C. of sub-cooling below its
+ thermodynamic freezing point.
+
+[0041]Where the material is at a temperature below its phase transition
+ temperature, it is often referred to as being in a metastable state. A
+ metastable state is an unstable and transient, but relatively long-lived,
+ state of a chemical or biological system. A metastable material
+ temporarily exists in a phase or state that is not its equilibrium phase
+ or state. In the absence of any changes in the material or its
+ environment, a metastable material will eventually transition from its
+ non-equilibrium state to its equilibrium state. Illustrative metastable
+ materials include super-saturated solutions and sub-cooled liquids.
+
+[0042]A typical example of a metastable material would be liquid water at
+ atmospheric pressure and a temperature of -10.degree. C. With a normal
+ freezing point of 0.degree. C., liquid water should not thermodynamically
+ exist at this temperature and pressure, but it can exist in the absence
+ of a nucleating event or structure to begin the ice crystallization
+ process. Extremely pure water can be cooled to very low temperatures
+ (-30.degree. C. to -40.degree. C.) at atmospheric pressure and still
+ remain in the liquid state. Such sub-cooled water is in a
+ non-equilibrated thermodynamically metastable state. It only lacks a
+ nucleation event to cause it to begin the phase transition whereby it
+ will return to equilibrium.
+
+[0043]As discussed above, the present methods of inducing nucleation of a
+ phase transition within a material or freezing a material can be utilized
+ with various cooling profiles, including, for example, an equilibrated
+ cooling environment or a dynamic cooling environment (See FIGS. 2 and 3).
+
+Step 2--Rapidly Decreasing The Pressure
+
+[0044]When the material has reached the desired temperature near or below
+ the phase transition temperature, the chamber is quickly or rapidly
+ depressurized. This depressurization triggers the nucleation and phase
+ transition of the solution within the vials or containers. In the
+ preferred embodiment, chamber depressurization is accomplished by opening
+ or partially opening a large control valve that separates the high
+ pressure chamber from either the ambient environment or a lower pressure
+ chamber or environment. The elevated pressure is quickly lowered by mass
+ flow of gas atmosphere out of the chamber. The depressurization needs to
+ be fairly fast to induce the nucleation. The depressurization should be
+ finished in several seconds or less, preferably 40 seconds or less, more
+ preferably 20 seconds or less, and most preferably 10 seconds or less.
+
+[0045]In typical freeze-drying applications, the pressure difference
+ between the initial chamber pressure and the final chamber pressure,
+ after depressurization, should be greater than about 7 psi, although
+ smaller pressure drops may induce nucleation in some situations. Most
+ commercial freeze-dryers can readily accommodate the range of pressure
+ drops needed to control nucleation. Many freeze-dryers are designed with
+ pressure ratings in excess of 25 psig to withstand conventional
+ sterilization procedures employing saturated steam at 121.degree. C. Such
+ equipment ratings provide an ample window to induce nucleation following
+ protocols that depressurize from starting pressures above ambient
+ pressure or the pressure in the surrounding environment. The elevated
+ pressure and subsequent depressurization can be achieved through any
+ known means (e.g., pneumatic, hydraulic, or mechanical). In the preferred
+ embodiments, operating pressures for the present methods should remain
+ below the supercritical pressure of any applied gas, and subjecting the
+ material to extreme low pressures (i.e., about 10 mTorr or less) should
+ be avoided during nucleation of the material.
+
+[0046]While not wishing to be bound to any particular mechanism, one
+ possible mechanism to explain the controlled nucleation observed in the
+ practice of the present method is that gases in solution in the material
+ come out of solution upon depressurization and form bubbles that nucleate
+ the material. An initial elevated pressure increases the concentration of
+ dissolved gas in the solution. The rapid decrease in pressure after
+ cooling reduces the gas solubility, and the subsequent release of gas
+ from the sub-cooled solution triggers nucleation of the phase transition.
+
+[0047]Another possible mechanism is that the temperature decrease of the
+ gas proximate the material during depressurization causes a cold spot on
+ the surface of the material that initiates nucleation. Another possible
+ mechanism is that the depressurization causes evaporation of some liquid
+ in the material and the resultant cooling from the endothermic
+ evaporation process may initiate the nucleation. Another possible
+ mechanism is that the depressurized cold gas proximate the material
+ freezes some vapor either in equilibrium with the material prior to
+ depressurization or liberated from the material by evaporation during
+ depressurization; the resultant solid particles re-enter the material and
+ act as seeds or surfaces to initiate nucleation. One or more of these
+ mechanisms may contribute to initiation of nucleation of freezing or
+ solidification to differing extents depending on the nature of the
+ material, its environment and the phase transition being nucleated.
+
+[0048]The process may be carried out entirely at a pressure greater than
+ ambient pressure or over a range of pressures spanning ambient pressure.
+ For example, initial chamber pressure can be above ambient pressure and
+ the final chamber pressure, after depressurization, can be above ambient
+ pressure but less than the initial chamber pressure; the initial chamber
+ pressure can be above ambient pressure and the final chamber pressure,
+ after depressurization, can be about ambient pressure or slightly below
+ ambient pressure.
+
+[0049]The rate and magnitude of the pressure drop are also believed to be
+ an important aspect of the present methods. Experiments have shown that
+ nucleation will be induced where the pressure drop (.DELTA.P) is greater
+ than about 7 psi. Alternatively, the magnitude of the pressure drop may
+ be expressed as an absolute pressure ratio, R=P.sub.i/P.sub.f, where
+ P.sub.i is initial absolute pressure and P.sub.f is final absolute
+ pressure. It is believed that nucleation may be induced upon
+ depressurization where the absolute pressure ratio, R, is greater than
+ about 1.2 in many practical applications of the present methods. The rate
+ of pressure drop also plays an important role in the present methods. One
+ method of characterizing the rate of pressure drop is through use of a
+ parameter, A, where A=.DELTA.P/.DELTA.t. Again, it is surmised that
+ nucleation will be induced for values of A greater than a prescribed
+ value, such as about 0.2 psi/sec. Empirical data through experimentation
+ should aid one to ascertain the preferred pressure drop and rate of
+ pressure drop.
+
+[0050]The following examples highlight various aspects and features of the
+ presently disclosed methods of inducing nucleation in a material and are
+ not to be taken in a limiting sense. Rather, these examples are
+ illustrative only and the scope of the invention should be determined
+ only with respect to the claims, appended hereto.
+
+EXAMPLES
+
+[0051]All examples described herein were performed in a pilot-scale VirTis
+ 51-SRC freeze-dryer having four shelves with approximately 1.0 m.sup.2
+ total shelf space and an internal condenser. This unit was retrofitted to
+ hold positive pressures of up to about 15 psig. A 1.5&apos;&apos; diameter circular
+ opening also was added to the rear wall of the freeze-drying chamber with
+ 1.5&apos;&apos; diameter stainless steel tubing extending from the hole through the
+ rear wall insulation to emerge from the back of the freeze-dryer. Two
+ 1.5&apos;&apos; full-port, air-actuated ball valves were attached to this tubing
+ via sanitary fittings. One ball valve allowed gas to flow into the
+ freeze-drying chamber and thereby provide positive pressures up to 15
+ psig. The second ball valve allowed gas to flow out of the freeze-drying
+ chamber and thereby reduce chamber pressure to atmospheric conditions (0
+ psig). All refrigeration of the freeze-dryer shelves and condenser was
+ accomplished via circulation of Dynalene MV heat transfer fluid cooled by
+ liquid nitrogen using the Praxair NCool.TM.-HX system.
+
+[0052]All solutions were prepared in a class 100 clean room. The
+ freeze-dryer was positioned with the door, shelves, and controls all
+ accessible from the clean room while the other components (pumps,
+ heaters, etc.) were located in a non-clean room environment. All
+ solutions were prepared with HPLC grade water (Fisher Scientific,
+ filtered through 0.10 .mu.m membrane). The final solutions were filtered
+ through a 0.22 .mu.m membrane prior to filling the vials or
+ lyophilization containers. All gases were supplied via cylinders and were
+ filtered through 0.22 .mu.m filters to remove particulates. The glass
+ containers (5 mL vials and 60 mL bottles) were obtained pre-cleaned for
+ particulates from Wheaton Science Products. Pharmaceutically acceptable
+ carriers were used where appropriate. The above steps were taken to
+ ensure the materials and methods met conventional pharmaceutical
+ manufacturing standards for particulates, which act as nucleating agents.
+
+[0053]As used herein, &quot;pharmaceutically acceptable carrier&quot; includes any
+ and all solvents, dispersion media, antioxidants, salts, coatings,
+ surfactants, preservatives (e.g., methyl or propyl p-hydroxybenzoate,
+ sorbic acid, antibacterial agents, antifungal agents), isotonic agents,
+ solution retarding agents (e.g., paraffin), absorbents (e.g., kaolin
+ clay, bentonite clay), drug stabilizers (e.g., sodium lauryl sulphate),
+ gels, binders (e.g., syrup, acacia, gelatin, sorbitol, tragacanth,
+ polyvinyl pyrrolidone, carboxy-methyl-cellulose, alginates), excipients
+ (e.g., lactose, milk sugar, polyethylene glycol), disintegration agent
+ (e.g., agar-agar, starch, lactose, calcium phosphate, calcium carbonate,
+ alginic acid, sorbitol, glycine), wetting agents (e.g., cetyl alcohol,
+ glycerol monostearate), lubricants, absorption accelerators (e.g.,
+ quaternary ammonium salts), edible oils (e.g., almond oil, coconut oil,
+ oily esters or propylene glycol), sweetening agents, flavoring agents,
+ coloring agents, fillers, (e.g., starch, lactose, sucrose, glucose,
+ mannitol), tabletting lubricants (e.g., magnesium stearate, starch,
+ glucose, lactose, rice flower, chalk), carriers for inhalation (e.g.,
+ hydrocarbon propellants), buffering agents, or such like materials and
+ combinations thereof, as would be known to one of ordinary skill in the
+ art.
+
+[0054]For the experimental conditions described herein and all
+ lyophilization formulations studied, stochastic nucleation was typically
+ observed to occur at container temperatures between about -8.degree. C.
+ and -20.degree. C. and occasionally as warm as -5.degree. C. The
+ containers could generally be held at temperatures warmer than -8.degree.
+ C. for long periods of time without nucleating. The onset of nucleation
+ and subsequent crystal growth (i.e., freezing) was determined by
+ temperature measurement as the point at which the container temperature
+ quickly increased in response to the exothermic latent heat of fusion.
+ The initiation of freezing also could be visually determined through a
+ sight-glass on the freeze-dryer chamber door.
+
+Example 1
+
+Controlling the Nucleation Temperature
+
+[0055]Four separate vials were filled with 2.5 mL of 5 wt % mannitol
+ solution. The predicted thermodynamic freezing point of the 5 wt %
+ mannitol solution is approximately -0.5.degree. C. The four vials were
+ placed on a freeze-dryer shelf in close proximity to one another. The
+ temperatures of the four vials were monitored using surface mounted
+ thermocouples. The freeze-dryer was pressurized with argon to 14 psig.
+
+[0056]The freeze-dryer shelf was cooled to obtain vial temperatures of
+ between approximately -1.3.degree. C. and about -2.3.degree. C.
+ (.+-.1.degree. C. measurement accuracy of the thermocouples). The
+ freeze-dryer was then depressurized from about 14 psig to about
+ atmospheric pressure in less than five seconds to induce nucleation of
+ the solution within the vials. All four vials nucleated and began
+ freezing immediately after depressurization. Results are summarized in
+ Table 1 below.
+
+[0057]As seen in Table 1, the controlled nucleation temperatures in this
+ example (i.e., Initial Vial Temperatures) are quite close to the
+ predicted thermodynamic freezing point of the solution. Thus the present
+ method allows control of the nucleation to occur in solutions that have a
+ very low degree of sub-cooling or at nucleation temperatures near or only
+ slightly colder than their freezing points.
+
+TABLE-US-00001
+ TABLE 1
+ Controlling the Nucleation Temperature.
+ Initial Vial
+ Temperature Pressure Depressurization
+ Vial # Solution Atmos [.degree. C.] Drop [psi] Outcome
+ 1 2.5 mL of 5 wt % mannitol Argon -2.3 14 Nucleation
+ 2 2.5 mL of 5 wt % mannitol Argon -1.3 14 Nucleation
+ 3 2.5 mL of 5 wt % mannitol Argon -2.1 14 Nucleation
+ 4 2.5 mL of 5 wt % mannitol Argon -1.7 14 Nucleation
+
+Example 2
+
+Controlling the Nucleation Temperature
+
+[0058]In this example, ninety-five vials were filled with 2.5 mL of 5 wt %
+ mannitol solution. The thermodynamic freezing point of the 5 wt %
+ mannitol solution is approximately -0.5.degree. C. The ninety-five vials
+ were placed on a freeze-dryer shelf in close proximity to one another.
+ The temperatures of six vials positioned at different locations in the
+ freeze-dryer shelf were continuously monitored using surface mounted
+ thermocouples. The freeze-dryer was pressurized in an argon atmosphere to
+ about 14 psig. The freeze-dryer shelf was then cooled to obtain vial
+ temperatures of near -5.degree. C. The freeze-dryer was then
+ depressurized from about 14 psig to about atmospheric pressure in less
+ than five seconds to induce nucleation of the solution within the vials.
+ All ninety-five vials were visually observed to nucleate and begin
+ freezing immediately after depressurization. Thermocouple data for the
+ six monitored vials confirmed the visual observation. The results are
+ summarized in Table 2.
+
+[0059]As seen therein, controlled nucleation temperatures in this example
+ (i.e., Initial Vial Temperatures) are somewhat below the predicted
+ thermodynamic freezing point of the solution. Thus the present method
+ allows control of the nucleation to occur in solutions that have a
+ moderate degree of sub-cooling. This example also demonstrates
+ scalability of the present method to a multiple vial application.
+
+TABLE-US-00002
+ TABLE 2
+ Controlling the Nucleation Temperature.
+ Initial Vial
+ Temperature Pressure Depressurization
+ Vial # Solution Atmos [.degree. C.] Drop [psi] Outcome
+ 1 2.5 mL of 5 wt % mannitol Argon -4.2 14 Nucleation
+ 2 2.5 mL of 5 wt % mannitol Argon -4.4 14 Nucleation
+ 3 2.5 mL of 5 wt % mannitol Argon -4.6 14 Nucleation
+ 4 2.5 mL of 5 wt % mannitol Argon -4.4 14 Nucleation
+ 5 2.5 mL of 5 wt % mannitol Argon -4.6 14 Nucleation
+ 6 2.5 mL of 5 wt % mannitol Argon -5.1 14 Nucleation
+
+Example 3
+
+Controlling the Depressurization Magnitude
+
+[0060]In this example, multiple vials were filled with 2.5 mL of 5 wt %
+ mannitol solution. Again, the predicted thermodynamic freezing point of
+ the 5 wt % mannitol solution is approximately -0.5.degree. C. For each
+ test run, the vials were placed on a freeze-dryer shelf in close
+ proximity to one another. As with the earlier described examples, the
+ temperatures of vials were monitored using surface mounted thermocouples.
+ The argon atmosphere in the freeze-dryer was pressurized to differing
+ pressures and the freeze-dryer shelf was cooled to obtain vial
+ temperatures of about -5.degree. C. In each test run, the freeze-dryer
+ was then rapidly depressurized (i.e., in less than five seconds) from the
+ selected pressure to atmospheric pressure in an effort to induce
+ nucleation of the solution within the vials. Results are summarized in
+ Table 3.
+
+[0061]As seen in Table 3, the controlled nucleation occurred where the
+ pressure drop was about 7 psi or greater and the nucleation temperature
+ (i.e., initial vial temperature) was between about -4.7.degree. C. and
+ -5.8.degree. C.
+
+TABLE-US-00003
+ TABLE 3
+ Effect of Depressurization Magnitude
+ Pressure
+ Initial Vial Drop Depressurization
+ Vial # Solution Atmos Temperature [.degree. C.] [psi] Outcome
+ 1 2.5 mL of 5 wt % mannitol Argon -4.7 7 Nucleation
+ 2 2.5 mL of 5 wt % mannitol Argon -5.1 7 Nucleation
+ 3 2.5 mL of 5 wt % mannitol Argon -5.3 7 Nucleation
+ 4 2.5 mL of 5 wt % mannitol Argon -5.6 7 No Nucleation
+ 5 2.5 mL of 5 wt % mannitol Argon -5.6 7 Nucleation
+ 6 2.5 mL of 5 wt % mannitol Argon -5.8 7 Nucleation
+ 7 2.5 mL of 5 wt % mannitol Argon -5.4 6 No Nucleation
+ 8 2.5 mL of 5 wt % mannitol Argon -5.7 6 No Nucleation
+ 9 2.5 mL of 5 wt % mannitol Argon -5.8 6 No Nucleation
+ 10 2.5 mL of 5 wt % mannitol Argon -5.1 5 No Nucleation
+ 11 2.5 mL of 5 wt % mannitol Argon -5.4 5 No Nucleation
+ 12 2.5 mL of 5 wt % mannitol Argon -5.5 5 No Nucleation
+ 13 2.5 mL of 5 wt % mannitol Argon -4.7 4 No Nucleation
+ 14 2.5 mL of 5 wt % mannitol Argon -5.1 4 No Nucleation
+ 15 2.5 mL of 5 wt % mannitol Argon -5.3 4 No Nucleation
+
+Example 4
+
+Controlling the Depressurization Rates
+
+[0062]For this example, multiple vials were filled with about 2.5 mL of 5
+ wt % mannitol solution having a predicted thermodynamic freezing point of
+ approximately -0.5.degree. C. For each test run of varying
+ depressurization time, the vials were placed on a freeze-dryer shelf in
+ close proximity to one another. As with the earlier described examples,
+ the temperatures of vials were monitored using surface mounted
+ thermocouples. Like the above-described examples, the argon atmosphere in
+ the freeze-dryer was pressurized to about 14 psig and the shelf was
+ cooled to obtain vial temperatures of approximately -5.degree. C. In each
+ test run, the freeze-dryer was then depressurized at different
+ depressurization rates from 14 psig to atmospheric pressure in an effort
+ to induce nucleation of the solution within the vials.
+
+[0063]To study the effect of depressurization rate or depressurization
+ time, a restricting ball valve was placed on the outlet of the
+ depressurization control valve at the rear of the freeze-dryer. When the
+ restricting valve is completely open, depressurization from about 14 psig
+ to about 0 psig is accomplished in approximately 2.5 seconds. By only
+ partially closing the restricting valve, it is possible to variably
+ increase the chamber depressurization time. Using the restricting ball
+ valve, several test runs were performed with the freeze-dryer chamber
+ depressurized at differing rates to ascertain or determine the effect of
+ depressurization rate on nucleation. The results are summarized in Table
+ 4.
+
+TABLE-US-00004
+ TABLE 4
+ Effect of Depressurization Time
+ Initial Vial Pressure Time Depressurization
+ Vial # Solution Atmos Temp [.degree. C.] Drop [psi] [sec] Outcome
+ 1 2.5 mL of 5 wt % mannitol Argon -4.6 14 300 No Nucleation
+ 2 2.5 mL of 5 wt % mannitol Argon -5.4 14 300 No Nucleation
+ 3 2.5 mL of 5 wt % mannitol Argon -5.8 14 300 No Nucleation
+ 4 2.5 mL of 5 wt % mannitol Argon -4.6 14 200 No Nucleation
+ 5 2.5 mL of 5 wt % mannitol Argon -5.4 14 200 No Nucleation
+ 6 2.5 mL of 5 wt % mannitol Argon -5.4 14 200 No Nucleation
+ 7 2.5 mL of 5 wt % mannitol Argon -4.6 14 100 No Nucleation
+ 8 2.5 mL of 5 wt % mannitol Argon -5.2 14 100 No Nucleation
+ 9 2.5 mL of 5 wt % mannitol Argon -5.2 14 100 No Nucleation
+ 10 2.5 mL of 5 wt % mannitol Argon -4.7 14 60 No Nucleation
+ 11 2.5 mL of 5 wt % mannitol Argon -5.1 14 60 No Nucleation
+ 12 2.5 mL of 5 wt % mannitol Argon -5.1 14 60 No Nucleation
+ 13 2.5 mL of 5 wt % mannitol Argon -5.1 14 50 No Nucleation
+ 14 2.5 mL of 5 wt % mannitol Argon -5.3 14 50 No Nucleation
+ 15 2.5 mL of 5 wt % mannitol Argon -4.9 14 50 No Nucleation
+ 16 2.5 mL of 5 wt % mannitol Argon -5.4 14 42 No Nucleation
+ 17 2.5 mL of 5 wt % mannitol Argon -5.5 14 42 No Nucleation
+ 18 2.5 mL of 5 wt % mannitol Argon -5.0 14 42 No Nucleation
+ 19 2.5 mL of 5 wt % mannitol Argon -5.1 14 32 Nucleation
+ 20 2.5 mL of 5 wt % mannitol Argon -5.7 14 32 Nucleation
+ 21 2.5 mL of 5 wt % mannitol Argon -5.6 14 32 Nucleation
+ 22 2.5 mL of 5 wt % mannitol Argon -4.7 14 13 Nucleation
+ 23 2.5 mL of 5 wt % mannitol Argon -5.3 14 13 Nucleation
+ 24 2.5 mL of 5 wt % mannitol Argon -5.5 14 13 Nucleation
+
+[0064]As seen in Table 4, nucleation only occurred where the
+ depressurization time was less than 42 seconds, the pressure drop was
+ about 14 psi or greater and the nucleation temperature (i.e., initial
+ vial temperature) was between about -4.6.degree. C. and about
+ -5.8.degree. C. These results indicate that the depressurization needs to
+ be accomplished relatively quickly for the method to be effective.
+
+Example 5
+
+Controlling the Gas Atmosphere
+
+[0065]Again, multiple vials were each filled with about 2.5 mL of 5 wt %
+ mannitol solution and placed on a freeze-dryer shelf in close proximity
+ to one another. As with earlier described examples, the temperature of
+ the test vials were monitored using surface mounted thermocouples. For
+ the different test runs, the gas atmosphere in the freeze-dryer was
+ varied always maintaining a positive pressure of about 14 psig. In this
+ example, the freeze-dryer shelf was cooled to obtain vial temperatures of
+ approximately -5.degree. C. to -7.degree. C. In each test run, the
+ freeze-dryer was then rapidly depressurized from about 14 psig to
+ atmospheric pressure in an effort to induce nucleation of the solution
+ within the vials. The results are summarized in Table 5.
+
+[0066]As seen therein, controlled nucleation occurred in all gas
+ atmospheres except for helium gas atmosphere where the pressure drop was
+ about 14 psi and the nucleation temperature (i.e., initial vial
+ temperature) was between about -4.7.degree. C. and about -7.4.degree. C.
+ Although not shown in the examples, it is believed that alternate
+ conditions will likely enable controlled nucleation in a helium
+ atmosphere.
+
+TABLE-US-00005
+ TABLE 5
+ Effect of Gas Atmosphere Composition
+ Initial Vial
+ Temperature Pressure Depressurization
+ Vial # Solution Atmos [.degree. C.] Drop [psi] Outcome
+ 1 2.5 mL of 5 wt % mannitol Argon -4.9 14 Nucleation
+ 2 2.5 mL of 5 wt % mannitol Argon -5.2 14 Nucleation
+ 3 2.5 mL of 5 wt % mannitol Nitrogen -4.7 14 Nucleation
+ 4 2.5 mL of 5 wt % mannitol Nitrogen -5.1 14 Nucleation
+ 5 2.5 mL of 5 wt % mannitol Xenon -4.8 14 Nucleation
+ 6 2.5 mL of 5 wt % mannitol Xenon -5.0 14 Nucleation
+ 7 2.5 mL of 5 wt % mannitol Air -7.4 14 Nucleation
+ 8 2.5 mL of 5 wt % mannitol Air -7.2 14 Nucleation
+ 9 2.5 mL of 5 wt % mannitol Helium -5.8 14 No Nucleation
+ 10 2.5 mL of 5 wt % mannitol Helium -5.5 14 No Nucleation
+
+Example 6
+
+Large Volume Solutions
+
+[0067]In this example, six lyophilization bottles (60 mL capacity) were
+ filled with about 30 mL of 5 wt % mannitol solution having a predicted
+ thermodynamic freezing point of approximately -0.5.degree. C. The six
+ lyophilization bottles were placed on a freeze-dryer shelf in close
+ proximity to one another. The temperature of six bottles positioned at
+ different locations in the freeze-dryer shelf was monitored using surface
+ mounted thermocouples. The freeze-dryer was pressurized in an argon
+ atmosphere to about 14 psig. The freeze-dryer shelf was then cooled to
+ obtain bottle temperatures of near -5.degree. C. The freeze-dryer was
+ then depressurized from 14 psig to about atmospheric pressure in less
+ than five seconds to induce nucleation of the solution within the
+ bottles. The results are summarized in Table 6.
+
+[0068]In a separate experiment, a plastic bulk freeze-drying tray (Gore
+ LYOGUARD, 1800 mL capacity) was filled with about 1000 mL of 5 wt %
+ mannitol solution. The tray was obtained pre-cleaned to meet USP low
+ particulate requirements. The tray was placed on a freeze-dryer shelf,
+ and the temperature of the tray was monitored by a thermocouple mounted
+ on the exterior surface of the tray near the center of one side. The
+ freeze-dryer shelf was then cooled to obtain a tray temperature of near
+ -7.degree. C. The freeze-dryer was then depressurized from 14 psig to
+ about atmospheric pressure in less than five seconds to induce nucleation
+ of the solution within the tray. The results are also summarized in Table
+ 6.
+
+[0069]Like the above-described examples, all containers nucleated and
+ began freezing immediately after depressurization. Also like the
+ above-described examples, the nucleation temperatures (i.e., Container
+ Temperatures) in this example were very much controllable to be somewhat
+ near the thermodynamic freezing temperature of the solution. More
+ importantly, this example illustrates that the present method allows
+ control of the nucleation to occur in larger volume solutions and various
+ container formats. It should be noted that one would expect the efficacy
+ of the depressurization method to improve as formulation volume
+ increases, because the nucleation event is more likely to occur when more
+ molecules are present to aggregate and form critical nuclei.
+
+TABLE-US-00006
+ TABLE 6
+ Effect of Solution Volume and Container Type
+ Container
+ Temperature Pressure Depressurization
+ Container Solution Atmos [.degree. C.] Drop [psi] Outcome
+ Bottle #1 30 mL of 5 wt % mannitol Argon -5.3 14 Nucleation
+ Bottle #2 30 mL of 5 wt % mannitol Argon -5.1 14 Nucleation
+ Bottle #3 30 mL of 5 wt % mannitol Argon -5.9 14 Nucleation
+ Bottle #4 30 mL of 5 wt % mannitol Argon -5.2 14 Nucleation
+ Bottle #5 30 mL of 5 wt % mannitol Argon -5.9 14 Nucleation
+ Bottle #6 30 mL of 5 wt % mannitol Argon -6.1 14 Nucleation
+ Tray 1000 mL of 5 wt % mannitol Argon -6.9 14 Nucleation
+
+Example 7
+
+Dynamic Cooling vs. Equilibrated Cooling
+
+[0070]The present methods of controlling nucleation can be used in various
+ modes. Examples 1-6, described above, each demonstrate the aspect of
+ controlling the nucleation temperature of a lyophilization solution that
+ is essentially equilibrated at a temperature below its thermodynamic
+ freezing point (i.e., very slowly changing temperature). This example
+ demonstrates that nucleation can also occur at a temperature below the
+ thermodynamic freezing point in a dynamic cooling environment (i.e., the
+ solution is undergoing rapid changes in temperature).
+
+[0071]In this example, vials 1 through 6 represent the samples described
+ above with reference to Example 2. In addition, three separate vials
+ (Vials 7-9) were also filled with 2.5 mL of 5 wt % mannitol solution. In
+ a separate test run, the three additional vials were placed on a
+ freeze-dryer shelf in close proximity to one another. The freeze-dryer
+ shelf was cooled rapidly towards a final shelf temperature of -45.degree.
+ C. When one of the vials reached a temperature of about -5.degree. C., as
+ measured by the surface mounted thermocouples, the freeze-dryer was
+ depressurized rapidly from about 14 psig to 0 psig in an effort to induce
+ nucleation. All three vials nucleated and began freezing immediately
+ after depressurization. The vial temperatures decreased significantly to
+ between -6.8.degree. C. and -9.9.degree. C. prior to nucleation as a
+ result of the dynamic cooling environment. Comparative results are
+ summarized in Table 7 below.
+
+TABLE-US-00007
+ TABLE 7
+ Test Results - Effect of Dynamic Cooling on Nucleation
+ Nucleation Pressure Depressurization
+ Vial # Solution Mode Temp [.degree. C.] Drop [psi] Outcome
+ 1 2.5 mL of 5 wt % mannitol Equilibrated -4.2 14 Nucleation
+ 2 2.5 mL of 5 wt % mannitol Equilibrated -4.4 14 Nucleation
+ 3 2.5 mL of 5 wt % mannitol Equilibrated -4.6 14 Nucleation
+ 4 2.5 mL of 5 wt % mannitol Equilibrated -4.4 14 Nucleation
+ 5 2.5 mL of 5 wt % mannitol Equilibrated -4.6 14 Nucleation
+ 6 2.5 mL of 5 wt % mannitol Equilibrated -5.1 14 Nucleation
+ 7 2.5 mL of 5 wt % mannitol Dynamic -6.8 14 Nucleation
+ 8 2.5 mL of 5 wt % mannitol Dynamic -7.2 14 Nucleation
+ 9 2.5 mL of 5 wt % mannitol Dynamic -9.9 14 Nucleation
+
+[0072]The efficacy of the present methods for controlling nucleation in
+ lyophilization solutions equilibrated in a given temperature range or
+ lyophilization solutions being dynamically cooled, provides the end-user
+ with two potential modes of application with different benefits and
+ trade-offs. By allowing the lyophilization solutions to equilibrate, the
+ range of nucleation temperatures will be narrow or minimized to the
+ performance limits of the freeze-dryer itself. The equilibration step may
+ require extra time to achieve relative to conventional or dynamic
+ freezing protocols where the chamber and vial temperatures are dropped to
+ less than about -40.degree. C. in one step. However, employing the
+ equilibration step should yield much improved nucleation uniformity
+ across all vials or containers as well as realization of the other
+ benefits associated with precisely controlling the nucleation temperature
+ of the material.
+
+[0073]Alternatively, if equilibrating the material or lyophilization
+ solution temperatures is undesirable, one may simply implement the
+ depressurization step at an appropriate time during the normal freezing
+ or dynamic cooling protocol. Depressurization during a dynamic cool down
+ will produce a wider spread in nucleation temperatures for the material
+ within the lyophilization containers, but will add minimal time to the
+ freezing protocol and still allow one to mitigate the problems of extreme
+ sub-cooling.
+
+Example 8
+
+Effect of Different Excipients
+
+[0074]The present method of controlling or inducing nucleation in a
+ material can be used to control the nucleation temperature of sub-cooled
+ solutions containing different lyophilization excipients. This example
+ demonstrates the use of the present methods with the following
+ excipients: mannitol; hydroxyethyl starch (HES); polyethylene glycol
+ (PEG); polyvinyl pyrrolidone (PVP); dextran; glycine; sorbitol; sucrose;
+ and trehalose. For each excipient, two vials were filled with 2.5 mL of a
+ solution containing 5 wt % of the excipient. The vials were placed on a
+ freeze-dryer shelf in close proximity to one another. The freeze-dryer
+ was pressurized in an argon atmosphere to about 14 psig. The freeze-dryer
+ shelf was cooled to obtain vial temperatures near -3.degree. C. and then
+ depressurized rapidly to induce nucleation. Results are summarized in
+ Table 8.
+
+TABLE-US-00008
+ TABLE 8
+ Effect of Different Lyophilization Excipients
+ Initial Vial Pressure
+ Temperature Drop Depressurization
+ Vial # Solution/Excipient Atmos [.degree. C.] [psi] Outcome
+ 1 2.5 mL of 5 wt % mannitol Argon -3.3 14 Nucleation
+ 2 2.5 mL of 5 wt % mannitol Argon -3.0 14 Nucleation
+ 3 2.5 mL of 5 wt % HES Argon -3.1 14 Nucleation
+ 4 2.5 mL of 5 wt % HES Argon -3.7 14 Nucleation
+ 5 2.5 mL of 5 wt % PEG Argon -3.8 14 Nucleation
+ 6 2.5 mL of 5 wt % PEG Argon -3.4 14 Nucleation
+ 7 2.5 mL of 5 wt % PVP Argon -3.5 14 Nucleation
+ 8 2.5 mL of 5 wt % PVP Argon -3.3 14 Nucleation
+ 9 2.5 mL of 5 wt % dextran Argon -4.0 14 Nucleation
+ 10 2.5 mL of 5 wt % dextran Argon -3.1 14 Nucleation
+ 11 2.5 mL of 5 wt % glycine Argon -3.8 14 Nucleation
+ 12 2.5 mL of 5 wt % glycine Argon -3.9 14 Nucleation
+ 13 2.5 mL of 5 wt % sorbitol Argon -3.6 14 Nucleation
+ 14 2.5 mL of 5 wt % sorbitol Argon -3.4 14 Nucleation
+ 15 2.5 mL of 5 wt % sucrose Argon -3.3 14 Nucleation
+ 16 2.5 mL of 5 wt % sucrose Argon -3.4 14 Nucleation
+ 17 2.5 mL of 5 wt % trehalose Argon -3.7 14 Nucleation
+ 18 2.5 mL of 5 wt % trehalose Argon -3.1 14 Nucleation
+
+Example 9
+
+Controlling Nucleation of Protein Solutions
+
+[0075]The methods disclosed herein can be used to control the nucleation
+ temperature of sub-cooled protein solutions without negative or adverse
+ effects on protein solubility or enzymatic activity. Two proteins, bovine
+ serum albumin (BSA) and lactate dehydrogenase (LDH) were used in this
+ example.
+
+[0076]BSA was dissolved in 5 wt % mannitol at a concentration of 10 mg/mL.
+ Three lyophilization vials were filled with 2.5 mL of the BSA-mannitol
+ solution and placed on a freeze-dryer shelf in close proximity to one
+ another. The freeze-dryer was pressurized in an argon atmosphere to about
+ 14 psig. The freeze-dryer shelf was cooled to obtain vial temperatures
+ near -5.degree. C. The freeze-dryer was depressurized rapidly to induce
+ nucleation. All vials of BSA solution nucleated and began freezing
+ immediately after depressurization. No precipitation of the protein was
+ observed upon thawing.
+
+[0077]The LDH proteins were obtained from two different suppliers and for
+ purposes of clarity are designated as LDH-1 or LDH-2 to distinguish the
+ two distinct batches. LDH-1 was dissolved in 5 wt % mannitol at a
+ concentration of 1 mg/mL. Six lyophilization vials were filled with 2.5
+ mL of the LDH-1/mannitol solution and placed on a freeze-dryer shelf in
+ close proximity to one another. The freeze-dryer was pressurized in an
+ argon atmosphere to about 14 psig. The freeze-dryer shelf was cooled
+ starting from room temperature to obtain vial temperatures near
+ -4.degree. C. The freeze-dryer was then depressurized rapidly to induce
+ nucleation. All vials nucleated and began freezing immediately after
+ depressurization. The vials were held at this state for about 15 minutes.
+ The freeze-dryer shelf was then cooled at a rate of approximately
+ 1.degree. C./min to obtain vial temperatures near -45.degree. C. and held
+ for an additional 15 minutes to ensure completion of the freezing
+ process. After the freezing step, the freeze-dryer shelf was then warmed
+ at a rate of about 1.degree. C./min to raise the vial temperatures to
+ near 5.degree. C. No precipitation of the protein was observed upon
+ thawing. The vial contents were assayed for enzymatic activity, and the
+ results were compared to a control sample of unfrozen LDH-1/mannitol
+ solution.
+
+[0078]As part of Example 9, the depressurized nucleated samples of the
+ LDH-1/mannitol solution were compared to stochastically nucleated
+ samples. In the stochastically nucleated samples of LDH-1, the freezing
+ procedure was repeated without pressurization and depressurization and
+ without the argon atmosphere. Specifically, LDH-1 was dissolved in 5 wt %
+ mannitol at a concentration of 1 mg/mL. Six lyophilization vials were
+ filled with 2.5 mL of the LDH-1/mannitol solution and placed on a
+ freeze-dryer shelf in close proximity to one another. The freeze-dryer
+ shelf was cooled starting from room temperature at a rate of about
+ 1.degree. C./min to obtain vial temperatures near -45.degree. C. and held
+ for 15 minutes to ensure completion of the freezing process. After the
+ freezing step, the freeze-dryer shelf was warmed at a rate of about
+ 1.degree. C./min to raise the vial temperatures to near 5.degree. C. No
+ precipitation of the protein was observed upon thawing. The vial contents
+ were assayed for enzymatic activity, and the results were compared to the
+ same control sample of unfrozen LDH-1/mannitol solution. Also as part of
+ Example 9, the experiments described above for LDH-1 were repeated using
+ LDH-2. The only difference was a nucleation temperature near -3.degree.
+ C. for LDH-2 rather than -4.degree. C. for LDH-1.
+
+[0079]As seen in Table 9, the controlled nucleation and freezing process
+ achieved via depressurization clearly does not decrease enzymatic
+ activity relative to a comparable stochastic nucleation and freezing
+ protocol. In fact, the controlled nucleation process achieved via
+ depressurization appears to better preserve enzyme activity with a mean
+ activity loss of only 17.8% for LDH-1 and 26.5% for LDH-2 compared to the
+ mean activity loss of 35.9% for LDH-1 and 41.3% for LDH-2 after
+ stochastic nucleation.
+
+TABLE-US-00009
+ TABLE 9
+ Controlling the Nucleation Temperature of Sub-Cooled Protein Solutions
+ Initial Vial Pressure Enzyme
+ Temperature Drop Activity Depressurization
+ Vial # Solution Atmos [.degree. C.] [psi] Loss[%] Outcome
+ 1 2.5 mL of BSA solution Argon -4.9 14 -- Nucleation
+ 2 2.5 mL of BSA solution Argon -4.3 14 -- Nucleation
+ 3 2.5 mL of BSA solution Argon -5.3 14 -- Nucleation
+ 4 2.5 mL of LDH-1 solution Argon -3.8 14 9.0 Nucleation
+ 5 2.5 mL of LDH-1 solution Argon -4.0 14 16.2 Nucleation
+ 6 2.5 mL of LDH-1 solution Argon -3.7 14 18.4 Nucleation
+ 7 2.5 mL of LDH-1 solution Argon -4.0 14 23.4 Nucleation
+ 8 2.5 mL of LDH-1 solution Argon -3.9 14 18.5 Nucleation
+ 9 2.5 mL of LDH-1 solution Argon -4.0 14 21.2 Nucleation
+ 10 2.5 mL of LDH-1 solution Air -10.4 0 35.7 Nucleation
+ 11 2.5 mL of LDH-1 solution Air -16.5 0 35.4 Nucleation
+ 12 2.5 mL of LDH-1 solution Air -15.5 0 36.1 Nucleation
+ 13 2.5 mL of LDH-1 solution Air -10.5 0 43.9 Nucleation
+ 14 2.5 mL of LDH-1 solution Air -9.8 0 24.9 Nucleation
+ 15 2.5 mL of LDH-1 solution Air -11.0 0 39.2 Nucleation
+ 16 2.5 mL of LDH-2 solution Argon -3.1 14 29.9 Nucleation
+ 17 2.5 mL of LDH-2 solution Argon -2.9 14 18.9 Nucleation
+ 18 2.5 mL of LDH-2 solution Argon -3.1 14 23.3 Nucleation
+ 19 2.5 mL of LDH-2 solution Argon -2.7 14 19.6 Nucleation
+ 20 2.5 mL of LDH-2 solution Argon -3.1 14 32.1 Nucleation
+ 21 2.5 mL of LDH-2 solution Argon -2.6 14 35.2 Nucleation
+ 22 2.5 mL of LDH-2 solution Air -5.0 0 38.3 Nucleation
+ 23 2.5 mL of LDH-2 solution Air -5.5 0 40.0 Nucleation
+ 24 2.5 mL of LDH-2 solution Air -2.3 0 36.5 Nucleation
+ 25 2.5 mL of LDH-2 solution Air -3.8 0 42.0 Nucleation
+ 26 2.5 mL of LDH-2 solution Air -5.1 0 50.2 Nucleation
+ 27 2.5 mL of LDH-2 solution Air -5.9 0 40.6 Nucleation
+
+[0080]It should be noted that the stochastic nucleation temperatures
+ observed for LDH-2 were substantially warmer than the stochastic
+ nucleation temperatures for LDH-1. This difference may be due to some
+ contaminant acting as a nucleating agent in the LDH-2. The stochastic
+ nucleation temperatures are much closer to the controlled nucleation
+ temperatures for LDH-2 compared to LDH-1, yet the improvements in
+ retention of enzyme activity obtained via controlled nucleation for LDH-1
+ and LDH-2 are similar at 18.1% and 14.8%, respectively. This result
+ suggests that the improvements in retention of enzyme activity can be
+ partially attributed to the characteristics of the controlled nucleation
+ process itself, not just to the prescribed warmer nucleation temperatures
+ obtained via depressurization.
+
+Example 10
+
+Reducing Primary Drying Time
+
+[0081]A 5 wt % mannitol solution was prepared by mixing about 10.01 grams
+ of mannitol with about 190.07 grams of water. Vials were filled with 2.5
+ mL of the 5 wt % mannitol solution. The vials were weighed empty and with
+ the solution to determine the mass of water added to the vials. The
+ twenty vials were placed in a rack on a freeze-dryer shelf in close
+ proximity to one another. The temperatures of six vials were monitored
+ using surface mounted thermocouples; all monitored vials were surrounded
+ by other vials to improve uniformity of vial behavior. The freeze-dryer
+ was pressurized to about 14 psig in a controlled gas atmosphere of argon
+ gas. The freeze-dryer shelf was cooled from room temperature to about
+ -6.degree. C. to obtain vial temperatures of between approximately
+ -1.degree. C. and -2.degree. C. The freeze-dryer was then depressurized
+ from about 14 psig to about atmospheric pressure in less than five
+ seconds to induce nucleation of the solution within the vials. All vials
+ observed visually or monitored via thermocouples nucleated and began
+ freezing immediately after depressurization.
+
+[0082]The shelf temperature was then lowered rapidly to about -45.degree.
+ C. to complete the freezing process. Once all vial temperatures were
+ about -40.degree. C. or less, the freeze-drying chamber was evacuated and
+ the process of primary drying (i.e., sublimation) was initiated. During
+ this drying process, the freeze-dryer shelf was warmed to about
+ -14.degree. C. via a one hour ramp and held at that temperature for 16
+ hours. The condenser was maintained at about -60.degree. C. throughout
+ the drying process. Primary drying was stopped by turning off the vacuum
+ pump and backfilling the chamber with argon to atmospheric pressure. The
+ vials were promptly removed from the freeze-dryer and weighed to
+ determine how much water was lost during the primary drying process.
+
+[0083]In a separate experiment as part of Example 10, other vials were
+ filled with 2.5 mL of the same 5 wt % mannitol solution. The vials were
+ weighed empty and with the solution to determine the mass of water added
+ to the vials. The vials were loaded into the freeze-dryer in the same
+ manner described above, and the temperatures of six vials were once again
+ monitored using surface-mounted thermocouples. The freeze-dryer shelf was
+ cooled rapidly from room temperature to about -45.degree. C. to freeze
+ the vials. Nucleation occurred stochastically between about -15.degree.
+ C. and about -18.degree. C. during the cooling step. Once all vials
+ temperatures were about -40.degree. C. or less, the vials were dried in a
+ manner identical to the method described above. Upon conclusion of
+ primary drying, the samples were promptly removed from the freeze-dryer
+ and weighed to determine how much water was lost during the primary
+ drying process.
+
+TABLE-US-00010
+ TABLE 10
+ Increasing the Nucleation Temperature Improves Primary Drying
+ Initial
+ Vial Pressure Water
+ Temp Drop Loss Depressurization
+ Vial # Solution Atmos [.degree. C.] [psi] [%] Outcome
+ 1 2.5 mL of 5 wt % mannitol Argon -1.3 14 89.9 Nucleation
+ 2 2.5 mL of 5 wt % mannitol Argon -1.9 14 85.2 Nucleation
+ 3 2.5 mL of 5 wt % mannitol Argon -1.3 14 87.1 Nucleation
+ 4 2.5 mL of 5 wt % mannitol Argon -2.3 14 88.8 Nucleation
+ 5 2.5 mL of 5 wt % mannitol Argon -2.1 14 85.0 Nucleation
+ 6 2.5 mL of 5 wt % mannitol Argon -1.1 14 80.7 Nucleation
+ 7 2.5 mL of 5 wt % mannitol Air -15.7 0 65.7 --
+ 8 2.5 mL of 5 wt % mannitol Air -16.7 0 66.9 --
+ 9 2.5 mL of 5 wt % mannitol Air -14.5 0 64.6 --
+ 10 2.5 mL of 5 wt % mannitol Air -15.6 0 64.7 --
+ 11 2.5 mL of 5 wt % mannitol Air -16.5 0 64.1 --
+ 12 2.5 mL of 5 wt % mannitol Air -17.9 0 65.7 --
+
+[0084]Results of the freeze-drying process with controlled nucleation and
+ stochastic nucleation are summarized in Table 10. It should be noted that
+ these two experiments only differ in the addition of the controlled
+ nucleation via depressurization step to one experiment. As seen in Table
+ 10, the controlled nucleation process achieved via depressurization
+ allows nucleation at very low degrees of sub-cooling, between about
+ -1.1.degree. C. and -2.3.degree. C. in this example. The much warmer
+ nucleation temperatures for the controlled nucleation case compared to
+ the stochastic nucleation case yields an ice structure and resultant
+ lyophilized cake with dramatically improved drying properties. For the
+ same amount of drying time, the vials nucleated using the disclosed
+ depressurization methods between about -1.1.degree. C. and -2.3.degree.
+ C. lost an average of 86.1% of their water while the vials nucleated
+ stochastically between about -14.5.degree. C. and -17.9.degree. C. only
+ lost an average of 65.3%. Hence, the vials nucleated stochastically would
+ require much more primary drying time to achieve the same degree of water
+ loss as the vials nucleated in a controlled manner in accordance with the
+ presently disclosed methods. The improvement in drying time is likely
+ attributed to the formation of larger ice crystals at warmer nucleation
+ temperatures. These larger ice crystals leave behind larger pores upon
+ sublimation, and the larger pores offer less resistance to the flow of
+ water vapor during further sublimation.
+
+INDUSTRIAL APPLICABILITY
+
+[0085]The present method provides an improved method for controlling the
+ temperature and/or time at which sub-cooled materials, namely liquids or
+ solutions, nucleate and then freeze. Although this application focuses in
+ part on freeze-drying, a similar problem occurs for any material
+ processing step that involves a nucleated phase transition. Examples of
+ such processes include the crystallization of polymers and metals from
+ melts, crystallization of materials from supersaturated solutions,
+ crystallization of proteins, artificial snow production, food freezing,
+ freeze concentration, fractional crystallization, cryo-preservation, or
+ condensation of vapors to liquids.
+
+[0086]The most immediate benefit of controlling the nucleation temperature
+ of a liquid or solution is the ability to control the number and size of
+ the solid domains produced by the phase transition. In freezing water,
+ for example, the nucleation temperature directly controls the size and
+ number of ice crystals formed. Generally speaking, the ice crystals are
+ fewer in number and larger in size when the nucleation temperature is
+ warmer.
+
+[0087]The ability to control the number and size of the solid domains
+ produced by a phase transition may provide additional benefits. In a
+ freeze-drying process, for example, the number and size of the ice
+ crystals strongly influences the drying properties of the lyophilized
+ cake. Larger ice crystals produced by warmer nucleation temperatures
+ leave behind larger pores upon sublimation, and the larger pores offer
+ less resistance to the flow of water vapor during subsequent sublimation.
+ Hence, the present methods provide a means of increasing primary drying
+ (i.e., sublimation) rates in freeze-drying processes by increasing the
+ nucleation temperature.
+
+[0088]Another possible benefit may be realized in applications where
+ sensitive materials are preserved via freezing processes (i.e.,
+ cryopreserved). For example, a biological material including but not
+ limited to, mammalian tissue samples (e.g., cord blood, tissue biopsy,
+ egg and sperm cells, etc.), cell lines (e.g., mammalian, yeast,
+ prokaryotic, fungal, etc.) and biological molecules (e.g., proteins, DNA,
+ RNA and subclasses thereof) frozen in an aqueous solution may experience
+ various stresses during the freezing process that may impair the function
+ or activity of the material. Ice formation may physically disrupt the
+ material or create severe changes in the interfacial bonding, osmotic
+ forces, solute concentrations, etc. experienced by the material. Since
+ nucleation controls the structure and kinetics of ice formation, it can
+ significantly influence these stresses. The presently disclosed methods
+ therefore provides a unique means of mitigating stresses associated with
+ cryopreservation processes and enhancing the recovery of function or
+ activity from cryopreserved materials. The present methods also represent
+ improvement over conventional nucleation control methods (e.g., seeding
+ or contact with cold surfaces) used to initiate extracellular ice
+ formation in two-step cryopreservation algorithms designed for living
+ cells.
+
+[0089]The present methods may be also applied to complex solutions or
+ mixtures containing several constituents both in cryopresevation and
+ lyophilization applications. These formulations are often solutions with
+ an aqueous, organic, or mixed aqueous-organic solvent containing a
+ pharmaceutically active ingredient (e.g., a synthetic chemical, protein,
+ peptide, or vaccine) and optionally, one or more mitigating constituents,
+ including bulking agents that help prevent physical loss of the active
+ ingredient during drying (e.g., dextrose, glucose, glycine, lactose,
+ maltose, mannitol, polyvinyl pyrrolidone, sodium chloride, and sorbitol);
+ buffering agents or toxicity modifiers that help maintain the appropriate
+ environmental pH or toxicity for the active constituent (e.g., acetic
+ acid, benzoic acid, citric acid, hydrochloric acid, lactic acid, maleic
+ acid, phosphoric acid, tartaric acid, and the sodium salts of the
+ aforementioned acids); stabilizing agents that help preserve the
+ structure and function of the active constituent during processing or in
+ its final liquid or dried form (e.g., alanine, dimethylsulfoxide,
+ glycerol, glycine, human serum albumin, polyethylene glycol, lysine,
+ polysorbate, sorbitol, sucrose, and trehalose); agents that modify the
+ glass transition behavior of the formulation (e.g., polyethylene glycol
+ and sugars), and anti-oxidants that protect the active constituent from
+ degradation (e.g., ascorbate, sodium bisulfite, sodium formaldehyde,
+ sodium metabisulfite, sodium sulfite, sulfoxylate, and thioglycerol).
+
+[0090]Since nucleation is typically a random process, a plurality of the
+ same material subjected to identical processing conditions might nucleate
+ at different temperatures. As a result, the properties of those materials
+ that depend on nucleation behavior will likely differ despite the
+ identical processing conditions. The disclosed methods provide a means
+ for controlling the nucleation temperatures of a plurality of materials
+ simultaneously and thereby offers a way to increase the uniformity of
+ those product properties that depend on nucleation behavior. In a typical
+ freeze-drying process, for example, the same solution in separate vials
+ may nucleate stochastically over a wide range of temperatures, and as a
+ result, the final freeze-dried products may possess significant
+ variability in critical properties like residual moisture, activity and
+ reconstitution time. By controlling the nucleation temperature via the
+ presently disclosed process, the vial-to-vial uniformity of product
+ properties from a freeze-drying can process can be dramatically improved.
+
+[0091]The ability to control the nucleation behavior of a material may
+ also provide substantial benefit in reducing the time necessary to
+ develop an industrial process that hinges upon a normally uncontrolled
+ nucleation event. For example, it often takes many months to develop a
+ successful freeze-drying cycle that can be accomplished in a reasonable
+ amount of time, yields desired product properties within the specified
+ uniformity, and preserves sufficient activity of the active
+ pharmaceutical ingredient (API). By providing a means of controlling
+ nucleation and thereby potentially improving primary drying time, product
+ uniformity, and API activity, the present methods should dramatically
+ reduce the time necessary to develop successful freeze-drying protocols.
+
+[0092]In particular, the potential benefits of the present nucleation
+ process provide increased flexibility in specifying the composition of
+ the formulation to be freeze-dried. Since controlled nucleation can
+ better preserve the API during the freezing step, users should be able to
+ minimize the addition of mitigating constituents (e.g., stabilizing
+ agents) to the formulation or chose simpler combinations of formulation
+ constituents to achieve combined stability and processing goals.
+ Synergistic benefits may arise in cases where controlled nucleation
+ minimizes the use of stabilizing agents or other mitigating constituents
+ that inherently lengthen primary drying times (e.g, by decreasing glass
+ transition temperatures of aqueous solutions).
+
+[0093]The disclosed methods are particularly well-suited for large scale
+ production or manufacturing operations since it can be conducted using
+ the same equipment and process parameters that can easily be scaled or
+ adapted to manufacture a wide range of products. The process provides for
+ the nucleation of materials using a process where all manipulations can
+ be carried out in a single chamber (e.g., a freeze-dryer) and where the
+ process does not require use of a vacuum, use of additives, vibration,
+ electrofreezing or the like to induce nucleation.
+
+[0094]In contrast to the prior art, the present method does not add
+ anything to the lyophilized product. It only requires that the materials,
+ (e.g., liquids in the vials), be held initially at a specified pressure
+ under a gas environment and that the pressure is rapidly reduced to a
+ lower pressure. Any applied gas will be removed from the vials during the
+ lyophilization cycle. The vials or their contents are not contacted or
+ touched with anything except the gas. Simple manipulation of the ambient
+ pressure and gas environment is sufficient on its own to achieve that
+ goal. By relying only on ambient pressure change to induce nucleation,
+ the present method disclosed herein uniformly and simultaneously affects
+ all vials within a freeze-dryer.
+
+[0095]The present embodiment is also less expensive and easier to
+ implement and maintain than prior art methods of influencing nucleation
+ in materials in lyophilization applications. The present method enables
+ significantly faster primary drying in lyophilization processes, thereby
+ reducing processing costs for freeze-dried pharmaceuticals. The present
+ method produces much more uniform lyophilized products than prior art
+ methods, thereby reducing product losses and creating barriers to entry
+ for processors unable to meet tighter uniformity specifications. This
+ method achieves these benefits without contaminating the lyophilized
+ product. Greater process control should lead to an improved product and
+ shortened process times.
+
+[0096]From the foregoing, it should be appreciated that the present
+ invention thus provides a method of inducing nucleation in a material
+ and/or a method of freezing material. Various modifications, changes, and
+ variations of the present methods will be apparent to a person skilled in
+ the art and it is to be understood that such modifications, changes, and
+ variations are to be included within the purview of this application and
+ the spirit and scope of the claims.
+
+
+
+
+You can also Monitor Keywords and Search for tracking patents relating to this Method of inducing nucleation of a material patent application.
+###
+ 
+
+ 
+
+ How KEYWORD MONITOR works... a FREE service from FreshPatents 
+1. Sign up (takes 30 seconds). 2. Fill in the keywords to be monitored.
+3. Each week you receive an email with patent applications related to your keywords.  
+ Start now! - Receive info on patent apps like Method of inducing nucleation of a material or other areas of interest.
+###
+
+
+
+
+###
+
+ Design/code©2012 FreshContext LLC/Freshpatents.com.
+Patent data source: patents published by the United States Patent and Trademark Office (USPTO)
+Information published here is for research/educational purposes only (and in conjunction with our Keyword Monitor) and is not meant to be used in place of the full USPTO patent document/images or a comprehensive patent archive search. Complete official applications are on file at the USPTO and may contain additional data/images. FreshPatents.com is not affiliated with or endorsed by the USPTO or firms/individuals or products/designs/ideas related to listed patents and there may be applicable trademarks or servicemarks within the documents. FreshPatents.com Support - Terms&amp;Conditions 
+Thank you for viewing the Method of inducing nucleation of a material patent info.
+- - - AAPL - Apple , BA - Boeing , GOOG - Google , IBM , JBL - Jabil , KO - Coca Cola , MOT - Motorla 
+
+Results in 0.61076 seconds
+
+ 
+Other interesting Freshpatents.com categories:
+Electronics: Semiconductor ,  Audio ,  Illumination ,  Connectors ,  Crypto , g2
+	</body>
+</document>

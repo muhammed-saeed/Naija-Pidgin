@@ -1,0 +1,914 @@
+det(phone-3, the-2)
+dobj(find-1, phone-3)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+det(digits-3, the-2)
+iobj(dial-1, digits-3)
+dobj(dial-1, 911-4)
+
+dobj(get-1, phone-2)
+
+dobj(dial-1, 9-2)
+
+dobj(dial-1, 1-2)
+
+dobj(dial-1, 1-2)
+
+prep_for(wait-1, answer-3)
+
+dobj(state-1, emergency-2)
+
+prep_to(go-1, phone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(place-1, receiver-2)
+prep_to(place-1, ear\/speaker-4)
+
+dobj(dial-1, 9-2)
+number(1-4, 1-3)
+num(9-2, 1-4)
+
+advmod(requested-2, when-1)
+nn(emergency-4, state-3)
+dobj(requested-2, emergency-4)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+det(dialtone-3, a-2)
+dobj(get-1, dialtone-3)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 1-2)
+
+dobj(press-1, 1-2)
+
+det(telephone-3, a-2)
+dobj(find-1, telephone-3)
+
+det(receiver-3, the-2)
+dobj(lift-1, receiver-3)
+conj_or(lift-1, turn-5)
+det(telephone-7, the-6)
+dobj(turn-5, telephone-7)
+prt(turn-5, on-8)
+
+dobj(press-1, button-2)
+num(button-2, 9-3)
+det(telephone-6, the-5)
+prep_on(press-1, telephone-6)
+
+dobj(press-1, button-2)
+num(button-2, 1-3)
+det(telephone-6, the-5)
+prep_on(press-1, telephone-6)
+
+dobj(press-1, button-2)
+num(button-2, 1-3)
+det(telephone-6, the-5)
+prep_on(press-1, telephone-6)
+
+det(phone-3, a-2)
+dobj(locate-1, phone-3)
+
+det(receiver-3, the-2)
+dep(pickup-1, receiver-3)
+
+dobj(dial-1, 9-2)
+det(keypad-5, the-4)
+prep_on(dial-1, keypad-5)
+
+dobj(dial-1, 1-2)
+det(keypad-5, the-4)
+prep_on(dial-1, keypad-5)
+
+dobj(dial-1, 1-2)
+det(keypad-5, the-4)
+prep_on(dial-1, keypad-5)
+
+advmod(answers-4, when-1)
+det(operator-3, the-2)
+nsubj(answers-4, operator-3)
+iobj(answers-4, state-5)
+det(emergency-7, the-6)
+dobj(answers-4, emergency-7)
+poss(location-10, your-9)
+dobj(answers-4, location-10)
+conj_and(emergency-7, location-10)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+det(operator-7, the-5)
+num(operator-7, 911-6)
+prep_of(instructions-3, operator-7)
+
+dobj(locate-1, phone-2)
+
+dobj(locate-1, phone-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, 9-2)
+
+dobj(dial-1, 1-2)
+
+dobj(dial-1, 1-2)
+
+prt(pick-1, up-2)
+det(receiver-5, the-3)
+nn(receiver-5, telephone-4)
+dobj(pick-1, receiver-5)
+conj_and(pick-1, hold-7)
+dobj(hold-7, it-8)
+poss(ear-11, your-10)
+prep_to(hold-7, ear-11)
+
+det(numbers-3, the-2)
+iobj(press-1, numbers-3)
+dobj(press-1, 9-4)
+quantmod(1-6, then-5)
+amod(9-4, 1-6)
+quantmod(1-8, then-7)
+num(1-6, 1-8)
+advmod(1-6, again-9)
+conj_and(press-1, wait-11)
+det(call-14, the-13)
+prep_for(wait-11, call-14)
+aux(answered-17, to-15)
+auxpass(answered-17, be-16)
+xcomp(wait-11, answered-17)
+
+dobj(find-1, phone-2)
+
+dobj(diall-1, 911-2)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(dial-1, 911-2)
+
+det(police-3, the-2)
+dobj(tell-1, police-3)
+nsubj(happened-5, what-4)
+dep(tell-1, happened-5)
+
+det(police-3, the-2)
+dobj(tell-1, police-3)
+advmod(happened-6, where-4)
+nsubj(happened-6, it-5)
+advcl(tell-1, happened-6)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 1-2)
+
+dobj(press-1, 1-2)
+advmod(press-1, again-3)
+
+poss(name-3, your-2)
+dep(give-1, name-3)
+dep(give-1, address-5)
+conj_and(name-3, address-5)
+dobj(give-1, information-6)
+det(operator-10, the-8)
+nn(operator-10, emergency-9)
+prep_to(give-1, operator-10)
+
+prt(pick-1, up-2)
+det(receiver-5, the-3)
+nn(receiver-5, telephone-4)
+dobj(pick-1, receiver-5)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+partmod(button-3, labeled-4)
+prep_as(labeled-4, 9-6)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+partmod(button-3, labeled-4)
+prep_as(labeled-4, 1-6)
+advmod(press-1, twice-7)
+
+prt(lift-1, up-2)
+det(phone-4, the-3)
+dobj(lift-1, phone-4)
+
+mark(is-4, if-2)
+expl(is-4, there-3)
+advcl(check-1, is-4)
+det(dialtone-6, a-5)
+nsubj(is-4, dialtone-6)
+
+dobj(dial-1, 9-1-1-2)
+
+poss(situation-3, your-2)
+dobj(describe-1, situation-3)
+
+det(phone-4, the-3)
+prep_to(go-1, phone-4)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(dial-1, 9-2)
+
+dobj(dial-1, 1-2)
+
+dobj(dial-1, 1-2)
+
+dep(say-1, where-2)
+dobj(are-6, who-4)
+nsubj(are-6, you-5)
+dep(say-1, are-6)
+conj_and(where-2, are-6)
+
+det(emergency-3, the-2)
+dobj(describe-1, emergency-3)
+
+prep_to(go-1, phone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+nn(tone-4, dial-3)
+prep_for(wait-1, tone-4)
+
+dobj(dial-1, 9-2)
+
+dobj(dial-1, 1-2)
+
+dobj(dial-1, 1-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(press-1, talk-2)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 1-2)
+
+dobj(press-1, 1-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, 9-2)
+
+dobj(dial-1, 1-2)
+
+dobj(dial-1, 1-2)
+
+det(phone-3, the-2)
+dobj(get-1, phone-3)
+
+det(number-3, the-2)
+dobj(press-1, number-3)
+num(number-3, 9-4)
+advmod(press-1, once-5)
+
+det(number-3, the-2)
+dobj(press-1, number-3)
+num(number-3, 1-4)
+advmod(press-1, twice-5)
+
+det(services-5, the-3)
+nn(services-5, emergency-4)
+prep_for(wait-1, services-5)
+aux(answer-7, to-6)
+xcomp(wait-1, answer-7)
+det(call-9, the-8)
+dobj(answer-7, call-9)
+
+det(phone-4, a-3)
+prep_to(go-1, phone-4)
+
+number(1-4, 9-3)
+num(1-5, 1-4)
+ccomp(dial-1, 1-5)
+
+nsubj(inquiries-6, respond-1)
+det(operator-4, the-3)
+prep_to(respond-1, operator-4)
+cop(inquiries-6, s-5)
+
+mark(asks-5, as-2)
+det(operator-4, the-3)
+nsubj(asks-5, operator-4)
+advcl(do-1, asks-5)
+
+dobj(find-1, telephone-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, telephone-3)
+
+dobj(dial-1, 911-2)
+
+dobj(state-1, emergency-2)
+
+dobj(state-1, location-2)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 1-2)
+
+dobj(press-1, 1-2)
+
+det(phone-3, a-2)
+dobj(find-1, phone-3)
+
+prt(pick-1, up-2)
+det(reciever-4, the-3)
+dobj(pick-1, reciever-4)
+
+dobj(press-1, 9-2)
+det(pad-6, the-4)
+amod(pad-6, key-5)
+prep_on(press-1, pad-6)
+
+dobj(press-1, 1-2)
+det(pad-6, the-4)
+amod(pad-6, key-5)
+prep_on(press-1, pad-6)
+
+dobj(press-1, 1-2)
+det(pad-6, the-4)
+amod(pad-6, key-5)
+prep_on(press-1, pad-6)
+
+iobj(tell-1, operator-2)
+det(emergency-4, the-3)
+dobj(tell-1, emergency-4)
+
+prep_on(stay-1, phone-3)
+prep_with(stay-1, operator-5)
+mark(arrive-9, until-6)
+amod(services-8, requested-7)
+nsubj(arrive-9, services-8)
+advcl(stay-1, arrive-9)
+
+dobj(locate-1, telephone-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, reciever-3)
+
+nn(tone-4, dial-3)
+prep_for(listen-1, tone-4)
+
+dobj(dial-1, 911-2)
+
+det(telephone-3, the-2)
+dobj(take-1, telephone-3)
+det(hook-6, the-5)
+prep_off(take-1, hook-6)
+
+det(buttons-3, the-2)
+iobj(press-1, buttons-3)
+number(1-5, 9-4)
+dobj(press-1, 1-5)
+dobj(press-1, 1-7)
+conj_and(1-5, 1-7)
+
+det(phone-4, a-2)
+amod(phone-4, working-3)
+dobj(find-1, phone-4)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(dial-1, 911-2)
+
+prep_for(wait-1, answer-3)
+
+dobj(tell-1, operator-2)
+det(emergency-5, the-4)
+prep_of(operator-2, emergency-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, 9-2)
+
+dobj(dial-1, 1-2)
+
+dobj(dial-1, 1-2)
+
+dobj(find-1, phone-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, 9-2)
+
+dobj(dial-1, 1-2)
+
+dobj(dial-1, 1-2)
+
+prt(pick-1, up-2)
+nn(receiver-4, phone-3)
+dobj(pick-1, receiver-4)
+
+dobj(push-1, talk-3)
+dobj(push-1, on-7)
+conj_or(talk-3, on-7)
+
+poss(button-5, 9-3)
+ccomp(push-1, button-5)
+
+poss(button-5, 1-3)
+ccomp(push-1, button-5)
+
+poss(button-5, 1-3)
+ccomp(push-1, button-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, handset-3)
+
+dobj(dial-1, 9-2)
+number(1-4, 1-3)
+num(9-2, 1-4)
+
+dobj(locate-1, phone-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+num(button-3, 9-2)
+dobj(press-1, button-3)
+
+num(button-3, 1-2)
+dobj(press-1, button-3)
+
+num(button-3, 1-2)
+dobj(press-1, button-3)
+
+prep_with(speak-1, dispatcher-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 1-2)
+
+dobj(press-1, 1-2)
+
+det(phone-4, the-3)
+prep_to(go-1, phone-4)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+det(button-4, the-2)
+num(button-4, 9-3)
+dobj(press-1, button-4)
+
+det(button-4, the-2)
+num(button-4, 1-3)
+dobj(press-1, button-4)
+
+det(button-4, the-2)
+num(button-4, 1-3)
+dobj(press-1, button-4)
+
+dobj(get-1, phone-2)
+
+dobj(push-1, 9-2)
+advmod(push-1, then-3)
+dep(then-3, 1-4)
+advmod(push-1, then-5)
+dep(then-5, 1-6)
+
+amod(telephone-3, landline-2)
+dobj(locate-1, telephone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, handset-3)
+
+dobj(dial-1, 9-1-1-2)
+prep_on(dial-1, keypad-4)
+
+amod(screener-4, initial-3)
+prep_to(talk-1, screener-4)
+
+nn(fire-3, police-2)
+dobj(choose-1, fire-3)
+dobj(choose-1, ambulance-5)
+conj_or(fire-3, ambulance-5)
+
+prep_to(talk-1, dispatcher-3)
+
+prt(hang-1, up-2)
+dobj(hang-1, phone-3)
+
+dobj(find-1, phone-2)
+
+dobj(dial-1, 911-2)
+
+det(operator-3, the-2)
+iobj(tell-1, operator-3)
+det(nature-5, the-4)
+dobj(tell-1, nature-5)
+det(emergency-8, the-7)
+prep_of(nature-5, emergency-8)
+
+advmod(are-4, where-2)
+nsubj(are-4, you-3)
+advcl(tell-1, are-4)
+
+dobj(are-4, who-2)
+nsubj(are-4, you-3)
+ccomp(tell-1, are-4)
+
+dobj(follow-1, instructions-2)
+det(operator-5, the-4)
+prep_from(follow-1, operator-5)
+
+dobj(dial-1, 9-2)
+
+dobj(dial-1, 1-2)
+
+dobj(dial-1, 1-2)
+
+poss(emergency-3, your-2)
+dobj(explain-1, emergency-3)
+det(operator-6, the-5)
+prep_to(explain-1, operator-6)
+
+csubj(instructions-4, follow-1)
+dobj(follow-1, operator-2)
+cop(instructions-4, s-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 1-2)
+
+dobj(press-1, 1-2)
+
+prep_for(wait-1, response-3)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+det(tone-5, the-3)
+nn(tone-5, dial-4)
+prep_for(listen-1, tone-5)
+
+dobj(dial-1, 9-2)
+advmod(dial-1, then-3)
+dep(then-3, 1-4)
+advmod(dial-1, then-5)
+dep(then-5, 1-6)
+
+det(voice-4, a-3)
+prep_for(wait-1, voice-4)
+det(end-8, the-6)
+amod(end-8, other-7)
+prep_at(wait-1, end-8)
+
+prt(pick-1, up-2)
+det(telephone-4, a-3)
+dobj(pick-1, telephone-4)
+
+dobj(dial-1, 911-3)
+
+prep_for(wait-1, operator-3)
+
+nn(location-3, operator-2)
+dobj(tell-1, location-3)
+
+dobj(tell-1, operator-2)
+nsubj(happened-5, operator-2)
+aux(happened-5, has-4)
+rcmod(operator-2, happened-5)
+
+csubj(instructions-4, follow-1)
+dobj(follow-1, operator-2)
+cop(instructions-4, s-3)
+
+prep_for(wait-1, help-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(dial-1, 911-2)
+
+
+prt(hang-1, up-2)
+dobj(hang-1, receiver-3)
+
+prt(pick-1, up-2)
+conj_or(pick-1, turn-4)
+prep_on(turn-4, phone-6)
+
+dobj(dial-1, 911-2)
+
+nsubj(send-2, press-1)
+mark(applicable-5, if-4)
+parataxis(send-2, applicable-5)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+det(numbers-3, the-2)
+iobj(dial-1, numbers-3)
+dobj(dial-1, 911-4)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 1-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 1-2)
+
+poss(name-3, your-2)
+dobj(say-1, name-3)
+
+poss(address-3, your-2)
+dobj(say-1, address-3)
+
+dobj(is-5, what-2)
+det(emergency-4, the-3)
+nsubj(is-5, emergency-4)
+ccomp(say-1, is-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, telephone-3)
+
+dobj(press-1, 9-2)
+
+dobj(press-1, 1-2)
+
+dobj(press-1, 1-2)
+
+prep_for(wait-1, answer-3)
+
+dobj(find-1, phone-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(dial-1, 9-1-1-2)
+
+
+dobj(locate-1, telephone-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(push-1, 9-2)
+
+dobj(press-1, 1-2)
+advmod(press-1, twice-3)
+
+prep_for(wait-1, operator-3)
+aux(answer-5, to-4)
+xcomp(wait-1, answer-5)
+
+dobj(report-1, situation-2)
+
+dobj(give-1, address-2)
+prep_to(give-1, operator-4)
+
+det(telephone-4, the-3)
+prep_to(go-1, telephone-4)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+det(tone-5, the-3)
+nn(tone-5, dial-4)
+prep_for(listen-1, tone-5)
+
+nsubj(button-6, the-2)
+poss(button-6, 9-4)
+ccomp(push-1, button-6)
+
+nsubj(button-6, the-2)
+poss(button-6, 1-4)
+ccomp(push-1, button-6)
+
+nsubj(button-6, the-2)
+poss(button-6, 1-4)
+ccomp(push-1, button-6)
+advmod(button-6, again-7)
+
+nn(answers-4, someone-3)
+prep_until(listen-1, answers-4)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(dial-1, 911-2)
+
+det(responder-3, the-2)
+iobj(tell-1, responder-3)
+poss(location-5, your-4)
+dobj(tell-1, location-5)
+
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, 911-2)
+
+prep_to(walk-1, phone-3)
+
+dobj(dial-1, 911-2)
+
+dobj(describe-1, emergency-2)
+prep_to(describe-1, operator-4)
+
+nn(operator-2, answer-1)
+nsubj(question-4, operator-2)
+cop(question-4, s-3)
+
+nn(instructions-3, operators-2)
+dobj(follow-1, instructions-3)
+
+prt(hang-1, up-2)
+advmod(resolved-6, when-3)
+nsubjpass(resolved-6, situation-4)
+auxpass(resolved-6, is-5)
+advcl(hang-1, resolved-6)
+
+dobj(determine-1, emergency-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, 911-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(dial-1, 911-2)
+
+det(operator-4, the-3)
+prep_to(explain-1, operator-4)
+dobj(is-8, operator-4)
+rel(is-8, what-5)
+poss(emergency-7, your-6)
+nsubj(is-8, emergency-7)
+rcmod(operator-4, is-8)
+
+csubj(instructions-5, follow-1)
+det(operator-3, the-2)
+dobj(follow-1, operator-3)
+cop(instructions-5, s-4)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(dial-1, 911-2)
+
+cop(calm-2, remain-1)
+
+det(emergency-3, the-2)
+dobj(explain-1, emergency-3)
+det(operator-6, the-5)
+prep_to(explain-1, operator-6)
+
+csubj(instructions-5, follow-1)
+det(operator-3, the-2)
+dobj(follow-1, operator-3)
+cop(instructions-5, s-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+nn(tone-4, dial-3)
+prep_for(listen-1, tone-4)
+
+dobj(press-1, 9-1-1-2)
+
+prep_for(wait-1, answer-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, 911-2)
+
+dobj(request-1, ambulance\/help-2)
+
+dobj(state-1, address-2)
+
+dobj(state-1, issue-2)
+
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+prep_on(turn-1, talk-3)
+
+det(digits-3, the-2)
+dobj(punch-1, digits-3)
+dep(punch-1, 9-1-1-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+prep_for(listen-1, tone-3)
+
+acomp(punch-1, 9-1-1-2)
+
+prep_for(listen-1, ring-3)
+
+prep_for(listen-1, answer-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+prep_on(turn-1, talk-3)
+
+det(digits-3, the-2)
+dobj(punch-1, digits-3)
+dep(punch-1, 9-1-1-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+prep_for(listen-1, tone-3)
+
+acomp(punch-1, 9-1-1-2)
+
+prep_for(listen-1, ring-3)
+
+prep_for(listen-1, answer-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+prep_on(turn-1, talk-3)
+
+det(digits-3, the-2)
+dobj(punch-1, digits-3)
+dep(punch-1, 9-1-1-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+prep_for(listen-1, tone-3)
+
+acomp(punch-1, 9-1-1-2)
+
+prep_for(listen-1, ring-3)
+
+prep_for(listen-1, answer-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+nn(tone-4, dial-3)
+prep_for(listen-1, tone-4)
+
+dobj(dial-1, 911-2)
+
+prep_for(wait-1, answer-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, 911-2)
+

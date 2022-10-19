@@ -1,0 +1,491 @@
+dobj(locate-1, ball-2)
+
+prep_to(move-1, ball-3)
+
+dobj(kick-1, ball-2)
+
+dobj(approach-1, ball-2)
+
+amod(foot-3, non-kicking-2)
+dobj(position-1, foot-3)
+det(ball-6, the-5)
+prep_near(position-1, ball-6)
+
+dep(pull-1, kicking-2)
+dobj(kicking-2, foot-3)
+advmod(kicking-2, backwards-4)
+
+dep(push-1, kicking-2)
+dobj(kicking-2, foot-3)
+advmod(kicking-2, forward-4)
+det(ball-7, the-6)
+prep_through(kicking-2, ball-7)
+
+dobj(move-1, foot-2)
+prep_towards(move-1, ball-4)
+
+dobj(make-1, contact-2)
+prep_with(make-1, ball-4)
+
+dep(continue-1, moving-2)
+dobj(moving-2, foot-3)
+
+det(ball-3, a-2)
+dobj(find-1, ball-3)
+
+prt(draw-1, back-2)
+poss(foot-4, your-3)
+dobj(draw-1, foot-4)
+
+dobj(apply-1, foot-2)
+prep_to(apply-1, ball-4)
+advmod(apply-1, forcefully-5)
+
+det(ball-3, the-2)
+dobj(locate-1, ball-3)
+
+det(ball-4, the-3)
+prep_to(go-1, ball-4)
+
+dobj(kick-1, it-2)
+
+prt(move-1, up-2)
+det(ball-5, the-4)
+prep_to(move-1, ball-5)
+
+num(leg-3, one-2)
+dobj(draw-1, leg-3)
+advmod(draw-1, back-4)
+
+det(leg-3, the-2)
+dobj(swing-1, leg-3)
+advmod(swing-1, forward-4)
+
+csubj(strikes-4, ensure-1)
+det(foot-3, the-2)
+dobj(ensure-1, foot-3)
+det(ball-6, the-5)
+dobj(strikes-4, ball-6)
+
+dobj(approach-1, ball-2)
+
+dobj(lift-1, foot-2)
+
+dobj(draw-1, foot-2)
+advmod(draw-1, back-3)
+
+dobj(push-1, foot-2)
+advmod(push-1, forward-3)
+
+dobj(track-1, ball-2)
+
+advmod(move-1, close-2)
+dep(move-1, ot-3)
+dobj(ot-3, ball-4)
+dep(move-1, wait-6)
+conj_or(ot-3, wait-6)
+prep_for(wait-6, ball-8)
+aux(near-11, to-9)
+cop(near-11, be-10)
+xcomp(wait-6, near-11)
+
+prt(pull-1, back-2)
+xcomp(pull-1, kicking-3)
+dobj(kicking-3, foot-4)
+
+dep(psuh-1, kicking-2)
+dobj(kicking-2, foot-3)
+advmod(so-5, forward-4)
+advmod(kicking-2, so-5)
+aux(make-7, to-6)
+xcomp(kicking-2, make-7)
+dobj(make-7, contact-8)
+prep_with(make-7, ball-10)
+
+dobj(approach-1, ball-2)
+
+dobj(pull-1, leg-2)
+prt(pull-1, back-3)
+
+dobj(push-1, leg-2)
+advmod(push-1, forward-3)
+prep_through(push-1, ball-5)
+
+dobj(approach-1, ball-2)
+
+prt(pull-1, back-2)
+amod(leg-4, kicking-3)
+dobj(pull-1, leg-4)
+
+dobj(push-1, leg-2)
+advmod(push-1, forward-3)
+
+dobj(make-1, contact-2)
+conj_and(make-1, follow-4)
+prt(follow-4, through-5)
+
+det(ball-3, a-2)
+dobj(get-1, ball-3)
+
+num(leg-4, one-3)
+prep_on(stand-1, leg-4)
+
+det(leg-4, the-2)
+amod(leg-4, free-3)
+dobj(swing-1, leg-4)
+det(ball-7, the-6)
+prep_towards(swing-1, ball-7)
+det(movement-11, a-9)
+amod(movement-11, sharp-10)
+prep_in(ball-7, movement-11)
+
+det(ball-3, a-2)
+dobj(find-1, ball-3)
+
+num(leg-3, one-2)
+dobj(move-1, leg-3)
+advmod(slightly-5, backward-4)
+advmod(move-1, slightly-5)
+
+advmod(move-2, quickly-1)
+dobj(move-2, leg-3)
+advmod(move-2, forward-4)
+det(ball-7, the-6)
+prep_toward(move-2, ball-7)
+
+det(ball-3, the-2)
+dobj(tap-1, ball-3)
+det(foot-6, the-5)
+prep_with(tap-1, foot-6)
+det(leg-10, the-8)
+amod(leg-10, moving-9)
+prep_on(tap-1, leg-10)
+
+prt(pick-1, up-2)
+det(ball-4, the-3)
+dobj(pick-1, ball-4)
+
+det(ball-3, the-2)
+dobj(hold-1, ball-3)
+det(air-6, the-5)
+prep_in(hold-1, air-6)
+prep_above(hold-1, one-8)
+poss(feet-11, your-10)
+prep_on(hold-1, feet-11)
+
+det(foot-3, the-2)
+dobj(swing-1, foot-3)
+prt(swing-1, up-4)
+advmod(swing-1, quickly-5)
+prep(swing-1, to-6)
+dep(to-6, hit-7)
+det(ball-9, the-8)
+dobj(hit-7, ball-9)
+
+det(ball-3, a-2)
+dobj(place-1, ball-3)
+det(ground-6, the-5)
+prep_on(place-1, ground-6)
+
+det(foot-3, a-2)
+dobj(bring-1, foot-3)
+advmod(bring-1, back-4)
+det(person-7, a-6)
+prep_behind(bring-1, person-7)
+
+det(foot-3, the-2)
+dobj(swing-1, foot-3)
+advmod(foot-3, forward-4)
+dobj(swing-1, impact-6)
+conj_and(foot-3, impact-6)
+det(ball-9, the-8)
+prep_with(swing-1, ball-9)
+
+det(ball-3, a-2)
+dobj(get-1, ball-3)
+
+dobj(put-1, it-2)
+det(floor-5, the-4)
+prep_on(put-1, floor-5)
+
+poss(leg-3, your-2)
+dobj(swing-1, leg-3)
+advmod(swing-1, back-4)
+
+poss(leg-3, your-2)
+dobj(swing-1, leg-3)
+prep(swing-1, forward-4)
+dep(forward-4, making-5)
+dobj(making-5, contact-6)
+det(ball-9, the-8)
+prep_with(making-5, ball-9)
+
+dobj(locate-1, ball-2)
+
+prep_towards(run-1, ball-3)
+
+dobj(kick-1, ball-2)
+advmod(reaching-4, when-3)
+advcl(kick-1, reaching-4)
+dobj(reaching-4, ball-5)
+
+det(ball-3, the-2)
+dobj(place-1, ball-3)
+prep_near(place-1, leg-5)
+
+det(leg-3, the-2)
+dobj(lift-1, leg-3)
+
+det(ball-3, the-2)
+dobj(touch-1, ball-3)
+prep_with(touch-1, leg-5)
+
+dobj(move-1, leg-2)
+dep(little-4, a-3)
+advmod(move-1, little-4)
+advmod(move-1, backward-5)
+
+det(kick-3, a-2)
+dobj(give-1, kick-3)
+
+det(ball-3, the-2)
+dobj(put-1, ball-3)
+det(ground-6, the-5)
+prep_on(put-1, ground-6)
+
+poss(foot-3, your-2)
+dobj(use-1, foot-3)
+aux(kick-5, to-4)
+xcomp(use-1, kick-5)
+det(ball-7, the-6)
+dobj(kick-5, ball-7)
+
+det(ball-3, a-2)
+dobj(kick-1, ball-3)
+dep(kick-1, using-4)
+poss(foot-6, your-5)
+dobj(using-4, foot-6)
+
+det(ball-4, the-3)
+prep_to(go-1, ball-4)
+
+poss(foot-3, your-2)
+dobj(raise-1, foot-3)
+advmod(raise-1, backwards-4)
+
+poss(foot-3, your-2)
+dobj(swing-1, foot-3)
+advmod(swing-1, forwards-4)
+
+dobj(place-1, ball-2)
+det(ground-5, the-4)
+prep_on(place-1, ground-5)
+
+num(steps-3, 3-2)
+dobj(take-1, steps-3)
+advmod(take-1, back-4)
+prep_from(take-1, ball-6)
+
+prep_towards(run-1, ball-3)
+
+dobj(swing-1, leg-2)
+prep_toward(swing-1, ball-4)
+
+prep_with(end-1, foot-3)
+prep(end-1, hitting-4)
+dep(hitting-4, through-5)
+pobj(through-5, ball-6)
+
+prep_at(look-1, ball-3)
+
+dobj(pull-1, foot-2)
+prt(pull-1, back-3)
+
+dobj(aim-1, foot-2)
+prep_at(aim-1, ball-4)
+
+dobj(bring-1, foot-2)
+advmod(quickly-4, forward-3)
+advmod(bring-1, quickly-4)
+
+dobj(put-1, ball-2)
+det(ground-5, the-4)
+prep_on(put-1, ground-5)
+
+det(step-3, a-2)
+dobj(take-1, step-3)
+advmod(take-1, back-4)
+
+prep_with(stand-1, weight-3)
+amod(leg-6, left-5)
+prep_on(weight-3, leg-6)
+
+amod(leg-3, right-2)
+dobj(pull-1, leg-3)
+prt(pull-1, back-4)
+
+prep_for(aim-1, ball-3)
+
+advmod(move-2, quickly-1)
+amod(leg-4, right-3)
+dobj(move-2, leg-4)
+advmod(move-2, forward-5)
+
+amod(foot-3, right-2)
+dobj(connect-1, foot-3)
+prep_with(connect-1, ball-5)
+
+dobj(place-1, ball-2)
+prep_on(place-1, ground-4)
+
+advmod(move-1, back-2)
+
+prep_towards(run-1, ball-3)
+
+dobj(move-1, leg-2)
+prt(move-1, back-3)
+
+dobj(move-1, leg-2)
+advmod(move-1, forward-3)
+
+dobj(put-1, ball-2)
+prep_in_front_of(put-1, feet-6)
+
+nsubj(left-2, plant-1)
+dobj(left-2, foot-3)
+prep_next_to(left-2, ball-6)
+
+amod(foot-3, right-2)
+dobj(swing-1, foot-3)
+advmod(swing-1, back-4)
+
+amod(foot-3, right-2)
+dobj(swing-1, foot-3)
+advmod(swing-1, forward-4)
+
+det(ball-3, the-2)
+dobj(strike-1, ball-3)
+
+dobj(raise-1, foot-2)
+
+dobj(kick-1, ball-2)
+
+det(ball-3, the-2)
+dobj(hold-1, ball-3)
+
+det(ball-3, the-2)
+dobj(place-1, ball-3)
+
+det(force-3, the-2)
+dobj(apply-1, force-3)
+amod(direction-6, proper-5)
+prep_in(apply-1, direction-6)
+
+det(ball-3, a-2)
+dobj(kick-1, ball-3)
+
+det(ball-3, the-2)
+dobj(place-1, ball-3)
+
+prt(back-1, up-2)
+
+advmod(run-1, forward-2)
+
+det(ball-3, the-2)
+dobj(kick-1, ball-3)
+
+dobj(place-1, ball-2)
+prep_on(place-1, ground-4)
+
+prt(line-1, up-2)
+prep_behind(line-1, ball-4)
+
+dobj(strike-1, ball-2)
+prep_with(strike-1, foot-4)
+
+dobj(find-1, ball-2)
+
+prep_for(aim-1, ball-3)
+
+dobj(kick-1, ball-2)
+
+dobj(point-1, toe-2)
+prep_at(point-1, ball-4)
+
+prt(pull-1, back-2)
+dobj(pull-1, foot-3)
+
+dobj(swing-1, foot-2)
+advmod(swing-1, forward-3)
+advmod(forward-3, hard-4)
+advmod(swing-1, fast-6)
+conj_and(forward-3, fast-6)
+
+dobj(make-1, contact-2)
+det(ball-5, the-4)
+prep_with(make-1, ball-5)
+
+det(ball-3, the-2)
+dobj(kick-1, ball-3)
+
+det(ball-3, a-2)
+dobj(find-1, ball-3)
+
+dobj(put-1, it-2)
+det(ground-5, the-4)
+prep_on(put-1, ground-5)
+
+prep_behind(stand-1, it-3)
+
+prt(run-1, up-2)
+prep_to(run-1, it-4)
+
+poss(leg-3, your-2)
+dobj(swing-1, leg-3)
+det(ball-6, the-5)
+prep_at(swing-1, ball-6)
+
+det(ball-3, the-2)
+dobj(hit-1, ball-3)
+poss(foot-6, your-5)
+prep_with(hit-1, foot-6)
+
+dobj(place-1, ball-2)
+prep_in_front_of(place-1, you-6)
+
+dobj(pull-1, leg-2)
+prt(pull-1, back-3)
+
+dobj(hit-1, ball-2)
+prep_with(hit-1, foot-4)
+
+det(foot-3, the-2)
+dobj(prepare-1, foot-3)
+
+dobj(swing-1, foot-2)
+prep_at(swing-1, ball-4)
+
+dobj(take-1, ball-2)
+
+dobj(swing-1, foot-2)
+
+dobj(hit-1, ball-2)
+
+dobj(put-1, ball-2)
+prep_on(put-1, ground-4)
+
+prep_in_front_of(stand-1, ball-5)
+
+dobj(lift-1, foot-2)
+prep_off(lift-1, ground-4)
+
+dobj(hit-1, ball-2)
+prep_with(hit-1, foot-4)
+
+
+
+
+
+
+
+

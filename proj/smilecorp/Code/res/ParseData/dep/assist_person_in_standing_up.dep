@@ -1,0 +1,309 @@
+dobj(give-1, hand-2)
+prep_to(give-1, person-4)
+
+poss(hand-3, his-2)
+dobj(grab-1, hand-3)
+
+prep_towards(pull-1, you-3)
+
+det(person-3, that-2)
+dobj(find-1, person-3)
+
+det(person-4, that-3)
+prep_to(walk-1, person-4)
+
+det(person-3, that-2)
+dobj(tell-1, person-3)
+nsubj(re-5, you-4)
+xsubj(help-8, you-4)
+dep(tell-1, re-5)
+dep(re-5, going-6)
+aux(help-8, to-7)
+xcomp(going-6, help-8)
+
+nn(arms-3, his\/her-2)
+dobj(hold-1, arms-3)
+
+dobj(pull-1, him\/her-2)
+prt(pull-1, up-3)
+
+nsubj(bend-3, crouch-1)
+advmod(bend-3, or-2)
+prt(bend-3, over-4)
+
+amod(footing-3, stable-2)
+dobj(acquire-1, footing-3)
+
+dobj(offer-1, hand-2)
+prep_to(offer-1, person-4)
+
+advmod(lean-1, backwards-2)
+
+advmod(pull-1, gently-2)
+
+prep_to(go-1, person-3)
+
+nn(person-2, hold-1)
+nsubj(hand-4, person-2)
+cop(hand-4, s-3)
+
+dobj(pull-1, hand-2)
+prep_toward(pull-1, you-4)
+
+det(person-3, the-2)
+dobj(locate-1, person-3)
+
+det(person-4, the-3)
+prep_to(go-1, person-4)
+
+det(person-3, the-2)
+nsubj(arm-5, person-3)
+cop(arm-5, s-4)
+ccomp(hold-1, arm-5)
+ccomp(hold-1, waist-7)
+conj_and(arm-5, waist-7)
+
+det(person-3, the-2)
+dobj(tell-1, person-3)
+aux(stand-5, to-4)
+infmod(person-3, stand-5)
+prt(stand-5, up-6)
+
+det(person-3, the-2)
+nsubj(arm-5, person-3)
+cop(arm-5, s-4)
+ccomp(hold-1, arm-5)
+ccomp(hold-1, waist-7)
+conj_and(arm-5, waist-7)
+mark(stands-10, while-8)
+nsubj(stands-10, s\/he-9)
+advcl(arm-5, stands-10)
+prt(stands-10, up-11)
+
+dobj(go-1, next-2)
+prep_to(go-1, person-4)
+
+nn(person-2, hold-1)
+nsubj(hand-4, person-2)
+cop(hand-4, s-3)
+
+nsubj(pull-6, standing-1)
+prep_in_front_of(standing-1, person-5)
+dobj(pull-6, hand-7)
+prep_towards(pull-6, yourself-9)
+
+prep_to(go-1, person-3)
+
+prep(hand-9, standing-1)
+dep(standing-1, in-2)
+pobj(in-2, front-3)
+prep_of(front-3, person-5)
+nn(person-7, grab-6)
+nsubj(hand-9, person-7)
+cop(hand-9, s-8)
+
+nn(person-2, pull-1)
+nsubj(arm-4, person-2)
+cop(arm-4, s-3)
+prt(arm-4, up-5)
+prep_toward(arm-4, you-7)
+
+prt(go-1, over-2)
+det(person-5, the-4)
+prep_to(go-1, person-5)
+
+csubj(arm-5, grasp-1)
+det(person-3, the-2)
+dobj(grasp-1, person-3)
+cop(arm-5, s-4)
+
+advmod(pull-2, gently-1)
+det(person-4, the-3)
+dobj(pull-2, person-4)
+prt(pull-2, up-5)
+
+det(person-3, the-2)
+nsubj(feet-5, person-3)
+cop(feet-5, s-4)
+ccomp(watch-1, feet-5)
+mark(slip-11, so-6)
+det(t-10, the-7)
+nn(t-10, person-8)
+nn(t-10, doesn-9)
+nsubj(slip-11, t-10)
+advcl(feet-5, slip-11)
+
+poss(hand-3, your-2)
+dobj(put-1, hand-3)
+det(person-6, the-5)
+prep_on(put-1, person-6)
+dep(person-6, s-7)
+det(person-11, the-10)
+prep_on(put-1, person-11)
+conj_so(person-6, person-11)
+partmod(person-11, doesn-12)
+nn(fall-14, t-13)
+tmod(doesn-12, fall-14)
+advmod(put-1, backward-15)
+
+dobj(identify-1, person-2)
+
+dobj(approach-1, person-2)
+
+dobj(extend-1, hand-2)
+prep_to(extend-1, person-4)
+
+dobj(pull-1, person-2)
+
+dobj(release-1, person-2)
+
+prep_to(go-1, person-3)
+
+dobj(put-1, arm-2)
+prep_under(put-1, arm-4)
+prep_of(arm-4, person-6)
+
+dobj(lift-1, person-2)
+
+acomp(make-1, sure-2)
+nsubj(standing-5, person-3)
+aux(standing-5, is-4)
+ccomp(sure-2, standing-5)
+advmod(standing-5, firmly-6)
+
+nn(person-2, hold-1)
+nsubj(hand-4, person-2)
+cop(hand-4, s-3)
+
+
+amod(person-2, counter-1)
+nsubj(weight-4, person-2)
+cop(weight-4, s-3)
+
+prep_in_front_of(stand-1, person-5)
+
+prt(hold-1, out-2)
+dobj(hold-1, hand-3)
+
+nn(person-2, grasp-1)
+nsubj(hand-4, person-2)
+cop(hand-4, s-3)
+
+nsubj(hand-5, pull-1)
+prep_on(pull-1, person-3)
+cop(hand-5, s-4)
+
+dobj(grab-1, arm-2)
+prep_of(arm-2, person-4)
+
+xcomp(help-1, raise-2)
+dobj(raise-2, them-3)
+prt(raise-2, up-4)
+
+poss(arms-3, their-2)
+dobj(grab-1, arms-3)
+
+
+prep_to(go-1, person-3)
+
+dobj(lift-1, person-2)
+
+prep_in_front_of(stand-1, person-5)
+
+prt(put-1, out-2)
+poss(arms-4, your-3)
+dobj(put-1, arms-4)
+prep_to(put-1, person-6)
+
+dep(sleves-6, allow-1)
+dobj(allow-1, person-2)
+prep_to(allow-1, lever-4)
+nsubj(sleves-6, them-5)
+prep_against(sleves-6, you-8)
+
+advmod(put-1, gentlely-2)
+prep_on(put-1, person-4)
+mark(raise-7, as-5)
+nsubj(raise-7, they-6)
+advcl(put-1, raise-7)
+
+acomp(make-1, sure-2)
+nsubj(feet-8, they-3)
+cop(feet-8, are-4)
+amod(feet-8, steady-5)
+prep_on(steady-5, there-7)
+ccomp(sure-2, feet-8)
+
+dep(let-1, go-2)
+prep_of(go-2, person-4)
+
+acomp(stand-1, next-2)
+det(person-5, the-4)
+prep_to(next-2, person-5)
+
+poss(arm-3, your-2)
+dobj(extend-1, arm-3)
+
+det(grip-4, the-2)
+nn(grip-4, person-3)
+iobj(let-1, grip-4)
+poss(arm-6, your-5)
+dobj(let-1, arm-6)
+dobj(stand-9, arm-6)
+mark(stand-9, as-7)
+nsubj(stand-9, they-8)
+dep(arm-6, stand-9)
+
+prt(stand-1, up-2)
+
+prep_to(walk-1, them-3)
+
+dobj(ask-1, them-2)
+mark(want-5, if-3)
+nsubj(want-5, they-4)
+advcl(ask-1, want-5)
+dobj(want-5, help-6)
+
+poss(arm-4, their-3)
+prep_onto(hold-1, arm-4)
+
+
+advmod(walk-1, away-2)
+
+dobj(hold-1, person-2)
+
+dobj(pull-1, person-2)
+prt(pull-1, up-3)
+
+dobj(assist-1, person-2)
+
+dobj(assist-1, person-2)
+prep_in(assist-1, standing-4)
+
+dobj(assist-1, perosn-2)
+prepc_in(assist-1, standing-4)
+prt(standing-4, up-5)
+
+dobj(help-1, person-2)
+
+
+prt(reach-1, out-2)
+poss(arm-4, your-3)
+dobj(reach-1, arm-4)
+
+dobj(take-1, hold-2)
+poss(hand-5, their-4)
+prep_of(hold-2, hand-5)
+
+advmod(pull-1, vigorously-2)
+
+advmod(pull-1, again-2)
+
+nn(water-3, ice-2)
+dobj(get-1, water-3)
+
+dobj(dump-1, it-2)
+prep_on(dump-1, them-4)
+
+prep_like(run-1, mad-3)
+

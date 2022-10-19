@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0006866" url="http://www.foodserve.com/Faq.htm" time="2012-07-12-23:51" support="1" score="0.0017895836569208439" bingtitle="POS Software - Food Service Cafeteria Software Restaurant Menu ..." webtitle="POS Software - Food Service Cafeteria Software Restaurant Menu Software,Point of Sale Software">
+			<query id="001039" bing-rank="42"/>
+	<description>The local POS station sends only the items purchased, POS station, cashier and payment information to the server along with a ...</description>
+	<body>
+		HOME POS ONLINE PAYMENTS BIOMETRICS FOODCO FORMS ABOUT FSS CONTACT 
+ US 
+ 
+ 
+ 
+ 
+ Overview Products Tech.Assistance Video Who&apos;s Talking What&apos;s News Contact Us FAQ 
+ 
+ 
+   
+ 
+ 
+ 
+FSS®POSitive ID System III&quot;Simple, reliable and affordable&quot;
+ How &apos;shrink-wrap&apos; cafeteria
+ software, centralized database, TCP-IP technology, off the shelf hardware, and Biometric
+ options seamlessly combine to &quot;feed more kids&quot; 
+                      School Lunch Cafeteria Software
+ 
+Frequently Asked Questions:  
+
+What is the benefit a real time central database for school lunch software? 
+
+A central database, contains all of your students, their census information and
+ transaction history. One database for the entire school. When a student eats lunch
+ at any school, the data is updated real time on the central server. When lunch is
+ over, reports can be run from any connected computer in the district.
+
+The advantage is that moving large amounts of data (batch processing), is minimized.
+ The more often you move data the more likely it is to get lost or corrupt. Most
+ POS cafeteria software requires moving 200 or 20,000 transactions at one time via
+ a batch upload/download. It is not only cumbersome, it is dangerous. A connection
+ drops in the middle of the transfer process, and it might just ruin your day or
+ worse, cost you a Saturday off when you have to come in and straighten it out.
+
+Our central database is updated with each transaction (sale or payment) as it happens.
+ There is no midnight update and because the central database is updated real time,
+ there is nothing to lose.
+
+  How do the POS machines communicate to the server?
+ 
+Wide area networks allow for data to move between unconnected buildings/computers
+ using TCP/IP. True Internet based programs (surfing, Ebay, e-mail) termed Thin Client
+ applications, are unavailable if the web-server is down.
+
+FSS POSitive ID System III is engineered for use across a Wide Area Network with
+ a minimal demand on bandwidth. The local POS station sends only the items purchased,
+ POS station, cashier and payment information to the server along with a student
+ ID number, thus the amount of network traffic is minimized.
+
+  So what happens when the server is down?
+ 
+Great question. We install a copy of the database locally on each POS terminal.
+ We know one thing for sure---that even if the electricity goes off (never mind the
+ fact that you can&apos;t get your e-mail) lunch is still expected to be served. If the
+ server goes down in the middle of lunch, or even if it never woke up this morning,
+ your point of sale is still up and running. The individual POS terminal has all
+ the information it needs to get your cashiers, and the students, through lunch until
+ the server is on-line. The data is written to the local POS until the server comes
+ back on line. We call this &quot;Smart Terminal Technology&quot;. Furthermore, with all of
+ the data being kept on the local machine in case of an emergency, we can access
+ things like student pictures, special needs, etc. right from the local POS terminal
+ so that they don&apos;t have to be transmitted across the network at each transaction.
+
+  You didn&apos;t address the electricity going down.
+ 
+Caught me. As we use standard PC hardware, a good battery backup is a sound investment
+ to handle power spikes or outages. These start at $100-$150 and you pay more for
+ more capacity (bigger batteries) that can last up to two hours. Hopefully if there
+ is a long term power outage everybody gets to go home.
+
+  Shrink-wrap software?
+ 
+Our goal is to make this software so simple and bulletproof you can install it,
+ set it up and run it with an absolute minimum of support. The only reason to maintain
+ expensive support contracts is if the product requires extensive support. That costs
+ both time and money ........yours and ours.
+
+ Read more on shrink-wrap software
+
+  What type of database do you use?
+ 
+We chose to use Microsoft SQL Server 2005 for our server database and Microsoft
+ SQL Server 2005 Express for the local database at the POS machine. This database
+ allows fast record searching and posting and also gives us the ability to scale
+ from small installations to very large ones. Microsoft SQL Server is number 1 when it comes to databases;
+ Microsoft ships more units than Oracle and IBM combined. 
+
+  What is the difference between a proprietary and non proprietary system?
+ 
+Proprietary systems require you to purchase hardware from a specific manufacturer.
+ Many point of sale companies even have proprietary operating systems that force
+ you to buy the computer, screens and peripherals at an inflated cost directly from
+ them. A nonproprietary system allows you to purchase PC based hardware and peripherals
+ from any supplier that offers a competitive advantage. PC hardware to run our software
+ starts at under $500 (monitor based-mouse driven) to $2000 for a fast-food, all-in-one,
+ small footprint touch screen PC.
+
+  Does your system use any other input device other than biometrics for
+ identification?
+ Any number pad or scanner (bar code or magnetic) can be used to identify
+ a student for FSS POSitive ID System III. These identification devices can be used
+ interchangeably so that an elementary school may use a card while a high school
+ uses a combination of biometric scanners and number pads.
+
+  Isn&apos;t biometrics overkill for a lunch line?
+ 
+That depends. Using Biometrics, a student may be identified to his/her lunch account
+ with no other instrument than their finger. A PIN number takes one second per digit,
+ so a simple four digit number takes four seconds to enter. Biometric identification
+ will occur in less than two seconds.
+
+Anyone who has experienced ID cards knows that over 50% of the cards will need to
+ be reissued. The student will lose it, destroy it, and often forget it. The blank
+ card is an expense, but that is insignificant compared to the soft time (labor)
+ it takes to complete the reissue process. A good blank card machine costs $5000-$10,000.
+ Read More on Biometric Identification 
+
+  What about the ACLU and big brother issues concerning biometrics?
+ 
+Choice is the secret to privacy. Every student/parent is given a choice: Biometric
+ registration, (finger scan) or remember your student ID number. When offered this
+ choice, less than 1% opt to remember the ID number. Both of the biometric identification
+ methods we use offer encrypted databases and store only the result of registration,
+ not actual images. As the process is opt-in, the individual is only recognized at
+ predetermined locations (i.e. ABC High School Point of Sale, ABC Football field,
+ ABC Student Entry Door #1). It is impossible to use the biometric data for any other
+ purpose. As for the acceptance of biometrics as a means of identification, polls
+ now show that over 80% of Americans now favor some sort of national ID card.
+
+ The Biometric Process Defined
+ (PDF) 
+
+  What is your policy on hardware?
+ 
+Hardware specifications are detailed on the POS page and we will support FSS POSitive ID System III software whether
+ we supply the hardware or you purchase from another source. If you are looking for
+ quality the fast food, spill proof low profile units, CobraPOS terminals are state-of-the
+ art and competitively priced. The CobraPOS features a 15&quot; touchscreen LCD screen,
+ Celeron 2.0Ghz or 2.4Ghz Pentium IV and 256 MB RAM (can be upgraded to any amount
+ of RAM). Options include wireless keyboard, customer display, internal Bar Code/Magnetic
+ Card reader. Warranty is standard one year and service is overnight replacement.
+
+  What about server/network requirements?
+ 
+Good question. Your IT department knows the LAN/WAN capacity within your district
+ and absolutely must be consulted before you consider any system. Many large districts
+ across the USA are at a quandary today as the distributed database applications
+ they have purchased for point of sale flat out &quot;don&apos;t work.&quot; Data loss, service
+ interruption and system down time are all proportional to the number of simultaneous
+ users/lines in operation.
+
+As lunch is served at the same time school is in session consider the following.
+ At lunch 125 cashiers conduct 25,000 transactions, there are 6 computer labs, 3
+ Internet classes, student attendance systems, faculty e-mail, VOIP phones and a
+ host of other applications simultaneously running across the LAN/WAN competing for
+ both server time and bandwidth. The best answer to network-bandwith-server issues
+ is a detailed analysis by both your IT department and our Network Technicians. If
+ there is any chance it won&apos;t work when the system is stressed you are better off
+ knowing up front. Failure to do so is buying &quot;a pig in a poke&quot;. It is absolutely
+ imperative to get your IT department involved and follow their lead. They must ultimately
+ be the first line of support for any system.
+
+  Why is your support so much less than the competition?
+ 
+Two key features of the system design allow for this policy. First is the platform.
+ Our software by nature is simple to use, operate and maintain. FSS POSitive ID
+ System III, utilizes a central database and most of the maintenance in existing
+ systems revolves around moving data, both student information and student transactions,
+ in batch dumps. We eliminate this headache.
+
+In addition, we expect the IT department in your district to be the first line of
+ support for the food service department. No one knows your network better than the
+ people who work with it day in and day out. No one will be able to respond to an
+ on site need faster than someone who is already there. We respect the expertise
+ already on staff and because your/our point of sale system uses the same infrastructure
+ as the rest of the district, their support is paramount to the success of any project.
+ Without the direction of your IT department we don&apos;t even care to be involved.
+
+  How are training and installation handled?
+ 
+The installation of the point of sale system will be coordinated with your IT department.
+ Once the specifications for the server and bandwidth are addressed our preference
+ is to install every station and turn the entire district on. Will it be chaotic?
+ Absolutely. But how much nicer will it be after the week of chaos, when all reporting
+ is done out of one database, one system for student accountability, one policy and
+ procedure for administrative support and one cohesive staff committed to the project
+ at hand. If you are up for the challenge it sure beats six to sixty weeks of chaos--turning
+ the system on one school at a time. One suggestion here. If at all possible, something
+ new should not be initiated when something else new is going on simultaneously.
+ This brings to mind all of added pressure of making day one the first day of a new
+ school year. One out of every five kids won&apos;t even know where the cafeteria is the
+ first day of school let alone being ready to make his/her contribution to a successful
+ roll out.
+
+Our preference is support your support staff in both the training and installation
+ of a system. When we agree to come on site, install, train and assist with turn
+ on--we stay until you are comfortable.
+
+  What will insure a successful installation?
+ 
+Our philosophy is the one-third times three principle. One third, our software and
+ staff at Food Service Solutions, Inc., one third, your staff, including trainers,
+ cashiers and IT department. That&apos;s only two-thirds, right? The other third is the
+ kids, the parents, the teachers and the administrators of the district. This is
+ often overlooked but if it weren&apos;t for the kids, we wouldn&apos;t need a point of sale.
+ If we offer debit accounting and only the free and reduced students participate,
+ what have we accomplished. If 80% of the kids continue to use cash, what have we
+ done to affect lunch line speed? If the teachers refuse to use the system, what
+ message does it send to the student body? If the administration does not back up
+ policies on arrear accounts, recognize the dilemma our cashiers are in when 50%
+ of students are without ID cards or consider how critical real time student census
+ data is to the success of a system then the odds for a thoroughly satisfied client
+ significantly diminish. It is our goal to meet and exceed your expectations, but
+ these expectations must be conveyed to every participant in the process. 
+ Join the
+ Food Service Solutions Mailing List * Email * First Name Last Name Company State * = Required Field 
+ 
+ 
+ Find out about our Industry leading
+ biometric technology 
+ 
+Quality Back Office Software
+ FOODCO  
+
+FOODCO™back office software for Institutional Food Service
+
+ Overview Inventory Purchasing Recipes Receiving Menu Plan Menu Forecast Event Results Graphs Reporting The more you look... the better FOODCO looks 
+      
+ 
+   About Us | Products | Contact Us | News | Support 
+ POS Software | Restaurant Inventory Software | Point of Sale Software 
+Copy right Food Service Solutions2009
+	</body>
+</document>

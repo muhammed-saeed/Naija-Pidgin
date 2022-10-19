@@ -1,0 +1,332 @@
+dobj(check-1, availability-2)
+prep_of(availability-2, domain-4)
+
+det(dns-4, a-2)
+amod(dns-4, good-3)
+dobj(find-1, dns-4)
+
+det(registration-3, the-2)
+dobj(do-1, registration-3)
+
+nn(page-3, web-2)
+dobj(create-1, page-3)
+
+det(hompage-3, the-2)
+dobj(test-1, hompage-3)
+
+dobj(publish-1, hompage-2)
+
+det(advertisement-3, the-2)
+dobj(do-1, advertisement-3)
+
+nn(account-5, web-2)
+nn(account-5, page-3)
+nn(account-5, builder-4)
+dobj(get-1, account-5)
+
+dobj(save-1, images-2)
+amod(drive-5, hard-4)
+prep_to(save-1, drive-5)
+
+nn(images-3, page-2)
+dobj(upload-1, images-3)
+prep_to(upload-1, account-5)
+
+det(text-4, the-2)
+amod(text-4, content-3)
+dobj(write-1, text-4)
+
+dobj(place-1, images-2)
+prep_on(place-1, page-4)
+
+det(visitor-5, a-2)
+nn(visitor-5, web-3)
+nn(visitor-5, page-4)
+dobj(add-1, visitor-5)
+advmod(add-1, counter-6)
+
+det(book-4, a-2)
+nn(book-4, guest-3)
+dobj(add-1, book-4)
+
+det(page-3, the-2)
+dobj(save-1, page-3)
+
+nn(engines-4, search-3)
+prep_in(place-1, engines-4)
+
+det(computer-4, the-3)
+prep_at(sit-1, computer-4)
+
+prt(pull-1, up-2)
+amod(software-4, webpage-3)
+dobj(pull-1, software-4)
+
+prep_in(write-1, content-3)
+
+amod(content-3, outside-2)
+dobj(find-1, content-3)
+
+prt(set-1, up-2)
+dobj(set-1, links-3)
+amod(content-6, other-5)
+prep_to(links-3, content-6)
+
+dobj(ftp-1, creation-2)
+poss(website-5, your-4)
+prep_to(ftp-1, website-5)
+
+poss(homepage-3, your-2)
+dobj(test-1, homepage-3)
+
+advmod(necessary-3, as-2)
+acomp(edit-1, necessary-3)
+
+prt(sign-1, up-2)
+det(account-6, a-4)
+nn(account-6, host-5)
+prep_for(sign-1, account-6)
+
+prt(sign-1, in-2)
+prep_to(sign-1, account-4)
+
+nn(page-3, host-2)
+dobj(use-1, page-3)
+partmod(page-3, set-4)
+prep(set-4, up-5)
+
+dobj(add-1, photos-2)
+
+dobj(add-1, text-2)
+
+advmod(arange-1, nicely-2)
+
+prepc_with(save-1, set-3)
+prt(set-3, up-4)
+dobj(set-3, system-5)
+
+
+prt(sign-1, up-2)
+prepc_at(sign-1, hosting-4)
+dobj(hosting-4, service-5)
+
+poss(builder-5, host-2)
+nn(builder-5, site-4)
+dobj(use-1, builder-5)
+
+mark(builder-3, if-1)
+det(builder-3, no-2)
+advcl(use-5, builder-3)
+dobj(use-5, software-6)
+
+nn(steps-3, builder-2)
+dobj(follow-1, steps-3)
+advmod(follow-1, or-4)
+
+nn(name-3, site-2)
+dobj(create-1, name-3)
+
+amod(article-3, intro-2)
+dobj(create-1, article-3)
+
+dobj(add-1, background-2)
+
+dobj(add-1, picture-2)
+mark(have-5, if-3)
+nsubj(have-5, you-4)
+advcl(add-1, have-5)
+dobj(have-5, one-6)
+
+nn(menu-3, navigation-2)
+dobj(add-1, menu-3)
+
+prep_to(publish-1, web-3)
+
+aux(have-2, may-1)
+aux(use-4, to-3)
+xcomp(have-2, use-4)
+dobj(use-4, ftp-5)
+
+aux(tell-2, can-1)
+dobj(tell-2, others-3)
+prep_about(tell-2, page-5)
+
+nn(address-3, web-2)
+dobj(select-1, address-3)
+
+amod(name-3, short-2)
+dobj(select-1, name-3)
+
+nn(layout-3, design-2)
+dobj(choose-1, layout-3)
+
+dobj(find-1, template-2)
+
+nn(page-3, home-2)
+dobj(create-1, page-3)
+
+dobj(upload-1, images-2)
+
+dobj(add-1, images-2)
+
+dobj(change-1, text-2)
+
+det(homepage-3, the-2)
+dep(preview-1, homepage-3)
+
+det(homepage-3, the-2)
+dobj(save-1, homepage-3)
+
+dobj(write-1, content-2)
+
+amod(code-3, html-2)
+dobj(write-1, code-3)
+
+amod(sheet-4, css-2)
+nn(sheet-4, style-3)
+dobj(design-1, sheet-4)
+
+det(server-3, a-2)
+dobj(find-1, server-3)
+
+dobj(purchase-1, domain-2)
+
+dobj(tie-1, domain-2)
+prep_to(tie-1, server-4)
+
+dobj(post-1, content-2)
+
+det(domain-3, a-2)
+dobj(register-1, domain-3)
+
+det(web-3, a-2)
+dobj(buy-1, web-3)
+partmod(web-3, hosting-4)
+dobj(hosting-4, package-5)
+
+dobj(write-1, html-2)
+nn(page-5, index-4)
+prep_for(html-2, page-5)
+
+dobj(configure-1, server-2)
+
+nn(files-3, image-2)
+dobj(ftp-1, files-3)
+
+dobj(upload-1, html-2)
+
+dep(background-5, i-1)
+dep(background-5, get-2)
+det(background-5, a-3)
+amod(background-5, nice-4)
+
+dep(i-1, code-2)
+det(layout-4, the-3)
+dep(i-1, layout-4)
+
+det(navigation-3, the-2)
+dobj(add-1, navigation-3)
+
+det(images-3, any-2)
+dobj(add-1, images-3)
+advmod(add-1, or-4)
+
+dobj(create-1, images-2)
+advmod(create-1, then-3)
+dep(create-1, add-4)
+
+advmod(use-4, how-2)
+aux(use-4, to-3)
+ccomp(learn-1, use-4)
+xcomp(learn-1, use-4)
+dobj(use-4, dreamweaver-5)
+
+det(theme-3, a-2)
+dobj(find-1, theme-3)
+det(page-6, the-5)
+prep_of(theme-3, page-6)
+
+det(web-4, a-2)
+amod(web-4, free-3)
+dobj(find-1, web-4)
+partmod(web-4, hosting-5)
+dobj(hosting-5, site-6)
+
+dobj(open-1, dreamweaver-2)
+
+det(text-3, some-2)
+dobj(add-1, text-3)
+det(homepage-6, the-5)
+prep_to(add-1, homepage-6)
+
+dobj(add-1, pictures-2)
+det(homepage-5, the-4)
+prep_to(add-1, homepage-5)
+
+det(homepage-3, the-2)
+dobj(save-1, homepage-3)
+
+det(homepage-3, the-2)
+dobj(upload-1, homepage-3)
+
+amod(homepage-4, desired-3)
+prep_to(navigate-1, homepage-4)
+
+prep_on(click-1, tools-3)
+dep(click-1, menu-4)
+
+amod(options-4, internet-3)
+prep_on(click-1, options-4)
+
+dep(use-2, click-1)
+acomp(use-2, current-3)
+
+nn(ok-2, click-1)
+
+dobj(is-5, what-2)
+det(page-4, the-3)
+nsubj(is-5, page-4)
+ccomp(decide-1, is-5)
+advmod(is-5, about-6)
+
+dobj(brainstorm-1, layout-2)
+amod(idea-5, content-4)
+dobj(brainstorm-1, idea-5)
+conj_and(layout-2, idea-5)
+
+det(coding-4, the-2)
+amod(coding-4, html-3)
+dobj(write-1, coding-4)
+
+det(server-4, a-2)
+nn(server-4, web-3)
+dobj(obtain-1, server-4)
+
+det(address-4, a-2)
+nn(address-4, web-3)
+dobj(obtain-1, address-4)
+
+amod(pages-3, html-2)
+dobj(upload-1, pages-3)
+prep_to(upload-1, server-5)
+
+det(website-3, a-2)
+dobj(create-1, website-3)
+
+det(designer-5, a-2)
+amod(designer-5, free-3)
+nn(designer-5, web-4)
+dobj(get-1, designer-5)
+
+poss(graphics-4, your-2)
+amod(graphics-4, own-3)
+dobj(upload-1, graphics-4)
+
+dobj(make-1, changes-2)
+dobj(make-1, updates-4)
+conj_and(changes-2, updates-4)
+
+prep_for(e-mail-1, all-3)
+det(business-6, the-5)
+prep_in(all-3, business-6)
+

@@ -1,0 +1,480 @@
+prep_around(walk-1, kitchen-3)
+partmod(kitchen-3, noting-4)
+nsubj(is-6, what-5)
+ccomp(noting-4, is-6)
+amod(supply-9, low-8)
+prep_in(is-6, supply-9)
+
+det(items-3, these-2)
+dobj(write-1, items-3)
+nn(list-6, shopping-5)
+prep_on(write-1, list-6)
+
+dobj(find-1, pen-2)
+
+dobj(find-1, paper-2)
+
+dobj(write-1, items-2)
+partmod(items-2, needed-3)
+prep_on(needed-3, paper-5)
+
+dep(want-5, what-3)
+nsubj(want-5, you-4)
+xsubj(eat-7, you-4)
+prepc_about(think-1, want-5)
+aux(eat-7, to-6)
+xcomp(want-5, eat-7)
+
+prt(write-1, down-2)
+det(ingredient-4, each-3)
+dobj(write-1, ingredient-4)
+
+prep_for(object-3, each-2)
+aux(bought-6, to-4)
+auxpass(bought-6, be-5)
+xcomp(object-3, bought-6)
+
+prt(write-1, down-2)
+det(object-4, the-3)
+dobj(write-1, object-4)
+prep_on(object-4, paper-6)
+
+dobj(need-4, what-2)
+nsubj(need-4, you-3)
+ccomp(check-1, need-4)
+
+prt(write-1, down-2)
+det(item-4, each-3)
+dobj(write-1, item-4)
+dobj(need-6, item-4)
+nsubj(need-6, you-5)
+rcmod(item-4, need-6)
+
+dep(is-5, what-3)
+dobj(need-7, what-3)
+nsubj(is-5, it-4)
+prepc_on(brainstorm-1, is-5)
+nsubj(need-7, you-6)
+ccomp(is-5, need-7)
+det(store-10, the-9)
+prep_from(need-7, store-10)
+
+det(piece-3, a-2)
+dobj(get-1, piece-3)
+prep_of(piece-3, paper\/pad-5)
+
+det(pencil\/pen-3, a-2)
+dobj(get-1, pencil\/pen-3)
+
+prt(write-1, down-2)
+det(items-4, the-3)
+dobj(write-1, items-4)
+dobj(needed-10, items-4)
+rel(decided-7, that-5)
+nsubj(decided-7, you-6)
+rcmod(items-4, decided-7)
+complm(needed-10, that-8)
+nsubj(needed-10, you-9)
+ccomp(decided-7, needed-10)
+
+det(pen-3, a-2)
+dobj(take-1, pen-3)
+
+det(piece-3, a-2)
+dobj(take-1, piece-3)
+prep_of(piece-3, paper-5)
+
+prep_about(think-1, things-3)
+dobj(want-5, things-3)
+nsubj(want-5, you-4)
+xsubj(buy-7, you-4)
+rcmod(things-3, want-5)
+aux(buy-7, to-6)
+xcomp(want-5, buy-7)
+
+prt(write-1, down-2)
+det(name-4, the-3)
+dobj(write-1, name-4)
+det(things-7, those-6)
+prep_of(name-4, things-7)
+det(paper-10, the-9)
+prep_on(things-7, paper-10)
+
+dobj(get-1, paper-2)
+
+dobj(get-1, pencil-2)
+
+prt(write-1, down-2)
+dobj(write-1, items-3)
+aux(buy-5, to-4)
+xcomp(write-1, buy-5)
+
+det(items-4, no-2)
+amod(items-4, more-3)
+pobj(until-1, items-4)
+
+prep_of(think-1, things-3)
+dobj(need-5, things-3)
+nsubj(need-5, you-4)
+xsubj(buy-7, you-4)
+rcmod(things-3, need-5)
+aux(buy-7, to-6)
+xcomp(need-5, buy-7)
+
+det(piece-3, a-2)
+dobj(find-1, piece-3)
+prep_of(piece-3, paper-5)
+
+det(instrument-4, a-2)
+amod(instrument-4, writing-3)
+dobj(find-1, instrument-4)
+
+det(list-3, the-2)
+dobj(write-1, list-3)
+prep_of(list-3, things-5)
+aux(buy-7, to-6)
+infmod(things-5, buy-7)
+det(paper-10, the-9)
+prep_on(buy-7, paper-10)
+
+det(pen-3, a-2)
+dobj(find-1, pen-3)
+
+det(paper-3, some-2)
+dobj(find-1, paper-3)
+
+prep_of(think-1, things-3)
+dobj(need-5, things-3)
+nsubj(need-5, you-4)
+rcmod(things-3, need-5)
+det(shops-8, the-7)
+prep_at(need-5, shops-8)
+
+dep(thought-6, write-1)
+predet(things-4, all-2)
+det(things-4, the-3)
+dobj(write-1, things-4)
+nsubj(thought-6, you-5)
+prep(thought-6, of-7)
+dep(of-7, in-8)
+det(column-10, a-9)
+pobj(in-8, column-10)
+det(page-13, the-12)
+prep_down(thought-6, page-13)
+
+det(piece-3, a-2)
+dobj(find-1, piece-3)
+prep_of(piece-3, paper-5)
+
+det(pen-3, a-2)
+dobj(find-1, pen-3)
+dobj(find-1, pencil-5)
+conj_or(pen-3, pencil-5)
+
+det(things-4, the-3)
+prep_of(think-1, things-4)
+dobj(need-6, things-4)
+nsubj(need-6, you-5)
+xsubj(buy-8, you-5)
+rcmod(things-4, need-6)
+aux(buy-8, to-7)
+xcomp(need-6, buy-8)
+
+det(things-3, these-2)
+dobj(write-1, things-3)
+det(paper-6, the-5)
+prep_on(write-1, paper-6)
+det(pen-9, the-8)
+prep_with(write-1, pen-9)
+prep_with(write-1, pencil-11)
+conj_or(pen-9, pencil-11)
+
+nsubjpass(needed-4, what-2)
+auxpass(needed-4, is-3)
+ccomp(determine-1, needed-4)
+det(household-7, a-6)
+prep_in(needed-4, household-7)
+
+det(items-3, all-2)
+dobj(record-1, items-3)
+nsubj(need-5, items-3)
+rcmod(items-3, need-5)
+dep(need-5, purchased-6)
+
+dobj(print-1, list-2)
+prep_onto(print-1, paper-4)
+mark(carried-9, so-5)
+nsubjpass(carried-9, it-6)
+aux(carried-9, can-7)
+auxpass(carried-9, be-8)
+advcl(print-1, carried-9)
+det(store-12, the-11)
+prep_in(carried-9, store-12)
+
+det(pen-3, a-2)
+dobj(get-1, pen-3)
+
+det(paper-3, some-2)
+dobj(get-1, paper-3)
+
+det(list-3, a-2)
+dobj(make-1, list-3)
+amod(things-6, needed-5)
+prep_of(list-3, things-6)
+det(paper-9, the-8)
+prep_on(make-1, paper-9)
+
+det(piece-3, a-2)
+dobj(get-1, piece-3)
+prep_of(piece-3, paper-5)
+
+prt(write-1, down-2)
+dobj(write-1, food-3)
+aux(buy-5, to-4)
+xcomp(write-1, buy-5)
+
+amod(dinners-4, desired-3)
+prep_of(think-1, dinners-4)
+
+dobj(find-1, ingredients-2)
+
+prt(write-1, down-2)
+dobj(write-1, ingredients-3)
+
+prt(write-1, down-2)
+amod(goods-5, other-3)
+amod(goods-5, desired-4)
+dobj(write-1, goods-5)
+
+det(products-3, all-2)
+dobj(sort-1, products-3)
+
+prt(write-1, down-2)
+amod(list-4, final-3)
+dobj(write-1, list-4)
+
+dobj(define-1, meals-2)
+amod(period-5, next-4)
+prep_for(define-1, period-5)
+
+prt(write-1, down-2)
+dobj(write-1, ingredients-3)
+
+nn(items-5, stock-4)
+prep_out_of(define-1, items-5)
+
+dobj(add-1, items-2)
+det(list-5, the-4)
+prep_to(add-1, list-5)
+
+dobj(sort-1, items-2)
+prep_on(sort-1, type-4)
+
+nsubjpass(needed-4, what-2)
+auxpass(needed-4, is-3)
+ccomp(determine-1, needed-4)
+
+nsubj(is-3, what-2)
+ccomp(determine-1, is-3)
+prep_on(is-3, hand-5)
+
+advmod(is-5, when-1)
+nsubjpass(needed-4, what-2)
+auxpass(needed-4, is-3)
+csubj(is-5, needed-4)
+dep(goes-10, is-5)
+neg(is-5, not-6)
+prep_on(is-5, hand-8)
+nsubj(goes-10, it-9)
+det(list-14, the-12)
+nn(list-14, shopping-13)
+prep_on(goes-10, list-14)
+
+nn(groceries-2, inventory-1)
+prep_in(groceries-2, house-4)
+
+dobj(identify-1, groceries-2)
+nsubj(need-4, groceries-2)
+rcmod(groceries-2, need-4)
+aux(purchased-7, to-5)
+auxpass(purchased-7, be-6)
+xcomp(need-4, purchased-7)
+
+prt(write-1, down-2)
+dobj(write-1, groceries-3)
+nsubj(need-5, groceries-3)
+rcmod(groceries-3, need-5)
+aux(purchased-8, to-6)
+auxpass(purchased-8, be-7)
+xcomp(need-5, purchased-8)
+
+dobj(need-4, what-2)
+nsubj(need-4, you-3)
+ccomp(determine-1, need-4)
+
+dobj(write-1, them-2)
+det(list-6, a-4)
+nn(list-6, shopping-5)
+prep_on(write-1, list-6)
+
+prt(finding-1, out-2)
+dobj(need-5, what-3)
+nsubj(need-5, you-4)
+ccomp(finding-1, need-5)
+
+det(pen-3, a-2)
+dobj(getting-1, pen-3)
+
+dobj(getting-1, paper-2)
+
+dobj(writing-1, it-2)
+prt(writing-1, down-3)
+
+det(cupboards-4, the-3)
+prep_through(look-1, cupboards-4)
+
+det(refrigerator-4, the-3)
+prep_through(look-1, refrigerator-4)
+
+det(list-3, a-2)
+dobj(make-1, list-3)
+nsubjpass(needed-7, what-5)
+auxpass(needed-7, is-6)
+prepc_of(list-3, needed-7)
+
+dobj(get-1, paper-2)
+
+dobj(get-1, pen-2)
+
+dep(need-4, what-2)
+nsubj(need-4, you-3)
+xsubj(buy-6, you-3)
+ccomp(decide-1, need-4)
+aux(buy-6, to-5)
+xcomp(need-4, buy-6)
+
+prt(write-1, down-2)
+dep(need-5, what-3)
+nsubj(need-5, you-4)
+xsubj(buy-7, you-4)
+ccomp(write-1, need-5)
+aux(buy-7, to-6)
+xcomp(need-5, buy-7)
+
+det(piece-3, a-2)
+dobj(take-1, piece-3)
+prep_of(piece-3, paper-5)
+
+det(pencil-3, a-2)
+dobj(get-1, pencil-3)
+dobj(get-1, pen-5)
+conj_or(pencil-3, pen-5)
+
+prt(write-1, down-2)
+det(paper-5, the-4)
+prep_on(write-1, paper-5)
+dobj(need-8, paper-5)
+rel(need-8, what-6)
+nsubj(need-8, you-7)
+rcmod(paper-5, need-8)
+det(store-11, the-10)
+prep_from(need-8, store-11)
+
+nsubj(missing-5, what-3)
+aux(missing-5, is-4)
+prepc_of(think-1, missing-5)
+
+det(item-3, each-2)
+dobj(write-1, item-3)
+prt(write-1, down-4)
+prep_on(write-1, paper-6)
+
+nsubjpass(needed-4, what-2)
+auxpass(needed-4, is-3)
+ccomp(identify-1, needed-4)
+
+dobj(write-1, list-2)
+prep_on(write-1, sheet-4)
+prep_of(sheet-4, paper-6)
+
+dobj(get-1, pen-2)
+
+dobj(get-1, paper-2)
+
+nsubj(\/-4, look-1)
+prep_in(look-1, cupboards-3)
+amod(freezer-7, fridge-5)
+amod(freezer-7, \/-6)
+dobj(\/-4, freezer-7)
+
+prt(write-1, down-2)
+amod(items-4, required-3)
+dobj(write-1, items-4)
+
+det(paper-3, the-2)
+dobj(take-1, paper-3)
+
+det(pen-3, the-2)
+dobj(take-1, pen-3)
+
+prt(write-1, down-2)
+dobj(write-1, everything-3)
+dobj(need-5, everything-3)
+nsubj(need-5, you-4)
+rcmod(everything-3, need-5)
+
+dobj(need-4, what-2)
+nsubj(need-4, you-3)
+ccomp(check-1, need-4)
+
+dobj(add-1, items-2)
+prep_to(add-1, list-4)
+
+det(paper-3, a-2)
+dobj(get-1, paper-3)
+dobj(get-1, pen-5)
+conj_and(paper-3, pen-5)
+
+nsubjpass(needed-8, look-1)
+prep_in(look-1, cupboards-3)
+aux(see-5, to-4)
+infmod(cupboards-3, see-5)
+dobj(see-5, ehat-6)
+auxpass(needed-8, is-7)
+
+dobj(write-1, names-2)
+prep_of(names-2, items-4)
+partmod(items-4, needed-5)
+prep_on(needed-5, paper-7)
+
+nn(pad-3, paper-2)
+dobj(obtain-1, pad-3)
+
+dobj(determine-1, items-2)
+dep(determine-1, required-3)
+
+dobj(write-1, items-2)
+prep_on(write-1, paper-4)
+
+dep(note-1, missing-2)
+dobj(missing-2, groceries-3)
+
+advmod(missing-2, right-1)
+dobj(missing-2, groceries-3)
+prep_on(missing-2, paper-5)
+
+dobj(need-6, what-3)
+nsubj(need-6, groceries-4)
+dep(groceries-4, i-5)
+prepc_of(think-1, need-6)
+
+dobj(write-1, it-2)
+prt(write-1, down-3)
+prep_on(write-1, paper-5)
+
+amod(items-4, different-3)
+prep_of(think-1, items-4)
+
+dobj(write-1, items-2)
+prep_on(write-1, paper-4)
+

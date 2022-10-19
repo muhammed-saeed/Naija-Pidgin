@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0004828" url="http://www.symantec.com/connect/blogs/unusual-phishing-scam-disguised-fast-food-restaurant-survey-aims-steal-financial-information" time="2012-07-12-21:20" support="8" score="0.014332002820397503" bingtitle="Unusual Phishing Scam Disguised as Fast Food Restaurant Survey ..." webtitle="Unusual Phishing Scam Disguised as Fast Food Restaurant Survey Aims to Steal Financial Information | Symantec Connect Community">
+			<query id="000737" bing-rank="88"/>
+			<query id="000416" bing-rank="131"/>
+			<query id="000175" bing-rank="30"/>
+			<query id="000049" bing-rank="125"/>
+			<query id="001461" bing-rank="93"/>
+			<query id="001523" bing-rank="94"/>
+			<query id="000424" bing-rank="40"/>
+			<query id="000167" bing-rank="110"/>
+	<description>... by completing a survey sponsored by a fast food restaurant ... The page asks for the usual credit card details, including the CVV2 or card security number typically ...</description>
+	<body>
+		Symantec Connect 
+ Blogs&gt;Symantec Intelligence Entire Site 
+ 
+ Home Community: Security 
+ Product Community Archiving and eDiscovery 
+ Overview Forums Articles Blogs Downloads Events Groups Ideas Videos 
+ Product Community Backup and Recovery 
+ Overview Forums Articles Blogs Downloads Events Groups Ideas Known Issues Videos 
+ Product Community Endpoint Management 
+ Overview Forums Articles Blogs Downloads Events Groups Ideas Videos 
+ Product Community Endpoint Virtualization 
+ Overview Forums Articles Blogs Downloads Events Groups Ideas Videos 
+ Product Community Storage and Clustering 
+ Overview Forums Articles Blogs Downloads Events Groups Ideas Videos 
+ Product Community Security 
+ Overview Forums Articles Blogs Downloads Events Groups Ideas Videos 
+ Inside Symantec 
+ Overview Forums Articles Blogs Events Groups Ideas Videos 
+ Vision User Conference 
+ Overview Forums Articles Blogs Events Groups Ideas Videos 
+ Partners 
+ Overview Forums Articles Blogs Events Groups Ideas Videos 
+ Developers 
+ Overview Forums Articles Blogs Downloads Groups Ideas Videos 
+ 
+ Blogs 
+ Overview Forums Articles Blogs Downloads Events Groups Ideas Videos 
+ Symantec Intelligence RSS 
+ 
+ Login or Register to participate English 
+ English Français Deutsch Español 
+ Help Store 
+ Backup Exec Endpoint Protection (AntiVirus) SSL Certificates 
+ 
+ Video Screencast Help Search Video Help Close Back 
+ to help Not able to make it to Vision this year? Get a sampling in the Best of Vision on Demand group. 
+Unusual Phishing Scam Disguised as Fast Food Restaurant Survey Aims to Steal Financial Information
+ Created: 30 Aug 2010 MarissaVicario Symantec Employee 0 0 Votes Login to vote Tweet 
+Posted on behalf of Nick Johnston, Senior Software Engineer, Symantec Hosted Services
+
+MessageLabs Intelligence has recently seen an interesting variant on normal bank and other financial institution phishing. This particular phish message encourages the recipient to receive 90 dollars by completing a survey sponsored by a fast food restaurant. This scam is different than normal phishing where phishers often impersonate banks and other financial institutions, claiming that the victim&apos;s account has been temporarily disabled, requiring some kind of action to restore it. The use of a well-known, unrelated, trusted third-party fast food restaurant brand as a vector for stealing confidential information is relatively new.
+
+It appears that this phish was aimed at users in New Zealand. Our analysis shows that most of the recipients where in Australia or New Zealand, the URL of the site included a.nz, presumably a very poor attempt by the phishers to try to fool people that they were browsing the organization’s legitimate web site. Why New Zealand was targeted is unclear; perhaps the phishers wanted to acquire New Zealand-based credit cards. Nevertheless, this shows the global nature of the phishing problem.
+
+The survey itself seems relatively plausible with eight simple questions, and apart from the unusual URL, poor appearance of the logo and the error messages above each question, it could almost pass as real. 
+
+When pressing the&quot;Proceed&quot;link, the victim is prompted to enter credit card information for the payment of the 90 dollar reward. 
+
+The page asks for the usual credit card details, including the CVV2 or card security number typically found on the back of credit cards. Combined with the address information, this should be enough for the phishers (or whomever becomes the end user of these details) to carry out fraudulent&quot;card not present&quot;transactions (for example an online or phone purchase). It&apos;s interesting to note that the page doesn&apos;t ask for any MasterCard SecureCode or Verified by Visa details, suggesting that at least these particular phishers don&apos;t see any value in getting this information, probably since it is not widely used, and in most cases cardholder use of them is not mandatory.
+
+This phishing site was taken down shortly before MessageLabs Intelligence discovered it, so hopefully its impact was limited. However, the site was hosted on a compromised server, and it&apos;s quite likely that the gang had many more compromised servers ready.
+
+As well as the usual victims of phishing, this type of phish casts the well-known fast food chain in a negative light as victims who lose money to this scam might somehow blame the restaurant which is actually a victim itself in this case.
+ Blog Entry Filed Under: Security , Symantec Intelligence , Hosted Mail Security 
+ MarissaVicario&apos;s blog Login or register to post comments Comments RSS Feed 
+ 
+ Links 
+ Technical Support Symantec Training Symantec.com Purchase Endpoint Protection Small Business Edition Purchase SSL Certificates 
+ About Symantec Intelligence 
+ The Symantec Intelligence Blog published by Symantec.cloud serves as a conduit for communicating Intelligence data, trends and statistics based on analysis of cyber security threats, trends and insights from the Symantec Intelligence team comprised of many world-renowned malware and spam experts. Sitting on the front lines of defense, they have a global view of threats across multiple communication protocols drawn from the billions of web pages, email and IM messages they monitor each day. 
+ Filter by: 
+ Author Bhaskar Krishna Daren Lewis Ken Bechtel Lee_Rothman MarissaVicario Nick Johnston Olivia Borsje Paul Wood ron_poserina Sean Butler Tony Millington Language English Portuguese, Brazil 
+ Recent Blog Posts 
+ 
+ Symantec Intelligence Report: June 2012 Paul Wood - 11 Jul 2012 Symantec Intelligence – Maio 2012: Malware migra para fora do mundo Windows Paul Wood - 19 Jun 2012 Symantec Intelligence – May 2012: Malware Moves Outside of the Windows World Paul Wood - 07 Jun 2012 419 Scammers Take Advantage of the Facebook IPO Nick Johnston - 18 May 2012 - 1 Replies Dropbox Abused by Spammers Nick Johnston - 08 Mar 2012 - 2 Replies Spammers continue to take advantage of holidays and events Nick Johnston - 25 Jan 2012 - 1 Replies A New Zero Day PDF Exploit used in a Targeted Attack Tony Millington - 07 Dec 2011 - 1 Replies Symantec Intelligence: November sees a four-fold increase in the number of daily targeted attacks since January Paul Wood - 06 Dec 2011 - 1 Replies To Forsee the Future, We Must Consult the Past Paul Wood - 30 Nov 2011 ProofPoint Comparison ron_poserina - 21 Nov 2011 
+ 
+ Recently on Twitter 
+ symanteccloud 
+ Banging on the Door: How targeted attackers breach a network. http://t.co/85P3GFoO June Symantec Intelligence Report 18 hours 40 min ago Global ratio of spam continued decline from 2011. http://t.co/85P3GFoO June Symantec Intelligence Report 23 hours 29 min ago Cybercriminals increasingly targeting SMBs with attacks. http://t.co/B4ItYai2 11 Jul 2012 Targeted attacks against large businesses fall as cyber criminals shift focus to SMBs. http://t.co/B4ItYai2 10 Jul 2012 Total number of daily targeted attacks continues to increase at a minimum rate of 24 percent. http://t.co/B4ItYai2 10 Jul 2012 
+ 
+ Blog Tags 
+ Hosted Mail Security Spam Emerging Threats Security Risks Online Storage for Backup Exec Evolution of Security Vulnerabilities&amp;Exploits Online Backup Message Filter Messaging Gateway Malware Online Fraud Security 419 Endpoint Protection (AntiVirus) PDF APT botnet symantec intelligence virus targeted attack Malicious Code URL shortening scam targeted attacks 
+Technical Support
+
+ Technical Support Home Supported Products A to Z Support Fundamentals Customer Care Contact Technical Support 
+ 
+Symantec.com
+
+ Small Business Overview Enterprise Overview Solutions Products Training Services Security Response Resources 
+ 
+Store
+
+ Symantec Backup Exec for Windows Small Business Server Endpoint Protection Small Business Edition SSL Certificates 
+ 
+Community Stats
+ Total Content Items Members 274,521 
+ Contact Us Privacy Policy Terms and Conditions Earn Rewards Rewards Terms and Conditions FAQ Mobile Site
+	</body>
+</document>

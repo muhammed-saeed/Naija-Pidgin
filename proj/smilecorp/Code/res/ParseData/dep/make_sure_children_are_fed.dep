@@ -1,0 +1,460 @@
+dobj(ask-1, children-2)
+mark(eaten-6, if-3)
+nsubj(eaten-6, they-4)
+aux(eaten-6, had-5)
+advcl(ask-1, eaten-6)
+
+nsubj(feed-3, if-1)
+neg(feed-3, not-2)
+dobj(feed-3, them-4)
+
+det(children-3, the-2)
+dobj(ask-1, children-3)
+mark(had-7, if-4)
+nsubj(had-7, they-5)
+aux(had-7, have-6)
+advcl(ask-1, had-7)
+det(food-9, any-8)
+dobj(had-7, food-9)
+
+nsubj(feed-3, if-1)
+neg(feed-3, not-2)
+dobj(feed-3, them-4)
+
+mark(so-2, if-1)
+advcl(fed-5, so-2)
+nsubjpass(fed-5, they-3)
+auxpass(fed-5, are-4)
+
+det(children-3, the-2)
+dobj(ask-1, children-3)
+mark(hungry-7, if-4)
+nsubj(hungry-7, they-5)
+cop(hungry-7, are-6)
+advcl(ask-1, hungry-7)
+
+mark(hungry-4, if-1)
+nsubj(hungry-4, they-2)
+cop(hungry-4, are-3)
+csubj(prepare-6, hungry-4)
+advmod(prepare-6, then-5)
+dobj(prepare-6, food-7)
+prep_for(prepare-6, them-9)
+
+advmod(eaten-4, after-1)
+nsubj(eaten-4, they-2)
+aux(eaten-4, have-3)
+ccomp(eaten-4, clean-5)
+prt(clean-5, up-6)
+det(food-8, the-7)
+dobj(clean-5, food-8)
+
+dobj(prepare-1, food-2)
+
+dobj(set-1, table-2)
+
+dobj(summon-1, children-2)
+
+dobj(serve-1, food-2)
+
+dobj(assure-1, children-2)
+dep(assure-1, eat-3)
+
+dobj(prepare-1, food-2)
+
+prt(dish-1, up-2)
+det(food-4, the-3)
+dobj(dish-1, food-4)
+
+det(table-3, the-2)
+dobj(lay-1, table-3)
+
+acomp(make-1, sure-2)
+nsubjpass(seated-5, they-3)
+auxpass(seated-5, are-4)
+ccomp(sure-2, seated-5)
+
+det(food-3, the-2)
+dobj(serve-1, food-3)
+
+nsubj(use-3, them-2)
+ccomp(help-1, use-3)
+dobj(use-3, knife-4)
+dobj(use-3, fork-6)
+conj_and(knife-4, fork-6)
+
+dobj(serve-1, dessert-2)
+
+det(children-3, the-2)
+dobj(locate-1, children-3)
+
+det(children-4, the-3)
+prep_to(inquire-1, children-4)
+mark(hungry-8, if-5)
+nsubj(hungry-8, they-6)
+cop(hungry-8, are-7)
+advcl(inquire-1, hungry-8)
+
+mark(hungry-5, if-1)
+det(children-3, the-2)
+nsubj(hungry-5, children-3)
+cop(hungry-5, are-4)
+csubj(prepare-6, hungry-5)
+det(meal-9, an-7)
+amod(meal-9, appropriate-8)
+dobj(prepare-6, meal-9)
+det(time-12, the-11)
+prep_for(prepare-6, time-12)
+prep_of(time-12, day-14)
+
+dobj(prepare-1, food-2)
+
+dobj(prepare-1, dinnertable-2)
+
+dobj(call-1, children-2)
+
+dobj(serve-1, food-2)
+
+acomp(make-1, sure-2)
+nsubj(eat-4, children-3)
+ccomp(sure-2, eat-4)
+dobj(eat-4, food-5)
+
+dobj(ask-1, children-2)
+mark(hungry-6, if-3)
+nsubj(hungry-6, they-4)
+cop(hungry-6, are-5)
+advcl(ask-1, hungry-6)
+
+dobj(hungry-4, if-1)
+nsubj(hungry-4, children-2)
+cop(hungry-4, are-3)
+csubj(feed-5, hungry-4)
+dobj(feed-5, them-6)
+
+det(kitchen-4, the-3)
+prep_to(go-1, kitchen-4)
+
+det(meal-3, a-2)
+dobj(cook-1, meal-3)
+
+dobj(place-1, meal-2)
+prep_in(place-1, dishes-4)
+
+dobj(put-1, dishes-2)
+prep_on(put-1, table-4)
+prep_with(put-1, silverware-6)
+
+det(kids-3, the-2)
+dobj(call-1, kids-3)
+prep_to(call-1, table-5)
+
+nsubj(say-1, grace-2)
+
+det(kids-3, the-2)
+dobj(tell-1, kids-3)
+aux(eat-5, to-4)
+xcomp(tell-1, eat-5)
+
+nsubj(hungry-4, children-2)
+cop(hungry-4, are-3)
+ccomp(discover-1, hungry-4)
+
+nsubjpass(desired-4, what-2)
+auxpass(desired-4, is-3)
+ccomp(ask-1, desired-4)
+
+amod(foods-3, needed-2)
+dobj(find-1, foods-3)
+
+dobj(prepare-1, foods-2)
+
+dobj(present-1, food-2)
+
+aux(eat-3, watch-1)
+nsubj(eat-3, children-2)
+
+dobj(remove-1, dishes-2)
+dep(remove-1, wash-3)
+dep(wash-3, replace-4)
+
+det(food-3, some-2)
+dobj(get-1, food-3)
+
+dobj(put-1, it-2)
+det(plate-5, a-4)
+prep_on(put-1, plate-5)
+
+det(plate-3, the-2)
+dobj(put-1, plate-3)
+det(table-6, the-5)
+prep_on(put-1, table-6)
+
+det(children-3, the-2)
+dobj(take-1, children-3)
+det(table-6, the-5)
+prep_to(take-1, table-6)
+
+det(slices-3, some-2)
+dobj(cut-1, slices-3)
+prep_of(slices-3, bread-5)
+
+dobj(spread-1, butter-2)
+det(bread-5, the-4)
+prep_on(spread-1, bread-5)
+
+det(bread-3, the-2)
+dobj(put-1, bread-3)
+det(plate-6, a-5)
+prep_on(put-1, plate-6)
+
+det(plate-3, the-2)
+dobj(give-1, plate-3)
+det(children-6, the-5)
+prep_to(give-1, children-6)
+
+iobj(feed-1, children-2)
+amod(breakfast-4, big-3)
+dobj(feed-1, breakfast-4)
+prep_at(feed-1, 7am-6)
+
+iobj(feed-1, children-2)
+amod(amount-4, small-3)
+dobj(feed-1, amount-4)
+prep_of(amount-4, food-6)
+prep_at(feed-1, 11am-8)
+
+iobj(feed-1, children-2)
+amod(meal-5, large-3)
+amod(meal-5, hot-4)
+dobj(feed-1, meal-5)
+prep_at(feed-1, 1pm-7)
+
+iobj(feel-1, children-2)
+amod(meal-5, large-3)
+amod(meal-5, hot-4)
+dobj(feel-1, meal-5)
+prep_at(feel-1, 5pm-7)
+
+iobj(feel-1, children-2)
+amod(bowl-4, small-3)
+dobj(feel-1, bowl-4)
+nn(cream-7, ice-6)
+prep_of(bowl-4, cream-7)
+prep_at(feel-1, 8pm-9)
+
+dobj(ask-1, children-2)
+mark(fed-7, if-3)
+nsubjpass(fed-7, they-4)
+aux(fed-7, have-5)
+auxpass(fed-7, been-6)
+advcl(ask-1, fed-7)
+
+mark(fed-6, if-1)
+nsubjpass(fed-6, they-2)
+aux(fed-6, have-3)
+neg(fed-6, not-4)
+auxpass(fed-6, been-5)
+amod(food-8, select-7)
+dobj(fed-6, food-8)
+
+dobj(prepare-1, food-2)
+
+dobj(give-1, food-2)
+prep_to(give-1, children-4)
+
+dobj(watch-1, children-2)
+aux(ensure-4, to-3)
+xcomp(watch-1, ensure-4)
+nsubj(eat-6, they-5)
+ccomp(ensure-4, eat-6)
+
+dobj(open-1, can-2)
+prep_of(can-2, soup-4)
+
+dobj(pour-1, soup-2)
+prep_into(pour-1, pot-4)
+
+dobj(heat-1, soup-2)
+
+dobj(pour-1, soup-2)
+prep_into(pour-1, bowls-4)
+
+dep(seat-1, children-2)
+
+dobj(serve-1, food-2)
+
+dobj(oversee-1, meal-2)
+dobj(oversee-1, kids-4)
+conj_and(meal-2, kids-4)
+
+dobj(ask-1, children-2)
+mark(ate-5, if-3)
+nsubj(ate-5, they-4)
+advcl(ask-1, ate-5)
+
+dobj(prepare-1, food-2)
+
+prep_to(serve-1, children-3)
+
+aux(wash-3, have-1)
+nsubj(wash-3, kids-2)
+poss(hands-5, their-4)
+dobj(wash-3, hands-5)
+
+dobj(sit-1, kids-2)
+prep_at(sit-1, table-4)
+
+det(ceral-3, the-2)
+dobj(put-1, ceral-3)
+det(bowl-6, the-5)
+prep_in(put-1, bowl-6)
+
+det(milk-3, the-2)
+dobj(put-1, milk-3)
+det(bowl-6, the-5)
+prep_in(put-1, bowl-6)
+
+det(bowl-3, the-2)
+dobj(put-1, bowl-3)
+det(kids-8, the-7)
+prep_in_front_of(put-1, kids-8)
+
+dobj(put-1, spoon-2)
+det(bowls-5, the-4)
+prep_in(put-1, bowls-5)
+
+dobj(get-1, food-2)
+det(refrigerator-5, the-4)
+prep_from(get-1, refrigerator-5)
+
+dobj(cook-1, food-2)
+
+det(table-3, the-2)
+dobj(prepare-1, table-3)
+
+dobj(put-1, food-2)
+det(table-5, the-4)
+prep_on(put-1, table-5)
+
+dobj(ask-1, children-2)
+mark(fed-6, if-3)
+nsubjpass(fed-6, they-4)
+auxpass(fed-6, were-5)
+advcl(ask-1, fed-6)
+
+dobj(get-1, kid-2)
+
+dobj(get-1, kid-2)
+aux(sit-4, to-3)
+xcomp(get-1, sit-4)
+
+dobj(get-1, food-2)
+
+dobj(put-1, food-2)
+poss(mouths-5, their-4)
+prep_in(put-1, mouths-5)
+
+poss(faces-3, their-2)
+dobj(wip-1, faces-3)
+
+dobj(feed-1, them-2)
+dep(more-4, some-3)
+dep(feed-1, more-4)
+
+nsubj(faces-2, wip-1)
+det(more-4, some-3)
+dobj(faces-2, more-4)
+
+dobj(tell-1, children-2)
+aux(wash-4, to-3)
+xcomp(tell-1, wash-4)
+poss(hands-6, their-5)
+dobj(wash-4, hands-6)
+
+amod(amounts-3, small-2)
+dobj(serve-1, amounts-3)
+prep_of(amounts-3, food-5)
+det(plates-8, the-7)
+prep_on(serve-1, plates-8)
+
+dobj(tell-1, children-2)
+aux(sit-4, to-3)
+xcomp(tell-1, sit-4)
+det(table-7, the-6)
+prep_at(sit-4, table-7)
+
+det(plates-3, the-2)
+dobj(bring-1, plates-3)
+det(table-6, the-5)
+prep_to(bring-1, table-6)
+
+det(child-3, the-2)
+iobj(give-1, child-3)
+det(spoon-5, a-4)
+dobj(give-1, spoon-5)
+
+det(kids-3, the-2)
+nsubj(eat-4, kids-3)
+ccomp(let-1, eat-4)
+
+dobj(ask-1, children-2)
+mark(hungry-6, if-3)
+nsubj(hungry-6, they-4)
+cop(hungry-6, are-5)
+advcl(ask-1, hungry-6)
+
+mark(walk-4, if-1)
+nsubj(walk-4, they-2)
+cop(walk-4, are-3)
+prep_to(walk-4, kitchen-6)
+
+det(food-3, what-2)
+dobj(have-5, food-3)
+nsubj(have-5, you-4)
+ccomp(see-1, have-5)
+
+dobj(make-5, what-2)
+nsubj(make-5, you-3)
+aux(make-5, can-4)
+ccomp(decide-1, make-5)
+
+det(recipe-3, a-2)
+dobj(find-1, recipe-3)
+
+dobj(make-1, food-2)
+
+dobj(feed-1, children-2)
+
+dobj(go-1, shopping-2)
+
+dobj(select-1, recipe-2)
+
+dobj(gather-1, ingredients-2)
+
+dobj(make-1, food-2)
+
+dobj(feed-1, children-2)
+
+nn(kids-2, seat-1)
+prep_at(kids-2, table-4)
+
+dobj(prepare-1, food-2)
+
+dobj(serve-1, food-2)
+dobj(serve-1, drinks-4)
+conj_and(food-2, drinks-4)
+
+dobj(watch-1, kids-2)
+dep(watch-1, eat-3)
+
+amod(servings-3, second-2)
+dobj(serve-1, servings-3)
+
+dobj(wash-1, hands-2)
+dobj(wash-1, plates-4)
+conj_and(hands-2, plates-4)
+
+nsubjpass(fed-3, kids-1)
+auxpass(fed-3, are-2)
+

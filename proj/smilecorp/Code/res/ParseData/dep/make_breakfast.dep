@@ -1,0 +1,641 @@
+det(bowl-3, a-2)
+dobj(get-1, bowl-3)
+
+dobj(put-1, cereal-2)
+prep_in(put-1, bowl-4)
+
+dobj(put-1, fruit-2)
+prep_on(put-1, top-4)
+
+dobj(pour-1, milk-2)
+prep_over(pour-1, cereal-4)
+prep_over(pour-1, fruit-6)
+conj_and(cereal-4, fruit-6)
+
+det(spoon-3, a-2)
+dobj(get-1, spoon-3)
+
+nn(foods-3, breakfast-2)
+dobj(find-1, foods-3)
+det(refrigerator-6, the-5)
+prep_in(foods-3, refrigerator-6)
+
+nn(foods-3, breakfast-2)
+dobj(prepare-1, foods-3)
+prepc_for(prepare-1, eating-5)
+
+nn(foods-3, breakfast-2)
+dobj(place-1, foods-3)
+prep_on(place-1, plates-5)
+conj_and(place-1, in-7)
+prep_in(place-1, bowls-8)
+
+nn(foods-3, breakfast-2)
+dobj(serve-1, foods-3)
+prep_to(serve-1, people-5)
+det(table-9, a-7)
+amod(table-9, dining-8)
+prep_at(people-5, table-9)
+
+dobj(toast-1, bread-2)
+
+dobj(cook-1, water-2)
+
+dobj(make-1, tea-2)
+
+dobj(cook-1, egg-2)
+
+nn(juice-3, orange-2)
+dobj(make-1, juice-3)
+
+dobj(identify-1, food-2)
+aux(made-5, to-3)
+auxpass(made-5, be-4)
+xcomp(identify-1, made-5)
+
+dobj(prepare-1, food-2)
+amod(manner-5, appropriate-4)
+prep_in(prepare-1, manner-5)
+
+dobj(place-1, food-2)
+prep_on(place-1, table-4)
+
+dep(want-4, what-2)
+nsubj(want-4, you-3)
+xsubj(eat-6, you-3)
+ccomp(determine-1, want-4)
+aux(eat-6, to-5)
+xcomp(want-4, eat-6)
+
+det(ingredients-3, what-2)
+dobj(have-5, ingredients-3)
+nsubj(have-5, you-4)
+ccomp(determine-1, have-5)
+
+dobj(go-1, shopping-2)
+amod(ingrediants-5, missing-4)
+prep_for(go-1, ingrediants-5)
+
+det(ingredients-3, all-2)
+dobj(use-1, ingredients-3)
+aux(prepare-5, to-4)
+xcomp(use-1, prepare-5)
+det(meal-8, the-6)
+amod(meal-8, desired-7)
+dobj(prepare-5, meal-8)
+
+dobj(get-1, bowl-2)
+
+dobj(get-1, cereal-2)
+
+dobj(get-1, milk-2)
+
+dobj(put-1, cereal-2)
+prep_in(put-1, bowl-4)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, bowl-4)
+
+dobj(get-1, spoon-2)
+
+det(bowl-3, a-2)
+dobj(get-1, bowl-3)
+
+dobj(get-1, cereal-2)
+
+dobj(get-1, milk-2)
+
+dobj(put-1, cereal-2)
+prep_in(put-1, bowl-4)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, bowl-4)
+
+dobj(get-1, spoon-2)
+
+det(bowl-3, a-2)
+dobj(get-1, bowl-3)
+
+dobj(get-1, cereal-2)
+
+dobj(get-1, milk-2)
+
+dobj(put-1, cereal-2)
+prep_in(put-1, bowl-4)
+
+dobj(put-1, milk-2)
+prep_in(put-1, bowl-4)
+
+prt(wake-1, up-2)
+advmod(wake-1, early-3)
+
+dobj(make-1, coffee-2)
+
+dobj(toast-1, bread-2)
+
+det(stove-4, the-3)
+prep_on(turning-1, stove-4)
+
+det(eggs-3, the-2)
+dobj(breaking-1, eggs-3)
+
+det(eggs-3, the-2)
+dobj(cooking-1, eggs-3)
+
+det(bacon-3, the-2)
+dobj(cooking-1, bacon-3)
+det(stove-6, the-5)
+prep_on(cooking-1, stove-6)
+
+det(toast-3, the-2)
+dobj(toasting-1, toast-3)
+
+det(dishes-3, the-2)
+dobj(washing-1, dishes-3)
+advmod(washing-1, afterwards-4)
+
+dobj(make-1, coffee-2)
+
+dobj(toast-1, bread-2)
+
+nn(juice-3, orange-2)
+dobj(pour-1, juice-3)
+
+dobj(toast-1, bread-2)
+
+nn(eggs-2, fry-1)
+
+nsubj(sausage-2, fry-1)
+
+dobj(pour-1, milk-2)
+
+dobj(make-1, coffee-2)
+
+dobj(set-1, table-2)
+
+dobj(serve-1, food-2)
+
+dobj(prepare-1, ingredients-2)
+
+dobj(cook-1, ingredients-2)
+
+dobj(set-1, table-2)
+
+dobj(put-1, food-2)
+prep_on(put-1, dishes-4)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(deciding-1, want-4)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+det(ingredients-3, the-2)
+dobj(get-1, ingredients-3)
+
+det(recipie-3, the-2)
+dobj(read-1, recipie-3)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(deciding-1, want-4)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+det(ingredients-3, the-2)
+dobj(get-1, ingredients-3)
+
+det(recipie-3, the-2)
+dobj(read-1, recipie-3)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(deciding-1, want-4)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+det(ingredients-3, the-2)
+dobj(get-1, ingredients-3)
+
+det(recipie-3, the-2)
+dobj(read-1, recipie-3)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(deciding-1, want-4)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+det(ingredients-3, the-2)
+dobj(get-1, ingredients-3)
+
+det(recipie-3, the-2)
+dobj(read-1, recipie-3)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(deciding-1, want-4)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+det(ingredients-3, the-2)
+dobj(get-1, ingredients-3)
+
+det(recipie-3, the-2)
+dobj(read-1, recipie-3)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(deciding-1, want-4)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+det(ingredients-3, the-2)
+dobj(get-1, ingredients-3)
+
+det(recipie-3, the-2)
+dobj(read-1, recipie-3)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(deciding-1, want-4)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+det(ingredients-3, the-2)
+dobj(get-1, ingredients-3)
+
+det(recipie-3, the-2)
+dobj(read-1, recipie-3)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(deciding-1, want-4)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+det(ingredients-3, the-2)
+dobj(get-1, ingredients-3)
+
+det(recipie-3, the-2)
+dobj(read-1, recipie-3)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(deciding-1, want-4)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+det(ingredients-3, the-2)
+dobj(get-1, ingredients-3)
+
+det(recipie-3, the-2)
+dobj(read-1, recipie-3)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+
+dobj(get-1, pots-2)
+dobj(get-1, pans-4)
+conj_and(pots-2, pans-4)
+
+dobj(get-1, food-2)
+
+xcomp(start-1, cooking-2)
+dobj(cooking-2, food-3)
+
+prep_over(watch-1, food-3)
+
+amod(utensils-3, eating-2)
+dobj(get-1, utensils-3)
+conj_and(get-1, serve-5)
+dobj(serve-5, meal-6)
+
+det(eggs-3, the-2)
+dobj(cracking-1, eggs-3)
+
+det(eggs-3, the-2)
+dobj(frying-1, eggs-3)
+
+det(bacon-3, the-2)
+dobj(opening-1, bacon-3)
+
+det(bacon-3, the-2)
+dobj(frying-1, bacon-3)
+
+dobj(putting-1, bread-2)
+det(toaster-5, the-4)
+prep_in(putting-1, toaster-5)
+
+det(bread-3, the-2)
+dobj(buttering-1, bread-3)
+
+partmod(and-1, serving-2)
+
+dobj(get-1, ingredients-2)
+
+dobj(mix-1, ingredients-2)
+
+det(item-4, the-2)
+nn(item-4, menu-3)
+dobj(select-1, item-4)
+
+det(procedure-4, the-2)
+amod(procedure-4, making-3)
+dobj(see-1, procedure-4)
+
+dobj(make-1, breakfast-2)
+
+dobj(get-1, milk-2)
+prep_from(get-1, fridge-4)
+
+dobj(get-1, box-2)
+prep_of(box-2, cereal-4)
+prep_from(get-1, cabinate-6)
+
+dobj(get-1, bowl-2)
+nn(washer-5, dish-4)
+prep_from(get-1, washer-5)
+
+dobj(pour-1, cereal-2)
+prep_into(pour-1, bowl-4)
+
+dobj(pour-1, milk-2)
+prep(pour-1, on-3)
+dep(on-3, to-4)
+pobj(to-4, cereal-5)
+
+prep_on(turn-1, stove-3)
+
+det(pan-3, the-2)
+dep(oil-1, pan-3)
+
+num(eggs-3, two-2)
+dobj(break-1, eggs-3)
+prep_into(break-1, pan-5)
+
+det(eggs-3, the-2)
+dobj(cook-1, eggs-3)
+prepc_until(cook-1, done-5)
+
+dobj(pour-1, milk-2)
+det(glass-5, a-4)
+prep_into(pour-1, glass-5)
+
+aux(eat-5, drink-1)
+det(milk-3, the-2)
+nsubj(eat-5, milk-3)
+advmod(eat-5, and-4)
+det(eggs-7, the-6)
+dobj(eat-5, eggs-7)
+
+det(dishes-3, the-2)
+dobj(wash-1, dishes-3)
+det(pan-6, the-5)
+dobj(wash-1, pan-6)
+conj_and(dishes-3, pan-6)
+
+num(slices-3, 2-2)
+dobj(remove-1, slices-3)
+prep_of(slices-3, bread-5)
+prep_from(remove-1, bag-7)
+
+dobj(place-1, bread-2)
+prep_in(place-1, toaster-4)
+prep_in(place-1, toast-6)
+conj_and(toaster-4, toast-6)
+
+prep_from(remove-1, toaster-3)
+
+dobj(place-1, toast-2)
+prep_on(place-1, plate-4)
+
+dobj(spread-1, butter-2)
+prep_on(spread-1, toast-4)
+
+dobj(spread-1, jam-2)
+prep_on(spread-1, toast-4)
+
+dobj(place-1, plate-2)
+prep_on(place-1, table-4)
+
+nn(box-3, cereal-2)
+dobj(take-1, box-3)
+prep_from(take-1, cupboard-5)
+
+dobj(take-1, bowl-2)
+prep_from(take-1, cupboard-4)
+
+dobj(pour-1, cereal-2)
+prep_into(pour-1, bowl-4)
+
+dobj(take-1, spoon-2)
+prep_out_of(take-1, drawer-5)
+
+dobj(take-1, milk-2)
+prep_out_of(take-1, fridge-5)
+
+dobj(pour-1, milk-2)
+prep_over(pour-1, cereal-4)
+
+nsubj(ready-3, cereal-1)
+cop(ready-3, is-2)
+aux(eat-5, to-4)
+xcomp(ready-3, eat-5)
+
+dep(fry-1, bacon-2)
+
+nn(eggs-2, fry-1)
+
+nsubj(hashbrowns-2, fry-1)
+
+dobj(toast-1, bread-2)
+
+det(items-4, all-2)
+nn(items-4, food-3)
+dep(plate-1, items-4)
+advmod(done-6, when-5)
+rel(done-6, when-5)
+dep(plate-1, done-6)
+
+dobj(pour-1, juice-2)
+
+prt(warm-1, up-2)
+det(toaster-4, the-3)
+dobj(warm-1, toaster-4)
+
+prt(take-1, out-2)
+det(waffles-4, the-3)
+dobj(take-1, waffles-4)
+
+dobj(put-1, waffles-2)
+det(toaster-5, the-4)
+prep_in(put-1, toaster-5)
+
+det(couple-3, a-2)
+dobj(wait-1, couple-3)
+prep_of(couple-3, minutes-5)
+
+dobj(take-1, waffles-2)
+prt(take-1, out-3)
+
+dobj(put-1, waffles-2)
+det(plate-5, a-4)
+prep_on(put-1, plate-5)
+
+dobj(pour-1, syrup-2)
+conj_and(pour-1, eat-4)
+
+det(recipe-3, a-2)
+dobj(choose-1, recipe-3)
+
+nn(availability-3, ingredient-2)
+dobj(verify-1, availability-3)
+
+dobj(follow-1, recipe-2)
+
+prt(clean-1, up-2)
+nn(cooks-5, food-4)
+prep_as(clean-1, cooks-5)
+mark(step-11, if-7)
+nsubj(step-11, cooking-8)
+cop(step-11, is-9)
+det(step-11, a-10)
+dep(cooks-5, step-11)
+
+
+dobj(make-1, coffee-2)
+dobj(make-1, tea-4)
+conj_or(coffee-2, tea-4)
+
+dobj(pour-1, juice-2)
+
+dobj(make-1, eggs-2)
+
+dobj(fried-1, sausage-2)
+dobj(fried-1, ham-4)
+conj_or(sausage-2, ham-4)
+
+dobj(toast-1, bread-2)
+
+det(bread-3, the-2)
+dep(butter-1, bread-3)
+
+
+dobj(make-1, toast-2)
+
+dobj(pour-1, milk-2)
+
+dobj(pour-1, juice-2)
+
+dobj(make-1, eggs-2)
+
+dobj(make-1, beacon-2)
+
+dobj(have-1, fruit-2)
+prep_on(have-1, side-4)
+
+
+det(bowl-3, a-2)
+dobj(get-1, bowl-3)
+
+det(cereal-3, the-2)
+dobj(get-1, cereal-3)
+
+det(cereal-3, the-2)
+dobj(put-1, cereal-3)
+det(bowl-6, the-5)
+prep_in(put-1, bowl-6)
+
+det(milk-3, the-2)
+dobj(get-1, milk-3)
+
+det(milk-3, the-2)
+dobj(put-1, milk-3)
+det(bowl-6, the-5)
+prep_in(put-1, bowl-6)
+
+det(spoon-3, a-2)
+dobj(get-1, spoon-3)
+
+det(cereal-3, the-2)
+dobj(eat-1, cereal-3)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+dobj(toast-1, bread-2)
+
+nsubj(bread-2, butter-1)
+
+dobj(spread-1, jam-2)
+prep_on(spread-1, bread-4)
+
+
+dobj(get-1, bread-2)
+
+dobj(put-1, slice-2)
+prep_of(slice-2, bread-4)
+prep_in(put-1, toaster-6)
+
+dobj(toast-1, bread-2)
+
+nsubj(bread-2, butter-1)
+
+dobj(eat-1, toast-2)
+
+dobj(take-1, food-2)
+
+dobj(cook-1, food-2)
+
+dobj(break-1, eggs-2)
+prep_into(break-1, pan-4)
+
+nsubj(scramble-1, eggs-2)
+prep_until(scramble-1, cooked-4)
+
+dep(serve-1, scrambled-2)
+dobj(scrambled-2, eggs-3)
+

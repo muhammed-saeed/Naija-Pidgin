@@ -1,0 +1,1008 @@
+id	score	v	d-obj	p	p-title
+000001	?	remove	old sheets	bedsheets	bed_sheets
+000002	?	remove	old sheets	laundry	bed_sheets
+000003	?	remove	old sheets	pillows	bed_sheets
+000004	?	remove	old sheets	washing machine	bed_sheets
+000005	?	remove	old sheets	new sheets	bed_sheets
+000006	?	remove	old sheets	bed	bed_sheets
+000007	?	remove	old sheets	mattress	bed_sheets
+000008	?	remove	old sheets	bedspread	bed_sheets
+000009	?	remove	old sheets	laundry hamper	bed_sheets
+000010	?	remove	old sheets	bedsheet	bed_sheets
+000011	?	remove	old sheets	laundry basket	bed_sheets
+000012	?	remove	old sheets	wash	bed_sheets
+000013	?	remove	old sheets	dirty clothes	bed_sheets
+000014	?	putting	clean bed sheets	bedsheets	bed_sheets
+000015	?	putting	clean bed sheets	laundry	bed_sheets
+000016	?	putting	clean bed sheets	pillows	bed_sheets
+000017	?	putting	clean bed sheets	washing machine	bed_sheets
+000018	?	putting	clean bed sheets	new sheets	bed_sheets
+000019	?	putting	clean bed sheets	old sheets	bed_sheets
+000020	?	putting	clean bed sheets	bed	bed_sheets
+000021	?	putting	clean bed sheets	mattress	bed_sheets
+000022	?	putting	clean bed sheets	bedspread	bed_sheets
+000023	?	putting	clean bed sheets	laundry hamper	bed_sheets
+000024	?	putting	clean bed sheets	bedsheet	bed_sheets
+000025	?	putting	clean bed sheets	laundry basket	bed_sheets
+000026	?	putting	clean bed sheets	wash	bed_sheets
+000027	?	putting	clean bed sheets	dirty clothes	bed_sheets
+000028	?	remove	old dirty bed sheets	bedsheets	bed_sheets
+000029	?	remove	old dirty bed sheets	laundry	bed_sheets
+000030	?	remove	old dirty bed sheets	pillows	bed_sheets
+000031	?	remove	old dirty bed sheets	washing machine	bed_sheets
+000032	?	remove	old dirty bed sheets	new sheets	bed_sheets
+000033	?	remove	old dirty bed sheets	old sheets	bed_sheets
+000034	?	remove	old dirty bed sheets	bed	bed_sheets
+000035	?	remove	old dirty bed sheets	mattress	bed_sheets
+000036	?	remove	old dirty bed sheets	bedspread	bed_sheets
+000037	?	remove	old dirty bed sheets	laundry hamper	bed_sheets
+000038	?	remove	old dirty bed sheets	bedsheet	bed_sheets
+000039	?	remove	old dirty bed sheets	laundry basket	bed_sheets
+000040	?	remove	old dirty bed sheets	wash	bed_sheets
+000041	?	remove	old dirty bed sheets	dirty clothes	bed_sheets
+000042	?	fold	corners	bedsheets	bed_sheets
+000043	?	fold	corners	laundry	bed_sheets
+000044	?	fold	corners	pillows	bed_sheets
+000045	?	fold	corners	washing machine	bed_sheets
+000046	?	fold	corners	new sheets	bed_sheets
+000047	?	fold	corners	old sheets	bed_sheets
+000048	?	fold	corners	bed	bed_sheets
+000049	?	fold	corners	mattress	bed_sheets
+000050	?	fold	corners	bedspread	bed_sheets
+000051	?	fold	corners	laundry hamper	bed_sheets
+000052	?	fold	corners	bedsheet	bed_sheets
+000053	?	fold	corners	laundry basket	bed_sheets
+000054	?	fold	corners	wash	bed_sheets
+000055	?	fold	corners	dirty clothes	bed_sheets
+000056	?	put	new sheets	bedsheets	bed_sheets
+000057	?	put	new sheets	laundry	bed_sheets
+000058	?	put	new sheets	pillows	bed_sheets
+000059	?	put	new sheets	washing machine	bed_sheets
+000060	?	put	new sheets	old sheets	bed_sheets
+000061	?	put	new sheets	bed	bed_sheets
+000062	?	put	new sheets	mattress	bed_sheets
+000063	?	put	new sheets	bedspread	bed_sheets
+000064	?	put	new sheets	laundry hamper	bed_sheets
+000065	?	put	new sheets	bedsheet	bed_sheets
+000066	?	put	new sheets	laundry basket	bed_sheets
+000067	?	put	new sheets	wash	bed_sheets
+000068	?	put	new sheets	dirty clothes	bed_sheets
+000069	?	place	them	bedsheets	bed_sheets
+000070	?	place	them	laundry	bed_sheets
+000071	?	place	them	pillows	bed_sheets
+000072	?	place	them	washing machine	bed_sheets
+000073	?	place	them	new sheets	bed_sheets
+000074	?	place	them	old sheets	bed_sheets
+000075	?	place	them	bed	bed_sheets
+000076	?	place	them	mattress	bed_sheets
+000077	?	place	them	bedspread	bed_sheets
+000078	?	place	them	laundry hamper	bed_sheets
+000079	?	place	them	bedsheet	bed_sheets
+000080	?	place	them	laundry basket	bed_sheets
+000081	?	place	them	wash	bed_sheets
+000082	?	place	them	dirty clothes	bed_sheets
+000083	?	replace	new sheet	bedsheets	bed_sheets
+000084	?	replace	new sheet	laundry	bed_sheets
+000085	?	replace	new sheet	pillows	bed_sheets
+000086	?	replace	new sheet	washing machine	bed_sheets
+000087	?	replace	new sheet	new sheets	bed_sheets
+000088	?	replace	new sheet	old sheets	bed_sheets
+000089	?	replace	new sheet	bed	bed_sheets
+000090	?	replace	new sheet	mattress	bed_sheets
+000091	?	replace	new sheet	bedspread	bed_sheets
+000092	?	replace	new sheet	laundry hamper	bed_sheets
+000093	?	replace	new sheet	bedsheet	bed_sheets
+000094	?	replace	new sheet	laundry basket	bed_sheets
+000095	?	replace	new sheet	wash	bed_sheets
+000096	?	replace	new sheet	dirty clothes	bed_sheets
+000097	?	spread	sheet	bedsheets	bed_sheets
+000098	?	spread	sheet	laundry	bed_sheets
+000099	?	spread	sheet	pillows	bed_sheets
+000100	?	spread	sheet	washing machine	bed_sheets
+000101	?	spread	sheet	new sheets	bed_sheets
+000102	?	spread	sheet	old sheets	bed_sheets
+000103	?	spread	sheet	bed	bed_sheets
+000104	?	spread	sheet	mattress	bed_sheets
+000105	?	spread	sheet	bedspread	bed_sheets
+000106	?	spread	sheet	laundry hamper	bed_sheets
+000107	?	spread	sheet	bedsheet	bed_sheets
+000108	?	spread	sheet	laundry basket	bed_sheets
+000109	?	spread	sheet	wash	bed_sheets
+000110	?	spread	sheet	dirty clothes	bed_sheets
+000111	?	put	existing bedsheet	bedsheets	bed_sheets
+000112	?	put	existing bedsheet	laundry	bed_sheets
+000113	?	put	existing bedsheet	pillows	bed_sheets
+000114	?	put	existing bedsheet	washing machine	bed_sheets
+000115	?	put	existing bedsheet	new sheets	bed_sheets
+000116	?	put	existing bedsheet	old sheets	bed_sheets
+000117	?	put	existing bedsheet	bed	bed_sheets
+000118	?	put	existing bedsheet	mattress	bed_sheets
+000119	?	put	existing bedsheet	bedspread	bed_sheets
+000120	?	put	existing bedsheet	laundry hamper	bed_sheets
+000121	?	put	existing bedsheet	bedsheet	bed_sheets
+000122	?	put	existing bedsheet	laundry basket	bed_sheets
+000123	?	put	existing bedsheet	wash	bed_sheets
+000124	?	put	existing bedsheet	dirty clothes	bed_sheets
+000125	?	find	replacement bedsheets	bedsheets	bed_sheets
+000126	?	find	replacement bedsheets	laundry	bed_sheets
+000127	?	find	replacement bedsheets	pillows	bed_sheets
+000128	?	find	replacement bedsheets	washing machine	bed_sheets
+000129	?	find	replacement bedsheets	new sheets	bed_sheets
+000130	?	find	replacement bedsheets	old sheets	bed_sheets
+000131	?	find	replacement bedsheets	bed	bed_sheets
+000132	?	find	replacement bedsheets	mattress	bed_sheets
+000133	?	find	replacement bedsheets	bedspread	bed_sheets
+000134	?	find	replacement bedsheets	laundry hamper	bed_sheets
+000135	?	find	replacement bedsheets	bedsheet	bed_sheets
+000136	?	find	replacement bedsheets	laundry basket	bed_sheets
+000137	?	find	replacement bedsheets	wash	bed_sheets
+000138	?	find	replacement bedsheets	dirty clothes	bed_sheets
+000139	?	put	used sheets	bedsheets	bed_sheets
+000140	?	put	used sheets	laundry	bed_sheets
+000141	?	put	used sheets	pillows	bed_sheets
+000142	?	put	used sheets	washing machine	bed_sheets
+000143	?	put	used sheets	new sheets	bed_sheets
+000144	?	put	used sheets	old sheets	bed_sheets
+000145	?	put	used sheets	bed	bed_sheets
+000146	?	put	used sheets	mattress	bed_sheets
+000147	?	put	used sheets	bedspread	bed_sheets
+000148	?	put	used sheets	laundry hamper	bed_sheets
+000149	?	put	used sheets	bedsheet	bed_sheets
+000150	?	put	used sheets	laundry basket	bed_sheets
+000151	?	put	used sheets	wash	bed_sheets
+000152	?	put	used sheets	dirty clothes	bed_sheets
+000153	?	put	clean sheets	bedsheets	bed_sheets
+000154	?	put	clean sheets	laundry	bed_sheets
+000155	?	put	clean sheets	pillows	bed_sheets
+000156	?	put	clean sheets	washing machine	bed_sheets
+000157	?	put	clean sheets	new sheets	bed_sheets
+000158	?	put	clean sheets	old sheets	bed_sheets
+000159	?	put	clean sheets	bed	bed_sheets
+000160	?	put	clean sheets	mattress	bed_sheets
+000161	?	put	clean sheets	bedspread	bed_sheets
+000162	?	put	clean sheets	laundry hamper	bed_sheets
+000163	?	put	clean sheets	bedsheet	bed_sheets
+000164	?	put	clean sheets	laundry basket	bed_sheets
+000165	?	put	clean sheets	wash	bed_sheets
+000166	?	put	clean sheets	dirty clothes	bed_sheets
+000167	?	removing	old sheets	bedsheets	bed_sheets
+000168	?	removing	old sheets	laundry	bed_sheets
+000169	?	removing	old sheets	pillows	bed_sheets
+000170	?	removing	old sheets	washing machine	bed_sheets
+000171	?	removing	old sheets	new sheets	bed_sheets
+000172	?	removing	old sheets	bed	bed_sheets
+000173	?	removing	old sheets	mattress	bed_sheets
+000174	?	removing	old sheets	bedspread	bed_sheets
+000175	?	removing	old sheets	laundry hamper	bed_sheets
+000176	?	removing	old sheets	bedsheet	bed_sheets
+000177	?	removing	old sheets	laundry basket	bed_sheets
+000178	?	removing	old sheets	wash	bed_sheets
+000179	?	removing	old sheets	dirty clothes	bed_sheets
+000180	?	take	used sheets	bedsheets	bed_sheets
+000181	?	take	used sheets	laundry	bed_sheets
+000182	?	take	used sheets	pillows	bed_sheets
+000183	?	take	used sheets	washing machine	bed_sheets
+000184	?	take	used sheets	new sheets	bed_sheets
+000185	?	take	used sheets	old sheets	bed_sheets
+000186	?	take	used sheets	bed	bed_sheets
+000187	?	take	used sheets	mattress	bed_sheets
+000188	?	take	used sheets	bedspread	bed_sheets
+000189	?	take	used sheets	laundry hamper	bed_sheets
+000190	?	take	used sheets	bedsheet	bed_sheets
+000191	?	take	used sheets	laundry basket	bed_sheets
+000192	?	take	used sheets	wash	bed_sheets
+000193	?	take	used sheets	dirty clothes	bed_sheets
+000194	?	smooth	sheet	bedsheets	bed_sheets
+000195	?	smooth	sheet	laundry	bed_sheets
+000196	?	smooth	sheet	pillows	bed_sheets
+000197	?	smooth	sheet	washing machine	bed_sheets
+000198	?	smooth	sheet	new sheets	bed_sheets
+000199	?	smooth	sheet	old sheets	bed_sheets
+000200	?	smooth	sheet	bed	bed_sheets
+000201	?	smooth	sheet	mattress	bed_sheets
+000202	?	smooth	sheet	bedspread	bed_sheets
+000203	?	smooth	sheet	laundry hamper	bed_sheets
+000204	?	smooth	sheet	bedsheet	bed_sheets
+000205	?	smooth	sheet	laundry basket	bed_sheets
+000206	?	smooth	sheet	wash	bed_sheets
+000207	?	smooth	sheet	dirty clothes	bed_sheets
+000208	?	tuck	corners	bedsheets	bed_sheets
+000209	?	tuck	corners	laundry	bed_sheets
+000210	?	tuck	corners	pillows	bed_sheets
+000211	?	tuck	corners	washing machine	bed_sheets
+000212	?	tuck	corners	new sheets	bed_sheets
+000213	?	tuck	corners	old sheets	bed_sheets
+000214	?	tuck	corners	bed	bed_sheets
+000215	?	tuck	corners	mattress	bed_sheets
+000216	?	tuck	corners	bedspread	bed_sheets
+000217	?	tuck	corners	laundry hamper	bed_sheets
+000218	?	tuck	corners	bedsheet	bed_sheets
+000219	?	tuck	corners	laundry basket	bed_sheets
+000220	?	tuck	corners	wash	bed_sheets
+000221	?	tuck	corners	dirty clothes	bed_sheets
+000222	?	fitted	sheet	bedsheets	bed_sheets
+000223	?	fitted	sheet	laundry	bed_sheets
+000224	?	fitted	sheet	pillows	bed_sheets
+000225	?	fitted	sheet	washing machine	bed_sheets
+000226	?	fitted	sheet	new sheets	bed_sheets
+000227	?	fitted	sheet	old sheets	bed_sheets
+000228	?	fitted	sheet	bed	bed_sheets
+000229	?	fitted	sheet	mattress	bed_sheets
+000230	?	fitted	sheet	bedspread	bed_sheets
+000231	?	fitted	sheet	laundry hamper	bed_sheets
+000232	?	fitted	sheet	bedsheet	bed_sheets
+000233	?	fitted	sheet	laundry basket	bed_sheets
+000234	?	fitted	sheet	wash	bed_sheets
+000235	?	fitted	sheet	dirty clothes	bed_sheets
+000236	?	getting	new sheets	bedsheets	bed_sheets
+000237	?	getting	new sheets	laundry	bed_sheets
+000238	?	getting	new sheets	pillows	bed_sheets
+000239	?	getting	new sheets	washing machine	bed_sheets
+000240	?	getting	new sheets	old sheets	bed_sheets
+000241	?	getting	new sheets	bed	bed_sheets
+000242	?	getting	new sheets	mattress	bed_sheets
+000243	?	getting	new sheets	bedspread	bed_sheets
+000244	?	getting	new sheets	laundry hamper	bed_sheets
+000245	?	getting	new sheets	bedsheet	bed_sheets
+000246	?	getting	new sheets	laundry basket	bed_sheets
+000247	?	getting	new sheets	wash	bed_sheets
+000248	?	getting	new sheets	dirty clothes	bed_sheets
+000249	?	put	sheets	bedsheets	bed_sheets
+000250	?	put	sheets	laundry	bed_sheets
+000251	?	put	sheets	pillows	bed_sheets
+000252	?	put	sheets	washing machine	bed_sheets
+000253	?	put	sheets	new sheets	bed_sheets
+000254	?	put	sheets	old sheets	bed_sheets
+000255	?	put	sheets	bed	bed_sheets
+000256	?	put	sheets	mattress	bed_sheets
+000257	?	put	sheets	bedspread	bed_sheets
+000258	?	put	sheets	laundry hamper	bed_sheets
+000259	?	put	sheets	bedsheet	bed_sheets
+000260	?	put	sheets	laundry basket	bed_sheets
+000261	?	put	sheets	wash	bed_sheets
+000262	?	put	sheets	dirty clothes	bed_sheets
+000263	?	put	new ones	bedsheets	bed_sheets
+000264	?	put	new ones	laundry	bed_sheets
+000265	?	put	new ones	pillows	bed_sheets
+000266	?	put	new ones	washing machine	bed_sheets
+000267	?	put	new ones	new sheets	bed_sheets
+000268	?	put	new ones	old sheets	bed_sheets
+000269	?	put	new ones	bed	bed_sheets
+000270	?	put	new ones	mattress	bed_sheets
+000271	?	put	new ones	bedspread	bed_sheets
+000272	?	put	new ones	laundry hamper	bed_sheets
+000273	?	put	new ones	bedsheet	bed_sheets
+000274	?	put	new ones	laundry basket	bed_sheets
+000275	?	put	new ones	wash	bed_sheets
+000276	?	put	new ones	dirty clothes	bed_sheets
+000277	?	put	new flat sheet	bedsheets	bed_sheets
+000278	?	put	new flat sheet	laundry	bed_sheets
+000279	?	put	new flat sheet	pillows	bed_sheets
+000280	?	put	new flat sheet	washing machine	bed_sheets
+000281	?	put	new flat sheet	new sheets	bed_sheets
+000282	?	put	new flat sheet	old sheets	bed_sheets
+000283	?	put	new flat sheet	bed	bed_sheets
+000284	?	put	new flat sheet	mattress	bed_sheets
+000285	?	put	new flat sheet	bedspread	bed_sheets
+000286	?	put	new flat sheet	laundry hamper	bed_sheets
+000287	?	put	new flat sheet	bedsheet	bed_sheets
+000288	?	put	new flat sheet	laundry basket	bed_sheets
+000289	?	put	new flat sheet	wash	bed_sheets
+000290	?	put	new flat sheet	dirty clothes	bed_sheets
+000291	?	locate	new bed sheets	bedsheets	bed_sheets
+000292	?	locate	new bed sheets	laundry	bed_sheets
+000293	?	locate	new bed sheets	pillows	bed_sheets
+000294	?	locate	new bed sheets	washing machine	bed_sheets
+000295	?	locate	new bed sheets	new sheets	bed_sheets
+000296	?	locate	new bed sheets	old sheets	bed_sheets
+000297	?	locate	new bed sheets	bed	bed_sheets
+000298	?	locate	new bed sheets	mattress	bed_sheets
+000299	?	locate	new bed sheets	bedspread	bed_sheets
+000300	?	locate	new bed sheets	laundry hamper	bed_sheets
+000301	?	locate	new bed sheets	bedsheet	bed_sheets
+000302	?	locate	new bed sheets	laundry basket	bed_sheets
+000303	?	locate	new bed sheets	wash	bed_sheets
+000304	?	locate	new bed sheets	dirty clothes	bed_sheets
+000305	?	soiled	bedsheets	laundry	bed_sheets
+000306	?	soiled	bedsheets	pillows	bed_sheets
+000307	?	soiled	bedsheets	washing machine	bed_sheets
+000308	?	soiled	bedsheets	new sheets	bed_sheets
+000309	?	soiled	bedsheets	old sheets	bed_sheets
+000310	?	soiled	bedsheets	bed	bed_sheets
+000311	?	soiled	bedsheets	mattress	bed_sheets
+000312	?	soiled	bedsheets	bedspread	bed_sheets
+000313	?	soiled	bedsheets	laundry hamper	bed_sheets
+000314	?	soiled	bedsheets	bedsheet	bed_sheets
+000315	?	soiled	bedsheets	laundry basket	bed_sheets
+000316	?	soiled	bedsheets	wash	bed_sheets
+000317	?	soiled	bedsheets	dirty clothes	bed_sheets
+000318	?	take	dirty pillow cases	bedsheets	bed_sheets
+000319	?	take	dirty pillow cases	laundry	bed_sheets
+000320	?	take	dirty pillow cases	pillows	bed_sheets
+000321	?	take	dirty pillow cases	washing machine	bed_sheets
+000322	?	take	dirty pillow cases	new sheets	bed_sheets
+000323	?	take	dirty pillow cases	old sheets	bed_sheets
+000324	?	take	dirty pillow cases	bed	bed_sheets
+000325	?	take	dirty pillow cases	mattress	bed_sheets
+000326	?	take	dirty pillow cases	bedspread	bed_sheets
+000327	?	take	dirty pillow cases	laundry hamper	bed_sheets
+000328	?	take	dirty pillow cases	bedsheet	bed_sheets
+000329	?	take	dirty pillow cases	laundry basket	bed_sheets
+000330	?	take	dirty pillow cases	wash	bed_sheets
+000331	?	take	dirty pillow cases	dirty clothes	bed_sheets
+000332	?	remove	bed sheets	bedsheets	bed_sheets
+000333	?	remove	bed sheets	laundry	bed_sheets
+000334	?	remove	bed sheets	pillows	bed_sheets
+000335	?	remove	bed sheets	washing machine	bed_sheets
+000336	?	remove	bed sheets	new sheets	bed_sheets
+000337	?	remove	bed sheets	old sheets	bed_sheets
+000338	?	remove	bed sheets	bed	bed_sheets
+000339	?	remove	bed sheets	mattress	bed_sheets
+000340	?	remove	bed sheets	bedspread	bed_sheets
+000341	?	remove	bed sheets	laundry hamper	bed_sheets
+000342	?	remove	bed sheets	bedsheet	bed_sheets
+000343	?	remove	bed sheets	laundry basket	bed_sheets
+000344	?	remove	bed sheets	wash	bed_sheets
+000345	?	remove	bed sheets	dirty clothes	bed_sheets
+000346	?	take	old sheet	bedsheets	bed_sheets
+000347	?	take	old sheet	laundry	bed_sheets
+000348	?	take	old sheet	pillows	bed_sheets
+000349	?	take	old sheet	washing machine	bed_sheets
+000350	?	take	old sheet	new sheets	bed_sheets
+000351	?	take	old sheet	old sheets	bed_sheets
+000352	?	take	old sheet	bed	bed_sheets
+000353	?	take	old sheet	mattress	bed_sheets
+000354	?	take	old sheet	bedspread	bed_sheets
+000355	?	take	old sheet	laundry hamper	bed_sheets
+000356	?	take	old sheet	bedsheet	bed_sheets
+000357	?	take	old sheet	laundry basket	bed_sheets
+000358	?	take	old sheet	wash	bed_sheets
+000359	?	take	old sheet	dirty clothes	bed_sheets
+000360	?	take	existing bedsheet	bedsheets	bed_sheets
+000361	?	take	existing bedsheet	laundry	bed_sheets
+000362	?	take	existing bedsheet	pillows	bed_sheets
+000363	?	take	existing bedsheet	washing machine	bed_sheets
+000364	?	take	existing bedsheet	new sheets	bed_sheets
+000365	?	take	existing bedsheet	old sheets	bed_sheets
+000366	?	take	existing bedsheet	bed	bed_sheets
+000367	?	take	existing bedsheet	mattress	bed_sheets
+000368	?	take	existing bedsheet	bedspread	bed_sheets
+000369	?	take	existing bedsheet	laundry hamper	bed_sheets
+000370	?	take	existing bedsheet	bedsheet	bed_sheets
+000371	?	take	existing bedsheet	laundry basket	bed_sheets
+000372	?	take	existing bedsheet	wash	bed_sheets
+000373	?	take	existing bedsheet	dirty clothes	bed_sheets
+000374	?	replace	them	bedsheets	bed_sheets
+000375	?	replace	them	laundry	bed_sheets
+000376	?	replace	them	pillows	bed_sheets
+000377	?	replace	them	washing machine	bed_sheets
+000378	?	replace	them	new sheets	bed_sheets
+000379	?	replace	them	old sheets	bed_sheets
+000380	?	replace	them	bed	bed_sheets
+000381	?	replace	them	mattress	bed_sheets
+000382	?	replace	them	bedspread	bed_sheets
+000383	?	replace	them	laundry hamper	bed_sheets
+000384	?	replace	them	bedsheet	bed_sheets
+000385	?	replace	them	laundry basket	bed_sheets
+000386	?	replace	them	wash	bed_sheets
+000387	?	replace	them	dirty clothes	bed_sheets
+000388	?	remove	previous sheets	bedsheets	bed_sheets
+000389	?	remove	previous sheets	laundry	bed_sheets
+000390	?	remove	previous sheets	pillows	bed_sheets
+000391	?	remove	previous sheets	washing machine	bed_sheets
+000392	?	remove	previous sheets	new sheets	bed_sheets
+000393	?	remove	previous sheets	old sheets	bed_sheets
+000394	?	remove	previous sheets	bed	bed_sheets
+000395	?	remove	previous sheets	mattress	bed_sheets
+000396	?	remove	previous sheets	bedspread	bed_sheets
+000397	?	remove	previous sheets	laundry hamper	bed_sheets
+000398	?	remove	previous sheets	bedsheet	bed_sheets
+000399	?	remove	previous sheets	laundry basket	bed_sheets
+000400	?	remove	previous sheets	wash	bed_sheets
+000401	?	remove	previous sheets	dirty clothes	bed_sheets
+000402	?	get	clean sheet	bedsheets	bed_sheets
+000403	?	get	clean sheet	laundry	bed_sheets
+000404	?	get	clean sheet	pillows	bed_sheets
+000405	?	get	clean sheet	washing machine	bed_sheets
+000406	?	get	clean sheet	new sheets	bed_sheets
+000407	?	get	clean sheet	old sheets	bed_sheets
+000408	?	get	clean sheet	bed	bed_sheets
+000409	?	get	clean sheet	mattress	bed_sheets
+000410	?	get	clean sheet	bedspread	bed_sheets
+000411	?	get	clean sheet	laundry hamper	bed_sheets
+000412	?	get	clean sheet	bedsheet	bed_sheets
+000413	?	get	clean sheet	laundry basket	bed_sheets
+000414	?	get	clean sheet	wash	bed_sheets
+000415	?	get	clean sheet	dirty clothes	bed_sheets
+000416	?	put	flat sheet	bedsheets	bed_sheets
+000417	?	put	flat sheet	laundry	bed_sheets
+000418	?	put	flat sheet	pillows	bed_sheets
+000419	?	put	flat sheet	washing machine	bed_sheets
+000420	?	put	flat sheet	new sheets	bed_sheets
+000421	?	put	flat sheet	old sheets	bed_sheets
+000422	?	put	flat sheet	bed	bed_sheets
+000423	?	put	flat sheet	mattress	bed_sheets
+000424	?	put	flat sheet	bedspread	bed_sheets
+000425	?	put	flat sheet	laundry hamper	bed_sheets
+000426	?	put	flat sheet	bedsheet	bed_sheets
+000427	?	put	flat sheet	laundry basket	bed_sheets
+000428	?	put	flat sheet	wash	bed_sheets
+000429	?	put	flat sheet	dirty clothes	bed_sheets
+000430	?	lay	new sheet	bedsheets	bed_sheets
+000431	?	lay	new sheet	laundry	bed_sheets
+000432	?	lay	new sheet	pillows	bed_sheets
+000433	?	lay	new sheet	washing machine	bed_sheets
+000434	?	lay	new sheet	new sheets	bed_sheets
+000435	?	lay	new sheet	old sheets	bed_sheets
+000436	?	lay	new sheet	bed	bed_sheets
+000437	?	lay	new sheet	mattress	bed_sheets
+000438	?	lay	new sheet	bedspread	bed_sheets
+000439	?	lay	new sheet	laundry hamper	bed_sheets
+000440	?	lay	new sheet	bedsheet	bed_sheets
+000441	?	lay	new sheet	laundry basket	bed_sheets
+000442	?	lay	new sheet	wash	bed_sheets
+000443	?	lay	new sheet	dirty clothes	bed_sheets
+000444	?	putting	new sheets	bedsheets	bed_sheets
+000445	?	putting	new sheets	laundry	bed_sheets
+000446	?	putting	new sheets	pillows	bed_sheets
+000447	?	putting	new sheets	washing machine	bed_sheets
+000448	?	putting	new sheets	old sheets	bed_sheets
+000449	?	putting	new sheets	bed	bed_sheets
+000450	?	putting	new sheets	mattress	bed_sheets
+000451	?	putting	new sheets	bedspread	bed_sheets
+000452	?	putting	new sheets	laundry hamper	bed_sheets
+000453	?	putting	new sheets	bedsheet	bed_sheets
+000454	?	putting	new sheets	laundry basket	bed_sheets
+000455	?	putting	new sheets	wash	bed_sheets
+000456	?	putting	new sheets	dirty clothes	bed_sheets
+000457	?	soiled	sheets	bedsheets	bed_sheets
+000458	?	soiled	sheets	laundry	bed_sheets
+000459	?	soiled	sheets	pillows	bed_sheets
+000460	?	soiled	sheets	washing machine	bed_sheets
+000461	?	soiled	sheets	new sheets	bed_sheets
+000462	?	soiled	sheets	old sheets	bed_sheets
+000463	?	soiled	sheets	bed	bed_sheets
+000464	?	soiled	sheets	mattress	bed_sheets
+000465	?	soiled	sheets	bedspread	bed_sheets
+000466	?	soiled	sheets	laundry hamper	bed_sheets
+000467	?	soiled	sheets	bedsheet	bed_sheets
+000468	?	soiled	sheets	laundry basket	bed_sheets
+000469	?	soiled	sheets	wash	bed_sheets
+000470	?	soiled	sheets	dirty clothes	bed_sheets
+000471	?	put	clean pillow cases	bedsheets	bed_sheets
+000472	?	put	clean pillow cases	laundry	bed_sheets
+000473	?	put	clean pillow cases	pillows	bed_sheets
+000474	?	put	clean pillow cases	washing machine	bed_sheets
+000475	?	put	clean pillow cases	new sheets	bed_sheets
+000476	?	put	clean pillow cases	old sheets	bed_sheets
+000477	?	put	clean pillow cases	bed	bed_sheets
+000478	?	put	clean pillow cases	mattress	bed_sheets
+000479	?	put	clean pillow cases	bedspread	bed_sheets
+000480	?	put	clean pillow cases	laundry hamper	bed_sheets
+000481	?	put	clean pillow cases	bedsheet	bed_sheets
+000482	?	put	clean pillow cases	laundry basket	bed_sheets
+000483	?	put	clean pillow cases	wash	bed_sheets
+000484	?	put	clean pillow cases	dirty clothes	bed_sheets
+000485	?	take	old sheets	bedsheets	bed_sheets
+000486	?	take	old sheets	laundry	bed_sheets
+000487	?	take	old sheets	pillows	bed_sheets
+000488	?	take	old sheets	washing machine	bed_sheets
+000489	?	take	old sheets	new sheets	bed_sheets
+000490	?	take	old sheets	bed	bed_sheets
+000491	?	take	old sheets	mattress	bed_sheets
+000492	?	take	old sheets	bedspread	bed_sheets
+000493	?	take	old sheets	laundry hamper	bed_sheets
+000494	?	take	old sheets	bedsheet	bed_sheets
+000495	?	take	old sheets	laundry basket	bed_sheets
+000496	?	take	old sheets	wash	bed_sheets
+000497	?	take	old sheets	dirty clothes	bed_sheets
+000498	?	put	quilt	bedsheets	bed_sheets
+000499	?	put	quilt	laundry	bed_sheets
+000500	?	put	quilt	pillows	bed_sheets
+000501	?	put	quilt	washing machine	bed_sheets
+000502	?	put	quilt	new sheets	bed_sheets
+000503	?	put	quilt	old sheets	bed_sheets
+000504	?	put	quilt	bed	bed_sheets
+000505	?	put	quilt	mattress	bed_sheets
+000506	?	put	quilt	bedspread	bed_sheets
+000507	?	put	quilt	laundry hamper	bed_sheets
+000508	?	put	quilt	bedsheet	bed_sheets
+000509	?	put	quilt	laundry basket	bed_sheets
+000510	?	put	quilt	wash	bed_sheets
+000511	?	put	quilt	dirty clothes	bed_sheets
+000512	?	put	replacement bedsheet	bedsheets	bed_sheets
+000513	?	put	replacement bedsheet	laundry	bed_sheets
+000514	?	put	replacement bedsheet	pillows	bed_sheets
+000515	?	put	replacement bedsheet	washing machine	bed_sheets
+000516	?	put	replacement bedsheet	new sheets	bed_sheets
+000517	?	put	replacement bedsheet	old sheets	bed_sheets
+000518	?	put	replacement bedsheet	bed	bed_sheets
+000519	?	put	replacement bedsheet	mattress	bed_sheets
+000520	?	put	replacement bedsheet	bedspread	bed_sheets
+000521	?	put	replacement bedsheet	laundry hamper	bed_sheets
+000522	?	put	replacement bedsheet	bedsheet	bed_sheets
+000523	?	put	replacement bedsheet	laundry basket	bed_sheets
+000524	?	put	replacement bedsheet	wash	bed_sheets
+000525	?	put	replacement bedsheet	dirty clothes	bed_sheets
+000526	?	take	dirty sheets	bedsheets	bed_sheets
+000527	?	take	dirty sheets	laundry	bed_sheets
+000528	?	take	dirty sheets	pillows	bed_sheets
+000529	?	take	dirty sheets	washing machine	bed_sheets
+000530	?	take	dirty sheets	new sheets	bed_sheets
+000531	?	take	dirty sheets	old sheets	bed_sheets
+000532	?	take	dirty sheets	bed	bed_sheets
+000533	?	take	dirty sheets	mattress	bed_sheets
+000534	?	take	dirty sheets	bedspread	bed_sheets
+000535	?	take	dirty sheets	laundry hamper	bed_sheets
+000536	?	take	dirty sheets	bedsheet	bed_sheets
+000537	?	take	dirty sheets	laundry basket	bed_sheets
+000538	?	take	dirty sheets	wash	bed_sheets
+000539	?	take	dirty sheets	dirty clothes	bed_sheets
+000540	?	tuck	sides	bedsheets	bed_sheets
+000541	?	tuck	sides	laundry	bed_sheets
+000542	?	tuck	sides	pillows	bed_sheets
+000543	?	tuck	sides	washing machine	bed_sheets
+000544	?	tuck	sides	new sheets	bed_sheets
+000545	?	tuck	sides	old sheets	bed_sheets
+000546	?	tuck	sides	bed	bed_sheets
+000547	?	tuck	sides	mattress	bed_sheets
+000548	?	tuck	sides	bedspread	bed_sheets
+000549	?	tuck	sides	laundry hamper	bed_sheets
+000550	?	tuck	sides	bedsheet	bed_sheets
+000551	?	tuck	sides	laundry basket	bed_sheets
+000552	?	tuck	sides	wash	bed_sheets
+000553	?	tuck	sides	dirty clothes	bed_sheets
+000554	?	removing	current bed sheets	bedsheets	bed_sheets
+000555	?	removing	current bed sheets	laundry	bed_sheets
+000556	?	removing	current bed sheets	pillows	bed_sheets
+000557	?	removing	current bed sheets	washing machine	bed_sheets
+000558	?	removing	current bed sheets	new sheets	bed_sheets
+000559	?	removing	current bed sheets	old sheets	bed_sheets
+000560	?	removing	current bed sheets	bed	bed_sheets
+000561	?	removing	current bed sheets	mattress	bed_sheets
+000562	?	removing	current bed sheets	bedspread	bed_sheets
+000563	?	removing	current bed sheets	laundry hamper	bed_sheets
+000564	?	removing	current bed sheets	bedsheet	bed_sheets
+000565	?	removing	current bed sheets	laundry basket	bed_sheets
+000566	?	removing	current bed sheets	wash	bed_sheets
+000567	?	removing	current bed sheets	dirty clothes	bed_sheets
+000568	?	remove	sheets	bedsheets	bed_sheets
+000569	?	remove	sheets	laundry	bed_sheets
+000570	?	remove	sheets	pillows	bed_sheets
+000571	?	remove	sheets	washing machine	bed_sheets
+000572	?	remove	sheets	new sheets	bed_sheets
+000573	?	remove	sheets	old sheets	bed_sheets
+000574	?	remove	sheets	bed	bed_sheets
+000575	?	remove	sheets	mattress	bed_sheets
+000576	?	remove	sheets	bedspread	bed_sheets
+000577	?	remove	sheets	laundry hamper	bed_sheets
+000578	?	remove	sheets	bedsheet	bed_sheets
+000579	?	remove	sheets	laundry basket	bed_sheets
+000580	?	remove	sheets	wash	bed_sheets
+000581	?	remove	sheets	dirty clothes	bed_sheets
+000582	?	locate	clean sheets	bedsheets	bed_sheets
+000583	?	locate	clean sheets	laundry	bed_sheets
+000584	?	locate	clean sheets	pillows	bed_sheets
+000585	?	locate	clean sheets	washing machine	bed_sheets
+000586	?	locate	clean sheets	new sheets	bed_sheets
+000587	?	locate	clean sheets	old sheets	bed_sheets
+000588	?	locate	clean sheets	bed	bed_sheets
+000589	?	locate	clean sheets	mattress	bed_sheets
+000590	?	locate	clean sheets	bedspread	bed_sheets
+000591	?	locate	clean sheets	laundry hamper	bed_sheets
+000592	?	locate	clean sheets	bedsheet	bed_sheets
+000593	?	locate	clean sheets	laundry basket	bed_sheets
+000594	?	locate	clean sheets	wash	bed_sheets
+000595	?	locate	clean sheets	dirty clothes	bed_sheets
+000596	?	remove	old bedding	bedsheets	bed_sheets
+000597	?	remove	old bedding	laundry	bed_sheets
+000598	?	remove	old bedding	pillows	bed_sheets
+000599	?	remove	old bedding	washing machine	bed_sheets
+000600	?	remove	old bedding	new sheets	bed_sheets
+000601	?	remove	old bedding	old sheets	bed_sheets
+000602	?	remove	old bedding	bed	bed_sheets
+000603	?	remove	old bedding	mattress	bed_sheets
+000604	?	remove	old bedding	bedspread	bed_sheets
+000605	?	remove	old bedding	laundry hamper	bed_sheets
+000606	?	remove	old bedding	bedsheet	bed_sheets
+000607	?	remove	old bedding	laundry basket	bed_sheets
+000608	?	remove	old bedding	wash	bed_sheets
+000609	?	remove	old bedding	dirty clothes	bed_sheets
+000610	?	remove	bedspread old bed sheets	bedsheets	bed_sheets
+000611	?	remove	bedspread old bed sheets	laundry	bed_sheets
+000612	?	remove	bedspread old bed sheets	pillows	bed_sheets
+000613	?	remove	bedspread old bed sheets	washing machine	bed_sheets
+000614	?	remove	bedspread old bed sheets	new sheets	bed_sheets
+000615	?	remove	bedspread old bed sheets	old sheets	bed_sheets
+000616	?	remove	bedspread old bed sheets	bed	bed_sheets
+000617	?	remove	bedspread old bed sheets	mattress	bed_sheets
+000618	?	remove	bedspread old bed sheets	bedspread	bed_sheets
+000619	?	remove	bedspread old bed sheets	laundry hamper	bed_sheets
+000620	?	remove	bedspread old bed sheets	bedsheet	bed_sheets
+000621	?	remove	bedspread old bed sheets	laundry basket	bed_sheets
+000622	?	remove	bedspread old bed sheets	wash	bed_sheets
+000623	?	remove	bedspread old bed sheets	dirty clothes	bed_sheets
+000624	?	place	clean sheets	bedsheets	bed_sheets
+000625	?	place	clean sheets	laundry	bed_sheets
+000626	?	place	clean sheets	pillows	bed_sheets
+000627	?	place	clean sheets	washing machine	bed_sheets
+000628	?	place	clean sheets	new sheets	bed_sheets
+000629	?	place	clean sheets	old sheets	bed_sheets
+000630	?	place	clean sheets	bed	bed_sheets
+000631	?	place	clean sheets	mattress	bed_sheets
+000632	?	place	clean sheets	bedspread	bed_sheets
+000633	?	place	clean sheets	laundry hamper	bed_sheets
+000634	?	place	clean sheets	bedsheet	bed_sheets
+000635	?	place	clean sheets	laundry basket	bed_sheets
+000636	?	place	clean sheets	wash	bed_sheets
+000637	?	place	clean sheets	dirty clothes	bed_sheets
+000638	?	place	new sheets	bedsheets	bed_sheets
+000639	?	place	new sheets	laundry	bed_sheets
+000640	?	place	new sheets	pillows	bed_sheets
+000641	?	place	new sheets	washing machine	bed_sheets
+000642	?	place	new sheets	old sheets	bed_sheets
+000643	?	place	new sheets	bed	bed_sheets
+000644	?	place	new sheets	mattress	bed_sheets
+000645	?	place	new sheets	bedspread	bed_sheets
+000646	?	place	new sheets	laundry hamper	bed_sheets
+000647	?	place	new sheets	bedsheet	bed_sheets
+000648	?	place	new sheets	laundry basket	bed_sheets
+000649	?	place	new sheets	wash	bed_sheets
+000650	?	place	new sheets	dirty clothes	bed_sheets
+000651	?	place	clean bedsheets	bedsheets	bed_sheets
+000652	?	place	clean bedsheets	laundry	bed_sheets
+000653	?	place	clean bedsheets	pillows	bed_sheets
+000654	?	place	clean bedsheets	washing machine	bed_sheets
+000655	?	place	clean bedsheets	new sheets	bed_sheets
+000656	?	place	clean bedsheets	old sheets	bed_sheets
+000657	?	place	clean bedsheets	bed	bed_sheets
+000658	?	place	clean bedsheets	mattress	bed_sheets
+000659	?	place	clean bedsheets	bedspread	bed_sheets
+000660	?	place	clean bedsheets	laundry hamper	bed_sheets
+000661	?	place	clean bedsheets	bedsheet	bed_sheets
+000662	?	place	clean bedsheets	laundry basket	bed_sheets
+000663	?	place	clean bedsheets	wash	bed_sheets
+000664	?	place	clean bedsheets	dirty clothes	bed_sheets
+000665	?	put	them	bedsheets	bed_sheets
+000666	?	put	them	laundry	bed_sheets
+000667	?	put	them	pillows	bed_sheets
+000668	?	put	them	washing machine	bed_sheets
+000669	?	put	them	new sheets	bed_sheets
+000670	?	put	them	old sheets	bed_sheets
+000671	?	put	them	bed	bed_sheets
+000672	?	put	them	mattress	bed_sheets
+000673	?	put	them	bedspread	bed_sheets
+000674	?	put	them	laundry hamper	bed_sheets
+000675	?	put	them	bedsheet	bed_sheets
+000676	?	put	them	laundry basket	bed_sheets
+000677	?	put	them	wash	bed_sheets
+000678	?	put	them	dirty clothes	bed_sheets
+000679	?	put	old sheets	bedsheets	bed_sheets
+000680	?	put	old sheets	laundry	bed_sheets
+000681	?	put	old sheets	pillows	bed_sheets
+000682	?	put	old sheets	washing machine	bed_sheets
+000683	?	put	old sheets	new sheets	bed_sheets
+000684	?	put	old sheets	bed	bed_sheets
+000685	?	put	old sheets	mattress	bed_sheets
+000686	?	put	old sheets	bedspread	bed_sheets
+000687	?	put	old sheets	laundry hamper	bed_sheets
+000688	?	put	old sheets	bedsheet	bed_sheets
+000689	?	put	old sheets	laundry basket	bed_sheets
+000690	?	put	old sheets	wash	bed_sheets
+000691	?	put	old sheets	dirty clothes	bed_sheets
+000692	?	replace	pillows	bedsheets	bed_sheets
+000693	?	replace	pillows	laundry	bed_sheets
+000694	?	replace	pillows	washing machine	bed_sheets
+000695	?	replace	pillows	new sheets	bed_sheets
+000696	?	replace	pillows	old sheets	bed_sheets
+000697	?	replace	pillows	bed	bed_sheets
+000698	?	replace	pillows	mattress	bed_sheets
+000699	?	replace	pillows	bedspread	bed_sheets
+000700	?	replace	pillows	laundry hamper	bed_sheets
+000701	?	replace	pillows	bedsheet	bed_sheets
+000702	?	replace	pillows	laundry basket	bed_sheets
+000703	?	replace	pillows	wash	bed_sheets
+000704	?	replace	pillows	dirty clothes	bed_sheets
+000705	?	identify	bed sheets	bedsheets	bed_sheets
+000706	?	identify	bed sheets	laundry	bed_sheets
+000707	?	identify	bed sheets	pillows	bed_sheets
+000708	?	identify	bed sheets	washing machine	bed_sheets
+000709	?	identify	bed sheets	new sheets	bed_sheets
+000710	?	identify	bed sheets	old sheets	bed_sheets
+000711	?	identify	bed sheets	bed	bed_sheets
+000712	?	identify	bed sheets	mattress	bed_sheets
+000713	?	identify	bed sheets	bedspread	bed_sheets
+000714	?	identify	bed sheets	laundry hamper	bed_sheets
+000715	?	identify	bed sheets	bedsheet	bed_sheets
+000716	?	identify	bed sheets	laundry basket	bed_sheets
+000717	?	identify	bed sheets	wash	bed_sheets
+000718	?	identify	bed sheets	dirty clothes	bed_sheets
+000719	?	spread	flat sheet	bedsheets	bed_sheets
+000720	?	spread	flat sheet	laundry	bed_sheets
+000721	?	spread	flat sheet	pillows	bed_sheets
+000722	?	spread	flat sheet	washing machine	bed_sheets
+000723	?	spread	flat sheet	new sheets	bed_sheets
+000724	?	spread	flat sheet	old sheets	bed_sheets
+000725	?	spread	flat sheet	bed	bed_sheets
+000726	?	spread	flat sheet	mattress	bed_sheets
+000727	?	spread	flat sheet	bedspread	bed_sheets
+000728	?	spread	flat sheet	laundry hamper	bed_sheets
+000729	?	spread	flat sheet	bedsheet	bed_sheets
+000730	?	spread	flat sheet	laundry basket	bed_sheets
+000731	?	spread	flat sheet	wash	bed_sheets
+000732	?	spread	flat sheet	dirty clothes	bed_sheets
+000733	?	put	new fitted sheet	bedsheets	bed_sheets
+000734	?	put	new fitted sheet	laundry	bed_sheets
+000735	?	put	new fitted sheet	pillows	bed_sheets
+000736	?	put	new fitted sheet	washing machine	bed_sheets
+000737	?	put	new fitted sheet	new sheets	bed_sheets
+000738	?	put	new fitted sheet	old sheets	bed_sheets
+000739	?	put	new fitted sheet	bed	bed_sheets
+000740	?	put	new fitted sheet	mattress	bed_sheets
+000741	?	put	new fitted sheet	bedspread	bed_sheets
+000742	?	put	new fitted sheet	laundry hamper	bed_sheets
+000743	?	put	new fitted sheet	bedsheet	bed_sheets
+000744	?	put	new fitted sheet	laundry basket	bed_sheets
+000745	?	put	new fitted sheet	wash	bed_sheets
+000746	?	put	new fitted sheet	dirty clothes	bed_sheets
+000747	?	replace	blankets	bedsheets	bed_sheets
+000748	?	replace	blankets	laundry	bed_sheets
+000749	?	replace	blankets	pillows	bed_sheets
+000750	?	replace	blankets	washing machine	bed_sheets
+000751	?	replace	blankets	new sheets	bed_sheets
+000752	?	replace	blankets	old sheets	bed_sheets
+000753	?	replace	blankets	bed	bed_sheets
+000754	?	replace	blankets	mattress	bed_sheets
+000755	?	replace	blankets	bedspread	bed_sheets
+000756	?	replace	blankets	laundry hamper	bed_sheets
+000757	?	replace	blankets	bedsheet	bed_sheets
+000758	?	replace	blankets	laundry basket	bed_sheets
+000759	?	replace	blankets	wash	bed_sheets
+000760	?	replace	blankets	dirty clothes	bed_sheets
+000761	?	remove	blanket	bedsheets	bed_sheets
+000762	?	remove	blanket	laundry	bed_sheets
+000763	?	remove	blanket	pillows	bed_sheets
+000764	?	remove	blanket	washing machine	bed_sheets
+000765	?	remove	blanket	new sheets	bed_sheets
+000766	?	remove	blanket	old sheets	bed_sheets
+000767	?	remove	blanket	bed	bed_sheets
+000768	?	remove	blanket	mattress	bed_sheets
+000769	?	remove	blanket	bedspread	bed_sheets
+000770	?	remove	blanket	laundry hamper	bed_sheets
+000771	?	remove	blanket	bedsheet	bed_sheets
+000772	?	remove	blanket	laundry basket	bed_sheets
+000773	?	remove	blanket	wash	bed_sheets
+000774	?	remove	blanket	dirty clothes	bed_sheets
+000775	?	remove	top sheet	bedsheets	bed_sheets
+000776	?	remove	top sheet	laundry	bed_sheets
+000777	?	remove	top sheet	pillows	bed_sheets
+000778	?	remove	top sheet	washing machine	bed_sheets
+000779	?	remove	top sheet	new sheets	bed_sheets
+000780	?	remove	top sheet	old sheets	bed_sheets
+000781	?	remove	top sheet	bed	bed_sheets
+000782	?	remove	top sheet	mattress	bed_sheets
+000783	?	remove	top sheet	bedspread	bed_sheets
+000784	?	remove	top sheet	laundry hamper	bed_sheets
+000785	?	remove	top sheet	bedsheet	bed_sheets
+000786	?	remove	top sheet	laundry basket	bed_sheets
+000787	?	remove	top sheet	wash	bed_sheets
+000788	?	remove	top sheet	dirty clothes	bed_sheets
+000789	?	place	new bed sheets	bedsheets	bed_sheets
+000790	?	place	new bed sheets	laundry	bed_sheets
+000791	?	place	new bed sheets	pillows	bed_sheets
+000792	?	place	new bed sheets	washing machine	bed_sheets
+000793	?	place	new bed sheets	new sheets	bed_sheets
+000794	?	place	new bed sheets	old sheets	bed_sheets
+000795	?	place	new bed sheets	bed	bed_sheets
+000796	?	place	new bed sheets	mattress	bed_sheets
+000797	?	place	new bed sheets	bedspread	bed_sheets
+000798	?	place	new bed sheets	laundry hamper	bed_sheets
+000799	?	place	new bed sheets	bedsheet	bed_sheets
+000800	?	place	new bed sheets	laundry basket	bed_sheets
+000801	?	place	new bed sheets	wash	bed_sheets
+000802	?	place	new bed sheets	dirty clothes	bed_sheets
+000803	?	remove	old besheets	bedsheets	bed_sheets
+000804	?	remove	old besheets	laundry	bed_sheets
+000805	?	remove	old besheets	pillows	bed_sheets
+000806	?	remove	old besheets	washing machine	bed_sheets
+000807	?	remove	old besheets	new sheets	bed_sheets
+000808	?	remove	old besheets	old sheets	bed_sheets
+000809	?	remove	old besheets	bed	bed_sheets
+000810	?	remove	old besheets	mattress	bed_sheets
+000811	?	remove	old besheets	bedspread	bed_sheets
+000812	?	remove	old besheets	laundry hamper	bed_sheets
+000813	?	remove	old besheets	bedsheet	bed_sheets
+000814	?	remove	old besheets	laundry basket	bed_sheets
+000815	?	remove	old besheets	wash	bed_sheets
+000816	?	remove	old besheets	dirty clothes	bed_sheets
+000817	?	remove	old beed sheets	bedsheets	bed_sheets
+000818	?	remove	old beed sheets	laundry	bed_sheets
+000819	?	remove	old beed sheets	pillows	bed_sheets
+000820	?	remove	old beed sheets	washing machine	bed_sheets
+000821	?	remove	old beed sheets	new sheets	bed_sheets
+000822	?	remove	old beed sheets	old sheets	bed_sheets
+000823	?	remove	old beed sheets	bed	bed_sheets
+000824	?	remove	old beed sheets	mattress	bed_sheets
+000825	?	remove	old beed sheets	bedspread	bed_sheets
+000826	?	remove	old beed sheets	laundry hamper	bed_sheets
+000827	?	remove	old beed sheets	bedsheet	bed_sheets
+000828	?	remove	old beed sheets	laundry basket	bed_sheets
+000829	?	remove	old beed sheets	wash	bed_sheets
+000830	?	remove	old beed sheets	dirty clothes	bed_sheets
+000831	?	take	dirty bed sheets	bedsheets	bed_sheets
+000832	?	take	dirty bed sheets	laundry	bed_sheets
+000833	?	take	dirty bed sheets	pillows	bed_sheets
+000834	?	take	dirty bed sheets	washing machine	bed_sheets
+000835	?	take	dirty bed sheets	new sheets	bed_sheets
+000836	?	take	dirty bed sheets	old sheets	bed_sheets
+000837	?	take	dirty bed sheets	bed	bed_sheets
+000838	?	take	dirty bed sheets	mattress	bed_sheets
+000839	?	take	dirty bed sheets	bedspread	bed_sheets
+000840	?	take	dirty bed sheets	laundry hamper	bed_sheets
+000841	?	take	dirty bed sheets	bedsheet	bed_sheets
+000842	?	take	dirty bed sheets	laundry basket	bed_sheets
+000843	?	take	dirty bed sheets	wash	bed_sheets
+000844	?	take	dirty bed sheets	dirty clothes	bed_sheets
+000845	?	wash	old sheets	bedsheets	bed_sheets
+000846	?	wash	old sheets	laundry	bed_sheets
+000847	?	wash	old sheets	pillows	bed_sheets
+000848	?	wash	old sheets	washing machine	bed_sheets
+000849	?	wash	old sheets	new sheets	bed_sheets
+000850	?	wash	old sheets	bed	bed_sheets
+000851	?	wash	old sheets	mattress	bed_sheets
+000852	?	wash	old sheets	bedspread	bed_sheets
+000853	?	wash	old sheets	laundry hamper	bed_sheets
+000854	?	wash	old sheets	bedsheet	bed_sheets
+000855	?	wash	old sheets	laundry basket	bed_sheets
+000856	?	wash	old sheets	wash	bed_sheets
+000857	?	wash	old sheets	dirty clothes	bed_sheets
+000858	?	place	dirty sheets	bedsheets	bed_sheets
+000859	?	place	dirty sheets	laundry	bed_sheets
+000860	?	place	dirty sheets	pillows	bed_sheets
+000861	?	place	dirty sheets	washing machine	bed_sheets
+000862	?	place	dirty sheets	new sheets	bed_sheets
+000863	?	place	dirty sheets	old sheets	bed_sheets
+000864	?	place	dirty sheets	bed	bed_sheets
+000865	?	place	dirty sheets	mattress	bed_sheets
+000866	?	place	dirty sheets	bedspread	bed_sheets
+000867	?	place	dirty sheets	laundry hamper	bed_sheets
+000868	?	place	dirty sheets	bedsheet	bed_sheets
+000869	?	place	dirty sheets	laundry basket	bed_sheets
+000870	?	place	dirty sheets	wash	bed_sheets
+000871	?	place	dirty sheets	dirty clothes	bed_sheets
+000872	?	tuck	sheet	bedsheets	bed_sheets
+000873	?	tuck	sheet	laundry	bed_sheets
+000874	?	tuck	sheet	pillows	bed_sheets
+000875	?	tuck	sheet	washing machine	bed_sheets
+000876	?	tuck	sheet	new sheets	bed_sheets
+000877	?	tuck	sheet	old sheets	bed_sheets
+000878	?	tuck	sheet	bed	bed_sheets
+000879	?	tuck	sheet	mattress	bed_sheets
+000880	?	tuck	sheet	bedspread	bed_sheets
+000881	?	tuck	sheet	laundry hamper	bed_sheets
+000882	?	tuck	sheet	bedsheet	bed_sheets
+000883	?	tuck	sheet	laundry basket	bed_sheets
+000884	?	tuck	sheet	wash	bed_sheets
+000885	?	tuck	sheet	dirty clothes	bed_sheets
+000886	?	replace	old sheets	bedsheets	bed_sheets
+000887	?	replace	old sheets	laundry	bed_sheets
+000888	?	replace	old sheets	pillows	bed_sheets
+000889	?	replace	old sheets	washing machine	bed_sheets
+000890	?	replace	old sheets	new sheets	bed_sheets
+000891	?	replace	old sheets	bed	bed_sheets
+000892	?	replace	old sheets	mattress	bed_sheets
+000893	?	replace	old sheets	bedspread	bed_sheets
+000894	?	replace	old sheets	laundry hamper	bed_sheets
+000895	?	replace	old sheets	bedsheet	bed_sheets
+000896	?	replace	old sheets	laundry basket	bed_sheets
+000897	?	replace	old sheets	wash	bed_sheets
+000898	?	replace	old sheets	dirty clothes	bed_sheets
+000899	?	remove	clean sheets	bedsheets	bed_sheets
+000900	?	remove	clean sheets	laundry	bed_sheets
+000901	?	remove	clean sheets	pillows	bed_sheets
+000902	?	remove	clean sheets	washing machine	bed_sheets
+000903	?	remove	clean sheets	new sheets	bed_sheets
+000904	?	remove	clean sheets	old sheets	bed_sheets
+000905	?	remove	clean sheets	bed	bed_sheets
+000906	?	remove	clean sheets	mattress	bed_sheets
+000907	?	remove	clean sheets	bedspread	bed_sheets
+000908	?	remove	clean sheets	laundry hamper	bed_sheets
+000909	?	remove	clean sheets	bedsheet	bed_sheets
+000910	?	remove	clean sheets	laundry basket	bed_sheets
+000911	?	remove	clean sheets	wash	bed_sheets
+000912	?	remove	clean sheets	dirty clothes	bed_sheets
+000913	?	removed	bed sheets	bedsheets	bed_sheets
+000914	?	removed	bed sheets	laundry	bed_sheets
+000915	?	removed	bed sheets	pillows	bed_sheets
+000916	?	removed	bed sheets	washing machine	bed_sheets
+000917	?	removed	bed sheets	new sheets	bed_sheets
+000918	?	removed	bed sheets	old sheets	bed_sheets
+000919	?	removed	bed sheets	bed	bed_sheets
+000920	?	removed	bed sheets	mattress	bed_sheets
+000921	?	removed	bed sheets	bedspread	bed_sheets
+000922	?	removed	bed sheets	laundry hamper	bed_sheets
+000923	?	removed	bed sheets	bedsheet	bed_sheets
+000924	?	removed	bed sheets	laundry basket	bed_sheets
+000925	?	removed	bed sheets	wash	bed_sheets
+000926	?	removed	bed sheets	dirty clothes	bed_sheets
+000927	?	remove	old bed sheets	bedsheets	bed_sheets
+000928	?	remove	old bed sheets	laundry	bed_sheets
+000929	?	remove	old bed sheets	pillows	bed_sheets
+000930	?	remove	old bed sheets	washing machine	bed_sheets
+000931	?	remove	old bed sheets	new sheets	bed_sheets
+000932	?	remove	old bed sheets	old sheets	bed_sheets
+000933	?	remove	old bed sheets	bed	bed_sheets
+000934	?	remove	old bed sheets	mattress	bed_sheets
+000935	?	remove	old bed sheets	bedspread	bed_sheets
+000936	?	remove	old bed sheets	laundry hamper	bed_sheets
+000937	?	remove	old bed sheets	bedsheet	bed_sheets
+000938	?	remove	old bed sheets	laundry basket	bed_sheets
+000939	?	remove	old bed sheets	wash	bed_sheets
+000940	?	remove	old bed sheets	dirty clothes	bed_sheets
+000941	?	remove	dirty sheets	bedsheets	bed_sheets
+000942	?	remove	dirty sheets	laundry	bed_sheets
+000943	?	remove	dirty sheets	pillows	bed_sheets
+000944	?	remove	dirty sheets	washing machine	bed_sheets
+000945	?	remove	dirty sheets	new sheets	bed_sheets
+000946	?	remove	dirty sheets	old sheets	bed_sheets
+000947	?	remove	dirty sheets	bed	bed_sheets
+000948	?	remove	dirty sheets	mattress	bed_sheets
+000949	?	remove	dirty sheets	bedspread	bed_sheets
+000950	?	remove	dirty sheets	laundry hamper	bed_sheets
+000951	?	remove	dirty sheets	bedsheet	bed_sheets
+000952	?	remove	dirty sheets	laundry basket	bed_sheets
+000953	?	remove	dirty sheets	wash	bed_sheets
+000954	?	remove	dirty sheets	dirty clothes	bed_sheets
+000955	?	locate	bed	bedsheets	bed_sheets
+000956	?	locate	bed	laundry	bed_sheets
+000957	?	locate	bed	pillows	bed_sheets
+000958	?	locate	bed	washing machine	bed_sheets
+000959	?	locate	bed	new sheets	bed_sheets
+000960	?	locate	bed	old sheets	bed_sheets
+000961	?	locate	bed	mattress	bed_sheets
+000962	?	locate	bed	bedspread	bed_sheets
+000963	?	locate	bed	laundry hamper	bed_sheets
+000964	?	locate	bed	bedsheet	bed_sheets
+000965	?	locate	bed	laundry basket	bed_sheets
+000966	?	locate	bed	wash	bed_sheets
+000967	?	locate	bed	dirty clothes	bed_sheets
+000968	?	get	new sheets	bedsheets	bed_sheets
+000969	?	get	new sheets	laundry	bed_sheets
+000970	?	get	new sheets	pillows	bed_sheets
+000971	?	get	new sheets	washing machine	bed_sheets
+000972	?	get	new sheets	old sheets	bed_sheets
+000973	?	get	new sheets	bed	bed_sheets
+000974	?	get	new sheets	mattress	bed_sheets
+000975	?	get	new sheets	bedspread	bed_sheets
+000976	?	get	new sheets	laundry hamper	bed_sheets
+000977	?	get	new sheets	bedsheet	bed_sheets
+000978	?	get	new sheets	laundry basket	bed_sheets
+000979	?	get	new sheets	wash	bed_sheets
+000980	?	get	new sheets	dirty clothes	bed_sheets
+000981	?	get	clean sheets	bedsheets	bed_sheets
+000982	?	get	clean sheets	laundry	bed_sheets
+000983	?	get	clean sheets	pillows	bed_sheets
+000984	?	get	clean sheets	washing machine	bed_sheets
+000985	?	get	clean sheets	new sheets	bed_sheets
+000986	?	get	clean sheets	old sheets	bed_sheets
+000987	?	get	clean sheets	bed	bed_sheets
+000988	?	get	clean sheets	mattress	bed_sheets
+000989	?	get	clean sheets	bedspread	bed_sheets
+000990	?	get	clean sheets	laundry hamper	bed_sheets
+000991	?	get	clean sheets	bedsheet	bed_sheets
+000992	?	get	clean sheets	laundry basket	bed_sheets
+000993	?	get	clean sheets	wash	bed_sheets
+000994	?	get	clean sheets	dirty clothes	bed_sheets
+000995	?	replace	bedspread	bedsheets	bed_sheets
+000996	?	replace	bedspread	laundry	bed_sheets
+000997	?	replace	bedspread	pillows	bed_sheets
+000998	?	replace	bedspread	washing machine	bed_sheets
+000999	?	replace	bedspread	new sheets	bed_sheets
+001000	?	replace	bedspread	old sheets	bed_sheets
+001001	?	replace	bedspread	bed	bed_sheets
+001002	?	replace	bedspread	mattress	bed_sheets
+001003	?	replace	bedspread	laundry hamper	bed_sheets
+001004	?	replace	bedspread	bedsheet	bed_sheets
+001005	?	replace	bedspread	laundry basket	bed_sheets
+001006	?	replace	bedspread	wash	bed_sheets
+001007	?	replace	bedspread	dirty clothes	bed_sheets

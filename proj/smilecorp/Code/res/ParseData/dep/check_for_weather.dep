@@ -1,0 +1,349 @@
+aux(www-3, to-2)
+xcomp(go-1, www-3)
+nn(com-5, weather-4)
+dobj(www-3, com-5)
+
+det(zipcode-3, the-2)
+dobj(enter-1, zipcode-3)
+dobj(want-8, zipcode-3)
+det(area-6, the-5)
+prep_of(zipcode-3, area-6)
+nsubj(want-8, you-7)
+xsubj(know-10, you-7)
+rcmod(zipcode-3, want-8)
+aux(know-10, to-9)
+xcomp(want-8, know-10)
+det(weather-12, the-11)
+dobj(know-10, weather-12)
+prep(weather-12, of-13)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+prt(stick-1, out-2)
+det(arm-4, the-3)
+dobj(stick-1, arm-4)
+
+prep_for(feel-1, temperature-3)
+prep_for(feel-1, rain-5)
+conj_and(temperature-3, rain-5)
+
+prep(look-1, outside-2)
+dep(outside-2, for-3)
+pobj(for-3, rain-4)
+pobj(for-3, clouds-6)
+conj_and(rain-4, clouds-6)
+
+prep_to(go-1, window-3)
+prep_to(go-1, door-5)
+conj_or(window-3, door-5)
+
+acomp(make-1, sure-2)
+expl(are-4, there-3)
+ccomp(sure-2, are-4)
+det(obstacles-6, no-5)
+nsubj(are-4, obstacles-6)
+prep_in(obstacles-6, way-8)
+
+dobj(examine-1, sky-2)
+prep_for(examine-1, clouds-4)
+
+nn(speed-3, wind-2)
+dobj(examine-1, speed-3)
+
+dobj(examine-1, humidity-2)
+dobj(examine-1, percipitation-4)
+conj_and(humidity-2, percipitation-4)
+
+det(readings-3, any-2)
+prep_if(is-9, readings-3)
+dep(readings-3, above-4)
+dep(readings-3, below-6)
+conj_or(above-4, below-6)
+pobj(below-6, normal-7)
+expl(is-9, there-8)
+nsubj(is-9, weather-10)
+
+advmod(go-1, outside-2)
+
+det(sky-4, the-3)
+prep_at(look-1, sky-4)
+
+dobj(draw-1, curtains-2)
+
+prep(look-1, outside-2)
+dep(outside-2, at-3)
+pobj(at-3, sky-4)
+
+prep_for(check-1, rain-3)
+
+advmod(go-1, outside-2)
+
+det(temperature-3, the-2)
+dobj(feel-1, temperature-3)
+
+prep_for(look-1, clouds-3)
+
+prep_for(check-1, rain-3)
+
+det(window-4, a-3)
+prep_to(go-1, window-4)
+partmod(window-4, using-5)
+poss(legs-7, your-6)
+dobj(using-5, legs-7)
+aux(walk-9, to-8)
+xcomp(using-5, walk-9)
+advmod(walk-9, there-10)
+
+prep(look-1, outside-2)
+dep(outside-2, through-3)
+det(window-5, the-4)
+pobj(through-3, window-5)
+partmod(window-5, using-6)
+poss(eyes-8, your-7)
+dobj(using-6, eyes-8)
+
+dobj(outside-8, what-2)
+nsubj(outside-8, kind-3)
+prep_of(kind-3, weather-5)
+cop(outside-8, is-6)
+advmod(outside-8, currently-7)
+ccomp(decide-1, outside-8)
+
+det(tv-4, the-3)
+prep_to(go-1, tv-4)
+
+det(tv-3, the-2)
+dobj(turn-1, tv-3)
+det(channel-7, the-5)
+nn(channel-7, weather-6)
+prep_to(turn-1, channel-7)
+
+prep_for(look-1, news-3)
+det(weather-6, the-5)
+prep_about(look-1, weather-6)
+poss(area-9, your-8)
+prep_in(weather-6, area-9)
+
+det(activity-5, any-2)
+amod(activity-5, potential-3)
+nn(activity-5, weather-4)
+dobj(note-1, activity-5)
+nn(changes-9, temperature-8)
+prep_such_as(activity-5, changes-9)
+prep_such_as(activity-5, rain-11)
+conj_or(changes-9, rain-11)
+
+det(television-4, the-3)
+prep_on(turn-1, television-4)
+
+det(channel-3, the-2)
+dobj(change-1, channel-3)
+det(channel-7, the-5)
+nn(channel-7, weather-6)
+prep_to(change-1, channel-7)
+
+det(weather-4, the-3)
+prep_to(listen-1, weather-4)
+auxpass(given-6, being-5)
+partmod(weather-4, given-6)
+
+dobj(make-1, note-2)
+det(information-7, the-4)
+amod(information-7, important-5)
+nn(information-7, weather-6)
+prep_of(note-2, information-7)
+poss(area-10, your-9)
+prep_in(information-7, area-10)
+
+prep_on(turn-1, tv-3)
+
+aux(weather-3, to-2)
+xcomp(go-1, weather-3)
+dobj(weather-3, channel-4)
+
+dobj(watch-1, tv-2)
+
+dobj(switch-1, television-2)
+prep(switch-1, on-3)
+
+aux(correct-3, to-2)
+xcomp(switch-1, correct-3)
+dobj(correct-3, channel-4)
+
+nn(view-4, text-3)
+prep_to(switch-1, view-4)
+
+aux(weather-3, to-2)
+xcomp(move-1, weather-3)
+dobj(weather-3, page-4)
+
+nn(page-3, weather-2)
+dobj(read-1, page-3)
+
+det(television-4, the-3)
+prep_on(turn-1, television-4)
+
+dobj(change-1, television-2)
+aux(weather-4, to-3)
+xcomp(change-1, weather-4)
+dobj(weather-4, channel-5)
+
+nn(report-4, weather-3)
+prep_for(wait-1, report-4)
+
+prep_to(listen-1, report-3)
+
+prep_out(look-1, window-3)
+
+prep_to(walk-1, window-3)
+
+det(window-4, the-3)
+prep_out(look-1, window-4)
+
+prep(look-1, outside-2)
+dep(outside-2, at-3)
+det(sky-5, the-4)
+pobj(at-3, sky-5)
+
+det(window-4, the-3)
+prep_out(look-1, window-4)
+
+dobj(open-1, window-2)
+
+dobj(stick-1, hand-2)
+prep(stick-1, outside-3)
+
+dobj(evalutate-1, sensations-2)
+prep_from(evalutate-1, hand-4)
+
+dobj(relate-1, sensations-2)
+nn(conditions-5, weather-4)
+prep_to(relate-1, conditions-5)
+
+prep_on(turn-1, radio-3)
+
+prep_on(turn-1, radio-3)
+
+aux(weather-3, to-2)
+xcomp(listen-1, weather-3)
+dobj(weather-3, report-4)
+
+dobj(goto-1, information-2)
+
+prep_for(check-1, weather-3)
+
+det(tv-4, the-3)
+prep_on(turn-1, tv-4)
+
+det(channel-5, the-3)
+nn(channel-5, weather-4)
+prep_to(switch-1, channel-5)
+
+prep_for(listen-1, report-3)
+prep_on(listen-1, weather-5)
+amod(area-8, local-7)
+prep_in(weather-5, area-8)
+
+prt(tunr-1, off-2)
+dobj(tunr-1, tv-3)
+
+advmod(go-1, outside-2)
+
+prt(look-1, up-2)
+
+dobj(observe-1, sky-2)
+
+dobj(record-1, data-2)
+
+prt(look-1, forward-2)
+
+advmod(go-1, inside-2)
+
+dobj(analyize-1, data-2)
+
+det(television-4, the-3)
+prep_on(turn-1, television-4)
+
+det(network-5, the-3)
+nn(network-5, weather-4)
+prep_on(put-1, network-5)
+
+nn(broadcast-4, weather-3)
+prep_for(wait-1, broadcast-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, television-3)
+
+prep_on(turn-1, tv-3)
+
+aux(weather-3, to-2)
+xcomp(turn-1, weather-3)
+dobj(weather-3, channel-4)
+
+mark(mentioned-6, until-2)
+nn(area-4, home-3)
+nsubjpass(mentioned-6, area-4)
+auxpass(mentioned-6, is-5)
+advcl(watch-1, mentioned-6)
+
+dobj(watch-1, weatherman-2)
+dep(watch-1, discuss-3)
+amod(weather-5, local-4)
+dobj(discuss-3, weather-5)
+
+dobj(weather-1, check-2)
+
+prep_on(turn-1, tv-3)
+
+dobj(check-1, magazine-2)
+
+prep_at(look-1, newspaper-3)
+
+dobj(check-1, channel-2)
+
+dobj(open-1, newspaper-2)
+
+dobj(open-1, magazine-2)
+
+dobj(check-1, weather-2)
+
+prep_on(turn-1, tv-3)
+
+aux(weather-3, to-2)
+xcomp(turn-1, weather-3)
+dobj(weather-3, channel-4)
+
+aux(forecast-3, to-2)
+xcomp(listen-1, forecast-3)
+poss(area-6, your-5)
+prep_for(forecast-3, area-6)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+det(world-7, the-5)
+amod(world-7, outside-6)
+prep_to(open-1, world-7)
+conj_and(open-1, see-9)
+dep(looks-12, what-10)
+nsubj(looks-12, it-11)
+ccomp(see-9, looks-12)
+prep(looks-12, like-13)
+
+prep_on(turn-1, tv-3)
+
+aux(weather-3, to-2)
+xcomp(change-1, weather-3)
+dobj(weather-3, channel-4)
+
+det(window-4, the-3)
+prep_outside(look-1, window-4)
+
+dobj(open-1, curtains-2)
+
+prep_out(look-1, window-3)
+
+prep(look-1, outside-2)
+
+dobj(check-1, weather-2)
+

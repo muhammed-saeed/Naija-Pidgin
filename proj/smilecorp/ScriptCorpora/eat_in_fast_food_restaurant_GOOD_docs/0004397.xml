@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0004397" url="http://www.dr-bill.net/CSC012/class_summaries/4-1/" time="2012-07-12-20:38" support="2" score="0.002468093331916562" bingtitle="Introduction to Computer Science - Dr. Bill&apos;s Homepage" webtitle="Introduction to Computer Science">
+			<query id="000748" bing-rank="182"/>
+			<query id="000749" bing-rank="193"/>
+	<description>Write a class for a fast food restaurant that holds hamburgers, hot dogs, and coke. ... take a look at my solution applied to the earlier exercise to add the numbers ...</description>
+	<body>
+		CSC 012
+
+Introduction to Computer Science
+
+ 
+
+Summary of 4/1 Lecture
+
+ Example . Create a point class that possesses the usual
+attributes of x and y coordinates. In addtion, include a method to calculate the
+distance between two points.
+
+//File:    Pt.java 
+ import java.text.DecimalFormat;
+ public class Pt
+{
+    private double x;
+    private double y;
+   
+   //Constructors
+    public Pt( double a, double b)
+   {
+       x=a;
+       y=b;
+   }
+   
+    public Pt()
+   {
+       x=0;
+       y=0;
+   }
+   
+   //Accessors
+    public double getX()
+   {
+        return x;
+   }
+   
+    public double getY()
+   {
+        return y;
+   }
+   
+   //the default format for a Pt object
+    public String toString()
+   {
+        return &quot;(&quot;+ x +&quot;,&quot;+ y +&quot;)&quot;;
+   }
+   
+   //The following returns the distance formatted to two places after the
+decimal point
+    public String formattedDistance(Pt p)
+   {
+       DecimalFormat precision2 = new DecimalFormat(&quot;0.00&quot;);
+       return precision2.format(distance(p));
+   }
+   
+    public double distance(Pt p)
+   {
+       //The following implements the Pythagorean
+Theorem; i.e., c squared = a squared + b squared
+        return     Math.sqrt(Math.pow((p.x-this.x),2) + Math.pow((p.y-this.y),2));
+   }
+   //NOTE:    this .x is equivalent to x.
+The keyword this refers to the current object.
+}
+
+//File:    PtClient.java 
+ import CSLib.*;
+ public class PtClient
+{
+    public static void main (String [] args)
+   {
+       OutputBox out = new OutputBox(&quot;Testing Pt Class&quot;);
+       out.setSize (500, 100);
+       
+       Pt p1 = new Pt();       //origin (0,0)
+       Pt p2 = new Pt(3,4);
+       
+       out.println (&quot;The distance between&quot;
+                   + p1 +&quot;and&quot;
+                   + p2 +&quot;=&quot;+ p1.formattedDistance(p2));
+   }
+}
+
+ 
+ 
+ Lab Exercise . Write a class for a fast food restaurant that
+holds hamburgers, hot dogs, and coke. Provide a constructor that starts a restaurant
+with no items. Include instance variables (or fields) to store the quantity of each
+of the three items in the restaurant. Include methods to add to the stock of each
+item, and a method to display the current inventory. In the main(), create two
+restaurants. Add items to each and display the final inventory of each restaurant.
+
+After you try your hand, you might want to compare notes with my efforts ( FastFood.java and FastFoodClient.java ).
+ 
+ Lab Exercise . Define a class called Counter. An object of this class
+is used to count things, so it records a count that is a nonnegative whole number. Include methods to set the counter to zero, to increase the count by 1, and to decrease
+the count by 1. Be sure that no method allows the value of the counter to become
+negative. Also, include an accessor method that returns the current count
+value. Also, include a method that outputs the count to the screen. There will
+be no input method. The only method that can set the counter is the one that sets it
+to zero. Also, write a program to test your class definition.
+
+When you&apos;re finished, take a look at my solution applied to the earlier exercise to add the numbers from 1 to n.
+ 
+ Back to CSC 012 Home Page
+	</body>
+</document>

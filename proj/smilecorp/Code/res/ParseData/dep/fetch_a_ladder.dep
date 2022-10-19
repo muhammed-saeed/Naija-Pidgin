@@ -1,0 +1,243 @@
+det(garage-4, the-3)
+prep_to(go-1, garage-4)
+
+prt(open-1, up-2)
+det(door-4, the-3)
+dobj(open-1, door-4)
+
+dobj(take-1, the-2)
+det(ladder-5, the-4)
+prep_out(take-1, ladder-5)
+
+dobj(lean-1, it-2)
+det(wall-5, the-4)
+prep_against(lean-1, wall-5)
+
+det(ladder-4, a-3)
+prep_for(look-1, ladder-4)
+
+nsubj(location-6, move-1)
+det(ladder-4, the-3)
+prep_to(move-1, ladder-4)
+cop(location-6, s-5)
+
+det(ladder-4, the-3)
+prep_up(pick-1, ladder-4)
+
+poss(location-5, your-3)
+amod(location-5, original-4)
+prep_to(return-1, location-5)
+
+advmod(located-6, where-3)
+nsubjpass(located-6, ladder-4)
+auxpass(located-6, is-5)
+prepc_to(go-1, located-6)
+
+prep_up(pick-1, ladder-3)
+
+advmod(carry-2, carefully-1)
+dobj(carry-2, ladder-3)
+advmod(requested-8, where-5)
+nsubjpass(requested-8, it-6)
+auxpass(requested-8, was-7)
+prepc_to(carry-2, requested-8)
+
+dobj(locate-1, ladder-2)
+
+prep_to(walk-1, ladder-3)
+
+prep_up(pick-1, ladder-3)
+
+prep_with(walk-1, ladder-3)
+amod(location-6, desired-5)
+prep_to(walk-1, location-6)
+
+dobj(locate-1, ladder-2)
+
+prep_to(go-1, ladder-3)
+
+prep_up(pick-1, ladder-3)
+
+dobj(bring-1, ladder-2)
+prep_to(bring-1, person-4)
+
+det(ladder-3, the-2)
+dobj(find-1, ladder-3)
+
+det(ladder-4, the-3)
+prep_up(pick-1, ladder-4)
+
+det(ladder-3, the-2)
+dobj(bring-1, ladder-3)
+advmod(re-7, wherever-5)
+nsubj(re-7, you-6)
+xsubj(use-10, you-6)
+prepc_to(bring-1, re-7)
+dep(re-7, going-8)
+aux(use-10, to-9)
+xcomp(going-8, use-10)
+dobj(use-10, it-11)
+
+dobj(know-1, location-2)
+prep_of(location-2, ladder-4)
+
+prep_up(pick-1, ladder-3)
+
+amod(location-4, desired-3)
+prep_to(carry-1, location-4)
+
+prep_to(go-1, garage-3)
+
+nn(door-3, garage-2)
+dobj(open-1, door-3)
+
+dobj(locate-1, ladder-2)
+
+dobj(remove-1, ladder-2)
+prep_from(remove-1, hooks-4)
+
+dobj(exit-1, garage-2)
+prep_with(exit-1, ladder-4)
+
+nn(door-3, garage-2)
+dobj(close-1, door-3)
+
+dobj(bring-1, ladder-2)
+advmod(needed-7, where-4)
+nsubjpass(needed-7, it-5)
+auxpass(needed-7, is-6)
+prepc_to(bring-1, needed-7)
+
+advmod(stored-7, where-3)
+det(ladder-5, the-4)
+nsubjpass(stored-7, ladder-5)
+auxpass(stored-7, is-6)
+prepc_to(go-1, stored-7)
+
+det(ladder-3, the-2)
+dobj(get-1, ladder-3)
+
+det(garage-4, the-3)
+prep_to(go-1, garage-4)
+
+det(ladder-4, the-3)
+prep_up(pcik-1, ladder-4)
+
+dobj(bring-1, it-2)
+advmod(bring-1, back-3)
+
+dobj(find-1, lader-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, lader-3)
+
+dobj(take-1, ladder-2)
+advmod(required-5, where-4)
+prepc_to(take-1, required-5)
+
+det(backyard-4, the-3)
+prep_to(go-1, backyard-4)
+
+advmod(shed-3, open-1)
+nsubj(shed-3, the-2)
+
+det(ladder-3, the-2)
+dobj(grab-1, ladder-3)
+det(hook-6, the-5)
+prep_off(grab-1, hook-6)
+
+dobj(find-1, location-2)
+prep_of(location-2, ladder-4)
+
+prep_up(pick-1, ladder-3)
+
+dobj(bring-1, ladder-2)
+amod(location-5, desired-4)
+prep_to(bring-1, location-5)
+
+dobj(find-1, ladder-2)
+
+prep_up(pick-1, ladder-3)
+
+dobj(carry-1, ladder-2)
+
+dobj(find-1, ladder-2)
+
+dobj(decide-1, range-2)
+prep_of(range-2, height-4)
+
+amod(ladder-4, right-2)
+nn(ladder-4, size-3)
+dobj(get-1, ladder-4)
+
+dobj(place-1, ladder-2)
+advmod(place-1, firmly-3)
+
+dobj(have-1, someone-2)
+aux(help-5, to-4)
+prep_around(have-1, help-5)
+
+dobj(carry-1, ladder-2)
+prep_to(carry-1, destination-4)
+
+cop(careful-2, be-1)
+
+advmod(work-1, together-2)
+
+prep_to(go-1, garage-3)
+
+nn(door-3, garage-2)
+dobj(open-1, door-3)
+
+dobj(grab-1, ladder-2)
+prep_off(grab-1, rack-4)
+
+amod(location-4, necessary-3)
+prep_to(bring-1, location-4)
+
+det(ladder-3, a-2)
+dobj(find-1, ladder-3)
+
+det(ladder-4, the-3)
+prep_up(pick-1, ladder-4)
+
+prt(put-1, down-2)
+det(ladder-4, the-3)
+dobj(put-1, ladder-4)
+advmod(needed-6, where-5)
+advcl(put-1, needed-6)
+
+nn(house-4, neighbors-3)
+prep_to(go-1, house-4)
+
+mark(i-3, if-2)
+advcl(ask-1, i-3)
+aux(borrow-5, could-4)
+dep(i-3, borrow-5)
+poss(ladder-7, his-6)
+dobj(borrow-5, ladder-7)
+
+nn(home-3, ladder-2)
+dobj(take-1, home-3)
+
+dep(setup-1, ladder-2)
+
+prep_to(go-1, garage-3)
+
+dobj(get-1, ladder-2)
+
+dobj(bring-1, ladder-2)
+advmod(bring-1, back-3)
+prep_into(bring-1, house-5)
+
+prep_for(look-1, ladder-3)
+
+prep_up(pick-1, ladder-3)
+
+dobj(carry-1, ladder-2)
+
+dobj(get-1, ladder-2)
+
+dobj(place-1, ladder-2)
+prep_against(place-1, wall-4)
+

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0002423" url="http://www.sourcecon.com/news/2010/12/22/twitter-bio-search-comparison/" time="2012-07-12-18:21" support="1" score="0.0013182429946159673" bingtitle="Twitter Bio Search Through Search Engines: A Comparison" webtitle="Twitter Bio Search Through Search Engines: A Comparison">
+			<query id="001461" bing-rank="108"/>
+	<description>All bio pages have a common title ending as ... bio NEAR:5 Capgemini (BING) Bio AROUND(5 ... out a case study where I wanted to find pages with “Vision Plus” (Credit Card ...</description>
+	<body>
+		Welcome to SourceCon :
+
+ Log in Register 
+ 
+ 
+
+Sourcing News and Knowledge–Beyond the Obvious
+ 
+ Home 
+ About Jobs Grand Master Challenge NEXT SourceCon: Sep 20-21, 2012 
+ 
+ 
+ Social Media News Technology&amp;Resources Leadership Global Sourcing Metrics Sourcing Function 
+ search SourceCon 
+ 
+ Social Media , Technology&amp;Resources 
+Twitter Bio Search Through Search Engines: A Comparison
+ by Sarang Brahme on December 22, 2010, 9:00 am 
+ Tweet 2 Comments 
+ 
+ For a long time now, I have been finding new ways to search on Twitter. In fact, I also tried contacting Twitter to find one reason why they do not have a Bio Search function inside. However, their internal search function is so weak that it is faster to search a Twitter page using search engines than their search box.
+
+When it comes to searching candidates via Google, LinkedIn tops the chart as it is designed such a way that you can search public profiles very easily. Other networking sites, like Facebook and Twitter, actually have greater numbers of users than LinkedIn; however due to page/profile structure LinkedIn becomes more effective. I wonder if Facebook and Twitter realize this fact and will ever make their user profile page PUBLIC!!! Well, Twitter does have that functionality, yet in a slightly complex way – but yes there is an open way. Facebook has been strictly “No Entry” until now. 
+
+I have been using sites like Tweepsearch.com and Twellow.com to search bios until now. I quickly realized that they are not foolproof as they do not have a complete index of Twitter. You can only find a very few number of profiles over there. I was reading Glen Cathey’s post, The Big Deal about Bing for Sourcing and Recruiting , the other day where he has given a smarter way to search Twitter profiles. Hence, I decided to do some R&amp;D on the best way to search pure profiles on twitter through Google and Bing.
+
+ Step 1 
+
+I started to build my search string to search bio pages. I tried following:
+
+Site:twitter.com intitle:”on twitter” “get short” bio Capgemini
+
+All bio pages have a common title ending as “On twitter” – such as Sarang Brahme (sarangbrahme) On Twitter.
+
+Also, when I saw their cached pages – they also have a tag-line at top of the page called “ Get short, timely messages from” .
+
+Adding both these elements helped me get only bio pages and removed all other irrelevant pages.
+
+ Step 2 
+
+Initially I started by using NEAR and AROUND functions of Bing and Google, respectively. They both are used to do proximity search. This would help me to search specific keywords in proximity of bio, as I would like to avoid getting my results on any other part of pages (e.g. tweets). Examples:
+
+bio NEAR:5 Capgemini (BING)
+
+Bio AROUND(5) Capgemini (Google)
+
+Both of above will find pages wherein Capgemini is within 5 keywords of bio. This helps in filtering only bios on Twitter.
+
+Now let’s try comparing these searches on Bing, Google and Tweepsearch.
+
+ Bing Search 
+
+site:twitter.com intitle:”on twitter”bio NEAR:6 Capgemini
+
+ 
+
+ 
+
+Around 115 results! OK – it sounds less? Let’s try Google. Most of them seem to be good.
+
+ Google Search 
+
+site:twitter.com intitle:”on twitter”name“Get short”bio AROUND(6) Capgemini
+
+ 
+
+Oh wow!!! It has over 1500 results. Google is THE best right?
+
+Wait a minute. Once you start rolling over to 4+ pages, you’ll notice that most of these results are not relevant to your search. Ideally it should throw only those profiles where bio and capgemini are within six keywords. But – that’s not the case. Bing scores….
+
+Now let’s see what directory search yields…
+
+ Tweepsearch 
+
+ 
+
+Well, it gives 51 results – and we’re sure all of them are 100% relevant.
+
+So – what’s the outcome of this research?
+
+ AROUND operator of Google does not throw accurate results. Bing’s NEAR scores really well. Usage of asterisk (*) is relatively difficult in place of AROUND in Google, as it only searches within specific given numbers and not in range. “bio * * Capgemini” is not equal to “bio NEAR:2 Capgemini.” Using proximity search in Bio search only gives 80% correct results. To cover entire ground you may consider removing proximity operator – especially for niche keywords (skills). This way, you can scan results yourself and not let operator choose for you. Using BING and GOOGLE is a very wise idea! I carried out a case study where I wanted to find pages with “Vision Plus” (Credit Card IT Skill). Being very niche skill – I removed proximity from both searches. 
+ 
+ Bing: site:twitter.com intitle:”on twitter”bio“vision plus” Google: site:twitter.com intitle:”on twitter”name“Get short”bio“vision plus” 
+ 
+Surprisingly – both searches gave me twenty results. However, most of the results were very different from each other. A number of results that I got on Bing were not present on Google, and vice versa. It tells me that I have to do BOTH BING AND GOOGLE. 
+
+ Sites like Tweepsearch and Twellow are the best locations to search Twitter profiles. However, their indexing is not always up to date. Bing scores well above Google in searching more relevant Bio searches due to NEAR operator; however remember that you are not covering full ground. Lastly – Google needs to come up OR strengthen their proximity search. Somehow, the AROUND operator is neither strong enough nor accurate enough. 
+
+I’ve no hesitation in thanking Glen Cathey for igniting this into my head. I’m sure there are better ways to use these operators and searching Twitter bios.
+
+Wine always tastes better with time!!!!
+
+ Editor’s note: Sarang submitted this article to us and also posted it on his own blog, Magic Sourcer . We felt it was good enough to share with you twice so we have re-posted it with permission on SourceCon. 
+ Sarang Brahme has been in sourcing for the last seven years. He began with job board sourcing and networking and gradually found his way into the magical world of sourcing. He has enjoyed wearing different hats, including sourcer, recruiter, team lead, client servicing manager, pre-sales, executive hiring and social media / training – but beneath all that, sourcing is what makes him happy. Currently, Brahme is part of Sourcing COE at Capgemini India and leads Social Media and Sourcing Training. He is a firm believer in the recruitment sourcing concept and always thinks that sourcing as a function has immense power to change the way recruiters recruit. Tags: bing , Google , search engines , Social Media , sourcing , Twitter | Share 
+ 
+ 2 Comments 
+ 
+ 
+Pingback: Tweets that mention Twitter Bio Search Through Search Engines: A Comparison -- Topsy.com 
+ http://twitter.com/jer425 Jeremy Langhans 
+&lt;3 this.
+ 
+ 
+ Subscribe to SourceCon 
+ Enter your email address below to subscribe to daily updates via email. Your email address 
+ View more subscription options... 
+ 
+More ways to get fresh SourceCon content every day:
+
+ Subscribe to the SourceCon RSS Feed Follow SourceCon on Twitter Become a fan of SourceCon on Facebook Join the SourceCon Group on LinkedIn 
+ 
+ Featured Articles 
+
+ Twitter Without Boolean 9 days ago Uncovering The True Potential Of Using Facebook For Recruiting 5 weeks ago 5 Ways to Improve Your Outbound Effectiveness 8 weeks ago When Should You Be Posting On Social Networks? 2 months ago Sourcing Mobility Part 2 – 16 NEW Apps For The Sourcer“On The Go” 2 months ago 
+
+ more featured articles» 
+ 
+Other ERE Publications
+
+ ERE.net The Fordyce Letter The Journal of Corporate Recruiting Leadership TLNT–&quot;The Business of HR&quot; 
+ 
+ Most Popular Articles 
+
+ Facebook Will Reportedly Be Adding Their Own Jobs Board To The Social Network 2 days ago Survey: 92% Of Companies Will Use Social Recruiting This Year 3 days ago The Big Data Impact On Social Recruiting 1 day ago Twitter Without Boolean 9 days ago Dig Deeper Into Local Sourcing 7 hours ago Sourcing Tool Pealk To Be Banned From LinkedIn 3 weeks ago What’s Your Search Strategy? Go Beyond Getting Found 3 weeks ago LinkedIn’s Two Paths: Open Versus Closed 7 days ago Four Social Media Recruitment Mistakes (And How to Avoid Them) 7 weeks ago Google-Plus For People Sourcing 3 weeks ago 
+
+ more popular articles» 
+ 
+Categories
+
+ Ask The Sourcing Dude Challenges Contract Sourcing Corporate Sourcing Editor&apos;s Corner Global Sourcing Industry News Leadership Metrics Phone Sourcing Social Media SourceCon SourceCon Spotlight Technology&amp;Resources The Sourcing Function Uncategorized Webinars 
+ 
+Tags
+ ATS boolean Boolean Black Belt Boolean Black Belt archives branding candidate candidate pipelining candidates Challenges conferences data education Facebook global Google hiring job boards leadership LinkedIn management marketing Marvin Smith Metrics mobile sourcing Monster podcasts recruiting research resume search search engines semantic search Social Media social networks social recruiting SourceCon SourceCon NYC SourceCon Silicon Valley sourcing technology Technology&amp;Resources telephone sourcing Twitter vendors video 
+Archives
+
+ July 2012 June 2012 May 2012 April 2012 March 2012 February 2012 January 2012 December 2011 November 2011 October 2011 September 2011 August 2011 July 2011 June 2011 May 2011 April 2011 March 2011 February 2011 January 2011 December 2010 November 2010 October 2010 September 2010 August 2010 July 2010 June 2010 May 2010 April 2010 March 2010 February 2010 January 2010 December 2009 October 2009 September 2009 August 2009 July 2009 June 2009 May 2009 April 2009 March 2009 February 2009 January 2009 December 2008 November 2008 
+ 
+ ©Copyright 2012 ERE Media, Inc. All rights reserved 
+ Privacy ToS Contribute Speaking Contact
+	</body>
+</document>

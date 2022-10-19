@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0008386" url="http://janafshopping.com/directory.shtml" time="2012-07-13-01:51" support="3" score="0.012005832624444667" bingtitle="AXS Remote Debugger" webtitle="AXS Remote Debugger">
+			<query id="000928" bing-rank="105"/>
+			<query id="000916" bing-rank="121"/>
+			<query id="000919" bing-rank="104"/>
+	<description>Leave it at zero to always log ... Gas station, car wash &amp; convenience store. State Farm Insurance ... Fast food restaurant. Quizno&apos;s Sub Shop Subs, salads, soups</description>
+	<body>
+		Once this script works to your satisfaction, edit this file
+(at $0 ) and turn debugging off by setting \$AllowDebug = 0; .
+Read the trouble-shooting
+guide if you need more help.
+ Standard Debugging Information: 
+This is AXS Logging Module version $VERSION in debug mode.
+The file name of this script is $0 .
+This script is executing under Perl version $].
+The critical file system variable is \$LogFile = &quot;$LogFile&quot;; .
+EOM
+if ($MaxLogSize) {
+ print &quot;MaxLogSize has been initialized to $MaxLogSize bytes.&quot;;
+ }
+else {
+ print &apos;MaxLogSize is not set.&apos;;
+ }
+print&lt;&lt;&quot;EOM&quot;;
+ Filesystem Test: EOM
+
+TEST: {
+
+if (-e $LogFile) {
+ ($LogSize,$LastModT) = (stat($LogFile))[7,9];
+ $LastModT = scalar localtime($LastModT);
+ print &quot;
+The log file, $LogFile , exists with size $LogSize bytes. It was last modified at $LastModT. &quot;;
+ if (open(FILE,&quot;&gt;&gt;$LogFile&quot;)) {
+ binmode(FILE);
+ close(FILE);
+ print &quot;The log file is writable.
+	</body>
+</document>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0004654" url="http://reliabilityweb.com/index.php/articles/the_maintenance_storeroom_keys_to_efficient_maintenance_operation1/" time="2012-07-12-21:09" support="1" score="0.0010711868694824353" bingtitle="Articles | The Maintenance Storeroom: Keys to Efficient ..." webtitle="Articles  |  The Maintenance Storeroom: Keys to Efficient Maintenance Operation  |  ReliabilityWeb.com: A Culture of Reliability">
+			<query id="001432" bing-rank="96"/>
+	<description>As anyone who has ordered food from a fast-food restaurant ... and to enforce recording of parts receipts ... Also, cycle count timing can change from part to part, varying ...</description>
+	<body>
+		Visite nuestro sitio en Español: Confiabilidad.net      RSS | Contact 
+The Maintenance Storeroom: Keys to Efficient Maintenance Operation
+ Add comment View comments Print 
+By Jeff Zeiler
+
+Besides being the central hub for maintenance, the storeroom also provides functions that are absolutely critical to the maintenance operation. These functions are so important that when the storeroom is operating in a best practices mode, the rest of the maintenance operation can excel. In other words, the storeroom is the enabler.
+
+Put another way, if the storeroom is run improperly (such as poor inventory accuracy, parts unavailable when needed due to poor replenishment and procurement practices, etc.), the rest of the maintenance operation has no chance of achieving high service levels of equipment availability and reliability.
+
+The sections that follow provide methods and practices for achieving storeroom excellence, which, in turn, enable excellence in the entire maintenance operation.
+
+ The Storeroom as Service Provider 
+
+If you follow the flow of technicians and materials in a typical maintenance operation, a common pattern emerges. In general, you have a central hub and the spokes of a wheel - where the hub is the storeroom and the spokes are the paths to the equipment or machinery in the facility or site that are undergoing maintenance. The number of work centers on site multiplies the actual material flow. This analogy illustrates the pivotal role of the maintenance storeroom.
+
+More than playing a pivotal role, however, is the main function of the storeroom - provide parts quickly when needed. This function places the storeroom in the position of a service provider, with the rest of the maintenance organization (and by extension, manufacturing operations) as the customers. As anyone who has ordered food from a fast-food restaurant can attest, there are times when service is good (the right food, the right price, ready to go) and there are times when service is not so good (wrong food, cost too much and long delays).
+
+Perhaps one of the main ingredients of success for a service provider (besides fundamentally delivering what is promised) is to manage expectations of its customers. This is done in a deliberate way through various forms of communications so customers not only understand what service they will receive, they also understand how the service will be performed. Again, in the restaurant business, if food is promised in 60 seconds and it takes 5 minutes to be delivered, you have a dissatisfied customer. The customer received the exact same food in either case, only now they are dissatisfied because their expectation of timeliness was not met.
+
+In the maintenance world, there is an implied expectation of parts availability. For many parts, that expectation can be easily met. But for some classifications of parts, that expectation is unrealistic either due to cost of the part, reliability profile (mean time between failure and mean time to recovery), or other characteristics of the part. Those responsible for maintenance and the storeroom must communicate to the facilities and operations organizations the reasonable expectations of service from the storeroom. These expectations of parts availability are the result of analyzing the impact on downtime, the likelihood of failure and the carrying costs of the parts.
+
+Ideally, the time to decide on whether parts should be stocked is when new equipment is placed in service. Manufacturing and the parts suppliers can work with maintenance in recommending the spare parts to stock as the new equipment is being purchased. Thereafter, maintenance can use historical usage data in deciding adequate inventory levels, or even to discontinue carrying certain items. In a larger maintenance and parts organization, a parts inventory planner is the decision maker when it comes to the stocking level, timing of re-orders and replenishment trigger levels of a part.
+
+ Storeroom Organization for Productivity 
+
+The storeroom is like any other business area when it comes to productive operation - the area must be organized in a physical sense. This means:
+
+ The parts storage area is sized and equipped appropriately for the types and volumes of parts to be handled by maintenance. The parts storage area must be free of debris and clutter in the aisles to permit personnel quick access to the locations. The locations must be labeled so that time searching for parts is minimized. Stepladders, stools and carts must be parked in an area that is out of the main flow. The area needs to be physically separated from the main plant, either by walls or with a secured cage. This separation is to discourage theft and to enforce recording of parts receipts/issues for inventory accuracy purposes. Access procedures must be in place for parts needs after hours. Lighting in the area must be sufficient to permit counting of parts in the aisles - whether for parts issued to a work order or for cycle counting. 
+
+Another aspect of storeroom organization is the staffing and job requirements of the storeroom personnel. There are distinct work elements within the storeroom that should be combined into jobs that make the most productive use of the staff’s time. Where possible, and if the volume of parts transactions justifies, limit the number of different work elements in a particular job. Combining too many different work elements into a job is counterproductive as there is time lost when shifting from one work element to another.
+
+If job variety is important, then the staff should be cross-trained so they can move to different jobs on different days. In any case, the realities of the storeroom mandate that the staff is cross-trained anyway, since unplanned work will necessitate all storeroom staff being able to accomplish any function.
+
+ The Importance of Inventory Accuracy 
+
+One of the critical success factors for the storeroom is achieving a high level of inventory accuracy. Accurate inventory is defined as the correct part and the correct quantity physically in a storeroom location being the same as that shown on the inventory control system or CMMS. Minor variances between actual and system counts are tolerated, such as with nuts and bolts. However, if the part, quantity, or location is not correct when matched against the system, then that location is counted as an“error”for purposes of tabulating inventory accuracy.
+
+Inventory accuracy is important for a number of reasons. The consequences of inaccurate inventory are:
+
+ If the actual inventory is lower than the system record, then the risk is high that an out-of- stock condition can occur because parts will not be ordered on time.
+If the actual inventory is higher than the system record, then parts will be flagged for reordering by the system even if not needed. If actual inventory is not accurate, then maintenance technicians and machine operators will lose confidence in the inventory control system or CMMS and benefits from using other functionality in the system will be lost. A growing of proliferation of bench stock (stock held on the floor or in cabinets/shelves outside the storeroom) can occur if technicians do not have confidence in the service levels of the storeroom. This inventory is“off-the- system”and results in excessive total inventory levels. 
+
+It is critically important that others besides the storeroom operators understand the importance of inventory accuracy. Maintenance technicians, maintenance planners, operations personnel and plant management should also understand the importance of inventory accuracy since these groups will be impacted by procedures designed to improve inventory accuracy. For example, achieving high levels of inventory accuracy requires:
+
+ Recording all parts receipts against purchase orders or outside repair orders. Recording receipts of parts returned to the storeroom that were previously issued to a work order but not actually used. Recording parts serial numbers, lots, or other important information at the time of receipt. Recording parts putaway locations. Recording all parts issued to a work order, employee number, or other account. Performing routine and accurate cycle counts. 
+
+ Cycle Counting Parts 
+
+While cycle counting has been accepted and implemented for a long time, the details of a cycle counting program are subject to many variations. For example, a part can be counted based on numerous criteria, such as part movement, part value and part criticality. Also, cycle count timing can change from part to part, varying in frequency from daily to yearly.
+
+Besides setting up the cycle counting routines - which generate the daily cycle tasks - it is necessary to establish procedures for handling counts that are out-of-tolerance. Typically, the counting is performed by personnel who are designated to count as their main responsibility. Again, this depends on the volumes of parts that flow through the storeroom. The counter will receive a listing of parts and loctions to count throughout the workday based on the part and count criteria established in the cycle count setup routines. Ideally, the cycle count tasks will be performed in real-time so that parts movement throughout the day does not impact counting accuracy.
+
+When the counter enters the count to the system, the counter will not know if the entered quantity matches the system quantity. If there is a mismatch within an acceptable tolerance, then the system quantity is updated. If there is a mismatch outside the tolerance level, the counter is asked to recount. Again, if there is a mismatch, then the system flags that part and location as an error count but does not yet update the quantity. The counter resumes counting other parts and the discrepancy is referred to a designated inventory control person to research and resolve.
+
+Approval of large cycle count mismatches is done on the system after the inventory control person verifies the discrepancy. The effect of the approval is to adjust accounts on the system for the over/under quantity of inventory. An example of approving cycle counting errors (performing the adjustment) is shown on Figure 1.
+
+ 
+
+Effective cycle counting not only provides higher inventory accuracy, but also serves as a daily reminder to the organization that there is accountability for inventory among all employees. Each part is subject to cycle counting and counts not accurate will be investigated.
+
+ Slotting Inventory Correctly 
+
+Real productivity savings in the storeroom can be gained from the correct slotting of parts. Slotting of inventory is the assigning of a part to a location based on the part’s movement, amount of inventory to have on hand, and physical characteristics, such as size and weight. Parts that are slow movers should be stored near the back of the storeroom and fast movers near the front of the storeroom for quicker access. For example, a motor that is a critical spare and needed once a year should be slotted in the rear of the storeroom, while filters and gaskets that may be needed for frequent preventive maintenance tasks should be located near the front of the storeroom.
+
+Other aspects of slotting involve determining the number of bins to assign a part. This depends on the quantity to hold in stock and the size of the part itself. If a six-month supply of a part is required, then two or three bins may be required to assign to the part so when the part is ordered and received, there is a place for the part to be put away. On the other hand, a six-month supply of other parts may still only require a single bin - it all depends on the movement history of the part.
+
+There are many different storage and retrieval methods that can be employed to handle parts, and each can be appropriate depending on the volumes and characteristics of the parts. For example, dense storage, narrow aisle man-up vehicles may be appropriate for either heavy parts on shelves or for small parts on shelves.
+
+Other alternatives for storeroom parts storage include a vertical lift module, which is a vertical carousel. The distinct feature of this technology is that it provides for parts coming to the operator, significantly reducing travel time to locate parts.
+
+The less mechanized, but still very efficient, options for parts storage and slotting include case flow lanes, static shelves and small parts bins.
+
+No matter which storage technology is chosen, the important issue is that parts histormust be analyzed to determine the movement. There will be different payback points for each alternative as labor and productivity savings offset the capital investment.
+
+Finally, another common element of slotting, regardless of the storage and retrieval methods or technology used, is that each location is unique and referenced in the inventory control system or CMMS. Using unique locations enable the use of an automatic identification system to streamline parts handling.
+
+ Use of Auto ID 
+
+The introduction of automatic identification (auto ID) technology into the storeroom has resulted in a significant contribution to storeroom productivity, inventory accuracy and error elimination. Whether for parts put away, parts picking, or cycle counting, using auto ID is now a best practice.
+
+The days of looking on the system for a part, writing down the part number and bin number on a slip of paper or clipboard and taking that to the location are dwindling. Now, the operator receives the information directly and there are no transcription errors to worry about when writing down long sequences of number and letters. The two main methods of communicating information to the operator are via a handheld display on a scanner or a voice-directed headset. Both use radio frequency (RF) technology to communicate the information.
+
+With the advent of the personal digital assistant (PDA), the functions of the scanning gun and the organizer have been merged. This is particularly useful for maintenance technicians who need to access real-time information and fill out work orders in the field.
+
+ PM Kit Building 
+
+One of the functions of the storeroom is to provide parts, tools and supplies for the technicians to perform preventive maintenance tasks. As a way to level out the storeroom workload and provide better service (higher availability of parts) to the technicians, the storeroom can build preventive maintenance (PM) kits in advance of the scheduled PM time. This requires access to the PM schedule by the storeroom and a way to track and hold parts inventory prior to issuing them to the PM work order.
+
+One way to do this is to use a mobile cart with multiple kitting bins (locations) onboard. The parts listed on the PM work order are picked from the storage locations and placed into one of the kit bins. These kit bin locations are an extension of the static storage locations, so the inventory control system or CMMS can track these kit bin locations with a“staged”status. When picking is completed, the entire cart is moved to a kitting hold area and scanned into the hold location.
+
+When a PM is scheduled for work, the technician presents the PM work order to the storeroom. The system will show that the inventory has been picked already and is in the kitting hold location. The kitting bin can be scanned to the work order and the technician can take the PM kit to the job. From the technician’s perspective, the entire process of retrieving the parts for the PM is very fast.
+
+In the event an emergency work order situation arises and the only part in stock has been picked to the kit bin, the system can locate the part and remove it from the PM kit through a move transaction.
+
+ Parts Receipts and Parts Issues 
+
+As mentioned earlier, every part movement must be accompanied by a transaction on the inventory control system or CMMS. Of particular importance are the parts receipts and the partissues. Parts receipts should be recorded to offset either a purchase order or a work order for outside services, while parts issues should be used to tie a part to a work order, technician identification, or an account code. Failure to record these transactions will waste the efforts set forth for increasing storeroom efficiency, productivity and accuracy. The maintenance organization must embrace the inventory control system or CMMS, use the transactions that are provided and view it as the tool to a successful operation.
+
+In many storerooms, the discipline of entering these transactions breaks down under the pressures of the day, especially if there are emergencies that need to be addressed. There also may be a culture of“take what you need”that can undermine the efforts of increasing inventory accuracy and accountability. Through education and enforcement, these obstacles can be overcome, but it takes time and effort. Remember, cultural change is an ongoing process and not a one-time program.
+
+ Measures and KPIs 
+
+Every operation needs a means to gauge performance, and the storeroom is no different. There are several measures and key performance indicators that point to an efficient storeroom operation. They are:
+
+ Inventory accuracy (cycle count adjustment/ total cycle counts); Percentage of stockouts (number of stockouts/ total parts issues); Percentage of inactive inventory (parts inactive in the past year/total parts); Growth rate in number of parts and numbers of suppliers; Plant replacement ratio (parts inventory value/ plant replacement value); Parts to labor ratio (parts inventory value/ maintenance labor cost). 
+
+When measures and indicators are recorded over time, they become a benchmark for the organization. Continuous improvement efforts then can be launched to improve upon these standards, with the desired result being cost reduction and higher productivity. Without tracking performance, it is impossible for the storeroom to know whether improvements have indeed been worth the effort.
+
+ Conclusion 
+
+This article has presented several areas of focus for best practices in the maintenance storeroom. Included among the best practices are the following:
+
+ Adopt the idea that the storeroom is a service provider. Organize the storeroom and staff for efficiency. Become obsessive about inventory accuracy - it is of utmost importance. Perform routine and daily cycle counting as part of the storeroom duties. Properly slot parts based on part volume and characteristics. Use auto ID to streamline data entry and reduce errors. Build PM kits in advance to enable quick PM of equipment. Be sure to record all parts moves, receipts and issues. Create, track and use measurements and KPIs. 
+
+As each company is unique, so too are the storerooms. Different storerooms require their own combination of solutions. When the storeroom operates in a best practices mode, then it is easy to see productivity gains not only in the storeroom, but also throughout the organization.
+
+ This article was previously presented by Jeff Zeiler at the International Maintenance Conference .
+ Add comment Print 
+Comments
+
+There are no comments for this article yet. Why not add one?
+ 
+Have your say
+ 
+Comments are moderated prior to publication.
+Please fill out the fields below.
+Email addresses will never be published.
+
+ Name (required) : 
+
+ Email (required) : 
+
+ URL: 
+
+Comment guidelines
+
+You can use basic HTML (a, strong, em, blockquote).
+Links automatically use the nofollow attribute.
+Off-topic or inappropriate comments will be edited or deleted.
+
+ Your comment (required) :
+ 
+
+ Remember my personal information 
+
+ Please enter the word you see in the image below (required) :
+ 
+ 
+ 
+Related articles
+
+ Why Can’t We Do It Ourselves? OEM or Non-OEM Parts? Reliability Quiz - MRO Storeroom Metrics that Matter Reliability Quiz - Tools and Applications for PdM Reliability Quiz - MRO Storeroom Quiz Taming Your MRO Spend While Unlocking the Hidden Savings in Your MRO Spares Inventory MRO Inventory: The Expert’s Monument to Failure Key Performance Indicators for Stores and MRO MRO Inventory Rationalization and Optimization Repairable Spares: The Complete Program 
+ 
+ MRO Inventory and Purchasing Books Join The Association For Maintenance Professionals 
+ 
+Join the conversation
+ Join our Newsletter E-mail 
+ 
+ Most Recent Most Viewed 
+ 
+ Things To Think About and Do in 2012 Uptime Magazine - April/May 2012 Index Reliability Polls and Quizzes Reliability Quiz - Advanced analysis beyond waveform and spectrum Book Review - LEVEL 5 Leadership At Work (1) Loyalty Change Is Good, You Go First New Twist on Interpreting Vibration Analysis Faults NDT and Reliability - Way of Life at Luminant Determining an OEE Goal Based Upon Customer Takt Time 
+ More articles» 
+ Reliability Polls and Quizzes Things To Think About and Do in 2012 Uptime Magazine - April/May 2012 Index Electric Motor Bearing Greasing Basics (6) Asset Management: concepts and practices (8) CBM 2011 Video Proceedings (2) The 5S Method of Improvement - Enhancing Safety, Productivity and Culture Maintenance of Hydraulic Systems (2) Reliabilityweb.com 100 Top Web Sites Aerial Infrared – An Asset Management Tool for District Heating System Operators 
+ More articles» 
+ Alignment and Balancing Asset Management CMMS and EAM Green Reliability Human Asset Management Infrared Thermal Imaging KPIs - Reliability Performance Metrics Lean Maintenance Lubrication Maintenance Management Motor and Power System Testing MRO - Spares Management Oil and Fluid Analysis Planning and Scheduling PM Optimization Predictive Maintenance and Condition Monitoring Management Reliability-Centered Maintenance Reliability Engineering Reliability Leadership Root Cause Analysis Shutdowns and Turnarounds Total Productive Maintenance (Asset Care) Training Ultrasonics Vibration Analysis 
+ 
+ July 13 
+ Web Workshop: Improved Product Quality Through Proactive Maintenance July 19 
+ Web Workshop: Using Acoustic Emission Enveloping to Detect Lubrication Defects July 23 
+ Infrared Level I Certification Course July 31 
+ Des-Case’s Complimentary 1-Day Reliability Workshop - Louisville, Kentucky August 3 
+ Web Workshop: Optimizing Bearing Life with Precision Lubrication August 6 
+ Maintenance Planning and Scheduling - Charleston, SC August 7 
+ Developing Effective Work Procedures August 7 
+ Des-Case’s Complimentary 1-Day Reliability Workshop - Indianapolis, Indiana August 10 
+ Web Workshop: A Strong Shop Floor: Successful Planning&amp;Scheduling Secret Ingredient August 14 
+ 3 - Day Practical Machinery Lubrication Training - Seattle, Washington 
+ 
+ Become an Aladon Certified RCM2 Facilitator Integrating Your CBM Just Makes Sense Total Productive Maintenance Books Job Postings for Maintenance and Reliability Professionals Belt/Sheave Alignment Laser, Custom Shim and Gaskets Noise and Vibration Measurement&amp;Analysis Solutions IR Windows: Compare and Save with Exiscan Reliability Centered Maintenance for SAP Plant Maintenance Motor Testing Books MRO Inventory and Purchasing Books New AT33IND Perfect for QC&amp;Troubleshooting Join The Association For Maintenance Professionals Reliability Engineering Services GPAllied Inspired Training: Hard-Hitting, Impactful Courses and Workshops. R300S for When Good Enough – Isn’t Enough! “Free eBook Download on Effective Problem Solving” Commtest - Affordable Vibration Analysis Request Your Des-Case Complimentary Breather Now The One-Stop Source for Lubricants&amp;Reliability Solutions 
+ 
+
+ Maintenance&amp;Reliability Leader – Manufacturing - Delmar, NY Reliability Supervisor - Kansas City, KS Electrical Maintenance Manager - Newark, OH Reliability&amp;Maintenance Manager – Manufacturing - Newark, OH TPM&amp;CI Specialist - Toledo, OH Maintenance Leader - Gresham, OR Maintenance Supervisor – Electrical Systems and Facilities - Amarillo, TX Maintenance Technician II-2nd shift - Naples, FL Maintenance Technician II-3rd Shift - Naples, FL Electrical Maintenance Planner - Oakdale, CA 
+
+ Follow us on Twitter» Advertisement 
+ ©2012 Reliabilityweb.com · Articles · Feedback · About us · RSS · Privacy Policy · Contact us · Terms of service · Trademark notice · Advertise with ReliabilityWeb.com
+	</body>
+</document>

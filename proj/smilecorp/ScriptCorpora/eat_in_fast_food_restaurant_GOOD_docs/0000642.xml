@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0000642" url="http://www.patentstorm.us/patents/5422461/description.html" time="2012-07-12-15:56" support="1" score="0.0005833195823914251" bingtitle="Control device and safety circuit for heating pads with PTC heater ..." webtitle="Control device and safety circuit for heating pads with PTC heater - US Patent 5422461 Description">
+			<query id="001419" bing-rank="60"/>
+	<description>... through D1 results in a zero to five volt change at 8. ... and R5 are chosen to stabilize the voltage at 8 to near 5 ... If the count is over 10 then 10 consecutive cycles ...</description>
+	<body>
+		PatentStorm 
+ 
+ Home Browse by Inventor Browse by Examiner Browse by Date FAQ Contact Us 
+ U.S. patents available from 1976 to present.
+U.S. patent applications available from 2005 to present. or try Advanced search 
+ Control device and safety circuit for heating pads with PTC heater 
+
+ Patent 5422461 Issued on June 6, 1995 . Estimated Expiration Date:  December 15, 2012. Estimated Expiration Date is calculated based on simple USPTO term provisions. It does not account for terminal disclaimers, term adjustments, failure to pay maintenance fees, or other factors which might affect the term of a patent. Abstract   Claims   Description   Full Text 
+ 
+ 
+Patent References
+ 
+ Blanket wire utilizing positive temperature coefficient resistance heater 
+ Patent #: 4271350
+Issued on: 06/02/1981
+Inventor: Crowley 
+
+ Electrical heating apparatus with overheating protection 
+ Patent #: 4315141
+Issued on: 02/09/1982
+Inventor: Mills ,   et al. 
+
+ Electric blanket safety circuit 
+ Patent #: 4436986
+Issued on: 03/13/1984
+Inventor: Carlson 
+
+ Electrical heaters 
+ Patent #: 4822983
+Issued on: 04/18/1989
+Inventor: Bremner ,   et al. 
+
+ Water bed heater 
+ Patent #: 5081339
+Issued on: 01/14/1992
+Inventor: Stine 
+
+ Electric heating appliance Patent #: 5173587
+Issued on: 12/22/1992
+Inventor: Nakano, et al. 
+ 
+
+Inventors
+
+ Weiss, John Lin, K. Y. 
+
+
+
+Assignee
+
+ Micro Weiss Electronics, Inc. 
+
+
+
+Application
+No. 990530 filed on 12/15/1992
+
+
+US Classes:
+ 219/501 , Including semiconductor means (e.g., transistor) 219/212 , Bed covering (e.g., blanket) 219/492 , Comprising timing or cycling means 219/504 , Comprising variable resistance means 219/505 , Comprising nonlinear or negative temperature coefficient resistance means 219/508 , Plural means intermittently or selectively operated 323/235 Zero switching 
+
+
+Examiners
+Primary: Paschall, Mark H. 
+
+
+
+Attorney, Agent or Firm
+
+ Frishauf, Holtz, Goodman&amp;Woodward 
+
+
+
+International Class
+H05B 001/02
+ 
+
+Description
+
+
+ 
+BACKGROUND OF THE INVENTION
+
+This invention is in the field of control devices and safety circuits for electrical heating pads and the like which use positive temperature co-efficient (PTC) materials for a heating element. It particularly concerns safety circuits and controls for alternating current heating pads because they usually involve higher voltages.
+
+Heating pads and electric blankets are appliances that, by their nature, conduct high current electrical power in close proximity to the user. Besides the obvious danger of electrifusion as from any electrical appliance, a health concern exists regarding the prolonged exposure to the electromagnetic radiation. Heaters of the PTC type are known to be configured so as to virtually eliminate the magnitude of the electromagnetic fields thought to be harmful. The safe operation of the PTC heating elements is the focus of the present invention.
+
+PTC materials used for heating elements have the added safety of limiting the current draw as the temperature approaches the design limit. With this in mind a heater can be designed without the need for an additional temperature limiting device, such as is disclosed in Crowely U.S. Pat No. 4,271,350. Due to the nonlinear response of temperature with current, sufficient temperature control can be achieved by proportioning power to the heater. The only condition that subverts the inherent safety of the PTC heating element is when one of the conductors, in intimate contact with the PTC material, breaks and arcing occurs. To prevent this condition from continuing and possibly causing fire, a safety curcuit is commonly used that detects the condition, and generates a current surge designed to blow the power input fuse, so that the unit is thereby disabled. Carlson, U.S. Pat No. 4,436,986, teaches the idea of sensing voltage changes and conducting sufficient current to disable the unit when neon bulbs exceed their breakdown voltages. Carlson goes further and incorporates three electrodes within a neon lamp forming a triode that breaks down at a single predetermined voltage, thus reducing the effect of break down voltage tolerance. Carlson uses a current limiting resistor to blow the fuse in a predetermined period of time. It is necessary for the current limiting resistor to be rated at a higher power than the fuse to provide a safe open circuit. The fuse, however, must be sized to handle currents of two to three times the continuous current rating of the heater to accommodate the inrush associated with the start up characteristic of the Positive Temperature Coefficient material. The fuse is also relied upon in Carlson&apos;s invention to deactivate the unit in all possibilities of short circuits.
+
+A further development that improves the safety of a PTC heating element is taught by Clifford Stine, U.S. Pat. No. 5,081,339. Stine reduces the possibility of breakage and improves the heat dissipation when incorporating a PTC heating wire within a coplanar sandwiched construction, in conjunction with the heating of a waterbed so that the construction is also leak tight. A heat conductive layer and the local current throttling effect of the PTC material combine to provide the most efficient heating without occurrence of hot spots along any part of the heating element.
+
+Typically, an adjustable bimetalic control switch is used to provide differing heat settings for the PTC heating. As the current flows through the bimetalic element, it heats up causing the element to bend due to the differential expansion of the metals that comprise the elements. The deflection causes the contacts to open and interrupt the current to the heater and the small bimetalic element to cease bending. The bimetalic element then cools down until contact is again made and the cycle repeats. The deactivation of this type of electro mechanical control, for safety reasons, is best accomplished by blowing a fuse that is in series with the switch.
+
+Modem electrical power controls use solid state switching devices such as Silicon Control Rectifiers, Power Transistors, Solid State Relays and Triacs. Edwin Mills U.S. Pat. No. 4,315,141 uses a pair of solid state switches biased by a temperature sensitive capacitive element as a temperature overload circuit for conventional electric blankets. In these control systems, a small signal controls switching of larger load currents. Integrated circuits or micro processors can be used to provide the control signal required to operate high speed solid state switching. Micro circuits of this type are capable of operating at speeds many times the 50 or 60 HZ. commonly used in AC electrical power supplies. This capability makes it possible to control each AC cycle. In fact, the switching can occur as the AC waveform crosses zero. This type of control can lower the noise generation associated with AC switching and makes the most efficient use of AC power.
+
+Recent advances in microwatt power control has improved the reliability of Integrated Circuits by assuring the proper voltage input to the micro controller. Jamieson and Weiss U.S. Pat. No. teach an extremly low power voltage detection and switching circuit to provide power input to an Integrated Circuit &quot;IC&quot; within a narrow voltage band when only a low power and variable supply is available. Watchdog timing circuits can be incorporated within an IC to perform the task of periodically resetting the IC and to avoid a prolonged lockup or ambiguous operation resulting from power faults and voltage spikes often associated with AC power.
+
+The Jamieson and Weiss patent, above referred to, is the patent granted on allowed U.S. patent application Ser. No. 07/655,217, Filed Feb. 12, 1992.
+
+SUMMARY OF THE INVENTION
+
+The present invention utilizes art electrical feed back circuit and a semiconductor switching system to control power to a heating element of the Positive Temperature Co-efficient &quot;PTC&quot; type that requires a safe operation condition in the event of an open or short circuit. An integrated circuit is used to signal a solid state switch to time the on and off proportion of the a.c. electric power to a flexible PTC heating element in order to control the temperature. Since characteristically, the PTC element has the property of increased electrical resistance with increased temperature the natural effect of increasing temperature is to throttle down and limit the current draw. The ability to control the temperature of the heater, by current control or time proportioned power control is improved. The power control level is affected externally by a heat scale setting via up-down key pad or rotary potentiometer and internally by the feedback safety circuit.
+
+In the first embodiment each of the heater return conductors closes a current loop through a voltage divider. The voltage of the junction of the two resistors comprising each of the voltage dividers is very sensitive to the effect of a break or open circuit in the heater conductors. The junction voltages are reconditioned and combined to provide a single voltage that is input into the control IC. The voltage level is detected and affects the sequence of micro electronic logic that determines the duty cycle of the control of power to the heater. If the voltage level is low then the logic would be caused to stop the activation of the solid state power switch. In respective versions of a second embodiment one or both of the heater return conductors closes a current loop clamped to ground and to a steady D.C. voltage to ground that is supplied to the control IC and the voltages at the ends of the heater return conductors are separately supplied to the IC, which then detects whether there is a fault.
+
+In a preferred embodiment of the safety circuit, the power circuit of the heating pad contains a fuse that is sized for the normal current draw. The start up cycle, controlled by the IC, is designed to provide a limited duty cycle within the first few seconds and to raise the PTC material temperature and thus raise the electrical resistance in order to reduce the average inrush current. In this way the fuse, a slow blow type, avoids the design restraint associated with high inrush current typical with the PTC heating elements. With the fuse rated close to the normal current draw a current surge resulting from a short circuit quickly disables the power. After the initial cycle, designed to reduce the inrush current, a preheat cycle starts that raises the temperature of the pad to a certain temperature by allowing a 100% duty cycle for a period of time corresponding to the initial setting.
+
+This preferred method of control allows the arrival to the desired temperature in a minimum time period without subjecting the entire power and control system to high inrush currents.
+
+In a further development of the invention, the possibility that a Triac heater switch might lock up in the ON position is counteracted by adding a second Triac in series, also controlled by IC.
+
+The response to a fault is so quick that less than a quarter of a second is an ample allowance for detecting a fault. In consequence, the first response, or the first fault responses to a fault may be allowed to interupt the ON condition of the heater switch for a period no longer than a second, so that a second response will come quickly if the fault persists, before a final switch-off is provided.
+
+Instead of the second triac being in series with the heater switch triac, the second triac may be connected to blow the fuse by grounding its connection with the heater after enough fault detections (for example 10 of them or, more generally from 3 to 16 of them) to make it clear that the heater switch triac is locked in its &quot;on&quot; position.
+
+Many features of one illustrated embodiment can be incorporated in another illustrated embodiment, as, for example, the different ways of using a second triac above mentioned.
+
+BRIEF DESCRIPTION OF THE DRAWINGS
+
+FIG. 1 is a diagram of a safety circuit in the according to the invention.
+
+FIG. 2 is a block diagram of the heat control and display systems to which the safety circuit of the invention provides its output.
+
+FIG. 3 is a diagram of an alternate safety circuit embodiment showing a redundant safety switch.
+
+FIG. 4 is a circuit diagram if a first version of the preferred embodiment with two safety circuit inputs to the IC.
+
+FIG. 5 is a block diagram of the microcontroller IC 27 of FIG. 4.
+
+FIG. 6 is a plot of the power, and control signals of the preferred embodiment.
+
+FIG. 7 is a plot of the feedback signals of the preferred embodiment
+
+FIG. 8 is a flow chart of the program of the microprocessor shown in FIG. 5.
+
+FIG. 9 is a circuit diagram of a second version of the preferred embodiment in which one input to the IC 27 has a D.C. characteristic and the other has a pulsed signal.
+
+FIG. 10 is a flow chart of the program of the microprocessor shown in FIG. 9.
+
+DESCRIPTION OF THE PREFERRED EMBODIMENTS
+
+FIG. 1 shows a first embodiment of the safety feedback of the invention circuit. The PTC heater element (not shown) and the power input to the heater 110 volt 60 HZ, connects to the heater conductor 1 with the fuse 5 in series relation to the input power. The circuit is completed by the PTC heater element second power conductor 2 connected through the Triac T1 to ground. The Triac will conduct no power until a signal is sent to the gate 12 by the Intergrated Circuit, IC. To avoid noise associated with switching AC loads that may affect other appliances, TV&apos;s, radios, etc., a high impediance AC signal is input to the IC through Resistor R9 and clamped to a DC power input voltage through Diode D5. This signal is used to co-ordinate the firing of the Triac T1 as the AC power wave form is near the zero crossing. In this way switching occurs at instantaneous low voltage preventing voltage spikes as may occur when switching at other than at 0° or 180° phase angles. The resistance of the PTC heater is between the conductors attached to 1 and 2. This resistance is low at first causing a high current draw. As the temperature of the PTC material heats up the resistance between the two conductors increases and less current is drawn. The heater is considered to be a parallel relation between conductors 1 and 2. Conductor 1 is returned to the control circuit at junction 3 and conductor 2 is returned to the control circuit at junction 4. The return of conductor 1 through junction 3 is connected to the conductor 2 through a pair of resistors R2 and R1 forming a voltage divider at junction 6. Similarly, the return conductor through junction 4 is connected to conductor 1 through a pair of resistors R3 and R4. As with R2 and R1, R3 and R4 form a voltage divider. The junction voltage at 6 and 7 are sensitive to breaks in the respective feed conductor.
+
+Typical values of the components used to demonstrate the action of this embodiment are listed in table 1. The actual values used will depend on the required response time to determine a fault.
+
+TABLE 1 ______________________________________ Component Type or Value ______________________________________ R1 Resistor 10K OHM 1/4 Watt R2 Resistor 100K OHM 1/4 Watt R3 Resistor 1K OHM 1/4 Watt R4 Resistor 200K OHM 1/4 Watt R5 Resistor 100K OHM 1/4 Watt R6 Resistor 200K OHM 1/4 Watt R7 Resistor 620K OHM 1/4 Watt R8 Resistor 51K OHM 1/4 Watt R9 Resistor 1M OHM 1/4 Watt R10 Resistor 5.1K OHM 1/4 Watt D1-D5 IN 4001 1/4 Watt C1 Capacitor .47 MF 50 V C2 Capacitor .2 MF 200 V Q1 PNP TRANSISTOR 733 T1 TRIAC 6 AMP ______________________________________
+
+When 110 VAC power is applied to the heater through conductors 1 and 2, the voltage at the return junction 3 is nearly 110 VAC, assuming the resistance value of the conductor is significantly less than R1 and R2. For the example of the preferred embodiment, the conductor resistance is 7 OHMS, R1 is 10,000 OHMS and R2 is 100,000 OHMS. With the resistance values of R1 and R2 shown to be in a 10 to 1 ratio, the voltage at junction 6 is about 10 VAC. This voltage half wave rectified through D1 results in a zero to five volt change at 8. More generally the ratio may conveniently be from 8 to 1 up to 12 to 1.
+
+Storage capacitor C1 holds the voltage at 8 near five volts and a resistor R5 provides a current path to ground to drop the voltage when the input voltage is not provided by the voltage divider R1-R2. The value for C1 and R5 are chosen to stabilize the voltage at 8 to near 5 volts and to drop the voltage within a specified time period when the power from the voltage dividers no longer drives the circuit. For the illustrated embodiment the time constant, the time for the capacities to drop to 37% of the voltage, is calculated by the formula TC=R5*C1 or 0.047 seconds. More generally, from 0.04 to 0.06 seconds is suitable for that time constant. This time constant is important in determining the length of time required for the circuit to react to a fault and also the time that passes after the initial power up before the IC can look for the fault. The Safety Circuit input to the IC 14 is at junction 9. With the silicon diode D3 between the IC input 9 and junction 8, a voltage drop of 0.6 volts is expected, therefore, with no break in conductor 1 or 2 a voltage of 5 to 5.6 exists at the IC Safety Circuit input.
+
+For detection of a break in conductor 2, a voltage divider is set up at the return of conductor 2 between R3 and R4. The voltage at junction 7 is sensitive to a break in conductor 2. Junction 7 voltage is held near 1 volts to ground when conductor 2 is continuous by the ratio of resistance values of R3 to R4. When conductor 2 opens as a result of a break, the path to ground now is through R6 and C2, the junction 7 voltage goes high. Resistor R6 and capacitor C2 form a circuit having a time constant given by the formula R6*C2.
+
+The signal is halfwave rectified through D2 and current limited by R8 biasing Transistor Q1 and thus blocking the conduction between the emitter and collector. The voltage at the collector is then drained through R16 and the voltage at 11 declines pulling the safety circuit input voltage low through the forward conduction of Diode D4. In this manner D3 and D4 act as a logical AND gate, the junction 9 will go low, less than 1.5 volts, if junction 8 or junction 11 goes low. The IC will not take protective action if both diodes are at or above 5 volts. The time required to disable the control when conductor 2 breaks is the result of charging C2 through R4 and D2. Upon initial startup the voltage at 7 is high, about 55 volts until the Triac fires connecting the junction to ground through R3. At this time, it will take 5 time constants of the curcuit comprising the resistor R6 and the capacitor C2 for R6 to drop the voltage at 10 before Q1 conducts, for the values shown this would be 100 miliseconds, the waiting period before safe operations can be determined.
+
+Referring to FIG. 2, the IC 14, used for the control of power switching by sending a signal to the Triac T1, is powered by a nominal 5 volt power supply shown as 5.6 volts. More generally that power supply has a stabilized voltage of from 4 to 7 volts. The power setting is input by using momentary switches 15, 16, and 17 for on-off, up and down control. The setting status is displayed by a liquid crystal display 18. In addition to displaying the power or heat setting, the display can indicate an abnormal operating mode by flashing or activating a segment of the display that instructs the user to discontinue use. Similarly an audible alarm can be used to alert the user.
+
+The IC 14 function used to control the temperature of the PTC heater is by time-proportioning the power. For a low temperature setting, for example, the on time may be 2 seconds with a 28 second dwell or off time in a 30 second cycle. The middle setting would have a 15 second on time and a 15 second off time. The highest setting accordingly would provide a 30 second on time or continuous heating. The lowest setting, in this case 2 seconds on, needs to be designed with consideration to the maximum time constants that determine the reaction time of the circuit. The minimum on time may be as low as 1 second and the cycle can conveniently be from a few seconds to a few minutes.
+
+The control of the triac (FIGS. 1 and 3) through its control connection 12 is produced by sequences of unidirectional current pulses respectively bridging zero-crossing instants of the AC wave form, resulting in continuous conduction of the AC wave form, resulting in continuous conduction of the AC through the triac so long as the sequence of control pulses is not interrupted. As noted below, in response to the safety circuit the control pulses, instead of being stopped entirely, may be interrupted for 800 milliseconds only.
+
+In the first embodiment as described previously two seconds is at least ten times the maximum dwell time before the IC is able to detect a fault. Once a fault condition is detected, the signal to fire the Triac is delayed. After the initial fault is detected, a Triac delay time of 800 miliseconds passes and another signal is sent to the Triac requiring 200 miliseconds and if another fault is detected the Triac is again delayed. At this time, a third fault test sequence can be enacted or the Triac signal can be disabled for the entire operation. More generally those periods can be varied safely by at least 25% from the example just mentioned.
+
+To further assure the detection of the fault 200 miliseconds after the next cycle begins the IC reads the Safety Circuit input signal and if the fault is detected, the triggering of the Triac is again by-passed and the drive for the LCD display is switched into a blinking mode. To avoid further hazardous use especially in an unattended situaton, a repetitive fault occurrence would cause the unit to turn off. Repetitive interaction by the user to turn off and turn on would only cause the display to blink since the fault condition can be stored in memory. At this time, the only way power would go to the faulty heater is if the user disconnected the power cord from the receptacle and again inserted the power plug into the receptacle. By repowering the controller, the first 200 miliseconds of heating would again look for the fault and the detection cycle would repeat again disabling the power to the heater.
+
+The IC function can also improve the reliablity of the disconnect feature in the event of a short circuit that would result from the contact of conductors 1 and 2. Referring again to FIG. 1, the fuse 5 may be sized for lower currents and shorter time and avoid the extreme inrush currents, up to seven times the operating currents, by pulsing the power to the heating element in the first few seconds. For example, by only allowing a 10% to 30% duty cycle in the first five to ten seconds the continuous current would then be 1 ampere instead of 5 amperes when a cold element is first heated. After the first few critical seconds, a preheat cycle of continuous operation can be enacted to quickly raise the temperature to the desired setting.
+
+In a second embodiment redundant Safety Control can be achieved by including a second switching device in series with the Triac. FIG. 3 shows this combination where even if a Triac fails in the closed position complete control is achieved by the second Triac T2. Both switching devices are simultaneously fired by either the same signal or respectively by separate signals sent by the IC 26. The Safety Circuit is composed of discrete components, diodes resistors, capacitors and a transistor operating off low current. It may be beneficial to use diodes having higher power capabilites such as IN 4001 instead of the small signal switching type that is commonly used to handle the loads associated with this type of circuit. In design careful consideration of component tolerances is important, especially relating to the capacitors and resistors that determine the charging and discharging time.
+
+A first version of the preferred embodiment of the safety circuit invention is shown in FIG. 4. The principal of this preferred embodiment is based on a dual signal input to the IC and a comparitave analysis of the two signals to determine if safe operation is to continue. Unlike the circuits of FIG. 1 and FIG. 3 there is no dependance on time constants and the time to detect a fault is nearly instantaneous, in fact within one half AC cycle if necessary. The 110 VAC return signal at pin 3 connects to junction 25 through a current limiting resistor R10 having a resistance of 1 Meg OHM. The junction 25 voltage is clamped to the dc supply voltage by diode D6. The junction 25 signal, a 60 Hz pulse is input to the IC at 22. If the conductor between 1 and 3 breaks then R11 rapidly provides a current path to ground and the signal to the IC at 22 is then ground. Resistor R11 is on the order of 1 Meg OHMS. The IC is therefore expecting a 5 volt 60 Hz pulse at the input 22 to continue the firing of the Triac. A second signal directly connected to the ground return at pin 4 is input to the IC at 23. Connected between the ground return at 4 and the AC 110 v power input is a 1 Meg OHM resistor R12.
+
+With the ground wire continuous within the heater, between pin 2 and 4, the signal to the IC at 23 is ground. If a break occurs in the ground conductor then the signal from 110 VAC through the current limiter R12 is clamped to the 5.6 volt DC input by Diode D10 for AC Phase angles 0° to 180° and is clamped to ground through D6 for the AC half wave between 180° and 360°. The IC input at 23 is expected to be ground, if a 60 Hz pulse is detected then a fault in the heater ground conductor has occured.
+
+The micro controller IC, FIG. 5 includes Read Only Memory &quot;ROM&quot; 29 where the algorithims and instruction set that comprise the program to control the heating and the display are stored. The instructions from ROM are processed within the Arithmetic Logical Unit &quot;ALU&quot; 30 and the resulting values are decoded and stored in a data register as Randam Access Memory &quot;RAM&quot; 31 to be used as input to the program. The input signals, AC in, safety circuit inputs 22 and 23, and the control inputs 15, 16 and 17, are received through the data bus 32. The program determines when power is to be supplied based on the input from the safety circuit and the control status. The Triac firing is coordinated with the AC wave form input to the IC through the AC in port 20 to trigger the Triac at the zero crossing. A program counter &quot;PC&quot; 32 is required to keep track of the program steps and index to the next program instruction.
+
+A timing circuit 21 serves to control the clock speed at which the program operates is made up of a typical of an RC oscillator. A crystal oscillator can also be used. Typically the clock speed is in the order of 1 to 2 million cycles per second. The watchdog timer is set to overload periodically which initiates a device reset, upon reset the program is initialized and starts from the beginning. The watchdog timer 28 intermittently times out the microprocessor operation for a preset period, adjustable between 0.01 and 3 seconds. The time counter 33 and program counter 32 are also reset. If a lock up occurs, the watchdog timer, having its own internal oscillator, will continue to countdown and then reset the program. The timeout mode is also enacted upon power up to assure the proper voltage is input to the microprocessor, thus allowing the power circuit time to stabilize. The watchdog timer is important to guarantee the processing of the safety circuit signal. It may also reset the microprocessor in all situations involving noise pulses that may corrupt memory or cause a lock-up. While in the heating cycle, the IC produces an output signal at port 12 that triggers the Triac AC connecting to the heater. The output signal 12 controls the firing of the triac. OKI Co. device number MSM64162 is one example of a micro controller IC that can perform the functions as stated above.
+
+The AC Power input and the Triac Trigger Signal for the embodiment of FIG. 4 is shown in FIG. 6, the signal time period is 60 Hz 10 cycles. For the same time frame, FIG. 7 shows the possible combination of signals that will be input to the IC for determination of safe operation. Referring to FIG. 7A the 60 Hz pulse at pin 22 and ground at 23 FIG. 7A is the signal combination required for safe operation. FIG. 7B shows the signals at 22 and 23 when a break in the heater ground conductor has occured. FIG. 7C is the signal combination resulting from a break in the heater 110 v conductor. The feedback signals of FIG. 7D would be expected when both the 110 VAC and the ground heater conductors are open, this typically occurs if the heater is not connected to the controller. The signal analysis of groups FIG. 7B and 7C and 7D would result in the interruption of the Triac Trigger Signal 12, shown in FIG. 6 and thus the interruption of the 110 VAC power to the heater. In the case of 7B and 7C, this power interruption will prevent the PTC material from arcing and causing a fire, for the open circuit condition of 7D when the user has not yet plugged in the heater, the power interruption eliminates the possibility of electric shock from touching the plug or receptical.
+
+The program, stored in the ROM section 29 of the IC 27, has a routine to analyze the feedback signals 22 and 23. Referring to the routine flow chart of FIG. 8 the first instruction looks for the safe signal, FIG. 7A. If the pulse is detected at port 22 and ground is detected at 23 then the result at the first stage is Yes and the next instruction is to verify that the heating cycle is on. If the Triac has failed in the short circuit condition and heating is in the off mode then a No answer to the heating status indication routs the program to the Heat Status Counter &quot;HSC&quot; sub routine. The HSC sub routine adds one to the HSC value then compares the value to 10. If the count is over 10 then 10 consecutive cycles indicate Triac Failure and the sub routine is routed to fault protection and alarm routine. If the Heating Status Indicator is on then normal operation is occurring and the Error Counter and the Heating Status Counter are set to zero and the routine goes back to the main program. At the first stage if the pulse is not detected at 22 or a pulse exists at 23 then the answer is No and if the Heating Status is on, then an error condition exists that would indicate an unsafe operating condition, at this point the error counter is indexed by one and in ten cycles, approximately 87 miliseconds, the subroutine is routed to the fault safety routine disabling the Triac, flashing the display, flashing an indicator light or sounding an alarm. The error count is set at 10 for example to react to a fault in 87 miliseconds, the count can be smaller if a quicker reaction is required. The count should not be as small as one in order to prevent nuisance failures that may result from power fluctuation.
+
+A second version of the preferred embodiment with a dual signal safety circuit feedback is shown in FIG. 9. The 110 V return circuit is the same as described in FIG. 4 producing a 60 cycle pulse for input to the IC at port 22. The ground return from pin 4 is connected to the junction of a voltage divides between ground and the 5.6 volt DC supply. When the ground conductor through the heater is continuous then this conductor shorts the junction to ground and the second feedback signal to the IC at 23 is ground, the same condition as the circuit of FIG. 4. The safe operating signal configuration is the same as FIG. 7A. In the event of a broken or open ground heater conductor then the junction between resistors R13 and R14 is no longer shorted to ground, the voltage divider becomes active and the junction voltage is 5 volts. The error condition for the signal input to port 23 is now 5 volts (in pulses) and the safe condition is ground potential, as in the previous example of FIG. 4. When arcing occurs, resulting from a conductor break, the high local temperature of the arc or spark will cause the PTC material to burn and form carbon in the area surrounding the arc. The carbon path created by the arcing condition can conduct current that will produce a lower level AC signal at 3. To prevent this lower voltage signal from generating the pulsed signal at junction 25 and to prevent input to the IC at 22, a voltage breakover device 35 is placed in series with the 110 VAC return conductor between 3 and R10. Resistor R15 provides a current path to ground and is sized to allow the current and voltage across 35 to be just over its threshold voltage when the input AC voltage is at the lowest rated voltage, as for example 100 volts. The breakover device 35 shown in this embodiment is a mineature neon bulb having a minimum breakdown voltage, the voltage to turn on, of 80 volts. Xenell Co. in Oklahoma, part #A1E, can be used for this purpose. With the current limiting resistor R15 attached to the ground return the lamp 35 is only on when the Triac T1 is firing and will act as a heat indicator light, if the current limiting resistor were attached to the common ground the lamp would be on during the off cycle as well as the on cycle and can have the dual function of providing backlighting for the display.
+
+A second Triac T2 can be used to disable (the controller permanently) in the event of the Control Triac T1 failing in the short circuit condition. The circuit for the control disablement is of the common crowbar type that for a short duration connects ground across the fuse 5, a current limiting resistor &quot;not shown&quot; can be used to prevent the surge current from causing damage to the internal wiring of a house or the firing sequence for Triac T2 can be time proportioned to limit current and accomplish the blowing of the fuse 5 within a specific period of time, for example, 200 miliseconds. The program routine, FIG. 10, is the same as FIG. 8 for the sequence stages 36 through 48. Stage 49 compares the Heat Status Counter to 10 as in stage 47 only this time if it is over 10 then the next program sequence is the Triac 2 firing routine that disables the unit. If at stage 49, the HSC is not greater than 10, then the error condition is not a result of the Triac 1 T1 failing closed and the routine is directed to the stage 50 that will flash the display after disabling the Triac 1 signal.
+
+The circuits of FIGS. 1 through 10 illustrate the principles of the invention and it will accordingly be recognized that the application of the principles of the invention variations and modifications are possible in many respects.
+
+By application of the principles of the invention discribed herein, other applications will become apparent to those skilled in the art. No limitations are intended or implied herein, other than those of the appended claims.
+
+* * * * *
+ 
+
+Field of Search
+ Bed covering (e.g., blanket) 
+
+ Comprising voltage and/or current measuring and comparing or combining means 
+
+ Comprising timing or cycling means 
+
+ Thermally responsive 
+
+ Including semiconductor means (e.g., transistor) 
+
+ Comprising nonlinear or negative temperature coefficient resistance means 
+
+ Comprising variable resistance means 
+
+ Plural means intermittently or selectively operated 
+
+ Automatically operated 
+
+ Thermally responsive 
+
+ With protective means for heater 
+
+ Zero switching 
+
+ Nonelectrical condition sensing 
+
+ STARTING CIRCUITS 
+
+ Zero switching 
+
+ INRUSH CURRENT LIMITERS 
+
+ Light, heat, vibratory or radiant energy 
+ 
+ 
+ PatentsPlus Images 
+ Enhanced PDF formats 
+ loading... 
+ 
+ 
+ Search-enhanced full patent PDF image $9.95 more info 
+ 
+ 
+ 
+ Intelligent turbocharged patent PDFs with marked up images $16.95 more info 
+ 
+ 
+ 
+ 
+   Home | Browse by Inventor | Browse by Examiner | Browse by Date | Resources | Contact Us | Legal Notices 
+©2004-2012 PatentStorm LLC. All rights reserved. Username  Password   forgot password?
+	</body>
+</document>

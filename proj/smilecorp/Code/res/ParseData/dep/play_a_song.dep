@@ -1,0 +1,471 @@
+dobj(take-1, notes-2)
+
+dobj(play-1, piano-2)
+
+det(cd-3, the-2)
+dobj(put-1, cd-3)
+prt(put-1, in-4)
+det(player-7, the-6)
+prep_to(put-1, player-7)
+
+det(player-4, the-3)
+prep_on(switch-1, player-4)
+
+det(song-4, the-3)
+prep_to(listen-1, song-4)
+
+dobj(insert-1, song-2)
+prep(insert-1, recording-3)
+dep(recording-3, into-4)
+det(system-7, a-5)
+nn(system-7, music-6)
+pobj(into-4, system-7)
+
+det(system-4, the-2)
+nn(system-4, music-3)
+dobj(turn-1, system-4)
+prt(turn-1, on-5)
+
+det(button-4, the-2)
+nn(button-4, play-3)
+dobj(press-1, button-4)
+aux(play-6, to-5)
+xcomp(press-1, play-6)
+det(song-8, the-7)
+dobj(play-6, song-8)
+
+amod(music-3, archived-2)
+dobj(locate-1, music-3)
+
+nn(device-3, music-2)
+dobj(located-1, device-3)
+
+det(music-4, the-2)
+amod(music-4, archived-3)
+dobj(stick-1, music-4)
+dep(music-4, tape-6)
+dep(music-4, cd-8)
+conj_or(tape-6, cd-8)
+det(player-13, the-11)
+nn(player-13, music-12)
+prep_into(stick-1, player-13)
+
+advmod(depress-2, briefly-1)
+nsubj(depress-2, the-3)
+dep(depress-2, play-4)
+dobj(play-4, button-5)
+det(player-9, the-7)
+nn(player-9, music-8)
+prep_on(play-4, player-9)
+
+dobj(choose-1, song-2)
+amod(selection-5, available-4)
+prep_from(choose-1, selection-5)
+
+amod(device-3, playing-2)
+dobj(choose-1, device-3)
+prep(choose-1, depending-4)
+dep(depending-4, upon-5)
+det(type-8, the-6)
+nn(type-8, media-7)
+pobj(upon-5, type-8)
+partmod(type-8, involved-9)
+det(song-12, the-11)
+prep_with(involved-9, song-12)
+
+amod(device-4, appropriate-2)
+nn(device-4, playing-3)
+dobj(use-1, device-4)
+det(media-8, the-6)
+amod(media-8, particular-7)
+prep_for(use-1, media-8)
+prep_as(use-1, necessary-10)
+
+det(device-4, the-2)
+nn(device-4, playing-3)
+nsubj(activate-1, device-4)
+
+nn(score-3, music-2)
+dobj(get-1, score-3)
+det(song-6, the-5)
+prep_for(get-1, song-6)
+
+poss(instrument-3, your-2)
+dobj(get-1, instrument-3)
+
+dobj(put-1, score-2)
+det(stand-6, a-4)
+nn(stand-6, music-5)
+prep_on(put-1, stand-6)
+
+aux(play-3, to-2)
+xcomp(prepare-1, play-3)
+poss(instrument-5, your-4)
+dobj(play-3, instrument-5)
+
+det(notes-3, the-2)
+dobj(read-1, notes-3)
+det(score-6, the-5)
+prep_on(read-1, score-6)
+conj_and(read-1, play-8)
+dobj(play-8, them-9)
+
+dobj(get-1, music-2)
+
+dobj(get-1, instrument-2)
+
+dobj(play-1, music-2)
+det(song-5, the-4)
+prep_for(play-1, song-5)
+prep_on(play-1, instrument-7)
+
+det(instrument-4, a-2)
+amod(instrument-4, musical-3)
+dobj(find-1, instrument-4)
+
+det(note-3, a-2)
+dobj(play-1, note-3)
+det(song-6, the-5)
+prep_of(note-3, song-6)
+det(instrument-9, the-8)
+prep_on(song-6, instrument-9)
+
+mark(played-10, until-2)
+det(notes-4, all-3)
+nsubjpass(played-10, notes-4)
+det(song-7, the-6)
+prep_of(notes-4, song-7)
+aux(played-10, have-8)
+auxpass(played-10, been-9)
+advcl(repeat-1, played-10)
+
+det(radio-3, a-2)
+dobj(get-1, radio-3)
+
+nn(station-3, radio-2)
+dobj(choose-1, station-3)
+
+det(radio-4, the-3)
+prep_on(turn-1, radio-4)
+
+det(song-3, a-2)
+dobj(pick-1, song-3)
+det(station-6, that-5)
+prep_on(pick-1, station-6)
+
+det(play-4, the-2)
+nn(play-4, song-3)
+dobj(let-1, play-4)
+det(radio-7, the-6)
+prep_on(let-1, radio-7)
+
+det(device-5, a-2)
+nn(device-5, music-3)
+amod(device-5, playing-4)
+dobj(locate-1, device-5)
+
+det(song-3, the-2)
+dobj(determine-1, song-3)
+aux(heard-6, to-4)
+auxpass(heard-6, be-5)
+infmod(song-3, heard-6)
+
+det(music-3, the-2)
+dobj(utilize-1, music-3)
+partmod(music-3, playing-4)
+dobj(playing-4, device-5)
+aux(play-7, to-6)
+xcomp(playing-4, play-7)
+det(song-10, the-8)
+amod(song-10, requested-9)
+dobj(play-7, song-10)
+
+dobj(get-1, music-2)
+
+dobj(identify-1, instrument-2)
+
+dobj(retrieve-1, instrument-2)
+
+nsubj(tune-1, instrument-2)
+
+dobj(read-1, music-2)
+
+dobj(play-1, instrument-2)
+
+dobj(replace-1, objects-2)
+
+det(instrument-3, an-2)
+dobj(find-1, instrument-3)
+
+aux(read-3, to-2)
+xcomp(learn-1, read-3)
+amod(notes-5, musical-4)
+dobj(read-3, notes-5)
+
+aux(play-3, to-2)
+xcomp(learn-1, play-3)
+det(note-5, each-4)
+dobj(play-3, note-5)
+
+nn(music-3, sheet-2)
+dobj(get-1, music-3)
+
+det(note-3, each-2)
+dobj(play-1, note-3)
+nn(music-6, sheet-5)
+prep_on(note-3, music-6)
+
+dobj(do-1, it-2)
+advmod(do-1, again-3)
+mark(sounds-6, until-4)
+nsubj(sounds-6, it-5)
+advcl(do-1, sounds-6)
+acomp(sounds-6, right-7)
+
+det(cd-3, a-2)
+dobj(pick-1, cd-3)
+
+dobj(insert-1, it-2)
+
+dobj(push-1, play-2)
+
+dobj(identify-1, song-2)
+
+nn(device-4, music-2)
+nn(device-4, storage-3)
+dobj(place-1, device-4)
+nn(player-7, music-6)
+prep_in(place-1, player-7)
+
+aux(correct-3, to-2)
+xcomp(skip-1, correct-3)
+dobj(correct-3, song-4)
+
+dobj(play-1, song-2)
+
+amod(device-3, song-playing-2)
+dobj(choose-1, device-3)
+
+amod(device-4, song-playing-3)
+prep_on(turn-1, device-4)
+
+det(cd-3, a-2)
+dobj(insert-1, cd-3)
+
+dobj(push-1, play-2)
+det(player-6, the-4)
+nn(player-6, cd-5)
+prep_on(push-1, player-6)
+
+det(cd-3, a-2)
+dobj(select-1, cd-3)
+
+det(disc-3, the-2)
+dobj(put-1, disc-3)
+det(player-7, the-5)
+nn(player-7, cd-6)
+prep_in(put-1, player-7)
+
+det(number-4, the-2)
+nn(number-4, track-3)
+dobj(select-1, number-4)
+det(song-7, the-6)
+prep_of(number-4, song-7)
+dobj(want-9, song-7)
+nsubj(want-9, you-8)
+xsubj(play-11, you-8)
+rcmod(song-7, want-9)
+aux(play-11, to-10)
+xcomp(want-9, play-11)
+
+det(number-4, the-2)
+nn(number-4, track-3)
+dobj(input-1, number-4)
+det(player-7, the-6)
+prep_into(input-1, player-7)
+
+det(button-4, the-2)
+nn(button-4, play-3)
+dobj(press-1, button-4)
+
+det(cd-3, a-2)
+dobj(choose-1, cd-3)
+
+det(cd-3, the-2)
+dobj(put-1, cd-3)
+det(player-7, the-5)
+nn(player-7, cd-6)
+prep_in(put-1, player-7)
+
+det(button-4, the-2)
+nn(button-4, play-3)
+nsubj(rpess-1, button-4)
+
+det(song-3, the-2)
+dobj(pick-1, song-3)
+
+poss(instrument-3, your-2)
+dobj(find-1, instrument-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, instrument-3)
+
+nsubj(tune-1, instrument-2)
+
+dobj(play-1, song-2)
+
+prt(pick-1, up-2)
+det(cd-4, a-3)
+dobj(pick-1, cd-4)
+
+amod(player-3, cd-2)
+dobj(turn-1, player-3)
+prt(turn-1, on-4)
+
+dobj(insert-1, cd-2)
+prep_into(insert-1, player-4)
+
+dobj(select-1, song-2)
+nn(player-5, cd-4)
+prep_on(select-1, player-5)
+
+nn(button-3, play-2)
+dobj(hit-1, button-3)
+
+det(music-5, the-3)
+nn(music-5, sheet-4)
+prep_at(look-1, music-5)
+
+det(music-3, the-2)
+dobj(play-1, music-3)
+poss(piano-6, your-5)
+prep_on(play-1, piano-6)
+
+
+det(cd-3, a-2)
+dobj(pick-1, cd-3)
+
+det(case-4, the-2)
+nn(case-4, cd-3)
+dobj(open-1, case-4)
+
+det(top-3, the-2)
+dobj(open-1, top-3)
+det(player-7, the-5)
+nn(player-7, cd-6)
+prep_of(top-3, player-7)
+
+det(cd-3, the-2)
+dobj(set-1, cd-3)
+det(player-6, the-5)
+prep_in(set-1, player-6)
+
+det(top-3, the-2)
+dobj(close-1, top-3)
+det(player-7, the-5)
+nn(player-7, cd-6)
+prep_of(top-3, player-7)
+
+nn(player-4, cd-3)
+prep_for(wait-1, player-4)
+aux(ready-7, to-5)
+cop(ready-7, be-6)
+xcomp(wait-1, ready-7)
+
+nsubj(play-2, click-1)
+
+det(song-3, a-2)
+dobj(pick-1, song-3)
+aux(listen-5, to-4)
+infmod(song-3, listen-5)
+prep(listen-5, to-6)
+
+det(cd-3, the-2)
+dobj(take-1, cd-3)
+det(case-7, the-6)
+prep_out_of(take-1, case-7)
+
+det(cd-3, the-2)
+dobj(put-1, cd-3)
+det(player-7, the-5)
+nn(player-7, cd-6)
+prep_in(put-1, player-7)
+
+dobj(press-1, play-2)
+
+det(song-4, the-3)
+prep_to(listen-1, song-4)
+
+det(radio-4, the-3)
+prep_on(turn-1, radio-4)
+
+amod(song-4, desired-3)
+prep_to(turn-1, song-4)
+
+det(song-4, the-3)
+prep_to(listen-1, song-4)
+
+dobj(put-1, cd-2)
+prep_in(put-1, stereo-4)
+
+dobj(press-1, play-2)
+
+amod(system-4, audio-3)
+prep_to(walk-1, system-4)
+
+prt(turn-1, on-2)
+
+dobj(choose-1, song-2)
+
+dobj(push-1, play-2)
+
+det(song-3, a-2)
+dobj(choose-1, song-3)
+dobj(want-5, song-3)
+nsubj(want-5, you-4)
+xsubj(play-7, you-4)
+rcmod(song-3, want-5)
+aux(play-7, to-6)
+xcomp(want-5, play-7)
+
+nn(player-3, media-2)
+dobj(start-1, player-3)
+
+prep_on(click-1, music-3)
+
+dobj(press-1, play-2)
+
+prt(turn-1, up-2)
+dobj(turn-1, speakers-3)
+
+
+dobj(composing-1, words-2)
+
+det(music-3, the-2)
+dobj(composing-1, music-3)
+
+det(music-3, the-2)
+dobj(putting-1, music-3)
+det(words-6, the-5)
+prep_with(putting-1, words-6)
+
+
+amod(player-3, mp3-2)
+dobj(turn-1, player-3)
+prt(turn-1, on-4)
+
+det(song-3, a-2)
+dobj(pick-1, song-3)
+
+dobj(press-1, play-2)
+
+
+
+poss(device-5, your-3)
+nn(device-5, music-4)
+prep_on(turn-1, device-5)
+
+det(button-4, the-2)
+nn(button-4, play-3)
+dobj(press-1, button-4)
+

@@ -1,0 +1,672 @@
+prt(take-1, off-2)
+predet(clothes-5, all-3)
+poss(clothes-5, your-4)
+dobj(take-1, clothes-5)
+
+dobj(adjust-1, temperature-2)
+poss(liking-5, your-4)
+prep_to(adjust-1, liking-5)
+
+nn(soap-2, scrub-1)
+poss(body-5, your-4)
+prep_over(soap-2, body-5)
+
+amod(arms-3, ur-2)
+dobj(wash-1, arms-3)
+dobj(wash-1, legs-5)
+conj_and(arms-3, legs-5)
+
+advmod(else-3, everywhere-2)
+advmod(wash-1, else-3)
+
+conj_and(rinse-1, dry-3)
+prt(dry-3, off-4)
+
+dobj(put-1, clothes-2)
+advmod(put-1, back-3)
+prep(put-1, on-4)
+
+prep_on(turn-1, lighs-3)
+det(bathroom-6, the-5)
+prep_in(lighs-3, bathroom-6)
+
+dep(naked-2, get-1)
+
+det(water-4, the-3)
+prep_on(turn-1, water-4)
+
+det(tub-4, the-3)
+prep_into(get-1, tub-4)
+
+poss(head-3, my-2)
+dobj(wash-1, head-3)
+
+det(rest-3, the-2)
+dobj(wash-1, rest-3)
+det(body-6, the-5)
+prep_of(rest-3, body-6)
+
+prt(get-1, off-2)
+det(tub-4, the-3)
+dobj(get-1, tub-4)
+
+dep(dry-2, get-1)
+
+dobj(enter-1, bathroom-2)
+
+prep_on(turn-1, shower-3)
+
+dobj(set-1, handle-2)
+aux(correct-4, to-3)
+infmod(handle-2, correct-4)
+dobj(correct-4, temperature-5)
+
+prt(take-1, off-2)
+dobj(take-1, clothes-3)
+
+dobj(enter-1, shower-2)
+
+dobj(use-1, soap-2)
+dep(use-1, all-3)
+poss(body-6, your-5)
+prep_over(use-1, body-6)
+
+dobj(put-1, shampoo-2)
+poss(hair-5, your-4)
+prep_on(put-1, hair-5)
+
+advmod(rinse-1, well-2)
+
+nn(scrub-3, face-2)
+dobj(put-1, scrub-3)
+nn(cloth-6, wash-5)
+prep_on(put-1, cloth-6)
+
+dobj(wash-1, face-2)
+prep_with(wash-1, cloth-4)
+
+dobj(rinse-1, face-2)
+
+dobj(put-1, conditioner-2)
+prep_on(put-1, hair-4)
+
+amod(body-3, soaping-2)
+dobj(repeat-1, body-3)
+
+advmod(rinse-1, well-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, shower-3)
+
+prt(dry-1, off-2)
+prep_with(dry-1, towel-4)
+
+det(bathroom-4, the-3)
+prep_in(get-1, bathroom-4)
+
+det(shower-4, the-3)
+prep_on(turn-1, shower-4)
+
+det(position-3, the-2)
+dobj(adjust-1, position-3)
+prep_of(position-3, shower-5)
+
+dobj(use-1, shampoo-2)
+dobj(use-1, soap-4)
+conj_and(shampoo-2, soap-4)
+
+det(body-3, the-2)
+dobj(wash-1, body-3)
+
+det(body-3, the-2)
+dobj(wash-1, body-3)
+
+prep_out_of(come-1, bathroom-4)
+
+prep_in(go-1, bathroom-3)
+
+dobj(close-1, door-2)
+
+dobj(take-1, clothes-2)
+prt(take-1, off-3)
+
+dobj(turn-1, water-2)
+prt(turn-1, on-3)
+
+advmod(warm-4, when-3)
+prep_in(get-1, warm-4)
+
+dep(wet-2, get-1)
+
+dobj(get-1, soapy-2)
+
+dobj(rinse-1, soap-2)
+
+
+
+mark(needed-3, if-2)
+advcl(shave-1, needed-3)
+
+prt(get-1, out-2)
+
+prt(dry-1, off-2)
+
+auxpass(dressed-2, get-1)
+
+dobj(remove-1, clothes-2)
+
+prep_on(turn-1, water-3)
+
+amod(temperature-4, good-3)
+prep_for(feel-1, temperature-4)
+
+prep_into(step-1, spray-3)
+
+dobj(close-1, door-2)
+dobj(close-1, curtain-4)
+conj_or(door-2, curtain-4)
+
+nn(hair-2, shampoo-1)
+
+dobj(wash-1, body-2)
+prep_with(wash-1, soap-4)
+
+prt(rinse-1, off-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+dobj(leave-1, shower-2)
+
+prt(dry-1, off-2)
+
+dobj(get-1, undressed-2)
+
+dobj(start-1, water-2)
+
+nn(temperature-3, water-2)
+dobj(adjust-1, temperature-3)
+
+prep_in(step-1, shower-3)
+
+dobj(close-1, curtain-2)
+dobj(close-1, door-4)
+conj_or(curtain-2, door-4)
+
+dobj(wash-1, hair-2)
+
+dobj(wash-1, body-2)
+
+
+
+prt(shut-1, off-2)
+dobj(shut-1, water-3)
+
+
+det(water-4, the-3)
+prep_on(turn-1, water-4)
+
+prt(get-1, in-2)
+
+det(curtain-3, the-2)
+dobj(draw-1, curtain-3)
+
+dobj(apply-1, soap-2)
+
+dobj(apply-1, shampoo-2)
+
+
+
+dobj(apply-1, clothes-2)
+
+det(clothes-3, the-2)
+dobj(remove-1, clothes-3)
+
+dobj(place-1, clothes-2)
+prep_in(place-1, hanger-4)
+
+det(water-4, the-3)
+prep_on(turn-1, water-4)
+
+det(temperature-3, the-2)
+dobj(check-1, temperature-3)
+
+amod(body-3, wet-1)
+amod(body-3, entire-2)
+
+det(head-4, the-2)
+amod(head-4, whole-3)
+dep(wet-1, head-4)
+
+det(hair-3, the-2)
+dobj(clean-1, hair-3)
+
+nn(soap-3, bath-2)
+dobj(put-1, soap-3)
+prep_on(put-1, body-5)
+
+det(parts-4, the-2)
+nn(parts-4, body-3)
+dep(scrub-1, parts-4)
+
+det(body-3, the-2)
+dobj(rinse-1, body-3)
+prep_in(rinse-1, shower-5)
+
+prt(turn-1, off-2)
+det(water-4, the-3)
+dobj(turn-1, water-4)
+
+det(shower-3, the-2)
+dobj(exit-1, shower-3)
+
+det(body-3, the-2)
+dobj(dry-1, body-3)
+prep_with(dry-1, towel-5)
+
+det(hair-3, the-2)
+dobj(dry-1, hair-3)
+prep_with(dry-1, dryer-5)
+
+dobj(put-1, clothes-2)
+prep(put-1, on-3)
+
+aux(ready-5, get-1)
+nsubj(ready-5, soap-2)
+appos(soap-2, shampoo-4)
+
+dep(sponge-4, washcloth-2)
+dobj(get-1, sponge-4)
+dep(sponge-4, etc.-6)
+
+prep_on(turn-1, water-3)
+
+prep_on(turn-1, showerhead-3)
+
+dobj(use-1, showercap-2)
+det(shampoo-5, no-4)
+prep_with(use-1, shampoo-5)
+
+advmod(comfortable-5, when-3)
+dep(comfortable-5, water-4)
+prepc_in(get-1, comfortable-5)
+
+dobj(use-1, cloth-2)
+appos(cloth-2, etc.-4)
+nn(body-7, scrub-6)
+prep_to(use-1, body-7)
+
+amod(parts-3, certain-2)
+dobj(clean-1, parts-3)
+dep(clean-1, last-4)
+
+nsubj(hands-2, scrub-1)
+det(little-4, a-3)
+dobj(hands-2, little-4)
+
+dobj(wash-1, hair-2)
+mark(desired-4, if-3)
+dep(wash-1, desired-4)
+
+prep_out_of(get-1, shower-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+dobj(dry-1, body-2)
+dobj(dry-1, hair-4)
+conj_and(body-2, hair-4)
+prep_with(dry-1, towels-6)
+
+prt(take-1, off-2)
+advmod(take-1, close-3)
+
+prep_on(turn-1, water-3)
+
+amod(water-4, hot-3)
+prep_for(wait-1, water-4)
+
+prep_on(turn-1, shower-3)
+
+dep(wet-3, get-1)
+dobj(wet-3, hair-2)
+
+dobj(apply-1, shampoo-2)
+prep_to(apply-1, hair-4)
+
+dobj(shave-1, face-2)
+
+dobj(wash-1, shampoo-2)
+prep_out_of(wash-1, hair-5)
+
+dobj(apply-1, conditioner-2)
+prep_to(apply-1, hair-4)
+
+dobj(wash-1, body-2)
+prep_with(wash-1, soap-4)
+
+dobj(wash-1, conditioner-2)
+prep_out_of(wash-1, hair-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, shower-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+dobj(dry-1, self-2)
+prep_with(dry-1, towel-4)
+
+prt(take-1, off-2)
+dobj(take-1, clothes-3)
+
+dobj(start-1, water-2)
+
+prep_into(get-1, water-3)
+
+dobj(rinse-1, body-2)
+
+nn(body-2, soap-1)
+
+prt(rinse-1, off-2)
+dobj(rinse-1, soap-3)
+
+dobj(wash-1, hair-2)
+
+nn(hair-2, condition-1)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+prt(dry-1, off-2)
+dobj(dry-1, body-3)
+
+prep_on(turn-1, water-3)
+
+dobj(adjust-1, temperature-2)
+
+conj_and(shampoo-1, rinse-3)
+
+
+
+dobj(wash-1, face-2)
+
+
+prt(turn-1, off-2)
+dobj(turn-1, tap-3)
+
+dep(dry-2, towel-1)
+
+nn(fan-4, exhaust-3)
+prep_on(turn-1, fan-4)
+
+prep_on(put-1, clothes-3)
+
+dobj(dry-1, hair-2)
+
+prep_on(turn-1, water-3)
+
+dep(wet-2, get-1)
+
+dobj(put-1, shampoo-2)
+prep_on(put-1, head-4)
+
+cc(hair-4, and-2)
+dep(hair-4, rinse-3)
+dobj(wash-1, hair-4)
+
+dobj(put-1, soap-2)
+prep_on(put-1, washcloth-4)
+
+dobj(wash-1, face-2)
+dobj(wash-1, neck-4)
+conj_and(face-2, neck-4)
+
+amod(soap-2, more-1)
+prep_on(soap-2, washcloth-4)
+
+dobj(wash-1, everything-2)
+advmod(everything-2, else-3)
+
+dobj(add-1, soap-2)
+prep_to(add-1, cloth-4)
+prepc_as(add-1, needed-6)
+
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+dobj(retrieve-1, towel-2)
+
+prt(dry-1, off-2)
+
+dobj(exit-1, shower-2)
+
+prep_on(turn-1, water-3)
+
+dobj(remove-1, clothing-2)
+
+prep_into(get-1, shower-3)
+
+dobj(close-1, curtain-2)
+
+nn(hair-2, shampoo-1)
+
+dobj(wash-1, body-2)
+
+prt(rinse-1, off-2)
+dobj(rinse-1, lather-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+prt(dry-1, off-2)
+prep_with(dry-1, towel-4)
+
+dobj(exit-1, shower-2)
+
+det(bathroom-4, the-3)
+prep_into(go-1, bathroom-4)
+
+det(shower-4, the-3)
+prep_on(turn-1, shower-4)
+
+
+det(shower-4, the-3)
+prep_into(get-1, shower-4)
+
+prt(rinse-1, off-2)
+
+dobj(use-1, soap-2)
+aux(wash-4, to-3)
+xcomp(use-1, wash-4)
+dobj(wash-4, body-5)
+
+prt(rinse-1, off-2)
+
+dobj(use-1, shampoo-2)
+aux(wash-4, to-3)
+xcomp(use-1, wash-4)
+dobj(wash-4, hair-5)
+
+dobj(rinse-1, hair-2)
+
+det(shower-5, the-4)
+prep_out_of(step-1, shower-5)
+
+dep(i-1, turn-2)
+det(water-6, the-4)
+amod(water-6, warm-5)
+prep_on(turn-2, water-6)
+
+nsubj(take-2, i-1)
+prt(take-2, off-3)
+poss(clothes-5, my-4)
+dobj(take-2, clothes-5)
+
+dep(side-7, i-1)
+dep(side-7, get-2)
+prep(get-2, in-3)
+dep(in-3, from-4)
+det(left-6, the-5)
+pobj(from-4, left-6)
+
+dep(i-1, water-2)
+advmod(water-2, down-3)
+
+nsubj(soap-2, i-1)
+prt(soap-2, up-3)
+
+dep(i-1, shave-2)
+
+dep(i-1, rinse-2)
+
+dep(i-1, wash-2)
+poss(hair-4, my-3)
+dep(i-1, hair-4)
+
+nsubj(dry-6, i-1)
+parataxis(dry-6, get-2)
+prt(get-2, out-3)
+dobj(get-2, and-4)
+dep(dry-6, towel-5)
+
+prep_to(go-1, bathroom-3)
+
+
+amod(water-3, hot-2)
+dobj(turn-1, water-3)
+prt(turn-1, on-4)
+
+amod(water-3, cold-2)
+dobj(turn-1, water-3)
+prt(turn-1, on-4)
+
+amod(temperature-4, desired-3)
+prep_for(adjust-1, temperature-4)
+
+prt(get-1, in-2)
+
+dobj(apply-1, shampoo-2)
+prep_to(apply-1, hair-4)
+
+dobj(rinse-1, shampoo-2)
+
+dobj(apply-1, conditioner-2)
+prep_to(apply-1, hair-4)
+
+dobj(rinse-1, conditioner-2)
+
+nn(body-2, soap-1)
+prep_with(body-2, soap-4)
+prep_with(body-2, gel-6)
+conj_or(soap-4, gel-6)
+
+dobj(rinse-1, body-2)
+advmod(rinse-1, well-3)
+
+amod(water-5, hot-2)
+conj_and(hot-2, cold-4)
+amod(water-5, cold-4)
+dobj(turn-1, water-5)
+prt(turn-1, off-6)
+
+prt(step-1, out-2)
+
+prt(dry-1, off-2)
+
+amod(clothing-4, clean-3)
+prep_in(dress-1, clothing-4)
+
+prep_to(go-1, bathroom-3)
+
+dobj(remove-1, clothes-2)
+
+dobj(keep-1, towel-2)
+prep(keep-1, near-3)
+
+nn(tap-3, shower-2)
+dobj(open-1, tap-3)
+
+amod(water-6, cold-3)
+conj_or(cold-3, hot-5)
+amod(water-6, hot-5)
+prep_to(adjust-1, water-6)
+
+dobj(get-1, shampoo-2)
+dobj(get-1, soap-4)
+conj_and(shampoo-2, soap-4)
+
+dobj(clean-1, body-2)
+prep_with(clean-1, them-4)
+
+dobj(close-1, tap-2)
+tmod(feel-5, tap-2)
+advmod(feel-5, when-3)
+rel(feel-5, when-3)
+nsubj(feel-5, you-4)
+xsubj(to-6, you-4)
+dep(tap-2, feel-5)
+xcomp(feel-5, to-6)
+
+dobj(dry-1, self-2)
+prep_with(dry-1, towel-4)
+
+prep_in(get-1, bathroom-3)
+
+dobj(peeloff-1, dresses-2)
+
+det(shower-3, the-2)
+dobj(open-1, shower-3)
+
+dobj(get-1, bath-2)
+
+det(shower-3, the-2)
+dobj(close-1, shower-3)
+
+auxpass(dressed-2, get-1)
+
+prt(get-1, off-2)
+dobj(get-1, bathroom-3)
+
+prep_on(turn-1, water-3)
+
+prep_on(turn-1, fan-3)
+
+
+prep_in(get-1, shower-3)
+
+dep(wet-2, get-1)
+
+dep(hair-3, shampoo-1)
+poss(hair-3, your-2)
+
+dobj(wash-1, hair-2)
+prt(wash-1, out-3)
+
+nn(hair-2, condition-1)
+
+dobj(wash-1, body-2)
+prep_with(wash-1, soap-4)
+
+dobj(wash-1, face-2)
+
+mark(necessary-3, if-2)
+advcl(shave-1, necessary-3)
+
+prt(wash-1, out-2)
+dobj(wash-1, hair-3)
+
+dobj(turn-1, water-2)
+prt(turn-1, off-3)
+
+prt(wipe-1, off-2)
+amod(water-4, excess-3)
+dobj(wipe-1, water-4)
+prep_off(wipe-1, self-6)
+
+prt(dry-1, off-2)
+prep_with(dry-1, towel-4)
+
+auxpass(dressed-2, get-1)
+

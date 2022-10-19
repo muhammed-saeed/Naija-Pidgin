@@ -1,0 +1,301 @@
+nsubj(music-5, put-1)
+prep_on(put-1, children-3)
+cop(music-5, s-4)
+
+det(children-3, the-2)
+dobj(call-1, children-3)
+prt(call-1, over-4)
+
+dobj(start-1, dancing-2)
+
+dobj(ask-1, them-2)
+aux(join-4, to-3)
+xcomp(ask-1, join-4)
+
+prep_on(turn-1, music-3)
+
+det(music-4, the-3)
+prep_to(dance-1, music-4)
+
+dobj(start-1, music-2)
+
+dobj(hold-1, children-2)
+prep_by(hold-1, hands-4)
+
+advmod(rotate-1, slowly-2)
+
+prep_on(put-1, music-3)
+
+det(children-3, the-2)
+dobj(get-1, children-3)
+
+nn(hands-3, children-2)
+dobj(hold-1, hands-3)
+
+dobj(get-1, children-2)
+
+dobj(play-1, music-2)
+
+amod(hands-3, holding-1)
+nn(hands-3, children-2)
+nsubj(move-4, hands-3)
+det(music-7, the-6)
+prep_to(move-4, music-7)
+
+dobj(play-1, music-2)
+prep_on(play-1, stereo-4)
+
+amod(hands-3, childrens-2)
+dobj(hold-1, hands-3)
+
+xcomp(start-1, rotating-2)
+mark(following-6, while-3)
+nsubj(following-6, children-4)
+aux(following-6, are-5)
+advcl(rotating-2, following-6)
+
+det(children-3, the-2)
+dobj(find-1, children-3)
+
+det(children-3, the-2)
+dobj(ask-1, children-3)
+aux(dance-5, to-4)
+xcomp(ask-1, dance-5)
+
+poss(appendages-3, your-2)
+dobj(move-1, appendages-3)
+dobj(move-1, torso-5)
+conj_and(appendages-3, torso-5)
+det(motion-9, a-7)
+amod(motion-9, rhythmic-8)
+prep_in(move-1, motion-9)
+
+det(song-3, a-2)
+dobj(pick-1, song-3)
+aux(dance-5, to-4)
+infmod(song-3, dance-5)
+prep(dance-5, to-6)
+det(children-9, the-8)
+prep_with(dance-5, children-9)
+
+det(song-3, the-2)
+dobj(play-1, song-3)
+
+det(dance-3, a-2)
+dobj(choose-1, dance-3)
+aux(do-5, to-4)
+infmod(dance-3, do-5)
+det(song-8, the-7)
+prep_to(do-5, song-8)
+
+aux(do-3, to-2)
+xcomp(begin-1, do-3)
+det(dance-5, the-4)
+dobj(do-3, dance-5)
+partmod(dance-5, following-6)
+poss(steps-8, its-7)
+dobj(following-6, steps-8)
+
+dobj(play-1, music-2)
+
+advmod(move-1, around-2)
+prep_with(move-1, children-4)
+
+dobj(play-1, music-2)
+
+amod(shoes-3, comfortable-2)
+dobj(wear-1, shoes-3)
+
+prt(get-1, up-2)
+prep_from(get-1, seat-4)
+
+aux(dance-3, to-2)
+xcomp(move-1, dance-3)
+dobj(dance-3, floor-4)
+
+prep_in(dance-1, rhythm-3)
+
+dobj(stop-1, dancing-2)
+advmod(ends-5, when-3)
+nsubj(ends-5, music-4)
+advcl(stop-1, ends-5)
+
+prep_on(turn-1, music-3)
+
+prep_with(dance-1, children-3)
+
+prep_on(turn-1, music-3)
+
+aux(form-3, have-1)
+nsubj(form-3, children-2)
+dobj(form-3, circle-4)
+
+dobj(invite-1, children-2)
+aux(dance-4, to-3)
+xcomp(invite-1, dance-4)
+
+dobj(play-1, music-2)
+
+advmod(move-1, around-2)
+det(beat-5, the-4)
+prep_to(move-1, beat-5)
+
+prep_on(turn-1, music-3)
+
+amod(space-3, open-2)
+dobj(make-1, space-3)
+det(floor-6, the-5)
+prep_on(make-1, floor-6)
+
+poss(body-3, your-2)
+dobj(move-1, body-3)
+det(music-6, the-5)
+prep_to(move-1, music-6)
+
+amod(hands-3, childrens-2)
+dobj(hold-1, hands-3)
+
+conj_and(dance-1, jump-3)
+advmod(jump-3, up-4)
+advmod(jump-3, down-6)
+conj_and(up-4, down-6)
+
+csubj(hands-4, take-1)
+dobj(take-1, child-2)
+cop(hands-4, s-3)
+prep_in(hands-4, yours-6)
+
+prt(hold-1, up-2)
+poss(hands-4, their-3)
+dobj(hold-1, hands-4)
+prep_in_front_of(hold-1, you-8)
+
+dep(and-1, walk-2)
+prt(walk-2, around-3)
+advmod(walk-2, slowly-4)
+dep(and-1, dance-6)
+conj_or(walk-2, dance-6)
+
+dobj(play-1, music-2)
+
+prep_to(go-1, dancefloor-3)
+
+prep_to(dance-1, music-3)
+
+det(dance-3, the-2)
+dobj(describe-1, dance-3)
+
+det(steps-3, the-2)
+dobj(teach-1, steps-3)
+
+det(steps-3, the-2)
+dobj(practice-1, steps-3)
+
+det(dance-3, the-2)
+dobj(describe-1, dance-3)
+
+det(music-4, the-3)
+prep_on(turn-1, music-4)
+
+det(steps-3, the-2)
+dobj(teach-1, steps-3)
+
+det(steps-3, the-2)
+dobj(practice-1, steps-3)
+prep_to(practice-1, music-5)
+
+det(steps-3, the-2)
+dobj(practice-1, steps-3)
+
+det(children-4, the-3)
+prep_with(perform-1, children-4)
+
+det(music-4, the-3)
+prep_on(turn-1, music-4)
+
+
+det(steps-3, the-2)
+dobj(practice-1, steps-3)
+prep_to(practice-1, music-5)
+
+det(children-4, the-3)
+prep_with(perform-1, children-4)
+
+
+det(dance-3, the-2)
+dobj(describe-1, dance-3)
+
+det(steps-3, the-2)
+dobj(teach-1, steps-3)
+
+det(steps-3, the-2)
+dobj(practice-1, steps-3)
+
+det(music-4, the-3)
+prep_on(turn-1, music-4)
+
+det(steps-3, the-2)
+dobj(practice-1, steps-3)
+prep_to(practice-1, music-5)
+
+det(children-4, the-3)
+prep_with(perform-1, children-4)
+
+
+dobj(play-1, music-2)
+
+prep_with(dance-1, children-3)
+
+dobj(put-1, music-2)
+prep(put-1, on-3)
+
+acomp(make-1, sure-2)
+nsubj(music-6, it-3)
+cop(music-6, is-4)
+amod(music-6, pleasant-5)
+ccomp(sure-2, music-6)
+
+det(child-3, the-2)
+nsubj(think-4, child-3)
+ccomp(let-1, think-4)
+dobj(think-4, fun-5)
+
+det(child-3, the-2)
+nsubj(dance-4, child-3)
+ccomp(let-1, dance-4)
+advmod(dance-4, freely-5)
+
+cop(patient-2, be-1)
+
+dobj(show-1, steps-2)
+advmod(show-1, slowly-3)
+
+dobj(have-1, fun-2)
+
+det(children-3, the-2)
+dobj(collect-1, children-3)
+
+dobj(tell-1, them-2)
+det(dance-5, a-4)
+prep_about(tell-1, dance-5)
+
+prep_with(prepare-1, stretches-3)
+
+det(child-3, each-2)
+iobj(give-1, child-3)
+det(role-5, a-4)
+dobj(give-1, role-5)
+det(dance-8, the-7)
+prep_in(role-5, dance-8)
+
+dobj(begin-1, practising-2)
+
+prep_on(practice-1, perfection-3)
+
+det(dance-3, the-2)
+dobj(complete-1, dance-3)
+advmod(complete-1, together-4)
+
+prep_on(turn-1, music-3)
+
+

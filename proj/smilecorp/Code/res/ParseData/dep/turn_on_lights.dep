@@ -1,0 +1,480 @@
+amod(switch-3, light-2)
+dobj(find-1, switch-3)
+
+amod(switch-4, light-3)
+prep_to(go-1, switch-4)
+
+dobj(turn-1, switch-2)
+prep(turn-1, to-3)
+prep_on(turn-1, position-5)
+
+amod(switch-4, light-3)
+prep_for(look-1, switch-4)
+
+amod(switch-4, light-3)
+prep_on(turn-1, switch-4)
+
+amod(switch-3, light-2)
+dobj(find-1, switch-3)
+
+dobj(turn-1, switch-2)
+prep(turn-1, to-3)
+prep_on(turn-1, position-5)
+
+det(switch-5, the-3)
+amod(switch-5, light-4)
+prep_to(go-1, switch-5)
+
+det(light-4, the-3)
+prep_on(switch-1, light-4)
+
+amod(switch-4, light-3)
+prep_to(go-1, switch-4)
+
+dobj(flip-1, switch-2)
+prep_to(flip-1, the-4)
+prep_on(flip-1, position-6)
+
+amod(switch-3, light-2)
+dobj(locate-1, switch-3)
+
+amod(switch-4, light-3)
+prep_to(walk-1, switch-4)
+
+amod(switch-3, light-2)
+dobj(move-1, switch-3)
+prep(move-1, to-4)
+prep_on(move-1, position-6)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(find-1, switch-4)
+
+dobj(flip-1, it-2)
+prt(flip-1, up-3)
+dep(up-3, or-4)
+dep(up-3, down-5)
+mark(comes-9, until-6)
+det(light-8, the-7)
+nsubj(comes-9, light-8)
+advcl(flip-1, comes-9)
+prt(comes-9, on-10)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(locate-1, switch-4)
+
+det(switch-3, the-2)
+dobj(put-1, switch-3)
+prep_in(put-1, the-5)
+prep_on(put-1, position-7)
+
+dobj(locate-1, switch-2)
+
+prep_on(turn-1, switch-3)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(locate-1, switch-4)
+
+det(switch-3, the-2)
+dobj(move-1, switch-3)
+prep_to(move-1, the-5)
+prep_on(move-1, position-7)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(locate-1, switch-4)
+
+prt(move-1, over-2)
+det(switch-6, the-4)
+amod(switch-6, light-5)
+prep_to(move-1, switch-6)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(flip-1, switch-4)
+prep(flip-1, into-5)
+dep(into-5, on-6)
+pobj(on-6, position-7)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(locate-1, switch-4)
+
+det(switch-5, the-3)
+amod(switch-5, light-4)
+prep_to(go-1, switch-5)
+
+advmod(turn-1, \/-2)
+dep(turn-1, touch-3)
+det(switch-6, the-4)
+amod(switch-6, light-5)
+dobj(touch-3, switch-6)
+
+amod(switch-3, light-2)
+dobj(locate-1, switch-3)
+
+amod(switch-4, light-3)
+prep_to(go-1, switch-4)
+
+amod(switch-3, light-2)
+dobj(flip-1, switch-3)
+
+amod(switch-4, light-3)
+prep_to(move-1, switch-4)
+
+nsubj(switch-2, press-1)
+prep(switch-2, to-3)
+prep_on(switch-2, position-5)
+
+amod(switch-4, light-3)
+prep_to(go-1, switch-4)
+
+amod(switch-3, light-2)
+dobj(press-1, switch-3)
+prep(press-1, to-4)
+prep_on(press-1, position-6)
+
+det(switch-5, the-3)
+amod(switch-5, light-4)
+prep_to(go-1, switch-5)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(press-1, switch-4)
+
+advmod(is-6, where-3)
+amod(switch-5, light-4)
+nsubj(is-6, switch-5)
+prepc_to(go-1, is-6)
+
+dobj(move-1, switch-2)
+prep(move-1, to-3)
+prep_on(move-1, position-5)
+
+amod(switch-4, light-3)
+prep_to(go-1, switch-4)
+
+amod(switch-3, light-2)
+dobj(press-1, switch-3)
+
+det(switch-5, the-3)
+amod(switch-5, light-4)
+prep_to(go-1, switch-5)
+det(room-8, the-7)
+prep_in(go-1, room-8)
+
+det(lever-5, the-2)
+amod(lever-5, light-3)
+nn(lever-5, switch-4)
+dobj(grasp-1, lever-5)
+
+det(lever-5, the-2)
+amod(lever-5, light-3)
+nn(lever-5, switch-4)
+dobj(flip-1, lever-5)
+prep_to(flip-1, the-7)
+prep_on(flip-1, position-9)
+
+prt(go-1, over-2)
+det(switch-6, the-4)
+amod(switch-6, light-5)
+prep_to(go-1, switch-6)
+
+det(lever-5, the-2)
+amod(lever-5, light-3)
+nn(lever-5, switch-4)
+dobj(grasp-1, lever-5)
+
+det(lever-5, the-2)
+amod(lever-5, light-3)
+nn(lever-5, switch-4)
+dobj(move-1, lever-5)
+prep_to(move-1, the-7)
+prep_on(move-1, position-9)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(locate-1, switch-4)
+amod(knob-8, light-6)
+nn(knob-8, control-7)
+dobj(locate-1, knob-8)
+conj_or(switch-4, knob-8)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(operate-1, switch-4)
+amod(knob-8, light-6)
+nn(knob-8, control-7)
+dobj(operate-1, knob-8)
+conj_or(switch-4, knob-8)
+mark(brightens-12, until-9)
+det(room-11, the-10)
+nsubj(brightens-12, room-11)
+advcl(operate-1, brightens-12)
+det(intensity-16, the-14)
+amod(intensity-16, desired-15)
+prep_to(brightens-12, intensity-16)
+
+amod(switch-3, light-2)
+dobj(locate-1, switch-3)
+
+amod(switch-3, light-2)
+dobj(activate-1, switch-3)
+
+prep(walk-1, towards-2)
+dep(towards-2, to-3)
+det(switch-6, the-4)
+amod(switch-6, light-5)
+pobj(to-3, switch-6)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(flip-1, switch-4)
+prep_to(flip-1, the-6)
+prep_on(flip-1, position-8)
+
+amod(switch-4, light-3)
+prep_to(walk-1, switch-4)
+
+dobj(toggle-1, switch-2)
+prep_to(toggle-1, the-4)
+prep_on(toggle-1, position-6)
+
+nn(light-2, notice-1)
+nsubjpass(needed-4, light-2)
+auxpass(needed-4, is-3)
+
+dobj(find-1, switch-2)
+
+dobj(throw-1, switch-2)
+
+complm(is-4, whether-2)
+nsubj(is-4, light-3)
+ccomp(notice-1, is-4)
+prep(is-4, on-5)
+
+det(switch-3, the-2)
+dobj(find-1, switch-3)
+det(lights-6, the-5)
+prep_of(switch-3, lights-6)
+
+det(switch-3, the-2)
+dobj(press-1, switch-3)
+prt(press-1, off-4)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(switch-1, switch-4)
+prep(switch-1, to-5)
+prep(switch-1, on-6)
+
+amod(switch-3, light-2)
+dobj(find-1, switch-3)
+
+dobj(flip-1, switch-2)
+
+det(light-3, which-2)
+nsubj(turn-5, light-3)
+aux(turn-5, to-4)
+ccomp(decide-1, turn-5)
+xcomp(decide-1, turn-5)
+prt(turn-5, on-6)
+
+advmod(is-6, where-2)
+det(switch-5, the-3)
+amod(switch-5, light-4)
+nsubj(is-6, switch-5)
+advcl(identify-1, is-6)
+
+det(switch-5, the-3)
+amod(switch-5, light-4)
+prep_to(walk-1, switch-5)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(flip-1, switch-4)
+
+det(switch-5, the-3)
+amod(switch-5, light-4)
+prep_to(walk-1, switch-5)
+
+dobj(flip-1, switch-2)
+prep(flip-1, on-3)
+
+dobj(find-1, lightswitch-2)
+
+dobj(flip-1, lightswitch-2)
+
+det(switch-5, the-3)
+amod(switch-5, light-4)
+prep_to(go-1, switch-5)
+
+dobj(put-1, hand-2)
+det(switch-5, the-4)
+prep_on(put-1, switch-5)
+
+det(downwards-4, the-2)
+nn(downwards-4, switch-3)
+dobj(push-1, downwards-4)
+
+dobj(remove-1, hand-2)
+prep_from(remove-1, switch-4)
+
+amod(switch-4, light-3)
+prep_to(walk-1, switch-4)
+
+det(switch-3, the-2)
+dobj(flip-1, switch-3)
+
+amod(switch-4, light-3)
+prep_to(walk-1, switch-4)
+
+dobj(flip-1, switch-2)
+
+det(switch-4, the-2)
+nn(switch-4, wall-3)
+dobj(flip-1, switch-4)
+
+aux(switch-3, to-2)
+xcomp(walk-1, switch-3)
+
+dobj(move-1, switch-2)
+prt(move-1, up-3)
+
+dobj(sense-1, loss-2)
+prep_of(loss-2, light-4)
+
+amod(source-3, light-2)
+dobj(find-1, source-3)
+
+dobj(find-1, switch-2)
+
+dobj(toggle-1, switch-2)
+
+det(switch-3, the-2)
+dobj(push-1, switch-3)
+prt(push-1, up-4)
+
+amod(switch-3, light-2)
+dobj(flip-1, switch-3)
+prep(flip-1, on-4)
+
+amod(switch-4, light-3)
+prep_to(go-1, switch-4)
+
+dobj(flip-1, switch-2)
+prep_to(flip-1, opposite-4)
+amod(position-7, current-6)
+prep_of(opposite-4, position-7)
+
+amod(switch-3, light-2)
+dobj(find-1, switch-3)
+
+amod(switch-3, light-2)
+dobj(flip-1, switch-3)
+prt(flip-1, up-4)
+
+aux(lightswitch-3, to-2)
+xcomp(walk-1, lightswitch-3)
+
+dobj(place-1, hand-2)
+prep_on(place-1, lightswitch-4)
+
+dobj(move-1, switch-2)
+prep(move-1, to-3)
+prep_on(move-1, position-5)
+
+amod(switch-3, light-2)
+dobj(flick-1, switch-3)
+prt(flick-1, up-4)
+
+det(switch-3, the-2)
+dobj(locate-1, switch-3)
+partmod(switch-3, connected-4)
+amod(light-7, desired-6)
+prep_to(connected-4, light-7)
+
+prt(turn-1, on-2)
+
+prep_into(walk-1, room-3)
+
+prep_on(turn-1, switch-3)
+
+amod(switch-3, light-2)
+dobj(find-1, switch-3)
+
+dep(turn-1, switch-2)
+prep_to(switch-2, the-4)
+prepc_on(switch-2, position-8)
+
+dobj(find-1, switch-2)
+
+dobj(turn-1, switch-2)
+amod(position-7, off-5)
+prep_to(turn-1, position-7)
+
+amod(switch-4, light-3)
+prep_to(walk-1, switch-4)
+
+dobj(place-1, hand-2)
+prep_on(place-1, switch-4)
+
+dobj(change-1, location-2)
+prep_of(location-2, switch-4)
+prep(change-1, to-5)
+prep_on(change-1, postion-7)
+
+prt(turn-1, on-2)
+dobj(turn-1, lights-3)
+
+det(switch-4, the-2)
+amod(switch-4, light-3)
+dobj(find-1, switch-4)
+
+dobj(turn-1, switch-2)
+det(postion-8, the-4)
+prep(postion-8, on-6)
+prep_to(turn-1, postion-8)
+
+prep_on(switch-1, power-3)
+
+amod(switch-3, light-2)
+dobj(move-1, switch-3)
+advmod(move-1, upwards-4)
+
+amod(switch-3, light-2)
+dobj(find-1, switch-3)
+
+acomp(turn-1, opposite-2)
+nsubj(is-5, what-4)
+prepc_than(opposite-2, is-5)
+
+aux(swich-3, to-2)
+xcomp(walk-1, swich-3)
+
+dobj(pull-1, it-2)
+
+amod(switch-3, light-2)
+dobj(find-1, switch-3)
+
+conj_or(turn-1, flick-3)
+dobj(flick-3, it-4)
+
+aux(switch-4, flick-1)
+det(light-3, the-2)
+nsubj(switch-4, light-3)
+prt(switch-4, on-5)
+
+det(switch-3, the-2)
+dobj(flick-1, switch-3)
+prt(flick-1, up-4)
+
+nn(switch-4, lamp-3)
+prep_to(walk-1, switch-4)
+
+dobj(flip-1, switch-2)
+
+advmod(walk-1, away-2)
+

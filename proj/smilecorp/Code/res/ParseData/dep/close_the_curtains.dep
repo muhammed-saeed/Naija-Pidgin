@@ -1,0 +1,350 @@
+det(curtains-4, the-3)
+prep_to(walk-1, curtains-4)
+
+mark(is-3, if-1)
+expl(is-3, there-2)
+advcl(open-8, is-3)
+nsubj(is-3, something-4)
+xcomp(is-3, holding-5)
+det(curtains-7, the-6)
+nsubj(open-8, curtains-7)
+xcomp(open-8, remove-9)
+dobj(remove-9, it-10)
+
+det(curtains-3, the-2)
+dobj(pull-1, curtains-3)
+aux(cover-5, to-4)
+infmod(curtains-3, cover-5)
+det(window-7, the-6)
+dobj(cover-5, window-7)
+
+dobj(pull-1, curtains-2)
+advmod(pull-1, so-3)
+complm(covered-7, that-4)
+nsubjpass(covered-7, window-5)
+auxpass(covered-7, is-6)
+ccomp(pull-1, covered-7)
+
+prep_to(go-1, window-3)
+
+dobj(pull-1, curtains-2)
+
+prt(walk-1, over-2)
+det(curtains-5, the-4)
+prep_to(walk-1, curtains-5)
+
+dobj(grab-1, curtain-2)
+
+dobj(pull-1, curtain-2)
+dep(pull-1, closed-3)
+
+prt(walk-1, over-2)
+det(curtains-5, the-4)
+prep_to(walk-1, curtains-5)
+
+nsubj(grab-2, gently-1)
+nsubj(handle-5, gently-1)
+dobj(grab-2, curtains-3)
+conj_or(grab-2, handle-5)
+
+dobj(pull-1, curtains-2)
+dep(pull-1, closed-3)
+
+dobj(take-1, hold-2)
+amod(curtain-5, left-4)
+prep_of(hold-2, curtain-5)
+
+det(center-4, the-3)
+prep_to(pull-1, center-4)
+det(window-7, the-6)
+prep_of(center-4, window-7)
+
+dobj(take-1, hold-2)
+amod(curtain-5, right-4)
+prep_of(hold-2, curtain-5)
+
+det(center-4, the-3)
+prep_to(pull-1, center-4)
+det(window-7, the-6)
+prep_of(center-4, window-7)
+
+prt(go-1, over-2)
+det(curtains-5, the-4)
+prep_to(go-1, curtains-5)
+
+det(side-3, each-2)
+dobj(grab-1, side-3)
+det(curtains-7, the-5)
+amod(curtains-7, open-6)
+prep_of(side-3, curtains-7)
+det(middle-10, the-9)
+prep_in(grab-1, middle-10)
+
+det(side-3, each-2)
+dobj(pull-1, side-3)
+det(curtains-6, the-5)
+prep_of(side-3, curtains-6)
+advmod(gently-8, together-7)
+advmod(pull-1, gently-8)
+
+prep_to(go-1, window-3)
+
+dobj(grab-1, curtain-2)
+conj_and(grab-1, pull-4)
+det(side-8, the-6)
+amod(side-8, other-7)
+prep_towards(pull-4, side-8)
+prep_of(side-8, window-10)
+
+amod(window-4, next-3)
+prep_to(proceed-1, window-4)
+
+det(curtains-4, the-3)
+prep_to(move-1, curtains-4)
+
+det(t-5, the-2)
+amod(t-5, pull-rod-3)
+amod(t-5, attached-4)
+iobj(find-1, t-5)
+det(curtains-7, the-6)
+dobj(find-1, curtains-7)
+
+det(pull-rod-3, the-2)
+dobj(pull-1, pull-rod-3)
+advmod(pull-1, sideways-4)
+aux(close-6, to-5)
+xcomp(pull-1, close-6)
+det(curtains-8, the-7)
+dobj(close-6, curtains-8)
+
+dobj(locate-1, curtains-2)
+
+dobj(pull-1, curtains-2)
+prt(pull-1, together-3)
+
+dobj(pull-1, cord-2)
+
+det(curtains-3, the-2)
+dobj(grab-1, curtains-3)
+
+dobj(pull-1, them-2)
+det(other-5, each-4)
+prep_towards(pull-1, other-5)
+mark(see-10, until-6)
+nsubj(see-10, you-7)
+aux(see-10, can-8)
+neg(see-10, not-9)
+advcl(pull-1, see-10)
+det(window-12, the-11)
+dobj(see-10, window-12)
+
+det(mechanism-4, the-2)
+nn(mechanism-4, closing-3)
+dobj(locate-1, mechanism-4)
+
+acomp(make-1, sure-2)
+expl(is-4, there-3)
+ccomp(sure-2, is-4)
+nsubj(is-4, nothing-5)
+partmod(nothing-5, obstructing-6)
+det(path-8, the-7)
+dobj(obstructing-6, path-8)
+det(curtains-11, the-10)
+prep_of(path-8, curtains-11)
+
+det(closingmechinism-3, the-2)
+nsubj(activate-1, closingmechinism-3)
+
+det(mechanism-4, the-2)
+amod(mechanism-4, closing-3)
+dobj(deactivate-1, mechanism-4)
+tmod(closed-9, mechanism-4)
+advmod(closed-9, when-5)
+rel(closed-9, when-5)
+det(curtains-7, the-6)
+nsubjpass(closed-9, curtains-7)
+auxpass(closed-9, are-8)
+dep(mechanism-4, closed-9)
+
+det(curtain-3, the-2)
+dobj(pull-1, curtain-3)
+det(middle-6, the-5)
+prep_toward(pull-1, middle-6)
+det(window-9, the-8)
+prep_of(middle-6, window-9)
+
+prep_to(go-1, window-3)
+
+amod(curtain-4, left-3)
+prep_on(pull-1, curtain-4)
+mark(is-7, until-5)
+nsubj(is-7, it-6)
+advcl(pull-1, is-7)
+det(center-10, the-9)
+prep_at(is-7, center-10)
+det(window-13, the-12)
+prep_of(center-10, window-13)
+
+amod(curtain-4, right-3)
+prep_on(pull-1, curtain-4)
+mark(is-7, until-5)
+nsubj(is-7, it-6)
+advcl(pull-1, is-7)
+det(center-10, the-9)
+prep_at(is-7, center-10)
+det(window-13, the-12)
+prep_of(center-10, window-13)
+
+complm(visible-9, that-2)
+det(part-4, no-3)
+nsubj(visible-9, part-4)
+det(glass-7, the-6)
+prep_of(part-4, glass-7)
+cop(visible-9, is-8)
+ccomp(ensure-1, visible-9)
+
+amod(cord-3, curtain-2)
+dobj(pull-1, cord-3)
+
+prt(pick-1, up-2)
+amod(control-4, remote-3)
+dobj(pick-1, control-4)
+
+dobj(push-1, button-2)
+nsubj(closes-4, button-2)
+rcmod(button-2, closes-4)
+dobj(closes-4, curtain-5)
+
+dobj(hold-1, top-2)
+prep_of(top-2, courtain-4)
+
+amod(window-4, curtain-2)
+amod(window-4, accross-3)
+dobj(pull-1, window-4)
+
+det(curtains-4, all-3)
+prep_with(repeat-1, curtains-4)
+
+nn(panels-3, curtain-2)
+dobj(grasp-1, panels-3)
+
+prep_towards(pull-1, center-3)
+prep_of(center-3, window-5)
+
+prep_to(walk-1, curtains-3)
+
+dobj(pull-1, cord-2)
+
+dobj(goto-1, curtains-2)
+
+nn(curtains-2, grip-1)
+
+dobj(close-1, curtains-2)
+
+det(cord-3, the-2)
+dobj(pull-1, cord-3)
+det(curtains-6, the-5)
+prep_on(pull-1, curtains-6)
+aux(close-8, to-7)
+infmod(curtains-6, close-8)
+
+det(curtains-3, the-2)
+dobj(pull-1, curtains-3)
+det(window-6, the-5)
+prep_across(pull-1, window-6)
+
+det(curtain-3, the-2)
+dobj(take-1, curtain-3)
+
+dobj(nudge-1, it-2)
+
+dobj(close-1, it-2)
+
+prep_to(go-1, curtains-3)
+
+nn(rod-3, curtain-2)
+dobj(find-1, rod-3)
+
+dobj(grasp-1, rod-2)
+
+dobj(pull-1, rod-2)
+aux(move-4, to-3)
+xcomp(pull-1, move-4)
+dobj(move-4, curtain-5)
+
+dobj(use-1, string-2)
+advmod(pull-5, manually-4)
+conj_or(use-1, pull-5)
+dobj(pull-5, curtains-6)
+dep(pull-5, shut-7)
+
+prt(walk-1, over-2)
+det(curtains-5, the-4)
+prep_to(walk-1, curtains-5)
+
+det(cord-4, the-2)
+nn(cord-4, curtain-3)
+dobj(grab-1, cord-4)
+
+dobj(pull-1, it-2)
+det(middle-5, the-4)
+prep_towards(pull-1, middle-5)
+det(curtain-8, the-7)
+prep_of(middle-5, curtain-8)
+
+dobj(close-1, window-2)
+
+dobj(close-1, curtains-2)
+
+det(window-4, the-3)
+prep_to(go-1, window-4)
+
+det(top-5, the-3)
+amod(top-5, inside-4)
+prep_for(reach-1, top-5)
+det(curtain-8, each-7)
+prep_of(top-5, curtain-8)
+
+num(curtain-3, one-2)
+dobj(grasp-1, curtain-3)
+det(hand-6, each-5)
+prep_in(grasp-1, hand-6)
+
+det(curtains-3, the-2)
+dobj(pull-1, curtains-3)
+det(middle-6, the-5)
+prep_toward(pull-1, middle-6)
+det(window-9, the-8)
+prep_of(middle-6, window-9)
+
+det(curtains-3, the-2)
+dobj(adjust-1, curtains-3)
+advmod(meet-7, so-4)
+dep(meet-7, that-5)
+nsubj(meet-7, they-6)
+dep(adjust-1, meet-7)
+det(center-10, the-9)
+prep_in(meet-7, center-10)
+
+prt(get-1, up-2)
+
+amod(cord-3, curtain-2)
+dobj(pull-1, cord-3)
+prt(pull-1, down-4)
+
+dobj(watch-1, curtains-2)
+advmod(watch-1, close-3)
+
+xcomp(stop-1, pulling-2)
+dobj(pulling-2, cord-3)
+advmod(drawn-7, when-4)
+nsubjpass(drawn-7, curtains-5)
+auxpass(drawn-7, are-6)
+advcl(stop-1, drawn-7)
+
+det(curtains-3, the-2)
+dobj(draw-1, curtains-3)
+
+det(strings-3, the-2)
+dobj(pull-1, strings-3)
+

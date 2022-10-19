@@ -1,0 +1,444 @@
+prt(find-1, off-2)
+dobj(find-1, switch-3)
+
+prt(press-1, off-2)
+dobj(press-1, switch-3)
+
+prt(find-1, off-2)
+dobj(find-1, switch-3)
+
+prt(toggle-1, off-2)
+dobj(toggle-1, switch-3)
+
+prt(locate-1, off-2)
+dobj(locate-1, switch-3)
+
+prt(toggle-1, off-2)
+dobj(toggle-1, switch-3)
+
+prep_to(walk-1, stereo-3)
+
+dobj(turn-1, power-2)
+prt(turn-1, off-3)
+
+det(device-5, the-2)
+amod(device-5, remote-3)
+dep(remote-3, control-4)
+dobj(locate-1, device-5)
+
+det(remote-3, the-2)
+dobj(position-1, remote-3)
+advmod(position-1, properly-4)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+
+det(remote-3, the-2)
+dobj(keep-1, remote-3)
+prep_in(keep-1, position-5)
+
+det(stereo-3, the-2)
+dobj(locate-1, stereo-3)
+
+det(front-3, the-2)
+dobj(locate-1, front-3)
+det(stereo-6, the-5)
+prep_of(front-3, stereo-6)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(locate-1, button-4)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(depress-1, button-4)
+advmod(depress-1, shortly-5)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+
+prt(locate-1, off-2)
+dobj(locate-1, button-3)
+nn(system-6, music-5)
+prep_on(locate-1, system-6)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+det(control-4, the-2)
+amod(control-4, remote-3)
+dobj(find-1, control-4)
+
+det(button-6, the-2)
+nn(button-6, on\/off-4)
+dobj(find-1, button-6)
+
+det(button-6, the-2)
+nn(button-6, on\/off-4)
+dobj(hit-1, button-6)
+
+nn(system-3, music-2)
+dobj(find-1, system-3)
+
+nn(button-3, power-2)
+dobj(find-1, button-3)
+
+dobj(adjust-1, volume-2)
+
+nn(system-3, music-2)
+dobj(turn-1, system-3)
+prt(turn-1, on-4)
+
+nn(system-3, music-2)
+dobj(find-1, system-3)
+
+nn(button-3, power-2)
+dobj(find-1, button-3)
+
+nn(system-3, music-2)
+dobj(turn-1, system-3)
+prt(turn-1, off-4)
+
+nn(system-4, music-3)
+prep_to(go-1, system-4)
+
+prep_off(push-1, button-3)
+
+det(system-4, the-2)
+nn(system-4, music-3)
+dobj(approach-1, system-4)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(locate-1, button-4)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+
+nn(knob-3, power-2)
+dobj(find-1, knob-3)
+
+nn(knob-3, power-2)
+dobj(push-1, knob-3)
+
+acomp(locate-1, remote-2)
+
+dobj(push-1, button-2)
+amod(position-5, off-4)
+prep_to(push-1, position-5)
+
+acomp(find-1, remote-2)
+
+prep_off(push-1, button-3)
+
+det(system-4, the-2)
+nn(system-4, music-3)
+dobj(locate-1, system-4)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(locate-1, button-4)
+det(machine-7, the-6)
+prep_on(locate-1, machine-7)
+det(control-12, the-10)
+amod(control-12, remote-11)
+prep_on(locate-1, control-12)
+conj_or(machine-7, control-12)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+
+nn(system-3, music-2)
+dobj(locate-1, system-3)
+
+acomp(locate-1, remote-2)
+
+acomp(fetch-1, remote-2)
+
+dobj(poitn-1, remote-2)
+nn(system-5, music-4)
+prep_towards(poitn-1, system-5)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+nn(system-3, music-2)
+dobj(locate-1, system-3)
+
+acomp(locate-1, remote-2)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+nn(system-3, music-2)
+dobj(locate-1, system-3)
+dep(locate-1, remote-4)
+
+nn(button-3, power-2)
+dobj(locate-1, button-3)
+prep_on(locate-1, remote-5)
+
+nn(system-3, music-2)
+dobj(locate-1, system-3)
+dep(locate-1, remote-4)
+
+nn(button-3, power-2)
+dobj(locate-1, button-3)
+prep_on(locate-1, remote-5)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+det(control-4, the-2)
+amod(control-4, remote-3)
+dobj(take-1, control-4)
+
+det(button-6, the-2)
+amod(button-6, off-4)
+dobj(press-1, button-6)
+
+prt(go-1, over-2)
+nn(system-5, music-4)
+prep_to(go-1, system-5)
+
+det(system-4, the-2)
+nn(system-4, music-3)
+iobj(get-1, system-4)
+amod(control-6, remote-5)
+dobj(get-1, control-6)
+
+det(system-4, the-2)
+nn(system-4, music-3)
+iobj(point-1, system-4)
+amod(control-6, remote-5)
+dobj(point-1, control-6)
+det(system-10, the-8)
+nn(system-10, music-9)
+prep_at(control-6, system-10)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+det(system-8, the-6)
+nn(system-8, music-7)
+prep_on(press-1, system-8)
+amod(control-10, remote-9)
+dobj(press-1, control-10)
+
+det(system-4, the-2)
+nn(system-4, music-3)
+dobj(locate-1, system-4)
+
+det(panel-4, the-2)
+nn(panel-4, control-3)
+dobj(search-1, panel-4)
+det(power-7, a-6)
+prep_for(search-1, power-7)
+conj_or(search-1, off-9)
+prep_off(search-1, button-10)
+
+det(system-4, the-2)
+nn(system-4, music-3)
+dobj(toggle-1, system-4)
+det(position-8, the-6)
+amod(position-8, off-7)
+prep_into(toggle-1, position-8)
+
+det(stereo-4, the-3)
+prep_to(go-1, stereo-4)
+
+prt(switch-1, off-2)
+det(music-4, the-3)
+dobj(switch-1, music-4)
+
+nn(system-4, music-3)
+prep_to(go-1, system-4)
+
+nn(switch-3, power-2)
+dobj(locate-1, switch-3)
+
+nn(switch-3, power-2)
+dobj(press-1, switch-3)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(find-1, button-4)
+
+dobj(press-1, it-2)
+
+det(music-3, the-2)
+dobj(stop-1, music-3)
+
+dobj(press-1, power-2)
+prep_off(press-1, button-4)
+
+
+dobj(press-1, power-2)
+prep_off(press-1, button-4)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+
+prepc_of(tire-1, listening-3)
+prep_to(listening-3, music-5)
+
+prt(get-1, up-2)
+prep_from(get-1, chair-4)
+
+nn(system-4, sound-3)
+prep_to(walk-1, system-4)
+
+det(music-3, the-2)
+dobj(stop-1, music-3)
+
+dobj(remove-1, cd-2)
+
+nn(case-4, storage-3)
+prep_in(place-1, case-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, power-3)
+prep_to(turn-1, system-5)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, remote-3)
+
+nn(button-3, power-2)
+dobj(push-1, button-3)
+
+det(switch-4, the-2)
+nn(switch-4, power-3)
+dobj(locate-1, switch-4)
+det(system-8, the-6)
+nn(system-8, music-7)
+prep_on(locate-1, system-8)
+
+nsubj(turn-4, it-2)
+aux(turn-4, to-3)
+xcomp(push-1, turn-4)
+dobj(turn-4, it-5)
+prt(turn-4, off-6)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+
+amod(switch-3, on\/off-2)
+dobj(locate-1, switch-3)
+
+conj_or(push-1, turn-3)
+dobj(turn-3, switch-4)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+det(system-8, the-6)
+nn(system-8, music-7)
+prep_on(press-1, system-8)
+predet(components-13, all-10)
+det(components-13, the-11)
+amod(components-13, electric-12)
+prep_on(press-1, components-13)
+conj_or(system-8, components-13)
+det(system-17, the-15)
+nn(system-17, music-16)
+prep_on(press-1, system-17)
+
+prep_to(walk-1, system-3)
+
+dobj(push-1, power-2)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+det(stereo-7, the-6)
+prep_on(press-1, stereo-7)
+
+acomp(find-1, remote-2)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+dobj(turn-1, music-2)
+prt(turn-1, off-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, music-3)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+
+aux(make-3, to-2)
+xcomp(check-1, make-3)
+acomp(make-3, sure-4)
+det(music-6, the-5)
+nsubj(is-7, music-6)
+ccomp(sure-4, is-7)
+prt(is-7, off-8)
+
+nn(button-2, stop-1)
+nsubjpass(indicated-4, button-2)
+auxpass(indicated-4, is-3)
+det(symbol-8, a-6)
+amod(symbol-8, square-7)
+agent(indicated-4, symbol-8)
+
+det(button-4, the-2)
+nn(button-4, stop-3)
+dobj(locate-1, button-4)
+
+dobj(press-1, button-2)
+aux(turn-4, to-3)
+xcomp(press-1, turn-4)
+prt(turn-4, off-5)
+nn(system-7, music-6)
+dobj(turn-4, system-7)
+
+det(button-5, the-2)
+nn(button-5, power-3)
+nn(button-5, on\/off-4)
+dobj(locate-1, button-5)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+
+nn(button-3, stop-2)
+dobj(push-1, button-3)
+
+nn(button-3, power-2)
+dobj(turn-1, button-3)
+prep(turn-1, to-4)
+advmod(turn-1, off-5)
+
+prt(get-1, up-2)
+
+nn(button-3, stop-2)
+dobj(press-1, button-3)
+nn(player-6, cd-5)
+prep_on(press-1, player-6)
+
+nsubj(eject-2, press-1)
+
+dobj(take-1, cd-2)
+prt(take-1, out-3)
+
+amod(tray-3, cd-2)
+dobj(close-1, tray-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+prt(get-1, up-2)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0009486" url="http://forums.mikeholt.com/showthread.php?t=123100" time="2012-07-13-02:52" support="1" score="0.0005491637315535972" bingtitle="GFI Problems in Beauty Parlor - Mike Holt&apos;s Forum" webtitle="GFI Problems in Beauty Parlor">
+			<query id="001451" bing-rank="23"/>
+	<description>Two adjacent chairs are served by 3 110V receptacles on ... it trips the GFI which is part of the male end of the ... GFCI&apos;s may trip near 5.0mA measured thru (N-G) terminal.</description>
+	<body>
+		Register Help Remember Me? 
+ 
+ Forum 
+ Moderators FAQ Forum Actions 
+ Mark Forums Read 
+ Quick Links 
+ Who&apos;s Online Member List 
+ 
+ What&apos;s New? 
+ 
+ Advanced Search 
+ 
+ Forum Active Forums Business Management / Estimating GFI Problems in Beauty Parlor 
+ 
+ If this is your first visit, be sure to
+ check out the FAQ by clicking the
+ link above. You must register before you can post: click the register link above to proceed. To start viewing posts,
+ select the forum that you want to visit from the list below. Join Mike Holt on Facebook , Twitter and YouTube . 
+ Closed Thread Page 1 of 3 1 2 3 Last 
+ Jump to page: 
+ Results 1 to 10 of 27 
+Thread: GFI Problems in Beauty Parlor 
+ 
+ 
+ Thread Tools 
+
+ Show Printable Version Email this Page… Subscribe to this Thread… 
+ 
+ Search Thread 
+ 
+   Advanced Search 
+ 
+ Display 
+
+ Linear Mode Switch to Hybrid Mode Switch to Threaded Mode 
+ 
+ 
+ 02-22-10  07:45 PM #1 flashlight 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Jun 2006 Location NY, NY Posts 251 
+GFI Problems in Beauty Parlor
+ Did service call today, new hair salon.
+
+Two adjacent chairs are served by 3 110V receptacles on different phases of a 4-wire mwbc protected w/ 3 20A cb&apos;s (05 code) When they use one of their electric clippers it trips the GFI which is part of the male end of the blow dryer. It does this with different blow dryers and clippers. They are not plugged in on the same phase of the circuit.
+
+The clippers are all rather old, metal frame w/ 2-wire power supply, no ground. They don&apos;t draw more than 2 amps. There
+are 3 of them plugged into a power strip, but it seems they all can cause the tripping.
+
+Could this be some kind of induction in the neutral that is fooling the GFI into seeing an imbalance ? Typically, the blow dryers are not even on when this happens so there is no current passing through the cords.
+
+I am thinking I am going to have to get them a separate 2-wire circuit for
+the clippers.
+
+Would greatly appreciate any insight on this. Last edited by flashlight; 02-22-10 at 07:47 PM . 02-22-10  08:04 PM #2 infinity 
+ View Profile View Forum Posts Private Message 
+ Chief Moderator Join Date Jul 2003 Location New Jersey Posts 15,806 I don&apos;t see how separate neutrals will help when your 120 volt receptacles are being fed from a system that has a shared neutral. If you shut off two of the three circuits then you&apos;ll have only one circuit using that particular neutral. You&apos;ll then be able to see if it makes a difference. Rob 
+
+ Chief Moderator 02-22-10  10:17 PM #3 grasfulls 
+ View Profile View Forum Posts Private Message Visit Homepage 
+ Member Join Date Aug 2005 Location SF Bay Area, CA Posts 51 
+Leakage / Differential current flows
+ I do think running a two wire circuit may help.
+
+There is a good, though older,article in EC&amp;M written by the then VP at Pass&amp;Seymour/Legrand, here is an excerpt (I hope this is OK to post):
+&quot;Also, a differential current can result from other causes such as sharing the neutral with another ungrounded conductor or from capacitive leakage between the ungrounded circuit conductor and ground.&quot;
+Jack Wells Vice President of Corporate Development for Pass&amp;Seymour/Legrand. Copied from:
+ http://ecmweb.com/mag/electric_think_gfci/ gare
+We bring good light to things 02-23-10  06:38 AM #4 flashlight 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Jun 2006 Location NY, NY Posts 251 Originally Posted by infinity I don&apos;t see how separate neutrals will help when your 120 volt receptacles are being fed from a system that has a shared neutral. If you shut off two of the three circuits then you&apos;ll have only one circuit using that particular neutral. You&apos;ll then be able to see if it makes a difference. Rob, we can&apos;t shut off 2 of 3 circuits because they need at least 2 circuits
+to run blow dryer and clipper at the same time. 02-23-10  07:50 AM #5 Article 90.1 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Feb 2009 Posts 228 My canned answer to GFCI troubles: is it a ground fault? Sometimes the devices are actually doing their jobs. But back to the program... Have you tried removing the surge protector strip? 02-23-10  08:18 AM #6 ELA 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date May 2007 Posts 804 I do think a separate circuit could help. It sounds like the hair dryer GFCIs are sensitive to the noise generated by the clippers.
+
+Increasing the impedance between the clipper and the GFCI will reduce the noise level (if a separate circuit means longer wire lengths between the two).
+
+You might also try inserting an EMI filter on the clippers circuit to isolate the noise from other circuits. - Resistance is Futile ..... (if less than&lt;1 ohm) - 02-24-10  01:18 AM #7 DavidA 
+ View Profile View Forum Posts Private Message 
+ Member Join Date Oct 2006 Location Fresno, CA Posts 91 Yeah maybe check each receptacle individually with the clippers while the other two are de-energized. May at least help you gain a little insight into the cause of the problem. May sound silly, but are all 3 circuits really on different phases? 02-24-10  07:21 AM #8 gar 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Apr 2008 Location Ann Arbor, Michigan Posts 3,590 100224-0811 EST
+
+I concur with ELA on the probable cause. Also may imply the GFCIs are poorly designed.
+
+A simple quick test or two.
+
+Get a long extension cord and plug it in to some other source a long distance from where the blow dryers are located. This might be an outlet near the main panel. Or maybe an outlet in an adjacent business.
+
+Get a low pass noise filter, Corcom is one company. Put this filter between the outlet to which the clipper is connected, and the clipper to the output of the filter.
+
+. 02-24-10  07:36 AM #9 ramsy 
+ View Profile View Forum Posts Private Message Visit Homepage 
+ Senior Member Join Date Jul 2005 Location LA basin, CA Posts 1,150 IMHO Load current passes thru GFCI (N-G) if shared neutral is only wire with load.
+
+Simple Proof:
+1) 2.0-vac is a typical potential (N-G) for 120v receptacles with grounding.
+2) Using Ohms law W=(V*A), 6.0w = 2.0v*(3.0A clipper load) max neutral load on MWBC.
+3) 6.0w also =(120v*0.05A). GFCI&apos;s may trip near 5.0mA measured thru (N-G) terminal.
+4) (N-G) voltage&gt;2.0 may push load thru GFCI prongs, even with a measured resistance.
+
+Simple Test using LOTO/PPE. Prohibit GFCI&apos;s from measuring shared neutral loads (N-G):
+
+A) Jumper duplex prongs shorting (N-G). Test 0-vac (N-G)&amp;see if nuisance trip is fixed.
+
+B) Or, plug hair dryers at End Of Line (20A extension cord), or swap location with clippers. Neutral-load path must flow from panel without passing thru hair dryer outlet w/ GFCI&apos;s.
+
+C) Or, for 120v loads only, at panel temporarily pig tail a few hots to the same breaker. Last edited by ramsy; 02-24-10 at 07:39 AM . Roger Ramjet NoFixNoPay 02-24-10  08:17 AM #10 gar 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Apr 2008 Location Ann Arbor, Michigan Posts 3,590 100224-0859 EST
+
+ramsy:
+
+I do not understand your post.
+
+On the supply side what does the neutral to ground potential have to do with tripping the GFCI? The EGC is simply a pass thru conductor in a GFCI. Therefore, there is only a very small amount of capacitance between the EGC and any of the electronics, hot, or neutral in the GFCI.
+
+Same comment applies to neutral to EGC on the output side of the GFCI.
+
+On a Leviton 7899 the capacitance from EGC to the remainder of what is in the receptacle is about 22 pfd.
+
+Very fast large transients might be coupled thru this small 22 pfd, but then there should be noise filtering in the basic design of the GFCI, and this coupled noise, if it existed, should not be a problem.
+
+. 
+ Closed Thread Page 1 of 3 1 2 3 Last 
+ Jump to page: 
+ Quick Navigation Business Management / Estimating Top 
+ Site Areas Settings Private Messages Subscriptions Who&apos;s Online Search Forums Forums Home Forums Active Forums 
+ Business Management / Estimating Continuing Education (CEU) Electrical Calculations / Engineering Electrical Instructors Exam Preparation Grounding versus Bonding Hazardous (Classified) Locations Lighting Low Voltage and Limited Energy NEC Photovoltaic Forum Power Quality&amp;Surge Protection Proposals/Comments for the next NEC cycle Safety UL Issues 
+ Resources 
+ Mike Holt Newsletters Mike Holt YouTube Videos Mike Holt on Facebook 
+ 
+ « Previous Thread | Next Thread » 
+Bookmarks
+ 
+Bookmarks
+
+ Facebook Twitter Google StumbleUpon Digg del.icio.us 
+ 
+ Posting Permissions
+ 
+ You may not post new threads You may not post replies You may not post attachments You may not edit your posts 
+ 
+ BB code is On Smilies are On [IMG] code is On HTML code is Off 
+ 
+ Forum Rules 
+ 
+ Mike Holt Enterprises Home Page Top 
+ All times are GMT -5. The time now is 07:52 PM .
+	</body>
+</document>

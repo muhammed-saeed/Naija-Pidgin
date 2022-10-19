@@ -1,0 +1,507 @@
+prt(pick-1, up-2)
+dobj(pick-1, infant-3)
+
+nn(bottle-3, infant-2)
+dobj(offer-1, bottle-3)
+mark(hungry-5, if-4)
+dep(offer-1, hungry-5)
+
+nsubj(pat-2, gently-1)
+advmod(pat-2, back-3)
+
+prep_to(sing-1, infant-3)
+
+det(baby-3, the-2)
+dobj(shake-1, baby-3)
+advmod(shake-1, gently-4)
+
+det(baby-4, the-3)
+prep_to(sing-1, baby-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, infant-3)
+
+amod(sounds-3, soothing-2)
+dobj(make-1, sounds-3)
+prep_to(make-1, infant-5)
+
+nsubj(pat-2, gently-1)
+dobj(pat-2, infant-3)
+det(back-6, the-5)
+prep_on(pat-2, back-6)
+
+dobj(check-1, infant-2)
+amod(diaper-5, dirty-4)
+prep_for(check-1, diaper-5)
+
+nn(diaper-3, infant-2)
+dobj(change-1, diaper-3)
+mark(dirty-5, if-4)
+dep(change-1, dirty-5)
+
+amod(infant-3, feeding-2)
+dobj(try-1, infant-3)
+
+prt(pick-1, up-2)
+det(infant-4, an-3)
+dobj(pick-1, infant-4)
+
+dobj(rock-1, infant-2)
+
+prep_to(sing-1, infant-3)
+
+dobj(say-1, shhh-2)
+prep_to(say-1, infant-4)
+
+dobj(give-1, infant-2)
+dep(bottle-4, a-3)
+advmod(give-1, bottle-4)
+nsubj(needed-6, if-5)
+dep(bottle-4, needed-6)
+
+dobj(place-1, infant-2)
+prep_in(place-1, crib-4)
+
+dobj(hold-1, infant-2)
+
+det(song-4, a-2)
+amod(song-4, soothing-3)
+dobj(sing-1, song-4)
+det(infant-7, the-6)
+prep_to(sing-1, infant-7)
+
+det(infant-4, the-3)
+prep_to(talk-1, infant-4)
+
+det(infant-3, the-2)
+dobj(rock-1, infant-3)
+advmod(rock-1, gently-4)
+poss(arms-7, your-6)
+prep_in(rock-1, arms-7)
+
+det(infant-3, the-2)
+dobj(hold-1, infant-3)
+
+det(infant-3, the-2)
+dobj(pat-1, infant-3)
+mark(stops-6, until-4)
+nsubj(stops-6, it-5)
+advcl(pat-1, stops-6)
+dep(stops-6, crying-7)
+
+dobj(locate-1, infant-2)
+
+dobj(identify-1, cause-2)
+
+prep_for(seach-1, solutions-3)
+
+det(solution-4, the-2)
+amod(solution-4, best-3)
+dobj(excute-1, solution-4)
+
+aux(see-3, to-2)
+xcomp(check-1, see-3)
+mark(works-6, if-4)
+nsubj(works-6, it-5)
+advcl(see-3, works-6)
+
+amod(task-1, complete-2)
+
+det(infant-3, the-2)
+dobj(hold-1, infant-3)
+
+det(infant-3, the-2)
+dobj(pat-1, infant-3)
+
+det(infant-4, the-3)
+prep_to(talk-1, infant-4)
+det(voice-8, a-6)
+amod(voice-8, soft-7)
+prep_in(infant-4, voice-8)
+advmod(necessary-10, when-9)
+dep(talk-1, necessary-10)
+
+det(infant-3, the-2)
+dobj(hold-1, infant-3)
+conj_and(hold-1, move-5)
+advmod(move-5, slowly-6)
+
+amod(song-3, apeasing-2)
+dobj(sing-1, song-3)
+
+dobj(feed-1, infant-2)
+
+dobj(take-1, infant-2)
+poss(arms-5, your-4)
+prep_in(take-1, arms-5)
+
+amod(arms-3, swinging-2)
+dobj(start-1, arms-3)
+advmod(start-1, gently-4)
+
+det(lullaby-3, a-2)
+dobj(sing-1, lullaby-3)
+
+dobj(put-1, infant-2)
+prep_in(put-1, bed-4)
+
+dobj(pick-1, infant-2)
+prt(pick-1, up-3)
+
+dobj(rock-1, infant-2)
+
+prep_to(sing-1, infant-3)
+
+dobj(distract-1, infant-2)
+
+prt(pick-1, up-2)
+det(infant-4, the-3)
+dobj(pick-1, infant-4)
+
+det(infant-3, the-2)
+dobj(hold-1, infant-3)
+
+det(infant-3, the-2)
+dobj(rock-1, infant-3)
+advmod(rock-1, back-4)
+advmod(rock-1, forth-6)
+conj_and(back-4, forth-6)
+
+advmod(s-4, pat-1)
+det(infant-3, the-2)
+nsubj(s-4, infant-3)
+advmod(s-4, back-5)
+
+csubj(ear-9, make-1)
+det(noise-4, a-2)
+amod(noise-4, shushing-3)
+dobj(make-1, noise-4)
+det(infant-7, the-6)
+prep_into(make-1, infant-7)
+cop(ear-9, s-8)
+
+det(song-3, a-2)
+dobj(sing-1, song-3)
+det(infant-6, the-5)
+prep_to(sing-1, infant-6)
+advmod(sing-1, quietly-7)
+
+prep_to(go-1, infant-3)
+
+dobj(show-1, toy-2)
+prep_to(show-1, infant-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, infant-3)
+
+advmod(rock-2, slowly-1)
+dobj(rock-2, infant-3)
+
+det(infant-3, the-2)
+dep(pickup-1, infant-3)
+
+advmod(talk-1, soothingly-2)
+det(infant-5, the-4)
+prep_to(talk-1, infant-5)
+
+det(infant-3, the-2)
+dobj(rock-1, infant-3)
+advmod(rock-1, back-4)
+advmod(rock-1, forth-6)
+conj_and(back-4, forth-6)
+
+dobj(hold-1, infant-2)
+prep_in(hold-1, arms-4)
+
+advmod(rock-2, gently-1)
+dobj(rock-2, infant-3)
+
+nn(milk-3, infant-2)
+dobj(feed-1, milk-3)
+
+det(infant-3, the-2)
+dobj(carry-1, infant-3)
+
+det(toys-4, some-2)
+amod(toys-4, colorful-3)
+dobj(show-1, toys-4)
+det(infants-7, the-6)
+prep_to(show-1, infants-7)
+
+prt(pick-1, up-2)
+dobj(pick-1, infant-3)
+
+advmod(rock-2, slowly-1)
+dobj(rock-2, infant-3)
+advmod(rock-2, back-4)
+advmod(rock-2, forth-6)
+conj_and(back-4, forth-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, infant-3)
+
+advmod(walk-1, back-2)
+advmod(walk-1, forth-4)
+conj_and(back-2, forth-4)
+
+dobj(pat-1, infants-2)
+advmod(pat-1, back-3)
+
+
+prt(pick-1, up-2)
+dobj(pick-1, infant-3)
+
+det(infant-3, the-2)
+dobj(rock-1, infant-3)
+
+advmod(s-4, pat-1)
+det(infant-3, the-2)
+nsubj(s-4, infant-3)
+advmod(s-4, back-5)
+
+det(milk-4, the-2)
+nn(milk-4, infant-3)
+dobj(give-1, milk-4)
+
+csubj(diaper-5, change-1)
+det(infant-3, the-2)
+dobj(change-1, infant-3)
+cop(diaper-5, s-4)
+
+det(infant-3, the-2)
+dobj(coddle-1, infant-3)
+
+det(infant-4, the-3)
+prep_to(sing-1, infant-4)
+
+det(infant-3, the-2)
+dobj(rock-1, infant-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, infant-3)
+
+dobj(rock-1, infant-2)
+
+nn(pacifyer-3, infant-2)
+dobj(give-1, pacifyer-3)
+
+amod(noices-3, soothing-2)
+dobj(make-1, noices-3)
+prep_to(make-1, infant-5)
+
+dep(stops-6, hope-1)
+prep_to(hope-1, god-3)
+det(infant-5, the-4)
+nsubj(stops-6, infant-5)
+dep(stops-6, crying-7)
+advmod(crying-7, soon-8)
+
+dobj(touch-1, baby-2)
+
+dobj(check-1, temperature-2)
+
+dobj(check-1, wetness-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, baby-3)
+
+conj_and(hug-1, cradle-3)
+dobj(hug-1, baby-4)
+
+dobj(feed-1, baby-2)
+
+prt(pat-1, on-2)
+advmod(pat-1, back-3)
+dep(pat-1, steadily-4)
+prep_until(pat-1, burps-6)
+
+dobj(pick-1, baby-2)
+prt(pick-1, up-3)
+
+advmod(talk-1, soothingly-2)
+
+mark(needs-4, if-2)
+nsubj(needs-4, diaper-3)
+advcl(check-1, needs-4)
+dep(needs-4, changing-5)
+
+aux(encourage-3, to-2)
+xcomp(pat-1, encourage-3)
+dobj(encourage-3, burping-4)
+
+dobj(offer-1, breast-2)
+dep(offer-1, or-4)
+dep(or-4, bottle-5)
+
+advmod(rock-1, gently-2)
+
+
+prt(pick-1, up-2)
+dobj(pick-1, infant-3)
+
+conj_and(hold-1, love-3)
+dobj(hold-1, infant-4)
+
+prep_to(talk-1, infant-3)
+
+amod(things-3, reasuring-2)
+dobj(say-1, things-3)
+
+mark(nessecary-3, if-2)
+dep(repeat-1, nessecary-3)
+
+det(infant-3, the-2)
+dobj(picking-1, infant-3)
+prt(picking-1, up-4)
+
+dobj(holding-1, them-2)
+poss(chest-5, your-4)
+prep_to(holding-1, chest-5)
+
+poss(head-3, their-2)
+dobj(rest-1, head-3)
+poss(shoulder-6, your-5)
+prep_on(rest-1, shoulder-6)
+
+dobj(pat-1, them-2)
+det(back-5, the-4)
+prep_on(pat-1, back-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, baby-3)
+
+advmod(rub-1, back-2)
+
+dobj(walk-1, aroun-2)
+
+
+prt(pick-1, up-2)
+dobj(pick-1, baby-3)
+
+det(room-5, a-3)
+amod(room-5, quiet-4)
+prep_in(be-1, room-5)
+
+dobj(put-1, baby-2)
+prep_on(put-1, shoulder-4)
+
+nn(bottom-3, baby-2)
+dobj(pat-1, bottom-3)
+advmod(pat-1, lightly-4)
+
+advmod(sing-1, silently-2)
+
+advmod(talk-1, quietly-2)
+prep_to(talk-1, baby-4)
+
+dobj(rock-1, baby-2)
+advmod(rock-1, gently-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, infant-3)
+
+advmod(rock-2, gently-1)
+
+advmod(talk-1, softly-2)
+det(infant-5, the-4)
+prep_to(talk-1, infant-5)
+
+aux(make-3, to-2)
+xcomp(try-1, make-3)
+nn(laugh-5, infant-4)
+dobj(make-3, laugh-5)
+
+prt(pick-1, up-2)
+det(baby-4, the-3)
+dobj(pick-1, baby-4)
+
+det(baby-3, the-2)
+dobj(rock-1, baby-3)
+
+amod(sounds-3, soothing-2)
+dobj(murmur-1, sounds-3)
+
+prt(pick-1, up-2)
+det(infant-4, the-3)
+dobj(pick-1, infant-4)
+
+det(infant-3, the-2)
+dobj(hold-1, infant-3)
+poss(chest-7, your-6)
+prep_close_to(hold-1, chest-7)
+
+advmod(rock-2, gently-1)
+det(infant-4, the-3)
+dobj(rock-2, infant-4)
+
+conj_or(speak-1, sing-3)
+advmod(sing-3, softly-4)
+det(infant-7, the-6)
+prep_to(sing-3, infant-7)
+
+advmod(talk-1, quietly-2)
+
+dobj(pick-1, them-2)
+prt(pick-1, up-3)
+
+prepc_to(go-1, crying-3)
+dobj(crying-3, infant-4)
+
+dobj(wants-4, what-2)
+nsubj(wants-4, infant-3)
+ccomp(assess-1, wants-4)
+
+cop(hungry-3, is-1)
+nsubj(hungry-3, he-2)
+
+cop(wet-3, is-1)
+nsubj(wet-3, he-2)
+
+dobj(hurt-3, is-1)
+nsubj(hurt-3, he-2)
+rcmod(is-1, hurt-3)
+
+poss(toy-3, his-2)
+nsubj(fall-4, toy-3)
+ccomp(did-1, fall-4)
+
+dobj(sooth-1, infant-2)
+
+prt(pick-1, up-2)
+det(baby-4, the-3)
+dobj(pick-1, baby-4)
+
+det(baby-3, the-2)
+dobj(rock-1, baby-3)
+
+amod(sounds-3, soothing-2)
+dobj(murmer-1, sounds-3)
+
+prt(walk-1, over-2)
+prep_to(walk-1, crib-4)
+advmod(is-7, where-5)
+rel(is-7, where-5)
+nsubj(is-7, infant-6)
+rcmod(crib-4, is-7)
+
+prt(reach-1, down-2)
+prep_to(reach-1, infant-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, infant-3)
+
+dobj(rock-1, infant-2)
+advmod(rock-1, gently-3)
+
+prep_to(sing-1, infant-3)
+
+prep_for(wait-1, infant-3)
+aux(fall-5, to-4)
+xcomp(wait-1, fall-5)
+advmod(fall-5, back-6)
+advmod(fall-5, asleep-7)
+
+dobj(place-1, infant-2)
+advmod(place-1, back-3)
+prep_into(place-1, crib-5)
+

@@ -1,0 +1,418 @@
+det(charger-3, the-2)
+dobj(examine-1, charger-3)
+aux(see-5, to-4)
+infmod(charger-3, see-5)
+advmod(goes-10, where-6)
+det(side-9, the-7)
+amod(side-9, positive-8)
+nsubj(goes-10, side-9)
+advcl(see-5, goes-10)
+
+det(battery-3, the-2)
+dobj(place-1, battery-3)
+advmod(place-1, accordingly-4)
+det(charger-7, the-6)
+prep_into(place-1, charger-7)
+
+det(opening-3, the-2)
+dobj(locate-1, opening-3)
+det(object-6, the-5)
+prep_on(opening-3, object-6)
+aux(charged-9, to-7)
+auxpass(charged-9, be-8)
+infmod(object-6, charged-9)
+
+prt(turn-1, off-2)
+det(charger-4, the-3)
+dobj(turn-1, charger-4)
+
+det(end-4, the-3)
+prep_in(plug-1, end-4)
+det(cable-8, the-6)
+amod(cable-8, charger-7)
+prep_of(end-4, cable-8)
+det(object-11, the-10)
+prep_into(plug-1, object-11)
+
+det(charger-4, the-3)
+prep_on(turn-1, charger-4)
+
+det(battery-3, the-2)
+dobj(getting-1, battery-3)
+
+det(charger-3, the-2)
+dobj(getting-1, charger-3)
+
+det(charger-3, the-2)
+dobj(connecting-1, charger-3)
+det(source-7, a-5)
+nn(source-7, power-6)
+prep_to(connecting-1, source-7)
+
+det(battery-3, the-2)
+dobj(connecting-1, battery-3)
+det(charger-6, the-5)
+prep_to(connecting-1, charger-6)
+
+det(battery-3, the-2)
+dobj(take-1, battery-3)
+
+det(battery-3, the-2)
+dobj(put-1, battery-3)
+det(charger-6, the-5)
+prep_into(put-1, charger-6)
+
+dobj(get-1, batter-2)
+
+dobj(get-1, charger-2)
+
+dobj(put-1, battery-2)
+prep_into(put-1, charger-4)
+
+dobj(plug-1, charger-2)
+nn(outlet-5, power-4)
+prep_into(plug-1, outlet-5)
+
+det(direction-4, what-3)
+dep(has-7, direction-4)
+det(battery-6, the-5)
+nsubj(has-7, battery-6)
+xsubj(go-9, battery-6)
+prepc_in(identify-1, has-7)
+aux(go-9, to-8)
+xcomp(has-7, go-9)
+det(charger-12, the-11)
+prep_into(go-9, charger-12)
+
+det(battery-3, the-2)
+dobj(push-1, battery-3)
+det(charger-6, the-5)
+prep_into(push-1, charger-6)
+
+det(battery-3, the-2)
+dobj(take-1, battery-3)
+
+det(battery-3, the-2)
+dobj(place-1, battery-3)
+det(position-7, the-5)
+amod(position-7, correct-6)
+prep_in(place-1, position-7)
+
+det(battery-3, the-2)
+dobj(put-1, battery-3)
+det(slot-6, the-5)
+prep_into(put-1, slot-6)
+det(charger-9, the-8)
+prep_of(slot-6, charger-9)
+
+dobj(fetch-1, battery-2)
+
+dobj(insert-1, battery-2)
+prep_into(insert-1, charger-4)
+
+det(battery-4, the-3)
+prep_for(search-1, battery-4)
+
+det(charger-4, the-3)
+prep_for(search-1, charger-4)
+
+det(battery-3, the-2)
+dobj(put-1, battery-3)
+det(charger-6, the-5)
+prep_on(put-1, charger-6)
+
+det(charger-4, the-3)
+prep_in(plug-1, charger-4)
+
+det(charger-3, the-2)
+dobj(connect-1, charger-3)
+prep_with(connect-1, battery-5)
+
+dobj(take-1, battery-2)
+prep_out_of(take-1, device-5)
+
+dobj(put-1, battery-2)
+prep_in(put-1, charger-4)
+
+dobj(plug-1, charger-2)
+prep_into(plug-1, wall-4)
+
+dobj(put-1, battery-2)
+det(charger-5, the-4)
+prep_into(put-1, charger-5)
+
+dobj(locate-1, battery-2)
+
+dobj(remove-1, battery-2)
+
+prep_in(plug-1, charger-3)
+det(outlet-8, a-5)
+amod(outlet-8, functioning-6)
+amod(outlet-8, electrical-7)
+prep_to(plug-1, outlet-8)
+
+dobj(insert-1, battery-2)
+prep_into(insert-1, charger-4)
+
+dobj(place-1, battery-2)
+prep_into(place-1, charger-4)
+
+dobj(plug-1, charger-2)
+prep_into(plug-1, wall-4)
+
+dobj(take-1, battery-2)
+
+dobj(take-1, charger-2)
+
+dobj(place-1, battery-2)
+prep_into(place-1, slot-4)
+prep_on(place-1, charger-6)
+
+dobj(open-1, charger-2)
+
+dobj(place-1, battery-2)
+prep_in(place-1, charger-4)
+
+dobj(close-1, charger-2)
+
+prep_in(plug-1, charger-3)
+
+prep_in(plug-1, charger-3)
+
+amod(lid-3, charger-2)
+dobj(open-1, lid-3)
+
+dobj(insert-1, battery-2)
+
+dobj(close-1, lid-2)
+
+dobj(find-1, charger-2)
+
+dobj(get-1, battery-2)
+
+dobj(bring-1, battery-2)
+dobj(bring-1, charger-4)
+conj_and(battery-2, charger-4)
+advmod(bring-1, together-5)
+
+dobj(remove-1, battery-2)
+prep_from(remove-1, device-4)
+
+dobj(put-1, battery-2)
+prep_into(put-1, charger-4)
+
+dobj(plug-1, charger-2)
+prep_into(plug-1, wall-4)
+
+advmod(full-5, when-2)
+nsubj(full-5, battery-3)
+cop(full-5, is-4)
+advcl(remove-1, full-5)
+
+dobj(hold-1, battery-2)
+
+dobj(hold-1, charger-2)
+
+dobj(put-1, battery-2)
+prep_on(put-1, chargerpush-4)
+advmod(put-1, firmly-5)
+
+dobj(get-1, charger-2)
+
+dobj(put-1, battery-2)
+prep_in(put-1, charger-4)
+
+prep_on(turn-1, charger-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, battery-3)
+
+dobj(place-1, battery-2)
+prep_on(place-1, charger-4)
+amod(place-7, proper-6)
+prep_at(place-1, place-7)
+
+acomp(make-1, sure-2)
+nn(charger-4, battery-3)
+nsubjpass(hooked-6, charger-4)
+auxpass(hooked-6, is-5)
+ccomp(sure-2, hooked-6)
+det(socket-10, a-8)
+nn(socket-10, wall-9)
+prep_into(hooked-6, socket-10)
+advmod(hooked-6, properly-11)
+
+det(charger-4, the-2)
+nn(charger-4, battery-3)
+nsubj(charge-5, charger-4)
+ccomp(let-1, charge-5)
+det(battery-7, the-6)
+dobj(charge-5, battery-7)
+
+dobj(remove-1, batteries-2)
+prep_from(remove-1, device-4)
+
+prep_in(place-1, charger-3)
+
+dobj(plug-1, charger-2)
+prep(plug-1, in-3)
+
+dobj(let-1, charge-2)
+
+dobj(remove-1, batteries-2)
+
+prt(line-1, up-2)
+dobj(line-1, positive-3)
+dobj(line-1, negative-5)
+conj_and(positive-3, negative-5)
+
+dobj(insert-1, battery-2)
+
+prep_in(plug-1, charger-3)
+
+prep_on(turn-1, charger-3)
+
+nn(light-4, indicator-3)
+prep_for(wait-1, light-4)
+
+dobj(remove-1, batteries-2)
+
+dobj(unplug-1, charger-2)
+
+dobj(remove-1, battery-2)
+prep_from(remove-1, device-4)
+
+prep_in(place-1, charger-3)
+
+dobj(plug-1, charger-2)
+det(outlet-5, an-4)
+prep_in(plug-1, outlet-5)
+
+dobj(place-1, battery-2)
+amod(slot-5, appropriate-4)
+prep_into(place-1, slot-5)
+prep_on(place-1, charger-7)
+
+dobj(turn-1, switch-2)
+amod(size-8, charger-4)
+amod(battery-7, appropriate-6)
+prep_to(charger-4, battery-7)
+prep_on(turn-1, size-8)
+prep_on(turn-1, type-10)
+conj_and(size-8, type-10)
+
+dobj(plug-1, charger-2)
+prep_into(plug-1, outlet-4)
+conj_and(plug-1, turn-6)
+dobj(turn-6, it-7)
+prt(turn-6, on-8)
+
+dobj(plag-1, it-2)
+prep(plag-1, in-3)
+prep_to(plag-1, outlet-5)
+
+dobj(put-1, battery-2)
+prep_into(put-1, changer-4)
+
+dobj(remove-1, battery-2)
+prep_from(remove-1, package-4)
+
+dobj(locate-1, charger-2)
+
+dobj(remove-1, battery-2)
+prep_from(remove-1, package-4)
+
+dobj(locate-1, charger-2)
+
+dobj(plug-1, battery-2)
+advmod(plug-1, directly-3)
+prep_into(plug-1, charger-5)
+
+acomp(make-1, sure-2)
+nsubj(secure-5, it-3)
+nsubj(working-7, it-3)
+cop(secure-5, is-4)
+ccomp(sure-2, secure-5)
+ccomp(sure-2, working-7)
+conj_and(secure-5, working-7)
+
+dobj(remove-1, battery-2)
+prep_from(remove-1, package-4)
+
+dobj(locate-1, charger-2)
+
+dobj(remove-1, battery-2)
+prep_from(remove-1, package-4)
+
+dobj(locate-1, charger-2)
+
+dobj(plug-1, battery-2)
+advmod(plug-1, directly-3)
+prep_into(plug-1, charger-5)
+
+acomp(make-1, sure-2)
+nsubj(secure-5, it-3)
+nsubj(working-7, it-3)
+cop(secure-5, is-4)
+ccomp(sure-2, secure-5)
+ccomp(sure-2, working-7)
+conj_and(secure-5, working-7)
+
+dobj(remove-1, battery-2)
+prep_from(remove-1, package-4)
+
+dobj(locate-1, charger-2)
+
+dobj(remove-1, battery-2)
+prep_from(remove-1, package-4)
+
+dobj(locate-1, charger-2)
+
+dobj(plug-1, battery-2)
+advmod(plug-1, directly-3)
+prep_into(plug-1, charger-5)
+
+acomp(make-1, sure-2)
+nsubj(secure-5, it-3)
+nsubj(working-7, it-3)
+cop(secure-5, is-4)
+ccomp(sure-2, secure-5)
+ccomp(sure-2, working-7)
+conj_and(secure-5, working-7)
+
+dobj(plug-1, charger-2)
+nn(socket-5, wall-4)
+prep_into(plug-1, socket-5)
+
+dobj(get-1, battery-2)
+
+dobj(plug-1, battery-2)
+prep_into(plug-1, charger-4)
+
+prep_in(plug-1, charger-3)
+
+amod(battery-3, dead-2)
+dobj(get-1, battery-3)
+
+amod(battery-3, dead-2)
+dobj(put-1, battery-3)
+prep_in(put-1, charger-5)
+
+amod(batteries-3, charged-2)
+dobj(remove-1, batteries-3)
+prep_from(remove-1, charger-5)
+
+amod(batteries-3, dead-2)
+dobj(put-1, batteries-3)
+prep_in(put-1, charger-5)
+
+nn(charger-4, battery-3)
+prep_in(plug-1, charger-4)
+
+dobj(remove-1, battery-2)
+
+dobj(place-1, battery-2)
+prep_in(place-1, charger-4)
+
+prep_in(plug-1, wall-3)
+

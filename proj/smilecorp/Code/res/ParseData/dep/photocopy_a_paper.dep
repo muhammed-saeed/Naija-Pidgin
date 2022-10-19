@@ -1,0 +1,741 @@
+dobj(place-1, paper-2)
+aux(copied-5, to-3)
+auxpass(copied-5, be-4)
+xcomp(place-1, copied-5)
+nn(glass-8, photocopier-7)
+prep_on(copied-5, glass-8)
+
+dobj(close-1, lid-2)
+
+det(photocopier-3, a-2)
+dobj(find-1, photocopier-3)
+
+amod(lid-3, photocopier-2)
+dobj(open-1, lid-3)
+
+nn(face-down-3, paper-2)
+dobj(place-1, face-down-3)
+amod(glass-6, photocopier-5)
+prep_on(place-1, glass-6)
+
+amod(lid-3, photocopier-2)
+dobj(close-1, lid-3)
+
+nsubj(copy-2, press-1)
+dobj(copy-2, button-3)
+
+det(machine-5, a-3)
+amod(machine-5, xerox-4)
+prep_to(go-1, machine-5)
+
+dobj(place-1, paper-2)
+det(copier-5, the-4)
+prep_on(place-1, copier-5)
+
+det(number-3, the-2)
+dobj(enter-1, number-3)
+prep_of(number-3, copies-5)
+partmod(copies-5, desired-6)
+
+det(button-4, the-2)
+nn(button-4, start-3)
+dobj(press-1, button-4)
+
+det(copies-3, the-2)
+dobj(collect-1, copies-3)
+
+det(paper-3, the-2)
+dobj(remove-1, paper-3)
+det(copier-6, the-5)
+prep_from(remove-1, copier-6)
+
+det(lid-3, the-2)
+dobj(open-1, lid-3)
+det(copier-6, the-5)
+prep_of(lid-3, copier-6)
+
+aux(face-8, put-1)
+det(paper-3, the-2)
+nsubj(face-8, paper-3)
+det(bed-7, the-5)
+amod(bed-7, scanning-6)
+prep_on(paper-3, bed-7)
+prt(face-8, down-9)
+
+det(lid-3, the-2)
+dobj(close-1, lid-3)
+det(copier-6, the-5)
+prep_of(lid-3, copier-6)
+
+det(button-6, the-2)
+nn(button-6, copy-4)
+dobj(press-1, button-6)
+
+nsubj(photocopy-3, the-2)
+ccomp(approach-1, photocopy-3)
+dobj(photocopy-3, machine-4)
+
+det(paper-3, the-2)
+dobj(place-1, paper-3)
+det(glass-6, the-5)
+prep_on(place-1, glass-6)
+
+det(lid-4, the-2)
+nn(lid-4, machine-3)
+dobj(close-1, lid-4)
+
+det(number-3, the-2)
+dobj(select-1, number-3)
+amod(copies-6, desired-5)
+prep_of(number-3, copies-6)
+
+det(button-4, the-2)
+nn(button-4, start-3)
+dobj(press-1, button-4)
+
+det(copies-3, the-2)
+dobj(collect-1, copies-3)
+
+det(original-3, the-2)
+dobj(retrieve-1, original-3)
+
+dobj(get-1, paper-2)
+
+csubj(do-4, for-1)
+det(page-3, each-2)
+pobj(for-1, page-3)
+
+dobj(place-1, page-2)
+prep_onto(place-1, photocopier-4)
+
+nsubj(copy-2, press-1)
+dobj(copy-2, button-3)
+
+dobj(collect-1, copies-2)
+
+dobj(get-1, paper-2)
+
+prep_to(go-1, photocopier-3)
+
+det(page-3, each-2)
+pobj(for-1, page-3)
+
+prep_on(place-1, photocopier-3)
+
+nsubj(copy-2, press-1)
+dobj(copy-2, button-3)
+
+det(pages-4, no-2)
+amod(pages-4, more-3)
+pobj(until-1, pages-4)
+
+dobj(remove-1, copies-2)
+
+det(paper-3, the-2)
+dobj(take-1, paper-3)
+aux(photocopy-6, to-4)
+advmod(photocopy-6, the-5)
+xcomp(take-1, photocopy-6)
+dobj(photocopy-6, machine-7)
+
+det(paper-3, the-2)
+dobj(put-1, paper-3)
+det(platform-7, the-5)
+amod(platform-7, scanning-6)
+prep_on(put-1, platform-7)
+dep(put-1, facing-8)
+prt(facing-8, down-9)
+
+det(lid-3, the-2)
+dobj(close-1, lid-3)
+det(platform-7, the-5)
+amod(platform-7, scanning-6)
+prep_above(lid-3, platform-7)
+
+det(button-6, the-2)
+nn(button-6, copy-4)
+dobj(press-1, button-6)
+
+dobj(take-1, paper-2)
+aux(photocopy-4, to-3)
+xcomp(take-1, photocopy-4)
+dobj(photocopy-4, machine-5)
+
+dobj(remove-1, staples-2)
+mark(any-4, if-3)
+dep(remove-1, any-4)
+
+dobj(put-1, paper-2)
+advmod(put-1, inside-3)
+dep(put-1, photocopy-4)
+dobj(photocopy-4, machine-5)
+
+dobj(press-1, copy-2)
+
+dobj(collect-1, copy-2)
+dobj(collect-1, original-4)
+conj_and(copy-2, original-4)
+
+dobj(bring-1, paper-2)
+aux(photocopy-4, to-3)
+xcomp(bring-1, photocopy-4)
+dobj(photocopy-4, machine-5)
+
+prep_for(do-4, each-2)
+nsubj(do-4, page-3)
+
+nn(area-4, page-2)
+nn(area-4, overphotocopy-3)
+dobj(place-1, area-4)
+
+dobj(press-1, copy-2)
+
+prep_for(wait-1, machine-3)
+aux(copy-5, to-4)
+xcomp(wait-1, copy-5)
+dobj(copy-5, page-6)
+
+amod(page-4, next-3)
+prep_to(proceed-1, page-4)
+
+dobj(collect-1, copies-2)
+
+det(photocopier-3, a-2)
+dobj(locate-1, photocopier-3)
+
+det(photocopier-4, the-3)
+prep_to(move-1, photocopier-4)
+
+det(paper-3, the-2)
+dobj(place-1, paper-3)
+aux(copy-5, to-4)
+infmod(paper-3, copy-5)
+det(device-10, the-9)
+prep_on_top_of(copy-5, device-10)
+
+det(machine-5, the-3)
+nn(machine-5, copy-4)
+prep_to(indicate-1, machine-5)
+advmod(make-10, how-6)
+amod(copies-8, many-7)
+nsubj(make-10, copies-8)
+aux(make-10, to-9)
+ccomp(indicate-1, make-10)
+xcomp(indicate-1, make-10)
+
+det(process-4, the-2)
+nn(process-4, copying-3)
+dobj(initiate-1, process-4)
+
+dobj(put-1, paper-2)
+nn(face-5, copier-4)
+prep_on(put-1, face-5)
+prep(put-1, down-6)
+
+nn(button-3, copy-2)
+dobj(push-1, button-3)
+
+prep_for(wait-1, copy-3)
+aux(come-5, to-4)
+xcomp(wait-1, come-5)
+prt(come-5, out-6)
+
+prt(pick-1, up-2)
+det(paper-4, the-3)
+dobj(pick-1, paper-4)
+
+det(photocopier-3, a-2)
+dobj(find-1, photocopier-3)
+
+det(photocopier-4, the-3)
+prep_to(move-1, photocopier-4)
+
+csubj(glass-9, place-1)
+det(face-down-4, the-2)
+nn(face-down-4, paper-3)
+dobj(place-1, face-down-4)
+det(photocopier-7, the-6)
+prep_on(place-1, photocopier-7)
+cop(glass-9, s-8)
+
+det(button-4, the-2)
+nn(button-4, copy-3)
+dobj(prss-1, button-4)
+det(photocopier-7, the-6)
+prep_on(prss-1, photocopier-7)
+
+nn(copier-4, photo-3)
+prep_to(go-1, copier-4)
+
+dobj(put-1, paper-2)
+nn(plate-5, glass-4)
+prep_on(put-1, plate-5)
+
+nsubj(copy-2, press-1)
+dobj(copy-2, button-3)
+
+amod(paper-3, original-2)
+dobj(retrieve-1, paper-3)
+dobj(retrieve-1, copy-5)
+conj_and(paper-3, copy-5)
+
+dobj(place-1, paper-2)
+amod(tray-6, photocopier-4)
+nn(tray-6, input-5)
+prep_in(place-1, tray-6)
+
+nn(button-3, print-2)
+dobj(press-1, button-3)
+
+dobj(get-1, paper-2)
+
+amod(door-3, photocopier-2)
+dobj(open-1, door-3)
+
+dobj(place-1, paper-2)
+prep_on(place-1, glass-4)
+prep_along(place-1, edge-6)
+
+amod(button-3, green-2)
+dobj(press-1, button-3)
+
+dobj(retrieve-1, papers-2)
+
+det(copier-4, the-3)
+prep_to(go-1, copier-4)
+
+det(lid-3, the-2)
+dobj(raise-1, lid-3)
+
+dobj(put-1, paper-2)
+nn(plate-5, glass-4)
+prep_on(put-1, plate-5)
+
+dobj(close-1, lid-2)
+
+nsubj(copy-2, press-1)
+dobj(copy-2, button-3)
+
+dobj(remove-1, paper-2)
+nn(plate-5, glass-4)
+prep_from(remove-1, plate-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, copy-3)
+
+nsubj(photocopy-3, the-2)
+ccomp(turn-1, photocopy-3)
+dobj(photocopy-3, machine-4)
+prt(photocopy-3, on-5)
+
+det(paper-3, the-2)
+dobj(get-1, paper-3)
+
+dobj(open-1, photocopier-2)
+
+det(page-3, each-2)
+dobj(copy-1, page-3)
+
+dobj(close-1, copier-2)
+
+amod(paper-3, copied-2)
+dobj(get-1, paper-3)
+
+dobj(put-1, paper-2)
+prep_in(put-1, copier-4)
+
+dobj(select-1, amount-2)
+prep_of(amount-2, copies-4)
+
+nn(button-3, copy-2)
+dobj(push-1, button-3)
+
+dobj(retrieve-1, copies-2)
+
+dobj(retrieve-1, originals-2)
+
+dobj(place-1, paper-2)
+prep_in(place-1, photocopier-4)
+
+dobj(press-1, copy-2)
+
+dobj(open-1, top-2)
+prep_of(top-2, photocopier-4)
+
+dobj(place-1, paper-2)
+aux(copied-5, to-3)
+auxpass(copied-5, be-4)
+xcomp(place-1, copied-5)
+dobj(copied-5, facedown-6)
+det(glass-9, the-8)
+prep_on(copied-5, glass-9)
+
+dobj(close-1, top-2)
+prep_of(top-2, photocopier-4)
+
+nn(settings-3, photocopier-2)
+dobj(adjust-1, settings-3)
+
+nn(button-5, copy-3)
+dobj(press-1, button-5)
+
+dobj(remove-1, copy-2)
+prep_from(remove-1, tray-4)
+
+dobj(remove-1, original-2)
+prep_from(remove-1, photocopier-4)
+
+dobj(ppace-1, paper-2)
+prepc_of(paper-2, photocopy-4)
+dobj(photocopy-4, machine-5)
+
+nsubj(copy-2, press-1)
+dobj(copy-2, button-3)
+
+prt(pick-1, up-2)
+det(paper-4, the-3)
+dobj(pick-1, paper-4)
+
+det(photocopier-4, the-3)
+prep_to(go-1, photocopier-4)
+
+det(paper-3, the-2)
+dobj(put-1, paper-3)
+det(photocopier-6, the-5)
+prep_in(put-1, photocopier-6)
+
+det(button-4, the-2)
+nn(button-4, copy-3)
+dobj(press-1, button-4)
+
+dobj(insert-1, paper-2)
+prep_into(insert-1, feeder-4)
+
+dobj(select-1, number-2)
+prep_of(number-2, coppies-4)
+
+nn(upside-down-3, paper-2)
+dobj(put-1, upside-down-3)
+prep_on(put-1, glass-5)
+
+dobj(close-1, cover-2)
+
+nsubj(button-6, the-2)
+poss(button-6, 1-4)
+ccomp(press-1, button-6)
+
+dobj(press-1, start-3)
+
+det(paper-3, the-2)
+dobj(take-1, paper-3)
+dep(take-1, and-4)
+dep(take-1, copy-5)
+prt(copy-5, out-6)
+
+det(paper-3, the-2)
+dobj(locate-1, paper-3)
+
+det(paper-3, the-2)
+dobj(place-1, paper-3)
+det(glass-6, the-5)
+prep_on(place-1, glass-6)
+det(lid-9, the-8)
+prep_under(place-1, lid-9)
+det(copier-12, the-11)
+prep_of(lid-9, copier-12)
+
+det(number-3, the-2)
+dobj(press-1, number-3)
+prep_of(number-3, copies-5)
+
+det(button-5, the-2)
+amod(button-5, green-3)
+nn(button-5, start-4)
+dobj(press-1, button-5)
+
+det(piece-3, a-2)
+dobj(put-1, piece-3)
+prep_of(piece-3, paper-5)
+det(copier-8, the-7)
+prep_on(put-1, copier-8)
+
+det(copier-3, the-2)
+dobj(close-1, copier-3)
+
+det(button-4, the-2)
+nn(button-4, copy-3)
+dobj(press-1, button-4)
+
+det(copy-3, the-2)
+dobj(get-1, copy-3)
+
+det(copier-3, the-2)
+dobj(open-1, copier-3)
+
+det(original-3, the-2)
+dobj(remove-1, original-3)
+det(copier-6, the-5)
+prep_from(remove-1, copier-6)
+
+det(copier-3, the-2)
+dobj(close-1, copier-3)
+
+amod(lid-3, photocopier-2)
+dobj(lift-1, lid-3)
+
+dobj(place-1, paper-2)
+prep_on(place-1, glass-4)
+
+dobj(align-1, paper-2)
+
+amod(lid-3, photocopier-2)
+dobj(close-1, lid-3)
+
+nn(size-3, paper-2)
+dobj(select-1, size-3)
+
+dobj(select-1, number-2)
+prep_of(number-2, copies-4)
+
+nn(copy-2, press-1)
+nsubj(start-3, copy-2)
+dobj(start-3, button-4)
+
+amod(lid-3, photocopier-2)
+dobj(open-1, lid-3)
+
+nn(face-3, paper-2)
+dobj(place-1, face-3)
+prt(place-1, down-4)
+prep_onto(place-1, copier-6)
+
+nn(lid-3, copier-2)
+dobj(close-1, lid-3)
+
+nsubj(copy-2, press-1)
+dobj(copy-2, button-3)
+
+amod(lid-3, coppier-2)
+dobj(open-1, lid-3)
+
+dobj(remove-1, paper-2)
+amod(lid-5, close-4)
+dobj(remove-1, lid-5)
+conj_and(paper-2, lid-5)
+
+prt(pick-1, up-2)
+amod(sheet-4, copied-3)
+dobj(pick-1, sheet-4)
+
+dobj(fill-1, photocopier-2)
+prep_with(fill-1, toner-4)
+prep_with(fill-1, paper-6)
+conj_and(toner-4, paper-6)
+
+prep_in(plug-1, photocopier-3)
+conj_and(plug-1, turn-5)
+prt(turn-5, on-6)
+
+det(item-3, the-2)
+dobj(put-1, item-3)
+nsubj(needs-5, item-3)
+rcmod(item-3, needs-5)
+aux(scanned-8, to-6)
+auxpass(scanned-8, be-7)
+xcomp(needs-5, scanned-8)
+nn(scanner-11, glass-10)
+prep_on(scanned-8, scanner-11)
+
+dep(press-1, scan-2)
+prep_on(scan-2, photocopier-4)
+
+dobj(allow-1, photocopier-2)
+aux(make-4, to-3)
+xcomp(allow-1, make-4)
+dobj(make-4, copies-5)
+
+dobj(get-1, paper-2)
+
+dobj(open-1, lid-2)
+prep_on(open-1, copier-4)
+
+dobj(place-1, paper-2)
+prep_on(place-1, photocopier-4)
+
+dobj(close-1, lid-2)
+prep_on(close-1, photocopier-4)
+
+dobj(select-1, number-2)
+prep_of(number-2, copies-4)
+
+nsubj(copy-2, press-1)
+dobj(copy-2, button-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, copies-3)
+
+amod(lid-3, photocopier-2)
+dobj(open-1, lid-3)
+
+dobj(place-1, paper-2)
+prep_on(place-1, glass-4)
+
+amod(lid-3, photocopier-2)
+dobj(close-1, lid-3)
+
+nsubj(copy-2, press-1)
+dobj(copy-2, button-3)
+
+dobj(take-1, document-2)
+
+prep_on(lay-1, potocopier-3)
+
+dobj(press-1, copy-2)
+
+dobj(insert-1, paper-2)
+prep_into(insert-1, feeder-4)
+
+dobj(select-1, quantity-2)
+
+nn(size-3, paper-2)
+dobj(select-1, size-3)
+
+aux(sided-6, select-1)
+advmod(sided-3, double-2)
+nsubj(sided-6, sided-3)
+conj_or(sided-3, single-5)
+nsubj(sided-6, single-5)
+
+amod(features-3, select-1)
+amod(features-3, additional-2)
+nsubj(punched-7, features-3)
+amod(features-3, stapling-4)
+amod(features-3, hole-6)
+conj_or(stapling-4, hole-6)
+
+nsubj(start-2, press-1)
+dobj(start-2, button-3)
+
+dobj(collect-1, copy-2)
+dobj(collect-1, original-4)
+conj_and(copy-2, original-4)
+
+dobj(insert-1, coins-2)
+prep_into(insert-1, machine-4)
+
+dobj(place-1, paper-2)
+prep_onto(place-1, glass-4)
+
+nn(settings-5, quantity-2)
+conj_and(quantity-2, quality-4)
+nn(settings-5, quality-4)
+dobj(select-1, settings-5)
+
+dobj(close-1, door-2)
+
+dobj(press-1, copy-2)
+
+amod(copy-3, new-2)
+dobj(take-1, copy-3)
+prep_of(copy-3, sheet-5)
+
+dobj(place-1, document-2)
+prep_on(place-1, copier-4)
+
+nsubj(copy-2, press-1)
+dobj(copy-2, button-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, piece-3)
+prep_up(pick-1, paper-5)
+
+nsubj(pop-2, open-1)
+prt(pop-2, up-3)
+dobj(pop-2, lid-4)
+
+dobj(place-1, paper-2)
+prep_on(place-1, glass-4)
+
+nsubj(pop-2, close-1)
+prt(pop-2, up-3)
+dobj(pop-2, lid-4)
+
+prep_on(turn-1, photocopier-3)
+
+dobj(select-1, number-2)
+prep_of(number-2, copies-4)
+
+amod(button-3, green-2)
+dobj(press-1, button-3)
+
+dobj(find-1, paper-2)
+
+prep_in(put-1, photocopier-3)
+
+dobj(pick-1, number-2)
+prep_of(number-2, copies-4)
+
+acomp(pick-1, black-2)
+
+dobj(pick-1, size-2)
+prep_of(size-2, paper-4)
+
+
+dobj(place-1, paper-2)
+prep_on(place-1, copier-4)
+
+nn(lid-3, copier-2)
+dobj(close-1, lid-3)
+
+nn(size-3, paper-2)
+dobj(choose-1, size-3)
+
+nn(settings-3, copy-2)
+dobj(choose-1, settings-3)
+
+dobj(push-1, copy-2)
+
+iobj(pick-1, settings-2)
+amod(number-4, \/-3)
+dobj(pick-1, number-4)
+prep_of(number-4, copies-6)
+
+dobj(align-1, picture-2)
+dobj(want-4, picture-2)
+nsubj(want-4, you-3)
+rcmod(picture-2, want-4)
+dep(want-4, copied-5)
+
+dobj(close-1, lid-2)
+
+nsubj(start-2, press-1)
+
+prep_for(wait-1, copy-3)
+
+dobj(lift-1, lid-2)
+
+prt(take-1, out-2)
+dobj(take-1, picture-3)
+
+dobj(place-1, paper-2)
+prep_on(place-1, copier-4)
+
+dobj(close-1, lid-2)
+
+dobj(press-1, copy-2)
+
+dobj(remove-1, paper-2)
+
+prt(start-1, up-2)
+det(machine-4, the-3)
+dobj(start-1, machine-4)
+
+dobj(get-1, paper-2)
+
+dobj(put-1, paper-2)
+prep_in(put-1, machine-4)
+
+dobj(press-1, copy-2)
+
+dobj(get-1, copys-2)
+

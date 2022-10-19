@@ -1,0 +1,663 @@
+iobj(give-1, plants-2)
+dobj(give-1, water-3)
+
+iobj(give-1, plants-2)
+nn(nutrients-4, mineral-3)
+dobj(give-1, nutrients-4)
+
+dobj(place-1, plants-2)
+prep_in(place-1, light-4)
+
+conj_and(preen-1, cut-3)
+amod(parts-5, dead-4)
+dobj(cut-3, parts-5)
+
+dobj(examine-1, plants-2)
+advmod(examine-1, daily-3)
+
+amod(plants-3, dry-2)
+dobj(water-1, plants-3)
+
+dobj(expose-1, plants-2)
+prep_to(expose-1, sunlight-4)
+advmod(expose-1, daily-5)
+
+amod(leaves-3, dry-2)
+dobj(remove-1, leaves-3)
+
+dobj(put-1, water-2)
+prep_in(put-1, plant-4)
+
+dobj(water-1, plants-2)
+
+amod(leaves-3, old-2)
+dobj(remove-1, leaves-3)
+
+dobj(water-1, plants-2)
+
+dobj(keep-1, plants-2)
+prep_in(keep-1, sun-4)
+
+det(plants-3, the-2)
+dobj(keep-1, plants-3)
+det(amount-7, the-5)
+amod(amount-7, correct-6)
+prep_in(keep-1, amount-7)
+prep_of(amount-7, sunlight-9)
+
+det(plants-3, the-2)
+dobj(water-1, plants-3)
+advmod(needed-5, as-4)
+amod(plants-3, needed-5)
+
+acomp(make-1, sure-2)
+det(plants-4, the-3)
+nsubj(are-5, plants-4)
+ccomp(sure-2, are-5)
+amod(soil-8, enough-7)
+prep_in(are-5, soil-8)
+
+dobj(observe-1, state-2)
+prep_of(state-2, plants-4)
+
+dep(dry-2, if-1)
+dobj(dry-2, water-3)
+
+amod(leaves-3, old-2)
+dobj(remove-1, leaves-3)
+
+dobj(add-1, soil-2)
+mark(needed-4, if-3)
+dep(add-1, needed-4)
+
+det(plant-3, each-2)
+pobj(for-1, plant-3)
+
+dobj(water-1, plant-2)
+
+amod(leaves-3, old-2)
+dobj(remove-1, leaves-3)
+
+amod(soil-3, more-2)
+dobj(put-1, soil-3)
+prep_in(put-1, pot-5)
+nsubj(needed-7, if-6)
+rcmod(pot-5, needed-7)
+
+dobj(water-1, plants-2)
+
+amod(leaves-3, dead-2)
+dobj(remove-1, leaves-3)
+
+dobj(add-1, soil-2)
+mark(needed-4, if-3)
+dep(add-1, needed-4)
+
+det(instructions-4, the-2)
+nn(instructions-4, care-3)
+dobj(read-1, instructions-4)
+prep_on(read-1, label-6)
+
+advmod(water-1, often-2)
+
+amod(position-4, sunny-3)
+prep_in(place-1, position-4)
+
+prep_out_of(place-1, drafts-4)
+
+amod(sunlight-5, direct-4)
+prep_out_of(place-1, sunlight-5)
+
+advmod(feed-1, often-2)
+dep(often-2, in-3)
+det(summer-5, the-4)
+pobj(in-3, summer-5)
+advmod(often-8, less-7)
+advmod(feed-1, often-8)
+conj_and(often-2, often-8)
+det(winter-11, the-10)
+prep_in(feed-1, winter-11)
+
+dobj(water-1, plants-2)
+
+dobj(repot-1, plant-2)
+
+dobj(prune-1, plant-2)
+
+dobj(identify-1, plants-2)
+
+amod(lighting-3, appropriate-2)
+dobj(provide-1, lighting-3)
+
+amod(quantity-3, appropriate-2)
+dobj(provide-1, quantity-3)
+prep_of(quantity-3, water-5)
+
+det(plants-3, the-2)
+dobj(water-1, plants-3)
+advmod(water-1, regularly-4)
+
+aux(exposed-4, have-1)
+det(plants-3, the-2)
+nsubj(exposed-4, plants-3)
+prep_to(exposed-4, sunlight-6)
+advmod(sunlight-6, regularly-7)
+
+dobj(providing-1, sun-2)
+
+
+
+
+
+
+
+
+dep(give-1, plantfood-2)
+
+dobj(test-1, soil-2)
+
+amod(soil-3, proper-2)
+dobj(provide-1, soil-3)
+
+amod(sunlight-3, proper-2)
+dobj(provide-1, sunlight-3)
+
+amod(amounts-3, proper-2)
+dobj(provide-1, amounts-3)
+prep_of(amounts-3, water-5)
+
+det(plants-3, the-2)
+dobj(water-1, plants-3)
+
+det(plants-3, the-2)
+dobj(feed-1, plants-3)
+
+dobj(provide-1, light-2)
+
+amod(leaves-3, dead-2)
+dobj(trim-1, leaves-3)
+
+det(hole-3, a-2)
+dobj(dig-1, hole-3)
+
+nsubj(seeds\/plants-2, place-1)
+prep_in(seeds\/plants-2, hole-4)
+
+dobj(water-1, plants-2)
+
+dobj(feed-1, plants-2)
+
+dobj(prune-1, plants-2)
+
+amod(leaves-3, dead-2)
+dobj(remove-1, leaves-3)
+
+dobj(kill-1, bugs-2)
+
+dobj(turn-1, soil-2)
+
+
+dobj(water-1, plant-2)
+
+acomp(make-1, sure-2)
+det(plants-4, the-3)
+nsubj(light-8, plants-4)
+aux(light-8, are-5)
+dep(light-8, getting-6)
+advmod(light-8, enough-7)
+ccomp(sure-2, light-8)
+
+det(plants-3, the-2)
+dobj(water-1, plants-3)
+advmod(water-1, sufficiently-4)
+advmod(water-1, regularly-6)
+conj_and(sufficiently-4, regularly-6)
+
+advmod(add-5, once-1)
+dep(once-1, in-2)
+det(while-4, a-3)
+pobj(in-2, while-4)
+dobj(add-5, nutrients-6)
+prep_such_as(nutrients-6, phosphates-9)
+prep_such_as(nutrients-6, nitrates-11)
+conj_and(phosphates-9, nitrates-11)
+det(soil-14, the-13)
+prep_to(add-5, soil-14)
+
+dep(water-1, plant-2)
+advmod(plant-2, regularily-3)
+
+dobj(keep-1, plant-2)
+prep_in(keep-1, sunlight-4)
+
+dobj(water-1, them-2)
+
+dobj(hold-1, them-2)
+dep(hold-1, up-3)
+mark(slagging-5, if-4)
+dep(up-3, slagging-5)
+
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+nn(plants-2, dust-1)
+nsubj(leaves-3, plants-2)
+advmod(leaves-3, gently-4)
+
+dobj(pick-1, weeds-2)
+prep_out_of(pick-1, pot-5)
+
+det(w\/water-4, the-2)
+nn(w\/water-4, soil-3)
+dobj(water-1, w\/water-4)
+nn(temperature-7, room-6)
+prep_at(water-1, temperature-7)
+
+dobj(add-1, fertilizer-2)
+nn(bi-weekly-5, soil-4)
+prep_to(add-1, bi-weekly-5)
+
+dobj(water-1, plants-2)
+advmod(dry-6, when-3)
+nsubj(dry-6, soil-4)
+cop(dry-6, is-5)
+advcl(water-1, dry-6)
+
+csubj(stems-5, prune-1)
+amod(leaves-3, dead-2)
+dobj(prune-1, leaves-3)
+advmod(prune-1, and-4)
+prep_from(stems-5, plants-7)
+
+dobj(add-1, fertilizer-2)
+det(soil-5, the-4)
+prep_to(add-1, soil-5)
+partmod(soil-5, according-6)
+nn(directions-8, t-7)
+dobj(according-6, directions-8)
+
+acomp(make-1, sure-2)
+nsubj(get-4, plants-3)
+ccomp(sure-2, get-4)
+dobj(get-4, sunlight-5)
+poss(needs-9, their-8)
+prep_according_to(make-1, needs-9)
+
+csubj(watered-3, keep-1)
+dobj(keep-1, plants-2)
+
+csubj(stems-5, remove-1)
+amod(leaves-3, dead-2)
+dobj(remove-1, leaves-3)
+advmod(remove-1, and-4)
+
+acomp(make-1, sure-2)
+nsubj(get-4, plants-3)
+ccomp(sure-2, get-4)
+amod(sunlight-6, appropriate-5)
+dobj(get-4, sunlight-6)
+
+nsubj(feed-2, occasionally-1)
+dobj(feed-2, plants-3)
+prep_with(feed-2, fertilizer-5)
+
+dobj(water-1, plant-2)
+
+dobj(place-1, plant-2)
+prep_in(place-1, sunlight-4)
+
+dobj(rotate-1, plant-2)
+advmod(rotate-1, occasionally-3)
+
+det(plants-3, the-2)
+dobj(water-1, plants-3)
+advmod(water-1, daily-4)
+
+amod(sunlight-3, adequate-2)
+dobj(ensure-1, sunlight-3)
+
+dobj(protect-1, them-2)
+prep_from(protect-1, insects-4)
+prep_from(protect-1, animals-6)
+conj_and(insects-4, animals-6)
+dep(necessary-8, if-7)
+rcmod(insects-4, necessary-8)
+
+prt(fill-1, up-2)
+nn(jug-4, water-3)
+dobj(fill-1, jug-4)
+
+dobj(water-1, plants-2)
+
+dobj(water-1, plants-2)
+
+dobj(place-1, plants-2)
+prep_in(place-1, sun-4)
+
+det(plant-3, the-2)
+dobj(water-1, plant-3)
+
+dobj(place-1, plants-2)
+prep_near(place-1, window-4)
+
+dobj(check-1, dampness-2)
+prep_of(dampness-2, soil-4)
+
+mark(get-3, if-1)
+nsubj(get-3, dry-2)
+det(watering-5, a-4)
+nsubj(can-6, watering-5)
+ccomp(get-3, can-6)
+
+prep_with(fill-1, water-3)
+
+advmod(leaves-7, lightly-1)
+nn(soil-3, water-2)
+nsubj(leaves-7, soil-3)
+prep_of(soil-3, plants-5)
+partmod(plants-5, avoiding-6)
+
+det(plant-3, the-2)
+dobj(place-1, plant-3)
+det(sunlight-6, the-5)
+prep_in(place-1, sunlight-6)
+
+det(plant-3, the-2)
+iobj(water-1, plant-3)
+det(couple-5, every-4)
+dobj(water-1, couple-5)
+prep_of(couple-5, days-7)
+
+dobj(water-1, plants-2)
+advmod(water-1, regularly-3)
+
+prt(find-1, out-2)
+prep(find-1, of-3)
+nsubj(need-5, they-4)
+dep(of-3, need-5)
+dobj(need-5, sunlight-6)
+dobj(need-5, not-8)
+advmod(sunlight-6, not-8)
+conj_or(sunlight-6, not-8)
+
+nn(food-4, plants-2)
+nn(food-4, plant-3)
+dobj(give-1, food-4)
+advmod(give-1, regularly-5)
+
+nn(ts-3, plan-2)
+dobj(place-1, ts-3)
+amod(location-6, sunny-5)
+prep_in(place-1, location-6)
+
+dobj(fertilize-1, plants-2)
+det(weeks-5, every-3)
+num(weeks-5, two-4)
+tmod(fertilize-1, weeks-5)
+
+dobj(water-1, plants-2)
+det(days-5, every-3)
+amod(days-5, few-4)
+tmod(water-1, days-5)
+
+det(leaves-4, any-2)
+amod(leaves-4, dead-3)
+dobj(remove-1, leaves-4)
+det(plants-7, the-6)
+prep_from(remove-1, plants-7)
+advmod(remove-1, daily-8)
+

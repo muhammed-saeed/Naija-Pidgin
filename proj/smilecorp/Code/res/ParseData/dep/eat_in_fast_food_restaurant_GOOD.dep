@@ -1,0 +1,364 @@
+det(reasturant-4, the-3)
+prep_into(walk-1, reasturant-4)
+
+prep_in(wait-1, line-3)
+aux(order-5, to-4)
+xcomp(wait-1, order-5)
+poss(food-7, my-6)
+dobj(order-5, food-7)
+
+poss(food-3, my-2)
+dobj(order-1, food-3)
+
+det(food-4, the-3)
+prep_for(pay-1, food-4)
+
+poss(receipt-3, my-2)
+dobj(keep-1, receipt-3)
+
+poss(order-4, my-3)
+prep_for(wait-1, order-4)
+
+poss(order-3, my-2)
+dobj(get-1, order-3)
+
+det(table-4, a-3)
+prep_at(seat-1, table-4)
+
+
+prepc_to(go-1, ordering-3)
+advmod(ordering-3, counter-4)
+
+nsubj(eat-4, what-2)
+aux(eat-4, to-3)
+ccomp(decide-1, eat-4)
+xcomp(decide-1, eat-4)
+
+dobj(place-1, order-2)
+
+prep_for(pay-1, order-3)
+
+det(number-3, a-2)
+dobj(take-1, number-3)
+
+dobj(collect-1, utensils-2)
+
+prep_for(wait-1, food-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, food-3)
+advmod(ready-5, when-4)
+advcl(pick-1, ready-5)
+
+prt(sit-1, down-2)
+prep_at(sit-1, table-4)
+
+dobj(eat-1, food-2)
+
+prt(put-1, away-2)
+dobj(put-1, trays-3)
+dobj(put-1, trash-5)
+conj_and(trays-3, trash-5)
+
+dep(want-5, i-1)
+csubj(want-5, decide-2)
+dobj(decide-2, what-3)
+dep(decide-2, i-4)
+
+nsubj(order-2, i-1)
+dobj(order-2, it-3)
+
+dobj(make-1, payment-2)
+
+prep_for(wait-1, food-3)
+
+det(food-3, the-2)
+dobj(eat-1, food-3)
+
+
+det(order-3, an-2)
+dobj(place-1, order-3)
+
+det(food-4, the-3)
+prep_for(pay-1, food-4)
+prep_for(pay-1, drinks-6)
+conj_and(food-4, drinks-6)
+
+dobj(expect-1, order-2)
+
+dobj(get-1, napkins-2)
+dobj(get-1, condiments-4)
+conj_and(napkins-2, condiments-4)
+
+prt(throw-1, away-2)
+det(containers-4, the-3)
+dobj(throw-1, containers-4)
+
+dobj(leave-1, store-2)
+
+dobj(park-1, car-2)
+
+advmod(go-1, inside-2)
+
+dobj(order-1, items-2)
+nn(menu-5, wall-4)
+prep_from(order-1, menu-5)
+
+prep_for(pay-1, food-3)
+
+
+dobj(get-1, food-2)
+
+
+det(car-4, the-3)
+prep_in(eat-1, car-4)
+
+prep_into(walk-1, restaurant-3)
+
+det(end-3, the-2)
+dobj(find-1, end-3)
+det(line-6, the-5)
+prep_of(end-3, line-6)
+
+prep_in(stand-1, line-3)
+
+nn(board-4, menu-3)
+prep_at(look-1, board-4)
+
+prep_on(decide-1, food-3)
+prep_on(decide-1, drink-5)
+conj_and(food-3, drink-5)
+
+iobj(tell-1, cashier-2)
+poss(order-4, your-3)
+dobj(tell-1, order-4)
+
+prep_to(listen-1, cashier-3)
+ccomp(listen-1, repeat-4)
+dobj(repeat-4, order-5)
+
+amod(price-4, total-3)
+prep_for(listen-1, price-4)
+
+nn(card-3, swipe-1)
+nn(card-3, credit-2)
+prep_in(card-3, scanner-5)
+
+prt(put-1, up-2)
+nn(card-4, credit-3)
+dobj(put-1, card-4)
+
+dobj(take-1, receipt-2)
+
+nn(number-4, order-3)
+prep_at(look-1, number-4)
+
+poss(cup-3, your-2)
+dobj(take-1, cup-3)
+
+prt(stand-1, off-2)
+det(side-5, the-4)
+prep_to(stand-1, side-5)
+
+prep_for(wait-1, number-3)
+aux(called-6, to-4)
+auxpass(called-6, be-5)
+xcomp(wait-1, called-6)
+
+poss(drink-3, your-2)
+dobj(get-1, drink-3)
+
+prep_at(look-1, menu-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+prep_at(order-1, counter-3)
+
+prep_at(pay-1, counter-3)
+
+dobj(receive-1, food-2)
+prep_at(receive-1, counter-4)
+
+dobj(take-1, food-2)
+prep_to(take-1, table-4)
+
+dobj(eat-1, food-2)
+
+dobj(enter-1, restaurant-2)
+
+aux(counter-3, to-2)
+xcomp(go-1, counter-3)
+
+dobj(make-1, selection-2)
+
+dobj(place-1, order-2)
+
+prep_for(pay-1, food-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, order-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, condiments-3)
+
+prep_to(go-1, table-3)
+
+dobj(consume-1, food-2)
+
+dobj(clear-1, tray-2)
+
+prep_at(look-1, menu-3)
+
+prep_to(go-1, cashier-3)
+
+dobj(order-1, food-2)
+
+prep_for(wait-1, food-3)
+aux(ready-6, to-4)
+cop(ready-6, be-5)
+xcomp(wait-1, ready-6)
+
+dobj(take-1, food-2)
+prep_to(take-1, table-4)
+
+dobj(eat-1, food-2)
+
+prep_in(wait-1, line-3)
+
+dobj(order-1, food-2)
+
+prep_for(pay-1, food-3)
+
+
+dobj(recieve-1, food-2)
+
+prt(sit-1, down-2)
+
+dobj(eat-1, food-2)
+
+prep_in(stand-1, line-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+dobj(order-1, food-2)
+
+
+dobj(receive-1, food-2)
+
+det(place-3, a-2)
+dobj(select-1, place-3)
+aux(sit-5, to-4)
+infmod(place-3, sit-5)
+
+
+dobj(take-1, trash-2)
+prep_to(take-1, receptacle-4)
+
+
+prep_in(get-1, line-3)
+
+prep_at(look-1, menu-3)
+
+prep_at(look-1, prices-3)
+
+dobj(count-1, change-2)
+
+dobj(order-1, food-2)
+
+dobj(get-1, condiments-2)
+
+nn(tray-3, food-2)
+dobj(take-1, tray-3)
+amod(table-6, vacant-5)
+prep_to(take-1, table-6)
+
+
+prep_of(dispose-1, garbage-3)
+
+dobj(place-1, tray-2)
+prep_in(place-1, stack-4)
+
+
+prep_to(go-1, restaurant-3)
+
+amod(counter-4, front-3)
+prep_to(proceed-1, counter-4)
+
+nn(board-3, menu-2)
+dobj(examine-1, board-3)
+
+iobj(tell-1, cashier-2)
+poss(order-4, your-3)
+dobj(tell-1, order-4)
+
+prep_for(pay-1, order-3)
+
+prep_for(wait-1, order-3)
+
+dobj(receive-1, tray-2)
+prep_with(receive-1, order-4)
+
+dobj(dispense-1, soda-2)
+prep_into(dispense-1, cup-4)
+
+dobj(find-1, table-2)
+
+dobj(eat-1, meal-2)
+
+prep_of(dispose-1, trash-3)
+
+dobj(return-1, tray-2)
+
+prt(walk-1, up-2)
+det(counter-5, the-4)
+prep_to(walk-1, counter-5)
+
+det(menu-4, the-3)
+prep_at(look-1, menu-4)
+
+nsubj(order-5, what-3)
+aux(order-5, to-4)
+prepc_on(decide-1, order-5)
+
+dobj(give-1, order-2)
+det(employee-5, the-4)
+prep_to(give-1, employee-5)
+
+prep_for(pay-1, order-3)
+
+prep_for(wait-1, order-3)
+aux(done-6, to-4)
+auxpass(done-6, be-5)
+xcomp(wait-1, done-6)
+
+dobj(confirm-1, order-2)
+
+
+det(counter-4, the-3)
+prep_to(walk-1, counter-4)
+
+det(order-3, an-2)
+dobj(place-1, order-3)
+
+det(bill-3, the-2)
+dobj(pay-1, bill-3)
+
+det(food-5, the-3)
+amod(food-5, ordered-4)
+prep_for(wait-1, food-5)
+
+det(food-3, the-2)
+dobj(get-1, food-3)
+
+det(table-4, a-3)
+prep_to(move-1, table-4)
+
+dobj(eat-1, food-2)
+
+det(place-3, the-2)
+dobj(exit-1, place-3)
+

@@ -1,0 +1,671 @@
+dobj(get-1, gift-2)
+
+dobj(get-1, wrap-2)
+
+dobj(wrap-1, gift-2)
+
+det(gift-3, the-2)
+dobj(buy-1, gift-3)
+
+amod(paper-3, wrapping-2)
+dobj(get-1, paper-3)
+
+dobj(get-1, tape-2)
+
+det(paper-3, the-2)
+dobj(cut-1, paper-3)
+det(size-7, the-5)
+amod(size-7, correct-6)
+prep_to(cut-1, size-7)
+
+det(paper-3, the-2)
+dobj(wrap-1, paper-3)
+det(gift-6, the-5)
+prep_around(wrap-1, gift-6)
+
+det(paper-3, the-2)
+nsubj(tape-1, paper-3)
+prep_in(tape-1, place-5)
+
+det(bow-3, a-2)
+dobj(put-1, bow-3)
+det(package-6, the-5)
+prep_on(put-1, package-6)
+
+dep(buy-1, wrapping-2)
+dobj(wrapping-2, paper-3)
+dobj(wrapping-2, ribbon-5)
+conj_and(paper-3, ribbon-5)
+
+dobj(cut-1, paper-2)
+
+prep(fold-1, and-2)
+nn(paper-4, tape-3)
+dep(and-2, paper-4)
+
+prep(cut-1, and-2)
+nn(ribbon-4, tape-3)
+dep(and-2, ribbon-4)
+
+det(paper-4, the-2)
+amod(paper-4, wraping-3)
+dobj(getting-1, paper-4)
+
+det(gift-3, the-2)
+dobj(placing-1, gift-3)
+det(side-7, the-5)
+amod(side-7, plain-6)
+prep_on(placing-1, side-7)
+det(paper-10, the-9)
+prep_of(side-7, paper-10)
+
+det(gift-3, the-2)
+dobj(covering-1, gift-3)
+prep_in(gift-3, paper-5)
+
+det(paper-4, the-2)
+amod(paper-4, excess-3)
+dobj(cutting-1, paper-4)
+advmod(cutting-1, away-5)
+
+det(paper-3, the-2)
+dobj(taping-1, paper-3)
+advmod(come-9, so-4)
+dep(come-9, that-5)
+nsubj(come-9, it-6)
+aux(come-9, does-7)
+neg(come-9, not-8)
+dep(taping-1, come-9)
+det(gift-13, the-12)
+prep_off_of(come-9, gift-13)
+
+det(gift-3, the-2)
+dobj(get-1, gift-3)
+
+det(paper-4, the-2)
+amod(paper-4, wrapping-3)
+dobj(get-1, paper-4)
+
+det(scissors-3, the-2)
+dobj(get-1, scissors-3)
+dobj(get-1, tape-5)
+conj_and(scissors-3, tape-5)
+
+det(gift-3, the-2)
+dobj(get-1, gift-3)
+
+det(paper-4, the-2)
+amod(paper-4, wrapping-3)
+dobj(get-1, paper-4)
+
+det(scissors-3, the-2)
+dobj(get-1, scissors-3)
+dobj(get-1, tape-5)
+conj_and(scissors-3, tape-5)
+
+det(gift-3, the-2)
+dobj(place-1, gift-3)
+det(paper-7, the-5)
+amod(paper-7, wrapping-6)
+prep_on(place-1, paper-7)
+
+prt(cut-1, out-2)
+advmod(wrapping-4, enough-3)
+xcomp(cut-1, wrapping-4)
+dobj(wrapping-4, paper-5)
+aux(wrap-7, to-6)
+xcomp(wrapping-4, wrap-7)
+det(gift-9, the-8)
+dobj(wrap-7, gift-9)
+prt(wrap-7, up-10)
+prep(wrap-7, in-11)
+
+aux(wrapping-3, tape-1)
+nsubj(wrapping-3, the-2)
+dobj(wrapping-3, paper-4)
+det(gift-7, the-6)
+prep_onto(wrapping-3, gift-7)
+
+dobj(get-1, gift-2)
+
+amod(paper-4, appropriate-2)
+amod(paper-4, wrapping-3)
+dobj(get-1, paper-4)
+
+dobj(spread-1, paper-2)
+amod(surface-5, flat-4)
+prep_on(paper-2, surface-5)
+
+dobj(put-1, gift-2)
+prep_on(put-1, paper-4)
+
+dobj(fold-1, paper-2)
+advmod(fold-1, so-3)
+mark(cover-6, as-4)
+aux(cover-6, to-5)
+advcl(fold-1, cover-6)
+xcomp(fold-1, cover-6)
+dobj(cover-6, gift-7)
+
+dobj(fold-1, ribbon-2)
+prepc_over(fold-1, wrapping-4)
+dobj(wrapping-4, paper-5)
+
+amod(paper-3, wrapping-2)
+dobj(take-1, paper-3)
+
+amod(surface-4, flat-3)
+prep_on(place-1, surface-4)
+
+dobj(place-1, gift-2)
+prepc_on(place-1, wrapping-4)
+dobj(wrapping-4, paper-5)
+
+dobj(fold-1, paper-2)
+prep_around(fold-1, gift-4)
+
+prep_together_with(tie-1, ribbon-4)
+
+dobj(put-1, gift-2)
+det(box-5, a-4)
+prep_in(put-1, box-5)
+
+det(paper-4, a-2)
+amod(paper-4, wrapping-3)
+dobj(select-1, paper-4)
+
+det(box-3, the-2)
+dobj(wrap-1, box-3)
+det(paper-6, the-5)
+prep_with(wrap-1, paper-6)
+
+det(paper-3, the-2)
+dobj(tie-1, paper-3)
+det(string-6, a-5)
+prep_with(tie-1, string-6)
+
+dobj(put-1, gift-2)
+det(box-5, a-4)
+prep_in(put-1, box-5)
+amod(box-5, big-6)
+advmod(big-6, enough-7)
+aux(fit-9, to-8)
+xcomp(big-6, fit-9)
+det(gift-11, the-10)
+dobj(fit-9, gift-11)
+prep(fit-9, in-12)
+
+amod(bag-3, decorative-2)
+dobj(choose-1, bag-3)
+prep_for(bag-3, gift-5)
+
+dobj(put-1, gift-2)
+amod(bag-5, decorative-4)
+prep_in(put-1, bag-5)
+
+nn(paper-3, tissue-2)
+dobj(put-1, paper-3)
+prep_into(put-1, bag-5)
+prep_on_top_of(put-1, gift-9)
+
+dep(place-5, wrapping-2)
+dobj(wrapping-2, paper-3)
+advmod(wrapping-2, and-4)
+dobj(take-1, place-5)
+amod(surface-8, flat-7)
+prep_on(place-5, surface-8)
+
+dobj(place-1, gift-2)
+prepc_on(place-1, wrapping-4)
+dobj(wrapping-4, paper-5)
+
+dobj(fold-1, paper-2)
+dep(fold-1, aroung-3)
+dobj(aroung-3, gift-4)
+
+dobj(use-1, tape-2)
+aux(hold-4, to-3)
+xcomp(use-1, hold-4)
+dobj(hold-4, paper-5)
+prep_in(hold-4, place-7)
+
+det(gift-3, a-2)
+dobj(get-1, gift-3)
+
+det(paper-3, some-2)
+dobj(get-1, paper-3)
+
+dobj(put-1, paper-2)
+det(gift-5, the-4)
+prep_round(put-1, gift-5)
+
+dobj(put-1, label-2)
+det(gift-5, the-4)
+prep_on(put-1, gift-5)
+
+dobj(get-1, gift-2)
+
+det(piece-3, a-2)
+dobj(find-1, piece-3)
+nsubj(large-9, piece-3)
+prepc_of(piece-3, wrapping-5)
+dobj(wrapping-5, paper-6)
+cop(large-9, is-8)
+rcmod(piece-3, large-9)
+advmod(large-9, enough-10)
+
+amod(paper-3, wrapping-2)
+dobj(put-1, paper-3)
+prep_around(put-1, gift-5)
+advmod(covered-8, fully-7)
+prep_until(put-1, covered-8)
+
+nn(end-2, tape-1)
+nsubj(fall-10, end-2)
+det(paper-5, the-4)
+prep_of(end-2, paper-5)
+mark(doesn-8, so-6)
+nsubj(doesn-8, it-7)
+dep(paper-5, doesn-8)
+dobj(doesn-8, t-9)
+prt(fall-10, off-11)
+
+aux(wrapping-3, get-1)
+advmod(wrapping-3, enough-2)
+dobj(wrapping-3, paper-4)
+aux(cover-6, to-5)
+xcomp(wrapping-3, cover-6)
+dobj(cover-6, gift-7)
+
+nn(tape-3, scotch-2)
+dobj(get-1, tape-3)
+
+dep(measure-1, wrapping-2)
+dobj(wrapping-2, paper-3)
+dobj(wrapping-2, place-5)
+conj_and(paper-3, place-5)
+prep_around(wrapping-2, gift-7)
+
+prep_into(tape-1, place-3)
+
+det(ribbon-3, a-2)
+dobj(attach-1, ribbon-3)
+
+dobj(measure-1, size-2)
+prep_of(size-2, gift-4)
+
+dep(cut-1, wrapping-2)
+dobj(wrapping-2, paper-3)
+aux(cover-5, to-4)
+xcomp(wrapping-2, cover-5)
+dobj(cover-5, gift-6)
+
+dobj(place-1, gift-2)
+dep(paper-6, opened-4)
+xcomp(opened-4, wrapping-5)
+prep_on(place-1, paper-6)
+
+dep(fold-1, wrapping-2)
+dobj(wrapping-2, paper-3)
+prep_around(wrapping-2, gift-5)
+
+det(edges-4, any-2)
+amod(edges-4, loose-3)
+dobj(tape-1, edges-4)
+
+dobj(get-1, gift-2)
+
+dobj(get-1, paper-2)
+
+amod(piece-3, large-2)
+dobj(cut-1, piece-3)
+prep_of(piece-3, paper-5)
+
+dobj(wrap-1, paper-2)
+prep_around(wrap-1, gift-4)
+
+dobj(attach-1, tape-2)
+prep_to(attach-1, paper-4)
+
+dobj(put-1, decoration-2)
+prep_on(put-1, gift-4)
+
+dobj(cut-1, paper-2)
+
+dobj(place-1, gift-2)
+prep_in(place-1, paper-4)
+
+prep_in(fold-1, sides-3)
+
+advmod(tape-1, together-2)
+
+dobj(take-1, sheet-2)
+prepc_of(sheet-2, wrapping-4)
+dobj(wrapping-4, paper-5)
+
+aux(face-4, place-1)
+amod(paper-3, wrapping-2)
+nsubj(face-4, paper-3)
+prt(face-4, down-5)
+amod(surface-8, flat-7)
+prep_on(face-4, surface-8)
+
+dobj(place-1, gift-2)
+prep_in(place-1, center-4)
+prepc_of(center-4, wrapping-6)
+dobj(wrapping-6, paper-7)
+
+dobj(fold-1, paper-2)
+prep_over(fold-1, gift-4)
+
+nn(paper-2, tape-1)
+nsubj(closed-3, paper-2)
+
+det(paper-4, the-2)
+amod(paper-4, wrapping-3)
+dobj(unroll-1, paper-4)
+
+prt(cut-1, out-2)
+amod(amount-4, desired-3)
+dobj(cut-1, amount-4)
+prep_of(amount-4, paper-6)
+
+dobj(fold-1, paper-2)
+prep_over(fold-1, gift-4)
+
+nsubj(ends-3, tape-1)
+dep(ends-3, the-2)
+prt(ends-3, down-4)
+
+amod(sides-4, other-3)
+prep_over(fold-1, sides-4)
+prep_of(sides-4, paper-6)
+
+nsubj(ends-3, tape-1)
+dep(ends-3, those-2)
+prt(ends-3, together-4)
+
+nsubj(bow-2, place-1)
+prep_on(bow-2, gift-4)
+
+det(paper-4, the-2)
+amod(paper-4, wrapping-3)
+dobj(lay-1, paper-4)
+prt(lay-1, out-5)
+advmod(lay-1, flat-6)
+
+det(gift-3, the-2)
+dobj(place-1, gift-3)
+det(paper-6, the-5)
+prep_on(place-1, paper-6)
+
+det(paper-3, the-2)
+dobj(bring-1, paper-3)
+prt(bring-1, up-4)
+det(gift-7, the-6)
+prep_around(bring-1, gift-7)
+
+det(seams-3, the-2)
+dobj(stick-1, seams-3)
+prep_together_with(stick-1, tape-6)
+
+det(ribbon-3, a-2)
+dobj(wrap-1, ribbon-3)
+det(gift-6, the-5)
+prep_around(wrap-1, gift-6)
+
+det(ribbon-3, the-2)
+dobj(tie-1, ribbon-3)
+det(bow-6, a-5)
+prep_in(tie-1, bow-6)
+
+nsubj(unroll-2, partially-1)
+dep(unroll-2, wrapping-3)
+dobj(wrapping-3, paper-4)
+
+det(gift-3, a-2)
+dobj(find-1, gift-3)
+
+det(wrapper-4, a-2)
+nn(wrapper-4, gift-3)
+dobj(choose-1, wrapper-4)
+
+det(wrapper-4, the-2)
+nn(wrapper-4, gift-3)
+dobj(cut-1, wrapper-4)
+
+det(wrapper-4, the-2)
+nn(wrapper-4, gift-3)
+dobj(measure-1, wrapper-4)
+
+det(gift-3, the-2)
+dobj(cover-1, gift-3)
+det(wrapper-6, a-5)
+prep_with(cover-1, wrapper-6)
+prep_with(cover-1, tape-8)
+conj_and(wrapper-6, tape-8)
+dep(wrapper-6, it-9)
+prep_in(cover-1, place-11)
+
+det(ribbon-4, a-2)
+amod(ribbon-4, matching-3)
+dobj(tie-1, ribbon-4)
+
+det(bow-5, a-3)
+amod(bow-5, matching-4)
+prep_with(accessorize-1, bow-5)
+
+amod(method-3, wrapping-2)
+dobj(determine-1, method-3)
+
+nn(materials-3, wrapping-2)
+dobj(collect-1, materials-3)
+
+nn(tape-3, scissors-2)
+dobj(collect-1, tape-3)
+dep(collect-1, etc-4)
+
+dep(cut-1, wrapping-2)
+dobj(wrapping-2, paper-3)
+aux(fit-5, to-4)
+xcomp(wrapping-2, fit-5)
+
+dobj(enclose-1, gift-2)
+prepc_in(enclose-1, wrapping-4)
+dobj(wrapping-4, paper-5)
+
+nn(paper-2, tape-1)
+nsubj(closed-3, paper-2)
+
+dobj(tie-1, ribbon-2)
+
+nn(wrap-3, gift-2)
+dobj(choose-1, wrap-3)
+
+amod(size-3, correct-2)
+dobj(cut-1, size-3)
+prep_of(size-3, wrap-5)
+
+dobj(place-1, gift-2)
+prep_in(place-1, center-4)
+prep_of(center-4, wrap-6)
+
+dobj(fold-1, wrap-2)
+prep_around(fold-1, gift-4)
+
+nsubj(tape-1, wrap-2)
+prep_in(tape-1, place-4)
+
+prep_with(adorn-1, ribbons-3)
+prep_with(adorn-1, bows-5)
+conj_and(ribbons-3, bows-5)
+
+dobj(label-1, gift-2)
+conj_or(label-1, attach-4)
+dobj(attach-4, card-5)
+
+nn(wrap-3, gift-2)
+dobj(cut-1, wrap-3)
+amod(size-6, appropriate-5)
+prep_to(cut-1, size-6)
+
+nn(wrap-3, tape-1)
+nn(wrap-3, gift-2)
+nsubj(object-5, wrap-3)
+advmod(object-5, around-4)
+
+dep(fold-1, and-2)
+nn(ends-4, tape-3)
+dep(and-2, ends-4)
+nn(wrap-7, gift-6)
+prep_of(ends-4, wrap-7)
+
+det(bow-3, a-2)
+dobj(add-1, bow-3)
+
+dobj(get-1, gift-2)
+
+dobj(wrap-1, gift-2)
+
+amod(paper-3, wrapping-2)
+dobj(obtain-1, paper-3)
+
+amod(length-3, needed-2)
+dobj(verify-1, length-3)
+
+dobj(cut-1, paper-2)
+
+prt(wrap-1, around-2)
+dobj(wrap-1, gift-3)
+
+nn(edges-2, tape-1)
+nsubj(closed-3, edges-2)
+
+
+dobj(obtain-1, gift-2)
+
+amod(paper-3, wrapping-2)
+dobj(obtain-1, paper-3)
+
+dobj(obtain-1, tape-2)
+
+dobj(remove-1, price-2)
+prep_from(remove-1, gift-4)
+
+dobj(wrap-1, gift-2)
+
+nsubj(tape-1, gift-2)
+
+dobj(buy-1, gift-2)
+
+dobj(cut-1, paper-2)
+
+nsubj(papaer-2, tape-1)
+prep_around(papaer-2, gift-4)
+
+dobj(cut-1, wrap-2)
+det(dimensions-6, the-4)
+amod(dimensions-6, right-5)
+prep_to(cut-1, dimensions-6)
+
+dobj(lay-1, gift-2)
+prep_in(lay-1, center-4)
+prep_of(center-4, wrap-6)
+
+dobj(fold-1, edges-2)
+prep_of(edges-2, wrap-4)
+aux(cover-7, to-5)
+advmod(cover-7, entirely-6)
+xcomp(fold-1, cover-7)
+dobj(cover-7, gift-8)
+
+nsubj(shut-4, tape-1)
+det(wrapping-3, the-2)
+dep(tape-1, wrapping-3)
+
+det(giftcard-3, a-2)
+dobj(add-1, giftcard-3)
+dobj(add-1, abow-5)
+conj_and(giftcard-3, abow-5)
+
+amod(paper-3, wrapping-2)
+dobj(cut-1, paper-3)
+prep_to(cut-1, size-5)
+
+dobj(set-1, gift-2)
+prep_on(set-1, paper-4)
+
+dobj(fold-1, edges-2)
+prep_of(edges-2, wrap-4)
+aux(cover-7, to-5)
+advmod(cover-7, entirely-6)
+xcomp(fold-1, cover-7)
+dobj(cover-7, gift-8)
+
+nsubj(shut-4, tape-1)
+det(wrapping-3, the-2)
+dep(tape-1, wrapping-3)
+
+det(giftcard-3, a-2)
+dobj(add-1, giftcard-3)
+det(bow-6, a-5)
+dobj(add-1, bow-6)
+conj_and(giftcard-3, bow-6)
+
+amod(paper-3, wrapping-2)
+dobj(cut-1, paper-3)
+
+dobj(wrap-1, gift-2)
+
+dobj(secure-1, paper-2)
+prep_with(secure-1, tape-4)
+
+amod(paper-3, wrapping-2)
+dobj(choose-1, paper-3)
+
+amod(size-4, desired-3)
+prep_to(cut-1, size-4)
+
+dobj(wrap-1, paper-2)
+prep_around(wrap-1, gift-4)
+
+prep_in(tape-1, place-3)
+
+dobj(find-1, paper-2)
+
+acomp(make-1, sure-2)
+aux(fit-4, will-3)
+ccomp(sure-2, fit-4)
+dobj(fit-4, gift-5)
+
+dobj(find-1, tape-2)
+
+dobj(wrap-1, paper-2)
+prep_around(wrap-1, gift-4)
+
+dobj(put-1, tape-2)
+aux(hold-4, to-3)
+xcomp(put-1, hold-4)
+dobj(hold-4, it-5)
+advmod(hold-4, together-6)
+
+amod(paper-3, wrapping-2)
+nsubj(buy-1, paper-3)
+
+nn(tape-3, scotch-2)
+dobj(get-1, tape-3)
+
+dobj(get-1, ruler-2)
+
+dobj(get-1, scissors-2)
+
+dobj(measure-1, gift-2)
+
+dobj(cut-1, paper-2)
+
+dobj(place-1, gift-2)
+prep_on(place-1, paper-4)
+prep_on(place-1, tape-6)
+conj_and(paper-4, tape-6)
+advmod(place-1, up-7)
+

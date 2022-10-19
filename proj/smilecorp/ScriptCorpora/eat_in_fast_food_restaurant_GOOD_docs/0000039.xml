@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0000039" url="http://www.daniweb.com/software-development/cpp/threads/238967/structures-best-use" time="2012-07-12-15:13" support="4" score="0.014360322480336812" bingtitle="Structures best use? | DaniWeb" webtitle="Structures best use? | DaniWeb">
+			<query id="000275" bing-rank="33"/>
+			<query id="000252" bing-rank="112"/>
+			<query id="000267" bing-rank="124"/>
+			<query id="000279" bing-rank="59"/>
+	<description>The data file is a menu of food items at a fast food restaurant. ... of all the menu items selected for the order. You ... Confirm Password:</description>
+	<body>
+		We&apos;re a community of 958K IT Pros here for help, advice, solutions, professional growth and fun. Join us! 
+ Join DaniWeb Member Login Log In with Facebook 
+ 957,371 Members— Technology Publication meets Social Media &lt;DaniWeb&gt;®IT Discussion Community Technology Publication meets Social Media 
+ Hardware&amp;Software Software Development Web Development Internet Marketing Business Exchange Community Center 
+ Username: Password: Lost login information? Software Development &gt; C++ &gt; Structures best use? Have a different question to ask? Start New Discussion Reply to this Discussion 2 Years Ago 0 
+Structures best use?
+ 
+I have to write a program for class that will read a datafile into a structure. The data file is a menu of food items at a fast food restaurant. Basically simulate a cash register
+
+I created a structure menu[26] which includes the following elements
+key - a,b,c,d etc.
+item - hotdog, hamburger etc.
+price.
+
+My question is this. What is the best way to create the customers order.
+
+So far I have come up with this
+ while ((keystroke=getch())!=&apos;=&apos;)
+ {
+ cin&gt;&gt;keystroke;
+ for (int i=0;i&lt;26;i++)
+ if (keystroke=menu[i].key)
+ {
+ menu[i].item=order[i].item;
+ menu[i].price=order[i].price;
+ }//end if
+ }//end while 
+
+However I know that if the customer orders more than soda for example the order will only contain one of that item.
+
+Can anyone suggest a better approach?
+ scott6480 Newbie Poster 12 posts since Nov 2009 Reputation Points: 10 Solved Threads: 0   2 Years Ago 0 
+why don&apos;t you create a struct called menuitem that can store the description/price/etc of one item. Then make an array of all the menu items selected for the order. You could call up the menuitem with a unique key (1,2,3,4...} stored within the struct menuitem.
+ jonsca Quantitative Phrenologist Team Colleague 5,621 posts since Sep 2009 Reputation Points: 1,165 Solved Threads: 581   
+This article has been dead for over three months
+ Post: Markdown Syntax: Formatting Help Bold Italic Code Inline Code Link Quote Heading Sub-Heading # List •List Undo Redo Insert Code Snippet (Alt+I) Join our community of 957,371 members to contribute Username: Password: Confirm Password:   Email: Confirm Email: You Software Development &gt; C++ Tweet   ©2012 DaniWeb®LLC Home | About Us | Contact Us | Terms of Service | Advertising Opportunities RSS Feed | Donate   
+ Recently Updated Articles Join the DaniWeb Community
+	</body>
+</document>

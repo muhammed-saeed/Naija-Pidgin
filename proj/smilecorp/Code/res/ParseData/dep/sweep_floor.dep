@@ -1,0 +1,743 @@
+dobj(locate-1, broom-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, broom-3)
+
+dobj(run-1, broom-2)
+prep_across(run-1, floor-4)
+partmod(floor-4, gathering-5)
+dobj(gathering-5, dust-6)
+det(pile-9, a-8)
+prep_into(gathering-5, pile-9)
+
+prt(throw-1, away-2)
+det(dust-4, the-3)
+dobj(throw-1, dust-4)
+dobj(throw-1, dirt-6)
+conj_and(dust-4, dirt-6)
+
+dobj(locate-1, broom-2)
+
+dobj(run-1, broom-2)
+prep_across(run-1, floor-4)
+aux(gather-6, to-5)
+infmod(floor-4, gather-6)
+dobj(gather-6, dust-7)
+det(pile-10, a-9)
+prep_into(gather-6, pile-10)
+
+nn(dust-2, place-1)
+nsubj(pile-3, dust-2)
+nn(can-6, trash-5)
+prep_in(pile-3, can-6)
+
+dobj(take-1, broom-2)
+
+dobj(move-1, broom-2)
+dep(move-1, back-3)
+dep(back-3, on-4)
+dep(back-3, forth-5)
+
+dobj(move-1, garbage-2)
+det(location-5, some-4)
+prep_towards(move-1, location-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, garbage-3)
+conj_and(pick-1, throw-5)
+prt(throw-5, away-6)
+
+det(water-3, the-2)
+dobj(get-1, water-3)
+
+det(water-3, the-2)
+dobj(splash-1, water-3)
+det(floor-6, the-5)
+prep_on(splash-1, floor-6)
+
+det(broom-3, a-2)
+dobj(get-1, broom-3)
+
+csubj(accross-4, brush-1)
+det(broom-3, the-2)
+dobj(brush-1, broom-3)
+det(floor-6, the-5)
+dobj(accross-4, floor-6)
+
+det(broom-3, a-2)
+dobj(obtain-1, broom-3)
+
+aux(bristle-3, push-1)
+nsubj(bristle-3, the-2)
+dobj(bristle-3, end-4)
+det(broom-7, the-6)
+prep_of(end-4, broom-7)
+det(floor-10, the-9)
+prep_on(bristle-3, floor-10)
+
+dobj(push-1, dirt-2)
+det(pile-5, a-4)
+prep_into(push-1, pile-5)
+
+det(pile-4, the-2)
+nn(pile-4, dirt-3)
+dobj(push-1, pile-4)
+det(pan-8, a-6)
+nn(pan-8, dust-7)
+prep_into(push-1, pan-8)
+
+aux(pan-4, empty-1)
+det(dust-3, the-2)
+nsubj(pan-4, dust-3)
+det(trash-7, the-6)
+prep_into(pan-4, trash-7)
+
+dobj(get-1, broom-2)
+
+dobj(start-1, sweeping-2)
+
+dobj(gather-1, dirt-2)
+
+prt(throw-1, away-2)
+dobj(throw-1, dirt-3)
+
+prt(get-1, out-2)
+det(broom-4, a-3)
+dobj(get-1, broom-4)
+
+amod(broom-3, bush-1)
+det(broom-3, the-2)
+nsubj(accross-4, broom-3)
+det(floor-6, the-5)
+dobj(accross-4, floor-6)
+xcomp(accross-4, gathering-7)
+predet(dirt-10, all-8)
+det(dirt-10, the-9)
+dobj(gathering-7, dirt-10)
+num(spot-13, one-12)
+prep_into(gathering-7, spot-13)
+
+det(pile-3, the-2)
+dobj(sweep-1, pile-3)
+prep_of(pile-3, debris-5)
+det(dustpan-8, a-7)
+prep_into(sweep-1, dustpan-8)
+
+det(dustpan-3, the-2)
+dobj(empty-1, dustpan-3)
+det(trash-6, the-5)
+prep_into(empty-1, trash-6)
+
+det(broom-3, the-2)
+dobj(replace-1, broom-3)
+dobj(replace-1, dustpan-5)
+conj_and(broom-3, dustpan-5)
+
+det(broom-3, a-2)
+dobj(getting-1, broom-3)
+
+det(broom-3, the-2)
+dobj(using-1, broom-3)
+aux(push-5, to-4)
+xcomp(using-1, push-5)
+dobj(push-5, dust-6)
+det(pan-10, a-8)
+nn(pan-10, dust-9)
+prep_onto(push-5, pan-10)
+
+csubj(can-8, emptying-1)
+det(pan-4, the-2)
+nn(pan-4, dust-3)
+dobj(emptying-1, pan-4)
+det(trash-7, a-6)
+prep_over(emptying-1, trash-7)
+
+det(broom-3, a-2)
+dobj(getting-1, broom-3)
+
+det(broom-3, the-2)
+dobj(pushing-1, broom-3)
+advmod(pushing-1, back-4)
+advmod(pushing-1, forth-6)
+conj_and(back-4, forth-6)
+aux(collect-8, to-7)
+xcomp(pushing-1, collect-8)
+dobj(collect-8, dust-9)
+
+det(broom-3, the-2)
+dobj(using-1, broom-3)
+aux(push-5, to-4)
+xcomp(using-1, push-5)
+det(dust-7, the-6)
+dobj(push-5, dust-7)
+det(dustpan-10, a-9)
+prep_onto(push-5, dustpan-10)
+
+csubj(can-8, emptying-1)
+det(pan-4, the-2)
+nn(pan-4, dust-3)
+dobj(emptying-1, pan-4)
+det(trash-7, a-6)
+prep_over(emptying-1, trash-7)
+
+dobj(get-1, broom-2)
+
+dobj(move-1, broom-2)
+mark(collect-6, so-3)
+dep(collect-6, that-4)
+aux(collect-6, to-5)
+advcl(move-1, collect-6)
+xcomp(move-1, collect-6)
+dobj(collect-6, dirt-7)
+
+dobj(remove-1, dirt-2)
+
+dobj(get-1, broom-2)
+
+prep(start-1, sweeping-2)
+dep(sweeping-2, from-3)
+num(side-5, one-4)
+pobj(from-3, side-5)
+prep_of(side-5, room-7)
+
+det(side-5, the-3)
+amod(side-5, other-4)
+prep_toward(advance-1, side-5)
+
+dobj(gather-1, dirt-2)
+conj_and(gather-1, throw-4)
+prt(throw-4, away-5)
+
+dobj(get-1, broom-2)
+
+nn(floor-4, broom-2)
+nn(floor-4, sweep-3)
+pobj(with-1, floor-4)
+num(direction-7, one-6)
+prep_in(floor-4, direction-7)
+
+det(floor-3, all-2)
+dobj(cover-1, floor-3)
+
+dobj(gather-1, dirt-2)
+conj_and(gather-1, throw-4)
+prt(throw-4, away-5)
+
+dobj(get-1, broom-2)
+
+dobj(hold-1, broom-2)
+num(hands-5, two-4)
+prep_with(hold-1, hands-5)
+
+dobj(move-1, broom-2)
+prep_across(move-1, floor-4)
+advmod(moved-9, so-5)
+dep(moved-9, that-6)
+nsubjpass(moved-9, dirt-7)
+auxpass(moved-9, is-8)
+dep(move-1, moved-9)
+det(direction-12, a-11)
+prep_into(moved-9, direction-12)
+
+dobj(collect-1, dirt-2)
+conj_and(collect-1, throw-4)
+prt(throw-4, away-5)
+
+amod(objects-3, large-2)
+dobj(remove-1, objects-3)
+prep_from(remove-1, floor-5)
+
+dobj(obtain-1, broom-2)
+
+dobj(move-1, broom-2)
+prep_across(move-1, floor-4)
+
+mark(covered-7, until-2)
+nsubjpass(covered-7, surface-3)
+prep_of(surface-3, floor-5)
+auxpass(covered-7, is-6)
+advcl(repeat-1, covered-7)
+
+num(times-3, three-2)
+dobj(repeat-1, times-3)
+
+dobj(take-1, broom-2)
+
+prep_with(broom-6, broom-2)
+amod(sweep-5, touching-3)
+nn(sweep-5, floor-4)
+nsubj(broom-6, sweep-5)
+
+dobj(move-1, dirt-2)
+prep_into(move-1, pile-4)
+
+dobj(remove-1, dirt-2)
+prep_from(remove-1, pile-4)
+
+det(sweep-3, a-2)
+dobj(take-1, sweep-3)
+
+dobj(select-1, area-2)
+prep_to(select-1, sweep-4)
+
+nsubj(selected-5, sweep-1)
+det(area-4, the-2)
+amod(area-4, whole-3)
+dep(sweep-1, area-4)
+
+dobj(find-1, broom-2)
+
+nn(broom-2, move-1)
+nsubj(brush-4, broom-2)
+aux(brush-4, s-3)
+advmod(brush-4, back-5)
+advmod(brush-4, forth-7)
+conj_and(back-5, forth-7)
+det(floor-10, the-9)
+prep_across(brush-4, floor-10)
+
+mark(clean-6, until-2)
+det(floor-4, the-3)
+nsubj(clean-6, floor-4)
+cop(clean-6, is-5)
+advcl(repeat-1, clean-6)
+
+det(broom-3, a-2)
+dobj(take-1, broom-3)
+
+dobj(use-1, broom-2)
+prep_to(use-1, sweep-4)
+det(floor-6, a-5)
+dep(sweep-4, floor-6)
+
+det(dust-3, all-2)
+dobj(gather-1, dust-3)
+num(place-6, one-5)
+prep_in(gather-1, place-6)
+
+dobj(use-1, broom-2)
+aux(put-4, to-3)
+xcomp(use-1, put-4)
+dobj(put-4, it-5)
+det(scoop-8, a-7)
+prep_on(put-4, scoop-8)
+
+det(dust-3, all-2)
+dobj(put-1, dust-3)
+det(scoop-6, a-5)
+prep_from(put-1, scoop-6)
+prep_into(put-1, dustbin-8)
+
+det(broom-3, a-2)
+dobj(get-1, broom-3)
+
+det(bristles-3, the-2)
+dobj(rub-1, bristles-3)
+det(broom-6, the-5)
+prep_of(bristles-3, broom-6)
+det(floor-9, the-8)
+prep_across(rub-1, floor-9)
+
+dep(dust-3, sweep-1)
+det(dust-3, all-2)
+csubj(pile-8, dust-3)
+conj_and(dust-3, trash-5)
+csubj(pile-8, trash-5)
+prep_into(dust-3, one-7)
+det(floor-11, the-10)
+prep_on(pile-8, floor-11)
+
+det(pan-4, a-2)
+nn(pan-4, dust-3)
+dobj(get-1, pan-4)
+
+det(dust-3, all-2)
+dobj(sweep-1, dust-3)
+dobj(sweep-1, trash-5)
+conj_and(dust-3, trash-5)
+det(pan-9, the-7)
+nn(pan-9, dust-8)
+prep_into(sweep-1, pan-9)
+
+det(dust-4, the-3)
+prep_of(dispose-1, dust-4)
+prep_of(dispose-1, trash-6)
+conj_and(dust-4, trash-6)
+
+det(broom-3, a-2)
+dobj(locate-1, broom-3)
+
+det(pan-4, a-2)
+nn(pan-4, dust-3)
+dobj(locate-1, pan-4)
+
+det(broom-3, the-2)
+dobj(utilize-1, broom-3)
+nn(dirt-6, sweep-5)
+prep_to(utilize-1, dirt-6)
+det(floor-9, the-8)
+prep_on(utilize-1, floor-9)
+num(pile-12, one-11)
+prep_into(utilize-1, pile-12)
+
+nn(dirt-2, sweep-1)
+nsubj(pile-4, dirt-2)
+prep(dirt-2, from-3)
+nn(pan-7, dust-6)
+prep_into(pile-4, pan-7)
+
+dobj(discard-1, of-2)
+pobj(of-2, dirt-3)
+det(receptacle-7, a-5)
+nn(receptacle-7, trash-6)
+prep_in(discard-1, receptacle-7)
+
+det(broom-3, a-2)
+dobj(get-1, broom-3)
+
+det(broom-3, the-2)
+dobj(hold-1, broom-3)
+det(handle-6, the-5)
+prep_by(hold-1, handle-6)
+
+det(bristles-3, the-2)
+dobj(run-1, bristles-3)
+det(broom-6, the-5)
+prep_of(bristles-3, broom-6)
+det(floor-9, the-8)
+prep_over(run-1, floor-9)
+
+dep(dust-4, all-2)
+det(dust-4, the-3)
+dobj(push-1, dust-4)
+dobj(push-1, grime-6)
+conj_and(dust-4, grime-6)
+det(door-9, the-8)
+prep_out(push-1, door-9)
+det(broom-12, the-11)
+prep_with(push-1, broom-12)
+
+dobj(get-1, broom-2)
+
+prt(sweep-1, up-2)
+dobj(sweep-1, dust-3)
+prep_into(dust-3, pile-5)
+
+nsubj(pile-2, sweep-1)
+prep_into(pile-2, dustpan-4)
+
+dobj(empty-1, dustpan-2)
+
+dobj(identify-1, floor-2)
+
+dobj(identify-1, broom-2)
+
+dobj(grasp-1, broom-2)
+
+nsubj(broom-2, sweep-1)
+prep_against(broom-2, floor-4)
+
+dobj(move-1, dirt-2)
+prep_off_of(move-1, floor-5)
+partmod(floor-5, using-6)
+amod(motion-8, sweeping-7)
+dobj(using-6, motion-8)
+prep_of(motion-8, broom-10)
+
+dobj(put-1, broom-2)
+prt(put-1, away-3)
+
+det(broom-3, the-2)
+dobj(take-1, broom-3)
+
+det(floor-3, the-2)
+dep(sweep-1, floor-3)
+det(broom-6, the-5)
+prep_with(floor-3, broom-6)
+
+dobj(get-1, broom-2)
+
+dobj(get-1, dustpan-2)
+
+nsubj(dirt-2, sweep-1)
+prep_into(dirt-2, pile-4)
+
+dobj(put-1, dirt-2)
+prep_into(put-1, dustpan-4)
+
+dobj(throw-1, dirt-2)
+prt(throw-1, away-3)
+
+advmod(necessary-3, as-2)
+acomp(repeat-1, necessary-3)
+
+dobj(store-1, broom-2)
+dobj(store-1, dustpan-4)
+conj_and(broom-2, dustpan-4)
+
+nn(floor-2, notice-1)
+nsubj(dirty-4, floor-2)
+cop(dirty-4, is-3)
+
+prep_to(decide-1, sweep-3)
+
+dobj(put-1, pets-2)
+amod(pets-2, outside-3)
+
+dobj(find-1, broom-2)
+
+prt(sweep-1, up-2)
+dobj(sweep-1, dirt-3)
+prep_into(dirt-3, dustpan-5)
+
+dobj(empty-1, dustpan-2)
+
+prep_in(let-1, dogs-3)
+prep_in(let-1, note-5)
+conj_and(dogs-3, note-5)
+nsubj(re-7, they-6)
+ccomp(let-1, re-7)
+dep(re-7, bring-8)
+amod(dirt-11, more-10)
+prep_in(bring-8, dirt-11)
+
+cc(area-3, and-2)
+dobj(clear-1, area-3)
+det(floor-6, the-5)
+prep_of(area-3, floor-6)
+
+dobj(use-1, broom-2)
+prep_to(use-1, sweep-4)
+det(dirt-6, the-5)
+dep(together-7, dirt-6)
+advmod(use-1, together-7)
+
+nn(pan-3, dust-2)
+dobj(use-1, pan-3)
+aux(pick-5, to-4)
+xcomp(use-1, pick-5)
+prt(pick-5, up-6)
+dobj(pick-5, dirt-7)
+
+dobj(put-1, dirt-2)
+nn(can-5, trash-4)
+prep_in(put-1, can-5)
+
+amod(items-3, cleared-2)
+dobj(put-1, items-3)
+advmod(put-1, back-4)
+
+
+prt(put-1, away-2)
+dobj(put-1, broom-3)
+nn(pan-6, dust-5)
+dobj(put-1, pan-6)
+conj_and(broom-3, pan-6)
+
+dobj(get-1, broom-2)
+
+nn(corner-3, floor-2)
+dobj(goto-1, corner-3)
+
+conj_and(push-1, pull-3)
+dobj(pull-3, broom-4)
+prep_across(pull-3, floor-6)
+
+amod(floor-3, entire-2)
+dobj(cover-1, floor-3)
+
+nn(floor-2, sweep-1)
+prep_with(floor-2, broom-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, dust-3)
+prep_with(pick-1, dustpan-5)
+
+dobj(pushthe-1, dirt-2)
+det(broom-5, the-4)
+prep_with(pushthe-1, broom-5)
+amod(piles-8, little-7)
+prep_into(pushthe-1, piles-8)
+
+predet(piles-5, all-2)
+det(piles-5, the-3)
+amod(piles-5, little-4)
+dobj(push-1, piles-5)
+advmod(push-1, together-6)
+
+det(piles-3, the-2)
+dobj(sweep-1, piles-3)
+det(dustpan-6, the-5)
+prep_into(sweep-1, dustpan-6)
+
+dobj(find-1, broom-2)
+
+amod(floor-3, accross-2)
+dobj(drag-1, floor-3)
+
+dobj(pile-1, dirt-2)
+prt(pile-1, up-3)
+
+prt(scoop-1, up-2)
+dobj(scoop-1, dirt-3)
+
+dobj(throw-1, dirt-2)
+prt(throw-1, away-3)
+
+det(broom-4, the-2)
+amod(broom-4, electric-3)
+dobj(get-1, broom-4)
+
+det(broom-3, the-2)
+dobj(use-1, broom-3)
+amod(surface-7, intire-5)
+nn(surface-7, floor-6)
+prep_over(use-1, surface-7)
+prep_without(use-1, carpet-9)
+
+advmod(removed-7, when-1)
+det(dirt-3, all-2)
+nsubjpass(removed-7, dirt-3)
+conj_and(dirt-3, dust-5)
+nsubjpass(removed-7, dust-5)
+auxpass(removed-7, is-6)
+det(floors-10, the-9)
+prep_from(removed-7, floors-10)
+
+det(broom-4, the-2)
+amod(broom-4, electric-3)
+dobj(place-1, broom-4)
+advmod(place-1, back-5)
+advmod(was-8, where-6)
+nsubj(was-8, it-7)
+dep(back-5, was-8)
+
+det(floor-3, the-2)
+dobj(find-1, floor-3)
+
+dobj(sweep-1, it-2)
+
+dobj(get-1, broom-2)
+nn(pan-5, dust-4)
+dobj(get-1, pan-5)
+conj_and(broom-2, pan-5)
+
+nsubj(broom-2, sweep-1)
+dobj(broom-2, head-3)
+det(floor-6, the-5)
+prep_across(broom-2, floor-6)
+
+nsubj(dirt-2, sweep-1)
+det(pile-5, a-4)
+prep_into(dirt-2, pile-5)
+
+nn(pan-3, dust-2)
+dobj(hold-1, pan-3)
+prep_to(hold-1, floor-5)
+
+nsubj(pile-2, sweep-1)
+prep_of(pile-2, dirt-4)
+nn(pan-7, dust-6)
+prep_onto(pile-2, pan-7)
+
+mark(clean-5, until-2)
+nsubj(clean-5, floor-3)
+cop(clean-5, is-4)
+advcl(repeat-1, clean-5)
+
+dobj(grasp-1, broom-2)
+
+nsubj(dirt-2, sweep-1)
+num(pile-6, one-4)
+amod(pile-6, main-5)
+prep_into(dirt-2, pile-6)
+
+nn(dirt-2, sweep-1)
+nsubj(pile-3, dirt-2)
+prep_into(pile-3, dustbin-5)
+
+prep_of(dispose-1, dirt-3)
+prep_in(dispose-1, dustbin-5)
+
+det(broom-3, a-2)
+dobj(get-1, broom-3)
+
+amod(motions-3, forward-2)
+dobj(make-1, motions-3)
+det(broom-6, the-5)
+prep_with(make-1, broom-6)
+aux(gather-8, to-7)
+infmod(broom-6, gather-8)
+dobj(gather-8, dirt-9)
+prep_from(gather-8, floor-11)
+
+det(dustpan-3, a-2)
+dobj(get-1, dustpan-3)
+
+det(dirt-3, the-2)
+dobj(sweep-1, dirt-3)
+prep_with(dirt-3, broom-5)
+prep_into(sweep-1, dustpan-7)
+
+dobj(throw-1, contents-2)
+prep_of(contents-2, dustpan-4)
+det(garbage-7, the-6)
+prep_in(throw-1, garbage-7)
+
+advmod(many-3, as-2)
+amod(times-4, many-3)
+dobj(repeat-1, times-4)
+advmod(needed-6, as-5)
+amod(times-4, needed-6)
+
+dobj(obtain-1, sweeper-2)
+
+
+prep_into(sweep-1, dustbin-3)
+
+dobj(empty-1, dustbin-2)
+
+number(-4-3, 2-2)
+dobj(repeat-1, -4-3)
+prep_as(repeat-1, necesary-5)
+
+prt(take-1, out-2)
+dobj(take-1, broom-3)
+
+nsubj(broom-2, sweep-1)
+prep_over(broom-2, floor-4)
+
+nn(dirt-2, sweep-1)
+prep_into(dirt-2, pan-4)
+
+dobj(throw-1, dirt-2)
+prep_into(throw-1, garbage-4)
+
+dobj(find-1, broom-2)
+
+nsubj(dirt-2, sweep-1)
+prep_into(dirt-2, pile-4)
+
+prep_into(sweep-1, dustpan-3)
+
+prep_in(throw-1, garbage-3)
+
+dobj(take-1, broom-2)
+
+dep(sweep-1, floor-2)
+
+dobj(collect-1, dirt-2)
+
+dobj(put-1, broom-2)
+prt(put-1, away-3)
+
+dobj(run-1, broom-2)
+prep_over(run-1, floor-4)
+
+nn(dirt-2, sweep-1)
+det(mound-5, a-4)
+prep_into(dirt-2, mound-5)
+
+nn(mound-2, sweep-1)
+prep_into(mound-2, dustpan-4)
+

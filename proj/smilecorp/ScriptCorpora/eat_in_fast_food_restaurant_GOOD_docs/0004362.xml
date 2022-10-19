@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0004362" url="http://jn.physiology.org/content/90/4/2205.full" time="2012-07-12-20:36" support="4" score="0.0013335737523904843" bingtitle="Evidence for Object Permanence in the Smooth-Pursuit Eye Movements ..." webtitle="Evidence for Object Permanence in the Smooth-Pursuit Eye Movements of Monkeys">
+			<query id="001042" bing-rank="216"/>
+			<query id="001451" bing-rank="208"/>
+			<query id="001262" bing-rank="227"/>
+			<query id="001011" bing-rank="194"/>
+	<description>... post to both the receptacle on the head and the ceiling of ... reaching a minimum near 5°/s ... of this article were defrayed in part by the payment of ...</description>
+	<body>
+		American Physiological Society Journal of Neurophysiology 
+
+ Skip to main page content 
+
+ HOME CURRENT ISSUE IN PRESS ARCHIVES FEEDBACK SUBSCRIBE ALERTS HELP 
+ Keyword Search GO Advanced Search » User Name Password Sign In 
+ 
+ 
+ 
+ 
+ Article 
+ 
+Evidence for Object Permanence in the Smooth-Pursuit Eye Movements of Monkeys
+ 
+ Mark M. Churchland 3 , 4 , I-Han Chou 1 , 4 , and Stephen G. Lisberger 1 , 2 , 3 , 4 
+
+ 1 Howard Hughes Medical Institute, San Francisco, California 94143 2 Department of Physiology, San Francisco, California 94143 3 Neuroscience Graduate Program, San Francisco, California 94143 4 W. M. Keck Foundation Center for Integrative Neuroscience University of California, San Francisco, California 94143 
+
+ Address for reprint requests and other correspondence: M. Churchland, Dept. of Electrical Engineering, 330 Serra Mall, CISX
+ 312, Stanford, CA 94305-4075(E-mail: church{at}stanford.edu ). 
+
+ Submitted 21 November 2002. Accepted 12 June 2003. 
+ Next Section 
+Abstract
+
+We recorded the smooth-pursuit eye movements of monkeys in response to targets that were extinguished (blinked) for 200 ms
+ in mid-trajectory. Eye velocity declined considerably during the target blinks, even when the blinks were completely predictable
+ in time and space. Eye velocity declined whether blinks were presented during steady-state pursuit of a constant-velocity
+ target, during initiation of pursuit before target velocity was reached, or during eye accelerations induced by a change in
+ target velocity. When a physical occluder covered the trajectory of the target during blinks, creating the impression that
+ the target moved behind it, the decline in eye velocity was reduced or abolished. If the target was occluded once the eye
+ had reached target velocity, pursuit was only slightly poorer than normal, uninterrupted pursuit. In contrast, if the target
+ was occluded during the initiation of pursuit, while the eye was accelerating toward target velocity, pursuit during occlusion
+ was very different from normal pursuit. Eye velocity remained relatively stable during target occlusion, showing much less
+ acceleration than normal pursuit and much less of a decline than was produced by a target blink. Anticipatory or predictive
+ eye acceleration was typically observed just prior to the reappearance of the target. Computer simulations show that these
+ results are best understood by assuming that a mechanism of eye-velocity memory remains engaged during target occlusion but
+ is disengaged during target blinks.
+ Previous Section Next Section 
+INTRODUCTION
+
+Both humans and monkeys use smooth-pursuit eye movements to track moving visual targets. Pursuit is considered to be a voluntary
+ movement, as subjects can choose to track a given target and can suppress pursuit of other potential targets ( Ferrera and Lisberger 1995 ; Gardner and Lisberger 2001 ; Heywood 1972 ). However, in many ways, pursuit appears reflex-like and mechanical. Pursuit typically cannot be initiated or maintained
+ in the absence of a visual target ( Barnes et al. 1987 ; Heywood and Churcher 1971 ; Kao and Morrow 1994 ), and for many target trajectories the evoked trajectory of the eye can be explained by models with relatively simple dynamics
+ (e.g., Krauzlis and Lisberger 1989 ; Ringach 1995 ; Robinson et al. 1986 ). For example, when initiating pursuit to a target of constant velocity, eye velocity typically shows a small overshoot of
+ target velocity and often shows subsequent periodic “ringing” around target velocity ( Fuchs 1967 ; Robinson et al. 1986 ). Such behavior can be accounted for by a model in which eye acceleration is proportional to both retinal image velocity
+ and acceleration ( Churchland and Lisberger 2001a ; Goldreich et al. 1992 ; Krauzlis and Lisberger 1989 , 1994 ). This model essentially views pursuit as a velocity-servo with some added features and nonlinearities that improve performance.
+ However, there are clear examples where simple, mechanical pursuit models are inadequate. For example, pursuit can be driven
+ by the expected or predicted motion of a target rather than by the actual retinal motion (Barnes et al. 1987 , 1997 ; Becker and Fuchs 1985 ; Kowler 1989 ; Krauzlis and Adler 2001 ; Whittaker and Eaholtz 1982 ).
+
+Pursuit is not unique in having both mechanical and higher-level or cognitive aspects. The same is true of saccadic eye movements
+ and presumably of many limb movements. A full understanding of any cortically-guided movement will probably require detailed
+ analysis of both: 1) the cognitive and voluntary processes that determine the overall intent of the movement, and 2) the more
+ mechanical sensory-motor processes that guide the movement and create much of its dynamics. In the case of pursuit, the mechanical
+ and cognitive aspects of pursuit have led to corresponding mechanical and cognitive views of pursuit (e.g., Lisberger and Westbrook 1985 ; for review, see Kowler 1990 ). Neither view is sufficient on its own. The mechanical view is incomplete because it fails to account for a number of cognitive
+ processes that influence pursuit. The cognitive view is incomplete because it fails to propose any concrete model that accounts
+ for the actual dynamics of pursuit behavior. Although these facts are widely recognized, there have been few attempts to reconcile
+ the two viewpoints.
+
+In the present paper, we examine pursuit of targets that are briefly extinguished (blinked). For some conditions, the target
+ blink was coincident with a physical object that was attached to the screen the monkey was viewing, creating the impression
+ that the target traveled behind the object. The presence of this occluder had a profound effect on the pursuit response during
+ target absence. Many features of the observed behavior are accounted for by reflex-style pursuit models, given reasonable
+ assumptions regarding descending modulation. Other features of the observed behavior require the assumption of signals external
+ to reflex-style models. We propose that the pursuit system is best thought of as a reflex-like kernel (which is intended to be captured by reflex-style models) modulated by descending influences and supplemented by mechanisms
+ that anticipate the motion of predictable targets.
+ Previous Section Next Section 
+METHODS
+ 
+Pursuit experiments
+
+Pursuit experiments were run on five male rhesus monkeys ( Macaca mulatta ) that had been trained to pursue spot targets. The basic experimental and training protocol has been described before (e.g., Lisberger and Westbrook 1985 ). Eye movements were measured with the scleral search-coil method ( Judge et al. 1980 ), using eye coils that were implanted using sterile procedure. In a separate surgery, stainless steel plates were secured
+ to the skull and attached with dental acrylic to a cylindrical receptacle that could be used for head restraint. Surgeries
+ were performed while the animal was anesthetized with isofluorane. During experiments, the head was immobilized by attaching
+ a post to both the receptacle on the head and the ceiling of a specially designed primate chair. Animals were rewarded with
+ juice or water for accurate tracking. Experiments lasted from 0.5 to 1 h. All methods had received prior approval by the Institutional
+ Animal Care and Use Committee at UCSF.
+ 
+Stimulus presentation
+
+Visual stimuli were presented on a 12-in diagonal analog oscilloscope (Hewlett-Packard model 1304A, P4 phosphor), using signals
+ provided by 16-bit D/A converter outputs from a PC-based digital signal processing board (Spectrum Signal Processing, “Detroit”
+ system). This method affords excellent spatial and temporal resolution with a frame refresh rate of 250 Hz. The display was
+ positioned 30 cm from the animal and subtended 48.4° horizontally by 38.6° vertically. Fixation and tracking targets were
+ small (∼0.2°) spots. Motion of the tracking target was achieved by flashing the spot in a new location every 4 ms. Each flash
+ lasted ∼160 μs. The apparent motion created by our display is effectively smooth at these sampling rates (Churchland and Lisberger 2000 , 2001b ). The fixation and tracking targets had luminances of ∼1.6 and ∼25 cd/m 2 , respectively. Because the targets were small, these luminances were bright but not dazzling. Experiments were performed
+ in a dimly lit room. Due to the dark screen of the display, background luminance was beneath the threshold of the photometer,&lt;1 mcd/m 2 . A rectangular piece of tape was attached to the front of the monitor and was used as an “occluder.” For the experiment using monkey N, the occluder was orange; for all later experiments, it was green. There was no reason for this other than the color of tape
+ conveniently available. The occluder had a luminance of 0.5 cd/m 2 (due to the ambient light) and was clearly visible against the dark monitor. Due to the thickness of the monitor glass, the
+ occluder sat ∼0.5 cm in front of the targets. Although the occluder was entirely opaque, visual targets that traveled behind
+ the occluder were extinguished to ensure they were invisible (see following text). The exact width of the occluder was carefully
+ customized for each experiment (see following text). Its height was ∼6°.
+
+Pursuit was recorded in individual trials. A fixation point appeared at the beginning of each trial, and the monkey was required
+ to fixate it within 500 ms with an accuracy of 3°. The fixation target was present for a random duration of 700–1,200 ms,
+ after which it was extinguished and replaced with the brighter tracking target. The tracking target appeared to the left of
+ fixation and immediately began to move to the right ( Rashbass 1961 ). Monkeys were allowed 200 ms to bring their eyes to within 4–6° of the tracking target and were required to continue tracking
+ it for its entire trajectory. Required fixation accuracy was varied, depending on the speed and eccentricity of the target
+ and the difficulty of the trial. If fixation requirements were met for the duration of the trial, then a juice reward was
+ delivered. For trials in which the target was blinked or disappeared behind the occluder, fixation requirements were relaxed
+ or suspended during its absence. We based this approach on the observation that, for difficult tasks, highly trained monkeys
+ perform more consistently and produce better pursuit when fixation requirements are set so that most trials are successfully
+ completed. Fixation requirements were the same for the blinked and occluded conditions. The duration of target motion depended
+ on the monkey and trial type, and varied from 870 to 1,700 ms. For three of the five monkeys ( M, P, and O ), the tracking target jumped forward 2° at the end of its trajectory and was stationary for an additional 500–700 ms, during
+ which fixation was enforced. This design was intended to minimize the commonly observed decline in eye velocity that occurs
+ as the monkey anticipates the end of a trial. For the other two monkeys, the target simply disappeared at the end of its trajectory.
+
+Each pursuit experiment consisted of multiple repeats of a list of at least nine trials, where each trial type presented a
+ different target trajectory. The trials were sequenced by shuffling the list and requiring the monkey to complete each trial
+ successfully once. If the monkey failed a trial, then that trial was placed at the end of the list and presented again after
+ all the other trials had been completed. After all trials had been completed once, the list was shuffled and presented again.
+ 
+Target trajectories
+
+We tested the effect of target blinks and occlusion during both pursuit maintenance and initiation. In doing so, we used two
+ occluders of different sizes. Figure 1 illustrates the screen locations of the two rectangular occluders and shows the five locations used to present different
+ trial types. The top two traces (a and b) illustrate the trajectory locations used to study the effect of target blinks and
+ occlusion during pursuit initiation. The bottom two traces (d and e) illustrate the trajectory locations used to study the
+ effect of target blinks and occlusion during pursuit maintenance. The middle trace (c) illustrates the target trajectory location
+ used to study normal pursuit initiation and maintenance. Each trajectory was separated from its neighbor by 3°. The occluder
+ that interrupted trajectory location a extended 2° below the line of that trajectory. Similarly, the occluder that interrupted
+ trajectory location e extended 2° above the line of that trajectory. In the following text we list the different target motions
+ that were shown at these five locations.
+
+
+ View larger version: 
+ In this window In a new window 
+
+ Download as PowerPoint Slide 
+ fig . 1. 
+Schematic diagram illustrating the positions of the occluders and the target trajectories on the visual display. The trajectories
+ used to examine pursuit initiation were presented on the top half of the display. The target moved at 35°/s and encountered
+ an occluder (a) or underwent a blink (b) shortly after it began to move (the “occluded-initiation” and “blinked-initiation”
+ conditions). The trajectories used to examine pursuit maintenance were presented on the bottom half of the display. The target
+ moved at 15°/s and encountered an occluder (e) or underwent a blink (d) well after it began to move (the occluded-maintenance
+ and blinked-maintenance conditions). Uninterrupted target trajectories, at both 15 and 35°/s (the “normal-maintenance” and
+ “normal-initiation” conditions), were presented at position (c). The occluder is larger for the top trajectories because the
+ target was moving faster, and we wished the occlusion/blink to last a constant duration.
+ 
+ normal-maintenance condition. Trajectory location c was used. The target appeared 0.6–3° to the left of the fixation point and moved at a constant velocity
+ of 15°/s for ∼1.5 s. The exact size of the initial offset was varied across monkeys to reduce the occurrence of saccades during
+ initiation. For monkey Q, the movement duration was 1,600 ms. For monkeys M, P, and O, we used a variable time of 1,500–1,700 ms that was random for each trial. These minor changes in design were intended to
+ reduce the inevitable decline in maintained eye velocity as the trial&apos;s end is anticipated. Monkey N was the first monkey tested and was not presented with the normal-maintenance condition, only the blinked- and occluded-maintenance
+ conditions.
+
+ blinked-maintenance condition. Trajectory location d was used. Target motion was identical to that in the normal-maintenance condition except that the target
+ was briefly extinguished (blinked) during its trajectory. After the target blink, the target reappeared at a new position
+ consistent with it having moved during the blink. The blink was timed so that it began when the target was aligned with the
+ left side of the occluder and lasted until the target was aligned with the right side. The top of the occluder was 1° below
+ the path of the target. The first experiment was performed on monkey N and used a 164-ms blink. The nearby occluder was thus 2.5° wide. In all later experiments, 200-ms blinks (and 3° occluders)
+ were used with the intent of creating larger effects. Before the blink, monkeys had sufficient time to achieve stable pursuit
+ maintenance (400 ms for monkeys M, P, and O, 500 ms for monkey N, and 600 ms for monkey Q ). The exact time of the blink was varied slightly from monkey to monkey in an attempt to place it after stable pursuit had
+ been reached but well before the typical decline in eye velocity near the trial&apos;s end.
+
+ occluded-maintenance condition. Trajectory location e was used. Target motion was identical to that in the blinked-maintenance condition. The occluder was
+ coincident with the location of the target blink. Thus the target appeared to travel behind the occluder during the blink.
+
+ normal-initiation condition. Trajectory location c was used. The target appeared moving at a speed of 5°/s and immediately underwent a constant acceleration
+ from 5 to 35°/s in 100 ms. Thereafter, it moved at a constant speed of 35°/s for 750 ms. We used an accelerating target, rather
+ than one that immediately began to move at 35°/s, to lengthen the initiation phase of pursuit. The goal was to ensure that
+ the target blinks and occlusions described in the following text produced effects during, rather than after, the initiation
+ of pursuit. When the target initially appeared it was located 0.6–2.5° to the left of the fixation point. The exact size of
+ the initial offset was varied across monkeys to reduce as much as possible the occurrence of saccades during initiation, with
+ the constraint that the horizontal position of the fixation point lie ≥1° from the horizontal position of the leading edge
+ of the occluder.
+
+ blinked-initiation condition. Trajectory location b was used. Target motion was identical to that in the normal-initiation condition except that the target
+ was blinked for 200 ms shortly after its onset. The exact time of the target blink was varied slightly from monkey to monkey
+ and experiment to experiment in an attempt to center the response to the blink in the middle of the rising phase of pursuit.
+ For monkeys Q and O, the target was blinked 100 ms after its onset, just as it had reached its full speed of 35°/s. For monkey M, the target was blinked 120 ms after its onset, 20 ms after it had reached full speed. Monkey P was run twice, with the blinks occurring 50 and 20 ms after the target had reached full speed. The onset and offset of the
+ blink occurred when the target reached the left and right edges of the occluder (situated 1° above the target trajectory).
+ The occluder was 7° wide.
+
+ occluded-initiation condition. Trajectory location a was used. Target motion was identical to that in the blinked-initiation condition, but the target began
+ 3° higher so that the blink was coincident with the location of the occluder. During the blink the target appeared to travel
+ behind the occluder. The three initiation conditions were tested on all monkeys except monkey N. They were presented as interleaved trials in the same experimental session with the maintenance conditions.
+
+ normal-velocity-change condition. Trajectory location c was used. Target motion was similar to that in the normal-initiation condition except that when the
+ target first appeared, it moved at 5°/s for 400 ms before undergoing the acceleration from 5 to 35°/s. The initial position
+ of the target was 2° to the left of the initial position for the normal-initiation condition. Thus after the first 400 ms,
+ the target trajectories for the normal-velocity-change and normal-initiation conditions were identical. The initial slow motion
+ allowed the monkeys to achieve stable and accurate tracking, after which they responded to the target acceleration much as
+ they had for the initiation conditions.
+
+ blinked-velocity-change condition. Trajectory location b was used. Target motion was identical to that in the normal-velocity-change condition except that the
+ target was blinked for 200 ms shortly after the change in target velocity from 5 to 35°/s. The exact times of the blink varied
+ slightly by monkey and were the same (relative to when the target reached its full velocity) as for the blinked-initiation
+ condition described in the preceding text.
+
+ occluded-velocity-change condition. Trajectory location a was used. Target motion was identical to that in the blinked-velocity-change condition, but the target
+ began 3° higher so that the blink was coincident with the location of the occluder. Monkeys M, O, and P were tested using the velocity-change conditions. Data for velocity-change conditions were collected using interleaved trails
+ during the same experimental session in which we collected data for the maintenance and initiation conditions.
+
+ normal-delayed-initiation condition. Trajectory location c was used. The target appeared 400 ms before the fixation point was extinguished and moved at a constant
+ velocity of 35°/s throughout the trial. Monkeys were trained to withhold pursuit responses until the fixation point was extinguished.
+ The target appeared 16° left of the fixation point so that it was situated 2° to the left when the fixation point disappeared.
+
+ blinked-delayed-initiation condition. Trajectory location b was used. Target motion was identical to that in the normal-delayedinitiation condition except that
+ the target was blinked for 200 ms, beginning 100 ms after the disappearance of the fixation point.
+
+ occluded-delayed-initiation condition. Trajectory location a was used. Target motion was identical to that in the blinked-delayedinitiation condition, but the target
+ began 3° higher so that the blink was coincident with the location of the occluder. For the three delayed-initiation conditions,
+ only monkeys M and P were tested. Data were collected in a separate experimental session after collection of data for the maintenance, initiation,
+ and velocity-change conditions.
+
+For all types of experiments, the normal, blinked, and occluded conditions had trajectories across unique screen locations.
+ Thus whether or not a blink would occur and the presence or absence of a companion occluder was completely predictable from
+ the initial starting position of the target. The time of the blink was also predictable, both because it was always the same
+ (for a given monkey) and because its onset and offset were locked to an obvious landmark, the left and right edges of the
+ occluder, only 1° above or below the location of the blink.
+ 
+Data Acquisition and analysis
+
+Experiments were controlled by a computer program running on a UNIX workstation. The workstation sent commands to a Pentium
+ PC that both controlled the stimuli and acquired the data. Signals proportional to horizontal and vertical eye position and
+ eye velocity were sampled at 1 kHz on each channel. Eye velocity was obtained by using an analog circuit to differentiate
+ the eye position outputs from the search coil electronics: the circuit provided eye velocity for input frequencies ≤25 Hz
+ and acted as a filter to reject higher frequencies with a roll-off at 20 dB/decade. After each trial, data were sent via the
+ local area network to the UNIX workstation and saved for later analysis, along with a record of the commands given to the
+ video display to generate the stimulus.
+
+Pursuit was analyzed by aligning all responses to a given trial type on the onset of target motion and calculating the mean
+ and standard error of smooth eye velocity for each millisecond. Averages were of 27–134 responses, depending on the monkey
+ and the experiment. Although our methods reduced their occurrence, saccades were sometimes present during pursuit initiation
+ and were a common feature of pursuit maintenance. Almost all trials contained at least one saccade, and for a given time-point
+ during normal pursuit maintenance, a saccade was present in ∼5% of trials. Target blinks and accelerations tended to further
+ increase the occurrence of saccades, sometimes dramatically. Before averaging the data, we selected by hand the beginning
+ and end of each saccade. We then used two different methods to handle the saccadic intervals, prior to computing the averages.
+ For the first method, the time points during the saccade were excluded from the average of eye velocity. The duration of the
+ saccade was treated as missing data, and the gap was filled with the average eye velocity of trials that did not have a saccade
+ at that time. Averages of pursuit eye velocity made by applying this method are referred to as saccade-excluded averages. For the second method, each saccade was excised and replaced with a straight-line segment connecting the smooth
+ eye velocity just before and after the saccade. This method uses a linear model to infer the underlying pursuit eye velocity
+ during the saccade. The subsequent averages are referred to as saccade-interpolated averages.
+
+Both methods for handling saccades have their drawbacks. The saccade-interpolated method has the drawback that it works well
+ only when the second derivative of eye velocity is small. It can therefore lead to misestimation of pursuit latencies if saccades
+ are common. For example, if the onset of pursuit frequently occurs during a saccade, then the latency of pursuit would be
+ shifted earlier by linear interpolation across saccades. The saccade-excluded method assumes that responses without saccades
+ at a given time are representative of the underlying pursuit eye velocity of responses that do have saccades. However, saccades
+ are not independent of pursuit performance. For example, certain events (such as the reappearance of a target after it blinks)
+ are expected to predictably evoke saccades. The lack of a saccade at such a time may indicate poor overall oculomotor performance
+ and thus be associated with a lower than normal pursuit velocity. If so, then for time points when saccades are frequent,
+ the trials contributing to the average would have weaker pursuit, and the resulting average would show a small transient dip.
+ Such dips would be artifacts of the exclusion of responses that have saccades at that time and would not reflect actual pursuit
+ behavior in individual trials. To prevent such artifacts from impacting our analysis, we show measurements of magnitude made
+ from the saccade-interpolated averages of eye velocity and measurements of latency (see following text) from the saccade-excluded
+ averages. We note, however, that the impact of saccade-related analysis artifacts was small: measurements made from the two
+ types of average were usually nearly identical.
+
+Using the saccade-excluded averages of eye velocity, we measured the latency of the pursuit response to the various changes
+ in the target trajectory (e.g., the onset of target motion, the disappearance of the target during a blink). We used two methods,
+ one based on an automatic algorithm and the other on visual inspection of the averaged traces. For the automatic algorithm,
+ we took the second derivative of eye velocity (the “jerk”), following filtering with a Gaussian function with a SD of 10 ms.
+ Following a given change in the target motion or visibility, the eye changed what it was doing (e.g., started to accelerate,
+ started to decelerate, ceased accelerating). All such changes were marked by a peak in the jerk. We estimated the latency
+ as the time to reach 50% of the (positive or negative) peak of the jerk.
+
+Measuring latencies from averages of eye velocity yields the earliest, rather than the average, time at which the monkey responded.
+ For example, if pursuit latencies in individual responses varied from 60 to 80 ms, then the latency of the average response
+ would be near 60 ms. It can be argued that it is thus preferable to measure latency for individual responses, but this was
+ not possible for many of the latency measurements we desired to make. We therefore chose to make estimates of latency based
+ on the averages. While this method may slightly underestimate the true average latency, comparisons between conditions are
+ still valid.
+ 
+Variations in experimental design
+
+The reader will note that for each monkey we used slightly different trial parameters, usually because we were attempting
+ to optimize some parameter relative to the behavior of that monkey or because we were attempting minor improvements in the
+ experimental paradigm after experience with the previous monkey. For example, we varied the time of the blink and occlusion
+ in an effort to locate the relevant effect at a particular time relative to the behavior of a given monkey. The intent of
+ such manipulations was thus to make the experiment more consistent in an important respect (e.g., varying the time of the blink as a function of the speed of each monkey&apos;s initiation,
+ to locate the blink during the middle of the rising phase of pursuit). In another example, we used a shorter blink duration
+ for the first experiment using monkey N. Longer blinks were used in all later experiments to give larger effects. In this particular case, we saw no reason to exclude
+ the data of monkey N simply because the parameters used were slightly different. In general, the minor variations in experimental design do not
+ pose interpretation problems as all important comparisons were made within a particular monkey&apos;s data.
+
+Of slightly greater concern is the fact that the important comparisons are made for target trajectories that varied slightly
+ in their vertical location. This aspect of the experimental design was an inevitable consequence of using a physical occluder
+ whose location could not be moved for each trial. Nevertheless, it seems very unlikely the effects we attribute to the presence
+ or absence of the occluder were in fact due to small differences in the vertical target position.
+ Previous Section Next Section 
+RESULTS
+ 
+Effects of target disappearance during pursuit maintenance
+
+ effect of target blinks. The “normal-maintenance” and “blinked-maintenance” conditions presented target motion at a constant 15°/s. For the blinked-maintenance
+ condition, a 200-ms target blink occurred after eye velocity had reached target velocity. Figure 2 shows a response of monkey P to a single trial of the blinked-maintenance condition. The onset of target motion caused brisk eye acceleration after a
+ latency of ∼90 ms. A catch-up saccade occurred just as eye velocity reached target velocity. Eye velocity stayed close to
+ target velocity until after the time of the target blink. About 120 ms after the onset of the target blink, eye velocity declined,
+ reaching a minimum near 5°/s before starting to accelerate again ∼70 ms after the target reappeared. Eye velocity again reached
+ and remained near target velocity, and a saccade brought the eye back to the target position.
+
+
+ View larger version: 
+ In this window In a new window 
+
+ Download as PowerPoint Slide 
+ fig . 2. 
+A representative response to the blinked-maintenance condition in which a target blink occurred after accurate pursuit was
+ underway at 15°/s. Thin black lines show eye position and velocity. The sharp vertical deflections in the eye velocity trace
+ correspond to saccades and have been clipped for presentation. Thick gray lines show target position and velocity. The time
+ of the target blink is indicated by the blank interval on the target traces.
+ 
+The response shown in Fig. 2 was typical: target blinks during pursuit maintenance always produced a moderate to large “dip” in eye velocity, beginning
+ ∼120 ms after the offset of the target. Figure 3 A , top and bottom, shows, for one monkey, average eye velocity during responses to the normal- and blinked-maintenance conditions. Figure 3, B–F , shows (solid lines) average responses to the blinked-maintenance condition for each of the five monkeys tested. Target blinks,
+ indicated by the solid horizontal bars below the traces, produced large dips in eye velocity for every monkey. Each solid
+ trace is actually a pair of closely overlapping traces, showing two averages of the same data, one made using the saccade-excluded
+ method (thin black traces) and one made using the saccade-interpolated method (bold gray traces). The saccade-excluded method
+ makes averages of eye velocity that treat time points during saccades as missing data. The saccade-interpolated method makes
+ averages of eye velocity after estimating the underlying pursuit velocity during each saccade via linear interpolation (see methods ). In each example, the averages of eye velocity are nearly identical for these two methods.
+
+
+ View larger version: 
+ In this window In a new window 
+
+ Download as PowerPoint Slide 
+ fig . 3. 
+Average responses from all monkeys tested for the 3 maintenance conditions. Responses to the blinked- and occluded-maintenance
+ conditions are shown, respectively, by the solid and short dashed traces. For these 2 conditions, the closely overlapping
+ thick gray lines and thin black lines show, respectively, saccade-interpolated and -excluded averages of eye velocity. For
+ time points where more than half the responses were excluded from the saccade-excluded average, the trace is left blank. Averages
+ are of 27–133 responses. SEs were, for most traces, little larger than the width of the traces and are not shown. The black
+ bar at the bottom of each panel shows the duration of target absence. Responses to the normal-maintenance condition are shown
+ by the thin, long-dashed trace. For this condition, saccade excluded and interpolated averages were essentially identical,
+ and only the former is shown. A : responses of monkey P with each trace displaced vertically for optimal viewing. B–F : responses of monkeys P, Q, M, O, and N. The responses of monkey P in A and B are from 2 different days of testing. Monkey N was not shown the normal-maintenance condition. The thin vertical lines mark times that are 65 ms after the onset of the
+ moving target, the disappearance of the target, and the reappearance of the target.
+ 
+We quantified the magnitude of the dip in eye velocity by taking the difference between eye velocity measured at a time before
+ the dip and the minimum eye velocity during the dip. The former was measured 80 ms after the onset of the blink, which was
+ always before eye velocity began to decline. Measurements were made from the saccade-interpolated averages but were virtually
+ identical if made from the saccade-excluded averages. For the blinked-maintenance condition, Fig. 4 (□) shows the size of the dip in eye velocity for each monkey. Target blinks produced dips in eye velocity from 7 to 12°/s
+ with a mean of 10.6°/s. For comparison, eye velocity changed little over the same interval for the normal-initiation condition
+ (▦).
+
+
+ View larger version: 
+ In this window In a new window 
+
+ Download as PowerPoint Slide 
+ fig . 4. 
+Quantitative summary of the changes in eye velocity induced by target blinks and occlusion during pursuit maintenance. □,
+ ▦, and ▪, measurements made from the blinked-, normal-, and occluded-maintenance conditions. Decreases in eye velocity are
+ graphed downward. The letter at the top of each set of bars indicates the monkey for whom the measures were made. Monkey P performed the experiment twice, yielding the measurements labeled “P1” and “P2.” The change in eye velocity for the blinked-
+ and occluded-maintenance conditions was computed as the difference between eye velocity 80 ms after the disappearance of the
+ target and the minimum eye velocity in the subsequent 300 ms. The change in eye velocity for the normal-maintenance condition
+ was computed over the same interval as that for the blinked-maintenance condition (as there was typically no clear “minimum”).
+ The error bars show SE, computed from the individual SEs of the 2 means. Monkey N was the 1st monkey tested and was not shown the normal-maintenance condition.
+ 
+Each monkey performed numerous trials that contained target blinks and had ample opportunity to understand that the target
+ always reappeared after the blink. Trials ended only after the target had reached the far end of the display and, for most
+ experiments, only after it had stopped and remained stationary for 500–700 ms. The presence of a blink in a particular trial
+ was entirely predictable from the starting location of the target, and the precise time and place of the blink was also entirely
+ predictable from the location of the nearby occluder. Yet monkeys improved little in their ability to maintain normal pursuit
+ during the target blink. The most improvement was shown by monkey P, who performed the blinked-maintenance condition 133 times during the course of his first experimental session. For the first
+ 20 trials, the target blink produced a dip in mean eye velocity of 13.5°/s. During the last 20 trials the dip was 10.6°/s,
+ an improvement of 21%. Table 1 gives results of this analysis for the five monkeys tested. Although some monkeys showed small improvements, none were able
+ to ignore the target blinks despite their predictable nature. Figure 3, A and B , and Fig. 4 show the behavior of monkey P on his first and second experimental days. The size of the dip in eye velocity was similar in the two instances. Even after
+ 2 days and hundreds of repetitions of the exact same target motion, he was unable to ignore a target blink that lasted only
+ a fifth of a second.
+
+
+ View this table: 
+ In this window In a new window 
+ table 1. 
+ Changes in eye velocity during target blinks 
+ 
+ effect of target occlusion. The occluded-maintenance condition was identical to the blinked-maintenance condition except that the target traveled at
+ a vertical location 3° lower and a piece of tape occluded the blink, creating the impression that the target went behind the
+ tape. Comparison of the middle and bottom traces in Fig. 3 A reveals that the behavioral effect of target absence can be altered dramatically by the presence of an occluder. The dip
+ in eye velocity after the offset of the target was much smaller in the occluded-maintenance condition than in the blinked-maintenance
+ condition. The bold dashed traces in Fig. 3, B–F , show that a reduction in the blink-induced dip was obtained for all monkeys tested. The ▪ in Fig. 4 show the amplitude of the dip in eye velocity during the occluded-maintenance condition. The error bars show the SE. Thus
+ the change in eye velocity during target occlusion was statistically very different from the change in eye velocity during
+ target blinks (□). The decline in eye velocity was reduced by 45–83% by the presence of the occluder (alternately, the dip
+ was 83–477% larger in the absence of the occluder). Nevertheless, eye velocity always declined somewhat more during occlusion
+ than during normal uninterrupted pursuit (thinner, long-dashed traces in Fig. 3 , ▦ in Fig. 4 ).
+
+The presence of the occluder also had some small effects on pursuit even before the blink began. For three monkeys ( P,Q, and N ), maintained pursuit was slightly slower when the target was approaching the occluder as opposed to when the target was 3°
+ higher for the blinked-maintenance condition or 6° higher for the normal-maintenance condition. For one monkey ( O ), maintained pursuit was slightly faster when approaching the occluder, and for another one ( M ), maintained pursuit was slightly higher for the normal-maintenance condition. The differences in maintained pursuit are
+ probably due to the leftward retinal motion of the occluder, the expectation of the monkey regarding the upcoming blink/occlusion,
+ or the vertical difference in target location. Regardless, small differences in the gain of pursuit maintenance have little
+ impact on our measurement of the dip in eye velocity, which for each condition was made relative to eye velocity measured
+ before the dip. For example, in Fig. 3 B eye velocity is considerably lower during occlusion than during the normal-maintenance condition. However, this was true
+ even before the target disappeared. The change in eye velocity during the relevant interval differed by&lt;2°/s between the two conditions ( Fig. 4 , P2).
+
+The effect of the occluder was not primarily due to learning or experience with this task. Consider monkey P, who had not pursued targets with blinks before the experiment shown in Fig. 3 A . For the first 10 trials of the occluded-maintenance condition, the average dip in eye velocity was only 5.4°/s, much smaller
+ than in the blinked-maintenance condition (13.5°/s for the first 20 trials, and 11.4°/s for all trials). Similar results were
+ obtained for the other monkeys: even for the first 10 trials, the occluder reduced the size of the dip in eye velocity by
+ 35–80%.
+
+Might the occluder indirectly enhance pursuit by inducing saccades ( Lisberger 1998 )? It seems likely that more saccades might be evoked during occlusion than during blinks. This was in fact true. During the
+ interval from the target offset to the bottom of the dip in eye velocity, the percentage of trials that contained a saccade
+ ranged from 35 to 96% for the occluded-maintenance condition, from 11 to 34% for the blinked-maintenance condition and from
+ 13 to 46% for the normal-maintenance condition. We addressed this issue by making averages of eye velocity that excluded trials
+ if a saccade occurred within a window that started 150 ms prior to the onset of the dip in eye velocity and ended at the time
+ eye velocity began to recover. For the occluded-maintenance condition, the dip in eye velocity was still small. Across monkeys,
+ the dip was a mere 10% larger for trials in which saccades were not present, compared with 83–477% larger for trials in which
+ the occluder was not present. Thus the effect of the occluder cannot be mediated by saccades.
+ 
+Effects of target disappearance during pursuit initiation
+
+As described in the preceding text, we found that target blinks during pursuit maintenance cause a decline in eye velocity,
+ while occlusion of the target allows the continuation of near normal pursuit. What maintains eye velocity during target occlusion?
+ Two possibilities are that pursuit is driven by a memory of target velocity (in space, presumably, rather than on the retina)
+ or that it is driven by a motor memory of eye velocity itself. There is theoretical and behavioral precedent for both possibilities.
+ Various pursuit models have proposed that pursuit is supported by internal feedback that creates either a target-velocity
+ signal or a motor “eye-velocity memory” ( Churchland and Lisberger 2001a ; Dicke and Thier 1999 ; Huebner et al. 1990 , 1992 ; Krauzlis and Lisberger 1989 , 1994 ; Newsome et al. 1988 ; Pack et al. 2001 ; Pola and Wyatt 1997 , 2001 ; Robinson et al. 1986 ; Stone et al. 2000 ; Young et al. 1968 ). Behaviorally, image stabilization experiments have been cited as evidence that pursuit possesses an eye-velocity memory
+ mechanism ( Morris and Lisberger 1987 ). On the other hand, image stabilization experiments are also consistent with the use of an internal target-velocity signal.
+ The existence of an oculomotor memory for target-velocity is demonstrated by the ability of monkeys to saccade to the virtual
+ position of a moving target during a long target blink ( Barborica and Ferrera 2003 ). To discriminate between these two possibilities, we tested the effect of target occlusion during pursuit initiation before
+ eye velocity had reached target velocity. If pursuit during target occlusion is supported by eye-velocity memory, then eye
+ acceleration should halt, and eye velocity should be maintained until after the target reappears. If pursuit during occlusion
+ is supported by a target-velocity memory, then eye acceleration should continue until target velocity is reached as the memory
+ of target velocity should be close to the actual target velocity.
+
+ effect of target blinks. Target blinks during pursuit initiation provide control data against which the responses to target occlusion can be compared.
+ In the blinked-initiation condition, the target was blinked so as to interrupt pursuit while the eye was still accelerating.
+ The effect of target blinks during pursuit initiation was similar to that during pursuit maintenance. In the example shown
+ in Fig. 5 , initial eye acceleration was on course to bring eye velocity swiftly to target velocity but was interrupted ∼60 ms after
+ the onset of the target blink ( Fig. 5 , 1st oblique arrow). Eye velocity remained constant near 23°/s for ∼70 ms (i.e., until 130 ms after the target disappeared)
+ and then declined sharply ( Fig. 5 , 2nd oblique arrow). Approximately 60 ms after the target reappeared, the eye began again to accelerate, and a subsequent
+ saccade brought the eye back to the target. Eye velocity then fluctuated at speeds slightly slower than target velocity and
+ fell to near zero after the target stopped moving. The solid traces in Fig. 6 A – C , show averages of eye velocity in response to the blinked-initiation condition for three of the four monkeys tested. Eye
+ acceleration halted or was abruptly reduced after the start of the target blink, and eye velocity declined during the blink
+ for most monkeys ( monkeys P and Q, and also monkey M, whose average response is not shown for this condition). One monkey ( O, Fig. 6 C ) showed no dip in eye velocity during the target blink, although eye velocity was much reduced compared with the normal-initiation
+ condition (long-dashed traces). The □ in Fig. 7 , left, summarize these findings, and plot the size of the blink-induced dip in eye velocity. In all but one instance, eye velocity
+ declined as a result of the target blink. Even for the exception, eye acceleration was greatly reduced relative to the normal-initiation
+ condition (▦).
+
+
+ View larger version: 
+ In this window In a new window 
+
+ Download as PowerPoint Slide 
+ fig . 5. 
+A representative response during the blinked-initiation condition, in which the target was blinked shortly after the onset
+ of target motion. Black traces show eye position and velocity. The sharp vertical deflection in the eye velocity trace corresponds
+ to a saccade, and has been clipped for presentation. Thick gray traces show target position and velocity. The time of the
+ target blink is indicated by the blank intervals in the target traces.
+ 
+
+ View larger version: 
+ In this window In a new window 
+
+ Download as PowerPoint Slide 
+ fig . 6. 
+Average eye velocity responses for conditions in which the target was blinked or occluded during the initiation phase of pursuit
+ ( A–C ) or during the accelerating pursuit response to a change in target velocity ( D ). Saccade-interpolated and -excluded averages are shown, respectively, by the closely overlapping gray and black traces.
+ The latter trace was left blank for time points where more than half the responses were excluded. Each panel contains three
+ superimposed responses that correspond to the blinked (solid traces), occluded (short dashes), and normal (long dashes) conditions.
+ A gray line shows the target velocity trajectory, with the gap indicating the time of target absence for the blinked and occluded
+ conditions. A–C : responses during the initiation conditions for monkeys P, Q, and O. The thin vertical lines mark times that were 65 ms after the onset of the moving target, the disappearance of the target,
+ and the reappearance of the target. D : responses during the velocity-change conditions for monkey M. For presentation, the full duration of pursuit at 5°/s is not shown. The thin vertical lines mark the same points as in C and D, except the 1st, which marks the time 65 ms after the target began to accelerate.
+ 
+
+ View larger version: 
+ In this window In a new window 
+
+ Download as PowerPoint Slide 
+ fig . 7. 
+Quantitative summary of the changes in eye velocity induced by target blinks and occlusion in the initiation, velocity-change,
+ and delayedinitiation conditions. Increases in eye velocity are graphed upward, and decreases are graphed downward. Each triplet
+ of bars shows data from 1 experiment. □, ▦, and ▪, data from the blinked, normal, and occluded conditions, respectively. The
+ letter at the top of each set of bars indicates the monkey for which the measures were made. When monkeys performed the experiment
+ more than once (e.g., monkey P ), this is indicated by the accompanying number. From left to right, the bars grouped along each x axis show data from 3 experimental paradigms: initiation, velocity-change, and delayed-initiation. The velocity-change conditions
+ were presented in the same experimental sessions as the initiation conditions but were not presented to all monkeys. The delayed-initiation
+ conditions were presented later in their own experimental sessions. Changes in eye velocity were computed as follows. First,
+ the change in eye velocity was computed for the blinked condition as the difference between eye velocity 80 ms after the disappearance
+ of the target (this time was always before the decline in eye velocity began) and the minimum eye velocity in the subsequent
+ 300 ms. For the occluded and normal conditions, we then measured the change in eye velocity over the same interval, by making
+ measurements from the same time points. Monkey O showed no dip in eye velocity during the blinked-initiation condition. We therefore measured the change in eye velocity from
+ 80 ms after the disappearance of the target until 80 ms after the reappearance of the target (approximately the location of
+ the minimum in eye velocity for the other monkeys). SEs were computed from the individual SEs of the 2 means. Measurements
+ were made from the saccade-interpolated averages but were virtually identical if made from the saccade-excluded averages.
+ 
+ effect of target occlusion. The occluded-initiation condition was identical to the blinked-initiation condition except that a piece of tape occluded
+ the blink, creating the impression that the target went behind the tape. The short-dashed traces in Fig. 6, A–C , illustrate responses to the occluded-initiation condition. As with the blinked-initiation condition, eye acceleration was
+ reduced or abolished starting ∼60 ms after the target disappeared. However, the dip in eye velocity that was observed during
+ target blinks was largely absent during occlusion. Eye velocity either remained roughly stable ( Fig. 6, A and B ) or accelerated moderately ( Fig. 6 C ). The ▪ in Fig. 7 , left, show the change in eye velocity during occlusion. There was always less of a decline in eye velocity than was seen for the
+ blinked conditions (□) and never as much increase as was seen for the normal condition (▦). For the blinked-, occluded-, and
+ normal-initiation conditions, eye velocity during the analysis interval changed on average –8.4, +0.1, and +15.4°/s, respectively.
+ Thus while occlusion largely or entirely abolishes the drop in eye velocity produced by a target blink, it does not restore
+ normal pursuit initiation. On average, eye velocity changes little during the interval affected by occlusion, consistent with
+ the hypothesis that pursuit during occlusion is sustained by an eye-velocity memory. Note, however, that there was often some eye acceleration during the relevant interval, a finding we discuss in a later section. Thus sustained eye-velocity memory
+ cannot account for all aspects of pursuit during occlusion.
+ 
+Effects of target disappearance after a change in target velocity
+
+We also tested the effect of blinks and occlusion that interrupted the response to a change in target velocity. The three
+ conditions used were the normal-velocity-change condition, the blinked-velocity-change condition, and the occluded-velocity-change
+ condition. Each of these presented a target trajectory similar to that in the analogous initiation condition, but stable pursuit
+ was achieved at 5°/s before the target accelerated to 35°/s. Not surprisingly, results for the velocity-change conditions
+ were similar to those for the initiation conditions as illustrated by the data for monkey M in Fig. 6 D . The bars in Fig. 7 , middle, summarize the responses to these conditions. Target blinks caused declines in eye velocity, while target occlusion led to
+ eye velocities that were relatively unchanged over the analysis interval. Across the three monkeys, the average changes in
+ eye velocity for the normal, blinked, and occluded conditions were 10.7, –0.3, and –8.7°/s.
+
+For both the initiation and velocity-change conditions, saccades were a common, sometimes universal feature of pursuit for
+ the time period under study. The frequency of saccades typically differed between the blinked, occluded, and normal conditions.
+ We calculated the percentage of trials with at least one saccade during a time interval defined relative to the blinked condition
+ response: from target offset to the point at which eye velocity began to recover after the target reappearance. Across monkeys,
+ the mean percentages were 48% (range of 15–89%) for the blinked conditions, 80% (60–100%) for the occluded conditions, and
+ 84% (69–100%) for the normal conditions. Given the nearly universal presence of saccades for the occluded and normal conditions,
+ it was not practical to construct averages of the saccade free trials as we had for the maintenance conditions. There were
+ often no such trials, and when there were, pursuit tended to be quite poor overall, consistent with the idea that the entire
+ oculomotor system was making little effort to track the target. Nevertheless, an attempt to factor out the contribution of
+ saccades can be made. For two monkeys, saccadic frequency was fortuitously similar across the three conditions. For monkey P, saccadic frequencies for the blinked-, occluded-, and normal-velocity-change conditions were, respectively, 70, 70, and 69%.
+ For monkey M, saccadic frequencies for those three conditions were 89, 98, and 99%. Both these monkeys showed the typical pattern of results:
+ eye velocity declined during the blink, stayed constant during occlusion, and rose during normal pursuit ( Fig. 7 , middle ). From these comparisons, and from the previous analysis of the maintenance conditions, it is very unlikely that the facilitation
+ provided by the occluder is effected primarily via saccades.
+ 
+Effects of target disappearance on the initiation of pursuit to a previously moving target
+
+We motivated the occluded-initiation condition by asking whether pursuit during occlusion is sustained by a memory of eye
+ velocity or by a memory of target velocity. We stated that in the latter case, the eye ought to continue to accelerate toward
+ target velocity during the occluded interval. This claim presumes that the internal representation of target velocity nears
+ actual target velocity soon after the sensory information reaches cortex. What if, instead, the internal representation of
+ target velocity takes considerable time to “charge”? To test this possibility, monkeys were trained to withhold pursuit responses
+ until the fixation point was extinguished (the delayedinitiation task), allowing time for an internal representation of target
+ velocity to “charge.” The target moved at 35°/s for 400 ms before the fixation point was extinguished, and for another 100
+ ms before reaching the occluder, or undergoing a blink. Figure 7 , right, shows that the effect of blinks and occlusion were much the same in this paradigm as in the standard initiation and velocity-change
+ paradigms: eye velocity declined during blinks (□) and remained relatively constant during occlusion (▪).
+ 
+Anticipatory eye acceleration during target occlusion
+
+As seen in Fig. 6 , target occlusion causes an abrupt reduction or halt in eye acceleration during pursuit initiation. In most cases, eye velocity
+ then remained relatively constant until the visually driven response to the target reappearance. Nevertheless, there was typically
+ some eye acceleration prior to the visually driven response. In Fig. 6 B , monkey Q shows eye acceleration just prior to the visually driven response to the reappearance of the target (i.e., in the short-dashed
+ trace, before the time indicated by the last thin vertical line). Monkey O ( Fig. 6 C ) showed particularly robust eye acceleration during occlusion: the eye accelerated for the duration of the relevant interval
+ (short dashed trace). Monkey O even showed some eye acceleration when pursuit initiation was interrupted by a blink (solid trace).
+
+We refer to such eye acceleration as “anticipatory” because it anticipates the reappearance of the target and because of its
+ resemblance to previous examples of eye acceleration prior to a predictable event (e.g., Kao and Morrow 1994 ; Wells and Barnes 1999 ). To quantify anticipatory eye acceleration, we calculated average eye acceleration during two 40-ms intervals placed 1 ) just after the halt in visually driven eye acceleration, 80–120 ms after the target disappearance and 2 ) just before the visually driven response to the target reappearance, 20–60 ms after that reappearance. All measurements
+ were made from responses to the occluded-initiation condition. Eye acceleration during the first interval ranged from –78°/s 2 ( monkey P, day 1) to 50°/s 2 ( monkey O ), with an average of –23°/s 2 . Eye acceleration during the second interval ranged from –9 ( monkey P, day 1) to 50°/s 2 ( monkey Q ), with an average of 29°/s 2 . By comparison, during the interval from 80 to 120 ms after the target reappearance, visually driven eye acceleration averaged
+ 161°/s 2 , or 550% greater than the average anticipatory acceleration measured prior to target reappearance.
+
+For each experimental session, we measured average eye acceleration in the second measurement interval described in the preceding
+ text for both the first 10 and last 10 trials of the occluded initiation condition. Eye acceleration during the first 10 trials
+ ranged from –68 ( monkey P, day 1) to 12°/s 2 ( monkey Q ), with an average of –22°/s 2 . Eye acceleration during the last 10 trials ranged from 28 ( monkey P1 ) to 51°/s 2 ( monkey M ), with an average of 40°/s 2 . In summary, anticipatory eye acceleration was greatest immediately prior to the reappearance of the target, and grew with
+ experience.
+ 
+Latencies of the effects produced by target blinks
+
+There were consistent differences in the response latencies to the onset of target motion, the disappearance of the target
+ at the start of the blink, and the reappearance of the target at the end of the blink. We first consider the blinked-maintenance
+ condition. The thin vertical lines in Fig. 3 mark the expected onset of the response to these three events, given the expected latency of 65 ms. This expectation is based
+ on the typical duration of the open loop interval for our monkeys, defined as the response latency for a change in target
+ velocity during pursuit (e.g., Priebe et al. 2001 ). Consider first the responses of monkey M in Fig. 3 D . A 65-ms latency accounts nicely for the onset of pursuit (1st vertical line) and for the start of eye acceleration after
+ the reappearance of the target (3rd vertical line). However, the decline in eye velocity produced by the target blink began
+ later than expected. For quantitative comparison, Table 2 shows latencies measured by hand from the averages of eye velocity. The latency of pursuit initiation was always slightly
+ longer than the latency of the response to the target reappearance, consistent with our prior finding that the latency of
+ pursuit initiation is usually slightly longer than the true open loop interval ( Priebe et al. 2001 ). More surprisingly, response latencies for the disappearance of the target were roughly twice as long as the response latencies
+ for the reappearance of the target. Findings were similar if we measured latency using an automatic algorithm. The average
+ latency across monkeys is shown at the bottom of Table 2 for both the manual and automated measurements.
+
+
+ View this table: 
+ In this window In a new window 
+ table 2. 
+ Latencies from changes in the target: maintenance conditions 
+ 
+Response latencies in the blinked-initiation and -velocity-change conditions show a pattern similar to that found for the
+ blinked-maintenance condition. The thin vertical lines in Fig. 6 mark the expected start of the response, given a 65-ms latency to the onset of target motion, the disappearance of the target
+ at the start of the blink, and the reappearance of the target at the end of the blink. A 65-ms latency accounts reasonably
+ well for the cessation of eye acceleration after the disappearance of the target, and for the eye acceleration that begins
+ after the reappearance of the target. However, for the blinked-initiation and -velocity-change conditions, the decline in
+ eye velocity lagged the disappearance of the target by considerably greater than 65 ms. This feature is most clearly illustrated
+ in Fig. 6, A and B (solid lines), where eye velocity was maintained with little acceleration or deceleration for a 50- to 70-ms period after
+ the cessation of eye acceleration. Only at the end of this period did behavior diverge strongly for the occluded and blinked
+ conditions. In the next section, we will model the existence of two latencies by assuming two mechanisms in pursuit: one that
+ provides visuo-motor drive with a short latency and one that disengages eye velocity memory with a longer latency.
+
+ Table 3 summarizes the results of our latency analysis for the blinked-initiation and -velocity-change conditions. The average latency
+ for the eye to begin to accelerate after the reappearance of the target was 59 ms. The average latency for the eye to cease
+ accelerating, after the disappearance of the target, was similar: 60 ms. In contrast, the average latency for the eye to begin
+ decelerating following the disappearance of the target was twice as long: 125 ms. The average latency of pursuit initiation
+ was 82 ms.
+
+
+ View this table: 
+ In this window In a new window 
+ table 3. 
+ Latencies from changes in the target: initiation conditions 
+ 
+Simulations of an “image-motion” model
+
+The experiments described above demonstrate that the pursuit response to a target blink is profoundly affected by the presence
+ of an occluder. To test if our results could be explained by descending modulation of the basic pursuit kernel, we have added
+ suitable modulation to a version of the imagemotion pursuit model ( Churchland and Lisberger 2001a ; Krauzlis and Lisberger 1994 ). The term image-motion is meant to indicate that the model has no access to the actual velocity of the target in space but
+ only to an estimate of image velocity provided by the visual system. A prior version of this model is available with a simple
+ graphical user interface at: http://keck.ucsf.edu/~sgl/top_pursuitmodel.htm .
+
+ Figure 8 A shows a minor adaptation of our model. The model includes two basic processes. In the first, visual motion signals create
+ a “visuo-motor drive” that is a command for eye acceleration ( Ë ′). In the second process, a motor “eye-velocity memory” mathematically integrates eye acceleration commands, and sustains
+ pursuit once target velocity has been reached.
+
+
+ View larger version: 
+ In this window In a new window 
+
+ Download as PowerPoint Slide 
+ fig . 8. 
+Architecture and behavior of an image motion pursuit model. A : schematic diagram of the model. The arrows show the flow of signals and the elements in boxes represent various transformations. Ṫ, Ė, and İ represent target, eye, and image velocity. After a delay (Δ t ), the image velocity input is processed by 2 pathways, the outputs of which are summed to create an eye acceleration command.
+ The top pathway consists of a linear gain element and a filter and contributes a command that is proportional to image velocity.
+ The bottom pathway consists of a nonlinear gain element, a differentiator, and a filter, and contributes a command that is
+ related to image acceleration. Ë ′ is the net internal eye acceleration command and g 1 is a gain that operates as a switch; it is set to 1 only when the target is visible. Thus no visuo-motor command for eye
+ acceleration is produced by the model during blinks or occlusion. The feedback loop that includes g 2 acts as an integrator to produce an eye velocity command, Ė ′. When g 2 is 1, the integration is perfect; the loop produces an “eye-velocity memory” that can maintain stable pursuit in the absence
+ of image motion. When g 2 is&lt;1, eye velocity tends to decay toward 0 with a time constant determined by the value of g 2 and the time step of the simulation. The simulated eye velocity output of the model is produced by passing the eye velocity
+ command, Ė ′, through a filter that represents the compensated dynamics of the plant. B : simulated eye velocity for the normal (long dashes)-, occluded (short dashes)-, and blinked (solid trace)-maintenance conditions. C : simulated eye velocity for the normal (long dashes)-, occluded (short dashes)-, and blinked (solid trace)-initiation conditions.
+ For both B and C , the bar at bottom shows the 200-ms duration of target absence. The thin vertical lines mark times 65 ms after the initial
+ onset of target motion, the disappearance of the tracking target, and the reappearance of the tracking target.
+ 
+ Visuo-motor drive is provided by two parallel pathways shown on the left side of Fig. 8 A . The top pathway contributes an image velocity signal and includes a linear gain (8.9°/s 2 of eye acceleration per °/s of image velocity) and a filter (exponential time constant of 30 ms). The bottom pathway contributes
+ a command related to image acceleration and consists of a nonlinear gain element, a differentiator, and a filter (exponential
+ time constant of 10 ms). The nonlinear gain had a slope that was 0.92 near zero and declined with increasing image velocity.
+ The nonlinearity was included because it captures an important nonlinearity in pursuit ( Churchland and Lisberger 2001a ) and helps produce realistic responses for the normal-maintenance and normal-initiation conditions. Visuo-motor drive was
+ gated by a gain, g 1 , whose purely pragmatic purpose was to abolish visuo-motor drive in the absence of a target.
+
+ Eye-velocity memory is created by a positive feedback loop with a gain labeled g 2 ( Krauzlis and Lisberger 1994 ). The feedback loop acts as a perfect integrator when g 2 is set to one and as a leaky integrator with an exponential time constant when g 2 is less than one.
+
+Visual and motor delays are lumped together in a single 60-ms delay element (Δ t ). A filter (filter 3 ) with an exponential time constant of 20 ms represents the compensated dynamics of the plant ( Robinson et al. 1986 ) and intervenes between the eye velocity command ( Ė ′) and the “actual” eye velocity ( Ė ). The values of the delay, the gain of the image velocity pathway, and the “plant”filter time constant were set based on
+ prior modeling or experimentally measured values. The other parameter values were chosen to produce realistic pursuit trajectories.
+
+We use the image motion model diagrammed in Fig. 8 to test the hypothesis that the responses to target blinks and occlusion can be accounted for if we assume that visuo-motor
+ drive is lost during both blinks and occlusion, due to the absence of image motion, and eye-velocity memory is maintained
+ during occlusion but not during blinks. For simulations of normal pursuit, the gain of visuo-motor drive ( g 1 in Fig. 8 A ) had a value of one. For the blinked and occluded conditions, g 1 fell to zero 60 ms after the target disappeared and returned to normal 60 ms after the target reappeared. For simulations
+ of normal pursuit, the gain of eye-velocity memory ( g 2 in Fig. 8 A ) began at one and declined to 0.999 linearly over the course of the trial. This decline was included to account for the observed
+ decline in maintained eye velocity over the course of a trial. For the occluded conditions, g 2 retained this normal sequence of values. For the blinked conditions, g 2 dropped to a value of 0.99 120 ms after the start of the target blink, rendering eye-velocity memory a leaky integrator with
+ an exponential time constant of 100 ms. The value of g 2 returned to normal 60 ms after target reappearance.
+
+The simulations in Fig. 8, B and C , account for most features of pursuit during blinks and occlusion. Simulated eye velocity provides a reasonable emulation
+ of normal pursuit (long dashed traces), falls appropriately after target blinks (solid traces), and is maintained at the preexisting
+ eye velocity during target occlusions (short dashed traces). The latencies of the different effects are not emergent properties
+ of the model but were determined by the times chosen to change the values of g 1 and g 2 . For example, in the blinked-initiation condition ( Fig. 8 C , solid trace), the model shows a 60-ms interval of maintained eye velocity between the cessation of eye acceleration and
+ the start of eye deceleration because g 1 was set to zero starting 60 ms after the blink onset, while g 2 was reduced another 60 ms later. It is an assumption of the model that the latency to disengage eye-velocity memory is longer
+ than the latency of visuo-motor drive.
+
+Note that the model as currently configured does not account for the anticipatory eye acceleration produced during occlusion
+ prior to the visually driven response to the target reappearance. This is expected if one accepts that anticipatory eye acceleration
+ is produced by predictive mechanisms that are separate from the basic pursuit kernel that the image motion model is intended
+ to capture.
+ Previous Section Next Section 
+DISCUSSION
+ 
+Summary of results
+
+Our results replicate the finding that eye velocity drops after target offset ( Becker and Fuchs 1985 ; Pola and Wyatt 1997 ) and show that pursuit maintenance can be sustained when an occluding object justifies the target absence. When target occlusion
+ interrupted pursuit initiation, eye acceleration largely or entirely halted ∼65 ms after the target disappeared, the large
+ decline in eye velocity that typically followed target blinks was reduced or abolished, and most monkeys showed anticipatory
+ eye acceleration prior to the reappearance of the target. Anticipatory eye acceleration was initially largely absent but grew
+ with experience, implying that it is produced by predictive mechanisms (e.g., Boman and Hotson 1988 ). In contrast, the effect of the occluder was immediate. We suggest therefore that the ability to sustain eye velocity during
+ occlusion is independent of predictive mechanisms. Given reasonable assumptions, models of the basic, reflex-like pursuit kernel should therefore be able to account for most aspects of pursuit during occlusion but not for the anticipatory eye acceleration.
+ By analogy, pursuit initiation is described well by models of the pursuit kernel with the exception of the anticipatory pursuit
+ observed for predictable targets. As expected, the image-motion model successfully simulated our observation of little change
+ in eye velocity during target occlusion but failed to simulate the anticipatory eye acceleration.
+ 
+What signals are preserved during occlusion?
+
+Pursuit behavior suggests that some neural signal is preserved during occlusion but not during blinks. The image-velocity
+ model assumes that pursuit during occlusion is supported by a mechanism operative during normal pursuit: a motor “eye-velocity
+ memory.” Thus the image-motion model does not assume that any special process is recruited to support pursuit during occlusion.
+ Many of the specifics of our model were unimportant in accounting for the effect of blinks and occlusion. In general, we expect
+ that our data could be explained by any pursuit model in which retinal motion produces eye accelerations, pursuit is normally
+ supported by a signal dynamically related to eye velocity and carried by an internal feedback loop with a delay much shorter
+ than the visuo-motor delay, and the gain of that feedback is modulated by the inferred presence of a target (e.g., Pola and
+ Wyatt 1997 , 2001 ).
+
+Could our results also be explained by the assumption that the signal preserved during occlusion is related to target velocity?
+ In short the answer is no. The key finding is that eye acceleration largely halts after the disappearance of the target behind
+ the occluder and typically changes little until after the target re-emerges. If pursuit initiation involves chasing an internal
+ representation of target velocity ( Dicke and Thier 1999 ; Huebner et al. 1990 , 1992 ; Newsome et al. 1988 ; Robinson et al. 1986 ; Stone et al. 2000 ; Young et al. 1968 ) and if this representation is preserved during occlusion, then pursuit initiation should be nearly normal despite occlusion,
+ just as pursuit maintenance is nearly normal despite occlusion. The observed halt in eye acceleration thus disqualifies the
+ hypothesis. The presence of anticipatory eye acceleration complicates this argument somewhat (anticipatory eye acceleration could be driven by a memory of target velocity), but the conclusion still holds. The occluder aided pursuit for the very first
+ trials performed, before anticipation had developed, and its effect was to restore near-normal pursuit maintenance but not
+ near-normal pursuit initiation. The target-velocity memory hypothesis cannot be rescued by proposing a slow “charging” time
+ constant. The delayed-initiation task demonstrates that occlusion produces a halt in eye acceleration even when ample time
+ has been provided for a representation of target velocity to charge to its full value.
+ 
+Anticipatory eye acceleration
+
+As monkeys learn to anticipate the target&apos;s reappearance, they become able to generate an internal signal that drives eye
+ acceleration. This signal could be related to a memory of the past target velocity, an expectation of the future target velocity,
+ an expectation of future image velocity, or a motor anticipation of upcoming eye acceleration. The signal could be high level
+ (perhaps emanating from frontal cortex) or low level (perhaps resulting from fast cerebellar learning). Thus our data do not
+ indicate that target-velocity signals are never used to guide pursuit. They demonstrate only that pursuit during occlusion
+ is not primarily supported by a preserved target-velocity signal. Our data do make a potentially useful methodological point.
+ Nonvisual mechanisms are often studied by removing the target (e.g., Kettner et al. 2001 ). In such cases, it might be useful to provide an occluder so that pursuit remains engaged, revealing the full contribution
+ of predictive mechanisms.
+ 
+Pursuit engagement
+
+Our interpretation assumes that the gain of neural pathways depends on pursuit being engaged or disengaged . The same assumption has been prompted by the dynamics of pursuit offset ( Krauzlis and Lisberger 1994 ; Luebke and Robinson 1988 ; Pola and Wyatt 1997 , 2001 ; Robinson et al. 1986 ) and by the responses evoked by target perturbations during fixation and pursuit ( Goldreich et al. 1992 ; Schwartz and Lisberger 1994 ). These studies proposed that engagement is modulated by the presence of a moving target. In the case of occlusion, no target
+ is visible, yet pursuit remains engaged, presumably due to the inference that the target travels behind the occluder. Continued
+ engagement cannot simply be due to the expectation that the target will soon reappear. The target always reappeared after
+ target blinks, yet eye velocity continued to decline even after 100 trials of experience. There is no denying the role expectation
+ plays in pursuit (indeed, the anticipatory pursuit we observed provides a clear example), yet expectation alone appears insufficient
+ to engage pursuit. It is also unlikely that the occluder simply provided a convenient “cue” to a location where engagement
+ should be actively maintained. Even during target blinks, the nearby (1° away) occluder provided a cue to the location of
+ the blink. We did not explore which visual features (luminance, disparity, color) were necessary to allow the occluder to
+ have its effect. The necessary features may or may not be identical to those that produce the perception that the occluder
+ is in front of the target. As a last point, our results indicate that the latencies to engage and disengage pursuit are longer
+ than the visuo-motor latency of pursuit. The latency of pursuit initiation is longer than the latency to react to a change
+ in the stimulus, and the decline in eye velocity following target blinks has a longer latency still.
+ 
+Integrating pursuit models into a view of pursuit as a voluntary behavior.
+
+Models of the basic pursuit kernel are useful, but there is much they do not attempt to explain. The image-motion model receives
+ a scalar image velocity input and thus assumes that prior processing has parsed incoming visual signals and extracted an estimate
+ of retinal velocity. The model is not expected to account for the tremendous complexity of visual processing ( Stone et al. 2000 ) or for why velocity is sometimes misestimated by the visual system (Churchland and Lisberger 2001; Pack and Born 2001 ). Second, although the image-motion model uses a gain modulation to model pursuit engagement, it does not explain how engagement
+ is set. Last, the image-motion model cannot account for anticipatory eye acceleration (Barnes et al. 1987 , 1997 ; Becker and Fuchs 1985 ; Kowler 1989 ; Krauzlis and Adler 2001 ; Whittaker and Eaholtz 1982 ). We could have included predictive elements in the model, but doing so convincingly would require greater knowledge of the
+ nature of the predictive pursuit, including whether it anticipates upcoming image motion or seeks an internal representation
+ of target velocity (e.g., Barnes et al. 2000 ).
+
+We also note that it is unclear how seriously to take some of the divisions suggested by the structure of pursuit models.
+ For example, while both image velocity and acceleration signals are necessary to explain behavior, there is no reason to believe
+ that such signals are separable anatomically. One might also maintain a degree of skepticism about our view of pursuit as
+ reflexive kernel modulated and supplemented by predictive/cognitive processes. This division has utility in explaining behavior
+ but may or may not be maintained at the neural level. For example, adaptive mechanisms that “tune” the reflexive pursuit response
+ ( Kahlon and Lisberger 1996 ; Krauzlis and Lisberger 1994 ) could contribute to anticipatory pursuit.
+
+Despite their limitations, models of the pursuit kernel are essential to explaining behavior, such as the appearance of spontaneous
+ ∼5-Hz oscillations (Churchland and Lisberger 2001; Fuchs 1967 ; Goldreich et al. 1992 ; Krauzlis and Lisberger 1989 , 1994 ; Ringach 1995 ; Robinson et al. 1986 ), the response to sinusoidal perturbations of target velocity (Churchland and Lisberger 2001; Goldreich et al. 1992 ), the effect of increasing visual delay (Churchland and Lisberger 2001; Goldreich et al. 1992 ; Ringach 1995 ), and the size of the initial overshoot or undershoot of target velocity (Churchland and Lisberger 2001; Krauzlis and Lisberger 1989 , 1994 ; Robinson et al. 1986 ). Despite an imperfect mapping to anatomy, such models can still provide a framework for interpreting (e.g., Shi et al. 1998 ; Tanaka and Lisberger 2001 ) and suggesting physiological experiments. In the current study, it seems plausible that pursuit engagement is determined
+ by neural activity in the frontal pursuit area. If so, target blinks and occlusion should produce different neural responses
+ in the frontal pursuit area, even before behavior diverges. By analogy to previous experiments ( Tanaka and Lisberger 2001 ), it also seems likely that microstimulation of the frontal pursuit area could mimic the effect of occlusion: allowing sustained
+ pursuit in the absence of a target.
+
+Perhaps most importantly, models of the pursuit kernel allow us to understand when behavior is expected given the retinal
+ motion and when additional factors such as descending modulation, predictive mechanisms, or visual illusions must be postulated
+ ( Pola and Wyatt 1997 ; Wolpert et al. 1993 ). In the present study, the near-normal pursuit maintenance observed during target occlusion could easily have been attributed
+ to a memory or expectation of target velocity. Instead, our analysis supports the conclusion that this effect is due merely
+ to the continued normal engagement of pursuit during target occlusion.
+ Previous Section Next Section 
+DISCLOSURES
+
+This research was supported by the Howard Hughes Medical Institute and National Eye Institute Grant EY-03878.
+ Previous Section Next Section 
+Acknowledgments
+
+The authors thank Dr. Lee Stone for suggesting the “delayed-initiation” condition. We also thank S. Tokiyama, K. MacLeod,
+ and E. Montgomery for care of the monkeys.
+ Previous Section Next Section 
+Footnotes
+
+ 
+The costs of publication of this article were defrayed in part by the payment of page charges. The article must therefore
+ be hereby marked “ advertisement ” in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+ 
+ 
+ Copyright © 2003 by the American Physiological Society 
+ Previous Section 
+References
+
+ ↵ Barborica A and Ferrera VP. Estimating invisible target speed from neuronal activity in monkey frontal eye field. Nat Neurosci 6 : 66 –74, 2003 . CrossRef Medline ↵ Barnes GR , Barnes DM, and Chakraborti SR. Ocular pursuit responses to repeated, single-cycle sinusoids reveal behavior compatible with predictive pursuit. J Neurophysiol 84 : 2340 –2355, 2000 . Abstract / FREE Full Text ↵ Barnes GR , Donnelly SF, and Eason RD. Predictive velocity estimation in the pursuit reflex response to pseudo-random and step displacement stimuli in man. J Physiol 389 : 111 –136, 1987 . Abstract / FREE Full Text ↵ Barnes G , Grealy M, and Collins S. Volitional control of anticipatory ocular smooth pursuit after viewing, but not pursuing, a moving target: evidence for a
+ re-afferent velocity store. Exp Brain Res 116 : 445 –455, 1997 . CrossRef Medline ↵ Becker W and Fuchs AF. Prediction in the oculomotor system: smooth pursuit during transient disappearance of a visual target. Exp Brain Res 57 : 562 –575, 1985 . Medline ↵ Boman DK and Hotson JR. Stimulus conditions that enhance anticipatory slow eye movements. Vision Res 28 : 1157 –1165, 1988 . CrossRef Medline ↵ Churchland MM and Lisberger SG. Apparent motion produces multiple deficits in visually guided smooth pursuit eye movements of monkeys. J Neurophysiol 84 : 216 –235, 2000 . Abstract / FREE Full Text ↵ Churchland MM and Lisberger SG. Experimental and computational analysis of monkey smooth pursuit eye movements. J Neurophysiol 86 : 741 –759, 2001a . Abstract / FREE Full Text ↵ Churchland MM and Lisberger SG. Shifts in the population response in the middle temporal visual area parallel perceptual and motor illusions produced by
+ apparent motion. J Neurosci 21 : 9387 –9402, 2001b . Abstract / FREE Full Text ↵ Dicke PW and Thier P. The role of cortical area MST in a model of combined smooth eye-head pursuit. Biol Cybern 80 : 71 –84, 1999 . CrossRef Medline ↵ Ferrera VP and Lisberger SG. Attention and target selection for smooth pursuit eye movements. J Neurosci 15 : 7472 –7484, 1995 . Abstract ↵ Fuchs AF . Saccadic and smooth pursuit eye movements in the monkey. J Physiol 191 : 609 –631, 1967 . Abstract / FREE Full Text ↵ Gardner JL and Lisberger SG. Linked target selection for saccadic and smooth pursuit eye movements. J Neurosci 21 : 2075 –2084, 2001 . Abstract / FREE Full Text ↵ Goldreich D , Krauzlis RJ, and Lisberger SG. Effect of changing feedback delay on spontaneous oscillations in smooth eye movements of monkeys. J Neurophysiol 67 : 625 –638, 1992 . Abstract / FREE Full Text ↵ Heywood S . Voluntary control of smooth eye movements and their velocity. Nature 238 : 408 –410, 1972 . CrossRef Medline ↵ Heywood S and Churcher J. Eye movements and the afterimage. I. Tracking the afterimage. Vision Res 11 : 1163 –1168, 1971 . CrossRef Medline ↵ Huebner WP , Saidel GM, and Leigh RJ. Nonlinear parameter estimation applied to a model of smooth pursuit eye movements. Biol Cybern 62 : 265 –273, 1990 . CrossRef Medline ↵ Huebner WP , Leigh RJ, Seidman SH, Thomas CW, Billian C, DiScenna AO, and Dell&apos;Osso LF. Experimental tests of a superposition hypothesis to explain the relationship between the vestibuloocular reflex and smooth
+ pursuit during horizontal combined eye-head tracking in humans. J Neurophysiol 68 : 1775 –1792, 1992 . Abstract / FREE Full Text ↵ Judge SJ , Richmond BJ, and Chu FC. Implantation of magnetic search coils for measurement of eye position: an improved method. Vision Res 20 : 535 –538, 1980 . CrossRef Medline ↵ Kahlon M and Lisberger SG. Coordinate system for learning in the smooth pursuit eye movements of monkeys. J Neurosci 6 : 7270 –7283, 1996 . ↵ Kao GW and Morrow MJ. The relationship of anticipatory smooth eye movement to smooth pursuit initiation. Vision Res 34 : 3027 –3036, 1994 . CrossRef Medline Kettner RE , Mahamud S, Leung HC, Sitkoff N, Houk JC, Peterson BW, and Barto AG. Prediction of complex two-dimensional trajectories by a cerebellar model of smooth pursuit eye movement. J Neurophysiol 77 : 2115 –2130, 1997 . Abstract / FREE Full Text ↵ Kettner RE , Suh M, and Davis D. Effects of target predictability on half-circle and gap pursuit in monkey. Soc Neurosci Abstr 2 , 784.11 , 2001 . ↵ Kowler E . Cognitive expectations, not habits, control anticipatory smooth oculomotor pursuit. Vision Res 29 : 1049 –1057, 1989 . CrossRef Medline ↵ Kowler E . The role of visual and cognitive processes in the control of eye movement. Rev Oculomot Res 4 : 1 –7, 1990 . Medline ↵ Krauzlis RJ and Adler SA. Effects of directional expectations on motion perception and pursuit eye movements. Vis Neurosci 18 : 365 –376, 2001 . CrossRef Medline ↵ Krauzlis RJ and Lisberger SG. A control systems model of smooth pursuit eye movements with realistic emergent properties. Neural Comp 1 : 116 –122, 1989 . CrossRef ↵ Krauzlis RJ and Lisberger SG. A model of visually guided smooth pursuit eye movements based on behavioral observations. J Comp Neurol 1 : 265 –283, 1994 . ↵ Lisberger SG . Postsaccadic enhancement of initiation of smooth pursuit eye movements in monkeys. J Neurophysiol 79 : 1918 –1930, 1998 . Abstract / FREE Full Text ↵ Lisberger SG and Westbrook LE. Properties of visual inputs that initiate horizontal smooth pursuit eye movements in monkeys. J Neurosci 5 : 1662 –1673, 1985 . Abstract ↵ Luebke AE and Robinson DA. Transition dynamics between pursuit and fixation suggest different systems. Vision Res 28 : 941 –946, 1988 . CrossRef Medline Mitrani L and Dimitrov G. Pursuit eye movements of a disappearing moving target. Vision Res 18 : 537 –539, 1978 . CrossRef Medline ↵ Morris EJ and Lisberger SG. Different responses to small visual errors during initiation and maintenance of smooth-pursuit eye movements in monkeys. J Neurophysiol 58 : 1351 –1369, 1987 . Abstract / FREE Full Text ↵ Newsome WT , Wurtz RH, and Komatsu H. Relation of cortical areas MT and MST to pursuit eye movements. II. Differentiation of retinal from extraretinal inputs. J Neurophysiol 60 : 694 –620, 1988 . ↵ Pack C , Grossberg S, and Mingolla E. A neural model of smooth pursuit control and motion perception by cortical area MST. J Cogn Neurosci 13 : 102 –120, 2001 . CrossRef Medline ↵ Pack CC and Born RT. Temporal dynamics of a neural solution to the aperture problem in visual area MT of macaque brain. Nature 409 : 1040 –1042, 2001 . CrossRef Medline ↵ Pola J and Wyatt HJ. Offset dynamics of human smooth pursuit eye movements: effects of target presence and subject attention. Vision Res 37 : 2579 –2595, 1997 . CrossRef Medline ↵ Pola J and Wyatt HJ. The role of target position in smooth pursuit deceleration and termination. Vision Res 41 : 655 –669, 2001 . CrossRef Medline ↵ Priebe NJ , Churchland MM, and Lisberger SG. Reconstruction of target speed for the guidance of pursuit eye movements. J Neurosci 21 : 3196 –3206, 2001 . Abstract / FREE Full Text ↵ Rashbass C . The relationship between saccadic and smooth tracking eye movements. J Physiol 159 : 326 –338, 1961 . FREE Full Text ↵ Ringach DL . A tachometer feedback model of smooth pursuit eye movements. Biol Cybern 73 : 561 –568, 1995 . Medline ↵ Robinson DA , Gordon JL, and Gordon SE. A model of the smooth pursuit eye movement system. Biol Cybern 55 : 43 –57, 1986 . CrossRef Medline ↵ Schwartz JD and Lisberger SG. Initial tracking conditions modulate the gain of visuo-motor transmission for smooth pursuit eye movements in monkeys. Vis Neurosci 11 : 411 –424, 1994 . Medline ↵ Shi D , Friedman HR, and Bruce CJ. Deficits in smooth-pursuit eye movements after muscimol inactivation within the primate&apos;s frontal eye field. J Neurophysiol 80 : 458 –464, 1998 . Abstract / FREE Full Text ↵ Stone LS , Beutter BR, and Lorenceau J. Visual motion integration for perception and pursuit. Perception 29 : 771 –787, 2000 . CrossRef Medline ↵ Tanaka M and Lisberger SG. Regulation of the gain of visually guided smooth-pursuit eye movements by frontal cortex. Nature 409 : 191 –194, 2001 . CrossRef Medline ↵ Wells SG and Barnes GR. Predictive smooth pursuit eye movements during identification of moving acuity targets. Vision Res 39 : 2767 –2775, 1999 . CrossRef Medline ↵ Whittaker SG and Eaholtz G. Learning patterns of eye motion for foveal pursuit. Invest Ophthalmol Vis Sci 23 : 393 –397, 1982 . Abstract / FREE Full Text ↵ Wolpert DM , Miall RC, Kerr GK, and Stein JF. Ocular limit cycles induced by delayed retinal feedback. Exp Brain Res 96 : 173 –180, 1993 . Medline Yasui S and Young LR. Perceived visual motion as effective stimulus to pursuit eye movement system. Science 190 : 906 –908, 1975 . Abstract / FREE Full Text ↵ Young LR , Forster JD, and van Houtte N. A revised stochastic sampled data model for eye tracking movements. In: Fourth Annual NASA-University Conference on Manual Control . Ann Arbor, MI: University of Michigan, 1968 . 
+ « Previous | Next Article » Table of Contents 
+ This Article 
+ 
+ Published online before print June 18, 2003 ,
+ doi: 10. 1152/ jn. 01056. 2002 AJP - JN Physiol October 1, 2003 vol. 90 no. 4 2205-2218 
+ 
+ Free. Read about APS free content. Abstract Free » Full Text Free Full Text (PDF) Free All Versions of this Article: 
+ 01056.2002v1 90/4/2205 most recent 
+ 
+ 
+ Classifications 
+
+ 
+ Article 
+ 
+ 
+ Services 
+
+ Email this article to a friend Alert me when this article is cited Alert me if a correction is posted Similar articles in this journal Similar articles in Web of Science Similar articles in PubMed Download to citation manager 
+ 
+ Citing Articles 
+
+ Load citing article information Citing articles via Web of Science Citing articles via Google Scholar 
+ 
+ Google Scholar 
+
+ Articles by Churchland, M. M. Articles by Lisberger, S. G. Search for related content 
+ 
+ PubMed 
+
+ PubMed citation Articles by Churchland, M. M. Articles by Lisberger, S. G. 
+ 
+ Related Content 
+
+ Load related web page information 
+ 
+ Navigate This Article 
+ 
+ Top Abstract INTRODUCTION METHODS RESULTS DISCUSSION DISCLOSURES Acknowledgments Footnotes References 
+ 
+ Current Content 
+ 
+ July 1, 2012 
+ 
+ Alert me to new issues of AJP - JN Physiol 
+ 
+ About the Journal Calls for Papers Information for Authors Submit a Manuscript Ethical Policies AuthorChoice PubMed Central Policy Reprints and Permissions Advertising Press 
+
+ 
+ 
+Copyright © 2012 the American Physiological Society
+ 
+ Print ISSN: 0022-3077 Online ISSN: 1522-1598
+	</body>
+</document>

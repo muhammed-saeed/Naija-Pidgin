@@ -1,0 +1,645 @@
+dobj(gut-1, scale-2)
+amod(fish-5, filet-4)
+dobj(gut-1, fish-5)
+conj_and(scale-2, fish-5)
+
+dobj(turn-1, stove-2)
+prt(turn-1, on-3)
+
+dobj(place-1, skillet-2)
+amod(stove-5, heated-4)
+prep_on(place-1, stove-5)
+
+dobj(place-1, oil-2)
+prep_in(place-1, skillet-4)
+
+dobj(place-1, fish-2)
+prep_in(place-1, skillet-4)
+
+dobj(get-1, fish-2)
+
+dobj(marinate-1, fish-2)
+
+dobj(put-1, fish-2)
+prep_on(put-1, grill-4)
+
+conj_and(observe-1, rotate-3)
+dobj(rotate-3, fish-4)
+
+dobj(remove-1, fish-2)
+
+dobj(get-1, fish-2)
+
+dobj(put-1, spices-2)
+prep_on(put-1, fish-4)
+
+dobj(place-1, fish-2)
+prep_on(place-1, grill-4)
+
+aux(cook-3, to-2)
+xcomp(leave-1, cook-3)
+
+dobj(turn-1, fish-2)
+
+dobj(remove-1, fish-2)
+
+dobj(clean-1, fish-2)
+
+dobj(find-1, pot-2)
+nsubj(large-5, pot-2)
+cop(large-5, is-4)
+rcmod(pot-2, large-5)
+advmod(large-5, enough-6)
+prep_for(large-5, fish-8)
+
+dobj(heat-1, water-2)
+prep_in(heat-1, pot-4)
+
+dobj(put-1, fish-2)
+prep(put-1, in-3)
+
+dobj(simmer-1, fish-2)
+prepc_until(simmer-1, done-4)
+
+dobj(arrange-1, fish-2)
+prep_on(arrange-1, plate-4)
+
+dobj(place-1, fish-2)
+prep_on(place-1, grill-4)
+
+prep_on(turn-1, grill-3)
+
+prep_for(wait-1, fish-3)
+aux(cook-5, to-4)
+xcomp(wait-1, cook-5)
+
+dobj(locate-1, fish-2)
+aux(cook-4, to-3)
+xcomp(locate-1, cook-4)
+
+dobj(locate-1, recipe-2)
+prepc_for(locate-1, cooking-4)
+dobj(cooking-4, fish-5)
+
+dobj(utilize-1, recipe-2)
+aux(cook-5, to-3)
+advmod(cook-5, properly-4)
+xcomp(utilize-1, cook-5)
+dobj(cook-5, fish-6)
+
+dobj(clean-1, fish-2)
+
+dobj(marinate-1, fish-2)
+mark(desired-4, if-3)
+dep(marinate-1, desired-4)
+
+dobj(place-1, fish-2)
+prep_on(place-1, grill-4)
+
+advmod(cooked-5, after-1)
+det(side-3, a-2)
+nsubjpass(cooked-5, side-3)
+auxpass(cooked-5, is-4)
+dobj(cooked-5, turn-6)
+amod(side-9, other-8)
+prep_onto(cooked-5, side-9)
+
+advmod(cooked-4, when-1)
+nsubjpass(cooked-4, fish-2)
+auxpass(cooked-4, is-3)
+csubj(remove-5, cooked-4)
+prep_from(remove-5, grill-7)
+
+dobj(getting-1, fish-2)
+
+dobj(cleaning-1, fish-2)
+
+dobj(prepare-1, pan-2)
+
+dobj(place-1, fish-2)
+amod(pan-5, prepared-4)
+prep_in(place-1, pan-5)
+
+dobj(getting-1, fish-2)
+
+dobj(cleaning-1, fish-2)
+
+dobj(prepare-1, pan-2)
+
+dobj(place-1, fish-2)
+amod(pan-5, prepared-4)
+prep_in(place-1, pan-5)
+
+det(pan-3, the-2)
+dobj(heat-1, pan-3)
+
+dobj(turn-1, fish-2)
+advmod(turn-1, often-3)
+
+dobj(remove-1, fish-2)
+prep_from(remove-1, pan-4)
+
+dobj(buy-1, fish-2)
+
+dobj(clean-1, fish-2)
+
+nsubj(slice-1, fish-2)
+
+dobj(cook-1, fish-2)
+
+dobj(get-1, fish-2)
+
+dobj(pick-1, recipe-2)
+
+dobj(heat-1, pan-2)
+
+nsubj(pan-2, oil-1)
+
+dobj(put-1, fish-2)
+prep_in(put-1, pan-4)
+
+dep(ready-3, when-2)
+dep(turn-1, ready-3)
+
+
+det(fish-3, the-2)
+dobj(wash-1, fish-3)
+
+det(stuff-4, the-2)
+amod(stuff-4, inside-3)
+dobj(get-1, stuff-4)
+det(fish-7, the-6)
+prep_of(stuff-4, fish-7)
+
+advmod(cook-2, then-1)
+det(fish-4, the-3)
+dobj(cook-2, fish-4)
+
+dep(thaw-1, fish-2)
+
+prep_on(put-1, tray-3)
+
+dobj(heat-1, oven-2)
+
+prep_in(put-1, oven-3)
+
+prep_for(cook-1, time-3)
+partmod(time-3, required-4)
+
+prep_from(remove-1, oven-3)
+
+dobj(let-1, cool-2)
+
+dobj(scale-1, fish-2)
+
+dobj(gut-1, fish-2)
+
+dobj(filet-1, fish-2)
+
+amod(pan-3, frying-2)
+dobj(place-1, pan-3)
+amod(stove-6, hot-5)
+prep_on(place-1, stove-6)
+
+nn(filet-3, fish-2)
+dobj(place-1, filet-3)
+amod(pan-6, frying-5)
+prep_in(place-1, pan-6)
+
+dep(butcher-1, fish-2)
+
+dobj(heat-1, pan-2)
+
+nsubj(pan-2, oil-1)
+
+dep(season-1, fish-2)
+
+dobj(sear-1, fish-2)
+
+
+dep(butcher-1, fish-2)
+
+dobj(heat-1, pan-2)
+
+nsubj(pan-2, oil-1)
+
+dep(season-1, fish-2)
+
+dobj(clean-1, fish-2)
+
+dobj(prepare-1, ingredients-2)
+
+amod(container-3, cooking-2)
+dobj(obtain-1, container-3)
+
+dobj(cook-1, fish-2)
+
+nsubj(cleaned-2, place-1)
+dobj(cleaned-2, fish-3)
+prep_on(cleaned-2, plate-5)
+
+prt(set-1, aside-2)
+
+num(cups-3, 2-2)
+dobj(get-1, cups-3)
+prep_of(cups-3, flour-5)
+
+dobj(place-1, fish-2)
+prep_in(place-1, flour-4)
+
+dobj(take-1, fish-2)
+prt(take-1, out-3)
+
+dobj(put-1, oil-2)
+prep_in(put-1, pan-4)
+partmod(pan-4, put-5)
+advmod(put-5, fish-6)
+prep_in(put-5, pan-8)
+
+dobj(cook-1, fish-2)
+prep_in(cook-1, pan-4)
+
+det(fish-3, a-2)
+dobj(catch-1, fish-3)
+
+det(fish-3, the-2)
+dobj(clean-1, fish-3)
+
+det(fish-3, the-2)
+dobj(cut-1, fish-3)
+prt(cut-1, up-4)
+
+prt(heat-1, up-2)
+det(pan-4, a-3)
+dobj(heat-1, pan-4)
+
+det(fish-3, the-2)
+dobj(put-1, fish-3)
+det(pan-6, the-5)
+prep_in(put-1, pan-6)
+
+det(fish-3, the-2)
+dobj(turn-1, fish-3)
+prt(turn-1, over-4)
+
+mark(cooked-6, until-2)
+det(fish-4, the-3)
+nsubjpass(cooked-6, fish-4)
+auxpass(cooked-6, is-5)
+advcl(wait-1, cooked-6)
+
+dobj(procure-1, fish-2)
+
+dobj(clean-1, scales-2)
+
+dobj(clean-1, guts-2)
+
+dobj(put-1, oil-2)
+prep_in(put-1, pan-4)
+
+dobj(heat-1, oil-2)
+
+nn(fish-2, fry-1)
+amod(oil-5, hot-4)
+prep_in(fish-2, oil-5)
+
+dobj(serve-1, fish-2)
+
+conj_or(catch-1, buy-3)
+dobj(buy-3, fish-4)
+
+dobj(clean-1, fish-2)
+
+dobj(fill-1, pan-2)
+prep_with(fill-1, oil-4)
+prep_with(fill-1, heat-6)
+conj_and(oil-4, heat-6)
+
+dep(bread-1, fish-2)
+
+dobj(place-1, fish-2)
+prep_in(place-1, oil-4)
+
+
+dobj(buy-1, fish-2)
+
+dobj(marinate-1, fish-2)
+
+dobj(put-1, fish-2)
+prep_on(put-1, grill-4)
+
+dobj(turn-1, fish-2)
+prt(turn-1, over-3)
+
+dobj(remove-1, fish-2)
+prep_from(remove-1, grill-4)
+
+det(fish-3, the-2)
+dobj(catch-1, fish-3)
+
+det(fish-3, the-2)
+dobj(clean-1, fish-3)
+
+det(fish-3, the-2)
+dobj(scale-1, fish-3)
+
+det(fish-3, the-2)
+dobj(roll-1, fish-3)
+nn(meal-6, corn-5)
+prep_in(roll-1, meal-6)
+
+dobj(place-1, fish-2)
+prep_in(place-1, skillet-4)
+prep_with(place-1, oil-6)
+amod(heat-9, med-8)
+prep_on(place-1, heat-9)
+
+dobj(turn-1, fish-2)
+amod(side-6, brown-4)
+det(side-6, each-5)
+prep_to(turn-1, side-6)
+
+dobj(remove-1, fish-2)
+prep_from(remove-1, skillet-4)
+dep(remove-1, shut-5)
+prt(shut-5, off-6)
+dobj(shut-5, stove-7)
+
+nn(fish-2, cut-1)
+nsubj(s-3, fish-2)
+nsubj(open-5, belly-4)
+xcomp(s-3, open-5)
+
+dobj(remove-1, fish-2)
+iobj(remove-1, fish-2)
+dep(fish-2, s-3)
+dobj(remove-1, guts-4)
+dep(fish-2, guts-4)
+
+amod(fish-3, cut-1)
+dep(cut-1, off-2)
+nsubj(gills-6, fish-3)
+cop(gills-6, s-4)
+nn(gills-6, head-5)
+conj_and(gills-6, fins-8)
+
+csubj(scales-5, scrape-1)
+prt(scrape-1, off-2)
+dobj(scrape-1, fish-3)
+cop(scales-5, s-4)
+
+dobj(wash-1, fish-2)
+
+nn(fish-2, season-1)
+prep_with(fish-2, salt-4)
+prep_with(fish-2, pepper-6)
+conj_and(salt-4, pepper-6)
+
+nn(fish-2, fry-1)
+prep_in(fish-2, pan-4)
+prep_with(pan-4, butter-6)
+
+dobj(clean-1, fish-2)
+
+dobj(pat-1, fish-2)
+dep(pat-1, dry-3)
+
+dobj(lay-1, fish-2)
+amod(foil-6, double-4)
+nn(foil-6, thickness-5)
+prep_on(lay-1, foil-6)
+
+dobj(sprinkle-1, fish-2)
+prep_with(sprinkle-1, salt-4)
+
+amod(pepper-3, black-2)
+dobj(grind-1, pepper-3)
+prep_on(grind-1, fish-5)
+
+dobj(wrap-1, foil-2)
+prep_around(wrap-1, fish-4)
+
+prep_in(bake-1, oven-3)
+prep_until(bake-1, tender-5)
+prep_until(bake-1, flaky-7)
+conj_and(tender-5, flaky-7)
+
+det(fish-4, a-2)
+amod(fish-4, fresh-3)
+dobj(buy-1, fish-4)
+
+det(fish-3, the-2)
+dobj(marinate-1, fish-3)
+aux(add-5, to-4)
+infmod(fish-3, add-5)
+dobj(add-5, flavors-6)
+
+det(stove-4, the-3)
+prep_on(turn-1, stove-4)
+
+amod(pan-3, cooking-2)
+dobj(put-1, pan-3)
+prep_on_top_of(put-1, stove-7)
+
+dep(pour-1, cooking-2)
+dobj(cooking-2, oil-3)
+det(pan-6, the-5)
+prep_on(cooking-2, pan-6)
+
+det(fish-3, the-2)
+dobj(put-1, fish-3)
+det(pan-7, the-5)
+amod(pan-7, cooking-6)
+prep_inside(put-1, pan-7)
+
+det(fish-3, the-2)
+iobj(cooked-1, fish-3)
+num(minutes-5, 4-4)
+dobj(cooked-1, minutes-5)
+prep_per(minutes-5, side-7)
+
+prt(cut-1, up-2)
+det(fish-4, the-3)
+dobj(cut-1, fish-4)
+
+dobj(fry-1, it-2)
+
+det(fish-3, the-2)
+dobj(choose-1, fish-3)
+
+amod(portion-3, unwanted-2)
+dobj(remove-1, portion-3)
+
+det(fish-3, the-2)
+dobj(cut-1, fish-3)
+prep(cut-1, in-4)
+amod(pieces-7, small-6)
+prep_to(cut-1, pieces-7)
+
+det(fish-3, the-2)
+dobj(cook-1, fish-3)
+
+dobj(prepare-1, fish-2)
+
+dobj(prepare-1, fish-2)
+
+amod(pan-3, frying-2)
+dobj(put-1, pan-3)
+prep_on(put-1, cooker-5)
+
+amod(ring-4, cooker-3)
+prep_on(turn-1, ring-4)
+
+nn(oil-3, vegetable-2)
+dobj(add-1, oil-3)
+
+dobj(heat-1, pan-2)
+
+dobj(place-1, fish-2)
+prep_in(place-1, pan-4)
+
+advmod(turn-1, occasionally-2)
+
+det(fish-3, the-2)
+dobj(find-1, fish-3)
+
+dobj(cut-1, it-2)
+
+
+dobj(place-1, cook-2)
+prep_in(place-1, pan-4)
+
+prt(turn-1, on-2)
+dobj(turn-1, heat-3)
+
+dobj(cook-1, fish-2)
+prep_till(cook-1, half-4)
+partmod(half-4, cooked-5)
+
+dobj(turn-1, fish-2)
+prt(turn-1, over-3)
+
+prep_till(cook-1, fish-3)
+advmod(cooked-5, totally-4)
+partmod(fish-3, cooked-5)
+
+dobj(serve-1, fish-2)
+
+dobj(cook-1, fish-2)
+
+dobj(locate-1, fish-2)
+
+dobj(add-1, spices-2)
+dobj(add-1, margarine-4)
+conj_and(spices-2, margarine-4)
+
+prep_on(turn-1, oven-3)
+amod(temperature-6, intended-5)
+prep_to(turn-1, temperature-6)
+
+dobj(place-1, fish-2)
+prep_in(place-1, pan-4)
+
+dobj(place-1, pan-2)
+prep_in(place-1, oven-4)
+
+mark(cooked-5, until-2)
+nsubjpass(cooked-5, fish-3)
+auxpass(cooked-5, is-4)
+advcl(wait-1, cooked-5)
+
+dobj(remove-1, fish-2)
+prep_from(remove-1, oven-4)
+
+dobj(rinse-1, fish-2)
+
+dobj(clean-1, grill-2)
+
+nsubj(grill-2, oil-1)
+
+amod(utensils-3, grill-2)
+dobj(find-1, utensils-3)
+
+prt(get-1, out-2)
+amod(plate-4, clean-3)
+dobj(get-1, plate-4)
+
+dobj(put-1, fish-2)
+prep_on(put-1, grill-4)
+
+dobj(flip-1, fish-2)
+mark(finished-4, until-3)
+advcl(flip-1, finished-4)
+
+cc(fish-4, and-2)
+dep(fish-4, descale-3)
+dobj(wash-1, fish-4)
+
+prep_in(place-1, dish-3)
+
+
+dobj(boil-1, water-2)
+det(pot-5, a-4)
+prep_in(boil-1, pot-5)
+
+dobj(place-1, dish-2)
+prep_in(place-1, pot-4)
+prep_in(place-1, steam-6)
+conj_and(pot-4, steam-6)
+nsubj(done-8, till-7)
+rcmod(pot-4, done-8)
+
+dobj(heat-1, oil-2)
+prep_in(heat-1, pan-4)
+
+dobj(remove-1, fish-2)
+prep_from(remove-1, package-4)
+
+dobj(place-1, fish-2)
+prep_in(place-1, pan-4)
+
+dobj(flip-1, fish-2)
+advmod(flip-1, occasionally-3)
+prepc_until(flip-1, cooked-5)
+
+dobj(defrost-1, fish-2)
+
+dobj(catch-1, fish-2)
+
+dobj(clean-1, fish-2)
+
+dep(fry-1, fish-2)
+
+prt(take-1, out-2)
+nn(tools-4, cooking-3)
+dobj(take-1, tools-4)
+
+prt(take-1, out-2)
+dobj(take-1, fish-3)
+
+dobj(clean-1, fish-2)
+
+dobj(heat-1, pan-2)
+prep_with(heat-1, butter-4)
+
+nn(fish-2, coat-1)
+prep_in(fish-2, batter-4)
+
+dobj(put-1, fish-2)
+prep_in(put-1, pan-4)
+
+dobj(cook-1, fish-2)
+
+dobj(take-1, fish-2)
+
+dobj(place-1, fish-2)
+prep_in(place-1, pan-4)
+
+dobj(place-1, pan-2)
+prep_on(place-1, stove-4)
+
+dobj(heat-1, fish-2)
+
+dobj(put-1, fish-2)
+prep_in(put-1, grill-4)
+

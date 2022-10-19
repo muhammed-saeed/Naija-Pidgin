@@ -1,0 +1,541 @@
+dobj(buy-1, oranges-2)
+det(store-5, the-4)
+prep_from(buy-1, store-5)
+
+det(orange-3, each-2)
+nsubj(slice-1, orange-3)
+prep_in(slice-1, half-5)
+
+prt(get-1, out-2)
+det(juicer-4, the-3)
+dobj(get-1, juicer-4)
+
+det(inside-3, the-2)
+dobj(press-1, inside-3)
+det(orange-6, each-5)
+prep_of(inside-3, orange-6)
+det(juicer-9, the-8)
+prep_against(press-1, juicer-9)
+
+det(orange-3, the-2)
+nsubj(twist-1, orange-3)
+
+det(half-5, each-3)
+amod(half-5, orange-4)
+prep_with(repeat-1, half-5)
+
+dobj(cut-1, oranges-2)
+prep_in(cut-1, half-4)
+
+det(juicer-3, the-2)
+dobj(get-1, juicer-3)
+
+det(oranges-4, the-2)
+nn(oranges-4, half-3)
+dobj(squeeze-1, oranges-4)
+partmod(oranges-4, using-5)
+det(juicer-7, the-6)
+dobj(using-5, juicer-7)
+
+det(juice-4, the-2)
+amod(juice-4, fresh-3)
+dobj(pour-1, juice-4)
+det(glass-7, a-6)
+prep_into(pour-1, glass-7)
+
+det(orange-3, an-2)
+dobj(take-1, orange-3)
+
+det(orange-3, the-2)
+dobj(cut-1, orange-3)
+prep_into(cut-1, half-5)
+
+det(orange-3, the-2)
+dobj(squeeze-1, orange-3)
+det(container-6, a-5)
+prep_above(squeeze-1, container-6)
+
+dobj(cut-1, oranges-2)
+prep_in(cut-1, half-4)
+
+dobj(get-1, juicer-2)
+
+dobj(press-1, oranges-2)
+prep_with(press-1, juicer-4)
+
+nn(juice-3, orange-2)
+dobj(pour-1, juice-3)
+prep_into(pour-1, glass-5)
+
+amod(oranges-3, fresh-2)
+dobj(buy-1, oranges-3)
+
+dobj(cut-1, oranges-2)
+prep_in(cut-1, half-4)
+
+dep(oranges-3, half-2)
+dobj(press-1, oranges-3)
+amod(press-6, citrus-5)
+prep_in(press-1, press-6)
+
+nn(juice-3, orange-2)
+dobj(pour-1, juice-3)
+prep_into(pour-1, glass-5)
+
+dobj(get-1, oranges-2)
+
+dobj(cut-1, oranges-2)
+prep_in(cut-1, two-4)
+
+advmod(are-3, until-1)
+expl(are-3, there-2)
+advmod(are-3, no-4)
+advmod(no-4, more-5)
+nsubj(do-7, oranges-6)
+ccomp(are-3, do-7)
+
+amod(half-3, orange-2)
+dobj(put-1, half-3)
+prep_in(put-1, juicer-5)
+
+csubj(squeeze-3, using-1)
+dobj(using-1, lever-2)
+
+nn(juice-3, orange-2)
+dobj(collect-1, juice-3)
+
+prt(clean-1, up-2)
+
+det(oranges-3, the-2)
+dobj(get-1, oranges-3)
+
+det(oranges-3, the-2)
+dobj(peel-1, oranges-3)
+
+det(juice-3, the-2)
+dobj(press-1, juice-3)
+det(jar-6, a-5)
+prep_in(press-1, jar-6)
+
+det(pitcher-3, a-2)
+dobj(get-1, pitcher-3)
+
+det(knife-3, a-2)
+dobj(get-1, knife-3)
+
+det(bag-3, a-2)
+dobj(get-1, bag-3)
+prep_of(bag-3, oranges-5)
+
+prt(cut-1, up-2)
+det(oranges-4, the-3)
+dobj(cut-1, oranges-4)
+
+det(juicer-3, a-2)
+dobj(get-1, juicer-3)
+
+det(glasses-4, the-2)
+nn(glasses-4, juice-3)
+dobj(get-1, glasses-4)
+
+aux(cut-3, squeeze-1)
+nsubj(cut-3, the-2)
+nsubj(pour-10, the-2)
+prt(cut-3, up-4)
+dobj(cut-3, oranges-5)
+det(juicer-8, the-7)
+prep_on(cut-3, juicer-8)
+conj_and(cut-3, pour-10)
+det(juice-12, the-11)
+dobj(pour-10, juice-12)
+det(glasses-15, the-14)
+prep_into(pour-10, glasses-15)
+
+dobj(select-1, oranges-2)
+
+dobj(slice-1, oranges-2)
+
+amod(oranges-2, squash-1)
+partmod(oranges-2, using-3)
+nn(juicer-5, fruit-4)
+dobj(using-3, juicer-5)
+
+amod(oranges-4, used-3)
+prep_of(dispose-1, oranges-4)
+
+dobj(pour-1, juice-2)
+prep_in(pour-1, glass-4)
+
+dobj(place-1, oranges-2)
+prep_on(oranges-2, counter-4)
+
+nn(container-3, beverage-2)
+dobj(place-1, container-3)
+prep_on(container-3, counter-5)
+
+dobj(cut-1, oranges-2)
+prep_in(cut-1, half-4)
+
+amod(halves-3, orange-2)
+dobj(squeeze-1, halves-3)
+prep_over(squeeze-1, container-5)
+
+amod(halves-4, sqeezed-2)
+amod(halves-4, orange-3)
+dobj(discard-1, halves-4)
+
+dobj(get-1, orange-2)
+
+prep_in(cut-1, half-3)
+
+dobj(get-1, juicer-2)
+
+amod(half-3, orange-2)
+dobj(place-1, half-3)
+prep_on(place-1, top-5)
+
+prt(push-1, down-2)
+prep(push-1, and-3)
+nn(half-6, twist-4)
+nn(half-6, orange-5)
+dep(and-3, half-6)
+
+det(pips-3, any-2)
+dobj(remove-1, pips-3)
+
+dobj(pour-1, juice-2)
+prep_into(pour-1, glass-4)
+
+dobj(place-1, orange-2)
+prep_into(place-1, press-4)
+
+dobj(press-1, orange-2)
+
+dobj(collect-1, juice-2)
+
+det(orange-3, the-2)
+dobj(wash-1, orange-3)
+
+det(orange-3, the-2)
+nsubj(slice-1, orange-3)
+
+dobj(squeeze-1, it-2)
+det(glass-5, a-4)
+prep_in(squeeze-1, glass-5)
+prep_in(squeeze-1, container-7)
+conj_or(glass-5, container-7)
+
+det(oranges-3, some-2)
+dobj(cut-1, oranges-3)
+prep_in(cut-1, half-5)
+
+dobj(place-1, strainer-2)
+prep_on_top_of(place-1, glass-6)
+
+det(orange-4, each-2)
+nn(orange-4, half-3)
+dobj(squeeze-1, orange-4)
+prep_into(squeeze-1, strainer-6)
+
+dobj(remove-1, strainer-2)
+
+det(seeds-3, any-2)
+dep(fish-1, seeds-3)
+prep_out_of(seeds-3, glass-6)
+
+nsubj(slice-1, oranges-2)
+prep_into(slice-1, halves-4)
+
+amod(halves-3, orange-2)
+dobj(squeeze-1, halves-3)
+prep_into(squeeze-1, cup-5)
+
+dobj(select-1, oranges-2)
+
+det(container-3, a-2)
+dobj(select-1, container-3)
+
+dobj(cut-1, oranges-2)
+prep_into(cut-1, pieces-4)
+
+dobj(squeeze-1, oranges-2)
+prep_onto(squeeze-1, juicer-4)
+
+dobj(collect-1, juice-2)
+prep_in(collect-1, container-4)
+
+dobj(take-1, orange-2)
+
+dobj(cut-1, orange-2)
+prep_in(cut-1, half-4)
+
+dobj(squeese-1, orange-2)
+prep_into(squeese-1, glass-4)
+
+dobj(repeat-1, steps-2)
+num(steps-2, 123-3)
+mark(full-8, until-4)
+nsubj(full-8, glass-5)
+cop(full-8, is-6)
+advmod(full-8, almost-7)
+advcl(repeat-1, full-8)
+
+dobj(serve-1, glass-2)
+
+amod(husks-3, orange-2)
+dobj(put-1, husks-3)
+nn(can-6, trash-5)
+prep_in(put-1, can-6)
+
+prt(clean-1, up-2)
+dobj(clean-1, self-3)
+dobj(clean-1, area-5)
+conj_and(self-3, area-5)
+
+dobj(buy-1, oranges-2)
+
+dobj(cut-1, oranges-2)
+
+dobj(squeeze-1, oranges-2)
+prep_into(squeeze-1, glass-4)
+
+
+conj_or(buy-1, pick-3)
+dobj(pick-3, oranges-4)
+
+det(pitcher-3, a-2)
+dobj(get-1, pitcher-3)
+dobj(get-1, juicer-5)
+conj_and(pitcher-3, juicer-5)
+
+dobj(squeeze-1, juice-2)
+det(oranges-6, the-5)
+prep_out_of(squeeze-1, oranges-6)
+
+dobj(add-1, sugar-2)
+cc(water-5, or-4)
+dobj(add-1, water-5)
+conj_and(sugar-2, water-5)
+prep_to(add-1, taste-7)
+
+
+
+dobj(cut-1, oranges-2)
+
+dobj(squeeze-1, juice-2)
+
+det(orange-4, a-2)
+amod(orange-4, fresh-3)
+dobj(pick-1, orange-4)
+prep(pick-1, from-5)
+nsubj(tree-8, it-6)
+cop(tree-8, s-7)
+dep(from-5, tree-8)
+
+det(orange-3, the-2)
+dobj(wash-1, orange-3)
+
+det(orange-3, the-2)
+dobj(cut-1, orange-3)
+num(pieces-6, 2-5)
+prep_into(cut-1, pieces-6)
+
+det(piece-3, a-2)
+dobj(put-1, piece-3)
+det(orange-6, the-5)
+prep_of(piece-3, orange-6)
+det(squeezer-9, the-8)
+prep_in(put-1, squeezer-9)
+
+det(juice-3, the-2)
+dobj(squeeze-1, juice-3)
+prep_into(squeeze-1, glass-5)
+
+conj_or(buy-1, pick-3)
+dobj(pick-3, oranges-4)
+
+dobj(cut-1, oranges-2)
+prep_in(cut-1, half-4)
+
+dobj(squeeze-1, juice-2)
+prep_out_of(squeeze-1, oranges-5)
+prep_into(squeeze-1, glass-7)
+
+dobj(get-1, orange-2)
+
+dobj(remove-1, juice-2)
+
+dobj(add-1, juice-2)
+prep_to(add-1, cup-4)
+
+dobj(find-1, orange-2)
+
+dobj(cut-1, orange-2)
+prep_in(cut-1, half-4)
+
+nsubj(firts-2, press-1)
+dobj(firts-2, half-3)
+prep_of(half-3, orange-5)
+prep_against(orange-5, squeezer-7)
+
+dobj(rotate-1, orange-2)
+
+amod(half-4, second-3)
+prep_for(repeat-1, half-4)
+
+nn(juice-3, orange-2)
+dobj(pour-1, juice-3)
+det(container-6, a-5)
+prep_in(pour-1, container-6)
+
+dobj(gather-1, oranges-2)
+
+prt(get-1, out-2)
+dobj(get-1, juicer-3)
+
+det(orange-3, each-2)
+dobj(cut-1, orange-3)
+prep_in(cut-1, half-5)
+
+det(half-3, each-2)
+dobj(press-1, half-3)
+prep_onto(press-1, juicer-5)
+
+conj_and(turn-1, push-3)
+det(half-6, each-5)
+prep_on(push-3, half-6)
+
+amod(peels-3, orange-2)
+dobj(discard-1, peels-3)
+
+nn(juice-3, orange-2)
+dobj(pour-1, juice-3)
+prep_into(pour-1, pitcher-5)
+
+dobj(cut-1, orange-2)
+prep_in(cut-1, half-4)
+
+amod(half-3, orange-2)
+dobj(put-1, half-3)
+prep_on(put-1, juicer-5)
+
+dobj(twist-1, orange-2)
+dep(left-6, right-4)
+dep(left-6, to-5)
+prep_from(twist-1, left-6)
+
+nsubj(twist-1, orange-2)
+prep_from(twist-1, left-4)
+prep_to(left-4, right-6)
+
+mark(is-4, until-2)
+expl(is-4, there-3)
+advcl(repeat-1, is-4)
+det(pulp-7, no-5)
+amod(pulp-7, more-6)
+nsubj(is-4, pulp-7)
+
+amod(half-3, orange-2)
+dobj(remove-1, half-3)
+
+amod(orange-5, other-3)
+nn(orange-5, half-4)
+prep_with(repeat-1, orange-5)
+
+prt(plug-1, in-2)
+conj_and(plug-1, turn-4)
+prep_on(turn-4, juicer-6)
+
+dobj(cut-1, oranges-2)
+prep_in(cut-1, half-4)
+
+dobj(push-1, oranges-2)
+prep_onto(push-1, juicer-4)
+
+dobj(let-1, juicer-2)
+dep(let-1, scrape-3)
+prt(scrape-3, out-4)
+dobj(scrape-3, juices-5)
+
+predet(halves-5, all-2)
+det(halves-5, the-3)
+amod(halves-5, orange-4)
+dobj(do-1, halves-5)
+
+dobj(cut-1, orange-2)
+
+dobj(sweeze-1, juice-2)
+
+dobj(cut-1, oranges-2)
+prep_in(cut-1, half-4)
+
+nsubj(twist-4, press-1)
+advmod(twist-4, down-2)
+cc(down-2, and-3)
+amod(half-6, open-5)
+dobj(twist-4, half-6)
+prep_on(half-6, juicer-8)
+
+dobj(repeat-1, step-2)
+num(step-2, 2-3)
+mark(have-6, until-4)
+nsubj(have-6, you-5)
+advcl(repeat-1, have-6)
+amod(j-9, enough-7)
+nn(j-9, o-8)
+dobj(have-6, j-9)
+
+dobj(locate-1, oranges-2)
+
+dobj(peel-1, oranges-2)
+
+dobj(place-1, orange-2)
+nn(squeezer-5, juice-4)
+prep_into(place-1, squeezer-5)
+
+prt(pull-1, down-2)
+dobj(pull-1, lever-3)
+aux(squeeze-5, to-4)
+infmod(lever-3, squeeze-5)
+dobj(squeeze-5, juice-6)
+
+dobj(pour-1, liquid-2)
+prep_into(pour-1, glass-4)
+
+dobj(get-1, orange-2)
+
+dobj(cut-1, orange-2)
+prep_in(cut-1, half-4)
+
+dep(orange-3, half-2)
+dobj(push-1, orange-3)
+amod(tool-6, juicing-5)
+prep_on(push-1, tool-6)
+
+acomp(twist-1, orange-2)
+
+dobj(get-1, orange-2)
+
+dobj(cut-1, orange-2)
+prep_in(cut-1, half-4)
+
+dobj(squeeze-1, half-2)
+prep_of(half-2, orage-4)
+prep_over(squeeze-1, cup-6)
+
+dobj(squeeze-1, juice-2)
+prep_out_of(squeeze-1, oranges-5)
+
+nsubj(slice-1, orange-2)
+prep_in(slice-1, half-4)
+
+amod(glass-3, empty-2)
+dobj(get-1, glass-3)
+
+dobj(squeeze-1, orage-2)
+prep_over(squeeze-1, glass-4)
+
+nn(drip-3, juice-2)
+dobj(let-1, drip-3)
+prep_into(let-1, cup-5)
+

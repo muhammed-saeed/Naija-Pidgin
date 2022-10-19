@@ -1,0 +1,434 @@
+det(cut-3, the-2)
+dobj(rinse-1, cut-3)
+amod(water-6, clean-5)
+prep_with(rinse-1, water-6)
+
+det(soap-4, a-2)
+amod(soap-4, mild-3)
+dobj(rub-1, soap-4)
+det(cut-7, the-6)
+prep_over(soap-4, cut-7)
+
+det(cut-3, the-2)
+dobj(rinse-1, cut-3)
+advmod(rinse-1, again-4)
+amod(water-7, clean-6)
+prep_with(rinse-1, water-7)
+
+det(faucet-3, the-2)
+dobj(turn-1, faucet-3)
+prt(turn-1, on-4)
+
+det(cut-3, the-2)
+dobj(hold-1, cut-3)
+det(water-7, the-5)
+amod(water-7, running-6)
+prep_under(hold-1, water-7)
+
+nsubj(place-2, gently-1)
+dobj(place-2, soap-3)
+det(cut-6, the-5)
+prep_on(place-2, cut-6)
+
+det(soap-3, the-2)
+dobj(rinse-1, soap-3)
+prt(rinse-1, off-4)
+
+prt(turn-1, off-2)
+det(water-4, the-3)
+dobj(turn-1, water-4)
+
+det(cut-3, the-2)
+dobj(run-1, cut-3)
+nn(water-6, tap-5)
+prep_under(run-1, water-6)
+
+advmod(wash-2, gently-1)
+det(cut-4, the-3)
+dobj(wash-2, cut-4)
+prep_with(wash-2, soap-6)
+
+predet(soap-4, all-2)
+det(soap-4, the-3)
+dobj(rinse-1, soap-4)
+prt(rinse-1, off-5)
+
+det(cut-3, the-2)
+dobj(dry-1, cut-3)
+
+det(bandage-3, a-2)
+dobj(place-1, bandage-3)
+det(cut-6, the-5)
+prep_over(place-1, cut-6)
+
+dobj(place-1, cut-2)
+prep_under(place-1, water-4)
+
+prep_on(put-1, soap-3)
+
+nsubj(rub-2, gently-1)
+dep(rub-2, cut-3)
+
+amod(fluid-3, antiseptic-2)
+dobj(get-1, fluid-3)
+
+nsubj(antiseptic-2, spray-1)
+acomp(antiseptic-2, fluid-3)
+prep_on(antiseptic-2, cut-5)
+
+dobj(take-1, person-2)
+prep(person-2, with-3)
+dep(with-3, cut-4)
+det(sink-7, a-6)
+prep_to(cut-4, sink-7)
+
+nsubjpass(cut-5, place-1)
+det(person-3, the-2)
+nsubjpass(cut-5, person-3)
+auxpass(cut-5, s-4)
+det(faucet-9, the-7)
+nn(faucet-9, sink-8)
+prep_under(cut-5, faucet-9)
+
+det(faucet-4, the-3)
+prep_on(turn-1, faucet-4)
+advmod(turn-1, gently-5)
+
+det(cut-3, the-2)
+dobj(wash-1, cut-3)
+det(stream-7, a-5)
+amod(stream-7, gentle-6)
+prep_with(wash-1, stream-7)
+prep_of(stream-7, water-9)
+
+amod(water-3, warm-2)
+dobj(run-1, water-3)
+prep_over(water-3, cut-5)
+
+dobj(add-1, soap-2)
+nn(peroxide-5, hydrogen-4)
+dobj(add-1, peroxide-5)
+conj_and\/or(soap-2, peroxide-5)
+
+amod(area-3, cut-2)
+dobj(dry-1, area-3)
+
+dobj(putting-1, skin-2)
+det(water-5, some-4)
+prep_in(putting-1, water-5)
+
+det(skin-3, the-2)
+dobj(washing-1, skin-3)
+
+det(band-aid-3, a-2)
+dobj(putting-1, band-aid-3)
+det(area-7, the-5)
+amod(area-7, infected-6)
+prep_on(putting-1, area-7)
+
+aux(sink-3, to-2)
+xcomp(go-1, sink-3)
+
+prep_on(turn-1, sink-3)
+
+dobj(get-1, soap-2)
+
+dep(put-1, cut-2)
+prep_under(cut-2, water-4)
+
+prep_with(wash-1, soap-3)
+
+prep_with(rinse-1, water-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, tap-3)
+
+aux(sink-3, to-2)
+xcomp(go-1, sink-3)
+
+prep_on(turn-1, water-3)
+
+dobj(apply-1, water-2)
+aux(cut-4, to-3)
+xcomp(apply-1, cut-4)
+
+dobj(apply-1, soap-2)
+
+prt(wash-1, off-2)
+dobj(wash-1, soap-3)
+
+dep(run-1, cut-2)
+prep_under(cut-2, water-4)
+
+dobj(put-1, disinfectant-2)
+prep_on(put-1, cut-4)
+
+dep(wash-1, cut-2)
+prepc_in(cut-2, running-4)
+dobj(running-4, water-5)
+
+dep(wash-1, cut-2)
+amod(water-6, clean-4)
+amod(water-6, running-5)
+prep_with(cut-2, water-6)
+
+dep(wash-1, cut-2)
+prep_with(cut-2, peroxide-4)
+
+dep(wash-1, cut-2)
+ccomp(cut-2, use-3)
+amod(water-6, clean-4)
+amod(water-6, running-5)
+dobj(use-3, water-6)
+
+nsubj(cut-2, rinse-1)
+amod(water-6, clean-4)
+amod(water-6, hot-5)
+prep_under(cut-2, water-6)
+
+dobj(remove-1, debris-2)
+prep_from(remove-1, cut-4)
+
+amod(water-3, clean-2)
+dobj(pour-1, water-3)
+prep_over(water-3, cut-5)
+
+prep_on(turn-1, water-3)
+
+dobj(get-1, disinfectant-2)
+prep_out_of(get-1, cupboard-5)
+
+acomp(make-1, sure-2)
+dep(hot-7, water-3)
+cop(hot-7, is-4)
+neg(hot-7, not-5)
+advmod(hot-7, too-6)
+dep(sure-2, hot-7)
+
+dobj(pour-1, disinfecatant-2)
+prep_on(pour-1, cut-4)
+
+nsubj(run-2, then-1)
+dobj(run-2, water-3)
+prep_on(run-2, cut-5)
+
+dep(dry-1, cut-2)
+amod(ball-6, clean-4)
+nn(ball-6, cotton-5)
+prep_with(cut-2, ball-6)
+
+dobj(place-1, gauze-2)
+prep_on(place-1, cut-4)
+aux(keep-6, to-5)
+infmod(cut-4, keep-6)
+acomp(keep-6, clean-7)
+
+dep(put-1, cut-2)
+prepc_under(cut-2, running-4)
+dobj(running-4, water-5)
+
+advmod(rub-1, around-2)
+advmod(rub-1, over-4)
+conj_and(around-2, over-4)
+dep(rub-1, cut-5)
+
+nsubj(cut-2, hold-1)
+acomp(cut-2, open-3)
+dep(little-5, a-4)
+dep(open-3, little-5)
+
+dep(remove-1, cut-2)
+prepc_from(cut-2, running-4)
+dobj(running-4, water-5)
+
+nsubj(cut-2, blot-1)
+acomp(cut-2, dry-3)
+amod(material-7, clean-5)
+amod(material-7, absorbent-6)
+prep_with(cut-2, material-7)
+
+dobj(take-1, cut-2)
+prep_to(take-1, water-4)
+
+dep(put-1, cut-2)
+prep_under(cut-2, water-4)
+
+dobj(add-1, soap-2)
+prep_to(add-1, water-4)
+prep_to(add-1, cut-6)
+conj_and(water-4, cut-6)
+
+dobj(rinse-1, area-2)
+prep_of(area-2, cut-4)
+
+dobj(sry-1, area-2)
+prep_of(area-2, cut-4)
+
+nsubj(cut-2, rinse-1)
+amod(water-5, clean-4)
+prep_under(cut-2, water-5)
+
+dobj(place-1, cut-2)
+prepc_under(place-1, running-4)
+dobj(running-4, water-5)
+
+prt(rinse-1, away-2)
+dobj(rinse-1, blood-3)
+dobj(rinse-1, dirt-5)
+conj_or(blood-3, dirt-5)
+
+dep(hold-1, cut-2)
+amod(water-6, cold-4)
+amod(water-6, running-5)
+prep_under(cut-2, water-6)
+
+det(wound-3, the-2)
+dobj(inspect-1, wound-3)
+aux(see-5, to-4)
+infmod(wound-3, see-5)
+complm(free-9, that-6)
+nsubj(free-9, it-7)
+cop(free-9, is-8)
+ccomp(see-5, free-9)
+prep_of(free-9, dirt-11)
+prep_of(free-9, debris-13)
+conj_and(dirt-11, debris-13)
+
+amod(hair-2, wet-1)
+
+dobj(add-1, shampoo-2)
+prep_to(add-1, hair-4)
+
+
+
+
+
+dobj(cut-1, hair-2)
+
+nsubj(wound-2, hold-1)
+prepc_under(wound-2, running-4)
+dobj(running-4, water-5)
+
+advmod(wound-3, gently-1)
+nsubj(wound-3, lather-2)
+cc(area-6, and-4)
+dep(area-6, general-5)
+dobj(wound-3, area-6)
+prep_with(wound-3, soap-8)
+
+dobj(rinse-1, soap-2)
+prt(rinse-1, off-3)
+
+dobj(apply-1, antiseptic-2)
+dobj(apply-1, bandage-4)
+conj_and(antiseptic-2, bandage-4)
+
+dep(wash-1, cut-2)
+
+prep_on(turn-1, faucet-3)
+
+dobj(hold-1, injury-2)
+amod(water-5, running-4)
+prep_under(hold-1, water-5)
+
+prt(soap-1, up-2)
+dobj(soap-1, injury-3)
+conj_and(soap-1, surrounding-5)
+dobj(surrounding-5, area-6)
+
+advmod(rinse-1, well-2)
+aux(remove-4, to-3)
+xcomp(rinse-1, remove-4)
+dobj(remove-4, soap-5)
+
+nsubj(apply-4, blot-1)
+amod(blot-1, dry-2)
+dep(blot-1, and-3)
+acomp(apply-4, antiseptic-5)
+
+
+dobj(use-1, towl-2)
+conj_and(use-1, wipe-4)
+prt(wipe-4, off-5)
+dobj(wipe-4, blook-6)
+
+prep_under(rinse-1, water-3)
+
+dobj(use-1, polysporin-2)
+prep_on(use-1, cut-4)
+
+dobj(place-1, gauze-2)
+prep_on(place-1, cut-4)
+
+nn(bandage-2, tape-1)
+prep_over(bandage-2, cut-4)
+
+prep_toward(walk-1, bathroom-3)
+
+prep_on(turn-1, faucet-3)
+
+dep(wash-1, cut-2)
+
+dep(dry-1, cut-2)
+
+dep(put-1, bandaid-2)
+prt(bandaid-2, on-3)
+
+
+dobj(invite-1, customer-2)
+prep(invite-1, in-3)
+
+dobj(sit-1, them-2)
+det(chair-5, the-4)
+prep_in(sit-1, chair-5)
+
+poss(hair-3, their-2)
+dobj(wash-1, hair-3)
+
+poss(hair-3, their-2)
+dep(condition-1, hair-3)
+
+poss(hair-3, their-2)
+dobj(dry-1, hair-3)
+
+amod(style-4, desired-3)
+prep_for(ask-1, style-4)
+
+dobj(cut-1, hair-2)
+
+det(tap-4, the-2)
+nn(tap-4, sink-3)
+dobj(turn-1, tap-4)
+prt(turn-1, on-5)
+
+det(vegetables-3, the-2)
+dobj(wash-1, vegetables-3)
+det(water-6, the-5)
+prep_under(wash-1, water-6)
+
+det(tap-3, the-2)
+dobj(turn-1, tap-3)
+prt(turn-1, off-4)
+
+det(vegetables-3, the-2)
+dobj(put-1, vegetables-3)
+det(board-7, a-5)
+amod(board-7, cutting-6)
+prep_on(put-1, board-7)
+
+det(knife-4, a-2)
+amod(knife-4, sharp-3)
+dobj(get-1, knife-4)
+
+det(vegetables-3, the-2)
+dobj(cut-1, vegetables-3)
+amod(cubes-6, small-5)
+prep_into(cut-1, cubes-6)
+
+det(vegetables-3, the-2)
+dobj(place-1, vegetables-3)
+det(bowl-6, a-5)
+prep_in(place-1, bowl-6)
+
+
+

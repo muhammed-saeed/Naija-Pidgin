@@ -1,0 +1,413 @@
+dobj(find-1, the-2)
+prep_off(find-1, switch-4)
+prep_off(find-1, knob-6)
+conj_or(switch-4, knob-6)
+
+det(switch-3, the-2)
+dobj(move-1, switch-3)
+dobj(move-1, knob-5)
+conj_or(switch-3, knob-5)
+det(position-9, the-7)
+amod(position-9, off-8)
+prep_to(move-1, position-9)
+
+det(switch-4, the-2)
+nn(switch-4, heat-3)
+dobj(locate-1, switch-4)
+
+amod(position-4, off-3)
+prep_to(move-1, position-4)
+
+det(thermostat-3, the-2)
+dobj(find-1, thermostat-3)
+
+det(switch-4, the-2)
+amod(switch-4, thermostat-3)
+dobj(flip-1, switch-4)
+prep(flip-1, to-5)
+advmod(flip-1, off-6)
+
+det(stove-4, the-3)
+prep_to(go-1, stove-4)
+
+det(knob-3, the-2)
+dobj(turn-1, knob-3)
+det(stove-6, the-5)
+prep_on(turn-1, stove-6)
+
+acomp(make-1, sure-2)
+det(fire-4, the-3)
+nsubjpass(gone-6, fire-4)
+nsubjpass(s-9, fire-4)
+auxpass(gone-6, is-5)
+dep(sure-2, gone-6)
+expl(s-9, there-8)
+dep(sure-2, s-9)
+conj_and(gone-6, s-9)
+det(gas-11, no-10)
+nsubj(leaking-12, gas-11)
+dep(s-9, leaking-12)
+prt(leaking-12, out-13)
+
+det(rheostat-3, the-2)
+dobj(locate-1, rheostat-3)
+
+det(rheostat-3, the-2)
+dobj(approach-1, rheostat-3)
+
+det(heat-3, the-2)
+dobj(locate-1, heat-3)
+amod(switch-6, cold-5)
+dobj(locate-1, switch-6)
+conj_and(heat-3, switch-6)
+
+det(switch-3, the-2)
+dobj(push-1, switch-3)
+det(position-7, the-5)
+amod(position-7, off-6)
+prep_into(push-1, position-7)
+
+prep_to(go-1, heater-3)
+
+dobj(push-1, button-2)
+amod(position-5, off-4)
+prep_to(push-1, position-5)
+
+nn(conditioner-4, air-3)
+prep_to(go-1, conditioner-4)
+
+dobj(push-1, button-2)
+amod(position-5, off-4)
+prep_to(push-1, position-5)
+
+prep_to(go-1, heater-3)
+
+amod(button-3, on\/off-2)
+dobj(find-1, button-3)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+det(heater-3, the-2)
+dobj(locate-1, heater-3)
+
+det(switch-4, the-2)
+nn(switch-4, power-3)
+dobj(locate-1, switch-4)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+prep(turn-1, to-4)
+pobj(to-4, off-6)
+
+prep_to(go-1, heater-3)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+prep_to(go-1, heater-3)
+
+dobj(turn-1, switch-2)
+amod(position-5, off-4)
+prep_to(turn-1, position-5)
+
+det(thermostat-3, the-2)
+dobj(locating-1, thermostat-3)
+
+csubj(turns-11, lowering-1)
+det(temperature-3, the-2)
+dobj(lowering-1, temperature-3)
+prep(lowering-1, setting-4)
+dep(setting-4, on-5)
+det(thermostat-7, the-6)
+pobj(on-5, thermostat-7)
+det(heater-10, the-9)
+prep_until(lowering-1, heater-10)
+prt(turns-11, off-12)
+
+prep_to(go-1, thermostat-3)
+
+dobj(turn-1, thermostat-2)
+amod(position-5, off-4)
+prep_to(turn-1, position-5)
+
+prt(go-1, over-2)
+det(control-6, the-4)
+nn(control-6, heating-5)
+prep_to(go-1, control-6)
+
+det(switch-5, the-2)
+nn(switch-5, heating-3)
+nn(switch-5, control-4)
+dobj(grasp-1, switch-5)
+
+det(switch-4, the-2)
+nn(switch-4, control-3)
+dobj(move-1, switch-4)
+det(position-8, the-6)
+amod(position-8, off-7)
+prep_to(move-1, position-8)
+
+prep_to(go-1, heater-3)
+
+dobj(turn-1, knob-2)
+amod(position-5, off-4)
+prep_to(turn-1, position-5)
+
+det(search-4, a-2)
+amod(search-4, logical-3)
+dobj(conduct-1, search-4)
+det(walls-7, the-6)
+prep_of(search-4, walls-7)
+det(house-10, a-9)
+prep_in(conduct-1, house-10)
+det(thermostat-13, the-12)
+prep_for(conduct-1, thermostat-13)
+
+det(thermostat-4, the-3)
+prep_to(relocate-1, thermostat-4)
+
+nn(panel-3, control-2)
+dobj(adjust-1, panel-3)
+det(thermostat-6, the-5)
+prep_on(adjust-1, thermostat-6)
+aux(lower-8, to-7)
+infmod(thermostat-6, lower-8)
+det(temperature-11, the-9)
+amod(temperature-11, desired-10)
+dobj(lower-8, temperature-11)
+
+det(thermostat-3, the-2)
+dobj(go-1, thermostat-3)
+
+det(switch-4, the-2)
+amod(switch-4, off-3)
+dobj(press-1, switch-4)
+
+dobj(locate-1, thermostat-2)
+
+amod(position-4, off-3)
+prep_to(switch-1, position-4)
+
+dobj(locate-1, thermostat-2)
+
+prt(turn-1, down-2)
+dobj(turn-1, thermostat-3)
+
+amod(vicinity-4, immediate-3)
+prep_to(walk-1, vicinity-4)
+prep_of(vicinity-4, thermostat-6)
+
+det(thermostat-3, the-2)
+dobj(turn-1, thermostat-3)
+prt(turn-1, down-4)
+mark(turns-8, until-5)
+det(heat-7, the-6)
+nsubj(turns-8, heat-7)
+advcl(turn-1, turns-8)
+prt(turns-8, off-9)
+
+prep_toward(walk-1, heater-3)
+
+dobj(turn-1, switch-2)
+dobj(turn-1, knob-4)
+conj_or(switch-2, knob-4)
+prep(turn-1, to-5)
+advmod(turn-1, off-6)
+
+nn(system-4, heating-3)
+prep_to(going-1, system-4)
+
+det(power-3, the-2)
+dobj(switching-1, power-3)
+prt(switching-1, off-4)
+
+dobj(locate-1, thermostat-2)
+
+nn(dial-3, control-2)
+dobj(locate-1, dial-3)
+prep_on(locate-1, thermostat-5)
+
+nn(dial-3, control-2)
+dobj(turn-1, dial-3)
+amod(temperature-6, cooler-5)
+prep_to(turn-1, temperature-6)
+
+prep_for(wait-1, heat-3)
+aux(turned-6, to-4)
+auxpass(turned-6, be-5)
+xcomp(wait-1, turned-6)
+prt(turned-6, off-7)
+
+det(switch-3, the-2)
+dobj(locate-1, switch-3)
+
+prt(turn-1, off-2)
+det(heat-4, the-3)
+dobj(turn-1, heat-4)
+
+det(thermostat-4, the-3)
+prep_to(go-1, thermostat-4)
+
+dobj(set-1, heat-2)
+prep(set-1, to-3)
+prep(set-1, off-4)
+
+aux(switch-3, to-2)
+xcomp(walk-1, switch-3)
+
+dobj(turn-1, switch-2)
+prt(turn-1, off-3)
+
+det(thermostat-3, the-2)
+dobj(find-1, thermostat-3)
+
+det(temperature-3, the-2)
+dobj(set-1, temperature-3)
+dep(set-1, lower-4)
+
+prt(get-1, up-2)
+
+det(thermostat-4, the-3)
+prep_to(go-1, thermostat-4)
+
+det(thermostat-3, the-2)
+dobj(turn-1, thermostat-3)
+prt(turn-1, down-4)
+
+prep_to(walk-1, thermometer-3)
+
+dobj(turn-1, dial-2)
+amod(setting-7, off-4)
+conj_or(off-4, lowest-6)
+amod(setting-7, lowest-6)
+prep_to(turn-1, setting-7)
+
+prt(turn-1, down-2)
+dobj(turn-1, thermostat-3)
+
+det(temperature-4, the-2)
+amod(temperature-4, current-3)
+dobj(check-1, temperature-4)
+
+det(thermostat-3, the-2)
+dobj(turn-1, thermostat-3)
+dep(turn-1, don-4)
+det(temperature-7, a-6)
+prep_to(don-4, temperature-7)
+det(one-11, the-9)
+amod(one-11, current-10)
+prep_below(don-4, one-11)
+
+det(controller-4, the-2)
+nn(controller-4, heat-3)
+dobj(find-1, controller-4)
+
+dobj(turn-1, it-2)
+det(position-6, the-4)
+amod(position-6, off-5)
+prep_to(turn-1, position-6)
+
+det(thermostat-3, the-2)
+dobj(turn-1, thermostat-3)
+det(left-6, the-5)
+prep_to(turn-1, left-6)
+
+det(knob-3, the-2)
+dobj(turning-1, knob-3)
+
+dobj(find-1, thermostat-2)
+
+nsubj(switch-2, turn-1)
+dep(switch-2, labeled-3)
+dobj(labeled-3, heat-5)
+det(position-12, the-8)
+amod(position-12, off-10)
+prep_to(heat-5, position-12)
+
+det(thermostat-4, the-3)
+prep_to(go-1, thermostat-4)
+
+dobj(turn-1, dial-2)
+amod(position-5, off-4)
+prep_to(turn-1, position-5)
+
+
+dobj(find-1, thermostat-2)
+
+dobj(find-1, heat-2)
+iobj(find-1, heat-2)
+poss(switch-6, on\/off-4)
+dep(heat-2, switch-6)
+
+dobj(turn-1, switch-2)
+prep(turn-1, to-3)
+pobj(to-3, off-5)
+
+nn(switch-3, heat-2)
+dobj(turn-1, switch-3)
+prt(turn-1, off-4)
+
+det(source-4, the-2)
+nn(source-4, heat-3)
+dobj(find-1, source-4)
+
+det(switch-5, the-3)
+amod(switch-5, knob-4)
+prep_for(reach-1, switch-5)
+prep_for(reach-1, button-7)
+conj_or(switch-5, button-7)
+
+det(switch-4, the-2)
+amod(switch-4, knob-3)
+dobj(turn-1, switch-4)
+dobj(turn-1, button-6)
+conj_or(switch-4, button-6)
+det(position-10, the-8)
+amod(position-10, off-9)
+prep_to(turn-1, position-10)
+
+prep_to(walk-1, thermostat-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, thermostat-3)
+
+aux(swich-3, to-2)
+xcomp(walk-1, swich-3)
+
+dobj(pull-1, it-2)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+prt(turn-1, off-4)
+
+dobj(don-1, t-2)
+dep(don-1, put-3)
+dobj(put-3, anything-4)
+det(stove-9, the-8)
+prep_on_top_of(put-3, stove-9)
+
+dobj(find-1, dial-2)
+
+amod(clockwise-3, counter-2)
+dobj(turn-1, clockwise-3)
+
+iobj(stop-1, ion-2)
+det(section-5, the-3)
+amod(section-5, blue-4)
+dobj(stop-1, section-5)
+
+nn(dial-3, fan-2)
+dobj(find-1, dial-3)
+
+dep(turn-1, left-2)
+
+det(thermalstat-4, the-3)
+prep_to(walk-1, thermalstat-4)
+
+dobj(place-1, hand-2)
+prep_on(hand-2, dial-4)
+
+det(dial-3, the-2)
+dobj(turn-1, dial-3)
+

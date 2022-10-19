@@ -1,0 +1,671 @@
+id	score	v	d-obj	p	p-title
+00001	0.0	put	card	merchant	credit card
+00002	0.04405797255929765	put	card	cashier	credit card
+00003	0.005263022835640573	put	card	process	credit card
+00004	0.0	put	card	processing	credit card
+00005	0.0	put	card	you	credit card
+00006	0.0	put	card	amount	credit card
+00007	0.0	put	card	total	credit card
+00008	0.0	put	card	purchased goods	credit card
+00009	0.0	put	card	receipt and goods	credit card
+00010	0.03302706146692111	put	card	wallet	credit card
+00011	0.009736940829683082	put	card	my wallet	credit card
+00012	0.0	put	card	checkout	credit card
+00013	0.0	put	card	merchant copy	credit card
+00014	0.0	put	card	store copy	credit card
+00015	0.008345963784664685	put	card	reader	credit card
+00016	0.009736940829683082	put	card	cashier ring	credit card
+00017	0.01774787545495155	put	card	charge slip	credit card
+00018	0.00724779806119267	put	card	approval	credit card
+00019	0.0	put	card	electric pad	credit card
+00020	0.0	put	card	paper	credit card
+00021	0.0	put	card	store copy of receipt	credit card
+00022	0.0033109151229681767	put	card	store	credit card
+00023	0.0	put	card	reciept	credit card
+00024	0.0	put	card	clerk	credit card
+00025	0.0	put	card	items	credit card
+00026	0.00285513516730461	put	card	item	credit card
+00027	0.004546934558381893	put	card	purchase	credit card
+00028	0.0	put	card	purchases	credit card
+00029	0.009736940829683082	put	card	my receipt	credit card
+00030	0.03304347941947324	put	card	receipt	credit card
+00031	0.0	get	credit card	merchant	credit card
+00032	0.04405797255929765	get	credit card	cashier	credit card
+00033	0.005263022835640573	get	credit card	process	credit card
+00034	0.0	get	credit card	processing	credit card
+00035	0.0	get	credit card	you	credit card
+00036	0.0	get	credit card	amount	credit card
+00037	0.0	get	credit card	total	credit card
+00038	0.0	get	credit card	purchased goods	credit card
+00039	0.0	get	credit card	receipt and goods	credit card
+00040	0.03302706146692111	get	credit card	wallet	credit card
+00041	0.009736940829683082	get	credit card	my wallet	credit card
+00042	0.0	get	credit card	checkout	credit card
+00043	0.0	get	credit card	merchant copy	credit card
+00044	0.0	get	credit card	store copy	credit card
+00045	0.008345963784664685	get	credit card	reader	credit card
+00046	0.0636570838173465	get	credit card	card	credit card
+00047	0.009736940829683082	get	credit card	cashier ring	credit card
+00048	0.01774787545495155	get	credit card	charge slip	credit card
+00049	0.00724779806119267	get	credit card	approval	credit card
+00050	0.0	get	credit card	electric pad	credit card
+00051	0.0	get	credit card	paper	credit card
+00052	0.0	get	credit card	store copy of receipt	credit card
+00053	0.0033109151229681767	get	credit card	store	credit card
+00054	0.0	get	credit card	reciept	credit card
+00055	0.0	get	credit card	clerk	credit card
+00056	0.0	get	credit card	items	credit card
+00057	0.00285513516730461	get	credit card	item	credit card
+00058	0.004546934558381893	get	credit card	purchase	credit card
+00059	0.0	get	credit card	purchases	credit card
+00060	0.009736940829683082	get	credit card	my receipt	credit card
+00061	0.03304347941947324	get	credit card	receipt	credit card
+00062	0.0	hand	id	merchant	credit card
+00063	0.04405797255929765	hand	id	cashier	credit card
+00064	0.005263022835640573	hand	id	process	credit card
+00065	0.0	hand	id	processing	credit card
+00066	0.0	hand	id	you	credit card
+00067	0.0	hand	id	amount	credit card
+00068	0.0	hand	id	total	credit card
+00069	0.0	hand	id	purchased goods	credit card
+00070	0.0	hand	id	receipt and goods	credit card
+00071	0.03302706146692111	hand	id	wallet	credit card
+00072	0.009736940829683082	hand	id	my wallet	credit card
+00073	0.0	hand	id	checkout	credit card
+00074	0.0	hand	id	merchant copy	credit card
+00075	0.0	hand	id	store copy	credit card
+00076	0.008345963784664685	hand	id	reader	credit card
+00077	0.0636570838173465	hand	id	card	credit card
+00078	0.009736940829683082	hand	id	cashier ring	credit card
+00079	0.01774787545495155	hand	id	charge slip	credit card
+00080	0.00724779806119267	hand	id	approval	credit card
+00081	0.0	hand	id	electric pad	credit card
+00082	0.0	hand	id	paper	credit card
+00083	0.0	hand	id	store copy of receipt	credit card
+00084	0.0033109151229681767	hand	id	store	credit card
+00085	0.0	hand	id	reciept	credit card
+00086	0.0	hand	id	clerk	credit card
+00087	0.0	hand	id	items	credit card
+00088	0.00285513516730461	hand	id	item	credit card
+00089	0.004546934558381893	hand	id	purchase	credit card
+00090	0.0	hand	id	purchases	credit card
+00091	0.009736940829683082	hand	id	my receipt	credit card
+00092	0.03304347941947324	hand	id	receipt	credit card
+00093	0.0	enter	zip code	merchant	credit card
+00094	0.04405797255929765	enter	zip code	cashier	credit card
+00095	0.005263022835640573	enter	zip code	process	credit card
+00096	0.0	enter	zip code	processing	credit card
+00097	0.0	enter	zip code	you	credit card
+00098	0.0	enter	zip code	amount	credit card
+00099	0.0	enter	zip code	total	credit card
+00100	0.0	enter	zip code	purchased goods	credit card
+00101	0.0	enter	zip code	receipt and goods	credit card
+00102	0.03302706146692111	enter	zip code	wallet	credit card
+00103	0.009736940829683082	enter	zip code	my wallet	credit card
+00104	0.0	enter	zip code	checkout	credit card
+00105	0.0	enter	zip code	merchant copy	credit card
+00106	0.0	enter	zip code	store copy	credit card
+00107	0.008345963784664685	enter	zip code	reader	credit card
+00108	0.0636570838173465	enter	zip code	card	credit card
+00109	0.009736940829683082	enter	zip code	cashier ring	credit card
+00110	0.01774787545495155	enter	zip code	charge slip	credit card
+00111	0.00724779806119267	enter	zip code	approval	credit card
+00112	0.0	enter	zip code	electric pad	credit card
+00113	0.0	enter	zip code	paper	credit card
+00114	0.0	enter	zip code	store copy of receipt	credit card
+00115	0.0033109151229681767	enter	zip code	store	credit card
+00116	0.0	enter	zip code	reciept	credit card
+00117	0.0	enter	zip code	clerk	credit card
+00118	0.0	enter	zip code	items	credit card
+00119	0.00285513516730461	enter	zip code	item	credit card
+00120	0.004546934558381893	enter	zip code	purchase	credit card
+00121	0.0	enter	zip code	purchases	credit card
+00122	0.009736940829683082	enter	zip code	my receipt	credit card
+00123	0.03304347941947324	enter	zip code	receipt	credit card
+00124	0.0	put	receipt	merchant	credit card
+00125	0.03826080442406171	put	receipt	cashier	credit card
+00126	0.004570511889143197	put	receipt	process	credit card
+00127	0.0	put	receipt	processing	credit card
+00128	0.0	put	receipt	you	credit card
+00129	0.0	put	receipt	amount	credit card
+00130	0.0	put	receipt	total	credit card
+00131	0.0	put	receipt	purchased goods	credit card
+00132	0.0	put	receipt	receipt and goods	credit card
+00133	0.028681345647183304	put	receipt	wallet	credit card
+00134	0.008455749711854295	put	receipt	my wallet	credit card
+00135	0.0	put	receipt	checkout	credit card
+00136	0.0	put	receipt	merchant copy	credit card
+00137	0.0	put	receipt	store copy	credit card
+00138	0.0072477980611926705	put	receipt	reader	credit card
+00139	0.05528105567870971	put	receipt	card	credit card
+00140	0.008455749711854295	put	receipt	cashier ring	credit card
+00141	0.015412601903334868	put	receipt	charge slip	credit card
+00142	0.006294129484763723	put	receipt	approval	credit card
+00143	0.0	put	receipt	electric pad	credit card
+00144	0.0	put	receipt	paper	credit card
+00145	0.0	put	receipt	store copy of receipt	credit card
+00146	0.00287526340014982	put	receipt	store	credit card
+00147	0.0	put	receipt	reciept	credit card
+00148	0.0	put	receipt	clerk	credit card
+00149	0.0	put	receipt	items	credit card
+00150	0.0024794551790479355	put	receipt	item	credit card
+00151	0.00394864683419355	put	receipt	purchase	credit card
+00152	0.0	put	receipt	purchases	credit card
+00153	0.008455749711854295	put	receipt	my receipt	credit card
+00154	0.0	obtain	credit card	merchant	credit card
+00155	0.04405797255929765	obtain	credit card	cashier	credit card
+00156	0.005263022835640573	obtain	credit card	process	credit card
+00157	0.0	obtain	credit card	processing	credit card
+00158	0.0	obtain	credit card	you	credit card
+00159	0.0	obtain	credit card	amount	credit card
+00160	0.0	obtain	credit card	total	credit card
+00161	0.0	obtain	credit card	purchased goods	credit card
+00162	0.0	obtain	credit card	receipt and goods	credit card
+00163	0.03302706146692111	obtain	credit card	wallet	credit card
+00164	0.009736940829683082	obtain	credit card	my wallet	credit card
+00165	0.0	obtain	credit card	checkout	credit card
+00166	0.0	obtain	credit card	merchant copy	credit card
+00167	0.0	obtain	credit card	store copy	credit card
+00168	0.008345963784664685	obtain	credit card	reader	credit card
+00169	0.0636570838173465	obtain	credit card	card	credit card
+00170	0.009736940829683082	obtain	credit card	cashier ring	credit card
+00171	0.01774787545495155	obtain	credit card	charge slip	credit card
+00172	0.00724779806119267	obtain	credit card	approval	credit card
+00173	0.0	obtain	credit card	electric pad	credit card
+00174	0.0	obtain	credit card	paper	credit card
+00175	0.0	obtain	credit card	store copy of receipt	credit card
+00176	0.0033109151229681767	obtain	credit card	store	credit card
+00177	0.0	obtain	credit card	reciept	credit card
+00178	0.0	obtain	credit card	clerk	credit card
+00179	0.0	obtain	credit card	items	credit card
+00180	0.00285513516730461	obtain	credit card	item	credit card
+00181	0.004546934558381893	obtain	credit card	purchase	credit card
+00182	0.0	obtain	credit card	purchases	credit card
+00183	0.009736940829683082	obtain	credit card	my receipt	credit card
+00184	0.03304347941947324	obtain	credit card	receipt	credit card
+00185	0.0	hand	card	merchant	credit card
+00186	0.07652160884812342	hand	card	cashier	credit card
+00187	0.009141023778286394	hand	card	process	credit card
+00188	0.0	hand	card	processing	credit card
+00189	0.0	hand	card	you	credit card
+00190	0.0	hand	card	amount	credit card
+00191	0.0	hand	card	total	credit card
+00192	0.0	hand	card	purchased goods	credit card
+00193	0.0	hand	card	receipt and goods	credit card
+00194	0.05736269129436661	hand	card	wallet	credit card
+00195	0.01691149942370859	hand	card	my wallet	credit card
+00196	0.0	hand	card	checkout	credit card
+00197	0.0	hand	card	merchant copy	credit card
+00198	0.0	hand	card	store copy	credit card
+00199	0.014495596122385341	hand	card	reader	credit card
+00200	0.01691149942370859	hand	card	cashier ring	credit card
+00201	0.030825203806669737	hand	card	charge slip	credit card
+00202	0.012588258969527446	hand	card	approval	credit card
+00203	0.0	hand	card	electric pad	credit card
+00204	0.0	hand	card	paper	credit card
+00205	0.0	hand	card	store copy of receipt	credit card
+00206	0.00575052680029964	hand	card	store	credit card
+00207	0.0	hand	card	reciept	credit card
+00208	0.0	hand	card	clerk	credit card
+00209	0.0	hand	card	items	credit card
+00210	0.004958910358095871	hand	card	item	credit card
+00211	0.0078972936683871	hand	card	purchase	credit card
+00212	0.0	hand	card	purchases	credit card
+00213	0.01691149942370859	hand	card	my receipt	credit card
+00214	0.05739120663609257	hand	card	receipt	credit card
+00215	0.0	sign	receipt	merchant	credit card
+00216	0.11478241327218512	sign	receipt	cashier	credit card
+00217	0.01371153566742959	sign	receipt	process	credit card
+00218	0.0	sign	receipt	processing	credit card
+00219	0.0	sign	receipt	you	credit card
+00220	0.0	sign	receipt	amount	credit card
+00221	0.0	sign	receipt	total	credit card
+00222	0.0	sign	receipt	purchased goods	credit card
+00223	0.0	sign	receipt	receipt and goods	credit card
+00224	0.0860440369415499	sign	receipt	wallet	credit card
+00225	0.025367249135562882	sign	receipt	my wallet	credit card
+00226	0.0	sign	receipt	checkout	credit card
+00227	0.0	sign	receipt	merchant copy	credit card
+00228	0.0	sign	receipt	store copy	credit card
+00229	0.021743394183578006	sign	receipt	reader	credit card
+00230	0.1658431670361291	sign	receipt	card	credit card
+00231	0.025367249135562882	sign	receipt	cashier ring	credit card
+00232	0.0462378057100046	sign	receipt	charge slip	credit card
+00233	0.018882388454291167	sign	receipt	approval	credit card
+00234	0.0	sign	receipt	electric pad	credit card
+00235	0.0	sign	receipt	paper	credit card
+00236	0.0	sign	receipt	store copy of receipt	credit card
+00237	0.008625790200449459	sign	receipt	store	credit card
+00238	0.0	sign	receipt	reciept	credit card
+00239	0.0	sign	receipt	clerk	credit card
+00240	0.0	sign	receipt	items	credit card
+00241	0.007438365537143806	sign	receipt	item	credit card
+00242	0.01184594050258065	sign	receipt	purchase	credit card
+00243	0.0	sign	receipt	purchases	credit card
+00244	0.025367249135562882	sign	receipt	my receipt	credit card
+00245	0.0	put	credit card	merchant	credit card
+00246	0.032463636288825766	put	credit card	cashier	credit card
+00247	0.0038780009426458203	put	credit card	process	credit card
+00248	0.0	put	credit card	processing	credit card
+00249	0.0	put	credit card	you	credit card
+00250	0.0	put	credit card	amount	credit card
+00251	0.0	put	credit card	total	credit card
+00252	0.0	put	credit card	purchased goods	credit card
+00253	0.0	put	credit card	receipt and goods	credit card
+00254	0.0243356298274455	put	credit card	wallet	credit card
+00255	0.007174558594025507	put	credit card	my wallet	credit card
+00256	0.0	put	credit card	checkout	credit card
+00257	0.0	put	credit card	merchant copy	credit card
+00258	0.0	put	credit card	store copy	credit card
+00259	0.006149632337720655	put	credit card	reader	credit card
+00260	0.04690502754007291	put	credit card	card	credit card
+00261	0.007174558594025507	put	credit card	cashier ring	credit card
+00262	0.013077328351718188	put	credit card	charge slip	credit card
+00263	0.0053404609083347755	put	credit card	approval	credit card
+00264	0.0	put	credit card	electric pad	credit card
+00265	0.0	put	credit card	paper	credit card
+00266	0.0	put	credit card	store copy of receipt	credit card
+00267	0.002439611677331463	put	credit card	store	credit card
+00268	0.0	put	credit card	reciept	credit card
+00269	0.0	put	credit card	clerk	credit card
+00270	0.0	put	credit card	items	credit card
+00271	0.002103775190791261	put	credit card	item	credit card
+00272	0.003350359110005208	put	credit card	purchase	credit card
+00273	0.0	put	credit card	purchases	credit card
+00274	0.007174558594025507	put	credit card	my receipt	credit card
+00275	0.024347727216619323	put	credit card	receipt	credit card
+00276	0.0	give	cashier slip	merchant	credit card
+00277	0.03826080442406171	give	cashier slip	cashier	credit card
+00278	0.004570511889143197	give	cashier slip	process	credit card
+00279	0.0	give	cashier slip	processing	credit card
+00280	0.0	give	cashier slip	you	credit card
+00281	0.0	give	cashier slip	amount	credit card
+00282	0.0	give	cashier slip	total	credit card
+00283	0.0	give	cashier slip	purchased goods	credit card
+00284	0.0	give	cashier slip	receipt and goods	credit card
+00285	0.028681345647183304	give	cashier slip	wallet	credit card
+00286	0.008455749711854295	give	cashier slip	my wallet	credit card
+00287	0.0	give	cashier slip	checkout	credit card
+00288	0.0	give	cashier slip	merchant copy	credit card
+00289	0.0	give	cashier slip	store copy	credit card
+00290	0.0072477980611926705	give	cashier slip	reader	credit card
+00291	0.05528105567870971	give	cashier slip	card	credit card
+00292	0.008455749711854295	give	cashier slip	cashier ring	credit card
+00293	0.015412601903334868	give	cashier slip	charge slip	credit card
+00294	0.006294129484763723	give	cashier slip	approval	credit card
+00295	0.0	give	cashier slip	electric pad	credit card
+00296	0.0	give	cashier slip	paper	credit card
+00297	0.0	give	cashier slip	store copy of receipt	credit card
+00298	0.00287526340014982	give	cashier slip	store	credit card
+00299	0.0	give	cashier slip	reciept	credit card
+00300	0.0	give	cashier slip	clerk	credit card
+00301	0.0	give	cashier slip	items	credit card
+00302	0.0024794551790479355	give	cashier slip	item	credit card
+00303	0.00394864683419355	give	cashier slip	purchase	credit card
+00304	0.0	give	cashier slip	purchases	credit card
+00305	0.008455749711854295	give	cashier slip	my receipt	credit card
+00306	0.028695603318046284	give	cashier slip	receipt	credit card
+00307	0.0	slide	card	merchant	credit card
+00308	0.04405797255929765	slide	card	cashier	credit card
+00309	0.005263022835640573	slide	card	process	credit card
+00310	0.0	slide	card	processing	credit card
+00311	0.0	slide	card	you	credit card
+00312	0.0	slide	card	amount	credit card
+00313	0.0	slide	card	total	credit card
+00314	0.0	slide	card	purchased goods	credit card
+00315	0.0	slide	card	receipt and goods	credit card
+00316	0.03302706146692111	slide	card	wallet	credit card
+00317	0.009736940829683082	slide	card	my wallet	credit card
+00318	0.0	slide	card	checkout	credit card
+00319	0.0	slide	card	merchant copy	credit card
+00320	0.0	slide	card	store copy	credit card
+00321	0.008345963784664685	slide	card	reader	credit card
+00322	0.009736940829683082	slide	card	cashier ring	credit card
+00323	0.01774787545495155	slide	card	charge slip	credit card
+00324	0.00724779806119267	slide	card	approval	credit card
+00325	0.0	slide	card	electric pad	credit card
+00326	0.0	slide	card	paper	credit card
+00327	0.0	slide	card	store copy of receipt	credit card
+00328	0.0033109151229681767	slide	card	store	credit card
+00329	0.0	slide	card	reciept	credit card
+00330	0.0	slide	card	clerk	credit card
+00331	0.0	slide	card	items	credit card
+00332	0.00285513516730461	slide	card	item	credit card
+00333	0.004546934558381893	slide	card	purchase	credit card
+00334	0.0	slide	card	purchases	credit card
+00335	0.009736940829683082	slide	card	my receipt	credit card
+00336	0.03304347941947324	slide	card	receipt	credit card
+00337	0.0	take	credit card	merchant	credit card
+00338	0.03826080442406171	take	credit card	cashier	credit card
+00339	0.004570511889143197	take	credit card	process	credit card
+00340	0.0	take	credit card	processing	credit card
+00341	0.0	take	credit card	you	credit card
+00342	0.0	take	credit card	amount	credit card
+00343	0.0	take	credit card	total	credit card
+00344	0.0	take	credit card	purchased goods	credit card
+00345	0.0	take	credit card	receipt and goods	credit card
+00346	0.028681345647183304	take	credit card	wallet	credit card
+00347	0.008455749711854295	take	credit card	my wallet	credit card
+00348	0.0	take	credit card	checkout	credit card
+00349	0.0	take	credit card	merchant copy	credit card
+00350	0.0	take	credit card	store copy	credit card
+00351	0.0072477980611926705	take	credit card	reader	credit card
+00352	0.05528105567870971	take	credit card	card	credit card
+00353	0.008455749711854295	take	credit card	cashier ring	credit card
+00354	0.015412601903334868	take	credit card	charge slip	credit card
+00355	0.006294129484763723	take	credit card	approval	credit card
+00356	0.0	take	credit card	electric pad	credit card
+00357	0.0	take	credit card	paper	credit card
+00358	0.0	take	credit card	store copy of receipt	credit card
+00359	0.00287526340014982	take	credit card	store	credit card
+00360	0.0	take	credit card	reciept	credit card
+00361	0.0	take	credit card	clerk	credit card
+00362	0.0	take	credit card	items	credit card
+00363	0.0024794551790479355	take	credit card	item	credit card
+00364	0.00394864683419355	take	credit card	purchase	credit card
+00365	0.0	take	credit card	purchases	credit card
+00366	0.008455749711854295	take	credit card	my receipt	credit card
+00367	0.028695603318046284	take	credit card	receipt	credit card
+00368	0.0	sign	charge slip	merchant	credit card
+00369	0.03826080442406171	sign	charge slip	cashier	credit card
+00370	0.004570511889143197	sign	charge slip	process	credit card
+00371	0.0	sign	charge slip	processing	credit card
+00372	0.0	sign	charge slip	you	credit card
+00373	0.0	sign	charge slip	amount	credit card
+00374	0.0	sign	charge slip	total	credit card
+00375	0.0	sign	charge slip	purchased goods	credit card
+00376	0.0	sign	charge slip	receipt and goods	credit card
+00377	0.028681345647183304	sign	charge slip	wallet	credit card
+00378	0.008455749711854295	sign	charge slip	my wallet	credit card
+00379	0.0	sign	charge slip	checkout	credit card
+00380	0.0	sign	charge slip	merchant copy	credit card
+00381	0.0	sign	charge slip	store copy	credit card
+00382	0.0072477980611926705	sign	charge slip	reader	credit card
+00383	0.05528105567870971	sign	charge slip	card	credit card
+00384	0.008455749711854295	sign	charge slip	cashier ring	credit card
+00385	0.006294129484763723	sign	charge slip	approval	credit card
+00386	0.0	sign	charge slip	electric pad	credit card
+00387	0.0	sign	charge slip	paper	credit card
+00388	0.0	sign	charge slip	store copy of receipt	credit card
+00389	0.00287526340014982	sign	charge slip	store	credit card
+00390	0.0	sign	charge slip	reciept	credit card
+00391	0.0	sign	charge slip	clerk	credit card
+00392	0.0	sign	charge slip	items	credit card
+00393	0.0024794551790479355	sign	charge slip	item	credit card
+00394	0.00394864683419355	sign	charge slip	purchase	credit card
+00395	0.0	sign	charge slip	purchases	credit card
+00396	0.008455749711854295	sign	charge slip	my receipt	credit card
+00397	0.028695603318046284	sign	charge slip	receipt	credit card
+00398	0.0	hand	credit card	merchant	credit card
+00399	0.03826080442406171	hand	credit card	cashier	credit card
+00400	0.004570511889143197	hand	credit card	process	credit card
+00401	0.0	hand	credit card	processing	credit card
+00402	0.0	hand	credit card	you	credit card
+00403	0.0	hand	credit card	amount	credit card
+00404	0.0	hand	credit card	total	credit card
+00405	0.0	hand	credit card	purchased goods	credit card
+00406	0.0	hand	credit card	receipt and goods	credit card
+00407	0.028681345647183304	hand	credit card	wallet	credit card
+00408	0.008455749711854295	hand	credit card	my wallet	credit card
+00409	0.0	hand	credit card	checkout	credit card
+00410	0.0	hand	credit card	merchant copy	credit card
+00411	0.0	hand	credit card	store copy	credit card
+00412	0.0072477980611926705	hand	credit card	reader	credit card
+00413	0.05528105567870971	hand	credit card	card	credit card
+00414	0.008455749711854295	hand	credit card	cashier ring	credit card
+00415	0.015412601903334868	hand	credit card	charge slip	credit card
+00416	0.006294129484763723	hand	credit card	approval	credit card
+00417	0.0	hand	credit card	electric pad	credit card
+00418	0.0	hand	credit card	paper	credit card
+00419	0.0	hand	credit card	store copy of receipt	credit card
+00420	0.00287526340014982	hand	credit card	store	credit card
+00421	0.0	hand	credit card	reciept	credit card
+00422	0.0	hand	credit card	clerk	credit card
+00423	0.0	hand	credit card	items	credit card
+00424	0.0024794551790479355	hand	credit card	item	credit card
+00425	0.00394864683419355	hand	credit card	purchase	credit card
+00426	0.0	hand	credit card	purchases	credit card
+00427	0.008455749711854295	hand	credit card	my receipt	credit card
+00428	0.028695603318046284	hand	credit card	receipt	credit card
+00429	0.0	get	receipt	merchant	credit card
+00430	0.03486967845457309	get	receipt	cashier	credit card
+00431	0.004165418954103317	get	receipt	process	credit card
+00432	0.0	get	receipt	processing	credit card
+00433	0.0	get	receipt	you	credit card
+00434	0.0	get	receipt	amount	credit card
+00435	0.0	get	receipt	total	credit card
+00436	0.0	get	receipt	purchased goods	credit card
+00437	0.0	get	receipt	receipt and goods	credit card
+00438	0.026139264853845986	get	receipt	wallet	credit card
+00439	0.007706300951667433	get	receipt	my wallet	credit card
+00440	0.0	get	receipt	checkout	credit card
+00441	0.0	get	receipt	merchant copy	credit card
+00442	0.0	get	receipt	store copy	credit card
+00443	0.006605412293384222	get	receipt	reader	credit card
+00444	0.05038139331262196	get	receipt	card	credit card
+00445	0.007706300951667433	get	receipt	cashier ring	credit card
+00446	0.014046554446713199	get	receipt	charge slip	credit card
+00447	0.005736269129436661	get	receipt	approval	credit card
+00448	0.0	get	receipt	electric pad	credit card
+00449	0.0	get	receipt	paper	credit card
+00450	0.0	get	receipt	store copy of receipt	credit card
+00451	0.0026204234789265137	get	receipt	store	credit card
+00452	0.0	get	receipt	reciept	credit card
+00453	0.0	get	receipt	clerk	credit card
+00454	0.0	get	receipt	items	credit card
+00455	0.0022596964736464166	get	receipt	item	credit card
+00456	0.0035986709509015684	get	receipt	purchase	credit card
+00457	0.0	get	receipt	purchases	credit card
+00458	0.007706300951667433	get	receipt	my receipt	credit card
+00459	0.0	get	id	merchant	credit card
+00460	0.04405797255929765	get	id	cashier	credit card
+00461	0.005263022835640573	get	id	process	credit card
+00462	0.0	get	id	processing	credit card
+00463	0.0	get	id	you	credit card
+00464	0.0	get	id	amount	credit card
+00465	0.0	get	id	total	credit card
+00466	0.0	get	id	purchased goods	credit card
+00467	0.0	get	id	receipt and goods	credit card
+00468	0.03302706146692111	get	id	wallet	credit card
+00469	0.009736940829683082	get	id	my wallet	credit card
+00470	0.0	get	id	checkout	credit card
+00471	0.0	get	id	merchant copy	credit card
+00472	0.0	get	id	store copy	credit card
+00473	0.008345963784664685	get	id	reader	credit card
+00474	0.0636570838173465	get	id	card	credit card
+00475	0.009736940829683082	get	id	cashier ring	credit card
+00476	0.01774787545495155	get	id	charge slip	credit card
+00477	0.00724779806119267	get	id	approval	credit card
+00478	0.0	get	id	electric pad	credit card
+00479	0.0	get	id	paper	credit card
+00480	0.0	get	id	store copy of receipt	credit card
+00481	0.0033109151229681767	get	id	store	credit card
+00482	0.0	get	id	reciept	credit card
+00483	0.0	get	id	clerk	credit card
+00484	0.0	get	id	items	credit card
+00485	0.00285513516730461	get	id	item	credit card
+00486	0.004546934558381893	get	id	purchase	credit card
+00487	0.0	get	id	purchases	credit card
+00488	0.009736940829683082	get	id	my receipt	credit card
+00489	0.03304347941947324	get	id	receipt	credit card
+00490	0.0	find	wallet	merchant	credit card
+00491	0.04405797255929765	find	wallet	cashier	credit card
+00492	0.005263022835640573	find	wallet	process	credit card
+00493	0.0	find	wallet	processing	credit card
+00494	0.0	find	wallet	you	credit card
+00495	0.0	find	wallet	amount	credit card
+00496	0.0	find	wallet	total	credit card
+00497	0.0	find	wallet	purchased goods	credit card
+00498	0.0	find	wallet	receipt and goods	credit card
+00499	0.009736940829683082	find	wallet	my wallet	credit card
+00500	0.0	find	wallet	checkout	credit card
+00501	0.0	find	wallet	merchant copy	credit card
+00502	0.0	find	wallet	store copy	credit card
+00503	0.008345963784664685	find	wallet	reader	credit card
+00504	0.0636570838173465	find	wallet	card	credit card
+00505	0.009736940829683082	find	wallet	cashier ring	credit card
+00506	0.01774787545495155	find	wallet	charge slip	credit card
+00507	0.00724779806119267	find	wallet	approval	credit card
+00508	0.0	find	wallet	electric pad	credit card
+00509	0.0	find	wallet	paper	credit card
+00510	0.0	find	wallet	store copy of receipt	credit card
+00511	0.0033109151229681767	find	wallet	store	credit card
+00512	0.0	find	wallet	reciept	credit card
+00513	0.0	find	wallet	clerk	credit card
+00514	0.0	find	wallet	items	credit card
+00515	0.00285513516730461	find	wallet	item	credit card
+00516	0.004546934558381893	find	wallet	purchase	credit card
+00517	0.0	find	wallet	purchases	credit card
+00518	0.009736940829683082	find	wallet	my receipt	credit card
+00519	0.03304347941947324	find	wallet	receipt	credit card
+00520	0.0	sign	name	merchant	credit card
+00521	0.03826080442406171	sign	name	cashier	credit card
+00522	0.004570511889143197	sign	name	process	credit card
+00523	0.0	sign	name	processing	credit card
+00524	0.0	sign	name	you	credit card
+00525	0.0	sign	name	amount	credit card
+00526	0.0	sign	name	total	credit card
+00527	0.0	sign	name	purchased goods	credit card
+00528	0.0	sign	name	receipt and goods	credit card
+00529	0.028681345647183304	sign	name	wallet	credit card
+00530	0.008455749711854295	sign	name	my wallet	credit card
+00531	0.0	sign	name	checkout	credit card
+00532	0.0	sign	name	merchant copy	credit card
+00533	0.0	sign	name	store copy	credit card
+00534	0.0072477980611926705	sign	name	reader	credit card
+00535	0.05528105567870971	sign	name	card	credit card
+00536	0.008455749711854295	sign	name	cashier ring	credit card
+00537	0.015412601903334868	sign	name	charge slip	credit card
+00538	0.006294129484763723	sign	name	approval	credit card
+00539	0.0	sign	name	electric pad	credit card
+00540	0.0	sign	name	paper	credit card
+00541	0.0	sign	name	store copy of receipt	credit card
+00542	0.00287526340014982	sign	name	store	credit card
+00543	0.0	sign	name	reciept	credit card
+00544	0.0	sign	name	clerk	credit card
+00545	0.0	sign	name	items	credit card
+00546	0.0024794551790479355	sign	name	item	credit card
+00547	0.00394864683419355	sign	name	purchase	credit card
+00548	0.0	sign	name	purchases	credit card
+00549	0.008455749711854295	sign	name	my receipt	credit card
+00550	0.028695603318046284	sign	name	receipt	credit card
+00551	0.0	take	charge slip	merchant	credit card
+00552	0.03486967845457309	take	charge slip	cashier	credit card
+00553	0.004165418954103317	take	charge slip	process	credit card
+00554	0.0	take	charge slip	processing	credit card
+00555	0.0	take	charge slip	you	credit card
+00556	0.0	take	charge slip	amount	credit card
+00557	0.0	take	charge slip	total	credit card
+00558	0.0	take	charge slip	purchased goods	credit card
+00559	0.0	take	charge slip	receipt and goods	credit card
+00560	0.026139264853845986	take	charge slip	wallet	credit card
+00561	0.007706300951667433	take	charge slip	my wallet	credit card
+00562	0.0	take	charge slip	checkout	credit card
+00563	0.0	take	charge slip	merchant copy	credit card
+00564	0.0	take	charge slip	store copy	credit card
+00565	0.006605412293384222	take	charge slip	reader	credit card
+00566	0.05038139331262196	take	charge slip	card	credit card
+00567	0.007706300951667433	take	charge slip	cashier ring	credit card
+00568	0.005736269129436661	take	charge slip	approval	credit card
+00569	0.0	take	charge slip	electric pad	credit card
+00570	0.0	take	charge slip	paper	credit card
+00571	0.0	take	charge slip	store copy of receipt	credit card
+00572	0.0026204234789265137	take	charge slip	store	credit card
+00573	0.0	take	charge slip	reciept	credit card
+00574	0.0	take	charge slip	clerk	credit card
+00575	0.0	take	charge slip	items	credit card
+00576	0.0022596964736464166	take	charge slip	item	credit card
+00577	0.0035986709509015684	take	charge slip	purchase	credit card
+00578	0.0	take	charge slip	purchases	credit card
+00579	0.007706300951667433	take	charge slip	my receipt	credit card
+00580	0.026152258840929817	take	charge slip	receipt	credit card
+00581	0.0	get	card	merchant	credit card
+00582	0.04405797255929765	get	card	cashier	credit card
+00583	0.005263022835640573	get	card	process	credit card
+00584	0.0	get	card	processing	credit card
+00585	0.0	get	card	you	credit card
+00586	0.0	get	card	amount	credit card
+00587	0.0	get	card	total	credit card
+00588	0.0	get	card	purchased goods	credit card
+00589	0.0	get	card	receipt and goods	credit card
+00590	0.03302706146692111	get	card	wallet	credit card
+00591	0.009736940829683082	get	card	my wallet	credit card
+00592	0.0	get	card	checkout	credit card
+00593	0.0	get	card	merchant copy	credit card
+00594	0.0	get	card	store copy	credit card
+00595	0.008345963784664685	get	card	reader	credit card
+00596	0.009736940829683082	get	card	cashier ring	credit card
+00597	0.01774787545495155	get	card	charge slip	credit card
+00598	0.00724779806119267	get	card	approval	credit card
+00599	0.0	get	card	electric pad	credit card
+00600	0.0	get	card	paper	credit card
+00601	0.0	get	card	store copy of receipt	credit card
+00602	0.0033109151229681767	get	card	store	credit card
+00603	0.0	get	card	reciept	credit card
+00604	0.0	get	card	clerk	credit card
+00605	0.0	get	card	items	credit card
+00606	0.00285513516730461	get	card	item	credit card
+00607	0.004546934558381893	get	card	purchase	credit card
+00608	0.0	get	card	purchases	credit card
+00609	0.009736940829683082	get	card	my receipt	credit card
+00610	0.03304347941947324	get	card	receipt	credit card
+00611	0.0	take	receipt	merchant	credit card
+00612	0.03486967845457309	take	receipt	cashier	credit card
+00613	0.004165418954103317	take	receipt	process	credit card
+00614	0.0	take	receipt	processing	credit card
+00615	0.0	take	receipt	you	credit card
+00616	0.0	take	receipt	amount	credit card
+00617	0.0	take	receipt	total	credit card
+00618	0.0	take	receipt	purchased goods	credit card
+00619	0.0	take	receipt	receipt and goods	credit card
+00620	0.026139264853845986	take	receipt	wallet	credit card
+00621	0.007706300951667433	take	receipt	my wallet	credit card
+00622	0.0	take	receipt	checkout	credit card
+00623	0.0	take	receipt	merchant copy	credit card
+00624	0.0	take	receipt	store copy	credit card
+00625	0.006605412293384222	take	receipt	reader	credit card
+00626	0.05038139331262196	take	receipt	card	credit card
+00627	0.007706300951667433	take	receipt	cashier ring	credit card
+00628	0.014046554446713199	take	receipt	charge slip	credit card
+00629	0.005736269129436661	take	receipt	approval	credit card
+00630	0.0	take	receipt	electric pad	credit card
+00631	0.0	take	receipt	paper	credit card
+00632	0.0	take	receipt	store copy of receipt	credit card
+00633	0.0026204234789265137	take	receipt	store	credit card
+00634	0.0	take	receipt	reciept	credit card
+00635	0.0	take	receipt	clerk	credit card
+00636	0.0	take	receipt	items	credit card
+00637	0.0022596964736464166	take	receipt	item	credit card
+00638	0.0035986709509015684	take	receipt	purchase	credit card
+00639	0.0	take	receipt	purchases	credit card
+00640	0.007706300951667433	take	receipt	my receipt	credit card
+00641	0.0	have	cashier ring	merchant	credit card
+00642	0.04405797255929765	have	cashier ring	cashier	credit card
+00643	0.005263022835640573	have	cashier ring	process	credit card
+00644	0.0	have	cashier ring	processing	credit card
+00645	0.0	have	cashier ring	you	credit card
+00646	0.0	have	cashier ring	amount	credit card
+00647	0.0	have	cashier ring	total	credit card
+00648	0.0	have	cashier ring	purchased goods	credit card
+00649	0.0	have	cashier ring	receipt and goods	credit card
+00650	0.03302706146692111	have	cashier ring	wallet	credit card
+00651	0.009736940829683082	have	cashier ring	my wallet	credit card
+00652	0.0	have	cashier ring	checkout	credit card
+00653	0.0	have	cashier ring	merchant copy	credit card
+00654	0.0	have	cashier ring	store copy	credit card
+00655	0.008345963784664685	have	cashier ring	reader	credit card
+00656	0.0636570838173465	have	cashier ring	card	credit card
+00657	0.01774787545495155	have	cashier ring	charge slip	credit card
+00658	0.00724779806119267	have	cashier ring	approval	credit card
+00659	0.0	have	cashier ring	electric pad	credit card
+00660	0.0	have	cashier ring	paper	credit card
+00661	0.0	have	cashier ring	store copy of receipt	credit card
+00662	0.0033109151229681767	have	cashier ring	store	credit card
+00663	0.0	have	cashier ring	reciept	credit card
+00664	0.0	have	cashier ring	clerk	credit card
+00665	0.0	have	cashier ring	items	credit card
+00666	0.00285513516730461	have	cashier ring	item	credit card
+00667	0.004546934558381893	have	cashier ring	purchase	credit card
+00668	0.0	have	cashier ring	purchases	credit card
+00669	0.009736940829683082	have	cashier ring	my receipt	credit card
+00670	0.03304347941947324	have	cashier ring	receipt	credit card

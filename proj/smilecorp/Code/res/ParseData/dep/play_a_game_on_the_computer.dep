@@ -1,0 +1,559 @@
+det(computer-4, the-3)
+prep_on(turn-1, computer-4)
+
+det(application-5, a-2)
+nn(application-5, game-3)
+nn(application-5, software-4)
+dobj(find-1, application-5)
+det(computer-8, the-7)
+prep_on(find-1, computer-8)
+
+det(application-5, the-2)
+nn(application-5, game-3)
+nn(application-5, software-4)
+dobj(start-1, application-5)
+
+nn(cd-3, game-2)
+dobj(remove-1, cd-3)
+prep(remove-1, from-4)
+nsubj(case-7, it-5)
+cop(case-7, s-6)
+dep(from-4, case-7)
+
+csubj(drive-10, insert-1)
+det(cd-3, the-2)
+dobj(insert-1, cd-3)
+det(computer-6, the-5)
+prep_into(insert-1, computer-6)
+cop(drive-10, s-7)
+amod(drive-10, cd-8)
+nn(drive-10, rom-9)
+
+nsubj(labeled-5, click-1)
+det(icon-4, the-3)
+prep_on(click-1, icon-4)
+advmod(labeled-5, as-6)
+dep(labeled-5, play-7)
+dobj(play-7, game-8)
+
+det(software-5, the-3)
+nn(software-5, game-4)
+prep_with(interact-1, software-5)
+
+det(computer-4, the-3)
+prep_on(turn-1, computer-4)
+
+det(file-4, the-2)
+nn(file-4, execution-3)
+dobj(run-1, file-4)
+det(game-7, the-6)
+prep_of(file-4, game-7)
+
+det(game-3, the-2)
+dobj(start-1, game-3)
+
+det(game-3, the-2)
+dobj(play-1, game-3)
+
+det(game-3, a-2)
+dobj(select-1, game-3)
+
+det(game-3, the-2)
+dobj(install-1, game-3)
+
+dobj(familiarize-1, yourself-2)
+det(rules-5, the-4)
+prep_with(familiarize-1, rules-5)
+
+det(game-3, the-2)
+dobj(start-1, game-3)
+
+prep_on(turn-1, computer-3)
+
+dobj(start-1, game-2)
+
+amod(mouse-3, using-1)
+dep(mouse-3, keyboard-2)
+nsubj(interact-6, mouse-3)
+conj_or(mouse-3, joystick-5)
+nsubj(interact-6, joystick-5)
+prep_with(interact-6, computer-8)
+
+aux(achieve-3, to-2)
+xcomp(try-1, achieve-3)
+det(goal-5, the-4)
+dobj(achieve-3, goal-5)
+partmod(goal-5, set-6)
+det(game-9, the-8)
+agent(set-6, game-9)
+
+dobj(start-1, computer-2)
+
+dobj(start-1, game-2)
+
+nn(strategy-3, game-2)
+dobj(follow-1, strategy-3)
+prep_by(follow-1, interacting-5)
+prep_with(follow-1, computer-7)
+
+nn(program-3, game-2)
+dobj(start-1, program-3)
+
+dobj(read-1, rules-2)
+
+dobj(start-1, game-2)
+
+nn(moves-3, game-2)
+dobj(do-1, moves-3)
+
+dobj(end-1, game-2)
+
+dobj(start-1, computer-2)
+
+nn(program-3, game-2)
+dobj(run-1, program-3)
+
+amod(keyboard-2, using-1)
+nsubj(interact-5, keyboard-2)
+conj_or(keyboard-2, joystick-4)
+nsubj(interact-5, joystick-4)
+prep_with(interact-5, computer-7)
+
+det(computer-4, the-3)
+prep_on(turn-1, computer-4)
+
+poss(game-3, your-2)
+dobj(locate-1, game-3)
+
+det(game-3, the-2)
+dobj(open-1, game-3)
+
+det(game-3, the-2)
+dobj(play-1, game-3)
+
+nn(disc-3, game-2)
+dobj(put-1, disc-3)
+nn(drive-7, computer-5)
+nn(drive-7, cd-6)
+prep_in(put-1, drive-7)
+
+det(game-3, the-2)
+dobj(load-1, game-3)
+
+det(manual-3, the-2)
+dobj(read-1, manual-3)
+
+det(game-3, the-2)
+dobj(install-1, game-3)
+
+aux(play-3, to-2)
+xcomp(start-1, play-3)
+
+det(game-3, a-2)
+dobj(choose-1, game-3)
+aux(play-5, to-4)
+infmod(game-3, play-5)
+det(computer-8, the-7)
+prep_on(play-5, computer-8)
+
+det(game-3, the-2)
+nsubj(activate-1, game-3)
+prepc_by(activate-1, clicking-5)
+poss(icon-8, its-7)
+prep_on(clicking-5, icon-8)
+det(desktop-11, the-10)
+prep_on(clicking-5, desktop-11)
+det(mouse-14, the-13)
+prep_with(clicking-5, mouse-14)
+
+det(instructions-4, the-2)
+nn(instructions-4, game-3)
+dobj(follow-1, instructions-4)
+nsubj(came-6, instructions-4)
+rcmod(instructions-4, came-6)
+det(game-9, the-8)
+prep_with(came-6, game-9)
+
+aux(play-3, to-2)
+xcomp(begin-1, play-3)
+det(game-5, the-4)
+dobj(play-3, game-5)
+
+det(computer-4, the-3)
+prep_on(switch-1, computer-4)
+
+prt(load-1, up-2)
+det(game-4, the-3)
+dobj(load-1, game-4)
+
+det(game-3, the-2)
+dobj(play-1, game-3)
+
+det(computer-4, the-3)
+prep_on(turn-1, computer-4)
+
+csubj(desktop-11, find-1)
+det(icon-3, the-2)
+dobj(find-1, icon-3)
+det(game-6, a-5)
+prep_for(icon-3, game-6)
+det(computer-9, the-8)
+prep_on(find-1, computer-9)
+cop(desktop-11, s-10)
+
+det(icon-3, the-2)
+nsubj(start-5, icon-3)
+aux(start-5, to-4)
+xcomp(click-1, start-5)
+det(game-7, the-6)
+dobj(start-5, game-7)
+
+dobj(press-1, buttons-2)
+det(keyboard-5, the-4)
+prep_on(press-1, keyboard-5)
+conj_or(press-1, use-7)
+det(mouse-9, the-8)
+dobj(use-7, mouse-9)
+aux(control-11, to-10)
+xcomp(use-7, control-11)
+det(game-13, the-12)
+dobj(control-11, game-13)
+
+aux(see-3, to-2)
+xcomp(check-1, see-3)
+mark(attached-9, if-4)
+nn(mouse-7, joystick-5)
+nn(mouse-7, keyboard-6)
+nsubjpass(attached-9, mouse-7)
+auxpass(attached-9, are-8)
+advcl(see-3, attached-9)
+
+prep_on(turn-1, computer-3)
+
+prep_to(go-1, menu\/icon-3)
+
+dobj(select-1, game-2)
+
+prep_for(wait-1, it-3)
+prep_to(wait-1, load-5)
+
+mark(wants-4, if-2)
+nsubj(wants-4, one-3)
+xsubj(play-6, one-3)
+advcl(determine-1, wants-4)
+aux(play-6, to-5)
+xcomp(wants-4, play-6)
+det(game-11, an-7)
+amod(game-11, old-8)
+conj_or(old-8, new-10)
+amod(game-11, new-10)
+dobj(play-6, game-11)
+
+
+dobj(turn-1, computer-2)
+prt(turn-1, on-3)
+
+dobj(locate-1, game-2)
+prep_on(locate-1, computer-4)
+
+dobj(load-1, game-2)
+
+dobj(play-1, game-2)
+advmod(loaded-4, when-3)
+dep(play-1, loaded-4)
+
+dobj(use-1, joystick-2)
+det(arrows-5, the-4)
+dobj(use-1, arrows-5)
+conj_or(joystick-2, arrows-5)
+prep_in(use-1, keyboard-7)
+
+det(joy-4, the-3)
+prep_for(look-1, joy-4)
+ccomp(look-1, stick-5)
+
+det(game-3, a-2)
+dobj(choose-1, game-3)
+
+det(game-3, the-2)
+dobj(play-1, game-3)
+
+dobj(use-1, joystick-2)
+aux(play-4, to-3)
+xcomp(use-1, play-4)
+det(game-6, the-5)
+dobj(play-4, game-6)
+
+dobj(locate-1, game-2)
+prep_on(locate-1, computer-4)
+
+dobj(launch-1, game-2)
+
+dobj(use-1, keyboard-2)
+dobj(use-1, mouse-4)
+conj_and(keyboard-2, mouse-4)
+
+det(game-3, the-2)
+dobj(locate-1, game-3)
+
+det(game-3, the-2)
+dobj(launch-1, game-3)
+
+det(game-3, the-2)
+dobj(play-1, game-3)
+
+det(game-3, the-2)
+dobj(quit-1, game-3)
+
+dobj(buy-1, game-2)
+
+dobj(install-1, game-2)
+prep_on(install-1, computer-4)
+
+dobj(read-1, instructions-2)
+
+dobj(load-1, game-2)
+
+dobj(start-1, game-2)
+
+dobj(play-1, game-2)
+
+dobj(enjoy-1, game-2)
+
+dobj(turn-1, computer-2)
+prt(turn-1, on-3)
+
+dobj(insert-1, disk-2)
+
+dobj(open-1, game-2)
+
+
+det(computer-4, the-3)
+prep_on(turning-1, computer-4)
+
+det(game-3, the-2)
+dobj(loading-1, game-3)
+
+det(instructions-3, the-2)
+dobj(reading-1, instructions-3)
+
+dobj(begin-1, playing-2)
+
+det(computer-4, the-3)
+prep_on(turn-1, computer-4)
+
+poss(password-3, your-2)
+dobj(enter-1, password-3)
+
+det(game-3, the-2)
+dobj(locate-1, game-3)
+
+det(game-3, the-2)
+dobj(open-1, game-3)
+
+det(game-4, the-3)
+prep_to(login-1, game-4)
+
+det(game-3, the-2)
+dobj(play-1, game-3)
+
+prt(boot-1, up-2)
+dobj(boot-1, game-3)
+
+prt(log-1, in-2)
+
+nn(controls-4, computer-2)
+nn(controls-4, keyboard-3)
+dobj(use-1, controls-4)
+
+det(computer-4, the-3)
+prep_on(turn-1, computer-4)
+
+det(game-4, a-2)
+amod(game-4, good-3)
+dobj(choose-1, game-4)
+
+det(rules-3, the-2)
+dobj(read-1, rules-3)
+
+det(rules-3, the-2)
+dobj(follow-1, rules-3)
+
+aux(get-3, to-2)
+xcomp(try-1, get-3)
+det(score-6, the-4)
+amod(score-6, best-5)
+dobj(get-3, score-6)
+amod(score-6, possible-7)
+
+det(cd\/dvd-3, the-2)
+dobj(insert-1, cd\/dvd-3)
+det(drive-8, the-5)
+amod(drive-8, dvd\/cd-6)
+nn(drive-8, rom-7)
+prep_in(insert-1, drive-8)
+
+det(icon-4, the-2)
+nn(icon-4, shortcut-3)
+dep(click-1, icon-4)
+det(game-7, the-6)
+prep_for(icon-4, game-7)
+
+det(game-4, the-3)
+prep_for(wait-1, game-4)
+aux(loaded-7, to-5)
+auxpass(loaded-7, be-6)
+xcomp(wait-1, loaded-7)
+
+nsubj(start-3, click-1)
+dep(start-3, the-2)
+dobj(start-3, button-4)
+
+det(monitor-4, the-3)
+prep_on(switch-1, monitor-4)
+
+prep_on(switch-1, tower-3)
+
+dobj(insert-1, disk-2)
+
+prep_for(wait-1, it-3)
+prep_to(wait-1, load-5)
+
+conj_and(read-1, follow-3)
+dobj(follow-3, instructions-4)
+prep_on(follow-3, screen-6)
+
+advmod(play-1, accordingly-2)
+
+dobj(double-1, click-2)
+prep_on(double-1, game-4)
+
+dobj(follow-1, instructions-2)
+prep_on(follow-1, screen-4)
+
+nsubj(start-2, press-1)
+
+det(cd-4, a-3)
+prep_in(put-1, cd-4)
+
+det(game-3, the-2)
+dobj(start-1, game-3)
+
+dobj(play-1, it-2)
+
+prep_to(go-1, folder-3)
+dep(folder-3, x-4)
+
+dobj(open-1, folder-2)
+
+dobj(select-1, execautable-2)
+
+dobj(execute-1, it-2)
+
+det(rules-3, the-2)
+dobj(learn-1, rules-3)
+det(game-6, the-5)
+prep_of(rules-3, game-6)
+
+det(controls-3, the-2)
+dobj(learn-1, controls-3)
+det(game-6, the-5)
+prep_of(controls-3, game-6)
+
+det(game-3, the-2)
+dobj(start-1, game-3)
+
+det(game-3, the-2)
+dobj(play-1, game-3)
+
+det(game-3, the-2)
+dobj(restart-1, game-3)
+advmod(s-6, when-4)
+rel(s-6, when-4)
+nsubj(s-6, it-5)
+dep(game-3, s-6)
+prt(s-6, over-7)
+
+cc(shut-2, or-1)
+dobj(shut-2, it-3)
+prt(shut-2, off-4)
+
+prep_on(switch-1, pc-3)
+
+det(pc-4, the-3)
+prep_into(log-1, pc-4)
+
+dobj(start-1, game-2)
+
+dobj(play-1, game-2)
+
+nsubj(switch-2, afterwards-1)
+dep(switch-2, pc-3)
+prt(pc-3, off-4)
+
+prep_on(turn-1, computer-3)
+
+nn(program-3, game-2)
+dobj(launch-1, program-3)
+
+prep_on(turn-1, computer-3)
+
+nn(program-3, game-2)
+dobj(load-1, program-3)
+
+dobj(follow-1, instructions-2)
+
+prep_toward(walk-1, computer-3)
+
+prep_on(turn-1, computer-3)
+
+nsubj(internet-2, click-1)
+
+det(game-3, a-2)
+dobj(play-1, game-3)
+det(computer-6, the-5)
+prep_on(play-1, computer-6)
+
+
+prep_on(turn-1, computer-3)
+
+prep_on(turn-1, internet-3)
+
+prep_to(go-1, google-3)
+
+det(game-3, a-2)
+dobj(find-1, game-3)
+
+prep_to(go-1, website-3)
+
+dobj(start-1, game-2)
+
+dobj(play-1, game-2)
+
+dobj(find-1, instructions-2)
+
+dobj(read-1, instructions-2)
+
+dobj(follow-1, instructions-2)
+
+prep_on(turn-1, pc-3)
+
+prep_on(click-1, game-3)
+
+prep_for(wait-1, it-3)
+prep_to(wait-1, load-5)
+
+dobj(play-1, game-2)
+
+prep_on(turn-1, computer-3)
+
+prep_on(turn-1, monitor-3)
+
+dobj(insert-1, disc-2)
+
+xcomp(launch-1, start-2)
+dobj(start-2, menu-3)
+
+prt(log-1, in-2)
+
+

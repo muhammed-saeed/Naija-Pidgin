@@ -1,0 +1,660 @@
+det(agency-5, a-2)
+nn(agency-5, flight-3)
+nn(agency-5, reservation-4)
+dobj(call-1, agency-5)
+
+det(flight-3, a-2)
+dobj(select-1, flight-3)
+
+aux(reserve-3, to-2)
+xcomp(ask-1, reserve-3)
+det(flight-5, that-4)
+dobj(reserve-3, flight-5)
+
+det(number-4, the-2)
+nn(number-4, phone-3)
+dobj(find-1, number-4)
+det(agency-8, a-6)
+nn(agency-8, travel-7)
+prep_for(number-4, agency-8)
+
+det(agency-3, the-2)
+dobj(call-1, agency-3)
+
+nn(details-3, flight-2)
+dobj(give-1, details-3)
+
+nn(details-3, payment-2)
+dobj(give-1, details-3)
+
+amod(details-3, adress-2)
+dobj(give-1, details-3)
+
+prt(hang-1, up-2)
+
+nn(agent-3, travel-2)
+nsubj(call-1, agent-3)
+
+num(flights-3, about-2)
+dobj(inquire-1, flights-3)
+
+dobj(make-1, decision-2)
+
+
+prt(hang-1, up-2)
+
+det(date-3, a-2)
+dobj(pick-1, date-3)
+dobj(pick-1, time-5)
+conj_and(date-3, time-5)
+prep_to(pick-1, travel-7)
+
+det(airline-3, an-2)
+dobj(contact-1, airline-3)
+
+dobj(tell-1, them-2)
+nsubj(travel-7, you-3)
+amod(you-3, destination-4)
+amod(you-3, desired-6)
+conj_and(destination-4, desired-6)
+dep(tell-1, travel-7)
+dobj(travel-7, time-8)
+
+det(option-5, the-2)
+amod(option-5, best-3)
+nn(option-5, flight-4)
+dobj(select-1, option-5)
+dobj(present-8, option-5)
+complm(present-8, that-6)
+nsubj(present-8, they-7)
+dep(option-5, present-8)
+
+det(site-5, an-2)
+amod(site-5, online-3)
+nn(site-5, travel-4)
+dobj(visin-1, site-5)
+
+det(date-3, the-2)
+dobj(enter-1, date-3)
+dobj(enter-1, location-5)
+conj_and(date-3, location-5)
+poss(flight-8, your-7)
+prep_of(date-3, flight-8)
+
+prep_for(search-1, flights-3)
+
+det(flight-3, the-2)
+dobj(select-1, flight-3)
+dobj(like-5, flight-3)
+nsubj(like-5, you-4)
+rcmod(flight-3, like-5)
+
+det(flight-4, the-3)
+prep_for(pay-1, flight-4)
+
+nn(dates-4, travel-3)
+prep_on(decide-1, dates-4)
+
+nsubj(travel-2, access-1)
+nsubj(enter-5, access-1)
+acomp(travel-2, website-3)
+conj_and(travel-2, enter-5)
+dobj(enter-5, dates-6)
+dobj(enter-5, destination-8)
+conj_and(dates-6, destination-8)
+
+dobj(modify-1, dates-2)
+dobj(modify-1, destinations-4)
+conj_and\/or(dates-2, destinations-4)
+mark(acceptable-8, until-5)
+nsubj(acceptable-8, price-6)
+cop(acceptable-8, is-7)
+advcl(modify-1, acceptable-8)
+
+dobj(book-1, tickets-2)
+
+nn(card-3, credit-2)
+iobj(give-1, card-3)
+dobj(give-1, number-4)
+nn(address-7, mailing-6)
+dobj(give-1, address-7)
+conj_and(number-4, address-7)
+
+nn(dates-4, travel-3)
+prep_on(decide-1, dates-4)
+
+nsubj(travel-2, access-1)
+nsubj(enter-5, access-1)
+acomp(travel-2, website-3)
+conj_and(travel-2, enter-5)
+dobj(enter-5, dates-6)
+dobj(enter-5, destination-8)
+conj_and(dates-6, destination-8)
+
+mark(tickets-6, if-1)
+nsubj(tickets-6, price-2)
+cop(tickets-6, is-3)
+amod(tickets-6, acceptable-4)
+nn(tickets-6, reserve-5)
+
+nn(card-3, credit-2)
+iobj(provide-1, card-3)
+dobj(provide-1, number-4)
+
+nn(agent-3, travel-2)
+nsubj(call-1, agent-3)
+
+prep_about(inquire-1, flight-3)
+amod(dates-6, desired-5)
+prep_on(flight-3, dates-6)
+
+mark(acceptable-3, if-1)
+dep(acceptable-3, price-2)
+csubj(make-4, acceptable-3)
+dobj(make-4, reservation-5)
+
+aux(travel-3, to-2)
+xcomp(go-1, travel-3)
+dobj(travel-3, website-4)
+
+amod(flights-4, desired-3)
+prep_for(search-1, flights-4)
+
+dobj(select-1, flight-2)
+
+nsubj(make-2, press-1)
+dobj(make-2, reservation-3)
+
+nn(information-4, credit-2)
+nn(information-4, card-3)
+dobj(enter-1, information-4)
+
+nn(number-3, confirmation-2)
+dobj(save-1, number-3)
+
+nn(reservation-3, airline-2)
+iobj(find-1, reservation-3)
+nn(number-5, phone-4)
+dobj(find-1, number-5)
+nn(book-8, phone-7)
+prep_in(find-1, book-8)
+
+nn(reservation-3, airline-2)
+iobj(call-1, reservation-3)
+nn(number-5, phone-4)
+dobj(call-1, number-5)
+
+aux(reserve-3, to-2)
+xcomp(ask-1, reserve-3)
+det(flight-5, a-4)
+dobj(reserve-3, flight-5)
+det(date-8, the-7)
+prep_on(reserve-3, date-8)
+prep_on(reserve-3, time-10)
+conj_and(date-8, time-10)
+nsubj(wish-12, you-11)
+ccomp(ask-1, wish-12)
+
+dobj(call-1, airline-2)
+
+dobj(tell-1, them-2)
+advmod(want-5, where-3)
+nsubj(want-5, you-4)
+xsubj(fly-7, you-4)
+advcl(tell-1, want-5)
+aux(fly-7, to-6)
+xcomp(want-5, fly-7)
+
+dobj(tell-1, them-2)
+advmod(want-5, when-3)
+nsubj(want-5, you-4)
+xsubj(fly-7, you-4)
+advcl(tell-1, want-5)
+aux(fly-7, to-6)
+xcomp(want-5, fly-7)
+
+prt(find-1, out-2)
+dobj(available-6, which-3)
+nsubj(available-6, flights-4)
+cop(available-6, are-5)
+ccomp(find-1, available-6)
+
+amod(flight-3, best-2)
+dobj(reserve-1, flight-3)
+
+amod(application-3, internet-2)
+dobj(start-1, application-3)
+
+prep_to(go-1, site-3)
+prep_of(site-3, airline-5)
+
+prt(fill-1, out-2)
+nn(form-4, reservation-3)
+dobj(fill-1, form-4)
+
+prt(fill-1, out-2)
+nn(information-5, credit-3)
+nn(information-5, card-4)
+dobj(fill-1, information-5)
+
+prt(fill-1, out-2)
+amod(details-4, adress-3)
+dobj(fill-1, details-4)
+
+dobj(confirm-1, reservation-2)
+
+nn(office-4, flight-2)
+nn(office-4, reservation-3)
+dobj(call-1, office-4)
+
+poss(name-3, your-2)
+dobj(give-1, name-3)
+
+nn(reservation-4, flight-3)
+prep_for(ask-1, reservation-4)
+
+det(number-3, the-2)
+dobj(give-1, number-3)
+prep_of(number-3, person-5)
+
+det(date-3, the-2)
+dobj(give-1, date-3)
+conj_and(give-1, time-5)
+pred(give-1, time-5)
+advmod(fly-8, when-6)
+aux(fly-8, to-7)
+advcl(time-5, fly-8)
+
+nn(agent-3, travel-2)
+nsubj(call-1, agent-3)
+
+dobj(tell-1, source-2)
+prep_of(source-2, travel-4)
+
+dobj(tell-1, destination-2)
+prep_of(destination-2, travel-4)
+
+amod(flights-4, available-3)
+prep_for(ask-1, flights-4)
+
+amod(flight-4, best-2)
+amod(flight-4, available-3)
+dobj(select-1, flight-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+nn(agent-3, travel-2)
+nsubj(call-1, agent-3)
+
+nn(agent-4, travel-3)
+prep_with(speak-1, agent-4)
+
+nn(reservation-3, flight-2)
+dobj(request-1, reservation-3)
+
+prt(hang-1, up-2)
+dobj(hang-1, phone-3)
+
+det(airline-3, the-2)
+nsubj(number-6, airline-3)
+cop(number-6, s-4)
+nn(number-6, phone-5)
+ccomp(find-1, number-6)
+
+det(airline-3, the-2)
+dobj(call-1, airline-3)
+det(phone-6, the-5)
+prep_on(call-1, phone-6)
+
+det(person-3, the-2)
+dobj(tell-1, person-3)
+advmod(want-6, when-4)
+nsubj(want-6, you-5)
+xsubj(fly-8, you-5)
+advcl(tell-1, want-6)
+aux(fly-8, to-7)
+xcomp(want-6, fly-8)
+
+det(person-3, the-2)
+dobj(give-1, person-3)
+poss(card-6, your-4)
+nn(card-6, credit-5)
+dep(give-1, card-6)
+dep(card-6, number-7)
+
+xcomp(say-1, thank-2)
+dobj(thank-2, you-3)
+
+xcomp(call-1, find-2)
+nn(agent-4, travel-3)
+dobj(find-2, agent-4)
+
+dobj(specify-1, date\/time-2)
+prep_of(date\/time-2, travel-4)
+
+dobj(specify-1, origin-2)
+
+dobj(specify-1, destination-2)
+
+amod(options-3, flight\/travel-2)
+dobj(review-1, options-3)
+
+det(reservation-5, a-3)
+nn(reservation-5, flight-4)
+prep_for(contract-1, reservation-5)
+
+nn(agent-3, travel-2)
+nsubj(call-1, agent-3)
+
+dobj(give-1, time-2)
+prep_of(time-2, flight-4)
+
+dobj(give-1, number-2)
+prep_of(number-2, persons-4)
+partmod(persons-4, flying-5)
+
+det(questions-3, any-2)
+dobj(answer-1, questions-3)
+
+dobj(confirm-1, reservation-2)
+
+nsubj(website-2, goto-1)
+
+dobj(make-1, reservation-2)
+
+dobj(confirm-1, reservation-2)
+
+dobj(go-1, online-2)
+
+nn(website-3, airline-2)
+dobj(find-1, website-3)
+
+nn(availability-3, flight-2)
+dobj(check-1, availability-3)
+
+nn(times-3, flight-2)
+dobj(note-1, times-3)
+
+dobj(compare-1, prices-2)
+prep_with(compare-1, competitors-4)
+
+amod(flight-3, preferred-2)
+dobj(choose-1, flight-3)
+
+nn(details-4, credit-2)
+nn(details-4, card-3)
+dobj(provide-1, details-4)
+
+det(number-3, the-2)
+dobj(find-1, number-3)
+det(airline-6, an-5)
+prep_for(number-3, airline-6)
+
+det(airline-3, the-2)
+dobj(call-1, airline-3)
+
+poss(flight-3, your-2)
+dobj(book-1, flight-3)
+
+det(site-5, the-3)
+nn(site-5, airline-4)
+prep_on(log-1, site-5)
+
+dobj(check-1, times-2)
+prep_for(check-1, flight-4)
+
+amod(time-3, appropriate-2)
+dobj(choose-1, time-3)
+
+prep_in(type-1, name-3)
+prep_in(type-1, address-5)
+conj_and(name-3, address-5)
+
+prt(write-1, down-2)
+nn(number-4, confirmation-3)
+dobj(write-1, number-4)
+
+det(agent-4, a-2)
+nn(agent-4, travel-3)
+dobj(calling-1, agent-4)
+
+det(agent-4, the-2)
+nn(agent-4, travel-3)
+prep_telling(dates-6, agent-4)
+det(dates-6, the-5)
+conj_and(dates-6, times-8)
+prep_of(dates-6, travel-10)
+
+det(term-3, the-2)
+dobj(accepting-1, term-3)
+dobj(accepting-1, conditions-5)
+conj_and(term-3, conditions-5)
+det(airline-8, the-7)
+prep_of(conditions-5, airline-8)
+
+nsubj(call-2, phone-1)
+nn(specialist-6, flight-4)
+nn(specialist-6, reservation-5)
+prep_to(call-2, specialist-6)
+
+dobj(request-1, flight-2)
+
+dobj(make-1, payment-2)
+
+nn(number-3, reservation-2)
+dobj(receive-1, number-3)
+
+nn(specialist-3, reservation-2)
+dobj(thank-1, specialist-3)
+
+nn(call-3, phone-2)
+dobj(end-1, call-3)
+
+nn(website-4, airline-3)
+prep_to(go-1, website-4)
+
+nn(destination-3, flight-2)
+dobj(choose-1, destination-3)
+
+nn(time-3, flight-2)
+dobj(choose-1, time-3)
+
+amod(information-3, personal-2)
+dobj(enter-1, information-3)
+
+nn(information-3, payment-2)
+dobj(give-1, information-3)
+
+nn(number-3, confirmation-2)
+dobj(note-1, number-3)
+
+dobj(choose-1, flight-2)
+
+nn(agent-3, travel-2)
+nsubj(call-1, agent-3)
+
+dobj(book-1, flight-2)
+
+dobj(determine-1, destination-2)
+
+nn(schedules-3, flight-2)
+dobj(check-1, schedules-3)
+
+dobj(price-1, comparison-2)
+
+dobj(call-1, agent-2)
+nn(online-5, book-4)
+dobj(call-1, online-5)
+conj_or(agent-2, online-5)
+
+dobj(confirm-1, reservation-2)
+
+dep(comparison-1, shop-2)
+
+amod(deal-4, best-3)
+prep_on(decide-1, deal-4)
+
+dobj(purchase-1, ticket-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, ticket-3)
+
+dep(comparison-1, shop-2)
+
+dep(comparison-1, shop-2)
+
+amod(deal-4, best-3)
+prep_on(decide-1, deal-4)
+
+amod(deal-4, best-3)
+prep_on(decide-1, deal-4)
+
+dobj(purchase-1, ticket-2)
+
+dobj(purchase-1, ticket-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, ticket-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, ticket-3)
+
+dep(comparison-1, shop-2)
+
+amod(deal-4, best-3)
+prep_on(decide-1, deal-4)
+
+dobj(purchase-1, ticket-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, ticket-3)
+
+prep_toward(walk-1, phone-3)
+
+dobj(call-1, flight-2)
+
+nn(plan-3, flight-2)
+dobj(make-1, plan-3)
+
+nn(website-4, airline-3)
+prep_to(go-1, website-4)
+
+nn(city-3, departure-2)
+dobj(choose-1, city-3)
+
+nn(city-3, destination-2)
+dobj(choose-1, city-3)
+
+dobj(choose-1, dates-2)
+
+dobj(select-1, flight-2)
+
+nn(information-3, payment-2)
+dobj(enter-1, information-3)
+
+nn(number-3, confirmation-2)
+dobj(note-1, number-3)
+
+dobj(book-1, flight-2)
+
+nn(agent-3, travel-2)
+nsubj(call-1, agent-3)
+
+dobj(book-1, fight-2)
+
+dobj(make-1, flight-2)
+
+nn(website-4, airline-3)
+prep_to(go-1, website-4)
+
+amod(dates-2, select-1)
+prep_for(dates-2, departure-4)
+prep_for(dates-2, arrival-6)
+conj_and(departure-4, arrival-6)
+
+nn(card-3, input-1)
+nn(card-3, credit-2)
+dep(card-3, information-4)
+
+nn(agent-3, travel-2)
+nsubj(call-1, agent-3)
+
+amod(info-3, pertinent-2)
+dobj(give-1, info-3)
+
+det(flight-3, the-2)
+dobj(book-1, flight-3)
+
+dobj(get-1, online-2)
+
+amod(flight-4, cheap-3)
+prep_for(search-1, flight-4)
+
+dobj(select-1, flight-2)
+
+prep_for(pay-1, flight-3)
+
+prt(find-1, out-2)
+dobj(find-1, destination-3)
+
+prt(find-1, out-2)
+dobj(find-1, date-3)
+
+dobj(call-1, airline-2)
+
+nn(information-3, airline-2)
+dobj(tell-1, information-3)
+
+dobj(book-1, seating-2)
+
+dobj(get-1, info-2)
+prep_on(get-1, departure-4)
+prep_on(get-1, arrival-6)
+conj_and(departure-4, arrival-6)
+
+nsubjpass(set-3, reservation-1)
+auxpass(set-3, is-2)
+
+det(agent-4, the-2)
+nn(agent-4, travel-3)
+nsubj(call-1, agent-4)
+
+dobj(tell-1, them-2)
+advmod(want-5, where-3)
+nsubj(want-5, you-4)
+xsubj(go-7, you-4)
+advcl(tell-1, want-5)
+aux(go-7, to-6)
+xcomp(want-5, go-7)
+
+iobj(tell-1, them-2)
+dobj(tell-1, dates-3)
+
+iobj(give-1, them-2)
+dobj(give-1, money-3)
+
+advmod(want-4, where-2)
+nsubj(want-4, you-3)
+xsubj(go-6, you-3)
+advcl(decide-1, want-4)
+aux(go-6, to-5)
+xcomp(want-4, go-6)
+
+dobj(check-1, airfares-2)
+amod(com-5, expedia-4)
+prep_through(check-1, com-5)
+
+dobj(enter-1, source-2)
+nn(airports-5, destination-4)
+dobj(enter-1, airports-5)
+conj_and(source-2, airports-5)
+
+dobj(choose-1, dates-2)
+
+dobj(pick-1, flight-2)
+
+dobj(book-1, flight-2)
+
+dobj(print-1, tickets-2)
+

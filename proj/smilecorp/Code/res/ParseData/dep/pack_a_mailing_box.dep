@@ -1,0 +1,207 @@
+dobj(place-1, objects-2)
+prep_in(place-1, box-4)
+
+nn(box-2, tape-1)
+nsubj(shut-3, box-2)
+
+dobj(put-1, item-2)
+prep_in(put-1, box-4)
+
+dobj(close-1, box-2)
+
+nn(box-2, tape-1)
+nsubj(shut-3, box-2)
+
+dobj(fold-1, box-2)
+
+dobj(secure-1, box-2)
+nn(tape-5, packing-4)
+prep_with(secure-1, tape-5)
+
+dobj(fill-1, box-2)
+prepc_with(fill-1, packing-4)
+dobj(packing-4, foam-5)
+
+dobj(place-1, item-2)
+prep_in(place-1, box-4)
+
+dobj(close-1, lid-2)
+prep_of(lid-2, box-4)
+
+dobj(secure-1, lid-2)
+nn(tape-5, packing-4)
+prep_with(secure-1, tape-5)
+
+det(bottom-3, the-2)
+dobj(tape-1, bottom-3)
+det(box-7, the-5)
+nn(box-7, mailing-6)
+prep_of(bottom-3, box-7)
+
+iobj(fill-1, box-2)
+amod(way-4, half-3)
+dobj(fill-1, way-4)
+nn(material-7, packing-6)
+prep_with(fill-1, material-7)
+
+dobj(insert-1, object-2)
+aux(packed-5, to-3)
+auxpass(packed-5, be-4)
+xcomp(insert-1, packed-5)
+
+dobj(fill-1, box-2)
+advmod(fill-1, completely-3)
+nn(material-6, packing-5)
+prep_with(fill-1, material-6)
+
+prep_with(seal-1, tape-3)
+
+det(box-4, a-2)
+nn(box-4, mailing-3)
+dobj(get-1, box-4)
+
+dobj(insert-1, items-2)
+prep_in(insert-1, box-4)
+
+dobj(put-1, stuff-2)
+nn(box-5, mailing-4)
+prep_in(put-1, box-5)
+
+dobj(obtain-1, box-2)
+
+dobj(fill-1, box-2)
+prep_with(fill-1, items-4)
+prep_to(fill-1, mail-6)
+
+conj_and(close-1, seal-3)
+det(box-5, the-4)
+dobj(seal-3, box-5)
+
+det(details-5, the-3)
+nn(details-5, address-4)
+prep_in(fill-1, details-5)
+
+det(return-4, the-3)
+prep_in(fill-1, return-4)
+ccomp(fill-1, address-5)
+dobj(address-5, details-6)
+
+dobj(affix-1, stamps-2)
+
+det(box-3, the-2)
+dobj(give-1, box-3)
+det(office-7, the-5)
+nn(office-7, post-6)
+prep_to(give-1, office-7)
+
+det(box-4, a-2)
+amod(box-4, sturdy-3)
+dobj(find-1, box-4)
+det(size-8, the-6)
+amod(size-8, appropriate-7)
+prep_of(box-4, size-8)
+
+det(object-3, the-2)
+dobj(put-1, object-3)
+det(box-6, the-5)
+prep_in(put-1, box-6)
+
+det(spaces-4, the-2)
+amod(spaces-4, empty-3)
+dobj(fill-1, spaces-4)
+det(box-7, the-6)
+prep_in(fill-1, box-7)
+prepc_with(fill-1, packing-9)
+dobj(packing-9, materials-10)
+
+nsubj(shut-4, tape-1)
+det(box-3, the-2)
+dep(tape-1, box-3)
+
+det(box-3, the-2)
+dobj(address-1, box-3)
+
+dobj(place-1, items-2)
+prep_in(place-1, box-4)
+
+nsubj(closed-4, tape-1)
+det(box-3, the-2)
+dep(tape-1, box-3)
+prepc_with(closed-4, mailing-6)
+dobj(mailing-6, tape-7)
+
+det(box-3, the-2)
+dobj(label-1, box-3)
+prep_with(label-1, address-5)
+aux(send-7, to-6)
+infmod(address-5, send-7)
+prep(send-7, to-8)
+
+amod(postage-3, appropriate-2)
+dobj(apply-1, postage-3)
+
+dobj(put-1, mail-2)
+nn(box-5, mail-4)
+prep_in(put-1, box-5)
+
+xcomp(keep-1, putting-2)
+dobj(putting-2, mail-3)
+prep(putting-2, in-4)
+mark(fill-6, till-5)
+advcl(keep-1, fill-6)
+
+dobj(place-1, items-2)
+prep_in(place-1, box-4)
+
+nn(material-3, packing-2)
+dobj(place-1, material-3)
+
+dobj(seal-1, box-2)
+prep_with(seal-1, tape-4)
+
+
+dobj(pack-1, mail-2)
+
+dobj(insert-1, package-2)
+
+det(box-4, the-2)
+nn(box-4, mailing-3)
+dobj(take-1, box-4)
+
+det(box-3, the-2)
+dobj(pack-1, box-3)
+
+det(box-4, a-2)
+nn(box-4, mailing-3)
+dobj(locate-1, box-4)
+
+dobj(fill-1, it-2)
+prt(fill-1, up-3)
+
+det(box-4, a-2)
+nn(box-4, mailing-3)
+dobj(find-1, box-4)
+
+prep_until(pack-1, full-3)
+
+dobj(find-1, box-2)
+
+dobj(wrap-1, items-2)
+
+dobj(put-1, item-2)
+prep_in(put-1, box-4)
+
+prep_in(fill-1, area-3)
+mark(wont-6, so-4)
+nsubj(wont-6, items-5)
+advcl(fill-1, wont-6)
+dobj(wont-6, move-7)
+
+nsubj(tape-1, box-2)
+
+dobj(address-1, box-2)
+
+prt(drop-1, off-2)
+nn(office-5, post-4)
+prep_at(drop-1, office-5)
+

@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0007669" url="http://www.coursehero.com/file/136543/11/" time="2012-07-13-00:38" support="2" score="0.0027733713111653853" bingtitle="Mississippi State : EM 2413 : 11 - Course Hero | Study Guides ..." webtitle="Mississippi State : EM 2413 : 11">
+			<query id="000485" bing-rank="246"/>
+			<query id="000478" bing-rank="197"/>
+	<description>... Problem 11-23 The service window at a fast-food restaurant ... If a food tray becomes stuck between the doors as ... of the Sign test is that it only takes into ...</description>
+	<body>
+		Course Hero Sign up Log-in 
+ Home Study Documents 
+ Find Documents Textbook Help 
+ Tutors 
+ Ask a Question Browse Questions 
+ Courses 
+ Find Courses Create a Course Suggest a Course About Courses 
+ Flashcards 
+ Find Flashcards Create Flashcards About Flashcards 
+ Support 
+ Contact Us FAQ 
+ 
+ 
+Why Course Hero?
+ 7 Million Study Materials From students who&apos;ve taken these classes before 24/7 Access to Tutors Personal attention for all your questions Learn 93% of our members earn better grades 
+ Register now to access 7 million high quality study materials. 11 Course: EM 2413, Spring 2008 
+ School: Mississippi State 
+ Rating:           
+ Related: 
+ Document Preview 
+ Mechanics Engineering - Statics
+Chapter 11
+Problem 11-1 The thin rod of weight W rests against the smooth wall and floor. Determine the magnitude of force P needed to hold it in equilibrium. Solution: xp = L cos ( ) yw =
+ xp = -L sin ( ) 
+L yw = cos ( ) 
+ L sin ( ) 2
+2
+U = 0;
+-P xp - W yw = 0 -P ( -L sin ( ) ) - W
+ L cos ( ) = 0 2 
+ P L sin ( ) - 
+W L cos ( ) = 0 2... 
+ Register Now 
+ 
+MOST POPULAR EM MATERIALS
+ 
+ Chapter 3_... 
+ Mississippi State
+EM 3313 
+ CV,5-1 
+ Mississippi State
+EM 153 
+ Chapter 1_... 
+ Mississippi State
+EM 3313 
+MOST POPULAR Mississippi State MATERIALS
+ 
+ Chapter 36 
+ Mississippi State
+INS INS 35 
+ Chapter 21 
+ Mississippi State
+INS INS 35 
+ Chapter 27 
+ Mississippi State
+INS INS 35 Ask a Tutor my question   * -- Select a subject -- Accounting Biology Business Chemistry Civil Engineering Computer Science Economics Electrical Engineering English Finance Math Mechanical Engineering Operations Management Other Subjects Physics Statistics and Probability Writing Help * Due Date: Time: Any 12 AM 1 AM 2 AM 3 AM 4 AM 5 AM 6 AM 7 AM 8 AM 9 AM 10 AM 11 AM 12 PM 1 PM 2 PM 3 PM 4 PM 5 PM 6 PM 7 PM 8 PM 9 PM 10 PM 11 PM morning afternoon evening Attachment (optional): Get help Now! Our current time in (CST) is     Unformatted Document Excerpt Coursehero &gt;&gt; Mississippi &gt;&gt; Mississippi State &gt;&gt; EM 2413 Course Hero has millions of student submitted documents similar to the one
+ below including study guides, practice problems, reference materials, practice exams, textbook help and tutor support. Mechanics Engineering - Statics
+Chapter 11
+Problem 11-1 The thin rod of weight W rests against the smooth wall and floor. Determine the magnitude of force P needed to hold it in equilibrium. Solution: xp = L cos ( ) yw =
+ xp = -L sin ( ) 
+L yw = cos ( ) 
+ L sin ( ) 2
+2
+U = 0;
+-P xp - W yw = 0 -P ( -L sin ( ) ) - W
+ L cos ( ) = 0 2 
+ P L sin ( ) - 
+W L cos ( ) = 0 2 
+Since 0 P L sin ( ) -
+ W L cos ( ) = 0 2 
+P=
+W cot ( ) 2
+Problem 11-2 The disk has a weight W and is subjected to a vertical force P and a couple moment M. Determine the disk&apos;s rotation if the end of the spring wraps around the periphery of the disk as the disk turns. The spring is originally unstretched. Given: W = 10 lb P = 8 lb M = 8 lb ft a = 1.5 ft
+1074
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+k = 12 Solution:
+lb ft
+ U = P a + M - k a a = P a + M - k a = 0
+P a + M - ka = 0
+2
+(
+2
+)
+ =
+P a+M ka
+2
+ = 42.4 deg
+Problem 11-3 The platform supports a load W. Determine the horizontal force P that must be supplied by the screw in order to support the platform when the links are at the arbitrary angle . Solution: x = l cos ( ) y = 2 l sin ( )
+ x = -l sin ( ) y = 2 l cos ( ) 
+ U = -W y - P x = 0
+-W( 2 l cos ( ) ) - P ( -l sin ( ) ) = 0 -2 W cos ( ) + P sin ( ) = 0 P = 2 W cot ( )
+Problem 11-4 Each member of the pin-connected mechanism has mass m1. If the spring is unstretched when = 0 , determine the angle for equilibrium.
+1075
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Given: m1 = 8 kg k = 2500 N m
+L = 300 mm M = 50 N m g = 9.81 m s
+2
+Solution: y1 =
+ L sin ( ) 2
+L y1 = cos ( ) 
+2
+y2 = L sin ( )
+ y2 = L cos ( ) 
+ U = 2 m1 g y1 + m1 g y2 - k y2 y2 + M = 0
+1 U = m1 g L2 cos ( ) + cos ( ) - k L sin ( ) L cos ( ) + M = 0 
+ 2
+There are 2 solutions found by starting with different guesses Guess
+ = 10 deg
+2
+Given
+m1 g L 2 cos ( ) - k L sin ( ) cos ( ) + M = 0 Guess = 60deg
+2
+ = Find ( ) = 27.4 deg
+Given
+m1 g L 2 cos ( ) - k L sin ( ) cos ( ) + M = 0
+ = Find ( ) = 72.7 deg
+1076
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Problem 11-5 Each member of the pin-connected mechanism has mass m1. If the spring is unstretched when = 0 , determine the required stiffness k so that the mechanism is in equilibrium when = 0. Units Used: kN = 10 N Given: m1 = 8 kg
+3
+ = 30 deg
+L = 300 mm M = 0 N m g = 9.81 Solution: y1 = m s
+2
+ L sin ( ) 2
+L y1 = cos ( ) 
+2
+y2 = L sin ( )
+ y2 = L cos ( ) 
+ U = 2m1 g y1 + m1 g y2 - k y2 y2 + M = 0
+1 U = m1 g L2 cos ( ) + cos ( ) - k L sin ( ) L cos ( ) + M = 0 
+ 2
+kN m
+Guess
+k = 1
+Given
+2
+m1 g L2 cos ( ) - k L sin ( ) cos ( ) + M = 0
+k = Find ( k)
+k = 1.046
+kN m
+Problem 11-6 The crankshaft is subjected to torque M. Determine the horizontal compressive force F applied to the piston for equilibrium when = 0
+1077
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Given: M = 50 N m
+ 0 = 60 deg
+a = 100 mm b = 400 mm Solution:
+2 2
+ = 0
+2
+b = a + x - 2 a x cos ( ) 0 = 2 x x - 2 a cos ( ) x + 2 a x sin ( ) 
+x = 
+ a x sin ( ) x - a cos ( ) a x sin ( ) + M = 0 x - a cos ( ) 
+F = 1N
+2
+ U = -F x + M = -F 
+Guesses x = 1m
+2 2
+Given
+b = a + x - 2a x cos ( ) x = 440.512 mm
+-F 
+ a x sin ( ) + M = 0 x - a cos ( ) 
+F = Find ( F , x) x
+F = 512 N
+Problem 11-7 The crankshaft is subjected to torque M. Determine the horizontal compressive force F and plot the result of F (ordinate) versus (abscissa) for 0&lt;=&lt;= 90. Units Used: kN = 10 N Given: M = 0.05 kN m a = 0.1 m b = 0.4 m
+1078
+3
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Solution: b = a + x - 2a x cos ( )
+2 2 2
+Solving x = a cos ( ) + a cos ( ) + b + a
+2 2 2 2
+Virtual displacements b = a + x - 2a x cos ( )
+2 2 2
+0 = 2x x - 2a cos ( ) x + 2a x sin ( ) 
+x = 
+ a x sin ( ) x - a cos ( ) 
+F = M
+ U = -F x + M = -F 
+ a x sin ( ) + M = 0 x - a cos ( ) 
+2 2 2
+ x - a cos ( ) a x sin ( ) 
+ = 0 .. 90
+x ( ) = a cos ( deg) +
+a cos ( deg) + b + a
+2
+F ( ) = M
+ x ( ) - a cos ( deg) a x ( ) sin ( deg) 
+30
+Force in kN
+F( )
+20 10 0
+0
+50
+100
+angle in degrees F ( 60) = 0.515
+1079
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Problem 11-8 If a force P is applied perpendicular to the handle of the toggle press, determine the compressive force developed at C. Given: P = 30 lb
+ = 30 deg
+a = 12 in b = 2 in Solution:
+s = a 
+y = 2 b cos ( )
+y = -2b sin ( ) U = - P s + - F y = 0
+-P a + F2b sin ( ) = 0 F2b sin ( ) = P a F = 1 P 2
+ a b sin ( ) 
+F = 180 lb
+1080
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Problem 11-9 A force P is applied to the end of the lever. Determine the horizontal force F on the piston for equilibrium. Solution:
+s = 2 l 
+x = 2 l cos ( )
+x = -2 l sin ( ) U = - P s - F x = 0
+-P 2l + F2l sin ( ) = 0 F = P csc ( )
+Problem 11-10 The mechanism consists of the four pin-connected bars and three springs, each having a stiffness k and an unstretched length l0 Determine the horizontal forces P that must be applied to the pins in order to hold the mechanism in the horizontal position for equilibrium.
+1081
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Solution: x = l cos ( ) y = 2 l sin ( )
+x = -l sin ( ) y = 2 l cos ( ) 
+U = 0;
+- 2 P x - 3 F s = 0 2 P l sin ( ) - 3 Fs 2l cos ( ) = 0 P sin ( ) = 3 F s cos ( )
+Since Fs = k( 2 l sin ( ) - l0 ) ,then P = 3 k cot ( ) ( 2 l sin ( ) - l0 )
+Problem 11-11 When = 0, the uniform block of weight Wb compresses the two vertical springs a distance . If the uniform links AB and CD each weigh WL , determine the magnitude of the applied couple moments M needed to maintain equilibrium.
+1082
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Given:
+ 0 = 20 deg
+Wb = 50 lb
+a = 1 ft b = 4 ft c = 1 ft d = 2 ft
+ = 4 in
+WL = 10 lb k = 2 lb in
+Solution: y1 = b 2
+ = 0
+cos ( ) -b 2 sin ( ) 
+ y1 =
+y2 = a 2
++ b cos ( )
+y2 = -b sin ( ) 
+y3 = y2 + a 2
+y3 = y2 U = -2WLy1 - Wb y2 - 2k y3 - 2M = 0
+b U = 2WL sin ( ) + Wb b sin ( ) + 2k b sin ( ) - 2M = 0 
+ 2
+M =
+ WL + Wb b + k b sin ( ) 2 
+M = 52.0 lb ft
+Problem 11-12 The spring is unstretched when = 0. Determine the angle for equilibrium. Due to the roller guide, the spring always remains vertical. Neglect the weight of the links.
+1083
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Given: P = 8 lb k = 50 lb ft
+a = 2 ft b = 2 ft Solution: y1 = a sin ( )
+y1 = a cos ( ) 
+y2 = ( a + b)sin ( ) + a + b
+y2 = ( a + b)cos ( ) U = -k y1 y1 + P y2 = -k asin( ) a cos ( ) + P ( a + b) cos ( ) = 0 
+cos ( ) P( a + b) - k a sin ( ) = 0 
+2
+There are 2 answers
+ 1 = acos ( 0) 2 = asin 
+2 ka 
+ 1 = 90 deg 2 = 9.207 deg
+P( a + b) 
+Problem 11-13 Determine the force P required to lift the block of mass M using the differential hoist. The lever arm is fixed to the upper pulley and turns with it. Given: a = 800 mm
+1084
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+M = 15 kg b = 150 mm c = 300 mm g = 9.81 Solution: m s
+2
+U = 0;
+P a + P a+ P =
+Mg ( -c + b ) = 0 2
+Mg ( b - c) = 0 2
+Mg 2
+ c - b a 
+P = 13.8 N
+Problem 11-14 Determine the magnitude of the applied couple moments M needed to maintain equilibrium at . The plate E has a weight W. Neglect the weight of the links AB and CD. Given: a = 0.5 ft d = 2 ft b = 1 ft c = 2 ft W = 50 lb
+ = 20 deg
+1085
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Solution: ym = d cos ( ) + a 2
+ym = -d sin ( ) 
+U = -2 M - W-d sin ( ) ( ) = ( W d sin ( ) - 2 M) = 0 
+M = 1 W d sin ( ) 2
+M = 17.1 lb ft
+Problem 11-15 The members of the mechanism are pin connected. If a horizontal force P acts at A, determine the angle for equilibrium.The spring is unstretched when = 90. Units Used: kN = 10 N Given: a = 0.5 m k = 20 kN m
+3
+P = 400 N Solution: x1 = a cos ( )
+x1 = -a sin ( ) 
+x2 = 5a cos ( ) x2 = -5 a sin ( ) 
+U = P( -5 a sin ( ) ) - k a cos ( ) ( -a sin ( ) ) = 0 
+sin ( ) ( -5 P + k a cos ( ) ) = 0
+1086
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+There are 2 equilibrium angles.
+ 1 = asin ( 0) 2 = acos 
+5P ka 
+ 1 = 0 deg 2 = 78.5 deg
+Problem 11-16 Determine the force F needed to lift the block having weight W. Hint: Note that the coordinates SA and SB can be related to the constant vertical length l of the cord. Given: W = 100 lb Solution: l = sA + 2 sB 0 = sA + 2 sB
+sA = -2 sB U = F sA + WsB = ( -2 F + W) sB = 0
+F = W 2 F = 50 lb
+1087
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Problem 11-17 Each member of the pin-connected mechanism has a mass m1. If the spring is unstretched when = 0 determine the angle for equilibrium. Given: a = 300 mm k = 2500 N m
+m1 = 8 kg M = 50 N m
+Solution: x = a sin ( ) y = a cos ( ) Fs = k x
+x = a cos ( ) y = -a sin ( ) 
+F s = k a sin ( )
+U = m1 g2
+ y + y - F x + M = 0 s 2 
+U = ( -2m1 g a sin ( ) - k a sin ( ) a cos ( ) + M) U = 0
+Initial Guesses: Given -2 m1 g a sin ( ) - k a sin ( ) a cos ( ) + M = 0 Now starting with a different guess we find anothe answer. Given -2 m1 g a sin ( ) - k a sin ( ) a cos ( ) + M = 0
+ = 10 deg
+ = Find ( ) = 90 deg = Find ( )
+ = 10.7 deg
+ = 89.3 deg
+1088
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Problem 11-18 The bar is supported by the spring and smooth collar that allows the spring to be always perpendicular to the bar for any angle . If the unstretched length of the spring is l0, determine the force P needed to hold the bar in the equilibrium position . Neglect the weight of the bar.
+Solution: s = a sin ( ) y = l sin ( ) F s = k( a sin ( ) - l0 )
+ s = a cos ( ) y = l cos ( ) 
+U = P y - F ss = 0 U = P l cos ( ) - k( a sin ( ) - l0 ) a cos ( ) = 0
+P= ka (a sin ( ) - l0) l
+Problem 11-19 The scissors jack supports a load P . Determine the axial force in the screw necessary for equilibrium when the jack is in the position . Each of the four links has a length L and is pin-connected at its center. Points B and D can move horizontally.
+1089
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Solution: x = L cos ( ) y = 2L sin ( )
+x = -L sin ( ) y = 2L cos ( ) 
+F = 2P cot ( )
+U = -P y - F x = ( -P 2L cos ( ) + F L sin ( ) ) = 0
+Problem 11-20 Determine the masses mA and mB of A and B required to hold the desk lamp of mass M in balance for any angles and . Neglect the weight of the mechanism and the size of the lamp. Given: M = 400 gm a = 75 mm b = 75 mm c = 75 mm d = 300 mm e = 300 mm g = 9.81 m s
+2
+1090
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Solution: y1 = ( b + e)sin ( ) - d sin ( ) y2 = b sin ( ) + c sin ( ) - a sin ( ) y3 = -a sin ( )
+y1 = ( b + e)cos ( ) - d cos ( ) y2 = ( b - a)cos ( ) + c cos ( ) y3 = -a cos ( ) 
+U = -M gy1 - mA gy2 - mB gy2 = 0 U = g-M( b + e) - mA( b - a) + mB a cos ( ) + ( M d - mA c) cos ( ) = 0 
+We now solve by setting both coefficients to zero. Guesses Given mA = 1 kg mB = 1 kg M d - mA c = 0
+-M( b + e) - mA( b - a) + mB a = 0
+ mA = Find ( mA , mB) mB 
+Problem 11-21
+ mA 1.6 = kg mB 2 
+The Roberval balance is in equilibrium when no weights are placed on the pans A and B. If two masses mA and mB are placed at any location a and b on the pans, show that equilibrium is maintained if mA dA = mB dB.
+Solution: yA = dA sin ( )
+yA = dA cos ( ) 
+yB = -dB sin ( )
+yB = -dB cos ( ) U = -mA g dA cos ( ) - mB g( -dB cos ( ) ) = 0
+1091
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+U = ( mB dB - mA dA) g cos ( ) = 0
+mA dA = mB dB Q.E.D
+Problem 11-22 The chain puller is used to draw two ends of a chain together in order to attach the&quot;master link.&quot;The device is operated by turning the screw S, which pushes the bar AB downward, thereby drawing the tips C and D towards one another. If the sliding contacts at A and B are smooth, determine the force F maintained by the screw at E which is required to develop a drawing tension T in the chains. Given: T =120 lb
+1092
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+ = 60 deg
+a = 3 in b = 1 in
+Solution:
+s =
+cos ( )
+b 
+y = 
+ 1 cos ( ) sin ( ) 
+b
+U = 0
+F y - 2T( a ) = 0 cos ( ) sin ( ) Fb =2Ta
+F = 2 T a cos ( ) F = 312 lb
+ sin ( ) b 
+Problem 11-23 The service window at a fast-food restaurant consists of glass doors that open and close automatically using a motor which supplies a torque M to each door. The far ends, A and B, move along the horizontal guides. If a food tray becomes stuck between the doors as shown, determine the horizontal force the doors exert on the tray at the position .
+Solution: x = 2a cos ( )
+1093
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+x = -2a sin ( ) U = 0; -M - Fx = 0
+-M + F 2 a sin ( ) = 0 F= 2 a sin ( ) M
+Problem 11-24 A horizontal force acts on the end of the link as shown. Determine the angles 1 and 2 for equilibrium of the two links. Each link is uniform and has a mass m.
+Solution: x = l sin ( 1 ) + l sin ( 2 ) y1 = l cos ( 1 ) 2 l cos ( 2 ) 2
+y2 = l cos ( 1 ) +
+x = l cos ( 1 ) 1 + l cos ( 2 ) 2 y1 = - sin ( 1 ) 1
+l 2
+y2 = -l sin ( 1 ) 1 -
+l sin ( 2 ) 2 2
+U = P x + m gy1 + m gy2 = 0
+l U = P l( cos ( 1 ) 1 + cos ( 2 ) 2 ) - m g ( 3 sin ( 1 ) 1 + sin ( 2 ) 2 ) = 0 
+ 2
+1094
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+3 1 U = P l cos ( 1 ) - m g l sin ( 1 ) 1 + P l cos ( 2 ) - m g l sin ( 2 ) 2 = 0 
+2
+2
+Thus we have 2 equations: P l cos ( 1 ) - P l cos ( 2 ) - 3 2 1 2 m g l sin ( 1 ) = 0 m g l sin ( 2 ) = 0
+ 1 = atan 2 = atan 
+ 3 m g
+2P
+ m g
+2 P
+Problem 11-25 Rods AB and BC have centers of mass located at their midpoints. If all contacting surfaces are smooth and BC has mass mBC determine the appropriate mass mAB of AB required for equilibrium. Given: mBC = 100 kg a = 0.75 m b = 1m c = 2m d = 1.5 m
+Solution:
+Use as the independent variable
+Define Then
+L1 =
+a +b
+2
+2
+L2 =
+c +d
+2
+2
+d = atan 
+c
+a = atan 
+ b
+L1 cos ( ) + L2 cos ( ) = b + c
+-L1 sin ( ) - L2 sin ( ) = 0
+1095
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Thus
+ = 
+y1 =
+ L2 sin ( ) L1 sin ( ) 
+L1 2 L2 2 sin ( ) sin ( )
+Also
+y1 = y2 =
+L1 2 L2 2
+cos ( ) = cos ( ) 
+ -L2 sin ( ) cot ( ) 2 
+y2 =
+U = -mAB gy1 - mBC gy2 = gmAB
+mAB = mBC tan ( ) cot ( )
+ 
+ L2 sin ( ) cot ( ) L2 - mBC cos ( ) = 0 2 2 
+mAB = 100 kg
+Problem 11-26 If the potential energy for a conservative two-degree-of-freedom system is expressed by the relation V = ay2 + bx2 , where y and x, determine the equilibrium positions and investigate the stability at each position. Given: a = 3 Solution: V = a y + bx
+2 2
+N m
+b = 2
+N m
+Equilibrium position:
+ x y
+V = 2b x = 0
+x=0
+V = 2a y = 0
+y=0
+Stability: At ( 0 , 0)
+2 x
+2
+V = 2b
+2b = 4
+N m&gt;0
+At ( 0 , 0)
+2 y
+2
+V = 2a
+2a = 6
+N m&gt;0
+1096
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+At ( 0 , 0)
+ x y
+V =0
+At ( 0 , 0)
+2 2 2 = - 4a b x y V - x2 V y2 V 
+-4a b = -24
+N
+2 2&lt;0
+m
+Stable at (0,0)
+Problem 11-27 If the potential energy for a conservative one-degree-of-freedom system is expressed by the relation V = (ax3 + bx2 + cx + d), determine the equilibrium positions and investigate the stability at each position. Given: a = 4 lb ft Solution: V = ax + bx + cx + d Required Position: d dx x1 = - 2b + 4b - 4( 3a)c 2( 3a)
+2 3 2 2
+b = -1
+lb ft
+c = -3 lb
+d = 10 ft lb
+V = 3a x + 2b x + c = 0
+2
+x1 = 0.59 ft x2 = - 2b - 4b - 4( 3a c) 2 ( 3a)
+2
+x2 = -0.424 ft Stability: d2 dx
+At x = x1 2
+V = V&apos;&apos; = 6a x + 2b lb ft
+V&apos;&apos; 1 = 6a x1 + 2b
+V&apos;&apos; 1 = 12.2
+V&apos;&apos; 1&gt;0
+Stable
+1097
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+At x = x2
+V&apos;&apos; 2 = 6a x2 + 2b
+V&apos;&apos; 2 = -12.2
+lb ft
+V&apos;&apos; 2&lt;0
+Unstable
+Problem 11-28 If the potential energy for a conservative one-degree-of-freedom system is expressed by the relation V = asin() + bcos(2), 0 deg 180 deg , determine the equilibrium positions and investigate the stability at each Given: position. a = 24 ft lb Solution: V = a sin ( ) + b cos ( 2 ) d d V = V&apos; = a cos ( ) - 2b sin ( 2 ) = a cos ( ) - 4b sin ( ) cos ( ) b = 10 ft lb
+V&apos; = cos ( ) ( a - 4b sin ( ) ) = 0 d2 dx
+2
+V = V&apos;&apos; = -a sin ( ) - 4b cos ( 2 )
+Equilibirium Positions:
+ 1 = acos ( 0) 2 = asin 
+ 1 = 90 deg 2 = 36.87 deg 3 = 143.13 deg
+ 4b 
+a
+3 = - 2
+Check Stability
+V&apos;&apos; 1 = -a sin ( 1 ) - 4b cos ( 2 1 ) V&apos;&apos; 2 = -a sin ( 2 ) - 4b cos ( 2 2 ) V&apos;&apos; 3 = -a sin ( 3 ) - 4b cos ( 2 3 )
+V&apos;&apos; 1 = 16 lb ft V&apos;&apos; 2 = -25.6 lb ft V&apos;&apos; 3 = -25.6 lb ft
+Stable Unstable Unstable
+Problem 11-29 If the potential energy for a conservative two-degree-of-freedom system is expressed by the relation V = ay2 + bx2 , where y and x, determine the equilibrium positions and investigate the
+1098
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+y stability at each position. Given: a = 6 N m b = 2 N m
+Solution: V = a y + bx
+2 2
+Equilibrium position:
+ x y
+V = 2b x = 0
+x=0
+V = 2a y = 0
+y=0
+Stability: At ( 0 , 0)
+2 2
+x 
+V = 2b
+2b = 4
+N m N m&gt;0
+At ( 0 , 0)
+2 2
+y
+V = 2a
+2a = 12&gt;0
+At ( 0 , 0)
+ x y
+V =0
+At ( 0 , 0)
+2 2 2 V V = - 4a b V - x y x2 y2 
+-4a b = -48
+N
+2 2&lt;0
+m
+Stable at (0,0)
+Problem 11-30 The spring of the scale has an unstretched length a. Determine the angle for equilibrium when a weight W is supported on the platform. Neglect the weight of the members. What value W would be required to keep the scale in neutral equilibrium when = 0? Solution: Potential Function:The datum is established at point A. Since the weight W is above the datum, its potential energy is positive.
+1099
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+V=
+1 2
+k ( 2L sin ( ) ) + W2L cos ( ) = 2k L sin ( ) + 2W L cos ( )
+2 2 2
+Equilibrium Position:The system is in equilibrium if d d V = 4k L sin ( ) cos ( ) - 2W L sin ( ) = 2L sin ( ) ( 2k L cos ( ) - W) = 0
+2
+Solving,
+ = 0
+or
+ = acos 
+ 2k L 
+W
+To have neutral stability at = 0, we require that d2 d
+2
+V = 4k L cos ( 2 0) - 2W L cos ( 0) = 4k L - 2W L = 0
+2
+2
+W = 2k L
+Problem 11-31 The two bars each have weight W. Determine the required stiffness k of the spring so that the two bars are in equilibrium at = 0. The spring has an unstretched length .
+1100
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Given:
+W = 8 lb
+ 0 = 30 deg
+ = 1 ft
+a = 2 ft
+Solution:
+ = 0
+V = 2W dV d k =
+ a sin ( ) + 1 k ( 2a cos ( ) - ) 2 2 2
+= W a cos ( ) - k( 2a cos ( ) - ) 2a sin ( ) = 0 W a cos ( )
+(2a cos ( ) - ) 2a sin ( )
+k = 2.812
+lb ft
+Problem 11-32 Each of the two springs has an unstretched length . Determine the mass M of the cylinder when it is held in the equilibrium position shown, i.e., y = a. Given: a = 1m b = 500 mm
+ = 500 mm
+k = 200 N m
+1101
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Solution: V=2 dV dy Set Guess Given k 2
+( (
+y +b
+2
+2
+)2 - M g y - ) 
+y
+2
+= 2k
+y +b -
+2
+2
+ y +b 
+2
+ - Mg
+y = a M = 1 kg
+2k
+(
+y +b -
+2
+2
+) 
+ - Mg = 0 2 2 y +b 
+y M = 22.5 kg
+M = Find ( M)
+Problem 11-33 The uniform beam has mass M. If the contacting surfaces are smooth, determine the angle for equilibrium and investigate the stability of the beam when it is in this position. The spring has an unstretched length of . Units Used: kN = 10 N Given: M = 200 kg k = 1.2 l = 2m 1 kN m
+3
+ = 0.5 m
+Solution: V = M g d d
+ sin ( ) + k ( l cos ( ) - ) 2 2
+l
+l
+2
+V = V&apos; = M g 
+ cos ( ) - k( l cos ( ) - ) l sin ( ) = 0 2
+2 sin ( ) + k l sin ( ) - k( l cos ( ) - ) l cos ( ) 2 2
+1102
+d2 d
+2
+V = V&apos;&apos; = -M g 
+l
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+There are 2 equilibrium points Guess
+ = 30 deg 1 = Find ( )
+Given
+M g 
+ cos ( ) - k( l cos ( ) - ) l sin ( ) = 0 2 cos ( ) - k( l cos ( ) - ) l sin ( ) = 0 2
+l
+l
+ 1 = 36.4 deg
+Given M g 
+Guess
+ = 60 deg 2 = Find ( )
+ 2 = 62.3 deg
+Check Stability V&apos;&apos; 1 = -M g V&apos;&apos; 2 = -M g 
+2 sin ( 1 ) + k l sin ( 1) - k( l cos ( 1 ) - ) l cos ( 1 ) 2 2 2 sin ( 2 ) + k l sin ( 2) - k( l cos ( 2 ) - ) l cos ( 2 ) 2 2
+l
+l
+V&apos;&apos; 1 = -1.624 kN m
+Unstable
+V&apos;&apos; 2 = 1.55 kN m
+Stable
+Problem 11-34 The bar supports a weight W at its end. If the springs are originally unstretched when the bar is vertical, determine the required stiffness k1 = k2 =k of the springs so that the bar is in neutral equilibrium when it is vertical. Given: W = 500 lb a = 3 ft b = 3 ft c = 3 ft
+Solution: V = W( a + b + c) cos ( ) + 1 2 k ( a sin ( ) ) +
+2
+1 2
+k ( a + b)sin ( ) 
+2
+d d
+V = -W( a + b + c) sin ( ) +
+k 2 2 a + ( a + b) sin ( 2 ) 2
+1103
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+d2 d at
+2
+V = -W( a + b + c) cos ( ) + ka + ( a + b) 
+2
+2
+ cos ( 2 )
+=0
+d2 d
+2
+V = -W( a + b + c) + ka + ( a + b) 
+2
+2
+=0
+for neutral stabiility
+k =
+W( a + b + c) a + ( a + b)
+2 2
+k = 100
+lb ft
+Problem 11-35 The uniform rod AB has a mass M. If spring DC is unstretched at = 90 deg, determine the angle for equilibrium and investigate the stability at the equilibrium position. The spring always acts in the horizontal position due to the roller guide at D. Units Used: kN = 10 N Given: M = 80 kg k = 2 Solution: V = M g d d kN m a = 1m b = 2m
+3
+ sin ( ) + k ( a cos ( ) ) 2 2 
+1 a + b k
+a + b
+2
+V&apos; =
+V = M g 
+2 cos ( ) - a sin ( 2 ) 2 2 
+V&apos;&apos; =
+d2 d
+2
+V = - M g 
+a + b 2
+2 sin ( ) - k a cos ( 2 ) 
+1104
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Equilibrium Guess Guess
+ = 30 deg = 70 deg
+a + b 2 a + b 2
+Given M g 
+ cos ( ) - 2 a + b Given M g cos ( ) - 2 
+a + b
+k 2 a sin ( 2 ) = 0 2 k 2 a sin ( 2 ) = 0 2
+ 1 = Find ( ) 2 = Find ( )
+Check Staibility V&apos;&apos; 1 = -M g 
+ 
+2 sin ( 1) - k a cos ( 2 1) 2 sin ( 2) - k a cos ( 2 2) 
+V&apos;&apos; 2 = -M g 
+ 1 = 36.1 deg 2 = 90.0 deg
+V&apos;&apos; 1 = -1.3 kN m V&apos;&apos; 2 = 0.82 kN m
+Unstable Stable
+Problem 11-36 Determine the angle for equilibrium and investigate the stability at this position. The bars each have mass mb and the suspended block D has mass mD Cord DC has a total length of L. Given: mb = 3 kg mD = 7 kg a = 500 mm L = 1m g = 9.81 m s Solution: V = 2mb g
+2
+Equilibrium a 2 sin ( ) - mD g( L + a - 2a cos ( ) ) = 0
+V = mb g a sin ( ) + 2mD g a cos ( ) - mD g( L + a)
+1105
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+d d
+V = mb g a cos ( ) - 2mD g a sin ( ) = 0 tan ( ) = mb 2mD
+ = atan 
+ mb 2mD 
+ = 12.095 deg
+Stability V&apos;&apos; = d
+2 2
+d
+V = -mb g a sin ( ) - 2mD g a cos ( ) V&apos;&apos; = -70.229 N m Since V&apos;&apos;&lt;0 the equilibrium point is unstable.
+V&apos;&apos; = -mb g a sin ( ) - 2mD g a cos ( )
+Problem 11-37 The bar supports a weight of W at its end. If the springs are originally unstretched when the bar is vertical, , investigate the stability of the bar when it is in the vertical position. Given: k1 = 300 k2 = 500 lb ft lb ft
+W = 500 lb a = 3 ft Solution: V = W3a cos ( ) + V = 3W a cos ( ) + 1 2 1 2 k1 ( a sin ( ) ) + k2 ( 2a sin ( ) ) 2 2 a (k1 + 4k2) sin ( )2 2
+2 2
+a V&apos; = V = -3W a sin ( ) + (k1 + 4k2) sin(2 ) 2 d d V&apos;&apos; = d
+2 2
+d
+V = -3W a cos ( ) + a ( k1 + 4k2 ) cos ( 2 )
+2
+1106
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+At
+ = 0 deg
+V&apos;&apos; = -3W a cos ( ) + a ( k1 + 4k2 ) cos ( 2 )
+2
+Since V&apos;&apos; = 1.62 10 lb ft&gt;0, then the vertical position is stable.
+4
+Problem 11-38 If each of the three links of the mechanism has a weight W, determine the angle for equilibrium. The spring, which always remains vertical, is unstretched when = 0. Solution: V= 1 2 k ( a sin ( ) ) - 2W a sin ( ) - W( 2a) sin ( ) 2 ka 2 sin ( ) - 4W a sin ( ) 2
+2
+V=
+d d
+V = k a sin ( ) cos ( ) - 4W a cos ( ) = 0
+2
+cos ( ) = 0 sin ( ) = 4W ka
+ = 90 deg = asin 
+4W ka 
+Problem 11-39 The small postal scale consists of a counterweight W1 connected to the members having negligible weight. Determine the weight W2 that is on the pan in terms of the angles and and the dimensions shown. All members are pin connected.
+1107
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Solution:
+ = - + constant
+V = W2 a sin ( ) - W1 b cos ( ) V&apos; = d d V = -W2 a cos ( ) + W1 b sin ( ) = 0
+W2 = W1 
+ b sin ( ) a cos ( ) 
+Problem 11-40 The uniform right circular cone having a mass m is suspended from the cord as shown. Determine the angle at which it hangs from the wall for equilibrium. Is the cone in stable equilibrium? Solution: V = -
+ 3a cos ( ) + a sin ( ) m g 4 2 
+= -
+V&apos; =
+dV d
+2
+ -3a sin ( ) + a cos ( ) m g 4 2 -3a cos ( ) - a sin ( ) m g 4 2 
+V&apos;&apos; =
+d V d
+2
+= -
+Equilibrium V&apos; = 0 3 1 sin ( ) = cos ( ) 2 4 tan ( ) = 1 6 1 = atan 
+ 6
+ = 9.462 deg
+1108
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+V&apos;&apos; = - 
+-3
+2
+cos ( ) -
+1 4
+sin ( ) a m g 
+V&apos;&apos; = 1.521m g a
+Stable
+Problem 11-41 The homogeneous cylinder has a conical cavity cut into its base as shown. Determine the depth d of the cavity so that the cylinder balances on the pivot and remains in neutral equilibrium. Given: a = 50 mm b = 150 mm Solution: b 2 d1 2 a b - a d 2 43 
+yc =
+a b -
+2
+1 2 a d 3
+V = ( yc - d) cos ( ) W
+d d
+V = -W sin ( ) ( yc - d)
+ = 0 deg
+d2 d
+2
+(equilibrium position)
+V = -W cos ( ) ( yc - d) = 0
+d = yc Guess d = 10 mm d1 2 b 2 a b - a d 43 2 
+Given
+d=
+a b -
+2
+1 2 a d 3
+d = Find ( d)
+d = 87.868 mm
+1109
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Problem 11-42 The conical manhole cap is made of concrete and has the dimensions shown. Determine the critical location h = hcr of the pick-up connectors at A and B so that when hoisted with constant velocity the cap is in neutral equilibrium. Explain what would happen if the connectors were placed at a point h&gt;hcr. Given: a = 2 ft b = 2.5 ft c = 3 ft d = 5 ft e = d - ( b - a) Solution: V = W( yc - h) cos ( ) d d V = W( h - yc) sin ( ) = 0
+Equilibrium at sin ( ) = 0
+ = 0deg
+For neutral equilibrium require d
+2 2
+d
+V = W( h - yc) cos ( ) = 0
+Thus
+yc = h cd d-b ce e-a
+Thus, A and B must be at the elevation of the center of gravity of the cap. c1 =
+c2 =
+2 2 2 2 d c1 c1 - b c1 - c c1 + 3c - e c2 c2 + a c2 - c c2 + 3c 2 3 4 2 3 4 2 3 4 2 3 4 yc = 2 2 2 2 d c1 - b c1 - c - e c2 + a c2 - c 2 3 2 3 2 3 2 3 
+hcr = yc
+hcr = 1.32 ft
+If h&gt;hcr then stable.
+1110
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Problem 11-43 Each bar has a mass per length of m0. Determine the angles and at which they are suspended in equilibrium. The contact at A is smooth, and both are pin con-nected at B. Solution: 1 + = atan 
+ 2
+V=-
+l 3l l 3l l m0 cos ( ) - l m0 cos ( ) - m0 l cos ( ) + sin ( ) 4 2 2 4 2 9m0 l 8
+2
+d d
+V =
+sin ( ) - m0 l sin ( ) +
+2
+m0 l 8
+2
+cos ( ) = 0
+Guess
+ = 10 deg
+ = 10 deg
+9 1 sin ( ) - sin ( ) + cos ( ) = 0 8 8
+Given
+1 + = atan 
+ 2
+ = Find ( , ) 
+ 9.18 = deg 17.38 
+Problem 11-44 The triangular block of weight W rests on the smooth corners which are a distance a apart. If the block has three equal sides of length d, determine the angle for equilibrium.
+1111
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+a
+60 + 60 -
+c b
+Solution: a b = sin ( 60 deg) sin ( 60 deg - ) b=a sin ( 60 deg - ) sin ( 60 deg)
+60
+ 2 V = W d sin ( 60 deg) cos ( ) - b cos ( 30 deg - ) 3 
+V= W 2 3 d d V = W 2 3
+( 2d cos ( ) - 2a cos (2 ) - a) (-2d sin ( ) + 8a sin ( ) cos ( )) = 0
+ 1 = 0 deg 2 = acos 
+d 4a 
+ 1 = asin ( 0)
+Problem 11-45 A homogeneous cone rests on top of the cylindrical surface. Derive a relationship between the radius r of the cylinder and the height h of the cone for neutral equilibrium. Hint: Establish the potential function for a small angle of tilt of the cone, i.e., approximate sin 0 and cos 1- 2/2.
+1112
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Solution: V=
+r + 
+h cos ( ) + r sin ( ) W 4 
+V app
+ h 2 + r 2 W = r + 1 - 2 4 
+h + 2r W = 0 4 
+d d
+V app = - r +
+dVapp d d
+2
+= r -
+ 
+h W = 0 4 h
+V = r- = 0 2 app 4 d Equilibrium
+ = 0 deg
+For neutral equilibrium: r= h 4
+Problem 11-46 The door has a uniform weight W1. It is hinged at A and is held open by the weight W2 and the pulley. Determine the angle for equilibrium. Given: W1 = 50 lb W2 = 30 lb
+1113
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+a = 6 ft b = 6 ft
+Solution: V = W1 d d Guess
+ 2
+b
+2 2 sin ( ) + W2 a + b - 2a b sin ( )
+V = W1 
+a b cos ( ) =0 cos ( ) - W2 2 2 2 a + b - 2a b sin ( ) b
+ = 10 deg
+W1 a b cos ( ) =0 cos ( ) - W2 2 2 2 a + b - 2a b sin ( ) b
+Given
+ = Find ( ) = 16.26 deg
+Problem 11-47 The hemisphere of weight W supports a cylinder having a specific weight . If the radii of the cylinder and hemisphere are both a., determine the height h of the cylinder which will produce neutral equilibrium in the position shown. Given: W = 60 lb a = 5 in
+ = 311
+lb ft
+3
+Solution: V = -W 
+2 h cos ( ) + a h cos ( ) 8 2
+3a 
+1114
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+V=
+ a2 h2 W3a cos ( ) - 8 2
+ a2 h2 W3a sin ( ) V = - - 8 2 d
+d
+ a2 h2 W3a cos ( ) V = - - 2 8 2 d
+d
+2
+For neutral equilibrium we must have
+ a h
+2
+2 2
+-
+W3a =0 8
+h =
+W3 4 a
+h = 3.99 in
+Problem 11-48 Compute the force developed in the spring required to keep the rod of mass Mrod in equilibrium at . The spring remains horizontal due to the roller guide. Given: k = 200 N m
+M = 40 N m a = 0.5 m
+ = 30 deg
+Mrod = 6 kg
+Solution: V = M + Mrod g d d
+ a sin ( ) + 1 k ( a cos ( ) - ) 2 2 2 a cos ( ) - k( a cos ( ) - ) a sin ( ) = 0 2
+V = M + Mrod g
+1115
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Guess
+ = 100 mm
+Given M + Mrod g
+ a cos ( ) - k( a cos ( ) - ) a sin ( ) = 0 2
+ = -0.622 m
+F = k( a cos ( ) - ) F = 211.0 N
+ = Find ( )
+Problem 11-49 Determine the force P acting on the cord which is required to maintain equilibrium of the horizontal bar CB of mass M. Hint: First show that the coordinates sA and sB are related to the constant vertical length l of the cord by the equation 5sB - sA = L. Given: M = 20 kg Solution: L = 4sB + ( sB - sA) L = 5sB - sA
+ L = 5 sB - sA = 0 sA = 5sB
+V = -M g sB + P sA
+ V = -M g sB + P sA = ( -M g + 5P) sB = 0
+P = Mg 5 P = 39.2 N
+1116
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Problem 11-50 The uniform bar AB has weight W. If the attached spring is unstretched when = 90 deg, use the method of virtual work and determine the angle for equilibrium. Note that the spring always remains in the vertical position due to the roller guide. Given: W = 10 lb k = 5 lb ft
+a = 4 ft Solution: y = a sin ( )
+y = a cos ( ) 
+U = ( -W + Fs) y = k( a - a sin ( ) ) - W a cos ( ) = 0 
+cos ( 1 ) = 0 sin ( 2 ) = 1 - W ka
+ 1 = acos ( 0) 2 = asin 1 - 
+W ka
+ 1 = 90 deg 2 = 30 deg
+Problem 11-51 The uniform bar AB has weight W. If the attached spring is unstretched when = 90 deg, use the principle of potential energy and determine the angle for equilibrium. Investigate the stability of the equilibrium positions. Note that the spring always remains in the vertical position due to the roller guide. Given: W = 10 lb k = 5 lb ft
+a = 4 ft
+1117
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Solution: V = W a sin ( ) + Equilibrium d d V = W a cos ( ) - k a ( 1 - sin ( ) ) cos ( ) = 0
+2
+1 1 2 2 2 k ( a - a sin ( ) ) = W a sin ( ) + k a ( 1 - sin ( ) ) 2 2
+cos ( 1 ) = 0 sin ( 2 ) = 1 - W ka
+ 1 = acos ( 0) 2 = asin 1 - 
+ 1 = 90 deg
+W ka
+ 2 = 30 deg
+Check Stability d V d
+2 2
+If V&apos;&apos;&gt;0 the equilibrium point is stable. If V&apos;&apos;&lt;0, then unstable
+V&apos;&apos; =
+= -W a sin ( ) + k a sin ( ) + k a cos ( 2 )
+2 2
+V&apos;&apos; 1 = -W a sin ( 1 ) + k a sin ( 1 ) + k a cos ( 2 1 )
+2 2 2 2
+V&apos;&apos; 1 = -40 lb ft V&apos;&apos; 2 = 60 lb ft
+V&apos;&apos; 2 = -W a sin ( 2 ) + k a sin ( 2 ) + k a cos ( 2 2 )
+Problem 11-52 The punch press consists of the ram R, connecting rod AB, and a flywheel. If a torque M is applied to the flywheel, determine the force F applied at the ram to hold the rod in the position = 0. Given: M = 50 N m
+ 0 = 60 deg
+r = 0.1 m a = 0.4 m Solution:
+ = 0
+Free Body Diagram: The system has only one degree of freedom defined by the independent coordinate . When undergoes a positive displacement , only force F and Moment M do work. a = x + r - 2x r cos ( )
+2 2 2
+0 = 2xx - 2r cos ( ) x + 2x r sin ( ) 
+x = 
+ x r sin ( ) r cos ( ) - x 
+U = -F x - M = -F 
+ x r sin ( ) - M = 0 r cos ( ) - x 
+1118
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher.
+Engineering Mechanics - Statics
+Chapter 11
+Guesses Given
+F = 1N
+2 2 2
+x = 0.1 m -F 
+a = x + r - 2x r cos ( )
+ x r sin ( ) - M = 0 r cos ( ) - x 
+x = Find ( x , F) F
+x = 0.441 m
+F = 512 N
+1119
+ 2007 R. C. Hibbeler. Published by Pearson Education, Inc., Upper Saddle River, NJ. All rights reserved. This material is protected under all copyright laws as they currently exist. No portion of this material may be reproduced, in any form or by any means, without permission in writing from the publisher. Find millions of documents on Course Hero - Study Guides, Lecture Notes, Reference Materials, Practice Exams and more.
+ Course Hero has millions of course specific materials providing students with the best way to expand
+ their education. 
+
+Below is a small sample set of documents:
+
+ 03 Washington - OCEAN - 250 10/03 Winds and waves: Generation -Depends on duration and fetch - Fetch: Length water over which a given wind has blown - Result is a distribution of wave size (heights) Particle Motion in a Wave - Water Molecule moves at an orbital path @ surface - 10 Washington - OCEAN - 250 Coriolis Effect: - Causes large scale motions to deflect to the right in the northern hemisphere, - And to the left in southern hemisphere. Coastal Upwelling (Ekman Transport): - Result of Wind + Coriolis - Net effect of along-coast wind: o Surface w Warm Up Washington - OCEAN - 250 09/26 Where do we find the highest tides in the world? - Bay of Fundy - Difference of high and low tide : 16.3m (3 story bldg) How do marine organisms deal with these tides? - Strategy to get oxygen: in and&amp;out of water - UV exposure and temp regul 01 Washington - OCEAN - 250 10/01 Why is there water in the ocean? Hydrologic Cycle + Precipitation + Run-off - Evaporation Continents: Ocean: Precipitation&gt;Evaporation Evaporation&gt;PrecipitationPhysical Differences Between Marin and Terrestrial Systems 1) Water is 850x de 28 Washington - OCEAN - 250 09/28 What is an ocean? Composition of water on Earth: - 97% Ocean - 2% Ice - .5% Groundwater - .01% Rivers Average Ocean Depth: Average Temp: 3,796m 3.9 C- 4.6 million tons of salt on Earth: most in Ocean - Lithosphere = Crust + top of mantle - Li 08 Washington - OCEAN - 250 10/08 Why does wind blow east-west, as well as north-south Coriolis Effect - Things move to the right in northern hemisphere, to the left in southern - Winds would only move north and west if it were not for them Surface Currents - NE trade winds bl 05 Washington - OCEAN - 250 10/05 Salinity: - Total quantity of dissolved inorganic substances(salts) in water - Anions and Cations, not just NaCl - Principal of constant proportion = proportion of major constituents dissolved in seawater is fixed (no matter what salinity is) 04 Washington - OCEAN - 250 10/04 Apollo- Moon History Lunar Science - Even&quot;young surfaces&quot;are old - Not all Mare surfaces formed at the same time - Impacts played a large role in shaping the Moon o Highlands not formed by volcanism, but by impacts - Imbrium Basin is 3.85 Byr 11 Washington - ASTR - 150 10/11 The History of the Moon Origin Constraints: Mass of the Moon - Mass compared to Earth is very large compared to other plants/ moons - Almost 100x larger than expected Earth Moon Angular Momentum - Angular momentum: Spins faster as mass pulls 02 Washington - ASTR - 150 Surface of the Moon The moon has the same features as man other worlds It can be classified into two types of surfaces: Mare and HighlandsLunar Highlands Albedo: Age: Crater Density: Main Geological Feature: Primary Rock Types: High, Bumpy Old High 27 Washington - ASTR - 150 09/27 Intro The sun makes up a massive part of the solar system, 99.85%-Phase Diagrams o Shows the boundaries between the phases of solid, liquid, and gas of a substance o Phase depends on temperature and pressureDensity, Albedo, and Moment of Philosophy Notes Maryland - PHIL - 140 Philosophy Notes 9/5 Terrorism Is terrorism wrong? We tend to think its wrong Some think its always wrong Some think its permissible What is it? (Examples) Bombs in public places (Belfast, Paris, Madrid) 9/11: destruction of WTC 9/11: attack on the P AIM 3341 Exam 1 Notes UT Dallas - AIM - 3341 AIM 3341 Exam 1 Notes: 1. Organizational core competencies can include: a. Patents, copyrights and special legal protection 2. Organizational strategies: a. Are reconsidered periodically in response to changes in the organization or environment 3. Un AIM 3341 Exam 2 Notes UT Dallas - AIM - 3341 AIM 3341 Exam 2 Notes: Chapter 5: Bassets on the Run My Life as a Cat I Wanna Be a Fish Actual DLHrs this period Actual OH for BotR Actual OH for IWBaF Estimated DLHrs this period OH allocated for MLaaC Over/(Underapplied) OH $100,000 (500,000) (700, AIM 3341 Exam 3 Notes UT Dallas - AIM - 3341 AIM 3341 Ch10: Budget a formalized financial plan for future operations Budget Cycle series of steps organizations follow to develop and use budgets Cash Budget managers plan receipts, disbursements, and short-term borrowing or investments Favorab ch 5 and 7 notes - quiz UT Dallas - AIM - 3341 But it would be helpful to know 1)why cost accounting systems were originally developed 2)definition of an activity 3)how Managers identify activities 4)definition of value-added activities 5)definition of scrap 6)journal entry for adjusting overhead Ch 10 Quiz Notes UT Dallas - AIM - 3341 AIM 3341 Chapter 10 Notes: Flexible budget reflects a range of operations; prepared for multiple levels of sales volume; prepared at the beginning of the year for planning purposes and at the end of the year for performance purposes; separate fixed Ch.2 and 3 Notes UT Dallas - AIM - 3341 AIM 3341 Ch.2 and 3 Notes:CH 2: Cost Object any thing or activity for which we measure costs (Ex: individual products, product lines, projects, customers, departments) Cost Assignment determining the costs that should attach to a cost object Cost chapter13 University of Florida - DEP - 3053 CHAPTER 13: ABNORMAL PSYCHOLOGY, 13eChapter Thirteen: Sexual Variants, Abuse, and DysfunctionsBEFORE YOU READ Paradoxically, sex is a common topic in the movies, on television, and in music, yet we rarely talk about it openly in our own lives, and Chapter_01_Summary_Outline University of Florida - STA - 3024 Chapter 1 Overview/Summary Encountering instances of abnormal behavior is a common experience for all of us. This is not surprising given the high prevalence of many forms of mental disorder. A precise definition of abnormality is still elusive. Even chapter9 University of Florida - DEP - 3053 CHAPTER 9: ABNORMAL PSYCHOLOGY, 13eChapter 9: Eating Disorders and ObesityBEFORE YOU READ Why are the majority of Americans obsessed with losing weight, despite the fact that obesity rates are rising? Why would countless young women, including cel chapter11 University of Florida - DEP - 3053 CHAPTER 11: ABNORMAL PSYCHOLOGY, 13eChapter 11: Personality DisordersBEFORE YOU READ Personality disorders differ from other mental health diagnoses because they are ingrained&quot;lifestyles&quot;or characteristic patterns that are maladaptive and persis Chapter_02_Summary_Outline University of Florida - STA - 3024 Chapter 2 Overview/Summary Progress in understanding abnormal behavior over the centuries has not been smooth or uniform. The steps have been uneven, with great gaps in between. Unusual, even bizarre, views or beliefs have often sidetracked researche Chapter_03_Summary_Outline University of Florida - STA - 3024 Chapter 3 Overview/Summary Usually the occurrence of abnormal or maladaptive behavior is considered to be the joint product of a person&apos;s vulnerability (diathesis) to disorder and of certain stressors that challenge his or her coping resources. In co Chapter_04_Summary_Outline University of Florida - STA - 3024 Chapter 4 Overview/Summary Understanding and appropriately treating psychological disorders depends, in large part on the adequacy of clinical assessment. The assessment process typically involves interviews, observations, and psychological tests tha Chapter_09_Summary_Outline University of Florida - CLP - 3144 Chapter 9 Overview/Summary DSM-IV-TR recognizes three different forms of eating disorder: anorexia nervosa, bulimia nervosa, and eating disorder NOS. A fourth type of eating disorder, binge-eating disorder, is listed in the Appendix and is not yet pa Chapter_11_Summary_Outline University of Florida - CLP - 3144 Chapter 11 Overview/Summary Personality disorders are characterized by inflexible and distorted behavioral patterns and traits that result in maladaptive ways of perceiving, thinking about, and relating to other people and the environment. Difficulti Chapter_13_Summary_Outline University of Florida - CLP - 3144 Chapter 13 Overview/Summary Defining boundaries between normality and psychopathology in the area of variant sexuality is very difficult, in part because sociocultural influences on what have been viewed as normal or aberrant sexual practices abound. Chapter_14_Summary_Outline University of Florida - CLP - 3144 Chapter 14: Schizophrenia and Other Psychotic Disorders Overview/Summary Schizophrenia is the most severe form of mental illness. It is characterized by impairments in many domains and affects approximately one percent of the population. Characterist Chapter_15_Summary_Outline University of Florida - CLP - 3144 Chapter 15: Cognitive Disorders Overview/Summary The DSM-IV recognizes various cognitive disorders, including delirium, dementia, and amnestic disorder. Typically, these disorders result from transient or permanent damage to the brain. Chronic neurop Chapter_17_Summary_Outline University of Florida - CLP - 3144 Chapter 17: Therapy Chapter Overview/Summary People seek treatment for a variety of reasons including: personal distress, physician referral, an effort to improve marriages, and an effort to avoid legal trouble. Unfortunately, many patients come to t Cognitive Psychology Exam 2 Study Guide University of Florida - EXP - 3116 Cognitive Psychology Exam 2 Study Guide Term Attention Attenuation Theory Cocktail Party Effect Late Selection Driving Chunking Pronunciation Rate Pron. Similarity Proactive Interference Retroactive Interference STM Coding Central Executive Phonologi EXAM 2 Review Sheet S08 University of Florida - EXP - 3116 EXAM 2 Review Sheet On this exam, more questions will come from information in the book that may not have been covered in lecture. These are the concepts with which you should be familiar for the exam: Attention Attenuation theory/cocktail party phen EXAM 3 REVIEW SHEET S08 University of Florida - EXP - 3116 EXP 3604 EXAM 3 REVIEW SHEET The following concepts will be included on the exam: The Atkinson-Shiffrin Model of memory sensory memory, short-term memory, and long-term memory (general relationships/comparison) Serial Position curve Primacy Effect R EXP 3604 EXAM 3 REVIEW SHEET University of Florida - EXP - 3116 EXP 3604 EXAM 3 REVIEW SHEET The Atkinson-Shiffrin Model of memory sensory memory, short-term memory, and long-term memory (general relationships/comparison): Sensory Memory: Passive, Brief, Large Capacity, Rapid Forgetting STM: Active, Short, Limit Chapter 8 Review University of Florida - EXP - 3116 Chapter 8 : Significance Tests about Hypotheses Significance tests or Tests of Hypotheses is another major method of statistical inference alongside point and interval estimation. A Hypothesis is a statement about one or more . Eg : A statement about Chapter 9 Review - Part I University of Florida - STA - 3024 Chapter 9 : Comparing Two Groups In chapters 7 and 8, we learned how to construct confidence intervals of and test hypothesis about means and proportions corresponding to population. Now, we shall extend the above method to groups or populations i.e Chapter 9 Review - Part II University of Florida - EXP - 3116 Comparing Two Means Two groups can be compared on a response variable if we compare their I. Confidence Intervals Let 1 :.mean corresponding to the response variable for the first group. 2 : mean corresponding to the response variable for the sec CHAPTER 10 - Part I University of Florida - EXP - 3116 Chapter 10 Association between Two Categorical Variables What we have seen so far? o In Chapters 3 and 11 we analyzed the association between a response variable and a explanatory variable using simple regression analysis. In Chapter 12 we we analyze Chapter 10 - Part II University of Florida - EXP - 3116 Advantages of 2 statistic over z statistic : A statistic can only be used to compare a estimate to its hypotheses value i.e for hypotheses like : H0 : This is only possible in or H0 : tables as we saw above.For contingency tables with more than ro Chapter 10 - Part III University of Florida - EXP - 3116 Association in (r x c) tables : In the last lecture we learnt how the difference of and the ratio of can be used to measure the strength of association in contingency tables. Basically, these measures compare the (or probabilities) for a particular r Chapter 14 - Part II University of Florida - EXP - 3116 Notes : When should we use non-parametric tests? When the is too small.When the response distribution is not This can happen if the data has . In this case statistical methods which are based on the normality assumption breaks down and we have to u Chapter 14 - Part III University of Florida - EXP - 3116 Wilcoxon Signed-Rank Test Last time we learnt about the Sign test for comparing data. One disadvantage of the Sign test is that it only takes into account the but NOT the exact of the difference between the two observations in a pair. Wilcoxon&apos;s Sign Chapter 14-Part I University of Florida - EXP - 3116 Chapter 14 : Non-parametric Statistical Inference A whole new world! This is because non-parametric statistics is a totally new (and different) concept in the domain of statistical inference. Till now, all the statistical procedures that we have used Exam 3 Practice Test University of Florida - EXP - 3116 STA 3024EXAM 3 Practice ProblemsSpring 2008NOTE: These are just Practice Problems. This is NOT meant to look just like the test, and it is NOT the only thing that you should study. Make sure you know all the material from the notes, quizzes, su Exam 3 Review University of Florida - EXP - 3116 Exam 3 Review Do plain and peanut m&amp;m&apos;s have the same distribution of colors? Several bags of each variety (plain and peanut) m&amp;m&apos;s were randomly selected, and the number of candies of each color was counted before eating any of them. The data appear Examination 1 Review University of Florida - EXP - 3116 Exam 1 Review Example 1: Do pregnant women who smoke have babies with lower birth weight than those who do not smoke? A researcher thinks so. To test her conjecture she has recorded the birth weight of babies born at Shands in a given period, togethe Practice Questions for Exam 1 University of Florida - EXP - 3116 Practice Questions for Exam 1 NOTE: These are just Practice Problems. This is NOT meant to look just like the test, and it is NOT the only thing that you should study. Make sure you know all the material from the notes, quizzes, suggested homeworks a Edel436-Culminating IDea CSU Fullerton - EDEL - 436 Culminating Idea Students will make a triarama depicting the three different rocks: igneous, sedimentary and metamorphic. Each section of the triarama will be devoted to one type of rock. For example, one side of the triarama will be all about an ign eldstandard CSU Fullerton - EDEL - 436 Skill : Reading Area : Reading ComprehensionProficiency Level : IntermediateCategory : ComprehensionGrade Level : Grades K-2[remove] Benchmark : Understand and follow some multi- step directions for classroomrelated activities.Proficiency L edel433heilmanch6handout CSU Fullerton - EDEL - 433 Chapter 6- Vowel Letter-Sound Relationships Vowels make two different sounds: short sound and the long sound. Short Vowel Sounds Generalizations: o A single vowel that does not conclude a word usually has its short sound Examples: am, an, and, ant, Relations CSTP and TPE CSU Fullerton - EDEL - 429 At Risk and Gifted Students Vaughn Ch. 12 CSTP&quot;C&quot;: Engaging and Supporting Students in Learning o -Teachers need to set challenging learning goals for every student depending student experience, language development, and home and school expectations Edel429-10 Best Ideas for Reading2 CSU Fullerton - EDEL - 429 10 Best Ideas for Reading 1. Read aloud to students at least once a day. Reading aloud to students can benefit all students regardless of the age. Reading aloud to students stimulates their imagination, exposes students to a variety of literature, an Paper 2 RIT - CLA - 0508.211.0 Erica Grimaldi Science Technology&amp;Values 0508-211-03References Nye, D. E. (2006). Technology Matters: Questions to Live With. Cambridge, Massachusetts: MIT Press.Erica Grimaldi Science Technology&amp;Values 0508-211-03Life would be a lot harder Paper 1 RIT - CLA - 0508.211.0 Erica Grimaldi Science Technology&amp;Values 0508 21103 Paper 1: The Social Aspects of Modern Science Social aspects are very important to modern science, but are not as important as scientific skill. Some social aspects of modern science inc taniaali FSU - FAD - 2230 Communications Log Week 4 Due in class April 11 Speaker-Listener Technique (Review) Rules: Each person gets time to have the floor (to speak) Whoever has the floor can&apos;t be interrupted The person with the floor is the one whose message, idea, concern Key Terms EXAM 3 AMH2097 FSU - AMH - 2097 Key Terms Exam 3 AMH2097 Cold War Era- leads to fleeing of communism. Supporting Democratic Government Winston Churchill- prime minister of Great Britain, birth of Cold War, Iron Curtain Joseph Stalin- prime minister of Russia 1945 War Brides Act- en key termsexam3 FSU - AMH - 2097 Key Terms Exam 3 AMH2097 Cold War Era- leads to fleeing of communism. Supporting Democratic Government Winston Churchill- prime minister of Great Britain, birth of Cold War, Iron Curtain Joseph Stalin- prime minister of Russia 1945 War Brides Act- en Key Terms EXAM 2 AMH2097 FSU - AMH - 2097 Key Terms for Exam 2 AMH2097 Irish Immigration- first group to travel in large numbers, they came to the East coast of the US because they didn&apos;t have enough money to go farther inland, or to the West Pre-Famine 1820-1844- population boom, more peopl amh2097-2-27-08 FSU - AMH - 2097 KKK o The protocols of the elders of Zion Jewish people controlling our banking system Nativism From the mob to the state German Language in schools 1830s allowed to be spoken in public schools, could be the main language The Bennett Law (1890) Orig SPAN 101 - chtp 5 mi diario Wisc Eau Claire - SPAN - 101 Todd Lau Span 101 6/12/07 Mi Diario En la primavera me gusta jugar afuera porque no me gusta quedarse en la casa en invierno. En Abril nos celebramos el cumpleaos de mi madre. Luego nos ir a salir de la playa y nadamos. En el verano yo salgo a la noc 
+Flashcards
+ 
+ Copyright Law Term Definition fictionalizations &amp;#10;&amp;#10;&amp;#... &amp;#10;&amp;#10;&amp;#151;Thoug... exemption... &amp;#10;&amp;#10;SCMS&amp;#10;th... &amp;#10;&amp;#10;It... Each right may be... indefinitely     
+ 
+ Grade 41 Term Definition ¿Cuando? When? noi facciamo rift ... ever ever     
+ 
+ Grade Vocabulary 14 Term Definition gracioso(a) funny tu devi asylum sanctuary everyone everyone     
+ 
+ Environmental Science - Complete Set Term Definition abundance The number... acid precipitation &quot;Acidic... acids Substances... active solar system &quot;A...     
+ 
+ CISSP Glossary Term Definition * (star) Integrity... An axiom of... * (star) Security... A property... 1000Base-T A form of... 100Base-TX Another form...     
+ 
+ Sitemap Tutors Educational Concepts Textbooks Blog Study Skills 
+ Course Hero is not sponsored or endorsed by any college or university.
+Copyright©2012. Course Hero, Inc.
+	</body>
+</document>

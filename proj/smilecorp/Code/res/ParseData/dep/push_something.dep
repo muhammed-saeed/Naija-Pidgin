@@ -1,0 +1,276 @@
+det(thing-3, the-2)
+dobj(locate-1, thing-3)
+aux(push-5, to-4)
+infmod(thing-3, push-5)
+
+dobj(position-1, yourself-2)
+prep_behind(position-1, it-4)
+
+
+det(thing-3, the-2)
+dobj(locate-1, thing-3)
+aux(pushed-6, to-4)
+auxpass(pushed-6, be-5)
+infmod(thing-3, pushed-6)
+
+det(thing-4, that-3)
+prep_to(move-1, thing-4)
+
+dobj(put-1, hands-2)
+det(thing-5, the-4)
+prep_on(put-1, thing-5)
+
+nsubj(desired-5, move-1)
+det(direction-4, the-3)
+prep_towards(move-1, direction-4)
+mark(held-8, while-6)
+nsubj(held-8, hands-7)
+advcl(desired-5, held-8)
+det(thing-11, the-10)
+prep_against(held-8, thing-11)
+
+complm(fall-6, whether-2)
+det(object-4, the-3)
+nsubj(fall-6, object-4)
+aux(fall-6, might-5)
+ccomp(see-1, fall-6)
+mark(pushed-8, if-7)
+advcl(fall-6, pushed-8)
+
+nsubj(push-3, if-1)
+neg(push-3, not-2)
+dobj(push-3, object-4)
+poss(hands-7, your-6)
+prep_with(push-3, hands-7)
+
+prep_toward(move-1, something-3)
+
+dobj(make-1, contact-2)
+prep_with(make-1, it-4)
+
+dep(continue-1, moving-2)
+
+det(object-3, the-2)
+dobj(approach-1, object-3)
+
+dobj(place-1, hands-2)
+det(object-5, the-4)
+prep_on(place-1, object-5)
+
+det(object-4, the-3)
+prep_toward(lean-1, object-4)
+
+advmod(move-4, hopefully-1)
+nsubj(move-4, this-2)
+aux(move-4, will-3)
+det(object-6, the-5)
+dobj(move-4, object-6)
+advmod(need-9, where-7)
+rel(need-9, where-7)
+nsubj(need-9, you-8)
+rcmod(object-6, need-9)
+dobj(need-9, it-10)
+
+dobj(apply-1, pressure-2)
+prep_to(apply-1, something-4)
+
+prep_behind(move-1, object-3)
+
+prep_towards(lean-1, object-3)
+
+dobj(put-1, hands-2)
+prep_on(put-1, object-4)
+
+poss(weight-3, your-2)
+dobj(move-1, weight-3)
+prep(move-1, forward-4)
+dep(forward-4, pressing-5)
+poss(hands-7, your-6)
+dobj(pressing-5, hands-7)
+prep_on(pressing-5, object-9)
+
+dobj(position-1, yourself-2)
+prep_behind(position-1, object-4)
+
+prep_against(lean-1, object-3)
+prep_with(lean-1, hands-5)
+prep_in(hands-5, front-7)
+
+dobj(apply-1, weight-2)
+aux(object-4, to-3)
+xcomp(apply-1, object-4)
+advmod(object-4, so-5)
+complm(moves-8, that-6)
+nsubj(moves-8, it-7)
+ccomp(object-4, moves-8)
+
+advmod(reached-3, when-2)
+advcl(stop-1, reached-3)
+amod(location-5, desired-4)
+dobj(reached-3, location-5)
+
+aux(object-3, to-2)
+xcomp(move-1, object-3)
+
+dobj(apply-1, force-2)
+det(object-5, the-4)
+prep_to(apply-1, object-5)
+
+amod(hand-4, one-2)
+dep(one-2, s-3)
+dobj(put-1, hand-4)
+det(thing-7, the-6)
+prep_on(put-1, thing-7)
+
+dobj(apply-1, force-2)
+det(thing-5, the-4)
+prep_to(apply-1, thing-5)
+
+dobj(place-1, hands-2)
+prep_on(place-1, object-4)
+
+dobj(apply-1, force-2)
+aux(move-4, to-3)
+xcomp(apply-1, move-4)
+dobj(move-4, object-5)
+prep_across(move-4, floor-7)
+
+dobj(place-1, hands-2)
+prep_on(place-1, object-4)
+
+dobj(push-1, it-2)
+
+dobj(find-1, something-2)
+
+prep_on(push-1, something-3)
+
+prep_close_to(get-1, something-4)
+
+dobj(put-1, arms-2)
+prep_on(put-1, something-4)
+
+prepc_of(object-5, placing-2)
+dobj(placing-2, hands-3)
+prep(placing-2, on-4)
+aux(pushed-8, to-6)
+auxpass(pushed-8, be-7)
+dep(object-5, pushed-8)
+
+dobj(have-1, feet-2)
+advmod(have-1, firmly-3)
+det(ground-6, the-5)
+prep_on(have-1, ground-6)
+
+prep_behind(get-1, something-3)
+
+dobj(move-1, something-2)
+advmod(move-1, forward-3)
+
+dobj(place-1, yourself-2)
+det(thing-6, the-5)
+prep_next_to(place-1, thing-6)
+
+dobj(put-1, both-2)
+poss(palm-5, your-4)
+prep_of(both-2, palm-5)
+det(side-8, the-7)
+prep_on(put-1, side-8)
+det(thing-11, the-10)
+prep_of(side-8, thing-11)
+
+dep(start-1, pushing-2)
+advmod(pushing-2, forward-3)
+
+nsubj(stand-1, behind-2)
+
+nn(hands-2, place-1)
+nsubj(lean-5, hands-2)
+prep_on(hands-2, object-4)
+det(object-8, the-7)
+prep_into(lean-5, object-8)
+
+advmod(walk-1, forward-2)
+dep(walk-1, pushing-3)
+prep_with(pushing-3, arms-5)
+
+dobj(put-1, hands-2)
+prep_on(put-1, something-4)
+
+dobj(apply-1, pressure-2)
+aux(push-4, to-3)
+xcomp(apply-1, push-4)
+
+dobj(place-1, hands-2)
+prep_on(place-1, object-4)
+
+dobj(push-1, object-2)
+prep_away_from(push-1, self-5)
+
+prt(plan-1, out-2)
+dobj(plan-1, location-3)
+
+prep_on(decide-1, method\/strategy-3)
+
+dobj(bend-1, knees-2)
+
+prep_with(push-1, hands-3)
+nn(weight-6, body-5)
+prep_with(push-1, weight-6)
+advmod(push-1, behind-7)
+
+dobj(push-1, object-2)
+amod(state-5, desired-4)
+prep_to(push-1, state-5)
+
+
+dobj(push-1, object-2)
+
+dobj(push-1, thing-2)
+
+dobj(face-1, object-2)
+
+det(hands-3, both-2)
+dobj(place-1, hands-3)
+prep_on(place-1, object-5)
+
+prep_on(lean-1, object-3)
+
+dobj(extend-1, arms-2)
+
+prep_towards(face-1, object-3)
+
+dobj(place-1, hands-2)
+prep_on(place-1, object-4)
+
+advmod(lean-1, forward-2)
+prep_towards(lean-1, object-4)
+
+dobj(use-1, weight-2)
+poss(body-5, your-4)
+prep_of(weight-2, body-5)
+poss(hands-8, your-7)
+prep_through(use-1, hands-8)
+aux(push-10, to-9)
+infmod(hands-8, push-10)
+prep_against(push-10, object-12)
+
+nsubj(object-2, select-1)
+xsubj(push-4, select-1)
+aux(push-4, to-3)
+xcomp(object-2, push-4)
+
+prt(walk-1, up-2)
+aux(object-4, to-3)
+xcomp(walk-1, object-4)
+
+poss(hands-3, your-2)
+dobj(place-1, hands-3)
+prep_on(place-1, object-5)
+
+advmod(push-2, gently-1)
+det(object-4, the-3)
+dobj(push-2, object-4)
+
+dobj(use-1, force-2)
+prep_on(use-1, something-4)
+

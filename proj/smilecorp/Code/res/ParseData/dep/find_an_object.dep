@@ -1,0 +1,407 @@
+advmod(likely-6, where-2)
+det(object-4, the-3)
+nsubj(likely-6, object-4)
+cop(likely-6, is-5)
+advcl(think-1, likely-6)
+aux(be-8, to-7)
+xcomp(likely-6, be-8)
+
+det(location-4, that-3)
+prep_to(go-1, location-4)
+
+det(object-4, the-3)
+prep_for(look-1, object-4)
+
+prep_for(look-1, object-3)
+
+aux(object-3, to-2)
+xcomp(go-1, object-3)
+
+nsubjpass(found-4, object-2)
+auxpass(found-4, is-3)
+dep(announce-1, found-4)
+
+prep_around(look-1, you-3)
+
+mark(seen-3, if-1)
+neg(seen-3, not-2)
+csubj(drawers-8, seen-3)
+ccomp(seen-3, look-4)
+det(table-7, the-6)
+prep_in(look-4, table-7)
+
+mark(seen-3, if-1)
+neg(seen-3, not-2)
+csubj(look-4, seen-3)
+det(shelves-7, the-6)
+prep_on(look-4, shelves-7)
+
+mark(seen-3, if-1)
+neg(seen-3, not-2)
+csubj(look-4, seen-3)
+det(closet-7, the-6)
+prep_in(look-4, closet-7)
+
+neg(iif-1, not-2)
+dep(iif-1, seen-3)
+ccomp(seen-3, look-4)
+det(table-7, the-6)
+prep_under(look-4, table-7)
+
+prep_for(look-1, places-3)
+dobj(located-10, which-5)
+det(object-7, an-6)
+nsubjpass(located-10, object-7)
+aux(located-10, might-8)
+auxpass(located-10, be-9)
+prepc_in(look-1, located-10)
+
+det(object-4, the-3)
+prep_for(look-1, object-4)
+prep_in(object-4, proximity-6)
+amod(objects-9, other-8)
+prep_to(look-1, objects-9)
+
+det(object-3, the-2)
+dobj(determine-1, object-3)
+aux(find-5, to-4)
+infmod(object-3, find-5)
+
+advmod(search-2, carefully-1)
+det(rooms-4, all-3)
+dobj(search-2, rooms-4)
+det(object-7, the-6)
+prep_for(search-2, object-7)
+
+advmod(house-5, around-3)
+det(house-5, the-4)
+prep_outside(search-1, house-5)
+det(object-8, the-7)
+prep_for(house-5, object-8)
+
+prt(look-1, around-2)
+det(room-6, the-4)
+amod(room-6, current-5)
+prep_in(look-1, room-6)
+det(object-9, the-8)
+prep_for(room-6, object-9)
+
+nsubj(found-3, if-1)
+neg(found-3, not-2)
+det(amount-7, a-5)
+amod(amount-7, certain-6)
+prep_within(found-3, amount-7)
+nn(move-10, time-9)
+prep_of(amount-7, move-10)
+det(room-14, an-12)
+amod(room-14, unvisited-13)
+prep_to(found-3, room-14)
+
+prt(look-1, around-2)
+prep_for(look-1, object-4)
+
+nsubj(found-3, if-1)
+neg(found-3, not-2)
+dobj(found-3, move-4)
+amod(room-7, next-6)
+prep_to(move-4, room-7)
+
+mark(see-5, if-2)
+nsubj(see-5, you-3)
+aux(see-5, can-4)
+advcl(determine-1, see-5)
+det(object-7, the-6)
+dobj(see-5, object-7)
+
+dep(looking-5, what-2)
+nsubj(looking-5, you-3)
+aux(looking-5, are-4)
+ccomp(change-1, looking-5)
+prep(looking-5, at-6)
+
+
+nsubj(object-3, what-2)
+ccomp(know-1, object-3)
+nsubj(re-5, you-4)
+ccomp(object-3, re-5)
+dep(re-5, looking-6)
+prep(looking-6, for-7)
+
+advmod(be-6, where-3)
+nsubj(be-6, it-4)
+aux(be-6, can-5)
+prepc_about(think-1, be-6)
+
+det(places-4, those-3)
+prep_to(go-1, places-4)
+
+det(object-4, the-3)
+prep_for(search-1, object-4)
+
+det(object-3, the-2)
+dobj(spot-1, object-3)
+
+prep_around(look-1, room-3)
+
+amod(room-4, next-3)
+prep_to(move-1, room-4)
+mark(not-6, if-5)
+advcl(move-1, not-6)
+dep(not-6, found-7)
+
+mark(found-3, if-1)
+neg(found-3, not-2)
+csubj(ask-4, found-3)
+dobj(ask-4, someone-5)
+
+det(object-4, the-3)
+prep_for(search-1, object-4)
+
+advmod(else-3, where-2)
+advcl(think-1, else-3)
+nsubj(be-6, it-4)
+aux(be-6, could-5)
+dep(else-3, be-6)
+
+advmod(search-1, there-2)
+
+mark(found-5, until-2)
+nsubjpass(found-5, object-3)
+auxpass(found-5, is-4)
+advcl(repeat-1, found-5)
+
+det(place-5, the-2)
+advmod(probable-4, most-3)
+amod(place-5, probable-4)
+dobj(determine-1, place-5)
+advmod(be-10, where-6)
+rel(be-10, where-6)
+det(object-8, the-7)
+nsubj(be-10, object-8)
+aux(be-10, might-9)
+rcmod(place-5, be-10)
+
+det(place-3, that-2)
+dobj(search-1, place-3)
+prep(search-1, looking-4)
+dep(looking-4, for-5)
+pobj(for-5, object-6)
+
+det(place-5, the-3)
+amod(place-5, last-4)
+prep_in(look-1, place-5)
+nsubj(had-7, you-6)
+rcmod(place-5, had-7)
+dobj(had-7, it-8)
+
+prep_for(look-1, object-3)
+
+dobj(see-1, object-2)
+
+det(location-4, a-3)
+prep_to(move-1, location-4)
+
+det(object-4, the-3)
+prep_for(look-1, object-4)
+det(location-7, the-6)
+prep_in(look-1, location-7)
+
+mark(find-3, if-1)
+nsubj(find-3, you-2)
+advcl(pick-6, find-3)
+det(object-5, the-4)
+nsubj(pick-6, object-5)
+dobj(pick-6, it-7)
+prt(pick-6, up-8)
+
+dep(don-3, if-1)
+nsubj(don-3, you-2)
+dobj(don-3, t-4)
+dep(don-3, find-5)
+det(move-8, the-6)
+nn(move-8, object-7)
+dobj(find-5, move-8)
+det(location-12, a-10)
+amod(location-12, different-11)
+prep_to(move-8, location-12)
+
+mark(find-4, until-2)
+nsubj(find-4, you-3)
+advcl(repeat-1, find-4)
+det(object-6, the-5)
+dobj(find-4, object-6)
+
+det(places-4, the-3)
+prep_in(search-1, places-4)
+advmod(be-10, where-5)
+rel(be-10, where-5)
+det(object-7, the-6)
+nsubj(be-10, object-7)
+aux(be-10, should-8)
+advmod(be-10, normally-9)
+rcmod(places-4, be-10)
+
+det(people-3, the-2)
+dobj(ask-1, people-3)
+det(place-6, the-5)
+prep_in(ask-1, place-6)
+nsubj(seen-9, if-7)
+nsubj(moved-12, if-7)
+dep(seen-9, anyone-8)
+rcmod(place-6, seen-9)
+rcmod(place-6, moved-12)
+conj_or(seen-9, moved-12)
+nsubj(object-15, the-14)
+ccomp(seen-9, object-15)
+
+nsubj(premisis-8, search-1)
+det(object-4, the-3)
+prep_for(search-1, object-4)
+det(whole-7, the-6)
+prep_within(object-4, whole-7)
+
+advmod(be-5, where-2)
+nsubj(be-5, object-3)
+aux(be-5, might-4)
+advcl(remember-1, be-5)
+
+dobj(search-1, area-2)
+
+dobj(find-1, object-2)
+
+det(object-3, an-2)
+dobj(choose-1, object-3)
+aux(find-5, to-4)
+infmod(object-3, find-5)
+
+det(room-4, the-3)
+prep_around(look-1, room-4)
+
+amod(places-4, various-3)
+prep_in(look-1, places-4)
+prep_for(look-1, object-6)
+
+nn(description-3, object-2)
+dobj(get-1, description-3)
+
+dep(object-3, query-1)
+dep(object-3, when-2)
+advmod(seen-5, last-4)
+dobj(object-3, seen-5)
+
+advmod(seen-3, where-2)
+advcl(query-1, seen-3)
+
+dep(object-3, query-1)
+dep(object-3, how-2)
+ccomp(object-3, handled-4)
+
+prt(narrow-1, down-2)
+num(possiblilites-5, 1st-3)
+nn(possiblilites-5, location-4)
+dobj(narrow-1, possiblilites-5)
+
+amod(locations-4, possible-2)
+amod(locations-4, precise-3)
+dobj(query-1, locations-4)
+
+acomp(look-1, hard-2)
+mark(found-4, until-3)
+dep(hard-2, found-4)
+
+advmod(be-5, where-2)
+nsubj(be-5, it-3)
+aux(be-5, might-4)
+advcl(think-1, be-5)
+
+det(places-4, all-3)
+prep_in(look-1, places-4)
+advmod(look-1, nearby-5)
+
+det(friend-3, a-2)
+dobj(ask-1, friend-3)
+prep_for(ask-1, help-5)
+
+amod(places-4, different-3)
+prep_in(look-1, places-4)
+
+det(objecty-3, the-2)
+dobj(locate-1, objecty-3)
+
+prt(look-1, around-2)
+
+prt(pick-1, up-2)
+
+dep(have-4, what-2)
+nsubj(have-4, you-3)
+xsubj(find-6, you-3)
+ccomp(know-1, have-4)
+aux(find-6, to-5)
+xcomp(have-4, find-6)
+
+amod(locations-4, possible-3)
+prep_of(think-1, locations-4)
+prep_for(locations-4, object-6)
+
+amod(locations-3, possible-2)
+dobj(search-1, locations-3)
+
+xcomp(keep-1, searching-2)
+mark(object-4, until-3)
+advcl(searching-2, object-4)
+dep(object-4, found-5)
+
+prep_for(search-1, object-3)
+
+nsubj(object-3, which-2)
+ccomp(decide-1, object-3)
+aux(find-5, to-4)
+xcomp(object-3, find-5)
+
+advmod(search-1, everywhere-2)
+mark(found-7, until-3)
+det(object-5, the-4)
+nsubjpass(found-7, object-5)
+auxpass(found-7, is-6)
+advcl(search-1, found-7)
+
+prep_for(look-1, object-3)
+
+dobj(find-1, object-2)
+
+dobj(stop-1, looking-2)
+
+prep_for(look-1, it-3)
+
+prt(look-1, around-2)
+
+det(object-3, the-2)
+dobj(spot-1, object-3)
+
+prep_of(think-1, object-3)
+nsubj(need-5, you-4)
+ccomp(think-1, need-5)
+
+advmod(be-5, where-2)
+nsubj(be-5, it-3)
+aux(be-5, could-4)
+advcl(think-1, be-5)
+
+advmod(go-1, there-2)
+
+prep_for(look-1, it-3)
+
+dobj(have-1, object-2)
+prep_in(have-1, mind-4)
+aux(find-6, to-5)
+infmod(mind-4, find-6)
+
+advmod(be-6, where-3)
+nsubj(be-6, it-4)
+aux(be-6, should-5)
+prepc_of(think-1, be-6)
+
+advmod(go-1, there-2)
+
+prep_for(look-1, it-3)
+

@@ -1,0 +1,1370 @@
+id	score	v	d-obj	p	p-title
+000001	0.0004774944765217498	turn	kettle	holder	coffee
+000002	0.0019090289162351833	turn	kettle	mug	coffee
+000003	0.006356881290147541	turn	kettle	coffee pot	coffee
+000004	0.002170858826368913	turn	kettle	brew	coffee
+000005	0.0003178440645073771	turn	kettle	auto brew	coffee
+000006	0.002531670493559227	turn	kettle	water	coffee
+000007	0.0007156566598682274	turn	kettle	hot water	coffee
+000008	0.0044498169031032785	turn	kettle	coffee maker	coffee
+000009	0.0032453491575998115	turn	kettle	maker	coffee
+000010	0.0015892203225368853	turn	kettle	coffee beans	coffee
+000011	0.0009535321935221313	turn	kettle	coffee grounds	coffee
+000012	0.0012060326813160627	turn	kettle	grounds	coffee
+000013	0.00622056414107365	turn	kettle	filter	coffee
+000014	0.0009535321935221313	turn	kettle	coffee filter	coffee
+000015	0.00048241307252642503	turn	kettle	coffeemaker	coffee
+000016	0.003155889140358098	turn	kettle	machine	coffee
+000017	0.005085505032118034	turn	kettle	coffee machine	coffee
+000018	0.0006284054104408324	turn	kettle	resevoir	coffee
+000019	0.0004146655353961125	measure	water	holder	coffee
+000020	0.0016578380202504081	measure	water	mug	coffee
+000021	0.0055204399490231424	measure	water	coffee pot	coffee
+000022	0.001885216231322497	measure	water	brew	coffee
+000023	0.00027602199745115714	measure	water	auto brew	coffee
+000024	0.000621490229972398	measure	water	hot water	coffee
+000025	0.0038643079643162	measure	water	coffee maker	coffee
+000026	0.002818324634425694	measure	water	maker	coffee
+000027	0.0013801099872557856	measure	water	coffee beans	coffee
+000028	0.0008280659923534715	measure	water	coffee grounds	coffee
+000029	0.0010473423507347207	measure	water	grounds	coffee
+000030	0.00540205947263281	measure	water	filter	coffee
+000031	0.0008280659923534715	measure	water	coffee filter	coffee
+000032	0.00041893694029388823	measure	water	coffeemaker	coffee
+000033	0.0027406358070777804	measure	water	machine	coffee
+000034	0.004416351959218514	measure	water	coffee machine	coffee
+000035	0.0005457195397618223	measure	water	resevoir	coffee
+000036	0.0017657855503842598	pour	water	holder	coffee
+000037	0.007059632815250513	pour	water	mug	coffee
+000038	0.023507893137145616	pour	water	coffee pot	coffee
+000039	0.008027885841631834	pour	water	brew	coffee
+000040	0.0011753946568572808	pour	water	auto brew	coffee
+000041	0.002646514779054241	pour	water	hot water	coffee
+000042	0.01645552519600193	pour	water	coffee maker	coffee
+000043	0.012001375785925871	pour	water	maker	coffee
+000044	0.005876973284286404	pour	water	coffee beans	coffee
+000045	0.0035261839705718425	pour	water	coffee grounds	coffee
+000046	0.0044599365786843525	pour	water	grounds	coffee
+000047	0.02300378918633627	pour	water	filter	coffee
+000048	0.0035261839705718425	pour	water	coffee filter	coffee
+000049	0.0017839746314737407	pour	water	coffeemaker	coffee
+000050	0.01167055058574086	pour	water	machine	coffee
+000051	0.018806314509716492	pour	water	coffee machine	coffee
+000052	0.002323857653019717	pour	water	resevoir	coffee
+000053	0.0014324834295652493	grind	coffee	holder	coffee
+000054	0.005727086748705549	grind	coffee	mug	coffee
+000055	0.019070643870442622	grind	coffee	coffee pot	coffee
+000056	0.006512576479106738	grind	coffee	brew	coffee
+000057	0.0009535321935221311	grind	coffee	auto brew	coffee
+000058	0.00759501148067768	grind	coffee	water	coffee
+000059	0.002146969979604682	grind	coffee	hot water	coffee
+000060	0.013349450709309834	grind	coffee	coffee maker	coffee
+000061	0.009736047472799433	grind	coffee	maker	coffee
+000062	0.004767660967610656	grind	coffee	coffee beans	coffee
+000063	0.0028605965805663935	grind	coffee	coffee grounds	coffee
+000064	0.0036180980439481877	grind	coffee	grounds	coffee
+000065	0.018661692423220945	grind	coffee	filter	coffee
+000066	0.0028605965805663935	grind	coffee	coffee filter	coffee
+000067	0.001447239217579275	grind	coffee	coffeemaker	coffee
+000068	0.009467667421074293	grind	coffee	machine	coffee
+000069	0.015256515096354098	grind	coffee	coffee machine	coffee
+000070	0.0018852162313224969	grind	coffee	resevoir	coffee
+000071	0.0014324834295652493	place	coffee	holder	coffee
+000072	0.005727086748705549	place	coffee	mug	coffee
+000073	0.019070643870442622	place	coffee	coffee pot	coffee
+000074	0.006512576479106738	place	coffee	brew	coffee
+000075	0.0009535321935221311	place	coffee	auto brew	coffee
+000076	0.00759501148067768	place	coffee	water	coffee
+000077	0.002146969979604682	place	coffee	hot water	coffee
+000078	0.013349450709309834	place	coffee	coffee maker	coffee
+000079	0.009736047472799433	place	coffee	maker	coffee
+000080	0.004767660967610656	place	coffee	coffee beans	coffee
+000081	0.0028605965805663935	place	coffee	coffee grounds	coffee
+000082	0.0036180980439481877	place	coffee	grounds	coffee
+000083	0.018661692423220945	place	coffee	filter	coffee
+000084	0.0028605965805663935	place	coffee	coffee filter	coffee
+000085	0.001447239217579275	place	coffee	coffeemaker	coffee
+000086	0.009467667421074293	place	coffee	machine	coffee
+000087	0.015256515096354098	place	coffee	coffee machine	coffee
+000088	0.0018852162313224969	place	coffee	resevoir	coffee
+000089	0.0004774944765217498	locate	coffee machine	holder	coffee
+000090	0.0019090289162351833	locate	coffee machine	mug	coffee
+000091	0.006356881290147541	locate	coffee machine	coffee pot	coffee
+000092	0.002170858826368913	locate	coffee machine	brew	coffee
+000093	0.0003178440645073771	locate	coffee machine	auto brew	coffee
+000094	0.002531670493559227	locate	coffee machine	water	coffee
+000095	0.0007156566598682274	locate	coffee machine	hot water	coffee
+000096	0.0044498169031032785	locate	coffee machine	coffee maker	coffee
+000097	0.0032453491575998115	locate	coffee machine	maker	coffee
+000098	0.0015892203225368853	locate	coffee machine	coffee beans	coffee
+000099	0.0009535321935221313	locate	coffee machine	coffee grounds	coffee
+000100	0.0012060326813160627	locate	coffee machine	grounds	coffee
+000101	0.00622056414107365	locate	coffee machine	filter	coffee
+000102	0.0009535321935221313	locate	coffee machine	coffee filter	coffee
+000103	0.00048241307252642503	locate	coffee machine	coffeemaker	coffee
+000104	0.003155889140358098	locate	coffee machine	machine	coffee
+000105	0.0006284054104408324	locate	coffee machine	resevoir	coffee
+000106	0.0019483201166341153	add	water	holder	coffee
+000107	0.0077894083044284445	add	water	mug	coffee
+000108	0.025937974794741605	add	water	coffee pot	coffee
+000109	0.008857752559980921	add	water	brew	coffee
+000110	0.0012968987397370803	add	water	auto brew	coffee
+000111	0.002920092976114112	add	water	hot water	coffee
+000112	0.01815658235631912	add	water	coffee maker	coffee
+000113	0.013241994117528355	add	water	maker	coffee
+000114	0.006484493698685401	add	water	coffee beans	coffee
+000115	0.003890696219211241	add	water	coffee grounds	coffee
+000116	0.004920973644433845	add	water	grounds	coffee
+000117	0.02538176010150048	add	water	filter	coffee
+000118	0.003890696219211241	add	water	coffee filter	coffee
+000119	0.001968389457773538	add	water	coffeemaker	coffee
+000120	0.012876970520823932	add	water	machine	coffee
+000121	0.020750379835793285	add	water	coffee machine	coffee
+000122	0.0025640818119658884	add	water	resevoir	coffee
+000123	0.0007036731885409504	add	milk	holder	coffee
+000124	0.002813294248531266	add	milk	mug	coffee
+000125	0.009367997215797487	add	milk	coffee pot	coffee
+000126	0.003199147272552162	add	milk	brew	coffee
+000127	0.00046839986078987437	add	milk	auto brew	coffee
+000128	0.003730867551630657	add	milk	water	coffee
+000129	0.0010546476001531374	add	milk	hot water	coffee
+000130	0.0065575980510582405	add	milk	coffee maker	coffee
+000131	0.004782600222503152	add	milk	maker	coffee
+000132	0.0023419993039493717	add	milk	coffee beans	coffee
+000133	0.0014051995823696232	add	milk	coffee grounds	coffee
+000134	0.0017773040403067568	add	milk	grounds	coffee
+000135	0.009167109608383942	add	milk	filter	coffee
+000136	0.0014051995823696232	add	milk	coffee filter	coffee
+000137	0.0007109216161227027	add	milk	coffeemaker	coffee
+000138	0.004650764947594924	add	milk	machine	coffee
+000139	0.00749439777263799	add	milk	coffee machine	coffee
+000140	0.0009260673381656246	add	milk	resevoir	coffee
+000141	0.0019090289162351833	place	holder	mug	coffee
+000142	0.006356881290147541	place	holder	coffee pot	coffee
+000143	0.002170858826368913	place	holder	brew	coffee
+000144	0.0003178440645073771	place	holder	auto brew	coffee
+000145	0.002531670493559227	place	holder	water	coffee
+000146	0.0007156566598682274	place	holder	hot water	coffee
+000147	0.0044498169031032785	place	holder	coffee maker	coffee
+000148	0.0032453491575998115	place	holder	maker	coffee
+000149	0.0015892203225368853	place	holder	coffee beans	coffee
+000150	0.0009535321935221313	place	holder	coffee grounds	coffee
+000151	0.0012060326813160627	place	holder	grounds	coffee
+000152	0.00622056414107365	place	holder	filter	coffee
+000153	0.0009535321935221313	place	holder	coffee filter	coffee
+000154	0.00048241307252642503	place	holder	coffeemaker	coffee
+000155	0.003155889140358098	place	holder	machine	coffee
+000156	0.005085505032118034	place	holder	coffee machine	coffee
+000157	0.0006284054104408324	place	holder	resevoir	coffee
+000158	0.000278331445233445	get	water	holder	coffee
+000159	0.0011127726149183492	get	water	mug	coffee
+000160	0.0037054249706773715	get	water	coffee pot	coffee
+000161	0.0012653932228544173	get	water	brew	coffee
+000162	0.0001852712485338686	get	water	auto brew	coffee
+000163	0.00041715613944487304	get	water	hot water	coffee
+000164	0.00259379747947416	get	water	coffee maker	coffee
+000165	0.0018917134453611934	get	water	maker	coffee
+000166	0.0009263562426693429	get	water	coffee beans	coffee
+000167	0.0005558137456016058	get	water	coffee grounds	coffee
+000168	0.0007029962349191206	get	water	grounds	coffee
+000169	0.003625965728785783	get	water	filter	coffee
+000170	0.0005558137456016058	get	water	coffee filter	coffee
+000171	0.0002811984939676482	get	water	coffeemaker	coffee
+000172	0.0018395672172605616	get	water	machine	coffee
+000173	0.0029643399765418976	get	water	coffee machine	coffee
+000174	0.0003662974017094126	get	water	resevoir	coffee
+000175	0.0009549889530434996	measure	coffee	holder	coffee
+000176	0.0038180578324703666	measure	coffee	mug	coffee
+000177	0.012713762580295083	measure	coffee	coffee pot	coffee
+000178	0.004341717652737826	measure	coffee	brew	coffee
+000179	0.0006356881290147542	measure	coffee	auto brew	coffee
+000180	0.005063340987118454	measure	coffee	water	coffee
+000181	0.0014313133197364548	measure	coffee	hot water	coffee
+000182	0.008899633806206557	measure	coffee	coffee maker	coffee
+000183	0.006490698315199623	measure	coffee	maker	coffee
+000184	0.0031784406450737707	measure	coffee	coffee beans	coffee
+000185	0.0019070643870442625	measure	coffee	coffee grounds	coffee
+000186	0.0024120653626321254	measure	coffee	grounds	coffee
+000187	0.0124411282821473	measure	coffee	filter	coffee
+000188	0.0019070643870442625	measure	coffee	coffee filter	coffee
+000189	0.0009648261450528501	measure	coffee	coffeemaker	coffee
+000190	0.006311778280716196	measure	coffee	machine	coffee
+000191	0.010171010064236067	measure	coffee	coffee machine	coffee
+000192	0.0012568108208816649	measure	coffee	resevoir	coffee
+000193	0.0004146655353961125	pour	hot water	holder	coffee
+000194	0.0016578380202504081	pour	hot water	mug	coffee
+000195	0.0055204399490231424	pour	hot water	coffee pot	coffee
+000196	0.001885216231322497	pour	hot water	brew	coffee
+000197	0.00027602199745115714	pour	hot water	auto brew	coffee
+000198	0.002198552134687278	pour	hot water	water	coffee
+000199	0.0038643079643162	pour	hot water	coffee maker	coffee
+000200	0.002818324634425694	pour	hot water	maker	coffee
+000201	0.0013801099872557856	pour	hot water	coffee beans	coffee
+000202	0.0008280659923534715	pour	hot water	coffee grounds	coffee
+000203	0.0010473423507347207	pour	hot water	grounds	coffee
+000204	0.00540205947263281	pour	hot water	filter	coffee
+000205	0.0008280659923534715	pour	hot water	coffee filter	coffee
+000206	0.00041893694029388823	pour	hot water	coffeemaker	coffee
+000207	0.0027406358070777804	pour	hot water	machine	coffee
+000208	0.004416351959218514	pour	hot water	coffee machine	coffee
+000209	0.0005457195397618223	pour	hot water	resevoir	coffee
+000210	0.0004774944765217498	put	coffeepot	holder	coffee
+000211	0.0019090289162351833	put	coffeepot	mug	coffee
+000212	0.006356881290147541	put	coffeepot	coffee pot	coffee
+000213	0.002170858826368913	put	coffeepot	brew	coffee
+000214	0.0003178440645073771	put	coffeepot	auto brew	coffee
+000215	0.002531670493559227	put	coffeepot	water	coffee
+000216	0.0007156566598682274	put	coffeepot	hot water	coffee
+000217	0.0044498169031032785	put	coffeepot	coffee maker	coffee
+000218	0.0032453491575998115	put	coffeepot	maker	coffee
+000219	0.0015892203225368853	put	coffeepot	coffee beans	coffee
+000220	0.0009535321935221313	put	coffeepot	coffee grounds	coffee
+000221	0.0012060326813160627	put	coffeepot	grounds	coffee
+000222	0.00622056414107365	put	coffeepot	filter	coffee
+000223	0.0009535321935221313	put	coffeepot	coffee filter	coffee
+000224	0.00048241307252642503	put	coffeepot	coffeemaker	coffee
+000225	0.003155889140358098	put	coffeepot	machine	coffee
+000226	0.005085505032118034	put	coffeepot	coffee machine	coffee
+000227	0.0006284054104408324	put	coffeepot	resevoir	coffee
+000228	0.0004774944765217498	audd	cream	holder	coffee
+000229	0.0019090289162351833	audd	cream	mug	coffee
+000230	0.006356881290147541	audd	cream	coffee pot	coffee
+000231	0.002170858826368913	audd	cream	brew	coffee
+000232	0.0003178440645073771	audd	cream	auto brew	coffee
+000233	0.002531670493559227	audd	cream	water	coffee
+000234	0.0007156566598682274	audd	cream	hot water	coffee
+000235	0.0044498169031032785	audd	cream	coffee maker	coffee
+000236	0.0032453491575998115	audd	cream	maker	coffee
+000237	0.0015892203225368853	audd	cream	coffee beans	coffee
+000238	0.0009535321935221313	audd	cream	coffee grounds	coffee
+000239	0.0012060326813160627	audd	cream	grounds	coffee
+000240	0.00622056414107365	audd	cream	filter	coffee
+000241	0.0009535321935221313	audd	cream	coffee filter	coffee
+000242	0.00048241307252642503	audd	cream	coffeemaker	coffee
+000243	0.003155889140358098	audd	cream	machine	coffee
+000244	0.005085505032118034	audd	cream	coffee machine	coffee
+000245	0.0006284054104408324	audd	cream	resevoir	coffee
+000246	0.0019099779060869993	turn	machine	holder	coffee
+000247	0.007636115664940733	turn	machine	mug	coffee
+000248	0.025427525160590166	turn	machine	coffee pot	coffee
+000249	0.008683435305475651	turn	machine	brew	coffee
+000250	0.0012713762580295084	turn	machine	auto brew	coffee
+000251	0.010126681974236908	turn	machine	water	coffee
+000252	0.0028626266394729096	turn	machine	hot water	coffee
+000253	0.017799267612413114	turn	machine	coffee maker	coffee
+000254	0.012981396630399246	turn	machine	maker	coffee
+000255	0.006356881290147541	turn	machine	coffee beans	coffee
+000256	0.003814128774088525	turn	machine	coffee grounds	coffee
+000257	0.004824130725264251	turn	machine	grounds	coffee
+000258	0.0248822565642946	turn	machine	filter	coffee
+000259	0.003814128774088525	turn	machine	coffee filter	coffee
+000260	0.0019296522901057001	turn	machine	coffeemaker	coffee
+000261	0.020342020128472135	turn	machine	coffee machine	coffee
+000262	0.0025136216417633297	turn	machine	resevoir	coffee
+000263	0.0019099779060869993	get	coffee	holder	coffee
+000264	0.007636115664940733	get	coffee	mug	coffee
+000265	0.025427525160590166	get	coffee	coffee pot	coffee
+000266	0.008683435305475651	get	coffee	brew	coffee
+000267	0.0012713762580295084	get	coffee	auto brew	coffee
+000268	0.010126681974236908	get	coffee	water	coffee
+000269	0.0028626266394729096	get	coffee	hot water	coffee
+000270	0.017799267612413114	get	coffee	coffee maker	coffee
+000271	0.012981396630399246	get	coffee	maker	coffee
+000272	0.006356881290147541	get	coffee	coffee beans	coffee
+000273	0.003814128774088525	get	coffee	coffee grounds	coffee
+000274	0.004824130725264251	get	coffee	grounds	coffee
+000275	0.0248822565642946	get	coffee	filter	coffee
+000276	0.003814128774088525	get	coffee	coffee filter	coffee
+000277	0.0019296522901057001	get	coffee	coffeemaker	coffee
+000278	0.012623556561432391	get	coffee	machine	coffee
+000279	0.020342020128472135	get	coffee	coffee machine	coffee
+000280	0.0025136216417633297	get	coffee	resevoir	coffee
+000281	0.0011337388826327922	place	water	holder	coffee
+000282	0.004532702296730298	place	water	mug	coffee
+000283	0.015093459391237367	place	water	coffee pot	coffee
+000284	0.005154378073834995	place	water	brew	coffee
+000285	0.0007546729695618685	place	water	auto brew	coffee
+000286	0.0016992191989696505	place	water	hot water	coffee
+000287	0.010565421573866158	place	water	coffee maker	coffee
+000288	0.007705593904441506	place	water	maker	coffee
+000289	0.003773364847809342	place	water	coffee beans	coffee
+000290	0.0022640189086856055	place	water	coffee grounds	coffee
+000291	0.002863543374352775	place	water	grounds	coffee
+000292	0.014769794804789148	place	water	filter	coffee
+000293	0.0022640189086856055	place	water	coffee filter	coffee
+000294	0.00114541734974111	place	water	coffeemaker	coffee
+000295	0.007493184536427989	place	water	machine	coffee
+000296	0.012074767512989895	place	water	coffee machine	coffee
+000297	0.0014920542182253673	place	water	resevoir	coffee
+000298	0.0003779129608775974	add	sugar	holder	coffee
+000299	0.0015109007655767662	add	sugar	mug	coffee
+000300	0.005031153130412456	add	sugar	coffee pot	coffee
+000301	0.001718126024611665	add	sugar	brew	coffee
+000302	0.0002515576565206228	add	sugar	auto brew	coffee
+000303	0.0020036903864454145	add	sugar	water	coffee
+000304	0.0005664063996565502	add	sugar	hot water	coffee
+000305	0.0035218071912887193	add	sugar	coffee maker	coffee
+000306	0.0025685313014805022	add	sugar	maker	coffee
+000307	0.001257788282603114	add	sugar	coffee beans	coffee
+000308	0.0007546729695618685	add	sugar	coffee grounds	coffee
+000309	0.0009545144581175917	add	sugar	grounds	coffee
+000310	0.004923264934929716	add	sugar	filter	coffee
+000311	0.0007546729695618685	add	sugar	coffee filter	coffee
+000312	0.0003818057832470366	add	sugar	coffeemaker	coffee
+000313	0.0024977281788093296	add	sugar	machine	coffee
+000314	0.004024922504329965	add	sugar	coffee machine	coffee
+000315	0.0004973514060751225	add	sugar	resevoir	coffee
+000316	0.0004774944765217498	place	coffee grounds	holder	coffee
+000317	0.0019090289162351833	place	coffee grounds	mug	coffee
+000318	0.006356881290147541	place	coffee grounds	coffee pot	coffee
+000319	0.002170858826368913	place	coffee grounds	brew	coffee
+000320	0.0003178440645073771	place	coffee grounds	auto brew	coffee
+000321	0.002531670493559227	place	coffee grounds	water	coffee
+000322	0.0007156566598682274	place	coffee grounds	hot water	coffee
+000323	0.0044498169031032785	place	coffee grounds	coffee maker	coffee
+000324	0.0032453491575998115	place	coffee grounds	maker	coffee
+000325	0.0015892203225368853	place	coffee grounds	coffee beans	coffee
+000326	0.0012060326813160627	place	coffee grounds	grounds	coffee
+000327	0.00622056414107365	place	coffee grounds	filter	coffee
+000328	0.0009535321935221313	place	coffee grounds	coffee filter	coffee
+000329	0.00048241307252642503	place	coffee grounds	coffeemaker	coffee
+000330	0.003155889140358098	place	coffee grounds	machine	coffee
+000331	0.005085505032118034	place	coffee grounds	coffee machine	coffee
+000332	0.0006284054104408324	place	coffee grounds	resevoir	coffee
+000333	0.0004774944765217498	add	instant coffee	holder	coffee
+000334	0.0019090289162351833	add	instant coffee	mug	coffee
+000335	0.006356881290147541	add	instant coffee	coffee pot	coffee
+000336	0.002170858826368913	add	instant coffee	brew	coffee
+000337	0.0003178440645073771	add	instant coffee	auto brew	coffee
+000338	0.002531670493559227	add	instant coffee	water	coffee
+000339	0.0007156566598682274	add	instant coffee	hot water	coffee
+000340	0.0044498169031032785	add	instant coffee	coffee maker	coffee
+000341	0.0032453491575998115	add	instant coffee	maker	coffee
+000342	0.0015892203225368853	add	instant coffee	coffee beans	coffee
+000343	0.0009535321935221313	add	instant coffee	coffee grounds	coffee
+000344	0.0012060326813160627	add	instant coffee	grounds	coffee
+000345	0.00622056414107365	add	instant coffee	filter	coffee
+000346	0.0009535321935221313	add	instant coffee	coffee filter	coffee
+000347	0.00048241307252642503	add	instant coffee	coffeemaker	coffee
+000348	0.003155889140358098	add	instant coffee	machine	coffee
+000349	0.005085505032118034	add	instant coffee	coffee machine	coffee
+000350	0.0006284054104408324	add	instant coffee	resevoir	coffee
+000351	0.0004774944765217498	get	coffe bucket	holder	coffee
+000352	0.0019090289162351833	get	coffe bucket	mug	coffee
+000353	0.006356881290147541	get	coffe bucket	coffee pot	coffee
+000354	0.002170858826368913	get	coffe bucket	brew	coffee
+000355	0.0003178440645073771	get	coffe bucket	auto brew	coffee
+000356	0.002531670493559227	get	coffe bucket	water	coffee
+000357	0.0007156566598682274	get	coffe bucket	hot water	coffee
+000358	0.0044498169031032785	get	coffe bucket	coffee maker	coffee
+000359	0.0032453491575998115	get	coffe bucket	maker	coffee
+000360	0.0015892203225368853	get	coffe bucket	coffee beans	coffee
+000361	0.0009535321935221313	get	coffe bucket	coffee grounds	coffee
+000362	0.0012060326813160627	get	coffe bucket	grounds	coffee
+000363	0.00622056414107365	get	coffe bucket	filter	coffee
+000364	0.0009535321935221313	get	coffe bucket	coffee filter	coffee
+000365	0.00048241307252642503	get	coffe bucket	coffeemaker	coffee
+000366	0.003155889140358098	get	coffe bucket	machine	coffee
+000367	0.005085505032118034	get	coffe bucket	coffee machine	coffee
+000368	0.0006284054104408324	get	coffe bucket	resevoir	coffee
+000369	0.0004774944765217498	get	coffee bean	holder	coffee
+000370	0.0019090289162351833	get	coffee bean	mug	coffee
+000371	0.006356881290147541	get	coffee bean	coffee pot	coffee
+000372	0.002170858826368913	get	coffee bean	brew	coffee
+000373	0.0003178440645073771	get	coffee bean	auto brew	coffee
+000374	0.002531670493559227	get	coffee bean	water	coffee
+000375	0.0007156566598682274	get	coffee bean	hot water	coffee
+000376	0.0044498169031032785	get	coffee bean	coffee maker	coffee
+000377	0.0032453491575998115	get	coffee bean	maker	coffee
+000378	0.0015892203225368853	get	coffee bean	coffee beans	coffee
+000379	0.0009535321935221313	get	coffee bean	coffee grounds	coffee
+000380	0.0012060326813160627	get	coffee bean	grounds	coffee
+000381	0.00622056414107365	get	coffee bean	filter	coffee
+000382	0.0009535321935221313	get	coffee bean	coffee filter	coffee
+000383	0.00048241307252642503	get	coffee bean	coffeemaker	coffee
+000384	0.003155889140358098	get	coffee bean	machine	coffee
+000385	0.005085505032118034	get	coffee bean	coffee machine	coffee
+000386	0.0006284054104408324	get	coffee bean	resevoir	coffee
+000387	0.0014324834295652493	add	coffee	holder	coffee
+000388	0.005727086748705549	add	coffee	mug	coffee
+000389	0.019070643870442622	add	coffee	coffee pot	coffee
+000390	0.006512576479106738	add	coffee	brew	coffee
+000391	0.0009535321935221311	add	coffee	auto brew	coffee
+000392	0.00759501148067768	add	coffee	water	coffee
+000393	0.002146969979604682	add	coffee	hot water	coffee
+000394	0.013349450709309834	add	coffee	coffee maker	coffee
+000395	0.009736047472799433	add	coffee	maker	coffee
+000396	0.004767660967610656	add	coffee	coffee beans	coffee
+000397	0.0028605965805663935	add	coffee	coffee grounds	coffee
+000398	0.0036180980439481877	add	coffee	grounds	coffee
+000399	0.018661692423220945	add	coffee	filter	coffee
+000400	0.0028605965805663935	add	coffee	coffee filter	coffee
+000401	0.001447239217579275	add	coffee	coffeemaker	coffee
+000402	0.009467667421074293	add	coffee	machine	coffee
+000403	0.015256515096354098	add	coffee	coffee machine	coffee
+000404	0.0018852162313224969	add	coffee	resevoir	coffee
+000405	0.0003518365942704752	press	start	holder	coffee
+000406	0.001406647124265633	press	start	mug	coffee
+000407	0.0046839986078987435	press	start	coffee pot	coffee
+000408	0.001599573636276081	press	start	brew	coffee
+000409	0.00023419993039493718	press	start	auto brew	coffee
+000410	0.0018654337758153285	press	start	water	coffee
+000411	0.0005273238000765687	press	start	hot water	coffee
+000412	0.0032787990255291203	press	start	coffee maker	coffee
+000413	0.002391300111251576	press	start	maker	coffee
+000414	0.0011709996519746859	press	start	coffee beans	coffee
+000415	0.0007025997911848116	press	start	coffee grounds	coffee
+000416	0.0008886520201533784	press	start	grounds	coffee
+000417	0.004583554804191971	press	start	filter	coffee
+000418	0.0007025997911848116	press	start	coffee filter	coffee
+000419	0.0003554608080613513	press	start	coffeemaker	coffee
+000420	0.002325382473797462	press	start	machine	coffee
+000421	0.003747198886318995	press	start	coffee machine	coffee
+000422	0.0004630336690828123	press	start	resevoir	coffee
+000423	0.0004774944765217498	put	coffeefilter	holder	coffee
+000424	0.0019090289162351833	put	coffeefilter	mug	coffee
+000425	0.006356881290147541	put	coffeefilter	coffee pot	coffee
+000426	0.002170858826368913	put	coffeefilter	brew	coffee
+000427	0.0003178440645073771	put	coffeefilter	auto brew	coffee
+000428	0.002531670493559227	put	coffeefilter	water	coffee
+000429	0.0007156566598682274	put	coffeefilter	hot water	coffee
+000430	0.0044498169031032785	put	coffeefilter	coffee maker	coffee
+000431	0.0032453491575998115	put	coffeefilter	maker	coffee
+000432	0.0015892203225368853	put	coffeefilter	coffee beans	coffee
+000433	0.0009535321935221313	put	coffeefilter	coffee grounds	coffee
+000434	0.0012060326813160627	put	coffeefilter	grounds	coffee
+000435	0.00622056414107365	put	coffeefilter	filter	coffee
+000436	0.0009535321935221313	put	coffeefilter	coffee filter	coffee
+000437	0.00048241307252642503	put	coffeefilter	coffeemaker	coffee
+000438	0.003155889140358098	put	coffeefilter	machine	coffee
+000439	0.005085505032118034	put	coffeefilter	coffee machine	coffee
+000440	0.0006284054104408324	put	coffeefilter	resevoir	coffee
+000441	0.0004774944765217498	put	wather	holder	coffee
+000442	0.0019090289162351833	put	wather	mug	coffee
+000443	0.006356881290147541	put	wather	coffee pot	coffee
+000444	0.002170858826368913	put	wather	brew	coffee
+000445	0.0003178440645073771	put	wather	auto brew	coffee
+000446	0.002531670493559227	put	wather	water	coffee
+000447	0.0007156566598682274	put	wather	hot water	coffee
+000448	0.0044498169031032785	put	wather	coffee maker	coffee
+000449	0.0032453491575998115	put	wather	maker	coffee
+000450	0.0015892203225368853	put	wather	coffee beans	coffee
+000451	0.0009535321935221313	put	wather	coffee grounds	coffee
+000452	0.0012060326813160627	put	wather	grounds	coffee
+000453	0.00622056414107365	put	wather	filter	coffee
+000454	0.0009535321935221313	put	wather	coffee filter	coffee
+000455	0.00048241307252642503	put	wather	coffeemaker	coffee
+000456	0.003155889140358098	put	wather	machine	coffee
+000457	0.005085505032118034	put	wather	coffee machine	coffee
+000458	0.0006284054104408324	put	wather	resevoir	coffee
+000459	0.0004774944765217498	find	coffeemaker	holder	coffee
+000460	0.0019090289162351833	find	coffeemaker	mug	coffee
+000461	0.006356881290147541	find	coffeemaker	coffee pot	coffee
+000462	0.002170858826368913	find	coffeemaker	brew	coffee
+000463	0.0003178440645073771	find	coffeemaker	auto brew	coffee
+000464	0.002531670493559227	find	coffeemaker	water	coffee
+000465	0.0007156566598682274	find	coffeemaker	hot water	coffee
+000466	0.0044498169031032785	find	coffeemaker	coffee maker	coffee
+000467	0.0032453491575998115	find	coffeemaker	maker	coffee
+000468	0.0015892203225368853	find	coffeemaker	coffee beans	coffee
+000469	0.0009535321935221313	find	coffeemaker	coffee grounds	coffee
+000470	0.0012060326813160627	find	coffeemaker	grounds	coffee
+000471	0.00622056414107365	find	coffeemaker	filter	coffee
+000472	0.0009535321935221313	find	coffeemaker	coffee filter	coffee
+000473	0.003155889140358098	find	coffeemaker	machine	coffee
+000474	0.005085505032118034	find	coffeemaker	coffee machine	coffee
+000475	0.0006284054104408324	find	coffeemaker	resevoir	coffee
+000476	0.0003779129608775974	fill	water	holder	coffee
+000477	0.0015109007655767662	fill	water	mug	coffee
+000478	0.005031153130412456	fill	water	coffee pot	coffee
+000479	0.001718126024611665	fill	water	brew	coffee
+000480	0.0002515576565206228	fill	water	auto brew	coffee
+000481	0.0005664063996565502	fill	water	hot water	coffee
+000482	0.0035218071912887193	fill	water	coffee maker	coffee
+000483	0.0025685313014805022	fill	water	maker	coffee
+000484	0.001257788282603114	fill	water	coffee beans	coffee
+000485	0.0007546729695618685	fill	water	coffee grounds	coffee
+000486	0.0009545144581175917	fill	water	grounds	coffee
+000487	0.004923264934929716	fill	water	filter	coffee
+000488	0.0007546729695618685	fill	water	coffee filter	coffee
+000489	0.0003818057832470366	fill	water	coffeemaker	coffee
+000490	0.0024977281788093296	fill	water	machine	coffee
+000491	0.004024922504329965	fill	water	coffee machine	coffee
+000492	0.0004973514060751225	fill	water	resevoir	coffee
+000493	0.0004774944765217498	install	filter	holder	coffee
+000494	0.0019090289162351833	install	filter	mug	coffee
+000495	0.006356881290147541	install	filter	coffee pot	coffee
+000496	0.002170858826368913	install	filter	brew	coffee
+000497	0.0003178440645073771	install	filter	auto brew	coffee
+000498	0.002531670493559227	install	filter	water	coffee
+000499	0.0007156566598682274	install	filter	hot water	coffee
+000500	0.0044498169031032785	install	filter	coffee maker	coffee
+000501	0.0032453491575998115	install	filter	maker	coffee
+000502	0.0015892203225368853	install	filter	coffee beans	coffee
+000503	0.0009535321935221313	install	filter	coffee grounds	coffee
+000504	0.0012060326813160627	install	filter	grounds	coffee
+000505	0.0009535321935221313	install	filter	coffee filter	coffee
+000506	0.00048241307252642503	install	filter	coffeemaker	coffee
+000507	0.003155889140358098	install	filter	machine	coffee
+000508	0.005085505032118034	install	filter	coffee machine	coffee
+000509	0.0006284054104408324	install	filter	resevoir	coffee
+000510	0.0004774944765217498	boil	kettle	holder	coffee
+000511	0.0019090289162351833	boil	kettle	mug	coffee
+000512	0.006356881290147541	boil	kettle	coffee pot	coffee
+000513	0.002170858826368913	boil	kettle	brew	coffee
+000514	0.0003178440645073771	boil	kettle	auto brew	coffee
+000515	0.002531670493559227	boil	kettle	water	coffee
+000516	0.0007156566598682274	boil	kettle	hot water	coffee
+000517	0.0044498169031032785	boil	kettle	coffee maker	coffee
+000518	0.0032453491575998115	boil	kettle	maker	coffee
+000519	0.0015892203225368853	boil	kettle	coffee beans	coffee
+000520	0.0009535321935221313	boil	kettle	coffee grounds	coffee
+000521	0.0012060326813160627	boil	kettle	grounds	coffee
+000522	0.00622056414107365	boil	kettle	filter	coffee
+000523	0.0009535321935221313	boil	kettle	coffee filter	coffee
+000524	0.00048241307252642503	boil	kettle	coffeemaker	coffee
+000525	0.003155889140358098	boil	kettle	machine	coffee
+000526	0.005085505032118034	boil	kettle	coffee machine	coffee
+000527	0.0006284054104408324	boil	kettle	resevoir	coffee
+000528	0.0004774944765217498	grind	beans	holder	coffee
+000529	0.0019090289162351833	grind	beans	mug	coffee
+000530	0.006356881290147541	grind	beans	coffee pot	coffee
+000531	0.002170858826368913	grind	beans	brew	coffee
+000532	0.0003178440645073771	grind	beans	auto brew	coffee
+000533	0.002531670493559227	grind	beans	water	coffee
+000534	0.0007156566598682274	grind	beans	hot water	coffee
+000535	0.0044498169031032785	grind	beans	coffee maker	coffee
+000536	0.0032453491575998115	grind	beans	maker	coffee
+000537	0.0015892203225368853	grind	beans	coffee beans	coffee
+000538	0.0009535321935221313	grind	beans	coffee grounds	coffee
+000539	0.0012060326813160627	grind	beans	grounds	coffee
+000540	0.00622056414107365	grind	beans	filter	coffee
+000541	0.0009535321935221313	grind	beans	coffee filter	coffee
+000542	0.00048241307252642503	grind	beans	coffeemaker	coffee
+000543	0.003155889140358098	grind	beans	machine	coffee
+000544	0.005085505032118034	grind	beans	coffee machine	coffee
+000545	0.0006284054104408324	grind	beans	resevoir	coffee
+000546	0.0004774944765217498	open	coffe bucket	holder	coffee
+000547	0.0019090289162351833	open	coffe bucket	mug	coffee
+000548	0.006356881290147541	open	coffe bucket	coffee pot	coffee
+000549	0.002170858826368913	open	coffe bucket	brew	coffee
+000550	0.0003178440645073771	open	coffe bucket	auto brew	coffee
+000551	0.002531670493559227	open	coffe bucket	water	coffee
+000552	0.0007156566598682274	open	coffe bucket	hot water	coffee
+000553	0.0044498169031032785	open	coffe bucket	coffee maker	coffee
+000554	0.0032453491575998115	open	coffe bucket	maker	coffee
+000555	0.0015892203225368853	open	coffe bucket	coffee beans	coffee
+000556	0.0009535321935221313	open	coffe bucket	coffee grounds	coffee
+000557	0.0012060326813160627	open	coffe bucket	grounds	coffee
+000558	0.00622056414107365	open	coffe bucket	filter	coffee
+000559	0.0009535321935221313	open	coffe bucket	coffee filter	coffee
+000560	0.00048241307252642503	open	coffe bucket	coffeemaker	coffee
+000561	0.003155889140358098	open	coffe bucket	machine	coffee
+000562	0.005085505032118034	open	coffe bucket	coffee machine	coffee
+000563	0.0006284054104408324	open	coffe bucket	resevoir	coffee
+000564	0.0004774944765217498	get	coffee filter	holder	coffee
+000565	0.0019090289162351833	get	coffee filter	mug	coffee
+000566	0.006356881290147541	get	coffee filter	coffee pot	coffee
+000567	0.002170858826368913	get	coffee filter	brew	coffee
+000568	0.0003178440645073771	get	coffee filter	auto brew	coffee
+000569	0.002531670493559227	get	coffee filter	water	coffee
+000570	0.0007156566598682274	get	coffee filter	hot water	coffee
+000571	0.0044498169031032785	get	coffee filter	coffee maker	coffee
+000572	0.0032453491575998115	get	coffee filter	maker	coffee
+000573	0.0015892203225368853	get	coffee filter	coffee beans	coffee
+000574	0.0009535321935221313	get	coffee filter	coffee grounds	coffee
+000575	0.0012060326813160627	get	coffee filter	grounds	coffee
+000576	0.00622056414107365	get	coffee filter	filter	coffee
+000577	0.00048241307252642503	get	coffee filter	coffeemaker	coffee
+000578	0.003155889140358098	get	coffee filter	machine	coffee
+000579	0.005085505032118034	get	coffee filter	coffee machine	coffee
+000580	0.0006284054104408324	get	coffee filter	resevoir	coffee
+000581	0.0004774944765217498	turn	maker	holder	coffee
+000582	0.0019090289162351833	turn	maker	mug	coffee
+000583	0.006356881290147541	turn	maker	coffee pot	coffee
+000584	0.002170858826368913	turn	maker	brew	coffee
+000585	0.0003178440645073771	turn	maker	auto brew	coffee
+000586	0.002531670493559227	turn	maker	water	coffee
+000587	0.0007156566598682274	turn	maker	hot water	coffee
+000588	0.0044498169031032785	turn	maker	coffee maker	coffee
+000589	0.0015892203225368853	turn	maker	coffee beans	coffee
+000590	0.0009535321935221313	turn	maker	coffee grounds	coffee
+000591	0.0012060326813160627	turn	maker	grounds	coffee
+000592	0.00622056414107365	turn	maker	filter	coffee
+000593	0.0009535321935221313	turn	maker	coffee filter	coffee
+000594	0.00048241307252642503	turn	maker	coffeemaker	coffee
+000595	0.003155889140358098	turn	maker	machine	coffee
+000596	0.005085505032118034	turn	maker	coffee machine	coffee
+000597	0.0006284054104408324	turn	maker	resevoir	coffee
+000598	0.0004774944765217498	idenity	coffee grounds	holder	coffee
+000599	0.0019090289162351833	idenity	coffee grounds	mug	coffee
+000600	0.006356881290147541	idenity	coffee grounds	coffee pot	coffee
+000601	0.002170858826368913	idenity	coffee grounds	brew	coffee
+000602	0.0003178440645073771	idenity	coffee grounds	auto brew	coffee
+000603	0.002531670493559227	idenity	coffee grounds	water	coffee
+000604	0.0007156566598682274	idenity	coffee grounds	hot water	coffee
+000605	0.0044498169031032785	idenity	coffee grounds	coffee maker	coffee
+000606	0.0032453491575998115	idenity	coffee grounds	maker	coffee
+000607	0.0015892203225368853	idenity	coffee grounds	coffee beans	coffee
+000608	0.0012060326813160627	idenity	coffee grounds	grounds	coffee
+000609	0.00622056414107365	idenity	coffee grounds	filter	coffee
+000610	0.0009535321935221313	idenity	coffee grounds	coffee filter	coffee
+000611	0.00048241307252642503	idenity	coffee grounds	coffeemaker	coffee
+000612	0.003155889140358098	idenity	coffee grounds	machine	coffee
+000613	0.005085505032118034	idenity	coffee grounds	coffee machine	coffee
+000614	0.0006284054104408324	idenity	coffee grounds	resevoir	coffee
+000615	0.0003518365942704752	put	new filter	holder	coffee
+000616	0.001406647124265633	put	new filter	mug	coffee
+000617	0.0046839986078987435	put	new filter	coffee pot	coffee
+000618	0.001599573636276081	put	new filter	brew	coffee
+000619	0.00023419993039493718	put	new filter	auto brew	coffee
+000620	0.0018654337758153285	put	new filter	water	coffee
+000621	0.0005273238000765687	put	new filter	hot water	coffee
+000622	0.0032787990255291203	put	new filter	coffee maker	coffee
+000623	0.002391300111251576	put	new filter	maker	coffee
+000624	0.0011709996519746859	put	new filter	coffee beans	coffee
+000625	0.0007025997911848116	put	new filter	coffee grounds	coffee
+000626	0.0008886520201533784	put	new filter	grounds	coffee
+000627	0.004583554804191971	put	new filter	filter	coffee
+000628	0.0007025997911848116	put	new filter	coffee filter	coffee
+000629	0.0003554608080613513	put	new filter	coffeemaker	coffee
+000630	0.002325382473797462	put	new filter	machine	coffee
+000631	0.003747198886318995	put	new filter	coffee machine	coffee
+000632	0.0004630336690828123	put	new filter	resevoir	coffee
+000633	0.0002890076531448379	put	lid	holder	coffee
+000634	0.001155456228280858	put	lid	mug	coffee
+000635	0.003847557266774345	put	lid	coffee pot	coffee
+000636	0.0013139310412296653	put	lid	brew	coffee
+000637	0.00019237786333871725	put	lid	auto brew	coffee
+000638	0.0015323154169433794	put	lid	water	coffee
+000639	0.0004331573701807393	put	lid	hot water	coffee
+000640	0.0026932900867420416	put	lid	coffee maker	coffee
+000641	0.0019642755880774584	put	lid	maker	coffee
+000642	0.0009618893166935862	put	lid	coffee beans	coffee
+000643	0.0005771335900161518	put	lid	coffee grounds	coffee
+000644	0.0007299616895720363	put	lid	grounds	coffee
+000645	0.0037650501357511324	put	lid	filter	coffee
+000646	0.0005771335900161518	put	lid	coffee filter	coffee
+000647	0.0002919846758288145	put	lid	coffeemaker	coffee
+000648	0.0019101291405171446	put	lid	machine	coffee
+000649	0.003078045813419476	put	lid	coffee machine	coffee
+000650	0.0003803477984038023	put	lid	resevoir	coffee
+000651	0.0004146655353961125	add	boiled water	holder	coffee
+000652	0.0016578380202504081	add	boiled water	mug	coffee
+000653	0.0055204399490231424	add	boiled water	coffee pot	coffee
+000654	0.001885216231322497	add	boiled water	brew	coffee
+000655	0.00027602199745115714	add	boiled water	auto brew	coffee
+000656	0.002198552134687278	add	boiled water	water	coffee
+000657	0.000621490229972398	add	boiled water	hot water	coffee
+000658	0.0038643079643162	add	boiled water	coffee maker	coffee
+000659	0.002818324634425694	add	boiled water	maker	coffee
+000660	0.0013801099872557856	add	boiled water	coffee beans	coffee
+000661	0.0008280659923534715	add	boiled water	coffee grounds	coffee
+000662	0.0010473423507347207	add	boiled water	grounds	coffee
+000663	0.00540205947263281	add	boiled water	filter	coffee
+000664	0.0008280659923534715	add	boiled water	coffee filter	coffee
+000665	0.00041893694029388823	add	boiled water	coffeemaker	coffee
+000666	0.0027406358070777804	add	boiled water	machine	coffee
+000667	0.004416351959218514	add	boiled water	coffee machine	coffee
+000668	0.0005457195397618223	add	boiled water	resevoir	coffee
+000669	0.0008670229594345136	boil	water	holder	coffee
+000670	0.0034663686848425733	boil	water	mug	coffee
+000671	0.011542671800323033	boil	water	coffee pot	coffee
+000672	0.0039417931236889955	boil	water	brew	coffee
+000673	0.0005771335900161517	boil	water	auto brew	coffee
+000674	0.0012994721105422176	boil	water	hot water	coffee
+000675	0.008079870260226123	boil	water	coffee maker	coffee
+000676	0.005892826764232374	boil	water	maker	coffee
+000677	0.002885667950080758	boil	water	coffee beans	coffee
+000678	0.0017314007700484552	boil	water	coffee grounds	coffee
+000679	0.0021898850687161087	boil	water	grounds	coffee
+000680	0.011295150407253395	boil	water	filter	coffee
+000681	0.0017314007700484552	boil	water	coffee filter	coffee
+000682	0.0008759540274864433	boil	water	coffeemaker	coffee
+000683	0.0057303874215514335	boil	water	machine	coffee
+000684	0.009234137440258427	boil	water	coffee machine	coffee
+000685	0.0011410433952114066	boil	water	resevoir	coffee
+000686	0.0004774944765217498	place	instant coffee crystals	holder	coffee
+000687	0.0019090289162351833	place	instant coffee crystals	mug	coffee
+000688	0.006356881290147541	place	instant coffee crystals	coffee pot	coffee
+000689	0.002170858826368913	place	instant coffee crystals	brew	coffee
+000690	0.0003178440645073771	place	instant coffee crystals	auto brew	coffee
+000691	0.002531670493559227	place	instant coffee crystals	water	coffee
+000692	0.0007156566598682274	place	instant coffee crystals	hot water	coffee
+000693	0.0044498169031032785	place	instant coffee crystals	coffee maker	coffee
+000694	0.0032453491575998115	place	instant coffee crystals	maker	coffee
+000695	0.0015892203225368853	place	instant coffee crystals	coffee beans	coffee
+000696	0.0009535321935221313	place	instant coffee crystals	coffee grounds	coffee
+000697	0.0012060326813160627	place	instant coffee crystals	grounds	coffee
+000698	0.00622056414107365	place	instant coffee crystals	filter	coffee
+000699	0.0009535321935221313	place	instant coffee crystals	coffee filter	coffee
+000700	0.00048241307252642503	place	instant coffee crystals	coffeemaker	coffee
+000701	0.003155889140358098	place	instant coffee crystals	machine	coffee
+000702	0.005085505032118034	place	instant coffee crystals	coffee machine	coffee
+000703	0.0006284054104408324	place	instant coffee crystals	resevoir	coffee
+000704	0.0004774944765217498	switch	coffee machine	holder	coffee
+000705	0.0019090289162351833	switch	coffee machine	mug	coffee
+000706	0.006356881290147541	switch	coffee machine	coffee pot	coffee
+000707	0.002170858826368913	switch	coffee machine	brew	coffee
+000708	0.0003178440645073771	switch	coffee machine	auto brew	coffee
+000709	0.002531670493559227	switch	coffee machine	water	coffee
+000710	0.0007156566598682274	switch	coffee machine	hot water	coffee
+000711	0.0044498169031032785	switch	coffee machine	coffee maker	coffee
+000712	0.0032453491575998115	switch	coffee machine	maker	coffee
+000713	0.0015892203225368853	switch	coffee machine	coffee beans	coffee
+000714	0.0009535321935221313	switch	coffee machine	coffee grounds	coffee
+000715	0.0012060326813160627	switch	coffee machine	grounds	coffee
+000716	0.00622056414107365	switch	coffee machine	filter	coffee
+000717	0.0009535321935221313	switch	coffee machine	coffee filter	coffee
+000718	0.00048241307252642503	switch	coffee machine	coffeemaker	coffee
+000719	0.003155889140358098	switch	coffee machine	machine	coffee
+000720	0.0006284054104408324	switch	coffee machine	resevoir	coffee
+000721	0.0004774944765217498	pour	ground coffee	holder	coffee
+000722	0.0019090289162351833	pour	ground coffee	mug	coffee
+000723	0.006356881290147541	pour	ground coffee	coffee pot	coffee
+000724	0.002170858826368913	pour	ground coffee	brew	coffee
+000725	0.0003178440645073771	pour	ground coffee	auto brew	coffee
+000726	0.002531670493559227	pour	ground coffee	water	coffee
+000727	0.0007156566598682274	pour	ground coffee	hot water	coffee
+000728	0.0044498169031032785	pour	ground coffee	coffee maker	coffee
+000729	0.0032453491575998115	pour	ground coffee	maker	coffee
+000730	0.0015892203225368853	pour	ground coffee	coffee beans	coffee
+000731	0.0009535321935221313	pour	ground coffee	coffee grounds	coffee
+000732	0.0012060326813160627	pour	ground coffee	grounds	coffee
+000733	0.00622056414107365	pour	ground coffee	filter	coffee
+000734	0.0009535321935221313	pour	ground coffee	coffee filter	coffee
+000735	0.00048241307252642503	pour	ground coffee	coffeemaker	coffee
+000736	0.003155889140358098	pour	ground coffee	machine	coffee
+000737	0.005085505032118034	pour	ground coffee	coffee machine	coffee
+000738	0.0006284054104408324	pour	ground coffee	resevoir	coffee
+000739	0.0004146655353961125	fill	kettle	holder	coffee
+000740	0.0016578380202504081	fill	kettle	mug	coffee
+000741	0.0055204399490231424	fill	kettle	coffee pot	coffee
+000742	0.001885216231322497	fill	kettle	brew	coffee
+000743	0.00027602199745115714	fill	kettle	auto brew	coffee
+000744	0.002198552134687278	fill	kettle	water	coffee
+000745	0.000621490229972398	fill	kettle	hot water	coffee
+000746	0.0038643079643162	fill	kettle	coffee maker	coffee
+000747	0.002818324634425694	fill	kettle	maker	coffee
+000748	0.0013801099872557856	fill	kettle	coffee beans	coffee
+000749	0.0008280659923534715	fill	kettle	coffee grounds	coffee
+000750	0.0010473423507347207	fill	kettle	grounds	coffee
+000751	0.00540205947263281	fill	kettle	filter	coffee
+000752	0.0008280659923534715	fill	kettle	coffee filter	coffee
+000753	0.00041893694029388823	fill	kettle	coffeemaker	coffee
+000754	0.0027406358070777804	fill	kettle	machine	coffee
+000755	0.004416351959218514	fill	kettle	coffee machine	coffee
+000756	0.0005457195397618223	fill	kettle	resevoir	coffee
+000757	0.0009549889530434996	clean	coffee machine	holder	coffee
+000758	0.0038180578324703666	clean	coffee machine	mug	coffee
+000759	0.012713762580295083	clean	coffee machine	coffee pot	coffee
+000760	0.004341717652737826	clean	coffee machine	brew	coffee
+000761	0.0006356881290147542	clean	coffee machine	auto brew	coffee
+000762	0.005063340987118454	clean	coffee machine	water	coffee
+000763	0.0014313133197364548	clean	coffee machine	hot water	coffee
+000764	0.008899633806206557	clean	coffee machine	coffee maker	coffee
+000765	0.006490698315199623	clean	coffee machine	maker	coffee
+000766	0.0031784406450737707	clean	coffee machine	coffee beans	coffee
+000767	0.0019070643870442625	clean	coffee machine	coffee grounds	coffee
+000768	0.0024120653626321254	clean	coffee machine	grounds	coffee
+000769	0.0124411282821473	clean	coffee machine	filter	coffee
+000770	0.0019070643870442625	clean	coffee machine	coffee filter	coffee
+000771	0.0009648261450528501	clean	coffee machine	coffeemaker	coffee
+000772	0.006311778280716196	clean	coffee machine	machine	coffee
+000773	0.0012568108208816649	clean	coffee machine	resevoir	coffee
+000774	0.0019099779060869993	grind	coffee beans	holder	coffee
+000775	0.007636115664940733	grind	coffee beans	mug	coffee
+000776	0.025427525160590166	grind	coffee beans	coffee pot	coffee
+000777	0.008683435305475651	grind	coffee beans	brew	coffee
+000778	0.0012713762580295084	grind	coffee beans	auto brew	coffee
+000779	0.010126681974236908	grind	coffee beans	water	coffee
+000780	0.0028626266394729096	grind	coffee beans	hot water	coffee
+000781	0.017799267612413114	grind	coffee beans	coffee maker	coffee
+000782	0.012981396630399246	grind	coffee beans	maker	coffee
+000783	0.003814128774088525	grind	coffee beans	coffee grounds	coffee
+000784	0.004824130725264251	grind	coffee beans	grounds	coffee
+000785	0.0248822565642946	grind	coffee beans	filter	coffee
+000786	0.003814128774088525	grind	coffee beans	coffee filter	coffee
+000787	0.0019296522901057001	grind	coffee beans	coffeemaker	coffee
+000788	0.012623556561432391	grind	coffee beans	machine	coffee
+000789	0.020342020128472135	grind	coffee beans	coffee machine	coffee
+000790	0.0025136216417633297	grind	coffee beans	resevoir	coffee
+000791	0.0004774944765217498	put	coffee pot	holder	coffee
+000792	0.0019090289162351833	put	coffee pot	mug	coffee
+000793	0.002170858826368913	put	coffee pot	brew	coffee
+000794	0.0003178440645073771	put	coffee pot	auto brew	coffee
+000795	0.002531670493559227	put	coffee pot	water	coffee
+000796	0.0007156566598682274	put	coffee pot	hot water	coffee
+000797	0.0044498169031032785	put	coffee pot	coffee maker	coffee
+000798	0.0032453491575998115	put	coffee pot	maker	coffee
+000799	0.0015892203225368853	put	coffee pot	coffee beans	coffee
+000800	0.0009535321935221313	put	coffee pot	coffee grounds	coffee
+000801	0.0012060326813160627	put	coffee pot	grounds	coffee
+000802	0.00622056414107365	put	coffee pot	filter	coffee
+000803	0.0009535321935221313	put	coffee pot	coffee filter	coffee
+000804	0.00048241307252642503	put	coffee pot	coffeemaker	coffee
+000805	0.003155889140358098	put	coffee pot	machine	coffee
+000806	0.005085505032118034	put	coffee pot	coffee machine	coffee
+000807	0.0006284054104408324	put	coffee pot	resevoir	coffee
+000808	0.0004774944765217498	fill	filter	holder	coffee
+000809	0.0019090289162351833	fill	filter	mug	coffee
+000810	0.006356881290147541	fill	filter	coffee pot	coffee
+000811	0.002170858826368913	fill	filter	brew	coffee
+000812	0.0003178440645073771	fill	filter	auto brew	coffee
+000813	0.002531670493559227	fill	filter	water	coffee
+000814	0.0007156566598682274	fill	filter	hot water	coffee
+000815	0.0044498169031032785	fill	filter	coffee maker	coffee
+000816	0.0032453491575998115	fill	filter	maker	coffee
+000817	0.0015892203225368853	fill	filter	coffee beans	coffee
+000818	0.0009535321935221313	fill	filter	coffee grounds	coffee
+000819	0.0012060326813160627	fill	filter	grounds	coffee
+000820	0.0009535321935221313	fill	filter	coffee filter	coffee
+000821	0.00048241307252642503	fill	filter	coffeemaker	coffee
+000822	0.003155889140358098	fill	filter	machine	coffee
+000823	0.005085505032118034	fill	filter	coffee machine	coffee
+000824	0.0006284054104408324	fill	filter	resevoir	coffee
+000825	0.0004774944765217498	place	coffee filter	holder	coffee
+000826	0.0019090289162351833	place	coffee filter	mug	coffee
+000827	0.006356881290147541	place	coffee filter	coffee pot	coffee
+000828	0.002170858826368913	place	coffee filter	brew	coffee
+000829	0.0003178440645073771	place	coffee filter	auto brew	coffee
+000830	0.002531670493559227	place	coffee filter	water	coffee
+000831	0.0007156566598682274	place	coffee filter	hot water	coffee
+000832	0.0044498169031032785	place	coffee filter	coffee maker	coffee
+000833	0.0032453491575998115	place	coffee filter	maker	coffee
+000834	0.0015892203225368853	place	coffee filter	coffee beans	coffee
+000835	0.0009535321935221313	place	coffee filter	coffee grounds	coffee
+000836	0.0012060326813160627	place	coffee filter	grounds	coffee
+000837	0.00622056414107365	place	coffee filter	filter	coffee
+000838	0.00048241307252642503	place	coffee filter	coffeemaker	coffee
+000839	0.003155889140358098	place	coffee filter	machine	coffee
+000840	0.005085505032118034	place	coffee filter	coffee machine	coffee
+000841	0.0006284054104408324	place	coffee filter	resevoir	coffee
+000842	0.004297450288695747	put	filter	holder	coffee
+000843	0.017181260246116648	put	filter	mug	coffee
+000844	0.057211931611327864	put	filter	coffee pot	coffee
+000845	0.019537729437320215	put	filter	brew	coffee
+000846	0.0028605965805663935	put	filter	auto brew	coffee
+000847	0.02278503444203304	put	filter	water	coffee
+000848	0.0064409099388140455	put	filter	hot water	coffee
+000849	0.0400483521279295	put	filter	coffee maker	coffee
+000850	0.029208142418398298	put	filter	maker	coffee
+000851	0.014302982902831966	put	filter	coffee beans	coffee
+000852	0.00858178974169918	put	filter	coffee grounds	coffee
+000853	0.010854294131844563	put	filter	grounds	coffee
+000854	0.00858178974169918	put	filter	coffee filter	coffee
+000855	0.004341717652737825	put	filter	coffeemaker	coffee
+000856	0.028403002263222878	put	filter	machine	coffee
+000857	0.0457695452890623	put	filter	coffee machine	coffee
+000858	0.00565564869396749	put	filter	resevoir	coffee
+000859	0.0004774944765217498	grinded	coffee	holder	coffee
+000860	0.0019090289162351833	grinded	coffee	mug	coffee
+000861	0.006356881290147541	grinded	coffee	coffee pot	coffee
+000862	0.002170858826368913	grinded	coffee	brew	coffee
+000863	0.0003178440645073771	grinded	coffee	auto brew	coffee
+000864	0.002531670493559227	grinded	coffee	water	coffee
+000865	0.0007156566598682274	grinded	coffee	hot water	coffee
+000866	0.0044498169031032785	grinded	coffee	coffee maker	coffee
+000867	0.0032453491575998115	grinded	coffee	maker	coffee
+000868	0.0015892203225368853	grinded	coffee	coffee beans	coffee
+000869	0.0009535321935221313	grinded	coffee	coffee grounds	coffee
+000870	0.0012060326813160627	grinded	coffee	grounds	coffee
+000871	0.00622056414107365	grinded	coffee	filter	coffee
+000872	0.0009535321935221313	grinded	coffee	coffee filter	coffee
+000873	0.00048241307252642503	grinded	coffee	coffeemaker	coffee
+000874	0.003155889140358098	grinded	coffee	machine	coffee
+000875	0.005085505032118034	grinded	coffee	coffee machine	coffee
+000876	0.0006284054104408324	grinded	coffee	resevoir	coffee
+000877	0.0004774944765217498	find	electric coffee pot	holder	coffee
+000878	0.0019090289162351833	find	electric coffee pot	mug	coffee
+000879	0.006356881290147541	find	electric coffee pot	coffee pot	coffee
+000880	0.002170858826368913	find	electric coffee pot	brew	coffee
+000881	0.0003178440645073771	find	electric coffee pot	auto brew	coffee
+000882	0.002531670493559227	find	electric coffee pot	water	coffee
+000883	0.0007156566598682274	find	electric coffee pot	hot water	coffee
+000884	0.0044498169031032785	find	electric coffee pot	coffee maker	coffee
+000885	0.0032453491575998115	find	electric coffee pot	maker	coffee
+000886	0.0015892203225368853	find	electric coffee pot	coffee beans	coffee
+000887	0.0009535321935221313	find	electric coffee pot	coffee grounds	coffee
+000888	0.0012060326813160627	find	electric coffee pot	grounds	coffee
+000889	0.00622056414107365	find	electric coffee pot	filter	coffee
+000890	0.0009535321935221313	find	electric coffee pot	coffee filter	coffee
+000891	0.00048241307252642503	find	electric coffee pot	coffeemaker	coffee
+000892	0.003155889140358098	find	electric coffee pot	machine	coffee
+000893	0.005085505032118034	find	electric coffee pot	coffee machine	coffee
+000894	0.0006284054104408324	find	electric coffee pot	resevoir	coffee
+000895	0.0004774944765217498	close	filter basket	holder	coffee
+000896	0.0019090289162351833	close	filter basket	mug	coffee
+000897	0.006356881290147541	close	filter basket	coffee pot	coffee
+000898	0.002170858826368913	close	filter basket	brew	coffee
+000899	0.0003178440645073771	close	filter basket	auto brew	coffee
+000900	0.002531670493559227	close	filter basket	water	coffee
+000901	0.0007156566598682274	close	filter basket	hot water	coffee
+000902	0.0044498169031032785	close	filter basket	coffee maker	coffee
+000903	0.0032453491575998115	close	filter basket	maker	coffee
+000904	0.0015892203225368853	close	filter basket	coffee beans	coffee
+000905	0.0009535321935221313	close	filter basket	coffee grounds	coffee
+000906	0.0012060326813160627	close	filter basket	grounds	coffee
+000907	0.00622056414107365	close	filter basket	filter	coffee
+000908	0.0009535321935221313	close	filter basket	coffee filter	coffee
+000909	0.00048241307252642503	close	filter basket	coffeemaker	coffee
+000910	0.003155889140358098	close	filter basket	machine	coffee
+000911	0.005085505032118034	close	filter basket	coffee machine	coffee
+000912	0.0006284054104408324	close	filter basket	resevoir	coffee
+000913	0.0004774944765217498	load	ground coffee powder	holder	coffee
+000914	0.0019090289162351833	load	ground coffee powder	mug	coffee
+000915	0.006356881290147541	load	ground coffee powder	coffee pot	coffee
+000916	0.002170858826368913	load	ground coffee powder	brew	coffee
+000917	0.0003178440645073771	load	ground coffee powder	auto brew	coffee
+000918	0.002531670493559227	load	ground coffee powder	water	coffee
+000919	0.0007156566598682274	load	ground coffee powder	hot water	coffee
+000920	0.0044498169031032785	load	ground coffee powder	coffee maker	coffee
+000921	0.0032453491575998115	load	ground coffee powder	maker	coffee
+000922	0.0015892203225368853	load	ground coffee powder	coffee beans	coffee
+000923	0.0009535321935221313	load	ground coffee powder	coffee grounds	coffee
+000924	0.0012060326813160627	load	ground coffee powder	grounds	coffee
+000925	0.00622056414107365	load	ground coffee powder	filter	coffee
+000926	0.0009535321935221313	load	ground coffee powder	coffee filter	coffee
+000927	0.00048241307252642503	load	ground coffee powder	coffeemaker	coffee
+000928	0.003155889140358098	load	ground coffee powder	machine	coffee
+000929	0.005085505032118034	load	ground coffee powder	coffee machine	coffee
+000930	0.0006284054104408324	load	ground coffee powder	resevoir	coffee
+000931	0.0009549889530434996	put	grounds	holder	coffee
+000932	0.0038180578324703666	put	grounds	mug	coffee
+000933	0.012713762580295083	put	grounds	coffee pot	coffee
+000934	0.004341717652737826	put	grounds	brew	coffee
+000935	0.0006356881290147542	put	grounds	auto brew	coffee
+000936	0.005063340987118454	put	grounds	water	coffee
+000937	0.0014313133197364548	put	grounds	hot water	coffee
+000938	0.008899633806206557	put	grounds	coffee maker	coffee
+000939	0.006490698315199623	put	grounds	maker	coffee
+000940	0.0031784406450737707	put	grounds	coffee beans	coffee
+000941	0.0019070643870442625	put	grounds	coffee grounds	coffee
+000942	0.0124411282821473	put	grounds	filter	coffee
+000943	0.0019070643870442625	put	grounds	coffee filter	coffee
+000944	0.0009648261450528501	put	grounds	coffeemaker	coffee
+000945	0.006311778280716196	put	grounds	machine	coffee
+000946	0.010171010064236067	put	grounds	coffee machine	coffee
+000947	0.0012568108208816649	put	grounds	resevoir	coffee
+000948	0.0004774944765217498	fill	coffee maker reservoir	holder	coffee
+000949	0.0019090289162351833	fill	coffee maker reservoir	mug	coffee
+000950	0.006356881290147541	fill	coffee maker reservoir	coffee pot	coffee
+000951	0.002170858826368913	fill	coffee maker reservoir	brew	coffee
+000952	0.0003178440645073771	fill	coffee maker reservoir	auto brew	coffee
+000953	0.002531670493559227	fill	coffee maker reservoir	water	coffee
+000954	0.0007156566598682274	fill	coffee maker reservoir	hot water	coffee
+000955	0.0044498169031032785	fill	coffee maker reservoir	coffee maker	coffee
+000956	0.0032453491575998115	fill	coffee maker reservoir	maker	coffee
+000957	0.0015892203225368853	fill	coffee maker reservoir	coffee beans	coffee
+000958	0.0009535321935221313	fill	coffee maker reservoir	coffee grounds	coffee
+000959	0.0012060326813160627	fill	coffee maker reservoir	grounds	coffee
+000960	0.00622056414107365	fill	coffee maker reservoir	filter	coffee
+000961	0.0009535321935221313	fill	coffee maker reservoir	coffee filter	coffee
+000962	0.00048241307252642503	fill	coffee maker reservoir	coffeemaker	coffee
+000963	0.003155889140358098	fill	coffee maker reservoir	machine	coffee
+000964	0.005085505032118034	fill	coffee maker reservoir	coffee machine	coffee
+000965	0.0006284054104408324	fill	coffee maker reservoir	resevoir	coffee
+000966	0.005252439241739248	put	coffee	holder	coffee
+000967	0.020999318078587015	put	coffee	mug	coffee
+000968	0.06992569419162295	put	coffee	coffee pot	coffee
+000969	0.023879447090058042	put	coffee	brew	coffee
+000970	0.003496284709581148	put	coffee	auto brew	coffee
+000971	0.027848375429151497	put	coffee	water	coffee
+000972	0.007872223258550502	put	coffee	hot water	coffee
+000973	0.048947985934136067	put	coffee	coffee maker	coffee
+000974	0.03569884073359792	put	coffee	maker	coffee
+000975	0.017481423547905738	put	coffee	coffee beans	coffee
+000976	0.010488854128743444	put	coffee	coffee grounds	coffee
+000977	0.013266359494476689	put	coffee	grounds	coffee
+000978	0.06842620555181014	put	coffee	filter	coffee
+000979	0.010488854128743444	put	coffee	coffee filter	coffee
+000980	0.005306543797790675	put	coffee	coffeemaker	coffee
+000981	0.034714780543939075	put	coffee	machine	coffee
+000982	0.055940555353298366	put	coffee	coffee machine	coffee
+000983	0.006912459514849156	put	coffee	resevoir	coffee
+000984	0.0014324834295652493	turn	coffee pot	holder	coffee
+000985	0.005727086748705549	turn	coffee pot	mug	coffee
+000986	0.006512576479106738	turn	coffee pot	brew	coffee
+000987	0.0009535321935221311	turn	coffee pot	auto brew	coffee
+000988	0.00759501148067768	turn	coffee pot	water	coffee
+000989	0.002146969979604682	turn	coffee pot	hot water	coffee
+000990	0.013349450709309834	turn	coffee pot	coffee maker	coffee
+000991	0.009736047472799433	turn	coffee pot	maker	coffee
+000992	0.004767660967610656	turn	coffee pot	coffee beans	coffee
+000993	0.0028605965805663935	turn	coffee pot	coffee grounds	coffee
+000994	0.0036180980439481877	turn	coffee pot	grounds	coffee
+000995	0.018661692423220945	turn	coffee pot	filter	coffee
+000996	0.0028605965805663935	turn	coffee pot	coffee filter	coffee
+000997	0.001447239217579275	turn	coffee pot	coffeemaker	coffee
+000998	0.009467667421074293	turn	coffee pot	machine	coffee
+000999	0.015256515096354098	turn	coffee pot	coffee machine	coffee
+001000	0.0018852162313224969	turn	coffee pot	resevoir	coffee
+001001	0.0009549889530434996	put	ground coffee	holder	coffee
+001002	0.0038180578324703666	put	ground coffee	mug	coffee
+001003	0.012713762580295083	put	ground coffee	coffee pot	coffee
+001004	0.004341717652737826	put	ground coffee	brew	coffee
+001005	0.0006356881290147542	put	ground coffee	auto brew	coffee
+001006	0.005063340987118454	put	ground coffee	water	coffee
+001007	0.0014313133197364548	put	ground coffee	hot water	coffee
+001008	0.008899633806206557	put	ground coffee	coffee maker	coffee
+001009	0.006490698315199623	put	ground coffee	maker	coffee
+001010	0.0031784406450737707	put	ground coffee	coffee beans	coffee
+001011	0.0019070643870442625	put	ground coffee	coffee grounds	coffee
+001012	0.0024120653626321254	put	ground coffee	grounds	coffee
+001013	0.0124411282821473	put	ground coffee	filter	coffee
+001014	0.0019070643870442625	put	ground coffee	coffee filter	coffee
+001015	0.0009648261450528501	put	ground coffee	coffeemaker	coffee
+001016	0.006311778280716196	put	ground coffee	machine	coffee
+001017	0.010171010064236067	put	ground coffee	coffee machine	coffee
+001018	0.0012568108208816649	put	ground coffee	resevoir	coffee
+001019	0.0004146655353961125	make	coffee	holder	coffee
+001020	0.0016578380202504081	make	coffee	mug	coffee
+001021	0.0055204399490231424	make	coffee	coffee pot	coffee
+001022	0.001885216231322497	make	coffee	brew	coffee
+001023	0.00027602199745115714	make	coffee	auto brew	coffee
+001024	0.002198552134687278	make	coffee	water	coffee
+001025	0.000621490229972398	make	coffee	hot water	coffee
+001026	0.0038643079643162	make	coffee	coffee maker	coffee
+001027	0.002818324634425694	make	coffee	maker	coffee
+001028	0.0013801099872557856	make	coffee	coffee beans	coffee
+001029	0.0008280659923534715	make	coffee	coffee grounds	coffee
+001030	0.0010473423507347207	make	coffee	grounds	coffee
+001031	0.00540205947263281	make	coffee	filter	coffee
+001032	0.0008280659923534715	make	coffee	coffee filter	coffee
+001033	0.00041893694029388823	make	coffee	coffeemaker	coffee
+001034	0.0027406358070777804	make	coffee	machine	coffee
+001035	0.004416351959218514	make	coffee	coffee machine	coffee
+001036	0.0005457195397618223	make	coffee	resevoir	coffee
+001037	0.0002890076531448379	place	pot	holder	coffee
+001038	0.001155456228280858	place	pot	mug	coffee
+001039	0.003847557266774345	place	pot	coffee pot	coffee
+001040	0.0013139310412296653	place	pot	brew	coffee
+001041	0.00019237786333871725	place	pot	auto brew	coffee
+001042	0.0015323154169433794	place	pot	water	coffee
+001043	0.0004331573701807393	place	pot	hot water	coffee
+001044	0.0026932900867420416	place	pot	coffee maker	coffee
+001045	0.0019642755880774584	place	pot	maker	coffee
+001046	0.0009618893166935862	place	pot	coffee beans	coffee
+001047	0.0005771335900161518	place	pot	coffee grounds	coffee
+001048	0.0007299616895720363	place	pot	grounds	coffee
+001049	0.0037650501357511324	place	pot	filter	coffee
+001050	0.0005771335900161518	place	pot	coffee filter	coffee
+001051	0.0002919846758288145	place	pot	coffeemaker	coffee
+001052	0.0019101291405171446	place	pot	machine	coffee
+001053	0.003078045813419476	place	pot	coffee machine	coffee
+001054	0.0003803477984038023	place	pot	resevoir	coffee
+001055	0.0004774944765217498	pour	coffee beans	holder	coffee
+001056	0.0019090289162351833	pour	coffee beans	mug	coffee
+001057	0.006356881290147541	pour	coffee beans	coffee pot	coffee
+001058	0.002170858826368913	pour	coffee beans	brew	coffee
+001059	0.0003178440645073771	pour	coffee beans	auto brew	coffee
+001060	0.002531670493559227	pour	coffee beans	water	coffee
+001061	0.0007156566598682274	pour	coffee beans	hot water	coffee
+001062	0.0044498169031032785	pour	coffee beans	coffee maker	coffee
+001063	0.0032453491575998115	pour	coffee beans	maker	coffee
+001064	0.0009535321935221313	pour	coffee beans	coffee grounds	coffee
+001065	0.0012060326813160627	pour	coffee beans	grounds	coffee
+001066	0.00622056414107365	pour	coffee beans	filter	coffee
+001067	0.0009535321935221313	pour	coffee beans	coffee filter	coffee
+001068	0.00048241307252642503	pour	coffee beans	coffeemaker	coffee
+001069	0.003155889140358098	pour	coffee beans	machine	coffee
+001070	0.005085505032118034	pour	coffee beans	coffee machine	coffee
+001071	0.0006284054104408324	pour	coffee beans	resevoir	coffee
+001072	0.0016679767879557105	put	water	holder	coffee
+001073	0.00666859215422043	put	water	mug	coffee
+001074	0.022205765631035688	put	water	coffee pot	coffee
+001075	0.007583212603187442	put	water	brew	coffee
+001076	0.0011102882815517843	put	water	auto brew	coffee
+001077	0.0024999214765822437	put	water	hot water	coffee
+001078	0.01554403594172498	put	water	coffee maker	coffee
+001079	0.01133660666217473	put	water	maker	coffee
+001080	0.005551441407758922	put	water	coffee beans	coffee
+001081	0.0033308648446553537	put	water	coffee grounds	coffee
+001082	0.00421289589065969	put	water	grounds	coffee
+001083	0.021729584540708054	put	water	filter	coffee
+001084	0.0033308648446553537	put	water	coffee filter	coffee
+001085	0.0016851583562638756	put	water	coffeemaker	coffee
+001086	0.011024106225947175	put	water	machine	coffee
+001087	0.01776461250482855	put	water	coffee machine	coffee
+001088	0.002195136676085395	put	water	resevoir	coffee
+001089	0.0004774944765217498	put	coffee grounds	holder	coffee
+001090	0.0019090289162351833	put	coffee grounds	mug	coffee
+001091	0.006356881290147541	put	coffee grounds	coffee pot	coffee
+001092	0.002170858826368913	put	coffee grounds	brew	coffee
+001093	0.0003178440645073771	put	coffee grounds	auto brew	coffee
+001094	0.002531670493559227	put	coffee grounds	water	coffee
+001095	0.0007156566598682274	put	coffee grounds	hot water	coffee
+001096	0.0044498169031032785	put	coffee grounds	coffee maker	coffee
+001097	0.0032453491575998115	put	coffee grounds	maker	coffee
+001098	0.0015892203225368853	put	coffee grounds	coffee beans	coffee
+001099	0.0012060326813160627	put	coffee grounds	grounds	coffee
+001100	0.00622056414107365	put	coffee grounds	filter	coffee
+001101	0.0009535321935221313	put	coffee grounds	coffee filter	coffee
+001102	0.00048241307252642503	put	coffee grounds	coffeemaker	coffee
+001103	0.003155889140358098	put	coffee grounds	machine	coffee
+001104	0.005085505032118034	put	coffee grounds	coffee machine	coffee
+001105	0.0006284054104408324	put	coffee grounds	resevoir	coffee
+001106	0.0004774944765217498	get	mug	holder	coffee
+001107	0.006356881290147541	get	mug	coffee pot	coffee
+001108	0.002170858826368913	get	mug	brew	coffee
+001109	0.0003178440645073771	get	mug	auto brew	coffee
+001110	0.002531670493559227	get	mug	water	coffee
+001111	0.0007156566598682274	get	mug	hot water	coffee
+001112	0.0044498169031032785	get	mug	coffee maker	coffee
+001113	0.0032453491575998115	get	mug	maker	coffee
+001114	0.0015892203225368853	get	mug	coffee beans	coffee
+001115	0.0009535321935221313	get	mug	coffee grounds	coffee
+001116	0.0012060326813160627	get	mug	grounds	coffee
+001117	0.00622056414107365	get	mug	filter	coffee
+001118	0.0009535321935221313	get	mug	coffee filter	coffee
+001119	0.00048241307252642503	get	mug	coffeemaker	coffee
+001120	0.003155889140358098	get	mug	machine	coffee
+001121	0.005085505032118034	get	mug	coffee machine	coffee
+001122	0.0006284054104408324	get	mug	resevoir	coffee
+001123	0.0003011113394050245	put	pot	holder	coffee
+001124	0.0012038469180162652	put	pot	mug	coffee
+001125	0.004008693574129497	put	pot	coffee pot	coffee
+001126	0.0013689586812160503	put	pot	brew	coffee
+001127	0.00020043467870647485	put	pot	auto brew	coffee
+001128	0.001596489029152309	put	pot	water	coffee
+001129	0.0004512980694075785	put	pot	hot water	coffee
+001130	0.002806085501890648	put	pot	coffee maker	coffee
+001131	0.0020465397606276507	put	pot	maker	coffee
+001132	0.0010021733935323743	put	pot	coffee beans	coffee
+001133	0.0006013040361194246	put	pot	coffee grounds	coffee
+001134	0.0007605326006755835	put	pot	grounds	coffee
+001135	0.003922731031399133	put	pot	filter	coffee
+001136	0.0006013040361194246	put	pot	coffee filter	coffee
+001137	0.0003042130402702334	put	pot	coffeemaker	coffee
+001138	0.001990125651272771	put	pot	machine	coffee
+001139	0.0032069548593035976	put	pot	coffee machine	coffee
+001140	0.000396276824405495	put	pot	resevoir	coffee
+001141	0.0009549889530434996	turn	pot	holder	coffee
+001142	0.0038180578324703666	turn	pot	mug	coffee
+001143	0.012713762580295083	turn	pot	coffee pot	coffee
+001144	0.004341717652737826	turn	pot	brew	coffee
+001145	0.0006356881290147542	turn	pot	auto brew	coffee
+001146	0.005063340987118454	turn	pot	water	coffee
+001147	0.0014313133197364548	turn	pot	hot water	coffee
+001148	0.008899633806206557	turn	pot	coffee maker	coffee
+001149	0.006490698315199623	turn	pot	maker	coffee
+001150	0.0031784406450737707	turn	pot	coffee beans	coffee
+001151	0.0019070643870442625	turn	pot	coffee grounds	coffee
+001152	0.0024120653626321254	turn	pot	grounds	coffee
+001153	0.0124411282821473	turn	pot	filter	coffee
+001154	0.0019070643870442625	turn	pot	coffee filter	coffee
+001155	0.0009648261450528501	turn	pot	coffeemaker	coffee
+001156	0.006311778280716196	turn	pot	machine	coffee
+001157	0.010171010064236067	turn	pot	coffee machine	coffee
+001158	0.0012568108208816649	turn	pot	resevoir	coffee
+001159	0.0004774944765217498	identify	coffee pot	holder	coffee
+001160	0.0019090289162351833	identify	coffee pot	mug	coffee
+001161	0.002170858826368913	identify	coffee pot	brew	coffee
+001162	0.0003178440645073771	identify	coffee pot	auto brew	coffee
+001163	0.002531670493559227	identify	coffee pot	water	coffee
+001164	0.0007156566598682274	identify	coffee pot	hot water	coffee
+001165	0.0044498169031032785	identify	coffee pot	coffee maker	coffee
+001166	0.0032453491575998115	identify	coffee pot	maker	coffee
+001167	0.0015892203225368853	identify	coffee pot	coffee beans	coffee
+001168	0.0009535321935221313	identify	coffee pot	coffee grounds	coffee
+001169	0.0012060326813160627	identify	coffee pot	grounds	coffee
+001170	0.00622056414107365	identify	coffee pot	filter	coffee
+001171	0.0009535321935221313	identify	coffee pot	coffee filter	coffee
+001172	0.00048241307252642503	identify	coffee pot	coffeemaker	coffee
+001173	0.003155889140358098	identify	coffee pot	machine	coffee
+001174	0.005085505032118034	identify	coffee pot	coffee machine	coffee
+001175	0.0006284054104408324	identify	coffee pot	resevoir	coffee
+001176	0.0004774944765217498	turn	coffemaker	holder	coffee
+001177	0.0019090289162351833	turn	coffemaker	mug	coffee
+001178	0.006356881290147541	turn	coffemaker	coffee pot	coffee
+001179	0.002170858826368913	turn	coffemaker	brew	coffee
+001180	0.0003178440645073771	turn	coffemaker	auto brew	coffee
+001181	0.002531670493559227	turn	coffemaker	water	coffee
+001182	0.0007156566598682274	turn	coffemaker	hot water	coffee
+001183	0.0044498169031032785	turn	coffemaker	coffee maker	coffee
+001184	0.0032453491575998115	turn	coffemaker	maker	coffee
+001185	0.0015892203225368853	turn	coffemaker	coffee beans	coffee
+001186	0.0009535321935221313	turn	coffemaker	coffee grounds	coffee
+001187	0.0012060326813160627	turn	coffemaker	grounds	coffee
+001188	0.00622056414107365	turn	coffemaker	filter	coffee
+001189	0.0009535321935221313	turn	coffemaker	coffee filter	coffee
+001190	0.00048241307252642503	turn	coffemaker	coffeemaker	coffee
+001191	0.003155889140358098	turn	coffemaker	machine	coffee
+001192	0.005085505032118034	turn	coffemaker	coffee machine	coffee
+001193	0.0006284054104408324	turn	coffemaker	resevoir	coffee
+001194	0.0004774944765217498	brew	coffee	holder	coffee
+001195	0.0019090289162351833	brew	coffee	mug	coffee
+001196	0.006356881290147541	brew	coffee	coffee pot	coffee
+001197	0.002170858826368913	brew	coffee	brew	coffee
+001198	0.0003178440645073771	brew	coffee	auto brew	coffee
+001199	0.002531670493559227	brew	coffee	water	coffee
+001200	0.0007156566598682274	brew	coffee	hot water	coffee
+001201	0.0044498169031032785	brew	coffee	coffee maker	coffee
+001202	0.0032453491575998115	brew	coffee	maker	coffee
+001203	0.0015892203225368853	brew	coffee	coffee beans	coffee
+001204	0.0009535321935221313	brew	coffee	coffee grounds	coffee
+001205	0.0012060326813160627	brew	coffee	grounds	coffee
+001206	0.00622056414107365	brew	coffee	filter	coffee
+001207	0.0009535321935221313	brew	coffee	coffee filter	coffee
+001208	0.00048241307252642503	brew	coffee	coffeemaker	coffee
+001209	0.003155889140358098	brew	coffee	machine	coffee
+001210	0.005085505032118034	brew	coffee	coffee machine	coffee
+001211	0.0006284054104408324	brew	coffee	resevoir	coffee
+001212	0.0004146655353961125	set	pot	holder	coffee
+001213	0.0016578380202504081	set	pot	mug	coffee
+001214	0.0055204399490231424	set	pot	coffee pot	coffee
+001215	0.001885216231322497	set	pot	brew	coffee
+001216	0.00027602199745115714	set	pot	auto brew	coffee
+001217	0.002198552134687278	set	pot	water	coffee
+001218	0.000621490229972398	set	pot	hot water	coffee
+001219	0.0038643079643162	set	pot	coffee maker	coffee
+001220	0.002818324634425694	set	pot	maker	coffee
+001221	0.0013801099872557856	set	pot	coffee beans	coffee
+001222	0.0008280659923534715	set	pot	coffee grounds	coffee
+001223	0.0010473423507347207	set	pot	grounds	coffee
+001224	0.00540205947263281	set	pot	filter	coffee
+001225	0.0008280659923534715	set	pot	coffee filter	coffee
+001226	0.00041893694029388823	set	pot	coffeemaker	coffee
+001227	0.0027406358070777804	set	pot	machine	coffee
+001228	0.004416351959218514	set	pot	coffee machine	coffee
+001229	0.0005457195397618223	set	pot	resevoir	coffee
+001230	0.0004774944765217498	run	hot water	holder	coffee
+001231	0.0019090289162351833	run	hot water	mug	coffee
+001232	0.006356881290147541	run	hot water	coffee pot	coffee
+001233	0.002170858826368913	run	hot water	brew	coffee
+001234	0.0003178440645073771	run	hot water	auto brew	coffee
+001235	0.002531670493559227	run	hot water	water	coffee
+001236	0.0044498169031032785	run	hot water	coffee maker	coffee
+001237	0.0032453491575998115	run	hot water	maker	coffee
+001238	0.0015892203225368853	run	hot water	coffee beans	coffee
+001239	0.0009535321935221313	run	hot water	coffee grounds	coffee
+001240	0.0012060326813160627	run	hot water	grounds	coffee
+001241	0.00622056414107365	run	hot water	filter	coffee
+001242	0.0009535321935221313	run	hot water	coffee filter	coffee
+001243	0.00048241307252642503	run	hot water	coffeemaker	coffee
+001244	0.003155889140358098	run	hot water	machine	coffee
+001245	0.005085505032118034	run	hot water	coffee machine	coffee
+001246	0.0006284054104408324	run	hot water	resevoir	coffee
+001247	0.0004774944765217498	find	coffee	holder	coffee
+001248	0.0019090289162351833	find	coffee	mug	coffee
+001249	0.006356881290147541	find	coffee	coffee pot	coffee
+001250	0.002170858826368913	find	coffee	brew	coffee
+001251	0.0003178440645073771	find	coffee	auto brew	coffee
+001252	0.002531670493559227	find	coffee	water	coffee
+001253	0.0007156566598682274	find	coffee	hot water	coffee
+001254	0.0044498169031032785	find	coffee	coffee maker	coffee
+001255	0.0032453491575998115	find	coffee	maker	coffee
+001256	0.0015892203225368853	find	coffee	coffee beans	coffee
+001257	0.0009535321935221313	find	coffee	coffee grounds	coffee
+001258	0.0012060326813160627	find	coffee	grounds	coffee
+001259	0.00622056414107365	find	coffee	filter	coffee
+001260	0.0009535321935221313	find	coffee	coffee filter	coffee
+001261	0.00048241307252642503	find	coffee	coffeemaker	coffee
+001262	0.003155889140358098	find	coffee	machine	coffee
+001263	0.005085505032118034	find	coffee	coffee machine	coffee
+001264	0.0006284054104408324	find	coffee	resevoir	coffee
+001265	0.0004774944765217498	put	kettle	holder	coffee
+001266	0.0019090289162351833	put	kettle	mug	coffee
+001267	0.006356881290147541	put	kettle	coffee pot	coffee
+001268	0.002170858826368913	put	kettle	brew	coffee
+001269	0.0003178440645073771	put	kettle	auto brew	coffee
+001270	0.002531670493559227	put	kettle	water	coffee
+001271	0.0007156566598682274	put	kettle	hot water	coffee
+001272	0.0044498169031032785	put	kettle	coffee maker	coffee
+001273	0.0032453491575998115	put	kettle	maker	coffee
+001274	0.0015892203225368853	put	kettle	coffee beans	coffee
+001275	0.0009535321935221313	put	kettle	coffee grounds	coffee
+001276	0.0012060326813160627	put	kettle	grounds	coffee
+001277	0.00622056414107365	put	kettle	filter	coffee
+001278	0.0009535321935221313	put	kettle	coffee filter	coffee
+001279	0.00048241307252642503	put	kettle	coffeemaker	coffee
+001280	0.003155889140358098	put	kettle	machine	coffee
+001281	0.005085505032118034	put	kettle	coffee machine	coffee
+001282	0.0006284054104408324	put	kettle	resevoir	coffee
+001283	0.002387472382608749	pour	coffee	holder	coffee
+001284	0.009545144581175915	pour	coffee	mug	coffee
+001285	0.031784406450737705	pour	coffee	coffee pot	coffee
+001286	0.010854294131844563	pour	coffee	brew	coffee
+001287	0.0015892203225368853	pour	coffee	auto brew	coffee
+001288	0.012658352467796135	pour	coffee	water	coffee
+001289	0.0035782832993411368	pour	coffee	hot water	coffee
+001290	0.022249084515516392	pour	coffee	coffee maker	coffee
+001291	0.016226745787999056	pour	coffee	maker	coffee
+001292	0.007946101612684426	pour	coffee	coffee beans	coffee
+001293	0.0047676609676106565	pour	coffee	coffee grounds	coffee
+001294	0.0060301634065803135	pour	coffee	grounds	coffee
+001295	0.031102820705368246	pour	coffee	filter	coffee
+001296	0.0047676609676106565	pour	coffee	coffee filter	coffee
+001297	0.002412065362632125	pour	coffee	coffeemaker	coffee
+001298	0.01577944570179049	pour	coffee	machine	coffee
+001299	0.025427525160590166	pour	coffee	coffee machine	coffee
+001300	0.0031420270522041615	pour	coffee	resevoir	coffee
+001301	0.0004146655353961125	put	hot water	holder	coffee
+001302	0.0016578380202504081	put	hot water	mug	coffee
+001303	0.0055204399490231424	put	hot water	coffee pot	coffee
+001304	0.001885216231322497	put	hot water	brew	coffee
+001305	0.00027602199745115714	put	hot water	auto brew	coffee
+001306	0.002198552134687278	put	hot water	water	coffee
+001307	0.0038643079643162	put	hot water	coffee maker	coffee
+001308	0.002818324634425694	put	hot water	maker	coffee
+001309	0.0013801099872557856	put	hot water	coffee beans	coffee
+001310	0.0008280659923534715	put	hot water	coffee grounds	coffee
+001311	0.0010473423507347207	put	hot water	grounds	coffee
+001312	0.00540205947263281	put	hot water	filter	coffee
+001313	0.0008280659923534715	put	hot water	coffee filter	coffee
+001314	0.00041893694029388823	put	hot water	coffeemaker	coffee
+001315	0.0027406358070777804	put	hot water	machine	coffee
+001316	0.004416351959218514	put	hot water	coffee machine	coffee
+001317	0.0005457195397618223	put	hot water	resevoir	coffee
+001318	0.0004774944765217498	watch	cup	holder	coffee
+001319	0.0019090289162351833	watch	cup	mug	coffee
+001320	0.006356881290147541	watch	cup	coffee pot	coffee
+001321	0.002170858826368913	watch	cup	brew	coffee
+001322	0.0003178440645073771	watch	cup	auto brew	coffee
+001323	0.002531670493559227	watch	cup	water	coffee
+001324	0.0007156566598682274	watch	cup	hot water	coffee
+001325	0.0044498169031032785	watch	cup	coffee maker	coffee
+001326	0.0032453491575998115	watch	cup	maker	coffee
+001327	0.0015892203225368853	watch	cup	coffee beans	coffee
+001328	0.0009535321935221313	watch	cup	coffee grounds	coffee
+001329	0.0012060326813160627	watch	cup	grounds	coffee
+001330	0.00622056414107365	watch	cup	filter	coffee
+001331	0.0009535321935221313	watch	cup	coffee filter	coffee
+001332	0.00048241307252642503	watch	cup	coffeemaker	coffee
+001333	0.003155889140358098	watch	cup	machine	coffee
+001334	0.005085505032118034	watch	cup	coffee machine	coffee
+001335	0.0006284054104408324	watch	cup	resevoir	coffee
+001336	0.0004146655353961125	find	filter	holder	coffee
+001337	0.0016578380202504081	find	filter	mug	coffee
+001338	0.0055204399490231424	find	filter	coffee pot	coffee
+001339	0.001885216231322497	find	filter	brew	coffee
+001340	0.00027602199745115714	find	filter	auto brew	coffee
+001341	0.002198552134687278	find	filter	water	coffee
+001342	0.000621490229972398	find	filter	hot water	coffee
+001343	0.0038643079643162	find	filter	coffee maker	coffee
+001344	0.002818324634425694	find	filter	maker	coffee
+001345	0.0013801099872557856	find	filter	coffee beans	coffee
+001346	0.0008280659923534715	find	filter	coffee grounds	coffee
+001347	0.0010473423507347207	find	filter	grounds	coffee
+001348	0.0008280659923534715	find	filter	coffee filter	coffee
+001349	0.00041893694029388823	find	filter	coffeemaker	coffee
+001350	0.0027406358070777804	find	filter	machine	coffee
+001351	0.004416351959218514	find	filter	coffee machine	coffee
+001352	0.0005457195397618223	find	filter	resevoir	coffee
+001353	0.0009549889530434996	place	filter	holder	coffee
+001354	0.0038180578324703666	place	filter	mug	coffee
+001355	0.012713762580295083	place	filter	coffee pot	coffee
+001356	0.004341717652737826	place	filter	brew	coffee
+001357	0.0006356881290147542	place	filter	auto brew	coffee
+001358	0.005063340987118454	place	filter	water	coffee
+001359	0.0014313133197364548	place	filter	hot water	coffee
+001360	0.008899633806206557	place	filter	coffee maker	coffee
+001361	0.006490698315199623	place	filter	maker	coffee
+001362	0.0031784406450737707	place	filter	coffee beans	coffee
+001363	0.0019070643870442625	place	filter	coffee grounds	coffee
+001364	0.0024120653626321254	place	filter	grounds	coffee
+001365	0.0019070643870442625	place	filter	coffee filter	coffee
+001366	0.0009648261450528501	place	filter	coffeemaker	coffee
+001367	0.006311778280716196	place	filter	machine	coffee
+001368	0.010171010064236067	place	filter	coffee machine	coffee
+001369	0.0012568108208816649	place	filter	resevoir	coffee

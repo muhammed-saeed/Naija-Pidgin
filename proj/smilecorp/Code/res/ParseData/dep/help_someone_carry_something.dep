@@ -1,0 +1,292 @@
+prep_to(go-1, person-3)
+
+dobj(retrieve-1, object-2)
+
+dobj(follow-1, person-2)
+
+dobj(get-1, object-2)
+
+dobj(follow-1, person-2)
+
+dobj(hold-1, box-2)
+num(side-5, one-4)
+prep_from(hold-1, side-5)
+
+dobj(carry-1, box-2)
+prep_to(carry-1, destination-4)
+
+dobj(ask-1, can-3)
+prep(ask-1, i-4)
+pobj(i-4, help-5)
+nsubj(carry-7, you-6)
+rcmod(help-5, carry-7)
+dobj(carry-7, that-8)
+
+mark(say-3, if-1)
+nsubj(say-3, they-2)
+dobj(say-3, yes-4)
+advmod(say-3, then-5)
+
+num(end-3, one-2)
+dobj(grasp-1, end-3)
+det(object-6, the-5)
+prep_of(end-3, object-6)
+
+det(object-3, the-2)
+dobj(move-1, object-3)
+det(location-7, the-5)
+amod(location-7, desired-6)
+prep_to(move-1, location-7)
+
+det(person-3, the-2)
+dobj(locate-1, person-3)
+nsubj(needs-5, person-3)
+rcmod(person-3, needs-5)
+dobj(needs-5, help-6)
+
+det(person-3, that-2)
+dobj(approach-1, person-3)
+
+ccomp(say-1, may-3)
+dep(say-1, i-4)
+ccomp(say-1, help-5)
+dobj(help-5, you-6)
+dep(help-5, carrying-7)
+dobj(carrying-7, anything-8)
+
+det(thing-3, the-2)
+dobj(carry-1, thing-3)
+dobj(hands-9, thing-3)
+dep(thing-3, s-5)
+rel(hands-9, that-7)
+nsubj(hands-9, person-8)
+rcmod(thing-3, hands-9)
+dobj(hands-9, you-10)
+
+det(bags-3, some-2)
+dobj(get-1, bags-3)
+prep_from(get-1, person-5)
+
+prt(pick-1, up-2)
+det(item-4, the-3)
+dobj(pick-1, item-4)
+
+det(item-4, the-3)
+prep_with(walk-1, item-4)
+advmod(needs-9, where-6)
+det(person-8, the-7)
+nsubj(needs-9, person-8)
+prepc_to(item-4, needs-9)
+dobj(needs-9, it-10)
+
+nn(someone-3, upto-2)
+dobj(go-1, someone-3)
+partmod(someone-3, carrying-4)
+dobj(carrying-4, something-5)
+
+dobj(take-1, hold-2)
+prep_of(hold-2, part-4)
+dobj(carrying-9, what-6)
+nsubj(carrying-9, they-7)
+aux(carrying-9, are-8)
+prepc_of(part-4, carrying-9)
+
+prep_near(go-1, person-3)
+
+dobj(offer-1, help-2)
+
+dobj(take-1, objects-2)
+
+dobj(follow-1, person-2)
+
+dobj(put-1, objects-2)
+prt(put-1, down-3)
+
+prt(lift-1, together-2)
+
+nsubj(goes-3, who-2)
+ccomp(decide-1, goes-3)
+acomp(goes-3, first-4)
+
+dobj(synchronize-1, movement-2)
+
+advmod(indicated-3, where-2)
+advcl(grasp-1, indicated-3)
+
+advmod(lift-1, appropriately-2)
+
+amod(location-4, desired-3)
+prep_to(carry-1, location-4)
+
+det(object-3, the-2)
+dobj(take-1, object-3)
+det(person-6, the-5)
+prep_from(take-1, person-6)
+
+det(person-3, the-2)
+dobj(follow-1, person-3)
+poss(destination-6, their-5)
+prep_to(follow-1, destination-6)
+
+det(object-3, the-2)
+dobj(give-1, object-3)
+advmod(give-1, back-4)
+prep_to(give-1, them-6)
+
+dobj(see-1, someone-2)
+partmod(someone-2, carrying-3)
+det(load-5, a-4)
+dobj(carrying-3, load-5)
+
+complm(need-4, that-2)
+nsubj(need-4, they-3)
+ccomp(discern-1, need-4)
+dobj(need-4, help-5)
+
+aux(help-3, to-2)
+xcomp(rise-1, help-3)
+
+aux(help-3, to-2)
+xcomp(offer-1, help-3)
+
+nsubj(accepted-2, if-1)
+xcomp(accepted-2, take-3)
+dobj(take-3, part-4)
+det(load-7, the-6)
+prep_of(part-4, load-7)
+
+dobj(carry-1, load-2)
+amod(place-5, designated-4)
+prep_to(carry-1, place-5)
+
+advmod(sit-1, down-2)
+dep(sit-1, load-3)
+advmod(load-3, carefully-4)
+
+dobj(ask-1, them-2)
+mark(use-6, if-3)
+nsubj(use-6, they-4)
+aux(use-6, could-5)
+advcl(ask-1, use-6)
+dobj(use-6, help-7)
+
+dobj(carry-1, something-2)
+rel(give-5, that-3)
+nsubj(give-5, they-4)
+rcmod(something-2, give-5)
+dobj(give-5, you-6)
+aux(carry-8, to-7)
+xcomp(give-5, carry-8)
+
+det(package-3, the-2)
+dobj(take-1, package-3)
+prep_from(take-1, him-5)
+
+dobj(carry-1, it-2)
+poss(destination-5, his-4)
+prep_to(carry-1, destination-5)
+
+dobj(lift-1, item-2)
+
+
+
+dobj(ask-1, them-2)
+
+cc(grab-2, and-1)
+dobj(grab-2, it-3)
+
+cop(friendly-2, be-1)
+
+dep(help-1, only-2)
+advmod(needed-4, when-3)
+dep(only-2, needed-4)
+
+nsubjpass(needed-4, what-2)
+auxpass(needed-4, is-3)
+ccomp(do-1, needed-4)
+
+det(things-3, the-2)
+dobj(carry-1, things-3)
+
+predet(way-4, all-2)
+det(way-4, the-3)
+dobj(go-1, way-4)
+
+dobj(open-1, doors-2)
+
+prep_on(put-1, table-3)
+
+det(item-3, the-2)
+dobj(take-1, item-3)
+
+det(subject-3, the-2)
+dobj(see-1, subject-3)
+prep_with(see-1, things-5)
+
+det(subject-4, the-3)
+prep_to(walk-1, subject-4)
+
+det(person-3, the-2)
+dobj(ask-1, person-3)
+mark(need-6, if-4)
+nsubj(need-6, they-5)
+advcl(ask-1, need-6)
+dobj(need-6, help-7)
+
+aux(carry-3, help-1)
+nsubj(carry-3, them-2)
+det(object-5, the-4)
+dobj(carry-3, object-5)
+
+det(person-3, the-2)
+dobj(approaching-1, person-3)
+
+dobj(extending-1, arms-2)
+aux(recieve-4, to-3)
+xcomp(extending-1, recieve-4)
+dobj(recieve-4, object-5)
+
+nsubj(object-2, grasping-1)
+advmod(object-2, carefully-3)
+
+prep_to(walking-1, destination-3)
+
+dobj(approach-1, person-2)
+partmod(person-2, carrying-3)
+advmod(much-5, too-4)
+advmod(carrying-3, much-5)
+
+aux(carry-3, to-2)
+xcomp(ask-1, carry-3)
+dobj(carry-3, something-4)
+
+csubj(hands-6, remove-1)
+dobj(remove-1, objects-2)
+prep_from(remove-1, person-4)
+cop(hands-6, s-5)
+
+prep_beside(walk-1, person-3)
+mark(reached-6, until-4)
+nsubj(reached-6, destination-5)
+advcl(walk-1, reached-6)
+
+nsubj(object-2, place-1)
+prt(object-2, down-3)
+
+det(person-3, the-2)
+dobj(ask-1, person-3)
+mark(require-6, if-4)
+nsubj(require-6, they-5)
+advcl(ask-1, require-6)
+dobj(require-6, help-7)
+
+dep(is-4, whatever-2)
+dobj(ask-6, whatever-2)
+nsubj(is-4, it-3)
+ccomp(carry-1, is-4)
+nsubj(ask-6, they-5)
+ccomp(is-4, ask-6)
+dobj(ask-6, you-7)
+aux(carry-9, to-8)
+xcomp(ask-6, carry-9)
+

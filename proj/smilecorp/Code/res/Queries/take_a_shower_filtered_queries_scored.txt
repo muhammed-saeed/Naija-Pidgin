@@ -1,0 +1,3069 @@
+id	score	v	d-obj	p	p-title
+000001	0.001151232754522525	wash	everything	i	shower
+000002	0.0008502720710852735	wash	everything	washcloth	shower
+000003	0.0007194609832260008	wash	everything	face and neck	shower
+000004	0.0010481085547169927	wash	everything	face	shower
+000005	0.0011221371354571859	wash	everything	conditioner	shower
+000006	0.0007383928839496775	wash	everything	undress	shower
+000007	0.0007873288576559632	wash	everything	curtain	shower
+000008	0.0007194609832260008	wash	everything	door or curtain	shower
+000009	0.0005361874844043541	wash	everything	self	shower
+000010	0.004675571397738275	wash	everything	body	shower
+000011	0.0006073102118542629	wash	everything	your body	shower
+000012	0.00041210504594746026	wash	everything	body parts	shower
+000013	0.00041210504594746026	wash	everything	certain parts	shower
+000014	0.003550244281946462	wash	everything	shampoo	shower
+000015	0.0025171210403584898	wash	everything	water	shower
+000016	0.0006959207838788113	wash	everything	hot water	shower
+000017	0.0007194609832260008	wash	everything	curtain or door	shower
+000018	0.0002221028977234347	wash	everything	door	shower
+000019	0.0004786174561063761	wash	everything	tap	shower
+000020	0.006056529793777701	wash	everything	hair	shower
+000021	0.0005508964360278504	wash	everything	cloth	shower
+000022	0.00293390615176624	wash	everything	rinse	shower
+000023	0.0007194609832260008	wash	everything	shampoo and rinse	shower
+000024	0.0003936644288279816	wash	everything	fan	shower
+000025	0.00041210504594746026	wash	everything	exhaust fan	shower
+000026	0.00041210504594746026	wash	everything	my clothes	shower
+000027	0.0018905028279599537	wash	everything	clothes	shower
+000028	0.0003936644288279816	wash	everything	tub	shower
+000029	0.001652078128810348	wash	everything	bathroom	shower
+000030	0.0002461309613165592	wash	everything	lather	shower
+000031	0.00041210504594746026	wash	everything	whole head	shower
+000032	0.0015441122454698444	wash	everything	towel	shower
+000033	0.00020883789893802714	wash	everything	towels	shower
+000034	0.00041210504594746026	wash	everything	good temperature	shower
+000035	0.0008557226275984869	wash	everything	temperature	shower
+000036	0.0009351142795476549	wash	everything	scrub	shower
+000037	0.0	wash	everything	scrub soap over your body	shower
+000038	0.0014389219664520017	wash	everything	shampoo and soap	shower
+000039	0.002908465889169159	wash	everything	soap	shower
+000040	0.001151232754522525	close	shower	i	shower
+000041	0.0008502720710852735	close	shower	washcloth	shower
+000042	0.0007194609832260008	close	shower	face and neck	shower
+000043	0.0010481085547169927	close	shower	face	shower
+000044	0.0011221371354571859	close	shower	conditioner	shower
+000045	0.0007383928839496775	close	shower	undress	shower
+000046	0.0007873288576559632	close	shower	curtain	shower
+000047	0.0007194609832260008	close	shower	door or curtain	shower
+000048	0.0005361874844043541	close	shower	self	shower
+000049	0.004675571397738275	close	shower	body	shower
+000050	0.0006073102118542629	close	shower	your body	shower
+000051	0.00041210504594746026	close	shower	body parts	shower
+000052	0.00041210504594746026	close	shower	certain parts	shower
+000053	0.003550244281946462	close	shower	shampoo	shower
+000054	0.0025171210403584898	close	shower	water	shower
+000055	0.0006959207838788113	close	shower	hot water	shower
+000056	0.0007194609832260008	close	shower	curtain or door	shower
+000057	0.0002221028977234347	close	shower	door	shower
+000058	0.0004786174561063761	close	shower	tap	shower
+000059	0.006056529793777701	close	shower	hair	shower
+000060	0.0005508964360278504	close	shower	cloth	shower
+000061	0.00293390615176624	close	shower	rinse	shower
+000062	0.0007194609832260008	close	shower	shampoo and rinse	shower
+000063	0.0003936644288279816	close	shower	fan	shower
+000064	0.00041210504594746026	close	shower	exhaust fan	shower
+000065	0.00041210504594746026	close	shower	my clothes	shower
+000066	0.0018905028279599537	close	shower	clothes	shower
+000067	0.0003936644288279816	close	shower	tub	shower
+000068	0.001652078128810348	close	shower	bathroom	shower
+000069	0.0002461309613165592	close	shower	lather	shower
+000070	0.00041210504594746026	close	shower	whole head	shower
+000071	0.0015441122454698444	close	shower	towel	shower
+000072	0.00020883789893802714	close	shower	towels	shower
+000073	0.00041210504594746026	close	shower	good temperature	shower
+000074	0.0008557226275984869	close	shower	temperature	shower
+000075	0.0009351142795476549	close	shower	scrub	shower
+000076	0.0	close	shower	scrub soap over your body	shower
+000077	0.0014389219664520017	close	shower	shampoo and soap	shower
+000078	0.002908465889169159	close	shower	soap	shower
+000079	0.0007596633297360378	put	soap	i	shower
+000080	0.0005610685677285929	put	soap	washcloth	shower
+000081	0.00047475032653957865	put	soap	face and neck	shower
+000082	0.0006916148202640095	put	soap	face	shower
+000083	0.0007404640194548826	put	soap	conditioner	shower
+000084	0.00048724290954287004	put	soap	undress	shower
+000085	0.000519534263818149	put	soap	curtain	shower
+000086	0.00047475032653957865	put	soap	door or curtain	shower
+000087	0.0003538137428467614	put	soap	self	shower
+000088	0.003085266747728678	put	soap	body	shower
+000089	0.0004007454582121004	put	soap	your body	shower
+000090	0.00027193553186845597	put	soap	body parts	shower
+000091	0.00027193553186845597	put	soap	certain parts	shower
+000092	0.0023426977576905005	put	soap	shampoo	shower
+000093	0.001660971287826537	put	soap	water	shower
+000094	0.00045921686803738994	put	soap	hot water	shower
+000095	0.00047475032653957865	put	soap	curtain or door	shower
+000096	0.0001465589179649299	put	soap	door	shower
+000097	0.00031582503967788873	put	soap	tap	shower
+000098	0.003996519011218478	put	soap	hair	shower
+000099	0.00036351973073091065	put	soap	cloth	shower
+000100	0.0019359950519373262	put	soap	rinse	shower
+000101	0.00047475032653957865	put	soap	shampoo and rinse	shower
+000102	0.0002597671319090745	put	soap	fan	shower
+000103	0.00027193553186845597	put	soap	exhaust fan	shower
+000104	0.00027193553186845597	put	soap	my clothes	shower
+000105	0.0012474850698276883	put	soap	clothes	shower
+000106	0.0002597671319090745	put	soap	tub	shower
+000107	0.0010901558936591183	put	soap	bathroom	shower
+000108	0.00016241430318095668	put	soap	lather	shower
+000109	0.00027193553186845597	put	soap	whole head	shower
+000110	0.0010189125051139787	put	soap	towel	shower
+000111	0.00013780575045238235	put	soap	towels	shower
+000112	0.00027193553186845597	put	soap	good temperature	shower
+000113	0.0005646652234817202	put	soap	temperature	shower
+000114	0.0006170533495457355	put	soap	scrub	shower
+000115	0.0	put	soap	scrub soap over your body	shower
+000116	0.0009495006530791573	put	soap	shampoo and soap	shower
+000117	0.001151232754522525	wash	shampoo	i	shower
+000118	0.0008502720710852735	wash	shampoo	washcloth	shower
+000119	0.0007194609832260008	wash	shampoo	face and neck	shower
+000120	0.0010481085547169927	wash	shampoo	face	shower
+000121	0.0011221371354571859	wash	shampoo	conditioner	shower
+000122	0.0007383928839496775	wash	shampoo	undress	shower
+000123	0.0007873288576559632	wash	shampoo	curtain	shower
+000124	0.0007194609832260008	wash	shampoo	door or curtain	shower
+000125	0.0005361874844043541	wash	shampoo	self	shower
+000126	0.004675571397738275	wash	shampoo	body	shower
+000127	0.0006073102118542629	wash	shampoo	your body	shower
+000128	0.00041210504594746026	wash	shampoo	body parts	shower
+000129	0.00041210504594746026	wash	shampoo	certain parts	shower
+000130	0.0025171210403584898	wash	shampoo	water	shower
+000131	0.0006959207838788113	wash	shampoo	hot water	shower
+000132	0.0007194609832260008	wash	shampoo	curtain or door	shower
+000133	0.0002221028977234347	wash	shampoo	door	shower
+000134	0.0004786174561063761	wash	shampoo	tap	shower
+000135	0.006056529793777701	wash	shampoo	hair	shower
+000136	0.0005508964360278504	wash	shampoo	cloth	shower
+000137	0.00293390615176624	wash	shampoo	rinse	shower
+000138	0.0007194609832260008	wash	shampoo	shampoo and rinse	shower
+000139	0.0003936644288279816	wash	shampoo	fan	shower
+000140	0.00041210504594746026	wash	shampoo	exhaust fan	shower
+000141	0.00041210504594746026	wash	shampoo	my clothes	shower
+000142	0.0018905028279599537	wash	shampoo	clothes	shower
+000143	0.0003936644288279816	wash	shampoo	tub	shower
+000144	0.001652078128810348	wash	shampoo	bathroom	shower
+000145	0.0002461309613165592	wash	shampoo	lather	shower
+000146	0.00041210504594746026	wash	shampoo	whole head	shower
+000147	0.0015441122454698444	wash	shampoo	towel	shower
+000148	0.00020883789893802714	wash	shampoo	towels	shower
+000149	0.00041210504594746026	wash	shampoo	good temperature	shower
+000150	0.0008557226275984869	wash	shampoo	temperature	shower
+000151	0.0009351142795476549	wash	shampoo	scrub	shower
+000152	0.0	wash	shampoo	scrub soap over your body	shower
+000153	0.0014389219664520017	wash	shampoo	shampoo and soap	shower
+000154	0.002908465889169159	wash	shampoo	soap	shower
+000155	0.001151232754522525	rinse	shampoo	i	shower
+000156	0.0008502720710852735	rinse	shampoo	washcloth	shower
+000157	0.0007194609832260008	rinse	shampoo	face and neck	shower
+000158	0.0010481085547169927	rinse	shampoo	face	shower
+000159	0.0011221371354571859	rinse	shampoo	conditioner	shower
+000160	0.0007383928839496775	rinse	shampoo	undress	shower
+000161	0.0007873288576559632	rinse	shampoo	curtain	shower
+000162	0.0007194609832260008	rinse	shampoo	door or curtain	shower
+000163	0.0005361874844043541	rinse	shampoo	self	shower
+000164	0.004675571397738275	rinse	shampoo	body	shower
+000165	0.0006073102118542629	rinse	shampoo	your body	shower
+000166	0.00041210504594746026	rinse	shampoo	body parts	shower
+000167	0.00041210504594746026	rinse	shampoo	certain parts	shower
+000168	0.0025171210403584898	rinse	shampoo	water	shower
+000169	0.0006959207838788113	rinse	shampoo	hot water	shower
+000170	0.0007194609832260008	rinse	shampoo	curtain or door	shower
+000171	0.0002221028977234347	rinse	shampoo	door	shower
+000172	0.0004786174561063761	rinse	shampoo	tap	shower
+000173	0.006056529793777701	rinse	shampoo	hair	shower
+000174	0.0005508964360278504	rinse	shampoo	cloth	shower
+000175	0.00293390615176624	rinse	shampoo	rinse	shower
+000176	0.0007194609832260008	rinse	shampoo	shampoo and rinse	shower
+000177	0.0003936644288279816	rinse	shampoo	fan	shower
+000178	0.00041210504594746026	rinse	shampoo	exhaust fan	shower
+000179	0.00041210504594746026	rinse	shampoo	my clothes	shower
+000180	0.0018905028279599537	rinse	shampoo	clothes	shower
+000181	0.0003936644288279816	rinse	shampoo	tub	shower
+000182	0.001652078128810348	rinse	shampoo	bathroom	shower
+000183	0.0002461309613165592	rinse	shampoo	lather	shower
+000184	0.00041210504594746026	rinse	shampoo	whole head	shower
+000185	0.0015441122454698444	rinse	shampoo	towel	shower
+000186	0.00020883789893802714	rinse	shampoo	towels	shower
+000187	0.00041210504594746026	rinse	shampoo	good temperature	shower
+000188	0.0008557226275984869	rinse	shampoo	temperature	shower
+000189	0.0009351142795476549	rinse	shampoo	scrub	shower
+000190	0.0	rinse	shampoo	scrub soap over your body	shower
+000191	0.0014389219664520017	rinse	shampoo	shampoo and soap	shower
+000192	0.002908465889169159	rinse	shampoo	soap	shower
+000193	0.001151232754522525	get	bathroom	i	shower
+000194	0.0008502720710852735	get	bathroom	washcloth	shower
+000195	0.0007194609832260008	get	bathroom	face and neck	shower
+000196	0.0010481085547169927	get	bathroom	face	shower
+000197	0.0011221371354571859	get	bathroom	conditioner	shower
+000198	0.0007383928839496775	get	bathroom	undress	shower
+000199	0.0007873288576559632	get	bathroom	curtain	shower
+000200	0.0007194609832260008	get	bathroom	door or curtain	shower
+000201	0.0005361874844043541	get	bathroom	self	shower
+000202	0.004675571397738275	get	bathroom	body	shower
+000203	0.0006073102118542629	get	bathroom	your body	shower
+000204	0.00041210504594746026	get	bathroom	body parts	shower
+000205	0.00041210504594746026	get	bathroom	certain parts	shower
+000206	0.003550244281946462	get	bathroom	shampoo	shower
+000207	0.0025171210403584898	get	bathroom	water	shower
+000208	0.0006959207838788113	get	bathroom	hot water	shower
+000209	0.0007194609832260008	get	bathroom	curtain or door	shower
+000210	0.0002221028977234347	get	bathroom	door	shower
+000211	0.0004786174561063761	get	bathroom	tap	shower
+000212	0.006056529793777701	get	bathroom	hair	shower
+000213	0.0005508964360278504	get	bathroom	cloth	shower
+000214	0.00293390615176624	get	bathroom	rinse	shower
+000215	0.0007194609832260008	get	bathroom	shampoo and rinse	shower
+000216	0.0003936644288279816	get	bathroom	fan	shower
+000217	0.00041210504594746026	get	bathroom	exhaust fan	shower
+000218	0.00041210504594746026	get	bathroom	my clothes	shower
+000219	0.0018905028279599537	get	bathroom	clothes	shower
+000220	0.0003936644288279816	get	bathroom	tub	shower
+000221	0.0002461309613165592	get	bathroom	lather	shower
+000222	0.00041210504594746026	get	bathroom	whole head	shower
+000223	0.0015441122454698444	get	bathroom	towel	shower
+000224	0.00020883789893802714	get	bathroom	towels	shower
+000225	0.00041210504594746026	get	bathroom	good temperature	shower
+000226	0.0008557226275984869	get	bathroom	temperature	shower
+000227	0.0009351142795476549	get	bathroom	scrub	shower
+000228	0.0	get	bathroom	scrub soap over your body	shower
+000229	0.0014389219664520017	get	bathroom	shampoo and soap	shower
+000230	0.002908465889169159	get	bathroom	soap	shower
+000231	0.001151232754522525	clean	hair	i	shower
+000232	0.0008502720710852735	clean	hair	washcloth	shower
+000233	0.0007194609832260008	clean	hair	face and neck	shower
+000234	0.0010481085547169927	clean	hair	face	shower
+000235	0.0011221371354571859	clean	hair	conditioner	shower
+000236	0.0007383928839496775	clean	hair	undress	shower
+000237	0.0007873288576559632	clean	hair	curtain	shower
+000238	0.0007194609832260008	clean	hair	door or curtain	shower
+000239	0.0005361874844043541	clean	hair	self	shower
+000240	0.004675571397738275	clean	hair	body	shower
+000241	0.0006073102118542629	clean	hair	your body	shower
+000242	0.00041210504594746026	clean	hair	body parts	shower
+000243	0.00041210504594746026	clean	hair	certain parts	shower
+000244	0.003550244281946462	clean	hair	shampoo	shower
+000245	0.0025171210403584898	clean	hair	water	shower
+000246	0.0006959207838788113	clean	hair	hot water	shower
+000247	0.0007194609832260008	clean	hair	curtain or door	shower
+000248	0.0002221028977234347	clean	hair	door	shower
+000249	0.0004786174561063761	clean	hair	tap	shower
+000250	0.0005508964360278504	clean	hair	cloth	shower
+000251	0.00293390615176624	clean	hair	rinse	shower
+000252	0.0007194609832260008	clean	hair	shampoo and rinse	shower
+000253	0.0003936644288279816	clean	hair	fan	shower
+000254	0.00041210504594746026	clean	hair	exhaust fan	shower
+000255	0.00041210504594746026	clean	hair	my clothes	shower
+000256	0.0018905028279599537	clean	hair	clothes	shower
+000257	0.0003936644288279816	clean	hair	tub	shower
+000258	0.001652078128810348	clean	hair	bathroom	shower
+000259	0.0002461309613165592	clean	hair	lather	shower
+000260	0.00041210504594746026	clean	hair	whole head	shower
+000261	0.0015441122454698444	clean	hair	towel	shower
+000262	0.00020883789893802714	clean	hair	towels	shower
+000263	0.00041210504594746026	clean	hair	good temperature	shower
+000264	0.0008557226275984869	clean	hair	temperature	shower
+000265	0.0009351142795476549	clean	hair	scrub	shower
+000266	0.0	clean	hair	scrub soap over your body	shower
+000267	0.0014389219664520017	clean	hair	shampoo and soap	shower
+000268	0.002908465889169159	clean	hair	soap	shower
+000269	0.001151232754522525	hands	little	i	shower
+000270	0.0008502720710852735	hands	little	washcloth	shower
+000271	0.0007194609832260008	hands	little	face and neck	shower
+000272	0.0010481085547169927	hands	little	face	shower
+000273	0.0011221371354571859	hands	little	conditioner	shower
+000274	0.0007383928839496775	hands	little	undress	shower
+000275	0.0007873288576559632	hands	little	curtain	shower
+000276	0.0007194609832260008	hands	little	door or curtain	shower
+000277	0.0005361874844043541	hands	little	self	shower
+000278	0.004675571397738275	hands	little	body	shower
+000279	0.0006073102118542629	hands	little	your body	shower
+000280	0.00041210504594746026	hands	little	body parts	shower
+000281	0.00041210504594746026	hands	little	certain parts	shower
+000282	0.003550244281946462	hands	little	shampoo	shower
+000283	0.0025171210403584898	hands	little	water	shower
+000284	0.0006959207838788113	hands	little	hot water	shower
+000285	0.0007194609832260008	hands	little	curtain or door	shower
+000286	0.0002221028977234347	hands	little	door	shower
+000287	0.0004786174561063761	hands	little	tap	shower
+000288	0.006056529793777701	hands	little	hair	shower
+000289	0.0005508964360278504	hands	little	cloth	shower
+000290	0.00293390615176624	hands	little	rinse	shower
+000291	0.0007194609832260008	hands	little	shampoo and rinse	shower
+000292	0.0003936644288279816	hands	little	fan	shower
+000293	0.00041210504594746026	hands	little	exhaust fan	shower
+000294	0.00041210504594746026	hands	little	my clothes	shower
+000295	0.0018905028279599537	hands	little	clothes	shower
+000296	0.0003936644288279816	hands	little	tub	shower
+000297	0.001652078128810348	hands	little	bathroom	shower
+000298	0.0002461309613165592	hands	little	lather	shower
+000299	0.00041210504594746026	hands	little	whole head	shower
+000300	0.0015441122454698444	hands	little	towel	shower
+000301	0.00020883789893802714	hands	little	towels	shower
+000302	0.00041210504594746026	hands	little	good temperature	shower
+000303	0.0008557226275984869	hands	little	temperature	shower
+000304	0.0009351142795476549	hands	little	scrub	shower
+000305	0.0	hands	little	scrub soap over your body	shower
+000306	0.0014389219664520017	hands	little	shampoo and soap	shower
+000307	0.002908465889169159	hands	little	soap	shower
+000308	0.001151232754522525	clean	body	i	shower
+000309	0.0008502720710852735	clean	body	washcloth	shower
+000310	0.0007194609832260008	clean	body	face and neck	shower
+000311	0.0010481085547169927	clean	body	face	shower
+000312	0.0011221371354571859	clean	body	conditioner	shower
+000313	0.0007383928839496775	clean	body	undress	shower
+000314	0.0007873288576559632	clean	body	curtain	shower
+000315	0.0007194609832260008	clean	body	door or curtain	shower
+000316	0.0005361874844043541	clean	body	self	shower
+000317	0.0006073102118542629	clean	body	your body	shower
+000318	0.00041210504594746026	clean	body	body parts	shower
+000319	0.00041210504594746026	clean	body	certain parts	shower
+000320	0.003550244281946462	clean	body	shampoo	shower
+000321	0.0025171210403584898	clean	body	water	shower
+000322	0.0006959207838788113	clean	body	hot water	shower
+000323	0.0007194609832260008	clean	body	curtain or door	shower
+000324	0.0002221028977234347	clean	body	door	shower
+000325	0.0004786174561063761	clean	body	tap	shower
+000326	0.006056529793777701	clean	body	hair	shower
+000327	0.0005508964360278504	clean	body	cloth	shower
+000328	0.00293390615176624	clean	body	rinse	shower
+000329	0.0007194609832260008	clean	body	shampoo and rinse	shower
+000330	0.0003936644288279816	clean	body	fan	shower
+000331	0.00041210504594746026	clean	body	exhaust fan	shower
+000332	0.00041210504594746026	clean	body	my clothes	shower
+000333	0.0018905028279599537	clean	body	clothes	shower
+000334	0.0003936644288279816	clean	body	tub	shower
+000335	0.001652078128810348	clean	body	bathroom	shower
+000336	0.0002461309613165592	clean	body	lather	shower
+000337	0.00041210504594746026	clean	body	whole head	shower
+000338	0.0015441122454698444	clean	body	towel	shower
+000339	0.00020883789893802714	clean	body	towels	shower
+000340	0.00041210504594746026	clean	body	good temperature	shower
+000341	0.0008557226275984869	clean	body	temperature	shower
+000342	0.0009351142795476549	clean	body	scrub	shower
+000343	0.0	clean	body	scrub soap over your body	shower
+000344	0.0014389219664520017	clean	body	shampoo and soap	shower
+000345	0.002908465889169159	clean	body	soap	shower
+000346	0.001151232754522525	turn	hot water	i	shower
+000347	0.0008502720710852735	turn	hot water	washcloth	shower
+000348	0.0007194609832260008	turn	hot water	face and neck	shower
+000349	0.0010481085547169927	turn	hot water	face	shower
+000350	0.0011221371354571859	turn	hot water	conditioner	shower
+000351	0.0007383928839496775	turn	hot water	undress	shower
+000352	0.0007873288576559632	turn	hot water	curtain	shower
+000353	0.0007194609832260008	turn	hot water	door or curtain	shower
+000354	0.0005361874844043541	turn	hot water	self	shower
+000355	0.004675571397738275	turn	hot water	body	shower
+000356	0.0006073102118542629	turn	hot water	your body	shower
+000357	0.00041210504594746026	turn	hot water	body parts	shower
+000358	0.00041210504594746026	turn	hot water	certain parts	shower
+000359	0.003550244281946462	turn	hot water	shampoo	shower
+000360	0.0025171210403584898	turn	hot water	water	shower
+000361	0.0007194609832260008	turn	hot water	curtain or door	shower
+000362	0.0002221028977234347	turn	hot water	door	shower
+000363	0.0004786174561063761	turn	hot water	tap	shower
+000364	0.006056529793777701	turn	hot water	hair	shower
+000365	0.0005508964360278504	turn	hot water	cloth	shower
+000366	0.00293390615176624	turn	hot water	rinse	shower
+000367	0.0007194609832260008	turn	hot water	shampoo and rinse	shower
+000368	0.0003936644288279816	turn	hot water	fan	shower
+000369	0.00041210504594746026	turn	hot water	exhaust fan	shower
+000370	0.00041210504594746026	turn	hot water	my clothes	shower
+000371	0.0018905028279599537	turn	hot water	clothes	shower
+000372	0.0003936644288279816	turn	hot water	tub	shower
+000373	0.001652078128810348	turn	hot water	bathroom	shower
+000374	0.0002461309613165592	turn	hot water	lather	shower
+000375	0.00041210504594746026	turn	hot water	whole head	shower
+000376	0.0015441122454698444	turn	hot water	towel	shower
+000377	0.00020883789893802714	turn	hot water	towels	shower
+000378	0.00041210504594746026	turn	hot water	good temperature	shower
+000379	0.0008557226275984869	turn	hot water	temperature	shower
+000380	0.0009351142795476549	turn	hot water	scrub	shower
+000381	0.0	turn	hot water	scrub soap over your body	shower
+000382	0.0014389219664520017	turn	hot water	shampoo and soap	shower
+000383	0.002908465889169159	turn	hot water	soap	shower
+000384	0.001151232754522525	wash	conditioner	i	shower
+000385	0.0008502720710852735	wash	conditioner	washcloth	shower
+000386	0.0007194609832260008	wash	conditioner	face and neck	shower
+000387	0.0010481085547169927	wash	conditioner	face	shower
+000388	0.0007383928839496775	wash	conditioner	undress	shower
+000389	0.0007873288576559632	wash	conditioner	curtain	shower
+000390	0.0007194609832260008	wash	conditioner	door or curtain	shower
+000391	0.0005361874844043541	wash	conditioner	self	shower
+000392	0.004675571397738275	wash	conditioner	body	shower
+000393	0.0006073102118542629	wash	conditioner	your body	shower
+000394	0.00041210504594746026	wash	conditioner	body parts	shower
+000395	0.00041210504594746026	wash	conditioner	certain parts	shower
+000396	0.003550244281946462	wash	conditioner	shampoo	shower
+000397	0.0025171210403584898	wash	conditioner	water	shower
+000398	0.0006959207838788113	wash	conditioner	hot water	shower
+000399	0.0007194609832260008	wash	conditioner	curtain or door	shower
+000400	0.0002221028977234347	wash	conditioner	door	shower
+000401	0.0004786174561063761	wash	conditioner	tap	shower
+000402	0.006056529793777701	wash	conditioner	hair	shower
+000403	0.0005508964360278504	wash	conditioner	cloth	shower
+000404	0.00293390615176624	wash	conditioner	rinse	shower
+000405	0.0007194609832260008	wash	conditioner	shampoo and rinse	shower
+000406	0.0003936644288279816	wash	conditioner	fan	shower
+000407	0.00041210504594746026	wash	conditioner	exhaust fan	shower
+000408	0.00041210504594746026	wash	conditioner	my clothes	shower
+000409	0.0018905028279599537	wash	conditioner	clothes	shower
+000410	0.0003936644288279816	wash	conditioner	tub	shower
+000411	0.001652078128810348	wash	conditioner	bathroom	shower
+000412	0.0002461309613165592	wash	conditioner	lather	shower
+000413	0.00041210504594746026	wash	conditioner	whole head	shower
+000414	0.0015441122454698444	wash	conditioner	towel	shower
+000415	0.00020883789893802714	wash	conditioner	towels	shower
+000416	0.00041210504594746026	wash	conditioner	good temperature	shower
+000417	0.0008557226275984869	wash	conditioner	temperature	shower
+000418	0.0009351142795476549	wash	conditioner	scrub	shower
+000419	0.0	wash	conditioner	scrub soap over your body	shower
+000420	0.0014389219664520017	wash	conditioner	shampoo and soap	shower
+000421	0.002908465889169159	wash	conditioner	soap	shower
+000422	0.001151232754522525	draw	curtain	i	shower
+000423	0.0008502720710852735	draw	curtain	washcloth	shower
+000424	0.0007194609832260008	draw	curtain	face and neck	shower
+000425	0.0010481085547169927	draw	curtain	face	shower
+000426	0.0011221371354571859	draw	curtain	conditioner	shower
+000427	0.0007383928839496775	draw	curtain	undress	shower
+000428	0.0007194609832260008	draw	curtain	door or curtain	shower
+000429	0.0005361874844043541	draw	curtain	self	shower
+000430	0.004675571397738275	draw	curtain	body	shower
+000431	0.0006073102118542629	draw	curtain	your body	shower
+000432	0.00041210504594746026	draw	curtain	body parts	shower
+000433	0.00041210504594746026	draw	curtain	certain parts	shower
+000434	0.003550244281946462	draw	curtain	shampoo	shower
+000435	0.0025171210403584898	draw	curtain	water	shower
+000436	0.0006959207838788113	draw	curtain	hot water	shower
+000437	0.0007194609832260008	draw	curtain	curtain or door	shower
+000438	0.0002221028977234347	draw	curtain	door	shower
+000439	0.0004786174561063761	draw	curtain	tap	shower
+000440	0.006056529793777701	draw	curtain	hair	shower
+000441	0.0005508964360278504	draw	curtain	cloth	shower
+000442	0.00293390615176624	draw	curtain	rinse	shower
+000443	0.0007194609832260008	draw	curtain	shampoo and rinse	shower
+000444	0.0003936644288279816	draw	curtain	fan	shower
+000445	0.00041210504594746026	draw	curtain	exhaust fan	shower
+000446	0.00041210504594746026	draw	curtain	my clothes	shower
+000447	0.0018905028279599537	draw	curtain	clothes	shower
+000448	0.0003936644288279816	draw	curtain	tub	shower
+000449	0.001652078128810348	draw	curtain	bathroom	shower
+000450	0.0002461309613165592	draw	curtain	lather	shower
+000451	0.00041210504594746026	draw	curtain	whole head	shower
+000452	0.0015441122454698444	draw	curtain	towel	shower
+000453	0.00020883789893802714	draw	curtain	towels	shower
+000454	0.00041210504594746026	draw	curtain	good temperature	shower
+000455	0.0008557226275984869	draw	curtain	temperature	shower
+000456	0.0009351142795476549	draw	curtain	scrub	shower
+000457	0.0	draw	curtain	scrub soap over your body	shower
+000458	0.0014389219664520017	draw	curtain	shampoo and soap	shower
+000459	0.002908465889169159	draw	curtain	soap	shower
+000460	0.001151232754522525	rinse	lather	i	shower
+000461	0.0008502720710852735	rinse	lather	washcloth	shower
+000462	0.0007194609832260008	rinse	lather	face and neck	shower
+000463	0.0010481085547169927	rinse	lather	face	shower
+000464	0.0011221371354571859	rinse	lather	conditioner	shower
+000465	0.0007383928839496775	rinse	lather	undress	shower
+000466	0.0007873288576559632	rinse	lather	curtain	shower
+000467	0.0007194609832260008	rinse	lather	door or curtain	shower
+000468	0.0005361874844043541	rinse	lather	self	shower
+000469	0.004675571397738275	rinse	lather	body	shower
+000470	0.0006073102118542629	rinse	lather	your body	shower
+000471	0.00041210504594746026	rinse	lather	body parts	shower
+000472	0.00041210504594746026	rinse	lather	certain parts	shower
+000473	0.003550244281946462	rinse	lather	shampoo	shower
+000474	0.0025171210403584898	rinse	lather	water	shower
+000475	0.0006959207838788113	rinse	lather	hot water	shower
+000476	0.0007194609832260008	rinse	lather	curtain or door	shower
+000477	0.0002221028977234347	rinse	lather	door	shower
+000478	0.0004786174561063761	rinse	lather	tap	shower
+000479	0.006056529793777701	rinse	lather	hair	shower
+000480	0.0005508964360278504	rinse	lather	cloth	shower
+000481	0.00293390615176624	rinse	lather	rinse	shower
+000482	0.0007194609832260008	rinse	lather	shampoo and rinse	shower
+000483	0.0003936644288279816	rinse	lather	fan	shower
+000484	0.00041210504594746026	rinse	lather	exhaust fan	shower
+000485	0.00041210504594746026	rinse	lather	my clothes	shower
+000486	0.0018905028279599537	rinse	lather	clothes	shower
+000487	0.0003936644288279816	rinse	lather	tub	shower
+000488	0.001652078128810348	rinse	lather	bathroom	shower
+000489	0.00041210504594746026	rinse	lather	whole head	shower
+000490	0.0015441122454698444	rinse	lather	towel	shower
+000491	0.00020883789893802714	rinse	lather	towels	shower
+000492	0.00041210504594746026	rinse	lather	good temperature	shower
+000493	0.0008557226275984869	rinse	lather	temperature	shower
+000494	0.0009351142795476549	rinse	lather	scrub	shower
+000495	0.0	rinse	lather	scrub soap over your body	shower
+000496	0.0014389219664520017	rinse	lather	shampoo and soap	shower
+000497	0.002908465889169159	rinse	lather	soap	shower
+000498	0.001151232754522525	use	shampoo	i	shower
+000499	0.0008502720710852735	use	shampoo	washcloth	shower
+000500	0.0007194609832260008	use	shampoo	face and neck	shower
+000501	0.0010481085547169927	use	shampoo	face	shower
+000502	0.0011221371354571859	use	shampoo	conditioner	shower
+000503	0.0007383928839496775	use	shampoo	undress	shower
+000504	0.0007873288576559632	use	shampoo	curtain	shower
+000505	0.0007194609832260008	use	shampoo	door or curtain	shower
+000506	0.0005361874844043541	use	shampoo	self	shower
+000507	0.004675571397738275	use	shampoo	body	shower
+000508	0.0006073102118542629	use	shampoo	your body	shower
+000509	0.00041210504594746026	use	shampoo	body parts	shower
+000510	0.00041210504594746026	use	shampoo	certain parts	shower
+000511	0.0025171210403584898	use	shampoo	water	shower
+000512	0.0006959207838788113	use	shampoo	hot water	shower
+000513	0.0007194609832260008	use	shampoo	curtain or door	shower
+000514	0.0002221028977234347	use	shampoo	door	shower
+000515	0.0004786174561063761	use	shampoo	tap	shower
+000516	0.006056529793777701	use	shampoo	hair	shower
+000517	0.0005508964360278504	use	shampoo	cloth	shower
+000518	0.00293390615176624	use	shampoo	rinse	shower
+000519	0.0007194609832260008	use	shampoo	shampoo and rinse	shower
+000520	0.0003936644288279816	use	shampoo	fan	shower
+000521	0.00041210504594746026	use	shampoo	exhaust fan	shower
+000522	0.00041210504594746026	use	shampoo	my clothes	shower
+000523	0.0018905028279599537	use	shampoo	clothes	shower
+000524	0.0003936644288279816	use	shampoo	tub	shower
+000525	0.001652078128810348	use	shampoo	bathroom	shower
+000526	0.0002461309613165592	use	shampoo	lather	shower
+000527	0.00041210504594746026	use	shampoo	whole head	shower
+000528	0.0015441122454698444	use	shampoo	towel	shower
+000529	0.00020883789893802714	use	shampoo	towels	shower
+000530	0.00041210504594746026	use	shampoo	good temperature	shower
+000531	0.0008557226275984869	use	shampoo	temperature	shower
+000532	0.0009351142795476549	use	shampoo	scrub	shower
+000533	0.0	use	shampoo	scrub soap over your body	shower
+000534	0.0014389219664520017	use	shampoo	shampoo and soap	shower
+000535	0.002908465889169159	use	shampoo	soap	shower
+000536	0.005466858365651431	wash	hair	i	shower
+000537	0.004037686529185134	wash	hair	washcloth	shower
+000538	0.0034165039862335753	wash	hair	face and neck	shower
+000539	0.004977152533192027	wash	hair	face	shower
+000540	0.005328692014957971	wash	hair	conditioner	shower
+000541	0.003506405893074161	wash	hair	undress	shower
+000542	0.0037387881252392476	wash	hair	curtain	shower
+000543	0.0034165039862335753	wash	hair	door or curtain	shower
+000544	0.002546193220405098	wash	hair	self	shower
+000545	0.022202883395658214	wash	hair	body	shower
+000546	0.0028839336782056947	wash	hair	your body	shower
+000547	0.001956963011271722	wash	hair	body parts	shower
+000548	0.001956963011271722	wash	hair	certain parts	shower
+000549	0.016859043122791396	wash	hair	shampoo	shower
+000550	0.011953051338040087	wash	hair	water	shower
+000551	0.0033047186541843147	wash	hair	hot water	shower
+000552	0.0034165039862335753	wash	hair	curtain or door	shower
+000553	0.0010546999116250613	wash	hair	door	shower
+000554	0.0022728104578184616	wash	hair	tap	shower
+000555	0.0026160416111123473	wash	hair	cloth	shower
+000556	0.013932238573659904	wash	hair	rinse	shower
+000557	0.0034165039862335753	wash	hair	shampoo and rinse	shower
+000558	0.0018693940626196238	wash	hair	fan	shower
+000559	0.001956963011271722	wash	hair	exhaust fan	shower
+000560	0.001956963011271722	wash	hair	my clothes	shower
+000561	0.008977429767976901	wash	hair	clothes	shower
+000562	0.0018693940626196238	wash	hair	tub	shower
+000563	0.007845222526649279	wash	hair	bathroom	shower
+000564	0.0011688019643580536	wash	hair	lather	shower
+000565	0.001956963011271722	wash	hair	whole head	shower
+000566	0.007332524994176986	wash	hair	towel	shower
+000567	0.000991708418987729	wash	hair	towels	shower
+000568	0.001956963011271722	wash	hair	good temperature	shower
+000569	0.004063569583984139	wash	hair	temperature	shower
+000570	0.004440576679131642	wash	hair	scrub	shower
+000571	0.0	wash	hair	scrub soap over your body	shower
+000572	0.0068330079724671505	wash	hair	shampoo and soap	shower
+000573	0.013811430412272153	wash	hair	soap	shower
+000574	0.001151232754522525	rinse	conditioner	i	shower
+000575	0.0008502720710852735	rinse	conditioner	washcloth	shower
+000576	0.0007194609832260008	rinse	conditioner	face and neck	shower
+000577	0.0010481085547169927	rinse	conditioner	face	shower
+000578	0.0007383928839496775	rinse	conditioner	undress	shower
+000579	0.0007873288576559632	rinse	conditioner	curtain	shower
+000580	0.0007194609832260008	rinse	conditioner	door or curtain	shower
+000581	0.0005361874844043541	rinse	conditioner	self	shower
+000582	0.004675571397738275	rinse	conditioner	body	shower
+000583	0.0006073102118542629	rinse	conditioner	your body	shower
+000584	0.00041210504594746026	rinse	conditioner	body parts	shower
+000585	0.00041210504594746026	rinse	conditioner	certain parts	shower
+000586	0.003550244281946462	rinse	conditioner	shampoo	shower
+000587	0.0025171210403584898	rinse	conditioner	water	shower
+000588	0.0006959207838788113	rinse	conditioner	hot water	shower
+000589	0.0007194609832260008	rinse	conditioner	curtain or door	shower
+000590	0.0002221028977234347	rinse	conditioner	door	shower
+000591	0.0004786174561063761	rinse	conditioner	tap	shower
+000592	0.006056529793777701	rinse	conditioner	hair	shower
+000593	0.0005508964360278504	rinse	conditioner	cloth	shower
+000594	0.00293390615176624	rinse	conditioner	rinse	shower
+000595	0.0007194609832260008	rinse	conditioner	shampoo and rinse	shower
+000596	0.0003936644288279816	rinse	conditioner	fan	shower
+000597	0.00041210504594746026	rinse	conditioner	exhaust fan	shower
+000598	0.00041210504594746026	rinse	conditioner	my clothes	shower
+000599	0.0018905028279599537	rinse	conditioner	clothes	shower
+000600	0.0003936644288279816	rinse	conditioner	tub	shower
+000601	0.001652078128810348	rinse	conditioner	bathroom	shower
+000602	0.0002461309613165592	rinse	conditioner	lather	shower
+000603	0.00041210504594746026	rinse	conditioner	whole head	shower
+000604	0.0015441122454698444	rinse	conditioner	towel	shower
+000605	0.00020883789893802714	rinse	conditioner	towels	shower
+000606	0.00041210504594746026	rinse	conditioner	good temperature	shower
+000607	0.0008557226275984869	rinse	conditioner	temperature	shower
+000608	0.0009351142795476549	rinse	conditioner	scrub	shower
+000609	0.0	rinse	conditioner	scrub soap over your body	shower
+000610	0.0014389219664520017	rinse	conditioner	shampoo and soap	shower
+000611	0.002908465889169159	rinse	conditioner	soap	shower
+000612	0.001151232754522525	adjust	water temperature	i	shower
+000613	0.0008502720710852735	adjust	water temperature	washcloth	shower
+000614	0.0007194609832260008	adjust	water temperature	face and neck	shower
+000615	0.0010481085547169927	adjust	water temperature	face	shower
+000616	0.0011221371354571859	adjust	water temperature	conditioner	shower
+000617	0.0007383928839496775	adjust	water temperature	undress	shower
+000618	0.0007873288576559632	adjust	water temperature	curtain	shower
+000619	0.0007194609832260008	adjust	water temperature	door or curtain	shower
+000620	0.0005361874844043541	adjust	water temperature	self	shower
+000621	0.004675571397738275	adjust	water temperature	body	shower
+000622	0.0006073102118542629	adjust	water temperature	your body	shower
+000623	0.00041210504594746026	adjust	water temperature	body parts	shower
+000624	0.00041210504594746026	adjust	water temperature	certain parts	shower
+000625	0.003550244281946462	adjust	water temperature	shampoo	shower
+000626	0.0025171210403584898	adjust	water temperature	water	shower
+000627	0.0006959207838788113	adjust	water temperature	hot water	shower
+000628	0.0007194609832260008	adjust	water temperature	curtain or door	shower
+000629	0.0002221028977234347	adjust	water temperature	door	shower
+000630	0.0004786174561063761	adjust	water temperature	tap	shower
+000631	0.006056529793777701	adjust	water temperature	hair	shower
+000632	0.0005508964360278504	adjust	water temperature	cloth	shower
+000633	0.00293390615176624	adjust	water temperature	rinse	shower
+000634	0.0007194609832260008	adjust	water temperature	shampoo and rinse	shower
+000635	0.0003936644288279816	adjust	water temperature	fan	shower
+000636	0.00041210504594746026	adjust	water temperature	exhaust fan	shower
+000637	0.00041210504594746026	adjust	water temperature	my clothes	shower
+000638	0.0018905028279599537	adjust	water temperature	clothes	shower
+000639	0.0003936644288279816	adjust	water temperature	tub	shower
+000640	0.001652078128810348	adjust	water temperature	bathroom	shower
+000641	0.0002461309613165592	adjust	water temperature	lather	shower
+000642	0.00041210504594746026	adjust	water temperature	whole head	shower
+000643	0.0015441122454698444	adjust	water temperature	towel	shower
+000644	0.00020883789893802714	adjust	water temperature	towels	shower
+000645	0.00041210504594746026	adjust	water temperature	good temperature	shower
+000646	0.0008557226275984869	adjust	water temperature	temperature	shower
+000647	0.0009351142795476549	adjust	water temperature	scrub	shower
+000648	0.0	adjust	water temperature	scrub soap over your body	shower
+000649	0.0014389219664520017	adjust	water temperature	shampoo and soap	shower
+000650	0.002908465889169159	adjust	water temperature	soap	shower
+000651	0.001151232754522525	turn	cold water	i	shower
+000652	0.0008502720710852735	turn	cold water	washcloth	shower
+000653	0.0007194609832260008	turn	cold water	face and neck	shower
+000654	0.0010481085547169927	turn	cold water	face	shower
+000655	0.0011221371354571859	turn	cold water	conditioner	shower
+000656	0.0007383928839496775	turn	cold water	undress	shower
+000657	0.0007873288576559632	turn	cold water	curtain	shower
+000658	0.0007194609832260008	turn	cold water	door or curtain	shower
+000659	0.0005361874844043541	turn	cold water	self	shower
+000660	0.004675571397738275	turn	cold water	body	shower
+000661	0.0006073102118542629	turn	cold water	your body	shower
+000662	0.00041210504594746026	turn	cold water	body parts	shower
+000663	0.00041210504594746026	turn	cold water	certain parts	shower
+000664	0.003550244281946462	turn	cold water	shampoo	shower
+000665	0.0025171210403584898	turn	cold water	water	shower
+000666	0.0006959207838788113	turn	cold water	hot water	shower
+000667	0.0007194609832260008	turn	cold water	curtain or door	shower
+000668	0.0002221028977234347	turn	cold water	door	shower
+000669	0.0004786174561063761	turn	cold water	tap	shower
+000670	0.006056529793777701	turn	cold water	hair	shower
+000671	0.0005508964360278504	turn	cold water	cloth	shower
+000672	0.00293390615176624	turn	cold water	rinse	shower
+000673	0.0007194609832260008	turn	cold water	shampoo and rinse	shower
+000674	0.0003936644288279816	turn	cold water	fan	shower
+000675	0.00041210504594746026	turn	cold water	exhaust fan	shower
+000676	0.00041210504594746026	turn	cold water	my clothes	shower
+000677	0.0018905028279599537	turn	cold water	clothes	shower
+000678	0.0003936644288279816	turn	cold water	tub	shower
+000679	0.001652078128810348	turn	cold water	bathroom	shower
+000680	0.0002461309613165592	turn	cold water	lather	shower
+000681	0.00041210504594746026	turn	cold water	whole head	shower
+000682	0.0015441122454698444	turn	cold water	towel	shower
+000683	0.00020883789893802714	turn	cold water	towels	shower
+000684	0.00041210504594746026	turn	cold water	good temperature	shower
+000685	0.0008557226275984869	turn	cold water	temperature	shower
+000686	0.0009351142795476549	turn	cold water	scrub	shower
+000687	0.0	turn	cold water	scrub soap over your body	shower
+000688	0.0014389219664520017	turn	cold water	shampoo and soap	shower
+000689	0.002908465889169159	turn	cold water	soap	shower
+000690	0.000911143060941905	apply	soap	i	shower
+000691	0.0006729477548641889	apply	soap	washcloth	shower
+000692	0.0005694173310389291	apply	soap	face and neck	shower
+000693	0.0008295254221986712	apply	soap	face	shower
+000694	0.0008881153358263283	apply	soap	conditioner	shower
+000695	0.0005844009821790267	apply	soap	undress	shower
+000696	0.0006231313542065411	apply	soap	curtain	shower
+000697	0.0005694173310389291	apply	soap	door or curtain	shower
+000698	0.0004243655367341829	apply	soap	self	shower
+000699	0.0037004805659430354	apply	soap	body	shower
+000700	0.0004806556130342824	apply	soap	your body	shower
+000701	0.00032616050187862035	apply	soap	body parts	shower
+000702	0.00032616050187862035	apply	soap	certain parts	shower
+000703	0.002809840520465232	apply	soap	shampoo	shower
+000704	0.0019921752230066805	apply	soap	water	shower
+000705	0.0005507864423640523	apply	soap	hot water	shower
+000706	0.0005694173310389291	apply	soap	curtain or door	shower
+000707	0.00017578331860417686	apply	soap	door	shower
+000708	0.0003788017429697435	apply	soap	tap	shower
+000709	0.004793439965384938	apply	soap	hair	shower
+000710	0.0004360069351853911	apply	soap	cloth	shower
+000711	0.0023220397622766504	apply	soap	rinse	shower
+000712	0.0005694173310389291	apply	soap	shampoo and rinse	shower
+000713	0.00031156567710327056	apply	soap	fan	shower
+000714	0.00032616050187862035	apply	soap	exhaust fan	shower
+000715	0.00032616050187862035	apply	soap	my clothes	shower
+000716	0.0014962382946628165	apply	soap	clothes	shower
+000717	0.00031156567710327056	apply	soap	tub	shower
+000718	0.0013075370877748795	apply	soap	bathroom	shower
+000719	0.0001948003273930089	apply	soap	lather	shower
+000720	0.00032616050187862035	apply	soap	whole head	shower
+000721	0.0012220874990294976	apply	soap	towel	shower
+000722	0.00016528473649795483	apply	soap	towels	shower
+000723	0.00032616050187862035	apply	soap	good temperature	shower
+000724	0.0006772615973306898	apply	soap	temperature	shower
+000725	0.0007400961131886069	apply	soap	scrub	shower
+000726	0.0	apply	soap	scrub soap over your body	shower
+000727	0.0011388346620778583	apply	soap	shampoo and soap	shower
+000728	0.001151232754522525	clean	certain parts	i	shower
+000729	0.0008502720710852735	clean	certain parts	washcloth	shower
+000730	0.0007194609832260008	clean	certain parts	face and neck	shower
+000731	0.0010481085547169927	clean	certain parts	face	shower
+000732	0.0011221371354571859	clean	certain parts	conditioner	shower
+000733	0.0007383928839496775	clean	certain parts	undress	shower
+000734	0.0007873288576559632	clean	certain parts	curtain	shower
+000735	0.0007194609832260008	clean	certain parts	door or curtain	shower
+000736	0.0005361874844043541	clean	certain parts	self	shower
+000737	0.004675571397738275	clean	certain parts	body	shower
+000738	0.0006073102118542629	clean	certain parts	your body	shower
+000739	0.00041210504594746026	clean	certain parts	body parts	shower
+000740	0.003550244281946462	clean	certain parts	shampoo	shower
+000741	0.0025171210403584898	clean	certain parts	water	shower
+000742	0.0006959207838788113	clean	certain parts	hot water	shower
+000743	0.0007194609832260008	clean	certain parts	curtain or door	shower
+000744	0.0002221028977234347	clean	certain parts	door	shower
+000745	0.0004786174561063761	clean	certain parts	tap	shower
+000746	0.006056529793777701	clean	certain parts	hair	shower
+000747	0.0005508964360278504	clean	certain parts	cloth	shower
+000748	0.00293390615176624	clean	certain parts	rinse	shower
+000749	0.0007194609832260008	clean	certain parts	shampoo and rinse	shower
+000750	0.0003936644288279816	clean	certain parts	fan	shower
+000751	0.00041210504594746026	clean	certain parts	exhaust fan	shower
+000752	0.00041210504594746026	clean	certain parts	my clothes	shower
+000753	0.0018905028279599537	clean	certain parts	clothes	shower
+000754	0.0003936644288279816	clean	certain parts	tub	shower
+000755	0.001652078128810348	clean	certain parts	bathroom	shower
+000756	0.0002461309613165592	clean	certain parts	lather	shower
+000757	0.00041210504594746026	clean	certain parts	whole head	shower
+000758	0.0015441122454698444	clean	certain parts	towel	shower
+000759	0.00020883789893802714	clean	certain parts	towels	shower
+000760	0.00041210504594746026	clean	certain parts	good temperature	shower
+000761	0.0008557226275984869	clean	certain parts	temperature	shower
+000762	0.0009351142795476549	clean	certain parts	scrub	shower
+000763	0.0	clean	certain parts	scrub soap over your body	shower
+000764	0.0014389219664520017	clean	certain parts	shampoo and soap	shower
+000765	0.002908465889169159	clean	certain parts	soap	shower
+000766	0.001151232754522525	rinse	face	i	shower
+000767	0.0008502720710852735	rinse	face	washcloth	shower
+000768	0.0007194609832260008	rinse	face	face and neck	shower
+000769	0.0011221371354571859	rinse	face	conditioner	shower
+000770	0.0007383928839496775	rinse	face	undress	shower
+000771	0.0007873288576559632	rinse	face	curtain	shower
+000772	0.0007194609832260008	rinse	face	door or curtain	shower
+000773	0.0005361874844043541	rinse	face	self	shower
+000774	0.004675571397738275	rinse	face	body	shower
+000775	0.0006073102118542629	rinse	face	your body	shower
+000776	0.00041210504594746026	rinse	face	body parts	shower
+000777	0.00041210504594746026	rinse	face	certain parts	shower
+000778	0.003550244281946462	rinse	face	shampoo	shower
+000779	0.0025171210403584898	rinse	face	water	shower
+000780	0.0006959207838788113	rinse	face	hot water	shower
+000781	0.0007194609832260008	rinse	face	curtain or door	shower
+000782	0.0002221028977234347	rinse	face	door	shower
+000783	0.0004786174561063761	rinse	face	tap	shower
+000784	0.006056529793777701	rinse	face	hair	shower
+000785	0.0005508964360278504	rinse	face	cloth	shower
+000786	0.00293390615176624	rinse	face	rinse	shower
+000787	0.0007194609832260008	rinse	face	shampoo and rinse	shower
+000788	0.0003936644288279816	rinse	face	fan	shower
+000789	0.00041210504594746026	rinse	face	exhaust fan	shower
+000790	0.00041210504594746026	rinse	face	my clothes	shower
+000791	0.0018905028279599537	rinse	face	clothes	shower
+000792	0.0003936644288279816	rinse	face	tub	shower
+000793	0.001652078128810348	rinse	face	bathroom	shower
+000794	0.0002461309613165592	rinse	face	lather	shower
+000795	0.00041210504594746026	rinse	face	whole head	shower
+000796	0.0015441122454698444	rinse	face	towel	shower
+000797	0.00020883789893802714	rinse	face	towels	shower
+000798	0.00041210504594746026	rinse	face	good temperature	shower
+000799	0.0008557226275984869	rinse	face	temperature	shower
+000800	0.0009351142795476549	rinse	face	scrub	shower
+000801	0.0	rinse	face	scrub soap over your body	shower
+000802	0.0014389219664520017	rinse	face	shampoo and soap	shower
+000803	0.002908465889169159	rinse	face	soap	shower
+000804	0.000911143060941905	close	tap	i	shower
+000805	0.0006729477548641889	close	tap	washcloth	shower
+000806	0.0005694173310389291	close	tap	face and neck	shower
+000807	0.0008295254221986712	close	tap	face	shower
+000808	0.0008881153358263283	close	tap	conditioner	shower
+000809	0.0005844009821790267	close	tap	undress	shower
+000810	0.0006231313542065411	close	tap	curtain	shower
+000811	0.0005694173310389291	close	tap	door or curtain	shower
+000812	0.0004243655367341829	close	tap	self	shower
+000813	0.0037004805659430354	close	tap	body	shower
+000814	0.0004806556130342824	close	tap	your body	shower
+000815	0.00032616050187862035	close	tap	body parts	shower
+000816	0.00032616050187862035	close	tap	certain parts	shower
+000817	0.002809840520465232	close	tap	shampoo	shower
+000818	0.0019921752230066805	close	tap	water	shower
+000819	0.0005507864423640523	close	tap	hot water	shower
+000820	0.0005694173310389291	close	tap	curtain or door	shower
+000821	0.00017578331860417686	close	tap	door	shower
+000822	0.004793439965384938	close	tap	hair	shower
+000823	0.0004360069351853911	close	tap	cloth	shower
+000824	0.0023220397622766504	close	tap	rinse	shower
+000825	0.0005694173310389291	close	tap	shampoo and rinse	shower
+000826	0.00031156567710327056	close	tap	fan	shower
+000827	0.00032616050187862035	close	tap	exhaust fan	shower
+000828	0.00032616050187862035	close	tap	my clothes	shower
+000829	0.0014962382946628165	close	tap	clothes	shower
+000830	0.00031156567710327056	close	tap	tub	shower
+000831	0.0013075370877748795	close	tap	bathroom	shower
+000832	0.0001948003273930089	close	tap	lather	shower
+000833	0.00032616050187862035	close	tap	whole head	shower
+000834	0.0012220874990294976	close	tap	towel	shower
+000835	0.00016528473649795483	close	tap	towels	shower
+000836	0.00032616050187862035	close	tap	good temperature	shower
+000837	0.0006772615973306898	close	tap	temperature	shower
+000838	0.0007400961131886069	close	tap	scrub	shower
+000839	0.0	close	tap	scrub soap over your body	shower
+000840	0.0011388346620778583	close	tap	shampoo and soap	shower
+000841	0.002301905068712025	close	tap	soap	shower
+000842	0.001151232754522525	apply	clothes	i	shower
+000843	0.0008502720710852735	apply	clothes	washcloth	shower
+000844	0.0007194609832260008	apply	clothes	face and neck	shower
+000845	0.0010481085547169927	apply	clothes	face	shower
+000846	0.0011221371354571859	apply	clothes	conditioner	shower
+000847	0.0007383928839496775	apply	clothes	undress	shower
+000848	0.0007873288576559632	apply	clothes	curtain	shower
+000849	0.0007194609832260008	apply	clothes	door or curtain	shower
+000850	0.0005361874844043541	apply	clothes	self	shower
+000851	0.004675571397738275	apply	clothes	body	shower
+000852	0.0006073102118542629	apply	clothes	your body	shower
+000853	0.00041210504594746026	apply	clothes	body parts	shower
+000854	0.00041210504594746026	apply	clothes	certain parts	shower
+000855	0.003550244281946462	apply	clothes	shampoo	shower
+000856	0.0025171210403584898	apply	clothes	water	shower
+000857	0.0006959207838788113	apply	clothes	hot water	shower
+000858	0.0007194609832260008	apply	clothes	curtain or door	shower
+000859	0.0002221028977234347	apply	clothes	door	shower
+000860	0.0004786174561063761	apply	clothes	tap	shower
+000861	0.006056529793777701	apply	clothes	hair	shower
+000862	0.0005508964360278504	apply	clothes	cloth	shower
+000863	0.00293390615176624	apply	clothes	rinse	shower
+000864	0.0007194609832260008	apply	clothes	shampoo and rinse	shower
+000865	0.0003936644288279816	apply	clothes	fan	shower
+000866	0.00041210504594746026	apply	clothes	exhaust fan	shower
+000867	0.00041210504594746026	apply	clothes	my clothes	shower
+000868	0.0003936644288279816	apply	clothes	tub	shower
+000869	0.001652078128810348	apply	clothes	bathroom	shower
+000870	0.0002461309613165592	apply	clothes	lather	shower
+000871	0.00041210504594746026	apply	clothes	whole head	shower
+000872	0.0015441122454698444	apply	clothes	towel	shower
+000873	0.00020883789893802714	apply	clothes	towels	shower
+000874	0.00041210504594746026	apply	clothes	good temperature	shower
+000875	0.0008557226275984869	apply	clothes	temperature	shower
+000876	0.0009351142795476549	apply	clothes	scrub	shower
+000877	0.0	apply	clothes	scrub soap over your body	shower
+000878	0.0014389219664520017	apply	clothes	shampoo and soap	shower
+000879	0.002908465889169159	apply	clothes	soap	shower
+000880	0.008058629281657676	wash	body	i	shower
+000881	0.005951904497596915	wash	body	washcloth	shower
+000882	0.005036226882582006	wash	body	face and neck	shower
+000883	0.007336759883018949	wash	body	face	shower
+000884	0.007854959948200301	wash	body	conditioner	shower
+000885	0.005168750187647743	wash	body	undress	shower
+000886	0.005511302003591742	wash	body	curtain	shower
+000887	0.005036226882582006	wash	body	door or curtain	shower
+000888	0.003753312390830479	wash	body	self	shower
+000889	0.00425117148297984	wash	body	your body	shower
+000890	0.002884735321632222	wash	body	body parts	shower
+000891	0.002884735321632222	wash	body	certain parts	shower
+000892	0.024851709973625236	wash	body	shampoo	shower
+000893	0.01761984728250943	wash	body	water	shower
+000894	0.0048714454871516795	wash	body	hot water	shower
+000895	0.005036226882582006	wash	body	curtain or door	shower
+000896	0.001554720284064043	wash	body	door	shower
+000897	0.0033503221927446334	wash	body	tap	shower
+000898	0.04239570855644391	wash	body	hair	shower
+000899	0.0038562750521949525	wash	body	cloth	shower
+000900	0.020537343062363683	wash	body	rinse	shower
+000901	0.005036226882582006	wash	body	shampoo and rinse	shower
+000902	0.002755651001795871	wash	body	fan	shower
+000903	0.002884735321632222	wash	body	exhaust fan	shower
+000904	0.002884735321632222	wash	body	my clothes	shower
+000905	0.013233519795719677	wash	body	clothes	shower
+000906	0.002755651001795871	wash	body	tub	shower
+000907	0.011564546901672437	wash	body	bathroom	shower
+000908	0.0017229167292159143	wash	body	lather	shower
+000909	0.002884735321632222	wash	body	whole head	shower
+000910	0.010808785718288912	wash	body	towel	shower
+000911	0.0014618652925661902	wash	body	towels	shower
+000912	0.002884735321632222	wash	body	good temperature	shower
+000913	0.0059900583931894085	wash	body	temperature	shower
+000914	0.006545799956833584	wash	body	scrub	shower
+000915	0.0	wash	body	scrub soap over your body	shower
+000916	0.010072453765164012	wash	body	shampoo and soap	shower
+000917	0.020359261224184116	wash	body	soap	shower
+000918	0.001151232754522525	peeloff	dresses	i	shower
+000919	0.0008502720710852735	peeloff	dresses	washcloth	shower
+000920	0.0007194609832260008	peeloff	dresses	face and neck	shower
+000921	0.0010481085547169927	peeloff	dresses	face	shower
+000922	0.0011221371354571859	peeloff	dresses	conditioner	shower
+000923	0.0007383928839496775	peeloff	dresses	undress	shower
+000924	0.0007873288576559632	peeloff	dresses	curtain	shower
+000925	0.0007194609832260008	peeloff	dresses	door or curtain	shower
+000926	0.0005361874844043541	peeloff	dresses	self	shower
+000927	0.004675571397738275	peeloff	dresses	body	shower
+000928	0.0006073102118542629	peeloff	dresses	your body	shower
+000929	0.00041210504594746026	peeloff	dresses	body parts	shower
+000930	0.00041210504594746026	peeloff	dresses	certain parts	shower
+000931	0.003550244281946462	peeloff	dresses	shampoo	shower
+000932	0.0025171210403584898	peeloff	dresses	water	shower
+000933	0.0006959207838788113	peeloff	dresses	hot water	shower
+000934	0.0007194609832260008	peeloff	dresses	curtain or door	shower
+000935	0.0002221028977234347	peeloff	dresses	door	shower
+000936	0.0004786174561063761	peeloff	dresses	tap	shower
+000937	0.006056529793777701	peeloff	dresses	hair	shower
+000938	0.0005508964360278504	peeloff	dresses	cloth	shower
+000939	0.00293390615176624	peeloff	dresses	rinse	shower
+000940	0.0007194609832260008	peeloff	dresses	shampoo and rinse	shower
+000941	0.0003936644288279816	peeloff	dresses	fan	shower
+000942	0.00041210504594746026	peeloff	dresses	exhaust fan	shower
+000943	0.00041210504594746026	peeloff	dresses	my clothes	shower
+000944	0.0018905028279599537	peeloff	dresses	clothes	shower
+000945	0.0003936644288279816	peeloff	dresses	tub	shower
+000946	0.001652078128810348	peeloff	dresses	bathroom	shower
+000947	0.0002461309613165592	peeloff	dresses	lather	shower
+000948	0.00041210504594746026	peeloff	dresses	whole head	shower
+000949	0.0015441122454698444	peeloff	dresses	towel	shower
+000950	0.00020883789893802714	peeloff	dresses	towels	shower
+000951	0.00041210504594746026	peeloff	dresses	good temperature	shower
+000952	0.0008557226275984869	peeloff	dresses	temperature	shower
+000953	0.0009351142795476549	peeloff	dresses	scrub	shower
+000954	0.0	peeloff	dresses	scrub soap over your body	shower
+000955	0.0014389219664520017	peeloff	dresses	shampoo and soap	shower
+000956	0.002908465889169159	peeloff	dresses	soap	shower
+000957	0.0019995060466333156	close	curtain	i	shower
+000958	0.0014767857678993548	close	curtain	washcloth	shower
+000959	0.0012495879574533004	close	curtain	face and neck	shower
+000960	0.0018203959055646617	close	curtain	face	shower
+000961	0.00194897163817148	close	curtain	conditioner	shower
+000962	0.0012824696226270413	close	curtain	undress	shower
+000963	0.0012495879574533004	close	curtain	door or curtain	shower
+000964	0.0009312713810338652	close	curtain	self	shower
+000965	0.008120715159047835	close	curtain	body	shower
+000966	0.0010548001140641616	close	curtain	your body	shower
+000967	0.0007157601518745916	close	curtain	body parts	shower
+000968	0.0007157601518745916	close	curtain	certain parts	shower
+000969	0.006166203038343459	close	curtain	shampoo	shower
+000970	0.004371834210356691	close	curtain	water	shower
+000971	0.0012087024191042974	close	curtain	hot water	shower
+000972	0.0012495879574533004	close	curtain	curtain or door	shower
+000973	0.0003857569941683754	close	curtain	door	shower
+000974	0.0008312815056290424	close	curtain	tap	shower
+000975	0.010519217679222481	close	curtain	hair	shower
+000976	0.0009568184631467396	close	curtain	cloth	shower
+000977	0.005095722882853831	close	curtain	rinse	shower
+000978	0.0012495879574533004	close	curtain	shampoo and rinse	shower
+000979	0.0006837317672675708	close	curtain	fan	shower
+000980	0.0007157601518745916	close	curtain	exhaust fan	shower
+000981	0.0007157601518745916	close	curtain	my clothes	shower
+000982	0.0032834992062496507	close	curtain	clothes	shower
+000983	0.0006837317672675708	close	curtain	tub	shower
+000984	0.002869393869389173	close	curtain	bathroom	shower
+000985	0.0004274898742090138	close	curtain	lather	shower
+000986	0.0007157601518745916	close	curtain	whole head	shower
+000987	0.0026818745031086506	close	curtain	towel	shower
+000988	0.0003627178257849093	close	curtain	towels	shower
+000989	0.0007157601518745916	close	curtain	good temperature	shower
+000990	0.0014862525074990345	close	curtain	temperature	shower
+000991	0.0016241430318095665	close	curtain	scrub	shower
+000992	0.0	close	curtain	scrub soap over your body	shower
+000993	0.0024991759149066007	close	curtain	shampoo and soap	shower
+000994	0.005051537240384077	close	curtain	soap	shower
+000995	0.0034536982635675756	apply	shampoo	i	shower
+000996	0.002550816213255821	apply	shampoo	washcloth	shower
+000997	0.0021583829496780024	apply	shampoo	face and neck	shower
+000998	0.003144325664150978	apply	shampoo	face	shower
+000999	0.0033664114063715576	apply	shampoo	conditioner	shower
+001000	0.0022151786518490326	apply	shampoo	undress	shower
+001001	0.0023619865729678897	apply	shampoo	curtain	shower
+001002	0.0021583829496780024	apply	shampoo	door or curtain	shower
+001003	0.0016085624532130626	apply	shampoo	self	shower
+001004	0.014026714193214827	apply	shampoo	body	shower
+001005	0.0018219306355627886	apply	shampoo	your body	shower
+001006	0.0012363151378423807	apply	shampoo	body parts	shower
+001007	0.0012363151378423807	apply	shampoo	certain parts	shower
+001008	0.00755136312107547	apply	shampoo	water	shower
+001009	0.002087762351636434	apply	shampoo	hot water	shower
+001010	0.0021583829496780024	apply	shampoo	curtain or door	shower
+001011	0.0006663086931703041	apply	shampoo	door	shower
+001012	0.0014358523683191285	apply	shampoo	tap	shower
+001013	0.018169589381333104	apply	shampoo	hair	shower
+001014	0.001652689308083551	apply	shampoo	cloth	shower
+001015	0.00880171845529872	apply	shampoo	rinse	shower
+001016	0.0021583829496780024	apply	shampoo	shampoo and rinse	shower
+001017	0.0011809932864839448	apply	shampoo	fan	shower
+001018	0.0012363151378423807	apply	shampoo	exhaust fan	shower
+001019	0.0012363151378423807	apply	shampoo	my clothes	shower
+001020	0.005671508483879861	apply	shampoo	clothes	shower
+001021	0.0011809932864839448	apply	shampoo	tub	shower
+001022	0.004956234386431045	apply	shampoo	bathroom	shower
+001023	0.0007383928839496776	apply	shampoo	lather	shower
+001024	0.0012363151378423807	apply	shampoo	whole head	shower
+001025	0.004632336736409534	apply	shampoo	towel	shower
+001026	0.0006265136968140815	apply	shampoo	towels	shower
+001027	0.0012363151378423807	apply	shampoo	good temperature	shower
+001028	0.002567167882795461	apply	shampoo	temperature	shower
+001029	0.0028053428386429647	apply	shampoo	scrub	shower
+001030	0.0	apply	shampoo	scrub soap over your body	shower
+001031	0.004316765899356005	apply	shampoo	shampoo and soap	shower
+001032	0.00872539766750748	apply	shampoo	soap	shower
+001033	0.00230246550904505	adjust	temperature	i	shower
+001034	0.001700544142170547	adjust	temperature	washcloth	shower
+001035	0.0014389219664520017	adjust	temperature	face and neck	shower
+001036	0.0020962171094339854	adjust	temperature	face	shower
+001037	0.0022442742709143718	adjust	temperature	conditioner	shower
+001038	0.001476785767899355	adjust	temperature	undress	shower
+001039	0.0015746577153119264	adjust	temperature	curtain	shower
+001040	0.0014389219664520017	adjust	temperature	door or curtain	shower
+001041	0.0010723749688087082	adjust	temperature	self	shower
+001042	0.00935114279547655	adjust	temperature	body	shower
+001043	0.0012146204237085258	adjust	temperature	your body	shower
+001044	0.0008242100918949205	adjust	temperature	body parts	shower
+001045	0.0008242100918949205	adjust	temperature	certain parts	shower
+001046	0.007100488563892924	adjust	temperature	shampoo	shower
+001047	0.0050342420807169795	adjust	temperature	water	shower
+001048	0.0013918415677576226	adjust	temperature	hot water	shower
+001049	0.0014389219664520017	adjust	temperature	curtain or door	shower
+001050	0.0004442057954468694	adjust	temperature	door	shower
+001051	0.0009572349122127522	adjust	temperature	tap	shower
+001052	0.012113059587555403	adjust	temperature	hair	shower
+001053	0.0011017928720557007	adjust	temperature	cloth	shower
+001054	0.00586781230353248	adjust	temperature	rinse	shower
+001055	0.0014389219664520017	adjust	temperature	shampoo and rinse	shower
+001056	0.0007873288576559632	adjust	temperature	fan	shower
+001057	0.0008242100918949205	adjust	temperature	exhaust fan	shower
+001058	0.0008242100918949205	adjust	temperature	my clothes	shower
+001059	0.0037810056559199074	adjust	temperature	clothes	shower
+001060	0.0007873288576559632	adjust	temperature	tub	shower
+001061	0.003304156257620696	adjust	temperature	bathroom	shower
+001062	0.0004922619226331184	adjust	temperature	lather	shower
+001063	0.0008242100918949205	adjust	temperature	whole head	shower
+001064	0.0030882244909396887	adjust	temperature	towel	shower
+001065	0.0004176757978760543	adjust	temperature	towels	shower
+001066	0.0008242100918949205	adjust	temperature	good temperature	shower
+001067	0.0018702285590953098	adjust	temperature	scrub	shower
+001068	0.0	adjust	temperature	scrub soap over your body	shower
+001069	0.0028778439329040033	adjust	temperature	shampoo and soap	shower
+001070	0.005816931778338318	adjust	temperature	soap	shower
+001071	0.001151232754522525	put	conditioner	i	shower
+001072	0.0008502720710852735	put	conditioner	washcloth	shower
+001073	0.0007194609832260008	put	conditioner	face and neck	shower
+001074	0.0010481085547169927	put	conditioner	face	shower
+001075	0.0007383928839496775	put	conditioner	undress	shower
+001076	0.0007873288576559632	put	conditioner	curtain	shower
+001077	0.0007194609832260008	put	conditioner	door or curtain	shower
+001078	0.0005361874844043541	put	conditioner	self	shower
+001079	0.004675571397738275	put	conditioner	body	shower
+001080	0.0006073102118542629	put	conditioner	your body	shower
+001081	0.00041210504594746026	put	conditioner	body parts	shower
+001082	0.00041210504594746026	put	conditioner	certain parts	shower
+001083	0.003550244281946462	put	conditioner	shampoo	shower
+001084	0.0025171210403584898	put	conditioner	water	shower
+001085	0.0006959207838788113	put	conditioner	hot water	shower
+001086	0.0007194609832260008	put	conditioner	curtain or door	shower
+001087	0.0002221028977234347	put	conditioner	door	shower
+001088	0.0004786174561063761	put	conditioner	tap	shower
+001089	0.006056529793777701	put	conditioner	hair	shower
+001090	0.0005508964360278504	put	conditioner	cloth	shower
+001091	0.00293390615176624	put	conditioner	rinse	shower
+001092	0.0007194609832260008	put	conditioner	shampoo and rinse	shower
+001093	0.0003936644288279816	put	conditioner	fan	shower
+001094	0.00041210504594746026	put	conditioner	exhaust fan	shower
+001095	0.00041210504594746026	put	conditioner	my clothes	shower
+001096	0.0018905028279599537	put	conditioner	clothes	shower
+001097	0.0003936644288279816	put	conditioner	tub	shower
+001098	0.001652078128810348	put	conditioner	bathroom	shower
+001099	0.0002461309613165592	put	conditioner	lather	shower
+001100	0.00041210504594746026	put	conditioner	whole head	shower
+001101	0.0015441122454698444	put	conditioner	towel	shower
+001102	0.00020883789893802714	put	conditioner	towels	shower
+001103	0.00041210504594746026	put	conditioner	good temperature	shower
+001104	0.0008557226275984869	put	conditioner	temperature	shower
+001105	0.0009351142795476549	put	conditioner	scrub	shower
+001106	0.0	put	conditioner	scrub soap over your body	shower
+001107	0.0014389219664520017	put	conditioner	shampoo and soap	shower
+001108	0.002908465889169159	put	conditioner	soap	shower
+001109	0.0006710533673612851	add	soap	i	shower
+001110	0.0004956234386431044	add	soap	washcloth	shower
+001111	0.0004193736788518576	add	soap	face and neck	shower
+001112	0.0006109422896803499	add	soap	face	shower
+001113	0.000654093536195471	add	soap	conditioner	shower
+001114	0.000430409080408376	add	soap	undress	shower
+001115	0.00045893385075711934	add	soap	curtain	shower
+001116	0.0004193736788518576	add	soap	door or curtain	shower
+001117	0.00031254358906401174	add	soap	self	shower
+001118	0.0027253897341477963	add	soap	body	shower
+001119	0.00035400101421430205	add	soap	your body	shower
+001120	0.00024021595780978052	add	soap	body parts	shower
+001121	0.00024021595780978052	add	soap	certain parts	shower
+001122	0.0020694367589840033	add	soap	shampoo	shower
+001123	0.0014672294056548721	add	soap	water	shower
+001124	0.0004056521008492936	add	soap	hot water	shower
+001125	0.0004193736788518576	add	soap	curtain or door	shower
+001126	0.00012946373948491904	add	soap	door	shower
+001127	0.000278986029833111	add	soap	tap	shower
+001128	0.0035303501369921752	add	soap	hair	shower
+001129	0.000321117434342932	add	soap	cloth	shower
+001130	0.0017101733727870607	add	soap	rinse	shower
+001131	0.0004193736788518576	add	soap	shampoo and rinse	shower
+001132	0.00022946692537855967	add	soap	fan	shower
+001133	0.00024021595780978052	add	soap	exhaust fan	shower
+001134	0.00024021595780978052	add	soap	my clothes	shower
+001135	0.0011019737613656797	add	soap	clothes	shower
+001136	0.00022946692537855967	add	soap	tub	shower
+001137	0.0009629960467394114	add	soap	bathroom	shower
+001138	0.00014346969346945866	add	soap	lather	shower
+001139	0.00024021595780978052	add	soap	whole head	shower
+001140	0.000900062752589151	add	soap	towel	shower
+001141	0.00012173157405788252	add	soap	towels	shower
+001142	0.00024021595780978052	add	soap	good temperature	shower
+001143	0.0004988005670628927	add	soap	temperature	shower
+001144	0.0005450779468295591	add	soap	scrub	shower
+001145	0.0	add	soap	scrub soap over your body	shower
+001146	0.0008387473577037152	add	soap	shampoo and soap	shower
+001147	0.0009997530233166578	adjust	position	i	shower
+001148	0.0007383928839496774	adjust	position	washcloth	shower
+001149	0.0006247939787266502	adjust	position	face and neck	shower
+001150	0.0009101979527823309	adjust	position	face	shower
+001151	0.00097448581908574	adjust	position	conditioner	shower
+001152	0.0006412348113135207	adjust	position	undress	shower
+001153	0.0006837317672675708	adjust	position	curtain	shower
+001154	0.0006247939787266502	adjust	position	door or curtain	shower
+001155	0.0004656356905169326	adjust	position	self	shower
+001156	0.004060357579523917	adjust	position	body	shower
+001157	0.0005274000570320808	adjust	position	your body	shower
+001158	0.0003578800759372958	adjust	position	body parts	shower
+001159	0.0003578800759372958	adjust	position	certain parts	shower
+001160	0.0030831015191717295	adjust	position	shampoo	shower
+001161	0.0021859171051783455	adjust	position	water	shower
+001162	0.0006043512095521487	adjust	position	hot water	shower
+001163	0.0006247939787266502	adjust	position	curtain or door	shower
+001164	0.0001928784970841877	adjust	position	door	shower
+001165	0.0004156407528145212	adjust	position	tap	shower
+001166	0.005259608839611241	adjust	position	hair	shower
+001167	0.0004784092315733698	adjust	position	cloth	shower
+001168	0.0025478614414269156	adjust	position	rinse	shower
+001169	0.0006247939787266502	adjust	position	shampoo and rinse	shower
+001170	0.0003418658836337854	adjust	position	fan	shower
+001171	0.0003578800759372958	adjust	position	exhaust fan	shower
+001172	0.0003578800759372958	adjust	position	my clothes	shower
+001173	0.0016417496031248253	adjust	position	clothes	shower
+001174	0.0003418658836337854	adjust	position	tub	shower
+001175	0.0014346969346945865	adjust	position	bathroom	shower
+001176	0.0002137449371045069	adjust	position	lather	shower
+001177	0.0003578800759372958	adjust	position	whole head	shower
+001178	0.0013409372515543253	adjust	position	towel	shower
+001179	0.00018135891289245464	adjust	position	towels	shower
+001180	0.0003578800759372958	adjust	position	good temperature	shower
+001181	0.0007431262537495173	adjust	position	temperature	shower
+001182	0.0008120715159047832	adjust	position	scrub	shower
+001183	0.0	adjust	position	scrub soap over your body	shower
+001184	0.0012495879574533004	adjust	position	shampoo and soap	shower
+001185	0.0025257686201920386	adjust	position	soap	shower
+001186	0.001151232754522525	put	bath soap	i	shower
+001187	0.0008502720710852735	put	bath soap	washcloth	shower
+001188	0.0007194609832260008	put	bath soap	face and neck	shower
+001189	0.0010481085547169927	put	bath soap	face	shower
+001190	0.0011221371354571859	put	bath soap	conditioner	shower
+001191	0.0007383928839496775	put	bath soap	undress	shower
+001192	0.0007873288576559632	put	bath soap	curtain	shower
+001193	0.0007194609832260008	put	bath soap	door or curtain	shower
+001194	0.0005361874844043541	put	bath soap	self	shower
+001195	0.004675571397738275	put	bath soap	body	shower
+001196	0.0006073102118542629	put	bath soap	your body	shower
+001197	0.00041210504594746026	put	bath soap	body parts	shower
+001198	0.00041210504594746026	put	bath soap	certain parts	shower
+001199	0.003550244281946462	put	bath soap	shampoo	shower
+001200	0.0025171210403584898	put	bath soap	water	shower
+001201	0.0006959207838788113	put	bath soap	hot water	shower
+001202	0.0007194609832260008	put	bath soap	curtain or door	shower
+001203	0.0002221028977234347	put	bath soap	door	shower
+001204	0.0004786174561063761	put	bath soap	tap	shower
+001205	0.006056529793777701	put	bath soap	hair	shower
+001206	0.0005508964360278504	put	bath soap	cloth	shower
+001207	0.00293390615176624	put	bath soap	rinse	shower
+001208	0.0007194609832260008	put	bath soap	shampoo and rinse	shower
+001209	0.0003936644288279816	put	bath soap	fan	shower
+001210	0.00041210504594746026	put	bath soap	exhaust fan	shower
+001211	0.00041210504594746026	put	bath soap	my clothes	shower
+001212	0.0018905028279599537	put	bath soap	clothes	shower
+001213	0.0003936644288279816	put	bath soap	tub	shower
+001214	0.001652078128810348	put	bath soap	bathroom	shower
+001215	0.0002461309613165592	put	bath soap	lather	shower
+001216	0.00041210504594746026	put	bath soap	whole head	shower
+001217	0.0015441122454698444	put	bath soap	towel	shower
+001218	0.00020883789893802714	put	bath soap	towels	shower
+001219	0.00041210504594746026	put	bath soap	good temperature	shower
+001220	0.0008557226275984869	put	bath soap	temperature	shower
+001221	0.0009351142795476549	put	bath soap	scrub	shower
+001222	0.0	put	bath soap	scrub soap over your body	shower
+001223	0.0014389219664520017	put	bath soap	shampoo and soap	shower
+001224	0.002908465889169159	put	bath soap	soap	shower
+001225	0.001151232754522525	rinse	hair	i	shower
+001226	0.0008502720710852735	rinse	hair	washcloth	shower
+001227	0.0007194609832260008	rinse	hair	face and neck	shower
+001228	0.0010481085547169927	rinse	hair	face	shower
+001229	0.0011221371354571859	rinse	hair	conditioner	shower
+001230	0.0007383928839496775	rinse	hair	undress	shower
+001231	0.0007873288576559632	rinse	hair	curtain	shower
+001232	0.0007194609832260008	rinse	hair	door or curtain	shower
+001233	0.0005361874844043541	rinse	hair	self	shower
+001234	0.004675571397738275	rinse	hair	body	shower
+001235	0.0006073102118542629	rinse	hair	your body	shower
+001236	0.00041210504594746026	rinse	hair	body parts	shower
+001237	0.00041210504594746026	rinse	hair	certain parts	shower
+001238	0.003550244281946462	rinse	hair	shampoo	shower
+001239	0.0025171210403584898	rinse	hair	water	shower
+001240	0.0006959207838788113	rinse	hair	hot water	shower
+001241	0.0007194609832260008	rinse	hair	curtain or door	shower
+001242	0.0002221028977234347	rinse	hair	door	shower
+001243	0.0004786174561063761	rinse	hair	tap	shower
+001244	0.0005508964360278504	rinse	hair	cloth	shower
+001245	0.00293390615176624	rinse	hair	rinse	shower
+001246	0.0007194609832260008	rinse	hair	shampoo and rinse	shower
+001247	0.0003936644288279816	rinse	hair	fan	shower
+001248	0.00041210504594746026	rinse	hair	exhaust fan	shower
+001249	0.00041210504594746026	rinse	hair	my clothes	shower
+001250	0.0018905028279599537	rinse	hair	clothes	shower
+001251	0.0003936644288279816	rinse	hair	tub	shower
+001252	0.001652078128810348	rinse	hair	bathroom	shower
+001253	0.0002461309613165592	rinse	hair	lather	shower
+001254	0.00041210504594746026	rinse	hair	whole head	shower
+001255	0.0015441122454698444	rinse	hair	towel	shower
+001256	0.00020883789893802714	rinse	hair	towels	shower
+001257	0.00041210504594746026	rinse	hair	good temperature	shower
+001258	0.0008557226275984869	rinse	hair	temperature	shower
+001259	0.0009351142795476549	rinse	hair	scrub	shower
+001260	0.0	rinse	hair	scrub soap over your body	shower
+001261	0.0014389219664520017	rinse	hair	shampoo and soap	shower
+001262	0.002908465889169159	rinse	hair	soap	shower
+001263	0.001151232754522525	open	shower tap	i	shower
+001264	0.0008502720710852735	open	shower tap	washcloth	shower
+001265	0.0007194609832260008	open	shower tap	face and neck	shower
+001266	0.0010481085547169927	open	shower tap	face	shower
+001267	0.0011221371354571859	open	shower tap	conditioner	shower
+001268	0.0007383928839496775	open	shower tap	undress	shower
+001269	0.0007873288576559632	open	shower tap	curtain	shower
+001270	0.0007194609832260008	open	shower tap	door or curtain	shower
+001271	0.0005361874844043541	open	shower tap	self	shower
+001272	0.004675571397738275	open	shower tap	body	shower
+001273	0.0006073102118542629	open	shower tap	your body	shower
+001274	0.00041210504594746026	open	shower tap	body parts	shower
+001275	0.00041210504594746026	open	shower tap	certain parts	shower
+001276	0.003550244281946462	open	shower tap	shampoo	shower
+001277	0.0025171210403584898	open	shower tap	water	shower
+001278	0.0006959207838788113	open	shower tap	hot water	shower
+001279	0.0007194609832260008	open	shower tap	curtain or door	shower
+001280	0.0002221028977234347	open	shower tap	door	shower
+001281	0.0004786174561063761	open	shower tap	tap	shower
+001282	0.006056529793777701	open	shower tap	hair	shower
+001283	0.0005508964360278504	open	shower tap	cloth	shower
+001284	0.00293390615176624	open	shower tap	rinse	shower
+001285	0.0007194609832260008	open	shower tap	shampoo and rinse	shower
+001286	0.0003936644288279816	open	shower tap	fan	shower
+001287	0.00041210504594746026	open	shower tap	exhaust fan	shower
+001288	0.00041210504594746026	open	shower tap	my clothes	shower
+001289	0.0018905028279599537	open	shower tap	clothes	shower
+001290	0.0003936644288279816	open	shower tap	tub	shower
+001291	0.001652078128810348	open	shower tap	bathroom	shower
+001292	0.0002461309613165592	open	shower tap	lather	shower
+001293	0.00041210504594746026	open	shower tap	whole head	shower
+001294	0.0015441122454698444	open	shower tap	towel	shower
+001295	0.00020883789893802714	open	shower tap	towels	shower
+001296	0.00041210504594746026	open	shower tap	good temperature	shower
+001297	0.0008557226275984869	open	shower tap	temperature	shower
+001298	0.0009351142795476549	open	shower tap	scrub	shower
+001299	0.0	open	shower tap	scrub soap over your body	shower
+001300	0.0014389219664520017	open	shower tap	shampoo and soap	shower
+001301	0.002908465889169159	open	shower tap	soap	shower
+001302	0.001151232754522525	get	undressed	i	shower
+001303	0.0008502720710852735	get	undressed	washcloth	shower
+001304	0.0007194609832260008	get	undressed	face and neck	shower
+001305	0.0010481085547169927	get	undressed	face	shower
+001306	0.0011221371354571859	get	undressed	conditioner	shower
+001307	0.0007383928839496775	get	undressed	undress	shower
+001308	0.0007873288576559632	get	undressed	curtain	shower
+001309	0.0007194609832260008	get	undressed	door or curtain	shower
+001310	0.0005361874844043541	get	undressed	self	shower
+001311	0.004675571397738275	get	undressed	body	shower
+001312	0.0006073102118542629	get	undressed	your body	shower
+001313	0.00041210504594746026	get	undressed	body parts	shower
+001314	0.00041210504594746026	get	undressed	certain parts	shower
+001315	0.003550244281946462	get	undressed	shampoo	shower
+001316	0.0025171210403584898	get	undressed	water	shower
+001317	0.0006959207838788113	get	undressed	hot water	shower
+001318	0.0007194609832260008	get	undressed	curtain or door	shower
+001319	0.0002221028977234347	get	undressed	door	shower
+001320	0.0004786174561063761	get	undressed	tap	shower
+001321	0.006056529793777701	get	undressed	hair	shower
+001322	0.0005508964360278504	get	undressed	cloth	shower
+001323	0.00293390615176624	get	undressed	rinse	shower
+001324	0.0007194609832260008	get	undressed	shampoo and rinse	shower
+001325	0.0003936644288279816	get	undressed	fan	shower
+001326	0.00041210504594746026	get	undressed	exhaust fan	shower
+001327	0.00041210504594746026	get	undressed	my clothes	shower
+001328	0.0018905028279599537	get	undressed	clothes	shower
+001329	0.0003936644288279816	get	undressed	tub	shower
+001330	0.001652078128810348	get	undressed	bathroom	shower
+001331	0.0002461309613165592	get	undressed	lather	shower
+001332	0.00041210504594746026	get	undressed	whole head	shower
+001333	0.0015441122454698444	get	undressed	towel	shower
+001334	0.00020883789893802714	get	undressed	towels	shower
+001335	0.00041210504594746026	get	undressed	good temperature	shower
+001336	0.0008557226275984869	get	undressed	temperature	shower
+001337	0.0009351142795476549	get	undressed	scrub	shower
+001338	0.0	get	undressed	scrub soap over your body	shower
+001339	0.0014389219664520017	get	undressed	shampoo and soap	shower
+001340	0.002908465889169159	get	undressed	soap	shower
+001341	0.006836969967624341	turn	water	i	shower
+001342	0.0050496171095573365	turn	water	washcloth	shower
+001343	0.004272752938856208	turn	water	face and neck	shower
+001344	0.0062245333823760865	turn	water	face	shower
+001345	0.006664176175093944	turn	water	conditioner	shower
+001346	0.00438518618588583	turn	water	undress	shower
+001347	0.004675808374363341	turn	water	curtain	shower
+001348	0.004272752938856208	turn	water	door or curtain	shower
+001349	0.003184323685620853	turn	water	self	shower
+001350	0.027767400729558103	turn	water	body	shower
+001351	0.003606709123908904	turn	water	your body	shower
+001352	0.002447419786816104	turn	water	body parts	shower
+001353	0.002447419786816104	turn	water	certain parts	shower
+001354	0.021084279819214506	turn	water	shampoo	shower
+001355	0.00413295181233651	turn	water	hot water	shower
+001356	0.004272752938856208	turn	water	curtain or door	shower
+001357	0.0013190302616843692	turn	water	door	shower
+001358	0.0028424253571009985	turn	water	tap	shower
+001359	0.035968671100966305	turn	water	hair	shower
+001360	0.0032716775765781964	turn	water	cloth	shower
+001361	0.017423955467435935	turn	water	rinse	shower
+001362	0.004272752938856208	turn	water	shampoo and rinse	shower
+001363	0.0023379041871816704	turn	water	fan	shower
+001364	0.002447419786816104	turn	water	exhaust fan	shower
+001365	0.002447419786816104	turn	water	my clothes	shower
+001366	0.011227365628449197	turn	water	clothes	shower
+001367	0.0023379041871816704	turn	water	tub	shower
+001368	0.009811403042932066	turn	water	bathroom	shower
+001369	0.0014617287286286102	turn	water	lather	shower
+001370	0.002447419786816104	turn	water	whole head	shower
+001371	0.009170212546025808	turn	water	towel	shower
+001372	0.0012402517540714413	turn	water	towels	shower
+001373	0.002447419786816104	turn	water	good temperature	shower
+001374	0.0050819870113354825	turn	water	temperature	shower
+001375	0.00555348014591162	turn	water	scrub	shower
+001376	0.0	turn	water	scrub soap over your body	shower
+001377	0.008545505877712417	turn	water	shampoo and soap	shower
+001378	0.017272870197614146	turn	water	soap	shower
+001379	0.001151232754522525	wash	legs	i	shower
+001380	0.0008502720710852735	wash	legs	washcloth	shower
+001381	0.0007194609832260008	wash	legs	face and neck	shower
+001382	0.0010481085547169927	wash	legs	face	shower
+001383	0.0011221371354571859	wash	legs	conditioner	shower
+001384	0.0007383928839496775	wash	legs	undress	shower
+001385	0.0007873288576559632	wash	legs	curtain	shower
+001386	0.0007194609832260008	wash	legs	door or curtain	shower
+001387	0.0005361874844043541	wash	legs	self	shower
+001388	0.004675571397738275	wash	legs	body	shower
+001389	0.0006073102118542629	wash	legs	your body	shower
+001390	0.00041210504594746026	wash	legs	body parts	shower
+001391	0.00041210504594746026	wash	legs	certain parts	shower
+001392	0.003550244281946462	wash	legs	shampoo	shower
+001393	0.0025171210403584898	wash	legs	water	shower
+001394	0.0006959207838788113	wash	legs	hot water	shower
+001395	0.0007194609832260008	wash	legs	curtain or door	shower
+001396	0.0002221028977234347	wash	legs	door	shower
+001397	0.0004786174561063761	wash	legs	tap	shower
+001398	0.006056529793777701	wash	legs	hair	shower
+001399	0.0005508964360278504	wash	legs	cloth	shower
+001400	0.00293390615176624	wash	legs	rinse	shower
+001401	0.0007194609832260008	wash	legs	shampoo and rinse	shower
+001402	0.0003936644288279816	wash	legs	fan	shower
+001403	0.00041210504594746026	wash	legs	exhaust fan	shower
+001404	0.00041210504594746026	wash	legs	my clothes	shower
+001405	0.0018905028279599537	wash	legs	clothes	shower
+001406	0.0003936644288279816	wash	legs	tub	shower
+001407	0.001652078128810348	wash	legs	bathroom	shower
+001408	0.0002461309613165592	wash	legs	lather	shower
+001409	0.00041210504594746026	wash	legs	whole head	shower
+001410	0.0015441122454698444	wash	legs	towel	shower
+001411	0.00020883789893802714	wash	legs	towels	shower
+001412	0.00041210504594746026	wash	legs	good temperature	shower
+001413	0.0008557226275984869	wash	legs	temperature	shower
+001414	0.0009351142795476549	wash	legs	scrub	shower
+001415	0.0	wash	legs	scrub soap over your body	shower
+001416	0.0014389219664520017	wash	legs	shampoo and soap	shower
+001417	0.002908465889169159	wash	legs	soap	shower
+001418	0.001151232754522525	set	handle	i	shower
+001419	0.0008502720710852735	set	handle	washcloth	shower
+001420	0.0007194609832260008	set	handle	face and neck	shower
+001421	0.0010481085547169927	set	handle	face	shower
+001422	0.0011221371354571859	set	handle	conditioner	shower
+001423	0.0007383928839496775	set	handle	undress	shower
+001424	0.0007873288576559632	set	handle	curtain	shower
+001425	0.0007194609832260008	set	handle	door or curtain	shower
+001426	0.0005361874844043541	set	handle	self	shower
+001427	0.004675571397738275	set	handle	body	shower
+001428	0.0006073102118542629	set	handle	your body	shower
+001429	0.00041210504594746026	set	handle	body parts	shower
+001430	0.00041210504594746026	set	handle	certain parts	shower
+001431	0.003550244281946462	set	handle	shampoo	shower
+001432	0.0025171210403584898	set	handle	water	shower
+001433	0.0006959207838788113	set	handle	hot water	shower
+001434	0.0007194609832260008	set	handle	curtain or door	shower
+001435	0.0002221028977234347	set	handle	door	shower
+001436	0.0004786174561063761	set	handle	tap	shower
+001437	0.006056529793777701	set	handle	hair	shower
+001438	0.0005508964360278504	set	handle	cloth	shower
+001439	0.00293390615176624	set	handle	rinse	shower
+001440	0.0007194609832260008	set	handle	shampoo and rinse	shower
+001441	0.0003936644288279816	set	handle	fan	shower
+001442	0.00041210504594746026	set	handle	exhaust fan	shower
+001443	0.00041210504594746026	set	handle	my clothes	shower
+001444	0.0018905028279599537	set	handle	clothes	shower
+001445	0.0003936644288279816	set	handle	tub	shower
+001446	0.001652078128810348	set	handle	bathroom	shower
+001447	0.0002461309613165592	set	handle	lather	shower
+001448	0.00041210504594746026	set	handle	whole head	shower
+001449	0.0015441122454698444	set	handle	towel	shower
+001450	0.00020883789893802714	set	handle	towels	shower
+001451	0.00041210504594746026	set	handle	good temperature	shower
+001452	0.0008557226275984869	set	handle	temperature	shower
+001453	0.0009351142795476549	set	handle	scrub	shower
+001454	0.0	set	handle	scrub soap over your body	shower
+001455	0.0014389219664520017	set	handle	shampoo and soap	shower
+001456	0.002908465889169159	set	handle	soap	shower
+001457	0.0008482732921107905	use	cloth	i	shower
+001458	0.0006265136968140815	use	cloth	washcloth	shower
+001459	0.0005301269742272998	use	cloth	face and neck	shower
+001460	0.0007722873508476692	use	cloth	face	shower
+001461	0.0008268345027142942	use	cloth	conditioner	shower
+001462	0.0005440767386773641	use	cloth	undress	shower
+001463	0.0005801346768791786	use	cloth	curtain	shower
+001464	0.0005301269742272998	use	cloth	door or curtain	shower
+001465	0.0003950838966295111	use	cloth	self	shower
+001466	0.0034451437613095596	use	cloth	body	shower
+001467	0.0004474899022098988	use	cloth	your body	shower
+001468	0.00030365510592713144	use	cloth	body parts	shower
+001469	0.00030365510592713144	use	cloth	certain parts	shower
+001470	0.002615958756396998	use	cloth	shampoo	shower
+001471	0.0018547131699982017	use	cloth	water	shower
+001472	0.0005127816352254863	use	cloth	hot water	shower
+001473	0.0005301269742272998	use	cloth	curtain or door	shower
+001474	0.00016365409644494077	use	cloth	door	shower
+001475	0.00035266404952266644	use	cloth	tap	shower
+001476	0.004462687885444781	use	cloth	hair	shower
+001477	0.002161816731087592	use	cloth	rinse	shower
+001478	0.0005301269742272998	use	cloth	shampoo and rinse	shower
+001479	0.0002900673384395893	use	cloth	fan	shower
+001480	0.00030365510592713144	use	cloth	exhaust fan	shower
+001481	0.00030365510592713144	use	cloth	my clothes	shower
+001482	0.0013929963782896972	use	cloth	clothes	shower
+001483	0.0002900673384395893	use	cloth	tub	shower
+001484	0.001217315740578825	use	cloth	bathroom	shower
+001485	0.00018135891289245467	use	cloth	lather	shower
+001486	0.00030365510592713144	use	cloth	whole head	shower
+001487	0.0011377622576388064	use	cloth	towel	shower
+001488	0.0001538799268468822	use	cloth	towels	shower
+001489	0.00030365510592713144	use	cloth	good temperature	shower
+001490	0.0006305298799005477	use	cloth	temperature	shower
+001491	0.0006890287522619118	use	cloth	scrub	shower
+001492	0.0	use	cloth	scrub soap over your body	shower
+001493	0.0010602539484545995	use	cloth	shampoo and soap	shower
+001494	0.0021430713512149186	use	cloth	soap	shower
+001495	0.0046049310180901	wash	face	i	shower
+001496	0.003401088284341094	wash	face	washcloth	shower
+001497	0.0028778439329040033	wash	face	face and neck	shower
+001498	0.0044885485418287435	wash	face	conditioner	shower
+001499	0.00295357153579871	wash	face	undress	shower
+001500	0.0031493154306238527	wash	face	curtain	shower
+001501	0.0028778439329040033	wash	face	door or curtain	shower
+001502	0.0021447499376174165	wash	face	self	shower
+001503	0.0187022855909531	wash	face	body	shower
+001504	0.0024292408474170515	wash	face	your body	shower
+001505	0.001648420183789841	wash	face	body parts	shower
+001506	0.001648420183789841	wash	face	certain parts	shower
+001507	0.014200977127785848	wash	face	shampoo	shower
+001508	0.010068484161433959	wash	face	water	shower
+001509	0.002783683135515245	wash	face	hot water	shower
+001510	0.0028778439329040033	wash	face	curtain or door	shower
+001511	0.0008884115908937388	wash	face	door	shower
+001512	0.0019144698244255044	wash	face	tap	shower
+001513	0.024226119175110805	wash	face	hair	shower
+001514	0.0022035857441114015	wash	face	cloth	shower
+001515	0.01173562460706496	wash	face	rinse	shower
+001516	0.0028778439329040033	wash	face	shampoo and rinse	shower
+001517	0.0015746577153119264	wash	face	fan	shower
+001518	0.001648420183789841	wash	face	exhaust fan	shower
+001519	0.001648420183789841	wash	face	my clothes	shower
+001520	0.007562011311839815	wash	face	clothes	shower
+001521	0.0015746577153119264	wash	face	tub	shower
+001522	0.006608312515241392	wash	face	bathroom	shower
+001523	0.0009845238452662367	wash	face	lather	shower
+001524	0.001648420183789841	wash	face	whole head	shower
+001525	0.0061764489818793775	wash	face	towel	shower
+001526	0.0008353515957521086	wash	face	towels	shower
+001527	0.001648420183789841	wash	face	good temperature	shower
+001528	0.0034228905103939476	wash	face	temperature	shower
+001529	0.0037404571181906196	wash	face	scrub	shower
+001530	0.0	wash	face	scrub soap over your body	shower
+001531	0.005755687865808007	wash	face	shampoo and soap	shower
+001532	0.011633863556676637	wash	face	soap	shower
+001533	0.001151232754522525	shut	water	i	shower
+001534	0.0008502720710852735	shut	water	washcloth	shower
+001535	0.0007194609832260008	shut	water	face and neck	shower
+001536	0.0010481085547169927	shut	water	face	shower
+001537	0.0011221371354571859	shut	water	conditioner	shower
+001538	0.0007383928839496775	shut	water	undress	shower
+001539	0.0007873288576559632	shut	water	curtain	shower
+001540	0.0007194609832260008	shut	water	door or curtain	shower
+001541	0.0005361874844043541	shut	water	self	shower
+001542	0.004675571397738275	shut	water	body	shower
+001543	0.0006073102118542629	shut	water	your body	shower
+001544	0.00041210504594746026	shut	water	body parts	shower
+001545	0.00041210504594746026	shut	water	certain parts	shower
+001546	0.003550244281946462	shut	water	shampoo	shower
+001547	0.0006959207838788113	shut	water	hot water	shower
+001548	0.0007194609832260008	shut	water	curtain or door	shower
+001549	0.0002221028977234347	shut	water	door	shower
+001550	0.0004786174561063761	shut	water	tap	shower
+001551	0.006056529793777701	shut	water	hair	shower
+001552	0.0005508964360278504	shut	water	cloth	shower
+001553	0.00293390615176624	shut	water	rinse	shower
+001554	0.0007194609832260008	shut	water	shampoo and rinse	shower
+001555	0.0003936644288279816	shut	water	fan	shower
+001556	0.00041210504594746026	shut	water	exhaust fan	shower
+001557	0.00041210504594746026	shut	water	my clothes	shower
+001558	0.0018905028279599537	shut	water	clothes	shower
+001559	0.0003936644288279816	shut	water	tub	shower
+001560	0.001652078128810348	shut	water	bathroom	shower
+001561	0.0002461309613165592	shut	water	lather	shower
+001562	0.00041210504594746026	shut	water	whole head	shower
+001563	0.0015441122454698444	shut	water	towel	shower
+001564	0.00020883789893802714	shut	water	towels	shower
+001565	0.00041210504594746026	shut	water	good temperature	shower
+001566	0.0008557226275984869	shut	water	temperature	shower
+001567	0.0009351142795476549	shut	water	scrub	shower
+001568	0.0	shut	water	scrub soap over your body	shower
+001569	0.0014389219664520017	shut	water	shampoo and soap	shower
+001570	0.002908465889169159	shut	water	soap	shower
+001571	0.0029992590699499735	use	soap	i	shower
+001572	0.0022151786518490326	use	soap	washcloth	shower
+001573	0.0018743819361799509	use	soap	face and neck	shower
+001574	0.002730593858346993	use	soap	face	shower
+001575	0.0029234574572572203	use	soap	conditioner	shower
+001576	0.0019237044339405623	use	soap	undress	shower
+001577	0.0020511953018027126	use	soap	curtain	shower
+001578	0.0018743819361799509	use	soap	door or curtain	shower
+001579	0.0013969070715507978	use	soap	self	shower
+001580	0.012181072738571753	use	soap	body	shower
+001581	0.0015822001710962424	use	soap	your body	shower
+001582	0.0010736402278118875	use	soap	body parts	shower
+001583	0.0010736402278118875	use	soap	certain parts	shower
+001584	0.00924930455751519	use	soap	shampoo	shower
+001585	0.006557751315535038	use	soap	water	shower
+001586	0.0018130536286564464	use	soap	hot water	shower
+001587	0.0018743819361799509	use	soap	curtain or door	shower
+001588	0.0005786354912525632	use	soap	door	shower
+001589	0.0012469222584435638	use	soap	tap	shower
+001590	0.015778826518833722	use	soap	hair	shower
+001591	0.0014352276947201096	use	soap	cloth	shower
+001592	0.007643584324280748	use	soap	rinse	shower
+001593	0.0018743819361799509	use	soap	shampoo and rinse	shower
+001594	0.0010255976509013563	use	soap	fan	shower
+001595	0.0010736402278118875	use	soap	exhaust fan	shower
+001596	0.0010736402278118875	use	soap	my clothes	shower
+001597	0.004925248809374476	use	soap	clothes	shower
+001598	0.0010255976509013563	use	soap	tub	shower
+001599	0.00430409080408376	use	soap	bathroom	shower
+001600	0.0006412348113135208	use	soap	lather	shower
+001601	0.0010736402278118875	use	soap	whole head	shower
+001602	0.0040228117546629765	use	soap	towel	shower
+001603	0.0005440767386773641	use	soap	towels	shower
+001604	0.0010736402278118875	use	soap	good temperature	shower
+001605	0.002229378761248552	use	soap	temperature	shower
+001606	0.00243621454771435	use	soap	scrub	shower
+001607	0.0	use	soap	scrub soap over your body	shower
+001608	0.0037487638723599018	use	soap	shampoo and soap	shower
+001609	0.001151232754522525	leave	shower	i	shower
+001610	0.0008502720710852735	leave	shower	washcloth	shower
+001611	0.0007194609832260008	leave	shower	face and neck	shower
+001612	0.0010481085547169927	leave	shower	face	shower
+001613	0.0011221371354571859	leave	shower	conditioner	shower
+001614	0.0007383928839496775	leave	shower	undress	shower
+001615	0.0007873288576559632	leave	shower	curtain	shower
+001616	0.0007194609832260008	leave	shower	door or curtain	shower
+001617	0.0005361874844043541	leave	shower	self	shower
+001618	0.004675571397738275	leave	shower	body	shower
+001619	0.0006073102118542629	leave	shower	your body	shower
+001620	0.00041210504594746026	leave	shower	body parts	shower
+001621	0.00041210504594746026	leave	shower	certain parts	shower
+001622	0.003550244281946462	leave	shower	shampoo	shower
+001623	0.0025171210403584898	leave	shower	water	shower
+001624	0.0006959207838788113	leave	shower	hot water	shower
+001625	0.0007194609832260008	leave	shower	curtain or door	shower
+001626	0.0002221028977234347	leave	shower	door	shower
+001627	0.0004786174561063761	leave	shower	tap	shower
+001628	0.006056529793777701	leave	shower	hair	shower
+001629	0.0005508964360278504	leave	shower	cloth	shower
+001630	0.00293390615176624	leave	shower	rinse	shower
+001631	0.0007194609832260008	leave	shower	shampoo and rinse	shower
+001632	0.0003936644288279816	leave	shower	fan	shower
+001633	0.00041210504594746026	leave	shower	exhaust fan	shower
+001634	0.00041210504594746026	leave	shower	my clothes	shower
+001635	0.0018905028279599537	leave	shower	clothes	shower
+001636	0.0003936644288279816	leave	shower	tub	shower
+001637	0.001652078128810348	leave	shower	bathroom	shower
+001638	0.0002461309613165592	leave	shower	lather	shower
+001639	0.00041210504594746026	leave	shower	whole head	shower
+001640	0.0015441122454698444	leave	shower	towel	shower
+001641	0.00020883789893802714	leave	shower	towels	shower
+001642	0.00041210504594746026	leave	shower	good temperature	shower
+001643	0.0008557226275984869	leave	shower	temperature	shower
+001644	0.0009351142795476549	leave	shower	scrub	shower
+001645	0.0	leave	shower	scrub soap over your body	shower
+001646	0.0014389219664520017	leave	shower	shampoo and soap	shower
+001647	0.002908465889169159	leave	shower	soap	shower
+001648	0.001151232754522525	enter	shower	i	shower
+001649	0.0008502720710852735	enter	shower	washcloth	shower
+001650	0.0007194609832260008	enter	shower	face and neck	shower
+001651	0.0010481085547169927	enter	shower	face	shower
+001652	0.0011221371354571859	enter	shower	conditioner	shower
+001653	0.0007383928839496775	enter	shower	undress	shower
+001654	0.0007873288576559632	enter	shower	curtain	shower
+001655	0.0007194609832260008	enter	shower	door or curtain	shower
+001656	0.0005361874844043541	enter	shower	self	shower
+001657	0.004675571397738275	enter	shower	body	shower
+001658	0.0006073102118542629	enter	shower	your body	shower
+001659	0.00041210504594746026	enter	shower	body parts	shower
+001660	0.00041210504594746026	enter	shower	certain parts	shower
+001661	0.003550244281946462	enter	shower	shampoo	shower
+001662	0.0025171210403584898	enter	shower	water	shower
+001663	0.0006959207838788113	enter	shower	hot water	shower
+001664	0.0007194609832260008	enter	shower	curtain or door	shower
+001665	0.0002221028977234347	enter	shower	door	shower
+001666	0.0004786174561063761	enter	shower	tap	shower
+001667	0.006056529793777701	enter	shower	hair	shower
+001668	0.0005508964360278504	enter	shower	cloth	shower
+001669	0.00293390615176624	enter	shower	rinse	shower
+001670	0.0007194609832260008	enter	shower	shampoo and rinse	shower
+001671	0.0003936644288279816	enter	shower	fan	shower
+001672	0.00041210504594746026	enter	shower	exhaust fan	shower
+001673	0.00041210504594746026	enter	shower	my clothes	shower
+001674	0.0018905028279599537	enter	shower	clothes	shower
+001675	0.0003936644288279816	enter	shower	tub	shower
+001676	0.001652078128810348	enter	shower	bathroom	shower
+001677	0.0002461309613165592	enter	shower	lather	shower
+001678	0.00041210504594746026	enter	shower	whole head	shower
+001679	0.0015441122454698444	enter	shower	towel	shower
+001680	0.00020883789893802714	enter	shower	towels	shower
+001681	0.00041210504594746026	enter	shower	good temperature	shower
+001682	0.0008557226275984869	enter	shower	temperature	shower
+001683	0.0009351142795476549	enter	shower	scrub	shower
+001684	0.0	enter	shower	scrub soap over your body	shower
+001685	0.0014389219664520017	enter	shower	shampoo and soap	shower
+001686	0.002908465889169159	enter	shower	soap	shower
+001687	0.0034536982635675756	rinse	body	i	shower
+001688	0.002550816213255821	rinse	body	washcloth	shower
+001689	0.0021583829496780024	rinse	body	face and neck	shower
+001690	0.003144325664150978	rinse	body	face	shower
+001691	0.0033664114063715576	rinse	body	conditioner	shower
+001692	0.0022151786518490326	rinse	body	undress	shower
+001693	0.0023619865729678897	rinse	body	curtain	shower
+001694	0.0021583829496780024	rinse	body	door or curtain	shower
+001695	0.0016085624532130626	rinse	body	self	shower
+001696	0.0018219306355627886	rinse	body	your body	shower
+001697	0.0012363151378423807	rinse	body	body parts	shower
+001698	0.0012363151378423807	rinse	body	certain parts	shower
+001699	0.010650732845839386	rinse	body	shampoo	shower
+001700	0.00755136312107547	rinse	body	water	shower
+001701	0.002087762351636434	rinse	body	hot water	shower
+001702	0.0021583829496780024	rinse	body	curtain or door	shower
+001703	0.0006663086931703041	rinse	body	door	shower
+001704	0.0014358523683191285	rinse	body	tap	shower
+001705	0.018169589381333104	rinse	body	hair	shower
+001706	0.001652689308083551	rinse	body	cloth	shower
+001707	0.00880171845529872	rinse	body	rinse	shower
+001708	0.0021583829496780024	rinse	body	shampoo and rinse	shower
+001709	0.0011809932864839448	rinse	body	fan	shower
+001710	0.0012363151378423807	rinse	body	exhaust fan	shower
+001711	0.0012363151378423807	rinse	body	my clothes	shower
+001712	0.005671508483879861	rinse	body	clothes	shower
+001713	0.0011809932864839448	rinse	body	tub	shower
+001714	0.004956234386431045	rinse	body	bathroom	shower
+001715	0.0007383928839496776	rinse	body	lather	shower
+001716	0.0012363151378423807	rinse	body	whole head	shower
+001717	0.004632336736409534	rinse	body	towel	shower
+001718	0.0006265136968140815	rinse	body	towels	shower
+001719	0.0012363151378423807	rinse	body	good temperature	shower
+001720	0.002567167882795461	rinse	body	temperature	shower
+001721	0.0028053428386429647	rinse	body	scrub	shower
+001722	0.0	rinse	body	scrub soap over your body	shower
+001723	0.004316765899356005	rinse	body	shampoo and soap	shower
+001724	0.00872539766750748	rinse	body	soap	shower
+001725	0.001151232754522525	shave	face	i	shower
+001726	0.0008502720710852735	shave	face	washcloth	shower
+001727	0.0007194609832260008	shave	face	face and neck	shower
+001728	0.0011221371354571859	shave	face	conditioner	shower
+001729	0.0007383928839496775	shave	face	undress	shower
+001730	0.0007873288576559632	shave	face	curtain	shower
+001731	0.0007194609832260008	shave	face	door or curtain	shower
+001732	0.0005361874844043541	shave	face	self	shower
+001733	0.004675571397738275	shave	face	body	shower
+001734	0.0006073102118542629	shave	face	your body	shower
+001735	0.00041210504594746026	shave	face	body parts	shower
+001736	0.00041210504594746026	shave	face	certain parts	shower
+001737	0.003550244281946462	shave	face	shampoo	shower
+001738	0.0025171210403584898	shave	face	water	shower
+001739	0.0006959207838788113	shave	face	hot water	shower
+001740	0.0007194609832260008	shave	face	curtain or door	shower
+001741	0.0002221028977234347	shave	face	door	shower
+001742	0.0004786174561063761	shave	face	tap	shower
+001743	0.006056529793777701	shave	face	hair	shower
+001744	0.0005508964360278504	shave	face	cloth	shower
+001745	0.00293390615176624	shave	face	rinse	shower
+001746	0.0007194609832260008	shave	face	shampoo and rinse	shower
+001747	0.0003936644288279816	shave	face	fan	shower
+001748	0.00041210504594746026	shave	face	exhaust fan	shower
+001749	0.00041210504594746026	shave	face	my clothes	shower
+001750	0.0018905028279599537	shave	face	clothes	shower
+001751	0.0003936644288279816	shave	face	tub	shower
+001752	0.001652078128810348	shave	face	bathroom	shower
+001753	0.0002461309613165592	shave	face	lather	shower
+001754	0.00041210504594746026	shave	face	whole head	shower
+001755	0.0015441122454698444	shave	face	towel	shower
+001756	0.00020883789893802714	shave	face	towels	shower
+001757	0.00041210504594746026	shave	face	good temperature	shower
+001758	0.0008557226275984869	shave	face	temperature	shower
+001759	0.0009351142795476549	shave	face	scrub	shower
+001760	0.0	shave	face	scrub soap over your body	shower
+001761	0.0014389219664520017	shave	face	shampoo and soap	shower
+001762	0.002908465889169159	shave	face	soap	shower
+001763	0.001151232754522525	remove	clothing	i	shower
+001764	0.0008502720710852735	remove	clothing	washcloth	shower
+001765	0.0007194609832260008	remove	clothing	face and neck	shower
+001766	0.0010481085547169927	remove	clothing	face	shower
+001767	0.0011221371354571859	remove	clothing	conditioner	shower
+001768	0.0007383928839496775	remove	clothing	undress	shower
+001769	0.0007873288576559632	remove	clothing	curtain	shower
+001770	0.0007194609832260008	remove	clothing	door or curtain	shower
+001771	0.0005361874844043541	remove	clothing	self	shower
+001772	0.004675571397738275	remove	clothing	body	shower
+001773	0.0006073102118542629	remove	clothing	your body	shower
+001774	0.00041210504594746026	remove	clothing	body parts	shower
+001775	0.00041210504594746026	remove	clothing	certain parts	shower
+001776	0.003550244281946462	remove	clothing	shampoo	shower
+001777	0.0025171210403584898	remove	clothing	water	shower
+001778	0.0006959207838788113	remove	clothing	hot water	shower
+001779	0.0007194609832260008	remove	clothing	curtain or door	shower
+001780	0.0002221028977234347	remove	clothing	door	shower
+001781	0.0004786174561063761	remove	clothing	tap	shower
+001782	0.006056529793777701	remove	clothing	hair	shower
+001783	0.0005508964360278504	remove	clothing	cloth	shower
+001784	0.00293390615176624	remove	clothing	rinse	shower
+001785	0.0007194609832260008	remove	clothing	shampoo and rinse	shower
+001786	0.0003936644288279816	remove	clothing	fan	shower
+001787	0.00041210504594746026	remove	clothing	exhaust fan	shower
+001788	0.00041210504594746026	remove	clothing	my clothes	shower
+001789	0.0018905028279599537	remove	clothing	clothes	shower
+001790	0.0003936644288279816	remove	clothing	tub	shower
+001791	0.001652078128810348	remove	clothing	bathroom	shower
+001792	0.0002461309613165592	remove	clothing	lather	shower
+001793	0.00041210504594746026	remove	clothing	whole head	shower
+001794	0.0015441122454698444	remove	clothing	towel	shower
+001795	0.00020883789893802714	remove	clothing	towels	shower
+001796	0.00041210504594746026	remove	clothing	good temperature	shower
+001797	0.0008557226275984869	remove	clothing	temperature	shower
+001798	0.0009351142795476549	remove	clothing	scrub	shower
+001799	0.0	remove	clothing	scrub soap over your body	shower
+001800	0.0014389219664520017	remove	clothing	shampoo and soap	shower
+001801	0.002908465889169159	remove	clothing	soap	shower
+001802	0.000911143060941905	get	soap	i	shower
+001803	0.0006729477548641889	get	soap	washcloth	shower
+001804	0.0005694173310389291	get	soap	face and neck	shower
+001805	0.0008295254221986712	get	soap	face	shower
+001806	0.0008881153358263283	get	soap	conditioner	shower
+001807	0.0005844009821790267	get	soap	undress	shower
+001808	0.0006231313542065411	get	soap	curtain	shower
+001809	0.0005694173310389291	get	soap	door or curtain	shower
+001810	0.0004243655367341829	get	soap	self	shower
+001811	0.0037004805659430354	get	soap	body	shower
+001812	0.0004806556130342824	get	soap	your body	shower
+001813	0.00032616050187862035	get	soap	body parts	shower
+001814	0.00032616050187862035	get	soap	certain parts	shower
+001815	0.002809840520465232	get	soap	shampoo	shower
+001816	0.0019921752230066805	get	soap	water	shower
+001817	0.0005507864423640523	get	soap	hot water	shower
+001818	0.0005694173310389291	get	soap	curtain or door	shower
+001819	0.00017578331860417686	get	soap	door	shower
+001820	0.0003788017429697435	get	soap	tap	shower
+001821	0.004793439965384938	get	soap	hair	shower
+001822	0.0004360069351853911	get	soap	cloth	shower
+001823	0.0023220397622766504	get	soap	rinse	shower
+001824	0.0005694173310389291	get	soap	shampoo and rinse	shower
+001825	0.00031156567710327056	get	soap	fan	shower
+001826	0.00032616050187862035	get	soap	exhaust fan	shower
+001827	0.00032616050187862035	get	soap	my clothes	shower
+001828	0.0014962382946628165	get	soap	clothes	shower
+001829	0.00031156567710327056	get	soap	tub	shower
+001830	0.0013075370877748795	get	soap	bathroom	shower
+001831	0.0001948003273930089	get	soap	lather	shower
+001832	0.00032616050187862035	get	soap	whole head	shower
+001833	0.0012220874990294976	get	soap	towel	shower
+001834	0.00016528473649795483	get	soap	towels	shower
+001835	0.00032616050187862035	get	soap	good temperature	shower
+001836	0.0006772615973306898	get	soap	temperature	shower
+001837	0.0007400961131886069	get	soap	scrub	shower
+001838	0.0	get	soap	scrub soap over your body	shower
+001839	0.0011388346620778583	get	soap	shampoo and soap	shower
+001840	0.0006967935609049231	place	clothes	i	shower
+001841	0.0005146345096784853	place	clothes	washcloth	shower
+001842	0.0004354599697279491	place	clothes	face and neck	shower
+001843	0.0006343767489130074	place	clothes	face	shower
+001844	0.0006791831863428482	place	clothes	conditioner	shower
+001845	0.0004469186660412072	place	clothes	undress	shower
+001846	0.00047653758649078624	place	clothes	curtain	shower
+001847	0.0004354599697279491	place	clothes	door or curtain	shower
+001848	0.0003245321027420895	place	clothes	self	shower
+001849	0.0028299299430952015	place	clothes	body	shower
+001850	0.0003675797473877167	place	clothes	your body	shower
+001851	0.00024943013591696706	place	clothes	body parts	shower
+001852	0.00024943013591696706	place	clothes	certain parts	shower
+001853	0.0021488159936222653	place	clothes	shampoo	shower
+001854	0.0015235092348180575	place	clothes	water	shower
+001855	0.00042121206089882365	place	clothes	hot water	shower
+001856	0.0004354599697279491	place	clothes	curtain or door	shower
+001857	0.00013442969580569378	place	clothes	door	shower
+001858	0.0002896873462308115	place	clothes	tap	shower
+001859	0.00366576693127832	place	clothes	hair	shower
+001860	0.0003334348226644088	place	clothes	cloth	shower
+001861	0.0017757720207482674	place	clothes	rinse	shower
+001862	0.0004354599697279491	place	clothes	shampoo and rinse	shower
+001863	0.00023826879324539312	place	clothes	fan	shower
+001864	0.00024943013591696706	place	clothes	exhaust fan	shower
+001865	0.00024943013591696706	place	clothes	my clothes	shower
+001866	0.00023826879324539312	place	clothes	tub	shower
+001867	0.0009999345464630637	place	clothes	bathroom	shower
+001868	0.0001489728886804024	place	clothes	lather	shower
+001869	0.00024943013591696706	place	clothes	whole head	shower
+001870	0.0009345872637232873	place	clothes	towel	shower
+001871	0.0001264009408013097	place	clothes	towels	shower
+001872	0.00024943013591696706	place	clothes	good temperature	shower
+001873	0.0005179335060515781	place	clothes	temperature	shower
+001874	0.0005659859886190402	place	clothes	scrub	shower
+001875	0.0	place	clothes	scrub soap over your body	shower
+001876	0.0008709199394558982	place	clothes	shampoo and soap	shower
+001877	0.0017603740822377976	place	clothes	soap	shower
+001878	0.001151232754522525	retrieve	towel	i	shower
+001879	0.0008502720710852735	retrieve	towel	washcloth	shower
+001880	0.0007194609832260008	retrieve	towel	face and neck	shower
+001881	0.0010481085547169927	retrieve	towel	face	shower
+001882	0.0011221371354571859	retrieve	towel	conditioner	shower
+001883	0.0007383928839496775	retrieve	towel	undress	shower
+001884	0.0007873288576559632	retrieve	towel	curtain	shower
+001885	0.0007194609832260008	retrieve	towel	door or curtain	shower
+001886	0.0005361874844043541	retrieve	towel	self	shower
+001887	0.004675571397738275	retrieve	towel	body	shower
+001888	0.0006073102118542629	retrieve	towel	your body	shower
+001889	0.00041210504594746026	retrieve	towel	body parts	shower
+001890	0.00041210504594746026	retrieve	towel	certain parts	shower
+001891	0.003550244281946462	retrieve	towel	shampoo	shower
+001892	0.0025171210403584898	retrieve	towel	water	shower
+001893	0.0006959207838788113	retrieve	towel	hot water	shower
+001894	0.0007194609832260008	retrieve	towel	curtain or door	shower
+001895	0.0002221028977234347	retrieve	towel	door	shower
+001896	0.0004786174561063761	retrieve	towel	tap	shower
+001897	0.006056529793777701	retrieve	towel	hair	shower
+001898	0.0005508964360278504	retrieve	towel	cloth	shower
+001899	0.00293390615176624	retrieve	towel	rinse	shower
+001900	0.0007194609832260008	retrieve	towel	shampoo and rinse	shower
+001901	0.0003936644288279816	retrieve	towel	fan	shower
+001902	0.00041210504594746026	retrieve	towel	exhaust fan	shower
+001903	0.00041210504594746026	retrieve	towel	my clothes	shower
+001904	0.0018905028279599537	retrieve	towel	clothes	shower
+001905	0.0003936644288279816	retrieve	towel	tub	shower
+001906	0.001652078128810348	retrieve	towel	bathroom	shower
+001907	0.0002461309613165592	retrieve	towel	lather	shower
+001908	0.00041210504594746026	retrieve	towel	whole head	shower
+001909	0.00020883789893802714	retrieve	towel	towels	shower
+001910	0.00041210504594746026	retrieve	towel	good temperature	shower
+001911	0.0008557226275984869	retrieve	towel	temperature	shower
+001912	0.0009351142795476549	retrieve	towel	scrub	shower
+001913	0.0	retrieve	towel	scrub soap over your body	shower
+001914	0.0014389219664520017	retrieve	towel	shampoo and soap	shower
+001915	0.002908465889169159	retrieve	towel	soap	shower
+001916	0.00230246550904505	apply	conditioner	i	shower
+001917	0.001700544142170547	apply	conditioner	washcloth	shower
+001918	0.0014389219664520017	apply	conditioner	face and neck	shower
+001919	0.0020962171094339854	apply	conditioner	face	shower
+001920	0.001476785767899355	apply	conditioner	undress	shower
+001921	0.0015746577153119264	apply	conditioner	curtain	shower
+001922	0.0014389219664520017	apply	conditioner	door or curtain	shower
+001923	0.0010723749688087082	apply	conditioner	self	shower
+001924	0.00935114279547655	apply	conditioner	body	shower
+001925	0.0012146204237085258	apply	conditioner	your body	shower
+001926	0.0008242100918949205	apply	conditioner	body parts	shower
+001927	0.0008242100918949205	apply	conditioner	certain parts	shower
+001928	0.007100488563892924	apply	conditioner	shampoo	shower
+001929	0.0050342420807169795	apply	conditioner	water	shower
+001930	0.0013918415677576226	apply	conditioner	hot water	shower
+001931	0.0014389219664520017	apply	conditioner	curtain or door	shower
+001932	0.0004442057954468694	apply	conditioner	door	shower
+001933	0.0009572349122127522	apply	conditioner	tap	shower
+001934	0.012113059587555403	apply	conditioner	hair	shower
+001935	0.0011017928720557007	apply	conditioner	cloth	shower
+001936	0.00586781230353248	apply	conditioner	rinse	shower
+001937	0.0014389219664520017	apply	conditioner	shampoo and rinse	shower
+001938	0.0007873288576559632	apply	conditioner	fan	shower
+001939	0.0008242100918949205	apply	conditioner	exhaust fan	shower
+001940	0.0008242100918949205	apply	conditioner	my clothes	shower
+001941	0.0037810056559199074	apply	conditioner	clothes	shower
+001942	0.0007873288576559632	apply	conditioner	tub	shower
+001943	0.003304156257620696	apply	conditioner	bathroom	shower
+001944	0.0004922619226331184	apply	conditioner	lather	shower
+001945	0.0008242100918949205	apply	conditioner	whole head	shower
+001946	0.0030882244909396887	apply	conditioner	towel	shower
+001947	0.0004176757978760543	apply	conditioner	towels	shower
+001948	0.0008242100918949205	apply	conditioner	good temperature	shower
+001949	0.0017114452551969738	apply	conditioner	temperature	shower
+001950	0.0018702285590953098	apply	conditioner	scrub	shower
+001951	0.0	apply	conditioner	scrub soap over your body	shower
+001952	0.0028778439329040033	apply	conditioner	shampoo and soap	shower
+001953	0.005816931778338318	apply	conditioner	soap	shower
+001954	0.001696546584221581	rinse	soap	i	shower
+001955	0.001253027393628163	rinse	soap	washcloth	shower
+001956	0.0010602539484545995	rinse	soap	face and neck	shower
+001957	0.0015445747016953385	rinse	soap	face	shower
+001958	0.0016536690054285883	rinse	soap	conditioner	shower
+001959	0.0010881534773547281	rinse	soap	undress	shower
+001960	0.0011602693537583573	rinse	soap	curtain	shower
+001961	0.0010602539484545995	rinse	soap	door or curtain	shower
+001962	0.0007901677932590222	rinse	soap	self	shower
+001963	0.006890287522619119	rinse	soap	body	shower
+001964	0.0008949798044197975	rinse	soap	your body	shower
+001965	0.0006073102118542629	rinse	soap	body parts	shower
+001966	0.0006073102118542629	rinse	soap	certain parts	shower
+001967	0.005231917512793996	rinse	soap	shampoo	shower
+001968	0.0037094263399964035	rinse	soap	water	shower
+001969	0.0010255632704509726	rinse	soap	hot water	shower
+001970	0.0010602539484545995	rinse	soap	curtain or door	shower
+001971	0.00032730819288988153	rinse	soap	door	shower
+001972	0.0007053280990453329	rinse	soap	tap	shower
+001973	0.008925375770889562	rinse	soap	hair	shower
+001974	0.0008118440542377787	rinse	soap	cloth	shower
+001975	0.004323633462175184	rinse	soap	rinse	shower
+001976	0.0010602539484545995	rinse	soap	shampoo and rinse	shower
+001977	0.0005801346768791786	rinse	soap	fan	shower
+001978	0.0006073102118542629	rinse	soap	exhaust fan	shower
+001979	0.0006073102118542629	rinse	soap	my clothes	shower
+001980	0.0027859927565793943	rinse	soap	clothes	shower
+001981	0.0005801346768791786	rinse	soap	tub	shower
+001982	0.00243463148115765	rinse	soap	bathroom	shower
+001983	0.00036271782578490934	rinse	soap	lather	shower
+001984	0.0006073102118542629	rinse	soap	whole head	shower
+001985	0.002275524515277613	rinse	soap	towel	shower
+001986	0.0003077598536937644	rinse	soap	towels	shower
+001987	0.0006073102118542629	rinse	soap	good temperature	shower
+001988	0.0012610597598010954	rinse	soap	temperature	shower
+001989	0.0013780575045238236	rinse	soap	scrub	shower
+001990	0.0	rinse	soap	scrub soap over your body	shower
+001991	0.002120507896909199	rinse	soap	shampoo and soap	shower
+001992	0.001151232754522525	keep	towel	i	shower
+001993	0.0008502720710852735	keep	towel	washcloth	shower
+001994	0.0007194609832260008	keep	towel	face and neck	shower
+001995	0.0010481085547169927	keep	towel	face	shower
+001996	0.0011221371354571859	keep	towel	conditioner	shower
+001997	0.0007383928839496775	keep	towel	undress	shower
+001998	0.0007873288576559632	keep	towel	curtain	shower
+001999	0.0007194609832260008	keep	towel	door or curtain	shower
+002000	0.0005361874844043541	keep	towel	self	shower
+002001	0.004675571397738275	keep	towel	body	shower
+002002	0.0006073102118542629	keep	towel	your body	shower
+002003	0.00041210504594746026	keep	towel	body parts	shower
+002004	0.00041210504594746026	keep	towel	certain parts	shower
+002005	0.003550244281946462	keep	towel	shampoo	shower
+002006	0.0025171210403584898	keep	towel	water	shower
+002007	0.0006959207838788113	keep	towel	hot water	shower
+002008	0.0007194609832260008	keep	towel	curtain or door	shower
+002009	0.0002221028977234347	keep	towel	door	shower
+002010	0.0004786174561063761	keep	towel	tap	shower
+002011	0.006056529793777701	keep	towel	hair	shower
+002012	0.0005508964360278504	keep	towel	cloth	shower
+002013	0.00293390615176624	keep	towel	rinse	shower
+002014	0.0007194609832260008	keep	towel	shampoo and rinse	shower
+002015	0.0003936644288279816	keep	towel	fan	shower
+002016	0.00041210504594746026	keep	towel	exhaust fan	shower
+002017	0.00041210504594746026	keep	towel	my clothes	shower
+002018	0.0018905028279599537	keep	towel	clothes	shower
+002019	0.0003936644288279816	keep	towel	tub	shower
+002020	0.001652078128810348	keep	towel	bathroom	shower
+002021	0.0002461309613165592	keep	towel	lather	shower
+002022	0.00041210504594746026	keep	towel	whole head	shower
+002023	0.00020883789893802714	keep	towel	towels	shower
+002024	0.00041210504594746026	keep	towel	good temperature	shower
+002025	0.0008557226275984869	keep	towel	temperature	shower
+002026	0.0009351142795476549	keep	towel	scrub	shower
+002027	0.0	keep	towel	scrub soap over your body	shower
+002028	0.0014389219664520017	keep	towel	shampoo and soap	shower
+002029	0.002908465889169159	keep	towel	soap	shower
+002030	0.001151232754522525	repeat	soaping body	i	shower
+002031	0.0008502720710852735	repeat	soaping body	washcloth	shower
+002032	0.0007194609832260008	repeat	soaping body	face and neck	shower
+002033	0.0010481085547169927	repeat	soaping body	face	shower
+002034	0.0011221371354571859	repeat	soaping body	conditioner	shower
+002035	0.0007383928839496775	repeat	soaping body	undress	shower
+002036	0.0007873288576559632	repeat	soaping body	curtain	shower
+002037	0.0007194609832260008	repeat	soaping body	door or curtain	shower
+002038	0.0005361874844043541	repeat	soaping body	self	shower
+002039	0.004675571397738275	repeat	soaping body	body	shower
+002040	0.0006073102118542629	repeat	soaping body	your body	shower
+002041	0.00041210504594746026	repeat	soaping body	body parts	shower
+002042	0.00041210504594746026	repeat	soaping body	certain parts	shower
+002043	0.003550244281946462	repeat	soaping body	shampoo	shower
+002044	0.0025171210403584898	repeat	soaping body	water	shower
+002045	0.0006959207838788113	repeat	soaping body	hot water	shower
+002046	0.0007194609832260008	repeat	soaping body	curtain or door	shower
+002047	0.0002221028977234347	repeat	soaping body	door	shower
+002048	0.0004786174561063761	repeat	soaping body	tap	shower
+002049	0.006056529793777701	repeat	soaping body	hair	shower
+002050	0.0005508964360278504	repeat	soaping body	cloth	shower
+002051	0.00293390615176624	repeat	soaping body	rinse	shower
+002052	0.0007194609832260008	repeat	soaping body	shampoo and rinse	shower
+002053	0.0003936644288279816	repeat	soaping body	fan	shower
+002054	0.00041210504594746026	repeat	soaping body	exhaust fan	shower
+002055	0.00041210504594746026	repeat	soaping body	my clothes	shower
+002056	0.0018905028279599537	repeat	soaping body	clothes	shower
+002057	0.0003936644288279816	repeat	soaping body	tub	shower
+002058	0.001652078128810348	repeat	soaping body	bathroom	shower
+002059	0.0002461309613165592	repeat	soaping body	lather	shower
+002060	0.00041210504594746026	repeat	soaping body	whole head	shower
+002061	0.0015441122454698444	repeat	soaping body	towel	shower
+002062	0.00020883789893802714	repeat	soaping body	towels	shower
+002063	0.00041210504594746026	repeat	soaping body	good temperature	shower
+002064	0.0008557226275984869	repeat	soaping body	temperature	shower
+002065	0.0009351142795476549	repeat	soaping body	scrub	shower
+002066	0.0	repeat	soaping body	scrub soap over your body	shower
+002067	0.0014389219664520017	repeat	soaping body	shampoo and soap	shower
+002068	0.002908465889169159	repeat	soaping body	soap	shower
+002069	0.0008482732921107905	get	sponge	i	shower
+002070	0.0006265136968140815	get	sponge	washcloth	shower
+002071	0.0005301269742272998	get	sponge	face and neck	shower
+002072	0.0007722873508476692	get	sponge	face	shower
+002073	0.0008268345027142942	get	sponge	conditioner	shower
+002074	0.0005440767386773641	get	sponge	undress	shower
+002075	0.0005801346768791786	get	sponge	curtain	shower
+002076	0.0005301269742272998	get	sponge	door or curtain	shower
+002077	0.0003950838966295111	get	sponge	self	shower
+002078	0.0034451437613095596	get	sponge	body	shower
+002079	0.0004474899022098988	get	sponge	your body	shower
+002080	0.00030365510592713144	get	sponge	body parts	shower
+002081	0.00030365510592713144	get	sponge	certain parts	shower
+002082	0.002615958756396998	get	sponge	shampoo	shower
+002083	0.0018547131699982017	get	sponge	water	shower
+002084	0.0005127816352254863	get	sponge	hot water	shower
+002085	0.0005301269742272998	get	sponge	curtain or door	shower
+002086	0.00016365409644494077	get	sponge	door	shower
+002087	0.00035266404952266644	get	sponge	tap	shower
+002088	0.004462687885444781	get	sponge	hair	shower
+002089	0.00040592202711888935	get	sponge	cloth	shower
+002090	0.002161816731087592	get	sponge	rinse	shower
+002091	0.0005301269742272998	get	sponge	shampoo and rinse	shower
+002092	0.0002900673384395893	get	sponge	fan	shower
+002093	0.00030365510592713144	get	sponge	exhaust fan	shower
+002094	0.00030365510592713144	get	sponge	my clothes	shower
+002095	0.0013929963782896972	get	sponge	clothes	shower
+002096	0.0002900673384395893	get	sponge	tub	shower
+002097	0.001217315740578825	get	sponge	bathroom	shower
+002098	0.00018135891289245467	get	sponge	lather	shower
+002099	0.00030365510592713144	get	sponge	whole head	shower
+002100	0.0011377622576388064	get	sponge	towel	shower
+002101	0.0001538799268468822	get	sponge	towels	shower
+002102	0.00030365510592713144	get	sponge	good temperature	shower
+002103	0.0006305298799005477	get	sponge	temperature	shower
+002104	0.0006890287522619118	get	sponge	scrub	shower
+002105	0.0	get	sponge	scrub soap over your body	shower
+002106	0.0010602539484545995	get	sponge	shampoo and soap	shower
+002107	0.0021430713512149186	get	sponge	soap	shower
+002108	0.001151232754522525	get	bath	i	shower
+002109	0.0008502720710852735	get	bath	washcloth	shower
+002110	0.0007194609832260008	get	bath	face and neck	shower
+002111	0.0010481085547169927	get	bath	face	shower
+002112	0.0011221371354571859	get	bath	conditioner	shower
+002113	0.0007383928839496775	get	bath	undress	shower
+002114	0.0007873288576559632	get	bath	curtain	shower
+002115	0.0007194609832260008	get	bath	door or curtain	shower
+002116	0.0005361874844043541	get	bath	self	shower
+002117	0.004675571397738275	get	bath	body	shower
+002118	0.0006073102118542629	get	bath	your body	shower
+002119	0.00041210504594746026	get	bath	body parts	shower
+002120	0.00041210504594746026	get	bath	certain parts	shower
+002121	0.003550244281946462	get	bath	shampoo	shower
+002122	0.0025171210403584898	get	bath	water	shower
+002123	0.0006959207838788113	get	bath	hot water	shower
+002124	0.0007194609832260008	get	bath	curtain or door	shower
+002125	0.0002221028977234347	get	bath	door	shower
+002126	0.0004786174561063761	get	bath	tap	shower
+002127	0.006056529793777701	get	bath	hair	shower
+002128	0.0005508964360278504	get	bath	cloth	shower
+002129	0.00293390615176624	get	bath	rinse	shower
+002130	0.0007194609832260008	get	bath	shampoo and rinse	shower
+002131	0.0003936644288279816	get	bath	fan	shower
+002132	0.00041210504594746026	get	bath	exhaust fan	shower
+002133	0.00041210504594746026	get	bath	my clothes	shower
+002134	0.0018905028279599537	get	bath	clothes	shower
+002135	0.0003936644288279816	get	bath	tub	shower
+002136	0.001652078128810348	get	bath	bathroom	shower
+002137	0.0002461309613165592	get	bath	lather	shower
+002138	0.00041210504594746026	get	bath	whole head	shower
+002139	0.0015441122454698444	get	bath	towel	shower
+002140	0.00020883789893802714	get	bath	towels	shower
+002141	0.00041210504594746026	get	bath	good temperature	shower
+002142	0.0008557226275984869	get	bath	temperature	shower
+002143	0.0009351142795476549	get	bath	scrub	shower
+002144	0.0	get	bath	scrub soap over your body	shower
+002145	0.0014389219664520017	get	bath	shampoo and soap	shower
+002146	0.002908465889169159	get	bath	soap	shower
+002147	0.00230246550904505	put	shampoo	i	shower
+002148	0.001700544142170547	put	shampoo	washcloth	shower
+002149	0.0014389219664520017	put	shampoo	face and neck	shower
+002150	0.0020962171094339854	put	shampoo	face	shower
+002151	0.0022442742709143718	put	shampoo	conditioner	shower
+002152	0.001476785767899355	put	shampoo	undress	shower
+002153	0.0015746577153119264	put	shampoo	curtain	shower
+002154	0.0014389219664520017	put	shampoo	door or curtain	shower
+002155	0.0010723749688087082	put	shampoo	self	shower
+002156	0.00935114279547655	put	shampoo	body	shower
+002157	0.0012146204237085258	put	shampoo	your body	shower
+002158	0.0008242100918949205	put	shampoo	body parts	shower
+002159	0.0008242100918949205	put	shampoo	certain parts	shower
+002160	0.0050342420807169795	put	shampoo	water	shower
+002161	0.0013918415677576226	put	shampoo	hot water	shower
+002162	0.0014389219664520017	put	shampoo	curtain or door	shower
+002163	0.0004442057954468694	put	shampoo	door	shower
+002164	0.0009572349122127522	put	shampoo	tap	shower
+002165	0.012113059587555403	put	shampoo	hair	shower
+002166	0.0011017928720557007	put	shampoo	cloth	shower
+002167	0.00586781230353248	put	shampoo	rinse	shower
+002168	0.0014389219664520017	put	shampoo	shampoo and rinse	shower
+002169	0.0007873288576559632	put	shampoo	fan	shower
+002170	0.0008242100918949205	put	shampoo	exhaust fan	shower
+002171	0.0008242100918949205	put	shampoo	my clothes	shower
+002172	0.0037810056559199074	put	shampoo	clothes	shower
+002173	0.0007873288576559632	put	shampoo	tub	shower
+002174	0.003304156257620696	put	shampoo	bathroom	shower
+002175	0.0004922619226331184	put	shampoo	lather	shower
+002176	0.0008242100918949205	put	shampoo	whole head	shower
+002177	0.0030882244909396887	put	shampoo	towel	shower
+002178	0.0004176757978760543	put	shampoo	towels	shower
+002179	0.0008242100918949205	put	shampoo	good temperature	shower
+002180	0.0017114452551969738	put	shampoo	temperature	shower
+002181	0.0018702285590953098	put	shampoo	scrub	shower
+002182	0.0	put	shampoo	scrub soap over your body	shower
+002183	0.0028778439329040033	put	shampoo	shampoo and soap	shower
+002184	0.005816931778338318	put	shampoo	soap	shower
+002185	0.001151232754522525	wipe	excess water	i	shower
+002186	0.0008502720710852735	wipe	excess water	washcloth	shower
+002187	0.0007194609832260008	wipe	excess water	face and neck	shower
+002188	0.0010481085547169927	wipe	excess water	face	shower
+002189	0.0011221371354571859	wipe	excess water	conditioner	shower
+002190	0.0007383928839496775	wipe	excess water	undress	shower
+002191	0.0007873288576559632	wipe	excess water	curtain	shower
+002192	0.0007194609832260008	wipe	excess water	door or curtain	shower
+002193	0.0005361874844043541	wipe	excess water	self	shower
+002194	0.004675571397738275	wipe	excess water	body	shower
+002195	0.0006073102118542629	wipe	excess water	your body	shower
+002196	0.00041210504594746026	wipe	excess water	body parts	shower
+002197	0.00041210504594746026	wipe	excess water	certain parts	shower
+002198	0.003550244281946462	wipe	excess water	shampoo	shower
+002199	0.0025171210403584898	wipe	excess water	water	shower
+002200	0.0006959207838788113	wipe	excess water	hot water	shower
+002201	0.0007194609832260008	wipe	excess water	curtain or door	shower
+002202	0.0002221028977234347	wipe	excess water	door	shower
+002203	0.0004786174561063761	wipe	excess water	tap	shower
+002204	0.006056529793777701	wipe	excess water	hair	shower
+002205	0.0005508964360278504	wipe	excess water	cloth	shower
+002206	0.00293390615176624	wipe	excess water	rinse	shower
+002207	0.0007194609832260008	wipe	excess water	shampoo and rinse	shower
+002208	0.0003936644288279816	wipe	excess water	fan	shower
+002209	0.00041210504594746026	wipe	excess water	exhaust fan	shower
+002210	0.00041210504594746026	wipe	excess water	my clothes	shower
+002211	0.0018905028279599537	wipe	excess water	clothes	shower
+002212	0.0003936644288279816	wipe	excess water	tub	shower
+002213	0.001652078128810348	wipe	excess water	bathroom	shower
+002214	0.0002461309613165592	wipe	excess water	lather	shower
+002215	0.00041210504594746026	wipe	excess water	whole head	shower
+002216	0.0015441122454698444	wipe	excess water	towel	shower
+002217	0.00020883789893802714	wipe	excess water	towels	shower
+002218	0.00041210504594746026	wipe	excess water	good temperature	shower
+002219	0.0008557226275984869	wipe	excess water	temperature	shower
+002220	0.0009351142795476549	wipe	excess water	scrub	shower
+002221	0.0	wipe	excess water	scrub soap over your body	shower
+002222	0.0014389219664520017	wipe	excess water	shampoo and soap	shower
+002223	0.002908465889169159	wipe	excess water	soap	shower
+002224	0.001151232754522525	wet	hair	i	shower
+002225	0.0008502720710852735	wet	hair	washcloth	shower
+002226	0.0007194609832260008	wet	hair	face and neck	shower
+002227	0.0010481085547169927	wet	hair	face	shower
+002228	0.0011221371354571859	wet	hair	conditioner	shower
+002229	0.0007383928839496775	wet	hair	undress	shower
+002230	0.0007873288576559632	wet	hair	curtain	shower
+002231	0.0007194609832260008	wet	hair	door or curtain	shower
+002232	0.0005361874844043541	wet	hair	self	shower
+002233	0.004675571397738275	wet	hair	body	shower
+002234	0.0006073102118542629	wet	hair	your body	shower
+002235	0.00041210504594746026	wet	hair	body parts	shower
+002236	0.00041210504594746026	wet	hair	certain parts	shower
+002237	0.003550244281946462	wet	hair	shampoo	shower
+002238	0.0025171210403584898	wet	hair	water	shower
+002239	0.0006959207838788113	wet	hair	hot water	shower
+002240	0.0007194609832260008	wet	hair	curtain or door	shower
+002241	0.0002221028977234347	wet	hair	door	shower
+002242	0.0004786174561063761	wet	hair	tap	shower
+002243	0.0005508964360278504	wet	hair	cloth	shower
+002244	0.00293390615176624	wet	hair	rinse	shower
+002245	0.0007194609832260008	wet	hair	shampoo and rinse	shower
+002246	0.0003936644288279816	wet	hair	fan	shower
+002247	0.00041210504594746026	wet	hair	exhaust fan	shower
+002248	0.00041210504594746026	wet	hair	my clothes	shower
+002249	0.0018905028279599537	wet	hair	clothes	shower
+002250	0.0003936644288279816	wet	hair	tub	shower
+002251	0.001652078128810348	wet	hair	bathroom	shower
+002252	0.0002461309613165592	wet	hair	lather	shower
+002253	0.00041210504594746026	wet	hair	whole head	shower
+002254	0.0015441122454698444	wet	hair	towel	shower
+002255	0.00020883789893802714	wet	hair	towels	shower
+002256	0.00041210504594746026	wet	hair	good temperature	shower
+002257	0.0008557226275984869	wet	hair	temperature	shower
+002258	0.0009351142795476549	wet	hair	scrub	shower
+002259	0.0	wet	hair	scrub soap over your body	shower
+002260	0.0014389219664520017	wet	hair	shampoo and soap	shower
+002261	0.002908465889169159	wet	hair	soap	shower
+002262	0.0019995060466333156	turn	shower	i	shower
+002263	0.0014767857678993548	turn	shower	washcloth	shower
+002264	0.0012495879574533004	turn	shower	face and neck	shower
+002265	0.0018203959055646617	turn	shower	face	shower
+002266	0.00194897163817148	turn	shower	conditioner	shower
+002267	0.0012824696226270413	turn	shower	undress	shower
+002268	0.0013674635345351416	turn	shower	curtain	shower
+002269	0.0012495879574533004	turn	shower	door or curtain	shower
+002270	0.0009312713810338652	turn	shower	self	shower
+002271	0.008120715159047835	turn	shower	body	shower
+002272	0.0010548001140641616	turn	shower	your body	shower
+002273	0.0007157601518745916	turn	shower	body parts	shower
+002274	0.0007157601518745916	turn	shower	certain parts	shower
+002275	0.006166203038343459	turn	shower	shampoo	shower
+002276	0.004371834210356691	turn	shower	water	shower
+002277	0.0012087024191042974	turn	shower	hot water	shower
+002278	0.0012495879574533004	turn	shower	curtain or door	shower
+002279	0.0003857569941683754	turn	shower	door	shower
+002280	0.0008312815056290424	turn	shower	tap	shower
+002281	0.010519217679222481	turn	shower	hair	shower
+002282	0.0009568184631467396	turn	shower	cloth	shower
+002283	0.005095722882853831	turn	shower	rinse	shower
+002284	0.0012495879574533004	turn	shower	shampoo and rinse	shower
+002285	0.0006837317672675708	turn	shower	fan	shower
+002286	0.0007157601518745916	turn	shower	exhaust fan	shower
+002287	0.0007157601518745916	turn	shower	my clothes	shower
+002288	0.0032834992062496507	turn	shower	clothes	shower
+002289	0.0006837317672675708	turn	shower	tub	shower
+002290	0.002869393869389173	turn	shower	bathroom	shower
+002291	0.0004274898742090138	turn	shower	lather	shower
+002292	0.0007157601518745916	turn	shower	whole head	shower
+002293	0.0026818745031086506	turn	shower	towel	shower
+002294	0.0003627178257849093	turn	shower	towels	shower
+002295	0.0007157601518745916	turn	shower	good temperature	shower
+002296	0.0014862525074990345	turn	shower	temperature	shower
+002297	0.0016241430318095665	turn	shower	scrub	shower
+002298	0.0	turn	shower	scrub soap over your body	shower
+002299	0.0024991759149066007	turn	shower	shampoo and soap	shower
+002300	0.005051537240384077	turn	shower	soap	shower
+002301	0.000911143060941905	check	temperature	i	shower
+002302	0.0006729477548641889	check	temperature	washcloth	shower
+002303	0.0005694173310389291	check	temperature	face and neck	shower
+002304	0.0008295254221986712	check	temperature	face	shower
+002305	0.0008881153358263283	check	temperature	conditioner	shower
+002306	0.0005844009821790267	check	temperature	undress	shower
+002307	0.0006231313542065411	check	temperature	curtain	shower
+002308	0.0005694173310389291	check	temperature	door or curtain	shower
+002309	0.0004243655367341829	check	temperature	self	shower
+002310	0.0037004805659430354	check	temperature	body	shower
+002311	0.0004806556130342824	check	temperature	your body	shower
+002312	0.00032616050187862035	check	temperature	body parts	shower
+002313	0.00032616050187862035	check	temperature	certain parts	shower
+002314	0.002809840520465232	check	temperature	shampoo	shower
+002315	0.0019921752230066805	check	temperature	water	shower
+002316	0.0005507864423640523	check	temperature	hot water	shower
+002317	0.0005694173310389291	check	temperature	curtain or door	shower
+002318	0.00017578331860417686	check	temperature	door	shower
+002319	0.0003788017429697435	check	temperature	tap	shower
+002320	0.004793439965384938	check	temperature	hair	shower
+002321	0.0004360069351853911	check	temperature	cloth	shower
+002322	0.0023220397622766504	check	temperature	rinse	shower
+002323	0.0005694173310389291	check	temperature	shampoo and rinse	shower
+002324	0.00031156567710327056	check	temperature	fan	shower
+002325	0.00032616050187862035	check	temperature	exhaust fan	shower
+002326	0.00032616050187862035	check	temperature	my clothes	shower
+002327	0.0014962382946628165	check	temperature	clothes	shower
+002328	0.00031156567710327056	check	temperature	tub	shower
+002329	0.0013075370877748795	check	temperature	bathroom	shower
+002330	0.0001948003273930089	check	temperature	lather	shower
+002331	0.00032616050187862035	check	temperature	whole head	shower
+002332	0.0012220874990294976	check	temperature	towel	shower
+002333	0.00016528473649795483	check	temperature	towels	shower
+002334	0.00032616050187862035	check	temperature	good temperature	shower
+002335	0.0007400961131886069	check	temperature	scrub	shower
+002336	0.0	check	temperature	scrub soap over your body	shower
+002337	0.0011388346620778583	check	temperature	shampoo and soap	shower
+002338	0.002301905068712025	check	temperature	soap	shower
+002339	0.001151232754522525	put	face scrub	i	shower
+002340	0.0008502720710852735	put	face scrub	washcloth	shower
+002341	0.0007194609832260008	put	face scrub	face and neck	shower
+002342	0.0010481085547169927	put	face scrub	face	shower
+002343	0.0011221371354571859	put	face scrub	conditioner	shower
+002344	0.0007383928839496775	put	face scrub	undress	shower
+002345	0.0007873288576559632	put	face scrub	curtain	shower
+002346	0.0007194609832260008	put	face scrub	door or curtain	shower
+002347	0.0005361874844043541	put	face scrub	self	shower
+002348	0.004675571397738275	put	face scrub	body	shower
+002349	0.0006073102118542629	put	face scrub	your body	shower
+002350	0.00041210504594746026	put	face scrub	body parts	shower
+002351	0.00041210504594746026	put	face scrub	certain parts	shower
+002352	0.003550244281946462	put	face scrub	shampoo	shower
+002353	0.0025171210403584898	put	face scrub	water	shower
+002354	0.0006959207838788113	put	face scrub	hot water	shower
+002355	0.0007194609832260008	put	face scrub	curtain or door	shower
+002356	0.0002221028977234347	put	face scrub	door	shower
+002357	0.0004786174561063761	put	face scrub	tap	shower
+002358	0.006056529793777701	put	face scrub	hair	shower
+002359	0.0005508964360278504	put	face scrub	cloth	shower
+002360	0.00293390615176624	put	face scrub	rinse	shower
+002361	0.0007194609832260008	put	face scrub	shampoo and rinse	shower
+002362	0.0003936644288279816	put	face scrub	fan	shower
+002363	0.00041210504594746026	put	face scrub	exhaust fan	shower
+002364	0.00041210504594746026	put	face scrub	my clothes	shower
+002365	0.0018905028279599537	put	face scrub	clothes	shower
+002366	0.0003936644288279816	put	face scrub	tub	shower
+002367	0.001652078128810348	put	face scrub	bathroom	shower
+002368	0.0002461309613165592	put	face scrub	lather	shower
+002369	0.00041210504594746026	put	face scrub	whole head	shower
+002370	0.0015441122454698444	put	face scrub	towel	shower
+002371	0.00020883789893802714	put	face scrub	towels	shower
+002372	0.00041210504594746026	put	face scrub	good temperature	shower
+002373	0.0008557226275984869	put	face scrub	temperature	shower
+002374	0.0009351142795476549	put	face scrub	scrub	shower
+002375	0.0	put	face scrub	scrub soap over your body	shower
+002376	0.0014389219664520017	put	face scrub	shampoo and soap	shower
+002377	0.002908465889169159	put	face scrub	soap	shower
+002378	0.0034536982635675756	dry	body	i	shower
+002379	0.002550816213255821	dry	body	washcloth	shower
+002380	0.0021583829496780024	dry	body	face and neck	shower
+002381	0.003144325664150978	dry	body	face	shower
+002382	0.0033664114063715576	dry	body	conditioner	shower
+002383	0.0022151786518490326	dry	body	undress	shower
+002384	0.0023619865729678897	dry	body	curtain	shower
+002385	0.0021583829496780024	dry	body	door or curtain	shower
+002386	0.0016085624532130626	dry	body	self	shower
+002387	0.0018219306355627886	dry	body	your body	shower
+002388	0.0012363151378423807	dry	body	body parts	shower
+002389	0.0012363151378423807	dry	body	certain parts	shower
+002390	0.010650732845839386	dry	body	shampoo	shower
+002391	0.00755136312107547	dry	body	water	shower
+002392	0.002087762351636434	dry	body	hot water	shower
+002393	0.0021583829496780024	dry	body	curtain or door	shower
+002394	0.0006663086931703041	dry	body	door	shower
+002395	0.0014358523683191285	dry	body	tap	shower
+002396	0.018169589381333104	dry	body	hair	shower
+002397	0.001652689308083551	dry	body	cloth	shower
+002398	0.00880171845529872	dry	body	rinse	shower
+002399	0.0021583829496780024	dry	body	shampoo and rinse	shower
+002400	0.0011809932864839448	dry	body	fan	shower
+002401	0.0012363151378423807	dry	body	exhaust fan	shower
+002402	0.0012363151378423807	dry	body	my clothes	shower
+002403	0.005671508483879861	dry	body	clothes	shower
+002404	0.0011809932864839448	dry	body	tub	shower
+002405	0.004956234386431045	dry	body	bathroom	shower
+002406	0.0007383928839496776	dry	body	lather	shower
+002407	0.0012363151378423807	dry	body	whole head	shower
+002408	0.004632336736409534	dry	body	towel	shower
+002409	0.0006265136968140815	dry	body	towels	shower
+002410	0.0012363151378423807	dry	body	good temperature	shower
+002411	0.002567167882795461	dry	body	temperature	shower
+002412	0.0028053428386429647	dry	body	scrub	shower
+002413	0.0	dry	body	scrub soap over your body	shower
+002414	0.004316765899356005	dry	body	shampoo and soap	shower
+002415	0.00872539766750748	dry	body	soap	shower
+002416	0.002177926156589312	remove	clothes	i	shower
+002417	0.0016085624532130621	remove	clothes	washcloth	shower
+002418	0.001361091306564899	remove	clothes	face and neck	shower
+002419	0.001982833642715379	remove	clothes	face	shower
+002420	0.0021228824570805683	remove	clothes	conditioner	shower
+002421	0.0013969070715507978	remove	clothes	undress	shower
+002422	0.0014894851681297905	remove	clothes	curtain	shower
+002423	0.001361091306564899	remove	clothes	door or curtain	shower
+002424	0.001014370675723523	remove	clothes	self	shower
+002425	0.008845343571169036	remove	clothes	body	shower
+002426	0.0011489221361754747	remove	clothes	your body	shower
+002427	0.0007796289284729977	remove	clothes	body parts	shower
+002428	0.0007796289284729977	remove	clothes	certain parts	shower
+002429	0.006716426242701689	remove	clothes	shampoo	shower
+002430	0.004761942128176994	remove	clothes	water	shower
+002431	0.0013165574660464066	remove	clothes	hot water	shower
+002432	0.001361091306564899	remove	clothes	curtain or door	shower
+002433	0.000420178898233984	remove	clothes	door	shower
+002434	0.0009054584944350781	remove	clothes	tap	shower
+002435	0.011457869491822939	remove	clothes	hair	shower
+002436	0.0010421973774491057	remove	clothes	cloth	shower
+002437	0.005550424902182508	remove	clothes	rinse	shower
+002438	0.001361091306564899	remove	clothes	shampoo and rinse	shower
+002439	0.0007447425840648952	remove	clothes	fan	shower
+002440	0.0007796289284729977	remove	clothes	exhaust fan	shower
+002441	0.0007796289284729977	remove	clothes	my clothes	shower
+002442	0.0007447425840648952	remove	clothes	tub	shower
+002443	0.003125435890640117	remove	clothes	bathroom	shower
+002444	0.0004656356905169326	remove	clothes	lather	shower
+002445	0.0007796289284729977	remove	clothes	whole head	shower
+002446	0.002921183778786265	remove	clothes	towel	shower
+002447	0.00039508389662951105	remove	clothes	towels	shower
+002448	0.0007796289284729977	remove	clothes	good temperature	shower
+002449	0.0016188739298032319	remove	clothes	temperature	shower
+002450	0.001769068714233807	remove	clothes	scrub	shower
+002451	0.0	remove	clothes	scrub soap over your body	shower
+002452	0.002722182613129798	remove	clothes	shampoo and soap	shower
+002453	0.005502296482344711	remove	clothes	soap	shower
+002454	0.001151232754522525	get	tub	i	shower
+002455	0.0008502720710852735	get	tub	washcloth	shower
+002456	0.0007194609832260008	get	tub	face and neck	shower
+002457	0.0010481085547169927	get	tub	face	shower
+002458	0.0011221371354571859	get	tub	conditioner	shower
+002459	0.0007383928839496775	get	tub	undress	shower
+002460	0.0007873288576559632	get	tub	curtain	shower
+002461	0.0007194609832260008	get	tub	door or curtain	shower
+002462	0.0005361874844043541	get	tub	self	shower
+002463	0.004675571397738275	get	tub	body	shower
+002464	0.0006073102118542629	get	tub	your body	shower
+002465	0.00041210504594746026	get	tub	body parts	shower
+002466	0.00041210504594746026	get	tub	certain parts	shower
+002467	0.003550244281946462	get	tub	shampoo	shower
+002468	0.0025171210403584898	get	tub	water	shower
+002469	0.0006959207838788113	get	tub	hot water	shower
+002470	0.0007194609832260008	get	tub	curtain or door	shower
+002471	0.0002221028977234347	get	tub	door	shower
+002472	0.0004786174561063761	get	tub	tap	shower
+002473	0.006056529793777701	get	tub	hair	shower
+002474	0.0005508964360278504	get	tub	cloth	shower
+002475	0.00293390615176624	get	tub	rinse	shower
+002476	0.0007194609832260008	get	tub	shampoo and rinse	shower
+002477	0.0003936644288279816	get	tub	fan	shower
+002478	0.00041210504594746026	get	tub	exhaust fan	shower
+002479	0.00041210504594746026	get	tub	my clothes	shower
+002480	0.0018905028279599537	get	tub	clothes	shower
+002481	0.001652078128810348	get	tub	bathroom	shower
+002482	0.0002461309613165592	get	tub	lather	shower
+002483	0.00041210504594746026	get	tub	whole head	shower
+002484	0.0015441122454698444	get	tub	towel	shower
+002485	0.00020883789893802714	get	tub	towels	shower
+002486	0.00041210504594746026	get	tub	good temperature	shower
+002487	0.0008557226275984869	get	tub	temperature	shower
+002488	0.0009351142795476549	get	tub	scrub	shower
+002489	0.0	get	tub	scrub soap over your body	shower
+002490	0.0014389219664520017	get	tub	shampoo and soap	shower
+002491	0.002908465889169159	get	tub	soap	shower
+002492	0.0010155156732081652	close	door	i	shower
+002493	0.0007500347877405428	close	door	washcloth	shower
+002494	0.000634644820395844	close	door	face and neck	shower
+002495	0.000924548628726354	close	door	face	shower
+002496	0.0009898500924935157	close	door	conditioner	shower
+002497	0.0006513448680907939	close	door	undress	shower
+002498	0.0006945118541648193	close	door	curtain	shower
+002499	0.000634644820395844	close	door	door or curtain	shower
+002500	0.0004729771560543506	close	door	self	shower
+002501	0.0041243753853896494	close	door	body	shower
+002502	0.0005357153331631585	close	door	your body	shower
+002503	0.0003635226078512593	close	door	body parts	shower
+002504	0.0003635226078512593	close	door	certain parts	shower
+002505	0.003131711374499255	close	door	shampoo	shower
+002506	0.0022203814630919407	close	door	water	shower
+002507	0.0006138797394045284	close	door	hot water	shower
+002508	0.000634644820395844	close	door	curtain or door	shower
+002509	0.00042219397097386534	close	door	tap	shower
+002510	0.005342534693068561	close	door	hair	shower
+002511	0.00048595209170610446	close	door	cloth	shower
+002512	0.0025880324105929313	close	door	rinse	shower
+002513	0.000634644820395844	close	door	shampoo and rinse	shower
+002514	0.00034725592708240963	close	door	fan	shower
+002515	0.0003635226078512593	close	door	exhaust fan	shower
+002516	0.0003635226078512593	close	door	my clothes	shower
+002517	0.001667634320249988	close	door	clothes	shower
+002518	0.00034725592708240963	close	door	tub	shower
+002519	0.0014573171468415687	close	door	bathroom	shower
+002520	0.00021711495603026463	close	door	lather	shower
+002521	0.0003635226078512593	close	door	whole head	shower
+002522	0.0013620791975447566	close	door	towel	shower
+002523	0.00018421831614701497	close	door	towels	shower
+002524	0.0003635226078512593	close	door	good temperature	shower
+002525	0.0007548427864229384	close	door	temperature	shower
+002526	0.0008248750770779296	close	door	scrub	shower
+002527	0.0	close	door	scrub soap over your body	shower
+002528	0.001269289640791688	close	door	shampoo and soap	shower
+002529	0.002565591261923058	close	door	soap	shower
+002530	0.001151232754522525	open	shower	i	shower
+002531	0.0008502720710852735	open	shower	washcloth	shower
+002532	0.0007194609832260008	open	shower	face and neck	shower
+002533	0.0010481085547169927	open	shower	face	shower
+002534	0.0011221371354571859	open	shower	conditioner	shower
+002535	0.0007383928839496775	open	shower	undress	shower
+002536	0.0007873288576559632	open	shower	curtain	shower
+002537	0.0007194609832260008	open	shower	door or curtain	shower
+002538	0.0005361874844043541	open	shower	self	shower
+002539	0.004675571397738275	open	shower	body	shower
+002540	0.0006073102118542629	open	shower	your body	shower
+002541	0.00041210504594746026	open	shower	body parts	shower
+002542	0.00041210504594746026	open	shower	certain parts	shower
+002543	0.003550244281946462	open	shower	shampoo	shower
+002544	0.0025171210403584898	open	shower	water	shower
+002545	0.0006959207838788113	open	shower	hot water	shower
+002546	0.0007194609832260008	open	shower	curtain or door	shower
+002547	0.0002221028977234347	open	shower	door	shower
+002548	0.0004786174561063761	open	shower	tap	shower
+002549	0.006056529793777701	open	shower	hair	shower
+002550	0.0005508964360278504	open	shower	cloth	shower
+002551	0.00293390615176624	open	shower	rinse	shower
+002552	0.0007194609832260008	open	shower	shampoo and rinse	shower
+002553	0.0003936644288279816	open	shower	fan	shower
+002554	0.00041210504594746026	open	shower	exhaust fan	shower
+002555	0.00041210504594746026	open	shower	my clothes	shower
+002556	0.0018905028279599537	open	shower	clothes	shower
+002557	0.0003936644288279816	open	shower	tub	shower
+002558	0.001652078128810348	open	shower	bathroom	shower
+002559	0.0002461309613165592	open	shower	lather	shower
+002560	0.00041210504594746026	open	shower	whole head	shower
+002561	0.0015441122454698444	open	shower	towel	shower
+002562	0.00020883789893802714	open	shower	towels	shower
+002563	0.00041210504594746026	open	shower	good temperature	shower
+002564	0.0008557226275984869	open	shower	temperature	shower
+002565	0.0009351142795476549	open	shower	scrub	shower
+002566	0.0	open	shower	scrub soap over your body	shower
+002567	0.0014389219664520017	open	shower	shampoo and soap	shower
+002568	0.002908465889169159	open	shower	soap	shower
+002569	0.001151232754522525	use	showercap	i	shower
+002570	0.0008502720710852735	use	showercap	washcloth	shower
+002571	0.0007194609832260008	use	showercap	face and neck	shower
+002572	0.0010481085547169927	use	showercap	face	shower
+002573	0.0011221371354571859	use	showercap	conditioner	shower
+002574	0.0007383928839496775	use	showercap	undress	shower
+002575	0.0007873288576559632	use	showercap	curtain	shower
+002576	0.0007194609832260008	use	showercap	door or curtain	shower
+002577	0.0005361874844043541	use	showercap	self	shower
+002578	0.004675571397738275	use	showercap	body	shower
+002579	0.0006073102118542629	use	showercap	your body	shower
+002580	0.00041210504594746026	use	showercap	body parts	shower
+002581	0.00041210504594746026	use	showercap	certain parts	shower
+002582	0.003550244281946462	use	showercap	shampoo	shower
+002583	0.0025171210403584898	use	showercap	water	shower
+002584	0.0006959207838788113	use	showercap	hot water	shower
+002585	0.0007194609832260008	use	showercap	curtain or door	shower
+002586	0.0002221028977234347	use	showercap	door	shower
+002587	0.0004786174561063761	use	showercap	tap	shower
+002588	0.006056529793777701	use	showercap	hair	shower
+002589	0.0005508964360278504	use	showercap	cloth	shower
+002590	0.00293390615176624	use	showercap	rinse	shower
+002591	0.0007194609832260008	use	showercap	shampoo and rinse	shower
+002592	0.0003936644288279816	use	showercap	fan	shower
+002593	0.00041210504594746026	use	showercap	exhaust fan	shower
+002594	0.00041210504594746026	use	showercap	my clothes	shower
+002595	0.0018905028279599537	use	showercap	clothes	shower
+002596	0.0003936644288279816	use	showercap	tub	shower
+002597	0.001652078128810348	use	showercap	bathroom	shower
+002598	0.0002461309613165592	use	showercap	lather	shower
+002599	0.00041210504594746026	use	showercap	whole head	shower
+002600	0.0015441122454698444	use	showercap	towel	shower
+002601	0.00020883789893802714	use	showercap	towels	shower
+002602	0.00041210504594746026	use	showercap	good temperature	shower
+002603	0.0008557226275984869	use	showercap	temperature	shower
+002604	0.0009351142795476549	use	showercap	scrub	shower
+002605	0.0	use	showercap	scrub soap over your body	shower
+002606	0.0014389219664520017	use	showercap	shampoo and soap	shower
+002607	0.002908465889169159	use	showercap	soap	shower
+002608	0.0009997530233166578	wash	rest	i	shower
+002609	0.0007383928839496774	wash	rest	washcloth	shower
+002610	0.0006247939787266502	wash	rest	face and neck	shower
+002611	0.0009101979527823309	wash	rest	face	shower
+002612	0.00097448581908574	wash	rest	conditioner	shower
+002613	0.0006412348113135207	wash	rest	undress	shower
+002614	0.0006837317672675708	wash	rest	curtain	shower
+002615	0.0006247939787266502	wash	rest	door or curtain	shower
+002616	0.0004656356905169326	wash	rest	self	shower
+002617	0.004060357579523917	wash	rest	body	shower
+002618	0.0005274000570320808	wash	rest	your body	shower
+002619	0.0003578800759372958	wash	rest	body parts	shower
+002620	0.0003578800759372958	wash	rest	certain parts	shower
+002621	0.0030831015191717295	wash	rest	shampoo	shower
+002622	0.0021859171051783455	wash	rest	water	shower
+002623	0.0006043512095521487	wash	rest	hot water	shower
+002624	0.0006247939787266502	wash	rest	curtain or door	shower
+002625	0.0001928784970841877	wash	rest	door	shower
+002626	0.0004156407528145212	wash	rest	tap	shower
+002627	0.005259608839611241	wash	rest	hair	shower
+002628	0.0004784092315733698	wash	rest	cloth	shower
+002629	0.0025478614414269156	wash	rest	rinse	shower
+002630	0.0006247939787266502	wash	rest	shampoo and rinse	shower
+002631	0.0003418658836337854	wash	rest	fan	shower
+002632	0.0003578800759372958	wash	rest	exhaust fan	shower
+002633	0.0003578800759372958	wash	rest	my clothes	shower
+002634	0.0016417496031248253	wash	rest	clothes	shower
+002635	0.0003418658836337854	wash	rest	tub	shower
+002636	0.0014346969346945865	wash	rest	bathroom	shower
+002637	0.0002137449371045069	wash	rest	lather	shower
+002638	0.0003578800759372958	wash	rest	whole head	shower
+002639	0.0013409372515543253	wash	rest	towel	shower
+002640	0.00018135891289245464	wash	rest	towels	shower
+002641	0.0003578800759372958	wash	rest	good temperature	shower
+002642	0.0007431262537495173	wash	rest	temperature	shower
+002643	0.0008120715159047832	wash	rest	scrub	shower
+002644	0.0	wash	rest	scrub soap over your body	shower
+002645	0.0012495879574533004	wash	rest	shampoo and soap	shower
+002646	0.0025257686201920386	wash	rest	soap	shower
+002647	0.001151232754522525	enter	bathroom	i	shower
+002648	0.0008502720710852735	enter	bathroom	washcloth	shower
+002649	0.0007194609832260008	enter	bathroom	face and neck	shower
+002650	0.0010481085547169927	enter	bathroom	face	shower
+002651	0.0011221371354571859	enter	bathroom	conditioner	shower
+002652	0.0007383928839496775	enter	bathroom	undress	shower
+002653	0.0007873288576559632	enter	bathroom	curtain	shower
+002654	0.0007194609832260008	enter	bathroom	door or curtain	shower
+002655	0.0005361874844043541	enter	bathroom	self	shower
+002656	0.004675571397738275	enter	bathroom	body	shower
+002657	0.0006073102118542629	enter	bathroom	your body	shower
+002658	0.00041210504594746026	enter	bathroom	body parts	shower
+002659	0.00041210504594746026	enter	bathroom	certain parts	shower
+002660	0.003550244281946462	enter	bathroom	shampoo	shower
+002661	0.0025171210403584898	enter	bathroom	water	shower
+002662	0.0006959207838788113	enter	bathroom	hot water	shower
+002663	0.0007194609832260008	enter	bathroom	curtain or door	shower
+002664	0.0002221028977234347	enter	bathroom	door	shower
+002665	0.0004786174561063761	enter	bathroom	tap	shower
+002666	0.006056529793777701	enter	bathroom	hair	shower
+002667	0.0005508964360278504	enter	bathroom	cloth	shower
+002668	0.00293390615176624	enter	bathroom	rinse	shower
+002669	0.0007194609832260008	enter	bathroom	shampoo and rinse	shower
+002670	0.0003936644288279816	enter	bathroom	fan	shower
+002671	0.00041210504594746026	enter	bathroom	exhaust fan	shower
+002672	0.00041210504594746026	enter	bathroom	my clothes	shower
+002673	0.0018905028279599537	enter	bathroom	clothes	shower
+002674	0.0003936644288279816	enter	bathroom	tub	shower
+002675	0.0002461309613165592	enter	bathroom	lather	shower
+002676	0.00041210504594746026	enter	bathroom	whole head	shower
+002677	0.0015441122454698444	enter	bathroom	towel	shower
+002678	0.00020883789893802714	enter	bathroom	towels	shower
+002679	0.00041210504594746026	enter	bathroom	good temperature	shower
+002680	0.0008557226275984869	enter	bathroom	temperature	shower
+002681	0.0009351142795476549	enter	bathroom	scrub	shower
+002682	0.0	enter	bathroom	scrub soap over your body	shower
+002683	0.0014389219664520017	enter	bathroom	shampoo and soap	shower
+002684	0.002908465889169159	enter	bathroom	soap	shower
+002685	0.0019995060466333156	dry	hair	i	shower
+002686	0.0014767857678993548	dry	hair	washcloth	shower
+002687	0.0012495879574533004	dry	hair	face and neck	shower
+002688	0.0018203959055646617	dry	hair	face	shower
+002689	0.00194897163817148	dry	hair	conditioner	shower
+002690	0.0012824696226270413	dry	hair	undress	shower
+002691	0.0013674635345351416	dry	hair	curtain	shower
+002692	0.0012495879574533004	dry	hair	door or curtain	shower
+002693	0.0009312713810338652	dry	hair	self	shower
+002694	0.008120715159047835	dry	hair	body	shower
+002695	0.0010548001140641616	dry	hair	your body	shower
+002696	0.0007157601518745916	dry	hair	body parts	shower
+002697	0.0007157601518745916	dry	hair	certain parts	shower
+002698	0.006166203038343459	dry	hair	shampoo	shower
+002699	0.004371834210356691	dry	hair	water	shower
+002700	0.0012087024191042974	dry	hair	hot water	shower
+002701	0.0012495879574533004	dry	hair	curtain or door	shower
+002702	0.0003857569941683754	dry	hair	door	shower
+002703	0.0008312815056290424	dry	hair	tap	shower
+002704	0.0009568184631467396	dry	hair	cloth	shower
+002705	0.005095722882853831	dry	hair	rinse	shower
+002706	0.0012495879574533004	dry	hair	shampoo and rinse	shower
+002707	0.0006837317672675708	dry	hair	fan	shower
+002708	0.0007157601518745916	dry	hair	exhaust fan	shower
+002709	0.0007157601518745916	dry	hair	my clothes	shower
+002710	0.0032834992062496507	dry	hair	clothes	shower
+002711	0.0006837317672675708	dry	hair	tub	shower
+002712	0.002869393869389173	dry	hair	bathroom	shower
+002713	0.0004274898742090138	dry	hair	lather	shower
+002714	0.0007157601518745916	dry	hair	whole head	shower
+002715	0.0026818745031086506	dry	hair	towel	shower
+002716	0.0003627178257849093	dry	hair	towels	shower
+002717	0.0007157601518745916	dry	hair	good temperature	shower
+002718	0.0014862525074990345	dry	hair	temperature	shower
+002719	0.0016241430318095665	dry	hair	scrub	shower
+002720	0.0	dry	hair	scrub soap over your body	shower
+002721	0.0024991759149066007	dry	hair	shampoo and soap	shower
+002722	0.005051537240384077	dry	hair	soap	shower
+002723	0.001151232754522525	wash	head	i	shower
+002724	0.0008502720710852735	wash	head	washcloth	shower
+002725	0.0007194609832260008	wash	head	face and neck	shower
+002726	0.0010481085547169927	wash	head	face	shower
+002727	0.0011221371354571859	wash	head	conditioner	shower
+002728	0.0007383928839496775	wash	head	undress	shower
+002729	0.0007873288576559632	wash	head	curtain	shower
+002730	0.0007194609832260008	wash	head	door or curtain	shower
+002731	0.0005361874844043541	wash	head	self	shower
+002732	0.004675571397738275	wash	head	body	shower
+002733	0.0006073102118542629	wash	head	your body	shower
+002734	0.00041210504594746026	wash	head	body parts	shower
+002735	0.00041210504594746026	wash	head	certain parts	shower
+002736	0.003550244281946462	wash	head	shampoo	shower
+002737	0.0025171210403584898	wash	head	water	shower
+002738	0.0006959207838788113	wash	head	hot water	shower
+002739	0.0007194609832260008	wash	head	curtain or door	shower
+002740	0.0002221028977234347	wash	head	door	shower
+002741	0.0004786174561063761	wash	head	tap	shower
+002742	0.006056529793777701	wash	head	hair	shower
+002743	0.0005508964360278504	wash	head	cloth	shower
+002744	0.00293390615176624	wash	head	rinse	shower
+002745	0.0007194609832260008	wash	head	shampoo and rinse	shower
+002746	0.0003936644288279816	wash	head	fan	shower
+002747	0.00041210504594746026	wash	head	exhaust fan	shower
+002748	0.00041210504594746026	wash	head	my clothes	shower
+002749	0.0018905028279599537	wash	head	clothes	shower
+002750	0.0003936644288279816	wash	head	tub	shower
+002751	0.001652078128810348	wash	head	bathroom	shower
+002752	0.0002461309613165592	wash	head	lather	shower
+002753	0.00041210504594746026	wash	head	whole head	shower
+002754	0.0015441122454698444	wash	head	towel	shower
+002755	0.00020883789893802714	wash	head	towels	shower
+002756	0.00041210504594746026	wash	head	good temperature	shower
+002757	0.0008557226275984869	wash	head	temperature	shower
+002758	0.0009351142795476549	wash	head	scrub	shower
+002759	0.0	wash	head	scrub soap over your body	shower
+002760	0.0014389219664520017	wash	head	shampoo and soap	shower
+002761	0.002908465889169159	wash	head	soap	shower
+002762	0.003483967804524616	take	clothes	i	shower
+002763	0.0025731725483924264	take	clothes	washcloth	shower
+002764	0.002177299848639746	take	clothes	face and neck	shower
+002765	0.003171883744565037	take	clothes	face	shower
+002766	0.003395915931714241	take	clothes	conditioner	shower
+002767	0.002234593330206036	take	clothes	undress	shower
+002768	0.0023826879324539314	take	clothes	curtain	shower
+002769	0.002177299848639746	take	clothes	door or curtain	shower
+002770	0.0016226605137104478	take	clothes	self	shower
+002771	0.014149649715476009	take	clothes	body	shower
+002772	0.0018378987369385836	take	clothes	your body	shower
+002773	0.0012471506795848353	take	clothes	body parts	shower
+002774	0.0012471506795848353	take	clothes	certain parts	shower
+002775	0.010744079968111327	take	clothes	shampoo	shower
+002776	0.0076175461740902875	take	clothes	water	shower
+002777	0.002106060304494118	take	clothes	hot water	shower
+002778	0.002177299848639746	take	clothes	curtain or door	shower
+002779	0.000672148479028469	take	clothes	door	shower
+002780	0.0014484367311540576	take	clothes	tap	shower
+002781	0.0183288346563916	take	clothes	hair	shower
+002782	0.001667174113322044	take	clothes	cloth	shower
+002783	0.008878860103741337	take	clothes	rinse	shower
+002784	0.002177299848639746	take	clothes	shampoo and rinse	shower
+002785	0.0011913439662269657	take	clothes	fan	shower
+002786	0.0012471506795848353	take	clothes	exhaust fan	shower
+002787	0.0012471506795848353	take	clothes	my clothes	shower
+002788	0.0011913439662269657	take	clothes	tub	shower
+002789	0.004999672732315319	take	clothes	bathroom	shower
+002790	0.0007448644434020121	take	clothes	lather	shower
+002791	0.0012471506795848353	take	clothes	whole head	shower
+002792	0.004672936318616437	take	clothes	towel	shower
+002793	0.0006320047040065485	take	clothes	towels	shower
+002794	0.0012471506795848353	take	clothes	good temperature	shower
+002795	0.0025896675302578905	take	clothes	temperature	shower
+002796	0.002829929943095201	take	clothes	scrub	shower
+002797	0.0	take	clothes	scrub soap over your body	shower
+002798	0.004354599697279492	take	clothes	shampoo and soap	shower
+002799	0.008801870411188989	take	clothes	soap	shower
+002800	0.0007596633297360378	turn	tap	i	shower
+002801	0.0005610685677285929	turn	tap	washcloth	shower
+002802	0.00047475032653957865	turn	tap	face and neck	shower
+002803	0.0006916148202640095	turn	tap	face	shower
+002804	0.0007404640194548826	turn	tap	conditioner	shower
+002805	0.00048724290954287004	turn	tap	undress	shower
+002806	0.000519534263818149	turn	tap	curtain	shower
+002807	0.00047475032653957865	turn	tap	door or curtain	shower
+002808	0.0003538137428467614	turn	tap	self	shower
+002809	0.003085266747728678	turn	tap	body	shower
+002810	0.0004007454582121004	turn	tap	your body	shower
+002811	0.00027193553186845597	turn	tap	body parts	shower
+002812	0.00027193553186845597	turn	tap	certain parts	shower
+002813	0.0023426977576905005	turn	tap	shampoo	shower
+002814	0.001660971287826537	turn	tap	water	shower
+002815	0.00045921686803738994	turn	tap	hot water	shower
+002816	0.00047475032653957865	turn	tap	curtain or door	shower
+002817	0.0001465589179649299	turn	tap	door	shower
+002818	0.003996519011218478	turn	tap	hair	shower
+002819	0.00036351973073091065	turn	tap	cloth	shower
+002820	0.0019359950519373262	turn	tap	rinse	shower
+002821	0.00047475032653957865	turn	tap	shampoo and rinse	shower
+002822	0.0002597671319090745	turn	tap	fan	shower
+002823	0.00027193553186845597	turn	tap	exhaust fan	shower
+002824	0.00027193553186845597	turn	tap	my clothes	shower
+002825	0.0012474850698276883	turn	tap	clothes	shower
+002826	0.0002597671319090745	turn	tap	tub	shower
+002827	0.0010901558936591183	turn	tap	bathroom	shower
+002828	0.00016241430318095668	turn	tap	lather	shower
+002829	0.00027193553186845597	turn	tap	whole head	shower
+002830	0.0010189125051139787	turn	tap	towel	shower
+002831	0.00013780575045238235	turn	tap	towels	shower
+002832	0.00027193553186845597	turn	tap	good temperature	shower
+002833	0.0005646652234817202	turn	tap	temperature	shower
+002834	0.0006170533495457355	turn	tap	scrub	shower
+002835	0.0	turn	tap	scrub soap over your body	shower
+002836	0.0009495006530791573	turn	tap	shampoo and soap	shower
+002837	0.001919207799734905	turn	tap	soap	shower
+002838	0.001151232754522525	turn	hot cold water	i	shower
+002839	0.0008502720710852735	turn	hot cold water	washcloth	shower
+002840	0.0007194609832260008	turn	hot cold water	face and neck	shower
+002841	0.0010481085547169927	turn	hot cold water	face	shower
+002842	0.0011221371354571859	turn	hot cold water	conditioner	shower
+002843	0.0007383928839496775	turn	hot cold water	undress	shower
+002844	0.0007873288576559632	turn	hot cold water	curtain	shower
+002845	0.0007194609832260008	turn	hot cold water	door or curtain	shower
+002846	0.0005361874844043541	turn	hot cold water	self	shower
+002847	0.004675571397738275	turn	hot cold water	body	shower
+002848	0.0006073102118542629	turn	hot cold water	your body	shower
+002849	0.00041210504594746026	turn	hot cold water	body parts	shower
+002850	0.00041210504594746026	turn	hot cold water	certain parts	shower
+002851	0.003550244281946462	turn	hot cold water	shampoo	shower
+002852	0.0025171210403584898	turn	hot cold water	water	shower
+002853	0.0006959207838788113	turn	hot cold water	hot water	shower
+002854	0.0007194609832260008	turn	hot cold water	curtain or door	shower
+002855	0.0002221028977234347	turn	hot cold water	door	shower
+002856	0.0004786174561063761	turn	hot cold water	tap	shower
+002857	0.006056529793777701	turn	hot cold water	hair	shower
+002858	0.0005508964360278504	turn	hot cold water	cloth	shower
+002859	0.00293390615176624	turn	hot cold water	rinse	shower
+002860	0.0007194609832260008	turn	hot cold water	shampoo and rinse	shower
+002861	0.0003936644288279816	turn	hot cold water	fan	shower
+002862	0.00041210504594746026	turn	hot cold water	exhaust fan	shower
+002863	0.00041210504594746026	turn	hot cold water	my clothes	shower
+002864	0.0018905028279599537	turn	hot cold water	clothes	shower
+002865	0.0003936644288279816	turn	hot cold water	tub	shower
+002866	0.001652078128810348	turn	hot cold water	bathroom	shower
+002867	0.0002461309613165592	turn	hot cold water	lather	shower
+002868	0.00041210504594746026	turn	hot cold water	whole head	shower
+002869	0.0015441122454698444	turn	hot cold water	towel	shower
+002870	0.00020883789893802714	turn	hot cold water	towels	shower
+002871	0.00041210504594746026	turn	hot cold water	good temperature	shower
+002872	0.0008557226275984869	turn	hot cold water	temperature	shower
+002873	0.0009351142795476549	turn	hot cold water	scrub	shower
+002874	0.0	turn	hot cold water	scrub soap over your body	shower
+002875	0.0014389219664520017	turn	hot cold water	shampoo and soap	shower
+002876	0.002908465889169159	turn	hot cold water	soap	shower
+002877	0.00230246550904505	start	water	i	shower
+002878	0.001700544142170547	start	water	washcloth	shower
+002879	0.0014389219664520017	start	water	face and neck	shower
+002880	0.0020962171094339854	start	water	face	shower
+002881	0.0022442742709143718	start	water	conditioner	shower
+002882	0.001476785767899355	start	water	undress	shower
+002883	0.0015746577153119264	start	water	curtain	shower
+002884	0.0014389219664520017	start	water	door or curtain	shower
+002885	0.0010723749688087082	start	water	self	shower
+002886	0.00935114279547655	start	water	body	shower
+002887	0.0012146204237085258	start	water	your body	shower
+002888	0.0008242100918949205	start	water	body parts	shower
+002889	0.0008242100918949205	start	water	certain parts	shower
+002890	0.007100488563892924	start	water	shampoo	shower
+002891	0.0013918415677576226	start	water	hot water	shower
+002892	0.0014389219664520017	start	water	curtain or door	shower
+002893	0.0004442057954468694	start	water	door	shower
+002894	0.0009572349122127522	start	water	tap	shower
+002895	0.012113059587555403	start	water	hair	shower
+002896	0.0011017928720557007	start	water	cloth	shower
+002897	0.00586781230353248	start	water	rinse	shower
+002898	0.0014389219664520017	start	water	shampoo and rinse	shower
+002899	0.0007873288576559632	start	water	fan	shower
+002900	0.0008242100918949205	start	water	exhaust fan	shower
+002901	0.0008242100918949205	start	water	my clothes	shower
+002902	0.0037810056559199074	start	water	clothes	shower
+002903	0.0007873288576559632	start	water	tub	shower
+002904	0.003304156257620696	start	water	bathroom	shower
+002905	0.0004922619226331184	start	water	lather	shower
+002906	0.0008242100918949205	start	water	whole head	shower
+002907	0.0030882244909396887	start	water	towel	shower
+002908	0.0004176757978760543	start	water	towels	shower
+002909	0.0008242100918949205	start	water	good temperature	shower
+002910	0.0017114452551969738	start	water	temperature	shower
+002911	0.0018702285590953098	start	water	scrub	shower
+002912	0.0	start	water	scrub soap over your body	shower
+002913	0.0028778439329040033	start	water	shampoo and soap	shower
+002914	0.005816931778338318	start	water	soap	shower
+002915	0.0034536982635675756	exit	shower	i	shower
+002916	0.002550816213255821	exit	shower	washcloth	shower
+002917	0.0021583829496780024	exit	shower	face and neck	shower
+002918	0.003144325664150978	exit	shower	face	shower
+002919	0.0033664114063715576	exit	shower	conditioner	shower
+002920	0.0022151786518490326	exit	shower	undress	shower
+002921	0.0023619865729678897	exit	shower	curtain	shower
+002922	0.0021583829496780024	exit	shower	door or curtain	shower
+002923	0.0016085624532130626	exit	shower	self	shower
+002924	0.014026714193214827	exit	shower	body	shower
+002925	0.0018219306355627886	exit	shower	your body	shower
+002926	0.0012363151378423807	exit	shower	body parts	shower
+002927	0.0012363151378423807	exit	shower	certain parts	shower
+002928	0.010650732845839386	exit	shower	shampoo	shower
+002929	0.00755136312107547	exit	shower	water	shower
+002930	0.002087762351636434	exit	shower	hot water	shower
+002931	0.0021583829496780024	exit	shower	curtain or door	shower
+002932	0.0006663086931703041	exit	shower	door	shower
+002933	0.0014358523683191285	exit	shower	tap	shower
+002934	0.018169589381333104	exit	shower	hair	shower
+002935	0.001652689308083551	exit	shower	cloth	shower
+002936	0.00880171845529872	exit	shower	rinse	shower
+002937	0.0021583829496780024	exit	shower	shampoo and rinse	shower
+002938	0.0011809932864839448	exit	shower	fan	shower
+002939	0.0012363151378423807	exit	shower	exhaust fan	shower
+002940	0.0012363151378423807	exit	shower	my clothes	shower
+002941	0.005671508483879861	exit	shower	clothes	shower
+002942	0.0011809932864839448	exit	shower	tub	shower
+002943	0.004956234386431045	exit	shower	bathroom	shower
+002944	0.0007383928839496776	exit	shower	lather	shower
+002945	0.0012363151378423807	exit	shower	whole head	shower
+002946	0.004632336736409534	exit	shower	towel	shower
+002947	0.0006265136968140815	exit	shower	towels	shower
+002948	0.0012363151378423807	exit	shower	good temperature	shower
+002949	0.002567167882795461	exit	shower	temperature	shower
+002950	0.0028053428386429647	exit	shower	scrub	shower
+002951	0.0	exit	shower	scrub soap over your body	shower
+002952	0.004316765899356005	exit	shower	shampoo and soap	shower
+002953	0.00872539766750748	exit	shower	soap	shower
+002954	0.001151232754522525	get	soapy	i	shower
+002955	0.0008502720710852735	get	soapy	washcloth	shower
+002956	0.0007194609832260008	get	soapy	face and neck	shower
+002957	0.0010481085547169927	get	soapy	face	shower
+002958	0.0011221371354571859	get	soapy	conditioner	shower
+002959	0.0007383928839496775	get	soapy	undress	shower
+002960	0.0007873288576559632	get	soapy	curtain	shower
+002961	0.0007194609832260008	get	soapy	door or curtain	shower
+002962	0.0005361874844043541	get	soapy	self	shower
+002963	0.004675571397738275	get	soapy	body	shower
+002964	0.0006073102118542629	get	soapy	your body	shower
+002965	0.00041210504594746026	get	soapy	body parts	shower
+002966	0.00041210504594746026	get	soapy	certain parts	shower
+002967	0.003550244281946462	get	soapy	shampoo	shower
+002968	0.0025171210403584898	get	soapy	water	shower
+002969	0.0006959207838788113	get	soapy	hot water	shower
+002970	0.0007194609832260008	get	soapy	curtain or door	shower
+002971	0.0002221028977234347	get	soapy	door	shower
+002972	0.0004786174561063761	get	soapy	tap	shower
+002973	0.006056529793777701	get	soapy	hair	shower
+002974	0.0005508964360278504	get	soapy	cloth	shower
+002975	0.00293390615176624	get	soapy	rinse	shower
+002976	0.0007194609832260008	get	soapy	shampoo and rinse	shower
+002977	0.0003936644288279816	get	soapy	fan	shower
+002978	0.00041210504594746026	get	soapy	exhaust fan	shower
+002979	0.00041210504594746026	get	soapy	my clothes	shower
+002980	0.0018905028279599537	get	soapy	clothes	shower
+002981	0.0003936644288279816	get	soapy	tub	shower
+002982	0.001652078128810348	get	soapy	bathroom	shower
+002983	0.0002461309613165592	get	soapy	lather	shower
+002984	0.00041210504594746026	get	soapy	whole head	shower
+002985	0.0015441122454698444	get	soapy	towel	shower
+002986	0.00020883789893802714	get	soapy	towels	shower
+002987	0.00041210504594746026	get	soapy	good temperature	shower
+002988	0.0008557226275984869	get	soapy	temperature	shower
+002989	0.0009351142795476549	get	soapy	scrub	shower
+002990	0.0	get	soapy	scrub soap over your body	shower
+002991	0.0014389219664520017	get	soapy	shampoo and soap	shower
+002992	0.002908465889169159	get	soapy	soap	shower
+002993	0.0012960559592475373	put	clothes	i	shower
+002994	0.0009572349122127523	put	clothes	washcloth	shower
+002995	0.0008099680026415598	put	clothes	face and neck	shower
+002996	0.0011799589031348248	put	clothes	face	shower
+002997	0.0012633001587115552	put	clothes	conditioner	shower
+002998	0.0008312815056290427	put	clothes	undress	shower
+002999	0.0008863735450923546	put	clothes	curtain	shower
+003000	0.0008099680026415598	put	clothes	door or curtain	shower
+003001	0.0006036389962900522	put	clothes	self	shower
+003002	0.005263750661298147	put	clothes	body	shower
+003003	0.0006837088469673151	put	clothes	your body	shower
+003004	0.000463947189252541	put	clothes	body parts	shower
+003005	0.000463947189252541	put	clothes	certain parts	shower
+003006	0.0039968592279235535	put	clothes	shampoo	shower
+003007	0.002833770765892633	put	clothes	water	shower
+003008	0.000783466484572389	put	clothes	hot water	shower
+003009	0.0008099680026415598	put	clothes	curtain or door	shower
+003010	0.000250043080367352	put	clothes	door	shower
+003011	0.000538826752235556	put	clothes	tap	shower
+003012	0.006818431373455385	put	clothes	hair	shower
+003013	0.0006201983100613344	put	clothes	cloth	shower
+003014	0.0033029867652147704	put	clothes	rinse	shower
+003015	0.0008099680026415598	put	clothes	shampoo and rinse	shower
+003016	0.0004431867725461773	put	clothes	fan	shower
+003017	0.000463947189252541	put	clothes	exhaust fan	shower
+003018	0.000463947189252541	put	clothes	my clothes	shower
+003019	0.0004431867725461773	put	clothes	tub	shower
+003020	0.0018599068655540737	put	clothes	bathroom	shower
+003021	0.0002770938352096809	put	clothes	lather	shower
+003022	0.000463947189252541	put	clothes	whole head	shower
+003023	0.0017383590500066259	put	clothes	towel	shower
+003024	0.0002351093663484443	put	clothes	towels	shower
+003025	0.000463947189252541	put	clothes	good temperature	shower
+003026	0.0009633711398543082	put	clothes	temperature	shower
+003027	0.0010527501322596291	put	clothes	scrub	shower
+003028	0.0	put	clothes	scrub soap over your body	shower
+003029	0.0016199360052831196	put	clothes	shampoo and soap	shower
+003030	0.003274346159034794	put	clothes	soap	shower
+003031	0.00230246550904505	dry	self	i	shower
+003032	0.001700544142170547	dry	self	washcloth	shower
+003033	0.0014389219664520017	dry	self	face and neck	shower
+003034	0.0020962171094339854	dry	self	face	shower
+003035	0.0022442742709143718	dry	self	conditioner	shower
+003036	0.001476785767899355	dry	self	undress	shower
+003037	0.0015746577153119264	dry	self	curtain	shower
+003038	0.0014389219664520017	dry	self	door or curtain	shower
+003039	0.00935114279547655	dry	self	body	shower
+003040	0.0012146204237085258	dry	self	your body	shower
+003041	0.0008242100918949205	dry	self	body parts	shower
+003042	0.0008242100918949205	dry	self	certain parts	shower
+003043	0.007100488563892924	dry	self	shampoo	shower
+003044	0.0050342420807169795	dry	self	water	shower
+003045	0.0013918415677576226	dry	self	hot water	shower
+003046	0.0014389219664520017	dry	self	curtain or door	shower
+003047	0.0004442057954468694	dry	self	door	shower
+003048	0.0009572349122127522	dry	self	tap	shower
+003049	0.012113059587555403	dry	self	hair	shower
+003050	0.0011017928720557007	dry	self	cloth	shower
+003051	0.00586781230353248	dry	self	rinse	shower
+003052	0.0014389219664520017	dry	self	shampoo and rinse	shower
+003053	0.0007873288576559632	dry	self	fan	shower
+003054	0.0008242100918949205	dry	self	exhaust fan	shower
+003055	0.0008242100918949205	dry	self	my clothes	shower
+003056	0.0037810056559199074	dry	self	clothes	shower
+003057	0.0007873288576559632	dry	self	tub	shower
+003058	0.003304156257620696	dry	self	bathroom	shower
+003059	0.0004922619226331184	dry	self	lather	shower
+003060	0.0008242100918949205	dry	self	whole head	shower
+003061	0.0030882244909396887	dry	self	towel	shower
+003062	0.0004176757978760543	dry	self	towels	shower
+003063	0.0008242100918949205	dry	self	good temperature	shower
+003064	0.0017114452551969738	dry	self	temperature	shower
+003065	0.0018702285590953098	dry	self	scrub	shower
+003066	0.0	dry	self	scrub soap over your body	shower
+003067	0.0028778439329040033	dry	self	shampoo and soap	shower
+003068	0.005816931778338318	dry	self	soap	shower

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0005486" url="http://www.freepatentsonline.com/y2003/0018531.html" time="2012-07-12-22:03" support="31" score="0.07077651512402976" bingtitle="Point-of-sale commercial transaction processing system using ..." webtitle="Point-of-sale commercial transaction processing system using artificial intelligence assisted by human intervention - Mahaffy, Kevin E.">
+			<query id="000281" bing-rank="119"/>
+			<query id="000442" bing-rank="221"/>
+			<query id="000448" bing-rank="48"/>
+			<query id="001180" bing-rank="179"/>
+			<query id="000168" bing-rank="47"/>
+			<query id="000888" bing-rank="89"/>
+			<query id="000537" bing-rank="164"/>
+			<query id="001265" bing-rank="27"/>
+			<query id="001165" bing-rank="63"/>
+			<query id="000568" bing-rank="65"/>
+			<query id="001108" bing-rank="92"/>
+			<query id="001014" bing-rank="81"/>
+			<query id="001177" bing-rank="187"/>
+			<query id="000257" bing-rank="26"/>
+			<query id="001353" bing-rank="133"/>
+			<query id="000592" bing-rank="236"/>
+			<query id="000264" bing-rank="225"/>
+			<query id="000951" bing-rank="22"/>
+			<query id="001045" bing-rank="58"/>
+			<query id="001189" bing-rank="221"/>
+			<query id="001454" bing-rank="43"/>
+			<query id="000417" bing-rank="48"/>
+			<query id="000946" bing-rank="61"/>
+			<query id="000574" bing-rank="19"/>
+			<query id="000542" bing-rank="56"/>
+			<query id="000730" bing-rank="94"/>
+			<query id="000042" bing-rank="94"/>
+			<query id="000105" bing-rank="65"/>
+			<query id="000100" bing-rank="100"/>
+			<query id="001170" bing-rank="34"/>
+			<query id="000355" bing-rank="87"/>
+	<description>... and video confirmation ... behind a fast food restaurant is the ability to rapidly fulfill food orders placed by a customer at the restaurant&apos;s order placement counter.</description>
+	<body>
+		A SumoBrain Solutions Company 
+ GO TO ADVANCED SEARCH 
+ Home | Search | Communities | Products&amp;Services | About Us | Help 
+
+ Login Sign Up 
+ Title: Point-of-sale commercial transaction processing system using artificial intelligence assisted by human intervention United States Patent Application 20030018531 Kind Code: A1 Abstract: A point-of-sale commercial transaction processing system, particularly suitable for the fast food industry, is provided. The transaction processing system utilizes (1) a customer interaction terminal (CIT) having a video display, an audio speaker, a microphone, and preferably a printer, (2) a computer system in communication with the customer interaction terminal (CIT) and running artificial intelligence routines to process or pre-process verbal requests provided into the microphone of the customer interaction terminal, and (3) a human-controlled response system in communication with the computer system which completes, corrects or verifies requests that cannot be satisfactorily completed by the artificial intelligence routines alone. The human-controlled response system is preferably in communication with the customer interaction terminal (CIT) and the customer via a high speed network connection. 
+ 
+ Inventors: Mahaffy, Kevin E. (Victorville, CA, US)
+Mahaffy, David B. (Fresno, CA, US)
+Schmidt, Eric E. (Hesperia, CA, US)
+ Application Number: 10/151593 Publication Date: 01/23/2003 Filing Date: 05/20/2002 Export Citation: Click for automatic bibliography generation Primary Class: 705/16 Other Classes: 704/E15.045, 704/E13.008 International Classes: G07F9/02 ; G10L13/04 ; G10L15/26 ; H04L12/58 ; (IPC1-7): G06F17/60 View Patent Images: Download PDF 20030018531         PDF help Related US Applications: 
+ 20030220841 Method and system for merchant-to-merchant referrals and item brokering November, 2003 Maritzen 20090307138 Innovation Marketplace Systems December, 2009 Steiner 20070226046 Sales agent feedback system September, 2007 Share 20070083403 Referral management method, apparatus and system April, 2007 Baldwin et al. 20080201257 ALTERNATIVE METHOD AND SYSTEM FOR LEASING, FINANCING AND PURCHASING RESIDENTIAL REAL ESTATE August, 2008 Lewis et al. 20050065821 Method for competitive prescription drug and/or bidding service provider selection March, 2005 Kalies Jr. 20080097798 Method and System for Creating and Processing Rental Vehicle Reservations Using Vouchers April, 2008 Devallance et al. 20080027783 System and method for staffing and rating January, 2008 Hughes et al. 20050278216 System and method for distributing an identifier redeemable for a plurality of products December, 2005 Graves 20100076817 MANAGEMENT OF E-TICKETS March, 2010 Claverie et al. 20090119151 Online Advertisement Selection May, 2009 De Heer 
+ Attorney, Agent or Firm: David, Esq. Gordon P. (65 Woods End Road, Stamford, CT, 06905, US)
+ Claims: 1. A point-of-sale ticket vending system for processing a customer transaction based upon a verbal instruction from the customer, comprising: a) a first customer interaction terminal (CIT) adapted to receive the verbal instructions from a customer as to which event the customer seeks to purchase tickets, and convert the verbal instruction into an audio signal; b) a first computer system in communication with said first CIT and including an artificial intelligence (AI) system which receives said audio signal and processes said audio signal to at least partially recognize the verbal instruction from the customer; c) a display on which said first computer system displays seating charts and lists available seats for events; and d) a human-controlled response system in communication with said first computer system and adapted intervene to interact with the customer when said AI system has not satisfactorily recognized the verbal instruction from the customer.
+
+2. A point-of-sale ticket vending system according to claim 1, wherein: said first CIT further includes a ticket printing system.
+
+3. A point-of-sale ticket vending system according to claim 1, wherein: said first CIT is adapted to provide to the customer at least one of an audio and video confirmation that the verbal instruction was recognized.
+
+4. A point-of-sale ticket vending system according to claim 1, wherein: said computer system animates a character on said display of said first CIT which interacts with the customer.
+
+5. A point-of-sale ticket vending system according to claim 1, wherein: said first CIT includes a payment system.
+
+6. A point-of-sale ticket vending system according to claim 1, wherein: said first CIT includes a video camera.
+
+7. A point-of-sale ticket vending system according to claim 1, wherein: said human-controlled response system is off-premises relative to said first CIT and said first computer system.
+
+8. A point-of-sale ticket vending system according to claim 1, further comprising: a financial card reader adapted to receive a financial card to effect payment for the ticket.
+
+9. A point-of-sale ticket vending system according to claim 8, further comprising: a signature pad for input of a customer signature in electronic form to authorize payment for the ticket.
+
+ Description: 
+[0001] This application is a continuation-in-part of U.S. Ser. No. 09/657,719, filed Sep. 8, 2000, which is hereby incorporated by reference herein in its entirety.
+ 
+BACKGROUND OF THE INVENTION
+
+[0002] 1. Field of the Invention
+
+[0003] This invention relates broadly to data processing systems for commercial transactions. More particularly, this invention relates to point-of-sale (POS) registers and systems for communicating therewith to facilitate and expedite the ordering and purchase of food items from a restaurant. Notably, the invention utilizes artificial intelligence to at least partially process transactions, and relies on human intervention where the artificial intelligence is unable to complete the transactions.
+
+[0004] 2. State of the Art
+
+[0005] The concept behind a fast food restaurant is the ability to rapidly fulfill food orders placed by a customer at the restaurant&apos;s order placement counter. In the current fast food operation model, a plurality of point-of-sale (POS) registers are located on the counter, and the registers are each operated by a cashier behind the counter to enter a customer&apos;s order into the register, for example via a keypad. The order is then communicated, for example orally by the cashier, by printed instructions, or by video display, to employees who prepare and assemble the customer&apos;s order. In addition, the purchase price of the order is totalled and the customer provides payment to the cashier. Finally, the order is delivered to the customer, either at the register or in an order pick-up queue.
+
+[0006] The primary bottleneck to serving greater numbers of customers is in the processing of the orders (i.e., order taken, payment transaction, and order delivery). Research indicates that profits for a fast food restaurant can be increased by decreasing the transaction time for the orders, such that more orders can be entered in a given time frame. However, using the order system presently in place, order process time has been substantially optimized. Training techniques for cashiers have been refined over the years to arrive at the current techniques. While one manner of increasing the ability to process orders would be to provide additional point-of-sale registers on the order counter and cashiers to operate the registers, counter space is limited. Indeed, fast food restaurants are designed to provide a market researched optimum split between order processing space (customer waiting area and order counter, order fulfillment space (kitchen and order preparation), and dining space. It would not be desirable to disrupt the allocation of space within a fast food restaurant.
+
+[0007] A number of systems have been proposed and even attempted in trials which are purported to increase order processing. For example, U.S. Pat. No. 5,235,509 to Mueller et al. discloses a customer self-order system which displays menu items on a touch screen and steps the customer through ordering from various food categories: burgers, fries, salads, drinks, desserts, etc. U.S. Pat. No. 5,845,263 to Camaisa et al. discloses an interactive visual order system which provides information in addition to menu items and price to the customer. For example, the customer can obtain information relating to method of preparation and nutritional content, thereby allowing the customer to make a more informed decision. None of these systems or other alternatives has gained acceptance. It is believed that the failure of the proposed systems all have a common drawback. In a fast food environment, where lines of customers are frequently encountered, some customers may be intimidated or confused by the unfamiliar systems and require employee assistance, which slows down the entire system. An additional drawback to the proposed systems is their inability to effectively promote sales with the degree of success provided by a human cashier. Customers all know the ubiquitous phrase “do you want fries with your order”. The phrase is used so commonly because it effectively increases sales. In addition, the current trend to move customers to an ‘upsized’ order of french fries or soft drink also substantially increases the sales at a restaurant, and any new system must be able to provide such promotional features as effectively as a human cashier. Otherwise, the systems will not gain favor by the restaurant operators and will not be utilized.
+ 
+SUMMARY OF THE INVENTION
+
+[0008] It is therefore an object of the invention to provide a system which can process a great number of fast food orders.
+
+[0009] It is another object of the invention to provide an order system which provides a familiar order experience to the customer.
+
+[0010] It is a further object of the invention to provide a fast food ordering system which optimizes the use of order processing space in a fast food restaurant.
+
+[0011] It is an additional object of the invention to provide a fast food ordering system in which the numbers of behind-the-counter cashiers may be reduced or even eliminated, thereby providing additional room for order fulfillment such that additional orders may be processed.
+
+[0012] Another object of the invention is to provide a fast food ordering system which does not require customer ‘training’ and provides a relatively seamless experience for the customer relative to conventional fast food ordering.
+
+[0013] A further object of the invention is to provide a fast food ordering system which effectively promotes products in a manner to increase sales for the restaurant.
+
+[0014] It is yet another object of the invention to provide a point-of-sale commercial transaction processing system which is adaptable for use in a variety of commercial industries and establishments.
+
+[0015] In accord with these objects, which will be discussed in detail below, a point-of-sale commercial transaction processing system, particularly suitable for the fast food industry, is provided. The transaction processing system utilizes (1) a customer interaction terminal (CIT) having a video display, an audio speaker, a microphone, and preferably a printer, (2) a computer system coupled or integral with the customer interaction terminal (CIT) and running artificial intelligence routines to process or pre-process verbal requests provided into the microphone of the customer interaction terminal, and (3) a human-controlled response system which completes, corrects or verifies requests that cannot be satisfactorily completed by the artificial intelligence routines alone. The human-controlled response system is preferably in communication with the customer interaction terminal (CIT) (and the customer) via a high speed voice over internet protocol (VoIP) or data connection.
+
+[0016] According to a preferred embodiment of the invention, the computer system presents on the customer interaction terminal (CIT) a graphic image of a virtual cashier which is programmed to interact graphically and through audio with the customer in a manner to which the customer is accustomed from prior experience with human cashiers in conventional fast food restaurants. That is, the virtual cashier preferably includes an image of a face of cashier which auditorily greets, engages, and prompts the customer to verbally provide the fast food order to the virtual cashier (Hello. Please tell me your order.). The customers verbal orders are received by the microphone of the CIT and transmitted to the computer system where they are processed. As the virtual cashier image is computer generated, the face and other features of the cashier may be human-like or whimsical, and may even be representative of a mascot of the restaurant.
+
+[0017] The artificial intelligence routines of the computer system are preferably adapted to process the verbal orders such that a complete fast food order (menu item selection, special preparation requests, eat in or take out, etc.) can be processed. The complete order may require multiple interactions between the customer and virtual cashier; i.e., after the customer orders a sandwich, the virtual cashier can engage the customer and ask whether the customer would like a soft drink and, if so, which size. Furthermore, according to a preferred aspect of the invention, the routines in the computer system which operate the virtual cashier are adapted to follow techniques which are shown to increase restaurant sales. For example, the virtual cashier can ask whether the customer would like french fries with an order, or whether for a nominal additional sum the customer would prefer to upsize the french fries and drink order. In addition, the virtual cashier can promote special offers and provide advertisements.
+
+[0018] It is recognized that current state of the art artificial intelligence alone may not be sufficient to satisfactorily complete all fast food orders. As such, according to a preferred aspect of the invention, when the computer system is unable to satisfactorily complete a fast food order via the human customer-artificial intelligence virtual cashier interaction, or at any time upon customer request, a human-controlled response system, preferably located off-site of the CIT, is employed to complete, correct or verify the order by interaction with the customer via the CIT. The interaction of the human-controlled response system is through the graphics and audio of the CIT and is preferably indistinguishable to the customer relative to interaction with the artificial intelligence routines. That is, the customer is preferably unaware of any shortcoming in the AI processing and perceives the order interaction as one continuous interaction even if the response system is utilized within an order. The availability of human intervention permits the use of artificial intelligence even as the state of the art artificial intelligence may not yet be ripe for use in all fast food order transactions.
+
+[0019] Once an order has been completely processed, payment may be made at the CIT, using a debit or credit card or cash, and the order is sent to order fulfillment employees who prepare the order. The customer is also directed to a pick-up location and may be given an order number corresponding to his or her order.
+
+[0020] Another embodiment is provided particularly adapted for the purchase of tickets to entertainment events.
+
+[0021] It will be recognized that the above described systems eliminates the need and space required for traditional human cashiers and, therefore, a greater amount of the order processing space may be devoted to CITs. In addition, CITs may be placed on tables, on walls, at kiosks, at drive-through locations, in portable devices, and at other locations. Furthermore, as the CITs preferably display a face and provide a spoken dialogue with the customer, the customer does not require any particular training to use the system; i.e., use of the system of the invention provides a substantially seamless experience, in terms of ordering, from conventional fast food ordering experiences. The customer interacts in the same manner as he or she has previously with human cashiers. Moreover, the system, while easy to use for the customer, provides substantial novelty which attracts and retains customers.
+
+[0022] Additional objects and advantages of the invention will become apparent to those skilled in the art upon reference to the detailed description taken in conjunction with the provided figures.
+ 
+BRIEF DESCRIPTION OF THE DRAWINGS
+
+[0023] FIG. 1 is a schematic diagram of a point-of-sale commercial transaction processing system according to the invention;
+
+[0024] FIG. 2 , depicted as FIGS. 2A and 2B , is a flow chart of a first embodiment of implementing the point-of-sale commercial transaction processing system of the invention;
+
+[0025] FIG. 3 , depicted as FIGS. 3A and 3B , is a flow chart of a second embodiment of implementing the point-of-sale commercial transaction processing system of the invention.
+ 
+BRIEF DESCRIPTION OF THE APPENDIX
+
+[0026] The enclosed CD-ROM Appendix is incorporated herein by reference. The CD-ROM is in ISO 9660 Macintosh® format and includes the following text files organized into the listed directories: 1
+	</body>
+</document>

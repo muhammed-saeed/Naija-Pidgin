@@ -1,0 +1,552 @@
+det(items-3, all-2)
+dobj(remove-1, items-3)
+det(surface-7, the-5)
+nn(surface-7, table-6)
+prep_from(remove-1, surface-7)
+
+det(items-3, the-2)
+dobj(place-1, items-3)
+det(location-7, a-5)
+amod(location-7, different-6)
+prep_in(place-1, location-7)
+
+det(rag-4, a-2)
+amod(rag-4, wet-3)
+dobj(obtain-1, rag-4)
+
+det(area-5, the-2)
+amod(area-5, entire-3)
+nn(area-5, surface-4)
+dobj(wipe-1, area-5)
+det(table-8, the-7)
+prep_of(area-5, table-8)
+det(rag-11, the-10)
+prep_with(area-5, rag-11)
+
+det(napkin-3, a-2)
+dobj(take-1, napkin-3)
+
+det(napkin-3, the-2)
+dep(wet-1, napkin-3)
+
+det(table-3, the-2)
+dobj(wipe-1, table-3)
+det(napkin-7, the-5)
+amod(napkin-7, wet-6)
+prep_with(wipe-1, napkin-7)
+
+dobj(clear-1, table-2)
+
+dobj(wipe-1, table-2)
+amod(cloth-5, wet-4)
+prep_with(wipe-1, cloth-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, dishes-3)
+
+dobj(put-1, dishes-2)
+prep_in(put-1, sink-4)
+prep_in(put-1, dishwasher-6)
+conj_or(sink-4, dishwasher-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, placemats-3)
+
+dobj(wipe-1, table-2)
+amod(cloth-5, damp-4)
+prep_with(wipe-1, cloth-5)
+
+dobj(empty-1, cloth-2)
+prep_into(empty-1, trash-4)
+prep_into(empty-1, sink-6)
+conj_or(trash-4, sink-6)
+
+amod(dishes-3, dirty-2)
+dobj(remove-1, dishes-3)
+
+dobj(put-1, dishes-2)
+prep_into(put-1, dishwasher-4)
+
+dobj(remove-1, silverware-2)
+
+nn(cloth-3, table-2)
+dobj(remove-1, cloth-3)
+
+det(dishes-3, all-2)
+dobj(remove-1, dishes-3)
+
+nn(cover-3, table-2)
+dobj(remove-1, cover-3)
+
+dobj(wipe-1, table-2)
+dep(wipe-1, top-3)
+
+det(dishes-3, all-2)
+dobj(remove-1, dishes-3)
+
+nn(cover-3, table-2)
+dobj(remove-1, cover-3)
+
+dobj(wipe-1, table-2)
+
+amod(cover-4, new-2)
+nn(cover-4, table-3)
+dobj(put-1, cover-4)
+
+det(cloth-4, a-2)
+nn(cloth-4, cleaning-3)
+dobj(get-1, cloth-4)
+
+det(cloth-4, the-2)
+nn(cloth-4, cleaning-3)
+dobj(make-1, cloth-4)
+dep(make-1, damp-5)
+
+dobj(wipe-1, table-2)
+prepc_with(wipe-1, cleaning-4)
+dobj(cleaning-4, cloth-5)
+
+dobj(remove-1, everything-2)
+det(table-5, the-4)
+prep_from(remove-1, table-5)
+nsubj(is-7, table-5)
+rcmod(table-5, is-7)
+prep_on(is-7, it-9)
+
+det(bucket-3, a-2)
+dobj(get-1, bucket-3)
+prep_of(bucket-3, water-5)
+
+det(soap-3, some-2)
+dobj(get-1, soap-3)
+
+det(rag-3, a-2)
+dobj(get-1, rag-3)
+
+dep(wet-4, get-1)
+det(rag-3, the-2)
+dobj(wet-4, rag-3)
+conj_and(wet-4, soapy-6)
+
+det(table-3, the-2)
+dobj(rub-1, table-3)
+dep(rub-1, all-4)
+prep_over(rub-1, it-6)
+mark(clean-10, until-7)
+nsubj(clean-10, it-8)
+cop(clean-10, is-9)
+advcl(rub-1, clean-10)
+
+det(objects-3, all-2)
+dobj(remove-1, objects-3)
+det(table-6, the-5)
+prep_from(remove-1, table-6)
+
+dep(wipe-1, cleaning-2)
+dobj(cleaning-2, cloth-3)
+det(surface-6, the-5)
+prep_around(cleaning-2, surface-6)
+prep_of(surface-6, table-8)
+
+dobj(replace-1, objects-2)
+nsubj(are-4, objects-2)
+rcmod(objects-2, are-4)
+aux(remain-6, to-5)
+xcomp(are-4, remain-6)
+det(table-9, the-8)
+prep_on(remain-6, table-9)
+
+prt(take-1, away-2)
+predet(stuff-5, all-3)
+det(stuff-5, the-4)
+dobj(take-1, stuff-5)
+det(table-8, the-7)
+prep_from(take-1, table-8)
+
+det(table-3, the-2)
+dobj(wipe-1, table-3)
+
+dobj(identify-1, dishes-2)
+
+dobj(remove-1, dishes-2)
+
+dobj(place-1, dishes-2)
+prep_in(place-1, sink-4)
+
+dobj(identify-1, rag-2)
+
+dobj(use-1, rag-2)
+aux(wipe-4, to-3)
+xcomp(use-1, wipe-4)
+prt(wipe-4, down-5)
+dobj(wipe-4, table-6)
+
+det(objects-3, all-2)
+dobj(take-1, objects-3)
+nn(top-6, table-5)
+prep_off(take-1, top-6)
+
+nn(fluid-3, cleaning-2)
+dobj(apply-1, fluid-3)
+nn(top-6, table-5)
+prep_to(apply-1, top-6)
+
+prt(wipe-1, down-2)
+nn(top-4, table-3)
+dobj(wipe-1, top-4)
+
+dobj(remove-1, dishes-2)
+prep_from(remove-1, table-4)
+
+dobj(wipe-1, table-2)
+amod(rag-5, wet-4)
+prep_with(wipe-1, rag-5)
+
+det(objects-3, any-2)
+dobj(take-1, objects-3)
+det(table-6, the-5)
+prep_off(take-1, table-6)
+
+det(cloth-3, a-2)
+dobj(get-1, cloth-3)
+
+amod(cloth-3, wet-1)
+det(cloth-3, the-2)
+prep_with(cloth-3, water-5)
+
+det(table-3, the-2)
+dobj(wipe-1, table-3)
+det(cloth-6, the-5)
+prep_with(wipe-1, cloth-6)
+
+prt(pick-1, up-2)
+det(objects-4, the-3)
+dobj(pick-1, objects-4)
+det(table-7, the-6)
+prep_on(objects-4, table-7)
+
+det(table-3, the-2)
+dep(spray-1, table-3)
+nn(solution-6, cleaning-5)
+prep_with(table-3, solution-6)
+
+det(cloth-3, a-2)
+dobj(get-1, cloth-3)
+
+det(solution-4, the-2)
+nn(solution-4, cleaning-3)
+dobj(wipe-1, solution-4)
+det(table-7, the-6)
+prep_over(wipe-1, table-7)
+
+det(objects-3, all-2)
+dobj(remove-1, objects-3)
+
+prep_with(spray-1, cleaner-3)
+
+prep_with(wipe-1, rag-3)
+
+dobj(remove-1, eveything-2)
+prep_off_of(eveything-2, table-5)
+
+dobj(wipe-1, table-2)
+amod(clothe-5, damp-4)
+prep_with(wipe-1, clothe-5)
+
+amod(conditioner-4, appropriate-2)
+amod(conditioner-4, tabe-3)
+dobj(apply-1, conditioner-4)
+prep_to(apply-1, table-6)
+conj_and(apply-1, allow-8)
+aux(dry-10, to-9)
+xcomp(allow-8, dry-10)
+
+dobj(remove-1, everything-2)
+prep_from(remove-1, table-4)
+
+dobj(add-1, cleansor-2)
+prep_to(add-1, table-4)
+
+dobj(use-1, cloth-2)
+aux(wipe-4, to-3)
+xcomp(use-1, wipe-4)
+amod(surface-6, entire-5)
+dobj(wipe-4, surface-6)
+
+dobj(let-1, table-2)
+dep(let-1, dry-3)
+
+det(table-3, the-2)
+dobj(clear-1, table-3)
+
+amod(cloth-2, wet-1)
+
+dobj(clean-1, surface-2)
+prep_of(surface-2, table-4)
+prep_with(clean-1, cloth-6)
+
+dobj(dry-1, surface-2)
+amod(cloth-5, dry-4)
+prep_with(dry-1, cloth-5)
+
+dobj(clear-1, all-2)
+dep(clear-1, thrash-3)
+det(table-6, the-5)
+prep_from(thrash-3, table-6)
+
+det(tablecloth-4, the-2)
+amod(tablecloth-4, used-3)
+dobj(replace-1, tablecloth-4)
+det(tablecloth-8, a-6)
+amod(tablecloth-8, new-7)
+prep_with(replace-1, tablecloth-8)
+
+det(items-3, all-2)
+dobj(remove-1, items-3)
+det(table-6, the-5)
+prep_from(remove-1, table-6)
+
+det(cloth-4, a-2)
+amod(cloth-4, wet-3)
+dobj(use-1, cloth-4)
+aux(wipe-6, to-5)
+xcomp(use-1, wipe-6)
+det(table-8, the-7)
+dobj(wipe-6, table-8)
+
+predet(dishes-4, all-2)
+det(dishes-4, the-3)
+dobj(gather-1, dishes-4)
+
+det(sink-4, the-3)
+prep_in(put-1, sink-4)
+
+dep(napkins-4, all-2)
+amod(napkins-4, teh-3)
+dobj(gather-1, napkins-4)
+
+det(basket-5, the-3)
+nn(basket-5, laundry-4)
+prep_in(put-1, basket-5)
+
+det(rag-3, a-2)
+dobj(grab-1, rag-3)
+
+nn(crumbs-3, teh-2)
+dobj(wipe-1, crumbs-3)
+det(table-6, the-5)
+prep_from(wipe-1, table-6)
+poss(hand-9, your-8)
+prep_into(wipe-1, hand-9)
+
+dobj(dump-1, crumbs-2)
+prep_in(dump-1, trash-4)
+
+det(dishes-3, all-2)
+dobj(remove-1, dishes-3)
+det(table-6, the-5)
+prep_from(remove-1, table-6)
+
+conj_and(remoetablecloth-1, put-3)
+nn(room-6, laundry-5)
+prep_in(put-3, room-6)
+
+det(dishes-3, all-2)
+dobj(remove-1, dishes-3)
+det(table-6, the-5)
+prep_from(remove-1, table-6)
+
+dobj(remoetable-1, cloth-2)
+conj_and(remoetable-1, put-4)
+nn(room-7, laundry-6)
+prep_in(put-4, room-7)
+
+dep(damp-3, get-1)
+dobj(damp-3, sponge-2)
+
+prt(wipe-1, down-2)
+dobj(wipe-1, table-3)
+prep_with(wipe-1, sponge-5)
+
+det(cloth-4, a-2)
+amod(cloth-4, damp-3)
+dobj(get-1, cloth-4)
+
+det(table-3, the-2)
+dobj(wipe-1, table-3)
+
+dobj(remove-1, everything-2)
+det(table-5, the-4)
+prep_from(remove-1, table-5)
+advmod(remove-1, first-6)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+det(type-6, a-5)
+prep_on(instructions-3, type-6)
+prep_of(type-6, furniture-8)
+dep(appropriate-10, cleaner-9)
+amod(type-6, appropriate-10)
+det(table-13, the-12)
+prep_for(instructions-3, table-13)
+
+det(cleaner-4, the-2)
+nn(cleaner-4, furniture-3)
+dobj(use-1, cleaner-4)
+aux(clean-6, to-5)
+xcomp(use-1, clean-6)
+det(table-8, the-7)
+dobj(clean-6, table-8)
+
+nn(cups-3, dishes-2)
+dobj(remove-1, cups-3)
+dobj(remove-1, utensils-5)
+conj_and(cups-3, utensils-5)
+det(table-8, the-7)
+prep_from(remove-1, table-8)
+
+det(items-3, those-2)
+dobj(put-1, items-3)
+det(dishwasher-6, the-5)
+prep_in(put-1, dishwasher-6)
+prep_in(put-1, sink-8)
+conj_or(dishwasher-6, sink-8)
+
+dobj(remove-1, napkins-2)
+amod(items-5, other-4)
+dobj(remove-1, items-5)
+conj_and(napkins-2, items-5)
+det(table-8, the-7)
+prep_from(remove-1, table-8)
+
+det(table-3, the-2)
+dobj(wipe-1, table-3)
+
+dobj(take-1, everything-2)
+det(table-5, the-4)
+prep_off(take-1, table-5)
+
+det(cloth-4, a-2)
+amod(cloth-4, damp-3)
+dobj(use-1, cloth-4)
+conj_and(use-1, wipe-6)
+dobj(wipe-6, surface-7)
+
+det(towel-3, a-2)
+dobj(use-1, towel-3)
+amod(table-6, dry-5)
+prep_to(use-1, table-6)
+amod(table-6, top-7)
+
+prt(pick-1, up-2)
+conj_and(pick-1, remove-4)
+dep(silverware-7, all-5)
+nn(silverware-7, plates-6)
+dobj(remove-4, silverware-7)
+amod(utensils-10, serving-9)
+dobj(remove-4, utensils-10)
+conj_and(silverware-7, utensils-10)
+
+det(glasses-4, any-2)
+amod(glasses-4, napkins-3)
+iobj(remove-1, glasses-4)
+dobj(remove-1, food-5)
+
+det(table-3, the-2)
+dobj(wipe-1, table-3)
+aux(remove-5, to-4)
+infmod(table-3, remove-5)
+det(messes-7, any-6)
+dobj(remove-5, messes-7)
+
+det(sponge-3, a-2)
+dobj(get-1, sponge-3)
+
+det(sponge-3, the-2)
+dep(wet-1, sponge-3)
+
+dobj(add-1, soap-2)
+det(sponge-5, the-4)
+prep_to(add-1, sponge-5)
+
+det(table-3, the-2)
+dobj(wipe-1, table-3)
+
+dobj(remove-1, items-2)
+prep_from(remove-1, table-4)
+
+dep(soap-6, dishrag-2)
+amod(water-5, hot-4)
+prep_in(dishrag-2, water-5)
+dobj(rinse-1, soap-6)
+mark(preferred-8, if-7)
+advcl(rinse-1, preferred-8)
+
+prt(wipe-1, down-2)
+dobj(wipe-1, table-3)
+prep_with(wipe-1, dishrag-5)
+
+dobj(get-1, cloth-2)
+prepc_for(get-1, wiping-4)
+
+dep(wet-1, it-2)
+
+prt(clear-1, off-2)
+dep(things-4, all-3)
+dobj(clear-1, things-4)
+prep_on(clear-1, table-6)
+
+dobj(put-1, cloth-2)
+prep_on(put-1, table-4)
+
+det(area-3, all-2)
+dobj(wipe-1, area-3)
+dep(wipe-1, catching-4)
+dobj(catching-4, dirt-5)
+
+dobj(take-1, cloth-2)
+dobj(take-1, dirt-4)
+conj_and(cloth-2, dirt-4)
+conj_and(take-1, dump-6)
+dobj(dump-6, dirt-7)
+prep_in(dump-6, garbage-9)
+
+dobj(put-1, cloth-2)
+prt(put-1, away-3)
+
+dobj(take-1, dishes-2)
+prep_off(take-1, table-4)
+
+dobj(put-1, them-2)
+det(sink-5, the-4)
+prep_in(put-1, sink-5)
+
+dobj(get-1, cloth-2)
+
+dep(wet-1, it-2)
+
+prt(wipe-1, down-2)
+dobj(wipe-1, table-3)
+
+poss(wife-3, your-2)
+dobj(call-1, wife-3)
+
+dep(missed-4, tell-1)
+dobj(tell-1, her-2)
+nsubj(missed-4, she-3)
+det(spot-6, a-5)
+dobj(missed-4, spot-6)
+
+dobj(get-1, towel-2)
+
+amod(towel-2, wet-1)
+
+dobj(wipe-1, table-2)
+
+dep(dishes-4, all-2)
+amod(dishes-4, dirty-3)
+dobj(remove-1, dishes-4)
+
+dobj(wipe-1, table-2)
+prt(wipe-1, down-3)
+

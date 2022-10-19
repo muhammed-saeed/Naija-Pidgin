@@ -1,0 +1,549 @@
+dobj(locate-1, tv-2)
+prep_off(locate-1, switch-4)
+
+prt(press-1, off-2)
+dobj(press-1, switch-3)
+
+prt(locate-1, off-2)
+dobj(locate-1, switch-3)
+
+prt(toggle-1, off-2)
+dobj(toggle-1, switch-3)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+det(control-4, the-2)
+amod(control-4, remote-3)
+dobj(find-1, control-4)
+
+det(button-4, the-2)
+nn(button-4, on\/off-3)
+dobj(find-1, button-4)
+
+dobj(push-1, it-2)
+
+det(switch-4, the-2)
+nn(switch-4, power-3)
+dobj(find-1, switch-4)
+det(tv-7, the-6)
+prep_for(find-1, tv-7)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+det(position-7, the-5)
+amod(position-7, off-6)
+prep_to(turn-1, position-7)
+
+det(switch-5, the-2)
+nn(switch-5, tv-3)
+nn(switch-5, power-4)
+dobj(find-1, switch-5)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+det(position-7, the-5)
+amod(position-7, off-6)
+prep_to(turn-1, position-7)
+
+det(tv-3, the-2)
+dobj(find-1, tv-3)
+iobj(find-1, tv-3)
+dep(tv-3, s-4)
+nn(switch-6, power-5)
+dobj(find-1, switch-6)
+dep(tv-3, switch-6)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+det(position-7, the-5)
+amod(position-7, off-6)
+prep_to(turn-1, position-7)
+
+amod(control-3, remote-2)
+dobj(grab-1, control-3)
+
+dobj(point-1, remote-2)
+prep_at(point-1, tv-4)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+dobj(find-1, tv-2)
+iobj(find-1, tv-2)
+dep(tv-2, s-3)
+nn(switch-5, power-4)
+dobj(find-1, switch-5)
+dep(tv-2, switch-5)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+det(position-7, the-5)
+amod(position-7, off-6)
+prep_to(turn-1, position-7)
+
+acomp(find-1, remote-2)
+
+prt(find-1, off-2)
+dobj(find-1, button-3)
+
+dobj(push-1, it-2)
+
+prt(put-1, down-2)
+dobj(put-1, remote-3)
+
+acomp(locate-1, remote-2)
+
+dobj(locate-1, tv-2)
+
+prep_off(push-1, button-3)
+
+dobj(locate-1, tv-2)
+
+acomp(locate-1, remote-2)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+prep_on(press-1, remote-5)
+
+det(control-4, the-2)
+amod(control-4, remote-3)
+dobj(find-1, control-4)
+
+prt(pick-1, up-2)
+det(control-5, the-3)
+amod(control-5, remote-4)
+dobj(pick-1, control-5)
+
+det(control-4, the-2)
+amod(control-4, remote-3)
+dobj(point-1, control-4)
+det(tv-7, the-6)
+prep_at(point-1, tv-7)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(push-1, button-4)
+det(control-8, the-6)
+amod(control-8, remote-7)
+prep_on(push-1, control-8)
+
+prt(put-1, down-2)
+det(control-5, the-3)
+amod(control-5, remote-4)
+dobj(put-1, control-5)
+
+det(tv-3, the-2)
+dobj(locate-1, tv-3)
+dep(locate-1, remote-4)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+det(remote-7, the-6)
+prep_on(press-1, remote-7)
+
+advmod(inspect-2, visually-1)
+det(tv-4, the-3)
+dobj(inspect-2, tv-4)
+
+det(button-3, the-2)
+dobj(locate-1, button-3)
+det(tv-6, the-5)
+prep_on(locate-1, tv-6)
+partmod(tv-6, labeled-7)
+prep_as(labeled-7, power-9)
+
+det(button-3, the-2)
+dobj(push-1, button-3)
+
+det(tv-3, the-2)
+dobj(approach-1, tv-3)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+
+det(control-4, the-2)
+amod(control-4, remote-3)
+dobj(find-1, control-4)
+
+det(control-4, the-2)
+amod(control-4, remote-3)
+dobj(point-1, control-4)
+det(tv-7, the-6)
+prep_towards(point-1, tv-7)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(push-1, button-4)
+
+
+prt(walk-1, over-2)
+det(tv-5, the-4)
+prep_to(walk-1, tv-5)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(push-1, button-4)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(locating-1, button-4)
+det(tv-9, the-6)
+dep(tv-9, remote-7)
+cc(remote-7, or-8)
+prep_on(locating-1, tv-9)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(pressing-1, button-4)
+det(tv-9, the-6)
+dep(tv-9, remote-7)
+cc(remote-7, or-8)
+prep_on(pressing-1, tv-9)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(releasing-1, button-4)
+det(tv-9, the-6)
+dep(tv-9, remote-7)
+cc(remote-7, or-8)
+prep_on(releasing-1, tv-9)
+
+amod(control-3, remote-2)
+dobj(find-1, control-3)
+
+nn(button-3, power-2)
+dobj(push-1, button-3)
+amod(control-6, remote-5)
+prep_on(push-1, control-6)
+
+amod(control-3, remote-2)
+dobj(place-1, control-3)
+prep_on(place-1, table-5)
+
+dep(remote-2, get-1)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+dobj(locate-1, tv-2)
+dep(locate-1, remote-3)
+
+nn(button-3, power-2)
+dobj(locate-1, button-3)
+prep_on(locate-1, remote-5)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+mark(is-3, if-1)
+nsubj(is-3, tv-2)
+csubj(push-5, is-3)
+prep(is-3, on-4)
+nn(button-7, power-6)
+dobj(push-5, button-7)
+
+acomp(grab-1, remote-2)
+
+acomp(aim-1, remote-2)
+prep_at(aim-1, tv-4)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+prt(go-1, over-2)
+det(tv-5, the-4)
+prep_to(go-1, tv-5)
+
+prt(pick-1, up-2)
+det(control-6, the-3)
+nn(control-6, tv-4)
+amod(control-6, remote-5)
+dobj(pick-1, control-6)
+
+det(tv-3, the-2)
+iobj(point-1, tv-3)
+amod(control-5, remote-4)
+dobj(point-1, control-5)
+det(tv-8, the-7)
+prep_at(point-1, tv-8)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+det(control-8, the-6)
+amod(control-8, remote-7)
+prep_on(press-1, control-8)
+
+det(tv-4, the-3)
+prep_in(plug-1, tv-4)
+det(device-8, a-6)
+amod(device-8, clapper-7)
+prep_into(plug-1, device-8)
+
+det(tv-6, the-5)
+prep_in_front_of(get-1, tv-6)
+
+poss(hands-3, your-2)
+dobj(clap-1, hands-3)
+
+det(tv-4, the-3)
+prep_for(wait-1, tv-4)
+aux(shut-6, to-5)
+xcomp(wait-1, shut-6)
+prt(shut-6, off-7)
+
+dobj(locate-1, tv-2)
+
+prt(locate-1, off-2)
+dobj(locate-1, switch-3)
+
+prt(press-1, off-2)
+dobj(press-1, switch-3)
+
+prep_to(walk-1, front-3)
+prep_of(front-3, tv-5)
+
+amod(switch-3, on\/off-2)
+dobj(locate-1, switch-3)
+
+amod(switch-3, on\/off-2)
+dobj(push-1, switch-3)
+
+nn(switch-3, power-2)
+dobj(locate-1, switch-3)
+
+nn(switch-3, power-2)
+dobj(press-1, switch-3)
+
+prt(stand-1, up-2)
+
+prep_to(walk-1, tv-3)
+
+dobj(push-1, button-2)
+prt(push-1, in-3)
+
+dobj(release-1, button-2)
+
+det(switch-3, the-2)
+dobj(find-1, switch-3)
+det(tv-6, the-5)
+prep_of(switch-3, tv-6)
+
+det(switch-3, the-2)
+dobj(press-1, switch-3)
+prt(press-1, off-4)
+
+dep(remote-3, get-1)
+dobj(remote-3, tv-2)
+
+conj_and(locate-1, push-3)
+det(button-6, the-4)
+nn(button-6, power-5)
+dobj(push-3, button-6)
+
+mark(watching-6, if-2)
+nsubj(watching-6, anyone-3)
+advmod(anyone-3, else-4)
+aux(watching-6, is-5)
+advcl(check-1, watching-6)
+
+det(control-4, the-2)
+amod(control-4, remote-3)
+dobj(find-1, control-4)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+
+prt(turn-1, off-2)
+det(equipment-6, any-3)
+amod(equipment-6, other-4)
+amod(equipment-6, peripheral-5)
+dobj(turn-1, equipment-6)
+
+prt(picking-1, up-2)
+det(remote-4, the-3)
+dobj(picking-1, remote-4)
+
+dobj(press-1, power-2)
+prt(press-1, off-3)
+
+det(remote-4, the-3)
+prep_for(reach-1, remote-4)
+
+dobj(take-1, remote-2)
+prep_in(take-1, hand-4)
+
+nsubj(pointed-7, point-1)
+dep(remote-3, the-2)
+advmod(pointed-7, remote-3)
+dep(remote-3, with-4)
+det(bulb-6, the-5)
+pobj(with-4, bulb-6)
+det(television-10, the-9)
+prep_towards(pointed-7, television-10)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(find-1, button-4)
+det(remote-7, the-6)
+prep_on(find-1, remote-7)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+prep_on(press-1, remote-5)
+prep_on(press-1, tv-7)
+conj_or(remote-5, tv-7)
+
+amod(control-3, remote-2)
+dobj(find-1, control-3)
+
+nn(button-3, power-2)
+dobj(locate-1, button-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+mark(walk-4, if-1)
+det(remote-3, no-2)
+nsubj(walk-4, remote-3)
+prt(walk-4, over-5)
+prep_to(walk-4, television-7)
+
+nn(button-3, power-2)
+dobj(locate-1, button-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+dobj(point-1, remote-2)
+prep_at(point-1, tv-4)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+prep_on(press-1, remote-5)
+
+prt(turn-1, off-2)
+nn(power-4, socket-3)
+dobj(turn-1, power-4)
+
+dep(remote-2, get-1)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+prt(pick-1, up-2)
+amod(control-4, remote-3)
+dobj(pick-1, control-4)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+amod(control-3, remote-2)
+dep(pickup-1, control-3)
+
+dobj(point-1, remote-2)
+prep_at(point-1, tv-4)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+prt(pick-1, up-2)
+amod(control-4, remote-3)
+dobj(pick-1, control-4)
+
+dobj(depress-1, tv-3)
+prepc_off(depress-1, button-6)
+
+det(remote-3, the-2)
+dobj(find-1, remote-3)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(find-1, button-4)
+
+nn(button-3, power-2)
+dobj(push-1, button-3)
+prt(push-1, off-4)
+
+nn(switch-5, on\/off-3)
+dobj(find-1, switch-5)
+prep_on(find-1, tv-7)
+prep_on(find-1, remote-10)
+conj_or(tv-7, remote-10)
+
+dobj(press-1, it-2)
+
+
+dobj(turn-1, tv-2)
+prt(turn-1, off-3)
+
+prep_to(go-1, tv-3)
+
+nn(button-3, power-2)
+dobj(find-1, button-3)
+
+
+det(control-4, the-2)
+amod(control-4, remote-3)
+dobj(grab-1, control-4)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(push-1, button-4)
+
+prt(pick-1, up-2)
+amod(control-4, remote-3)
+dobj(pick-1, control-4)
+
+amod(control-3, remote-2)
+dobj(point-1, control-3)
+prep_at(point-1, tv-5)
+
+amod(button-5, off-3)
+dobj(press-1, button-5)
+
+mark(is-3, if-1)
+nsubj(is-3, tv-2)
+csubj(put-5, is-3)
+prt(is-3, off-4)
+amod(control-7, remote-6)
+dobj(put-5, control-7)
+prt(put-5, down-8)
+
+mark(remote-7, if-1)
+nsubj(remote-7, tv-2)
+cop(remote-7, is-3)
+advmod(remote-7, still-4)
+advmod(remote-7, on-5)
+dep(on-5, reaim-6)
+csubj(try-9, remote-7)
+advmod(remote-7, and-8)
+advmod(try-9, again-10)
+
+prep_to(go-1, tv-3)
+
+nn(button-3, power-2)
+dobj(find-1, button-3)
+
+nn(button-3, power-2)
+dobj(push-1, button-3)
+
+acomp(take-1, remote-2)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, remote-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+

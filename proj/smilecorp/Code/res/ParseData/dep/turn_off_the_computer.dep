@@ -1,0 +1,727 @@
+det(computer-3, the-2)
+dobj(locate-1, computer-3)
+
+det(panel-4, the-2)
+amod(panel-4, front-3)
+dobj(locate-1, panel-4)
+det(computer-7, the-6)
+prep_on(locate-1, computer-7)
+
+csubj(front-9, locate-1)
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(locate-1, button-4)
+det(computer-7, the-6)
+prep_on(locate-1, computer-7)
+cop(front-9, s-8)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(depress-1, button-4)
+advmod(depress-1, shortly-5)
+
+csubj(switch-6, find-1)
+det(computer-3, the-2)
+dobj(find-1, computer-3)
+cop(switch-6, s-4)
+nn(switch-6, power-5)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+det(position-7, the-5)
+amod(position-7, off-6)
+prep_to(turn-1, position-7)
+
+csubj(switch-6, find-1)
+det(computer-3, the-2)
+dobj(find-1, computer-3)
+cop(switch-6, s-4)
+nn(switch-6, power-5)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+prt(turn-1, off-4)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+det(computer-7, the-6)
+prep_on(press-1, computer-7)
+
+dobj(select-1, command-2)
+aux(shut-4, to-3)
+xcomp(select-1, shut-4)
+prt(shut-4, down-5)
+det(computer-7, the-6)
+dobj(shut-4, computer-7)
+
+det(computer-4, the-3)
+prep_for(wait-1, computer-4)
+aux(shut-6, to-5)
+xcomp(wait-1, shut-6)
+prt(shut-6, down-7)
+
+mark(says-4, if-1)
+det(screen-3, the-2)
+nsubj(says-4, screen-3)
+csubj(safe-11, says-4)
+dobj(says-4, something-5)
+prep_like(something-5, it-8)
+cop(safe-11, s-9)
+neg(safe-11, not-10)
+aux(turn-13, to-12)
+xcomp(safe-11, turn-13)
+prt(turn-13, off-14)
+poss(computer-16, your-15)
+poss(knob-21, computer-16)
+nn(knob-21, press-18)
+det(power-20, the-19)
+nn(knob-21, power-20)
+dobj(turn-13, knob-21)
+
+nn(button-3, power-2)
+dobj(locate-1, button-3)
+
+dobj(push-1, button-2)
+amod(position-5, off-4)
+prep_to(push-1, position-5)
+
+dep(execute-1, shut-2)
+prt(shut-2, down-3)
+dobj(shut-2, command-4)
+
+prt(log-1, out-2)
+
+mark(is-3, if-1)
+nsubj(is-3, computer-2)
+csubj(turned-6, is-3)
+neg(is-3, not-4)
+advmod(turned-6, automatically-5)
+prt(turned-6, off-7)
+ccomp(turned-6, push-8)
+nn(button-10, power-9)
+dobj(push-8, button-10)
+
+det(applications-4, all-2)
+amod(applications-4, running-3)
+dobj(close-1, applications-4)
+
+amod(command-3, shut-down-2)
+dobj(execute-1, command-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, monitor-3)
+mark(needed-5, if-4)
+advcl(turn-1, needed-5)
+
+nn(button-3, power-2)
+dobj(find-1, button-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+det(computer-3, the-2)
+dobj(find-1, computer-3)
+
+det(computer-4, the-3)
+prep_to(move-1, computer-4)
+
+csubj(desktop-8, press-1)
+det(button-3, the-2)
+dobj(press-1, button-3)
+det(user-6, the-5)
+prep_on(press-1, user-6)
+cop(desktop-8, s-7)
+det(computer-11, the-10)
+prep_on(desktop-8, computer-11)
+aux(shut-13, to-12)
+xcomp(desktop-8, shut-13)
+prt(shut-13, down-14)
+det(computer-16, the-15)
+dobj(shut-13, computer-16)
+
+complm(turned-6, that-2)
+det(computer-4, the-3)
+nsubj(turned-6, computer-4)
+aux(turned-6, has-5)
+ccomp(verify-1, turned-6)
+prt(turned-6, off-7)
+
+det(programs-3, all-2)
+dobj(exit-1, programs-3)
+
+det(option-4, the-2)
+nn(option-4, shutdown-3)
+dobj(select-1, option-4)
+
+det(computer-3, the-2)
+dobj(locate-1, computer-3)
+
+csubj(panel-6, locate-1)
+det(computer-3, the-2)
+dobj(locate-1, computer-3)
+cop(panel-6, s-4)
+nn(panel-6, control-5)
+
+csubj(panel-6, examine-1)
+det(computer-3, the-2)
+dobj(examine-1, computer-3)
+cop(panel-6, s-4)
+nn(panel-6, control-5)
+det(button-10, the-8)
+nn(button-10, power-9)
+prep_for(panel-6, button-10)
+
+nsubj(depress-2, briefly-1)
+det(button-5, the-3)
+nn(button-5, power-4)
+dobj(depress-2, button-5)
+
+prt(closing-1, down-2)
+det(programs-4, all-3)
+dobj(closing-1, programs-4)
+
+prt(log-1, out-2)
+
+nsubj(start-4, click-1)
+prep_on(click-1, the-3)
+dobj(start-4, icon-5)
+
+nsubj(shut-3, click-1)
+prep(click-1, on-2)
+prt(shut-3, down-4)
+dobj(shut-3, comptuter-5)
+
+aux(start-3, to-2)
+xcomp(go-1, start-3)
+dobj(start-3, menu-4)
+
+nsubj(shut-2, press-1)
+prt(shut-2, down-3)
+
+dep(choose-1, shut-2)
+prt(shut-2, down-3)
+dobj(shut-2, computer-4)
+
+advmod(says-3, when-1)
+nsubj(says-3, computer-2)
+csubj(press-5, says-3)
+advmod(says-3, so-4)
+nn(button-7, power-6)
+dobj(press-5, button-7)
+
+nn(switch-4, computer-3)
+prep_for(reach-1, switch-4)
+
+nn(switch-3, computer-2)
+dobj(push-1, switch-3)
+
+det(switch-3, the-2)
+dobj(find-1, switch-3)
+
+det(switch-3, the-2)
+dobj(flip-1, switch-3)
+
+dobj(locate-1, menu-2)
+
+dep(select-1, shut-2)
+prt(shut-2, down-3)
+
+dobj(save-1, documents-2)
+
+dobj(close-1, programs-2)
+
+dobj(remove-1, disks-2)
+
+nsubj(shut-2, press-1)
+prt(shut-2, down-3)
+dobj(shut-2, button-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, peripherals-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, monitor-3)
+
+dep(select-1, shut-2)
+prt(shut-2, down-3)
+det(menu-6, the-5)
+prep_in(shut-2, menu-6)
+
+mark(tells-3, after-1)
+nsubj(tells-3, it-2)
+advcl(safe-7, tells-3)
+dobj(tells-3, you-4)
+nsubj(safe-7, it-5)
+cop(safe-7, is-6)
+aux(shut-9, to-8)
+xcomp(safe-7, shut-9)
+prt(shut-9, down-10)
+ccomp(shut-9, do-11)
+advmod(do-11, so-12)
+
+det(button-3, the-2)
+dobj(push-1, button-3)
+det(cpu-6, the-5)
+prep_of(button-3, cpu-6)
+
+advmod(push-2, then-1)
+det(button-4, the-3)
+dobj(push-2, button-4)
+det(monitor-7, the-6)
+prep_of(button-4, monitor-7)
+
+det(switch-3, the-2)
+dobj(locate-1, switch-3)
+det(computer-6, the-5)
+prep_of(switch-3, computer-6)
+
+det(switch-3, the-2)
+dobj(press-1, switch-3)
+aux(turn-5, to-4)
+infmod(switch-3, turn-5)
+prt(turn-5, off-6)
+det(computer-8, the-7)
+dobj(turn-5, computer-8)
+
+dobj(identify-1, computer-2)
+
+nn(button-3, power-2)
+dobj(identify-1, button-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+conj_and(press-1, hold-3)
+det(button-6, the-4)
+nn(button-6, power-5)
+dobj(hold-3, button-6)
+det(computer-9, the-8)
+prep_on(hold-3, computer-9)
+mark(shut-13, until-10)
+nsubj(shut-13, it-11)
+aux(shut-13, has-12)
+advcl(hold-3, shut-13)
+dobj(shut-13, itself-14)
+prt(shut-13, down-15)
+
+amod(applications-3, open-2)
+dobj(close-1, applications-3)
+
+nsubj(start-2, press-1)
+acomp(start-2, key-3)
+
+xcomp(select-1, turn-2)
+prt(turn-2, off-3)
+dobj(turn-2, computer-4)
+
+dep(select-1, turn-2)
+prt(turn-2, off-3)
+
+nn(powers-4, computer-3)
+prep_until(wait-1, powers-4)
+advmod(wait-1, down-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, monitor-3)
+
+dep(data-4, all-2)
+amod(data-4, unsaved-3)
+dobj(save-1, data-4)
+det(programs-7, all-6)
+prep_in(save-1, programs-7)
+
+det(command-7, the-2)
+amod(command-7, shut-4)
+dep(shut-4, down-5)
+dobj(select-1, command-7)
+
+det(computer-4, the-3)
+prep_for(wait-1, computer-4)
+aux(finish-6, to-5)
+xcomp(wait-1, finish-6)
+dep(finish-6, working-7)
+
+dep(data-4, all-2)
+amod(data-4, unsaved-3)
+dobj(save-1, data-4)
+det(programs-7, all-6)
+prep_in(save-1, programs-7)
+
+det(command-7, the-2)
+amod(command-7, shut-4)
+dep(shut-4, down-5)
+dobj(select-1, command-7)
+
+det(computer-4, the-3)
+prep_for(wait-1, computer-4)
+aux(finish-6, to-5)
+xcomp(wait-1, finish-6)
+dep(finish-6, working-7)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+mark(shuts-8, until-5)
+det(computer-7, the-6)
+nsubj(shuts-8, computer-7)
+advcl(press-1, shuts-8)
+prt(shuts-8, off-9)
+
+nsubj(opened-2, close-1)
+dobj(opened-2, programs-3)
+
+nsubj(shut-3, click-1)
+prep(click-1, on-2)
+prt(shut-3, down-4)
+
+prt(shut-1, down-2)
+
+det(programs-4, all-2)
+amod(programs-4, other-3)
+dobj(close-1, programs-4)
+
+prep_on(click-1, start-3)
+
+nsubj(turn-3, click-1)
+prep(click-1, on-2)
+prt(turn-3, off-4)
+dobj(turn-3, computer-5)
+
+nsubj(turn-3, click-1)
+prep(click-1, on-2)
+prt(turn-3, off-4)
+
+aux(cease-3, to-2)
+xcomp(decide-1, cease-3)
+dobj(cease-3, actions-4)
+prep_with(cease-3, computer-6)
+
+det(programs-4, all-2)
+amod(programs-4, open-3)
+dobj(close-1, programs-4)
+
+amod(one-3, email-2)
+dobj(check-1, one-3)
+amod(time-5, last-4)
+tmod(check-1, time-5)
+
+dobj(move-1, mouse-2)
+prep_to(move-1, start-5)
+
+prep_on(click-1, start-3)
+
+prep_on(click-1, close-3)
+
+aux(make-3, to-2)
+xcomp(check-1, make-3)
+acomp(make-3, sure-4)
+dep(followed-7, action-5)
+auxpass(followed-7, was-6)
+dep(sure-4, followed-7)
+advmod(close-9, then-8)
+amod(lid-10, close-9)
+dobj(followed-7, lid-10)
+
+dobj(get-1, instructions-2)
+det(user-6, the-4)
+nn(user-6, computer-5)
+prep_from(get-1, user-6)
+
+det(instructions-3, those-2)
+dobj(follow-1, instructions-3)
+
+aux(start-3, to-2)
+xcomp(go-1, start-3)
+dobj(start-3, button-4)
+
+nsubj(turn-3, click-1)
+prep(click-1, on-2)
+prt(turn-3, off-4)
+
+nn(button-3, power-2)
+dobj(push-1, button-3)
+prep_on(push-1, monitor-5)
+
+det(programs-3, all-2)
+dobj(close-1, programs-3)
+prep_on(close-1, computer-5)
+
+prep_on(click-1, start-4)
+
+prep(click-1, on-2)
+dep(on-2, turn-4)
+prt(turn-4, off-5)
+dobj(turn-4, computer-6)
+
+prep(click-1, on-2)
+pobj(on-2, off-4)
+
+prt(shut-1, off-2)
+dobj(shut-1, screen-3)
+
+dobj(type-1, bye-2)
+
+nsubj(enter-2, press-1)
+
+prt(turn-1, off-2)
+ccomp(turn-1, monitor-3)
+dobj(monitor-3, switch-4)
+
+nn(buttom-3, start-2)
+dobj(select-1, buttom-3)
+
+xcomp(select-1, turn-3)
+prt(turn-3, off-4)
+dobj(turn-3, computer-5)
+
+xcomp(select-1, turn-3)
+prt(turn-3, off-4)
+dobj(turn-3, computer-5)
+dobj(turn-3, again-7)
+
+mark(safe-5, until-2)
+nsubj(safe-5, it-3)
+cop(safe-5, is-4)
+advcl(wait-1, safe-5)
+aux(turn-7, to-6)
+xcomp(safe-5, turn-7)
+prt(turn-7, off-8)
+poss(computer-10, your-9)
+dobj(turn-7, computer-10)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(push-1, button-4)
+poss(computer-7, your-6)
+prep_on(push-1, computer-7)
+
+nn(button-4, start-3)
+prep_on(click-1, button-4)
+
+nsubj(turn-3, click-1)
+prep(click-1, on-2)
+prt(turn-3, off-4)
+dobj(turn-3, computer-5)
+
+prep_on(click-1, shutdown-3)
+
+prep_for(wait-1, computer-3)
+prep_to(wait-1, shutdown-5)
+
+prt(switch-1, off-2)
+dobj(switch-1, power-3)
+nn(socket-6, wall-5)
+prep_from(switch-1, socket-6)
+
+dobj(save-1, document-2)
+prep_in(save-1, progress-4)
+
+dobj(close-1, programs-2)
+prep_in(close-1, use-4)
+
+nsubj(start-2, open-1)
+dobj(start-2, menu-3)
+
+amod(menu-4, shut-2)
+dep(shut-2, down-3)
+dobj(choose-1, menu-4)
+
+nsubj(shut-3, click-1)
+prep(click-1, on-2)
+prt(shut-3, down-4)
+
+det(moments-4, a-2)
+amod(moments-4, few-3)
+dobj(wait-1, moments-4)
+
+dobj(close-1, lid-2)
+nn(top-5, lap-4)
+prep_of(lid-2, top-5)
+
+prt(push-1, on-2)
+prep_off(push-1, button-4)
+det(computer-7, the-6)
+prep_on(push-1, computer-7)
+aux(turn-9, to-8)
+infmod(computer-7, turn-9)
+dobj(turn-9, it-10)
+prt(turn-9, off-11)
+
+det(work-3, any-2)
+dobj(save-1, work-3)
+prep_in(save-1, progress-5)
+
+amod(programs-5, running-4)
+prep_out_of(log-1, programs-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, comuter-3)
+
+prt(tunr-1, off-2)
+dobj(tunr-1, moniter-3)
+
+nsubj(start-2, click-1)
+dobj(start-2, button-3)
+
+nsubj(turn-2, click-1)
+prt(turn-2, off-3)
+dobj(turn-2, computer-4)
+
+dep(select-1, shut-2)
+prt(shut-2, down-3)
+
+det(windows-3, all-2)
+dobj(close-1, windows-3)
+
+prep_to(go-1, menu-3)
+
+prep_to(go-1, shutdown-3)
+
+nn(shutdown-2, click-1)
+nsubj(say-4, shutdown-2)
+dep(shutdown-2, and-3)
+amod(boxes-9, ok-5)
+det(command-8, any-7)
+prep_to(ok-5, command-8)
+dobj(say-4, boxes-9)
+
+prep_for(wait-1, computer-3)
+aux(shut-5, to-4)
+xcomp(wait-1, shut-5)
+prt(shut-5, off-6)
+
+aux(start-3, to-2)
+xcomp(go-1, start-3)
+dobj(start-3, menu-4)
+
+dep(click-1, system-2)
+
+nsubj(turn-2, click-1)
+prt(turn-2, off-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, monitor-3)
+
+dep(windows-4, all-2)
+amod(windows-4, open-3)
+dobj(close-1, windows-4)
+
+amod(click-2, left-1)
+nsubj(start-3, click-2)
+dobj(start-3, link-4)
+
+amod(click-2, left-1)
+nsubj(turn-3, click-2)
+prt(turn-3, off-4)
+nn(button-6, computer-5)
+dobj(turn-3, button-6)
+
+nsubj(turn-2, click-1)
+xsubj(confirm-5, click-1)
+prt(turn-2, off-3)
+aux(confirm-5, to-4)
+xcomp(turn-2, confirm-5)
+
+nsubj(monitor-2, press-1)
+nn(button-4, power-3)
+dobj(monitor-2, button-4)
+
+dobj(find-1, computer-2)
+
+dobj(find-1, switch-2)
+
+conj_and(press-1, hold-3)
+dobj(hold-3, switch-4)
+
+nn(button-4, computer-2)
+nn(button-4, power-3)
+dobj(push-1, button-4)
+prt(push-1, in-5)
+
+nn(button-4, computer-2)
+nn(button-4, power-3)
+dobj(hold-1, button-4)
+mark(turns-8, until-6)
+nsubj(turns-8, computer-7)
+prepc_in(hold-1, turns-8)
+prt(turns-8, off-9)
+
+dobj(close-1, applications-2)
+
+dep(choose-1, shut-2)
+prt(shut-2, down-3)
+prep_from(shut-2, menu-5)
+
+prep_with(point-1, mouse-3)
+prep_with(point-1, click-5)
+conj_and(mouse-3, click-5)
+nn(menu-8, start-7)
+prep_on(point-1, menu-8)
+
+nsubj(shut-4, click-1)
+dep(click-1, on-2)
+prt(shut-4, down-5)
+prep_from(shut-4, menu-8)
+
+xcomp(find-1, turn-3)
+prt(turn-3, off-4)
+dobj(turn-3, computer-5)
+prepc_on(turn-3, pop-8)
+prt(pop-8, up-9)
+dobj(pop-8, menu-10)
+
+prep(click-1, on-2)
+dep(on-2, turn-4)
+dobj(turn-4, computer-5)
+prt(turn-4, off-6)
+
+prep_for(wait-1, computer-3)
+aux(shut-5, to-4)
+xcomp(wait-1, shut-5)
+prt(shut-5, down-6)
+
+prt(turn-1, off-2)
+nn(source-4, power-3)
+dobj(turn-1, source-4)
+
+prt(log-1, off-2)
+det(system-4, the-3)
+dobj(log-1, system-4)
+
+aux(start-3, to-2)
+xcomp(go-1, start-3)
+dobj(start-3, menu-4)
+
+det(turn-3, the-2)
+dobj(press-1, turn-3)
+prep_off(press-1, button-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, monitor-3)
+
+conj_and(press-1, hold-3)
+det(button-6, the-4)
+nn(button-6, power-5)
+dobj(hold-3, button-6)
+
+prt(walk-1, over-2)
+prep_to(walk-1, computer-4)
+
+prt(log-1, off-2)
+dobj(log-1, computer-3)
+
+dobj(find-1, switch-2)
+prep_on(find-1, computer-4)
+
+nn(button-3, on\/off-2)
+dobj(press-1, button-3)
+amod(position-6, off-5)
+prep_to(press-1, position-6)
+
+det(computer-4, the-3)
+prep_to(go-1, computer-4)
+
+dobj(switch-1, it-2)
+prt(switch-1, off-3)
+

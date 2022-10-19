@@ -1,0 +1,345 @@
+dobj(vocalize-1, words-2)
+amod(pitches-5, different-4)
+prep_at(vocalize-1, pitches-5)
+
+det(song-3, which-2)
+nsubj(sing-5, song-3)
+aux(sing-5, to-4)
+ccomp(decide-1, sing-5)
+xcomp(decide-1, sing-5)
+
+poss(mouth-3, your-2)
+dobj(open-1, mouth-3)
+
+
+det(tones-3, the-2)
+dobj(remember-1, tones-3)
+dobj(remember-1, words-5)
+conj_and(tones-3, words-5)
+det(song-8, a-7)
+prep_of(tones-3, song-8)
+
+det(words-3, the-2)
+dobj(vocalize-1, words-3)
+dep(vocalize-1, using-4)
+det(tones-6, the-5)
+dobj(using-4, tones-6)
+
+det(song-4, a-3)
+prep_of(think-1, song-4)
+
+advmod(speak-2, rythmically-1)
+det(lyrics-4, the-3)
+nsubj(speak-2, lyrics-4)
+det(song-7, the-6)
+prep_to(lyrics-4, song-7)
+
+det(text-3, the-2)
+dobj(find-1, text-3)
+prep_of(text-3, song-5)
+
+det(music-3, the-2)
+dobj(start-1, music-3)
+
+det(song-3, a-2)
+dobj(sing-1, song-3)
+prepc_by(sing-1, speaking-5)
+
+det(song-3, a-2)
+dobj(choose-1, song-3)
+aux(sing-5, to-4)
+infmod(song-3, sing-5)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+
+dobj(open-1, mouth-2)
+
+det(words-3, the-2)
+dobj(form-1, words-3)
+
+det(melody-3, the-2)
+dobj(sing-1, melody-3)
+
+dobj(open-1, mouth-2)
+
+nsubj(sounds-2, form-1)
+
+amod(melody-3, right-2)
+dobj(make-1, melody-3)
+prep_with(make-1, mouth-5)
+
+dobj(choose-1, song-2)
+aux(sing-4, to-3)
+infmod(song-2, sing-4)
+
+det(song-3, the-2)
+dobj(read-1, song-3)
+
+det(melody-3, the-2)
+dobj(make-1, melody-3)
+det(song-6, the-5)
+prep_of(melody-3, song-6)
+poss(voice-9, your-8)
+prep_with(make-1, voice-9)
+mark(say-12, as-10)
+nsubj(say-12, you-11)
+dep(voice-9, say-12)
+det(words-14, the-13)
+dobj(say-12, words-14)
+
+dep(wishes-5, which-2)
+nsubj(wishes-5, song-3)
+xsubj(sing-7, song-3)
+num(song-3, one-4)
+ccomp(determine-1, wishes-5)
+aux(sing-7, to-6)
+xcomp(wishes-5, sing-7)
+
+dobj(produce-1, tones-2)
+dobj(produce-1, words-4)
+conj_and(tones-2, words-4)
+det(order-8, a-6)
+amod(order-8, given-7)
+prep_in(produce-1, order-8)
+nsubj(match-10, order-8)
+rcmod(order-8, match-10)
+nsubjpass(required-13, what-11)
+auxpass(required-13, is-12)
+ccomp(match-10, required-13)
+det(song-16, the-15)
+agent(required-13, song-16)
+
+det(song-3, what-2)
+dep(want-5, song-3)
+nsubj(want-5, you-4)
+xsubj(sing-7, you-4)
+ccomp(determine-1, want-5)
+aux(sing-7, to-6)
+xcomp(want-5, sing-7)
+
+det(lyrics-3, the-2)
+dobj(find-1, lyrics-3)
+det(song-6, the-5)
+prep_to(find-1, song-6)
+
+det(sheets-4, the-2)
+nn(sheets-4, music-3)
+dobj(find-1, sheets-4)
+det(song-7, the-6)
+prep_for(find-1, song-7)
+
+aux(make-3, to-2)
+xcomp(try-1, make-3)
+det(lyrics-5, the-4)
+nsubj(match-6, lyrics-5)
+ccomp(make-3, match-6)
+det(tone-8, the-7)
+dobj(match-6, tone-8)
+det(song-11, the-10)
+prep_of(tone-8, song-11)
+
+det(song-3, a-2)
+dobj(pick-1, song-3)
+
+dobj(remember-1, lyrics-2)
+
+det(breath-3, a-2)
+dobj(take-1, breath-3)
+
+
+det(words-3, the-2)
+dobj(learn-1, words-3)
+det(song-6, the-5)
+prep_to(learn-1, song-6)
+
+det(tune-3, the-2)
+dobj(learn-1, tune-3)
+det(song-6, a-5)
+prep_to(learn-1, song-6)
+
+det(words-3, the-2)
+dobj(sing-1, words-3)
+
+det(song-4, a-3)
+prep_on(decide-1, song-4)
+
+det(lyrics-4, the-2)
+nn(lyrics-4, song-3)
+dobj(find-1, lyrics-4)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+
+dep(like-6, pick-1)
+det(song-3, a-2)
+dobj(pick-1, song-3)
+nsubj(like-6, you-4)
+xsubj(sing-8, you-4)
+aux(like-6, would-5)
+aux(sing-8, to-7)
+xcomp(like-6, sing-8)
+
+dobj(start-1, singing-2)
+
+det(microphone-4, the-3)
+prep_on(turn-1, microphone-4)
+
+det(song-3, a-2)
+dobj(pick-1, song-3)
+
+dobj(start-1, singing-2)
+
+det(lyrics-3, the-2)
+dobj(know-1, lyrics-3)
+
+
+det(song-3, a-2)
+dobj(choose-1, song-3)
+
+dobj(sing-1, it-2)
+
+amod(one-4, select-1)
+det(one-4, a-2)
+nn(one-4, song-3)
+nsubj(wants-5, one-4)
+xsubj(sing-7, one-4)
+aux(sing-7, to-6)
+xcomp(wants-5, sing-7)
+
+nsubj(ready-6, lyrics-2)
+det(song-5, the-4)
+prep_from(lyrics-2, song-5)
+xcomp(have-1, ready-6)
+
+dobj(play-1, music-2)
+det(song-5, the-4)
+prep_from(play-1, song-5)
+nsubj(desired-7, if-6)
+rcmod(song-5, desired-7)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+
+poss(mouth-3, your-2)
+dobj(opening-1, mouth-3)
+
+poss(cords-4, your-2)
+amod(cords-4, vocal-3)
+dobj(using-1, cords-4)
+
+det(sounds-3, the-2)
+dobj(vibrate-1, sounds-3)
+prep_into(vibrate-1, melody-5)
+
+nn(lips-2, purse-1)
+nn(mode-5, pucker-4)
+prep_into(lips-2, mode-5)
+
+dobj(open-1, lips-2)
+dep(open-1, wide-3)
+
+nn(mouth-2, end-1)
+nsubj(exercises-3, mouth-2)
+
+poss(throat-3, your-2)
+dobj(clear-1, throat-3)
+
+poss(mouth-3, your-2)
+dobj(open-1, mouth-3)
+
+poss(chords-4, your-2)
+amod(chords-4, vocal-3)
+dobj(engage-1, chords-4)
+
+dobj(push-1, air-2)
+mark(matter-12, though-3)
+det(throat-5, the-4)
+nn(t-11, throat-5)
+conj_and(throat-5, through-7)
+nn(t-11, through-7)
+det(doesn-10, the-8)
+nn(doesn-10, mouth-9)
+prep_through(throat-5, doesn-10)
+nsubj(matter-12, t-11)
+dep(push-1, matter-12)
+mark(re-15, if-13)
+nsubj(re-15, you-14)
+advcl(matter-12, re-15)
+prep_in(re-15, tune-17)
+
+det(tune-3, the-2)
+dobj(know-1, tune-3)
+
+det(lyrics-3, the-2)
+dobj(know-1, lyrics-3)
+
+det(melody-3, the-2)
+dobj(know-1, melody-3)
+
+dobj(drink-1, water-2)
+
+det(lyrics-3, the-2)
+dobj(sing-1, lyrics-3)
+prep_with(sing-1, tune-5)
+
+dobj(clear-1, throat-2)
+
+dobj(drink-1, water-2)
+
+det(verse-3, a-2)
+dobj(sing-1, verse-3)
+
+det(chorus-3, the-2)
+dobj(sing-1, chorus-3)
+
+mark(sung-7, until-2)
+det(verses-4, all-3)
+nsubjpass(sung-7, verses-4)
+aux(sung-7, have-5)
+auxpass(sung-7, been-6)
+advcl(repeat-1, sung-7)
+
+prep_of(think-1, song-3)
+
+prep_of(think-1, words-3)
+
+
+dobj(revive-1, audience-2)
+
+dobj(play-1, music-2)
+
+dobj(grab-1, lyrics-2)
+
+prt(sing-1, along-2)
+
+det(tune-3, a-2)
+dobj(pick-1, tune-3)
+
+nsubj(earplugs-3, hand-1)
+advmod(hand-1, out-2)
+prep_to(earplugs-3, those-5)
+prep_near(earplugs-3, you-7)
+
+poss(heart-3, your-2)
+dobj(sing-1, heart-3)
+prt(sing-1, out-4)
+
+advmod(hit-3, pray-1)
+nsubj(hit-3, you-2)
+num(note-6, one-4)
+amod(note-6, right-5)
+dobj(hit-3, note-6)
+
+det(song-3, a-2)
+dobj(choose-1, song-3)
+
+amod(line-4, first-3)
+prep_with(begin-1, line-4)
+
+prep_of(think-1, song-3)
+aux(sing-5, to-4)
+infmod(song-3, sing-5)
+
+dobj(sing-1, song-2)
+

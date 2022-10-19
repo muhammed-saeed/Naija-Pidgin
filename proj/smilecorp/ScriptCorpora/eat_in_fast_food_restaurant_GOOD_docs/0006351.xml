@@ -1,0 +1,4403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0006351" url="http://pafumi.net/Tuning.htm" time="2012-07-12-23:03" support="4" score="0.008899808318350255" bingtitle="Tuning" webtitle="Tuning">
+			<query id="001172" bing-rank="155"/>
+			<query id="000984" bing-rank="195"/>
+			<query id="000670" bing-rank="169"/>
+			<query id="001424" bing-rank="129"/>
+	<description>This would tell me that I have not ... number of rows in that table. If this percentage is high near 5% and ... specified table as the first table in the join order.</description>
+	<body>
+		Performance Tuning 
+
+Last modification: 18-Aug-11
+
+Includes:
+            - Installation and Top Init.ora Parameters 
+         -   Oracle Performance Checklist 
+            - Instance
+ Tuning 
+            - Application and SQL Tuning 
+            - Distribution
+ of Disk I/O 
+            - ANALYZE and DBMS_STATS Package 
+            - Working with UNDO 
+            - Indexes on Foreign
+ Keys
+ (FK) 
+            - Rebuild Indexes 
+            - Hints 
+           - Nologging 
+            - CBO Options 
+            - Connect using IPC to Local Databases 
+           - Space used per block 
+ 
+
+
+ Installation 
+
+ Memory Tuning 
+The total available memory on a system should be configured in
+ such
+ a manner, that all components of the system function at optimum
+ levels.
+ The following is a rule-of-thumb breakdown to help assist in
+ memory
+ allocation for the various components in a system with an Oracle
+ back-end.
+ 
+
+ 
+SYSTEM COMPONENT
+ 
+ALLOCATED % OF MEMORY
+ 
+Oracle SGA Components
+ 
+~ 50%
+ 
+Operating System +Related Components
+ 
+~15%
+ 
+User Memory
+ 
+~ 35%
+ 
+
+
+The following is a rule-of-thumb breakdown of the ~50% of memory
+ that is allocated for an Oracle SGA. These are good starting
+ numbers
+ and
+ will potentially require fine-tuning, when the nature and access
+ patterns
+ of the application is determined.
+ 
+
+ 
+ORACLE SGA COMPONENT
+ 
+ALLOCATED % OF MEMORY
+ 
+Database Buffer Cache
+ 
+~80%
+ 
+Shared Pool Area
+ 
+~12%
+ 
+Fixed Size + Misc
+ 
+~1%
+ 
+Redo Log Buffer
+ 
+~0.1%
+ 
+
+
+
+The following is an example to illustrate the above guidelines. In
+ the
+ following example, it is assumed that the system is configured
+ with 2
+ GB of memory, with an average of 100 concurrent sessions at any
+ given
+ time. The application requires response times within a few seconds
+ and
+ is mainly transactional. But it does support batch reports at
+ regular
+ intervals.
+ 
+
+ 
+SYSTEM COMPONENT
+ 
+ALLOCATED MEMORY(IN MB)
+ 
+Oracle SGA Components
+ 
+~1024
+ 
+Operating System +Related Components
+ 
+~306
+ 
+User Memory
+ 
+~694
+ 
+
+
+In the aforementioned breakdown, approximately 694MB of memory
+ will
+ be available for Program Global Areas (PGA) of all Oracle Server
+ processes. Again, assuming 100 concurrent sessions, the average
+ memory
+ consumption for a given PGA should not exceed ~7MB. It should be
+ noted
+ that SORT_AREA_SIZE is part of the PGA.
+ 
+
+ 
+ORACLE SGA COMPONENT
+ 
+ALLOCATED MEMORY(IN MB)
+ 
+Database Buffer Cache
+ 
+~800
+ 
+Shared Pool Area
+ 
+~128 - 188
+ 
+Fixed Size + Misc
+ 
+~ 8
+ 
+Redo Log Buffer
+ 
+~ 1 (average size 512K)
+ 
+
+
+
+
+ 
+Another Example 
+Let&apos;s assume that we have a high water mark of 100 connects
+ sessions to our Oracle database server. We multiply 100 by the
+ total
+ area for each PGA memory region, and we can now determine the
+ maximum
+ size of our SGA:
+The total RAM demands for Oracle is 20 percent of total RAM for
+ MS-Windows, 10% of RAM for UNIX
+
+Here we can see the values for sort_area_size and hash_area_size
+ for
+ our Oracle database. To compute the value for the size of each PGA
+ RAM
+ region, we can write a quick data dictionary query against the
+ v$parameter
+ view :
+ set pages 999; 
+ column pga_size format 999,999,999 
+ select 
+    2048576 + a.value + b.value  pga_size 
+ from v$parameter a, v$parameter b 
+ where a.name = &apos;sort_area_size&apos; 
+ and  b.name = &apos;hash_area_size&apos;; 
+
+PGA_SIZE
+------------
+  3,621,440
+
+The output from this data dictionary query shows that every
+ connected
+ Oracle session will use 3.6 megabytes of RAM memory for the Oracle
+ PGA.
+ Now, if we were to multiply the number of connected users by the
+ total
+ PGA demands for each connected user, we will know exactly how much
+ RAM
+ memory in order to reserve for connected sessions.
+
+ Total RAM on Windows Server      1250 MB 
+ Less:    
+ Total PGA regions for 100 users:    362
+ MB 
+ RAM reserved for Windows (20 percent) 500 MB 
+                          ---------- 
+                             862 MB 
+
+Hence, we would want to adjust the RAM to the data buffers in
+ order to
+ make the SGA size less than 388 MB (that is 1250MB - 862 MB). Any
+ SGA
+ size greater than 388 MB, and the server will start RAM paging,
+ adversely affecting the performance of the entire server. The
+ final
+ task is to size the Oracle SGA such that the total memory involved
+ does
+ not exceed 388 MB.
+
+
+ Examples
+for
+ UNIX Environments 
+0) for super machines with 4 GB of ram&amp;swap 12 GB
+set shmsys:shminfo_shmmax=3221225471
+set shmsys:shminfo_shmmin=1
+set shmsys:shminfo_shmmni=1024
+set shmsys:shminfo_shmseg=100
+set semsys:seminfo_semmni=1024
+set semsys:seminfo_semmns=163840
+set semsys:seminfo_semmsl=160
+set semsys:seminfo_semmap=163840
+set semsys:seminfo_semmnu=163840
+set msgsys:msginfo_msgmap=163840
+set msgsys:msginfo_msgmax=6144
+set msgsys:msginfo_msgmni=640
+set msgsys:msginfo_msgssz=64
+set msgsys:msginfo_msgtql=640
+set msgsys:msginfo_msgseg=32768
+
+1) For high end machines with 2 GB of RAM&amp;6 GB of swap, we
+ recommend the following:
+set shmsys:shminfo_shmmax=1073741824
+set shmsys:shminfo_shmmin=1
+set shmsys:shminfo_shmmni=250
+set shmsys:shminfo_shmseg=100
+set semsys:seminfo_semmni=750
+set semsys:seminfo_semmns=75000
+set semsys:seminfo_semmsl=100
+set semsys:seminfo_semmap=75000
+set semsys:seminfo_semmnu=75000
+set msgsys:msginfo_msgmap=75000
+set msgsys:msginfo_msgmax=6144
+set msgsys:msginfo_msgmni=640
+set msgsys:msginfo_msgssz=64
+set msgsys:msginfo_msgtql=640
+set msgsys:msginfo_msgseg=32768
+ 
+
+2) For medium end machines with 1 GB of RAM&amp;3 GB of swap we
+ recommend the following:
+set shmsys:shminfo_shmmax=536870912
+set shmsys:shminfo_shmmin=1
+set shmsys:shminfo_shmmni=150
+set shmsys:shminfo_shmseg=50
+set semsys:seminfo_semmni=500
+set semsys:seminfo_semmns=50000
+set semsys:seminfo_semmsl=100
+set semsys:seminfo_semmap=50000
+set semsys:seminfo_semmnu=50000
+set msgsys:msginfo_msgmap=50000
+set msgsys:msginfo_msgmax=2048
+set msgsys:msginfo_msgmni=512
+set msgsys:msginfo_msgssz=32
+set msgsys:msginfo_msgtql=512
+set msgsys:msginfo_msgseg=16384
+ 
+
+
+
+ Top Oracle Init.ora&apos;s Parameters 
+
+ BUFFER_POOL_KEEP - How many buffers to have for
+ pinned
+ objects that you need BUFFER_POOL_RECYCLE - How many buffers to have for new
+ stuff that will get pushed out
+ CHECKPOINT_PROCESS = True (starts CKPT process for
+ better
+ performance at checkpoints)
+ CLOSED_CACHED_OPEN_CURSORS = Indicates if the cursors
+ must
+ be closed immediatly after the committ. If you are using a lot
+ of
+ cursors or Developer 2000, use FALSE
+ COMPATIBLE - Set for correct version and features
+ CPU_COUNT = number of CPUs on your system.
+ DB_CACHE_SIZE = This parameter determines the number of
+ blocks in the database buffer cache in the SGA. The buffer cache
+ is a
+ holding area in memory for database blocks retrieved from disk.
+ Oracle
+ will typically check for the existence of a needed data block
+ before
+ performing an I/O operation to retrieve it. Increment if the hit
+ ratio&lt;95%. If this value is too low, then the
+ data will be flushed
+ from memory, if it is too high then Swapping. Suggestion: 40% or
+ 50%
+ of the total SGA size (for the main application). The standard
+ interpretation
+ of this value is that we don&apos;t have enough buffers in memory if
+ the
+ ratio is less than 90. In this case, almost&amp;frac12; of the
+ time
+ that we request a buffer we need to go to the disk to find it.
+*Determine if DB_CACHE_SIZE is high enough (Goal&gt;98%
+ for web systems, 95% for others)
+ select 100-(sum(decode(name, &apos;physical reads&apos;, value,0))/ 
+    (sum(decode(name, &apos;db block gets&apos;,
+ value,0)) + 
+    (sum(decode(name, &apos;consistent gets&apos;,
+ value,0))))) * 100 
+    &quot;Read Hit Ratio&quot; 
+ from v$sysstat;  
+ 
+ Per Buffer 
+Another way to see this ratio, as of V8.1, is per pool from the
+ V_BUFFER_POOL_STATISTICS view. This does not include the direct
+ physical reads, so per pool we would have:
+ select
+name,(1-(physical_reads/(db_block_gets+consistent_gets)))*100
+ cache_hit_ratio 
+ from v$buffer_pool_statistics; 
+ 
+ NAME                CACHE_HIT_RATIO 
+ -------------------- --------------- 
+ KEEP                77.42 
+ RECYCLE             100.00 
+ DEFAULT             50.91 
+ 
+Now logically, we don&apos;t care about the hit ration in the RECYCLE
+ pool
+ since this is for buffers that we think will only be used once
+ and then
+ flushed out. The KEEP and DEFAULT pools still have a much
+ smaller hit
+ ratio than we are told we need. So if we followed the guidelines
+ we
+ would add more buffers.
+ 
+ A Different Approach 
+We can ask the question the other way around. Instead of &apos;Do we
+ need
+ more?&apos; we can as &apos;Do we have more than we need?&apos; No matter what
+ the hit
+ ratio is, if we are not using all of the buffers that have been
+ allocated, there is no advantage in allocating more. In fact,
+ this
+ could slow us down by forcing more swapping at the OS level. So
+ we can
+ just check if there are free buffers:
+ 
+ select count(1) from v$bh where status=&apos;free&apos;; 
+ 
+COUNT(1)
+----------
+984
+ 
+This is from the same instance in which I have the 56 percent
+ hit
+ ratio. Here I see that increasing the number of buffers will not
+ impact
+ the hit ratio at all since I have free buffers right now. But I
+ might
+ want to shift my allocation of buffers between the pools. I want
+ the
+ highest hit ratio in my keep pool since I know that I am going
+ to be
+ reusing this data. Ideally, I have one buffer free all the
+ time. This would tell me that I have not over-allocated and that
+ I have
+ exactly what is needed. At the same time I will want to check my
+ paging
+ on the server. I might make the instance faster by decreasing
+ the size
+ of my SGA. Of course, there are other factors in memory
+ consumption
+ and you will want to take all into account.
+ 
+ 
+
+ 
+ DB_BLOCK_SIZE - Size of the blocks (db_block_size x
+ db_cache_size=bytes for data). Setup on database creation.
+ Generally
+ 8K, for DW 16K
+
+ DB_FILE_MULTIBLOCK_READ_COUNT= DB_FILE_MULTIBLOCK_READ_COUNT controls the number of data blocks
+ read
+ for each read request during a full table scan. If you are using
+ LVM or
+ striping, this parameter should
+ be set so that
+ 
+DB_BLOCK_SIZE * DB_FILE_MULTIBLOCK_READ_COUNT is a multiple of
+ the LVM
+ stripe size. If you are not using LVM or striping, DB_BLOCK_SIZE
+ *
+ DB_FILE_MULTIBLOCK_READ_COUNT should equal the maximum operating
+ system
+ read buffer. On many UNIX systems and Windows systems this is 64
+ KB. In
+ any case, DB_FILE_MULTIBLOCK_READ_COUNT cannot be larger than
+ DB_CACHE_SIZE / 4.
+The maximum read buffer is generally higher on raw file systems.
+ It
+ varies from 64 KB (on AIX) to 128 KB (on Solaris) to 1 MB
+ (HP-UX). On a
+ UNIX file system, it is usually only possible to read one buffer
+ per
+ I/O, usually 8KB. On 32-bit Windows, the buffer is 256KB.
+This parameter will significantly increase the performance of a
+ reorganization if properly tuned. For example, suppose the OS
+ read
+ buffer is 64 KB, the database block size is 4 KB and
+ DB_FILE_MULTIBLOCK_READ_COUNT is set to eight. During a full
+ table
+ scan, each I/O operation will read only 32 KB. If
+ DB_FILE_MULTIBLOCK_READ_COUNT is reset to 16, performance will
+ almost
+ double because twice as much data can be read by each I/O
+ operation.
+ DB_WRITERS = In Oracle 8.0 and up this parameter has
+ been
+ de-supported and replaced by 2 other parameters namely
+ DB_WRITER_PROCESSES and DBWR_IO_SLAVES.
+ DB_BLOCK_LRU_LATCHES - DBWR_IO_SLAVES and
+ DB_WRITER_PROCESSES  
+The DB_WRITER_PROCESSES parameter supported on Windows
+ NT/Windows 2000?
+The Oracle8i documentation and [BUG:925955] incorrectly state
+ that this
+ parameter is not supported on Windows NT/2000.
+Multiple DBWR processes are mainly used to simulate asynchronous
+ I/O
+ when the operating system does not support it. Since Windows NT
+ and
+ Windows 2000 use asynchronous I/O by default, using multiple
+ DBWR
+ processes may not necessarily improve performance. Increasing
+ this
+ parameter is also likely to have minimal effect on single-CPU
+ systems.
+ Increasing this parameter could, in fact, reduce performance on
+ systems
+ where the CPU&apos;s are already over burdened. In cases where the
+ main
+ performance bottleneck is that a single DBWR process cannot keep
+ up
+ with the work load, then increasing the value for
+ DB_WRITER_PROCESSES
+ may improve performance.
+When increasing DB_WRITER_PROCESSES it may also be necessary to
+ increase the DB_BLOCK_LRU_LATCHES parameter, as each DBWR
+ process
+ requires an LRU latch.
+
+ 
+ 
+ Reference for setting DB_BLOCK_LRU_LATCHES parameter 
+Default value: 1/2 the # of CPU&apos;s
+MAX Value: Min 1, Max about 6 * max(#cpu&apos;s,#processor groups)
+1)Oracle has found that a optimal value for this would be 2 X
+ #CPU&apos;s
+ and would recommend testing at this level.
+2)Also setting this parameter to a multiple of #CPU&apos;s is
+ important for
+ Oracle to properly allocate and utilize working sets.
+3)This value is hard coded in 9i
+**IMPORTANT**
+Increasing this parameter greater than 2 X #CPU&apos;s may have a
+ negative
+ impact on the system.
+
+ FREQUENTLY ASKED QUESTIONS 
+You have just upgraded to 8.0 or 8.1 and have found that there
+ are
+ 2 new parameters regarding DBWR. You are wondering what the
+ differences
+ are and which one you should use.
+
+ DBWR_IO_SLAVES 
+In Oracle7, the multiple DBWR processes were simple slave
+ processes;
+ i.e., unable to perform async I/O calls. In Oracle80, true
+ asynchronous
+ I/O is provided to the slave processes, if available. This
+ feature is
+ implemented via the init.ora parameter dbwr_io_slaves. With
+ dbwr_io_slaves, there is still a master DBWR process and its
+ slave
+ processes. This feature is very similar to the db_writers in
+ Oracle7,
+ except the IO slaves are now capable of asynchronous I/O on
+ systems
+ that provide native async I/O, thus allowing for much better
+ throughput
+ as slaves are not blocked after the I/O call. I/O slaves for
+ DBWR are
+ allocated immediately following database open when the first I/O
+ request is made. 
+
+ DB_WRITER_PROCESSES 
+Multiple database writers is implemented via the init.ora
+ parameter
+ db_writer_processes. This feature was enabled in Oracle8.0.4,
+ and
+ allows true database writers; i.e., no master-slave
+ relationship. With
+ Oracle8 db_writer_processes, each writer process is assigned to
+ a LRU
+ latch set. Thus, it is recommended to set db_writer_processes
+ equal to
+ the number of LRU latches (db_block_lru_latches) and not exceed
+ the number of CPUs on the system. For example, if
+ db_writer_processes
+ was set to four and db_lru_latches=4, then each writer process
+ will
+ manage
+ its corresponding set.
+
+ Things to know and watch out for.... 
+1. Multiple DBWRs and DBWR IO slaves cannot coexist. If both are
+ enabled, then the following error message is produced:
+ ksdwra(&quot;Cannot
+ start multiple dbwrs when using I/O slaves.\n&quot;); Moreover, if
+ both
+ parameters are enabled, dbwr_io_slaves will take precedence.
+2. The number of DBWRs cannot exceed the number of
+ db_block_lru_latches. If it does, then the number of DBWRs will
+ be
+ minimized to equal the number
+ of db_block_lru_latches and the following message is produced in
+ the alert.log during startup: (&quot;Cannot start more dbwrs than
+ db_block_lru_latches.\n&quot;); However, the number of lru latches
+ can
+ exceed
+ the number of DBWRs. 
+3. dbwr_io_slaves are not restricted to the
+ db_block_lru_latches; i.e., dbwr_io_slaves&gt;= db_block_lru_latches.
+
+ Should you use DB_WRITER_PROCESSES or DBWR_IO_SLAVES? 
+Although both implementations of DBWR processes may be
+ beneficial, the
+ general rule, on which option to use, depends on the following
+ : 
+1) the amount write activity; 
+2) the number of CPUs (the number of CPUs is also indirectly
+ related to
+ the number LRU latch sets); 
+3) the size of the buffer cache; 
+4) the availability of asynchronous I/O (from the OS).
+
+There is NOT a definite answer to this question but here are
+ some
+ considerations to have when making your choice. Please note that
+ it is
+ recommended to try BOTH (not simultaneously) against your system
+ to
+ determine which best fits the environment. 
+
+-- If the buffer cache is very large (100,000 buffers and up)
+ and the
+ application is write intensive, then db_writer_processes may be
+ beneficial. Note, the number of writer processes should not
+ exceed the
+ number of CPUs.
+
+-- If the application is not very write intensive (or even a DSS
+ system) and async I/O is available, then consider a single DBWR
+ writer
+ process; If async I/O is not available then use
+ dbwr_io_slaves.
+
+-- If the system is a uniprocessor(1 CPU) then implement may
+ want to
+ use dbwr_io_slaves.
+
+Implementing db_io_slaves or db_writer_processes comes with some
+ overhead cost. Multiple writer processes and IO slaves are
+ advanced features, meant for high IO throughput. Implement this
+ feature
+ only if the database environment requires such IO throughput. In
+ some
+ cases, it may be acceptable to disable I/O slaves and run
+ with
+ a single DBWR process.
+
+ Other Ways to Tune DBWR Processes 
+It can be easily seen that reducing buffer operations will be a
+ direct
+ benefit to DBWR and also help overall database performance.
+ Buffer
+ operations can be reduced by: 
+1) using dedicated temporary tablespaces 
+2) direct sort reads
+3) direct Sqlloads
+4) performing direct exports. 
+
+In addition, keeping a high buffer cache hit ratio will be
+ extremely
+ beneficial not only to the response time of applications, but
+ the DBWR
+ as well. 
+
+ 
+ DML_LOCKS = Concurrent Users * 10 JOB_QUEUE_PROCESSES - To use DBMS_JOB
+ LOG_BUFFER = Size in Bytes for Redo Logs Buffer.
+ Increasing the size of this parameter can increase I/O
+ efficiency, when
+ the transactions are long and/or numerous. Generally = 512K.
+ Size over
+ 1 MB is not good.
+ LOG_CHECKPOINT_INTERVAL = This value forces checkpoints
+ to
+ occur only at log file switches.
+ LOG_ENTRY_PREBUILD_THRESOLD = 2048. On multiple CPU
+ machines only.
+ LOG_SIMULTANEOUS_COPIES = 2 * cpu_count
+ LOG_SMALL_ENTRY_MAX_SIZE = 50 . On multiple CPU
+ machines
+ only.
+ OPEN_CURSORS = Give it a big value, at least 100
+ OPTIMIZER_FEATURES_ENABLED - Don&apos;t miss out on features
+ OPTIMIZER_INDEX_COST_ADJ - Force index use
+ OPTIMIZER_MODE - Choose, Rule, First_Rows or All_Rows
+ PARALLEL_MAX_SERVERS = This value specifies the minimum
+ number of query servers that will be active on the instance.
+ There are
+ system resources involved in starting a query server, and having
+ the
+ query server started and waiting for requests will accelerate
+ processing. The recommended value is:
+2 * max_degree * number_of_concurrent_users. 
+If the value for the statistics, &quot;Servers Busy&quot; is high,
+ increase
+ PARALLEL_MAX_SERVERS
+ PARALLEL_MIN_SERVERS = This parameter sets the number
+ of
+ query server processes that are started when the instance
+ starts, thus
+ eliminating the performance penalties of frequent query server
+ process
+ startups and shutdowns
+ PRE_PAGE_SGA = true
+ PROCESSES = Increase this parameter, default is 50 ROLLBACK_SEGMENTS = The general rule is to put # of
+ concurrent users / 4. Create at least 2 tablespaces for
+ rollbacks.
+ SHARED_POOL_RESERVED_SIZE - Memory held for future big
+ PL/SQL or ORA-error
+ SHARED_POOL_SIZE - Memory allocated for data dictionary
+ and SQL&amp;PL/SQL and reusable objects (library cache and the
+ data
+ dictionary cache). Increment it if CACHE hit ratio&lt;95%. 40%
+ of the
+ total SGA size. If we need to duplicate the
+ SHARED_POOL_SIZE also
+ we need to increment MAXDATAFILES. You can query v$sgastat to
+ show the
+ available free memory. This will tell you memory is being
+ wasted. As an example:
+ 
+ select pool, name, bytes/1024/1024 &quot;Size in MB&quot;
+                                      from
+ v$sgastat
+                                 where
+ name=&apos;free memory&apos;;
+You should see output similar to the following:
+  NAME         Size in MB 
+  Free memory  39.6002884 
+What this return would tell you is that there is 39 M of free
+ memory in
+ the shared pool, which would mean that the shared pool is being
+ under
+ utilized. If the shared pool was 70 M, over half of it would be
+ under
+ utilized. This memory could be allocated elsewhere.
+
+
+* DATA DICTIONARY cache miss ratio (Goal&gt;90%,
+ increase SHARED_POOL)
+Contains:
+Preparsed database procedures
+Preparsed database triggers
+Recently parsed SQL&amp;PL/SQL requests
+This is the memory allocated for the library and data
+ dictionary cache
+select sum(gets) Gets, sum(getmisses) Misses,
+       (1 -
+ (sum(getmisses) /
+ (sum(gets) +
+ sum(getmisses))))*100 HitRatio
+from  v$rowcache;
+
+* El HIT RATIO del SHARED_POOL_SIZE (LIBRARY CACHE hit
+ ratio) debe ser superior al 99%
+ column
+ namespace                       heading
+ &quot;Library Object&quot; 
+ column
+ gets            format
+ 9,999,999 heading &quot;Gets&quot; 
+ column gethitratio     format
+ 999.99  heading &quot;Get Hit%&quot; 
+ column
+ pins            format
+ 9,999,999 heading &quot;Pins&quot; 
+ column pinhitratio     format
+ 999.99  heading &quot;Pin Hit%&quot; 
+ column
+ reloads         format
+ 99,999  heading &quot;Reloads&quot; 
+ column invalidations   format
+ 99,999  heading &quot;Invalid&quot; 
+ column db format a10 
+ set pages 58 lines 80 
+ select namespace, gets, gethitratio*100 gethitratio, 
+  pins, pinhitratio*100 pinhitratio, RELOADS,
+ INVALIDATIONS 
+ from v$librarycache 
+ / 
+
+If all Get Hit% (gethitratio in the view) except for indexes
+ are greater than 80-90 percent, this is the desired state; the
+ value
+ for indexes is low because of the few accesses of that type of
+ object.
+ Notice that the Pin Hit% should ve also greater than 90%
+ (except for
+ indexes). The other goals of tuning this area are to reduce
+ reloads to
+ as small a value as possible (this is done by proper sizing
+ and
+ pinning) and to reduce invalidations. Invalidations happen
+ when for one
+ reason or another an object becomes unusable.
+
+Guideline: In a system where there is no flushing increase
+ the
+ shared pool size in 20% increments to reduce reloads and
+ invalidations
+ and increase hit ratios.
+
+select sum(pins) Executions, sum(pinhits)
+ Execution_Hits,
+       ((sum(pinhits) /
+ sum(pins))
+ * 100) phitrat,
+       sum(reloads)
+ Misses,
+       ((sum(pins) /
+ (sum(pins) +
+ sum(reloads))) * 100) RELOAD_hitrat
+from v$librarycache;
+
+* How much memory is left for SHARED_POOL_SIZE 
+col value for 999,999,999,999 heading &quot;Shared Pool Size&quot;
+col bytes for 999,999,999,999 heading &quot;Free Bytes&quot;
+select to_number(v$parameter.value) value,
+ v$sgastat.bytes,
+        (v$sgastat.bytes/v$parameter.value)*100 &quot;Percent Free&quot;
+from v$sgastat, v$parameter
+where v$sgastat.name = &apos;free memory&apos;
+and v$parameter .name = &apos;shared_pool_size&apos;;
+
+A better query:
+select sum(ksmchsiz) Bytes, ksmchcls Status
+from SYS.x$ksmsp
+group by ksmchcls;
+
+If there is free memory then there is no need to increase
+ this
+ parameter.
+
+* Identifying objects reloaded into the SHARED POOL again and again
+ select substr(owner,1,10) owner,substr(name,1,25) name,
+ substr(type,1,15) type, loads, sharable_mem 
+ from v$db_object_cache 
+ -- where owner not in (&apos;SYS&apos;,&apos;SYSTEM&apos;) and 
+ where  loads&gt;1 and type in
+ (&apos;PACKAGE&apos;,&apos;PACKAGE
+ BODY&apos;,&apos;FUNCTION&apos;,&apos;PROCEDURE&apos;) 
+ order by loads DESC; 
+
+ * Large Objects NOT &apos;pinned&apos; in
+ Shared
+ Pool 
+To determine what large PL/SQL objects are currently loaded in
+ the
+ shared pool and are not marked &apos;kept&apos; (NOT pinned) and
+ therefore may
+ causing a problem, execute the following query:
+ select name, sharable_mem 
+ from v$db_object_cache 
+ where sharable_mem&gt;10000 
+ and (type = &apos;PACKAGE&apos; or type = &apos;PACKAGE BODY&apos; or type =
+ &apos;FUNCTION&apos; 
+ or type = &apos;PROCEDURE&apos;) 
+ and kept = &apos;NO&apos;; 
+ 
+
+ 
+ SORT_AREA_SIZE = Indica la cantidad de memoria
+ reservada para sorts en bytes. Deberia haber pocos valores
+ (especialmente en disco), si no es asi, entonces incrementar
+ SORT_AREA_SIZE. Para saber si debo incrementar o no el
+ parametro uso:
+   select name, value from v$sysstat where name
+ like
+ &apos;%sort%&apos;; 
+ 
+ SORT_AREA_RETAINED_SIZE = is the size that the
+ SORT_AREA_SIZE is actually reduced to once the sort is
+ complete. This parameter should be set less than or equal to
+ SORT_AREA_SIZE. If
+ we are going to
+ make a big import or use several batch processes, increase it.
+ Just use ALTER SESSION (for batch) or ALTER SYSTEM
+ DEFERRED (for imports). Remember to put back to its original value.
+ Sorts
+ (memory) tells you the number of sorts done entirely in
+ memory. Sorts
+ (disk) indicates
+ the number of sorts that required access to disk. The
+ recommended
+ setting
+ for this parameter and SORT_AREA_SIZE is 65K-1MB.
+
+ SORT_DIRECT_WRITES = Setting SORT_DIRECT_WRITES to true
+ allows Oracle to bypass the buffer cache for the writing of sort
+ runs
+ to the temporary tablespace. This can improve the performance by
+ a
+ factor of three or more. Be sure to also set
+ SORT_WRITE_BUFFERS=8 and
+ SORT_WRITE_BUFFER_SIZE=65536. SORT_DIRECT_WRITES,
+ SORT_WRITE_BUFFERS
+ and SORT_WRITE_BUFFER_SIZE are obsoleted in 8.1.3. The same
+ considerations for SORT_AREA_SIZE apply to SORT_DIRECT_WRITES
+ when
+ using the parallel query option. Under Oracle8i, sorts always
+ use
+ direct writes and automatically configure the number and size of
+ the
+ direct write buffers.
+
+ 
+
+ 
+ Oracle Performance
+ Checklist 
+As a consultant, I follow a standard procedure when I come into a
+ new
+ shop with a database that I have never seen before. My goal is to
+ quickly identify and correct performance problems. Here is a
+ summary of
+ the things that I look at first:
+1 - Install STATSPACK first, and get hourly snaps working.
+2 - Get an SQL access report, a spreport during peak
+ times, and statspack_alert.sql output.
+3 - Look for silver bullets:
+      - partial schema stats
+      - missing indexes
+       -optimizer_index_cost_adj=15      #10-15 for OLTP systems, 50 for DW #This adjusts the
+ optimizer to
+ favor index access
+       -optimizer_index_caching=85
+ (depending on RAM for index caching,
+ around 85)
+      - optimizer_mode=first_rows
+ (for
+ OLTP)
+      - hash_area_size too small
+ (too
+ many nested loop joins)
+       -
+ parallel_automatic_tuning=TRUE When set to &quot;on&quot;, this parameter
+ parallelizes full-table scans . Because parallel full-table scans
+ are
+ very fast, the CBO will give a higher cost to index access and be
+ friendlier to full-table scans.
+4 - Fully utilize server RAM - On a dedicated Oracle server, use
+ all
+ extra RAM for db_cache_size less PGA&apos;s and 20% RAM
+ reserve for OS.
+5 - Get the bottlenecks - See STATSPACK top 5 wait events - OEM
+ performance pack reports - TOAD reports
+6 - Look for Buffer Busy Waits resulting from table/index freelist
+ shortages
+7 - See if large-table full-table scans can be removed with
+ well-placed
+ indexes
+8 - If tables are low volatility, seek an MV that can
+ pre-join/pre-aggregate common queries. Turn-on automatic query
+ rewrite
+9 - Look for non-reentrant SQL - (literals values inside SQL from
+ v$sql) - If so, set cursor_sharing=force
+10 - Monitor over time - The ongoing STATSPACK reports should show
+ any
+ new performance problems.
+
+
+
+ INSTANCE TUNING 
+ 1) Library Cache Hit Ratio: 
+In the most basic terms, the library cache is a memory structure
+ that
+ holds the parsed (ie. already examined to determine syntax
+ correctness,
+ security privileges, execution plan, etc.) versions of SQL
+ statements
+ that have been executed at least once. As new SQL statements
+ arrive,
+ older
+ SQL statements will be pushed from the memory structure to provide
+ space
+ for the new statements. If the older SQL statements need to be
+ re-executed,
+ they will now have to be re-parsed. Also, a SQL statement that is
+ not
+ exactly the same as an already parsed statement (including even
+ capitalization)
+ will be reparsed even though it may perform the exact same
+ operation.
+ Parsing is an expensive operation, so the objective is to make the
+ memory structure large enough to hold enough parsed SQL statements
+ to
+ avoid a large percentage of re-parsing.
+ Target : 99% or greater.
+ Value : SELECT (1 - SUM(reloads)/SUM(pins)) FROM
+ v$librarycache;
+ Correction : Increase the SHARED_POOL_SIZE parameter (in
+ bytes)
+ in the INIT.ORA file.
+
+ 2) Dictionary Cache Hit Ratio: 
+The dictionary cache is the memory structure that holds the most
+ recently used contents of ORACLE&apos;s data dictionary, such as
+ security
+ privileges, table structures, column data types, etc. This data
+ dictionary information is necessary for each and every parsing of
+ a SQL
+ statement. Recalling that memory is around 300 times faster than
+ disk,
+ it is needless to say that performance is improved by holding
+ enough
+ data dictionary information in memory to significantly minimize
+ disk
+ accesses.
+ Target : 90%
+ Value : SELECT (1 - SUM(getmisses)/SUM(gets)) FROM
+ v$rowcache;
+ Correction : Increase the SHARED_POOL_SIZE parameter (in
+ bytes)
+ in the INIT.ORA file.
+
+ 3) Buffer Cache Hit Ratio: 
+The buffer cache is the memory structure that holds the most
+ recently
+ used blocks read from disk, whether table, index, or other segment
+ type. As new data is read into the buffer cache, data that hasn&apos;t
+ been
+ recently used is pushed out. Again recalling that memory is
+ approximately 300 times faster than disk, the objective is to hold
+ enough data in memory to minimize disk accesses. Note that data
+ read
+ from tables through the use of indexes is held in the buffer cache
+ much
+ longer than data read via full-table scans.
+ Target : 90% (although some shops find 80% or even 70%
+ acceptable)
+ Value :
+SELECT value FROM v$sysstat WHERE name = &apos;consistent gets&apos;;
+SELECT value FROM v$sysstat WHERE name = &apos;db block gets&apos;;
+SELECT value FROM v$sysstat WHERE name = &apos;physical reads&apos;;
+Buffer cache hit ratio = 1 - physical reads/(consistent gets + db
+ block
+ gets)
+ Correction : Increase the DB_CACHE_SIZE parameter in the
+ INIT.ORA
+ file.
+ Other notes: 
+- Compare the values for &quot;table scans&quot; and &quot;table access by rowid&quot;
+ in
+ the v$sysstat table to gain general insight into whether
+ additional
+ indexing is needed. Tuning specific applications via indexing will
+ increase the &quot;table access by rowid&quot; value (ie. tables read
+ through the
+ use of indexes) and decrease the &quot;table scans&quot; values. This effect
+ tends to improve the buffer cache hit ratio since a smaller volume
+ of
+ data is read into the buffer cache from disk, so less previously
+ cached
+ data is pushed out. (See the article on application tuning for
+ more
+ details regarding indexing.)
+- A low buffer cache hit ratio can very quickly lead to an I/O
+ bound
+ situation, as more reads are required per period of time to
+ provide the
+ requested data. When the reads/time period exceed the workload
+ supported by the disk subsystem, exponential performance
+ degradations
+ can occur. (Please see the section on Operating System tuning.)
+- Since the buffer cache will typically be the largest memory
+ structure
+ allocated in the ORACLE instance, it is the structure most likely
+ to
+ contribute
+ to O/S paging. If the buffer cache is sized such that the hit
+ ratio is
+ 90%, but excessive paging occurs at this setting, performance may
+ be
+ better if the buffer cache were sized to achieve an 85% hit ratio.
+ Careful
+ analysis is necessary to balance the buffer cache hit ratio with
+ the
+ O/S paging rate.
+
+ 4) Sort Area Hit Ratio: 
+Sorts that are too large to be performed in memory are written to
+ disk.
+ Once again, memory is about 300 times faster than disk, so for
+ instances where a large volume of sorting occurs (such as decision
+ support systems or data warehouses), sorting on disk can degrade
+ performance. The objective, of course, is to allow a significant
+ percentage of sorts to occur in memory.
+ Target : 90% (although many shops find 80% or less
+ acceptable)
+ Value :
+SELECT value FROM v$sysstat WHERE name = &apos;sorts (memory)&apos;;
+SELECT value FROM v$sysstat WHERE name = &apos;sorts (disk)&apos;;
+Sort area hit ratio = 1 - disk sorts/(memory sorts + disk sorts);
+
+ Correction : Increase the SORT_AREA_SIZE parameter (in
+ bytes) in the INIT.ORA file.
+ Other notes: 
+- With release 7.3 and above, setting the SORT_DIRECT_WRITES =
+ TRUE
+ initialization parameter causes sorts to disk to bypass the buffer
+ cache, thus improving the buffer cache hit ratio.
+- As with buffer cache hit ratio, examine the values for &quot;table
+ scans&quot;
+ and &quot;table access by rowid&quot; in the v$sysstat table to determine
+ if additional indexing is needed. In some cases, the optimizer
+ will
+ choose
+ to retrieve the rows in the correct order by using the index, thus
+ avoiding
+ a sort. In other cases, retrieval by index rather than full-table
+ scan
+ tends to collect a smaller quantity of rows to be sorted, thus
+ increasing
+ the probability that the sort can occur in memory, which also
+ tends to
+ improve the sort area hit ratio.
+- Also, as with buffer cache hit ratio, sort area size (if very
+ large)
+ can contribute to O/S paging. In general, sorting on disk should
+ be favored over excessive paging, as paging effects all memory
+ structures
+ (ORACLE and non-ORACLE) while sorting on disk only effects sorts
+ performed
+ by the ORACLE instance.
+
+ 5) Redo Log Space Requests: 
+Redo logs (and archive logs if the ORACLE instance is run in
+ ARCHIVELOG
+ mode) are transaction logs involving a variety of structures. The
+ redo
+ log buffer is a memory structure into which changes are recorded
+ as
+ they are applied to blocks in the buffer cache (including data,
+ index,
+ rollback segments, etc.). Committed changes are synchronously
+ flushed
+ to redo log
+ file members on disk, while uncommited changes are asynchronously
+ written
+ to redo log files. (This approach makes perfect sense on
+ inspection. If
+ an instance crash occurs, commited changes are already written to
+ the
+ redo logs on disk and are applied during instance recovery.
+ Uncommited
+ changes in the redo log buffer not yet written to disk are lost,
+ and
+ any
+ uncommited changes that have been written to disk are rolled-back
+ during
+ instance recovery.) A session performing an update and an
+ immediate
+ commit
+ will not return until the committed change has been written to the
+ redo
+ log buffer and flushed to the redo log files on disk. Redo log
+ groups
+ are written to in a round-robin manner. When the mirrored members
+ of
+ a redo log group become full, a log switch occurs, thus archiving
+ one
+ member of the redo log group (if ARCHIVELOG mode is TRUE), then
+ clearing the members of that redo log group. Note that a
+ checkpoint
+ also occurs at least on each redo log switch. In most basic form,
+ the
+ redo log buffer should be large enough that no waits for available
+ space in the memory structure occur while changes are written to
+ redo
+ log files. The redo log file size should be large enough that the
+ redo
+ log buffer does not fill during a redo log switch. Finally, there
+ should be enough redo log groups that the archiving and clearing
+ of
+ filled redo logs does not cause waits for redo log switches, thus
+ causing the redo log buffer to fill. The inability to write
+ changes to
+ the redo log buffer because it is full is reported as redo log
+ space
+ requests in the v$sysstat table.
+ Target : 0
+ Value : SELECT value FROM v$sysstat WHERE name = &apos;redo log
+ space
+ requests&apos;;
+ Correction :
+- Increase the LOG_BUFFER parameter (in bytes) in the INIT.ORA
+ file.
+- Increase the redo log size.
+- Increase the number of redo log groups.
+ Other notes: 
+- The default configuration of small redo log size and two redo
+ log
+ groups is seldom sufficient. Between 4 and 10 groups typically
+ yields
+ adequate results, depending on the particular archive log
+ destination
+ (whether a single disk, RAID array, or tape). Size will be very
+ dependent upon the specific application characteristics and
+ throughput
+ requirements, and can range from less than 10 Mb to 500 Mb or
+ greater.
+- Since redo log sizes and groups can be changed without a
+ shutdown/restart of the instance, increasing the redo log size and
+ number of groups is typically the best area to start tuning for
+ reduction of redo log space requests. If increasing the redo log
+ size
+ and number of groups appears to have little impact on redo log
+ space
+ requests, then increase the LOG_BUFFER initialization parameter.
+
+ 6) Redo Buffer Latch Miss Ratio: 
+One of the two types of memory structure locking mechanisms used
+ by an
+ ORACLE instance is the latch. A latch is a locking mechanism that
+ is
+ implemented entirely within the executable code of the instance
+ (as
+ opposed to an enqueue, see below). Latch mechanisms most likely to
+ suffer from contention involve requests to write data into the
+ redo
+ log buffer. To serve the intended purpose, writes to the redo log
+ buffer must be serialized (ie. one process locks the buffer,
+ writes to
+ it, then unlocks it, a second process locks, writes, and unlocks,
+ etc.,
+ while other
+ processes wait for their chance to acquire these same locks).
+ There are
+ four different groupings applicable to redo buffer latches: redo
+ allocation
+ latches and redo copy latches, each with immediate and
+ willing-to-wait
+ priorities. Redo allocation latches are acquired by small redo
+ entries
+ (having an entry size smaller than or equal to the
+ LOG_SMALL_ENTRY_MAX_SIZE initialization parameter) and utilize
+ only a
+ single CPU&apos;s resources for execution. Redo copy latches are
+ requested
+ by larger redo entries (entry size larger than the
+ LOG_SMALL_ENTRY_MAX_SIZE), and take advantage of multiple CPU&apos;s
+ for
+ execution. Recall from above that committed changes are
+ synchronously
+ written to redo logs on disk: these entries require an immediate
+ latch
+ of the appropriate type. Uncommitted changes are asynchronously
+ written
+ to redo log files, thus they attempt to acquire a willing-to-wait
+ latch
+ of the appropriate type. Below, each category of redo buffer latch
+ will
+ be considered seperately.
+- Redo allocation immediate and willing-to-wait latches:
+ Target : 1% or less
+ Value (immediate):
+SELECT a.immediate_misses/(a.immediate_gets + a.immediate_misses +
+ 0.000001)
+FROM v$latch a, v$latchname b
+WHERE b.name = &apos;redo allocation&apos; AND b.latch# = a.latch#;
+ Value (willing-to-wait):
+SELECT a.misses/(a.gets + 0.000001)
+FROM v$latch a, v$latchname b
+WHERE b.name = &apos;redo allocation&apos; AND b.latch# = a.latch#;
+ Correction : Decrease the LOG_SMALL_ENTRY_MAX_SIZE parameter
+ in
+ the INIT.ORA file.
+ Other notes: 
+- By making the max size for a redo allocation latch smaller, more
+ redo
+ log buffer writes qualify for a redo copy latch instead, thus
+ better
+ utilizing multiple CPU&apos;s for the redo log buffer writes. Even
+ though
+ memory structure manipulation times are measured in nanoseconds, a
+ larger write still takes longer than a smaller write. If the size
+ for
+ remaining writes done via redo allocation latches is small enough,
+ they
+ can be completed with little or no redo allocation latch
+ contention.
+- On a single CPU node, all log buffer writes are done via redo
+ allocation latches. If log buffer latches are a significant
+ bottleneck,
+ performance can benefit from additional CPU&apos;s (thus enabling redo
+ copy
+ latches) even if the CPU utilization is not an O/S level
+ bottleneck.
+- In the SELECT statements above, an extremely small value is
+ added to
+ the divisor to eliminate potential divide-by-zero errors.
+
+ - Redo copy immediate and willing-to-wait latches: 
+ Target : 1% or less
+ Value (immediate):
+SELECT a.immediate_misses/(a.immediate_gets + a.immediate_misses +
+ 0.000001)
+FROM v$latch a, v$latchname b
+WHERE b.name = &apos;redo copy&apos; AND b.latch# = a.latch#;
+ Value (willing-to-wait):
+SELECT a.misses/(a.gets + 0.000001)
+FROM v$latch a, v$latchname b
+WHERE b.name = &apos;redo copy&apos; AND b.latch# = a.latch#;
+ Correction : Increase the LOG_SIMULTANEOUS_COPIES parameter
+ in
+ the INIT.ORA file.
+ Other Notes: 
+- Essentially, this initialization parameter is the number of redo
+ copy
+ latches available. It defaults to the number of CPU&apos;s (assuming a
+ multiple CPU node). Oracle Corporation recommends setting it as
+ large
+ as 2 times the number of CPU&apos;s on the particular node, although
+ quite a
+ bit of experimentation may be required to get the value adjusted
+ in a suitable manner for any particular instance&apos;s workload.
+ Depending
+ on CPU capability and utilization, it may be beneficial to set
+ this
+ initialization parameter smaller or larger than 2 X #CPU&apos;s.
+- Recall that the assignment of log buffer writes to either redo
+ allocation latches or redo copy latches is controlled by the
+ maximum
+ log buffer write size allowed for a redo allocation latch, and is
+ specified in the LOG_SMALL_ENTRY_MAX_SIZE initialization
+ parameter.
+ Recall also that redo copy latches apply only to multiple CPU
+ hosts.
+
+ 7) Enqueue Waits: 
+The second of the two types of memory structure locking mechanisms
+ used
+ by an ORACLE instance is the enqueue. As opposed to a latch, an
+ enqueue
+ is a lock implemented through the use of an operating system call,
+ rather than entirely within the Instance&apos;s executable code.
+ Exactly
+ what operations use locks via enqueues is not made sufficiently
+ clear from any Oracle documentation (or at least none that the
+ author
+ has seen), but the fact that enqueues waits do degrade instance
+ performance
+ is reasonably clear. Luckily, tuning enqueues is very
+ straight-forward.
+ Target : 0
+ Value : SELECT value FROM v$sysstat WHERE name = &apos;enqueue
+ waits&apos;;
+ Correction : Increase the ENQUEUE_RESOURCES parameter in the
+ INIT.ORA file.
+
+ 8) Checkpoint Contention: 
+A checkpoint is the process of flushing all changed data blocks
+ (table,
+ index, rollback segments, etc.) held in the buffer cache to their
+ corresponding datafiles on disk. This process occurs during each
+ redo
+ log switch, each time the number of database blocks specified in
+ the
+ LOG_CHECKPOINT_INTERVAL initialization parameter is reached, and
+ each
+ time the number of seconds specified in the LOG_CHECKPOINT_TIMEOUT
+ is
+ reached. (Also, checkpoints occur during a NORMAL or IMMEDIATE
+ SHUTDOWN,
+ when a tablespace is placed in BACKUP mode, or when an ALTER
+ SYSTEM
+ CHECKPOINT
+ is manually issued, but these occurrences are usually outside the
+ scope
+ of normal daytime operation.) Depending on the number of changed
+ blocks
+ in the buffer cache, a checkpoint can take considerable time to
+ complete.
+ Since this process is essentially done asynchronously, user
+ sessions
+ performing work will typically not have to wait for a checkpoint
+ to
+ complete. However checkpoints can effect overall system
+ performance
+ since they are fairly resource intensive operations, even though
+ they
+ occur in the background. Checkpoints are, of course, absolutely
+ necessary,
+ but it is quite possible for one checkpoint to begin (because of
+ LOG_CHECKPOINT_INTERVAL
+ or LOG_CHECKPOINT_TIMEOUT settings) and partially complete, then
+ be
+ rolled-back
+ because another checkpoint was issued (perhaps because of a redo
+ log
+ switch). It is desirable to avoid this checkpoint contention
+ because
+ it wastes considerable resources that can be used by other
+ processes.
+ Checkpointing statistics are readily available in the v$sysstat
+ table,
+ and the contention is fairly simple to determine.
+ Target : 1 or less
+ Value :
+SELECT value FROM v$sysstat WHERE name = &apos;background checkpoints
+ started&apos;;
+SELECT value FROM v$sysstat WHERE name = &apos;background checkpoints
+ completed&apos;;
+Checkpoints rolled-back = checkpoints started - checkpoints
+ completed;
+ Correction :
+- Increase the LOG_CHECKPOINT_TIMEOUT parameter (in seconds) in
+ the
+ INIT.ORA file, or set it to 0 to disable time-based checkpointing.
+ If
+ time-based checkpointing is not disabled, set it to checkpoint
+ once per
+ hour or more.
+- Increase the LOG_CHECKPOINT_INTERVAL parameter (in db blocks) in
+ the
+ INIT.ORA file, or set it to an arbitrarily large value so that
+ change-based checkpoints will only occur during a redo log switch.
+- Examine the redo log size and the resulting frequency of redo
+ log
+ switches.
+ Other notes: Note that regardless of the checkpoint
+ frequency,
+ no data is lost in the event of an instance crash. All changes are
+ recorded to the redo logs and would be applied during instance
+ recovery
+ on the next startup, so checkpoint frequency will impact the time
+ required for instance recovery. Presented below is a typical
+ scenario:
+- Set the LOG_CHECKPOINT_INTERVAL to an arbitrarily large value,
+ set
+ the LOG_CHECKPOINT_TIMEOUT to 2 hours, and size the redo logs so
+ that a
+ log switch will normally occur once per hour. During times of
+ heavy
+ OLTP activity, a change-based log switch will occur approximately
+ once
+ per hour, and no time-based checkpoints will occur. During periods
+ of
+ light OLTP activity, a time-based checkpoint will occur at least
+ once
+ every two hours, regardless of the number of changes. Setting the
+ LOG_CHECKPOINT_INTERVAL arbitrarily large allows change-based
+ checkpoint frequency to be adjusted during periods of heavy use by
+ re-sizing the redo logs on-line rather than adjusting the
+ initialization parameter and performing an instance
+ shutdown/restart.
+
+ 9) Rollback Segment Contention: 
+Rollback segments are the structures into which undo information
+ for
+ uncommited changes are temporarily stored. This behavior serves
+ two
+ purposes. First, a session can remove a change that was just
+ issued by
+ simply issuing a ROLLBACK rather than a COMMIT. Second, read
+ consistency is established because a long-running SELECT statement
+ against a table that is constantly being updated (for example)
+ will get
+ data that is consistent
+ with the start time of the SELECT statement by reading undo
+ information
+ from the appropriate rollback segment. (Otherwise, the answer
+ returned
+ by the long-running SELECT would vary depending on whether that
+ particular
+ block was read before the update occurred, or after.) Rollback
+ segments
+ become a bottleneck when there are not enough to handle the load
+ of
+ concurrent
+ activity, in which case, sessions will wait for write access to an
+ available rollback segment. Some waits for rollback segment data
+ blocks
+ or header blocks (usually header blocks) will always occur, so
+ criteria
+ for tuning is to limit the waits to a very small percentage of the
+ total
+ number of all data blocks requested. Note that rollback segments
+ function
+ exactly like table segments or index segments: they are cached in
+ the
+ buffer cache, and periodically checkpointed to disk.
+ Target : 1% or less
+ Value :
+Rollback waits = SELECT max(count) FROM v$waitstat
+WHERE class IN (&apos;system undo header&apos;, &apos;system undo block&apos;,&apos;undo
+ header&apos;, &apos;undo block&apos;)
+GROUP BY class;
+Block gets = SELECT sum(value) FROM v$sysstat WHERE name IN
+ (&apos;consistent gets&apos;,&apos;db block gets&apos;);
+Rollback segment contention ratio = rollback waits / block gets
+ Correction : Create additional rollback segments.
+
+ 10) Freelist contention: 
+In each table, index, or other segment type, the first one or more
+ blocks contain one or more freelists. The freelist(s) identify the
+ blocks in that segment that have free space available and can
+ accept
+ more data. Any INSERT, UPDATE, or DELETE activity will cause the
+ freelist(s) to be accessed. Change activity with a high level of
+ concurrency may cause
+ waits to access to these freelist(s). This is seldom a problem in
+ decision
+ support systems or data warehouses (where updates are processed as
+ nightly
+ single-session batch jobs, for example), but can become a
+ bottleneck
+ with OLTP systems supporting large numbers of users.
+ Unfortunately,
+ there
+ are no initialization parameters or other instance-wide settings
+ to
+ correct freelist contention: this must be corrected on a table by
+ table
+ basis by re-creating the table with additional freelists and/or by
+ modifying
+ the PCT_USED parameter. (Please see the article on storage
+ management.)
+ However, freelist contention can be measured at the instance
+ level.
+ Some
+ freelist waits will always occur; the objective is to limit the
+ freelist
+ waits to a small percentage of the total blocks requested.
+ Target : 1% or less
+ Value :
+Freelist waits = SELECT count FROM v$waitstat WHERE class = &apos;free
+ list&apos;;
+Block gets = SELECT sum(value) FROM v$sysstat WHERE name IN
+ (&apos;consistent gets&apos;,&apos;db block gets&apos;);
+Freelist contention ratio = Freelist waits / block gets
+ Correction : No method for instance-level correction. Please
+ see
+ the article on storage management.
+
+ 11) Oracle Session hogs 
+If the complaint of poor performance is current, then the
+ connected
+ sessions are one of the first things to check to see which users
+ are
+ impacting the system in undesirable ways. There are a couple of
+ different avenues to take here. First, you can get an idea of the
+ percentage that each session is/has taken up with respect to I/O.
+ One
+ rule of thumb is that if any session is currently consuming 50% or
+ more
+ of the total I/O, then that session and its SQL need to be
+ investigated
+ further to determine what activity it is engaged in. If you are a
+ DBA
+ that is just concerned with physical I/O, then the physpctio.sql
+ query
+ will provide the information you need:
+This script queries the sys.v_$statname, sys.v_$sesstat,
+ sys.v_$session, and sys.v_$bgprocess views.
+ select sid, username, 
+       round(100 *
+ total_user_io/total_io,2) tot_io_pct 
+ from (select b.sid sid,nvl(b.username,p.name) username, 
+             sum(value)
+ total_user_io 
+        from sys.v_$statname
+ c,
+ sys.v_$sesstat a, 
+             sys.v_$session
+ b, sys.v_$bgprocess p 
+        where
+ a.statistic#=c.statistic# and 
+              p.paddr
+ (+) = b.paddr and 
+              b.sid=a.sid
+ and 
+              c.name
+ in (&apos;physical reads&apos;, 
+                         &apos;physical
+ writes&apos;, 
+                         &apos;physical
+ writes direct&apos;, 
+                         &apos;physical
+ reads direct&apos;, 
+                         &apos;physical
+ writes direct (lob)&apos;, 
+                         &apos;physical
+ reads direct (lob)&apos;) 
+ group by b.sid, nvl(b.username,p.name)), 
+        (select sum(value)
+ total_io 
+          from
+ sys.v_$statname c, sys.v_$sesstat a 
+          where
+ a.statistic#=c.statistic# and 
+                c.name
+ in (&apos;physical reads&apos;, 
+                           &apos;physical
+ writes&apos;, 
+                           &apos;physical
+ writes direct&apos;, 
+                           &apos;physical
+ reads direct&apos;, 
+                           &apos;physical
+ writes direct (lob)&apos;, 
+                           &apos;physical
+ reads direct (lob)&apos;)) 
+ order by 3 desc; 
+Regardless of which query you use, the output might resemble
+ something
+ like the following:
+ SID USERNAME TOT_IO_PCT 
+ ---- --------  ------------------- 
+ 9   USR1    71.26 
+ 20  SYS     15.76 
+ 5   SMON    7.11 
+ 2   DBWR    4.28 
+ 12  SYS     1.42 
+ 6   RECO    .12 
+ 7   SNP0    .01 
+ 10  SNP3    .01 
+ 11  SNP4    .01 
+ 8   SNP1    .01 
+ 1   PMON    0 
+ 3   ARCH    0 
+ 4   LGWR    0 
+In the above example, a DBA would be prudent to examine the USR1
+ session to see what SQL calls they are making. You can see that
+ the
+ above queries are excellent weapons that you can use to quickly
+ pinpoint
+ problem I/O sessions.
+
+
+
+ Application and SQL Tuning 
+
+* Check DB Parameters 
+ select substr(name,1,20),
+ substr(value,1,40), isdefault,
+ isses_modifiable, issys_modifiable 
+  from v$parameter 
+  where
+ issys_modifiable&lt;&gt;&apos;FALSE&apos; 
+     or
+ isses_modifiable&lt;&gt;&apos;FALSE&apos; 
+  order by name; 
+
+* The SQL sentences must be the same in order to re-use them in
+ memory.
+
+* Size of Database 
+ compute sum of bytes on
+ report 
+ break on report 
+ Select tablespace_name,
+ sum(bytes) bytes 
+ From dba_data_files 
+ Group by tablespace_name; 
+
+* How much Space is Left ?
+ compute sum of bytes on
+ report 
+ Select tablespace_name,
+ sum(bytes) bytes 
+ From dba_free_space 
+ Group by tablespace_name; 
+
+* Memory Values .
+ select substr(name,1,35)
+ name,
+ substr(value,1,25) value 
+ from v$parameter 
+ where name in
+(&apos;db_cache_size&apos;,&apos;db_block_size&apos;,&apos;shared_pool_size&apos;,&apos;sort_area_size&apos;);  
+
+
+* Identify the SQL responsible for the most BUFFER HITS and/or DISK READS . If I want to see what is on SQL AREA :
+ SELECT SUBSTR(sql_text,1,80)
+ Text, disk_reads, buffer_gets, executions 
+   FROM v$sqlarea 
+   WHERE executions &gt;0 
+   AND
+ buffer_gets&gt;100000 
+   and DISK_READS&gt;100000 
+   ORDER BY (DISK_READS * 100)
+ +
+ BUFFER_GETS desc; 
+
+The column BUFFER_GETS is the total number of times the SQL
+ statement
+ read a database block from the buffer cache in the SGA. Since
+ almost
+ every SQL operation passes through the buffer cache, this value
+ represents the best metric for determining how much work is being
+ performed. It is
+ not perfect, as there are many direct-read operations in Oracle
+ that
+ completely
+ bypass the buffer cache. So, supplementing this information, the
+ column
+ DISK_READS is the total number times the SQL statement read
+ database
+ blocks from disk, either to satisfy a logical read or to satisfy a
+ direct-read.
+ Thus, the formula:
+(DISK_READS * 100) + BUFFER_GETS
+is a very adequate metric of the amount of work being performed by
+ a
+ SQL statement. The weighting factor of 100 is completely
+ arbitrary, but
+ it reflects the fact that DISK_READS are inherently more expensive
+ than
+ BUFFER_GETS to shared memory.
+ Patterns to look for 
+DISK_READS close to or equal to BUFFER_GETS This indicates that
+ most
+ (if not all) of the gets or logical reads of database blocks are
+ becoming
+ physical reads against the disk drives. This generally indicates a
+ full-table
+ scan, which is usually not desirable but which usually can be
+ quite
+ easy
+ to fix.
+ 
+
+* Finding the top 25 SQL 
+ declare 
+  top25 number; 
+  text1 varchar2(4000); 
+  x number; 
+  len1 number; 
+ cursor c1 is 
+  select buffer_gets,
+ substr(sql_text,1,4000) 
+  from v$sqlarea 
+  order by buffer_gets
+ desc; 
+ begin 
+  dbms_output.put_line(&apos;Gets&apos;||&apos;   &apos;||&apos;Text&apos;); 
+  dbms_output.put_line(&apos;----------&apos;|| 
+  &apos;
+ &apos;||&apos;----------------------&apos;); 
+  open c1; 
+  for i in 1..25 loop 
+  fetch c1 into top25,
+ text1; 
+  dbms_output.put_line(rpad(to_char(top25),9)|| 
+   &apos;
+ &apos;||substr(text1,1,66)); 
+ len1:=length(text1); 
+ x:=66; 
+  while len1&gt;x-1
+ loop 
+   dbms_output.put_line(&apos;&quot;        &apos;||substr(text1,x,66)); 
+  x:=x+66; 
+  end loop; 
+  end loop; 
+ end; 
+ / 
+
+* Displays the porcentage of SQL executed that did NOT incur an
+ expensive hard parse. So a low number may indicate a literal
+SQL
+ or other sharing problem .
+Ratio success is dependant on your development environment. OLTP
+ should be 90 percent.
+
+ select 100 *
+ (1-a.hard_parses/b.executions) noparse_hitratio 
+   from (select value
+ hard_parses 
+       from v$sysstat 
+       where name = &apos;parse count (hard)&apos;
+ ) a 
+    ,(select
+ value
+ executions 
+       from v$sysstat 
+       where name = &apos;execute count&apos;) b; 
+ 
+
+ * HIT RATIO BY SESSION: 
+ column HitRatio format 999.99 
+ select substr(Username,1,15)
+ username, Consistent_Gets, 
+              Block_Gets, Physical_Reads, 100*(Consistent_Gets+Block_Gets-Physical_Reads)/ (Consistent_Gets+Block_Gets)
+ HitRatio 
+ from V$SESSION, V$SESS_IO 
+ where V$SESSION.SID =
+ V$SESS_IO.SID 
+   and
+ (Consistent_Gets+Block_Gets)&gt;0 
+   and Username is not null; 
+
+* IO PER DATAFILE :
+ select substr(DF.Name,1,40)
+ File_Name, 
+              FS.Phyblkrd Blocks_Read, 
+              FS.Phyblkwrt Blocks_Written, 
+              FS.Phyblkrd+FS.Phyblkwrt
+ Total_IOs 
+ from V$FILESTAT FS, V$DATAFILE
+ DF 
+ where DF.File#=FS.File# 
+ order by
+ FS.Phyblkrd+FS.Phyblkwrt
+ desc; 
+ 
+
+* Schema&apos;s Report 
+ select substr(username,1,10)
+ &quot;Username&quot;, created &quot;Created&quot;, 
+          substr(granted_role,1,25)
+ &quot;Roles&quot;, 
+          substr(default_tablespace,1,15)
+ &quot;Default TS&quot;, 
+          substr(temporary_tablespace,1,15)
+ &quot;Temporary TS&quot; 
+ from sys.dba_users,
+ sys.dba_role_privs 
+ where username = grantee (+) 
+ order by username; 
+
+* Free space on TABLESPACES :
+ select
+ substr(a.tablespace_name,1,10) tablespace, 
+       round(sum(a.total1)/1024/1024,
+ 1) Total, 
+        round(sum(a.total1)/1024/1024,
+ 1)- 
+        round(sum(a.sum1)/1024/1024,
+1)
+ used, 
+        round(sum(a.sum1)/1024/1024,
+1)
+ Free, 
+        round(sum(a.sum1)/1024/1024,1)*100/round(sum(a.total1)/1024/1024,1)
+ porciento_fr, 
+        round(sum(a.maxb)/1024/1024,
+1)
+ Largest, 
+        max(a.cnt) Fragment 
+ from (select
+ tablespace_name, 0
+ total1, sum(bytes) sum1, 
+              max(bytes)
+ MAXB,count(bytes) cnt 
+        from dba_free_space 
+        group by
+ tablespace_name 
+       union 
+        select
+ tablespace_name,
+ sum(bytes) total1, 0, 0, 0 
+         from dba_data_files 
+         group by
+ tablespace_name) a 
+  group by a.tablespace_name ; 
+
+* Segments whose next extent can&apos;t fit 
+ select substr(owner,1,10)
+ owner,
+ substr(segment_name,1,40)
+ segment_name, substr(segment_type,1,10) segment_type,
+ next_extent 
+ from dba_segments 
+ where next_extent&gt; 
+ (select sum(bytes) from
+ dba_free_space 
+ where tablespace_name =
+ dba_segments.tablespace_name); 
+
+* Find Tables/Indexes fragmented into&gt;15 pieces 
+ Select substr(owner,1,8)
+ owner,
+ substr(segment_name,1,42) segment_name,
+ segment_type, extents 
+ From dba_segments 
+ Where extents&gt;15; 
+
+* COALESCING FREE SPACE = Los distintos bloques libres
+ (chunks)
+ que sean adjuntos se pueden juntar en uno mas grande. Inspecciono
+ con:
+ select file_id, block_id,
+ blocks,
+ bytes from dba_free_space 
+ where tablespace_name =
+ &apos;xxx&apos;
+ order by 1,2; 
+Esto me devuelve una lista de resultados. Si file_id de 2 filas es
+ igual y el block_id + blocks = Block_id de la fila siguiente,
+ entonces
+ los puedo juntar.
+Se hace con ALTER TABLESPACE XX COALESCE;
+
+* Quick Script to coalesce all the tablespaces tablespaces 
+ set echo off pages 0 trimsp
+ off
+ feed off 
+ spool coalesce.sql 
+ select &apos;alter tablespace
+ &apos;||tablespace_name||&apos; coalesce;&apos; 
+ from sys.dba_tablespaces 
+ where tablespace_name not in
+ (&apos;TEMP&apos;,&apos;ROLLBACK&apos;); 
+ spool off 
+ @coalesce.sql 
+ host rm coalesce.sql 
+
+* Information about a Table 
+ Select Table_Name,
+ Initial_Extent, Next_Extent, 
+  Pct_Free,
+ Pct_Increase 
+ From dba_tables 
+ Where Table_Name =
+ upper(&apos;&amp;Table_name&apos;); 
+
+* Information about an Index: 
+ Select Index_name,
+ Initial_Extent, Next_Extent 
+ From Dba_indexes 
+ Where Index_Name =
+ upper(&apos;&amp;Index_name&apos;); 
+
+* Fixing Table Fragmentation 
+Example: CUSTOMER Table is fragmented
+Currently in 22 Extents of 1M each.
+(Can be found by querying DBA_EXTENTS)
+
+CREATE TABLE CUSTOMER1
+TABLESPACE NEW
+STORAGE (INITIAL 23M NEXT 2M PCTINCREASE 0)
+AS SELECT * FROM CUSTOMER;
+DROP TABLE CUSTOMER;
+RENAME CUSTOMER1 TO CUSTOMER;
+(Create all necessary privileges,grants, etc.)
+
+
+*  PINS and UNPIN objects:
+        execute
+dbms_shared_pool_keep(&apos;object_name&apos;,&apos;P
+ o R o Q&apos;); 
+Use &apos;P&apos; for procedure (or funcion), &apos;R&apos; for trigger and &apos;Q&apos; for
+ sequence.
+ Previously I should run the package dbmspool.sql y prvtpool.plb
+ located
+ on  $ORACLE_HOME/rdbms/admin as sys or internal and
+ grant
+ execute on dbms_shared_pool.
+        exec
+ dbms_shared_pool.unkeep(&apos;SCOTT.TEMP&apos;,&apos;P&apos;); 
+If you want to have a table in memory, add the CACHE word at the
+ end of
+ the creation script. You can also use the /*+ cache(table)
+ */
+ hint.
+
+
+To Load the code automatically on each startup::
+
+1- Create the following Trigger
+ create or replace trigger
+ pin_packs 
+ after startup on database 
+   begin 
+      --You
+ can interrogate the v$db_object_cache view to see the most
+ frequently used packages 
+      --
+ Application-specific packages 
+      --
+ Oracle-supplied software packages 
+      dbms_shared_pool.keep(&apos;DBMS_ALERT&apos;); 
+      dbms_shared_pool.keep(&apos;DBMS_DDL&apos;); 
+      dbms_shared_pool.keep(&apos;DBMS_DESCRIBE&apos;); 
+      dbms_shared_pool.keep(&apos;DBMS_LOCK&apos;); 
+      dbms_shared_pool.keep(&apos;DBMS_OUTPUT&apos;); 
+      dbms_shared_pool.keep(&apos;DBMS_PIPE&apos;); 
+      dbms_shared_pool.keep(&apos;DBMS_SESSION&apos;); 
+      dbms_shared_pool.keep(&apos;DBMS_STANDARD&apos;); 
+      dbms_shared_pool.keep(&apos;DBMS_UTILITY&apos;); 
+      dbms_shared_pool.keep(&apos;STANDARD&apos;);
+     -- Son usados estos?
+     dbms_shared_pool.keep(&apos;DBMS_SYS_SQL&apos;);
+     dbms_shared_pool.keep(&apos;DBMS_SQL&apos;);
+     dbms_shared_pool.keep(&apos;DBMS_JOB&apos;);
+   end; 
+
+2- Run the following Script to check pinned/unpinned packages
+ SELECT
+ substr(owner,1,10)||&apos;.&apos;||substr(name,1,35) &quot;Object Name&quot;, 
+                &apos; Type: &apos;||substr(type,1,12)|| 
+                &apos; size: &apos;||sharable_mem || 
+                &apos;
+ execs: &apos;||executions|| 
+                &apos;
+ loads: &apos;||loads|| 
+                &apos;
+ Kept: &apos;||kept 
+  FROM
+ v$db_object_cache 
+  WHERE type in
+ (&apos;TRIGGER&apos;,&apos;PROCEDURE&apos;,&apos;PACKAGE BODY&apos;,&apos;PACKAGE&apos;) 
+ --  AND executions&gt;0 
+  ORDER BY executions
+ desc, 
+           loads desc, 
+           sharable_mem desc; 
+ 
+
+* ROW_CHAINING 
+* To find out chained rows
+ ANALYZE TABLE TEST ESTIMATE STATISTICS; 
+
+Then from DBA_TABLES,
+ SELECT (CHAIN_CNT / NUM_ROWS) * 100 FROM DBA_TABLES WHERE
+ TABLE_NAME
+ = upper(&apos;&amp;Table_name&apos;); 
+
+This will give us the chained rows as a percentage of the total
+ number of rows in that table. If this percentage is high near 5%
+ and
+ the row doe not contain LONG or similar datatype or the row can be
+ contained
+ inside one single data block then PCTFREE should definitely be
+ decreased.
+
+ 
+
+ Distribution of
+ disk
+ I/O 
+
+ Locate the logfiles on their own disks and on the
+ fastest-writing disks. Oracle writes to the redo logs frequently
+ and
+ sequentially. If there are other files on the same disk, the
+ disks
+ heads have to move between the end of the logfile and the other
+ files.
+ This movement increases the disk seek time, causing unnecessary
+ delays
+ in redo log I/O operations, and resulting in poor performance. If easy manageability is your goal, use the UNIX file system.
+ If you are an experienced Unix and Oracle administrator, raw
+ logical volumes can give you some performance benefits.
+ Don&apos;t put Logfiles and archived logfiles on the same disk as
+ your
+ datafiles
+ Allocate one disk for the User Data Tablespace.
+ Place Rollback, Index, and System Tablespaces on separate
+ disks.
+
+ 
+
+ 2 DISKS : 
+1- exec, index, redo logs, export files, control files
+2- data, rollback segments, temp, archive log files, control
+ files
+
+ 3 DISKS 
+Disk 1: SYSTEM tablespace, control file, redo log
+Disk 2: INDEX tablespace, control file, redo log, ROLLBACK
+ tablespace
+Disk 3: DATA tablespace, control file, redo log
+or
+Disk 1: SYSTEM tablespace, control file, redo log
+Disk 2: INDEX tablespace, control file, redo log
+Disk 3: DATA tablespace, control file, redo log, ROLLBACK
+ tablespace
+
+ 4 DISKS 
+1- exec, redo logs, export files, control files
+2- data, temp, control files
+3- indexes, control files
+4- archive logs, rollback segs, control files
+
+ 5 DISKS 
+1- exec, redo logs, system tablespace, control files
+2- data, temp, control files
+3- indexes, control files
+4- rollback segments, export, control files
+5- archive, control files
+ 
+
+
+ ANALYZE
+and
+ DBMS_STATS Package
+ 
+
+ Oracle Corporation strongly recommends that you use the
+ DBMS_STATS
+ package rather than ANALYZE to collect optimizer statistics.
+ That
+ package lets you collect statistics in parallel, collect
+ global
+ statistics for partitioned objects, and fine tune your
+ statistics
+ collection in other ways. Further, the cost-based optimizer
+ will
+ eventually use only statistics that have been collected by
+ DBMS_STATS 
+
+
+However, you must use the ANALYZE statement rather than
+ DBMS_STATS
+ for
+ statistics collection not related to the cost-based optimizer,
+ such as:
+   * To use the VALIDATE or LIST CHAINED ROWS
+ clauses
+   * To collect information on freelist blocks
+
+
+
+ The DBMS_STATS package can gather statistics on
+ indexes, tables,
+ columns, and partitions, as well as statistics on all schema
+ objects in
+ a schema or database. The statistics-gathering operations can run
+ either serially or in parallel (DATABASE/SCHEMA/TABLE only)
+
+
+Previous to 8i, you would be using the ANALYZE ... methods.
+ However 8i onwards, using ANALYZE for this purpose is not
+ recommended because of various restrictions; for example:
+
+ ANALYZE always runs serially. ANALYZE calculates global statistics for partitioned tables
+ and
+ indexes instead of gathering them directly. This can lead to
+ inaccuracies for some statistics, such as the number of distinct
+ values.
+ ANALYZE cannot overwrite or delete some of the values of
+ statistics that were gathered by DBMS_STATS.
+ Most importantly, in the future, ANALYZE will not collect
+ statistics needed by the cost-based optimiser. 
+ANALYZE can gather additional information that is not used by the
+ optimiser, such as information about chained rows and the structural
+ integrity of indexes, tables, and clusters. DBMS_STATS does not
+ gather
+ this information.
+- In 10g statistics get gathered automatically
+
+ DML Monitoring 
+Used by dbms_stats to identify objects with &quot;stale&quot; statistics
+- On by default in 10g, not in 9i
+alter table&lt;table_name&gt;monitoring;
+- Tracked in [DBA|ALL|USER]_TAB_MODIFICATIONS
+- 9i and 10g use 10% change as the threshold to gather stats
+
+In Oracle 10g, Oracle automatically gathers index statistics
+ whenever
+ the index is created or rebuilt.
+
+ Example: 
+
+
+EXEC DBMS_STATS.gather_table_stats(USER, &apos;LOOKUP&apos;, cascade
+ =&gt;TRUE);
+
+
+execute dbms_stats.gather_table_stats 
+            (ownname =&gt;&apos;SCOTT&apos;
+                       ,
+ tabname =&gt;&apos;DEPT&apos;
+                       ,
+ partname=&gt;null
+                       ,
+ estimate_percent =&gt;20
+                       ,
+ degree =&gt;5
+                       ,
+ cascade =&gt;true
+             , options =&gt;&apos;GATHER AUTO&apos;);
+
+execute dbms_stats.gather_schema_stats
+            (ownname =&gt;&apos;SCOTT&apos;
+                       ,
+ estimate_percent =&gt;10
+                       ,
+ degree =&gt;5
+                       ,
+ cascade =&gt;true);
+
+execute dbms_stats.gather_database_stats
+            (estimate_percent =&gt;20
+                       ,
+ degree =&gt;5
+                       ,
+ cascade =&gt;true);
+ 
+ There are
+ several
+ values for the options parameter that we
+ need to know about:
+ -    gather - re-analyzes the whole
+ schema.
+-    gather empty - Only analyze tables
+ that
+ have no existing statistics.
+-    gather stale - Only re-analyze tables
+ with
+ more than 10% modifications (inserts, updates, deletes). The table
+ should be in monitor status first.
+-    gather auto - This will re-analyze
+ objects
+ which currently have no statistics and objects with stale
+ statistics.The table should be in monitor status first.
+              Using gather auto is like
+ combining gather stale and gather empty .
+Note that both gather stale and gather auto require
+ monitoring. If you issue the &quot;alter table xxx monitoring&quot; command,
+ Oracle tracks changed tables with the dba_tab_modifications view.
+ Below
+ we see that the exact number of inserts, updates and deletes are
+ tracked since the last analysis of statistics.
+The most interesting of these options is the gather stale option. Because all statistics will become stale quickly in a
+ robust
+ OLTP database, we must remember the rule for gather stale is&gt;10% row change (based on num_rows at statistics collection time).
+Hence, almost every table except read-only tables will be
+ re-analyzed
+ with the gather stale option. Hence, the gather stale option is
+ best for systems that are largely read-only. For example, if only
+ 5% of
+ the database tables get significant updates, then only 5% of the
+ tables
+ will be re-analyzed with the &quot;gather stale&quot; option.
+The CASCADE =&gt;TRUE option causes all indexes for the tables to
+ also
+ be analyzed. In Oracle 10g, set CASCADE to AUTO_CASCADE to
+ let
+ Oracle
+ decide whether or not new index statistics are needed.
+  
+The DEGREE Option 
+Note that you can also parallelize the collection of statistics
+ because
+ the CBO does full-table and full-index scans. When you set
+ degree=x,
+ Oracle will invoke parallel query slave processes to speed up
+ table
+ access. Degree is usually about equal to the number of CPUs, minus
+ 1
+ (for the OPQ query coordinator).
+In Oracle 10g, set DEGREE to
+ DBMS_STATS.AUTO_DEGREE to let Oracle select the appropriate degree
+ of
+ parallelism.
+
+ Force
+Statistics
+ to a Table 
+You can use the following sentence to force statistics to a Table:
+
+
+ exec
+ dbms_stats.set_table_stats(
+ user, &apos;EMP&apos;, numrows =&gt;1000000, numblks =&gt;300000 ); 
+
+
+
+ STATISTICS
+FOR
+ THE DATA DICTIONARY 
+New in Oracle Database 10g is the ability to gather statistics for
+ the
+ data dictionary. The objective is to enhance the performance
+ of
+ queries. There are two basic types of dictionary base
+ tables. 
+The statistics for normal base tables are gathered using
+ GATHER_DICTIONARY STATISTICS. They may also be gathered
+ using
+ GATHER_SCHEMA_STATS for the SYS schema. Oracle recommends
+ gathering
+ these statistics at a similar frequency as your other database
+ objects.
+Statistics for fixed objects (the V$ views on the X$ tables) are
+ gathered using the GATHER_FIXED_OBJECT_STATS procedure. The
+ initial
+ collection of these statistics is normally sufficient. Repeat
+ only if
+ workload characteristics have changed dramatically. The
+ SYSDBA
+ privilege or ANALYZE ANY DICTIONARY and ANALYZE ANY privileges are
+ required to execute the procedures for gathering data dictionary
+ statistics.
+
+
+ 
+ SQL Source - Dynamic
+ Method 
+
+
+DECLARE
+sql_stmt   VARCHAR2(1024);
+BEGIN
+ FOR tab_rec IN (SELECT owner,table_name
+                      FROM all_tables WHERE owner like UPPER(&apos;&amp;1&apos;) ) LOOP
+      sql_stmt := &apos;BEGIN
+ dbms_stats.gather_table_stats 
+           (ownname =&gt;:1,
+           tabname   =&gt;:2,
+           partname =&gt;null,
+           estimate_percent =&gt;10,
+           degree =&gt;3 ,
+           cascade =&gt;true); END;&apos; ;
+
+     EXECUTE IMMEDIATE sql_stmt USING
+ tab_rec.owner, tab_rec.table_name ;
+
+  END LOOP; 
+ END; 
+ / 
+
+* Some Dictionary Views
+DBA_TABLES -&gt;owner, table_name, num_rows, blocks, emptiy_blocks,
+ avg_space, chain_cnt, avg_row_len, sample_size, last_analyzed
+DBA_INDEXES -&gt;owner, INDEX_name, leaf_blocks, distinct_keys,
+ avg_leaf_blocks_per_key, avg_data_blocks_per_key.
+Also, DBA_PART_COL_STATISTICS y DBA_TAB_COL_STATISTICS
+
+ More examples: 
+ CREATE OR REPLACE PROCEDURE analyze_any_schema (
+ p_inOwner IN all_users.username%TYPE) 
+ IS 
+ BEGIN 
+    FOR
+ v_tabs IN (SELECT owner, table_name 
+                        FROM
+ all_tables 
+                        WHERE
+ owner      =  p_inOwner 
+                          AND
+ temporary  &lt;&gt; &apos;Y&apos; ) 
+    LOOP 
+        DBMS_OUTPUT.put_line
+ (&apos;EXEC DBMS_STATS.gather_table_stats(&apos;&apos;&apos;||v_tabs.owner|| 
+                               &apos;&apos;&apos;,&apos;&apos;&apos;||v_tabs.table_name||&apos;&apos;&apos;,NULL,1);&apos;
+ ); 
+        BEGIN 
+           DBMS_STATS.gather_table_stats(v_tabs.owner,v_tabs.table_name,NULL,1); 
+           DBMS_OUTPUT.put_line
+ (&apos;Analyzed &apos;||v_tabs.owner||&apos;.&apos;||table_name||&apos;...
+ &apos;); 
+        EXCEPTION 
+            WHEN
+ OTHERS THEN 
+                DBMS_OUTPUT.put_line
+ (&apos;Exception on analysis of
+ &apos;||v_tabs.table_name||&apos;!&apos;); 
+                DBMS_OUTPUT.put_line
+ (SUBSTR(SQLERRM,1,255)); 
+        END; 
+    END LOOP; 
+ END; 
+ / 
+ 
+
+CREATE OR REPLACE Procedure DB_Maintenance_Weekly is
+ sql_stmt   varchar2(1024);
+ v_sess_user varchar2(30);
+BEGIN
+   select sys_context(&apos;USERENV&apos;,&apos;SESSION_USER&apos;)
+ into
+ v_sess_user
+     from dual ;
+   --Analyze all Tables
+   FOR tab_rec IN (SELECT table_name
+                      FROM
+ all_tables
+                      WHERE
+ owner = v_sess_user
+                        and
+ table_name not like &apos;TEMP_%&apos;) LOOP
+       sql_stmt := &apos;BEGIN
+ dbms_stats.gather_table_stats
+                    (ownname =&gt;:1,
+                     tabname   =&gt;:2,
+                     partname  =&gt;null,
+                     estimate_percent
+ =&gt;DBMS_STATS.AUTO_SAMPLE_SIZE,
+                     degree
+ =&gt;3 ,
+                     cascade
+ =&gt;true); END;&apos; ;
+     EXECUTE IMMEDIATE sql_stmt USING
+ v_sess_user, tab_rec.table_name ;
+  END LOOP;
+ EXCEPTION
+   WHEN NO_DATA_FOUND THEN
+       NULL ;
+end;
+/
+
+ 
+
+ Analyze
+ Options 
+- Estimate over all rows
+       DBMS_UTILITY.ANALYZE_SCHEMA(&apos;userid&apos;, &apos;COMPUTE&apos;);
+
+- Estimate 20% of all rows for a specific Schema
+       DBMS_UTILITY.ANALYZE_SCHEMA(&apos;userid&apos;, &apos;ESTIMATE&apos;,NULL,20);
+
+- Estimate 20% of a table
+       DBMS_UTILITY.ANALYZE_SCHEMA(&apos;TABLE&apos; , &apos;schema&apos;, &apos;t_name&apos;,
+ &apos;ESTIMATE&apos;,null,20);
+or
+       ANALYZE TABLE table
+ ESTIMATE
+ STATISTICS sample 20 percent;
+
+- Estimate 20% of an index
+       DBMS_UTILITY.ANALYZE_SCHEMA(&apos;INDEX&apos; , &apos;schema&apos;, &apos;i_name&apos;,
+ &apos;COMPUTE&apos;;
+
+- Estimate 1000 rows of all the tables for a schema
+       DBMS_UTILITY.ANALYZE_SCHEMA
+ (&apos;userid&apos;, &apos;ESTIMATE&apos;, 100000);
+or
+       ANALYZE TABLE table
+ ESTIMATE
+ STATISTICS sample 5000 rows;
+- Delete all stats
+       DBMS_UTILITY.ANALYZE_SCHEMA
+ (&apos;userid&apos;, &apos;DELETE&apos;);
+or
+       ANALYZE TABLE table
+ DELETE
+ STATISTICS;
+ 
+
+
+
+ Working with UNDO Parameters 
+When you are working with UNDO Tablespace, there are two
+ important things to consider:
+
+
+ The size of the UNDO tablespace The UNDO_RETENTION parameter 
+
+To get information of your current settings you can use the
+ following query:
+ set serveroutput on
+DECLARE
+ tsn   VARCHAR2(40);
+ tss   NUMBER(10);
+ aex   BOOLEAN;
+ unr   NUMBER(5);
+ rgt   BOOLEAN;
+ retval BOOLEAN;
+ v_undo_size NUMBER(10);
+BEGIN
+ select sum(a.bytes)/1024/1024 into v_undo_size
+    from v$datafile a, v$tablespace b,
+ dba_tablespaces c
+    where c.contents = &apos;UNDO&apos;
+      and c.status = &apos;ONLINE&apos;
+      and b.name =
+ c.tablespace_name
+      and a.ts# = b.ts#;
+
+ retval := dbms_undo_adv.undo_info(tsn, tss, aex, unr,
+ rgt);
+ dbms_output.put_line(&apos;UNDO Tablespace
+ is        : &apos; || tsn);
+ dbms_output.put_line(&apos;UNDO Tablespace size
+ is   : &apos; || TO_CHAR(v_undo_size) || &apos; MB&apos;);
+
+ IF aex THEN
+   dbms_output.put_line(&apos;Undo Autoextend is set
+ to : TRUE&apos;);
+ ELSE
+   dbms_output.put_line(&apos;Undo Autoextend is set
+ to : FALSE&apos;);
+ END IF;
+
+ dbms_output.put_line(&apos;Undo Retention
+ is         : &apos; ||
+ TO_CHAR(unr));
+
+ IF rgt THEN
+   dbms_output.put_line(&apos;Undo Guarantee is set
+ to  : TRUE&apos;);
+ ELSE
+   dbms_output.put_line(&apos;Undo Guarantee is set
+ to  : FALSE&apos;);
+ END IF;
+END;
+/
+UNDO Tablespace
+ is        : UNDOTBS1 
+ UNDO Tablespace size
+ is   : 925 MB 
+ Undo Autoextend is set
+ to : TRUE 
+ Undo Retention
+ is         : 900 
+ Undo Guarantee is set
+ to  : FALSE 
+
+
+
+You can choose to allocate a specific size for the UNDO
+ tablespace
+ and
+ then set the UNDO_RETENTION parameter to an optimal value
+ according to
+ the UNDO size and the database activity. If your disk space is
+ limited
+ and you do not want to allocate more space than necessary to the
+ UNDO
+ tablespace, this is the way to proceed. If you are not
+ limited by
+ disk
+ space, then it would be better to choose the UNDO_RETENTION time
+ that
+ is best for you (for FLASHBACK, etc.). Allocate the appropriate
+ size to
+ the UNDO tablespace according to the database activity.
+This tip help you get the information you need whatever the method
+ you
+ choose.
+
+ set serverout on size
+ 1000000 
+ set feedback off 
+ set heading off 
+ set lines 132 
+ declare 
+  cursor get_undo_stat is 
+     select d.undo_size/(1024*1024) &quot;C1&quot;,
+ substr(e.value,1,25)   &quot;C2&quot;, 
+            (to_number(e.value) * to_number(f.value) * g.undo_block_per_sec) /
+ (1024*1024) &quot;C3&quot;, 
+            round((d.undo_size / (to_number(f.value) *
+g.undo_block_per_sec)))            &quot;C4&quot; 
+       from (select sum(a.bytes) undo_size 
+               from v$datafile a, v$tablespace b, dba_tablespaces c 
+               where c.contents = &apos;UNDO&apos; 
+                 and
+ c.status = &apos;ONLINE&apos; 
+                 and
+ b.name = c.tablespace_name 
+                 and
+ a.ts# = b.ts#) d, 
+          v$parameter e, v$parameter f, 
+          (select max(undoblks/((end_time-begin_time)*3600*24)) undo_block_per_sec from
+ v$undostat) g 
+        where e.name = &apos;undo_retention&apos; 
+          and f.name = &apos;db_block_size&apos;; 
+ begin 
+    dbms_output.put_line(chr(10)||chr(10)||chr(10)||chr(10)
+||
+ &apos;To optimize UNDO you have two choices :&apos;);
+ dbms_output.put_line(&apos;====================================================&apos;
+||
+ chr(10)); 
+  for rec1 in
+ get_undo_stat
+ loop 
+      dbms_output.put_line(&apos;A) Adjust UNDO tablespace size according to
+ UNDO_RETENTION :&apos; || chr(10)); 
+      dbms_output.put_line(rpad(&apos;ACTUAL UNDO SIZE &apos;,60,&apos;.&apos;)|| &apos; : &apos; ||
+ TO_CHAR(rec1.c1,&apos;999999&apos;) || &apos; MB&apos;); 
+      dbms_output.put_line(rpad(&apos;OPTIMAL UNDO SIZE WITH ACTUAL
+ UNDO_RETENTION
+ (&apos; || ltrim(TO_CHAR(rec1.c2,&apos;999999&apos;)) || &apos; SECONDS ) &apos;,60,&apos;.&apos;) || &apos;
+ : &apos; || TO_CHAR(rec1.c3,&apos;999999&apos;) || &apos; MB&apos;); 
+      dbms_output.put_line(chr(10)); 
+      dbms_output.put_line(chr(10)); 
+      dbms_output.put_line(&apos;B) Adjust UNDO_RETENTION according to UNDO
+ tablespace size :&apos; || chr(10)); 
+      dbms_output.put_line(rpad(&apos;ACTUAL UNDO RETENTION &apos;,60,&apos;.&apos;) || &apos; :
+ &apos; ||
+ TO_CHAR(rec1.c2,&apos;999999&apos;) || &apos; SECONDS&apos;); 
+      dbms_output.put_line(rpad(&apos;OPTIMAL UNDO RETENTION WITH ACTUAL UNDO
+ SIZE
+ (&apos; || ltrim(TO_CHAR(rec1.c1,&apos;999999&apos;))
+|| &apos; MEGS) &apos;,60,&apos;.&apos;) || &apos; : &apos; || TO_CHAR(rec1.c4,&apos;999999&apos;) || &apos; SECONDS &apos;); 
+  end loop; 
+   dbms_output.put_line(chr(10)||chr(10)); 
+ end; 
+ /
+
+To optimize UNDO you have two choices :
+====================================================
+
+A) Adjust UNDO tablespace size according to UNDO_RETENTION :
+ACTUAL UNDO SIZE ...........................................
+ :    925 MB
+OPTIMAL UNDO SIZE WITH ACTUAL UNDO_RETENTION (15 MINUTES) ..
+ :     82 MB
+
+B) Adjust UNDO_RETENTION according to UNDO tablespace size :
+ACTUAL UNDO RETENTION ......................................
+ :    900 SECONDS
+OPTIMAL UNDO RETENTION WITH ACTUAL UNDO SIZE (925 MEGS) ....
+ :  10125 SECONDS
+
+ 
+Undo Segments 
+With the following query, we can check the segments of the UNDO:
+ SELECT active.active, unexpired.unexpired,
+ expired.expired 
+   FROM (SELECT
+ Sum(bytes / 1024 / 1024) AS unexpired 
+           FROM dba_undo_extents 
+           WHERE status = &apos;UNEXPIRED&apos;) unexpired, 
+        (SELECT Sum(bytes / 1024 / 104) AS expired 
+           FROM dba_undo_extents tr 
+           WHERE status = &apos;EXPIRED&apos;) expired, 
+        (SELECT CASE 
+              WHEN Count(status) = 0 THEN 0 
+              ELSE Sum(bytes / 1024 / 1024) 
+            END AS active 
+           FROM dba_undo_extents 
+           WHERE status = &apos;ACTIVE&apos;) active; 
+ 
+   ACTIVE UNEXPIRED   EXPIRED
+---------- ---------- ----------
+        0        10 100.923077 
+
+Where:
+
+ ACTIVE = it means that those UNDO segments contains active
+ transactions, so a commit was not executed yet. UNEXPIRED = it means that those UNDO segments contains
+ commited transactions, and those transactions are still required
+ for FLASHBACK. EXPIRED = it means that those UNDO segments are not
+ required after the time defined under &quot;undo_retention&quot;
+ parameter. 
+So when you execute an insert, you start using undo segments and
+ those are in ACTIVE state until you fire the COMMIT.
+Once the COMMIT is fired, they are on UNEXPIRED status (still using
+ UNDO Tablespace) until they reach the &quot;undo_retention&quot; time.
+Once that time is completed, they are moved to the EXPIRED status.
+
+ Monitorting
+ Transactions in UNDO 
+It&apos;s possible to monitor the transactions that are taking UNDO
+ segments with the following query:
+ SELECT v$transaction.status AS
+ status_transaccion, start_time, logon_time,
+ blocking_session_status, 
+       schemaname, machine, program, v$session.module,
+ v$sqlarea.sql_text, serial#, sid, username, 
+       v$session.status AS status_sesion, v$session.sql_id, prev_sql_id 
+FROM v$transaction INNER JOIN v$session ON
+ v$transaction.ses_addr = v$session.saddr 
+ LEFT JOIN v$sqlarea ON v$session.sql_id =
+ v$sqlarea.sql_id; 
+
+If there are ACTIVE Transactions (not commited transactions) it will
+ show:
+ 
+ STATUS_TRANSACCION
+ ACTIVE
+ START_TIME
+ 08/16/11
+ 09:08:40
+ LOGON_TIME 8/16/2011
+ 9:08:15
+ BLOCKING_SESSION_STATUS NO
+ HOLDER
+ SCHEMANAME FRAUDGUARD
+ MACHINE VOP-DPAFUMI
+ PROGRAM sqlplus.exe
+ MODULE SQL*Plus
+ SQL_TEXT insert
+ into state values (1111, &apos;AAA&apos;);
+ SERIAL# 1489
+ SID 9
+ USERNAME FRAUDGUARD
+ STATUS_SESION INACTIVE
+ SQL_ID 9babjv8yq8ru3
+ PREV_SQL_ID 9babjv8yq8ru3
+ 
+  
+ 
+Where each value means:
+LOGON_TIME = Date and time when the instruction was executed
+BLOCKING_SESSION_STATUS = It says if this session is blocking
+ another session
+SCHEMANAME = Schema that executed the instruction.
+MACHINE = Machine name that executed the instruction.
+PROGRAM = Program Name that executed the instruction.
+MODULE = Module that executed the instruction.
+SQL_TEXT = Executed instruction.
+SERIAL# = Serial number of the session that executed the
+ instraction.
+SID = ID Session that executed the instraction..
+USERNAME = User that executed the instraction..
+STATUS_SESION = Status of the that executed the instraction, ACTIVE
+ if that is CURRENTLY performing any actions, INACTIVE if is not
+ performing and actions.
+SQL_ID = Internal ID that executed the instraction.
+PREV_SQL_ID = ID of the instructions previous to the current
+ executed instraction.
+
+
+
+
+  
+ Creating Indexes on
+ Foreign Keys 
+ Problem 
+Creating foreign keys constraints on tables increases the
+ integrity of
+ your data by preventing rows from being inserted into detail
+ (sometimes
+ called child tables) table that do not have a matching row in a
+ master
+ (also called the parent table) table.
+The following code creates two tables: &quot;EMP&quot; and &quot;DEPT&quot;. Both
+ tables
+ declare a primary key and the table &quot;EMP&quot; declares a foreign key
+ constraint between &quot;EMP&quot; and &quot;DEPT&quot;.
+ CREATE TABLE dept ( 
+  deptno NUMBER(2)
+ CONSTRAINT PK_DEPT PRIMARY KEY, 
+  dname  VARCHAR2(14), 
+  loc    VARCHAR2(13) 
+ ); 
+ CREATE TABLE emp ( 
+   empno    NUMBER(4) CONSTRAINT PK_EMP
+ PRIMARY KEY, 
+   ename    VARCHAR2(10), 
+   job      VARCHAR2(9), 
+   mgr      NUMBER(4), 
+   hiredate DATE, 
+   sal      NUMBER(7,2), 
+   comm     NUMBER(7,2), 
+   deptno   NUMBER(2) 
+ ); 
+ ALTER TABLE EMP ADD CONSTRAINT FK_EMP_DEPT 
+        FOREIGN
+ KEY (deptno) 
+        REFERENCES
+ dept (deptno); 
+Once this constraint is enabled, attempting to insert an &quot;EMP&quot;
+ record
+ with an invalid DEPTNO, or trying to delete a DEPTNO row that
+ has
+ matching &quot;EMP&quot; records, will generate an error. However, in
+ order to
+ preserve integrity during the operation, Oracle needs to apply a
+ full
+ &quot;table-level&quot; lock (as opposed to the usual row-level locks) to
+ the
+ child table when the parent table is modified.
+ 
+Solution 
+By creating an index on the foreign key of the child table,
+ these
+ &quot;table-level&quot; locks can be avoided. (for instance, creating a
+ foreign
+ key on &quot;EMP.DEPTNO&quot;).
+ CREATE INDEX FK_EMP_DEPT 
+      ON
+ emp(deptno) 
+      TABLESPACE
+ indx; 
+
+
+Keep in mind that you will often be creating an index on the
+ foreign keys in order to optimize join and queries. However, if
+ you
+ fail to create such a foreign key index and if the parent table
+ is
+ subject to updates, you may see heavy lock contention. If ever
+ in
+ doubt, it&apos;s often safer to create indexes on ALL foreign keys,
+ despite
+ the possible overhead of maintaining unneeded indexes.
+
+
+Having Unindexed foreign keys can be a performance issue. There
+ are two issues associated with unindexed foreign keys. The first
+ is the
+ fact that a table lock will result if you update the parent
+ records
+ primary key (very very unusual) or if you delete the parent
+ record and
+ the child&apos;s foreign key is not indexed.
+
+
+The second issue has to do with performance in general of a
+ parent
+ child relationship. Consider that if you have an on delete
+ cascade and
+ have not indexed the child table (eg: EMP is child of DEPT.
+ Delete
+ deptno = 10 should cascade to EMP. If deptno in emp is not
+ indexed --
+ full table scan). This full scan is probably undesirable and if
+ you
+ delete many rows from the parent table, the child table will be
+ scanned
+ once for each parent row deleted.
+
+
+Also consider that for most (not all, most) parent child
+ relationships, we query the objects from the &apos;master&apos; table to
+ the
+ &apos;detail&apos; table. The glaring exception to this is a code table
+ (short
+ code to long description). For master/detail relationships, if
+ you do
+ not index the foreign key, a full scan of the child table will
+ result.
+
+
+So, how do you easily discover if you have unindexed foreign
+ keys
+ in your schema? This script can help. When you run it, it will
+ generate
+ a report such as:
+
+
+ SQL&gt;@unindex 
+ STAT
+TABLE_NAME                    COLUMNS             COLUMNS 
+ ----
+ ------------------------------ --------------------
+ -------------------- 
+ ****
+APPLICATION_INSTANCES         AI_APP_CODE 
+ ok  EMP                           DEPTNO              DEPTNO 
+ 
+The **** in the first row shows me that I have an unindexed
+ foreign key
+ in the table APPLICATION_INSTANCES. The ok in the second row
+ shows me I
+ have a table EMP with an indexed foreign key.
+
+
+ The
+ script 
+
+
+ column columns format a20
+ word_wrapped 
+ column table_name format
+ a30
+ word_wrapped 
+
+ select decode(
+ b.table_name,
+ NULL, &apos;****&apos;, &apos;ok&apos; ) Status, 
+      a.table_name,
+ a.columns, b.columns 
+ from 
+ ( select
+ substr(a.table_name,1,30) table_name, 
+       substr(a.constraint_name,1,30)
+ constraint_name, 
+        max(decode(position,
+ 1,    substr(column_name,1,30),NULL)) || 
+        max(decode(position,
+ 2,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,
+ 3,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,
+ 4,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,
+ 5,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,
+ 6,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,
+ 7,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,
+ 8,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,
+ 9,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,10,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,11,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,12,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,13,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,14,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,15,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(position,16,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) columns 
+    from
+ user_cons_columns a, user_constraints b 
+   where
+ a.constraint_name = b.constraint_name 
+     and
+ b.constraint_type = &apos;R&apos; 
+   group by
+ substr(a.table_name,1,30), substr(a.constraint_name,1,30) ) a, 
+ ( select
+ substr(table_name,1,30) table_name, substr(index_name,1,30)
+ index_name, 
+        max(decode(column_position,
+ 1,    substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,
+ 2,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,
+ 3,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,
+ 4,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,
+ 5,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,
+ 6,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,
+ 7,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,
+ 8,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,
+ 9,&apos;, &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,10,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,11,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,12,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,13,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,14,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,15,&apos;,
+ &apos;||substr(column_name,1,30),NULL)) || 
+        max(decode(column_position,16,&apos;,
+ &apos;||substr(column_name,1,30),NULL))
+ columns 
+    from
+ user_ind_columns 
+   group by
+ substr(table_name,1,30), substr(index_name,1,30) ) b 
+ where a.table_name =
+ b.table_name (+) 
+  and b.columns (+)
+ like
+ a.columns || &apos;%&apos; 
+ / 
+
+
+
+
+
+ Rebuild
+ Indexes 
+When I first started doing DBA work, I was thrilled to find the
+ &quot;analyze index .... validate structure&quot; command. This command
+ puts
+ information about a specific index in the view index_stats. The
+ problem
+ with using this command is that while the analyze is running,
+ the index
+ is locked. This prompted me look for other signs that an index
+ needs to
+ be rebuilt. Now that I am working under a tight space
+ constraint, I&apos;ve
+ come back
+ to that first &quot;cool&quot; command I learned.
+This tells a lot about the index, but what interests me is the
+ space
+ the index is taking, what percentage of that is really being
+ used, and
+ what space is unusable because of delete actions. Remember that
+ when
+ rows are deleted, the space is not re-used in the index. Let&apos;s
+ check
+ one:
+ 
+ analyze index john.APPTHIST_CURR_STAT_FK validate structure; 
+
+
+ select btree_space,pct_used,del_lf_rows_len from
+ index_stats; 
+ 
+
+ BTREE_SPACE PCT_USED DEL_LF_ROWS_LEN 
+ ----------- ---------- --------------- 
+   19889296 43    5374551 
+ 
+So we see this index is only using 43 percent of the almost 19M
+ allocated to it and that it holds over 5M of space that it
+ cannot use
+ because of deletes. This is a candidate to rebuild. Of course,
+ we don&apos;t
+ want to rebuild one at a time. You can use the following script
+ to
+ rebuild all of them automatically::
+
+ set serveroutput on
+declare
+v_MaxHeight integer := 3;
+v_MaxLeafsDeleted integer := 20;
+v_Count integer := 0;
+
+--Cursor to Manage NON-Partitioned Indexes
+cursor cur_Global_Indexes is
+select index_name, tablespace_name
+from user_indexes
+where partitioned = &apos;NO&apos;;
+
+--Cursor to Manage Current Index
+cursor cur_IndexStats is
+select name, height, lf_rows as leafRows, del_lf_rows as leafRowsDeleted
+from index_stats;
+v_IndexStats cur_IndexStats%rowtype;
+
+--Cursor to Manage Partitioned Indexes
+cursor cur_Local_Indexes is
+select index_name, partition_name, tablespace_name
+from user_ind_partitions
+where status = &apos;USABLE&apos;;
+
+begin
+DBMS_OUTPUT.ENABLE(1000000);
+/* Global or Standard Indexes Section */
+for v_IndexRec in cur_Global_Indexes
+loop
+begin
+dbms_output.put_line(&apos;before analyze &apos; || v_IndexRec.index_name);
+execute immediate &apos;analyze index &apos; || v_IndexRec.index_name || &apos; validate structure&apos;;
+dbms_output.put_line(&apos;After analyze &apos;);
+open cur_IndexStats;
+fetch cur_IndexStats into v_IndexStats;
+if cur_IndexStats%found then
+if (v_IndexStats.height&gt;v_MaxHeight) OR
+(v_IndexStats.leafRows&gt;0 AND v_IndexStats.leafRowsDeleted&gt;0 AND
+(v_IndexStats.leafRowsDeleted * 100 / v_IndexStats.leafRows)&gt;v_MaxLeafsDeleted) then
+
+begin
+dbms_output.put_line(&apos;Rebuilding index &apos; || v_IndexRec.index_name || &apos; with &apos;
+|| to_char(v_IndexStats.height) || &apos; height and &apos;
+|| to_char(trunc(v_IndexStats.leafRowsDeleted * 100 / v_IndexStats.leafRows)) || &apos; % LeafRows&apos;);
+/*
+--- Commented line was needed for Oracle 9i
+--- On 10g Oracle now automatically collects statistics during index creation and rebuild
+execute immediate &apos;alter index &apos; || v_IndexRec.index_name ||
+&apos; rebuild&apos; ||
+&apos; parallel nologging compute statistics&apos; ||
+&apos; tablespace &apos; || v_IndexRec.tablespace_name;
+*/
+execute immediate &apos;alter index &apos; || v_IndexRec.index_name ||
+&apos; rebuild parallel nologging tablespace &apos; || v_IndexRec.tablespace_name;
+v_Count := v_Count + 1;
+exception
+when OTHERS then
+dbms_output.put_line(&apos;The index &apos; || v_IndexRec.index_name || &apos; WAS NOT rebuilt&apos;);
+end;
+end if;
+end if;
+close cur_IndexStats;
+exception
+when OTHERS then
+dbms_output.put_line(&apos;The index &apos; || v_IndexRec.index_name || &apos; WAS NOT ANALYZED&apos;);
+end;
+end loop;
+
+dbms_output.put_line(&apos;Global or Standard Indexes Rebuilt: &apos; || to_char(v_Count));
+v_Count := 0;
+
+/* Local indexes Section */
+for v_IndexRec in cur_Local_Indexes
+loop
+execute immediate &apos;analyze index &apos; || v_IndexRec.index_name ||
+&apos; partition (&apos; || v_IndexRec.partition_name ||
+&apos;) validate structure&apos;;
+
+open cur_IndexStats;
+fetch cur_IndexStats into v_IndexStats;
+if cur_IndexStats%found then
+if (v_IndexStats.height&gt;v_MaxHeight) OR
+(v_IndexStats.leafRows&gt;0 and v_IndexStats.leafRowsDeleted&gt;0 AND
+(v_IndexStats.leafRowsDeleted * 100 / v_IndexStats.leafRows)&gt;v_MaxLeafsDeleted) then
+
+v_Count := v_Count + 1;
+dbms_output.put_line(&apos;Rebuilding Index &apos; || v_IndexRec.index_name || &apos;...&apos;);
+/* execute immediate &apos;alter index &apos; || v_IndexRec.index_name ||
+&apos; rebuild&apos; ||
+&apos; partition &apos; || v_IndexRec.partition_name ||
+&apos; parallel nologging compute statistics&apos; ||
+&apos; tablespace &apos; || v_IndexRec.tablespace_name;
+*/
+end if;
+end if;
+close cur_IndexStats;
+end loop;
+dbms_output.put_line(&apos;Local Indexes Rebuilt: &apos; || to_char(v_Count));
+--
+EXCEPTION
+WHEN NO_DATA_FOUND THEN
+NULL ;
+end;
+/ 
+ 
+ 
+
+ Make
+ a Script 
+
+ The
+ drawback you will see when working with index_stats is that
+ it only
+ holds one row at a time. So we will first create a table to
+ hold the
+ results from this view: 
+ create table t_ind_used_size 
+ (owner varchar2(30) 
+ ,name varchar2(30) 
+ ,btree_space number(12) 
+ ,pct_used number(3) 
+ ,del_len number(12) 
+ ,dt date 
+ ) 
+ tablespace xxx 
+ storage (initial 256k next 256k pctincrease 0) pctused 80 pctfree 0; 
+ Now
+ I know that what I want to do is to check each index for a
+ given owner:
+ 
+ declare 
+ v_stmt varchar2(100); 
+ cursor c1 is 
+ select owner,index_name from dba_indexes where owner = &apos;JOHN&apos;; 
+ begin 
+ for line in c1 loop 
+ v_stmt := &apos;analyze index &apos;||line.owner||&apos;.&apos;||line.index_name|| 
+ &apos; validate structure&apos;; 
+ execute immediate v_stmt; 
+ insert into t_ind_used_size 
+ (owner,name,btree_space,pct_used,del_len,dt) 
+ select line.owner,name,btree_space,pct_used,del_lf_rows_len,sysdate 
+ from index_stats; 
+ if mod(c1%rowcount,100)=0 then 
+ commit; 
+ end if; 
+ end loop; 
+ commit; 
+ end; 
+ / 
+ 
+ Our
+cursor
+ gives us all of the indexes for this owner. You can also
+ take
+ the &quot;where&quot; clause off the cursor and get all indexes.For
+ each index,
+ we create the analyze statement and then execute it using
+ dynamic SQL.
+ The results from this analyze statement are then put into
+ our table for
+ reference later. Remember that the &quot;analyze&quot; will lock the
+ index, so be
+ sure
+ to run this operation during off-hours. I have 372 indexes
+ taking 2564M
+ of space, and this script takes 7:40 to complete. Not too
+ bad. 
+
+ Now
+ Let&apos;s Use the Information 
+
+ So
+ we have gathered all of this information. We can just look
+ at it to get
+ an overview with: 
+ variable block_size number; 
+ begin 
+ select value into :block_size from v$parameter where name = &apos;db_block_size&apos;; 
+ end; 
+ / 
+ select *
+ from t_ind_used_size 
+ where
+ btree_space&gt;:block_size order by pct_used DESC; 
+
+ Notice
+ that I am only interested in the indexes that are taking
+ more than one
+ block of space. Any indexes currently taking one block
+ cannot be
+ improved, no matter what percentage is being used. I have
+ 176 rows from
+ this query with the indexes making the least efficient use
+ of space at
+ the bottom of the result set. 
+
+ You
+ will notice that we have the date in the table, too, so we
+ can compare
+ over time with the following: 
+ select a.owner,a.name,a.dt,a.pct_used,b.dt,b.pct_used 
+ from t_ind_used_size a, t_ind_used_size b 
+ where a.owner = b.owner and a.name = b.name and a.pct_used&gt;1.1*b.pct_used 
+ and a.dt&gt;= (b.dt - 7); 
+ This
+ would show us the indexes that have dropped their percent
+ used by more
+ than 10 percent during the last seven days. Here we are
+ assuming that
+ you would run this periodically (daily or weekly). 
+
+ I
+ am not so much interested in the change over time than in
+ the use of
+ space right now. We want to reclaim space, so we will
+ rebuild all of
+ the indexes that have too much unused space. For &quot;too much,&quot;
+ I have
+ chosen indexes that are using less than 75 percent of their
+ space held
+ or that have more than one block of delete space that is
+ unusable. 
+
+ My
+ &quot;where&quot; clause for this is: 
+ select count(1) 
+ from t_ind_used_size a, dba_indexes b 
+ where btree_space&gt;:block_size 
+ and (pct_used&lt;75 or del_len&gt;:block_size) 
+ and a.owner = b.owner and a.name = b.index_name 
+ order by pct_used; 
+ COUNT(1) 
+ ---------- 
+ 46 
+
+ I
+ join my table with dba_indexes so I can get more information
+ on how the
+ index is created. We now have 46 indexes that are candidates
+ for a
+ rebuild. 
+
+ For
+ each index we want to; rebuild, analyze to get new
+ statistics, and then
+ remove the index from the t_ind_used_size table so we don&apos;t
+ do it
+ again. It will take me forever to alter each one manually so
+ we make a
+ script to do it for us: 
+ select &apos;alter index &apos;||a.owner||&apos;.&apos;||a.name|| 
+ &apos; rebuild tablespace &apos;||b.tablespace_name||chr(10)|| 
+ &apos;storage (initial &apos;||initial_extent|| 
+ &apos; next &apos;||next_extent|| 
+ &apos; pctincrease &apos;||pct_increase||&apos;) pctfree 0 nologging;&apos;||chr(10)|| 
+ &apos;analyze index &apos;||a.owner||&apos;.&apos;||a.name|| 
+ &apos; compute statistics;&apos;||chr(10)|| 
+ &apos;delete t_ind_used_size where name = &apos;&apos;&apos;||a.name|| 
+ &apos;&apos;&apos; and owner = &apos;&apos;&apos;||a.owner||&apos;&apos;&apos;;&apos;||chr(10)|| 
+ &apos;commit;&apos; 
+ from t_ind_used_size a, dba_indexes b 
+ where btree_space&gt;:block_size 
+ and (pct_used&lt;75 or del_len&gt;:block_size) 
+ and a.owner = b.owner and a.name = b.index_name 
+ order by pct_used; 
+ This
+ gives us 46 rows like: 
+ alter index JOHN.APPTHIST_CURR_STAT_FK rebuild tablespace LOCAL1M_IDX 
+ storage (initial 1048576 next 1048576 pctincrease 0) pctfree 0 
+ nologging; 
+ analyze index JOHN.APPTHIST_CURR_STAT_FK compute statistics; 
+ delete t_ind_used_size where name = &apos;APPTHIST_CURR_STAT_FK&apos; and owner = &apos;JOHN&apos;; 
+ commit; 
+ So
+ you see, we will rebuild in the same tablespace, analyze,
+ delete the
+ row, and move on to the next. 
+
+ Problem
+ Solved 
+
+ This
+ takes care of the two problems I started with. I know when
+ to rebuild
+ my large indexes based on the percent used and delete space.
+ If there
+ is only lookup activity against a large index, I&apos;ll never
+ rebuild
+ it once it is the right size. 
+
+ I
+ can also take care of those active indexes that are holding
+ deleted
+ space that is unusable. 
+
+ You
+ can pick any numbers for your limits but a block of deleted
+ space and
+ 75 percent usage seemed reasonable to me. I don&apos;t want to be
+ rebuilding
+ all indexes every week. 
+
+ This
+ script can, of course, just be added to you weekly
+ processing. Just
+ spool out the output and then execute that created script.
+ With this,
+ when you again start getting tight for space, you know you
+ really are
+ tight. 
+
+ 
+ HINTS 
+You should first get the explain plan of your SQL and determine
+ what
+ changes can be done to make the code operate without using hints
+ if
+ possible. However, Oracle hints such as ORDERED, LEADING, INDEX,
+ FULL,
+ and the various AJ and SJ Oracle hints can tame a wild optimizer
+ and
+ give you optimal performance.
+
+
+Some suggestions:
+- Use ALIASES for the tablenames in the hints.
+- Ensure tables containst up-to-date statistics
+- Syntax: /*+ HINT HINT ... */ (In PLSQL the
+ space between the &apos;+&apos; and the first letter of the hint is
+ vital so /*+ ALL_ROWS */ is fine but /*+ALL_ROWS */ will cause
+ problems
+
+
+Here is a list of all the Hints:
+
+ 
+ 
+ Oracle Hint 
+ 
+ Meaning 
+ 
++ 
+ 
+Must be immediately after comment
+ indicator, tells Oracle this is a list of hints. 
+ 
+ALL_ROWS 
+ 
+Use the cost based approach for
+ best
+ throughput. 
+ 
+CHOOSE 
+ 
+Default, if statistics are
+ available will
+ use cost, if not, rule. 
+ 
+FIRST_ROWS 
+ 
+Use the cost based approach for
+ best
+ response time. 
+ 
+RULE 
+ 
+Use rules based approach; this
+ cancels any
+ other hints specified for this statement. 
+ 
+Access Method Oracle Hints: 
+ 
+  
+ 
+CLUSTER(table) 
+ 
+This tells Oracle to do a cluster
+ scan to
+ access the table. 
+ 
+FULL(table) 
+ 
+This tells the optimizer to do a
+ full scan
+ of the specified table. 
+ 
+HASH(table) 
+ 
+Tells Oracle to explicitly choose
+ the hash
+ access method for the table. 
+ 
+HASH_AJ(table) 
+ 
+Transforms a NOT IN subquery to a
+ hash
+ anti-join. 
+ 
+ROWID(table) 
+ 
+Forces a rowid scan of the
+ specified table. 
+ 
+INDEX(table [index]) 
+ 
+Forces an index scan of the
+ specified
+ table using the specified index(s). If a list of
+ indexes is specified,
+ the optimizer chooses the one with the lowest cost. If
+ no index is
+ specified then the optimizer chooses the available
+ index for the table
+ with the lowest cost. 
+ 
+INDEX_ASC (table [index]) 
+ 
+Same as INDEX only performs an
+ ascending
+ search of the index chosen, this is functionally
+ identical to the INDEX
+ statement. 
+ 
+INDEX_DESC(table [index]) 
+ 
+Same as INDEX except performs a
+ descending
+ search. If more than one table is accessed, this is
+ ignored. 
+ 
+INDEX_COMBINE(table index) 
+ 
+Combines the bitmapped indexes on
+ the
+ table if the cost shows that to do so would give
+ better performance. 
+ 
+INDEX_FFS(table index) 
+ 
+Perform a fast full index scan
+ rather than
+ a table scan. 
+ 
+MERGE_AJ (table) 
+ 
+Transforms a NOT IN subquery into a
+ merge
+ anti-join. 
+ 
+AND_EQUAL(table_name index_Name1) 
+ 
+This hint causes a merge on several
+ single
+ column indexes. Two must be specified, five can be. 
+ 
+NL_AJ 
+ 
+Transforms a NOT IN subquery into a
+ NL
+ anti-join (nested loop). 
+ 
+HASH_SJ(t1, t2) 
+ 
+Inserted into the EXISTS subquery;
+ This
+ converts the subquery into a special type of hash join
+ between t1 and
+ t2 that preserves the semantics of the subquery. That
+ is, even if there
+ is more than one matching row in t2 for a row in t1,
+ the row in t1 is
+ returned only once. 
+ 
+MERGE_SJ (t1, t2) 
+ 
+Inserted into the EXISTS subquery;
+ This
+ converts the subquery into a special type of merge
+ join between t1 and
+ t2 that preserves the semantics of the subquery. That
+ is, even if there
+ is more than one matching row in t2 for a row in t1,
+ the row in t1 is
+ returned only once. 
+ 
+NL_SJ 
+ 
+Inserted into the EXISTS subquery;
+ This
+ converts the subquery into a special type of nested
+ loop join between
+ t1 and t2 that preserves the semantics of the
+ subquery. That is, even
+ if there is more than one matching row in t2 for a row
+ in t1, the row
+ in t1 is returned only once. 
+ 
+Oracle Hints for join orders and
+ transformations: 
+ 
+  
+ 
+ORDERED 
+ 
+This hint forces tables to be
+ joined in
+ the order specified. If you know table X has fewer
+ rows, then ordering
+ it first may speed execution in a join. 
+ 
+STAR 
+ 
+Forces the largest table to be
+ joined last
+ using a nested loops join on the index. 
+ 
+STAR_TRANSFORMATION 
+ 
+Makes the optimizer use the best
+ plan in
+ which a start transformation is used. 
+ 
+FACT(table) 
+ 
+When performing a star
+ transformation use
+ the specified table as a fact table. 
+ 
+NO_FACT(table) 
+ 
+When performing a star
+ transformation do
+ not use the specified table as a fact table. 
+ 
+PUSH_SUBQ 
+ 
+This causes nonmerged subqueries to
+ be
+ evaluated at the earliest possible point in the
+ execution plan. 
+ 
+REWRITE(mview) 
+ 
+If possible forces the query to use
+ the
+ specified materialized view, if no materialized view
+ is specified, the
+ system chooses what it calculates is the appropriate
+ view. 
+ 
+NOREWRITE 
+ 
+Turns off query rewrite for the
+ statement,
+ use it for when data returned must be concurrent and
+ can � t come from a
+ materialized view. 
+ 
+USE_CONCAT 
+ 
+Forces combined OR conditions and
+ IN
+ processing in the WHERE clause to be transformed into
+ a compound query
+ using the UNION ALL
+ set operator. 
+ 
+NO_MERGE (table) 
+ 
+This causes Oracle to join each
+ specified
+ table with another row source without a sort-merge
+ join. 
+ 
+NO_EXPAND 
+ 
+ Prevents OR and IN processing
+ expansion. 
+ 
+Oracle Hints for Join Operations: 
+ 
+  
+ 
+USE_HASH (table)
+  
+ 
+This causes Oracle to join each
+ specified
+ table with another row source with a hash join. 
+ 
+USE_NL(table) 
+ 
+This operation forces a nested loop
+ using
+ the specified table as the controlling table. 
+ 
+USE_MERGE(table,[table, ]) 
+ 
+This operation forces a
+ sort-merge-join
+ operation of the specified tables. 
+ 
+DRIVING_SITE 
+ 
+The hint forces query execution to
+ be done
+ at a different site than that selected by Oracle. This
+ hint can be used
+ with either rule-based or cost-based optimization. 
+ 
+LEADING(table) 
+ 
+The hint causes Oracle to use the
+ specified table as the first table in the join order. 
+ 
+Oracle Hints for Parallel
+ Operations: 
+ 
+  
+ 
+[NO]APPEND 
+ 
+This specifies that data is to be
+ or not
+ to be appended to the end of a file rather than into
+ existing free
+ space. Use only with INSERT commands. 
+ 
+NOPARALLEL (table 
+ 
+This specifies the operation is not
+ to be
+ done in parallel. 
+ 
+PARALLEL(table, instances) 
+ 
+This specifies the operation is to
+ be done
+ in parallel. 
+ 
+PARALLEL_INDEX 
+ 
+Allows parallelization of a fast
+ full
+ index scan on any index. 
+ 
+Other Oracle Hints: 
+ 
+  
+ 
+CACHE 
+ 
+Specifies that the blocks retrieved
+ for
+ the table in the hint are placed at the most recently
+ used end of the
+ LRU list when the table is full table scanned. 
+ 
+NOCACHE 
+ 
+Specifies that the blocks retrieved
+ for
+ the table in the hint are placed at the least recently
+ used end of the
+ LRU list when the table is full table scanned. 
+ 
+[NO]APPEND 
+ 
+For insert operations will append
+ (or not
+ append) data at the HWM of table. 
+ 
+UNNEST 
+ 
+Turns on the UNNEST_SUBQUERY option
+ for
+ statement if UNNEST_SUBQUERY parameter is set to
+ FALSE. 
+ 
+NO_UNNEST 
+ 
+Turns off the UNNEST_SUBQUERY
+ option for
+ statement if UNNEST_SUBQUERY parameter is set to TRUE. 
+ 
+PUSH_PRED 
+ 
+ Pushes the join predicate
+ into the
+ view. 
+ 
+ 
+
+ ALL_ROWS: 
+This is the cost-based approach designed to provide the best
+ overall
+ throughput and minimum resource consumption. It&apos;s the default
+ option of
+ Oracle
+ select /*+ ALL_ROWS */
+ COMPANY.Name 
+   from COMPANY,
+ SALES 
+   where
+ COMPANY.Company_ID =
+ SALES.Company_ID 
+     and
+ SALES.Period_ID =3 
+     and
+ SALES.Sales_Total&gt;1000; 
+
+This example will usually execute NESTED
+ LOOPS. The ALL_ROWS forces the optimizer to use a MERGE JOIN.
+
+
+
+ AND-EQUAL: 
+Causes merge scans of two to five single-column indexes.:
+ select /*+ AND-EQUAL
+ COMPANY$CITY,
+ COMPANY$STATE */Name, City, State 
+   from COMPANY 
+   where City =
+ &apos;Roanoke&apos; 
+     and
+ State = &apos;VA&apos;; 
+
+ CLUSTER: 
+Requests a cluster scan of the table_name:
+     /*+
+ CLUSTER(table) */ 
+
+ FIRST_ROWS: 
+This hint is the opposite of ALL_ROWS. It tells the the
+ optimizer to
+ return the rows as fast as it can, even if it needs to perform
+ more I/O
+ operations:
+     select
+ /*+ FIRST_ROWS */ COMPANY.Name 
+       from
+ COMPANY, SALES 
+      where
+ COMPANY.Company_ID =
+ SALES.Company_ID 
+        and
+ SALES.Period_ID =3 
+        and
+ SALES.Sales_Total&gt;1000; 
+
+ FULL: 
+It performs a FULL ACCESS to the table. Yoy may want to use it
+ if you
+ know that the distribution of the data is not good.
+   select /*+
+ FULL(COMPANY) */ Name,
+ City, State 
+      from
+ COMPANY 
+      where
+ City = &apos;Roanoke&apos; 
+        and
+ State = &apos;VA&apos;; 
+
+ HASH: 
+Causes a hash scan
+     /*+
+ HASH(table) */ 
+ 
+
+ INDEX(table_name index_name): 
+It can be used in 3 different ways:
+    1. If only one index is mentioned, it
+ will use
+ that index
+    2. If you mention more than one index,
+ the
+ optimizer will decide which one to use.
+    3. If you mention just a table, the
+ optimizer
+ will decide wich index to use on that table.
+     select
+ /*+ INDEX(COMPANY) */  Name, City, State 
+       from
+ COMPANY 
+      where
+ City = &apos;Roanoke&apos; 
+        and
+ State = &apos;VA&apos;; 
+ 
+
+ INDEX_ASC(table_name index_name): 
+It will use the indicated index in ASC order.
+
+ INDEX_DESC(table_name index_name): 
+It will use the indicated index in DESC order.
+
+ NO_MERGE: 
+This hint is used in a view to prevent it from being merged into
+ a
+ parent query.
+
+
+ NOCACHE 
+This hint causes the table CACHE option to be bypassed.
+
+
+ ORDERED: 
+Requests that the tables should be joined in the order that they
+ are
+ specified (left to right). For example, if you know that a state
+ table
+ has only 50 rows, you may want to use this hint to make state
+ the
+ driving table.
+
+ ROWID: 
+Requests a rowid scan of the specified table.
+
+ RULE: 
+Indicates that the rule-based optimizer should be invoked
+ (sometimes
+ due to the absence of table statistics)
+     select
+ /*+ RULE */ COMPANY.Name 
+       from
+ COMPANY, SALES 
+      where
+ COMPANY.Company_ID =
+ SALES.Company_ID 
+        and
+ SALES.Period_ID =3 
+        and
+ SALES.Sales_Total&gt;1000; 
+
+ USE_HASH (table_name1 table_name2): 
+Requests a hash JOIN against the specified tables.
+
+ USE_NL (table_name): 
+Requests a nested loop operation with the specified table as the
+ driving table.
+     select
+ /*+ USE_NL(COMPANY) */ COMPANY.Name 
+       from
+ COMPANY, SALES 
+      where
+ COMPANY.Company_ID =
+ SALES.Company_ID 
+        and
+ SALES.Period_ID =3 
+        and
+ SALES.Sales_Total&gt;1000; 
+
+ USE_MERGE: 
+It is the opposite of ISE_NL. It tells the optimizer to use a
+ MERGE
+ JOIN between the tables mentioned there.
+     select
+ /*+ USE_MERGE(COMPANY, SALES) */ COMPANY.Name 
+       from
+ COMPANY, SALES 
+      where
+ COMPANY.Company_ID =
+ SALES.Company_ID 
+        and
+ SALES.Period_ID =3 
+       and
+ SALES.Sales_Total&gt;1000; 
+
+
+ 
+***************************************** 
+ ** Parallel
+Execution                ** 
+ ** Note: Oracle
+ ignores
+ parallel     ** 
+ **       hints
+ on a temporary table. ** 
+ ***************************************** 
+ / *+ APPEND */ 
+ /*+ NOAPPEND */ 
+   Specifies that data is simply appended (or
+ not) to a
+ table; existing free space is not used. Use these hints only
+ following
+ the INSERT keyword.
+
+ /*+ NOPARALLEL(table) */ 
+   Disables parallel scanning of a table, even
+ if the
+ table was created with a PARALLEL clause.
+
+ /*+ PARALLEL(table) 
+ /*+ PARALLEL(table integer)
+ */ 
+   Lets you specify parallel execution of DML
+ and
+ queries on the table; integer specifies the desired degree of
+ parallelism, which is the number of parallel
+   threads that can be used for the operation.
+ Each
+ parallel thread may use one or two parallel execution servers.
+ If you
+ do not specify integer, Oracle
+   computes a value using the
+ PARALLEL_THREADS_PER_CPU
+ parameter. If no parallel hint is specified, Oracle uses the
+ existing
+ degree of parallelism for  the table.
+
+   DELETE, INSERT, and UPDATE operations are
+ considered
+ for parallelization only if the session is in a PARALLEL
+ DML
+ enabled mode. (Use ALTER SESSION ENABLE PARALLEL DML to enter
+ this
+ mode.)
+ 
+
+
+
+ 
+
+
+ NOLOGGING
+ Option 
+
+
+The NOLOGGING clause only affects Direct-path INSERT and Direct
+ Loader (SQL*Loader) all other DML (insert/update/delete) are
+ logged to
+ the redo logs. Regular DML statements are always logged. So you
+ should
+ be able to recover them even if the table mode is nologging
+
+
+Although you can set the NOLOGGING attribute for a table,
+ partition,
+ index, or tablespace, NOLOGGING mode does not apply to every
+ operation
+ performed on the schema object for which you set the NOLOGGING
+ attribute. Only the following operations can make use of the
+ NOLOGGING
+ option:
+
+
+  alter table...move partition  alter table...split partition  alter index...split partition  alter index...rebuild  alter index...rebuild partition  create table...as select  create index  direct load with SQL*Loader  direct load INSERT  Inserts with Append
+ Option 
+All of these SQL statements can be parallelized. They can execute in
+ LOGGING or NOLOGGING mode for both serial and parallel execution.
+Other SQL statements (such as UPDATE, DELETE, conventional path
+ INSERT,
+ and various DDL statements not listed above) are unaffected by the
+ NOLOGGING attribute of the schema object.&quot; NOLOGGING is used
+ mainly for SQL-LOADER and DIRECT-INSERTS. If you are
+ not performing either of these (or those mentioned above) then the
+ operation you perform WILL be logged.
+If you performed any of those operations you should backup your
+ database ASAP.
+If you performed any of those operations the steps to recover a
+ standby
+ database would be:
+1. Stop recovery on the standby.
+2. Put the datafile in backup mode, back it up, and ftp the file
+ to the
+ standby host (in binary mode).
+3. Put the Standby in Managed Recovery Mode:
+On the Standby:
+SQL&gt;alter database recover managed standby database
+ disconnect;
+ 
+if you use RMAN:
+1. Stop recovery on the standby.
+2. Connect to the target and standby:
+rman target / auxiliary sys/change_on_install@standby
+3. Restore and recover the file with something like this:
+run {
+set newname for datafile 8 to
+&quot;/u03/mpolaski/oradata/users01.dbf&quot;;
+restore datafile 8;
+set until time &apos;Oct 24 2000 08:00:00&apos;;
+recover
+standby
+clone database; }
+4. Put the standby back into recovery mode.
+
+Anyway, you can run the following PL/SQL as the owner of the table
+ to
+ modify those tables, indexes or tablespaces:
+  -- FOR TABLES 
+ set heading off 
+ set feedback off 
+ set pagesize 200 
+ spool tables_logging.sql 
+ select &apos;alter table &apos; ||
+ table_name || &apos; logging;&apos; 
+  from user_tables 
+    where
+ logging
+ = &apos;NO&apos; 
+    and
+ temporary
+ = &apos;N&apos;; 
+ spool off 
+ @tables_logging 
+   
+ -- FOR INDEXES 
+ set heading off 
+ set feedback off 
+ set pagesize 200 
+ spool indexes_logging.sql 
+ select &apos;alter index &apos; ||
+ index_name || &apos; logging;&apos; 
+  from user_indexes 
+    where
+ logging
+ = &apos;NO&apos;; 
+ spool off 
+ @indexes_logging 
+
+
+ -- FOR TABLESPACES 
+ set heading off 
+ set feedback off 
+ set pagesize 200 
+ spool tablespace_logging.sql 
+ select &apos;alter tablespace &apos; ||
+ tablespace_name || &apos; logging;&apos; 
+  from dba_tablespaces 
+    where
+ logging
+ = &apos;NOLOGGING&apos;; 
+ spool off 
+ @tablespace_logging 
+ 
+ 
+ CBO
+ Options 
+
+
+ optimizer_index_cost_adj 
+This is the most important parameter of all, and the default
+ setting of
+ 100 is incorrect for most Oracle systems. For OLTP systems,
+ re-setting this parameter to a smaller value (between 10- to 30)
+ may
+ result in huge performance gains!
+If you are having slow performance because the CBO first_rows
+ optimizer
+ mode is favoring too many full-table scans, you can reset the
+ optimizer_index_cost_adj parameter to immediately tune all of the
+ SQL
+ in your database to favor index scans over full-table scans. This
+ is a
+ &quot;silver bullet&quot; that can improve the performance of an entire
+ database
+ in cases where the database is OTLP and you have verified that the
+ full-table scan costing is too low.
+It can also be
+ enabled at the session level by using the alter session set
+ optimizer_index_cost_adj = nn syntax. The
+ optimizer_index_cost_adj
+ parameter is a great approach to whole-system SQL tuning, but you
+ will
+ need to evaluate the overall effect by slowly resetting the value
+ down
+ from 100 and observing the percentage of full-tale scans. You can
+ also
+ slowly bump down the value of optimizer_index_cost_adj when you
+ bounce
+ the database and then either use the access.sql scripts or
+ reexamine
+ SQL from the STATSPACK stats$sql_summary table to see the net
+ effect
+ of index scans on the whole database.
+
+Adjustments
+We have seen that there are two assumptions built into the
+ optimizer
+ that are not very sensible.
+-   A single block read costs just as much as a
+ multi-block
+ read - (not really likely, particularly when running on file
+ systems
+ without direction)
+-   A block access will be a physical disk read -
+ (so
+ what is the buffer cache for?)
+
+Set the optimizer_index_caching to something in the region of the
+ &quot;buffer cache hit ratio.&quot; (You have to make your own choice about
+ whether this should be the figure derived from the default pool,
+ keep
+ pool, or both).
+
+Another method to define it:
+ col
+ a1 head &quot;avg. wait time|(db file sequential read)&quot;
+col a2 head &quot;avg. wait time|(db file scattered read)&quot;
+col a3 head &quot;new setting for|optimizer_index_cost_adj&quot; 
+ 
+
+ select a.average_wait a1, 
+        b.average_wait a2, 
+        round(
+ ((a.average_wait/b.average_wait)*100) ) a3 
+ from 
+       (select d.kslednam
+ EVENT, 
+               s.kslestim
+/
+ (10000 * s.ksleswts) AVERAGE_WAIT 
+        from x$kslei s,
+ x$ksled d 
+        where s.ksleswts != 0
+ and
+ s.indx = d.indx) a, 
+       (select d.kslednam EVENT, 
+               s.kslestim
+/
+ (10000 * s.ksleswts) AVERAGE_WAIT 
+        from x$kslei s,
+ x$ksled d 
+        where s.ksleswts != 0
+ and
+ s.indx = d.indx) b 
+ where a.event = &apos;db file
+ sequential read&apos; 
+ and b.event = &apos;db file
+ scattered
+ read&apos;; 
+
+
+Some results I have obtained from various
+ combinations of hardware platform and IO sub-system.
+
+          avg. wait
+ time          avg.
+ wait
+ time          new setting for
+(db file sequential read) (db file scattered read)
+ optimizer_index_cost_adj
+------------------------- ------------------------
+ ------------------------
+              .171659257              3.33033582                       5
+                  .13254                 1.12365                      12
+               .017605522              .104148241                      17
+              1.29639067              2.06954043                      63
+               .535133533              .397919802                     134
+              .940889054              .509830001                     185
+              .537904057              .145183814                     370 
+
+In real life, this metric is only good
+ enough
+ to give a very rough indicator as to how fast the IO sub-system
+ is.
+ New-value settings below 100 indicate slow disks, anything above
+ 100
+ might indicate the presence of fast or cache-backed disks (or
+ abuse of
+ the UNIX file system cache). You have to exaggerate these results
+ for
+ it to have any real influence on the CBO. For example, if the
+ above
+ query suggests a new setting of 63%, you may have to go as low as
+ 1% or
+ 2% before the CBO will actually use an index. Conversely,
+ a
+ suggestion of 370% may need to be bumped up to around 3700% before
+ a
+ full-table or index fast-full scan is favoured.
+
+
+
+ Optimizer
+ Modes 
+In Oracle9i there are four optimizer modes, all determined by the
+ value
+ of the optimizer_mode parameter. The values are rule,
+ choose,
+ all_rows and first_rows. The rule and choose modes reflect
+ the
+ obsolete rule-based optimizer so we will focus on the CBO modes.
+The optimizer mode can be set at the system-wide level, for an
+ individual session, or for a specific SQL statement:
+ alter system set
+ optimizer_mode=first_rows_10; 
+ alter session set
+ optimizer_goal
+ = all_rows; 
+ select /*+ first_rows(100)
+ */
+ from student; 
+
+Oracle offers several optimizer modes that allow you to choose
+ your
+ definition of the“best”execution plan for you:
+
+
+ optimizer_mode=first_rows This is a cost-based optimizer mode that will return rows as
+ soon as
+ possible, even if the overall query runs longer or consumes more
+ computing resources than other plans. The first_rows
+ optimizer_mode usually involves choosing an index scan over a
+ full-table scan because index access will return rows
+ quickly. Since the first_rows mode favors index scans over full-table
+ scans, the
+ first_rows mode is more appropriate for OLTP systems where the
+ end-user
+ needs to see small result sets as quickly as possible. optimizer_mode=all_rows This is a cost-based optimizer mode that ensures that the
+ overall
+ computing resources are minimized, even if no rows are available
+ until
+ the entire query has completed. The all_rows access method
+ often
+ favors a parallel full-table scan over a full-index scan, and
+ sorting
+ over pre-sorted retrieval via an index. Because the
+ all_rows mode
+ favors full-table scans, it is best suited for Data Warehouse,
+ decision
+ support systems and batch-oriented databases where intermediate
+ rows
+ are not required for real-time viewing. optimizer_mode=first_rows_n This is an Oracle9i optimizer mode enhancement that optimizes
+ queries
+ for am small, expected return set. The values are
+ first_rows_1,
+ first_rows_10, and first_rows_100 and first_rows_1000. The
+ CBO
+ uses the &apos;n&apos; in first_rows_n as an important driver in
+ determining
+ cardinalities for query result sets. By telling the CBO, a
+ priori, that
+ we only expect a certain number of rows back from the query, the
+ CBO
+ will be able to make a better decision about whether to use an
+ index to
+ access the table rows.
+ 
+
+While the optimizer_mode is the single
+ most
+ important factor in invoking the cost-based optimizer, there are
+ other
+ parameters that influence the CBO behavior. 
+
+
+
+ Using
+ histograms with the CBO 
+In some cases, the distribution of values within an index will
+ effect
+ the CBOs decision to use an index vs. perform a full-table
+ scan. This happens when the value with a where clause has a
+ disproportional
+ amount of values, making a full-table scan cheaper than index
+ access.
+A column histogram should only be created when we have a
+ highly-skewed
+ column, where some values have a disproportional number of
+ rows. In the real world, this is quite rare, and one of the most common
+ mistakes with the CBO is the unnecessary introduction of
+ histograms in
+ the CBO statistics. The histograms signals the CBO that the
+ column is not linearly distributed, and the CBO will peek into the
+ literal value in the SQL where clause and compare that value to
+ the
+ histogram buckets in the histogram statistics.
+As a general rule, histograms are used to predict the cardinality
+ and
+ the number of rows returned in the result set. For example,
+ assume that we have a product_type index and 70% of the values are
+ for
+ the HARDWARE type. Whenever SQL with where
+ product_type=’HARDWARE’is specified, a full-table scan is the
+ fastest
+ execution plan, while a query with where product_type=’SOFTWARE’would
+ be fastest using index access.
+Because histograms add additional overhead to the parsing phase of
+ SQL,
+ they should be avoided unless they are required for a faster CBO
+ execution plan. 
+
+
+So how do we find those columns that are
+ appropriate for histograms? One exciting feature of
+ dbms_stats is
+ the ability to automatically look for columns that should have
+ histograms, and create the histograms. Again, remember that
+ multi-bucket
+ histograms add a huge parsing overhead to SQL statements, and
+ histograms should ONLY be used when the SQL will choose a
+ different
+ execution plan based upon the column value.
+To aid in intelligent histogram generation, Oracle uses the
+ method_opt
+ parameter of dbms_stats. There are also important new
+ options
+ within the method_opt clause, namely skewonly, repeat and auto.
+     method_opt=&gt;&apos;for all columns
+ size
+ skewonly&apos;
+     method_opt=&gt;&apos;for all columns
+ size
+ repeat&apos;
+     method_opt=&gt;&apos;for all columns
+ size
+ auto&apos;
+
+Let’s take a close look at each method option.
+
+
+The first is the“skewonly”option which
+ very
+ time-intensive because it examines the distribution of values for
+ every
+ column within every index. If dbms_stats discovers an index
+ whose
+ columns are unevenly distributed, it will create histograms for
+ that
+ index to aid the cost-based SQL optimizer in making a decision
+ about
+ index vs. full-table scan access. For example, if an index
+ has
+ one column that is in 50% of the rows, a full-table scan is faster
+ than
+ and index scan to retrieve these rows.
+
+Histograms are also used with SQL that has bind variables and SQL
+ with
+ cursor_sharing enabled. In these cases, the CBO determines
+ if the
+ column value could affect the execution plan, and if so, replaced
+ the
+ bind variable with a literal and performs a hard parse.
+ begin 
+  dbms_stats.gather_schema_stats( 
+   ownname         =&gt;&apos;SCOTT&apos;, 
+   estimate_percent
+ =&gt;dbms_stats.auto_sample_size, 
+   method_opt      =&gt;&apos;for all
+ columns
+ size skewonly&apos;, 
+   degree          =&gt;7 
+  ); 
+ end; 
+ / 
+The auto option is used
+ when
+ monitoring is implemented (alter table xxx monitoring;) and
+ creates
+ histograms based upon data distribution and the manner in which
+ the
+ column is accessed by the application (e.g. the workload on the
+ column
+ as determined by monitoring). Using method_opt=&gt;’auto’is
+ similar to using the gather auto in the option parameter of
+ dbms_stats.
+ begin 
+   dbms_stats.gather_schema_stats( 
+      ownname         =&gt;&apos;SCOTT&apos;, 
+      estimate_percent
+ =&gt;dbms_stats.auto_sample_size, 
+      method_opt      =&gt;&apos;for all columns
+ size auto&apos;, 
+      degree          =&gt;7 
+   ); 
+ end; 
+ / 
+
+
+
+ 
+ Improving Performance By Using
+ IPC
+ Connections To Local Databases 
+&quot;When a process is on the same machine as the server, use the IPC
+ protocol for connectivity instead of TCP. Inner Process
+ Communication
+ on the same machine does not have the overhead of packet building
+ and
+ deciphering that TCP has. I&apos;ve seen a SQL job that runs in 10
+ minutes
+ using TCP on a local machine run as fast as one minute using an
+ IPC
+ connection. The difference in time is most dramatic when the
+ Oracle
+ process has to send and/or receive large amounts of data to and
+ from
+ the database. For example, a SQL*Plus connection that counts the
+ number
+ of rows of some tables will run about the same amount of time,
+ whether
+ the database connection is made via IPC or TCP. But if the
+ SQL*Plus
+ connection spools much data to a file, the IPC connection will
+ often be
+ much faster -- depending on the data transmitted and the machine
+ workload on the TCP stack.
+You can set up your tnsnames file like this on a local machine so
+ that
+ local connection with use IPC connections first and then TCP
+ connection
+ second.
+PROD =
+ (DESCRIPTION =
+   (ADDRESS_LIST =
+     (ADDRESS = (PROTOCOL = IPC)(Key =
+ IPCKEY))  or (Key = SID))
+     (ADDRESS = (PROTOCOL = TCP)(HOST =
+ MYHOST)(PORT = 1521))
+   )
+   (CONNECT_DATA =
+     (SID = PROD)
+   )
+ )
+To see if the connections are being made via IPC or TCP, turn on
+ listener logging and review the listener log file.&quot;
+ Metalink 
+Note 207434.1
+
+
+
+ Space Used per Block 
+Remember each INITRANS takes 24 bytes in a block. Approximately
+ 120
+ bytes is needed for block header info.
+
+Available space for new insert = DB_BLOCK_SIZE - ((DB_BLOCK_SIZE -
+ header info) * PCTFREE ) - (INITRANS * 24)
+
+
+With the following (BAD) values:
+Assume your block size = 8192.
+The PCTFREE 60 will simply take away 4843 bytes ((8192
+ -120)*0.60).
+Then INITRANS 90 will consume 2160 bytes (90*24).
+Available space for new insert = 8192 - 4843 - 2160 = 1189.
+
+
+ Put LOG_BUFFER value to 4 MB.
+ LOG_PARALLELISM default value in 10g is 2. You can increase to
+ 8
+ or 12 so that different concurrent sessions would start using
+ different
+ log buffer. This will increase transaction through put.
+ Tune tnsnames.ora file. Consider adding SDU/TDU parameters.
+ Divide the buffer cache into 2 parts: keep and default. Use
+ &quot;keep&quot; for indexes and &quot;default&quot; for table data.
+	</body>
+</document>

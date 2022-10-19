@@ -1,0 +1,577 @@
+prt(lay-1, out-2)
+dobj(lay-1, clothes-3)
+dep(lay-1, flat-4)
+
+dobj(iron-1, them-2)
+
+dobj(place-1, clothes-2)
+prepc_on(place-1, ironing-4)
+dobj(ironing-4, board-5)
+advmod(ironing-4, one-6)
+det(time-9, a-8)
+prep_at(ironing-4, time-9)
+
+csubj(lay-4, make-1)
+amod(clothes-3, sure-2)
+dobj(make-1, clothes-3)
+acomp(lay-4, flat-5)
+amod(board-8, ironing-7)
+prep_against(lay-4, board-8)
+
+prep_in(plug-1, iron-3)
+
+prep_for(wait-1, iron-3)
+prep_to(wait-1, heat-5)
+
+nsubj(heated-2, once-1)
+dep(heated-2, run-3)
+dobj(run-3, iron-4)
+prep_across(run-3, clothes-6)
+advmod(run-3, slowly-7)
+
+dobj(get-1, clothes-2)
+
+dobj(get-1, iron-2)
+
+amod(board-3, ironing-2)
+dobj(get-1, board-3)
+
+num(piece-3, one-2)
+dobj(iron-1, piece-3)
+prep_of(piece-3, cloth-5)
+det(time-8, a-7)
+prep_at(iron-1, time-8)
+
+dobj(put-1, it-2)
+prt(put-1, away-3)
+
+det(iron-4, the-3)
+prep_in(plug-1, iron-4)
+
+mark(hot-6, until-2)
+det(iron-4, the-3)
+nsubj(hot-6, iron-4)
+cop(hot-6, is-5)
+advcl(wait-1, hot-6)
+
+det(clothes-3, the-2)
+dobj(put-1, clothes-3)
+det(board-7, the-5)
+amod(board-7, ironing-6)
+prep_on(put-1, board-7)
+
+conj_and(push-1, slide-3)
+det(iron-5, the-4)
+dobj(slide-3, iron-5)
+det(clothes-8, the-7)
+prep_on(slide-3, clothes-8)
+
+prt(put-1, down-2)
+det(iron-4, the-3)
+dobj(put-1, iron-4)
+
+det(clothes-3, the-2)
+dobj(take-1, clothes-3)
+det(board-8, the-6)
+amod(board-8, ironing-7)
+prep_away_from(take-1, board-8)
+
+det(iron-3, the-2)
+dobj(unplug-1, iron-3)
+
+dobj(get-1, clothes-2)
+prep_from(get-1, dryer-4)
+
+prep_in(plug-1, iron-3)
+
+prep_on(turn-1, iron-3)
+
+dobj(move-1, iron-2)
+prep_over(move-1, clothing-4)
+mark(gone-9, until-5)
+det(wrinkles-7, the-6)
+nsubjpass(gone-9, wrinkles-7)
+auxpass(gone-9, are-8)
+advcl(move-1, gone-9)
+
+det(clothing-4, all-3)
+prep_for(repeat-1, clothing-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, iron-3)
+
+dobj(unplug-1, iron-2)
+
+det(iron-4, the-3)
+prep_in(plug-1, iron-4)
+
+prt(set-1, up-2)
+det(board-5, the-3)
+amod(board-5, ironing-4)
+dobj(set-1, board-5)
+
+det(iron-4, the-3)
+prep_on(turn-1, iron-4)
+det(level-9, the-6)
+amod(level-9, appropriate-7)
+nn(level-9, heat-8)
+prep_to(turn-1, level-9)
+
+det(fabric-3, the-2)
+dobj(lay-1, fabric-3)
+aux(ironed-6, to-4)
+auxpass(ironed-6, be-5)
+infmod(fabric-3, ironed-6)
+det(board-10, the-8)
+amod(board-10, ironing-9)
+prep_on(ironed-6, board-10)
+
+det(part-4, the-2)
+amod(part-4, hot-3)
+dobj(place-1, part-4)
+det(iron-7, the-6)
+prep_of(part-4, iron-7)
+det(fabric-10, the-9)
+prep_on(place-1, fabric-10)
+
+prt(set-1, up-2)
+amod(board-4, ironing-3)
+dobj(set-1, board-4)
+
+dobj(plug-1, iron-2)
+
+dobj(place-1, clothes-2)
+prep_on(place-1, board-4)
+
+dobj(place-1, iron-2)
+prep_on(place-1, clothes-4)
+
+dobj(move-1, iron-2)
+prt(move-1, around-3)
+advmod(cover-7, so-4)
+dep(cover-7, as-5)
+aux(cover-7, to-6)
+xcomp(move-1, cover-7)
+predet(surface-10, all-8)
+det(surface-10, the-9)
+dobj(cover-7, surface-10)
+
+prt(turn-1, off-2)
+dobj(turn-1, iron-3)
+
+dobj(get-1, clothes-2)
+
+amod(board-3, ironing-2)
+dobj(get-1, board-3)
+
+dobj(put-1, clothes-2)
+prep_on(put-1, board-4)
+
+prep_in(plug-1, iron-3)
+
+nn(clothes-4, iron-2)
+nn(clothes-4, press-3)
+pobj(with-1, clothes-4)
+
+dobj(remove-1, clothes-2)
+
+dobj(place-1, clothes-2)
+prepc_on(place-1, ironing-4)
+dobj(ironing-4, board-5)
+advmod(ironing-4, one-6)
+det(time-9, a-8)
+prep_at(ironing-4, time-9)
+
+prt(heat-1, up-2)
+dobj(heat-1, iron-3)
+
+dobj(press-1, clothes-2)
+prep_with(press-1, iron-4)
+
+amod(piece-4, next-3)
+prep_to(get-1, piece-4)
+prep_of(piece-4, clothing-6)
+
+det(iron-3, an-2)
+dobj(locate-1, iron-3)
+
+det(board-4, an-2)
+amod(board-4, ironing-3)
+dobj(locate-1, board-4)
+
+det(iron-3, the-2)
+dobj(heat-1, iron-3)
+
+dobj(place-1, clothing-2)
+aux(ironed-5, to-3)
+auxpass(ironed-5, be-4)
+xcomp(place-1, ironed-5)
+dep(ironed-5, one-7)
+dep(one-7, at-8)
+det(time-10, a-9)
+pobj(at-8, time-10)
+det(board-15, the-13)
+amod(board-15, ironing-14)
+prep_on(ironed-5, board-15)
+
+dobj(utilize-1, iron-2)
+det(clothes-5, the-4)
+prep_on(utilize-1, clothes-5)
+
+advmod(arrange-2, neatly-1)
+amod(clothes-4, ironed-3)
+dobj(arrange-2, clothes-4)
+
+prt(set-1, up-2)
+amod(board-4, ironing-3)
+dobj(set-1, board-4)
+
+dobj(plug-1, iron-2)
+amod(socket-5, electrical-4)
+prep_into(plug-1, socket-5)
+
+det(piece-3, a-2)
+dobj(place-1, piece-3)
+prep_of(piece-3, clothing-5)
+amod(board-8, ironing-7)
+prep_on(place-1, board-8)
+
+amod(iron-4, hot-3)
+prep_with(press-1, iron-4)
+
+dobj(unplug-1, iron-2)
+
+prt(put-1, away-2)
+xcomp(put-1, ironing-3)
+dobj(ironing-3, board-4)
+
+prep_in(plug-1, iron-3)
+
+dobj(set-1, iron-2)
+amod(level-5, desired-4)
+prep_to(set-1, level-5)
+prep_of(level-5, heat-7)
+
+amod(board-3, ironing-2)
+dobj(open-1, board-3)
+
+dobj(place-1, clothes-2)
+amod(board-5, ironing-4)
+prep_on(place-1, board-5)
+
+prep_for(wait-1, iron-3)
+aux(heat-5, to-4)
+xcomp(wait-1, heat-5)
+prt(heat-5, up-6)
+
+advmod(heated-2, when-1)
+csubj(use-3, heated-2)
+amod(iron-5, hot-4)
+dobj(use-3, iron-5)
+aux(smooth-7, to-6)
+xcomp(use-3, smooth-7)
+dobj(smooth-7, wrinkles-8)
+prep_in(smooth-7, clothes-10)
+
+dobj(place-1, clothes-2)
+amod(board-5, ironing-4)
+prep_on(place-1, board-5)
+
+dobj(heat-1, iron-2)
+amod(setting-5, desired-4)
+prep_to(heat-1, setting-5)
+
+dobj(flatten-1, clothes-2)
+prep_with(flatten-1, iron-4)
+
+det(board-4, an-2)
+amod(board-4, ironing-3)
+dobj(get-1, board-4)
+
+dobj(put-1, water-2)
+prep_in(put-1, iron-4)
+
+dobj(turn-1, iron-2)
+prt(turn-1, on-3)
+amod(temperature-6, correct-5)
+prep_to(turn-1, temperature-6)
+
+dobj(move-1, iron-2)
+prep_across(move-1, clothing-4)
+
+prep_on(turn-1, iron-3)
+
+dobj(place-1, item-2)
+prep_of(item-2, clothing-4)
+amod(board-7, ironing-6)
+prep_on(place-1, board-7)
+
+dobj(run-1, iron-2)
+advmod(run-1, back-3)
+advmod(run-1, forth-5)
+conj_and(back-3, forth-5)
+prep_over(run-1, clothing-7)
+
+advmod(unwrinkled-5, when-2)
+nsubjpass(unwrinkled-5, clothes-3)
+auxpass(unwrinkled-5, are-4)
+advcl(stop-1, unwrinkled-5)
+
+det(iron-3, an-2)
+dobj(get-1, iron-3)
+
+det(board-4, an-2)
+amod(board-4, ironing-3)
+dobj(get-1, board-4)
+
+dobj(turn-1, iron-2)
+aux(correct-4, to-3)
+xcomp(turn-1, correct-4)
+dobj(correct-4, tempurature-5)
+
+dobj(place-1, item-2)
+aux(ironed-5, to-3)
+auxpass(ironed-5, be-4)
+infmod(item-2, ironed-5)
+amod(board-8, ironing-7)
+prep_on(ironed-5, board-8)
+
+prt(pick-1, up-2)
+dobj(pick-1, iron-3)
+
+dobj(set-1, iron-2)
+prep_on(set-1, item-4)
+aux(ironed-7, to-5)
+auxpass(ironed-7, be-6)
+xcomp(set-1, ironed-7)
+
+dobj(move-1, iron-2)
+advmod(move-1, back-3)
+advmod(move-1, forth-5)
+conj_and(back-3, forth-5)
+prep_over(move-1, item-7)
+
+prt(set-1, up-2)
+amod(board-4, ironing-3)
+dobj(set-1, board-4)
+
+prep_in(plug-1, iron-3)
+
+prep_on(turn-1, iron-3)
+
+prt(lay-1, out-2)
+dobj(lay-1, item-3)
+aux(iron-6, to-4)
+cop(iron-6, be-5)
+xcomp(lay-1, iron-6)
+
+det(wrinkles-3, some-2)
+dobj(smooth-1, wrinkles-3)
+prep_with(smooth-1, hand-5)
+
+dobj(test-1, temp-2)
+prep_of(temp-2, iron-4)
+
+
+prt(set-1, up-2)
+amod(board-4, ironing-3)
+dobj(set-1, board-4)
+
+prt(get-1, out-2)
+dobj(get-1, iron-3)
+
+prt(heat-1, up-2)
+dobj(heat-1, iron-3)
+
+dobj(put-1, clothes-2)
+amod(board-5, ironing-4)
+prep_on(put-1, board-5)
+
+dobj(move-1, iron-2)
+advmod(move-1, carefully-3)
+prep_over(move-1, clothes-5)
+
+dobj(hang-1, clothes-2)
+
+prt(put-1, away-2)
+dobj(put-1, iron-3)
+amod(board-6, ironing-5)
+dobj(put-1, board-6)
+conj_and(iron-3, board-6)
+
+prep_on(turn-1, iron-3)
+
+dobj(place-1, clothes-2)
+advmod(place-1, flat-3)
+amod(board-6, ironing-5)
+prep_on(place-1, board-6)
+
+prt(smotth-1, out-2)
+dobj(smotth-1, wrinkles-3)
+prep_with(smotth-1, iron-5)
+
+prt(hang-1, up-2)
+dobj(hang-1, clothes-3)
+
+dobj(gather-1, clothes-2)
+nsubj(need-4, clothes-2)
+rcmod(clothes-2, need-4)
+aux(ironed-7, to-5)
+auxpass(ironed-7, be-6)
+xcomp(need-4, ironed-7)
+
+dobj(gather-1, hangers-2)
+
+prt(set-1, up-2)
+amod(board-4, ironing-3)
+dobj(set-1, board-4)
+
+prep_in(plug-1, iron-3)
+
+prep_for(wait-1, it-3)
+aux(heat-5, to-4)
+xcomp(wait-1, heat-5)
+prt(heat-5, up-6)
+
+prt(shake-1, out-2)
+dobj(shake-1, clothes-3)
+dobj(shake-1, place-5)
+conj_and(clothes-3, place-5)
+amod(board-8, ironing-7)
+prep_on(shake-1, board-8)
+
+advmod(iron-1, slowly-2)
+det(clothes-5, the-4)
+prep_over(iron-1, clothes-5)
+
+dobj(place-1, shirt-2)
+nn(board-5, iron-4)
+prep_on(place-1, board-5)
+
+nn(temperature-3, iron-2)
+dobj(adjust-1, temperature-3)
+
+dobj(press-1, iron-2)
+prep_to(press-1, shirt-4)
+
+dobj(iron-1, shirt-2)
+advmod(iron-1, evenly-3)
+
+dobj(inspect-1, shirt-2)
+
+dobj(turn-1, iron-2)
+prt(turn-1, off-3)
+
+prepc_towards(walk-1, ironing-3)
+dobj(ironing-3, board-4)
+
+prep_on(turn-1, iron-3)
+
+dobj(iron-1, clothes-2)
+
+
+det(board-4, the-2)
+amod(board-4, ironing-3)
+dobj(retrieve-1, board-4)
+
+det(article-3, the-2)
+dobj(retrieve-1, article-3)
+prep_of(article-3, clothing-5)
+
+prt(set-1, up-2)
+det(board-5, the-3)
+amod(board-5, ironing-4)
+dobj(set-1, board-5)
+dobj(set-1, plug-7)
+conj_and(board-5, plug-7)
+det(iron-10, the-9)
+prep_in(set-1, iron-10)
+
+prt(lay-1, out-2)
+det(clothing-4, the-3)
+dobj(lay-1, clothing-4)
+det(board-7, the-6)
+prep_on(lay-1, board-7)
+
+dobj(shake-1, clothes-2)
+
+prep_for(check-1, wrinkles-3)
+
+prep_in(put-1, dryer-3)
+
+amod(towel-3, damp-2)
+dobj(add-1, towel-3)
+
+num(minutes-4, 5-3)
+prep_for(dry-1, minutes-4)
+
+prep_out_of(take-1, dryer-4)
+prep_out_of(take-1, shake-6)
+conj_and(dryer-4, shake-6)
+
+prt(put-1, on-2)
+advmod(put-1, quickly-3)
+
+prt(bring-1, out-2)
+nn(board-4, iron-3)
+dobj(bring-1, board-4)
+
+nn(board-3, iron-2)
+dobj(unfold-1, board-3)
+
+prep_in(plug-1, iron-3)
+
+prep_for(wait-1, iron-3)
+aux(heat-5, to-4)
+xcomp(wait-1, heat-5)
+prt(heat-5, up-6)
+
+dobj(place-1, clothing-2)
+amod(board-5, ironing-4)
+prep_on(place-1, board-5)
+
+nn(settings-3, heat-2)
+dobj(choose-1, settings-3)
+prep_on(choose-1, iron-5)
+
+dobj(run-1, iron-2)
+advmod(run-1, back-3)
+advmod(run-1, forth-5)
+conj_and(back-3, forth-5)
+mark(smooth-9, until-6)
+nsubj(smooth-9, clothes-7)
+cop(smooth-9, are-8)
+advcl(run-1, smooth-9)
+
+prt(set-1, up-2)
+amod(board-4, ironing-3)
+dobj(set-1, board-4)
+
+prep_in(plug-1, iron-3)
+
+nsubj(wrinkled-2, put-1)
+dobj(wrinkled-2, shirt-3)
+advmod(wrinkled-2, flat-4)
+amod(board-7, ironing-6)
+prep_on(wrinkled-2, board-7)
+
+advmod(hot-4, when-1)
+nsubj(hot-4, iron-2)
+cop(hot-4, is-3)
+csubj(press-5, hot-4)
+dobj(press-5, iron-6)
+prep_on(press-5, clothes-8)
+
+prt(get-1, out-2)
+xcomp(get-1, ironing-3)
+dobj(ironing-3, board-4)
+
+prep_in(plug-1, iron-3)
+
+ccomp(lay-1, wrinkled-2)
+dobj(wrinkled-2, shirt-3)
+prep_on(wrinkled-2, board-5)
+
+dobj(press-1, iron-2)
+prep_on(press-1, shirt-4)
+

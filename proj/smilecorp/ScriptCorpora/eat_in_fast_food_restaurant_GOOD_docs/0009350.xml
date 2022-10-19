@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0009350" url="http://dlmf.nist.gov/help/search" time="2012-07-13-02:43" support="3" score="0.014217033086788672" bingtitle="DLMF: Guide to Searching the DLMF" webtitle="DLMF: Guide to Searching the DLMF">
+			<query id="001013" bing-rank="151"/>
+			<query id="001010" bing-rank="168"/>
+			<query id="000984" bing-rank="190"/>
+	<description>Gamma near/5 = the terms and = such that is up to 5 terms ... stands for any number of alphanumeric characters ... Table 3: A sample of recognized symbols</description>
+	<body>
+		Index Notations Search Need Help? How to Cite Customize 
+ About the Project ⇐ About MathML How to Cite ⇒ 
+Guide to Searching the DLMF
+ ♦ § Overview ♦ § More Details ♦ § Fine Points in Math Search ♦ 
+ § Overview
+ 
+In DLMF, you can search not only for text but also for mathematical expressions.
+Every page contains a search box in the navigation bar.
+From there you can also access an advanced search page
+where you can control certain settings, narrowing the search to
+certain chapters, or restricting the results to equations, graphs,
+tables, or bibliographic items.
+ Table 1: Query Examples 
+ Query Matching records contain &quot;Fourier transform&quot; and series both the phrase “Fourier transform” and the word “series”. Fourier or series at least one of the words “Fourier” or “series”. Fourier (transform or series) at least one of “Fourier transform” or “Fourier series”. 1/(2pi) and &quot;Fourier transform&quot; both and the phrase “Fourier transform”. sin^2 +cos^2 the expression . J_n(z)= the math fragment J_n@(z)= the math fragment , emphasizing more that is a function. J_n@(x or z)= at least one of the math fragments or , emphasizing that is a function. int sin the integral of the sin function int_$^$ sin any definite integral of sin sin x and (J_nu(z) or I_nu(z)) both and at least one of the
+two functions or . DeMoivre and cos (n theta) both the word “DeMoivre” and the expression . BesselJ_nu and BesselY_nu both the Bessel functions and . Euler the word ”Euler” or any of the various Euler terms such as Euler Gamma function ,
+Euler Beta function , etc. trigonometric the word ”trigonometric” or any of the various trigonometric functions such as , , , and . trig$ any word that matches the pattern “ trig$ ”, that is, that starts with “trig”,
+such as “trigonometric” and “trigonometry”, including the various trigonometric functions such as and . trigonometric^2 + trig$^2 any sum of the squares of two trigonometric functions such as . int adj sin immediately followed by without any intervening terms. int prec/10 sin(x) preceding by no more than 10 terms. Gamma near/5 = the terms and = such that is up to 5 terms before or after = . (int adj sin(x)) near/5 = the sub-expression and = , in whatever order and separated by no more than 5 terms. 
+ 
+ § More Details
+ 
+ § Terms, Phrases and Expressions
+ 
+Search queries are made up of terms, textual phrases, and math expressions,
+combined with Boolean operators:
+ term: 
+a textual word, a number, or a math symbol.
+ phrase: 
+any double-quoted sequence of textual words and numbers.
+ math expression: 
+any LaTeX-like sequence of terms, excluding phrases.
+ Boolean operator: 
+ and and or 
+ proximity operator: 
+ adj , prec/n , and near/n ,
+where n is any positive natural number.
+ 
+All terms are taken to be case-insensitive, except those taken
+to represent math expressions (see Case Sensitivity ).
+ 
+ § Wildcards
+ 
+Wildcards allow matching patterns and marking parts of an expression
+that don’t matter (as for example, which variable name the author
+uses for a function):
+ 
+ $ stands for any number of alphanumeric characters (the more conventional * is reserved for the multiplication operator) ? stands for any zero or one alphanumeric character. (If ? occurs as a separate token, it effectively acts like $ ) 
+ Table 2: Wildcard Examples 
+ Query What it stands for sin? sin, sine, sinh, sinc, … si$ si, sin, sine, sinh, sinc, sinInt, similar, … co$te Coordinate, conjugate, correlate,… B$l? Bessel, BesselJ, BesselI, BesselK, Bernoulli,… int_$^$ sin any definite integral of sin. 
+ 
+ § Query relaxation
+ 
+If a query does not return any hits, the DLMF search system relaxes the query to match and retrieve what may be intended by the original query.
+For example, the expression does not occur verbatim in DLMF,
+but and do.
+Therefore, if your query is Ai^2+Bi^2 , the system modifies the query
+so it will find the equations containing the latter expressions.
+ 
+ § Fine Points in Math Search
+ 
+To recognize the math symbols and structures, and to accommodate equivalence
+between various notations and various forms of expression,
+the search system maps the math part of your queries into a different form.
+If you do not want a term or a sequence of terms in your query to undergo
+math processing, you should quote them as a phrase. Be careful, however, because if you
+put quotes around math expressions involving math symbols, you may not
+get the matches you’d expect.
+ 
+ § Math Symbols
+ 
+You can use in math queries all the symbols and commands defined in LaTeX (you can omit the ), and some additional convenient ones,
+as well as the special functions’ names:
+ Table 3: A sample of recognized symbols 
+ Symbols Comments =, -, +, *, /,&gt;,&lt; &lt;=,&gt;= For and . +-, -+ For and _, ^ For subscripting and superscripting (power) &apos; (single quote) As a prime, which can stand for the derivative -&gt;,&lt;-,&lt;-&gt;, =&gt;,&lt;==,&lt;=&gt; For arrows , , , , and ~ For similar-to ~~ For approximation . -= For equivalence All elementary functions Such as sin, cos, tan, Ln, log, exp All names of special functions Such as BesselI, BesselJ, LegendreP, KummerU, etc. 
+ 
+The syntax of the special functions can be LaTeX-like or as employed in widely
+used computer algebra systems. For example, for the Bessel function ,
+you can write K_n(z) , BesselK_n(z) , BesselK(n,z) , or BesselK[n,z] .
+Note that the first form may match other functions than the Bessel function,
+so if you are sure you want Bessel , you might as well enter one of the other 3 forms.
+ 
+ § Case Sensitivity
+ 
+DLMF search is generally case-insensitive except when it is important to
+be case-sensitive, as when two different special functions have the same
+standard names but one name has a lower-case initial and the other is has
+an upper-case initial, such as si and Si, gamma and Gamma.
+In the following situations, DLMF search is case-sensitive:
+
+ 
+Single-letter terms
+ 
+All the Greek Letters (gamma vs. Gamma, sigma vs. Sigma, etc.)
+ 
+All the inverse trigonometric functions (arcsin vs. Arcsin, etc.).
+ 
+The following standard special functions: si, Si, ci, Ci, shi, Shi,
+ce, Ce, se, Se, ln, Ln, Lommels, LommelS, Jacobiphi, JacobiPhi,
+and the list is still growing.
+ 
+ 
+ § Fonts and Accents
+ 
+Sometimes there are distinctions between various special function names based
+on font style, such as the use of bold or calligraphic letters. DLMF search
+recognizes just the essential font differences, that is, the font style
+differences deemed important for the DLMF contents:
+ Table 4: Font and Accent Examples 
+ Query Matches cal L bold H theta hat U bar B tilde 
+ 
+If you don’t specify the font style or font accessories in the query,
+the style and accessories won’t matter in the search, but if you
+specify them, they will matter.
+ 
+ § Metadata for More Effective Search
+ 
+To find more effectively the information you need, especially equations,
+you may at times wish to specify what you want with descriptive words
+that characterize the contents but do not occur literally. For example,
+you may want equations that contain trigonometric functions, but you
+don’t care which trigonometric function. The natural thing is to enter
+the query trigonometric, and expect to have all the right matches.
+DLMF search provides this feature, which it accomplishes through
+the use of metadata.
+ © 2012–2010 NIST / Privacy Policy / Disclaimer / Feedback ;
+ Version 1.0.4;
+ Release date 2012-03-23
+ Math-Image version (See MathML )
+ .
+ 
+ A Printed Companion is available. ⇐ About MathML How to Cite ⇒
+	</body>
+</document>

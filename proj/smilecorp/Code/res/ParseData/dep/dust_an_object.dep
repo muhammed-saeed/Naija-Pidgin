@@ -1,0 +1,413 @@
+prt(pick-1, up-2)
+det(cloth-4, a-3)
+dobj(pick-1, cloth-4)
+
+det(object-4, the-3)
+prep_near(go-1, object-4)
+
+nsubj(object-3, swipe-1)
+dep(object-3, the-2)
+det(cloth-6, the-5)
+prep_with(object-3, cloth-6)
+
+prt(take-1, out-2)
+det(duster-4, the-3)
+dobj(take-1, duster-4)
+
+nsubj(object-3, dust-1)
+dep(object-3, the-2)
+
+det(duster-3, the-2)
+dobj(put-1, duster-3)
+advmod(put-1, back-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, duster-3)
+
+dobj(run-1, duster-2)
+prep_across(run-1, surface-4)
+prep_of(surface-4, object-6)
+
+prt(put-1, down-2)
+dobj(put-1, duster-3)
+
+det(dustcloth-3, a-2)
+dobj(find-1, dustcloth-3)
+
+dobj(run-1, dustcloth-2)
+prep_over(run-1, object-4)
+
+det(rag-4, a-2)
+amod(rag-4, clean-3)
+dobj(locate-1, rag-4)
+
+det(rag-3, the-2)
+dobj(rub-1, rag-3)
+det(object-7, the-5)
+amod(object-7, dusty-6)
+prep_over(rub-1, object-7)
+
+det(object-3, the-2)
+dobj(replace-1, object-3)
+poss(location-7, its-5)
+amod(location-7, original-6)
+prep_to(replace-1, location-7)
+
+det(rag-3, the-2)
+dobj(clean-1, rag-3)
+
+det(rag-4, a-2)
+amod(rag-4, clean-3)
+dobj(locate-1, rag-4)
+
+det(rag-4, the-2)
+amod(rag-4, clean-3)
+dobj(wipe-1, rag-4)
+det(surface-7, the-6)
+prep_over(wipe-1, surface-7)
+det(object-11, the-9)
+amod(object-11, dusty-10)
+prep_of(surface-7, object-11)
+
+xcomp(stop-1, rubbing-2)
+det(object-4, the-3)
+dobj(rubbing-2, object-4)
+advmod(removed-10, when-5)
+det(dust-7, the-6)
+nsubjpass(removed-10, dust-7)
+auxpass(removed-10, is-8)
+advmod(removed-10, adequately-9)
+advcl(stop-1, removed-10)
+
+det(rag-4, the-2)
+amod(rag-4, dirty-3)
+dobj(wash-1, rag-4)
+
+prep_close_to(move-1, duster-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, duster-3)
+
+acomp(move-1, close-2)
+aux(object-4, to-3)
+xcomp(close-2, object-4)
+
+det(duster-3, the-2)
+dobj(rub-1, duster-3)
+det(object-6, the-5)
+prep_on(rub-1, object-6)
+
+prt(pick-1, up-2)
+det(duster-4, the-3)
+dobj(pick-1, duster-4)
+
+prt(move-1, over-2)
+det(object-5, the-4)
+prep_to(move-1, object-5)
+
+det(duster-3, the-2)
+dobj(use-1, duster-3)
+aux(remove-5, to-4)
+infmod(duster-3, remove-5)
+det(dust-7, the-6)
+dobj(remove-5, dust-7)
+det(object-10, the-9)
+prep_on(remove-5, object-10)
+
+prt(get-1, out-2)
+det(duster-4, the-3)
+dobj(get-1, duster-4)
+
+det(duster-3, the-2)
+dobj(brush-1, duster-3)
+det(object-6, the-5)
+prep_over(brush-1, object-6)
+
+det(duster-3, the-2)
+dobj(replace-1, duster-3)
+
+dobj(take-1, brush-2)
+
+dobj(wipe-1, object-2)
+
+dobj(get-1, duster-2)
+
+dobj(hold-1, object-2)
+
+dobj(move-1, duster-2)
+prep_over(move-1, object-4)
+
+aux(feather-2, get-1)
+dobj(feather-2, duster-3)
+
+prt(pick-1, up-2)
+det(object-4, the-3)
+dobj(pick-1, object-4)
+
+dobj(wipe-1, feathers-2)
+prepc_of(feathers-2, feather-4)
+dobj(feather-4, duster-5)
+prep_on(feather-4, object-7)
+
+prt(set-1, down-2)
+det(object-4, the-3)
+dobj(set-1, object-4)
+
+prt(pick-1, up-2)
+det(object-4, the-3)
+dobj(pick-1, object-4)
+
+det(rag-4, a-2)
+amod(rag-4, damp-3)
+dobj(get-1, rag-4)
+
+det(dust-3, the-2)
+dobj(wipe-1, dust-3)
+det(object-6, the-5)
+prep_off(wipe-1, object-6)
+det(rag-10, the-8)
+amod(rag-10, damp-9)
+prep_with(wipe-1, rag-10)
+
+det(object-3, the-2)
+dobj(set-1, object-3)
+advmod(set-1, back-4)
+prep(set-1, down-5)
+
+det(item-3, the-2)
+dobj(locate-1, item-3)
+prep_to(locate-1, dust-5)
+
+det(rag-4, a-2)
+nn(rag-4, dust-3)
+dobj(locate-1, rag-4)
+
+det(spray-4, a-2)
+nn(spray-4, cleaning-3)
+dobj(locate-1, spray-4)
+
+det(item-3, the-2)
+dep(spray-1, item-3)
+prep_to(item-3, dust-5)
+
+det(rag-3, the-2)
+dobj(rub-1, rag-3)
+det(item-6, the-5)
+prep_of(rag-3, item-6)
+prep_to(item-6, dust-8)
+
+prt(pick-1, up-2)
+dobj(pick-1, duster-3)
+
+csubj(dusted-5, identify-1)
+dobj(identify-1, object-2)
+aux(be-4, to-3)
+infmod(object-2, be-4)
+
+advmod(brush-2, gently-1)
+dobj(brush-2, object-3)
+prep_with(brush-2, duster-5)
+
+det(rag-4, a-2)
+nn(rag-4, dust-3)
+dobj(obtain-1, rag-4)
+
+dobj(obtain-1, polish-2)
+
+dobj(put-1, polish-2)
+nn(rag-5, dust-4)
+prep_on(put-1, rag-5)
+
+nn(rag-3, rub-1)
+nn(rag-3, dust-2)
+nsubj(dusted-11, rag-3)
+det(surfaces-6, all-5)
+prep_on(rag-3, surfaces-6)
+prep_of(surfaces-6, object-8)
+aux(be-10, to-9)
+infmod(object-8, be-10)
+
+prt(put-1, away-2)
+nn(rag-4, dust-3)
+dobj(put-1, rag-4)
+
+prt(put-1, away-2)
+dobj(put-1, polish-3)
+
+amod(duster-3, cloth\/feather-2)
+dobj(get-1, duster-3)
+
+advmod(wipe-2, gently-1)
+nsubj(wipe-2, all-3)
+dep(wipe-2, exposed-4)
+dobj(exposed-4, surfaces-5)
+
+dobj(obtain-1, duster-2)
+
+advmod(remove-2, lightly-1)
+dobj(remove-2, dust-3)
+prep_with(remove-2, duster-5)
+det(motion-9, a-7)
+amod(motion-9, sweeping-8)
+prep_with(remove-2, motion-9)
+
+det(duster-3, a-2)
+dobj(get-1, duster-3)
+
+advmod(run-2, gently-1)
+det(duster-4, the-3)
+dobj(run-2, duster-4)
+det(object-7, the-6)
+prep_over(run-2, object-7)
+
+prt(pick-1, up-2)
+det(duster-4, the-3)
+dobj(pick-1, duster-4)
+
+prt(pick-1, up-2)
+det(object-4, the-3)
+dobj(pick-1, object-4)
+
+det(duster-3, the-2)
+dobj(brush-1, duster-3)
+det(object-6, the-5)
+prep_against(brush-1, object-6)
+
+det(object-3, the-2)
+dobj(put-1, object-3)
+advmod(put-1, back-4)
+det(shelf-7, the-6)
+prep_on(put-1, shelf-7)
+
+det(object-4, the-3)
+prep_on(blow-1, object-4)
+aux(remove-7, to-5)
+advmod(remove-7, really-6)
+infmod(object-4, remove-7)
+det(dust-9, the-8)
+dobj(remove-7, dust-9)
+
+nsubj(duster-3, swipe-1)
+dep(duster-3, the-2)
+advmod(duster-3, back-4)
+advmod(duster-3, forth-6)
+conj_and(back-4, forth-6)
+det(object-9, the-8)
+prep_over(duster-3, object-9)
+
+det(object-4, the-3)
+prep_on(blow-1, object-4)
+
+dobj(wipe-1, object-2)
+amod(eans-5, jyour-4)
+prep_on(wipe-1, eans-5)
+
+det(object-3, the-2)
+dobj(find-1, object-3)
+
+dobj(dust-1, it-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, duster-3)
+
+advmod(brush-2, gently-1)
+dobj(brush-2, duster-3)
+prep_over(brush-2, object-5)
+
+dobj(continue-1, step-2)
+num(step-2, two-3)
+mark(free-8, until-4)
+nsubj(free-8, object-5)
+cop(free-8, is-6)
+advmod(free-8, dust-7)
+advcl(continue-1, free-8)
+
+advmod(desired-3, as-2)
+dep(repeat-1, desired-3)
+
+
+
+
+
+
+
+
+prep_toward(walk-1, object-3)
+
+dobj(take-1, object-2)
+
+dobj(hold-1, object-2)
+
+prep_at(look-1, object-3)
+
+dobj(turn-1, object-2)
+advmod(turn-1, around-3)
+
+dobj(take-1, duster-2)
+
+nsubj(object-2, dust-1)
+
+dobj(obtain-1, duster-2)
+
+nsubj(object-2, dust-1)
+
+prt(pick-1, up-2)
+dobj(pick-1, object-3)
+
+dep(select-1, dusting-2)
+dobj(dusting-2, device-3)
+
+dobj(use-1, device-2)
+aux(remove-4, to-3)
+xcomp(use-1, remove-4)
+dobj(remove-4, dust-5)
+prep_from(remove-4, surface-7)
+
+amod(dust-4, remaining-3)
+prep_for(inspect-1, dust-4)
+
+nn(rag-3, dust-2)
+dobj(grasp-1, rag-3)
+
+dobj(move-1, rag-2)
+prep_across(move-1, object-4)
+advmod(move-1, carefully-5)
+
+nsubj(remains-6, dust-1)
+det(dust-5, no-3)
+amod(dust-5, more-4)
+prep_until(dust-1, dust-5)
+
+dobj(find-1, duster-2)
+
+dobj(remove-1, objects-2)
+prep_from(remove-1, surface-4)
+
+nsubj(surface-2, dust-1)
+
+dobj(replace-1, objects-2)
+
+amod(object-3, dusty-2)
+dobj(find-1, object-3)
+
+dobj(get-1, duster-2)
+
+nsubj(object-2, dust-1)
+
+det(duster-3, a-2)
+dobj(get-1, duster-3)
+
+det(object-4, a-2)
+amod(object-4, dusty-3)
+dobj(find-1, object-4)
+
+dobj(rub-1, duster-2)
+det(objct-5, the-4)
+prep_on(rub-1, objct-5)
+mark(dusty-11, until-6)
+nsubj(dusty-11, it-7)
+cop(dusty-11, is-8)
+advmod(dusty-11, no-9)
+advmod(no-9, longer-10)
+advcl(rub-1, dusty-11)
+

@@ -1,0 +1,174 @@
+
+
+
+
+
+
+
+det(paper-3, a-2)
+dobj(get-1, paper-3)
+
+det(pen-3, a-2)
+dobj(get-1, pen-3)
+
+dobj(start-1, writing-2)
+
+nsubj(needs-4, what-3)
+prepc_of(think-1, needs-4)
+aux(be-6, to-5)
+xcomp(needs-4, be-6)
+det(list-9, the-8)
+prep_on(be-6, list-9)
+
+prt(write-1, down-2)
+det(items-4, the-3)
+dobj(write-1, items-4)
+det(list-7, the-6)
+prep_on(write-1, list-7)
+
+det(list-3, the-2)
+dobj(use-1, list-3)
+aux(determine-5, to-4)
+xcomp(use-1, determine-5)
+dobj(determine-5, items-6)
+partmod(items-6, needed-7)
+
+dep(need-4, what-2)
+nsubj(need-4, you-3)
+xsubj(do-6, you-3)
+ccomp(determine-1, need-4)
+aux(do-6, to-5)
+xcomp(need-4, do-6)
+
+det(piece-3, a-2)
+dobj(locate-1, piece-3)
+prep_of(piece-3, paper-5)
+
+det(writing-3, a-2)
+dobj(locate-1, writing-3)
+dep(locate-1, implement-4)
+
+det(paper-4, the-3)
+prep_on(write-1, paper-4)
+det(item-6, each-5)
+dobj(write-1, item-6)
+dobj(need-8, item-6)
+nsubj(need-8, you-7)
+xsubj(do-10, you-7)
+rcmod(item-6, need-8)
+aux(do-10, to-9)
+xcomp(need-8, do-10)
+advmod(do-10, singly-11)
+
+prt(come-1, up-2)
+prep_with(come-1, things-4)
+aux(be-6, to-5)
+infmod(things-4, be-6)
+det(list-9, the-8)
+prep_on(be-6, list-9)
+
+det(things-3, the-2)
+dobj(write-1, things-3)
+prt(write-1, down-4)
+det(list-7, a-6)
+prep_on(write-1, list-7)
+
+dobj(locate-1, paper-2)
+
+dobj(get-1, paper-2)
+
+dobj(locate-1, pen-2)
+
+dobj(get-1, pen-2)
+
+dobj(write-1, list-2)
+prep_of(list-2, tasks-4)
+det(paper-7, the-6)
+prep_on(tasks-4, paper-7)
+partmod(tasks-4, using-8)
+det(pen-10, the-9)
+dobj(using-8, pen-10)
+
+dobj(get-1, paper-2)
+dobj(get-1, pen-4)
+conj_and(paper-2, pen-4)
+
+prep_of(think-1, items-3)
+det(list-6, the-5)
+prep_on(think-1, list-6)
+
+dobj(write-1, items-2)
+prt(write-1, down-3)
+
+det(piece-3, a-2)
+dobj(get-1, piece-3)
+prep_of(piece-3, paper-5)
+
+det(pencil-3, a-2)
+dobj(get-1, pencil-3)
+
+prt(write-1, down-2)
+det(item-4, each-3)
+dobj(write-1, item-4)
+poss(list-7, your-6)
+prep_for(item-4, list-7)
+
+dobj(get-1, paper-2)
+dobj(get-1, pencil-4)
+conj_and(paper-2, pencil-4)
+
+prt(write-1, down-2)
+dobj(write-1, items-3)
+prep_on(write-1, list-5)
+
+dobj(grab-1, piece-2)
+prep_of(piece-2, paper-4)
+
+dobj(grab-1, pencil-2)
+dobj(grab-1, pen-4)
+conj_or(pencil-2, pen-4)
+
+prt(write-1, down-2)
+dobj(write-1, items-3)
+num(items-3, one-4)
+prep_by(write-1, one-6)
+
+prep_of(think-1, item-3)
+
+dobj(write-1, item-2)
+prep_on(write-1, paper-4)
+
+det(item-4, another-3)
+prep_of(think-1, item-4)
+
+dobj(write-1, item-2)
+amod(line-5, next-4)
+prep_on(write-1, line-5)
+
+dobj(repeat-1, 3-2)
+dobj(repeat-1, 4-4)
+conj_and(3-2, 4-4)
+
+dobj(take-1, piece-2)
+prep_of(piece-2, paper-4)
+
+dobj(take-1, pencil-2)
+dobj(take-1, pen-4)
+conj_or(pencil-2, pen-4)
+
+dobj(write-1, items-2)
+prep_on(write-1, list-4)
+prep_until(write-1, complete-6)
+
+det(pen-3, a-2)
+dobj(get-1, pen-3)
+
+det(paper-3, some-2)
+dobj(get-1, paper-3)
+
+det(items-4, the-3)
+prep_of(think-1, items-4)
+
+dobj(write-1, them-2)
+prt(write-1, down-3)
+

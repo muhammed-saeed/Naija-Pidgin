@@ -1,0 +1,683 @@
+det(restaurant-3, a-2)
+dobj(pick-1, restaurant-3)
+
+det(restaurant-3, the-2)
+dobj(call-1, restaurant-3)
+
+det(reservation-3, the-2)
+dobj(make-1, reservation-3)
+
+prt(hang-1, up-2)
+
+det(restaurant-3, a-2)
+dobj(call-1, restaurant-3)
+
+aux(make-3, to-2)
+xcomp(ask-1, make-3)
+det(reservation-5, a-4)
+dobj(make-3, reservation-5)
+
+det(time-3, a-2)
+dobj(give-1, time-3)
+det(reservation-6, the-5)
+prep_for(time-3, reservation-6)
+
+det(number-3, the-2)
+dobj(give-1, number-3)
+prep_of(number-3, people-5)
+prep_to(give-1, reserve-7)
+prep(give-1, for-8)
+
+det(restaurant-3, a-2)
+dobj(determine-1, restaurant-3)
+prep_for(determine-1, dinner-5)
+
+det(restaurant-3, the-2)
+dobj(telephone-1, restaurant-3)
+
+det(operator-3, the-2)
+dobj(ask-1, operator-3)
+mark(has-7, if-4)
+det(business-6, the-5)
+nsubj(has-7, business-6)
+advcl(ask-1, has-7)
+det(slots-11, any-8)
+amod(slots-11, open-9)
+nn(slots-11, time-10)
+dobj(has-7, slots-11)
+
+det(time-3, a-2)
+dobj(confirm-1, time-3)
+dobj(confirm-1, date-5)
+conj_and(time-3, date-5)
+det(reservation-8, a-7)
+prep_for(confirm-1, reservation-8)
+
+prt(hang-1, up-2)
+det(phone-4, the-3)
+dobj(hang-1, phone-4)
+
+det(restaurant-3, the-2)
+dobj(call-1, restaurant-3)
+
+prep_on(decide-1, time-3)
+
+nn(name-4, group-3)
+prep_on(decide-1, name-4)
+
+prep_for(ask-1, availability-3)
+
+mark(available-3, if-1)
+neg(available-3, not-2)
+csubj(pick-4, available-3)
+det(time-6, another-5)
+dobj(pick-4, time-6)
+
+advmod(agreed-5, once-1)
+amod(time-3, available-2)
+nsubjpass(agreed-5, time-3)
+nsubj(hang-10, time-3)
+auxpass(agreed-5, is-4)
+dep(thanks-8, say-7)
+prep_on(agreed-5, thanks-8)
+conj_and(agreed-5, hang-10)
+prt(hang-10, up-11)
+
+advmod(like-5, where-2)
+nsubj(like-5, you-3)
+xsubj(eat-7, you-3)
+aux(like-5, would-4)
+advcl(decide-1, like-5)
+aux(eat-7, to-6)
+xcomp(like-5, eat-7)
+
+advmod(would-4, when-2)
+nsubj(would-4, you-3)
+xsubj(eat-6, you-3)
+advcl(decide-1, would-4)
+aux(eat-6, to-5)
+xcomp(would-4, eat-6)
+
+det(restaurant-3, the-2)
+dobj(call-1, restaurant-3)
+conj_and(call-1, ask-5)
+det(reservation-8, a-7)
+prep_for(ask-5, reservation-8)
+
+det(restaurant-3, a-2)
+dobj(find-1, restaurant-3)
+
+det(number-4, the-2)
+nn(number-4, phone-3)
+dobj(find-1, number-4)
+det(restaurant-7, the-6)
+prep_of(number-4, restaurant-7)
+
+det(restaurant-3, the-2)
+dobj(call-1, restaurant-3)
+
+iobj(tell-1, them-2)
+det(date-4, the-3)
+dobj(tell-1, date-4)
+
+dobj(tell-1, them-2)
+det(time-4, the-3)
+tmod(tell-1, time-4)
+
+iobj(tell-1, them-2)
+det(number-4, the-3)
+dobj(tell-1, number-4)
+prep_of(number-4, people-6)
+poss(group-9, your-8)
+prep_in(people-6, group-9)
+
+prt(hang-1, up-2)
+det(phone-4, the-3)
+dobj(hang-1, phone-4)
+
+aux(desired-4, call-1)
+det(restaurant-3, the-2)
+nsubj(desired-4, restaurant-3)
+
+det(information-3, the-2)
+dobj(give-1, information-3)
+prep_about(information-3, time-5)
+prep_about(information-3, number-7)
+conj_and(time-5, number-7)
+prep_of(number-7, people-9)
+
+complm(have-4, that-2)
+nsubj(have-4, they-3)
+ccomp(confirm-1, have-4)
+dobj(have-4, space-5)
+
+nsubj(ask-3, if-1)
+nsubj(make-9, if-1)
+neg(ask-3, not-2)
+dobj(available-7, what-4)
+nsubj(available-7, times-5)
+cop(available-7, are-6)
+ccomp(ask-3, available-7)
+conj_and(ask-3, make-9)
+det(choice-11, a-10)
+dobj(make-9, choice-11)
+prep_between(choice-11, those-13)
+
+nn(place-3, dinner-2)
+dobj(call-1, place-3)
+
+prep_for(ask-1, reservation-3)
+
+dobj(give-1, name-2)
+
+prt(hang-1, up-2)
+
+det(restaurant-3, a-2)
+dobj(choose-1, restaurant-3)
+aux(eat-5, to-4)
+infmod(restaurant-3, eat-5)
+prep(eat-5, at-6)
+
+det(time-3, a-2)
+dobj(choose-1, time-3)
+nsubj(eat-7, which-5)
+aux(eat-7, to-6)
+prepc_at(choose-1, eat-7)
+
+det(number-4, the-2)
+nn(number-4, phone-3)
+dobj(find-1, number-4)
+det(restaurant-7, the-6)
+prep_of(number-4, restaurant-7)
+
+det(restaurant-3, the-2)
+dobj(call-1, restaurant-3)
+
+det(host-3, the-2)
+dobj(tell-1, host-3)
+rel(wish-7, what-4)
+tmod(wish-7, time-5)
+nsubj(wish-7, you-6)
+xsubj(eat-9, you-6)
+rcmod(host-3, wish-7)
+aux(eat-9, to-8)
+xcomp(wish-7, eat-9)
+
+det(restaurant-3, the-2)
+dobj(call-1, restaurant-3)
+
+dobj(tell-1, them-2)
+advmod(want-5, when-3)
+nsubj(want-5, you-4)
+advcl(tell-1, want-5)
+det(reservation-7, the-6)
+dobj(want-5, reservation-7)
+prep(want-5, for-8)
+
+prep_on(decide-1, restaurant-3)
+prep_on(decide-1, time-5)
+conj_and(restaurant-3, time-5)
+
+dobj(call-1, restaurant-2)
+
+prep_for(ask-1, reservation-3)
+partmod(reservation-3, giving-4)
+nn(time-6, name-5)
+dobj(giving-4, time-6)
+dobj(giving-4, number-8)
+conj_and(time-6, number-8)
+prep_of(number-8, guests-10)
+
+nn(place-3, dinner-2)
+dobj(call-1, place-3)
+
+aux(make-3, to-2)
+xcomp(ask-1, make-3)
+dobj(make-3, reservation-4)
+prep_giving(reservation-4, time-6)
+prep_giving(reservation-4, number-8)
+conj_and(time-6, number-8)
+prep_of(number-8, persons-10)
+
+prt(hang-1, up-2)
+
+det(restaurant-3, a-2)
+dobj(choose-1, restaurant-3)
+
+det(time-3, a-2)
+dobj(choose-1, time-3)
+dobj(choose-1, date-5)
+conj_and(time-3, date-5)
+det(dinner-8, the-7)
+prep_for(choose-1, dinner-8)
+
+det(number-5, the-3)
+nn(number-5, phone-4)
+prep_for(search-1, number-5)
+det(restaurant-8, that-7)
+prep_of(number-5, restaurant-8)
+
+det(restaurant-4, the-3)
+prep_to(call-1, restaurant-4)
+
+det(reservation-4, a-3)
+prep_for(ask-1, reservation-4)
+
+det(info-3, the-2)
+dobj(supply-1, info-3)
+
+det(restaurant-3, a-2)
+dobj(call-1, restaurant-3)
+
+det(reservation-4, a-3)
+prep_for(ask-1, reservation-4)
+
+det(date-3, the-2)
+dobj(state-1, date-3)
+dobj(state-1, time-5)
+conj_and(date-3, time-5)
+
+det(number-3, the-2)
+dobj(state-1, number-3)
+prep_of(number-3, people-5)
+
+prep_on(decide-1, time-3)
+
+dobj(count-1, people-2)
+
+dobj(call-1, restaurant-2)
+
+dobj(reserve-1, time-2)
+
+dobj(call-1, restaurant-2)
+
+aux(make-3, to-2)
+xcomp(ask-1, make-3)
+det(reservation-5, a-4)
+dobj(make-3, reservation-5)
+
+dobj(answer-1, questions-2)
+prep_of(questions-2, host-4)
+
+dobj(end-1, call-2)
+
+advmod(go-4, where-2)
+aux(go-4, to-3)
+xcomp(decide-1, go-4)
+
+det(number-4, the-2)
+nn(number-4, phone-3)
+dobj(find-1, number-4)
+det(place-7, the-6)
+prep_for(number-4, place-7)
+
+det(palce-3, the-2)
+dobj(call-1, palce-3)
+
+det(tabla-3, a-2)
+dobj(reserve-1, tabla-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, number-2)
+
+dobj(tell-1, date-2)
+dobj(tell-1, time-4)
+conj_and(date-2, time-4)
+
+dobj(confirm-1, avalible-2)
+
+dobj(thank-1, booker-2)
+
+prt(hang-1, up-2)
+dobj(hang-1, phone-3)
+
+prt(look-1, up-2)
+nn(number-4, telephone-3)
+dobj(look-1, number-4)
+det(restaurant-7, the-6)
+prep_of(number-4, restaurant-7)
+
+det(number-4, the-2)
+nn(number-4, telephone-3)
+dobj(dial-1, number-4)
+
+prep_for(ask-1, availability-3)
+amod(number-6, required-5)
+prep_for(availability-3, number-6)
+prep_of(number-6, persons-8)
+
+dobj(validate-1, reservation-2)
+
+dobj(decide-1, time-2)
+
+dobj(decide-1, number-2)
+prep_of(number-2, people-4)
+
+dobj(call-1, restuarant-2)
+
+dobj(tell-1, information-2)
+
+prt(hang-1, up-2)
+
+prt(look-1, up-2)
+det(number-6, the-3)
+nn(number-6, restaurants-4)
+nn(number-6, phone-5)
+dobj(look-1, number-6)
+
+det(restaurant-3, the-2)
+dobj(call-1, restaurant-3)
+
+prep_for(ask-1, reservation-3)
+
+nn(number-3, phone-2)
+dobj(get-1, number-3)
+prep_for(number-3, restaurant-5)
+
+dobj(use-1, phone-2)
+aux(call-4, to-3)
+xcomp(use-1, call-4)
+dobj(call-4, restaurant-5)
+
+aux(make-3, to-2)
+xcomp(ask-1, make-3)
+dobj(make-3, reservation-4)
+
+dobj(provide-1, hostess-2)
+prep_with(provide-1, number-4)
+prep_of(number-4, seats-6)
+nn(preference-9, smoking-8)
+prep_of(number-4, preference-9)
+conj_and(seats-6, preference-9)
+
+dobj(confirm-1, reservation-2)
+
+dobj(identify-1, restaurant-2)
+
+nn(number-3, phone-2)
+dobj(identify-1, number-3)
+
+amod(date\/time-3, preferred-2)
+dobj(identify-1, date\/time-3)
+
+dobj(identify-1, number-2)
+prep_of(number-2, diners-4)
+
+dobj(call-1, restaurant-2)
+
+dobj(request-1, reservation-2)
+
+det(restaurant-3, a-2)
+dobj(choose-1, restaurant-3)
+
+csubj(number-6, find-1)
+det(restaurant-3, the-2)
+dobj(find-1, restaurant-3)
+cop(number-6, s-4)
+nn(number-6, phone-5)
+
+det(number-4, the-2)
+nn(number-4, phone-3)
+dobj(dial-1, number-4)
+
+det(table-4, a-3)
+prep_for(ask-1, table-4)
+
+advmod(dining-7, how-2)
+amod(people-4, many-3)
+nsubj(dining-7, people-4)
+aux(dining-7, will-5)
+aux(dining-7, be-6)
+ccomp(say-1, dining-7)
+
+dobj(dining-7, what-2)
+tmod(dining-7, time-3)
+nsubj(dining-7, you-4)
+aux(dining-7, will-5)
+aux(dining-7, be-6)
+ccomp(say-1, dining-7)
+
+dobj(say-1, thank-3)
+iobj(say-1, thank-3)
+dobj(say-1, you-4)
+dep(thank-3, you-4)
+
+dobj(call-1, resturant-2)
+
+det(time-3, a-2)
+dobj(choose-1, time-3)
+
+dobj(confirm-1, time-2)
+
+dobj(choose-1, resaurant-2)
+
+dobj(call-1, restaurant-2)
+
+nsubj(call-2, phone-1)
+det(restaurant-5, the-4)
+prep_to(call-2, restaurant-5)
+
+dobj(check-1, availability-2)
+nn(seating-5, table-4)
+prep_of(availability-2, seating-5)
+
+nn(time-3, arrival-2)
+dobj(check-1, time-3)
+
+dobj(check-1, number-2)
+prep_of(number-2, people-4)
+partmod(people-4, attending-5)
+
+det(reservation-3, the-2)
+dobj(confirm-1, reservation-3)
+
+det(call-4, the-2)
+nn(call-4, phone-3)
+dobj(end-1, call-4)
+
+nn(phone-3, restaurant-2)
+dobj(find-1, phone-3)
+
+det(number-3, the-2)
+dobj(dial-1, number-3)
+
+det(time-3, the-2)
+tmod(request-1, time-3)
+tmod(request-1, day-5)
+conj_and(time-3, day-5)
+nsubj(want-7, you-6)
+dep(request-1, want-7)
+
+nsubj(resaurant-2, contact-1)
+
+dobj(schedule-1, dinner-2)
+
+dobj(choose-1, restaurant-2)
+
+nn(number-3, phone-2)
+dobj(locate-1, number-3)
+prep_of(number-3, restaurant-5)
+
+dobj(call-1, restaurant-2)
+
+dobj(request-1, reservation-2)
+
+dobj(give-1, name-2)
+prep_of(name-2, party-4)
+
+dobj(give-1, number-2)
+prep_of(number-2, people-4)
+prep_in(people-4, party-6)
+
+amod(time-3, desired-2)
+dobj(give-1, time-3)
+
+det(restaurant-3, a-2)
+dobj(locate-1, restaurant-3)
+
+nn(number-3, telephone-2)
+dobj(locate-1, number-3)
+
+dobj(telephone-1, restaurant-2)
+
+det(reservation-3, a-2)
+dobj(request-1, reservation-3)
+
+dobj(confirm-1, details-2)
+
+dobj(write-1, them-2)
+prt(write-1, down-3)
+
+prt(hang-1, up-2)
+dobj(hang-1, phone-3)
+
+advmod(go-4, where-2)
+aux(go-4, to-3)
+xcomp(decide-1, go-4)
+
+prt(pick-1, up-2)
+nn(book-4, phone-3)
+dobj(pick-1, book-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+det(number-5, the-3)
+nn(number-5, phone-4)
+prep_in(push-1, number-5)
+
+prep_for(wait-1, them-3)
+aux(pick-5, to-4)
+xcomp(wait-1, pick-5)
+prt(pick-5, up-6)
+
+det(reservation-3, the-2)
+dobj(make-1, reservation-3)
+
+dobj(ask-1, friend-2)
+nsubj(wants-4, friend-2)
+rcmod(friend-2, wants-4)
+aux(go-6, to-5)
+xcomp(wants-4, go-6)
+prep_with(go-6, you-8)
+
+prt(figure-1, out-2)
+dep(resturant-4, which-3)
+dobj(figure-1, resturant-4)
+
+dobj(call-1, restaurant-2)
+
+dobj(request-1, reservation-2)
+
+det(deposit-3, a-2)
+dobj(make-1, deposit-3)
+
+prt(show-1, up-2)
+prep_at(show-1, restaurant-4)
+
+dobj(locate-1, restaurant-2)
+
+det(reservation-3, a-2)
+dobj(book-1, reservation-3)
+
+prep_on(arrive-1, time-3)
+
+det(restaurant-3, the-2)
+dobj(call-1, restaurant-3)
+
+det(reservation-4, a-3)
+prep_for(ask-1, reservation-4)
+
+nn(number-3, phone-2)
+dobj(find-1, number-3)
+
+dobj(call-1, restaurant-2)
+
+prt(find-1, out-2)
+det(restaurant-4, what-3)
+dep(find-1, restaurant-4)
+
+dobj(call-1, restaurant-2)
+
+dep(give-1, reservation-2)
+dep(give-1, time-3)
+
+dobj(give-1, number-2)
+prep_of(number-2, people-4)
+
+dobj(give-1, name-2)
+prep_for(give-1, reservation-4)
+
+det(restaurant-3, a-2)
+dobj(pick-1, restaurant-3)
+
+det(restaurant-3, the-2)
+dobj(call-1, restaurant-3)
+
+det(table-3, a-2)
+dobj(request-1, table-3)
+det(amount-7, a-5)
+amod(amount-7, certain-6)
+prep_for(request-1, amount-7)
+prep_of(amount-7, quests-9)
+det(time-13, a-11)
+amod(time-13, certain-12)
+prep_at(request-1, time-13)
+
+aux(confirm-3, to-2)
+xcomp(call-1, confirm-3)
+acomp(confirm-3, closer-4)
+prep_to(closer-4, date-6)
+
+nn(number-4, restaurant-2)
+nn(number-4, phone-3)
+dobj(find-1, number-4)
+
+prep_to(go-1, phone-3)
+
+nn(number-3, restaurant-2)
+dobj(dial-1, number-3)
+
+prep_to(speak-1, host-3)
+conj_and(speak-1, make-5)
+dobj(make-5, reservation-6)
+
+prt(hang-1, up-2)
+dobj(hang-1, phone-3)
+
+det(restaurant-3, the-2)
+dobj(call-1, restaurant-3)
+
+aux(reserve-3, to-2)
+xcomp(ask-1, reserve-3)
+dobj(reserve-3, time-4)
+
+dobj(leave-1, name-2)
+dobj(leave-1, number-4)
+conj_and(name-2, number-4)
+
+dobj(call-1, restaurant-2)
+
+det(table-3, a-2)
+dobj(book-1, table-3)
+dobj(book-1, time-5)
+conj_and(table-3, time-5)
+aux(eat-7, to-6)
+xcomp(book-1, eat-7)
+
+dobj(call-1, resturant-2)
+
+dobj(provide-1, name-2)
+dobj(provide-1, contact-4)
+conj_and(name-2, contact-4)
+
+det(restaurant-3, the-2)
+nsubj(phone-1, restaurant-3)
+
+iobj(give-1, them-2)
+dobj(give-1, time-3)
+dobj(give-1, name-5)
+conj_and(time-3, name-5)
+

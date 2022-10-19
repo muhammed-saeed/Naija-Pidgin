@@ -1,0 +1,298 @@
+amod(filter-3, new-2)
+dobj(find-1, filter-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+dobj(remove-1, packaging-2)
+amod(filter-5, new-4)
+prep_from(remove-1, filter-5)
+
+amod(filter-3, new-2)
+dobj(insert-1, filter-3)
+
+nn(filter-3, refrigerator-2)
+dobj(find-1, filter-3)
+
+nn(filter-3, refrigerator-2)
+dobj(remove-1, filter-3)
+
+amod(filter-4, new-2)
+nn(filter-4, refrigerator-3)
+dobj(find-1, filter-4)
+
+amod(filter-4, new-2)
+nn(filter-4, refrigerator-3)
+dobj(put-1, filter-4)
+poss(position-8, its-6)
+amod(position-8, proper-7)
+prep_into(put-1, position-8)
+
+det(refrigerator-3, the-2)
+dobj(move-1, refrigerator-3)
+det(wall-7, the-6)
+prep_away_from(move-1, wall-7)
+
+prt(pull-1, out-2)
+det(filter-5, the-3)
+nn(filter-5, refrigerator-4)
+dobj(pull-1, filter-5)
+
+det(filter-4, the-2)
+nn(filter-4, refrigerator-3)
+dobj(clean-1, filter-4)
+
+det(filter-4, the-2)
+nn(filter-4, refrigerator-3)
+dobj(replace-1, filter-4)
+
+det(refrigerator-3, the-2)
+dobj(move-1, refrigerator-3)
+prt(move-1, back-4)
+det(wall-7, the-6)
+prep_toward(move-1, wall-7)
+
+prt(move-1, over-2)
+det(fridge-5, the-4)
+prep_to(move-1, fridge-5)
+
+det(fridge-3, the-2)
+dobj(turn-1, fridge-3)
+prt(turn-1, off-4)
+
+prt(take-1, out-2)
+det(filter-5, the-3)
+nn(filter-5, refridgerator-4)
+dobj(take-1, filter-5)
+
+det(filter-5, the-3)
+amod(filter-5, old-4)
+prep_of(dispose-1, filter-5)
+
+amod(filter-3, new-2)
+dobj(remove-1, filter-3)
+prep_from(remove-1, container-5)
+
+amod(filter-3, new-2)
+dobj(put-1, filter-3)
+det(fridge-6, the-5)
+prep_into(put-1, fridge-6)
+
+det(fridge-4, the-3)
+prep_on(turn-1, fridge-4)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+det(filter-3, the-2)
+dobj(locate-1, filter-3)
+
+det(filter-3, the-2)
+dobj(remove-1, filter-3)
+
+det(filter-3, the-2)
+dobj(clean-1, filter-3)
+
+det(filter-3, the-2)
+dobj(replace-1, filter-3)
+det(fridge-6, the-5)
+prep_in(replace-1, fridge-6)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(place-1, filter-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+prep_to(go-1, refrigerator-3)
+
+nn(casing-3, filter-2)
+dobj(open-1, casing-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(place-1, filter-3)
+prep(place-1, in-4)
+
+prt(put-1, back-2)
+nn(casing-4, filter-3)
+dobj(put-1, casing-4)
+
+prt(throw-1, away-2)
+amod(filter-4, old-3)
+dobj(throw-1, filter-4)
+
+amod(filter-4, new-2)
+nn(filter-4, refrigerator-3)
+dobj(find-1, filter-4)
+
+amod(filter-4, old-2)
+nn(filter-4, refrigerator-3)
+dobj(remove-1, filter-4)
+prep_from(remove-1, refrigerator-6)
+
+nn(filter-3, refrigerator-2)
+dobj(placenew-1, filter-3)
+prep_into(placenew-1, refrigerator-5)
+
+det(filter-4, the-2)
+nn(filter-4, refrigerator-3)
+dobj(locate-1, filter-4)
+
+det(filter-4, the-2)
+nn(filter-4, refrigerator-3)
+dobj(locate-1, filter-4)
+
+amod(filter-4, used-3)
+prep_of(dispose-1, filter-4)
+
+amod(filter-3, new-2)
+dobj(place-1, filter-3)
+advmod(place-1, inside-4)
+
+amod(filter-3, old-2)
+dobj(locate-1, filter-3)
+
+prt(take-1, out-2)
+amod(filter-4, old-3)
+dobj(take-1, filter-4)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+nn(filter-3, replacement-2)
+dobj(obtain-1, filter-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, refrigerator-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+nn(filter-3, replacement-2)
+dobj(install-1, filter-3)
+
+prep_on(turn-1, refrigerator-3)
+
+complm(needs-4, that-2)
+nsubj(needs-4, filter-3)
+ccomp(identify-1, needs-4)
+dep(needs-4, changing-5)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-4, new-3)
+prep_with(replace-1, filter-4)
+
+amod(filter-3, new-2)
+dobj(buy-1, filter-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, refrigerator-3)
+
+amod(filter-3, old-2)
+dobj(find-1, filter-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(install-1, filter-3)
+
+prep_on(turn-1, refrigerator-3)
+
+dobj(goto-1, refrigerator-2)
+
+prt(take-1, out-2)
+amod(filter-4, old-3)
+dobj(take-1, filter-4)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+prt(pull-1, out-2)
+dobj(pull-1, filter-3)
+
+prep_in(throw-1, garbage-3)
+
+amod(filter-3, new-2)
+dobj(take-1, filter-3)
+prep_from(take-1, package-5)
+
+nn(slot-4, filter-3)
+prep_into(slide-1, slot-4)
+
+dobj(pull-1, filter-2)
+prt(pull-1, out-3)
+prep_from(pull-1, compartment-5)
+
+amod(filter-3, new-2)
+dobj(slide-1, filter-3)
+prep_into(slide-1, compartment-5)
+
+dobj(open-1, filter-2)
+
+prt(take-1, out-2)
+dobj(take-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(place-1, filter-3)
+prep(place-1, in-4)
+
+dobj(close-1, filter-2)
+
+prt(take-1, out-2)
+amod(filter-4, old-3)
+dobj(take-1, filter-4)
+
+amod(filter-4, new-3)
+prep_with(replace-1, filter-4)
+
+prt(take-1, out-2)
+amod(filter-4, old-3)
+dobj(take-1, filter-4)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+prt(throw-1, away-2)
+amod(filter-4, old-3)
+dobj(throw-1, filter-4)
+
+nsubj(fridge-2, full-1)
+advmod(fridge-2, forward-3)
+
+dobj(unplug-1, fridge-2)
+
+dobj(remove-1, filter-2)
+
+dobj(clean-1, area-2)
+
+amod(filter-3, new-2)
+dobj(prepare-1, filter-3)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+conj_and(adjust-1, finish-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(buy-1, filter-3)
+
+dobj(replace-1, filter-2)
+

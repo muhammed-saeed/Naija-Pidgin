@@ -1,0 +1,988 @@
+det(beer-3, the-2)
+dobj(find-1, beer-3)
+
+det(glass-3, a-2)
+dobj(find-1, glass-3)
+
+det(opener-4, a-2)
+dep(opener-4, can-3)
+dobj(find-1, opener-4)
+
+det(beer-3, the-2)
+dobj(open-1, beer-3)
+
+det(bottle-4, the-2)
+nn(bottle-4, beer-3)
+dobj(tilt-1, bottle-4)
+
+det(flow-4, the-2)
+nn(flow-4, beer-3)
+dobj(let-1, flow-4)
+prt(let-1, out-5)
+det(glass-8, the-7)
+prep_to(let-1, glass-8)
+
+det(bottle-4, the-2)
+nn(bottle-4, beer-3)
+dobj(put-1, bottle-4)
+prt(put-1, down-5)
+
+nn(bottle-3, beer-2)
+dobj(open-1, bottle-3)
+
+dobj(lift-1, lip-2)
+prep_of(lip-2, bottle-4)
+prep_against(lift-1, glass-6)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+
+det(glass-3, the-2)
+dobj(tilt-1, glass-3)
+
+dobj(pour-1, bear-2)
+prep_from(pour-1, bottle-4)
+prep_into(pour-1, glass-6)
+
+det(bottle-4, a-2)
+nn(bottle-4, beer-3)
+dobj(take-1, bottle-4)
+
+det(bottle-4, the-2)
+nn(bottle-4, beer-3)
+dobj(open-1, bottle-4)
+
+det(neck-3, the-2)
+dobj(place-1, neck-3)
+det(bottle-7, the-5)
+nn(bottle-7, beer-6)
+prep_of(neck-3, bottle-7)
+det(glass-10, the-9)
+prep_over(bottle-7, glass-10)
+
+det(bottle-3, the-2)
+dobj(tilt-1, bottle-3)
+
+mark(empty-6, until-2)
+det(bottle-4, the-3)
+nsubj(empty-6, bottle-4)
+cop(empty-6, is-5)
+advcl(wait-1, empty-6)
+
+prt(put-1, down-2)
+det(bottle-4, the-3)
+dobj(put-1, bottle-4)
+
+dobj(get-1, beer-2)
+dobj(get-1, glass-4)
+conj_and(beer-2, glass-4)
+
+dobj(open-1, beer-2)
+
+dobj(move-1, bottle-2)
+prep_over(move-1, glass-4)
+
+dobj(tilt-1, bottle-2)
+advmod(tilt-1, so-3)
+complm(pours-6, that-4)
+nsubj(pours-6, beer-5)
+ccomp(tilt-1, pours-6)
+prep_into(pours-6, glass-8)
+
+advmod(stop-7, when-1)
+det(beer-4, no-2)
+amod(beer-4, more-3)
+nsubj(stop-7, beer-4)
+prep_in(beer-4, bottle-6)
+
+nn(bottle-3, beer-2)
+dobj(open-1, bottle-3)
+
+dobj(hold-1, glass-2)
+advmod(hold-1, diagonally-3)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+partmod(glass-4, letting-5)
+iobj(letting-5, it-6)
+dobj(letting-5, flow-7)
+det(diagonal-10, the-9)
+prep_along(flow-7, diagonal-10)
+
+advmod(full-5, when-2)
+nsubj(full-5, glass-3)
+cop(full-5, is-4)
+advcl(stop-1, full-5)
+
+det(bottle-3, the-2)
+dobj(open-1, bottle-3)
+dobj(open-1, tap-5)
+conj_or(bottle-3, tap-5)
+
+det(bottle-3, the-2)
+dobj(tip-1, bottle-3)
+conj_or(tip-1, tap-5)
+dobj(tap-5, handle-6)
+det(bottle-9, the-8)
+prep_over(tap-5, bottle-9)
+
+det(risie-4, the-2)
+nn(risie-4, beer-3)
+dobj(watch-1, risie-4)
+det(glass-7, the-6)
+prep_in(risie-4, glass-7)
+
+xcomp(stop-1, pouring-2)
+advmod(full-7, when-3)
+det(glass-5, the-4)
+nsubj(full-7, glass-5)
+cop(full-7, is-6)
+advcl(pouring-2, full-7)
+
+nn(bottle-3, beer-2)
+dobj(open-1, bottle-3)
+
+dobj(get-1, glass-2)
+
+nn(bottle-3, beer-2)
+dobj(tilt-1, bottle-3)
+mark(holding-5, while-4)
+advcl(tilt-1, holding-5)
+dobj(holding-5, it-6)
+prep_over(holding-5, glass-8)
+
+dobj(allow-1, beer-2)
+aux(flow-4, to-3)
+xcomp(allow-1, flow-4)
+prep_into(flow-4, glass-6)
+
+advmod(empty-7, when-2)
+nsubj(empty-7, glass-3)
+amod(glass-3, full-4)
+conj_or(glass-3, bottle-6)
+nsubj(empty-7, bottle-6)
+advcl(stop-1, empty-7)
+
+det(beer-3, a-2)
+dobj(find-1, beer-3)
+
+det(glass-4, a-2)
+nn(glass-4, beer-3)
+dobj(find-1, glass-4)
+
+det(beer-3, the-2)
+dobj(open-1, beer-3)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+advmod(pour-1, slowly-4)
+det(glass-7, the-6)
+prep_into(pour-1, glass-7)
+
+nn(bottle-3, beer-2)
+dobj(open-1, bottle-3)
+
+nn(glass-3, beer-2)
+dobj(tilt-1, glass-3)
+
+nn(neck-4, beer-2)
+nn(neck-4, bottle-3)
+dobj(set-1, neck-4)
+nn(glass-7, beer-6)
+prep_to(set-1, glass-7)
+
+advmod(turn-2, slowly-1)
+nn(bottle-4, beer-3)
+dobj(turn-2, bottle-4)
+advmod(down-6, upside-5)
+advmod(turn-2, down-6)
+
+advmod(filled-5, when-2)
+nsubjpass(filled-5, glass-3)
+auxpass(filled-5, is-4)
+advcl(stop-1, filled-5)
+
+det(container-3, a-2)
+dobj(locate-1, container-3)
+prep_of(container-3, beer-5)
+
+det(glass-3, a-2)
+dobj(locate-1, glass-3)
+
+det(container-3, the-2)
+dobj(open-1, container-3)
+prep_of(container-3, beer-5)
+
+det(beer-3, the-2)
+dobj(transfer-1, beer-3)
+det(container-6, the-5)
+prep_from(transfer-1, container-6)
+det(glass-9, the-8)
+prep_to(transfer-1, glass-9)
+
+det(glass-3, a-2)
+dobj(fetch-1, glass-3)
+
+det(beer-3, a-2)
+dobj(get-1, beer-3)
+
+det(beer-3, the-2)
+dobj(open-1, beer-3)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+det(glass-6, the-5)
+prep_in(pour-1, glass-6)
+
+det(glass-4, a-2)
+amod(glass-4, clean-3)
+dobj(get-1, glass-4)
+
+det(bottle-3, the-2)
+dobj(open-1, bottle-3)
+prep_of(bottle-3, beer-5)
+
+det(mouth-4, the-2)
+nn(mouth-4, bottle-3)
+dobj(put-1, mouth-4)
+det(glass-7, the-6)
+prep_over(put-1, glass-7)
+
+det(bottle-3, the-2)
+dobj(tilt-1, bottle-3)
+advmod(tilt-1, slightly-4)
+
+prep_for(wait-1, beer-3)
+aux(pour-5, to-4)
+xcomp(wait-1, pour-5)
+prt(pour-5, out-6)
+
+advmod(full-6, when-2)
+nsubj(full-6, glass-3)
+cop(full-6, is-4)
+advmod(full-6, almost-5)
+advcl(stop-1, full-6)
+
+dobj(get-1, bottle-2)
+prep_of(bottle-2, beer-4)
+
+dobj(get-1, glass-2)
+
+mark(glass-6, if-1)
+nsubj(glass-6, glass-2)
+cop(glass-6, is-3)
+amod(glass-6, dirty-4)
+amod(glass-6, clean-5)
+
+dobj(open-1, bottle-2)
+prep_of(bottle-2, beer-4)
+
+dobj(empty-1, beer-2)
+prep_in(empty-1, glass-4)
+
+det(beer-3, the-2)
+dobj(get-1, beer-3)
+
+det(glass-3, the-2)
+dobj(get-1, glass-3)
+
+det(beer-3, the-2)
+dobj(open-1, beer-3)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+det(glass-6, the-5)
+prep_into(pour-1, glass-6)
+
+det(bottle-5, the-2)
+amod(bottle-5, empty-3)
+nn(bottle-5, beer-4)
+dobj(discard-1, bottle-5)
+det(recycling-8, the-7)
+prep_into(discard-1, recycling-8)
+
+det(beer-3, the-2)
+dobj(serve-1, beer-3)
+det(glass-6, the-5)
+prep_in(serve-1, glass-6)
+
+dobj(acquire-1, glass-2)
+
+dobj(acquire-1, beer-2)
+dep(beer-2, can-3)
+dep(bottle-6, beer-5)
+dobj(acquire-1, bottle-6)
+conj_or(beer-2, bottle-6)
+
+amod(beer-2, open-1)
+nsubj(can-3, beer-2)
+prep(can-3, or-4)
+nn(bottle-6, beer-5)
+dep(or-4, bottle-6)
+
+dobj(lift-1, beer-2)
+dep(beer-2, can-3)
+dep(bottle-6, beer-5)
+dobj(lift-1, bottle-6)
+conj_or(beer-2, bottle-6)
+
+nsubj(bottle-4, tilt-1)
+aux(bottle-4, can-2)
+advmod(bottle-4, or-3)
+advmod(bottle-4, forward-5)
+
+dobj(put-1, beer-2)
+det(glass-5, a-4)
+prep_into(put-1, glass-5)
+
+det(glass-4, an-2)
+amod(glass-4, empty-3)
+dobj(get-1, glass-4)
+
+det(bottle-3, the-2)
+dobj(open-1, bottle-3)
+prep_of(bottle-3, beer-5)
+
+advmod(pour-1, slowly-2)
+det(glass-5, the-4)
+prep_into(pour-1, glass-5)
+
+det(glass-4, an-2)
+amod(glass-4, empty-3)
+dobj(get-1, glass-4)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+advmod(pour-1, slowly-4)
+det(glass-7, a-6)
+prep_into(pour-1, glass-7)
+
+dobj(open-1, fridge-2)
+
+dobj(select-1, beer-2)
+
+dobj(open-1, cabinet-2)
+
+dobj(select-1, glass-2)
+
+dobj(open-1, beer-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, beer-3)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+
+det(glass-3, the-2)
+dobj(tilt-1, glass-3)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+mark(3\/4ths-8, until-4)
+det(glass-6, the-5)
+nsubj(3\/4ths-8, glass-6)
+cop(3\/4ths-8, is-7)
+advcl(pour-1, 3\/4ths-8)
+dep(3\/4ths-8, full-9)
+
+mark(fill-3, as-1)
+nsubj(fill-3, you-2)
+csubj(tilt-13, fill-3)
+det(1\/4th-6, the-4)
+amod(1\/4th-6, last-5)
+dobj(fill-3, 1\/4th-6)
+det(glass-9, the-8)
+prep_of(1\/4th-6, glass-9)
+prep_with(fill-3, beer-11)
+advmod(tilt-13, gradually-12)
+det(glass-15, the-14)
+dobj(tilt-13, glass-15)
+prt(tilt-13, up-16)
+advmod(again-18, straight-17)
+advmod(tilt-13, again-18)
+
+det(bottle-4, the-2)
+nn(bottle-4, beer-3)
+dobj(get-1, bottle-4)
+
+det(cup-3, a-2)
+dobj(get-1, cup-3)
+
+dobj(put-1, them-2)
+det(table-5, a-4)
+prep_on(put-1, table-5)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+det(cup-6, the-5)
+prep_in(beer-3, cup-6)
+
+dobj(open-1, beer-2)
+
+dobj(tilt-1, glass-2)
+
+dobj(pour-1, beer-2)
+prep_onto(pour-1, side-4)
+prep_of(side-4, glass-6)
+
+advmod(gets-3, as-1)
+nsubj(gets-3, glass-2)
+amod(glass-6, full-4)
+nn(glass-6, tilt-5)
+dobj(gets-3, glass-6)
+advmod(up-8, back-7)
+advmod(gets-3, up-8)
+
+xcomp(stop-1, pouring-2)
+advmod(full-6, when-3)
+nsubj(full-6, glass-4)
+cop(full-6, is-5)
+advcl(pouring-2, full-6)
+nsubj(empty-10, beer-8)
+cop(empty-10, is-9)
+advcl(pouring-2, empty-10)
+conj_or(full-6, empty-10)
+
+dobj(open-1, beer-2)
+
+dobj(get-1, glass-2)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+
+dobj(take-1, beer-2)
+prep_out_of(take-1, cooler-5)
+
+dobj(open-1, beer-2)
+
+dobj(left-1, beer-2)
+prep_to(left-1, glass-4)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+
+det(beer-3, the-2)
+dobj(open-1, beer-3)
+
+det(glass-3, the-2)
+dobj(hold-1, glass-3)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+det(glass-6, the-5)
+prep_into(pour-1, glass-6)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+det(beer-3, a-2)
+dobj(get-1, beer-3)
+
+det(beer-3, the-2)
+dobj(open-1, beer-3)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+
+dobj(open-1, beer-2)
+
+prep_into(pour-1, glass-3)
+
+dobj(select-1, beer-2)
+
+advmod(pop-3, unscrew-1)
+nsubj(pop-3, or-2)
+det(top-5, the-4)
+dobj(pop-3, top-5)
+
+dobj(tilt-1, bottle-2)
+prep_over(tilt-1, glass-4)
+prep_until(tilt-1, full-6)
+
+dobj(open-1, beer-2)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+
+det(bottle-3, the-2)
+dobj(open-1, bottle-3)
+prep_of(bottle-3, beer-5)
+
+det(bottle-4, the-2)
+amod(bottle-4, open-3)
+dobj(tilt-1, bottle-4)
+det(glass-7, the-6)
+prep_over(tilt-1, glass-7)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+advmod(pour-1, slowly-4)
+det(inside-7, the-6)
+prep_down(pour-1, inside-7)
+det(glass-10, the-9)
+prep_of(inside-7, glass-10)
+
+det(beer-3, the-2)
+dobj(drink-1, beer-3)
+
+amod(beer-2, open-1)
+nsubj(can-3, beer-2)
+
+nsubj(can-2, empty-1)
+prep_into(can-2, glass-4)
+
+dobj(open-1, beer-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, glass-3)
+
+dobj(tilt-1, glass-2)
+
+dobj(bring-1, rim-2)
+prep_of(rim-2, glass-4)
+prep_of(rim-2, top-6)
+conj_and(glass-4, top-6)
+nn(bottle-9, beer-8)
+prep_of(rim-2, bottle-9)
+advmod(bring-1, together-10)
+
+nn(bottle-3, beer-2)
+dobj(tilt-1, bottle-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, glass-3)
+
+dobj(put-1, class-2)
+prep_under(put-1, tap-4)
+
+nn(handle-3, tap-2)
+dobj(pull-1, handle-3)
+
+mark(full-5, until-2)
+nsubj(full-5, glass-3)
+cop(full-5, is-4)
+advcl(wait-1, full-5)
+
+nn(tap-3, beer-2)
+dobj(turn-1, tap-3)
+prt(turn-1, off-4)
+
+det(beer-3, a-2)
+dobj(open-1, beer-3)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+
+dobj(discard-1, bottle-2)
+
+dobj(take-1, glass-2)
+
+dobj(hold-1, beer-2)
+num(hand-5, one-4)
+prep_in(hold-1, hand-5)
+
+dobj(position-1, beer-2)
+prep_over(position-1, glass-4)
+
+dobj(move-1, beer-2)
+advmod(sideways-4, slightly-3)
+advmod(move-1, sideways-4)
+
+dobj(tilt-1, beer-2)
+
+dobj(straighten-1, beer-2)
+advmod(full-7, when-3)
+nsubj(full-7, glass-4)
+cop(full-7, is-5)
+advmod(full-7, almost-6)
+advcl(straighten-1, full-7)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(open-1, door-4)
+
+det(can-3, a-2)
+dobj(take-1, can-3)
+prep_of(can-3, beer-5)
+
+nn(door-3, refrigerator-2)
+dobj(close-1, door-3)
+
+det(beer-3, the-2)
+dobj(open-1, beer-3)
+
+amod(door-3, cupboard-2)
+dobj(open-1, door-3)
+
+dobj(take-1, glass-2)
+conj_and(take-1, close-4)
+amod(door-6, cupboard-5)
+dobj(close-4, door-6)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+advmod(pour-1, slowly-5)
+
+dobj(get-1, bottle-2)
+prep_of(bottle-2, beer-4)
+
+dobj(get-1, glass-2)
+
+dep(opener-3, can-2)
+dobj(get-1, opener-3)
+
+dobj(open-1, bottle-2)
+prep_of(bottle-2, beer-4)
+nn(opener-7, can-6)
+prep_with(open-1, opener-7)
+
+prt(pick-1, up-2)
+dobj(pick-1, bottle-3)
+prep_of(bottle-3, beer-5)
+
+dobj(pour-1, beer-2)
+det(glass-5, the-4)
+prep_into(pour-1, glass-5)
+
+det(can-3, the-2)
+dobj(open-1, can-3)
+dobj(open-1, bottle-5)
+conj_or(can-3, bottle-5)
+
+det(glass-3, the-2)
+dobj(tilt-1, glass-3)
+advmod(tilt-1, slightly-4)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+prep_into(pour-1, glass-5)
+
+det(glass-4, a-2)
+amod(glass-4, chilled-3)
+dobj(get-1, glass-4)
+prep_from(get-1, freezer-6)
+
+dobj(get-1, bottle-2)
+prep_of(bottle-2, bear-4)
+
+dep(opener-3, can-2)
+dobj(get-1, opener-3)
+
+nsubj(opener-3, hook-1)
+aux(opener-3, can-2)
+nn(lid-6, metal-5)
+prep_under(opener-3, lid-6)
+
+prt(pull-1, up-2)
+
+dobj(pour-1, beer-2)
+advmod(pour-1, slowly-3)
+prep_into(pour-1, glass-5)
+
+nn(bottle-3, beer-2)
+dobj(get-1, bottle-3)
+
+
+prep_into(pour-1, glass-3)
+
+det(glass-4, an-2)
+amod(glass-4, empty-3)
+dobj(get-1, glass-4)
+
+det(can\/pitcher-3, a-2)
+dobj(get-1, can\/pitcher-3)
+prep_of(can\/pitcher-3, beer-5)
+
+det(beer-3, the-2)
+dobj(pour-1, beer-3)
+det(glass-6, the-5)
+prep_into(pour-1, glass-6)
+
+dobj(choose-1, beer-2)
+
+prt(take-1, out-2)
+amod(glass-4, clean-3)
+dobj(take-1, glass-4)
+
+nn(bottle-3, beer-2)
+dobj(open-1, bottle-3)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+
+dobj(open-1, beer-2)
+
+amod(glass-3, chilled-2)
+dobj(remove-1, glass-3)
+prep_from(remove-1, freezer-5)
+
+nn(glass-2, tilt-1)
+nsubj(poured-5, glass-2)
+advmod(so-4, slightly-3)
+advmod(poured-5, so-4)
+nn(runs-7, beer-6)
+dobj(poured-5, runs-7)
+det(inside-10, the-9)
+prep_down(poured-5, inside-10)
+det(glass-13, the-12)
+prep_of(inside-10, glass-13)
+prepc_before(poured-5, hitting-15)
+det(bottom-17, the-16)
+dobj(hitting-15, bottom-17)
+
+
+dobj(find-1, glass-2)
+
+dobj(find-1, beer-2)
+
+dobj(open-1, beer-2)
+
+nn(bottle-3, beer-2)
+dobj(grab-1, bottle-3)
+
+dobj(pour-1, bottle-2)
+prep_of(bottle-2, beer-4)
+det(glass-7, the-6)
+prep_in(pour-1, glass-7)
+
+det(beer-4, the-3)
+prep_of(dispose-1, beer-4)
+
+det(beer-3, the-2)
+dobj(drink-1, beer-3)
+
+nn(bottle-3, beer-2)
+dobj(grab-1, bottle-3)
+
+dobj(grab-1, glass-2)
+
+nn(bottle-3, beer-2)
+dobj(tilt-1, bottle-3)
+det(glass-6, the-5)
+prep_towards(tilt-1, glass-6)
+
+dobj(pour-1, beer-2)
+prt(pour-1, out-3)
+prep(pour-1, on-4)
+dep(on-4, to-5)
+det(side-8, the-6)
+amod(side-8, inside-7)
+pobj(to-5, side-8)
+det(glass-11, the-10)
+prep_of(side-8, glass-11)
+
+mark(full-5, until-2)
+nsubj(full-5, glass-3)
+cop(full-5, is-4)
+advcl(pour-1, full-5)
+
+dobj(open-1, beer-2)
+
+dobj(tilt-1, glass-2)
+advmod(tilt-1, sideways-3)
+
+dobj(pour-1, beer-2)
+det(side-5, the-4)
+prep_down(pour-1, side-5)
+det(glass-8, the-7)
+prep_of(side-5, glass-8)
+
+nn(bottle-3, beer-2)
+dobj(open-1, bottle-3)
+
+dobj(tip-1, glass-2)
+
+amod(beer-2, poor-1)
+prep_into(beer-2, glass-4)
+advmod(beer-2, slowly-5)
+
+dobj(open-1, fridge-2)
+
+nn(bottle-3, beer-2)
+dobj(get-1, bottle-3)
+
+dobj(open-1, cupboard-2)
+
+prt(take-1, out-2)
+dobj(take-1, glass-3)
+
+nn(bottle-3, beer-2)
+dobj(open-1, bottle-3)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+
+dobj(open-1, beer-2)
+
+amod(mug-3, frosty-2)
+dobj(tilt-1, mug-3)
+
+dobj(pour-1, beer-2)
+det(side-5, the-4)
+prep_down(pour-1, side-5)
+det(glass-8, the-7)
+prep_of(side-5, glass-8)
+
+advmod(full-5, when-1)
+det(glass-3, the-2)
+nsubj(full-5, glass-3)
+cop(full-5, is-4)
+csubj(blow-6, full-5)
+csubj(drink-11, full-5)
+det(head-8, the-7)
+dobj(blow-6, head-8)
+prt(blow-6, off-9)
+conj_and(blow-6, drink-11)
+
+nn(bottle-3, beer-2)
+dobj(lift-1, bottle-3)
+
+nn(flows-6, glass-3)
+amod(flows-6, unitil-4)
+nn(flows-6, beer-5)
+prep_over(tilt-1, flows-6)
+
+advmod(glass-3, when-2)
+advcl(stop-1, glass-3)
+amod(glass-3, full-4)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+det(beer-3, the-2)
+dobj(get-1, beer-3)
+
+det(glass-3, the-2)
+dobj(tip-1, glass-3)
+det(angle-8, a-5)
+num(angle-8, 25-6)
+nn(angle-8, degree-7)
+prep_on(glass-3, angle-8)
+
+num(inch-4, 1-3)
+prep_in(pour-1, inch-4)
+prep_of(inch-4, beer-6)
+
+advmod(goes-3, when-1)
+nsubj(goes-3, foam-2)
+prt(goes-3, down-4)
+
+iobj(repeat-1, steps-2)
+number(-5-4, 4-3)
+dobj(repeat-1, -5-4)
+
+amod(glass-3, clean-2)
+dobj(get-1, glass-3)
+
+dobj(place-1, glass-2)
+prep_on(glass-2, counter-4)
+
+dobj(get-1, beer-2)
+
+dobj(open-1, beer-2)
+
+amod(glass-3, clean-2)
+dobj(get-1, glass-3)
+
+dobj(place-1, glass-2)
+prep_on(glass-2, counter-4)
+
+dobj(get-1, beer-2)
+
+dobj(open-1, beer-2)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+
+amod(beer-2, open-1)
+nsubj(can-3, beer-2)
+
+dobj(tilt-1, beer-2)
+det(glass-5, a-4)
+prep_over(tilt-1, glass-5)
+
+dobj(fill-1, 3\/4-2)
+conj_and(fill-1, stop-4)
+
+dobj(get-1, glass-2)
+
+dobj(get-1, beer-2)
+
+dobj(open-1, beer-2)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+
+dobj(take-1, beer-2)
+prep_out_of(take-1, fridge-5)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+dobj(put-1, glass-2)
+prep_on(put-1, table-4)
+
+aux(open-3, to-2)
+xcomp(try-1, open-3)
+dobj(open-3, beer-4)
+
+prt(give-1, up-2)
+
+poss(wife-3, your-2)
+dobj(get-1, wife-3)
+aux(open-5, to-4)
+infmod(wife-3, open-5)
+dobj(open-5, beer-6)
+
+prep_in(pour-1, glass-3)
+
+prt(stand-1, up-2)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+dobj(put-1, glass-2)
+prep_on(put-1, table-4)
+
+dobj(take-1, beer-2)
+prep_out_of(take-1, fridge-5)
+
+aux(open-3, to-2)
+xcomp(try-1, open-3)
+dobj(open-3, beer-4)
+
+prt(give-1, up-2)
+
+dobj(make-1, wife-2)
+dep(make-1, open-3)
+dobj(open-3, beer-4)
+dep(make-1, pour-6)
+conj_and(open-3, pour-6)
+dobj(pour-6, it-7)
+
+dobj(tilt-1, glass-2)
+num(angle-6, 45-4)
+nn(angle-6, degree-5)
+prep_at(tilt-1, angle-6)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+advmod(pour-1, slowly-5)
+
+dobj(straighten-1, glass-2)
+mark(closer-6, as-3)
+nsubj(closer-6, beer-4)
+dep(closer-6, gets-5)
+advcl(straighten-1, closer-6)
+prep_to(closer-6, top-8)
+
+dobj(take-1, cap-2)
+det(beer-5, the-4)
+prep_off(take-1, beer-5)
+
+dobj(pour-1, beer-2)
+prep_into(pour-1, glass-4)
+

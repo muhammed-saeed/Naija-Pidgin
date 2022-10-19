@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0007154" url="http://l3d.cs.colorado.edu/systems/agentsheets/New-Vista/automobile/automobile-descriptions.html" time="2012-07-13-00:08" support="1" score="0.000695557238272542" bingtitle="The Impact of the Automobile on the 20th Century" webtitle="The Impact of the Automobile on the 20th Century">
+			<query id="000738" bing-rank="214"/>
+	<description>The number of houses has a direct correlation to the number of cars, and affects ... The McDonalds represents any kind of fast food restaurant that exists, including ...</description>
+	<body>
+		Description of the Automobile Simulation 
+ 
+The agents in our simulation only represent a small number of the changes caused by the automobile because the organization of cities and life as it is known today has been completely molded around people using cars.
+
+When the simulation starts, you begin in pre-automobile USA. The Industrial Revolution has begun and you are a&quot;pioneer&quot;looking for a place to open a factory and develop some sort of community. The man on a horse represents your group of entrepreneurs. It can be moved on the dirt path with the arrow keys. By pressing ENTER you initialize your city&apos;s growth. The man on a horse will disappear and two factories will appear on each side of the road. These factories draw more people to your location for work. Around the same time you start your factory, Henry Ford and his buddies started the mass production of cars. You will start to see them drive by on the road. Soon, the dirt road is paved and the impact of the automobile is off and running.
+
+The worksheet is set up so that there is a car source around the edge. This is meant to show the effects of the Interstate Highways Act, which was signed by President Eisenhower in 1956. The car source sends cars onto the road on the worksheet and deletes cars off of the road on a worksheet. This shows that when a road leads off of the simulation it is connecting to another city outside the boundaries of our worksheet. Hence, that road will bring cars into your city from other cities and take cars out of your city.
+
+On top of the car source is a layer of dirt. On top of that is a layer of forest or natural land. The dirt symbolizes the destruction of natural spaces as commerce expands. The simulation will not build on the forest, first it must destroy the forest and leave dirt, and then things can be built on the dirt.
+
+The car is the most influential agent in our simulation. The car comes in two colors for your playing enjoyment. Car one is named Cars and is red, car two is named Blucar2 and is blue. The car&apos;s most important behavior is to move on the road. The cars also will not drive over each other (definitely a good thing) and they react to the state of the traffic lights.
+
+A note about the lights: The depiction of the light is horizontal. The cars that are moving up and down react differently to the lights than those running left and right. When a car is going up or down (the same direction as the orientation of the light) it will stop at a red light. However, when the light is green, the cars going left and right will stop while the cars going up and down will go.
+
+Like real life, the cars can run out of gas. A car enters the simulation with a full tank of gas, and can run for a certain number of road squares before it runs out of gas and dies. One of your jobs is to place gas stations where they are necessary. You can build a gas station anywhere directly next to the road. In a traffic emergency press the SPACE BAR to refuel all of the cars on screen.
+
+The cars also affect the size of your town. The town grows in relation to the number of cars on the road. The number of houses has a direct correlation to the number of cars, and affects the number of businesses. When there are a lot of cars, a lot of commerce follows, along with increased population.
+
+You will also have the effects of pollution on your city show up if you depress the S key. Every car, home, business, and factory has an initial pollution rating. The pollution is counteracted by the amount of grass that you have on your worksheet. When you depress the S key, each house will turn a shade of red that shows just how polluted the area around them is.
+
+Each house represents five houses and they cause a small amount of pollution. The local businesses represent commerce owned by local homeowners. The factories represent the large increase in employment opportunities within the city following the start of the Industrial Revolution. The motels represent motels, which were created to provide beds for all the nation&apos; s car-travelers. The 7-Eleven represents the creation of convenience stores open early and late hours and designed for the convenience of car drivers. The McDonalds represents any kind of fast food restaurant that exists, including McDonalds. Fast food is the direct result of the automobile.
+
+The city grows quickly and haphazardly and you, the user, need to find a way to create traffic patterns that work. Use creative road systems, traffic lights, and don&apos;t be afraid to try a couple different approaches. A way combat pollution is to use the Park agent to build spaces in your city where the land will not develop.
+
+
+ introduction | history | timeline | impact on commerce | negative impacts | suburbia | automobile simulation | suburbs simulation
+	</body>
+</document>

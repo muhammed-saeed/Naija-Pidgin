@@ -1,0 +1,504 @@
+det(package-3, a-2)
+dobj(get-1, package-3)
+prep_of(package-3, noodles-5)
+
+det(noodles-3, the-2)
+dobj(put-1, noodles-3)
+det(pot-6, a-5)
+prep_in(put-1, pot-6)
+prep_of(pot-6, water-8)
+
+det(pot-3, the-2)
+dobj(put-1, pot-3)
+det(stove-6, the-5)
+prep_on(put-1, stove-6)
+
+det(stove-3, the-2)
+dobj(turn-1, stove-3)
+amod(heat-6, medium-5)
+prep_to(turn-1, heat-6)
+
+det(pot-3, the-2)
+dobj(take-1, pot-3)
+prt(take-1, off-4)
+advmod(done-8, when-5)
+nsubjpass(done-8, noodles-6)
+auxpass(done-8, are-7)
+advcl(take-1, done-8)
+
+dobj(put-1, water-2)
+prep_in(put-1, pan-4)
+
+dobj(boil-1, water-2)
+prep_in(boil-1, pan-4)
+
+dobj(put-1, noodles-2)
+prepc_in(put-1, boiling-4)
+dobj(boiling-4, water-5)
+
+nsubj(cook-3, noodles-2)
+ccomp(let-1, cook-3)
+prep_until(cook-3, soft-5)
+
+dobj(drain-1, water-2)
+prep_from(drain-1, pan-4)
+
+dobj(put-1, noodles-2)
+prep_in(put-1, bowl-4)
+
+dobj(locate-1, cooker-2)
+
+dobj(locate-1, pan-2)
+
+dobj(locate-1, noodle-2)
+
+dobj(put-1, noodle-2)
+prep_in(put-1, pan-4)
+
+dobj(put-1, water-2)
+prep_in(put-1, pan-4)
+
+dobj(boil-1, noodle-2)
+prep_in(boil-1, pan-4)
+prep_of(pan-4, water-6)
+det(cooker-9, the-8)
+prep_on(boil-1, cooker-9)
+
+dobj(place-1, noodle-2)
+prep_in(place-1, pan-4)
+
+dobj(put-1, pan-2)
+prep_on(put-1, stove-4)
+
+dobj(heat-1, stove-2)
+
+det(pack-3, a-2)
+dobj(open-1, pack-3)
+prep_of(pack-3, noodles-5)
+
+det(instructions-3, the-2)
+dobj(read-1, instructions-3)
+det(pack-6, the-5)
+prep_on(read-1, pack-6)
+
+det(instructions-3, the-2)
+dobj(follow-1, instructions-3)
+
+det(pot-3, a-2)
+dobj(get-1, pot-3)
+prep_from(get-1, cabinet-5)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+prep_on(turn-1, stove-3)
+amod(heat-6, desired-5)
+prep_to(turn-1, heat-6)
+
+dobj(place-1, noodles-2)
+prep_inside(noodles-2, pot-4)
+
+dobj(place-1, lid-2)
+prep_on(place-1, pot-4)
+
+dobj(bring-1, water-2)
+det(boil-5, a-4)
+prep_to(bring-1, boil-5)
+
+dobj(add-1, salt-2)
+dobj(add-1, oil-4)
+conj_and(salt-2, oil-4)
+
+det(noodles-3, the-2)
+dobj(add-1, noodles-3)
+
+advmod(stir-1, occasionally-2)
+
+mark(tender-5, until-2)
+nsubj(tender-5, noodles-3)
+cop(tender-5, are-4)
+advcl(cook-1, tender-5)
+
+prt(drain-1, off-2)
+det(water-4, the-3)
+dobj(drain-1, water-4)
+
+dobj(get-1, pan-2)
+
+dobj(fill-1, pan-2)
+prep_with(fill-1, water-4)
+
+dobj(allow-1, water-2)
+prep_to(allow-1, boil-4)
+
+prep_in(pour-1, noodles-3)
+
+prepc_until(boil-1, done-3)
+
+dobj(boil-1, water-2)
+det(pan-5, a-4)
+prep_in(boil-1, pan-5)
+
+amod(package-3, noodle-2)
+dobj(open-1, package-3)
+
+dobj(put-1, noodles-2)
+prep_in(put-1, pan-4)
+prep_of(pan-4, water-6)
+
+num(minute-4, one-3)
+prep_for(boil-1, minute-4)
+
+dobj(strain-1, noodles-2)
+
+det(pot-3, a-2)
+dobj(get-1, pot-3)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(put-1, noodles-2)
+prep_in(put-1, pot-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+dobj(boil-1, pot-2)
+
+dobj(strain-1, noodles-2)
+
+dobj(put-1, water-2)
+prep_in(put-1, pan-4)
+
+dobj(put-1, pan-2)
+nn(burner-5, stove-4)
+prep_on(put-1, burner-5)
+
+prep_on(turn-1, burner-3)
+prep_under(turn-1, pan-5)
+
+prep_for(wait-1, water-3)
+aux(come-5, to-4)
+xcomp(wait-1, come-5)
+prep_to(come-5, boil-7)
+
+dobj(add-1, noodles-2)
+prepc_to(add-1, boiling-4)
+dobj(boiling-4, water-5)
+
+dobj(cook-1, noodles-2)
+prep_until(cook-1, soft-4)
+
+amod(noodles-3, cooked-2)
+dobj(pour-1, noodles-3)
+prep_into(pour-1, strainer-5)
+
+det(pot-3, a-2)
+dobj(boil-1, pot-3)
+prep_of(pot-3, water-5)
+
+det(amount-4, the-2)
+amod(amount-4, correct-3)
+dobj(merasure-1, amount-4)
+prep_of(amount-4, noodles-6)
+conj_and(merasure-1, pour-8)
+prt(pour-8, in-9)
+
+dobj(check-1, box-2)
+amod(time-5, cooking-4)
+prep_for(check-1, time-5)
+
+det(amount-4, the-2)
+amod(amount-4, correct-3)
+dobj(boilfor-1, amount-4)
+prep_of(amount-4, time-6)
+
+dobj(put-1, water-2)
+det(pot-5, a-4)
+prep_in(put-1, pot-5)
+
+prep_on(turn-1, stove-3)
+
+det(pot-3, the-2)
+dobj(put-1, pot-3)
+det(stove-6, the-5)
+prep_on(put-1, stove-6)
+
+advmod(add-4, when-1)
+nn(boils-3, water-2)
+nsubj(add-4, boils-3)
+dobj(add-4, noodles-5)
+
+dobj(test-1, noodles-2)
+iobj(test-1, noodles-2)
+det(minute-4, every-3)
+dobj(test-1, minute-4)
+dep(noodles-2, minute-4)
+
+advmod(soft-4, when-1)
+nsubj(soft-4, noodles-2)
+cop(soft-4, are-3)
+csubj(take-5, soft-4)
+dobj(take-5, pot-6)
+prep_off_of(take-5, stove-9)
+
+dobj(drain-1, contents-2)
+prep_of(contents-2, pot-4)
+partmod(pot-4, using-5)
+dobj(using-5, strainer-6)
+
+dobj(put-1, water-2)
+prep_in(put-1, pot-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, burner-4)
+
+dobj(turn-1, burner-2)
+prep_on(turn-1, high-4)
+
+dobj(put-1, lid-2)
+prep_on(put-1, pot-4)
+
+dobj(bring-1, water-2)
+det(boil-5, a-4)
+prep_to(bring-1, boil-5)
+
+dobj(remove-1, lid-2)
+
+dobj(add-1, noodles-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+dobj(turn-1, stove-2)
+prep_on(turn-1, high-4)
+
+prep_for(wait-1, water-3)
+prep_to(wait-1, boil-5)
+
+dobj(add-1, noodles-2)
+prepc_to(add-1, boiling-4)
+dobj(boiling-4, water-5)
+
+dobj(stir-1, noodles-2)
+
+advmod(tender-5, when-2)
+nsubj(tender-5, noodles-3)
+nsubj(firm-7, noodles-3)
+cop(tender-5, are-4)
+advcl(remove-1, tender-5)
+advcl(remove-1, firm-7)
+conj_but(tender-5, firm-7)
+
+amod(pot-3, large-2)
+dobj(fill-1, pot-3)
+prep_with(fill-1, water-5)
+
+dobj(set-1, pot-2)
+prep_on(set-1, burner-4)
+
+dobj(turn-1, burner-2)
+prep_to(turn-1, high-4)
+
+prep_for(wait-1, water-3)
+prep_to(wait-1, boil-5)
+
+amod(package-3, noodle-2)
+dobj(open-1, package-3)
+
+dobj(empty-1, noodles-2)
+prepc_into(empty-1, boiling-4)
+dobj(boiling-4, water-5)
+
+dep(let-1, cook-2)
+num(minutes-5, 11-4)
+prep_for(cook-2, minutes-5)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, noodles-2)
+
+num(minutes-4, 15-3)
+prep_for(cook-1, minutes-4)
+
+dobj(drain-1, noodles-2)
+
+dobj(buy-1, noodles-2)
+
+dobj(boil-1, water-2)
+
+amod(package-3, noodle-2)
+dobj(open-1, package-3)
+
+dobj(place-1, noodles-2)
+prep_in(place-1, water-4)
+
+dobj(cook-1, noodles-2)
+prep_until(cook-1, tender-4)
+
+dobj(boil-1, water-2)
+
+dobj(cook-1, noodles-2)
+
+dobj(strain-1, noodles-2)
+
+dobj(serve-1, noodles-2)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, noodles-2)
+
+num(min-4, 5-3)
+prep_for(boil-1, min-4)
+
+dobj(drain-1, water-2)
+
+dobj(putting-1, water-2)
+prep_into(putting-1, pot-4)
+
+prep_on(turning-1, stove-3)
+
+det(pot-3, the-2)
+dobj(putting-1, pot-3)
+det(stove-6, the-5)
+prep_on(putting-1, stove-6)
+
+csubj(boiling-6, waiting-1)
+det(water-4, the-3)
+prep_until(waiting-1, water-4)
+aux(boiling-6, is-5)
+
+dobj(boil-1, noodles-2)
+
+iobj(let-1, them-2)
+dobj(let-1, rest-3)
+
+dobj(drain-1, noodles-2)
+
+dobj(put-1, water-2)
+det(pan-5, a-4)
+prep_in(put-1, pan-5)
+
+dobj(put-1, noodle-2)
+det(water-5, the-4)
+prep_in(put-1, water-5)
+
+dobj(put-1, pan-2)
+det(stove-5, the-4)
+prep_on(put-1, stove-5)
+
+dobj(put-1, heat-2)
+det(burner-5, the-4)
+prep_on(put-1, burner-5)
+det(pan-8, the-7)
+prep_under(put-1, pan-8)
+
+amod(boils-4, til-2)
+nn(boils-4, water-3)
+dobj(wait-1, boils-4)
+num(minutes-7, seven-6)
+prep_for(wait-1, minutes-7)
+advmod(rinse-9, then-8)
+amod(minutes-7, rinse-9)
+conj_and(wait-1, serve-11)
+
+dobj(put-1, water-2)
+prep_in(put-1, pot-4)
+
+dobj(place-1, pot-2)
+prep_on(place-1, element-4)
+
+prep_on(turn-1, element-3)
+
+nn(boil-3, water-2)
+dobj(let-1, boil-3)
+
+dobj(add-1, noodles-2)
+prep_to(add-1, water-4)
+
+prep_until(cook-1, tender-3)
+
+prep_from(remove-1, element-3)
+prep_from(remove-1, drain-5)
+conj_and(element-3, drain-5)
+
+dobj(obtain-1, noodle-2)
+
+dobj(obtain-1, pot-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(place-1, noodle-2)
+prep_in(place-1, pot-4)
+
+dobj(boil-1, noodle-2)
+prep_until(boil-1, tender-4)
+
+dobj(put-1, water-2)
+prep_in(put-1, pot-4)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+prep_on(turn-1, element-3)
+
+nn(boil-3, water-2)
+dobj(let-1, boil-3)
+
+dobj(add-1, noodles-2)
+
+prep_until(cook-1, tender-3)
+
+
+dobj(get-1, noodle-2)
+
+dobj(get-1, pot-2)
+
+dobj(get-1, water-2)
+prep_in(get-1, pot-4)
+
+dobj(heat-1, water-2)
+prep_to(heat-1, boil-4)
+
+dobj(put-1, noodle-2)
+prep_in(put-1, water-4)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+advmod(boils-3, when-1)
+nsubj(boils-3, water-2)
+dep(boils-3, put-4)
+prep_in(put-4, noodles-6)
+
+num(minutes-4, 5-3)
+prep_for(cook-1, minutes-4)
+
+advmod(turn-4, after-1)
+num(minutes-3, 5-2)
+dep(after-1, minutes-3)
+prt(turn-4, off-5)
+dobj(turn-4, stove-6)
+
+dobj(take-1, noodle-2)
+
+dobj(place-1, noodle-2)
+prep_in(place-1, pot-4)
+
+dobj(heat-1, pot-2)
+prep_on(heat-1, stove-4)
+

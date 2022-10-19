@@ -1,0 +1,1318 @@
+id	score	v	d-obj	p	p-title
+000001	?	put	change	item	vending machine
+000002	?	put	change	desired item	vending machine
+000003	?	put	change	correct amount of change	vending machine
+000004	?	put	change	correct amount of money	vending machine
+000005	?	put	change	desired selection	vending machine
+000006	?	put	change	selection	vending machine
+000007	?	put	change	coins	vending machine
+000008	?	put	change	right money	vending machine
+000009	?	put	change	money	vending machine
+000010	?	put	change	product	vending machine
+000011	?	put	change	goods	vending machine
+000012	?	put	change	button	vending machine
+000013	?	put	change	appropriate buttons	vending machine
+000014	?	put	change	any	vending machine
+000015	?	put	change	you	vending machine
+000016	?	put	change	product code	vending machine
+000017	?	put	change	code	vending machine
+000018	?	put	change	machine	vending machine
+000019	?	place	correct amount	item	vending machine
+000020	?	place	correct amount	desired item	vending machine
+000021	?	place	correct amount	correct amount of change	vending machine
+000022	?	place	correct amount	correct amount of money	vending machine
+000023	?	place	correct amount	desired selection	vending machine
+000024	?	place	correct amount	selection	vending machine
+000025	?	place	correct amount	coins	vending machine
+000026	?	place	correct amount	change	vending machine
+000027	?	place	correct amount	right money	vending machine
+000028	?	place	correct amount	money	vending machine
+000029	?	place	correct amount	product	vending machine
+000030	?	place	correct amount	goods	vending machine
+000031	?	place	correct amount	button	vending machine
+000032	?	place	correct amount	appropriate buttons	vending machine
+000033	?	place	correct amount	any	vending machine
+000034	?	place	correct amount	you	vending machine
+000035	?	place	correct amount	product code	vending machine
+000036	?	place	correct amount	code	vending machine
+000037	?	place	correct amount	machine	vending machine
+000038	?	insert	right money	item	vending machine
+000039	?	insert	right money	desired item	vending machine
+000040	?	insert	right money	correct amount of change	vending machine
+000041	?	insert	right money	correct amount of money	vending machine
+000042	?	insert	right money	desired selection	vending machine
+000043	?	insert	right money	selection	vending machine
+000044	?	insert	right money	coins	vending machine
+000045	?	insert	right money	change	vending machine
+000046	?	insert	right money	money	vending machine
+000047	?	insert	right money	product	vending machine
+000048	?	insert	right money	goods	vending machine
+000049	?	insert	right money	button	vending machine
+000050	?	insert	right money	appropriate buttons	vending machine
+000051	?	insert	right money	any	vending machine
+000052	?	insert	right money	you	vending machine
+000053	?	insert	right money	product code	vending machine
+000054	?	insert	right money	code	vending machine
+000055	?	insert	right money	machine	vending machine
+000056	?	approach	machine	item	vending machine
+000057	?	approach	machine	desired item	vending machine
+000058	?	approach	machine	correct amount of change	vending machine
+000059	?	approach	machine	correct amount of money	vending machine
+000060	?	approach	machine	desired selection	vending machine
+000061	?	approach	machine	selection	vending machine
+000062	?	approach	machine	coins	vending machine
+000063	?	approach	machine	change	vending machine
+000064	?	approach	machine	right money	vending machine
+000065	?	approach	machine	money	vending machine
+000066	?	approach	machine	product	vending machine
+000067	?	approach	machine	goods	vending machine
+000068	?	approach	machine	button	vending machine
+000069	?	approach	machine	appropriate buttons	vending machine
+000070	?	approach	machine	any	vending machine
+000071	?	approach	machine	you	vending machine
+000072	?	approach	machine	product code	vending machine
+000073	?	approach	machine	code	vending machine
+000074	?	find	change	item	vending machine
+000075	?	find	change	desired item	vending machine
+000076	?	find	change	correct amount of change	vending machine
+000077	?	find	change	correct amount of money	vending machine
+000078	?	find	change	desired selection	vending machine
+000079	?	find	change	selection	vending machine
+000080	?	find	change	coins	vending machine
+000081	?	find	change	right money	vending machine
+000082	?	find	change	money	vending machine
+000083	?	find	change	product	vending machine
+000084	?	find	change	goods	vending machine
+000085	?	find	change	button	vending machine
+000086	?	find	change	appropriate buttons	vending machine
+000087	?	find	change	any	vending machine
+000088	?	find	change	you	vending machine
+000089	?	find	change	product code	vending machine
+000090	?	find	change	code	vending machine
+000091	?	find	change	machine	vending machine
+000092	?	choose	product	item	vending machine
+000093	?	choose	product	desired item	vending machine
+000094	?	choose	product	correct amount of change	vending machine
+000095	?	choose	product	correct amount of money	vending machine
+000096	?	choose	product	desired selection	vending machine
+000097	?	choose	product	selection	vending machine
+000098	?	choose	product	coins	vending machine
+000099	?	choose	product	change	vending machine
+000100	?	choose	product	right money	vending machine
+000101	?	choose	product	money	vending machine
+000102	?	choose	product	goods	vending machine
+000103	?	choose	product	button	vending machine
+000104	?	choose	product	appropriate buttons	vending machine
+000105	?	choose	product	any	vending machine
+000106	?	choose	product	you	vending machine
+000107	?	choose	product	product code	vending machine
+000108	?	choose	product	code	vending machine
+000109	?	choose	product	machine	vending machine
+000110	?	select	correct product code	item	vending machine
+000111	?	select	correct product code	desired item	vending machine
+000112	?	select	correct product code	correct amount of change	vending machine
+000113	?	select	correct product code	correct amount of money	vending machine
+000114	?	select	correct product code	desired selection	vending machine
+000115	?	select	correct product code	selection	vending machine
+000116	?	select	correct product code	coins	vending machine
+000117	?	select	correct product code	change	vending machine
+000118	?	select	correct product code	right money	vending machine
+000119	?	select	correct product code	money	vending machine
+000120	?	select	correct product code	product	vending machine
+000121	?	select	correct product code	goods	vending machine
+000122	?	select	correct product code	button	vending machine
+000123	?	select	correct product code	appropriate buttons	vending machine
+000124	?	select	correct product code	any	vending machine
+000125	?	select	correct product code	you	vending machine
+000126	?	select	correct product code	product code	vending machine
+000127	?	select	correct product code	code	vending machine
+000128	?	select	correct product code	machine	vending machine
+000129	?	collect	change	item	vending machine
+000130	?	collect	change	desired item	vending machine
+000131	?	collect	change	correct amount of change	vending machine
+000132	?	collect	change	correct amount of money	vending machine
+000133	?	collect	change	desired selection	vending machine
+000134	?	collect	change	selection	vending machine
+000135	?	collect	change	coins	vending machine
+000136	?	collect	change	right money	vending machine
+000137	?	collect	change	money	vending machine
+000138	?	collect	change	product	vending machine
+000139	?	collect	change	goods	vending machine
+000140	?	collect	change	button	vending machine
+000141	?	collect	change	appropriate buttons	vending machine
+000142	?	collect	change	any	vending machine
+000143	?	collect	change	you	vending machine
+000144	?	collect	change	product code	vending machine
+000145	?	collect	change	code	vending machine
+000146	?	collect	change	machine	vending machine
+000147	?	locate	necessary funds	item	vending machine
+000148	?	locate	necessary funds	desired item	vending machine
+000149	?	locate	necessary funds	correct amount of change	vending machine
+000150	?	locate	necessary funds	correct amount of money	vending machine
+000151	?	locate	necessary funds	desired selection	vending machine
+000152	?	locate	necessary funds	selection	vending machine
+000153	?	locate	necessary funds	coins	vending machine
+000154	?	locate	necessary funds	change	vending machine
+000155	?	locate	necessary funds	right money	vending machine
+000156	?	locate	necessary funds	money	vending machine
+000157	?	locate	necessary funds	product	vending machine
+000158	?	locate	necessary funds	goods	vending machine
+000159	?	locate	necessary funds	button	vending machine
+000160	?	locate	necessary funds	appropriate buttons	vending machine
+000161	?	locate	necessary funds	any	vending machine
+000162	?	locate	necessary funds	you	vending machine
+000163	?	locate	necessary funds	product code	vending machine
+000164	?	locate	necessary funds	code	vending machine
+000165	?	locate	necessary funds	machine	vending machine
+000166	?	aquire	change	item	vending machine
+000167	?	aquire	change	desired item	vending machine
+000168	?	aquire	change	correct amount of change	vending machine
+000169	?	aquire	change	correct amount of money	vending machine
+000170	?	aquire	change	desired selection	vending machine
+000171	?	aquire	change	selection	vending machine
+000172	?	aquire	change	coins	vending machine
+000173	?	aquire	change	right money	vending machine
+000174	?	aquire	change	money	vending machine
+000175	?	aquire	change	product	vending machine
+000176	?	aquire	change	goods	vending machine
+000177	?	aquire	change	button	vending machine
+000178	?	aquire	change	appropriate buttons	vending machine
+000179	?	aquire	change	any	vending machine
+000180	?	aquire	change	you	vending machine
+000181	?	aquire	change	product code	vending machine
+000182	?	aquire	change	code	vending machine
+000183	?	aquire	change	machine	vending machine
+000184	?	identify	price	item	vending machine
+000185	?	identify	price	desired item	vending machine
+000186	?	identify	price	correct amount of change	vending machine
+000187	?	identify	price	correct amount of money	vending machine
+000188	?	identify	price	desired selection	vending machine
+000189	?	identify	price	selection	vending machine
+000190	?	identify	price	coins	vending machine
+000191	?	identify	price	change	vending machine
+000192	?	identify	price	right money	vending machine
+000193	?	identify	price	money	vending machine
+000194	?	identify	price	product	vending machine
+000195	?	identify	price	goods	vending machine
+000196	?	identify	price	button	vending machine
+000197	?	identify	price	appropriate buttons	vending machine
+000198	?	identify	price	any	vending machine
+000199	?	identify	price	you	vending machine
+000200	?	identify	price	product code	vending machine
+000201	?	identify	price	code	vending machine
+000202	?	identify	price	machine	vending machine
+000203	?	select	item	desired item	vending machine
+000204	?	select	item	correct amount of change	vending machine
+000205	?	select	item	correct amount of money	vending machine
+000206	?	select	item	desired selection	vending machine
+000207	?	select	item	selection	vending machine
+000208	?	select	item	coins	vending machine
+000209	?	select	item	change	vending machine
+000210	?	select	item	right money	vending machine
+000211	?	select	item	money	vending machine
+000212	?	select	item	product	vending machine
+000213	?	select	item	goods	vending machine
+000214	?	select	item	button	vending machine
+000215	?	select	item	appropriate buttons	vending machine
+000216	?	select	item	any	vending machine
+000217	?	select	item	you	vending machine
+000218	?	select	item	product code	vending machine
+000219	?	select	item	code	vending machine
+000220	?	select	item	machine	vending machine
+000221	?	place	money	item	vending machine
+000222	?	place	money	desired item	vending machine
+000223	?	place	money	correct amount of change	vending machine
+000224	?	place	money	correct amount of money	vending machine
+000225	?	place	money	desired selection	vending machine
+000226	?	place	money	selection	vending machine
+000227	?	place	money	coins	vending machine
+000228	?	place	money	change	vending machine
+000229	?	place	money	right money	vending machine
+000230	?	place	money	product	vending machine
+000231	?	place	money	goods	vending machine
+000232	?	place	money	button	vending machine
+000233	?	place	money	appropriate buttons	vending machine
+000234	?	place	money	any	vending machine
+000235	?	place	money	you	vending machine
+000236	?	place	money	product code	vending machine
+000237	?	place	money	code	vending machine
+000238	?	place	money	machine	vending machine
+000239	?	press	desired selection	item	vending machine
+000240	?	press	desired selection	desired item	vending machine
+000241	?	press	desired selection	correct amount of change	vending machine
+000242	?	press	desired selection	correct amount of money	vending machine
+000243	?	press	desired selection	selection	vending machine
+000244	?	press	desired selection	coins	vending machine
+000245	?	press	desired selection	change	vending machine
+000246	?	press	desired selection	right money	vending machine
+000247	?	press	desired selection	money	vending machine
+000248	?	press	desired selection	product	vending machine
+000249	?	press	desired selection	goods	vending machine
+000250	?	press	desired selection	button	vending machine
+000251	?	press	desired selection	appropriate buttons	vending machine
+000252	?	press	desired selection	any	vending machine
+000253	?	press	desired selection	you	vending machine
+000254	?	press	desired selection	product code	vending machine
+000255	?	press	desired selection	code	vending machine
+000256	?	press	desired selection	machine	vending machine
+000257	?	retrieve	product	item	vending machine
+000258	?	retrieve	product	desired item	vending machine
+000259	?	retrieve	product	correct amount of change	vending machine
+000260	?	retrieve	product	correct amount of money	vending machine
+000261	?	retrieve	product	desired selection	vending machine
+000262	?	retrieve	product	selection	vending machine
+000263	?	retrieve	product	coins	vending machine
+000264	?	retrieve	product	change	vending machine
+000265	?	retrieve	product	right money	vending machine
+000266	?	retrieve	product	money	vending machine
+000267	?	retrieve	product	goods	vending machine
+000268	?	retrieve	product	button	vending machine
+000269	?	retrieve	product	appropriate buttons	vending machine
+000270	?	retrieve	product	any	vending machine
+000271	?	retrieve	product	you	vending machine
+000272	?	retrieve	product	product code	vending machine
+000273	?	retrieve	product	code	vending machine
+000274	?	retrieve	product	machine	vending machine
+000275	?	insert	coins	item	vending machine
+000276	?	insert	coins	desired item	vending machine
+000277	?	insert	coins	correct amount of change	vending machine
+000278	?	insert	coins	correct amount of money	vending machine
+000279	?	insert	coins	desired selection	vending machine
+000280	?	insert	coins	selection	vending machine
+000281	?	insert	coins	change	vending machine
+000282	?	insert	coins	right money	vending machine
+000283	?	insert	coins	money	vending machine
+000284	?	insert	coins	product	vending machine
+000285	?	insert	coins	goods	vending machine
+000286	?	insert	coins	button	vending machine
+000287	?	insert	coins	appropriate buttons	vending machine
+000288	?	insert	coins	any	vending machine
+000289	?	insert	coins	you	vending machine
+000290	?	insert	coins	product code	vending machine
+000291	?	insert	coins	code	vending machine
+000292	?	insert	coins	machine	vending machine
+000293	?	insert	change	item	vending machine
+000294	?	insert	change	desired item	vending machine
+000295	?	insert	change	correct amount of change	vending machine
+000296	?	insert	change	correct amount of money	vending machine
+000297	?	insert	change	desired selection	vending machine
+000298	?	insert	change	selection	vending machine
+000299	?	insert	change	coins	vending machine
+000300	?	insert	change	right money	vending machine
+000301	?	insert	change	money	vending machine
+000302	?	insert	change	product	vending machine
+000303	?	insert	change	goods	vending machine
+000304	?	insert	change	button	vending machine
+000305	?	insert	change	appropriate buttons	vending machine
+000306	?	insert	change	any	vending machine
+000307	?	insert	change	you	vending machine
+000308	?	insert	change	product code	vending machine
+000309	?	insert	change	code	vending machine
+000310	?	insert	change	machine	vending machine
+000311	?	press	button	item	vending machine
+000312	?	press	button	desired item	vending machine
+000313	?	press	button	correct amount of change	vending machine
+000314	?	press	button	correct amount of money	vending machine
+000315	?	press	button	desired selection	vending machine
+000316	?	press	button	selection	vending machine
+000317	?	press	button	coins	vending machine
+000318	?	press	button	change	vending machine
+000319	?	press	button	right money	vending machine
+000320	?	press	button	money	vending machine
+000321	?	press	button	product	vending machine
+000322	?	press	button	goods	vending machine
+000323	?	press	button	appropriate buttons	vending machine
+000324	?	press	button	any	vending machine
+000325	?	press	button	you	vending machine
+000326	?	press	button	product code	vending machine
+000327	?	press	button	code	vending machine
+000328	?	press	button	machine	vending machine
+000329	?	get	product	item	vending machine
+000330	?	get	product	desired item	vending machine
+000331	?	get	product	correct amount of change	vending machine
+000332	?	get	product	correct amount of money	vending machine
+000333	?	get	product	desired selection	vending machine
+000334	?	get	product	selection	vending machine
+000335	?	get	product	coins	vending machine
+000336	?	get	product	change	vending machine
+000337	?	get	product	right money	vending machine
+000338	?	get	product	money	vending machine
+000339	?	get	product	goods	vending machine
+000340	?	get	product	button	vending machine
+000341	?	get	product	appropriate buttons	vending machine
+000342	?	get	product	any	vending machine
+000343	?	get	product	you	vending machine
+000344	?	get	product	product code	vending machine
+000345	?	get	product	code	vending machine
+000346	?	get	product	machine	vending machine
+000347	?	identify	desired product	item	vending machine
+000348	?	identify	desired product	desired item	vending machine
+000349	?	identify	desired product	correct amount of change	vending machine
+000350	?	identify	desired product	correct amount of money	vending machine
+000351	?	identify	desired product	desired selection	vending machine
+000352	?	identify	desired product	selection	vending machine
+000353	?	identify	desired product	coins	vending machine
+000354	?	identify	desired product	change	vending machine
+000355	?	identify	desired product	right money	vending machine
+000356	?	identify	desired product	money	vending machine
+000357	?	identify	desired product	product	vending machine
+000358	?	identify	desired product	goods	vending machine
+000359	?	identify	desired product	button	vending machine
+000360	?	identify	desired product	appropriate buttons	vending machine
+000361	?	identify	desired product	any	vending machine
+000362	?	identify	desired product	you	vending machine
+000363	?	identify	desired product	product code	vending machine
+000364	?	identify	desired product	code	vending machine
+000365	?	identify	desired product	machine	vending machine
+000366	?	take	product	item	vending machine
+000367	?	take	product	desired item	vending machine
+000368	?	take	product	correct amount of change	vending machine
+000369	?	take	product	correct amount of money	vending machine
+000370	?	take	product	desired selection	vending machine
+000371	?	take	product	selection	vending machine
+000372	?	take	product	coins	vending machine
+000373	?	take	product	change	vending machine
+000374	?	take	product	right money	vending machine
+000375	?	take	product	money	vending machine
+000376	?	take	product	goods	vending machine
+000377	?	take	product	button	vending machine
+000378	?	take	product	appropriate buttons	vending machine
+000379	?	take	product	any	vending machine
+000380	?	take	product	you	vending machine
+000381	?	take	product	product code	vending machine
+000382	?	take	product	code	vending machine
+000383	?	take	product	machine	vending machine
+000384	?	find	vending machine	item	vending machine
+000385	?	find	vending machine	desired item	vending machine
+000386	?	find	vending machine	correct amount of change	vending machine
+000387	?	find	vending machine	correct amount of money	vending machine
+000388	?	find	vending machine	desired selection	vending machine
+000389	?	find	vending machine	selection	vending machine
+000390	?	find	vending machine	coins	vending machine
+000391	?	find	vending machine	change	vending machine
+000392	?	find	vending machine	right money	vending machine
+000393	?	find	vending machine	money	vending machine
+000394	?	find	vending machine	product	vending machine
+000395	?	find	vending machine	goods	vending machine
+000396	?	find	vending machine	button	vending machine
+000397	?	find	vending machine	appropriate buttons	vending machine
+000398	?	find	vending machine	any	vending machine
+000399	?	find	vending machine	you	vending machine
+000400	?	find	vending machine	product code	vending machine
+000401	?	find	vending machine	code	vending machine
+000402	?	find	vending machine	machine	vending machine
+000403	?	pick	item	desired item	vending machine
+000404	?	pick	item	correct amount of change	vending machine
+000405	?	pick	item	correct amount of money	vending machine
+000406	?	pick	item	desired selection	vending machine
+000407	?	pick	item	selection	vending machine
+000408	?	pick	item	coins	vending machine
+000409	?	pick	item	change	vending machine
+000410	?	pick	item	right money	vending machine
+000411	?	pick	item	money	vending machine
+000412	?	pick	item	product	vending machine
+000413	?	pick	item	goods	vending machine
+000414	?	pick	item	button	vending machine
+000415	?	pick	item	appropriate buttons	vending machine
+000416	?	pick	item	any	vending machine
+000417	?	pick	item	you	vending machine
+000418	?	pick	item	product code	vending machine
+000419	?	pick	item	code	vending machine
+000420	?	pick	item	machine	vending machine
+000421	?	watch	item	desired item	vending machine
+000422	?	watch	item	correct amount of change	vending machine
+000423	?	watch	item	correct amount of money	vending machine
+000424	?	watch	item	desired selection	vending machine
+000425	?	watch	item	selection	vending machine
+000426	?	watch	item	coins	vending machine
+000427	?	watch	item	change	vending machine
+000428	?	watch	item	right money	vending machine
+000429	?	watch	item	money	vending machine
+000430	?	watch	item	product	vending machine
+000431	?	watch	item	goods	vending machine
+000432	?	watch	item	button	vending machine
+000433	?	watch	item	appropriate buttons	vending machine
+000434	?	watch	item	any	vending machine
+000435	?	watch	item	you	vending machine
+000436	?	watch	item	product code	vending machine
+000437	?	watch	item	code	vending machine
+000438	?	watch	item	machine	vending machine
+000439	?	determine	item	desired item	vending machine
+000440	?	determine	item	correct amount of change	vending machine
+000441	?	determine	item	correct amount of money	vending machine
+000442	?	determine	item	desired selection	vending machine
+000443	?	determine	item	selection	vending machine
+000444	?	determine	item	coins	vending machine
+000445	?	determine	item	change	vending machine
+000446	?	determine	item	right money	vending machine
+000447	?	determine	item	money	vending machine
+000448	?	determine	item	product	vending machine
+000449	?	determine	item	goods	vending machine
+000450	?	determine	item	button	vending machine
+000451	?	determine	item	appropriate buttons	vending machine
+000452	?	determine	item	any	vending machine
+000453	?	determine	item	you	vending machine
+000454	?	determine	item	product code	vending machine
+000455	?	determine	item	code	vending machine
+000456	?	determine	item	machine	vending machine
+000457	?	select	product	item	vending machine
+000458	?	select	product	desired item	vending machine
+000459	?	select	product	correct amount of change	vending machine
+000460	?	select	product	correct amount of money	vending machine
+000461	?	select	product	desired selection	vending machine
+000462	?	select	product	selection	vending machine
+000463	?	select	product	coins	vending machine
+000464	?	select	product	change	vending machine
+000465	?	select	product	right money	vending machine
+000466	?	select	product	money	vending machine
+000467	?	select	product	goods	vending machine
+000468	?	select	product	button	vending machine
+000469	?	select	product	appropriate buttons	vending machine
+000470	?	select	product	any	vending machine
+000471	?	select	product	you	vending machine
+000472	?	select	product	product code	vending machine
+000473	?	select	product	code	vending machine
+000474	?	select	product	machine	vending machine
+000475	?	press	code	item	vending machine
+000476	?	press	code	desired item	vending machine
+000477	?	press	code	correct amount of change	vending machine
+000478	?	press	code	correct amount of money	vending machine
+000479	?	press	code	desired selection	vending machine
+000480	?	press	code	selection	vending machine
+000481	?	press	code	coins	vending machine
+000482	?	press	code	change	vending machine
+000483	?	press	code	right money	vending machine
+000484	?	press	code	money	vending machine
+000485	?	press	code	product	vending machine
+000486	?	press	code	goods	vending machine
+000487	?	press	code	button	vending machine
+000488	?	press	code	appropriate buttons	vending machine
+000489	?	press	code	any	vending machine
+000490	?	press	code	you	vending machine
+000491	?	press	code	product code	vending machine
+000492	?	press	code	machine	vending machine
+000493	?	locate	vending machine	item	vending machine
+000494	?	locate	vending machine	desired item	vending machine
+000495	?	locate	vending machine	correct amount of change	vending machine
+000496	?	locate	vending machine	correct amount of money	vending machine
+000497	?	locate	vending machine	desired selection	vending machine
+000498	?	locate	vending machine	selection	vending machine
+000499	?	locate	vending machine	coins	vending machine
+000500	?	locate	vending machine	change	vending machine
+000501	?	locate	vending machine	right money	vending machine
+000502	?	locate	vending machine	money	vending machine
+000503	?	locate	vending machine	product	vending machine
+000504	?	locate	vending machine	goods	vending machine
+000505	?	locate	vending machine	button	vending machine
+000506	?	locate	vending machine	appropriate buttons	vending machine
+000507	?	locate	vending machine	any	vending machine
+000508	?	locate	vending machine	you	vending machine
+000509	?	locate	vending machine	product code	vending machine
+000510	?	locate	vending machine	code	vending machine
+000511	?	locate	vending machine	machine	vending machine
+000512	?	choose	goods	item	vending machine
+000513	?	choose	goods	desired item	vending machine
+000514	?	choose	goods	correct amount of change	vending machine
+000515	?	choose	goods	correct amount of money	vending machine
+000516	?	choose	goods	desired selection	vending machine
+000517	?	choose	goods	selection	vending machine
+000518	?	choose	goods	coins	vending machine
+000519	?	choose	goods	change	vending machine
+000520	?	choose	goods	right money	vending machine
+000521	?	choose	goods	money	vending machine
+000522	?	choose	goods	product	vending machine
+000523	?	choose	goods	button	vending machine
+000524	?	choose	goods	appropriate buttons	vending machine
+000525	?	choose	goods	any	vending machine
+000526	?	choose	goods	you	vending machine
+000527	?	choose	goods	product code	vending machine
+000528	?	choose	goods	code	vending machine
+000529	?	choose	goods	machine	vending machine
+000530	?	take	change	item	vending machine
+000531	?	take	change	desired item	vending machine
+000532	?	take	change	correct amount of change	vending machine
+000533	?	take	change	correct amount of money	vending machine
+000534	?	take	change	desired selection	vending machine
+000535	?	take	change	selection	vending machine
+000536	?	take	change	coins	vending machine
+000537	?	take	change	right money	vending machine
+000538	?	take	change	money	vending machine
+000539	?	take	change	product	vending machine
+000540	?	take	change	goods	vending machine
+000541	?	take	change	button	vending machine
+000542	?	take	change	appropriate buttons	vending machine
+000543	?	take	change	any	vending machine
+000544	?	take	change	you	vending machine
+000545	?	take	change	product code	vending machine
+000546	?	take	change	code	vending machine
+000547	?	take	change	machine	vending machine
+000548	?	take	money	item	vending machine
+000549	?	take	money	desired item	vending machine
+000550	?	take	money	correct amount of change	vending machine
+000551	?	take	money	correct amount of money	vending machine
+000552	?	take	money	desired selection	vending machine
+000553	?	take	money	selection	vending machine
+000554	?	take	money	coins	vending machine
+000555	?	take	money	change	vending machine
+000556	?	take	money	right money	vending machine
+000557	?	take	money	product	vending machine
+000558	?	take	money	goods	vending machine
+000559	?	take	money	button	vending machine
+000560	?	take	money	appropriate buttons	vending machine
+000561	?	take	money	any	vending machine
+000562	?	take	money	you	vending machine
+000563	?	take	money	product code	vending machine
+000564	?	take	money	code	vending machine
+000565	?	take	money	machine	vending machine
+000566	?	identify	vending machine	item	vending machine
+000567	?	identify	vending machine	desired item	vending machine
+000568	?	identify	vending machine	correct amount of change	vending machine
+000569	?	identify	vending machine	correct amount of money	vending machine
+000570	?	identify	vending machine	desired selection	vending machine
+000571	?	identify	vending machine	selection	vending machine
+000572	?	identify	vending machine	coins	vending machine
+000573	?	identify	vending machine	change	vending machine
+000574	?	identify	vending machine	right money	vending machine
+000575	?	identify	vending machine	money	vending machine
+000576	?	identify	vending machine	product	vending machine
+000577	?	identify	vending machine	goods	vending machine
+000578	?	identify	vending machine	button	vending machine
+000579	?	identify	vending machine	appropriate buttons	vending machine
+000580	?	identify	vending machine	any	vending machine
+000581	?	identify	vending machine	you	vending machine
+000582	?	identify	vending machine	product code	vending machine
+000583	?	identify	vending machine	code	vending machine
+000584	?	identify	vending machine	machine	vending machine
+000585	?	insert	money	item	vending machine
+000586	?	insert	money	desired item	vending machine
+000587	?	insert	money	correct amount of change	vending machine
+000588	?	insert	money	correct amount of money	vending machine
+000589	?	insert	money	desired selection	vending machine
+000590	?	insert	money	selection	vending machine
+000591	?	insert	money	coins	vending machine
+000592	?	insert	money	change	vending machine
+000593	?	insert	money	right money	vending machine
+000594	?	insert	money	product	vending machine
+000595	?	insert	money	goods	vending machine
+000596	?	insert	money	button	vending machine
+000597	?	insert	money	appropriate buttons	vending machine
+000598	?	insert	money	any	vending machine
+000599	?	insert	money	you	vending machine
+000600	?	insert	money	product code	vending machine
+000601	?	insert	money	code	vending machine
+000602	?	insert	money	machine	vending machine
+000603	?	depress	button	item	vending machine
+000604	?	depress	button	desired item	vending machine
+000605	?	depress	button	correct amount of change	vending machine
+000606	?	depress	button	correct amount of money	vending machine
+000607	?	depress	button	desired selection	vending machine
+000608	?	depress	button	selection	vending machine
+000609	?	depress	button	coins	vending machine
+000610	?	depress	button	change	vending machine
+000611	?	depress	button	right money	vending machine
+000612	?	depress	button	money	vending machine
+000613	?	depress	button	product	vending machine
+000614	?	depress	button	goods	vending machine
+000615	?	depress	button	appropriate buttons	vending machine
+000616	?	depress	button	any	vending machine
+000617	?	depress	button	you	vending machine
+000618	?	depress	button	product code	vending machine
+000619	?	depress	button	code	vending machine
+000620	?	depress	button	machine	vending machine
+000621	?	take	item	desired item	vending machine
+000622	?	take	item	correct amount of change	vending machine
+000623	?	take	item	correct amount of money	vending machine
+000624	?	take	item	desired selection	vending machine
+000625	?	take	item	selection	vending machine
+000626	?	take	item	coins	vending machine
+000627	?	take	item	change	vending machine
+000628	?	take	item	right money	vending machine
+000629	?	take	item	money	vending machine
+000630	?	take	item	product	vending machine
+000631	?	take	item	goods	vending machine
+000632	?	take	item	button	vending machine
+000633	?	take	item	appropriate buttons	vending machine
+000634	?	take	item	any	vending machine
+000635	?	take	item	you	vending machine
+000636	?	take	item	product code	vending machine
+000637	?	take	item	code	vending machine
+000638	?	take	item	machine	vending machine
+000639	?	get	money	item	vending machine
+000640	?	get	money	desired item	vending machine
+000641	?	get	money	correct amount of change	vending machine
+000642	?	get	money	correct amount of money	vending machine
+000643	?	get	money	desired selection	vending machine
+000644	?	get	money	selection	vending machine
+000645	?	get	money	coins	vending machine
+000646	?	get	money	change	vending machine
+000647	?	get	money	right money	vending machine
+000648	?	get	money	product	vending machine
+000649	?	get	money	goods	vending machine
+000650	?	get	money	button	vending machine
+000651	?	get	money	appropriate buttons	vending machine
+000652	?	get	money	any	vending machine
+000653	?	get	money	you	vending machine
+000654	?	get	money	product code	vending machine
+000655	?	get	money	code	vending machine
+000656	?	get	money	machine	vending machine
+000657	?	make	selection	item	vending machine
+000658	?	make	selection	desired item	vending machine
+000659	?	make	selection	correct amount of change	vending machine
+000660	?	make	selection	correct amount of money	vending machine
+000661	?	make	selection	desired selection	vending machine
+000662	?	make	selection	coins	vending machine
+000663	?	make	selection	change	vending machine
+000664	?	make	selection	right money	vending machine
+000665	?	make	selection	money	vending machine
+000666	?	make	selection	product	vending machine
+000667	?	make	selection	goods	vending machine
+000668	?	make	selection	button	vending machine
+000669	?	make	selection	appropriate buttons	vending machine
+000670	?	make	selection	any	vending machine
+000671	?	make	selection	you	vending machine
+000672	?	make	selection	product code	vending machine
+000673	?	make	selection	code	vending machine
+000674	?	make	selection	machine	vending machine
+000675	?	take	goods	item	vending machine
+000676	?	take	goods	desired item	vending machine
+000677	?	take	goods	correct amount of change	vending machine
+000678	?	take	goods	correct amount of money	vending machine
+000679	?	take	goods	desired selection	vending machine
+000680	?	take	goods	selection	vending machine
+000681	?	take	goods	coins	vending machine
+000682	?	take	goods	change	vending machine
+000683	?	take	goods	right money	vending machine
+000684	?	take	goods	money	vending machine
+000685	?	take	goods	product	vending machine
+000686	?	take	goods	button	vending machine
+000687	?	take	goods	appropriate buttons	vending machine
+000688	?	take	goods	any	vending machine
+000689	?	take	goods	you	vending machine
+000690	?	take	goods	product code	vending machine
+000691	?	take	goods	code	vending machine
+000692	?	take	goods	machine	vending machine
+000693	?	find	machine	item	vending machine
+000694	?	find	machine	desired item	vending machine
+000695	?	find	machine	correct amount of change	vending machine
+000696	?	find	machine	correct amount of money	vending machine
+000697	?	find	machine	desired selection	vending machine
+000698	?	find	machine	selection	vending machine
+000699	?	find	machine	coins	vending machine
+000700	?	find	machine	change	vending machine
+000701	?	find	machine	right money	vending machine
+000702	?	find	machine	money	vending machine
+000703	?	find	machine	product	vending machine
+000704	?	find	machine	goods	vending machine
+000705	?	find	machine	button	vending machine
+000706	?	find	machine	appropriate buttons	vending machine
+000707	?	find	machine	any	vending machine
+000708	?	find	machine	you	vending machine
+000709	?	find	machine	product code	vending machine
+000710	?	find	machine	code	vending machine
+000711	?	recieve	item	desired item	vending machine
+000712	?	recieve	item	correct amount of change	vending machine
+000713	?	recieve	item	correct amount of money	vending machine
+000714	?	recieve	item	desired selection	vending machine
+000715	?	recieve	item	selection	vending machine
+000716	?	recieve	item	coins	vending machine
+000717	?	recieve	item	change	vending machine
+000718	?	recieve	item	right money	vending machine
+000719	?	recieve	item	money	vending machine
+000720	?	recieve	item	product	vending machine
+000721	?	recieve	item	goods	vending machine
+000722	?	recieve	item	button	vending machine
+000723	?	recieve	item	appropriate buttons	vending machine
+000724	?	recieve	item	any	vending machine
+000725	?	recieve	item	you	vending machine
+000726	?	recieve	item	product code	vending machine
+000727	?	recieve	item	code	vending machine
+000728	?	recieve	item	machine	vending machine
+000729	?	feel	thirst	item	vending machine
+000730	?	feel	thirst	desired item	vending machine
+000731	?	feel	thirst	correct amount of change	vending machine
+000732	?	feel	thirst	correct amount of money	vending machine
+000733	?	feel	thirst	desired selection	vending machine
+000734	?	feel	thirst	selection	vending machine
+000735	?	feel	thirst	coins	vending machine
+000736	?	feel	thirst	change	vending machine
+000737	?	feel	thirst	right money	vending machine
+000738	?	feel	thirst	money	vending machine
+000739	?	feel	thirst	product	vending machine
+000740	?	feel	thirst	goods	vending machine
+000741	?	feel	thirst	button	vending machine
+000742	?	feel	thirst	appropriate buttons	vending machine
+000743	?	feel	thirst	any	vending machine
+000744	?	feel	thirst	you	vending machine
+000745	?	feel	thirst	product code	vending machine
+000746	?	feel	thirst	code	vending machine
+000747	?	feel	thirst	machine	vending machine
+000748	?	remove	item	desired item	vending machine
+000749	?	remove	item	correct amount of change	vending machine
+000750	?	remove	item	correct amount of money	vending machine
+000751	?	remove	item	desired selection	vending machine
+000752	?	remove	item	selection	vending machine
+000753	?	remove	item	coins	vending machine
+000754	?	remove	item	change	vending machine
+000755	?	remove	item	right money	vending machine
+000756	?	remove	item	money	vending machine
+000757	?	remove	item	product	vending machine
+000758	?	remove	item	goods	vending machine
+000759	?	remove	item	button	vending machine
+000760	?	remove	item	appropriate buttons	vending machine
+000761	?	remove	item	any	vending machine
+000762	?	remove	item	you	vending machine
+000763	?	remove	item	product code	vending machine
+000764	?	remove	item	code	vending machine
+000765	?	remove	item	machine	vending machine
+000766	?	open	door	item	vending machine
+000767	?	open	door	desired item	vending machine
+000768	?	open	door	correct amount of change	vending machine
+000769	?	open	door	correct amount of money	vending machine
+000770	?	open	door	desired selection	vending machine
+000771	?	open	door	selection	vending machine
+000772	?	open	door	coins	vending machine
+000773	?	open	door	change	vending machine
+000774	?	open	door	right money	vending machine
+000775	?	open	door	money	vending machine
+000776	?	open	door	product	vending machine
+000777	?	open	door	goods	vending machine
+000778	?	open	door	button	vending machine
+000779	?	open	door	appropriate buttons	vending machine
+000780	?	open	door	any	vending machine
+000781	?	open	door	you	vending machine
+000782	?	open	door	product code	vending machine
+000783	?	open	door	code	vending machine
+000784	?	open	door	machine	vending machine
+000785	?	take	required money	item	vending machine
+000786	?	take	required money	desired item	vending machine
+000787	?	take	required money	correct amount of change	vending machine
+000788	?	take	required money	correct amount of money	vending machine
+000789	?	take	required money	desired selection	vending machine
+000790	?	take	required money	selection	vending machine
+000791	?	take	required money	coins	vending machine
+000792	?	take	required money	change	vending machine
+000793	?	take	required money	right money	vending machine
+000794	?	take	required money	money	vending machine
+000795	?	take	required money	product	vending machine
+000796	?	take	required money	goods	vending machine
+000797	?	take	required money	button	vending machine
+000798	?	take	required money	appropriate buttons	vending machine
+000799	?	take	required money	any	vending machine
+000800	?	take	required money	you	vending machine
+000801	?	take	required money	product code	vending machine
+000802	?	take	required money	code	vending machine
+000803	?	take	required money	machine	vending machine
+000804	?	insert	correct amount	item	vending machine
+000805	?	insert	correct amount	desired item	vending machine
+000806	?	insert	correct amount	correct amount of change	vending machine
+000807	?	insert	correct amount	correct amount of money	vending machine
+000808	?	insert	correct amount	desired selection	vending machine
+000809	?	insert	correct amount	selection	vending machine
+000810	?	insert	correct amount	coins	vending machine
+000811	?	insert	correct amount	change	vending machine
+000812	?	insert	correct amount	right money	vending machine
+000813	?	insert	correct amount	money	vending machine
+000814	?	insert	correct amount	product	vending machine
+000815	?	insert	correct amount	goods	vending machine
+000816	?	insert	correct amount	button	vending machine
+000817	?	insert	correct amount	appropriate buttons	vending machine
+000818	?	insert	correct amount	any	vending machine
+000819	?	insert	correct amount	you	vending machine
+000820	?	insert	correct amount	product code	vending machine
+000821	?	insert	correct amount	code	vending machine
+000822	?	insert	correct amount	machine	vending machine
+000823	?	obtain	purchased item	item	vending machine
+000824	?	obtain	purchased item	desired item	vending machine
+000825	?	obtain	purchased item	correct amount of change	vending machine
+000826	?	obtain	purchased item	correct amount of money	vending machine
+000827	?	obtain	purchased item	desired selection	vending machine
+000828	?	obtain	purchased item	selection	vending machine
+000829	?	obtain	purchased item	coins	vending machine
+000830	?	obtain	purchased item	change	vending machine
+000831	?	obtain	purchased item	right money	vending machine
+000832	?	obtain	purchased item	money	vending machine
+000833	?	obtain	purchased item	product	vending machine
+000834	?	obtain	purchased item	goods	vending machine
+000835	?	obtain	purchased item	button	vending machine
+000836	?	obtain	purchased item	appropriate buttons	vending machine
+000837	?	obtain	purchased item	any	vending machine
+000838	?	obtain	purchased item	you	vending machine
+000839	?	obtain	purchased item	product code	vending machine
+000840	?	obtain	purchased item	code	vending machine
+000841	?	obtain	purchased item	machine	vending machine
+000842	?	determine	desired product	item	vending machine
+000843	?	determine	desired product	desired item	vending machine
+000844	?	determine	desired product	correct amount of change	vending machine
+000845	?	determine	desired product	correct amount of money	vending machine
+000846	?	determine	desired product	desired selection	vending machine
+000847	?	determine	desired product	selection	vending machine
+000848	?	determine	desired product	coins	vending machine
+000849	?	determine	desired product	change	vending machine
+000850	?	determine	desired product	right money	vending machine
+000851	?	determine	desired product	money	vending machine
+000852	?	determine	desired product	product	vending machine
+000853	?	determine	desired product	goods	vending machine
+000854	?	determine	desired product	button	vending machine
+000855	?	determine	desired product	appropriate buttons	vending machine
+000856	?	determine	desired product	any	vending machine
+000857	?	determine	desired product	you	vending machine
+000858	?	determine	desired product	product code	vending machine
+000859	?	determine	desired product	code	vending machine
+000860	?	determine	desired product	machine	vending machine
+000861	?	pick	product	item	vending machine
+000862	?	pick	product	desired item	vending machine
+000863	?	pick	product	correct amount of change	vending machine
+000864	?	pick	product	correct amount of money	vending machine
+000865	?	pick	product	desired selection	vending machine
+000866	?	pick	product	selection	vending machine
+000867	?	pick	product	coins	vending machine
+000868	?	pick	product	change	vending machine
+000869	?	pick	product	right money	vending machine
+000870	?	pick	product	money	vending machine
+000871	?	pick	product	goods	vending machine
+000872	?	pick	product	button	vending machine
+000873	?	pick	product	appropriate buttons	vending machine
+000874	?	pick	product	any	vending machine
+000875	?	pick	product	you	vending machine
+000876	?	pick	product	product code	vending machine
+000877	?	pick	product	code	vending machine
+000878	?	pick	product	machine	vending machine
+000879	?	select	desired item	item	vending machine
+000880	?	select	desired item	correct amount of change	vending machine
+000881	?	select	desired item	correct amount of money	vending machine
+000882	?	select	desired item	desired selection	vending machine
+000883	?	select	desired item	selection	vending machine
+000884	?	select	desired item	coins	vending machine
+000885	?	select	desired item	change	vending machine
+000886	?	select	desired item	right money	vending machine
+000887	?	select	desired item	money	vending machine
+000888	?	select	desired item	product	vending machine
+000889	?	select	desired item	goods	vending machine
+000890	?	select	desired item	button	vending machine
+000891	?	select	desired item	appropriate buttons	vending machine
+000892	?	select	desired item	any	vending machine
+000893	?	select	desired item	you	vending machine
+000894	?	select	desired item	product code	vending machine
+000895	?	select	desired item	code	vending machine
+000896	?	select	desired item	machine	vending machine
+000897	?	put	correct money	item	vending machine
+000898	?	put	correct money	desired item	vending machine
+000899	?	put	correct money	correct amount of change	vending machine
+000900	?	put	correct money	correct amount of money	vending machine
+000901	?	put	correct money	desired selection	vending machine
+000902	?	put	correct money	selection	vending machine
+000903	?	put	correct money	coins	vending machine
+000904	?	put	correct money	change	vending machine
+000905	?	put	correct money	right money	vending machine
+000906	?	put	correct money	money	vending machine
+000907	?	put	correct money	product	vending machine
+000908	?	put	correct money	goods	vending machine
+000909	?	put	correct money	button	vending machine
+000910	?	put	correct money	appropriate buttons	vending machine
+000911	?	put	correct money	any	vending machine
+000912	?	put	correct money	you	vending machine
+000913	?	put	correct money	product code	vending machine
+000914	?	put	correct money	code	vending machine
+000915	?	put	correct money	machine	vending machine
+000916	?	locate	coins	item	vending machine
+000917	?	locate	coins	desired item	vending machine
+000918	?	locate	coins	correct amount of change	vending machine
+000919	?	locate	coins	correct amount of money	vending machine
+000920	?	locate	coins	desired selection	vending machine
+000921	?	locate	coins	selection	vending machine
+000922	?	locate	coins	change	vending machine
+000923	?	locate	coins	right money	vending machine
+000924	?	locate	coins	money	vending machine
+000925	?	locate	coins	product	vending machine
+000926	?	locate	coins	goods	vending machine
+000927	?	locate	coins	button	vending machine
+000928	?	locate	coins	appropriate buttons	vending machine
+000929	?	locate	coins	any	vending machine
+000930	?	locate	coins	you	vending machine
+000931	?	locate	coins	product code	vending machine
+000932	?	locate	coins	code	vending machine
+000933	?	locate	coins	machine	vending machine
+000934	?	choose	vendindg machine	item	vending machine
+000935	?	choose	vendindg machine	desired item	vending machine
+000936	?	choose	vendindg machine	correct amount of change	vending machine
+000937	?	choose	vendindg machine	correct amount of money	vending machine
+000938	?	choose	vendindg machine	desired selection	vending machine
+000939	?	choose	vendindg machine	selection	vending machine
+000940	?	choose	vendindg machine	coins	vending machine
+000941	?	choose	vendindg machine	change	vending machine
+000942	?	choose	vendindg machine	right money	vending machine
+000943	?	choose	vendindg machine	money	vending machine
+000944	?	choose	vendindg machine	product	vending machine
+000945	?	choose	vendindg machine	goods	vending machine
+000946	?	choose	vendindg machine	button	vending machine
+000947	?	choose	vendindg machine	appropriate buttons	vending machine
+000948	?	choose	vendindg machine	any	vending machine
+000949	?	choose	vendindg machine	you	vending machine
+000950	?	choose	vendindg machine	product code	vending machine
+000951	?	choose	vendindg machine	code	vending machine
+000952	?	choose	vendindg machine	machine	vending machine
+000953	?	press	number	item	vending machine
+000954	?	press	number	desired item	vending machine
+000955	?	press	number	correct amount of change	vending machine
+000956	?	press	number	correct amount of money	vending machine
+000957	?	press	number	desired selection	vending machine
+000958	?	press	number	selection	vending machine
+000959	?	press	number	coins	vending machine
+000960	?	press	number	change	vending machine
+000961	?	press	number	right money	vending machine
+000962	?	press	number	money	vending machine
+000963	?	press	number	product	vending machine
+000964	?	press	number	goods	vending machine
+000965	?	press	number	button	vending machine
+000966	?	press	number	appropriate buttons	vending machine
+000967	?	press	number	any	vending machine
+000968	?	press	number	you	vending machine
+000969	?	press	number	product code	vending machine
+000970	?	press	number	code	vending machine
+000971	?	press	number	machine	vending machine
+000972	?	get	item	desired item	vending machine
+000973	?	get	item	correct amount of change	vending machine
+000974	?	get	item	correct amount of money	vending machine
+000975	?	get	item	desired selection	vending machine
+000976	?	get	item	selection	vending machine
+000977	?	get	item	coins	vending machine
+000978	?	get	item	change	vending machine
+000979	?	get	item	right money	vending machine
+000980	?	get	item	money	vending machine
+000981	?	get	item	product	vending machine
+000982	?	get	item	goods	vending machine
+000983	?	get	item	button	vending machine
+000984	?	get	item	appropriate buttons	vending machine
+000985	?	get	item	any	vending machine
+000986	?	get	item	you	vending machine
+000987	?	get	item	product code	vending machine
+000988	?	get	item	code	vending machine
+000989	?	get	item	machine	vending machine
+000990	?	count	money	item	vending machine
+000991	?	count	money	desired item	vending machine
+000992	?	count	money	correct amount of change	vending machine
+000993	?	count	money	correct amount of money	vending machine
+000994	?	count	money	desired selection	vending machine
+000995	?	count	money	selection	vending machine
+000996	?	count	money	coins	vending machine
+000997	?	count	money	change	vending machine
+000998	?	count	money	right money	vending machine
+000999	?	count	money	product	vending machine
+001000	?	count	money	goods	vending machine
+001001	?	count	money	button	vending machine
+001002	?	count	money	appropriate buttons	vending machine
+001003	?	count	money	any	vending machine
+001004	?	count	money	you	vending machine
+001005	?	count	money	product code	vending machine
+001006	?	count	money	code	vending machine
+001007	?	count	money	machine	vending machine
+001008	?	obtain	change	item	vending machine
+001009	?	obtain	change	desired item	vending machine
+001010	?	obtain	change	correct amount of change	vending machine
+001011	?	obtain	change	correct amount of money	vending machine
+001012	?	obtain	change	desired selection	vending machine
+001013	?	obtain	change	selection	vending machine
+001014	?	obtain	change	coins	vending machine
+001015	?	obtain	change	right money	vending machine
+001016	?	obtain	change	money	vending machine
+001017	?	obtain	change	product	vending machine
+001018	?	obtain	change	goods	vending machine
+001019	?	obtain	change	button	vending machine
+001020	?	obtain	change	appropriate buttons	vending machine
+001021	?	obtain	change	any	vending machine
+001022	?	obtain	change	you	vending machine
+001023	?	obtain	change	product code	vending machine
+001024	?	obtain	change	code	vending machine
+001025	?	obtain	change	machine	vending machine
+001026	?	put	money	item	vending machine
+001027	?	put	money	desired item	vending machine
+001028	?	put	money	correct amount of change	vending machine
+001029	?	put	money	correct amount of money	vending machine
+001030	?	put	money	desired selection	vending machine
+001031	?	put	money	selection	vending machine
+001032	?	put	money	coins	vending machine
+001033	?	put	money	change	vending machine
+001034	?	put	money	right money	vending machine
+001035	?	put	money	product	vending machine
+001036	?	put	money	goods	vending machine
+001037	?	put	money	button	vending machine
+001038	?	put	money	appropriate buttons	vending machine
+001039	?	put	money	any	vending machine
+001040	?	put	money	you	vending machine
+001041	?	put	money	product code	vending machine
+001042	?	put	money	code	vending machine
+001043	?	put	money	machine	vending machine
+001044	?	open	slot	item	vending machine
+001045	?	open	slot	desired item	vending machine
+001046	?	open	slot	correct amount of change	vending machine
+001047	?	open	slot	correct amount of money	vending machine
+001048	?	open	slot	desired selection	vending machine
+001049	?	open	slot	selection	vending machine
+001050	?	open	slot	coins	vending machine
+001051	?	open	slot	change	vending machine
+001052	?	open	slot	right money	vending machine
+001053	?	open	slot	money	vending machine
+001054	?	open	slot	product	vending machine
+001055	?	open	slot	goods	vending machine
+001056	?	open	slot	button	vending machine
+001057	?	open	slot	appropriate buttons	vending machine
+001058	?	open	slot	any	vending machine
+001059	?	open	slot	you	vending machine
+001060	?	open	slot	product code	vending machine
+001061	?	open	slot	code	vending machine
+001062	?	open	slot	machine	vending machine
+001063	?	buy	machine	item	vending machine
+001064	?	buy	machine	desired item	vending machine
+001065	?	buy	machine	correct amount of change	vending machine
+001066	?	buy	machine	correct amount of money	vending machine
+001067	?	buy	machine	desired selection	vending machine
+001068	?	buy	machine	selection	vending machine
+001069	?	buy	machine	coins	vending machine
+001070	?	buy	machine	change	vending machine
+001071	?	buy	machine	right money	vending machine
+001072	?	buy	machine	money	vending machine
+001073	?	buy	machine	product	vending machine
+001074	?	buy	machine	goods	vending machine
+001075	?	buy	machine	button	vending machine
+001076	?	buy	machine	appropriate buttons	vending machine
+001077	?	buy	machine	any	vending machine
+001078	?	buy	machine	you	vending machine
+001079	?	buy	machine	product code	vending machine
+001080	?	buy	machine	code	vending machine
+001081	?	consume	product	item	vending machine
+001082	?	consume	product	desired item	vending machine
+001083	?	consume	product	correct amount of change	vending machine
+001084	?	consume	product	correct amount of money	vending machine
+001085	?	consume	product	desired selection	vending machine
+001086	?	consume	product	selection	vending machine
+001087	?	consume	product	coins	vending machine
+001088	?	consume	product	change	vending machine
+001089	?	consume	product	right money	vending machine
+001090	?	consume	product	money	vending machine
+001091	?	consume	product	goods	vending machine
+001092	?	consume	product	button	vending machine
+001093	?	consume	product	appropriate buttons	vending machine
+001094	?	consume	product	any	vending machine
+001095	?	consume	product	you	vending machine
+001096	?	consume	product	product code	vending machine
+001097	?	consume	product	code	vending machine
+001098	?	consume	product	machine	vending machine
+001099	?	change	paper money	item	vending machine
+001100	?	change	paper money	desired item	vending machine
+001101	?	change	paper money	correct amount of change	vending machine
+001102	?	change	paper money	correct amount of money	vending machine
+001103	?	change	paper money	desired selection	vending machine
+001104	?	change	paper money	selection	vending machine
+001105	?	change	paper money	coins	vending machine
+001106	?	change	paper money	change	vending machine
+001107	?	change	paper money	right money	vending machine
+001108	?	change	paper money	money	vending machine
+001109	?	change	paper money	product	vending machine
+001110	?	change	paper money	goods	vending machine
+001111	?	change	paper money	button	vending machine
+001112	?	change	paper money	appropriate buttons	vending machine
+001113	?	change	paper money	any	vending machine
+001114	?	change	paper money	you	vending machine
+001115	?	change	paper money	product code	vending machine
+001116	?	change	paper money	code	vending machine
+001117	?	change	paper money	machine	vending machine
+001118	?	enter	product code	item	vending machine
+001119	?	enter	product code	desired item	vending machine
+001120	?	enter	product code	correct amount of change	vending machine
+001121	?	enter	product code	correct amount of money	vending machine
+001122	?	enter	product code	desired selection	vending machine
+001123	?	enter	product code	selection	vending machine
+001124	?	enter	product code	coins	vending machine
+001125	?	enter	product code	change	vending machine
+001126	?	enter	product code	right money	vending machine
+001127	?	enter	product code	money	vending machine
+001128	?	enter	product code	product	vending machine
+001129	?	enter	product code	goods	vending machine
+001130	?	enter	product code	button	vending machine
+001131	?	enter	product code	appropriate buttons	vending machine
+001132	?	enter	product code	any	vending machine
+001133	?	enter	product code	you	vending machine
+001134	?	enter	product code	code	vending machine
+001135	?	enter	product code	machine	vending machine
+001136	?	press	selection	item	vending machine
+001137	?	press	selection	desired item	vending machine
+001138	?	press	selection	correct amount of change	vending machine
+001139	?	press	selection	correct amount of money	vending machine
+001140	?	press	selection	desired selection	vending machine
+001141	?	press	selection	coins	vending machine
+001142	?	press	selection	change	vending machine
+001143	?	press	selection	right money	vending machine
+001144	?	press	selection	money	vending machine
+001145	?	press	selection	product	vending machine
+001146	?	press	selection	goods	vending machine
+001147	?	press	selection	button	vending machine
+001148	?	press	selection	appropriate buttons	vending machine
+001149	?	press	selection	any	vending machine
+001150	?	press	selection	you	vending machine
+001151	?	press	selection	product code	vending machine
+001152	?	press	selection	code	vending machine
+001153	?	press	selection	machine	vending machine
+001154	?	get	change	item	vending machine
+001155	?	get	change	desired item	vending machine
+001156	?	get	change	correct amount of change	vending machine
+001157	?	get	change	correct amount of money	vending machine
+001158	?	get	change	desired selection	vending machine
+001159	?	get	change	selection	vending machine
+001160	?	get	change	coins	vending machine
+001161	?	get	change	right money	vending machine
+001162	?	get	change	money	vending machine
+001163	?	get	change	product	vending machine
+001164	?	get	change	goods	vending machine
+001165	?	get	change	button	vending machine
+001166	?	get	change	appropriate buttons	vending machine
+001167	?	get	change	any	vending machine
+001168	?	get	change	you	vending machine
+001169	?	get	change	product code	vending machine
+001170	?	get	change	code	vending machine
+001171	?	get	change	machine	vending machine
+001172	?	choose	item	desired item	vending machine
+001173	?	choose	item	correct amount of change	vending machine
+001174	?	choose	item	correct amount of money	vending machine
+001175	?	choose	item	desired selection	vending machine
+001176	?	choose	item	selection	vending machine
+001177	?	choose	item	coins	vending machine
+001178	?	choose	item	change	vending machine
+001179	?	choose	item	right money	vending machine
+001180	?	choose	item	money	vending machine
+001181	?	choose	item	product	vending machine
+001182	?	choose	item	goods	vending machine
+001183	?	choose	item	button	vending machine
+001184	?	choose	item	appropriate buttons	vending machine
+001185	?	choose	item	any	vending machine
+001186	?	choose	item	you	vending machine
+001187	?	choose	item	product code	vending machine
+001188	?	choose	item	code	vending machine
+001189	?	choose	item	machine	vending machine
+001190	?	insert	funds	item	vending machine
+001191	?	insert	funds	desired item	vending machine
+001192	?	insert	funds	correct amount of change	vending machine
+001193	?	insert	funds	correct amount of money	vending machine
+001194	?	insert	funds	desired selection	vending machine
+001195	?	insert	funds	selection	vending machine
+001196	?	insert	funds	coins	vending machine
+001197	?	insert	funds	change	vending machine
+001198	?	insert	funds	right money	vending machine
+001199	?	insert	funds	money	vending machine
+001200	?	insert	funds	product	vending machine
+001201	?	insert	funds	goods	vending machine
+001202	?	insert	funds	button	vending machine
+001203	?	insert	funds	appropriate buttons	vending machine
+001204	?	insert	funds	any	vending machine
+001205	?	insert	funds	you	vending machine
+001206	?	insert	funds	product code	vending machine
+001207	?	insert	funds	code	vending machine
+001208	?	insert	funds	machine	vending machine
+001209	?	retreive	selection	item	vending machine
+001210	?	retreive	selection	desired item	vending machine
+001211	?	retreive	selection	correct amount of change	vending machine
+001212	?	retreive	selection	correct amount of money	vending machine
+001213	?	retreive	selection	desired selection	vending machine
+001214	?	retreive	selection	coins	vending machine
+001215	?	retreive	selection	change	vending machine
+001216	?	retreive	selection	right money	vending machine
+001217	?	retreive	selection	money	vending machine
+001218	?	retreive	selection	product	vending machine
+001219	?	retreive	selection	goods	vending machine
+001220	?	retreive	selection	button	vending machine
+001221	?	retreive	selection	appropriate buttons	vending machine
+001222	?	retreive	selection	any	vending machine
+001223	?	retreive	selection	you	vending machine
+001224	?	retreive	selection	product code	vending machine
+001225	?	retreive	selection	code	vending machine
+001226	?	retreive	selection	machine	vending machine
+001227	?	grabbing	item	desired item	vending machine
+001228	?	grabbing	item	correct amount of change	vending machine
+001229	?	grabbing	item	correct amount of money	vending machine
+001230	?	grabbing	item	desired selection	vending machine
+001231	?	grabbing	item	selection	vending machine
+001232	?	grabbing	item	coins	vending machine
+001233	?	grabbing	item	change	vending machine
+001234	?	grabbing	item	right money	vending machine
+001235	?	grabbing	item	money	vending machine
+001236	?	grabbing	item	product	vending machine
+001237	?	grabbing	item	goods	vending machine
+001238	?	grabbing	item	button	vending machine
+001239	?	grabbing	item	appropriate buttons	vending machine
+001240	?	grabbing	item	any	vending machine
+001241	?	grabbing	item	you	vending machine
+001242	?	grabbing	item	product code	vending machine
+001243	?	grabbing	item	code	vending machine
+001244	?	grabbing	item	machine	vending machine
+001245	?	press	selection button	item	vending machine
+001246	?	press	selection button	desired item	vending machine
+001247	?	press	selection button	correct amount of change	vending machine
+001248	?	press	selection button	correct amount of money	vending machine
+001249	?	press	selection button	desired selection	vending machine
+001250	?	press	selection button	selection	vending machine
+001251	?	press	selection button	coins	vending machine
+001252	?	press	selection button	change	vending machine
+001253	?	press	selection button	right money	vending machine
+001254	?	press	selection button	money	vending machine
+001255	?	press	selection button	product	vending machine
+001256	?	press	selection button	goods	vending machine
+001257	?	press	selection button	button	vending machine
+001258	?	press	selection button	appropriate buttons	vending machine
+001259	?	press	selection button	any	vending machine
+001260	?	press	selection button	you	vending machine
+001261	?	press	selection button	product code	vending machine
+001262	?	press	selection button	code	vending machine
+001263	?	press	selection button	machine	vending machine
+001264	?	put	coins	item	vending machine
+001265	?	put	coins	desired item	vending machine
+001266	?	put	coins	correct amount of change	vending machine
+001267	?	put	coins	correct amount of money	vending machine
+001268	?	put	coins	desired selection	vending machine
+001269	?	put	coins	selection	vending machine
+001270	?	put	coins	change	vending machine
+001271	?	put	coins	right money	vending machine
+001272	?	put	coins	money	vending machine
+001273	?	put	coins	product	vending machine
+001274	?	put	coins	goods	vending machine
+001275	?	put	coins	button	vending machine
+001276	?	put	coins	appropriate buttons	vending machine
+001277	?	put	coins	any	vending machine
+001278	?	put	coins	you	vending machine
+001279	?	put	coins	product code	vending machine
+001280	?	put	coins	code	vending machine
+001281	?	put	coins	machine	vending machine
+001282	?	push	button	item	vending machine
+001283	?	push	button	desired item	vending machine
+001284	?	push	button	correct amount of change	vending machine
+001285	?	push	button	correct amount of money	vending machine
+001286	?	push	button	desired selection	vending machine
+001287	?	push	button	selection	vending machine
+001288	?	push	button	coins	vending machine
+001289	?	push	button	change	vending machine
+001290	?	push	button	right money	vending machine
+001291	?	push	button	money	vending machine
+001292	?	push	button	product	vending machine
+001293	?	push	button	goods	vending machine
+001294	?	push	button	appropriate buttons	vending machine
+001295	?	push	button	any	vending machine
+001296	?	push	button	you	vending machine
+001297	?	push	button	product code	vending machine
+001298	?	push	button	code	vending machine
+001299	?	push	button	machine	vending machine
+001300	?	recieving	change	item	vending machine
+001301	?	recieving	change	desired item	vending machine
+001302	?	recieving	change	correct amount of change	vending machine
+001303	?	recieving	change	correct amount of money	vending machine
+001304	?	recieving	change	desired selection	vending machine
+001305	?	recieving	change	selection	vending machine
+001306	?	recieving	change	coins	vending machine
+001307	?	recieving	change	right money	vending machine
+001308	?	recieving	change	money	vending machine
+001309	?	recieving	change	product	vending machine
+001310	?	recieving	change	goods	vending machine
+001311	?	recieving	change	button	vending machine
+001312	?	recieving	change	appropriate buttons	vending machine
+001313	?	recieving	change	any	vending machine
+001314	?	recieving	change	you	vending machine
+001315	?	recieving	change	product code	vending machine
+001316	?	recieving	change	code	vending machine
+001317	?	recieving	change	machine	vending machine

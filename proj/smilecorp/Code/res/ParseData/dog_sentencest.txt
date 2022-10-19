@@ -1,0 +1,971 @@
+dobj(call-1, dog-2)
+call dog .
+
+
+dobj(get-1, food-2)
+get food .
+
+
+dep(bowl-6, put-1)
+dobj(put-1, food-2)
+prep_in(put-1, dog-4)
+nsubj(bowl-6, s-5)
+put food in dog s bowl .
+
+
+prt(take-1, out-2)
+det(food-5, the-3)
+nn(food-5, dog-4)
+dobj(take-1, food-5)
+take out the dog food .
+
+
+det(food-4, the-2)
+nn(food-4, dog-3)
+dobj(put-1, food-4)
+det(bowl-8, the-6)
+nn(bowl-8, dog-7)
+prep_into(put-1, bowl-8)
+put the dog food into the dog bowl .
+
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+call the dog .
+
+
+nn(dish-4, dog-2)
+nn(dish-4, food-3)
+dobj(place-1, dish-4)
+det(floor-7, the-6)
+prep_on(place-1, floor-7)
+place dog food dish on the floor .
+
+
+nn(food-3, dog-2)
+dobj(remove-1, food-3)
+prep(remove-1, from-4)
+nsubj(area-8, it-5)
+cop(area-8, s-6)
+nn(area-8, storage-7)
+dep(from-4, area-8)
+remove dog food from it s storage area .
+
+
+det(food-4, the-2)
+nn(food-4, dog-3)
+dobj(carry-1, food-4)
+det(dish-7, the-6)
+prep_to(carry-1, dish-7)
+carry the dog food to the dish .
+
+
+nn(food-3, dog-2)
+dobj(pour-1, food-3)
+det(dish-6, the-5)
+prep_into(pour-1, dish-6)
+mark(full-10, until-7)
+nsubj(full-10, it-8)
+cop(full-10, is-9)
+advcl(pour-1, full-10)
+pour dog food into the dish until it is full .
+
+
+amod(dog-3, pet-2)
+nsubj(has-4, dog-3)
+dep(ensure-1, has-4)
+dobj(has-4, access-5)
+det(dish-8, the-7)
+prep_to(access-5, dish-8)
+ensure pet dog has access to the dish .
+
+
+amod(food-3, open-1)
+nn(food-3, dog-2)
+nsubj(can-4, food-3)
+open dog food can .
+
+
+nn(food-3, dog-2)
+dobj(put-1, food-3)
+nn(dish-7, dog-5)
+nn(dish-7, food-6)
+prep_into(put-1, dish-7)
+put dog food into dog food dish .
+
+
+dobj(alert-1, dog-2)
+complm(is-5, that-3)
+nsubj(is-5, food-4)
+ccomp(alert-1, is-5)
+prep_in(is-5, dish-7)
+alert dog that food is in dish .
+
+
+csubj(food-5, find-1)
+det(dog-3, the-2)
+dobj(find-1, dog-3)
+cop(food-5, s-4)
+find the dog s food .
+
+
+csubj(bowl-6, find-1)
+det(dog-3, the-2)
+dobj(find-1, dog-3)
+cop(bowl-6, s-4)
+nn(bowl-6, food-5)
+find the dog s food bowl .
+
+
+det(food-3, some-2)
+dobj(place-1, food-3)
+det(bowl-7, the-5)
+nn(bowl-7, food-6)
+prep_into(place-1, bowl-7)
+place some food into the food bowl .
+
+
+csubj(bowl-6, find-1)
+det(dog-3, the-2)
+dobj(find-1, dog-3)
+cop(bowl-6, s-4)
+nn(bowl-6, water-5)
+find the dog s water bowl .
+
+
+dobj(add-1, water-2)
+det(bowl-6, the-4)
+nn(bowl-6, water-5)
+prep_to(add-1, bowl-6)
+mark(full-12, if-7)
+nsubj(full-12, it-8)
+cop(full-12, is-9)
+neg(full-12, not-10)
+advmod(full-12, almost-11)
+advcl(add-1, full-12)
+add water to the water bowl if it is not almost full .
+
+
+det(opener-4, a-2)
+nn(opener-4, tin-3)
+dobj(get-1, opener-4)
+get a tin opener .
+
+
+det(tin-3, a-2)
+dobj(get-1, tin-3)
+nn(food-6, dog-5)
+prep_of(tin-3, food-6)
+get a tin of dog food .
+
+
+det(tin-3, the-2)
+dobj(open-1, tin-3)
+open the tin .
+
+
+dobj(pour-1, it-2)
+det(bowl-6, the-4)
+nn(bowl-6, dog-5)
+prep_in(pour-1, bowl-6)
+pour it in the dog bowl .
+
+
+det(tin-3, the-2)
+dobj(put-1, tin-3)
+det(bin-6, the-5)
+prep_in(put-1, bin-6)
+put the tin in the bin .
+
+
+det(opener-4, the-2)
+nn(opener-4, tin-3)
+dobj(put-1, opener-4)
+prt(put-1, away-5)
+put the tin opener away .
+
+
+det(dog-3, the-2)
+dobj(get-1, dog-3)
+iobj(get-1, dog-3)
+dep(dog-3, s-4)
+nn(dish-6, food-5)
+dobj(get-1, dish-6)
+dep(dog-3, dish-6)
+get the dog s food dish .
+
+
+det(bag-5, the-2)
+nn(bag-5, dog-3)
+nn(bag-5, food-4)
+dobj(open-1, bag-5)
+open the dog food bag .
+
+
+det(food-4, some-2)
+nn(food-4, dog-3)
+dobj(pour-1, food-4)
+det(dish-7, the-6)
+prep_into(pour-1, dish-7)
+det(bag-10, the-9)
+prep_from(dish-7, bag-10)
+pour some dog food into the dish from the bag .
+
+
+det(dish-5, the-2)
+amod(dish-5, full-3)
+nn(dish-5, food-4)
+dobj(put-1, dish-5)
+amod(fo-8, front-7)
+prep_in(put-1, fo-8)
+det(dog-10, the-9)
+dobj(put-1, dog-10)
+put the full food dish in front fo the dog .
+
+
+csubj(bowl-6, find-1)
+det(dog-3, the-2)
+dobj(find-1, dog-3)
+cop(bowl-6, s-4)
+nn(bowl-6, food-5)
+find the dog s food bowl .
+
+
+nn(food-3, dog-2)
+dobj(find-1, food-3)
+find dog food .
+
+
+det(food-4, some-2)
+nn(food-4, dog-3)
+dobj(put-1, food-4)
+det(bowl-8, the-6)
+nn(bowl-8, food-7)
+prep_into(put-1, bowl-8)
+put some dog food into the food bowl .
+
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+aux(come-5, to-4)
+infmod(dog-3, come-5)
+infmod(dog-3, eat-7)
+conj_and(come-5, eat-7)
+call the dog to come and eat .
+
+
+det(bag-3, a-2)
+dobj(open-1, bag-3)
+nn(food-6, dog-5)
+prep_of(bag-3, food-6)
+open a bag of dog food .
+
+
+det(food-4, the-2)
+nn(food-4, dog-3)
+dobj(put-1, food-4)
+det(plate-7, a-6)
+prep_on(put-1, plate-7)
+put the dog food on a plate .
+
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+advmod(is-8, where-5)
+det(plate-7, the-6)
+nsubj(is-8, plate-7)
+prepc_to(call-1, is-8)
+call the dog to where the plate is .
+
+
+nn(food-3, dog-2)
+dobj(get-1, food-3)
+get dog food .
+
+
+nn(food-3, dog-2)
+dobj(put-1, food-3)
+prep_in(put-1, bowl-5)
+put dog food in bowl .
+
+
+dobj(call-1, dog-2)
+prep_to(call-1, bowl-4)
+call dog to bowl .
+
+
+det(dog-4, the-3)
+prep_for(wait-1, dog-4)
+dep(dog-4, s-5)
+nn(time-7, meal-6)
+dep(dog-4, time-7)
+wait for the dog s meal time .
+
+
+csubj(bowl-9, put-1)
+nn(food-3, dog-2)
+dobj(put-1, food-3)
+det(dog-6, the-5)
+prep_into(put-1, dog-6)
+cop(bowl-9, s-7)
+nn(bowl-9, food-8)
+put dog food into the dog s food bowl .
+
+
+dobj(put-1, water-2)
+det(dog-5, the-4)
+prep_into(put-1, dog-5)
+dep(dog-5, s-6)
+nn(bowl-8, water-7)
+dep(dog-5, bowl-8)
+put water into the dog s water bowl .
+
+
+nsubj(bowls-2, place-1)
+det(dog-5, the-4)
+prep_in(bowls-2, dog-5)
+dep(dog-5, s-6)
+amod(spot-9, usual-7)
+nn(spot-9, meal-8)
+dep(dog-5, spot-9)
+place bowls in the dog s usual meal spot .
+
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+call the dog .
+
+
+dobj(get-1, can-2)
+prep_of(can-2, petfood-4)
+get can of petfood .
+
+
+dobj(open-1, can-2)
+prep_of(can-2, petfood-4)
+open can of petfood .
+
+
+dep(put-1, petfood-2)
+prep_in(petfood-2, bowl-4)
+put petfood in bowl .
+
+
+dobj(give-1, bowl-2)
+prep_to(give-1, pet-4)
+give bowl to pet .
+
+
+amod(can-4, empty-3)
+prep_of(dispose-1, can-4)
+dispose of empty can .
+
+
+dobj(locate-1, food-2)
+locate food .
+
+
+dobj(locate-1, dog-2)
+locate dog .
+
+
+nn(bowl-3, dogs-2)
+dobj(locate-1, bowl-3)
+locate dogs bowl .
+
+
+nn(food-3, dog-2)
+dobj(open-1, food-3)
+open dog food .
+
+
+nn(food-3, dog-2)
+dobj(put-1, food-3)
+nn(bowl-6, dogs-5)
+prep_in(put-1, bowl-6)
+put dog food in dogs bowl .
+
+
+dobj(notify-1, dog-2)
+nn(availability-5, food-4)
+prep_of(dog-2, availability-5)
+notify dog of food availability .
+
+
+dobj(encourage-1, dog-2)
+aux(eat-4, to-3)
+xcomp(encourage-1, eat-4)
+dobj(eat-4, food-5)
+encourage dog to eat food .
+
+
+dobj(scoop-1, food-2)
+scoop food .
+
+
+prep_in(place-1, bowl-3)
+place in bowl .
+
+
+det(bowl-3, a-2)
+dobj(get-1, bowl-3)
+get a bowl .
+
+
+det(foods-4, the-2)
+amod(foods-4, pet-3)
+dobj(put-1, foods-4)
+det(bowl-7, a-6)
+prep_in(put-1, bowl-7)
+put the pet foods in a bowl .
+
+
+dobj(give-1, water-2)
+give water .
+
+
+dobj(give-1, food-2)
+det(dog-5, the-4)
+prep_to(give-1, dog-5)
+give food to the dog .
+
+
+nn(dish-3, dog-2)
+dobj(identify-1, dish-3)
+identify dog dish .
+
+
+nn(food-3, dog-2)
+dobj(identify-1, food-3)
+identify dog food .
+
+
+amod(quantity-3, specified-2)
+dobj(pour-1, quantity-3)
+nn(food-6, dog-5)
+prep_of(quantity-3, food-6)
+nn(dish-9, dog-8)
+prep_into(pour-1, dish-9)
+pour specified quantity of dog food into dog dish .
+
+
+det(food-3, the-2)
+dobj(measure-1, food-3)
+measure the food .
+
+
+dobj(put-1, food-2)
+prep_in(put-1, bowl-4)
+put food in bowl .
+
+
+dobj(remove-1, food-2)
+prep_from(remove-1, pantry-4)
+remove food from pantry .
+
+
+dep(bowl-6, pour-1)
+dobj(pour-1, food-2)
+prep_into(pour-1, dog-4)
+nsubj(bowl-6, s-5)
+pour food into dog s bowl .
+
+
+dobj(give-1, bowl-2)
+prep_to(give-1, dog-4)
+give bowl to dog .
+
+
+det(food-3, the-2)
+dobj(take-1, food-3)
+take the food .
+
+
+dobj(give-1, food-2)
+det(dog-5, the-4)
+prep_for(give-1, dog-5)
+give food for the dog .
+
+
+amod(eyes-5, pitiful-3)
+amod(eyes-5, hungry-4)
+prep_into(look-1, eyes-5)
+look into pitiful hungry eyes .
+
+
+nn(dish-3, dog-2)
+dobj(find-1, dish-3)
+find dog dish .
+
+
+nn(dish-3, dog-2)
+dobj(clean-1, dish-3)
+clean dog dish .
+
+
+nn(food-3, dog-2)
+dobj(open-1, food-3)
+open dog food .
+
+
+amod(cup-3, measuring-2)
+dobj(find-1, cup-3)
+find measuring cup .
+
+
+prt(measure-1, out-2)
+dobj(measure-1, food-3)
+prep_into(measure-1, dish-5)
+measure out food into dish .
+
+
+dobj(feed-1, dogs-2)
+feed dogs .
+
+
+nn(food-3, dog-2)
+dobj(get-1, food-3)
+get dog food .
+
+
+nn(bowl-4, dog-3)
+prep_to(go-1, bowl-4)
+go to dog bowl .
+
+
+dobj(put-1, food-2)
+prep_in(put-1, bowl-4)
+put food in bowl .
+
+
+nn(food-3, dog-2)
+dobj(get-1, food-3)
+get dog food .
+
+
+nn(bowl-4, dog-3)
+prep_to(go-1, bowl-4)
+go to dog bowl .
+
+
+dobj(put-1, food-2)
+prep_in(put-1, bowl-4)
+put food in bowl .
+
+
+dobj(put-1, bowl-2)
+advmod(put-1, back-3)
+put bowl back .
+
+
+det(dog-3, the-2)
+dep(pet-1, dog-3)
+pet the dog .
+
+
+det(food-4, the-2)
+amod(food-4, dry-3)
+dobj(find-1, food-4)
+find the dry food .
+
+
+det(food-4, the-2)
+amod(food-4, dry-3)
+dobj(pour-1, food-4)
+det(dish-8, the-6)
+nn(dish-8, dog-7)
+prep_into(pour-1, dish-8)
+pour the dry food into the dog dish .
+
+
+det(food-4, the-2)
+amod(food-4, canned-3)
+dobj(find-1, food-4)
+find the canned food .
+
+
+det(opener-4, the-2)
+nn(opener-4, can-3)
+dobj(use-1, opener-4)
+aux(open-6, to-5)
+xcomp(use-1, open-6)
+nsubj(can-8, the-7)
+ccomp(open-6, can-8)
+use the can opener to open the can .
+
+
+det(contents-3, the-2)
+dobj(pour-1, contents-3)
+det(bowl-6, the-5)
+prep_into(pour-1, bowl-6)
+pour the contents into the bowl .
+
+
+dobj(pour-1, water-2)
+det(bowl-6, the-4)
+nn(bowl-6, water-5)
+prep_into(pour-1, bowl-6)
+pour water into the water bowl .
+
+
+det(bag-5, the-2)
+nn(bag-5, dog-3)
+nn(bag-5, food-4)
+dobj(open-1, bag-5)
+open the dog food bag .
+
+
+prt(scoop-1, out-2)
+det(food-4, the-3)
+dobj(scoop-1, food-4)
+scoop out the food .
+
+
+dobj(pour-1, it-2)
+det(dish-6, the-4)
+nn(dish-6, dog-5)
+prep_into(pour-1, dish-6)
+pour it into the dog dish .
+
+
+det(dish-3, the-2)
+dobj(place-1, dish-3)
+det(floor-6, the-5)
+prep_on(place-1, floor-6)
+place the dish on the floor .
+
+
+dobj(get-1, food-2)
+prep_from(get-1, cupboard-4)
+get food from cupboard .
+
+
+dobj(open-1, food-2)
+open food .
+
+
+dobj(put-1, food-2)
+amod(dish-5, pet-4)
+prep_in(put-1, dish-5)
+put food in pet dish .
+
+
+det(food-3, the-2)
+dobj(measure-1, food-3)
+measure the food .
+
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+det(dish-7, the-5)
+nn(dish-7, dog-6)
+prep_in(put-1, dish-7)
+put the food in the dog dish .
+
+
+det(dag-3, the-2)
+dobj(call-1, dag-3)
+call the dag .
+
+
+det(amount-4, the-2)
+amod(amount-4, correct-3)
+dobj(measure-1, amount-4)
+nn(food-7, dog-6)
+prep_of(amount-4, food-7)
+measure the correct amount of dog food .
+
+
+dep(put-1, measured-2)
+nn(food-4, dog-3)
+dobj(measured-2, food-4)
+nn(bowl-8, dog-6)
+nn(bowl-8, food-7)
+prep_in(measured-2, bowl-8)
+put measured dog food in dog food bowl .
+
+
+nn(food-3, dog-2)
+dobj(put-1, food-3)
+det(bowl-6, a-5)
+prep_in(put-1, bowl-6)
+put dog food in a bowl .
+
+
+dobj(put-1, water-2)
+prep_in(put-1, bowl-4)
+put water in bowl .
+
+
+det(dog-4, the-2)
+amod(dog-4, pet-3)
+dobj(catch-1, dog-4)
+catch the pet dog .
+
+
+det(food-3, the-2)
+dobj(prepare-1, food-3)
+prepare the food .
+
+
+det(dog-3, the-2)
+dobj(feed-1, dog-3)
+feed the dog .
+
+
+nn(bowl-3, dogs-2)
+dobj(get-1, bowl-3)
+get dogs bowl .
+
+
+nn(food-3, dog-2)
+dobj(get-1, food-3)
+get dog food .
+
+
+iobj(open-1, dogs-2)
+dobj(open-1, food-3)
+open dogs food .
+
+
+iobj(put-1, dogs-2)
+dobj(put-1, food-3)
+prep_in(put-1, bowl-5)
+put dogs food in bowl .
+
+
+dobj(place-1, bowl-2)
+det(floor-5, the-4)
+prep_on(place-1, floor-5)
+place bowl on the floor .
+
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+call the dog .
+
+
+nn(tin-3, food-2)
+dobj(put-1, tin-3)
+det(bin-6, the-5)
+prep_in(put-1, bin-6)
+put food tin in the bin .
+
+
+advmod(find-3, first-1)
+nsubj(find-3, you-2)
+det(food-6, the-4)
+nn(food-6, dog-5)
+dobj(find-3, food-6)
+first you find the dog food .
+
+
+mark(get-3, than-1)
+nsubj(get-3, you-2)
+advcl(bowl-5, get-3)
+nsubj(bowl-5, it-4)
+than you get it bowl .
+
+
+mark(poor-3, than-1)
+nsubj(poor-3, you-2)
+dobj(poor-3, it-4)
+det(bowl-7, the-6)
+prep_in(poor-3, bowl-7)
+than you poor it in the bowl .
+
+
+cc(walk-4, and-1)
+advmod(walk-4, than-2)
+nsubj(walk-4, you-3)
+det(dog-7, the-6)
+prep_to(walk-4, dog-7)
+and than you walk to the dog .
+
+
+dobj(feed-1, dpog-2)
+feed dpog .
+
+
+det(food-4, the-2)
+nn(food-4, dog-3)
+dobj(get-1, food-4)
+get the dog food .
+
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+open the bag .
+
+
+dobj(carry-1, it-2)
+det(bowl-5, the-4)
+prep_to(carry-1, bowl-5)
+carry it to the bowl .
+
+
+det(bag-3, the-2)
+dobj(tip-1, bag-3)
+prt(tip-1, over-4)
+tip the bag over .
+
+
+dobj(pour-1, food-2)
+prep_into(pour-1, bowl-4)
+pour food into bowl .
+
+
+dobj(put-1, bag-2)
+prep_of(bag-2, food-4)
+advmod(put-1, away-5)
+put bag of food away .
+
+
+det(bowl-3, a-2)
+dobj(place-1, bowl-3)
+det(ground-6, the-5)
+prep_on(place-1, ground-6)
+place a bowl on the ground .
+
+
+prt(open-1, up-2)
+det(bag-6, the-3)
+nn(bag-6, dog-4)
+nn(bag-6, food-5)
+dobj(open-1, bag-6)
+open up the dog food bag .
+
+
+dobj(pour-1, food-2)
+det(bowl-5, the-4)
+prep_in(pour-1, bowl-5)
+pour food in the bowl .
+
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+prt(call-1, over-4)
+call the dog over .
+
+
+det(bowl-3, the-2)
+dobj(place-1, bowl-3)
+det(dog-6, the-5)
+prep_near(place-1, dog-6)
+place the bowl near the dog .
+
+
+prt(take-1, out-2)
+dobj(take-1, food-3)
+take out food .
+
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+prep_in(put-1, container-5)
+put the food in container .
+
+
+det(dog-3, the-2)
+dobj(feed-1, dog-3)
+feed the dog .
+
+
+dobj(get-1, bowl-2)
+get bowl .
+
+
+dobj(get-1, food-2)
+get food .
+
+
+dobj(put-1, food-2)
+prep_in(put-1, bowl-4)
+put food in bowl .
+
+
+dobj(call-1, dog-2)
+call dog .
+
+
+nsubj(eats-2, dog-1)
+dog eats .
+
+
+nn(bag-3, food-2)
+dobj(put-1, bag-3)
+prt(put-1, away-4)
+put food bag away .
+
+
+nsubj(crumbs-3, sweep-1)
+advmod(sweep-1, up-2)
+sweep up crumbs .
+
+
+det(bag-5, the-2)
+nn(bag-5, dog-3)
+nn(bag-5, food-4)
+dobj(open-1, bag-5)
+open the dog food bag .
+
+
+dobj(pour-1, some-2)
+det(dish-5, the-4)
+prep_into(pour-1, dish-5)
+pour some into the dish .
+
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+prt(call-1, over-4)
+call the dog over .
+
+
+prt(take-1, out-2)
+nn(dish-4, food-3)
+dobj(take-1, dish-4)
+take out food dish .
+
+
+prt(take-1, out-2)
+nn(food-4, dog-3)
+dobj(take-1, food-4)
+take out dog food .
+
+
+nn(dish-3, food-2)
+dobj(fill-1, dish-3)
+nn(food-6, dog-5)
+prep_with(fill-1, food-6)
+fill food dish with dog food .
+
+
+amod(food-3, pet-2)
+dobj(take-1, food-3)
+take pet food .
+
+
+dobj(pour-1, food-2)
+prep_into(pour-1, bowel-4)
+pour food into bowel .
+
+
+det(dog-3, the-2)
+dobj(feed-1, dog-3)
+feed the dog .
+
+
+dobj(buy-1, food-2)
+buy food .
+
+
+dobj(place-1, food-2)
+prep_in(place-1, dish-4)
+place food in dish .
+
+
+dobj(call-1, dog-2)
+call dog .
+
+

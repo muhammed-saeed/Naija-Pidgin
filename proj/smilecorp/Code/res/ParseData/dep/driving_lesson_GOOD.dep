@@ -1,0 +1,445 @@
+nn(side-3, driver-2)
+dobj(enter-1, side-3)
+
+dobj(greet-1, instructor-2)
+
+prep_on(turn-1, car-3)
+
+prep_to(listen-1, directions-3)
+
+prt(drive-1, down-2)
+dobj(drive-1, street-3)
+
+prep_to(listen-1, critiques-3)
+
+dobj(practice-1, u-turn-2)
+
+prep_on(drive-1, highway-3)
+
+amod(parking-3, parallel-2)
+dobj(practice-1, parking-3)
+
+amod(place-4, starting-3)
+prep_to(return-1, place-4)
+
+nsubj(fills-2, instructor-1)
+prt(fills-2, out-3)
+dobj(fills-2, report-4)
+
+prep_to(listen-1, advice-3)
+
+poss(seat-4, driver-2)
+dobj(exit-1, seat-4)
+
+nsubj(mirrors-3, seat-2)
+ccomp(adjust-1, mirrors-3)
+
+amod(wheel-3, stearing-2)
+dobj(adjust-1, wheel-3)
+
+dobj(start-1, engine-2)
+
+amod(vehicles-4, other-3)
+prep_for(look-1, vehicles-4)
+
+advmod(pull-2, slowly-1)
+prt(pull-2, out-3)
+prep_onto(pull-2, road-5)
+
+nn(rules-3, traffic-2)
+dobj(obey-1, rules-3)
+
+dobj(park-1, vehicle-2)
+
+dobj(remove-1, keys-2)
+
+amod(company-3, driving-2)
+dobj(call-1, company-3)
+
+nn(instructions-3, enrollment-2)
+dobj(get-1, instructions-3)
+
+prep_to(go-1, company-3)
+
+dobj(show-1, id-2)
+
+dobj(pay-1, them-2)
+
+prt(set-1, up-2)
+det(schedule-4, a-3)
+dobj(set-1, schedule-4)
+
+prt(set-1, up-2)
+det(place-5, a-3)
+nn(place-5, meeting-4)
+dobj(set-1, place-5)
+
+amod(manual-3, driving-2)
+dobj(read-1, manual-3)
+
+poss(signs-3, your-2)
+dobj(study-1, signs-3)
+
+dobj(quiz-1, yourself-2)
+nn(rules-5, road-4)
+prep_on(quiz-1, rules-5)
+
+dobj(get-1, glasses-2)
+nsubj(needed-4, if-3)
+rcmod(glasses-2, needed-4)
+
+dobj(meet-1, instructor-2)
+
+poss(directions-4, instructor-2)
+dobj(follow-1, directions-4)
+
+dobj(practice-1, driving-2)
+
+dobj(pay-1, attention-2)
+
+dobj(get-1, paperwork-2)
+prep_from(get-1, instructor-4)
+
+prep_for(pay-1, lesson-3)
+
+amod(car-4, special-3)
+prep_in(get-1, car-4)
+
+prep_behind(sit-1, wheel-3)
+
+dep(sit-2, instructor-1)
+nn(side-4, passenger-3)
+dobj(sit-2, side-4)
+
+dep(tell-2, instructor-1)
+dobj(tell-2, you-3)
+nsubj(do-6, what-4)
+aux(do-6, to-5)
+xcomp(tell-2, do-6)
+
+nsubj(do-2, you-1)
+dobj(do-2, it-3)
+
+prep_in(get-1, car-3)
+prep_with(get-1, instructor-5)
+
+nsubj(tells-2, instructor-1)
+nsubj(do-5, what-3)
+aux(do-5, to-4)
+ccomp(tells-2, do-5)
+xcomp(tells-2, do-5)
+
+dobj(follow-1, instructions-2)
+
+nn(laws-3, traffic-2)
+dobj(learn-1, laws-3)
+
+aux(drive-3, to-2)
+xcomp(learn-1, drive-3)
+advmod(drive-3, safely-4)
+
+nn(door-3, car-2)
+dobj(open-1, door-3)
+
+dobj(enter-1, car-2)
+
+nn(door-3, car-2)
+dobj(close-1, door-3)
+
+nsubj(mirrors-2, check-1)
+
+dobj(adjust-1, seat-2)
+
+nn(belt-3, seat-2)
+dobj(fasten-1, belt-3)
+
+dobj(start-1, engine-2)
+
+nsubj(instructed-4, drive-1)
+prep_in(drive-1, direction-3)
+
+dobj(follow-1, instructor-2)
+
+amod(tasks-3, driving-2)
+dobj(perform-1, tasks-3)
+
+dobj(receive-1, grade-2)
+
+det(car-4, the-3)
+prep_in(get-1, car-4)
+
+dobj(start-1, ignition-2)
+
+prep_in(drive-1, circles-3)
+
+dobj(parallel-1, parking-2)
+
+num(point-2, three-1)
+dep(turn-3, point-2)
+
+dobj(get-1, feedback-2)
+
+nn(lot-4, parking-3)
+prep_to(return-1, lot-4)
+
+dobj(leave-1, car-2)
+
+amod(class-4, driving-3)
+prep_to(go-1, class-4)
+
+dobj(meet-1, instructor-2)
+
+dobj(drive-1, car-2)
+prep(drive-1, with-3)
+dep(with-3, with-4)
+pobj(with-4, instructor-5)
+
+nsubj(gives-2, instructor-1)
+dobj(gives-2, advice-3)
+
+nsubj(has-2, instructor-1)
+dep(practice-4, you-3)
+dobj(has-2, practice-4)
+
+nsubj(is-2, lesson-1)
+prt(is-2, over-3)
+
+dobj(return-1, car-2)
+conj_and(return-1, go-4)
+dobj(go-4, home-5)
+
+prep_in(get-1, car-3)
+prep_with(get-1, instructor-5)
+
+dobj(start-1, car-2)
+
+nsubj(mirrors-2, check-1)
+
+nn(belt-3, seat-2)
+dobj(buckle-1, belt-3)
+
+dobj(follow-1, instructions-2)
+dobj(follow-1, drive-4)
+conj_and(instructions-2, drive-4)
+
+cop(vigilant-2, remain-1)
+
+nn(base-4, home-3)
+prep_to(return-1, base-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, car-3)
+
+poss(critique-4, instructor-2)
+dobj(receive-1, critique-4)
+
+amod(school-4, driving-3)
+prep_to(go-1, school-4)
+
+nn(video-3, safety-2)
+dobj(watch-1, video-3)
+
+nn(lot-4, parking-3)
+prep_to(go-1, lot-4)
+
+nn(car-5, student-3)
+nn(car-5, driver-4)
+prep_into(get-1, car-5)
+
+dobj(practice-1, driving-2)
+
+amod(parking-3, parallel-2)
+dobj(try-1, parking-3)
+
+prep_around(weave-1, cones-3)
+
+det(school-4, a-2)
+amod(school-4, driving-3)
+dobj(find-1, school-4)
+
+det(school-3, the-2)
+dobj(call-1, school-3)
+
+det(schedule-4, the-2)
+nn(schedule-4, class-3)
+dobj(get-1, schedule-4)
+
+det(class-4, the-2)
+amod(class-4, right-3)
+dobj(choose-1, class-4)
+
+det(instructor-4, a-2)
+amod(instructor-4, good-3)
+dobj(find-1, instructor-4)
+
+det(instructor-3, the-2)
+poss(orders-5, instructor-3)
+dobj(follow-1, orders-5)
+
+nsubj(go-2, you-1)
+det(range-6, the-4)
+amod(range-6, driving-5)
+prep_to(go-2, range-6)
+
+nsubj(get-2, you-1)
+det(car-5, the-4)
+prep_into(get-2, car-5)
+
+nsubj(drive-2, you-1)
+det(instructor-5, an-4)
+prep_with(drive-2, instructor-5)
+
+nsubj(take-2, you-1)
+det(test-5, a-3)
+amod(test-5, written-4)
+dobj(take-2, test-5)
+
+nsubj(recieve-2, you-1)
+det(grade-4, a-3)
+dobj(recieve-2, grade-4)
+
+det(rules-3, the-2)
+dobj(learn-1, rules-3)
+
+det(learner-3, a-2)
+poss(license-5, learner-3)
+dobj(get-1, license-5)
+
+num(leg-2, one-1)
+det(clutch-5, the-4)
+prep_on(leg-2, clutch-5)
+
+det(leg-2, another-1)
+det(accelerator-5, the-4)
+prep_on(leg-2, accelerator-5)
+
+det(car-3, the-2)
+dobj(start-1, car-3)
+
+dobj(apply-1, brakes-2)
+advmod(necessary-4, when-3)
+dep(apply-1, necessary-4)
+
+aux(drive-3, to-2)
+xcomp(learn-1, drive-3)
+
+prep_in(get-1, car-3)
+
+nn(belt-3, seat-2)
+dobj(fasten-1, belt-3)
+
+dobj(put-1, key-2)
+prep_in(put-1, ignition-4)
+
+dobj(put-1, foot-2)
+prep_on(put-1, brake-4)
+
+dobj(start-1, car-2)
+
+dobj(take-1, car-2)
+prep_out_of(take-1, p-5)
+prep_into(take-1, d-7)
+
+prep_onto(proceed-1, road-3)
+
+nn(directions-3, teachers-2)
+dobj(follow-1, directions-3)
+
+dobj(practice-1, driving-2)
+
+nn(place-4, parking-3)
+prep_to(return-1, place-4)
+
+dobj(park-1, car-2)
+
+dobj(put-1, car-2)
+prep_in(put-1, p-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, ignition-3)
+
+prep_out_of(get-1, car-4)
+
+poss(card-4, my-2)
+nn(card-4, appointment-3)
+dobj(find-1, card-4)
+
+det(money-4, the-2)
+amod(money-4, correct-3)
+dobj(get-1, money-4)
+
+prep_for(wait-1, instructor-3)
+aux(arrive-5, to-4)
+xcomp(wait-1, arrive-5)
+
+prt(walk-1, out-2)
+prep_to(walk-1, car-4)
+
+prep_in(get-1, car-3)
+
+dobj(move-1, chair-2)
+aux(correct-4, to-3)
+xcomp(move-1, correct-4)
+dobj(correct-4, place-5)
+
+nsubj(mirrors-2, change-1)
+xsubj(correct-4, change-1)
+aux(correct-4, to-3)
+xcomp(mirrors-2, correct-4)
+dobj(correct-4, view-5)
+
+dobj(start-1, engine-2)
+
+dobj(put-1, car-2)
+prep_in(put-1, gear-4)
+
+advmod(drive-1, away-2)
+
+dobj(follow-1, directions-2)
+
+neg(make-4, not-2)
+aux(make-4, to-3)
+xcomp(try-1, make-4)
+dobj(make-4, mistakes-5)
+
+dobj(practive-1, maneuvers-2)
+
+aux(head-3, to-2)
+xcomp(begin-1, head-3)
+dobj(head-3, home-4)
+
+dobj(arrive-1, home-2)
+
+dobj(exit-1, car-2)
+
+dobj(exchange-1, hellos-2)
+prep_with(exchange-1, instructor-4)
+
+amod(seat-4, driving-3)
+prep_into(get-1, seat-4)
+
+prep_on(put-1, seatbelt-3)
+
+dobj(follow-1, instructions-2)
+
+amod(notes-3, mental-2)
+dobj(take-1, notes-3)
+
+amod(notes-3, physical-2)
+dobj(take-1, notes-3)
+
+dobj(obey-1, instructor-2)
+
+mark(need-3, if-2)
+advcl(drive-1, need-3)
+dep(need-3, be-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, car-3)
+
+dobj(exit-1, vehicle-2)
+
+amod(bye-3, good-2)
+dobj(say-1, bye-3)
+prep_to(say-1, trainer-5)
+

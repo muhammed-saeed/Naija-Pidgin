@@ -1,0 +1,421 @@
+nn(filter-3, replacement-2)
+dobj(buy-1, filter-3)
+
+dobj(find-1, heater-2)
+
+dobj(remove-1, cover-2)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(insert-1, filter-3)
+
+dobj(replace-1, filter-2)
+
+dobj(find-1, heater-2)
+
+dobj(open-1, heater-2)
+
+dobj(remove-1, filter-2)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+dobj(close-1, heater-2)
+
+det(filter-4, the-2)
+nn(filter-4, heater-3)
+dobj(locate-1, filter-4)
+
+det(filter-4, the-2)
+nn(filter-4, heater-3)
+dobj(remove-1, filter-4)
+
+det(filter-5, a-2)
+amod(filter-5, new-3)
+nn(filter-5, heater-4)
+dobj(place-1, filter-5)
+det(heater-8, the-7)
+prep_into(place-1, heater-8)
+
+det(filter-5, the-2)
+amod(filter-5, old-3)
+nn(filter-5, heater-4)
+dobj(discard-1, filter-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, heater-3)
+
+prep_for(wait-1, heater-3)
+aux(cool-5, to-4)
+xcomp(wait-1, cool-5)
+prt(cool-5, down-6)
+
+nn(casing-3, heater-2)
+dobj(open-1, casing-3)
+
+amod(heater-3, old-2)
+dobj(remove-1, heater-3)
+
+amod(heater-4, new-3)
+prep_in(put-1, heater-4)
+
+nsubj(casing-2, place-1)
+prt(casing-2, back-3)
+
+dobj(remove-1, casing-2)
+
+prt(take-1, out-2)
+amod(filter-4, old-3)
+dobj(take-1, filter-4)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+prt(place-1, back-2)
+dobj(place-1, casing-3)
+
+dobj(open-1, heater-2)
+
+prt(take-1, out-2)
+amod(filter-4, old-3)
+dobj(take-1, filter-4)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+dobj(close-1, heater-2)
+
+det(filter-5, a-2)
+amod(filter-5, new-3)
+nn(filter-5, heater-4)
+dobj(find-1, filter-5)
+
+det(heater-3, the-2)
+dobj(find-1, heater-3)
+
+det(filter-5, the-2)
+amod(filter-5, dirty-3)
+nn(filter-5, heater-4)
+dobj(remove-1, filter-5)
+det(heater-8, the-7)
+prep_from(remove-1, heater-8)
+
+det(filter-5, the-2)
+amod(filter-5, new-3)
+nn(filter-5, heater-4)
+dobj(place-1, filter-5)
+det(heater-8, the-7)
+prep_into(place-1, heater-8)
+
+dobj(determine-1, model-2)
+nn(filter-5, heater-4)
+prep_of(model-2, filter-5)
+
+amod(filter-4, new-2)
+nn(filter-4, heater-3)
+dobj(purchase-1, filter-4)
+amod(model-7, same-6)
+prep_of(filter-4, model-7)
+
+amod(filter-4, old-2)
+nn(filter-4, heater-3)
+dobj(replace-1, filter-4)
+amod(one-7, new-6)
+prep_with(replace-1, one-7)
+
+amod(filter-4, old-2)
+nn(filter-4, heater-3)
+dobj(discard-1, filter-4)
+
+dobj(get-1, filter-2)
+
+nn(panel-3, heater-2)
+dobj(open-1, panel-3)
+advmod(goes-7, where-4)
+rel(goes-7, where-4)
+det(filter-6, the-5)
+nsubj(goes-7, filter-6)
+rcmod(panel-3, goes-7)
+
+prt(take-1, out-2)
+amod(filter-4, old-3)
+dobj(take-1, filter-4)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+nn(panel-3, heater-2)
+dobj(close-1, panel-3)
+
+det(heater-3, the-2)
+dobj(open-1, heater-3)
+
+prt(pull-1, out-2)
+det(filter-5, the-3)
+amod(filter-5, old-4)
+dobj(pull-1, filter-5)
+
+prep_of(dispose-1, it-3)
+
+det(filter-4, the-2)
+amod(filter-4, new-3)
+dobj(unwrap-1, filter-4)
+
+csubj(place-10, put-1)
+det(filter-4, the-2)
+amod(filter-4, new-3)
+dobj(put-1, filter-4)
+det(filter-8, the-6)
+amod(filter-8, old-7)
+prep_in(put-1, filter-8)
+cop(place-10, s-9)
+
+det(heater-3, the-2)
+dobj(close-1, heater-3)
+
+dobj(open-1, heater-2)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(insert-1, filter-3)
+
+dobj(close-1, heater-2)
+
+csubj(is-3, ensure-1)
+dobj(ensure-1, heater-2)
+prt(is-3, off-4)
+
+csubj(cold-4, ensure-1)
+dobj(ensure-1, heater-2)
+cop(cold-4, is-3)
+
+nn(filter-3, heater-2)
+dobj(open-1, filter-3)
+
+nn(filter-3, heater-2)
+dobj(remove-1, filter-3)
+
+csubj(is-3, ensure-1)
+dobj(ensure-1, heater-2)
+prt(is-3, off-4)
+
+csubj(cold-4, ensure-1)
+dobj(ensure-1, heater-2)
+cop(cold-4, is-3)
+
+nn(filter-3, heater-2)
+dobj(open-1, filter-3)
+
+nn(filter-3, heater-2)
+dobj(remove-1, filter-3)
+
+dobj(replace-1, filter-2)
+
+dobj(close-1, filter-2)
+
+dobj(switch-1, heater-2)
+prep(switch-1, on-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(locate-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(put-1, filter-3)
+prep_in(put-1, heater-5)
+
+nn(cover-3, heater-2)
+dobj(remove-1, cover-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, old-2)
+dobj(discard-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(place-1, filter-3)
+prep_in(place-1, heater-5)
+
+nn(cover-3, heater-2)
+dobj(replace-1, cover-3)
+
+nn(room-4, furnace-3)
+prep_to(go-1, room-4)
+
+dobj(locate-1, filter-2)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, old-2)
+dobj(throw-1, filter-3)
+prt(throw-1, away-4)
+
+amod(filter-3, new-2)
+dobj(locate-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(get-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(insert-1, filter-3)
+prep_into(insert-1, furnace-5)
+
+det(filter-4, the-2)
+amod(filter-4, old-3)
+dobj(get-1, filter-4)
+
+amod(filter-5, new-3)
+nn(filter-5, heater-4)
+prep_to(change-1, filter-5)
+
+det(heater-4, the-3)
+prep_to(go-1, heater-4)
+
+det(cover-4, the-2)
+nn(cover-4, filter-3)
+dobj(open-1, cover-4)
+
+det(filter-4, the-2)
+amod(filter-4, old-3)
+dobj(remove-1, filter-4)
+
+det(filter-4, the-2)
+amod(filter-4, new-3)
+dobj(insert-1, filter-4)
+
+det(cover-4, the-2)
+nn(cover-4, filter-3)
+dobj(close-1, cover-4)
+
+nn(door-4, heater-2)
+nn(door-4, filter-3)
+dobj(open-1, door-4)
+
+prt(take-1, out-2)
+amod(filter-5, old-3)
+nn(filter-5, heater-4)
+dobj(take-1, filter-5)
+
+amod(filter-4, new-2)
+nn(filter-4, heater-3)
+dobj(replace-1, filter-4)
+
+nn(door-4, heater-2)
+nn(door-4, filter-3)
+dobj(close-1, door-4)
+
+amod(filter-4, old-2)
+nn(filter-4, heater-3)
+dobj(trash-1, filter-4)
+
+dobj(open-1, cover-2)
+
+prt(take-1, out-2)
+amod(filter-4, old-3)
+dobj(take-1, filter-4)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+dobj(close-1, cover-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, heater-3)
+
+nn(compartment-3, filter-2)
+dobj(open-1, compartment-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(insert-1, filter-3)
+
+nn(compartment-3, filter-2)
+dobj(close-1, compartment-3)
+
+prep_on(turn-1, heater-3)
+
+amod(filter-3, old-2)
+dobj(discard-1, filter-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, heater-3)
+
+nn(filter-3, heater-2)
+dobj(locate-1, filter-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(insert-1, filter-3)
+
+prep_on(turn-1, heater-3)
+
+dobj(remove-1, filter-2)
+
+amod(filter-3, new-2)
+dobj(buy-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(insert-1, filter-3)
+
+csubj(installment-8, run-1)
+dobj(run-1, heater-2)
+aux(see-4, to-3)
+xcomp(run-1, see-4)
+dobj(see-4, filter-5)
+cop(installment-8, s-6)
+amod(installment-8, proper-7)
+
+prt(take-1, out-2)
+amod(filter-4, old-3)
+dobj(take-1, filter-4)
+
+xcomp(go-1, buy-2)
+dobj(buy-2, replacement-3)
+
+amod(filter-3, new-2)
+dobj(insert-1, filter-3)
+
+amod(filter-3, old-2)
+dobj(discard-1, filter-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, heat-3)
+
+dobj(remove-1, panel-2)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+advmod(vacuum-1, inside-2)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+prt(close-1, back-2)
+advmod(close-1, up-3)
+
+prt(start-1, up-2)
+dobj(start-1, heater-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, old-2)
+dobj(throw-1, filter-3)
+prt(throw-1, away-4)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+

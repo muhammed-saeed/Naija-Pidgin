@@ -1,0 +1,745 @@
+dobj(pour-1, milk-2)
+det(sausepan-5, a-4)
+prep_into(pour-1, sausepan-5)
+
+det(stove-3, the-2)
+dobj(turn-1, stove-3)
+prt(turn-1, on-4)
+
+prep_for(wait-1, milk-3)
+prep_to(wait-1, boil-5)
+
+dobj(get-1, milk-2)
+prep_into(get-1, container-4)
+
+prep_on(turn-1, stove-3)
+
+dobj(put-1, container-2)
+det(stove-5, the-4)
+prep_on(put-1, stove-5)
+
+dobj(watch-1, milk-2)
+
+dobj(turn-1, stove-2)
+prt(turn-1, off-3)
+
+dobj(pour-1, milk-2)
+prep_in(pour-1, pot-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+prep_for(watch-1, milk-3)
+prep_to(watch-1, boil-5)
+
+dobj(remove-1, milk-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, stove-3)
+
+det(milk-3, the-2)
+dobj(put-1, milk-3)
+det(pan-6, a-5)
+prep_in(put-1, pan-6)
+
+det(pan-3, the-2)
+dobj(place-1, pan-3)
+det(stove-6, the-5)
+prep_on(place-1, stove-6)
+
+det(stove-4, the-3)
+prep_on(turn-1, stove-4)
+
+det(temperature-4, the-2)
+nn(temperature-4, stove-3)
+dobj(set-1, temperature-4)
+amod(heat-7, high-6)
+prep_to(set-1, heat-7)
+
+det(milk-3, the-2)
+dobj(allow-1, milk-3)
+prep_to(allow-1, boil-5)
+
+prt(turn-1, off-2)
+det(stove-4, the-3)
+dobj(turn-1, stove-4)
+
+det(stove-4, the-3)
+prep_on(turn-1, stove-4)
+
+dobj(place-1, milk-2)
+det(pan-5, a-4)
+prep_in(place-1, pan-5)
+
+det(pan-3, the-2)
+dobj(place-1, pan-3)
+det(stove-6, the-5)
+prep_on(place-1, stove-6)
+
+mark(boiling-6, until-2)
+det(milk-4, the-3)
+nsubj(boiling-6, milk-4)
+aux(boiling-6, is-5)
+advcl(wait-1, boiling-6)
+
+prt(take-1, out-2)
+det(milk-4, the-3)
+dobj(take-1, milk-4)
+det(fridge-7, the-6)
+prep_from(take-1, fridge-7)
+
+det(pan-3, a-2)
+dobj(take-1, pan-3)
+
+det(milk-3, the-2)
+dobj(pour-1, milk-3)
+det(pan-6, the-5)
+prep_into(pour-1, pan-6)
+
+det(pan-3, the-2)
+dobj(put-1, pan-3)
+det(top-6, the-5)
+prep_on(put-1, top-6)
+det(stove-9, the-8)
+prep_of(top-6, stove-9)
+
+det(stove-4, the-3)
+prep_on(turn-1, stove-4)
+
+det(boils-5, the-3)
+nn(boils-5, milk-4)
+prep_until(wait-1, boils-5)
+
+dobj(put-1, milk-2)
+prep_in(put-1, pan-4)
+
+dobj(put-1, pan-2)
+prepc_on(put-1, cooking-4)
+dobj(cooking-4, gas-5)
+
+dobj(turn-1, heat-2)
+prt(turn-1, on-3)
+
+prep_for(wait-1, milk-3)
+prep_to(wait-1, boil-5)
+
+dobj(pour-1, milk-2)
+prep_in(pour-1, pot-4)
+
+dobj(turnon-1, stove-2)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_to(wait-1, boil-3)
+
+dobj(remove-1, pot-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, stove-3)
+
+dobj(pour-1, milk-2)
+prep_in(pour-1, pot-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+prep_for(wait-1, milk-3)
+prep_to(wait-1, boil-5)
+
+dobj(remove-1, pot-2)
+prep_from(remove-1, stove-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, stove-3)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, pot-4)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+prep_for(wait-1, milk-3)
+prep_to(wait-1, boil-5)
+
+dobj(remove-1, pot-2)
+prep_from(remove-1, stove-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, stove-3)
+
+dobj(pour-1, milk-2)
+prep_out_of(pour-1, bottle-5)
+det(pan-8, a-7)
+prep_into(pour-1, pan-8)
+
+det(pan-3, the-2)
+dobj(put-1, pan-3)
+prep_of(pan-3, milk-5)
+det(burner-8, the-7)
+prep_onto(put-1, burner-8)
+det(stove-11, the-10)
+prep_on(put-1, stove-11)
+
+det(knob-4, the-2)
+nn(knob-4, stove-3)
+dobj(turn-1, knob-4)
+aux(set-6, to-5)
+xcomp(turn-1, set-6)
+dobj(set-6, it-7)
+aux(boil-9, to-8)
+xcomp(set-6, boil-9)
+det(milk-11, the-10)
+dobj(boil-9, milk-11)
+
+prt(get-1, out-2)
+det(sausepan-4, a-3)
+dobj(get-1, sausepan-4)
+
+det(milk-3, the-2)
+dobj(get-1, milk-3)
+
+det(milk-3, the-2)
+dobj(pour-1, milk-3)
+det(saucepan-6, the-5)
+prep_in(pour-1, saucepan-6)
+
+det(pan-3, the-2)
+dobj(put-1, pan-3)
+det(stove-6, the-5)
+prep_on(put-1, stove-6)
+
+det(stove-4, the-3)
+prep_on(turn-1, stove-4)
+
+dobj(pour-1, milk-2)
+prep_in(pour-1, pot-4)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+prep_for(wait-1, milk-3)
+prep_to(wait-1, boil-5)
+
+dobj(remove-1, pot-2)
+prep_from(remove-1, stove-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, stove-3)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, pot-4)
+
+dobj(put-1, pon-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+prep_for(wait-1, milk-3)
+prep_to(wait-1, boil-5)
+
+det(pan-3, a-2)
+dobj(get-1, pan-3)
+
+det(stove-3, the-2)
+dobj(light-1, stove-3)
+
+dobj(put-1, milk-2)
+det(pan-5, the-4)
+prep_in(put-1, pan-5)
+
+dobj(put-1, lid-2)
+prep_on(put-1, pan-4)
+
+mark(hot-5, until-2)
+nsubj(hot-5, milk-3)
+cop(hot-5, is-4)
+advcl(wait-1, hot-5)
+
+prt(switch-1, off-2)
+det(stove-4, the-3)
+dobj(switch-1, stove-4)
+
+dobj(put-1, milk-2)
+prep_into(put-1, pan-4)
+
+nsubj(ring-2, light-1)
+prep_on(ring-2, cooker-4)
+
+dobj(place-1, pan-2)
+prep_on(place-1, cooker-4)
+
+prep_until(watch-1, boiled-3)
+
+det(milk-3, the-2)
+dobj(put-1, milk-3)
+det(stovepot-6, a-5)
+prep_in(put-1, stovepot-6)
+
+det(pot-3, the-2)
+dobj(heat-1, pot-3)
+det(source-7, a-5)
+nn(source-7, heat-6)
+prep_over(heat-1, source-7)
+dobj(boiling-12, source-7)
+mark(boiling-12, until-8)
+det(milk-10, the-9)
+nsubj(boiling-12, milk-10)
+aux(boiling-12, is-11)
+dep(source-7, boiling-12)
+
+dobj(put-1, milk-2)
+prep_in(put-1, saucepan-4)
+
+prep_on(turn-1, stove-3)
+
+mark(starts-4, until-2)
+nsubj(starts-4, milk-3)
+advcl(wait-1, starts-4)
+acomp(starts-4, bubbling-5)
+
+dobj(discover-1, need-2)
+aux(boil-4, to-3)
+infmod(need-2, boil-4)
+dobj(boil-4, milk-5)
+
+dobj(find-1, container-2)
+
+dobj(light-1, fire-2)
+dobj(light-1, turn-4)
+conj_or(fire-2, turn-4)
+prep_on(light-1, burner-6)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, container-4)
+
+dobj(place-1, container-2)
+prep_on(place-1, heat-4)
+
+dobj(adjust-1, heat-2)
+
+advmod(completed-3, when-2)
+dep(remove-1, completed-3)
+
+det(milk-3, the-2)
+dobj(get-1, milk-3)
+det(fridge-6, the-5)
+prep_from(get-1, fridge-6)
+
+det(pan-3, a-2)
+dobj(put-1, pan-3)
+det(stove-6, the-5)
+prep_on(put-1, stove-6)
+
+det(stove-3, the-2)
+dobj(turn-1, stove-3)
+prt(turn-1, on-4)
+
+det(milk-3, the-2)
+dobj(pour-1, milk-3)
+det(pan-6, the-5)
+prep_into(pour-1, pan-6)
+
+det(milk-4, the-3)
+prep_for(wait-1, milk-4)
+prep_to(wait-1, boil-6)
+
+det(stove-3, the-2)
+dobj(turn-1, stove-3)
+prt(turn-1, off-4)
+
+det(pan-3, a-2)
+dobj(get-1, pan-3)
+
+dobj(put-1, milk-2)
+prep_in(put-1, pan-4)
+
+dobj(put-1, pan-2)
+prep_on(put-1, stove-4)
+
+dobj(turn-1, stove-2)
+prt(turn-1, on-3)
+
+prep_for(wait-1, milk-3)
+prep_to(wait-1, boil-5)
+
+prt(get-1, out-2)
+det(pan-4, a-3)
+dobj(get-1, pan-4)
+
+dobj(place-1, milk-2)
+prep_in(place-1, pan-4)
+
+dobj(place-1, pan-2)
+prep_on(place-1, stove-4)
+
+prep_on(turn-1, burner-3)
+prep_to(turn-1, low-5)
+
+amod(bubbles-4, small-3)
+prep_for(watch-1, bubbles-4)
+prep_to(watch-1, form-6)
+det(surface-9, the-8)
+prep_on(form-6, surface-9)
+
+prt(turn-1, off-2)
+dobj(turn-1, burner-3)
+
+det(milk-3, the-2)
+dobj(put-1, milk-3)
+det(pan-6, a-5)
+prep_in(put-1, pan-6)
+
+dobj(turn-1, burner-2)
+prep_on(turn-1, medium-4)
+
+dobj(place-1, pan-2)
+prep_on(place-1, burner-4)
+
+nsubj(boiling-3, milk-1)
+aux(boiling-3, is-2)
+advmod(bubbles-6, when-4)
+nsubj(bubbles-6, it-5)
+advcl(boiling-3, bubbles-6)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+prt(turn-1, on-2)
+dobj(turn-1, heat-3)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, pot-4)
+
+nsubj(bring-2, gently-1)
+xsubj(boil-4, gently-1)
+aux(boil-4, to-3)
+xcomp(bring-2, boil-4)
+
+dobj(put-1, milk-2)
+prep_in(put-1, pan-4)
+
+dobj(put-1, pan-2)
+nn(hob-5, cooker-4)
+prep_on(put-1, hob-5)
+
+nn(hob-4, cooker-3)
+prep_on(turn-1, hob-4)
+
+nn(bubbles-4, milk-3)
+prep_till(wait-1, bubbles-4)
+
+dobj(put-1, milk-2)
+prep_in(put-1, saucepan-4)
+
+dobj(put-1, saucepan-2)
+prep_on(put-1, gas-4)
+
+dobj(ignite-1, gas-2)
+
+nn(boils-4, milk-3)
+prep_till(wait-1, boils-4)
+
+det(milk-3, the-2)
+dobj(measure-1, milk-3)
+
+dobj(pour-1, milk-2)
+prep_in(pour-1, pan-4)
+
+det(burner-4, the-3)
+prep_on(turn-1, burner-4)
+
+dobj(pour-1, milk-2)
+det(pot-5, a-4)
+prep_into(pour-1, pot-5)
+
+prep_on(turn-1, burner-3)
+amod(heat-6, medium-5)
+prep_to(turn-1, heat-6)
+
+dobj(place-1, pot-2)
+prep_on(place-1, burner-4)
+
+dobj(stir-1, milk-2)
+advmod(stir-1, constantly-3)
+prep_until(stir-1, boiled-5)
+
+det(pan-3, a-2)
+dobj(put-1, pan-3)
+det(stove-6, the-5)
+prep_on(put-1, stove-6)
+
+dobj(pour-1, milk-2)
+det(pan-5, the-4)
+prep_into(pour-1, pan-5)
+
+det(burner-3, the-2)
+dobj(turn-1, burner-3)
+prt(turn-1, on-4)
+det(pan-7, the-6)
+prep_under(turn-1, pan-7)
+
+nsubj(bring-3, stirring-1)
+advmod(bring-3, constantly-2)
+det(milk-5, the-4)
+dobj(bring-3, milk-5)
+det(boil-8, a-7)
+prep_to(bring-3, boil-8)
+
+dobj(add-1, milk-2)
+prep_to(add-1, pot-4)
+
+nn(pot-5, stove-3)
+nn(pot-5, boil-4)
+prep_on(turn-1, pot-5)
+
+prep_on(turn-1, stove-3)
+
+dobj(fill-1, pot-2)
+amod(amount-5, desired-4)
+prep_with(fill-1, amount-5)
+prep_of(amount-5, milk-7)
+
+dobj(heat-1, pot-2)
+prep_on(heat-1, stove-4)
+
+dobj(heat-1, milk-2)
+det(boil-5, a-4)
+prep_to(heat-1, boil-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, stove-3)
+
+dobj(consume-1, milk-2)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, pot-4)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+prep_on(turn-1, stove-3)
+amod(heat-6, medium-5)
+prep_to(turn-1, heat-6)
+
+advmod(stir-1, occasionally-2)
+
+dobj(let-1, boil-2)
+
+prep_from(remove-1, stove-3)
+
+dobj(turn-1, burner-2)
+prt(turn-1, off-3)
+
+det(milk-3, the-2)
+dobj(getting-1, milk-3)
+det(fridge-6, the-5)
+prep_from(getting-1, fridge-6)
+
+csubj(cupboard-6, getting-1)
+det(pot-3, the-2)
+dobj(getting-1, pot-3)
+prep_from(getting-1, the-5)
+
+det(milk-3, the-2)
+dobj(pouring-1, milk-3)
+det(pot-6, the-5)
+prep_in(pouring-1, pot-6)
+
+det(pot-3, the-2)
+dobj(placing-1, pot-3)
+det(stove-6, the-5)
+prep_on(placing-1, stove-6)
+
+det(stove-3, the-2)
+dobj(turning-1, stove-3)
+prt(turning-1, on-4)
+
+det(heat-4, the-2)
+nn(heat-4, milk-3)
+dobj(letting-1, heat-4)
+prt(letting-1, up-5)
+conj_and(letting-1, boil-7)
+
+dobj(removing-1, pot-2)
+prep_from(removing-1, burner-4)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, pot-4)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+prep_on(turn-1, element-3)
+
+advmod(stir-1, occasionally-2)
+
+prep_for(wait-1, boil-3)
+
+prep_from(remove-1, stove-3)
+
+dobj(turn-1, stove-2)
+prt(turn-1, off-3)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, pot-4)
+
+prep_on(turn-1, stove-3)
+
+prep_until(stir-1, boiled-3)
+
+dobj(pour-1, milk-2)
+prep_in(pour-1, pot-4)
+
+prt(turn-1, up-2)
+dobj(turn-1, stove-3)
+
+advmod(boiling-2, when-1)
+csubj(turn-3, boiling-2)
+prt(turn-3, off-4)
+dobj(turn-3, stove-5)
+
+prep_on(turn-1, stove-3)
+
+dobj(pour-1, milk-2)
+det(saucepan-5, a-4)
+prep_into(pour-1, saucepan-5)
+
+dobj(place-1, saucepan-2)
+prep_on(place-1, stove-4)
+
+det(boils-5, the-3)
+nn(boils-5, milk-4)
+prep_until(wait-1, boils-5)
+
+amod(milk-3, cold-2)
+dobj(pour-1, milk-3)
+prep_in(pour-1, pan-5)
+
+dobj(put-1, pan-2)
+prep_on(put-1, burner-4)
+
+dobj(turn-1, burner-2)
+prep_on(turn-1, high-4)
+
+dobj(stir-1, milk-2)
+advmod(stir-1, occasionally-3)
+det(spoon-6, a-5)
+prep_with(stir-1, spoon-6)
+
+prep_for(wait-1, milk-3)
+aux(heat-5, to-4)
+xcomp(wait-1, heat-5)
+prt(heat-5, up-6)
+xcomp(wait-1, form-8)
+conj_and(heat-5, form-8)
+amod(bubbles-10, large-9)
+dobj(form-8, bubbles-10)
+
+prt(turn-1, off-2)
+dobj(turn-1, burner-3)
+
+dobj(get-1, milk-2)
+prep_from(get-1, fridge-4)
+
+dobj(get-1, pot-2)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+dobj(pour-1, milk-2)
+prep_in(pour-1, pot-4)
+
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, pot-4)
+
+prep_for(wait-1, it-3)
+prep_to(wait-1, boil-5)
+
+prt(take-1, out-2)
+dobj(take-1, pan-3)
+
+prt(take-1, out-2)
+dobj(take-1, milk-3)
+prep_from(take-1, fridge-5)
+
+dobj(measure-1, milk-2)
+
+prep_in(pour-1, pan-3)
+
+nn(element-4, heating-3)
+prep_on(turn-1, element-4)
+prep_to(turn-1, high-6)
+
+dobj(place-1, pan-2)
+prep_on(place-1, stove-4)
+
+dobj(watch-1, milk-2)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+dobj(get-1, milk-2)
+
+dobj(pour-1, milk-2)
+prep_in(pour-1, pot-4)
+
+prep_on(turn-1, stove-3)
+
+dobj(take-1, milk-2)
+
+dobj(place-1, milk-2)
+prep_in(place-1, pot-4)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+det(pot-3, the-2)
+dobj(heat-1, pot-3)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+dobj(turn-1, heat-2)
+prt(turn-1, on-3)
+
+dobj(pour-1, milk-2)
+prep_into(pour-1, pot-4)
+
+prep_for(wait-1, it-3)
+prep_to(wait-1, boil-5)
+
+dobj(put-1, milk-2)
+prep_in(put-1, pot-4)
+
+prep_on(turn-1, burner-3)
+
+dobj(put-1, burner-2)
+prep_on(put-1, pot-4)
+mark(boiling-8, until-5)
+nsubj(boiling-8, milk-6)
+aux(boiling-8, is-7)
+advcl(put-1, boiling-8)
+
+prt(turn-1, off-2)
+dobj(turn-1, burner-3)
+

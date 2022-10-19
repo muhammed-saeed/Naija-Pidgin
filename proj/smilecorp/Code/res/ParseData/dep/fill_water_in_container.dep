@@ -1,0 +1,590 @@
+dobj(open-1, container-2)
+
+dobj(hold-1, container-2)
+prep_under(hold-1, faucet-4)
+
+dobj(turn-1, faucet-2)
+prt(turn-1, on-3)
+
+dobj(turn-1, faucet-2)
+prt(turn-1, off-3)
+advmod(full-7, when-4)
+nsubj(full-7, containter-5)
+cop(full-7, is-6)
+advcl(turn-1, full-7)
+
+dobj(get-1, container-2)
+
+dobj(hold-1, container-2)
+prep_under(hold-1, tap-4)
+
+dobj(open-1, tap-2)
+
+mark(filled-5, until-2)
+nsubjpass(filled-5, container-3)
+auxpass(filled-5, is-4)
+advcl(wait-1, filled-5)
+
+dobj(close-1, tap-2)
+
+dobj(take-1, container-2)
+prep(take-1, out-3)
+dep(out-3, from-4)
+dep(from-4, underneath-5)
+pobj(underneath-5, tap-6)
+
+det(container-3, the-2)
+dobj(get-1, container-3)
+
+det(container-3, the-2)
+dobj(put-1, container-3)
+det(source-6, the-5)
+prep_under(put-1, source-6)
+prep_of(source-6, water-8)
+
+det(water-4, the-3)
+prep_on(turn-1, water-4)
+
+dobj(get-1, container-2)
+
+dobj(put-1, container-2)
+prep_under(put-1, tap-4)
+
+prep_on(turn-1, water-3)
+
+prep_for(wait-1, container-3)
+aux(fill-5, to-4)
+xcomp(wait-1, fill-5)
+prt(fill-5, up-6)
+
+dobj(turn-1, water-2)
+prt(turn-1, off-3)
+
+dobj(remove-1, container-2)
+
+nn(container-3, water-2)
+dobj(grab-1, container-3)
+
+prep_under(put-1, faucet-3)
+
+prep_on(turn-1, water-3)
+
+prep_until(wait-1, container-3)
+advmod(wait-1, full-4)
+
+dobj(turn-1, water-2)
+prt(turn-1, off-3)
+
+dobj(remove-1, container-2)
+
+nn(container-3, water-2)
+dobj(place-1, container-3)
+prep_under(place-1, faucet-5)
+
+nsubj(run-3, water-2)
+ccomp(let-1, run-3)
+mark(full-7, until-4)
+nsubj(full-7, container-5)
+cop(full-7, is-6)
+advcl(run-3, full-7)
+
+prt(turn-1, off-2)
+nn(faucet-4, water-3)
+dobj(turn-1, faucet-4)
+
+dobj(remove-1, container-2)
+
+dobj(take-1, container-2)
+
+nn(sink-4, kitchen-3)
+prep_in(put-1, sink-4)
+
+nn(tap-3, water-2)
+dobj(open-1, tap-3)
+
+det(container-3, the-2)
+dobj(fill-1, container-3)
+
+det(container-3, the-2)
+dobj(close-1, container-3)
+
+nn(container-3, water-2)
+dobj(find-1, container-3)
+
+nn(container-3, water-2)
+dobj(place-1, container-3)
+nn(faucet-6, water-5)
+prep_under(place-1, faucet-6)
+
+prep_on(turn-1, faucet-3)
+
+dobj(fill-1, container-2)
+prep_with(fill-1, water-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, faucet-3)
+
+dobj(get-1, container-2)
+
+det(container-3, the-2)
+dobj(put-1, container-3)
+det(tap-6, a-5)
+prep_under(put-1, tap-6)
+nn(source-9, water-8)
+prep_under(put-1, source-9)
+conj_or(tap-6, source-9)
+
+prep_on(turn-1, tap-3)
+
+nsubj(fills-5, wait-1)
+det(container-4, the-3)
+prep_for(wait-1, container-4)
+prt(fills-5, up-6)
+
+prt(turn-1, off-2)
+det(tap-4, the-3)
+dobj(turn-1, tap-4)
+
+det(container-3, the-2)
+dobj(remove-1, container-3)
+
+det(container-3, the-2)
+dobj(take-1, container-3)
+
+dobj(put-1, it-2)
+det(tap-5, the-4)
+prep_under(put-1, tap-5)
+
+det(tap-4, the-3)
+prep_on(turn-1, tap-4)
+
+prep_of(switch-1, tap-3)
+advmod(fulkl-8, when-4)
+det(container-6, the-5)
+nsubj(fulkl-8, container-6)
+cop(fulkl-8, is-7)
+advcl(switch-1, fulkl-8)
+
+dobj(place-1, container-2)
+nn(faucet-5, water-4)
+prep_under(place-1, faucet-5)
+
+nsubj(run-3, water-2)
+ccomp(let-1, run-3)
+prep_into(run-3, container-5)
+
+advmod(turn-4, when-1)
+nsubj(turn-4, container-2)
+amod(container-2, full-3)
+prt(turn-4, off-5)
+dobj(turn-4, water-6)
+
+dobj(remove-1, container-2)
+
+det(container-3, a-2)
+dobj(find-1, container-3)
+prep_for(find-1, water-5)
+
+det(tap-6, an-3)
+amod(tap-6, outside-4)
+nn(tap-6, water-5)
+prep_to(move-1, tap-6)
+
+det(container-3, the-2)
+dobj(place-1, container-3)
+det(tap-6, the-5)
+prep_under(place-1, tap-6)
+
+det(tap-4, the-3)
+prep_on(turn-1, tap-4)
+
+advmod(full-5, when-1)
+det(container-3, the-2)
+nsubj(full-5, container-3)
+cop(full-5, is-4)
+csubj(turn-6, full-5)
+prt(turn-6, off-7)
+det(tap-9, the-8)
+dobj(turn-6, tap-9)
+
+det(container-3, the-2)
+dobj(get-1, container-3)
+
+dobj(take-1, it-2)
+det(sink-5, the-4)
+prep_to(take-1, sink-5)
+
+det(tap-4, the-3)
+prep_on(turn-1, tap-4)
+
+det(container-3, the-2)
+dobj(take-1, container-3)
+det(sink-6, the-5)
+prep_to(take-1, sink-6)
+
+dobj(put-1, it-2)
+det(tap-5, the-4)
+prep_under(put-1, tap-5)
+
+det(tap-4, the-3)
+prep_on(turn-1, tap-4)
+
+prt(turn-1, off-2)
+det(tap-4, the-3)
+dobj(turn-1, tap-4)
+advmod(full-6, when-5)
+dep(turn-1, full-6)
+
+dobj(place-1, container-2)
+nn(faucet-5, water-4)
+prep_under(place-1, faucet-5)
+
+prep_on(turn-1, water-3)
+
+advmod(full-4, when-1)
+nsubj(full-4, container-2)
+cop(full-4, is-3)
+csubj(turn-5, full-4)
+prt(turn-5, off-6)
+dobj(turn-5, water-7)
+
+dobj(get-1, water-2)
+
+det(container-4, a-3)
+prep_in(fill-1, container-4)
+
+nn(source-3, water-2)
+dobj(locate-1, source-3)
+
+dobj(place-1, container-2)
+det(position-5, a-4)
+prep_in(place-1, position-5)
+aux(receive-7, to-6)
+infmod(position-5, receive-7)
+dobj(receive-7, water-8)
+
+nn(source-3, water-2)
+dobj(start-1, source-3)
+
+mark(full-5, until-2)
+nsubj(full-5, container-3)
+cop(full-5, is-4)
+advcl(wait-1, full-5)
+
+nn(source-3, water-2)
+dobj(stop-1, source-3)
+
+dobj(open-1, container-2)
+
+dobj(place-1, container-2)
+nn(source-5, water-4)
+prep_near(place-1, source-5)
+
+mark(filled-5, until-2)
+nsubjpass(filled-5, container-3)
+auxpass(filled-5, is-4)
+advcl(wait-1, filled-5)
+
+dobj(close-1, container-2)
+
+dobj(open-1, container-2)
+
+dobj(fill-1, container-2)
+prep_with(fill-1, water-4)
+
+dobj(close-1, container-2)
+
+dobj(get-1, container-2)
+
+dobj(open-1, container-2)
+
+dobj(place-1, water-2)
+prep_in(place-1, container-4)
+
+dobj(remove-1, container-2)
+advmod(full-4, when-3)
+dep(remove-1, full-4)
+
+dobj(get-1, container-2)
+
+nn(faucet-3, water-2)
+dobj(turn-1, faucet-3)
+prt(turn-1, on-4)
+
+dobj(put-1, container-2)
+prep_under(put-1, faucet-4)
+
+nsubj(run-3, water-2)
+ccomp(let-1, run-3)
+mark(full-7, until-4)
+nsubj(full-7, container-5)
+cop(full-7, is-6)
+advcl(run-3, full-7)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+dobj(get-1, container-2)
+
+aux(sink-3, to-2)
+xcomp(walk-1, sink-3)
+
+prep_on(turn-1, faucet-3)
+
+dobj(fill-1, container-2)
+
+prep_near(go-1, water-3)
+
+dobj(open-1, lid-2)
+prep_of(lid-2, container-4)
+
+dobj(fill-1, container-2)
+prep_with(fill-1, water-4)
+
+det(lid-3, the-2)
+dobj(close-1, lid-3)
+det(container-6, the-5)
+prep_of(lid-3, container-6)
+prt(close-1, off-7)
+
+nn(container-3, water-2)
+dobj(take-1, container-3)
+aux(tap-5, to-4)
+xcomp(take-1, tap-5)
+
+dobj(put-1, container-2)
+prep_under(put-1, tap-4)
+
+dobj(get-1, container-2)
+det(holes\/leaks-5, no-4)
+prep_with(get-1, holes\/leaks-5)
+
+nn(source-3, water-2)
+dobj(find-1, source-3)
+
+nn(opening-3, container-2)
+dobj(place-1, opening-3)
+prep_against(place-1, flow-5)
+prep_of(flow-5, water-7)
+
+dobj(allow-1, container-2)
+aux(filled-5, to-3)
+auxpass(filled-5, be-4)
+xcomp(allow-1, filled-5)
+
+dobj(remove-1, container-2)
+prep_from(remove-1, water-4)
+
+dobj(get-1, container-2)
+
+dobj(put-1, container-2)
+prep_under(put-1, tap-4)
+
+det(tap-4, the-3)
+prep_on(turn-1, tap-4)
+
+det(container-3, the-2)
+dobj(fill-1, container-3)
+
+prt(turn-1, off-2)
+det(tap-4, the-3)
+dobj(turn-1, tap-4)
+
+prep_on(turn-1, water-3)
+
+dobj(place-1, container-2)
+amod(water-5, running-4)
+prep_under(place-1, water-5)
+
+dobj(fill-1, container-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+det(container-3, the-2)
+dobj(open-1, container-3)
+
+det(tap-4, the-3)
+prep_on(turn-1, tap-4)
+
+nn(opening-3, container-2)
+dobj(hold-1, opening-3)
+det(flow-6, the-5)
+prep_under(opening-3, flow-6)
+det(water-9, the-8)
+prep_of(flow-6, water-9)
+
+advmod(full-2, when-1)
+dep(remove-3, full-2)
+conj_and(remove-3, close-5)
+det(contariner-7, the-6)
+dobj(close-5, contariner-7)
+
+dobj(locate-1, container-2)
+nsubj(hold-5, container-2)
+aux(hold-5, can-4)
+rcmod(container-2, hold-5)
+dobj(hold-5, liquids-6)
+
+det(container-3, which-2)
+nsubj(fill-5, container-3)
+aux(fill-5, to-4)
+ccomp(decide-1, fill-5)
+xcomp(decide-1, fill-5)
+
+dobj(select-1, container-2)
+
+nn(source-3, water-2)
+dobj(find-1, source-3)
+
+dobj(get-1, water-2)
+nn(source-5, water-4)
+prep_from(get-1, source-5)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, container-4)
+
+dobj(fill-1, water-2)
+amod(level-5, desired-4)
+prep_to(fill-1, level-5)
+
+dobj(pour-1, water-2)
+prep_in(pour-1, container-4)
+prep_until(pour-1, full-6)
+
+dobj(open-1, container-2)
+
+dobj(turn-1, faucet-2)
+prt(turn-1, on-3)
+
+amod(container-3, open-2)
+dobj(place-1, container-3)
+prep_under(place-1, faucet-5)
+
+dobj(fill-1, container-2)
+prep_with(fill-1, water-4)
+prep_until(fill-1, full-6)
+
+prt(turn-1, off-2)
+dobj(turn-1, faucet-3)
+
+dobj(replace-1, lid-2)
+prep_on(replace-1, container-4)
+
+dobj(choose-1, container-2)
+
+dobj(place-1, container-2)
+prep_below(place-1, tap-4)
+
+prep_on(turn-1, tap-3)
+
+dobj(bring-1, container-2)
+aux(sink-4, to-3)
+xcomp(bring-1, sink-4)
+
+prep_on(turn-1, faucet-3)
+
+dobj(place-1, container-2)
+prep_under(place-1, water-4)
+
+prep_until(wait-1, full-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+dobj(find-1, container-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, container-3)
+
+aux(sink-3, to-2)
+xcomp(walk-1, sink-3)
+
+prep_on(turn-1, tap-3)
+
+dobj(place-1, container-2)
+prep_under(place-1, tap-4)
+
+dobj(fill-1, container-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, tap-3)
+
+dobj(hold-1, container-2)
+prep_in(hold-1, hand-4)
+
+det(sink-4, a-3)
+prep_in(place-1, sink-4)
+
+acomp(make-1, sure-2)
+det(tap-4, the-3)
+nsubj(is-5, tap-4)
+ccomp(sure-2, is-5)
+advmod(is-5, directly-6)
+det(container-9, the-8)
+prep_above(is-5, container-9)
+
+det(tap-4, the-3)
+prep_on(turn-1, tap-4)
+
+prt(turn-1, off-2)
+advmod(collected-9, when-3)
+amod(amount-5, desired-4)
+nsubjpass(collected-9, amount-5)
+prep_of(amount-5, water-7)
+auxpass(collected-9, is-8)
+advcl(turn-1, collected-9)
+
+prep_on(turn-1, tape-3)
+
+nn(lid-3, container-2)
+dobj(unscrew-1, lid-3)
+
+dobj(place-1, container-2)
+nn(flow-5, water-4)
+prep_under(place-1, flow-5)
+
+mark(filled-6, until-2)
+nsubjpass(filled-6, container-3)
+auxpass(filled-6, is-4)
+advmod(filled-6, completely-5)
+advcl(wait-1, filled-6)
+
+nn(source-4, water-3)
+prep_from(remove-1, source-4)
+
+dobj(tighten-1, lid-2)
+advmod(tighten-1, back-3)
+prep_on(tighten-1, container-5)
+
+dobj(get-1, container-2)
+
+dobj(put-1, container-2)
+prep_under(put-1, tap-4)
+
+prep_on(turn-1, tap-3)
+
+dobj(fill-1, container-2)
+prep_with(fill-1, water-4)
+
+dobj(take-1, water-2)
+
+dobj(pour-1, water-2)
+prep_in(pour-1, container-4)
+
+prep_until(wait-1, full-3)
+
+dobj(get-1, container-2)
+
+dobj(put-1, container-2)
+nn(faucet-5, water-4)
+prep_under(put-1, faucet-5)
+
+nn(faucet-4, water-3)
+prep_on(turn-1, faucet-4)
+
+dobj(fill-1, container-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, tap-3)
+

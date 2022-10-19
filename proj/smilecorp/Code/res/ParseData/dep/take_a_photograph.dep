@@ -1,0 +1,626 @@
+prt(pick-1, up-2)
+det(camera-4, a-3)
+dobj(pick-1, camera-4)
+
+det(camera-4, the-3)
+prep_on(turn-1, camera-4)
+
+det(camera-3, the-2)
+dobj(wind-1, camera-3)
+
+det(camera-3, the-2)
+dobj(aim-1, camera-3)
+
+det(camera-3, the-2)
+dobj(focus-1, camera-3)
+
+det(button-4, the-2)
+nn(button-4, shutter-3)
+dobj(press-1, button-4)
+
+prt(turn-1, off-2)
+det(camera-4, the-3)
+dobj(turn-1, camera-4)
+
+det(camera-3, a-2)
+dobj(get-1, camera-3)
+
+det(scene-3, a-2)
+dobj(find-1, scene-3)
+dobj(find-1, subject-5)
+conj_or(scene-3, subject-5)
+
+nsubj(viewfinder-8, frame-1)
+det(scene-3, the-2)
+dep(frame-1, scene-3)
+det(camera-6, the-5)
+prep_in(frame-1, camera-6)
+cop(viewfinder-8, s-7)
+
+det(button-4, the-2)
+nn(button-4, shutter-3)
+dobj(press-1, button-4)
+aux(take-6, to-5)
+xcomp(press-1, take-6)
+det(photograph-8, a-7)
+dobj(take-6, photograph-8)
+
+det(camera-3, a-2)
+dobj(find-1, camera-3)
+
+dobj(point-1, camera-2)
+det(scene-5, a-4)
+prep_at(point-1, scene-5)
+
+nsubj(button-6, press-1)
+det(camera-3, the-2)
+nsubj(button-6, camera-3)
+cop(button-6, s-4)
+nn(button-6, shutter-5)
+
+dobj(find-1, something-2)
+prep_to(something-2, photograph-4)
+
+det(camera-3, a-2)
+dobj(locate-1, camera-3)
+
+dobj(locate-1, film-2)
+
+det(film-3, the-2)
+dobj(load-1, film-3)
+det(camera-6, the-5)
+prep_into(load-1, camera-6)
+
+det(camera-3, the-2)
+dobj(point-1, camera-3)
+det(item-6, the-5)
+prep_at(point-1, item-6)
+prep_to(item-6, photograph-8)
+
+det(button-4, the-2)
+nn(button-4, shutter-3)
+dobj(depress-1, button-4)
+det(camera-7, the-6)
+prep_on(depress-1, camera-7)
+advmod(depress-1, shortly-8)
+
+dobj(see-1, subject-2)
+prep_through(see-1, camera-4)
+
+det(button-3, the-2)
+dep(click-1, button-3)
+
+prt(pick-1, up-2)
+det(camera-4, the-3)
+dobj(pick-1, camera-4)
+
+det(camera-3, the-2)
+dobj(move-1, camera-3)
+advmod(move-1, so-4)
+complm(faces-8, that-5)
+det(lens-7, the-6)
+nsubj(faces-8, lens-7)
+ccomp(move-1, faces-8)
+dep(be-11, what-9)
+aux(be-11, should-10)
+dep(faces-8, be-11)
+det(picture-14, the-13)
+prep_in(be-11, picture-14)
+
+acomp(make-1, sure-2)
+det(object-4, the-3)
+xsubj(be-7, object-4)
+nsubj(is-11, object-4)
+partmod(object-4, desired-5)
+aux(be-7, to-6)
+xcomp(desired-5, be-7)
+det(picture-10, the-9)
+prep_in(be-7, picture-10)
+ccomp(sure-2, is-11)
+prep_in(is-11, focus-13)
+
+amod(button-4, shutter-2)
+nn(button-4, release-3)
+dobj(press-1, button-4)
+
+dobj(get-1, camera-2)
+
+dobj(position-1, camera-2)
+aux(capture-4, to-3)
+xcomp(position-1, capture-4)
+amod(image-6, desired-5)
+dobj(capture-4, image-6)
+
+dobj(press-1, button-2)
+
+det(camera-3, a-2)
+dobj(place-1, camera-3)
+poss(eye-6, your-5)
+prep_to(place-1, eye-6)
+
+det(scene-3, the-2)
+dobj(frame-1, scene-3)
+dobj(wish-5, scene-3)
+nsubj(wish-5, you-4)
+xsubj(photograph-7, you-4)
+rcmod(scene-3, wish-5)
+aux(photograph-7, to-6)
+xcomp(wish-5, photograph-7)
+
+det(button-4, the-2)
+nn(button-4, shutter-3)
+dobj(press-1, button-4)
+
+prep_on(turn-1, camera-3)
+
+nn(camera-3, lens-2)
+dobj(remove-1, camera-3)
+
+det(camera-3, the-2)
+dobj(aim-1, camera-3)
+det(object-6, the-5)
+prep_at(aim-1, object-6)
+dobj(wish-8, object-6)
+nsubj(wish-8, you-7)
+xsubj(take-10, you-7)
+rcmod(object-6, wish-8)
+aux(take-10, to-9)
+xcomp(wish-8, take-10)
+det(picture-12, a-11)
+dobj(take-10, picture-12)
+prep(picture-12, of-13)
+
+dobj(press-1, button-2)
+
+det(camera-3, the-2)
+dobj(get-1, camera-3)
+
+det(camera-3, the-2)
+dobj(point-1, camera-3)
+
+det(settings-4, the-2)
+nn(settings-4, camera-3)
+dobj(select-1, settings-4)
+
+det(button-4, the-2)
+nn(button-4, shutter-3)
+dobj(press-1, button-4)
+
+det(camera-4, the-3)
+prep_on(turn-1, camera-4)
+
+det(thing-4, the-3)
+prep_on(focus-1, thing-4)
+dobj(want-6, thing-4)
+prep_with(take-8, thing-4)
+nsubj(want-6, you-5)
+xsubj(take-8, you-5)
+rcmod(thing-4, want-6)
+aux(take-8, to-7)
+xcomp(want-6, take-8)
+det(photo-10, a-9)
+dobj(take-8, photo-10)
+
+det(shutter-3, the-2)
+dobj(press-1, shutter-3)
+
+prep_on(turn-1, camera-3)
+
+dep(position-4, viewfinder-3)
+amod(camera-5, position-4)
+prep_through(looking-1, camera-5)
+
+dobj(press-1, button-2)
+
+dobj(fetch-1, camera-2)
+
+dobj(turn-1, camera-2)
+prt(turn-1, on-3)
+
+prep_through(look-1, viewfinder-3)
+advmod(is-8, so-4)
+dep(is-8, that-5)
+amod(object-7, desired-6)
+nsubj(is-8, object-7)
+ccomp(look-1, is-8)
+prep_in(is-8, view-10)
+
+dobj(focus-1, camera-2)
+mark(needed-4, if-3)
+dep(focus-1, needed-4)
+
+dobj(press-1, button-2)
+aux(take-4, to-3)
+xcomp(press-1, take-4)
+dobj(take-4, picture-5)
+
+dobj(choose-1, scene-2)
+
+dobj(turn-1, camera-2)
+prt(turn-1, on-3)
+
+dobj(point-1, camera-2)
+prep_at(point-1, scene-4)
+
+dobj(adjust-1, parameters-2)
+
+nsubj(button-2, click-1)
+xsubj(take-4, click-1)
+aux(take-4, to-3)
+xcomp(button-2, take-4)
+dobj(take-4, photo-5)
+
+dobj(get-1, camera-2)
+
+prep_on(turn-1, camera-3)
+
+csubj(find-4, looking-1)
+prep_through(looking-1, viewfinder-3)
+det(object-7, the-5)
+amod(object-7, desired-6)
+dobj(find-4, object-7)
+prep_to(object-7, photograph-9)
+
+dobj(press-1, button-2)
+aux(take-4, to-3)
+xcomp(press-1, take-4)
+dobj(take-4, photograph-5)
+
+det(camera-3, a-2)
+dobj(locate-1, camera-3)
+
+det(item-3, an-2)
+dobj(locate-1, item-3)
+prep_to(locate-1, photograph-5)
+
+det(camera-3, the-2)
+dobj(aim-1, camera-3)
+det(item-6, the-5)
+prep_at(aim-1, item-6)
+
+det(shutter-3, the-2)
+dobj(snap-1, shutter-3)
+det(camera-6, the-5)
+prep_on(snap-1, camera-6)
+
+det(film-3, the-2)
+dobj(develop-1, film-3)
+det(camera-6, the-5)
+prep_from(develop-1, camera-6)
+
+dobj(get-1, camera-2)
+
+dobj(turn-1, camera-2)
+prt(turn-1, on-3)
+
+dobj(point-1, camera-2)
+amod(scene-5, desired-4)
+prep_at(point-1, scene-5)
+
+dobj(adjust-1, settings-2)
+
+amod(button-3, picturetaking-2)
+dobj(push-1, button-3)
+
+prt(pick-1, up-2)
+det(camera-4, the-3)
+dobj(pick-1, camera-4)
+
+acomp(make-1, sure-2)
+expl(is-4, there-3)
+ccomp(sure-2, is-4)
+nsubj(is-4, film-5)
+det(camera-8, the-7)
+prep_in(film-5, camera-8)
+
+det(camera-3, the-2)
+dobj(focus-1, camera-3)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+
+det(camera-3, a-2)
+dobj(get-1, camera-3)
+
+dobj(locate-1, object-2)
+aux(photographed-5, to-3)
+cop(photographed-5, be-4)
+xcomp(locate-1, photographed-5)
+
+csubj(is-3, ensure-1)
+dobj(ensure-1, object-2)
+prep_in(is-3, view-5)
+prep_of(view-5, camera-7)
+
+nn(button-3, photo-2)
+dobj(press-1, button-3)
+prep_on(press-1, camera-5)
+
+dobj(locate-1, scene-2)
+
+dobj(prepare-1, camera-2)
+
+dobj(point-1, camera-2)
+prep_at(point-1, scene-4)
+
+dobj(adjust-1, camera-2)
+prep_for(adjust-1, distance-4)
+prep_for(adjust-1, light-6)
+conj_and(distance-4, light-6)
+
+dobj(press-1, button-2)
+prep_on(press-1, camera-4)
+
+det(camara-3, the-2)
+dobj(find-1, camara-3)
+
+det(film-3, the-2)
+dobj(load-1, film-3)
+
+prt(line-1, up-2)
+det(shot-4, the-3)
+dobj(line-1, shot-4)
+aux(taken-7, to-5)
+auxpass(taken-7, be-6)
+infmod(shot-4, taken-7)
+
+det(camara-3, the-2)
+dobj(focus-1, camara-3)
+
+dobj(tell-1, people-2)
+aux(smile-4, to-3)
+xcomp(tell-1, smile-4)
+
+det(picture-3, a-2)
+dobj(take-1, picture-3)
+
+det(subject-3, the-2)
+dobj(determine-1, subject-3)
+
+det(camara-3, the-2)
+dobj(take-1, camara-3)
+
+csubj(viewfinder-9, line-1)
+prt(line-1, up-2)
+det(subject-4, the-3)
+dobj(line-1, subject-4)
+det(camara-7, the-6)
+prep_in(subject-4, camara-7)
+cop(viewfinder-9, s-8)
+
+det(button-3, the-2)
+dobj(push-1, button-3)
+aux(take-5, to-4)
+infmod(button-3, take-5)
+det(picture-7, a-6)
+dobj(take-5, picture-7)
+
+det(camara-3, the-2)
+dobj(put-1, camara-3)
+prt(put-1, away-4)
+
+dobj(obtain-1, camera-2)
+
+prep_on(turn-1, camera-3)
+
+prep_through(look-1, viewfinder-3)
+
+prep_at(aim-1, object-3)
+aux(photographed-6, to-4)
+cop(photographed-6, be-5)
+xcomp(aim-1, photographed-6)
+
+amod(button-3, shutter-2)
+dobj(press-1, button-3)
+
+dobj(aim-1, camera-2)
+
+dobj(find-1, target-2)
+prep_in(find-1, viewfinder-4)
+
+dobj(press-1, button-2)
+
+det(subject-3, a-2)
+dobj(choose-1, subject-3)
+
+dobj(aim-1, camera-2)
+prep_at(aim-1, subject-4)
+
+amod(button-3, shutter-2)
+dobj(push-1, button-3)
+
+det(object-3, an-2)
+dobj(focus-1, object-3)
+
+dobj(take-1, photograph-2)
+
+det(button\/switch\/etc-3, the-2)
+dobj(operate-1, button\/switch\/etc-3)
+det(camara-6, the-5)
+prep_on(operate-1, camara-6)
+nsubj(takes-8, camara-6)
+rcmod(camara-6, takes-8)
+det(photo-10, a-9)
+dobj(takes-8, photo-10)
+
+dobj(take-1, camera-2)
+
+dobj(aim-1, camera-2)
+
+dobj(say-1, cheese-2)
+
+dep(click-1, shudder-2)
+
+dobj(advance-1, film-2)
+
+prt(take-1, out-2)
+dobj(take-1, camera-3)
+
+nn(cap-3, lens-2)
+dobj(remove-1, cap-3)
+
+prep_through(look-1, viewfinder-3)
+
+dobj(point-1, lens-2)
+prep(point-1, towards-3)
+
+prt(take-1, out-2)
+dobj(take-1, camera-3)
+
+nn(cap-3, lens-2)
+dobj(remove-1, cap-3)
+
+prep_through(look-1, viewfinder-3)
+
+dobj(point-1, lens-2)
+prep_towards(point-1, object-4)
+aux(photographed-7, to-5)
+cop(photographed-7, be-6)
+infmod(object-4, photographed-7)
+mark(looking-10, while-8)
+advmod(looking-10, still-9)
+advcl(photographed-7, looking-10)
+prep_through(looking-10, viewfinder-12)
+
+dobj(press-1, shutterbutton-2)
+
+det(camera-4, the-3)
+prep_on(turn-1, camera-4)
+
+nn(cap-3, lens-2)
+dobj(remove-1, cap-3)
+
+dobj(aim-1, camera-2)
+prep_at(aim-1, subject-4)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+
+
+det(subject-3, the-2)
+dobj(pose-1, subject-3)
+
+det(camera-3, the-2)
+dobj(aim-1, camera-3)
+
+det(button-3, the-2)
+dep(click-1, button-3)
+
+prep_on(turn-1, camera-3)
+
+prep_through(look-1, viewfinder-3)
+
+dobj(adjust-1, picture-2)
+prep_until(adjust-1, clear-4)
+
+nn(button-3, capture-2)
+dobj(push-1, button-3)
+
+det(camera-3, a-2)
+dobj(find-1, camera-3)
+
+dobj(locate-1, the-2)
+prep_on(locate-1, button-4)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+aux(turn-5, to-4)
+infmod(button-3, turn-5)
+prep_on(turn-5, camera-7)
+
+det(lens-4, the-3)
+prep_through(look-1, lens-4)
+
+dobj(take-5, what-2)
+nsubj(take-5, you-3)
+aux(take-5, will-4)
+ccomp(find-1, take-5)
+det(picture-7, a-6)
+dobj(take-5, picture-7)
+cc(aim-10, and-9)
+prep_of(picture-7, aim-10)
+
+det(button-3, the-2)
+dobj(find-1, button-3)
+aux(take-5, to-4)
+infmod(button-3, take-5)
+det(picture-7, a-6)
+dobj(take-5, picture-7)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+
+dobj(get-1, camera-2)
+
+dobj(turn-1, camera-2)
+prt(turn-1, on-3)
+
+dobj(view-1, subject-2)
+prep_through(view-1, lens-4)
+
+nn(button-3, picture-2)
+dobj(press-1, button-3)
+
+dobj(ask-1, them-2)
+aux(pose-4, to-3)
+xcomp(ask-1, pose-4)
+
+det(camera-3, the-2)
+nsubj(steady-4, camera-3)
+xcomp(hold-1, steady-4)
+
+det(camera-4, the-3)
+prep_into(look-1, camera-4)
+
+poss(faces-3, their-2)
+dobj(see-1, faces-3)
+
+
+acomp(find-1, subject-2)
+aux(take-4, to-3)
+xcomp(subject-2, take-4)
+dobj(take-4, picture-5)
+prep(take-4, of-6)
+
+prep_on(turn-1, camera-3)
+
+xcomp(adjust-1, zoom-2)
+dobj(zoom-2, flash-3)
+
+dobj(take-1, picture-2)
+
+
+dobj(take-1, another-2)
+aux(ensure-4, to-3)
+xcomp(take-1, ensure-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, camera-3)
+
+dobj(find-1, camera-2)
+
+prep_at(aim-1, object-3)
+
+dobj(hit-1, button-2)
+
+dobj(get-1, camera-2)
+
+dobj(turn-1, camera-2)
+prt(turn-1, on-3)
+
+prep_through(look-1, lens-3)
+
+det(button-4, the-2)
+nn(button-4, picture-3)
+dobj(press-1, button-4)
+
+dobj(get-1, camera-2)
+
+dobj(take-1, lenscap-2)
+prt(take-1, off-3)
+
+dobj(turn-1, flash-2)
+prt(turn-1, on-3)
+
+dobj(snap-1, picture-2)
+

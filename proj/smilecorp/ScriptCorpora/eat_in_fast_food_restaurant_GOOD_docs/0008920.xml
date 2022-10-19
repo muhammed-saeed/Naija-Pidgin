@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0008920" url="http://blog.madasi.com/" time="2012-07-13-02:20" support="7" score="0.01210029655337789" bingtitle="Chocolate Bubblegum" webtitle="Chocolate Bubblegum">
+			<query id="001444" bing-rank="178"/>
+			<query id="000627" bing-rank="69"/>
+			<query id="000973" bing-rank="160"/>
+			<query id="000975" bing-rank="162"/>
+			<query id="000253" bing-rank="241"/>
+			<query id="000644" bing-rank="165"/>
+			<query id="000942" bing-rank="188"/>
+	<description>The end result here is that the consumer loses ... I should expect to get my food the way I ordered it ... Having worked in a fast food restaurant in college, I know that ...</description>
+	<body>
+		skip to main | skip to sidebar 
+Chocolate Bubblegum
+ 
+ YAUUB - Yes, Acronyms Utterly Useless Blog! 
+ 
+ Friday, March 23, 2012 
+ 
+ SSL, Tomcat, Android, and keeping my sanity 
+ Labels: geek , how-to , linux , ssl , tech , tomcat Recently, at work, I was tasked with getting some SSL certs installed and working on a tomcat installation. This was a bit outside my normal duties, as work is rather segregated, and tomcat falls under an application admin&apos;s responsibilities, not a server admin&apos;s. However, there isn&apos;t an app admin available who knows tomcat, so I was given the job by virtue of competence , and having built the server. For reference, the OS was RHEL 5.7, running Tomcat 6.0.33, and trying to use JSSE for SSL.
+
+Our normal setup for web servers is apache, sometimes using the Cool Web Stack or something like it, so tomcat isn&apos;t something that my team has any familiarity with. Additionally, I built this server, but that was just the OS (RHEL). A third party installed the tomcat application server with grails on top of it, for the purpose of hosting some mobile apps (Android and iPhone) created using their toolkit. They set this up without SSL, and in looking through their available documentation, the only reference I could find to SSL was a single footnote on a document about the security of the system which essentially said, since you asked, of course this should all be done over SSL. Just ignore the fact that none of our documentation or reference implementations bother to do so.
+
+So, I set about trying to get the SSL cert working, armed with a set of instructions (team standard procedures) for doing so with apache, and a single page from our wiki on setting up SSL in Tomcat. This page was proof that someone had done so in the past, but it consisted of a couple command lines to run, some java source code to be compiled and then invoked, and no reference to the implementation details of telling tomcat to use the SSL cert itself. The command line invocations converted the standard x509 cert we received from our CA and the key we generated when making the CSR into another format, DER .The java source code formed a program which would read in the der formatted certificate and key, and convert them into a Java keystore (JKS) formatted file. The instructions were for Solaris, our main OS, and not RHEL which these servers were running. The java program wouldn&apos;t compile, because the JDK that the third party installed for use with tomcat seemed to have a broken compiler! I installed a new jdk from the RHEL repos, and found that the source code didn&apos;t have any include statements, which also caused problems. A bunch of wildcard based includes later, I had a compiled program and a freshly created keystore. I installed it into tomcat, using some helpful online instructions , made a mental note that I wanted to come back at some point and find a way to convert the SSL cert without using a custom compiled program, because that seems like overkill for a problem where standard tools should exist, and continued on my way, after verifying that the site was accessible over SSL now.
+
+I did end up finding a way to convert from the openSSL cert to a java keystore without using a custom compiled java program. After much, much searching, I found a tough to navigate site that was stuffed with useful information! This page shows how to use the openssl tool to combine a key and a cert into one PKCS12 file. Then, this page shows how to use the java (or JDK maybe) command keytool to import the PKCS12 file into a Java KeyStore file. Thus, we are now able to use two commands where before we used 2 different commands&amp;a custom compiled java program. (In theory, we don&apos;t have to perform the conversion to a Java KeyStore format, as Tomcat can be told to use the PKCS12 file directly as a keystore. However, this involves more poorly documented tomcat configuration, and I didn&apos;t want to keep pressing my luck once I got everything working. If someone else wants to try for efficiency later on, then they are more than welcome to it.)
+
+Those in charge of this project then decided I should turn off all non-SSL traffic to the servers. After doing this, they discovered that they could not download the new APK files to their Android phones from the server over SSL. Android was throwing an untrusted certificate error (the kind you expect with a self-signed cert, not a CA issued one) and will silently fail to download files from a server over SSL in this scenario.
+
+I suspected that the intermediate certs were not being handed out correctly, and was eventually able to prove this with the help of these two sites. Our internal instructions said to import the intermediate cert from our CA into the JKS file with an alias of intermediateca. The official instructions said to import it with an alias of root. Somewhere else online said to use an alias of intermediate. I tried all of these, as well as combining them all, with no luck. I looked through the documentation, and could find no mention of a specific alias name to use for tomcat to magically pick it up and serve it out.
+
+I went searching again, and finally stumbled upon this question on stack overflow. This was the same problem I was having, so I tried the solution, but ran into problems. They placed the intermediate cert into /etc/ssl/certs, then ran the command to create the PKCS12 file with an additional flag -chain . RHEL doesn&apos;t have an /etc/ssl/certs, so I searched, and found the equivalent at /etc/pki/tls/certs. I tried placing the intermediate cert there, and running the command with -chain added, and got errors because the cert wasn&apos;t found. I then went looking to see what options could be passed to the openssl command, and found the -CAfile and -caname flags. Using these, I was able to use the -chain flag and eventually get a Java KeyStore that caused tomcat to serve out the intermediate cert correctly.
+
+
+After some experimenting, I finally isolated what creates a working keystore. The -chain flag with the openssl command is the critical key. Combine this with -CAfile to create the PKCS12 file with the intermediate cert included. The -caname flag ends up to not be needed at all. Importing the intermediate certs into the JKS (Java KeyS tore) file with an alias, doesn&apos;t matter at all. (It doesn&apos;t break anything to have them there, bu t it also isn&apos;t needed for it to work.) Counterintuitively, the working JKS file will only show to contain one cert when viewed with keytool -list.
+ 
+ [root@fido sslcerts]# keytool -list -keystore fido.jks 
+Enter keystore password: 
+
+Keystore type: JKS
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+tomcat, Mar 22, 2012, PrivateKeyEntry, 
+Certificate fingerprint (MD5): 83:F5:A4:7D:2A:39:35:FB:8B:41:B7:34:B5:97:45:92 
+I was able to verify with both of the SSL checking sites above that this file will serve out the intermediate certs correctly. On Android, it no longer throws the untrusted cert error, and now silently validates. So, now, we have a new working procedure that only requires the same files we were downloading from the CA before, and uses two commands to turn them into a working Java KeyStore that will serve out intermediate certs correctly 
+ openssl pkcs12 -export -inkey fido-2012-03-15.key -in fido-2012-03-15-cert.cer \
+-out fido_key_cert_chain.p12 -chain -name tomcat -CAfile fido-2012-03-15-interm.cer 
+
+keytool -importkeystore -srckeystore fido_key_cert_chain.p12 -srcstoretype pkcs12 \
+-srcstorepass changeme -destkeystore fido.jks -deststoretype jks -deststorepass changeme Posted by Mark Silence at 3/23/2012 04:00:00 PM 1 comments 
+ Tuesday, November 22, 2011 
+ 
+ Citrix Receiver on 64-bit Arch Linux 
+ Labels: arch , Citrix , geek , how-to , linux , tech I recently made the switch from Ubuntu to Arch Linux (with E17) on my workstation at work, and I am now in the process of getting all my apps setup and working again. Pretty high up on that list was the Citrix receiver. Work is a largely Windows based setup, with Exchange for e-mail. I actually prefer a few things about the newer versions of Outlook, when compared with most of the Linux clients I have tried in the past.
+This means my choices boil down to:
+
+ Get Outlook running under Wine (yeah, that&apos;ll work out real well)  Run Outlook in a Windows VM (I have this setup, but prefer not to run the VM at all times, it is a real memory hog) Run a separate computer with Windows on it, just for Outlook (not going to happen) Get the Citrix receiver working, and use the Citrix version of Outlook that we make available 
+I chose #4. The problem here is not the linux part, install packages exist for the receiver on linux. The problem is the 64-bit part. Out Citrix server only hands out a 32-bit installer. I went looking, and while Citrix has started offering 64-bit installers now, they only come in .deb or .rpm. There isn&apos;t a .tar.gz package like there is for 32-bit. Arch linux, of course, does not use .deb or .rpm packages.
+
+I had the receiver installed on Ubuntu, and it worked mostly. It worked fine, but I could not run the manager app to change the settings, which meant that I could never map my local hard drive to show up as a drive in the software run on Citrix. For e-mail, this meant I could not save or send attachments, unless I used a USB stick for them, because the default settings would auto-mount USB devices.
+
+I found these instructions on the Arch wiki, and followed the manual install instructions. Probably because I had already downloaded the package from Citrix, and sunk some time into getting the installer to run, so I didn&apos;t want to take the easy route out and use a pre-built package now.
+
+Just to get the installer to run, I had to do some research, and finally figure out that the &quot;no such file or directory&quot; errors being thrown by echo_cmd were because I only had the 64-bit glibc libraries, and I needed to install the lib32-glibc from the multilib repo as well.
+
+I followed the instructions on the wiki, making modifications as I went because my install of the receiver was in a different directory, and got a working install, except that I had problems getting firefox to see the Citrix plugin for some reason. I also was not able to get the manager app (wfcmgr) to run, despite the wiki article explicitly saying it should. I was getting this error:
+
+ /opt/Citrix/ICAClient/wfcmgr: error while loading shared libraries: libXm.so.4: cannot open shared object file: No such file or directory 
+
+I did some more digging, and found the 32-bit library package from the AUR containing libXm.so.4, aur-lib32-openmotif, installed into /opt/lib32/usr/lib directory, instead of into the /usr/lib32 directory where the wfcmgr program was trying to find it.
+
+One way to fix this is with a simple
+
+ sudo ln -s /opt/lib32/usr/lib/libXm.so.4 /usr/lib32/libXm.so.4 
+
+however, I chose to modify the PKGBUILD to put the libraries in /usr/lib32 with all the others, in case a program went looking for one of the other openmotif libraries in the future.
+
+I also figured out that my problem getting firefox to see the plugin was that I checked whether the plugin was setup with
+
+ sudo nspluginwrapper -l 
+
+using sudo here, because the wiki article showed the install command, nspluginwrapper -i , being run as root. This showed the plugin to be in place already:
+
+ 
+ /root/.mozilla/plugins/npwrapper.npica.so
+ Original plugin: /opt/Citrix/ICAClient/npica.so
+ Plugin viewer: /usr/lib/nspluginwrapper/i386/linux/npviewer
+ Wrapper version string: 1.4.4-1 
+
+It took me too long to realize that this plugin was not system-wide, but was root-specific, and that I needed to do this as my user instead. I checked and it was not setup for my user, so I used the -i command to install it, and restarted firefox. It is now detected, which means I don&apos;t have to skip past the install prompt from the server when the silent-detection routine fails to find the plugin on my system.
+
+In the end, I have a newer version of Citrix Receiver installed and I was able to setup my home directory to be mapped as a drive to be seen inside the Citrixed apps. I do not have the USB device support, because the installer can&apos;t figure out Arch&apos;s system for managing services, but I don&apos;t think I&apos;ll miss that.
+
+
+ Posted by Mark Silence at 11/22/2011 10:51:00 AM 0
+comments 
+ Tuesday, August 16, 2011 
+ 
+ Sign Criticism 
+ Labels: rant , signs 
+Driving home after work today, I saw one of those little signs stuck in the ground at a corner that said &quot;Get Customer Leads&quot; and had a phone number. The two thoughts that went through my head were: 1) If you are so great at generating customer leads, then why aren&apos;t you contacting me instead of expecting me to call you? 2) If I were to call you, would I end up on your list of customer leads that you sell to others?
+ Posted by Mark Silence at 8/16/2011 05:32:00 PM 0
+comments 
+ Friday, October 09, 2009 
+ 
+ Proprietary Drivers Lead to Hardware Duplication 
+ 
+I&apos;m your typical geek, obsessed with gadgets and technology, so I could probably burn through almost any size budget, buying cool things to hack on and/or play with, without even blinking. Conversely, I&apos;m young, and still working my way up the ladder, so my income is definitely limited. Finally, I&apos;m married, and have two young children, so I have far better things to spend my money on than the new 8.02.11xn enabled light bulb. (Bonus points if it also speaks wireless DMX)
+
+So, the net effect of this, is that when I do get something new to play with, I have to choose carefully, and try to get the most tech bang for my dollar. Case in point, the first time I&apos;ve gotten a GPS device to play with it is in my corporate supplied Blackjack 2 smartphone. Now, I&apos;ve wanted a GPS for a while. Geocaching looks like a lot of fun, and is something I&apos;ve wanted to try for a while. I&apos;m also interested in wardriving as well as helping out OpenStreetMap.org 
+
+However, a Windows mobile smartphone without wifi isn&apos;t really the best tool for any of these activities. However, it has GPS builtin, and it has bluetooth, just like a typical bluetooth GPS dongle. And, thanks to a hack I found online, the internal GPS can be accessed directly on a COM port, instead of only through the Windows Mobile APIs. In an ideal world, I could just read the GPS NMEA data over bluetooth from my laptop, and use it the same as any other GPS dongle. However, because of the proprietary nature of everything involved, this isn&apos;t an option, and I&apos;m forced to buy a different GPS receiver if I want to use the GPS with my laptop.
+
+This is all a software issue though. The technical capability clearly exists in the devices. However, the drivers don&apos;t allow for it. Drivers, written by hardware companies, who don&apos;t want anyone else to know the intricacies of how to interface with their hardware, as that is &quot;proprietary knowledge&quot; and a &quot;trade secret&quot;. Now, there is some legitimate concern here. If you know how to talk to a piece of hardware, and can map inputs to outputs, then reverse engineering, especially the two team, clean room style, becomes much easier. However, many hardware companies write really lousy drivers, full of bugs, and lacking many features.
+
+This is a fight faced by the Linux and BSD communities since the beginning. There isn&apos;t enough market share for most hardware manufacturers to create their own drivers for open source operating systems. However, despite offers from the community to do the development, the manufacturers are also unwilling or unable to release any sort of technical specifications, or provide any sort of support at all. Which really created the old school Linux mentality of finding something you wanted to have work, then hacking at it until you had created a working driver for it. The end result here is that the consumer loses, and the manufacturers don&apos;t see the problem, when I have to buy a separate GPS device because my laptop can&apos;t use the one built into my smartphone.
+ Posted by Mark Silence at 10/09/2009 11:10:00 PM 0
+comments 
+ Friday, January 30, 2009 
+ 
+ Metrics Can Lead to Poor Customer Service! 
+ 
+We eat far too much fast food. Unfortunately, it is too attractive to us. It is quick, relatively cheap, and simple. Also, we can usually pick up something that the kiddos will eat, or at least not complain about. I think the real kicker often is the quick, and that it doesn&apos;t mean having to clean dishes around the house, which is all too big of a plus for us right now.
+
+I was realizing today just how low my expectations have become. No matter where I&apos;m ordering, no matter how straight-forward the order, I expect that there will be at least one mess up. If it&apos;s just that they forgot to include straws for the drinks, I&apos;m happy. If it is that the ignored a special order request, despite it having been heard, and ticketed properly, I&apos;m unsurprised. And if it is the failure to include some add-on condiment (like sour cream at Jack in the Box) that I paid for, I&apos;m only mildly annoyed. Which is really pathetic. I should expect to get my food the way I ordered it, all of it. If it doesn&apos;t get entered properly when I order it, I understand that, although I get annoyed if it happens after I&apos;ve repeated myself and corrected the order 5 or 6 times. But, when the order gets taken and entered correctly, but made incorrectly, that is either laziness, carelessness, or sloppiness. And yet, I&apos;ve come to accept and expect it.
+
+However, the point of this rant is about the other annoying practice most fast food restaurants have gotten into at the drive-through window, asking you to pull into a parking space and wait for your food. I find that this also rarely perturbs me, although it really gets under my wife&apos;s skin. When I&apos;ve ordered something that I know takes a bit longer to cook, and there are several cars behind me, then I have no problem with pulling into a space to wait. My only annoyance at is is that I know I won&apos;t be asked about any condiments I would like, and I won&apos;t be able to point out any issues I find right away, like I could at the window. However, whenever I get asked to pull in when there are no cars behind me, then I blame metrics. Or, an even better variant that I experienced today: this was one of the places were you pay at the first window, and get your food at the second. There were about 3 cars behind me when I paid, and the car in front of me had already left the second window. I was asked to wait at the first window, and not pull up until I was told that my food was ready.
+
+Clearly, both of these requests are intended to minimize time spent at the delivery window. Having worked in a fast food restaurant in college, I know that things like wait time and time at window get tracked by management. Just like we were warned when the &quot;secret shopper&quot; would be stopping by, and everyone knew who he was, so his order always exceeded the minimum standards for amount of ingredients, the employees are going to do anything they can to boost these metrics if there is either reward or consequence attached to it. Whether it is average wait time, average time at window, or even max time at window, the drive is to improve the measured metric, even at the absolute expense of the customer experience. This isn&apos;t all that different from backfiring incentives . Of course, this doesn&apos;t apply only to the fast food industry, but is a danger with any metric in any industry. If the metric becomes the be-all end-all, then it&apos;s entire purpose has been defeated. This is on my mind right now, because I am now part of setting metrics both for myself, and for the department I&apos;m currently responsible for training and overseeing.
+ Posted by Mark Silence at 1/30/2009 09:59:00 PM 1 comments Older Posts Home Subscribe to: Posts (Atom) 
+About Me
+ Mark Silence Geek, Husband, Father, Introvert View my complete profile 
+Blog Archive
+ 
+ ▼  2012 (1) 
+ ▼  March (1) 
+ SSL, Tomcat, Android, and keeping my sanity 
+ 
+ 
+
+ ►  2011 (2) 
+ ►  November (1) 
+ Citrix Receiver on 64-bit Arch Linux 
+ 
+
+ ►  August (1) 
+ Sign Criticism 
+ 
+ 
+
+ ►  2009 (3) 
+ ►  October (1) 
+ Proprietary Drivers Lead to Hardware Duplication 
+ 
+
+ ►  January (2) 
+ Metrics Can Lead to Poor Customer Service! Space, the Forgotten Frontier 
+ 
+ 
+
+ ►  2008 (1) 
+ ►  March (1) 
+ Dead-on Accurate 
+ 
+ 
+
+ ►  2007 (11) 
+ ►  September (3) 
+ My Webpage Addiction Kiddo Quote Bug Affliction 
+ 
+
+ ►  May (2) 
+ Hibernate once again! Ubuntu 7.04&amp;a Dell E1505 
+ 
+
+ ►  March (3) 
+ Mafiaa Simple Pleasures &apos;Bout Time 
+ 
+
+ ►  February (1) 
+ Jealousy 
+ 
+
+ ►  January (2) 
+ OTM Extensions This Post has an OTM rating of 2 days. 
+ 
+ 
+
+ ►  2006 (19) 
+ ►  October (1) 
+ Green Up! 
+ 
+
+ ►  September (3) 
+ Degrees of Difficulty ARRR! August 
+ 
+
+ ►  August (2) 
+ Christmas Decorations Double-Edged Swords 
+ 
+
+ ►  July (1) 
+ EULA&apos;S 
+ 
+
+ ►  June (2) 
+ I Need a New Scale! Update 
+ 
+
+ ►  May (3) 
+ Smart Fasteners, Normal People Gone in 20 Minutes: using laptops to steal cars Americans Sicker Than Brits! 
+ 
+
+ ►  March (5) 
+ Not the only one! Juggling Miscellany Guess My Picture! Desktop Defaults Sit Heer O&apos;Site O&apos;r There! 
+ 
+
+ ►  February (1) 
+ Reflection Moment 
+ 
+
+ ►  January (1) 
+ Tooting My Own Horn 
+ 
+ 
+
+ ►  2005 (42) 
+ ►  December (5) 
+ Business Trip Postponed Black Dogs, Electric Sheep,&amp;Dysphoric Humans Movie Review: King Kong Christmas Time Tackiness Fasting 
+ 
+
+ ►  November (3) 
+ Happy Belated Thanksgiving Day Interesting Quote Today Update Overdue 
+ 
+
+ ►  October (2) 
+ Maintenance Issues Posting Frequencies: Revisited 
+ 
+
+ ►  September (1) 
+ Slow Down and Hear the Windchimes 
+ 
+
+ ►  August (1) 
+ Rated PH for Parental Humor Only 
+ 
+
+ ►  July (9) 
+ B-Day 
+ 
+
+ ►  June (1) 
+
+ ►  April (1) 
+
+ ►  March (4) 
+
+ ►  February (3) 
+
+ ►  January (12) 
+ 
+ 
+Labels
+ 
+ arch (1) blogging (1) bugs (1) Christmas (1) Citrix (1) EULA (1) family (2) firefox (1) geek (5) how-to (2) kids (1) life (2) linux (4) pirates (1) rant (5) school rant (1) signs (1) ssl (1) tech (2) tomcat (1) ubuntu (2) vista (1) weight loss (2) wife (2)
+	</body>
+</document>

@@ -1,0 +1,377 @@
+dobj(identify-1, problem-2)
+
+amod(research-4, relevant-3)
+prep_about(read-1, research-4)
+det(area-7, the-6)
+prep_in(read-1, area-7)
+
+dobj(plan-1, course-2)
+prep_of(course-2, action-4)
+
+dobj(review-1, progress-2)
+
+det(library-4, the-3)
+prep_to(go-1, library-4)
+
+det(librarian-3, the-2)
+dobj(ask-1, librarian-3)
+advmod(find-6, where-4)
+aux(find-6, to-5)
+xcomp(ask-1, find-6)
+dobj(find-6, books-7)
+det(topic-10, the-9)
+prep_on(books-7, topic-10)
+
+det(section-3, the-2)
+dobj(peruse-1, section-3)
+prep_of(section-3, books-5)
+
+det(books-5, the-2)
+advmod(relevant-4, most-3)
+amod(books-5, relevant-4)
+dobj(select-1, books-5)
+
+det(books-3, the-2)
+dobj(check-1, books-3)
+det(library-7, the-6)
+prep_out_of(check-1, library-7)
+
+dobj(identify-1, keywords-2)
+prep_for(identify-1, topic-4)
+
+dobj(enter-1, keywords-2)
+nn(engine-5, search-4)
+prep_into(enter-1, engine-5)
+
+nn(results-4, search-2)
+nn(results-4, engine-3)
+dobj(return-1, results-4)
+
+amod(papers-3, relevant-2)
+dobj(find-1, papers-3)
+prep_on(papers-3, topic-5)
+
+dobj(summarize-1, papers-2)
+
+dobj(find-1, problems-2)
+neg(solved-4, not-3)
+partmod(problems-2, solved-4)
+amod(research-7, previous-6)
+agent(solved-4, research-7)
+
+dobj(find-1, solution-2)
+prep_for(solution-2, problem-4)
+
+dobj(summarize-1, findings-2)
+prep_in(summarize-1, paper-4)
+
+det(search-4, a-2)
+nn(search-4, literature-3)
+dobj(make-1, search-4)
+det(topic-7, the-6)
+prep_for(search-4, topic-7)
+
+det(literature-3, the-2)
+dobj(review-1, literature-3)
+
+dobj(answer-1, questions-2)
+det(topic-5, the-4)
+prep_within(answer-1, topic-5)
+complm(haven-7, that-6)
+dep(topic-5, haven-7)
+dep(haven-7, t-8)
+partmod(haven-7, been-9)
+prep(been-9, answered-10)
+dep(answered-10, before-11)
+
+dobj(write-1, report-2)
+poss(findings-5, your-4)
+prep_of(report-2, findings-5)
+
+det(library-4, the-3)
+prep_to(go-1, library-4)
+
+dobj(choose-1, media-2)
+prep_to(choose-1, research-4)
+prep(choose-1, by-5)
+
+advmod(read-2, thoroughly-1)
+det(media-5, the-3)
+amod(media-5, chosen-4)
+dobj(read-2, media-5)
+
+prt(pick-1, out-2)
+det(information-5, the-3)
+amod(information-5, important-4)
+dobj(pick-1, information-5)
+
+amod(information-3, important-2)
+dobj(write-1, information-3)
+prt(write-1, down-4)
+prep_for(write-1, notes-6)
+
+det(book-4, a-3)
+prep_for(look-1, book-4)
+det(topic-8, the-6)
+amod(topic-8, specified-7)
+prep_about(book-4, topic-8)
+
+det(pages-3, the-2)
+dobj(study-1, pages-3)
+det(book-6, the-5)
+prep_of(pages-3, book-6)
+aux(learn-8, to-7)
+infmod(book-6, learn-8)
+advmod(learn-8, more-9)
+det(topic-12, the-11)
+prep_about(learn-8, topic-12)
+
+mark(found-5, until-2)
+nsubj(found-5, you-3)
+aux(found-5, have-4)
+advcl(repeat-1, found-5)
+det(books-7, all-6)
+dobj(found-5, books-7)
+det(topic-10, the-9)
+prep_about(found-5, topic-10)
+
+dobj(call-1, someone-2)
+dobj(know-4, someone-2)
+nsubj(know-4, you-3)
+rcmod(someone-2, know-4)
+det(telephone-7, the-6)
+prep_on(know-4, telephone-7)
+
+dobj(ask-1, them-2)
+det(topic-6, the-4)
+amod(topic-6, specified-5)
+prep_about(ask-1, topic-6)
+
+mark(learn-4, until-2)
+nsubj(learn-4, you-3)
+advcl(repeat-1, learn-4)
+dobj(learn-4, more-5)
+det(topic-8, the-7)
+prep_about(more-5, topic-8)
+prep_from(topic-8, someone-10)
+
+dobj(identify-1, topic-2)
+
+amod(material-3, relevant-2)
+dobj(identify-1, material-3)
+
+amod(material-3, relevant-2)
+dobj(read-1, material-3)
+
+dobj(identify-1, topic-2)
+
+prep_for(search-1, topic-3)
+prep_in(topic-3, library-5)
+prep_in(topic-3, internet-7)
+conj_or(library-5, internet-7)
+
+dobj(retrieve-1, infomation-2)
+
+dobj(present-1, information-2)
+
+amod(com-3, google-2)
+dobj(open-1, com-3)
+
+det(topic-5, the-3)
+amod(topic-5, specific-4)
+prep_for(search-1, topic-5)
+
+dobj(receive-1, topic-2)
+
+prep_to(go-1, library-3)
+
+nn(catalogue-4, card-3)
+prep_in(look-1, catalogue-4)
+
+dobj(find-1, books-2)
+prep_in(find-1, relation-4)
+prep_to(relation-4, topic-6)
+
+dobj(open-1, books-2)
+
+prep_in(search-1, index-3)
+prep_for(search-1, topic-5)
+
+dobj(read-1, book-2)
+
+dobj(pose-1, query-2)
+
+dobj(find-1, resources-2)
+
+amod(data-3, pertaining-2)
+dobj(seek-1, data-3)
+
+amod(threads-3, relevent-2)
+dobj(follow-1, threads-3)
+
+amod(data-3, useful-2)
+dobj(isolate-1, data-3)
+
+amod(answers-3, precise-2)
+nsubj(transcribe-1, answers-3)
+
+amod(report-3, concluding-2)
+dobj(compile-1, report-3)
+
+dobj(determine-1, topic-2)
+
+dobj(determine-1, scope-2)
+prep_of(scope-2, work-4)
+
+dobj(outline-1, need-2)
+dobj(outline-1, focus-4)
+conj_and(need-2, focus-4)
+
+dobj(gather-1, resources-2)
+
+nsubj(perform-1, research-2)
+
+dobj(record-1, research-2)
+
+dobj(record-1, conclusion-2)
+
+dobj(read-1, papers-2)
+
+
+dobj(add-1, contribution-2)
+
+dobj(publich-1, contribution-2)
+
+det(topic-3, the-2)
+dobj(choose-1, topic-3)
+
+det(documents-4, the-2)
+amod(documents-4, relevant-3)
+iobj(find-1, documents-4)
+dobj(find-1, review-5)
+
+det(reviews-3, the-2)
+dobj(analyze-1, reviews-3)
+
+det(research-3, the-2)
+nsubj(perform-1, research-3)
+
+det(topic-4, the-2)
+nn(topic-4, research-3)
+dobj(find-1, topic-4)
+
+dobj(research-1, it-2)
+
+det(topic-3, the-2)
+dobj(identify-1, topic-3)
+
+dobj(find-1, subtopics-2)
+amod(research\/incidents-5, related-4)
+dobj(find-1, research\/incidents-5)
+conj_and(subtopics-2, research\/incidents-5)
+
+dobj(record-1, information-2)
+
+cc(information-4, and-2)
+dep(information-4, correlate-3)
+dobj(summarize-1, information-4)
+
+det(book-4, a-3)
+prep_in(look-1, book-4)
+
+det(internet-4, the-3)
+prep_on(go-1, internet-4)
+
+dobj(google-1, it-2)
+
+prep_to(go-1, wikipedia-3)
+
+det(library-4, the-3)
+prep_to(go-1, library-4)
+
+dobj(ask-1, someone-2)
+
+det(bibliography-3, a-2)
+nsubj(include-1, bibliography-3)
+
+dobj(pick-1, topic-2)
+
+nn(method-3, research-2)
+dobj(choose-1, method-3)
+
+
+poss(interest-3, your-2)
+dobj(find-1, interest-3)
+
+dobj(do-1, research-2)
+
+dobj(find-1, partner-2)
+
+prep_for(search-1, information-3)
+
+prep_to(go-1, library-3)
+
+dobj(prepare-1, presentation-2)
+
+dobj(finish-1, presentation-2)
+
+dobj(choose-1, topic-2)
+
+nsubj(online-2, research-1)
+
+prep_at(research-1, library-3)
+
+amod(data-3, required-2)
+dobj(print-1, data-3)
+
+amod(draft-3, rough-2)
+dobj(compose-1, draft-3)
+prep_of(draft-3, report-5)
+
+amod(copy-3, rough-2)
+dobj(proofread-1, copy-3)
+
+dobj(edit\/make-1, changes-2)
+
+det(topic-3, the-2)
+dobj(idetify-1, topic-3)
+
+dobj(do-1, research-2)
+
+nn(source-3, information-2)
+dobj(access-1, source-3)
+
+amod(topic-4, specified-3)
+prep_for(search-1, topic-4)
+
+conj_or(save-1, print-3)
+amod(information-5, related-4)
+dobj(print-3, information-5)
+
+amod(terms-4, related-3)
+prep_for(search-1, terms-4)
+
+conj_or(save-1, print-3)
+amod(information-5, related-4)
+dobj(print-3, information-5)
+
+prep_to(go-1, library-3)
+
+dobj(get-1, books-2)
+partmod(books-2, related-3)
+det(topic-6, the-5)
+prep_to(related-3, topic-6)
+
+dobj(read-1, books-2)
+
+det(topic-3, a-2)
+dobj(pick-1, topic-3)
+
+prt(look-1, up-2)
+dobj(look-1, information-3)
+prep_in(information-3, encyclopedia-5)
+
+prep_in(look-1, dictionary-3)
+
+acomp(look-1, online-2)
+

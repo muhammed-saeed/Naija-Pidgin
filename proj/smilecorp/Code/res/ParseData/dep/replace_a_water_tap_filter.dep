@@ -1,0 +1,359 @@
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+prt(throw-1, away-2)
+amod(filter-4, old-3)
+dobj(throw-1, filter-4)
+
+amod(filter-3, new-2)
+dobj(open-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(install-1, filter-3)
+xsubj(package-6, filter-3)
+dep(install-1, according-4)
+aux(package-6, to-5)
+xcomp(according-4, package-6)
+dobj(package-6, instructions-7)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(locate-1, filter-3)
+
+amod(filter-4, new-3)
+prep_on(screw-1, filter-4)
+
+dobj(unscrew-1, filter-2)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-4, new-3)
+prep_with(replace-1, filter-4)
+
+dobj(screw-1, filter-2)
+advmod(screw-1, back-3)
+prep(screw-1, on-4)
+
+nn(holder-3, filter-2)
+dobj(unscrew-1, holder-3)
+prep_from(unscrew-1, tap-5)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(place-1, filter-3)
+
+nn(holder-3, filter-2)
+dobj(screw-1, holder-3)
+prep_onto(screw-1, tap-5)
+
+dobj(remove-1, filter-2)
+prep_from(remove-1, tap-4)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(place-1, filter-3)
+
+nn(filter-3, water-2)
+dobj(attach-1, filter-3)
+aux(tap-5, to-4)
+xcomp(attach-1, tap-5)
+
+nn(tap-3, water-2)
+dobj(remove-1, tap-3)
+
+dobj(remove-1, filter-2)
+prep_from(remove-1, tap-4)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+nn(tap-3, water-2)
+dobj(put-1, tap-3)
+advmod(put-1, back-4)
+prep(put-1, on-5)
+
+nsubj(faucet-2, unscrew-1)
+dobj(faucet-2, tap-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(put-1, filter-3)
+nn(tap-6, water-5)
+prep_into(put-1, tap-6)
+
+aux(tap-4, rescrew-1)
+det(faucet-3, the-2)
+nsubj(tap-4, faucet-3)
+prt(tap-4, back-5)
+prep_into(tap-4, place-7)
+
+amod(water-3, old-2)
+dobj(remove-1, water-3)
+dep(remove-1, tap-4)
+dobj(tap-4, filter-5)
+
+amod(water-3, old-2)
+dobj(put-1, water-3)
+dep(put-1, tap-4)
+dobj(tap-4, filter-5)
+prep_in(tap-4, garbage-7)
+
+amod(water-3, new-2)
+dobj(find-1, water-3)
+dep(find-1, tap-4)
+dobj(tap-4, filter-5)
+
+amod(filter-5, new-2)
+nn(filter-5, water-3)
+nn(filter-5, tap-4)
+dobj(put-1, filter-5)
+det(container-9, the-7)
+nn(container-9, filter-8)
+prep_into(put-1, container-9)
+
+dobj(remove-1, tap-2)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+advmod(put-1, back-2)
+nsubj(put-1, tap-3)
+
+det(lid-3, the-2)
+dobj(take-1, lid-3)
+det(jug-6, the-5)
+prep_off(take-1, jug-6)
+
+det(filter-4, the-2)
+amod(filter-4, old-3)
+dobj(remove-1, filter-4)
+
+iobj(put-1, int-2)
+dep(filter-5, he-3)
+amod(filter-5, new-4)
+dobj(put-1, filter-5)
+
+det(jug-3, the-2)
+dobj(fill-1, jug-3)
+
+det(lid-3, the-2)
+dobj(put-1, lid-3)
+prep(put-1, on-4)
+
+prt(throw-1, away-2)
+det(filter-5, the-3)
+amod(filter-5, old-4)
+dobj(throw-1, filter-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+dobj(remove-1, filter-2)
+
+amod(filter-3, new-2)
+dobj(place-1, filter-3)
+prep_on(filter-3, tap-5)
+
+prep_on(turn-1, water-3)
+
+amod(filter-3, new-2)
+dobj(buy-1, filter-3)
+
+nn(holder-3, filter-2)
+dobj(open-1, holder-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(put-1, filter-3)
+prep(put-1, in-4)
+
+nn(container-3, filter-2)
+dobj(close-1, container-3)
+
+dobj(run-1, water-2)
+prep_through(run-1, filter-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+conj_and(remove-1, dispose-3)
+amod(filter-6, old-5)
+prep_of(dispose-3, filter-6)
+
+amod(filter-3, new-2)
+dobj(install-1, filter-3)
+
+dobj(remove-1, cover-2)
+prep_on(remove-1, dispenser-4)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(insert-1, filter-3)
+
+dobj(replace-1, cover-2)
+prep_on(replace-1, dispenser-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-4, new-3)
+prep_on(put-1, filter-4)
+
+dobj(turn-1, water-2)
+prt(turn-1, on-3)
+
+amod(flange-3, top-2)
+dobj(unscrew-1, flange-3)
+
+dobj(remove-1, gasket-2)
+
+amod(material-3, filtering-2)
+dobj(remove-1, material-3)
+
+amod(material-3, filtering-2)
+dobj(replace-1, material-3)
+
+amod(gasket-2, re-insert-1)
+nsubj(flange-3, gasket-2)
+dobj(flange-3, assembly-4)
+
+nn(assembly-3, filter-2)
+dobj(screw-1, assembly-3)
+advmod(screw-1, back-4)
+prep(screw-1, in-5)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(add-1, filter-3)
+
+prt(turn-1, off-2)
+det(tap-4, the-3)
+dobj(turn-1, tap-4)
+
+det(filter-4, the-2)
+amod(filter-4, old-3)
+dobj(remove-1, filter-4)
+
+dobj(open-1, packaging-2)
+amod(filter-5, new-4)
+prep_for(open-1, filter-5)
+
+amod(filter-3, new-2)
+dobj(place-1, filter-3)
+det(tap-6, the-5)
+prep_onto(place-1, tap-6)
+
+acomp(make-1, sure-2)
+amod(filter-4, new-3)
+nsubjpass(attached-7, filter-4)
+auxpass(attached-7, is-5)
+advmod(attached-7, fully-6)
+ccomp(sure-2, attached-7)
+
+det(faucet-3, the-2)
+dobj(test-1, faucet-3)
+
+prt(throw-1, away-2)
+amod(filter-4, old-3)
+dobj(throw-1, filter-4)
+
+nn(cover-3, filter-2)
+dobj(remove-1, cover-3)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(insert-1, filter-3)
+
+nn(cover-3, filter-2)
+dobj(replace-1, cover-3)
+
+amod(water-3, old-2)
+dobj(remove-1, water-3)
+dep(remove-1, tap-4)
+dobj(tap-4, filter-5)
+
+aux(tap-4, connect-1)
+amod(water-3, new-2)
+nsubj(tap-4, water-3)
+dobj(tap-4, filter-5)
+
+dobj(take-1, old-2)
+prt(take-1, off-3)
+
+
+dobj(take-1, new-2)
+prep_out_of(take-1, box-5)
+
+prt(put-1, on-2)
+
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(place-1, filter-3)
+
+prt(throw-1, away-2)
+amod(filter-4, old-3)
+dobj(throw-1, filter-4)
+
+dobj(close-1, tap-2)
+
+amod(filter-3, old-2)
+dobj(remove-1, filter-3)
+
+amod(filter-3, new-2)
+dobj(put-1, filter-3)
+prep_into(put-1, cup-5)
+amod(water-8, cold-7)
+prep_of(cup-5, water-8)
+
+dobj(clean-1, head-2)
+prep_of(head-2, tap-4)
+
+dobj(replace-1, filter-2)
+
+prt(throw-1, away-2)
+dobj(throw-1, garbage-3)
+
+prep_on(turn-1, water-3)
+
+dobj(clean-1, surface-2)
+
+dobj(find-1, filter-2)
+
+dobj(screw-1, it-2)
+prep(screw-1, on-3)
+
+amod(filter-3, new-2)
+dobj(buy-1, filter-3)
+
+amod(filter-3, old-2)
+dobj(unscrew-1, filter-3)
+
+amod(filter-4, new-3)
+prep_in(screw-1, filter-4)
+

@@ -1,0 +1,319 @@
+prep_over(call-1, server-3)
+
+advmod(wrong-3, whats-2)
+acomp(explain-1, wrong-3)
+
+dobj(hand-1, dish-2)
+advmod(hand-1, back-3)
+dep(back-3, to-4)
+pobj(to-4, server-5)
+
+amod(dish-4, new-3)
+prep_for(wait-1, dish-4)
+
+dobj(get-1, refund-2)
+
+det(waiter-3, the-2)
+dobj(call-1, waiter-3)
+
+dobj(explain-1, problem-2)
+
+det(waiter-2, the-1)
+nsubj(apologizes-3, waiter-2)
+
+poss(food-2, your-1)
+nsubjpass(taken-4, food-2)
+auxpass(taken-4, is-3)
+prt(taken-4, back-5)
+
+nsubj(get-2, you-1)
+det(plate-5, a-3)
+amod(plate-5, new-4)
+dobj(get-2, plate-5)
+prep_of(plate-5, food-7)
+
+det(food-3, the-2)
+dobj(taste-1, food-3)
+
+aux(complain-3, to-2)
+xcomp(decide-1, complain-3)
+
+nn(attention-3, waitress-2)
+dobj(get-1, attention-3)
+
+det(problem-3, the-2)
+dobj(explain-1, problem-3)
+
+poss(parts-5, her-2)
+dep(bad-4, the-3)
+amod(parts-5, bad-4)
+dobj(show-1, parts-5)
+
+dobj(ask-1, her-2)
+aux(take-4, to-3)
+xcomp(ask-1, take-4)
+prt(take-4, back-5)
+det(food-7, the-6)
+dobj(take-4, food-7)
+
+nn(food-4, replacement-3)
+prep_for(wait-1, food-4)
+
+prt(try-1, out-2)
+det(food-5, the-3)
+nn(food-5, replacement-4)
+dobj(try-1, food-5)
+
+dobj(call-1, waiter-2)
+
+dobj(explain-1, problem-2)
+
+nsubj(takes-2, waiter-1)
+dobj(takes-2, food-3)
+prt(takes-2, back-4)
+
+nsubj(wait-2, you-1)
+
+dep(cook-1, prepares-2)
+amod(dish-4, new-3)
+dobj(prepares-2, dish-4)
+
+amod(plate-2, new-1)
+nsubjpass(brought-6, plate-2)
+prep_of(plate-2, food-4)
+auxpass(brought-6, is-5)
+
+nsubj(take-2, you-1)
+amod(plate-4, new-3)
+dobj(take-2, plate-4)
+
+dobj(thank-1, waiter-2)
+
+dobj(find-1, something-2)
+amod(something-2, wrong-3)
+prep_with(find-1, it-5)
+
+det(server-3, a-2)
+dobj(ask-1, server-3)
+aux(examine-5, to-4)
+infmod(server-3, examine-5)
+dobj(examine-5, it-6)
+
+det(dish-5, a-3)
+amod(dish-5, new-4)
+prep_for(wait-1, dish-5)
+
+
+det(tip-4, a-2)
+amod(tip-4, good-3)
+dobj(leave-1, tip-4)
+
+aux(say-3, to-2)
+xcomp(decide-1, say-3)
+dobj(say-3, anything-4)
+dobj(say-3, not-6)
+conj_or(anything-4, not-6)
+quantmod(anything-4, not-6)
+
+prep_for(call-1, waiter-3)
+
+nn(problem-3, waiter-2)
+dobj(tell-1, problem-3)
+prep_with(tell-1, food-5)
+
+prepc_for(apologize-1, complaining-3)
+
+advmod(request-2, kindly-1)
+dobj(request-2, money-3)
+advmod(request-2, back-4)
+
+nn(staff-3, wait-2)
+dobj(notify-1, staff-3)
+prep_of(staff-3, problem-5)
+
+nsubjpass(returned-4, food-1)
+aux(returned-4, will-2)
+auxpass(returned-4, be-3)
+prep_to(returned-4, chef-6)
+
+nsubj(correct-3, chef-1)
+aux(correct-3, will-2)
+dobj(correct-3, issue-4)
+
+nsubj(bring-3, waitstaff-1)
+aux(bring-3, will-2)
+dobj(bring-3, food-4)
+advmod(bring-3, back-5)
+
+dobj(thank-1, waitstaff-2)
+prepc_for(thank-1, correcting-4)
+
+poss(attention-4, server-2)
+dobj(get-1, attention-4)
+
+dobj(describe-1, problem-2)
+
+nsubj(takes-2, server-1)
+dobj(takes-2, food-3)
+prt(takes-2, back-4)
+
+nsubjpass(corrected-3, problem-1)
+auxpass(corrected-3, is-2)
+
+nsubjpass(returned-3, food-1)
+auxpass(returned-3, is-2)
+
+advmod(everyone-2, hopefully-1)
+nsubj(happy-4, everyone-2)
+cop(happy-4, is-3)
+
+dobj(taste-1, food-2)
+
+dobj(dislike-1, food-2)
+
+dobj(attract-1, attention-2)
+prep_of(attention-2, server-4)
+
+prep_to(complain-1, server-3)
+
+dobj(hand-1, plate-2)
+prep_to(hand-1, server-4)
+
+amod(food-4, new-3)
+prep_for(wait-1, food-4)
+
+dep(flag-1, down-2)
+dep(flag-1, waiter-3)
+
+dobj(tell-1, him-2)
+nsubj(wrong-5, what-3)
+cop(wrong-5, 's-4)
+dep(tell-1, wrong-5)
+
+dobj(order-1, something-2)
+advmod(something-2, else-3)
+
+nsubj(takes-2, waiter-1)
+dobj(takes-2, dish-3)
+prt(takes-2, away-4)
+
+xcomp(continue-1, eating-2)
+amod(food-4, other-3)
+dobj(eating-2, food-4)
+
+amod(dish-2, new-1)
+nsubj(arrives-3, dish-2)
+
+
+poss(attention-4, server-2)
+dobj(get-1, attention-4)
+
+nsubj(wrong-4, what-2)
+cop(wrong-4, is-3)
+ccomp(tell-1, wrong-4)
+prep_with(wrong-4, food-6)
+
+det(plate-5, a-3)
+amod(plate-5, new-4)
+prep_for(ask-1, plate-5)
+prep_of(plate-5, food-7)
+
+poss(plate-5, your-3)
+amod(plate-5, new-4)
+prep_for(wait-1, plate-5)
+
+nsubj(brings-2, server-1)
+det(meal-5, a-3)
+amod(meal-5, new-4)
+dobj(brings-2, meal-5)
+
+dobj(eat-1, meal-2)
+
+dep(flag-1, down-2)
+det(waiter-4, the-3)
+pobj(down-2, waiter-4)
+
+advmod(sucks-5, why-2)
+det(food-4, the-3)
+nsubj(sucks-5, food-4)
+advcl(explain-1, sucks-5)
+
+dobj(ask-1, him-2)
+aux(have-4, to-3)
+xcomp(ask-1, have-4)
+nsubj(made-6, another-5)
+ccomp(have-4, made-6)
+
+det(plate-4, the-2)
+amod(plate-4, new-3)
+dobj(inspect-1, plate-4)
+
+prt(send-1, back-2)
+det(one-5, the-3)
+amod(one-5, old-4)
+dobj(send-1, one-5)
+
+dobj(call-1, server-2)
+prep_to(call-1, table-4)
+
+prep_about(comment-1, food-3)
+
+iobj(server-1, returns-2)
+dobj(server-1, food-3)
+prep_to(server-1, kitchen-5)
+
+nn(complaint-3, chef-2)
+dobj(tell-1, complaint-3)
+prep_of(complaint-3, food-5)
+
+nsubj(prepares-2, chef-1)
+amod(food-4, new-3)
+dobj(prepares-2, food-4)
+
+nsubj(brought-2, food-1)
+prt(brought-2, back-3)
+prep_to(brought-2, table-5)
+
+cop(polite-2, be-1)
+
+det(waitress-4, the-3)
+prep_to(explain-1, waitress-4)
+
+det(meal-4, a-2)
+nn(meal-4, replacement-3)
+dobj(request-1, meal-4)
+
+det(waitress-3, the-2)
+dobj(thank-1, waitress-3)
+
+det(chef-3, the-2)
+dobj(thank-1, chef-3)
+
+det(tip-4, a-2)
+amod(tip-4, higher-3)
+dobj(leave-1, tip-4)
+
+nsubj(asks-2, waiter-1)
+dobj(asks-2, me-3)
+dep(asks-2, why-4)
+
+pobj(i-1, state-2)
+det(reason-4, the-3)
+dep(i-1, reason-4)
+
+nn(apologises-2, waiter-1)
+
+nsubj(takes-2, waiter-1)
+prt(takes-2, back-3)
+det(food-5, the-4)
+dobj(takes-2, food-5)
+
+dep(wait-2, i-1)
+det(order-6, the-4)
+amod(order-6, new-5)
+prep_for(wait-2, order-6)
+
+nsubj(brings-2, waiter-1)
+det(food-5, the-4)
+prep_in(brings-2, food-5)
+

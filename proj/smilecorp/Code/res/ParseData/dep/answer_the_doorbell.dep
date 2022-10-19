@@ -1,0 +1,682 @@
+det(entrance-4, the-3)
+prep_to(move-1, entrance-4)
+
+det(door-4, the-2)
+amod(door-4, front-3)
+dobj(open-1, door-4)
+
+prep_to(go-1, door-3)
+
+dobj(open-1, door-2)
+
+dobj(say-1, hello-2)
+
+det(doorbell-3, the-2)
+dobj(hear-1, doorbell-3)
+
+det(door-4, the-3)
+prep_to(walk-1, door-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(people-3, the-2)
+dobj(allow-1, people-3)
+prep(allow-1, in-4)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+prep_to(move-1, door-3)
+
+dobj(unlock-1, door-2)
+
+dobj(open-1, door-2)
+
+det(door-3, the-2)
+dobj(find-1, door-3)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(person-3, the-2)
+dobj(greet-1, person-3)
+det(door-6, the-5)
+prep_at(greet-1, door-6)
+
+det(sound-3, a-2)
+dobj(recognize-1, sound-3)
+det(doorbell-6, a-5)
+prep_as(recognize-1, doorbell-6)
+
+det(door-4, the-3)
+prep_to(moving-1, door-4)
+
+csubj(knob-7, placing-1)
+det(hand-3, a-2)
+dobj(placing-1, hand-3)
+det(door-6, the-5)
+prep_on(placing-1, door-6)
+
+csubj(knob-4, turning-1)
+det(door-3, the-2)
+dobj(turning-1, door-3)
+
+conj_or(pulling-1, pushing-3)
+det(door-5, the-4)
+dobj(pushing-3, door-5)
+prt(pushing-3, open-6)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+advmod(rings-4, when-1)
+det(doorbell-3, the-2)
+nsubj(rings-4, doorbell-3)
+csubj(move-5, rings-4)
+det(door-8, the-7)
+prep_to(move-5, door-8)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+amod(whomever-2, greet-1)
+nsubj(rang-3, whomever-2)
+det(doorbell-5, the-4)
+dobj(rang-3, doorbell-5)
+
+prep_through(look-1, visor-3)
+
+dobj(unlock-1, door-2)
+
+dobj(open-1, door-2)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+
+dep(s-3, who-2)
+dep(ask-1, s-3)
+expl(s-3, there-4)
+
+mark(someone-4, if-1)
+nsubj(someone-4, it-2)
+cop(someone-4, s-3)
+advcl(want-6, someone-4)
+nsubj(want-6, you-5)
+xsubj(see-8, you-5)
+aux(see-8, to-7)
+xcomp(want-6, see-8)
+ccomp(see-8, open-9)
+det(door-11, the-10)
+dobj(open-9, door-11)
+
+prep_to(go-1, door-3)
+
+dobj(open-1, door-2)
+
+prt(walk-1, over-2)
+det(door-5, the-4)
+prep_to(walk-1, door-5)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+prep_to(go-1, door-3)
+
+dobj(open-1, door-2)
+
+prep_to(go-1, door-3)
+
+dobj(open-1, door-2)
+
+dobj(say-1, hi-2)
+
+amod(door-4, front-3)
+prep_to(walk-1, door-4)
+
+det(viewer-4, the-3)
+prep_through(look-1, viewer-4)
+aux(make-6, to-5)
+infmod(viewer-4, make-6)
+acomp(make-6, sure-7)
+nsubj(safe-10, it-8)
+cop(safe-10, s-9)
+ccomp(sure-7, safe-10)
+
+amod(door-3, front-2)
+dobj(open-1, door-3)
+
+dobj(greet-1, person-2)
+
+prep_to(go-1, door-3)
+
+prep_through(look-1, visor-3)
+
+dobj(open-1, door-2)
+
+prep_to(go-1, door-3)
+
+dobj(open-1, door-2)
+
+dobj(greet-1, visitor-2)
+
+dobj(hear-1, doorbell-2)
+
+prt(walk-1, over-2)
+prep_to(walk-1, door-4)
+
+dobj(open-1, door-2)
+
+det(door-5, the-3)
+amod(door-5, front-4)
+prep_to(move-1, door-5)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(person-3, the-2)
+dobj(greet-1, person-3)
+nsubj(rang-5, person-3)
+rcmod(person-3, rang-5)
+det(doorbell-7, the-6)
+dobj(rang-5, doorbell-7)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+
+det(hole-5, the-3)
+nn(hole-5, peep-4)
+prep_through(look-1, hole-5)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(people-3, the-2)
+dobj(welcome-1, people-3)
+det(house-6, the-5)
+prep_into(welcome-1, house-6)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+
+det(door-3, the-2)
+dobj(unlock-1, door-3)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+prep_to(move-1, door-3)
+
+dep(there-4, who-2)
+dep(there-4, is-3)
+dep(determine-1, there-4)
+
+prep_for(query-1, permission-3)
+
+dobj(open-1, door-2)
+
+det(door-4, the-3)
+prep_to(walking-1, door-4)
+
+det(door-3, the-2)
+dobj(opening-1, door-3)
+
+det(person-3, the-2)
+dobj(greeting-1, person-3)
+
+prep_to(walk-1, door-3)
+
+nn(hole-4, peek-3)
+prep_through(look-1, hole-4)
+aux(see-6, to-5)
+xcomp(look-1, see-6)
+mark(safe-11, if-7)
+det(visitor-9, the-8)
+nsubj(safe-11, visitor-9)
+cop(safe-11, is-10)
+advcl(see-6, safe-11)
+
+mark(safe-5, if-1)
+det(visitor-3, the-2)
+nsubj(safe-5, visitor-3)
+cop(safe-5, is-4)
+csubj(open-6, safe-5)
+det(door-8, the-7)
+dobj(open-6, door-8)
+
+dobj(open-1, door-2)
+
+dobj(ask-1, business-2)
+
+prt(let-1, in-2)
+mark(needed-4, if-3)
+advcl(let-1, needed-4)
+
+prt(look-1, out-2)
+det(peephole-5, the-4)
+prep_through(look-1, peephole-5)
+
+det(door-3, the-2)
+dobj(unlock-1, door-3)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+
+det(door-3, the-2)
+dobj(unlock-1, door-3)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(doorbell-3, the-2)
+dobj(hear-1, doorbell-3)
+
+prep_to(walk-1, door-3)
+
+dobj(open-1, door-2)
+
+dobj(address-1, visitor-2)
+partmod(visitor-2, pressing-3)
+nn(bell-5, door-4)
+dobj(pressing-3, bell-5)
+
+det(door-4, the-3)
+prep_to(walk-1, door-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(door-4, the-3)
+prep_to(walk-1, door-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+dobj(say-1, hello-2)
+
+prep_to(walk-1, door-3)
+
+dobj(open-1, door-2)
+
+det(bell-3, the-2)
+dobj(hearing-1, bell-3)
+
+complm(get-4, whether-2)
+aux(get-4, to-3)
+ccomp(debating-1, get-4)
+xcomp(debating-1, get-4)
+prt(get-4, up-5)
+
+prt(walking-1, over-2)
+det(door-5, the-4)
+prep_to(walking-1, door-5)
+
+dobj(is-4, who-2)
+nsubj(is-4, it-3)
+ccomp(ask-1, is-4)
+
+advmod(debate-1, again-2)
+aux(open-4, to-3)
+xcomp(debate-1, open-4)
+
+det(door-3, the-2)
+dobj(unlock-1, door-3)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+prep_towards(walk-1, door-3)
+advmod(sounding-7, where-4)
+nsubj(sounding-7, bell-5)
+aux(sounding-7, is-6)
+advcl(walk-1, sounding-7)
+
+prep_through(look-1, window-3)
+aux(see-5, to-4)
+xcomp(look-1, see-5)
+dep(bell-9, who-6)
+dep(bell-9, is-7)
+amod(bell-9, ringing-8)
+dep(see-5, bell-9)
+
+dobj(open-1, door-2)
+
+dobj(greet-1, person-2)
+prep_at(greet-1, door-4)
+
+det(doorbell-3, the-2)
+dobj(hear-1, doorbell-3)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(person-4, the-3)
+prep_with(interact-1, person-4)
+det(door-7, the-6)
+prep_at(interact-1, door-7)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+attr(is-4, who-3)
+dep(say-1, is-4)
+nsubj(is-4, it-5)
+
+attr(is-4, who-3)
+dep(say-1, is-4)
+nsubj(is-4, it-5)
+
+csubj(know-3, if-1)
+pobj(if-1, i-2)
+det(person-5, the-4)
+nsubj(open-6, person-5)
+ccomp(know-3, open-6)
+det(door-8, the-7)
+dobj(open-6, door-8)
+
+dobj(open-1, door-2)
+
+det(door-4, the-3)
+prep_to(walk-1, door-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(sound-4, the-2)
+nn(sound-4, bell-3)
+dobj(listen-1, sound-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+
+det(identity-3, the-2)
+dobj(check-1, identity-3)
+det(person-6, the-5)
+prep_of(identity-3, person-6)
+
+dobj(ask-1, owner-2)
+prep_for(ask-1, permission-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(person-3, the-2)
+dobj(greet-1, person-3)
+
+det(person-3, the-2)
+dobj(guide-1, person-3)
+
+det(doorbell-3, the-2)
+dobj(hear-1, doorbell-3)
+
+det(door-4, the-3)
+prep_to(walk-1, door-4)
+
+det(window-4, the-3)
+prep_through(look-1, window-4)
+aux(see-6, to-5)
+infmod(window-4, see-6)
+dobj(is-9, who-7)
+nsubj(is-9, it-8)
+ccomp(see-6, is-9)
+
+det(knob-4, the-2)
+nn(knob-4, door-3)
+dobj(turn-1, knob-4)
+
+dobj(say-1, hello-2)
+nsubj(s-5, whoever-4)
+prepc_to(say-1, s-5)
+dep(s-5, there-6)
+
+nsubj(is-3, who-2)
+ccomp(ask-1, is-3)
+det(door-6, the-5)
+prep_at(is-3, door-6)
+
+dobj(get-1, permisson-2)
+poss(owner-5, your-4)
+prep_from(get-1, owner-5)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(guest-3, the-2)
+dobj(let-1, guest-3)
+prt(let-1, in-4)
+
+aux(take-3, to-2)
+xcomp(offer-1, take-3)
+poss(jackets-5, their-4)
+dobj(take-3, jackets-5)
+
+dobj(direct-1, them-2)
+det(room-5, the-4)
+prep_to(direct-1, room-5)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(doorbell-4, the-3)
+prep_for(listen-1, doorbell-4)
+
+det(door-4, the-3)
+prep_towards(go-1, door-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(visitor-3, the-2)
+dobj(greet-1, visitor-3)
+
+dobj(wants-5, what-2)
+det(visitor-4, the-3)
+nsubj(wants-5, visitor-4)
+ccomp(see-1, wants-5)
+
+dobj(say-1, goodbye-2)
+det(visitor-5, the-4)
+prep_to(say-1, visitor-5)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+dobj(hear-1, doorbell-2)
+
+prep_to(walk-1, door-3)
+
+det(hole-4, the-3)
+prep_through(peek-1, hole-4)
+
+dobj(open-1, door-2)
+
+prep_for(listen-1, doorbel-3)
+
+prep_to(go-1, door-3)
+
+prep_through(look-1, hole-3)
+
+dobj(open-1, door-2)
+
+dobj(hear-1, doorbell-2)
+
+prep_to(walk-1, door-3)
+
+det(hole-4, the-3)
+prep_through(peek-1, hole-4)
+
+dobj(open-1, door-2)
+
+prep_for(listen-1, doorbel-3)
+
+prep_to(go-1, door-3)
+
+prep_through(look-1, hole-3)
+
+dobj(open-1, door-2)
+
+dobj(hear-1, doorbell-2)
+
+prep_to(walk-1, door-3)
+
+det(hole-4, the-3)
+prep_through(peek-1, hole-4)
+
+dobj(open-1, door-2)
+
+prep_for(listen-1, doorbel-3)
+
+prep_to(go-1, door-3)
+
+prep_through(look-1, hole-3)
+
+dobj(open-1, door-2)
+
+dobj(hear-1, doorbell-2)
+
+prep_to(walk-1, door-3)
+
+det(hole-4, the-3)
+prep_through(peek-1, hole-4)
+
+dobj(open-1, door-2)
+
+prep_for(listen-1, doorbel-3)
+
+prep_to(go-1, door-3)
+
+prep_through(look-1, hole-3)
+
+dobj(open-1, door-2)
+
+prep_towards(walk-1, door-3)
+
+nsubj(doorbell-2, if-1)
+dobj(doorbell-2, ring-3)
+
+dobj(answer-1, door-2)
+prep(answer-1, by-3)
+
+dobj(opening-1, door-2)
+
+dobj(say-1, hello-2)
+
+dobj(close-1, door-2)
+
+
+dobj(open-1, door-2)
+
+dobj(press-1, button-2)
+
+dobj(ask-1, who-2)
+
+dobj(open-1, door-2)
+
+dobj(open-1, door-2)
+
+dobj(press-1, button-2)
+
+dobj(ask-1, who-2)
+
+dobj(open-1, door-2)
+
+dobj(open-1, door-2)
+
+dobj(press-1, button-2)
+
+dobj(ask-1, who-2)
+
+dobj(open-1, door-2)
+
+det(doorbell-3, the-2)
+dobj(hear-1, doorbell-3)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+conj_and(go-1, look-6)
+prt(look-6, out-7)
+dobj(look-6, peephole-8)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+conj_and(open-1, greet-5)
+det(visitor-7, the-6)
+dobj(greet-5, visitor-7)
+
+prep_to(walk-1, door-3)
+
+prep_through(look-1, peephole-3)
+
+dobj(open-1, door-2)
+
+amod(ring-3, doorbell-2)
+dobj(hear-1, ring-3)
+
+prep_to(go-1, door-3)
+
+dobj(check-1, peephole-2)
+
+amod(guest-3, ascertain-1)
+det(guest-3, that-2)
+nsubj(okay-5, guest-3)
+cop(okay-5, is-4)
+prepc_to(okay-5, acknowledg-7)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(visitor-3, the-2)
+dobj(greet-1, visitor-3)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+
+dobj(is-4, who-2)
+nsubj(is-4, it-3)
+ccomp(check-1, is-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+dep(looking-5, who-2)
+nsubj(looking-5, they-3)
+aux(looking-5, are-4)
+ccomp(ask-1, looking-5)
+prep(looking-5, for-6)
+
+det(visitor-3, the-2)
+dobj(announce-1, visitor-3)
+
+det(visitor-3, the-2)
+dobj(let-1, visitor-3)
+prt(let-1, in-4)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+prt(figure-1, out-2)
+dep(doorbell-4, which-3)
+dobj(figure-1, doorbell-4)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+prep_to(walk-1, door-3)
+
+dobj(open-1, door-2)
+

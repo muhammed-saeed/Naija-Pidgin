@@ -1,0 +1,514 @@
+det(knife-3, a-2)
+dobj(get-1, knife-3)
+
+det(vegetables-3, the-2)
+dobj(cut-1, vegetables-3)
+det(knife-6, the-5)
+prep_with(cut-1, knife-6)
+
+dobj(wash-1, vegetables-2)
+
+dobj(get-1, knife-2)
+
+dobj(cut-1, vegetable-2)
+prep_in(cut-1, slices-4)
+
+det(knife-3, a-2)
+dobj(get-1, knife-3)
+
+dobj(take-1, vegetables-2)
+det(fridge-6, the-5)
+prep_out_of(take-1, fridge-6)
+
+det(vegetables-3, the-2)
+dobj(wash-1, vegetables-3)
+
+prt(chop-1, off-2)
+det(ends-4, the-3)
+dobj(chop-1, ends-4)
+det(vegetables-7, the-6)
+prep_of(ends-4, vegetables-7)
+
+det(knife-3, the-2)
+dobj(use-1, knife-3)
+aux(cut-5, to-4)
+infmod(knife-3, cut-5)
+det(vegetables-7, the-6)
+dobj(cut-5, vegetables-7)
+amod(pieces-10, small-9)
+prep_into(cut-5, pieces-10)
+
+det(vegetables-3, the-2)
+dobj(get-1, vegetables-3)
+
+dobj(get-1, something-2)
+aux(cut-4, to-3)
+infmod(something-2, cut-4)
+det(vegetables-6, the-5)
+dobj(cut-4, vegetables-6)
+prep(cut-4, with-7)
+
+det(board-4, a-2)
+amod(board-4, cutting-3)
+dobj(get-1, board-4)
+
+det(vegetables-3, the-2)
+dobj(place-1, vegetables-3)
+det(board-7, the-5)
+amod(board-7, cutting-6)
+prep_on(place-1, board-7)
+
+det(vegetables-3, the-2)
+dobj(cut-1, vegetables-3)
+
+dobj(wash-1, vegetables-2)
+
+dobj(peel-1, vegetables-2)
+
+dobj(take-1, vegetables-2)
+num(vegetables-2, one-3)
+prep_by(take-1, one-5)
+
+amod(pieces-4, small-3)
+prep_in(cut-1, pieces-4)
+
+det(knife-3, a-2)
+dobj(get-1, knife-3)
+
+det(board-4, a-2)
+amod(board-4, cutting-3)
+dobj(get-1, board-4)
+
+dobj(put-1, vegetables-2)
+prepc_on(put-1, cutting-4)
+dobj(cutting-4, board-5)
+
+dobj(cut-1, vegetables-2)
+amod(pieces-5, small-4)
+prep_in(cut-1, pieces-5)
+
+dobj(wash-1, vegetables-2)
+
+dobj(peel-1, vegetables-2)
+mark(needed-4, if-3)
+dep(peel-1, needed-4)
+
+det(vegetable-3, each-2)
+pobj(for-1, vegetable-3)
+
+amod(pieces-3, small-2)
+dobj(cut-1, pieces-3)
+prep_of(pieces-3, it-5)
+
+det(knife-4, a-2)
+amod(knife-4, good-3)
+dobj(find-1, knife-4)
+
+det(vegetables-3, the-2)
+dobj(clean-1, vegetables-3)
+prep_with(clean-1, water-5)
+
+det(surface-4, a-2)
+amod(surface-4, free-3)
+dobj(find-1, surface-4)
+advmod(chop-7, where-5)
+rel(chop-7, where-5)
+aux(chop-7, to-6)
+infmod(surface-4, chop-7)
+rcmod(surface-4, chop-7)
+det(vegetables-9, the-8)
+dobj(chop-7, vegetables-9)
+
+det(vegetables-3, the-2)
+dobj(cut-1, vegetables-3)
+prep_into(cut-1, pieces-5)
+det(knife-8, the-7)
+prep_with(cut-1, knife-8)
+
+det(vegetables-3, the-2)
+dobj(get-1, vegetables-3)
+
+det(knife-4, a-2)
+amod(knife-4, chopping-3)
+dobj(get-1, knife-4)
+
+dobj(place-1, vegetables-2)
+det(board-6, a-4)
+amod(board-6, cutting-5)
+prep_on(place-1, board-6)
+
+det(cross-wise-4, a-2)
+nn(cross-wise-4, vegetable-3)
+nsubj(slice-1, cross-wise-4)
+amod(pieces-8, small-6)
+amod(pieces-8, equal-length-7)
+prep_into(slice-1, pieces-8)
+
+mark(chopped-6, until-2)
+det(vegetables-4, all-3)
+nsubjpass(chopped-6, vegetables-4)
+auxpass(chopped-6, are-5)
+advcl(repeat-1, chopped-6)
+
+det(board-4, a-2)
+amod(board-4, cutting-3)
+dobj(get-1, board-4)
+
+det(knife-3, a-2)
+dobj(get-1, knife-3)
+
+dobj(hold-1, vegetable-2)
+prt(hold-1, down-3)
+prepc_on(hold-1, cutting-5)
+dobj(cutting-5, board-6)
+
+dobj(cut-1, vegetable-2)
+amod(pieces-5, equal-4)
+prep_into(cut-1, pieces-5)
+det(knife-8, the-7)
+prep_with(cut-1, knife-8)
+
+dobj(get-1, vegetables-2)
+
+det(processor-4, a-2)
+nn(processor-4, food-3)
+dobj(get-1, processor-4)
+
+nn(processor-4, food-3)
+prep_in(plug-1, processor-4)
+det(outlet-8, an-6)
+amod(outlet-8, electrical-7)
+prep_to(plug-1, outlet-8)
+
+nn(processor-4, food-3)
+prep_on(turn-1, processor-4)
+
+dobj(push-1, vegetables-2)
+prepc_through(push-1, opening-4)
+det(top-7, the-6)
+prep_in(opening-4, top-7)
+det(processor-11, the-9)
+nn(processor-11, food-10)
+prep_of(top-7, processor-11)
+aux(chop-13, to-12)
+xcomp(opening-4, chop-13)
+dobj(chop-13, them-14)
+prep_into(chop-13, pieces-16)
+
+dobj(wash-1, vegetables-2)
+
+dobj(place-1, vegetables-2)
+amod(board-5, cutting-4)
+prep_on(place-1, board-5)
+
+amod(knife-3, sharp-2)
+dobj(locate-1, knife-3)
+
+dobj(chop-1, vegetables-2)
+prep_with(chop-1, knife-4)
+
+amod(board-3, cutting-2)
+dobj(get-1, board-3)
+
+amod(knife-3, sharp-2)
+dobj(get-1, knife-3)
+
+dobj(place-1, vegetables-2)
+amod(board-5, cutting-4)
+prep_on(place-1, board-5)
+
+aux(chop-3, to-2)
+xcomp(proceed-1, chop-3)
+prep_with(chop-3, knife-5)
+
+det(board-4, a-2)
+amod(board-4, chopping-3)
+dobj(get-1, board-4)
+
+dobj(get-1, knife-2)
+
+dobj(get-1, vegetables-2)
+
+dobj(put-1, vegetables-2)
+prepc_on(put-1, chopping-4)
+dobj(chopping-4, board-5)
+
+dobj(use-1, knife-2)
+aux(cut-4, to-3)
+xcomp(use-1, cut-4)
+dobj(cut-4, vegetables-5)
+prepc_on(cut-4, chopping-7)
+dobj(chopping-7, board-8)
+
+det(board-4, a-2)
+amod(board-4, chopping-3)
+dobj(get-1, board-4)
+
+dobj(get-1, knife-2)
+
+det(vegetables-3, the-2)
+dobj(get-1, vegetables-3)
+
+det(vegetable-3, the-2)
+dobj(put-1, vegetable-3)
+det(board-7, a-5)
+amod(board-7, chopping-6)
+prep_on(put-1, board-7)
+
+xcomp(start-1, chopping-2)
+det(vegetables-4, the-3)
+dobj(chopping-2, vegetables-4)
+
+dobj(wash-1, vegetables-2)
+
+prepc_on(place-1, chopping-3)
+dobj(chopping-3, board-4)
+
+prep_with(chop-1, knife-3)
+
+det(vegetables-3, the-2)
+dobj(clean-1, vegetables-3)
+prep_with(clean-1, water-5)
+
+dobj(lay-1, them-2)
+det(board-6, the-4)
+amod(board-6, cutting-5)
+prep_on(lay-1, board-6)
+
+prt(pick-1, up-2)
+det(knife-4, a-3)
+dobj(pick-1, knife-4)
+
+det(knife-3, the-2)
+dobj(use-1, knife-3)
+aux(chop-5, to-4)
+infmod(knife-3, chop-5)
+det(vegetables-7, the-6)
+dobj(chop-5, vegetables-7)
+
+dobj(wash-1, vegetables-2)
+
+dobj(put-1, vegetables-2)
+prepc_on(put-1, cutting-4)
+dobj(cutting-4, board-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, knife-3)
+
+dobj(cut-1, vegetables-2)
+amod(pieces-5, small-4)
+prep_into(cut-1, pieces-5)
+
+amod(vegetables-3, fresh-2)
+dobj(select-1, vegetables-3)
+
+dobj(wash-1, vegetables-2)
+
+dobj(place-1, vegetables-2)
+prepc_on(place-1, chopping-4)
+dobj(chopping-4, board-5)
+
+amod(knife-3, appropriate-2)
+dobj(select-1, knife-3)
+
+dobj(chop-1, vegetables-2)
+
+prep_in(place-1, container-3)
+
+dobj(wash-1, vegetables-2)
+
+dobj(peel-1, vegetables-2)
+
+prt(trim-1, off-2)
+dobj(trim-1, ends-3)
+prep_of(ends-3, vegetables-5)
+
+amod(board-3, cutting-2)
+dobj(put-1, board-3)
+prep_on(put-1, counter-5)
+
+dobj(put-1, vegetables-2)
+prepc_on(put-1, cutting-4)
+dobj(cutting-4, board-5)
+
+dobj(use-1, knife-2)
+nn(vegetables-5, slice-4)
+prep_to(use-1, vegetables-5)
+
+dobj(wash-1, knife-2)
+amod(board-5, cutting-4)
+dobj(wash-1, board-5)
+conj_and(knife-2, board-5)
+
+det(vegetables-3, the-2)
+dobj(find-1, vegetables-3)
+
+det(vegetables-3, the-2)
+dobj(find-1, vegetables-3)
+
+det(board-4, the-2)
+amod(board-4, chopping-3)
+dobj(find-1, board-4)
+
+amod(board-3, chopping-2)
+dobj(get-1, board-3)
+
+dobj(get-1, knife-2)
+
+dobj(get-1, vegetables-2)
+
+dobj(cut-1, vegetables-2)
+
+dobj(clean-1, vegetables-2)
+
+dobj(dry-1, vegetables-2)
+
+amod(knife-3, sharp-2)
+dobj(take-1, knife-3)
+prep_from(take-1, block-5)
+
+dobj(put-1, vegetabes-2)
+prepc_on(put-1, cutting-4)
+dobj(cutting-4, board-5)
+
+prt(cut-1, down-2)
+det(vegetabes-5, the-4)
+prep_on(cut-1, vegetabes-5)
+
+dobj(clean-1, vegetables-2)
+
+dobj(obtain-1, knife-2)
+
+dobj(place-1, vegetables-2)
+amod(board-5, cutting-4)
+prep_on(place-1, board-5)
+
+dobj(cut-1, vegetables-2)
+amod(strips-5, thin-4)
+prep_into(cut-1, strips-5)
+
+amod(board-3, cutting-2)
+dobj(rotate-1, board-3)
+
+nn(strips-3, vegetable-2)
+dobj(cut-1, strips-3)
+amod(direction-6, opposite-5)
+prep_in(cut-1, direction-6)
+
+advmod(chopping-3, even-2)
+dep(ensure-1, chopping-3)
+
+dobj(get-1, vegetable-2)
+
+prepc_on(put-1, chopping-3)
+dobj(chopping-3, board-4)
+
+dobj(get-1, knife-2)
+dobj(get-1, cleaver-4)
+conj_or(knife-2, cleaver-4)
+
+dobj(chop-1, vegetable-2)
+
+dobj(obtain-1, vegetables-2)
+
+dobj(obtain-1, knife-2)
+
+dobj(place-1, vegetables-2)
+amod(board-5, cutting-4)
+prep_on(place-1, board-5)
+
+dobj(chop-1, vegetables-2)
+prep_into(chop-1, pieces-4)
+
+dobj(wash-1, vegtable-2)
+
+dobj(chop-1, vegetable-2)
+prep_with(chop-1, knife-4)
+
+dobj(open-1, fridge-2)
+
+prt(take-1, out-2)
+dobj(take-1, vegetable-3)
+
+dobj(put-1, vegetable-2)
+prepc_on(put-1, cutting-4)
+dobj(cutting-4, board-5)
+
+amod(knife-3, sharp-2)
+dobj(get-1, knife-3)
+
+dobj(cut-1, vegetable-2)
+prt(cut-1, up-3)
+amod(pieces-6, small-5)
+prep_into(cut-1, pieces-6)
+
+det(vegetable-3, the-2)
+dobj(bring-1, vegetable-3)
+
+dobj(clean-1, them-2)
+
+dobj(chop-1, them-2)
+
+amod(board-3, cutting-2)
+dobj(get-1, board-3)
+
+dobj(find-1, knife-2)
+
+dobj(put-1, vegetable-2)
+amod(board-5, cuttting-4)
+prep_on(put-1, board-5)
+
+prep_with(hit-1, knife-3)
+
+dobj(take-1, vegetables-2)
+prep_from(take-1, fridge-4)
+
+dobj(wash-1, them-2)
+
+amod(knife-3, sharp-2)
+dobj(take-1, knife-3)
+prep_from(take-1, draw-5)
+
+dobj(start-1, cutting-2)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(get-1, aid-4)
+
+dep(try-1, cutting-2)
+advmod(cutting-2, again-3)
+
+prt(give-1, up-2)
+conj_and(give-1, get-4)
+ccomp(get-4, someone-5)
+advmod(someone-5, else-6)
+aux(do-8, to-7)
+xcomp(someone-5, do-8)
+dobj(do-8, it-9)
+
+dobj(take-1, vegetables-2)
+prep_from(take-1, fridge-4)
+
+dobj(wash-1, them-2)
+
+amod(knife-3, sharp-2)
+dobj(take-1, knife-3)
+prep_from(take-1, drawer-5)
+
+dobj(start-1, cutting-2)
+
+det(aid-4, a-2)
+nn(aid-4, band-3)
+dobj(get-1, aid-4)
+
+dep(try-1, cutting-2)
+advmod(cutting-2, again-3)
+
+prt(give-1, up-2)
+conj_and(give-1, get-4)
+ccomp(get-4, someone-5)
+advmod(someone-5, else-6)
+aux(do-8, to-7)
+xcomp(someone-5, do-8)
+dobj(do-8, it-9)
+

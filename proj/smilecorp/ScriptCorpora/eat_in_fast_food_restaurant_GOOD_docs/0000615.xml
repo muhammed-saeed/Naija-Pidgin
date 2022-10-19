@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0000615" url="http://booleanstrings.ning.com/profiles/blogs/twitter-bio-search-through" time="2012-07-12-15:54" support="1" score="0.0014561204506854946" bingtitle="Twitter Bio Search through Search Engines – What’s the best ..." webtitle="Twitter Bio Search through Search EnginesWhats the best way? - Boolean Strings Network">
+			<query id="001461" bing-rank="67"/>
+	<description>All bio pages have a common title ending as ... E.g. bio NEAR:5 Capgemini (BING) Bio AROUND ... out a case study where I wanted to find pages with “Vision Plus” (Credit Card ...</description>
+	<body>
+		Search 
+ Sign Up Sign In 
+ 
+ Boolean Strings Network 
+
+The Internet Sourcing Community
+ 
+ Home My Page Members Forum Events Chat Links 
+ LI Group Irina&apos;s Blog 
+ 
+ 
+ All Blog Posts My Blog Add 
+ 
+Twitter Bio Search through Search Engines–What’s the best way?
+
+ Posted by Sarang Brahme on December 20, 2010 at 5:30am View Blog 
+ 
+For long time now – I have been finding new ways to search on twitter. In fact, I also tried contacting Twitter to find one reason why they do not have a Bio Search facility inside. However, their internal search facility is so weak that it is faster to search a twitter page using search engines than internally.
+
+When it comes to searching candidates via Google – LinkedIn tops the chart as it is designed in such a way where you can search public profiles very easily. Other networking sites like Facebook and Twitter actually have more number of users than LinkedIn; however due to page/profile structure LinkedIn becomes more effective. I wonder what if Facebook and Twitter realize this fact and makes their user profile page PUBLIC!!! Well, Twitter has that facility in a bit complex way – but yes there is an open way. Facebook is strictly “No Entry” till now.
+
+I have been using sites like Tweepsearch.com, Twellow.com to search bios till now. I quickly realized that they are not full-proof as they do not have a complete index of twitter. You can only find a very few percentage profiles over there. I was reading Glen Cathey’s The Big Deal about Bing for Sourcing and Recruiting the other day where he has given a smarter way to search Twitter profile. Hence, I decided to do some R&amp;D on what’s the best way to search pure profiles on twitter through Google and Bing.
+
+
+
+ Step – 1 
+
+ 
+ 
+
+I started to build my search string to search bio pages. I tried following
+
+Site:twitter.com intitle:”on twitter” “get short” bio Capgemini
+
+All bio pages have a common title ending as “On twitter” – such as Sarang Brahme (sarangbrahme) On Twitter.
+
+Also, when I saw their cached pages – they also have a tag-line at top of the page called “ Get short, timely messages from” .
+
+Adding both these elements helped me getting only bio pages removing all other irrelevant pages.
+
+
+
+ Step – 2 
+
+ 
+ 
+
+Initially I started by using NEAR and AROUND functions of Bing and Google respectively. They both are used to do proximity search. This would help me to search specific keywords in proximity of bio; as I would like to avoid getting my results on any other part of pages (twits).
+
+E.g. bio NEAR:5 Capgemini (BING)
+
+Bio AROUND(5) Capgemini (Google)
+
+Both of above will find pages wherein Capgemini is within 5 keywords of bio. This helps in filtering only Bio’s on Twitter.
+
+Now let’s try comparing these searches on Bing, Google and Tweepsearch.
+
+
+
+ Bing Search 
+
+ 
+ 
+
+site:twitter.com intitle:”on twitter” bio NEAR:6 Capgemini
+
+ 
+
+
+
+Around 115 results! OK – it sounds less? Let’s try Google. Most of them seem to be good.
+
+
+
+ Google Search 
+
+ 
+ 
+
+site:twitter.com intitle:”on twitter” name “Get short” bio AROUND(6) Capgemini
+
+ 
+
+Oh wow!!! It has over 1500 results. Google is THE best right?
+
+Wait a minute. Once you starts rolling over to 4+ pages – you’ll notice that most of these results are not relevant to your search. Ideally it should throw only those profiles where bio and capgemini are within 6 keywords. But – that’s not the case. Bing scores….
+
+Now let’s see what directory search yeilds
+
+
+
+ Tweepsearch 
+
+ 
+ 
+
+ 
+ 
+
+
+
+Well, it gives 51 results – and we’re sure all of them are 100% relevant.
+
+So – what’s the outcome of this research?
+
+1.       AROUND operator of Google does not throw accurate results. Bing’s NEAR scores really well.
+
+2.       Usage of asterisk (*) is relatively difficult in place of around in Google as it only searches within specific given numbers and not in range.  “bio * * Capgemini” is not equal to bio NEAR:2 Capgemini.
+
+3.       Using proximity search in Bio search only gives 80% correct results. To cover entire ground you may consider removing proximity operator – especially for niche keywords (skills). This way, you can scan results yourself and not let operator choose for you.
+
+4.       Using BING and GOOGLE is a very wise idea! I carried out a case study where I wanted to find pages with “Vision Plus” (Credit Card IT Skill). Being very niche skill – I removed proximity from both searches.
+
+a. Bing: site:twitter.com intitle:”on twitter” bio “vision plus” 
+
+b. Google: site:twitter.com intitle:”on twitter” name “Get short” bio ... 
+
+Surprisingly – both searches gave me 20 results. However, most of the results were very different from each other. Number of results that I got on Bing was not present on Google and vice versa. It tells me that I have to do BING AND GOOGLE 
+
+5.       Sites like Tweepsearch and Twellow are “The best” locations to search twitter profiles. Their indexing is not always up to date.
+
+6.       Bing scores well above Google in searching more relevant Bio searches due to NEAR operator; however remember that you are not covering full ground.
+
+7.       Lastly – Google needs to come up OR strengthen their proximity search. Somehow – AROUND operator is not strong enough and accurate.
+
+I’ve no hesitation in thanking Glen Cathey to ignite this into my head. I’m sure there are better ways to use these operators and searching Twitter bios.
+
+
+
+Wine always tastes better with time!!!!
+ 
+ Views: 172 
+
+Tags: bio , search , twitter 
+
+ Share Twitter Facebook 
+ 
+Comment
+ 
+You need to be a member of Boolean Strings Network to add comments!
+
+ Join Boolean Strings Network 
+ 
+ RSS 
+ 
+Welcome to
+Boolean Strings Network
+
+ Sign Up 
+or Sign In 
+ 
+About
+ Irina Shamaeva created this Ning Network . 
+Members
+ 
+ 
+ 
+ View All 
+ 
+© 2012 Created by Irina Shamaeva . Powered by 
+
+ Badges  |  Report an Issue  |  Terms of Service 
+ 
+ Hello, you need to enable JavaScript to use Boolean Strings Network. 
+
+Please check your browser settings or contact your system administrator.
+ Sign in to chat!
+	</body>
+</document>

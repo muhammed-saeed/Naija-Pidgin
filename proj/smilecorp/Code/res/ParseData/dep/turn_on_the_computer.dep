@@ -1,0 +1,546 @@
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(push-1, button-4)
+
+det(system-4, the-2)
+amod(system-4, operating-3)
+dobj(wait-1, system-4)
+prep_to(wait-1, load-6)
+
+prt(log-1, in-2)
+
+nn(button-3, power-2)
+dobj(push-1, button-3)
+prep_on(push-1, computer-5)
+
+prep_for(wait-1, computer-3)
+aux(warm-5, to-4)
+xcomp(wait-1, warm-5)
+prt(warm-5, up-6)
+
+dobj(use-1, computer-2)
+
+det(computer-3, the-2)
+nsubj(cord-6, computer-3)
+cop(cord-6, s-4)
+nn(cord-6, power-5)
+ccomp(plug-1, cord-6)
+det(outlet-10, an-8)
+amod(outlet-10, electrical-9)
+prep_into(cord-6, outlet-10)
+
+csubj(switch-6, find-1)
+det(computer-3, the-2)
+dobj(find-1, computer-3)
+cop(switch-6, s-4)
+nn(switch-6, power-5)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+prep_to(turn-1, the-5)
+prep_on(turn-1, position-7)
+
+det(computer-3, the-2)
+dobj(locate-1, computer-3)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(locate-1, button-4)
+det(computer-7, the-6)
+prep_on(locate-1, computer-7)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(depress-1, button-4)
+det(computer-7, the-6)
+prep_on(depress-1, computer-7)
+advmod(depress-1, shortly-8)
+
+det(computer-3, the-2)
+dobj(locate-1, computer-3)
+
+det(panel-4, the-2)
+amod(panel-4, front-3)
+dobj(locate-1, panel-4)
+det(computer-7, the-6)
+prep_of(panel-4, computer-7)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(locate-1, button-4)
+det(panel-8, the-6)
+amod(panel-8, front-7)
+prep_on(locate-1, panel-8)
+det(computer-11, the-10)
+prep_of(panel-8, computer-11)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(depress-1, button-4)
+det(panel-8, the-6)
+amod(panel-8, front-7)
+prep_on(depress-1, panel-8)
+det(computer-11, the-10)
+prep_of(panel-8, computer-11)
+advmod(depress-1, shortly-12)
+
+dobj(locate-1, computer-2)
+
+prep_to(walk-1, computer-3)
+
+prep_on(press-1, button-3)
+prep_on(press-1, computer-5)
+
+nn(button-3, power-2)
+dobj(find-1, button-3)
+
+nn(button-3, power-2)
+dobj(turn-1, button-3)
+prt(turn-1, on-4)
+
+nn(button-3, power-2)
+dobj(locate-1, button-3)
+
+dobj(push-1, button-2)
+prep(push-1, to-3)
+prep_on(push-1, position-5)
+
+nn(button-3, power-2)
+dobj(find-1, button-3)
+
+nn(button-3, power-2)
+dobj(push-1, button-3)
+
+prep_to(walk-1, computer-3)
+
+nn(button-3, power-2)
+dobj(push-1, button-3)
+
+dep(plugged-6, make-1)
+dobj(make-1, suer-2)
+det(computer-4, the-3)
+nsubjpass(plugged-6, computer-4)
+auxpass(plugged-6, is-5)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(locate-1, button-4)
+det(machine-7, the-6)
+prep_on(locate-1, machine-7)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(locate-1, button-4)
+det(computer-7, the-6)
+prep_of(button-4, computer-7)
+
+acomp(make-1, sure-2)
+det(computer-4, the-3)
+nsubjpass(plugged-6, computer-4)
+auxpass(plugged-6, is-5)
+ccomp(sure-2, plugged-6)
+prt(plugged-6, in-7)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+
+det(computer-4, the-3)
+prep_in(plug-1, computer-4)
+
+dobj(press-1, the-2)
+prep_on(press-1, button-4)
+
+prt(go-1, over-2)
+det(computer-5, the-4)
+prep_to(go-1, computer-5)
+
+prt(sit-1, down-2)
+det(computer-7, the-6)
+prep_in_front_of(sit-1, computer-7)
+
+nsubj(s-4, press-1)
+det(computer-3, the-2)
+nsubj(s-4, computer-3)
+prep_on(s-4, button-6)
+
+det(computer-4, the-3)
+prep_for(wait-1, computer-4)
+prep_to(wait-1, boot-6)
+advmod(wait-1, up-7)
+
+det(panel-4, the-2)
+nn(panel-4, control-3)
+dobj(locate-1, panel-4)
+det(computer-7, the-6)
+prep_of(panel-4, computer-7)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(depress-1, button-4)
+det(front-7, the-6)
+prep_on(depress-1, front-7)
+det(panel-11, the-9)
+nn(panel-11, control-10)
+prep_of(front-7, panel-11)
+
+det(computer-6, the-5)
+prep_in_front_of(step-1, computer-6)
+
+dobj(find-1, the-2)
+prep_on(find-1, switch-4)
+
+dobj(push-1, the-2)
+prep_on(push-1, switch-4)
+
+det(computer-5, the-4)
+prep_away_from(go-1, computer-5)
+
+dobj(find-1, the-2)
+prep_on(find-1, switch-4)
+
+det(switch-3, the-2)
+dobj(press-1, switch-3)
+
+prep_on(locate-1, switch-3)
+prep_on(locate-1, computer-5)
+
+dobj(press-1, switch-2)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+prep_on(press-1, computer-5)
+
+det(switch-4, the-2)
+nn(switch-4, on\/off-3)
+dobj(press-1, switch-4)
+det(pc-7, the-6)
+prep_on(press-1, pc-7)
+
+det(switch-4, the-2)
+nn(switch-4, on\/off-3)
+dobj(press-1, switch-4)
+det(monitor-7, the-6)
+prep_on(press-1, monitor-7)
+
+
+prep_to(walk-1, computer-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+prep_on(press-1, computer-5)
+
+det(computer-4, the-3)
+prep_in(plug-1, computer-4)
+
+det(switch-4, the-2)
+nn(switch-4, power-3)
+dobj(find-1, switch-4)
+
+aux(switch-4, activate-1)
+det(power-3, the-2)
+nsubj(switch-4, power-3)
+
+dobj(pressing-1, the-2)
+prep_on(pressing-1, switch-4)
+
+dobj(push-1, button-2)
+nn(box-5, computor-4)
+prep_on(push-1, box-5)
+
+dobj(push-1, button-2)
+prep_on(push-1, speakers-4)
+
+dobj(push-1, botton-2)
+prep_on(push-1, monitor-4)
+
+dobj(push-1, the-2)
+prep_on(push-1, switch-4)
+
+det(desktop-4, the-3)
+nsubj(appears-5, desktop-4)
+prepc_until(wait-1, appears-5)
+
+det(switch-5, the-3)
+nn(switch-5, coputer-4)
+prep_on(switch-1, switch-5)
+
+dep(click-1, the-2)
+prep_on(click-1, button-4)
+partmod(click-1, located-5)
+det(cpu-8, the-7)
+prep_on(located-5, cpu-8)
+
+det(minutes-4, a-2)
+amod(minutes-4, few-3)
+dobj(wait-1, minutes-4)
+det(page-8, the-6)
+amod(page-8, welcome-7)
+prep_for(minutes-4, page-8)
+
+nsubj(password-6, key-1)
+poss(username-4, your-3)
+prep_in(key-1, username-4)
+cc(username-4, and-5)
+
+det(button-4, the-2)
+amod(button-4, login-3)
+dep(click-1, button-4)
+
+prep_on(find-1, button-3)
+
+prep_on(press-1, button-3)
+
+prep_for(wait-1, boot-3)
+advmod(wait-1, up-4)
+
+acomp(make-1, sure-2)
+nsubjpass(plugged-5, computer-3)
+auxpass(plugged-5, is-4)
+ccomp(sure-2, plugged-5)
+prt(plugged-5, in-6)
+
+dobj(press-1, the-2)
+prepc_on(press-1, button-6)
+det(computer-9, the-8)
+prep_on(press-1, computer-9)
+
+dobj(press-1, the-2)
+prepc_on(press-1, button-6)
+det(monitor-9, the-8)
+prep_on(press-1, monitor-9)
+
+det(name-3, a-2)
+dobj(enter-1, name-3)
+conj_and(enter-1, password-5)
+pred(enter-1, password-5)
+advmod(requested-7, when-6)
+advcl(password-5, requested-7)
+
+dobj(hit-1, the-2)
+prep_on(hit-1, button-4)
+
+dobj(hit-1, the-2)
+prepc_on(hit-1, button-6)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+
+det(monitor-4, the-3)
+prep_on(switch-1, monitor-4)
+
+det(speakers-4, the-3)
+prep_on(turn-1, speakers-4)
+
+det(tower-4, the-3)
+prep_on(switch-1, tower-4)
+
+nn(switch-3, power-2)
+dobj(locate-1, switch-3)
+
+nn(switch-3, power-2)
+dobj(push-1, switch-3)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+det(tower-8, the-6)
+nn(tower-8, computer-7)
+prep_on(press-1, tower-8)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+det(monitor-8, the-6)
+nn(monitor-8, computer-7)
+prep_on(press-1, monitor-8)
+
+dobj(place-1, yourself-2)
+det(computer-7, a-6)
+prep_in_front_of(place-1, computer-7)
+rel(want-10, that-8)
+nsubj(want-10, you-9)
+xsubj(turn-12, you-9)
+rcmod(computer-7, want-10)
+aux(turn-12, to-11)
+xcomp(want-10, turn-12)
+prt(turn-12, on-13)
+
+nsubj(s-4, press-1)
+xsubj(start-8, press-1)
+det(computer-3, the-2)
+nsubj(s-4, computer-3)
+xsubj(start-8, computer-3)
+prep_on(s-4, button-6)
+aux(start-8, to-7)
+xcomp(s-4, start-8)
+det(boot-10, the-9)
+dobj(start-8, boot-10)
+prep_up(start-8, process-12)
+det(computer-15, the-14)
+prep_of(process-12, computer-15)
+
+det(computer-4, the-3)
+prep_for(wait-1, computer-4)
+advmod(boot-7, fully-6)
+prep_to(wait-1, boot-7)
+advmod(wait-1, up-8)
+
+prep_to(walk-1, computer-3)
+
+nn(button-3, power-2)
+dobj(push-1, button-3)
+
+prep_for(wait-1, computer-3)
+prep_to(wait-1, boot-5)
+
+amod(information-3, login-2)
+dobj(enter-1, information-3)
+
+dobj(plug-1, computer-2)
+prep(plug-1, in-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+prep_on(press-1, tower-5)
+
+det(cursor-3, the-2)
+dobj(move-1, cursor-3)
+det(button-9, the-5)
+nn(button-9, start-7)
+prep_to(move-1, button-9)
+
+nsubj(left-1, click-2)
+det(mouse-4, the-3)
+nsubj(shut-8, mouse-4)
+conj_and(mouse-4, select-6)
+nsubj(shut-8, select-6)
+dep(left-1, shut-8)
+prt(shut-8, down-9)
+
+advmod(comes-4, when-1)
+nn(box-3, dialogue-2)
+nsubj(comes-4, box-3)
+csubj(select-6, comes-4)
+prt(comes-4, up-5)
+poss(choice-8, your-7)
+dobj(select-6, choice-8)
+det(box-12, the-10)
+nn(box-12, dropdown-11)
+prep_from(select-6, box-12)
+
+amod(click-1, okay-3)
+
+dobj(find-1, the-2)
+prepc_on(find-1, switch-6)
+conj_and(find-1, press-8)
+dobj(press-8, it-9)
+
+advmod(prompt-4, til-2)
+det(prompt-4, the-3)
+dobj(wait-1, prompt-4)
+advmod(wait-1, then-5)
+
+prep_with(login-1, username-3)
+prep_with(login-1, password-5)
+conj_and(username-3, password-5)
+
+nn(power-4, computer-3)
+prep_in(plug-1, power-4)
+
+dobj(find-1, switch-2)
+
+dobj(press-1, switch-2)
+
+prep_to(walk-1, thecomputer-3)
+
+prt(lean-1, down-2)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+
+prt(straighten-1, up-2)
+
+prep_in(sit-1, chair-3)
+
+prep_for(wait-1, computer-3)
+prep_to(wait-1, boot-5)
+advmod(wait-1, up-6)
+
+dobj(plug-1, pc-2)
+nn(outlet-5, wall-4)
+prep_into(plug-1, outlet-5)
+
+nn(switch-5, on\/off-3)
+dobj(find-1, switch-5)
+
+dobj(flip-1, switch-2)
+prep_to(switch-2, the-4)
+prepc_on(flip-1, position-8)
+
+det(button-6, the-2)
+nn(button-6, on\/off-4)
+dobj(find-1, button-6)
+
+det(button-3, the-2)
+dobj(push-1, button-3)
+prep_into(push-1, the-5)
+prepc_on(push-1, position-9)
+
+prep_on(press-1, button-3)
+
+
+
+
+
+
+
+dobj(plug-1, cord-2)
+prep_in(plug-1, outlet-4)
+
+nn(button-3, power-2)
+dobj(find-1, button-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+iobj(locate-1, button-2)
+det(computer-4, the-3)
+dobj(locate-1, computer-4)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+
+prep_on(press-1, button-3)
+det(monitor-6, the-5)
+prep_on(press-1, monitor-6)
+
+det(boots-5, the-3)
+nn(boots-5, computer-4)
+prep_until(wait-1, boots-5)
+prepc_before(wait-1, using-7)
+
+dobj(press-1, the-2)
+prep_on(press-1, button-4)
+
+csubj(plugged-3, make-1)
+acomp(make-1, sure-2)
+prt(plugged-3, in-4)
+
+prep_on(hit-1, button-3)
+
+nn(button-3, power-2)
+dobj(find-1, button-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+

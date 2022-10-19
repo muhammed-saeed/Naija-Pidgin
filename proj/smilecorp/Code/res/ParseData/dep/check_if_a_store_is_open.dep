@@ -1,0 +1,596 @@
+prt(look-1, up-2)
+nn(number-4, store-3)
+dobj(look-1, number-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, number-2)
+prep_of(number-2, store-4)
+
+advmod(ask-4, when-1)
+nn(answers-3, someone-2)
+nsubj(ask-4, answers-3)
+nn(hours-6, store-5)
+dobj(ask-4, hours-6)
+
+xcomp(say-1, thank-2)
+dobj(thank-2, you-3)
+
+dobj(turn-1, phone-2)
+prt(turn-1, off-3)
+
+csubj(number-6, find-1)
+det(store-3, the-2)
+dobj(find-1, store-3)
+cop(number-6, s-4)
+nn(number-6, phone-5)
+det(phonebook-9, a-8)
+prep_in(number-6, phonebook-9)
+
+det(store-3, the-2)
+dobj(call-1, store-3)
+partmod(store-3, using-4)
+det(telephone-6, a-5)
+dobj(using-4, telephone-6)
+
+mark(open-6, if-2)
+det(store-4, the-3)
+nsubj(open-6, store-4)
+cop(open-6, is-5)
+advcl(ask-1, open-6)
+
+det(location-5, the-3)
+nn(location-5, store-4)
+prep_to(go-1, location-5)
+
+mark(are-4, if-1)
+det(lights-3, the-2)
+nsubj(are-4, lights-3)
+advcl(closed-9, are-4)
+prt(are-4, off-5)
+advmod(are-4, then-6)
+nsubjpass(closed-9, it-7)
+auxpass(closed-9, is-8)
+
+advmod(open-4, otherwise-1)
+nsubj(open-4, it-2)
+cop(open-4, is-3)
+
+prt(find-1, out-2)
+nn(number-5, store-3)
+nn(number-5, phone-4)
+dobj(find-1, number-5)
+
+dobj(call-1, store-2)
+
+nn(hours-4, store-3)
+prep_for(ask-1, hours-4)
+mark(answer-6, if-5)
+advcl(ask-1, answer-6)
+
+prep_to(listen-1, message-3)
+mark(outside-5, if-4)
+advcl(listen-1, outside-5)
+nn(hours-7, store-6)
+pobj(outside-5, hours-7)
+
+dobj(check-1, website-2)
+
+det(book-4, the-2)
+nn(book-4, phone-3)
+dobj(find-1, book-4)
+
+prt(look-1, up-2)
+det(store-4, the-3)
+dobj(look-1, store-4)
+det(book-8, the-6)
+nn(book-8, phone-7)
+prep_in(look-1, book-8)
+
+det(phone-3, the-2)
+dobj(find-1, phone-3)
+
+det(number-3, the-2)
+dobj(call-1, number-3)
+dobj(looked-5, number-3)
+nsubj(looked-5, you-4)
+rcmod(number-3, looked-5)
+prt(looked-5, up-6)
+
+mark(open-6, if-2)
+det(store-4, the-3)
+nsubj(open-6, store-4)
+cop(open-6, is-5)
+advcl(ask-1, open-6)
+
+prt(hang-1, up-2)
+det(phone-4, the-3)
+dobj(hang-1, phone-4)
+
+prt(walking-1, up-2)
+det(entrance-5, the-4)
+prep_to(walking-1, entrance-5)
+
+det(door-4, the-3)
+prep_at(yanking-1, door-4)
+
+nsubj(posted-2, checking-1)
+nn(hours-4, opening-3)
+dobj(posted-2, hours-4)
+
+nn(number-3, phone-2)
+dobj(get-1, number-3)
+
+dobj(call-1, store-2)
+
+prep_about(ask-1, hours-3)
+prep_of(hours-3, business-5)
+
+det(store-3, the-2)
+dobj(locate-1, store-3)
+
+det(entrance-4, the-3)
+prep_to(go-1, entrance-4)
+det(store-7, the-6)
+prep_of(entrance-4, store-7)
+
+mark(open-5, if-1)
+det(door-3, the-2)
+nsubj(open-5, door-3)
+cop(open-5, is-4)
+advcl(is-16, open-5)
+expl(are-8, there-7)
+conj_and(open-5, are-8)
+advcl(is-16, are-8)
+nsubj(are-8, people-9)
+partmod(people-9, shopping-10)
+det(store-13, the-12)
+prep_in(shopping-10, store-13)
+advmod(shopping-10, then-14)
+nsubj(is-16, it-15)
+acomp(is-16, open-17)
+
+det(store-3, the-2)
+dobj(find-1, store-3)
+det(directory-7, the-5)
+nn(directory-7, phone-6)
+prep_in(find-1, directory-7)
+
+det(number-3, the-2)
+dobj(call-1, number-3)
+
+det(store-4, the-3)
+prep_to(go-1, store-4)
+
+aux(open-3, to-2)
+xcomp(try-1, open-3)
+dobj(open-3, door-4)
+
+mark(look-6, if-1)
+nsubj(look-6, door-2)
+aux(look-6, does-3)
+neg(look-6, not-4)
+advmod(look-6, open-5)
+prep_at(look-6, sign-8)
+prep_on(look-6, door-10)
+prep_for(look-6, hours-12)
+complm(open-16, that-13)
+nsubj(open-16, it-14)
+cop(open-16, is-15)
+ccomp(look-6, open-16)
+
+det(store-3, the-2)
+dobj(call-1, store-3)
+aux(ask-5, to-4)
+infmod(store-3, ask-5)
+amod(hours-8, operating-7)
+prep_for(ask-5, hours-8)
+
+dobj(check-1, online-2)
+nn(hours-6, store-4)
+nn(hours-6, operating-5)
+prep_for(check-1, hours-6)
+
+det(store-3, the-2)
+dobj(visit-1, store-3)
+conj_and(visit-1, check-5)
+det(hours-8, the-6)
+amod(hours-8, operating-7)
+dobj(check-5, hours-8)
+
+prt(look-1, up-2)
+det(number-5, the-3)
+nn(number-5, phone-4)
+dobj(look-1, number-5)
+det(store-8, the-7)
+prep_of(number-5, store-8)
+
+det(store-3, the-2)
+dobj(call-1, store-3)
+det(telephone-6, the-5)
+prep_on(call-1, telephone-6)
+
+det(clerk-4, the-2)
+nn(clerk-4, store-3)
+dobj(ask-1, clerk-4)
+aux(tell-6, to-5)
+xcomp(ask-1, tell-6)
+iobj(tell-6, you-7)
+det(hours-9, the-8)
+dobj(tell-6, hours-9)
+prep_of(hours-9, operation-11)
+det(store-14, the-13)
+prep_for(operation-11, store-14)
+
+det(computer-4, the-3)
+prep_to(go-1, computer-4)
+
+det(browser-4, a-2)
+nn(browser-4, web-3)
+dobj(open-1, browser-4)
+det(computer-7, the-6)
+prep_on(open-1, computer-7)
+
+det(page-4, the-2)
+nn(page-4, web-3)
+dobj(find-1, page-4)
+det(store-7, the-6)
+prep_of(page-4, store-7)
+det(engine-11, a-9)
+nn(engine-11, search-10)
+prep_in(store-7, engine-11)
+
+det(page-4, the-2)
+nn(page-4, web-3)
+dobj(open-1, page-4)
+
+nsubj(hours-12, look-1)
+prep_for(look-1, information-3)
+det(page-7, the-5)
+nn(page-7, web-6)
+prep_on(information-3, page-7)
+det(store-10, the-9)
+prep_about(page-7, store-10)
+cop(hours-12, s-11)
+
+dobj(call-1, store-2)
+
+dobj(ask-1, person-2)
+mark(store-4, if-3)
+advcl(ask-1, store-4)
+acomp(store-4, open-5)
+
+mark(automated-2, if-1)
+advcl(check-4, automated-2)
+nsubj(check-4, message-3)
+nn(hours-6, store-5)
+dobj(check-4, hours-6)
+
+det(storefront-4, the-3)
+prep_to(going-1, storefront-4)
+
+det(door-3, the-2)
+dobj(trying-1, door-3)
+
+mark(open-6, if-1)
+det(door-3, the-2)
+nsubj(open-6, door-3)
+aux(open-6, does-4)
+neg(open-6, not-5)
+advcl(closed-11, open-6)
+advmod(open-6, then-7)
+det(store-9, the-8)
+nsubjpass(closed-11, store-9)
+auxpass(closed-11, is-10)
+
+mark(open-5, if-1)
+det(door-3, the-2)
+nsubj(open-5, door-3)
+dep(open-5, does-4)
+advcl(open-10, open-5)
+advmod(open-5, then-6)
+det(store-8, the-7)
+nsubj(open-10, store-8)
+cop(open-10, is-9)
+
+csubj(number-6, call-1)
+csubj(inquire-8, call-1)
+det(store-3, the-2)
+dobj(call-1, store-3)
+cop(number-6, s-4)
+nn(number-6, telephone-5)
+conj_and(number-6, inquire-8)
+poss(hours-11, their-10)
+prep_about(inquire-8, hours-11)
+prep_of(hours-11, business-13)
+
+mark(is-7, if-1)
+det(hour-3, the-2)
+dobj(calling-6, hour-3)
+nsubj(is-7, hour-3)
+nsubj(calling-6, you-4)
+aux(calling-6, are-5)
+rcmod(hour-3, calling-6)
+advcl(open-16, is-7)
+poss(hours-10, their-9)
+prep_within(is-7, hours-10)
+prep_of(hours-10, business-12)
+advmod(is-7, then-13)
+nsubj(open-16, they-14)
+cop(open-16, are-15)
+
+det(store-4, the-3)
+prep_to(go-1, store-4)
+
+aux(see-3, to-2)
+xcomp(look-1, see-3)
+mark(are-6, if-4)
+nsubj(are-6, people-5)
+advcl(see-3, are-6)
+advmod(are-6, inside-7)
+
+aux(see-3, to-2)
+xcomp(look-1, see-3)
+mark(are-6, if-4)
+nsubj(are-6, lights-5)
+advcl(see-3, are-6)
+prep(are-6, on-7)
+
+aux(see-3, to-2)
+xcomp(look-1, see-3)
+mark(is-6, if-4)
+expl(is-6, there-5)
+advcl(see-3, is-6)
+det(sign-9, an-7)
+amod(sign-9, open-8)
+nsubj(is-6, sign-9)
+
+aux(open-3, to-2)
+xcomp(try-1, open-3)
+det(door-5, the-4)
+dobj(open-3, door-5)
+
+dobj(call-1, store-2)
+
+nn(hours-4, store-3)
+prep_for(ask-1, hours-4)
+
+det(phone-3, a-2)
+dobj(find-1, phone-3)
+
+det(phonebook-3, a-2)
+dobj(find-1, phonebook-3)
+
+prt(look-1, up-2)
+nn(number-4, stores-3)
+dobj(look-1, number-4)
+
+dobj(call-1, store-2)
+
+nn(hours-4, opening-3)
+prep_for(ask-1, hours-4)
+
+prep_with(communicate-1, store-3)
+
+nn(hours-3, store-2)
+dobj(inquire-1, hours-3)
+
+mark(open-5, if-2)
+nsubj(open-5, store-3)
+cop(open-5, is-4)
+advcl(determine-1, open-5)
+
+dobj(contact-1, store-2)
+
+dobj(inquire-1, hours-2)
+
+dobj(report-1, findings-2)
+
+dobj(call-1, store-2)
+
+nn(hours-3, operating-2)
+dobj(ask-1, hours-3)
+
+det(store-3, the-2)
+dobj(call-1, store-3)
+
+det(machine-5, the-3)
+amod(machine-5, answering-4)
+prep_to(listen-1, machine-5)
+
+mark(is-5, if-1)
+det(time-4, the-2)
+amod(time-4, current-3)
+nsubj(is-5, time-4)
+advcl(know-12, is-5)
+det(hours-9, the-7)
+nn(hours-9, store-8)
+prep_within(is-5, hours-9)
+advmod(know-12, then-10)
+nsubj(know-12, you-11)
+dep(open-16, know-12)
+det(store-14, the-13)
+nsubj(open-16, store-14)
+cop(open-16, is-15)
+
+dobj(do-1, one-2)
+det(following-5, the-4)
+prep_of(one-2, following-5)
+
+amod(online-2, go-1)
+nsubj(hours-13, online-2)
+det(store-5, the-3)
+predet(store-5, the-3)
+dep(store-5, the-4)
+nsubj(webpage-7, store-5)
+cop(webpage-7, s-6)
+rcmod(online-2, webpage-7)
+aux(see-9, to-8)
+xcomp(webpage-7, see-9)
+det(store-11, the-10)
+dobj(see-9, store-11)
+cop(hours-13, s-12)
+
+det(store-4, the-3)
+prep_to(go-1, store-4)
+conj_and(go-1, see-6)
+poss(hours-8, its-7)
+dobj(see-6, hours-8)
+prep_of(hours-8, operation-10)
+
+nn(number-4, store-2)
+nn(number-4, telephone-3)
+dobj(find-1, number-4)
+
+dobj(dial-1, store-2)
+
+nn(hours-4, store-3)
+prep_for(ask-1, hours-4)
+
+dobj(call-1, store-2)
+
+nn(name-3, store-2)
+dobj(google-1, name-3)
+
+prep_on(search-1, website-3)
+prep_for(search-1, hours-5)
+prep_of(hours-5, operation-7)
+
+mark(available-3, if-1)
+neg(available-3, not-2)
+csubj(call-4, available-3)
+dobj(call-4, store-5)
+prep_for(call-4, info-7)
+
+det(store-4, the-3)
+prep_to(go-1, store-4)
+
+mark(lit-7, if-2)
+det(sign-5, the-3)
+amod(sign-5, open-4)
+nsubjpass(lit-7, sign-5)
+auxpass(lit-7, is-6)
+advcl(see-1, lit-7)
+
+prep_to(drive-1, store-3)
+
+dobj(park-1, car-2)
+
+prt(shut-1, off-2)
+dobj(shut-1, car-3)
+
+prep_out_of(get-1, car-4)
+
+dobj(lock-1, car-2)
+
+aux(store-3, to-2)
+xcomp(walk-1, store-3)
+dobj(store-3, door-4)
+
+nn(door-3, store-2)
+dobj(pull-1, door-3)
+dep(pull-1, handle-4)
+
+det(open-4, the-3)
+prep_to(go-1, open-4)
+
+mark(is-6, if-2)
+det(sign-5, the-3)
+amod(sign-5, open-4)
+nsubj(is-6, sign-5)
+advcl(see-1, is-6)
+prep(is-6, on-7)
+
+det(store-4, the-3)
+prep_to(go-1, store-4)
+
+nsubj(posted-6, look-1)
+det(hours-5, the-3)
+nn(hours-5, store-4)
+prep_at(look-1, hours-5)
+det(door-9, the-8)
+prep_on(posted-6, door-9)
+
+det(sign-5, an-3)
+amod(sign-5, open-4)
+prep_for(check-1, sign-5)
+
+prep_for(check-1, people-3)
+det(store-6, the-5)
+prep_in(people-3, store-6)
+
+det(door-3, the-2)
+nsubj(see-5, door-3)
+aux(see-5, to-4)
+xcomp(try-1, see-5)
+mark(locked-9, if-6)
+nsubjpass(locked-9, it-7)
+auxpass(locked-9, is-8)
+advcl(see-5, locked-9)
+
+prep_into(get-1, car-3)
+
+det(mall-4, the-3)
+prep_to(drive-1, mall-4)
+
+det(mall-4, the-3)
+prep_into(go-1, mall-4)
+
+prt(walk-1, over-2)
+det(store-5, the-4)
+prep_to(walk-1, store-5)
+
+det(door-3, the-2)
+dobj(try-1, door-3)
+
+advmod(go-1, inside-2)
+mark(open-4, if-3)
+advcl(go-1, open-4)
+
+det(hours-3, the-2)
+dobj(check-1, hours-3)
+det(door-6, the-5)
+prep_on(check-1, door-6)
+
+prt(take-1, out-2)
+nn(book-4, phone-3)
+dobj(take-1, book-4)
+
+prt(look-1, up-2)
+nsubj(number-5, store-3)
+cop(number-5, s-4)
+ccomp(look-1, number-5)
+nn(book-8, telephone-7)
+prep_in(number-5, book-8)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+nn(store-2, dial-1)
+nsubj(number-4, store-2)
+cop(number-4, s-3)
+
+dobj(ask-1, person-2)
+nsubj(answers-4, person-2)
+rcmod(person-2, answers-4)
+dobj(are-9, what-5)
+det(hours-8, the-6)
+nn(hours-8, store-7)
+nsubj(are-9, hours-8)
+ccomp(answers-4, are-9)
+
+prt(hang-1, up-2)
+dobj(hang-1, phone-3)
+
+det(store-4, the-3)
+prep_to(go-1, store-4)
+
+mark(open-5, if-2)
+nsubj(open-5, it-3)
+cop(open-5, is-4)
+advcl(see-1, open-5)
+
+det(store-3, the-2)
+dobj(call-1, store-3)
+

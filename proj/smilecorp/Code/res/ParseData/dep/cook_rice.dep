@@ -1,0 +1,600 @@
+dobj(get-1, rice-2)
+
+dobj(get-1, pot-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(cook-1, water-2)
+
+dobj(put-1, rice-2)
+prep_into(put-1, water-4)
+
+
+dobj(take-1, rice-2)
+prep_out_of(take-1, water-5)
+
+dobj(put-1, rice-2)
+nn(cooker-5, rice-4)
+prep_in(put-1, cooker-5)
+
+dobj(add-1, water-2)
+
+prep_on(turn-1, cooker-3)
+
+advmod(wait-1, for-2)
+dep(for-2, rice-3)
+advmod(wait-1, too-4)
+dep(wait-1, cook-5)
+
+dobj(remove-1, rice-2)
+prep_from(remove-1, cooker-4)
+
+dobj(put-1, rice-2)
+nn(cooker-5, rice-4)
+prep_in(put-1, cooker-5)
+
+dobj(add-1, water-2)
+
+amod(speed-3, cooking-2)
+dobj(select-1, speed-3)
+dep(speed-3, low-5)
+dep(speed-3, high-7)
+conj_or(low-5, high-7)
+
+prep_for(wait-1, rice-3)
+aux(cook-5, to-4)
+xcomp(wait-1, cook-5)
+
+dobj(remove-1, rice-2)
+prep_from(remove-1, cooker-4)
+
+dobj(place-1, rice-2)
+nn(cooker-5, rice-4)
+prep_in(place-1, cooker-5)
+
+dobj(add-1, water-2)
+
+amod(speed-3, cooking-2)
+dobj(select-1, speed-3)
+
+prep_on(turn-1, cooker-3)
+
+prep_for(wait-1, rice-3)
+aux(cook-5, to-4)
+xcomp(wait-1, cook-5)
+
+dobj(turn-1, cooker-2)
+prt(turn-1, off-3)
+
+dobj(remove-1, rice-2)
+prep_from(remove-1, cooker-4)
+
+nn(box-3, rice-2)
+dobj(open-1, box-3)
+
+aux(needed-5, pour-1)
+nsubj(needed-5, amount-2)
+prep_of(amount-2, rice-4)
+amod(cup-8, measuring-7)
+prep_into(needed-5, cup-8)
+
+det(pot-3, a-2)
+dobj(boil-1, pot-3)
+prep_of(pot-3, water-5)
+
+det(amount-4, the-2)
+amod(amount-4, needed-3)
+dobj(pour-1, amount-4)
+prep_of(amount-4, rice-6)
+det(pot-9, the-8)
+prep_into(pour-1, pot-9)
+
+det(rice-3, the-2)
+dobj(boil-1, rice-3)
+prepc_until(boil-1, cooked-5)
+
+det(rice-3, the-2)
+dobj(allow-1, rice-3)
+aux(soak-5, to-4)
+infmod(rice-3, soak-5)
+prt(soak-5, up-6)
+predet(water-9, all-7)
+det(water-9, the-8)
+dobj(soak-5, water-9)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+dobj(heat-1, pot-2)
+
+dobj(put-1, rice-2)
+prep_in(put-1, pot-4)
+
+amod(length-4, predetermined-3)
+prep_for(cook-1, length-4)
+prep_of(length-4, time-6)
+
+dobj(put-1, rice-2)
+prep_on(put-1, plate-4)
+
+dobj(allow-1, rice-2)
+aux(cool-4, to-3)
+infmod(rice-2, cool-4)
+prepc_before(cool-4, serving-6)
+
+dobj(buying-1, rice-2)
+
+dobj(opening-1, package-2)
+
+dobj(put-1, rice-2)
+prep_in(put-1, pot-4)
+prep_of(pot-4, water-6)
+
+
+dobj(boil-1, it-2)
+num(minutes-5, 20-4)
+prep_for(boil-1, minutes-5)
+
+prep_from(remove-1, heat-3)
+
+dobj(put-1, water-2)
+prep_in(put-1, kettle-4)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, rice-2)
+
+dobj(boil-1, rice-2)
+num(minutes-5, 7-4)
+prep_for(boil-1, minutes-5)
+
+dobj(remove-1, water-2)
+
+dobj(leave-1, rice-2)
+num(minutes-5, 5-4)
+prep_for(leave-1, minutes-5)
+
+dobj(serve-1, rice-2)
+
+dobj(boil-1, water-2)
+
+amod(amount-3, correct-2)
+dobj(measure-1, amount-3)
+prep_of(amount-3, rice-5)
+
+dobj(put-1, rice-2)
+prepc_in(put-1, boiling-4)
+dobj(boiling-4, water-5)
+
+amod(time-4, correct-2)
+amod(time-4, boiling-3)
+dobj(wait-1, time-4)
+
+dobj(drain-1, water-2)
+
+dobj(put-1, rice-2)
+prep_in(put-1, bowl-4)
+
+amod(amount-3, required-2)
+dobj(wash-1, amount-3)
+amod(rice-6, raw-5)
+prep_of(amount-3, rice-6)
+
+dobj(place-1, rice-2)
+prep_in(place-1, cooker-4)
+
+amod(amount-3, required-2)
+dobj(place-1, amount-3)
+prep_of(amount-3, water-5)
+amod(container-8, same-7)
+prep_in(place-1, container-8)
+prep_as(place-1, rice-10)
+
+nn(cooker-4, rice-3)
+prep_in(plug-1, cooker-4)
+prep_in(plug-1, switch-6)
+conj_and(cooker-4, switch-6)
+prep_on(plug-1, plug-8)
+
+nsubj(ready-3, rice-1)
+cop(ready-3, is-2)
+advmod(cooker-5, when-4)
+advcl(ready-3, cooker-5)
+dep(cooker-5, beeps-6)
+amod(indication-10, other-9)
+dep(cooker-5, indication-10)
+conj_or(beeps-6, indication-10)
+
+dobj(put-1, rice-2)
+nn(cooker-5, rice-4)
+prep_in(put-1, cooker-5)
+
+num(cup-3, 2\/3-2)
+dobj(put-1, cup-3)
+prep_of(cup-3, water-5)
+nn(cooker-8, rice-7)
+prep_in(put-1, cooker-8)
+det(cup-11, each-10)
+prep_for(cooker-8, cup-11)
+prep_of(cup-11, rice-13)
+
+nn(cooker-3, rice-2)
+dobj(close-1, cooker-3)
+
+nn(cooker-4, rice-3)
+prep_on(turn-1, cooker-4)
+
+det(pan-3, a-2)
+dobj(fill-1, pan-3)
+prep_with(fill-1, water-5)
+
+det(stove-4, the-3)
+prep_on(turn-1, stove-4)
+
+det(pan-3, the-2)
+dobj(put-1, pan-3)
+det(stove-6, the-5)
+prep_on(put-1, stove-6)
+
+det(water-4, the-3)
+prep_for(wait-1, water-4)
+prep_to(wait-1, boil-6)
+
+det(rice-3, some-2)
+dobj(put-1, rice-3)
+det(water-6, the-5)
+prep_in(put-1, water-6)
+
+det(heat-3, the-2)
+dobj(turn-1, heat-3)
+advmod(turn-1, down-4)
+advmod(down-4, low-5)
+
+det(pan-3, the-2)
+dobj(cover-1, pan-3)
+
+prt(measure-1, out-2)
+dobj(measure-1, rice-3)
+
+dobj(wash-1, rice-2)
+
+dobj(measure-1, water-2)
+
+nn(cooker-4, rice-3)
+prep_on(turn-1, cooker-4)
+
+nn(container-2, place-1)
+nsubj(mixture-5, container-2)
+prep_of(container-2, rice-4)
+amod(source-8, in\/on-6)
+nn(source-8, heat-7)
+dobj(mixture-5, source-8)
+
+dobj(get-1, pan-2)
+
+dobj(measure-1, water-2)
+
+dobj(put-1, water-2)
+prep_in(put-1, pan-4)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, rice-2)
+
+dobj(cover-1, pan-2)
+
+prep_for(wait-1, rice-3)
+aux(done-6, to-4)
+auxpass(done-6, be-5)
+xcomp(wait-1, done-6)
+
+dobj(measure-1, rice-2)
+
+dobj(pour-1, rice-2)
+prep_into(pour-1, pot-4)
+
+dobj(measure-1, water-2)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, pot-4)
+
+dobj(cover-1, pot-2)
+
+prep_on(turn-1, stove-3)
+
+dobj(set-1, timer-2)
+
+dobj(measure-1, rice-2)
+
+dobj(measure-1, rice-2)
+
+dobj(add-1, water-2)
+
+dobj(wash-1, rice-2)
+
+dobj(add-1, water-2)
+
+nn(cooker-3, rice-2)
+dobj(cover-1, cooker-3)
+
+nn(cooker-3, rice-2)
+dobj(turn-1, cooker-3)
+prt(turn-1, on-4)
+
+dobj(measure-1, rice-2)
+prep_into(measure-1, strainer-4)
+
+dobj(rinse-1, rice-2)
+
+dobj(measure-1, water-2)
+prep_into(measure-1, pot-4)
+
+dobj(heat-1, water-2)
+prepc_until(heat-1, boiling-4)
+
+amod(rice-3, rinsed-2)
+dobj(pour-1, rice-3)
+prep_into(pour-1, pot-5)
+
+dobj(cover-1, pot-2)
+prep_with(cover-1, lid-4)
+
+nsubjpass(cooked-5, simmer-1)
+prep_until(simmer-1, rice-3)
+auxpass(cooked-5, is-4)
+
+dobj(measure-1, rice-2)
+prep_into(measure-1, strainer-4)
+
+dobj(rinse-1, rice-2)
+
+dobj(measure-1, water-2)
+prep_into(measure-1, pot-4)
+
+dobj(heat-1, water-2)
+prepc_until(heat-1, boiling-4)
+
+amod(rice-3, rinsed-2)
+dobj(pour-1, rice-3)
+prep_into(pour-1, pot-5)
+
+dobj(cover-1, pot-2)
+prep_with(cover-1, lid-4)
+
+nsubjpass(cooked-5, simmer-1)
+prep_until(simmer-1, rice-3)
+auxpass(cooked-5, is-4)
+
+dobj(measure-1, rice-2)
+prep_into(measure-1, strainer-4)
+
+dobj(rinse-1, rice-2)
+
+dobj(measure-1, water-2)
+prep_into(measure-1, pot-4)
+
+dobj(heat-1, water-2)
+prepc_until(heat-1, boiling-4)
+
+amod(rice-3, rinsed-2)
+dobj(pour-1, rice-3)
+prep_into(pour-1, pot-5)
+
+dobj(cover-1, pot-2)
+prep_with(cover-1, lid-4)
+
+nsubjpass(cooked-5, simmer-1)
+prep_until(simmer-1, rice-3)
+auxpass(cooked-5, is-4)
+
+dobj(rinse-1, rice-2)
+
+dobj(place-1, rice-2)
+nn(cooker-5, rice-4)
+prep_in(place-1, cooker-5)
+
+dobj(add-1, water-2)
+
+nn(cooker-4, rice-3)
+prep_on(turn-1, cooker-4)
+
+mark(cooked-5, until-2)
+nsubjpass(cooked-5, rice-3)
+auxpass(cooked-5, is-4)
+advcl(wait-1, cooked-5)
+
+
+num(rice-4, 1-2)
+nn(rice-4, cup-3)
+dobj(measure-1, rice-4)
+
+mark(runs-3, until-2)
+advcl(wash-1, runs-3)
+acomp(runs-3, clear-4)
+
+prep_in(put-1, pot-3)
+num(cups-6, 2-5)
+prep_with(put-1, cups-6)
+dobj(put-1, water-7)
+
+prep_on(turn-1, burner-3)
+prep_to(turn-1, medium-5)
+
+dobj(place-1, pot-2)
+prep_on(place-1, burner-4)
+det(lid-7, the-6)
+prep_with(place-1, lid-7)
+dep(lid-7, off-8)
+
+num(minutes-3, 20-2)
+dobj(wait-1, minutes-3)
+
+nsubjpass(done-3, rice-1)
+auxpass(done-3, is-2)
+
+dobj(measure-1, rice-2)
+
+dobj(wash-1, rice-2)
+
+nn(cooker-4, rice-3)
+prep_in(place-1, cooker-4)
+
+dobj(close-1, lid-2)
+
+nn(cooker-4, rice-3)
+prep_on(turn-1, cooker-4)
+
+dobj(boil-1, water-2)
+det(pot-5, a-4)
+prep_in(boil-1, pot-5)
+
+prep_from(remove-1, heat-3)
+
+prep_in(pour-1, rice-3)
+
+dobj(cover-1, pot-2)
+
+xcomp(let-1, stand-2)
+num(minutes-4, 5-3)
+dobj(stand-2, minutes-4)
+
+nn(rice-2, fluff-1)
+det(fork-5, a-4)
+prep_with(rice-2, fork-5)
+
+
+dobj(add-1, rice-2)
+prep_to(add-1, bowl-4)
+
+dobj(add-1, water-2)
+
+dobj(cook-1, rice-2)
+
+dobj(add-1, water-2)
+prep_to(add-1, rice-4)
+
+dobj(get-1, rice-2)
+
+dobj(get-1, water-2)
+
+dobj(clean-1, rice-2)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+dobj(close-1, lid-2)
+
+nsubj(cook-3, it-2)
+ccomp(let-1, cook-3)
+
+dobj(wash-1, rice-2)
+
+dobj(place-1, rice-2)
+prep_in(place-1, rice-cooker-4)
+
+dobj(add-1, water-2)
+
+det(lid-3, the-2)
+dobj(close-1, lid-3)
+
+det(cooker-5, the-3)
+nn(cooker-5, rice-4)
+prep_on(turn-1, cooker-5)
+
+dobj(remove-1, rice-2)
+prep_from(remove-1, pantry-4)
+
+advmod(going-9, how-2)
+amod(cups-4, many-3)
+dep(going-9, cups-4)
+dep(cups-4, of-5)
+pobj(of-5, rice-6)
+nsubj(going-9, you-7)
+xsubj(need-11, you-7)
+aux(going-9, are-8)
+dep(determine-1, going-9)
+aux(need-11, to-10)
+xcomp(going-9, need-11)
+
+dep(going-11, measure-1)
+prt(measure-1, out-2)
+det(number-4, the-3)
+dobj(measure-1, number-4)
+prep_of(number-4, cups-6)
+prep_of(cups-6, rice-8)
+nsubj(going-11, you-9)
+xsubj(need-13, you-9)
+aux(going-11, are-10)
+aux(need-13, to-12)
+xcomp(going-11, need-13)
+
+nn(cooker-3, rice-2)
+dobj(get-1, cooker-3)
+
+nn(cooker-4, rice-3)
+prep_in(plug-1, cooker-4)
+
+dobj(fill-1, cooker-2)
+prep_with(fill-1, water-4)
+prep_with(fill-1, put-6)
+conj_and(water-4, put-6)
+partmod(water-4, put-6)
+prep_in(put-6, rice-8)
+
+prep_on(put-1, lid-3)
+
+nsubj(start-2, press-1)
+
+dobj(put-1, water-2)
+dobj(put-1, rice-4)
+conj_and(water-2, rice-4)
+nn(maker-7, rice-6)
+prep_in(put-1, maker-7)
+
+nn(maker-4, rice-3)
+prep_in(plug-1, maker-4)
+
+nn(maker-3, rice-2)
+dobj(cover-1, maker-3)
+
+nsubj(start-2, press-1)
+
+prt(measure-1, out-2)
+amod(amount-4, desired-3)
+dobj(measure-1, amount-4)
+prep_of(amount-4, rice-6)
+
+dobj(wash-1, rice-2)
+prep_with(wash-1, water-4)
+
+dobj(place-1, rice-2)
+nn(cooker-5, rice-4)
+prep_in(place-1, cooker-5)
+
+nn(cooker-3, rice-2)
+dobj(start-1, cooker-3)
+
+nn(maker-3, rice-2)
+dobj(get-1, maker-3)
+
+nn(maker-4, rice-3)
+prep_in(plug-1, maker-4)
+
+dobj(put-1, water-2)
+dobj(put-1, rice-4)
+conj_and(water-2, rice-4)
+nn(maker-7, rice-6)
+prep_in(put-1, maker-7)
+
+nn(maker-3, rice-2)
+dobj(cover-1, maker-3)
+
+nn(maker-3, rice-2)
+dobj(start-1, maker-3)
+

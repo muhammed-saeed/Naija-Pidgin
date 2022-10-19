@@ -1,0 +1,591 @@
+dobj(fetch-1, ladder-2)
+
+dobj(move-1, ladder-2)
+amod(location-5, desired-4)
+prep_to(move-1, location-5)
+
+dobj(get-1, ladder-2)
+
+prep_up(lift-1, ladder-3)
+
+dobj(move-1, ladder-2)
+prep_next_to(move-1, wall-5)
+
+aux(stable-7, spread-1)
+nn(legs-3, ladder-2)
+nsubj(stable-7, legs-3)
+advmod(ladder-6, so-4)
+det(ladder-6, that-5)
+dep(legs-3, ladder-6)
+
+prep_up(pick-1, ladder-3)
+
+prt(walk-1, over-2)
+prep(walk-1, to-3)
+det(wall-6, the-5)
+prep_near(walk-1, wall-6)
+
+prt(put-1, down-2)
+dobj(put-1, ladder-3)
+
+det(wall-3, the-2)
+dobj(locate-1, wall-3)
+
+det(ladder-3, a-2)
+dobj(take-1, ladder-3)
+
+det(ladder-3, the-2)
+dobj(put-1, ladder-3)
+det(wall-7, the-6)
+prep_close_to(put-1, wall-7)
+
+acomp(make-1, sure-2)
+det(ladder-4, the-3)
+nsubj(leaning-6, ladder-4)
+aux(leaning-6, is-5)
+ccomp(sure-2, leaning-6)
+det(wall-9, the-8)
+prep_to(leaning-6, wall-9)
+
+dobj(grab-1, ladder-2)
+
+dobj(move-1, ladder-2)
+prep_near(move-1, wall-4)
+
+nn(legs-3, ladder-2)
+dobj(spread-1, legs-3)
+advmod(spread-1, so-4)
+complm(stands-7, that-5)
+nsubj(stands-7, it-6)
+ccomp(spread-1, stands-7)
+poss(own-10, its-9)
+prep_on(stands-7, own-10)
+
+det(ladder-3, the-2)
+dobj(take-1, ladder-3)
+
+advmod(want-4, where-2)
+nsubj(want-4, you-3)
+xsubj(place-6, you-3)
+advcl(decide-1, want-4)
+aux(place-6, to-5)
+xcomp(want-4, place-6)
+dobj(place-6, it-7)
+
+advmod(want-5, where-3)
+nsubj(want-5, you-4)
+xsubj(place-7, you-4)
+prepc_toward(walk-1, want-5)
+aux(place-7, to-6)
+xcomp(want-5, place-7)
+det(ladder-9, the-8)
+dobj(place-7, ladder-9)
+
+det(ladder-3, the-2)
+dobj(take-1, ladder-3)
+
+advmod(want-4, where-2)
+nsubj(want-4, you-3)
+xsubj(place-6, you-3)
+advcl(decide-1, want-4)
+aux(place-6, to-5)
+xcomp(want-4, place-6)
+dobj(place-6, it-7)
+
+advmod(want-5, where-3)
+nsubj(want-5, you-4)
+xsubj(place-7, you-4)
+prepc_toward(walk-1, want-5)
+aux(place-7, to-6)
+xcomp(want-5, place-7)
+det(ladder-9, the-8)
+dobj(place-7, ladder-9)
+
+det(ladder-3, the-2)
+dobj(place-1, ladder-3)
+det(location-6, the-5)
+prep_in(place-1, location-6)
+dobj(chose-9, location-6)
+complm(chose-9, that-7)
+nsubj(chose-9, you-8)
+dep(location-6, chose-9)
+
+dobj(grab-1, ladder-2)
+det(end-5, an-4)
+prep_by(grab-1, end-5)
+
+dobj(put-1, it-2)
+amod(position-5, vertical-4)
+prep_in(put-1, position-5)
+
+dobj(drag-1, it-2)
+prt(drag-1, up-3)
+det(wall-6, the-5)
+prep_to(drag-1, wall-6)
+
+dobj(put-1, it-2)
+det(wall-5, the-4)
+prep_against(put-1, wall-5)
+
+conj_and(go-1, get-3)
+det(ladder-5, the-4)
+dobj(get-3, ladder-5)
+det(garage-8, the-7)
+prep_from(get-3, garage-8)
+
+det(ladder-3, the-2)
+dobj(carry-1, ladder-3)
+det(garage-7, the-6)
+prep_out_of(carry-1, garage-7)
+
+det(ladder-3, the-2)
+dobj(lead-1, ladder-3)
+det(wall-7, the-5)
+amod(wall-7, desired-6)
+prep_on(lead-1, wall-7)
+
+det(ladder-3, a-2)
+dobj(locate-1, ladder-3)
+
+det(base-4, the-2)
+nn(base-4, ladder-3)
+dobj(place-1, base-4)
+advmod(place-1, securely-5)
+det(ground-8, the-7)
+prep_on(place-1, ground-8)
+
+det(ladder-3, the-2)
+dobj(lean-1, ladder-3)
+det(wall-6, a-5)
+prep_against(lean-1, wall-6)
+
+det(ladder-4, the-3)
+prep_to(go-1, ladder-4)
+
+det(ladder-4, the-3)
+prep_up(pick-1, ladder-4)
+
+det(wall-4, the-3)
+prep_near(go-1, wall-4)
+
+det(ladder-3, the-2)
+dobj(release-1, ladder-3)
+
+det(ladder-3, the-2)
+dobj(getting-1, ladder-3)
+
+det(ladder-3, the-2)
+dobj(place-1, ladder-3)
+det(wall-6, the-5)
+prep_near(place-1, wall-6)
+
+det(ladder-3, the-2)
+dobj(standing-1, ladder-3)
+prt(standing-1, up-4)
+
+det(ladder-3, the-2)
+dobj(securing-1, ladder-3)
+
+det(ladder-3, the-2)
+dobj(getting-1, ladder-3)
+
+det(ladder-3, the-2)
+dobj(place-1, ladder-3)
+det(wall-6, the-5)
+prep_near(place-1, wall-6)
+
+det(ladder-3, the-2)
+dobj(standing-1, ladder-3)
+prt(standing-1, up-4)
+
+csubj(legs-5, securing-1)
+det(ladder-3, the-2)
+dobj(securing-1, ladder-3)
+cop(legs-5, s-4)
+
+det(condition-3, the-2)
+dobj(checking-1, condition-3)
+det(ladder-6, the-5)
+prep_of(condition-3, ladder-6)
+
+det(ladder-3, the-2)
+dobj(climb-1, ladder-3)
+
+det(ladder-3, the-2)
+dobj(replace-1, ladder-3)
+poss(place-7, its-5)
+amod(place-7, original-6)
+prep_in(replace-1, place-7)
+
+dobj(identify-1, ladder-2)
+
+prep_up(pick-1, ladder-3)
+
+dobj(identify-1, wall-2)
+
+amod(wall-3, near-2)
+dobj(place-1, wall-3)
+
+prep_up(pick-1, ladder-3)
+
+prt(go-1, over-2)
+prep_to(go-1, wall-4)
+
+dobj(place-1, ladder-2)
+prep_against(place-1, wall-4)
+
+det(ladder-3, the-2)
+dobj(find-1, ladder-3)
+
+dobj(bring-1, it-2)
+det(wall-5, the-4)
+prep_near(bring-1, wall-5)
+
+nsubj(stand-3, it-2)
+dep(make-1, stand-3)
+acomp(stand-3, vertical-4)
+prep(stand-3, supporting-5)
+dep(supporting-5, on-6)
+det(wall-8, the-7)
+pobj(on-6, wall-8)
+
+dobj(get-1, ladder-2)
+
+complm(level-7, that-2)
+nsubj(level-7, ground-3)
+prep_near(ground-3, wall-5)
+cop(level-7, is-6)
+ccomp(check-1, level-7)
+
+dobj(open-1, ladder-2)
+
+nn(support-3, push-1)
+nn(support-3, metal-2)
+nsubj(beams-4, support-3)
+prep_into(beams-4, place-6)
+
+dobj(move-1, ladder-2)
+prep_toward(move-1, wall-4)
+
+dobj(check-1, sturdiness-2)
+prep_of(sturdiness-2, ladder-4)
+
+det(ladder-3, the-2)
+dobj(take-1, ladder-3)
+prt(take-1, out-4)
+
+dobj(lean-1, it-2)
+det(wall-5, the-4)
+prep_against(lean-1, wall-5)
+
+det(ladder-3, the-2)
+dobj(pick-1, ladder-3)
+prt(pick-1, up-4)
+
+det(ladder-3, the-2)
+dobj(take-1, ladder-3)
+advmod(want-6, where-4)
+rel(want-6, where-4)
+nsubj(want-6, you-5)
+rcmod(ladder-3, want-6)
+dobj(want-6, it-7)
+
+det(ladder-3, the-2)
+dobj(put-1, ladder-3)
+prt(put-1, down-4)
+
+dobj(get-1, ladder-2)
+
+dobj(carry-1, ladder-2)
+prt(carry-1, over-3)
+prep_to(carry-1, wall-5)
+
+dobj(put-1, ladder-2)
+prt(put-1, down-3)
+prep_next_to(put-1, wall-6)
+
+nn(spot-3, level-2)
+dobj(determing-1, spot-3)
+prep_for(determing-1, ladder-5)
+
+dobj(locate-1, ladder-2)
+
+dobj(retrieve-1, ladder-2)
+
+dobj(carry-1, ladder-2)
+prep_to(carry-1, spot-4)
+
+dobj(open-1, legs-2)
+prep_of(legs-2, ladder-4)
+
+dobj(set-1, ladder-2)
+prep_in(set-1, spot-4)
+
+dobj(wiggle-1, ladder-2)
+aux(determine-4, to-3)
+xcomp(wiggle-1, determine-4)
+dobj(determine-4, steadiness-5)
+
+dobj(comprehend-1, need-2)
+prep_for(need-2, ladder-4)
+
+det(wall-3, which-2)
+nsubj(place-5, wall-3)
+aux(place-5, to-4)
+ccomp(decide-1, place-5)
+xcomp(decide-1, place-5)
+dobj(place-5, it-6)
+prep(place-5, near-7)
+
+advmod(located-5, where-2)
+nsubjpass(located-5, ladder-3)
+auxpass(located-5, is-4)
+advcl(remember-1, located-5)
+
+nsubj(is-5, walk-1)
+nn(ladder-4, area-3)
+prep_to(walk-1, ladder-4)
+prep(is-5, at-6)
+
+dobj(retrieve-1, ladder-2)
+
+dobj(carry-1, ladder-2)
+nn(area-5, wall-4)
+prep_to(carry-1, area-5)
+
+dobj(place-1, ladder-2)
+prep_near(place-1, wall-4)
+
+prep_up(pick-1, ladder-3)
+
+prep_to(walk-1, wall-3)
+
+dobj(place-1, end-2)
+prep_of(end-2, ladder-4)
+det(ground-7, the-6)
+prep_on(place-1, ground-7)
+
+dobj(lean-1, ladder-2)
+prep_against(lean-1, wall-4)
+
+dep(let-1, go-2)
+prep_of(go-2, ladder-4)
+
+acomp(make-1, sure-2)
+dep(has-4, ladder-3)
+dep(sure-2, has-4)
+amod(side-6, proper-5)
+dobj(has-4, side-6)
+dep(side-6, facing-7)
+prt(facing-7, down-8)
+
+dobj(place-1, bottom-2)
+prep_of(bottom-2, ladder-4)
+num(inches-7, 12-6)
+prep_about(place-1, inches-7)
+prep_from(inches-7, wall-9)
+
+nsubj(rest-5, top-1)
+prep_of(top-1, ladder-3)
+aux(rest-5, should-4)
+prep_against(rest-5, wall-7)
+
+acomp(make-1, sure-2)
+advmod(get-5, when-3)
+nsubj(get-5, you-4)
+ccomp(sure-2, get-5)
+prep_on(get-5, ladder-7)
+mark(stable-11, than-8)
+nsubj(stable-11, it-9)
+cop(stable-11, is-10)
+advcl(get-5, stable-11)
+
+dobj(get-1, ladder-2)
+prep_from(get-1, garage-4)
+
+dobj(place-1, ladder-2)
+prep_close_to(place-1, wall-5)
+
+dobj(place-1, it-2)
+det(angle-6, a-4)
+amod(angle-6, gentle-5)
+prep_at(place-1, angle-6)
+
+det(ladder-3, the-2)
+dobj(test-1, ladder-3)
+dep(test-1, make-4)
+acomp(make-4, sure-5)
+nsubj(steady-8, it-6)
+cop(steady-8, is-7)
+ccomp(sure-5, steady-8)
+
+det(wall-3, the-2)
+dobj(choose-1, wall-3)
+
+det(ladder-3, the-2)
+dobj(take-1, ladder-3)
+
+det(ladder-3, the-2)
+dobj(place-1, ladder-3)
+det(wall-6, the-5)
+prep_near(place-1, wall-6)
+
+det(wall-3, the-2)
+dobj(find-1, wall-3)
+
+det(ladder-3, the-2)
+dobj(find-1, ladder-3)
+
+det(ladder-4, the-3)
+prep_to(go-1, ladder-4)
+
+det(ladder-4, the-3)
+prep_up(pick-1, ladder-4)
+
+det(wall-3, the-2)
+dobj(find-1, wall-3)
+
+det(ladder-3, the-2)
+dobj(find-1, ladder-3)
+
+det(ladder-4, the-3)
+prep_to(go-1, ladder-4)
+
+det(ladder-4, the-3)
+prep_up(pick-1, ladder-4)
+
+det(wall-4, the-3)
+prep_to(go-1, wall-4)
+
+prt(set-1, down-2)
+dobj(set-1, ladder-3)
+
+prep_up(pick-1, ladder-3)
+
+dobj(carry-1, it-2)
+prt(carry-1, over-3)
+det(wall-6, the-5)
+prep_to(carry-1, wall-6)
+
+dobj(put-1, ladder-2)
+prt(put-1, down-3)
+det(wall-6, the-5)
+prep_near(put-1, wall-6)
+
+prt(take-1, out-2)
+dobj(take-1, ladder-3)
+
+dobj(place-1, feet-2)
+det(ground-5, the-4)
+prep_on(place-1, ground-5)
+
+dobj(lean-1, ladder-2)
+prep_against(lean-1, wall-4)
+
+dobj(extend-1, ladder-2)
+
+dobj(lean-1, ladder-2)
+prep_on(lean-1, wall-4)
+
+prep_up(pick-1, ladder-3)
+
+dobj(carry-1, ladder-2)
+prep_to(carry-1, wall-4)
+
+dobj(place-1, ladder-2)
+prep_near(place-1, wall-4)
+
+prep_up(pick-1, ladder-3)
+
+dobj(carry-1, ladder-2)
+prep_to(carry-1, wall-4)
+
+dobj(set-1, ladder-2)
+prt(set-1, down-3)
+
+det(ladder-3, the-2)
+dobj(get-1, ladder-3)
+
+det(ladder-3, the-2)
+dobj(carry-1, ladder-3)
+det(wall-6, the-5)
+prep_to(carry-1, wall-6)
+
+det(ladder-3, the-2)
+dobj(lean-1, ladder-3)
+prt(lean-1, up-4)
+det(wall-7, the-6)
+prep_against(lean-1, wall-7)
+
+det(ladder-3, the-2)
+dobj(carry-1, ladder-3)
+
+dobj(bring-1, it-2)
+det(wall-5, the-4)
+prep_to(bring-1, wall-5)
+
+dobj(rest-1, it-2)
+det(wall-5, the-4)
+prep_on(rest-1, wall-5)
+
+prep_up(pick-1, ladder-3)
+
+prep_to(bring-1, location-3)
+
+dobj(stand-1, ladder-2)
+prt(stand-1, up-3)
+
+prt(spread-1, out-2)
+dobj(spread-1, legs-3)
+conj_and(spread-1, secure-5)
+
+det(ladder-3, the-2)
+dobj(bring-1, ladder-3)
+
+nsubj(close-3, place-1)
+cop(close-3, is-2)
+det(wall-6, the-5)
+prep_to(close-3, wall-6)
+
+prep_up(pick-1, ladder-3)
+
+dobj(balance-1, it-2)
+det(wall-5, the-4)
+prep_against(balance-1, wall-5)
+
+prep_up(pick-1, ladder-3)
+
+prep_to(walk-1, wall-3)
+
+dobj(set-1, ladder-2)
+prt(set-1, down-3)
+
+dobj(lean-1, ladder-2)
+prep_against(lean-1, wall-4)
+
+det(ladder-3, a-2)
+dobj(getting-1, ladder-3)
+
+nsubj(said-2, putting-1)
+dobj(said-2, ladder-3)
+det(wall-6, a-5)
+prep_near(ladder-3, wall-6)
+
+det(ladder-3, the-2)
+dobj(leaning-1, ladder-3)
+det(wall-6, the-5)
+prep_against(leaning-1, wall-6)
+det(angle-9, an-8)
+prep_at(leaning-1, angle-9)
+
+dobj(get-1, ladder-2)
+
+dobj(set-1, ladder-2)
+advmod(set-1, upright-3)
+
+dobj(lean-1, ladder-2)
+prep_against(lean-1, wall-4)
+
+det(bottom-3, the-2)
+dobj(secure-1, bottom-3)
+

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0005066" url="http://springrts.com/phpbb/viewtopic.php?f=15&amp;t=26207" time="2012-07-12-21:35" support="4" score="0.009016672587757239" bingtitle="The Spring Project • View topic - LUA AI - call-out to detect ..." webtitle="The Spring ProjectView topic - LUA AI - call-out to detect when a unit is attacked.">
+			<query id="000536" bing-rank="199"/>
+			<query id="000724" bing-rank="221"/>
+			<query id="001447" bing-rank="93"/>
+			<query id="001164" bing-rank="130"/>
+	<description>... of like opening a fast food restaurant window. The name of your restaurant is &apos;gadget:UnitDamaged&apos; and you have a menu board ... you will take an order ... Hey bag of stuff. give ...</description>
+	<body>
+		Home About Games Development Media Help Forums Wiki Report a bug Download 
+ 
+ View topic - LUA AI - call-out to detect when a unit is attacked. 
+ 
+ 
+ Login    Register FAQ    Search 
+ 
+ View unanswered posts | View active topics 
+
+
+
+ 
+ Board index » Development » AI 
+
+All times are UTC + 1 hour
+ 
+
+ 
+    Page 1 of 1 
+  [ 11 posts ]  
+
+ 
+   Print view Previous topic | Next topic   
+ 
+
+ Author Message yanom 
+   Post subject: LUA AI - call-out to detect when a unit is attacked. Posted: 08 Jun 2011, 03:00  
+ 
+ 
+ 
+ Joined: 10 Jul 2009, 22:34 
+ So i got into Lua AI stuff by tinkering with knorke&apos;s AI for Conflict Terra (great mod, btw). Still don&apos;t know much about Lua or Spring AI&apos;s.
+
+but is there a call out (something like Spring.getUnitsAttacked, idk, maybe) that could somehow detect when a unit is attacked and report the location of that unit?
+
+Source code of the AI is attatched. 
+
+
+ Attachments: tp_schwarmAI.lua [21 KiB] 
+ Downloaded 13 times 
+ 
+ 
+ 
+ Top 
+         
+
+ Kloot 
+   Post subject: Re: LUA AI - call-out to detect when a unit is attacked. Posted: 08 Jun 2011, 09:58  
+ 
+ Spring Developer 
+ 
+ Joined: 08 Oct 2006, 15:58 
+ Code: function gadget:UnitDamaged(
+  unitID, unitDefID, unitTeam,
+  damage, paralyzer, weaponID,
+  attackerID, attackerDefID, attackerTeam
+)
+  -- your code
+end
+ 
+
+ 
+ 
+ Top 
+         
+
+ yanom 
+   Post subject: Re: LUA AI - call-out to detect when a unit is attacked. Posted: 08 Jun 2011, 15:19  
+ 
+ 
+ 
+ Joined: 10 Jul 2009, 22:34 
+ Mmm. How do I use that exactly? Im new at this 
+
+ 
+ 
+ Top 
+         
+
+ AF 
+   Post subject: Re: LUA AI - call-out to detect when a unit is attacked. Posted: 08 Jun 2011, 15:29  
+ 
+ AI Coder 
+ 
+ Joined: 14 Sep 2004, 10:32
+ Location: Cookieland 
+ Your Lua AI is technically a spring gadget, and gadgets have callins for events. These dont need to be defined however for the gadget to work.
+
+e.g. as shown in your AI:
+
+ Code: function gadget:UnitFinished(unitID, unitDefID, teamID)  
+  --moveAway (unitID, 200)
+  if (isTeamCBM (teamID)) then
+ 
+
+There is an event UnitDamaged that Kloot has posted an example for. If you paste that in and then put your own code in, using the existing AI code as an example of how to use the parameters, then you can ge tmoving 
+
+ 
+ 
+ Top 
+         
+
+ knorke 
+   Post subject: Re: LUA AI - call-out to detect when a unit is attacked. Posted: 08 Jun 2011, 15:39  
+ 
+ Moderator 
+ 
+ Joined: 22 Feb 2006, 01:02
+ Location: apparently the internet has gone berserk with google chrome themes 
+ AF wrote: Your Lua AI is technically a spring gadget Yup. A Lua AI is not much different from other gameplay scripts, ie in CT, the resource harvesting.
+The only difference is that the AI has some extra lines to set up which player(s) it controlls.
+list of callins:
+ http://springrts.com/wiki/LuaCallinReturn 
+
+ 
+ 
+ Top 
+         
+
+ yanom 
+   Post subject: Re: LUA AI - call-out to detect when a unit is attacked. Posted: 08 Jun 2011, 19:13  
+ 
+ 
+ 
+ Joined: 10 Jul 2009, 22:34 
+ ok, i need knorke&apos;s or some lua coder&apos;s help with this. Right now the code says:
+
+ Code: function gadget:UnitDamaged(
+  unitID, unitDefID, unitTeam,
+  damage, paralyzer, weaponID,
+  attackerID, attackerDefID, attackerTeam
+)
+
+  Spring.Echo(myTeam[1])
+  
+  if (unitTeam == myTeam[1]) then
+    machTargetArea(unitTeam, 2, 2);
+    Spring.Echo(&quot;Unit under fire!!!&quot;)
+  end
+end  
+ 
+
+problem is, myTeam[1] always is&quot;nil&quot;. Isn&apos;t myTeam[1] supposed to be the first in the list of teams that Schwarm is playing for?
+
+EDIT: Also, I need a way to detect where the unit being attacked is (location on the map)
+
+
+Latest source is attatched 
+
+
+ Attachments: tp_schwarmAI.lua [21.29 KiB] 
+ Downloaded 9 times 
+ 
+ 
+ 
+ Top 
+         
+
+ yanom 
+   Post subject: Re: LUA AI - call-out to detect when a unit is attacked. Posted: 09 Jun 2011, 02:59  
+ 
+ 
+ 
+ Joined: 10 Jul 2009, 22:34 
+ yanom wrote: ok, i need knorke&apos;s or some lua coder&apos;s help with this. Right now the code says:
+
+
+problem is, myTeam[1] always is&quot;nil&quot;. Isn&apos;t myTeam[1] supposed to be the first in the list of teams that Schwarm is playing for?
+
+ 
+
+ok, I managed to solve that problem (using a bit of lua that I don&apos;t fully understand, borrowed from another function. Maaan, lua is weird )
+
+Anyway, I still need a way to find the location of the unit being attacked.
+
+Latest source is attached 
+
+
+ Attachments: tp_schwarmAI.lua [21.32 KiB] 
+ Downloaded 8 times 
+ 
+ 
+ 
+ Top 
+         
+
+ yanom 
+   Post subject: Re: LUA AI - call-out to detect when a unit is attacked. Posted: 09 Jun 2011, 03:31  
+ 
+ 
+ 
+ Joined: 10 Jul 2009, 22:34 
+ yanom wrote: Anyway, I still need a way to find the location of the unit being attacked.
+ 
+solved that, again with more borrowed code.
+
+
+ Quote: Maaan, lua is weird 
+Truer than ever.
+
+Latest source is attached 
+
+
+ Attachments: tp_schwarmAI.lua [21.38 KiB] 
+ Downloaded 12 times 
+ 
+ 
+ 
+ Top 
+         
+
+ slind 
+   Post subject: Re: LUA AI - call-out to detect when a unit is attacked. Posted: 09 Jun 2011, 18:42  
+ 
+ 
+ 
+ Joined: 26 May 2011, 00:01 
+ Quote: Maaan, lua is weird 
+
+ Code: function gadget:UnitDamaged(
+  unitID, unitDefID, unitTeam,
+  damage, paralyzer, weaponID,
+  attackerID, attackerDefID, attackerTeam
+)
+  
+  for t in pairs(myTeam) do
+    if (unitTeam == myTeam[t]) then
+      local goto_x, goto_y, goto_z = Spring.GetUnitPosition (unitID)
+      machTargetArea(myTeam[t], goto_x, goto_z)
+    end
+  end
+end   
+
+Lets break it down for you.
+ Code: function gadget:UnitDamaged(
+  unitID, unitDefID, unitTeam,
+  damage, paralyzer, weaponID,
+  attackerID, attackerDefID, attackerTeam
+) 
+This is the function deceleration. It is telling Lua that this function exists and that it takes a list of arguments. You can think of it kind of like opening a fast food restaurant window. The name of your restaurant is &apos;gadget:UnitDamaged&apos; and you have a menu board which defines the things you need before you will take an order. We call it an argument list. (Sometimes its called a parameter list).
+
+ Code: unitID, unitDefID, unitTeam, damage, paralyzer, weaponID, attackerID, attackerDefID, attackerTeam 
+
+is your argument list. Each argument must be specified before you will start processing the order.
+
+In this example Lua would walk up to your fast food window and specify all of the items on the menu, arguments to your function, tell you to start working and wait until you are finished.
+
+Where Lua got these arguments really doesn&apos;t matter. You don&apos;t care where they came from, or how Lua obtained them. You only care what they are. So... what exactly are they?
+
+unitID - The ID number of the unit that got attacked. Kind of like dogtags or a social security number.
+unitDefID - This is an ID number that specifies the definition of the unit. More like a resume for the unit.
+unitTeam - Which team the unit belongs to.
+damage - How much damage was done to the unit.
+paralyzer - (I don&apos;t really know)
+weaponID - The ID number for the weapon that attacked the unit with unitID. Like the serial number on a gun.
+attackerID - The ID number of the unit that did the attacking.
+attackerDefID - The ID number of the definition for the unit.
+attackerTeam - The team the attacker belongs to.
+
+
+Now. Like I said before, we don&apos;t care how Lua got this information, we just need to assume its true. Now that we know all of the information we need to start, we can begin processing the order.
+
+ Code: for t in pairs(myTeam) do 
+
+This is a for loop. It is a basic looping structure. It will do everything between the matching &apos;do&apos; and &apos;end&apos; keywords some number of times. How many times? We don&apos;t know, and frankly we don&apos;t care. What we do care about is what each part of this &apos;for&apos; statement is .
+
+t - The t in this for statement is a variable. It is going to store the data that comes out of whatever collection we are looking at.
+in - A keyword that tells us which collection to look in.
+pairs(myTeam) - pairs() is a function and myTeam is a global variable somewhere. The variable myTeam is a collection. A collection is a group of things. You can think about it as being a great big bag that we can throw things in. pairs() is a special function that allows us to look at the things in our bag in sets of two items, a key and a value.
+
+When we look at the code&quot;for t in pairs(myTeam) do&quot;we need to understand that t is going to become the key for every pair of items in our bag. It is going to help us understand what happens next.
+
+ Code: if (unitTeam == myTeam[t]) then 
+
+The if statement is fairly basic. Lets take a look at the interesting part
+ Code: myTeam[t] 
+Here we have that same global variable myTeam again. Remember, it is a collection ( a bag full of things). &apos;t&apos; is our key we got from our for statement.
+
+myTeam[t] is a statement that says:&quot;Hey bag of stuff. give me the thing that matches to this key &apos;t&apos;&quot;and magically out pops the thing that is associated with the key.
+
+Why are we doing this? Well, we know that somewhere in that big fat sack of things is my team identifier. It tells me what my team is. Eventually when I yell at the sack long enough, and with enough keys &apos;t&apos;, it is going to give me back my team identifier. I just have to find it first.
+
+The &apos;if&apos; statement itself checks everything that comes out of the bag against the unitTeam argument that Lua gave us. If they ever match I know that the unit Lua is telling me about is actually my unit. This is because the unit&apos;s team idenfier matches my team identifer.
+
+The next two lines
+ Quote: local goto_x, goto_y, goto_z = Spring.GetUnitPosition (unitID)
+machTargetArea(myTeam[t], goto_x, goto_z) 
+Ask the spring engine to give my the x,y and z coordinate of my unit that just got attacked. (GetUnitPosition) And then send all of my other units to that location (machTargetArea).
+
+The end statements simply tell the if, for and function to end.
+
+In this case we don&apos;t return anything so after we are finished processing we simply walk back up to the order window and tell lua that we are finished. Lua then proceeds on to its next task. 
+
+ 
+ 
+ Top 
+         
+
+ yanom 
+   Post subject: Re: LUA AI - call-out to detect when a unit is attacked. Posted: 10 Jun 2011, 19:47  
+ 
+ 
+ 
+ Joined: 10 Jul 2009, 22:34 
+ ahh, thanks 
+
+ 
+ 
+ Top 
+         
+
+ Google_Frog 
+   Post subject: Re: LUA AI - call-out to detect when a unit is attacked. Posted: 15 Jun 2011, 13:17  
+ 
+ Moderator 
+ 
+ Joined: 12 Oct 2007, 08:24 
+ Quote: paralyzer - (I don&apos;t really know)
+weaponID - The ID number for the weapon that attacked the unit with unitID. Like the serial number on a gun. 
+paralyzer - boolean (true of false) holding whether the weapon does &apos;real&apos; or paralysis damage.
+weaponID - this is unitDefID for weapons, not a serial number. It identifies the type.
+
+ Quote: attackerID - The ID number of the unit that did the attacking.
+attackerDefID - The ID number of the definition for the unit.
+attackerTeam - The team the attacker belongs to. Be wary of these as if the attacker died some will be nil (I forget if attackerDefID is nil and I am sure the other two are). Before using them do a check.
+
+Actually before using most things it is a good idea to do a check as Spring doesn&apos;t work the way you think it would some of the time and in very rare cases something can be nil that makes no sense to be. As in if that was nil previous checks should have already failed. 
+
+ 
+ 
+ Top 
+         
+
+ Display posts from previous: All posts 1 day 7 days 2 weeks 1 month 3 months 6 months 1 year   Sort by Author Post time Subject Ascending Descending   
+
+    Page 1 of 1 
+  [ 11 posts ]  
+ 
+
+ 
+ Board index » Development » AI 
+
+All times are UTC + 1 hour
+ 
+
+
+ 
+Who is online
+ 
+Users browsing this forum: No registered users and 1 guest
+ 
+
+
+ You cannot post new topics in this forum
+You cannot reply to topics in this forum
+You cannot edit your posts in this forum
+You cannot delete your posts in this forum
+You cannot post attachments in this forum
+ 
+
+
+ Search for: 
+ Jump to:   Select a forum ------------------ Spring   Community News     News Submissions   General Discussion   Help&amp;Bugs   Game Lobby     Spring Clans     Lobby Clients   Tournaments   Linux   Mac OS X   Off Topic Discussion Content Creation   Games&amp;Mods     Game&amp;Module Development Tutorials&amp;Resources   Map Creation     Map Tutorials&amp;Resources   Art&amp;Modelling     Modelling&amp;Texturing Tutorials&amp;Resources   Project Subforums     Kernel Panic     Zero-K     Balanced Annihilation     Spring: 1944     Star Wars: Imperial Winter     XTA     Supreme Annihilation     Caydr&apos;s Projects     Evolution RTS     Argh&apos;s Projects     The Cursed     NOTA     Damned     Conflict Terra     Engines Of War     Spring Tanks     Journeywar     BattleTech: Legacy     Dune: Evolution     Progressive Annihilation   Sound Effects&amp;Music Development   News   Development     Dedicated Developer Discussion     New Developer Discussion     Infrastructure Development     Meeting Minutes   AI   Feature Requests   Lua Scripts     The Werewolf Game Site content   Site content     Banners     Welcome images     Videos     Videos - contributions     Screenshots     Screenshots - contributions   
+ 
+ Powered by phpBB ®Forum Software©phpBB Group 
+ 
+ Site layout created by Roflcopter et al.
+	</body>
+</document>

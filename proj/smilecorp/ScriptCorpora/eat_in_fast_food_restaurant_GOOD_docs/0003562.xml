@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0003562" url="http://www.freepatentsonline.com/y2011/0071772.html" time="2012-07-12-19:43" support="1" score="0.0023009041951277467" bingtitle="Methods for Monitoring and Managing Delivery of Syrup in Bag-In ..." webtitle="Methods for Monitoring and Managing Delivery of Syrup in Bag-In-Box Systems - Sanden Vendo America, Inc.">
+			<query id="000076" bing-rank="96"/>
+	<description>... to form a beverage, such as soda. When activated, a typical dispenser ... such as a pre-programmed dispenser at a fast food restaurant. ... FIG. 3 is a table showing soldout ...</description>
+	<body>
+		A SumoBrain Solutions Company 
+ GO TO ADVANCED SEARCH 
+ Home | Search | Communities | Products&amp;Services | About Us | Help 
+
+ Login Sign Up 
+ Title: Methods for Monitoring and Managing Delivery of Syrup in Bag-In-Box Systems United States Patent Application 20110071772 Kind Code: A1 Abstract: The present invention includes systems, methods and apparatus for detecting whether an acceptable mixture of fluid and water has been delivered by a vending machine. Embodiments of the invention utilize one or more second flow meters located downstream of a mix manifold. The additional flow meter allows the controller of the delivery system or vending machine to monitor and compare the volume of water to the volume of the final mix in order to determine whether an appropriate volume of syrup has or has not been mixed in the dispensed beverage. 
+ 
+ Inventors: Hieb, Larry E. (Murphy, TX, US)
+Dali, Vishal (Richardson, TX, US)
+ Application Number: 12/887844 Publication Date: 03/24/2011 Filing Date: 09/22/2010 Export Citation: Click for automatic bibliography generation Assignee: Sanden Vendo America, Inc. (Dallas, TX, US)
+ Primary Class: 702/45 Other Classes: 73/861.04, 141/301, 222/135 International Classes: G01F1/74 ; B65B3/04 ; B67D7/70 View Patent Images: Download PDF 20110071772         PDF help Related US Applications: 
+ 20070208511 Computerized plant health diagnostics system September, 2007 Glenn et al. 20080103698 Body fat measurement device and body fat measurement result providing method May, 2008 Bae et al. 20080311611 METHODOLOGY FOR VERIFYING CARBON STORAGE IN SEAWATER December, 2008 Michaels et al. 20030194350 Public health threat surveillance system October, 2003 Stamatelos et al. 20050256682 Method of evaluation of space systems for safety assurance and residual risk to flightcrew November, 2005 Galutia et al. 20100070219 EFFICIENCY MONITOR FOR INDUCTIVE POWER TRANSMISSION March, 2010 Azancot et al. 20050282146 Methods to predict additional nodal metastases in breast cancer patients December, 2005 Kattan et al. 20080249737 OSCILLATING SCANNING PROBE WITH CONSTANT CONTACT FORCE October, 2008 Jordil et al. 20070260404 Method for Quantification and Mitigation for Dip-Induced Azimuthal Avo November, 2007 Dong et al. 20090319595 Presence Mapping December, 2009 Millmore et al. 20030158384 Crystals and structures of members of the E. coli comA and yddB protein families (ComA) August, 2003 Louie et al. 
+ Claims: What is claimed is:
+
+1. A method for detecting whether an acceptable mixture of fluid and water has been delivered by a dispenser comprising the steps of: a. receiving a quantity of base fluid through a first input line; b. taking a first measurement of said quantity of base fluid using a first flow meter on said first input line; c. receiving a quantity of flavored fluid through a second input line; d. mixing said base fluid and flavored fluid and delivering said mixture through a third delivery line; e. taking a second measurement of said mixture using a second flow meter on said third line; and f. comparing said second measurement with a combination of said first measurement plus an expected quantity of flavored fluid to determine whether said second measurement is within a pre-determined tolerance for said mixture.
+
+2. The method of claim 1 wherein a variance is established for said fluid output selected from the group of low, medium and high; and further comprising the step of applying said variance in determining whether said tolerance has been met.
+
+3. The method of claim 1 wherein said dispenser is a vending machine.
+
+4. The method of claim 1 wherein said base fluid is water.
+
+5. An apparatus for monitoring the fluid mixture of beverages provided by a delivery system comprising: a. a first input line leading from a base fluid source; b. a valve on said first input line for controlling the amount of base fluid delivered through said line; c. a first flow meter located on said first input line, said flow meter being in communication with a processor; d. a second input line leading from a flavored fluid source; e. a junction wherein said first and second input lines are attached, and from which an output line extends; f. a second flow meter located on said output line, said flow meter being in communication with said processor; g. programming in said processor for using measurements received from said first and second flow meters for determining whether mixtures of said base fluid and flavored fluid are within a pre-determined tolerance.
+
+6. The apparatus of claim 5 wherein a pump is provided to deliver base fluid from said source.
+
+7. The apparatus of claim 5 wherein a solenoid controlled by said processor is provided on the valve on said input line.
+
+8. The apparatus of claim 5 wherein a pump is provided for delivering fluid through said second line.
+
+9. The apparatus of claim 5 wherein said flavored fluid is provided in a bag-in-box container, and a peristaltic pump is provided for delivering fluid from said container into said second line.
+
+10. The apparatus of claim 5 wherein said delivery system provides beverages in reclosable sealed containers.
+
+11. The apparatus of claim 5 wherein said delivery system provides beverages in cups or bottles.
+
+12. The apparatus of claim 5 wherein said delivery system is a vending machine.
+
+13. The apparatus of claim 5 wherein said base fluid is water.
+
+14. A system for monitoring the fluid mixture of beverages delivered into reclosable pouches by a vending machine comprising: a. a processor in communication with a first flow meter on a first base fluid input conduit; b. a peristaltic pump in communication with said processor located adjacent to a removable bag of syrup for delivering syrup from said bag through a second fluid input conduit; c. a junction where said first and second conduits meet for combining base fluid and syrup into a mixture; d. a second flow meter in communication with said processor located on a third output conduit downstream from said junction; and e. programming in said processor for receiving measurements from said first and second flow meters to determine whether mixtures of said base fluid and syrup are within a pre-determined tolerance.
+
+15. The apparatus of claim 14 wherein said base fluid is water.
+
+ Description: 
+This application claims the benefit of U.S. Provisional Application Ser. No. 61/244,804 filed on Sep. 22, 2009 which is incorporated herein by this reference.
+
+BACKGROUND OF THE INVENTION
+
+I. Field of the Invention
+
+The present invention relates to dispensers of the type which provide beverages by delivering a measured quantity of syrup together with one or more other fluids such as water into a container for consumption, and more particularly to improved systems, methods and apparatus for delivering consistent quantities of syrup in dispensing and vending machines using bag-in-box (BIB) syrup packages.
+
+2. Description of the Prior Art
+
+Bag-in-box (BIB) syrup packages are used in a wide variety of different beverage dispensers and vending machines. A typical dispenser delivers a quantity of syrup from the BIB together with a quantity of water and/or other fluid to form a beverage, such as soda. When activated, a typical dispenser will simultaneously deliver both syrup and water to form the beverage. The syrup and water may be delivered for as long as the dispenser is activated, such as a hand-held dispenser used at a wet bar; or for a measured time interval after the dispenser is activated, such as a pre-programmed dispenser at a fast food restaurant. Other commercial applications include vending machines that dispense a pre-determined quantity of syrup and other fluids (typically water) into a single-serving cup or reclosable pouch. Such vending machines may include a plurality of BIB syrup packages, allowing the user to select from a plurality of flavors (syrups) each of which will be delivered in a measured quantity along with a measured quantity of filtered water and/or other fluids into the cup or reclosable pouch. In many existing BIB delivery systems, water volume is measured using a flow meter that is located upstream of a mix manifold, and syrup (concentrate) volume is controlled by peristaltic metering pumps—one for each of flavor selection of the manifold. It is important for such systems to be able to detect when the BIB package is empty. Otherwise, the machine may deliver an inadequate quantity of syrup if the BIB package is running low, or the machine may deliver no syrup at all if the BIB package is empty. In the first scenario, the result may be in a watered-down beverage; and in the second scenario the result may be a water-only (no concentrate/syrup) beverage. Neither of these scenarios is acceptable to a consumer using such a vending machine.
+
+In order to address this problem, some machines have used a count down program in the vending machine&apos;s electronic controller to calculate syrup volume/availability based on the number of vends from a given BIB package, multiplied by a predetermined volume of syrup per vend (depending on desired concentration). However, because of variability in the delivery systems used, which in some cases may be based on a vacuum generated by the flow of water through a mixing device, these systems are not always able to determine exactly when the BIB becomes empty. As a result, such systems may potentially deliver drinks to the consumer having lower than desired concentrate levels, or no concentrate at all. To address these undesired possibilities, a safety margin level has been used to shut down a particular syrup BIB when the theoretical syrup level in that BIB reached a point of approximately 20%. This approach reduces the potential of a consumer receiving a poor quality product, but at the cost of discarding as much as 20% of the syrup concentrate.
+
+Other problems affecting reliable vending of syrup include failure to recognize a kink in the syrup feed line which could prevent proper syrup flow; and failure to recognize whether an empty BIB has been replaced with a full BIB at time of servicing, especially if the status of an empty BIB has been reset to “full.” These scenarios could also result in the machine dispensing lower than desired concentrate levels, or no concentrate at all.
+
+To address these situations and attempt to reduce waste of syrup, peristaltic pumps with encoder circuits have been used to meter out the syrup. Use of the encoder data provides the ability to better track the volume of syrup dispensed during each vend, and allows the safety margin to be reduced from 20% to approximately 5%. Unfortunately this system is not without its own share of potential problems. For example, if the operator fails to route the syrup line tubing through the peristaltic pump correctly, the pump will cycle but no syrup will flow and the customer may receive a lower than desired syrup level, or no syrup at all. Also, this system cannot detect kinking of the syrup line that can restrict flow and result in the same problems. Moreover, the addition of encoder circuits to each of multiple peristaltic pump motors adds a significant cost.
+
+In another attempt to address these situations, attempts were made to detect a difference in the electrical current being drawn by the DC motors that drive the pumps when the syrup line is properly routed and filled with syrup as compared to an empty syrup line or a pump without a syrup line altogether. Unfortunately, this approach was unsuccessful because typical current variations from motor to motor were greater than the variations in current associated with the variable scenarios described above (full line, empty line, missing line).
+
+Thus, the need remains for reliable delivery systems to precisely track the status of BIB packages, avoiding unnecessary waste of the contents of the BIB packages, and also detecting failure to deliver correct amounts of syrup from such packages.
+
+SUMMARY OF THE INVENTION
+
+The present invention includes systems, apparatus and methods that utilize a flow meter provided downstream of the mixing area or manifold. This flow meter allows the controller of the delivery system or vending machine to monitor and compare the volume of water to the volume of the final mix in order to determine that an appropriate volume of syrup has, or has not been mixed in the dispensed beverage. The amount of water delivered is provided by a first flow meter; and the desired amount of concentrate/syrup is a predetermined target amount. The downstream flow meter provides the actual combined delivered amount of water and concentrate/syrup. By subtracting the known amount of water alone (provided by the first upstream flow meter) from the known amount of the delivered combination (provided by the second downstream flow meter), the amount of syrup/concentrate delivered can be easily determined. Not only does this allow the controller to identify when a BIB has transitioned to empty (so that the selection can be flagged as “sold out”), it also allows the controller to detect any other failure to deliver the desired quantity of syrup/concentrate which could be caused by such problems as kinked or improperly routed syrup lines, empty BIB containers that are flagged “full”, etc.
+
+Another feature and benefit associated with the use of dual flow meters is the ability to establish multiple acceptability, or quality levels (e.g. high, medium or low—based on the percentage of syrup intended to be delivered). These quality levels can be pre-established and made selectable via a configuration menu in the vending machine control program.
+
+It is to be appreciated that the systems, methods and apparatus of the present invention may be used with a wide variety of different fluid and beverage delivery devices, and are not limited to use only with vending machines.
+
+BRIEF DESCRIPTION OF THE DRAWINGS
+
+FIG. 1 is a schematic view of an embodiment of a delivery and monitoring system of the present invention.
+
+FIG. 2 is a table showing the relation between the pump, water flow, syrup flow and the difference in the water and syrup using a random sample.
+
+FIG. 3 is a table showing soldout look-up and actual flow of syrup.
+
+DETAILED DESCRIPTION
+
+Referring to the drawings wherein the same reference numeral may be used to designate different parts throughout the several views, and referring particularly to the illustrated exemplary embodiment of FIG. 1, it is seen that this embodiment of the invention includes a conduit line 11 connected to a fluid source. It is to be appreciated that the source fluid (base fluid) used and described in the exemplary illustrated embodiment is water (preferably filtered), but that any other fluid source may be used with the present invention.
+
+In the illustrated embodiment of FIG. 1, a valve 10 is provided on a pressurized water input line. Valve 10 may be solenoid controlled, but in other embodiments, other types of valves or controls may be used to meter source fluid into the system. If a solenoid is used, it may be controlled by a central processor 25 (not shown) which opens and closes the valve to allow controlled amounts of fluid to flow through line 11 . In alternative embodiments, a processor-controlled pump may be provided on a non-pressurized water input line to provide controlled amounts of water to line 11 . An optional one-way valve 12 may be provided on water line 11 to prevent back flow of fluid.
+
+An output line 13 is provided from a bag-in-box (BIB) or other source 19 of syrup or other concentrated fluid. A peristaltic pump or other appropriate pressure imparting mechanism 14 is provided with BIB 19 and controlled by processor 25 to force fluid from the BIB 19 into line 13 . It is to be appreciated that multiple BIBs 19 may be provided, each with its own output line 13 and pump 14 , that may be connected to a manifold (not shown) leading to a single output line 15 . Since there is only one BIB in the exemplary embodiment of FIG. 1, lines 13 and 15 are the same in this example (both labeled 13 ). An optional one-way valve 16 may be provided on line 13 or 15 to prevent back flow of fluid from the BIB source(s).
+
+Base fluid (water) input line 11 and syrup line 13 (or 15 ) are joined together at a junction 18 , and line 17 exits from junction 18 . A first flow meter 20 is provided on line 11 upstream of junction 18 to measure the amount of fluid (e.g. water) provided through line 11 , and a second flow meter 21 is provided downstream of junction 18 on line 17 to measure the total amount of fluid (including mixed syrup) flowing through line 17 . In this example, the output from line 17 is dispensed into a reclosable pouch for consumption by the user. It is to be appreciated that in other embodiments, this output may be dispensed into a cup or other container and provided to the user.
+
+Flow meters 20 and 21 are connected to processor 25 and report the flow of fluid on lines 11 and 17 . The processor 25 is programmed with an amount of fluid that is expected to be provided from BIB 19 in each dispensing activity. This amount of fluid may be varied, depending on the final concentration desired. Processor 25 also includes programming that is capable of comparing the flow input reported from flow meter 20 (the amount of water initially provided) to that reported from flow meter 21 (the amount of water combined with syrup). Under ideal conditions, the amount of water reported by flow meter 20 added to the expected amount of syrup should be approximately the same as the amount of total fluid reported by flow meter 21 , less any tolerances for losses in the lines, etc. If these amounts are not within an acceptable tolerance, then the processor knows that a BIB 19 is not providing the correct output, and may take appropriate action. These actions may include, without limitation, any combination of: changing the BIB to an “empty” or “sold out” status, making this selection unavailable to users, reporting the BIB condition to a central location or processor, capping or closing the BIB, discarding the pouch carrying the unacceptable contents (so that it is not delivered to the user), providing the user with a refund, and/or (if multiple BIBs are available) allowing the user to make another selection.
+
+It is to be appreciated that if the total output reported by flow meter 21 is appreciably less than the sum of the inputs of water and fluid from lines 11 and 13 , then the BIB 19 may be empty. A certain amount of variance may be tolerated for water or BIB fluid in lines 11 , 13 and 17 ; this variance may be greater for longer lines. The following calculation shows an exemplary method of implementing a tolerance for fluid left in lines using a “Variance”:
+
+
+(Input from flow meter 21+Variance−Input from flow meter 20 )/Syrup Target×100
+
+Processor 25 may then compare the percentage produced by this calculation with a previously defined tolerance (e.g. less than 50% syrup flow) to determine whether or not to shut down BIB 19 .
+
+The following example illustrates three exemplary levels of quality/acceptability for a 300 milliliter beverage with a water to syrup ratio of 5 to 1:
+
+Total drink volume: 300 ml
+
+Nominal water volume: 250 ml
+
+Nominal syrup volume: 50 ml
+
+Acceptable syrup volume threshold for high quality drink: 45 ml
+
+Acceptable syrup volume threshold for medium quality drink: 40 ml
+
+Acceptable syrup volume threshold for low quality drink: 35 ml
+
+Theoretically, in the case that the vendor is set to the “medium quality” configuration, the drink mixing system will dispense 250 ml of water as measured by the first flow meter and attempt to dispense 50 ml of syrup via a peristaltic pump 14 that is energized for a predetermine time that has been established to dispense the intended volume of syrup (in this case 50 ml). The second flow meter 21 measures the total volume of the drink (water plus syrup) and compares the result to the acceptability criteria (290 in the case of medium quality setting), and if the measured volume is 290 or above, the drink is declared acceptable and is then delivered to the consumer. If the total measured volume is 289 or lower, the drink is declared unacceptable. It is then discarded and the corresponding selection is flagged as sold out and the customer may be prompted to make another selection.
+
+In practice, there are typically variations from actual flow volumes versus the reported volumes from the flow meters. These variations are more pronounced at the second flow meter 21 due to the drop in internal pressure at the second flow meter relative to the first flow meter 20 . Therefore different criteria may be used to account for the lost volume as measured by the flow meters. The table of FIG. 2 shows the relation between the pump, water flow, syrup flow and the difference in the water and syrup (using a random sample).
+
+In the table of FIG. 2:
+
+Series 1: Water Mains Flowmeter ( 20 )
+
+Series 2: Syrup/Manifold (Total) Flowmeter ( 21 )
+
+Series 3: Total FM-Water FM
+
+Series 4: Peristaltic Pump On/Off
+
+Timeline: 1 period=40 ms
+
+25 period=1 second
+
+Using the information in Table 1 (FIG. 2), in order to determine if the BIB is empty (“soldout”), the following steps are followed:
+
+Monitor the difference (Series 3) for 1 second after the Pump is turned off.
+
+Get the maximum difference during the monitoring period.
+
+Compare the value with a look-up table as defined by the graph of FIG. 3 (Table 2).
+
+If the value is less that the value in the look-up table, then the BIB is empty; proceed to discard the pouch filled with fluid (drop inside the machine); mark BIB as “soldout”; prompt user to make another selection. If the value is greater or equal to the look-up table, then the BIB is full;
+
+proceed to drop the pouch in the bucket for delivery to the customer. The graph below shows less tolerance with higher concentrates.
+
+The systems, methods and apparatus of the present invention allow for the detection of empty/soldout BIBs, or any other condition causing less than a desired amount of BIB fluid (syrup/concentrate) to be delivered. It is to be appreciated that in alternative embodiments, additional flow meters may be provided on each BIB line, and on any other fluid input lines, in order for the processor to track the quantities of fluid flowing therethrough and make appropriate computations regarding the output.
+
+It is to be understood that variations and modifications of the present invention may be made without departing from the scope thereof. It is also to be understood that the present invention is not to be limited by the specific embodiments or combinations of the components or parts disclosed herein, nor by any of the exemplary embodiments or combinations set forth in the attached illustrations.
+ 
+
+ 
+
+   Previous Patent: SYSTEMS AND METHODS FOR ESTIMATING A TEMPERATURE OF A FLUID INJECTOR USED IN A HOT ENVIRONMENT 
+
+ Next Patent: Method and Device for the Assessment of Fluid Collection Networks 
+
+ 
+
+ 
+ 
+ Home Search Services Communities Help Contact us Advertise on this Site 
+ ©2004-2012 FreePatentsOnline.com. All rights reserved. Privacy Policy&amp;Terms of Use . A SumoBrain Solutions Company
+	</body>
+</document>

@@ -1,0 +1,419 @@
+det(clothes-3, the-2)
+dobj(hold-1, clothes-3)
+
+det(clothes-3, the-2)
+dobj(straighten-1, clothes-3)
+prt(straighten-1, out-4)
+
+det(clothes-3, the-2)
+dobj(fold-1, clothes-3)
+advmod(fold-1, neatly-4)
+
+det(pile-5, a-3)
+amod(pile-5, different-4)
+prep_in(set-1, pile-5)
+
+dobj(place-1, clothes-2)
+det(surface-6, a-4)
+amod(surface-6, flat-5)
+prep_on(place-1, surface-6)
+
+det(clothing-3, the-2)
+dobj(flatten-1, clothing-3)
+
+det(clothing-3, the-2)
+dobj(bend-1, clothing-3)
+prep_over(bend-1, itself-5)
+
+mark(appears-6, until-2)
+det(shape-5, the-3)
+amod(shape-5, desired-4)
+nsubj(appears-6, shape-5)
+advcl(repeat-1, appears-6)
+
+det(item-3, an-2)
+dobj(take-1, item-3)
+prep_out_of(take-1, dryer-6)
+prep_out_of(take-1, basket-8)
+conj_or(dryer-6, basket-8)
+
+prt(shake-1, out-2)
+det(wrinkles-4, the-3)
+dobj(shake-1, wrinkles-4)
+
+det(item-3, the-2)
+dobj(lay-1, item-3)
+prt(lay-1, down-4)
+prep_on(lay-1, something-6)
+amod(something-6, flat-7)
+
+det(item-3, the-2)
+dobj(fold-1, item-3)
+det(shape-9, a-5)
+amod(shape-9, flat-6)
+amod(shape-9, compact-7)
+amod(shape-9, rectangular-8)
+prep_into(fold-1, shape-9)
+
+
+det(item-3, an-2)
+dobj(remove-1, item-3)
+prep_of(item-3, clothing-5)
+prep_from(remove-1, the-7)
+advmod(remove-1, hamper-8)
+
+det(item-3, the-2)
+dobj(fold-1, item-3)
+prep_in(fold-1, half-5)
+
+dobj(fold-1, it-2)
+prep_in(fold-1, half-4)
+advmod(fold-1, again-5)
+
+det(article-3, the-2)
+dobj(place-1, article-3)
+prep_of(article-3, clothing-5)
+det(pile-8, a-7)
+prep_in(place-1, pile-8)
+
+det(pile-3, each-2)
+dobj(place-1, pile-3)
+poss(drawer-7, its-5)
+amod(drawer-7, appropriate-6)
+prep_in(place-1, drawer-7)
+prep_in(place-1, shelf-9)
+conj_or(drawer-7, shelf-9)
+
+dobj(lay-1, piece-2)
+prep_of(piece-2, clothing-4)
+amod(surface-7, flat-6)
+prep_on(lay-1, surface-7)
+
+dobj(fold-1, piece-2)
+prep_of(piece-2, clothing-4)
+
+amod(piece-3, next-2)
+dobj(take-1, piece-3)
+prep_of(piece-3, clothing-5)
+conj_and(take-1, repeat-7)
+dobj(repeat-7, 1-8)
+dobj(repeat-7, 2-10)
+conj_and(1-8, 2-10)
+
+dobj(take-1, cloth-2)
+conj_and(take-1, lat-4)
+acomp(lat-4, flat-5)
+prep_on(lat-4, bed-7)
+
+conj_and(fold-1, put-3)
+prt(put-3, aside-4)
+
+dobj(take-1, clothes-2)
+num(clothes-2, one-3)
+prep_by(take-1, one-5)
+
+amod(surface-4, flat-3)
+prep_on(lay-1, surface-4)
+
+det(shape-5, a-3)
+amod(shape-5, regular-4)
+prep_into(fold-1, shape-5)
+
+amod(clothes-3, clean-2)
+dobj(find-1, clothes-3)
+
+prt(pick-1, up-2)
+det(piece-4, a-3)
+dobj(pick-1, piece-4)
+prep_of(piece-4, clothing-6)
+
+det(piece-3, the-2)
+dobj(fold-1, piece-3)
+prep_of(piece-3, clothing-5)
+prep_upon(fold-1, itselt-7)
+det(shape-11, a-9)
+amod(shape-11, rectangular-10)
+prep_into(fold-1, shape-11)
+
+aux(stack-7, place-1)
+det(clothing-4, the-2)
+amod(clothing-4, folded-3)
+nsubj(stack-7, clothing-4)
+advmod(stack-7, onto-5)
+dep(onto-5, a-6)
+
+mark(folded-6, until-2)
+det(clothes-4, all-3)
+nsubjpass(folded-6, clothes-4)
+auxpass(folded-6, are-5)
+advcl(repeat-1, folded-6)
+
+csubj(unfolded-3, locate-1)
+dobj(locate-1, the-2)
+dobj(unfolded-3, clothes-4)
+
+num(item-3, one-2)
+dobj(take-1, item-3)
+det(time-6, a-5)
+prep_at(take-1, time-6)
+aux(fold-8, to-7)
+infmod(time-6, fold-8)
+
+det(item-3, each-2)
+dobj(fold-1, item-3)
+advmod(fold-1, neatly-4)
+xcomp(fold-1, placing-5)
+dobj(placing-5, it-6)
+prt(placing-5, aside-7)
+
+advmod(situated-3, improperly-2)
+amod(clothes-4, situated-3)
+dobj(locate-1, clothes-4)
+
+dobj(gather-1, clothes-2)
+num(location-5, one-4)
+prep_to(gather-1, location-5)
+
+det(piece-3, each-2)
+dobj(organize-1, piece-3)
+prep_of(piece-3, clothing-5)
+det(manner-9, a-7)
+amod(manner-9, neat-8)
+prep_in(organize-1, manner-9)
+amod(manner-9, folding-10)
+det(clothes-12, the-11)
+dobj(organize-1, clothes-12)
+prep(organize-1, over-13)
+prep_on(organize-1, themselves-15)
+
+dobj(store-1, clothes-2)
+det(location-6, the-4)
+amod(location-6, appropriate-5)
+prep_in(store-1, location-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, piece-3)
+prep_of(piece-3, garment-5)
+
+dobj(fold-1, garment-2)
+
+dobj(put-1, garment-2)
+prep_on(put-1, pile-4)
+
+det(garments-4, all-3)
+prep_for(repeat-1, garments-4)
+
+dobj(locate-1, clothes-2)
+
+dobj(fold-1, clothes-2)
+
+det(side-4, the-2)
+amod(side-4, left-3)
+dobj(fold-1, side-4)
+det(clothes-7, the-6)
+prep_of(side-4, clothes-7)
+
+det(side-4, the-2)
+amod(side-4, right-3)
+dobj(fold-1, side-4)
+det(clothes-7, the-6)
+prep_of(side-4, clothes-7)
+
+det(center-3, the-2)
+dobj(fold-1, center-3)
+det(cothes-6, the-5)
+prep_of(center-3, cothes-6)
+
+dobj(take-1, clothes-2)
+prep_from(take-1, dryer-4)
+
+dobj(fold-1, clothes-2)
+
+dobj(put-1, clothes-2)
+prt(put-1, away-3)
+
+dobj(get-1, clothes-2)
+
+dobj(fold-1, clothes-2)
+
+dobj(fold-1, clothes-2)
+
+dobj(put-1, them-2)
+det(drawer-5, the-4)
+prep_in(put-1, drawer-5)
+
+dobj(hold-1, corners-2)
+
+dobj(remove-1, clothes-2)
+prep_from(remove-1, dryer-4)
+
+dobj(flod-1, clothes-2)
+
+prep_in(place-1, closet-3)
+
+nsubj(cothes-2, fodl-1)
+
+dobj(iron-1, clothes-2)
+
+dobj(fold-1, pant-2)
+
+dobj(take-1, clothes-2)
+prep_out_of(take-1, dryer-5)
+
+dobj(fold-1, clothes-2)
+
+prep_in(place-1, pile-3)
+
+dobj(remove-1, clothes-2)
+prep_from(remove-1, drier-4)
+
+amod(surface-4, flat-3)
+prep_on(put-1, surface-4)
+
+dobj(begin-1, folding-2)
+
+dobj(continue-1, folding-2)
+
+advmod(done-2, when-1)
+csubj(put-3, done-2)
+prep_on(put-3, hangers-5)
+
+dobj(take-1, hangers-2)
+prep_to(take-1, closet-4)
+
+dobj(hang-1, hangers-2)
+
+det(surface-4, a-2)
+amod(surface-4, flat-3)
+dobj(find-1, surface-4)
+
+det(item-3, an-2)
+dobj(lay-1, item-3)
+prep_of(item-3, clothing-5)
+
+dobj(fold-1, it-2)
+prep_in(fold-1, half-4)
+
+prep_in(fold-1, half-3)
+advmod(again-5, once-4)
+advmod(fold-1, again-5)
+
+iobj(pu-1, tin-2)
+det(pile-4, a-3)
+dobj(pu-1, pile-4)
+
+amod(piles-2, separate-1)
+amod(kinds-5, different-4)
+prep_for(piles-2, kinds-5)
+prep_of(kinds-5, clothes-7)
+
+det(item-4, each-3)
+prep_with(repeat-1, item-4)
+
+dobj(hold-1, item-2)
+prep_in_front_of(hold-1, you-6)
+conj_and(hold-1, shake-8)
+
+det(surface-5, a-3)
+amod(surface-5, flat-4)
+prep_on(place-1, surface-5)
+
+prt(smooth-1, out-2)
+dobj(smooth-1, wrinkles-3)
+amod(hand-6, open-5)
+prep_with(smooth-1, hand-6)
+
+dobj(bring-1, edges-2)
+prep_of(edges-2, garment-4)
+advmod(fold-7, together-5)
+aux(fold-7, to-6)
+xcomp(bring-1, fold-7)
+acomp(fold-7, lengthwise-8)
+
+dobj(bring-1, edges-2)
+prep_of(edges-2, garment-4)
+advmod(fold-7, together-5)
+aux(fold-7, to-6)
+xcomp(bring-1, fold-7)
+amod(way-9, other-8)
+dobj(fold-7, way-9)
+
+dobj(get-1, clothes-2)
+
+amod(surface-4, flat-3)
+prep_on(place-1, surface-4)
+
+dobj(fold-1, clothes-2)
+
+dobj(take-1, clothes-2)
+prep_out_of(take-1, dryer-5)
+
+dobj(shake-1, them-2)
+
+prep_in(put-1, pile-3)
+prep_on_top_of(put-1, dryer-7)
+
+advmod(sneak-1, upstairs-2)
+
+nn(v-6, t-5)
+prep_in_front_of(sit-1, v-6)
+
+csubj(gets-4, wait-1)
+amod(wife-3, til-2)
+dobj(wait-1, wife-3)
+dobj(gets-4, home-5)
+
+dobj(tell-1, her-2)
+det(laundry-4, the-3)
+nsubj(needs-5, laundry-4)
+dep(tell-1, needs-5)
+dep(needs-5, folded-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, clothing-3)
+
+dobj(shake-1, clothing-2)
+
+prep_for(check-1, wrinkles-3)
+
+dobj(smooth-1, clothign-2)
+num(hand-5, one-4)
+prep_with(smooth-1, hand-5)
+mark(holding-7, while-6)
+advcl(smooth-1, holding-7)
+dobj(holding-7, it-8)
+det(other-11, the-10)
+prep_with(holding-7, other-11)
+
+det(place-3, a-2)
+dobj(chose-1, place-3)
+aux(make-5, to-4)
+infmod(place-3, make-5)
+det(crease-7, a-6)
+dobj(make-5, crease-7)
+
+dobj(fold-1, clothing-2)
+prep_at(fold-1, crease-4)
+
+dobj(fold-1, clothing-2)
+advmod(fold-1, again-3)
+advmod(fold-1, pat-5)
+conj_and(again-3, pat-5)
+
+dobj(get-1, shirt-2)
+
+dobj(lay-1, shirt-2)
+prt(lay-1, out-3)
+amod(surface-6, flat-5)
+prep_on(lay-1, surface-6)
+
+dobj(fold-1, shirt-2)
+
+dobj(take-1, clothes-2)
+prep_out_of(take-1, dryer-5)
+
+dobj(fold-1, clothes-2)
+
+dobj(put-1, clothes-2)
+prt(put-1, away-3)
+

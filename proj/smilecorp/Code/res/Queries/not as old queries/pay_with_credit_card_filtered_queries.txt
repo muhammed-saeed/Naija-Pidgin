@@ -1,0 +1,671 @@
+id	score	v	d-obj	p	p-title
+00001	?	put	card	merchant	credit card
+00002	?	put	card	cashier	credit card
+00003	?	put	card	process	credit card
+00004	?	put	card	processing	credit card
+00005	?	put	card	you	credit card
+00006	?	put	card	amount	credit card
+00007	?	put	card	total	credit card
+00008	?	put	card	purchased goods	credit card
+00009	?	put	card	receipt and goods	credit card
+00010	?	put	card	wallet	credit card
+00011	?	put	card	my wallet	credit card
+00012	?	put	card	checkout	credit card
+00013	?	put	card	merchant copy	credit card
+00014	?	put	card	store copy	credit card
+00015	?	put	card	reader	credit card
+00016	?	put	card	cashier ring	credit card
+00017	?	put	card	charge slip	credit card
+00018	?	put	card	approval	credit card
+00019	?	put	card	electric pad	credit card
+00020	?	put	card	paper	credit card
+00021	?	put	card	store copy of receipt	credit card
+00022	?	put	card	store	credit card
+00023	?	put	card	reciept	credit card
+00024	?	put	card	clerk	credit card
+00025	?	put	card	items	credit card
+00026	?	put	card	item	credit card
+00027	?	put	card	purchase	credit card
+00028	?	put	card	purchases	credit card
+00029	?	put	card	my receipt	credit card
+00030	?	put	card	receipt	credit card
+00031	?	get	credit card	merchant	credit card
+00032	?	get	credit card	cashier	credit card
+00033	?	get	credit card	process	credit card
+00034	?	get	credit card	processing	credit card
+00035	?	get	credit card	you	credit card
+00036	?	get	credit card	amount	credit card
+00037	?	get	credit card	total	credit card
+00038	?	get	credit card	purchased goods	credit card
+00039	?	get	credit card	receipt and goods	credit card
+00040	?	get	credit card	wallet	credit card
+00041	?	get	credit card	my wallet	credit card
+00042	?	get	credit card	checkout	credit card
+00043	?	get	credit card	merchant copy	credit card
+00044	?	get	credit card	store copy	credit card
+00045	?	get	credit card	reader	credit card
+00046	?	get	credit card	card	credit card
+00047	?	get	credit card	cashier ring	credit card
+00048	?	get	credit card	charge slip	credit card
+00049	?	get	credit card	approval	credit card
+00050	?	get	credit card	electric pad	credit card
+00051	?	get	credit card	paper	credit card
+00052	?	get	credit card	store copy of receipt	credit card
+00053	?	get	credit card	store	credit card
+00054	?	get	credit card	reciept	credit card
+00055	?	get	credit card	clerk	credit card
+00056	?	get	credit card	items	credit card
+00057	?	get	credit card	item	credit card
+00058	?	get	credit card	purchase	credit card
+00059	?	get	credit card	purchases	credit card
+00060	?	get	credit card	my receipt	credit card
+00061	?	get	credit card	receipt	credit card
+00062	?	hand	id	merchant	credit card
+00063	?	hand	id	cashier	credit card
+00064	?	hand	id	process	credit card
+00065	?	hand	id	processing	credit card
+00066	?	hand	id	you	credit card
+00067	?	hand	id	amount	credit card
+00068	?	hand	id	total	credit card
+00069	?	hand	id	purchased goods	credit card
+00070	?	hand	id	receipt and goods	credit card
+00071	?	hand	id	wallet	credit card
+00072	?	hand	id	my wallet	credit card
+00073	?	hand	id	checkout	credit card
+00074	?	hand	id	merchant copy	credit card
+00075	?	hand	id	store copy	credit card
+00076	?	hand	id	reader	credit card
+00077	?	hand	id	card	credit card
+00078	?	hand	id	cashier ring	credit card
+00079	?	hand	id	charge slip	credit card
+00080	?	hand	id	approval	credit card
+00081	?	hand	id	electric pad	credit card
+00082	?	hand	id	paper	credit card
+00083	?	hand	id	store copy of receipt	credit card
+00084	?	hand	id	store	credit card
+00085	?	hand	id	reciept	credit card
+00086	?	hand	id	clerk	credit card
+00087	?	hand	id	items	credit card
+00088	?	hand	id	item	credit card
+00089	?	hand	id	purchase	credit card
+00090	?	hand	id	purchases	credit card
+00091	?	hand	id	my receipt	credit card
+00092	?	hand	id	receipt	credit card
+00093	?	enter	zip code	merchant	credit card
+00094	?	enter	zip code	cashier	credit card
+00095	?	enter	zip code	process	credit card
+00096	?	enter	zip code	processing	credit card
+00097	?	enter	zip code	you	credit card
+00098	?	enter	zip code	amount	credit card
+00099	?	enter	zip code	total	credit card
+00100	?	enter	zip code	purchased goods	credit card
+00101	?	enter	zip code	receipt and goods	credit card
+00102	?	enter	zip code	wallet	credit card
+00103	?	enter	zip code	my wallet	credit card
+00104	?	enter	zip code	checkout	credit card
+00105	?	enter	zip code	merchant copy	credit card
+00106	?	enter	zip code	store copy	credit card
+00107	?	enter	zip code	reader	credit card
+00108	?	enter	zip code	card	credit card
+00109	?	enter	zip code	cashier ring	credit card
+00110	?	enter	zip code	charge slip	credit card
+00111	?	enter	zip code	approval	credit card
+00112	?	enter	zip code	electric pad	credit card
+00113	?	enter	zip code	paper	credit card
+00114	?	enter	zip code	store copy of receipt	credit card
+00115	?	enter	zip code	store	credit card
+00116	?	enter	zip code	reciept	credit card
+00117	?	enter	zip code	clerk	credit card
+00118	?	enter	zip code	items	credit card
+00119	?	enter	zip code	item	credit card
+00120	?	enter	zip code	purchase	credit card
+00121	?	enter	zip code	purchases	credit card
+00122	?	enter	zip code	my receipt	credit card
+00123	?	enter	zip code	receipt	credit card
+00124	?	put	receipt	merchant	credit card
+00125	?	put	receipt	cashier	credit card
+00126	?	put	receipt	process	credit card
+00127	?	put	receipt	processing	credit card
+00128	?	put	receipt	you	credit card
+00129	?	put	receipt	amount	credit card
+00130	?	put	receipt	total	credit card
+00131	?	put	receipt	purchased goods	credit card
+00132	?	put	receipt	receipt and goods	credit card
+00133	?	put	receipt	wallet	credit card
+00134	?	put	receipt	my wallet	credit card
+00135	?	put	receipt	checkout	credit card
+00136	?	put	receipt	merchant copy	credit card
+00137	?	put	receipt	store copy	credit card
+00138	?	put	receipt	reader	credit card
+00139	?	put	receipt	card	credit card
+00140	?	put	receipt	cashier ring	credit card
+00141	?	put	receipt	charge slip	credit card
+00142	?	put	receipt	approval	credit card
+00143	?	put	receipt	electric pad	credit card
+00144	?	put	receipt	paper	credit card
+00145	?	put	receipt	store copy of receipt	credit card
+00146	?	put	receipt	store	credit card
+00147	?	put	receipt	reciept	credit card
+00148	?	put	receipt	clerk	credit card
+00149	?	put	receipt	items	credit card
+00150	?	put	receipt	item	credit card
+00151	?	put	receipt	purchase	credit card
+00152	?	put	receipt	purchases	credit card
+00153	?	put	receipt	my receipt	credit card
+00154	?	obtain	credit card	merchant	credit card
+00155	?	obtain	credit card	cashier	credit card
+00156	?	obtain	credit card	process	credit card
+00157	?	obtain	credit card	processing	credit card
+00158	?	obtain	credit card	you	credit card
+00159	?	obtain	credit card	amount	credit card
+00160	?	obtain	credit card	total	credit card
+00161	?	obtain	credit card	purchased goods	credit card
+00162	?	obtain	credit card	receipt and goods	credit card
+00163	?	obtain	credit card	wallet	credit card
+00164	?	obtain	credit card	my wallet	credit card
+00165	?	obtain	credit card	checkout	credit card
+00166	?	obtain	credit card	merchant copy	credit card
+00167	?	obtain	credit card	store copy	credit card
+00168	?	obtain	credit card	reader	credit card
+00169	?	obtain	credit card	card	credit card
+00170	?	obtain	credit card	cashier ring	credit card
+00171	?	obtain	credit card	charge slip	credit card
+00172	?	obtain	credit card	approval	credit card
+00173	?	obtain	credit card	electric pad	credit card
+00174	?	obtain	credit card	paper	credit card
+00175	?	obtain	credit card	store copy of receipt	credit card
+00176	?	obtain	credit card	store	credit card
+00177	?	obtain	credit card	reciept	credit card
+00178	?	obtain	credit card	clerk	credit card
+00179	?	obtain	credit card	items	credit card
+00180	?	obtain	credit card	item	credit card
+00181	?	obtain	credit card	purchase	credit card
+00182	?	obtain	credit card	purchases	credit card
+00183	?	obtain	credit card	my receipt	credit card
+00184	?	obtain	credit card	receipt	credit card
+00185	?	hand	card	merchant	credit card
+00186	?	hand	card	cashier	credit card
+00187	?	hand	card	process	credit card
+00188	?	hand	card	processing	credit card
+00189	?	hand	card	you	credit card
+00190	?	hand	card	amount	credit card
+00191	?	hand	card	total	credit card
+00192	?	hand	card	purchased goods	credit card
+00193	?	hand	card	receipt and goods	credit card
+00194	?	hand	card	wallet	credit card
+00195	?	hand	card	my wallet	credit card
+00196	?	hand	card	checkout	credit card
+00197	?	hand	card	merchant copy	credit card
+00198	?	hand	card	store copy	credit card
+00199	?	hand	card	reader	credit card
+00200	?	hand	card	cashier ring	credit card
+00201	?	hand	card	charge slip	credit card
+00202	?	hand	card	approval	credit card
+00203	?	hand	card	electric pad	credit card
+00204	?	hand	card	paper	credit card
+00205	?	hand	card	store copy of receipt	credit card
+00206	?	hand	card	store	credit card
+00207	?	hand	card	reciept	credit card
+00208	?	hand	card	clerk	credit card
+00209	?	hand	card	items	credit card
+00210	?	hand	card	item	credit card
+00211	?	hand	card	purchase	credit card
+00212	?	hand	card	purchases	credit card
+00213	?	hand	card	my receipt	credit card
+00214	?	hand	card	receipt	credit card
+00215	?	sign	receipt	merchant	credit card
+00216	?	sign	receipt	cashier	credit card
+00217	?	sign	receipt	process	credit card
+00218	?	sign	receipt	processing	credit card
+00219	?	sign	receipt	you	credit card
+00220	?	sign	receipt	amount	credit card
+00221	?	sign	receipt	total	credit card
+00222	?	sign	receipt	purchased goods	credit card
+00223	?	sign	receipt	receipt and goods	credit card
+00224	?	sign	receipt	wallet	credit card
+00225	?	sign	receipt	my wallet	credit card
+00226	?	sign	receipt	checkout	credit card
+00227	?	sign	receipt	merchant copy	credit card
+00228	?	sign	receipt	store copy	credit card
+00229	?	sign	receipt	reader	credit card
+00230	?	sign	receipt	card	credit card
+00231	?	sign	receipt	cashier ring	credit card
+00232	?	sign	receipt	charge slip	credit card
+00233	?	sign	receipt	approval	credit card
+00234	?	sign	receipt	electric pad	credit card
+00235	?	sign	receipt	paper	credit card
+00236	?	sign	receipt	store copy of receipt	credit card
+00237	?	sign	receipt	store	credit card
+00238	?	sign	receipt	reciept	credit card
+00239	?	sign	receipt	clerk	credit card
+00240	?	sign	receipt	items	credit card
+00241	?	sign	receipt	item	credit card
+00242	?	sign	receipt	purchase	credit card
+00243	?	sign	receipt	purchases	credit card
+00244	?	sign	receipt	my receipt	credit card
+00245	?	put	credit card	merchant	credit card
+00246	?	put	credit card	cashier	credit card
+00247	?	put	credit card	process	credit card
+00248	?	put	credit card	processing	credit card
+00249	?	put	credit card	you	credit card
+00250	?	put	credit card	amount	credit card
+00251	?	put	credit card	total	credit card
+00252	?	put	credit card	purchased goods	credit card
+00253	?	put	credit card	receipt and goods	credit card
+00254	?	put	credit card	wallet	credit card
+00255	?	put	credit card	my wallet	credit card
+00256	?	put	credit card	checkout	credit card
+00257	?	put	credit card	merchant copy	credit card
+00258	?	put	credit card	store copy	credit card
+00259	?	put	credit card	reader	credit card
+00260	?	put	credit card	card	credit card
+00261	?	put	credit card	cashier ring	credit card
+00262	?	put	credit card	charge slip	credit card
+00263	?	put	credit card	approval	credit card
+00264	?	put	credit card	electric pad	credit card
+00265	?	put	credit card	paper	credit card
+00266	?	put	credit card	store copy of receipt	credit card
+00267	?	put	credit card	store	credit card
+00268	?	put	credit card	reciept	credit card
+00269	?	put	credit card	clerk	credit card
+00270	?	put	credit card	items	credit card
+00271	?	put	credit card	item	credit card
+00272	?	put	credit card	purchase	credit card
+00273	?	put	credit card	purchases	credit card
+00274	?	put	credit card	my receipt	credit card
+00275	?	put	credit card	receipt	credit card
+00276	?	give	cashier slip	merchant	credit card
+00277	?	give	cashier slip	cashier	credit card
+00278	?	give	cashier slip	process	credit card
+00279	?	give	cashier slip	processing	credit card
+00280	?	give	cashier slip	you	credit card
+00281	?	give	cashier slip	amount	credit card
+00282	?	give	cashier slip	total	credit card
+00283	?	give	cashier slip	purchased goods	credit card
+00284	?	give	cashier slip	receipt and goods	credit card
+00285	?	give	cashier slip	wallet	credit card
+00286	?	give	cashier slip	my wallet	credit card
+00287	?	give	cashier slip	checkout	credit card
+00288	?	give	cashier slip	merchant copy	credit card
+00289	?	give	cashier slip	store copy	credit card
+00290	?	give	cashier slip	reader	credit card
+00291	?	give	cashier slip	card	credit card
+00292	?	give	cashier slip	cashier ring	credit card
+00293	?	give	cashier slip	charge slip	credit card
+00294	?	give	cashier slip	approval	credit card
+00295	?	give	cashier slip	electric pad	credit card
+00296	?	give	cashier slip	paper	credit card
+00297	?	give	cashier slip	store copy of receipt	credit card
+00298	?	give	cashier slip	store	credit card
+00299	?	give	cashier slip	reciept	credit card
+00300	?	give	cashier slip	clerk	credit card
+00301	?	give	cashier slip	items	credit card
+00302	?	give	cashier slip	item	credit card
+00303	?	give	cashier slip	purchase	credit card
+00304	?	give	cashier slip	purchases	credit card
+00305	?	give	cashier slip	my receipt	credit card
+00306	?	give	cashier slip	receipt	credit card
+00307	?	slide	card	merchant	credit card
+00308	?	slide	card	cashier	credit card
+00309	?	slide	card	process	credit card
+00310	?	slide	card	processing	credit card
+00311	?	slide	card	you	credit card
+00312	?	slide	card	amount	credit card
+00313	?	slide	card	total	credit card
+00314	?	slide	card	purchased goods	credit card
+00315	?	slide	card	receipt and goods	credit card
+00316	?	slide	card	wallet	credit card
+00317	?	slide	card	my wallet	credit card
+00318	?	slide	card	checkout	credit card
+00319	?	slide	card	merchant copy	credit card
+00320	?	slide	card	store copy	credit card
+00321	?	slide	card	reader	credit card
+00322	?	slide	card	cashier ring	credit card
+00323	?	slide	card	charge slip	credit card
+00324	?	slide	card	approval	credit card
+00325	?	slide	card	electric pad	credit card
+00326	?	slide	card	paper	credit card
+00327	?	slide	card	store copy of receipt	credit card
+00328	?	slide	card	store	credit card
+00329	?	slide	card	reciept	credit card
+00330	?	slide	card	clerk	credit card
+00331	?	slide	card	items	credit card
+00332	?	slide	card	item	credit card
+00333	?	slide	card	purchase	credit card
+00334	?	slide	card	purchases	credit card
+00335	?	slide	card	my receipt	credit card
+00336	?	slide	card	receipt	credit card
+00337	?	take	credit card	merchant	credit card
+00338	?	take	credit card	cashier	credit card
+00339	?	take	credit card	process	credit card
+00340	?	take	credit card	processing	credit card
+00341	?	take	credit card	you	credit card
+00342	?	take	credit card	amount	credit card
+00343	?	take	credit card	total	credit card
+00344	?	take	credit card	purchased goods	credit card
+00345	?	take	credit card	receipt and goods	credit card
+00346	?	take	credit card	wallet	credit card
+00347	?	take	credit card	my wallet	credit card
+00348	?	take	credit card	checkout	credit card
+00349	?	take	credit card	merchant copy	credit card
+00350	?	take	credit card	store copy	credit card
+00351	?	take	credit card	reader	credit card
+00352	?	take	credit card	card	credit card
+00353	?	take	credit card	cashier ring	credit card
+00354	?	take	credit card	charge slip	credit card
+00355	?	take	credit card	approval	credit card
+00356	?	take	credit card	electric pad	credit card
+00357	?	take	credit card	paper	credit card
+00358	?	take	credit card	store copy of receipt	credit card
+00359	?	take	credit card	store	credit card
+00360	?	take	credit card	reciept	credit card
+00361	?	take	credit card	clerk	credit card
+00362	?	take	credit card	items	credit card
+00363	?	take	credit card	item	credit card
+00364	?	take	credit card	purchase	credit card
+00365	?	take	credit card	purchases	credit card
+00366	?	take	credit card	my receipt	credit card
+00367	?	take	credit card	receipt	credit card
+00368	?	sign	charge slip	merchant	credit card
+00369	?	sign	charge slip	cashier	credit card
+00370	?	sign	charge slip	process	credit card
+00371	?	sign	charge slip	processing	credit card
+00372	?	sign	charge slip	you	credit card
+00373	?	sign	charge slip	amount	credit card
+00374	?	sign	charge slip	total	credit card
+00375	?	sign	charge slip	purchased goods	credit card
+00376	?	sign	charge slip	receipt and goods	credit card
+00377	?	sign	charge slip	wallet	credit card
+00378	?	sign	charge slip	my wallet	credit card
+00379	?	sign	charge slip	checkout	credit card
+00380	?	sign	charge slip	merchant copy	credit card
+00381	?	sign	charge slip	store copy	credit card
+00382	?	sign	charge slip	reader	credit card
+00383	?	sign	charge slip	card	credit card
+00384	?	sign	charge slip	cashier ring	credit card
+00385	?	sign	charge slip	approval	credit card
+00386	?	sign	charge slip	electric pad	credit card
+00387	?	sign	charge slip	paper	credit card
+00388	?	sign	charge slip	store copy of receipt	credit card
+00389	?	sign	charge slip	store	credit card
+00390	?	sign	charge slip	reciept	credit card
+00391	?	sign	charge slip	clerk	credit card
+00392	?	sign	charge slip	items	credit card
+00393	?	sign	charge slip	item	credit card
+00394	?	sign	charge slip	purchase	credit card
+00395	?	sign	charge slip	purchases	credit card
+00396	?	sign	charge slip	my receipt	credit card
+00397	?	sign	charge slip	receipt	credit card
+00398	?	hand	credit card	merchant	credit card
+00399	?	hand	credit card	cashier	credit card
+00400	?	hand	credit card	process	credit card
+00401	?	hand	credit card	processing	credit card
+00402	?	hand	credit card	you	credit card
+00403	?	hand	credit card	amount	credit card
+00404	?	hand	credit card	total	credit card
+00405	?	hand	credit card	purchased goods	credit card
+00406	?	hand	credit card	receipt and goods	credit card
+00407	?	hand	credit card	wallet	credit card
+00408	?	hand	credit card	my wallet	credit card
+00409	?	hand	credit card	checkout	credit card
+00410	?	hand	credit card	merchant copy	credit card
+00411	?	hand	credit card	store copy	credit card
+00412	?	hand	credit card	reader	credit card
+00413	?	hand	credit card	card	credit card
+00414	?	hand	credit card	cashier ring	credit card
+00415	?	hand	credit card	charge slip	credit card
+00416	?	hand	credit card	approval	credit card
+00417	?	hand	credit card	electric pad	credit card
+00418	?	hand	credit card	paper	credit card
+00419	?	hand	credit card	store copy of receipt	credit card
+00420	?	hand	credit card	store	credit card
+00421	?	hand	credit card	reciept	credit card
+00422	?	hand	credit card	clerk	credit card
+00423	?	hand	credit card	items	credit card
+00424	?	hand	credit card	item	credit card
+00425	?	hand	credit card	purchase	credit card
+00426	?	hand	credit card	purchases	credit card
+00427	?	hand	credit card	my receipt	credit card
+00428	?	hand	credit card	receipt	credit card
+00429	?	get	receipt	merchant	credit card
+00430	?	get	receipt	cashier	credit card
+00431	?	get	receipt	process	credit card
+00432	?	get	receipt	processing	credit card
+00433	?	get	receipt	you	credit card
+00434	?	get	receipt	amount	credit card
+00435	?	get	receipt	total	credit card
+00436	?	get	receipt	purchased goods	credit card
+00437	?	get	receipt	receipt and goods	credit card
+00438	?	get	receipt	wallet	credit card
+00439	?	get	receipt	my wallet	credit card
+00440	?	get	receipt	checkout	credit card
+00441	?	get	receipt	merchant copy	credit card
+00442	?	get	receipt	store copy	credit card
+00443	?	get	receipt	reader	credit card
+00444	?	get	receipt	card	credit card
+00445	?	get	receipt	cashier ring	credit card
+00446	?	get	receipt	charge slip	credit card
+00447	?	get	receipt	approval	credit card
+00448	?	get	receipt	electric pad	credit card
+00449	?	get	receipt	paper	credit card
+00450	?	get	receipt	store copy of receipt	credit card
+00451	?	get	receipt	store	credit card
+00452	?	get	receipt	reciept	credit card
+00453	?	get	receipt	clerk	credit card
+00454	?	get	receipt	items	credit card
+00455	?	get	receipt	item	credit card
+00456	?	get	receipt	purchase	credit card
+00457	?	get	receipt	purchases	credit card
+00458	?	get	receipt	my receipt	credit card
+00459	?	get	id	merchant	credit card
+00460	?	get	id	cashier	credit card
+00461	?	get	id	process	credit card
+00462	?	get	id	processing	credit card
+00463	?	get	id	you	credit card
+00464	?	get	id	amount	credit card
+00465	?	get	id	total	credit card
+00466	?	get	id	purchased goods	credit card
+00467	?	get	id	receipt and goods	credit card
+00468	?	get	id	wallet	credit card
+00469	?	get	id	my wallet	credit card
+00470	?	get	id	checkout	credit card
+00471	?	get	id	merchant copy	credit card
+00472	?	get	id	store copy	credit card
+00473	?	get	id	reader	credit card
+00474	?	get	id	card	credit card
+00475	?	get	id	cashier ring	credit card
+00476	?	get	id	charge slip	credit card
+00477	?	get	id	approval	credit card
+00478	?	get	id	electric pad	credit card
+00479	?	get	id	paper	credit card
+00480	?	get	id	store copy of receipt	credit card
+00481	?	get	id	store	credit card
+00482	?	get	id	reciept	credit card
+00483	?	get	id	clerk	credit card
+00484	?	get	id	items	credit card
+00485	?	get	id	item	credit card
+00486	?	get	id	purchase	credit card
+00487	?	get	id	purchases	credit card
+00488	?	get	id	my receipt	credit card
+00489	?	get	id	receipt	credit card
+00490	?	find	wallet	merchant	credit card
+00491	?	find	wallet	cashier	credit card
+00492	?	find	wallet	process	credit card
+00493	?	find	wallet	processing	credit card
+00494	?	find	wallet	you	credit card
+00495	?	find	wallet	amount	credit card
+00496	?	find	wallet	total	credit card
+00497	?	find	wallet	purchased goods	credit card
+00498	?	find	wallet	receipt and goods	credit card
+00499	?	find	wallet	my wallet	credit card
+00500	?	find	wallet	checkout	credit card
+00501	?	find	wallet	merchant copy	credit card
+00502	?	find	wallet	store copy	credit card
+00503	?	find	wallet	reader	credit card
+00504	?	find	wallet	card	credit card
+00505	?	find	wallet	cashier ring	credit card
+00506	?	find	wallet	charge slip	credit card
+00507	?	find	wallet	approval	credit card
+00508	?	find	wallet	electric pad	credit card
+00509	?	find	wallet	paper	credit card
+00510	?	find	wallet	store copy of receipt	credit card
+00511	?	find	wallet	store	credit card
+00512	?	find	wallet	reciept	credit card
+00513	?	find	wallet	clerk	credit card
+00514	?	find	wallet	items	credit card
+00515	?	find	wallet	item	credit card
+00516	?	find	wallet	purchase	credit card
+00517	?	find	wallet	purchases	credit card
+00518	?	find	wallet	my receipt	credit card
+00519	?	find	wallet	receipt	credit card
+00520	?	sign	name	merchant	credit card
+00521	?	sign	name	cashier	credit card
+00522	?	sign	name	process	credit card
+00523	?	sign	name	processing	credit card
+00524	?	sign	name	you	credit card
+00525	?	sign	name	amount	credit card
+00526	?	sign	name	total	credit card
+00527	?	sign	name	purchased goods	credit card
+00528	?	sign	name	receipt and goods	credit card
+00529	?	sign	name	wallet	credit card
+00530	?	sign	name	my wallet	credit card
+00531	?	sign	name	checkout	credit card
+00532	?	sign	name	merchant copy	credit card
+00533	?	sign	name	store copy	credit card
+00534	?	sign	name	reader	credit card
+00535	?	sign	name	card	credit card
+00536	?	sign	name	cashier ring	credit card
+00537	?	sign	name	charge slip	credit card
+00538	?	sign	name	approval	credit card
+00539	?	sign	name	electric pad	credit card
+00540	?	sign	name	paper	credit card
+00541	?	sign	name	store copy of receipt	credit card
+00542	?	sign	name	store	credit card
+00543	?	sign	name	reciept	credit card
+00544	?	sign	name	clerk	credit card
+00545	?	sign	name	items	credit card
+00546	?	sign	name	item	credit card
+00547	?	sign	name	purchase	credit card
+00548	?	sign	name	purchases	credit card
+00549	?	sign	name	my receipt	credit card
+00550	?	sign	name	receipt	credit card
+00551	?	take	charge slip	merchant	credit card
+00552	?	take	charge slip	cashier	credit card
+00553	?	take	charge slip	process	credit card
+00554	?	take	charge slip	processing	credit card
+00555	?	take	charge slip	you	credit card
+00556	?	take	charge slip	amount	credit card
+00557	?	take	charge slip	total	credit card
+00558	?	take	charge slip	purchased goods	credit card
+00559	?	take	charge slip	receipt and goods	credit card
+00560	?	take	charge slip	wallet	credit card
+00561	?	take	charge slip	my wallet	credit card
+00562	?	take	charge slip	checkout	credit card
+00563	?	take	charge slip	merchant copy	credit card
+00564	?	take	charge slip	store copy	credit card
+00565	?	take	charge slip	reader	credit card
+00566	?	take	charge slip	card	credit card
+00567	?	take	charge slip	cashier ring	credit card
+00568	?	take	charge slip	approval	credit card
+00569	?	take	charge slip	electric pad	credit card
+00570	?	take	charge slip	paper	credit card
+00571	?	take	charge slip	store copy of receipt	credit card
+00572	?	take	charge slip	store	credit card
+00573	?	take	charge slip	reciept	credit card
+00574	?	take	charge slip	clerk	credit card
+00575	?	take	charge slip	items	credit card
+00576	?	take	charge slip	item	credit card
+00577	?	take	charge slip	purchase	credit card
+00578	?	take	charge slip	purchases	credit card
+00579	?	take	charge slip	my receipt	credit card
+00580	?	take	charge slip	receipt	credit card
+00581	?	get	card	merchant	credit card
+00582	?	get	card	cashier	credit card
+00583	?	get	card	process	credit card
+00584	?	get	card	processing	credit card
+00585	?	get	card	you	credit card
+00586	?	get	card	amount	credit card
+00587	?	get	card	total	credit card
+00588	?	get	card	purchased goods	credit card
+00589	?	get	card	receipt and goods	credit card
+00590	?	get	card	wallet	credit card
+00591	?	get	card	my wallet	credit card
+00592	?	get	card	checkout	credit card
+00593	?	get	card	merchant copy	credit card
+00594	?	get	card	store copy	credit card
+00595	?	get	card	reader	credit card
+00596	?	get	card	cashier ring	credit card
+00597	?	get	card	charge slip	credit card
+00598	?	get	card	approval	credit card
+00599	?	get	card	electric pad	credit card
+00600	?	get	card	paper	credit card
+00601	?	get	card	store copy of receipt	credit card
+00602	?	get	card	store	credit card
+00603	?	get	card	reciept	credit card
+00604	?	get	card	clerk	credit card
+00605	?	get	card	items	credit card
+00606	?	get	card	item	credit card
+00607	?	get	card	purchase	credit card
+00608	?	get	card	purchases	credit card
+00609	?	get	card	my receipt	credit card
+00610	?	get	card	receipt	credit card
+00611	?	take	receipt	merchant	credit card
+00612	?	take	receipt	cashier	credit card
+00613	?	take	receipt	process	credit card
+00614	?	take	receipt	processing	credit card
+00615	?	take	receipt	you	credit card
+00616	?	take	receipt	amount	credit card
+00617	?	take	receipt	total	credit card
+00618	?	take	receipt	purchased goods	credit card
+00619	?	take	receipt	receipt and goods	credit card
+00620	?	take	receipt	wallet	credit card
+00621	?	take	receipt	my wallet	credit card
+00622	?	take	receipt	checkout	credit card
+00623	?	take	receipt	merchant copy	credit card
+00624	?	take	receipt	store copy	credit card
+00625	?	take	receipt	reader	credit card
+00626	?	take	receipt	card	credit card
+00627	?	take	receipt	cashier ring	credit card
+00628	?	take	receipt	charge slip	credit card
+00629	?	take	receipt	approval	credit card
+00630	?	take	receipt	electric pad	credit card
+00631	?	take	receipt	paper	credit card
+00632	?	take	receipt	store copy of receipt	credit card
+00633	?	take	receipt	store	credit card
+00634	?	take	receipt	reciept	credit card
+00635	?	take	receipt	clerk	credit card
+00636	?	take	receipt	items	credit card
+00637	?	take	receipt	item	credit card
+00638	?	take	receipt	purchase	credit card
+00639	?	take	receipt	purchases	credit card
+00640	?	take	receipt	my receipt	credit card
+00641	?	have	cashier ring	merchant	credit card
+00642	?	have	cashier ring	cashier	credit card
+00643	?	have	cashier ring	process	credit card
+00644	?	have	cashier ring	processing	credit card
+00645	?	have	cashier ring	you	credit card
+00646	?	have	cashier ring	amount	credit card
+00647	?	have	cashier ring	total	credit card
+00648	?	have	cashier ring	purchased goods	credit card
+00649	?	have	cashier ring	receipt and goods	credit card
+00650	?	have	cashier ring	wallet	credit card
+00651	?	have	cashier ring	my wallet	credit card
+00652	?	have	cashier ring	checkout	credit card
+00653	?	have	cashier ring	merchant copy	credit card
+00654	?	have	cashier ring	store copy	credit card
+00655	?	have	cashier ring	reader	credit card
+00656	?	have	cashier ring	card	credit card
+00657	?	have	cashier ring	charge slip	credit card
+00658	?	have	cashier ring	approval	credit card
+00659	?	have	cashier ring	electric pad	credit card
+00660	?	have	cashier ring	paper	credit card
+00661	?	have	cashier ring	store copy of receipt	credit card
+00662	?	have	cashier ring	store	credit card
+00663	?	have	cashier ring	reciept	credit card
+00664	?	have	cashier ring	clerk	credit card
+00665	?	have	cashier ring	items	credit card
+00666	?	have	cashier ring	item	credit card
+00667	?	have	cashier ring	purchase	credit card
+00668	?	have	cashier ring	purchases	credit card
+00669	?	have	cashier ring	my receipt	credit card
+00670	?	have	cashier ring	receipt	credit card

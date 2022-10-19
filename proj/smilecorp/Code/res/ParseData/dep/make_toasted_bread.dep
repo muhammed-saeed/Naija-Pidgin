@@ -1,0 +1,1261 @@
+dobj(remove-1, bed-2)
+prep_from(remove-1, bag-4)
+
+dobj(place-1, bread-2)
+prep_in(place-1, toaster-4)
+
+prep_on(turn-1, toaster-3)
+
+dobj(get-1, loaf-2)
+prep_of(loaf-2, bread-4)
+
+det(slice-3, a-2)
+dobj(cut-1, slice-3)
+prep_of(slice-3, bread-5)
+
+det(toaster-3, a-2)
+dobj(get-1, toaster-3)
+
+prep_in(plug-1, toaster-3)
+
+dobj(place-1, slice-2)
+prep_of(slice-2, bread-4)
+prep_in(place-1, toaster-6)
+
+prep_on(turn-1, toaster-3)
+
+advmod(done-2, when-1)
+csubj(remove-3, done-2)
+dobj(remove-3, toast-4)
+prep_from(remove-3, toaster-6)
+
+det(slice-3, a-2)
+dobj(place-1, slice-3)
+prep_of(slice-3, bread-5)
+det(slot-8, the-7)
+prep_into(place-1, slot-8)
+det(toaster-11, the-10)
+prep_of(slot-8, toaster-11)
+
+det(darkness-5, the-2)
+amod(darkness-5, desired-3)
+nn(darkness-5, toast-4)
+dobj(set-1, darkness-5)
+
+prt(press-1, down-2)
+det(button-5, the-3)
+nn(button-5, toast-4)
+dobj(press-1, button-5)
+
+det(bread-3, the-2)
+dobj(remove-1, bread-3)
+advmod(complete-8, when-4)
+rel(complete-8, when-4)
+amod(cycle-6, toasting-5)
+nsubj(complete-8, cycle-6)
+cop(complete-8, is-7)
+dep(bread-3, complete-8)
+
+nsubj(slice-1, bread-2)
+
+prep_in(put-1, toaster-3)
+
+dobj(turn-1, toaster-2)
+prt(turn-1, on-3)
+
+nsubj(slice-1, bread-2)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+dobj(push-1, button-2)
+prep_on(push-1, toaster-4)
+
+prep_for(wait-1, bread-3)
+aux(pop-5, to-4)
+xcomp(wait-1, pop-5)
+prt(pop-5, up-6)
+
+dobj(remove-1, bread-2)
+prep_from(remove-1, toaster-4)
+
+amod(bread-3, sliced-2)
+dobj(get-1, bread-3)
+
+dobj(take-1, bread-2)
+prep_to(take-1, toaster-4)
+
+dobj(place-1, bread-2)
+prep_inside(place-1, toaster-4)
+
+dobj(turn-1, toaster-2)
+prt(turn-1, on-3)
+
+prep_for(wait-1, bread-3)
+aux(toast-5, to-4)
+xcomp(wait-1, toast-5)
+
+dobj(remove-1, bread-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, toaster-3)
+
+aux(get-4, slice-1)
+nsubj(get-4, bread-2)
+advmod(get-4, or-3)
+amod(bread-6, sliced-5)
+dobj(get-4, bread-6)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+nn(level-3, toast-2)
+dobj(select-1, level-3)
+
+prep_on(turn-1, toaster-3)
+
+prep_for(wait-1, toaster-3)
+aux(finish-5, to-4)
+xcomp(wait-1, finish-5)
+
+dobj(remove-1, bread-2)
+
+nsubj(slice-1, bread-2)
+
+dobj(put-1, bread-2)
+prep_inside(put-1, toaster-4)
+
+dobj(select-1, level-2)
+prep_of(level-2, darkness-4)
+prep_for(select-1, bread-6)
+
+dobj(press-1, button-2)
+
+prep_for(wait-1, bread-3)
+aux(toast-5, to-4)
+xcomp(wait-1, toast-5)
+
+advmod(go-1, back-2)
+dep(back-2, to-3)
+pobj(to-3, 2-4)
+mark(needed-8, if-5)
+amod(bread-7, more-6)
+nsubj(needed-8, bread-7)
+advcl(go-1, needed-8)
+
+aux(get-4, slice-1)
+nsubj(get-4, bread-2)
+advmod(get-4, or-3)
+amod(bread-6, sliced-5)
+dobj(get-4, bread-6)
+
+nsubj(sliced-2, place-1)
+dobj(sliced-2, bread-3)
+prep_in(sliced-2, toaster-5)
+
+nn(level-3, toast-2)
+dobj(select-1, level-3)
+
+prep_on(turn-1, toaster-3)
+
+prep_for(wait-1, bread-3)
+aux(toast-5, to-4)
+xcomp(wait-1, toast-5)
+
+dobj(remove-1, bread-2)
+
+det(slice-3, a-2)
+dobj(cut-1, slice-3)
+prep_of(slice-3, bread-5)
+det(loaf-8, the-7)
+prep_from(cut-1, loaf-8)
+
+prep_in(place-1, toaster-3)
+
+prt(press-1, down-2)
+det(button-4, the-3)
+dobj(press-1, button-4)
+
+det(toast-4, the-3)
+prep_for(wait-1, toast-4)
+aux(pop-6, to-5)
+infmod(toast-4, pop-6)
+prt(pop-6, up-7)
+
+nsubj(slice-1, bread-2)
+
+dobj(place-1, bread-2)
+prep_in(place-1, toaster-4)
+
+amod(level-3, desired-2)
+dobj(select-1, level-3)
+prep_on(select-1, toaster-5)
+
+prep_on(turn-1, toaster-3)
+
+prep_for(wait-1, bread-3)
+aux(toast-5, to-4)
+xcomp(wait-1, toast-5)
+
+dobj(remove-1, bread-2)
+
+det(toaster-4, the-3)
+prep_in(plug-1, toaster-4)
+
+dobj(take-1, bread-2)
+prep_out_of(take-1, bag-5)
+
+dobj(put-1, bread-2)
+nn(slots-5, toaster-4)
+prep_into(put-1, slots-5)
+
+det(toaster-3, the-2)
+dobj(set-1, toaster-3)
+det(level-7, the-5)
+amod(level-7, desired-6)
+prep_to(set-1, level-7)
+prep_of(level-7, toasting-9)
+
+det(bread-4, the-3)
+prep_for(wait-1, bread-4)
+aux(pop-6, to-5)
+xcomp(wait-1, pop-6)
+prt(pop-6, up-7)
+
+nsubj(toasted-2, remove-1)
+dobj(toasted-2, bread-3)
+prep_from(toasted-2, toaster-5)
+
+amod(toast-3, sliced-2)
+dobj(get-1, toast-3)
+
+dobj(put-1, bread-2)
+prep_into(put-1, toaster-4)
+
+dobj(plug-1, toaster-2)
+prep(plug-1, in-3)
+
+nn(lever-3, toaster-2)
+dobj(push-1, lever-3)
+prt(push-1, down-4)
+
+mark(jumps-4, until-2)
+nsubj(jumps-4, it-3)
+advcl(wait-1, jumps-4)
+advmod(jumps-4, back-5)
+acomp(jumps-4, up-6)
+
+csubj(toasted-3, take-1)
+prt(take-1, out-2)
+dobj(toasted-3, bread-4)
+
+det(piece-3, a-2)
+dobj(find-1, piece-3)
+prep_of(piece-3, bread-5)
+
+det(bread-3, a-2)
+iobj(find-1, bread-3)
+nn(rack-5, toaster-4)
+dobj(find-1, rack-5)
+
+dobj(place-1, bread-2)
+nn(rack-5, toaster-4)
+prep_into(place-1, rack-5)
+
+nn(rack-3, toaster-2)
+dobj(hold-1, rack-3)
+det(fire-7, a-5)
+amod(fire-7, warm-6)
+prep_against(hold-1, fire-7)
+mark(browned-12, until-8)
+nsubjpass(browned-12, bread-9)
+auxpass(browned-12, is-10)
+advmod(browned-12, slightly-11)
+advcl(hold-1, browned-12)
+
+dobj(locate-1, bread-2)
+
+dobj(locate-1, toaster-2)
+
+dobj(insert-1, bread-2)
+prep_into(insert-1, toaster-4)
+
+dobj(depress-1, control-2)
+prep_on(depress-1, toaster-4)
+aux(toast-6, to-5)
+infmod(toaster-4, toast-6)
+dobj(toast-6, bread-7)
+
+det(bread-3, some-2)
+dobj(get-1, bread-3)
+
+dobj(put-1, it-2)
+det(toaster-5, the-4)
+prep_in(put-1, toaster-5)
+
+dobj(switch-1, it-2)
+prep(switch-1, on-3)
+
+dobj(get-1, slices-2)
+prep_of(slices-2, bread-4)
+
+dobj(get-1, toaster-2)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+prep_for(wait-1, toaster-3)
+aux(finish-5, to-4)
+xcomp(wait-1, finish-5)
+
+dobj(put-1, bread-2)
+prep_on(put-1, plate-4)
+
+dobj(apply-1, butter-2)
+prep_to(apply-1, bread-4)
+
+dobj(own-1, toaster-2)
+dobj(own-1, bread-4)
+conj_and(toaster-2, bread-4)
+
+dobj(insert-1, bread-2)
+prep_in(insert-1, toaster-4)
+
+prt(pull-1, down-2)
+prep_on(pull-1, switch-4)
+prep_for(pull-1, toaster-6)
+
+prep_for(wait-1, toaster-3)
+aux(finish-5, to-4)
+xcomp(wait-1, finish-5)
+
+acomp(make-1, sure-2)
+nsubjpass(plugged-5, toaster-3)
+auxpass(plugged-5, is-4)
+ccomp(sure-2, plugged-5)
+prt(plugged-5, in-6)
+
+dobj(place-1, bread-2)
+prep_in(place-1, toaster-4)
+
+prep_on(turn-1, toaster-3)
+
+dobj(get-1, bread-2)
+prep_out_of(get-1, bag-5)
+
+dobj(place-1, bread-2)
+prep_in(place-1, slots-4)
+prep_of(slots-4, toaster-6)
+
+prep_in(plug-1, toaster-3)
+
+dobj(press-1, button-2)
+
+mark(pops-4, until-2)
+nsubj(pops-4, toast-3)
+advcl(wait-1, pops-4)
+advmod(pops-4, back-5)
+acomp(pops-4, up-6)
+
+dobj(unplug-1, toaster-2)
+
+dobj(remove-1, toast-2)
+
+dobj(get-1, bread-2)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+dobj(place-1, bread-2)
+prep_in(place-1, toaster-4)
+
+dobj(set-1, toaster-2)
+conj_and(set-1, start-4)
+xcomp(start-4, toasting-5)
+dobj(toasting-5, cycle-6)
+
+dobj(take-1, toast-2)
+prep_out_of(take-1, toaster-5)
+advmod(complete-9, when-6)
+rel(complete-9, when-6)
+nsubj(complete-9, cycle-7)
+cop(complete-9, is-8)
+dep(toaster-5, complete-9)
+
+dobj(put-1, bread-2)
+prep_into(put-1, toaster-4)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+prep_on(turn-1, toaster-3)
+
+prep_for(wait-1, toaster-3)
+aux(stop-5, to-4)
+xcomp(wait-1, stop-5)
+
+dobj(remove-1, toast-2)
+
+det(bread-3, the-2)
+dobj(put-1, bread-3)
+det(toaster-6, the-5)
+prep_into(put-1, toaster-6)
+
+det(lever-4, the-2)
+nn(lever-4, toaster-3)
+dobj(push-1, lever-4)
+prt(push-1, down-5)
+
+mark(pops-6, until-2)
+det(lever-5, the-3)
+nn(lever-5, toaster-4)
+nsubj(pops-6, lever-5)
+advcl(wait-1, pops-6)
+advmod(pops-6, back-7)
+acomp(pops-6, up-8)
+
+det(toast-3, the-2)
+dobj(remove-1, toast-3)
+cop(careful-5, being-4)
+dep(toast-3, careful-5)
+neg(burned-9, not-6)
+aux(burned-9, to-7)
+auxpass(burned-9, get-8)
+dep(careful-5, burned-9)
+
+det(toast-3, the-2)
+dobj(insert-1, toast-3)
+det(toaster-6, the-5)
+prep_into(insert-1, toaster-6)
+
+det(lever-3, the-2)
+dobj(push-1, lever-3)
+prt(push-1, down-4)
+
+advmod(pops-4, when-1)
+det(lever-3, the-2)
+nsubj(pops-4, lever-3)
+advmod(pops-4, back-5)
+advmod(pops-4, up-6)
+dep(pops-4, remove-7)
+det(toast-10, the-8)
+amod(toast-10, hot-9)
+dobj(remove-7, toast-10)
+
+dobj(put-1, toast-2)
+prep_in(put-1, toaster-4)
+
+dobj(press-1, lever-2)
+prt(press-1, down-3)
+
+advmod(pops-3, when-1)
+nsubj(pops-3, lever-2)
+csubj(remove-5, pops-3)
+prt(pops-3, up-4)
+dobj(remove-5, toast-6)
+
+dobj(take-1, slice-2)
+prep_of(slice-2, bread-4)
+det(bag-8, the-7)
+prep_out_of(take-1, bag-8)
+
+dobj(put-1, slice-2)
+prep_of(slice-2, bread-4)
+det(toaster-7, the-6)
+prep_in(put-1, toaster-7)
+
+prt(push-1, down-2)
+nn(lever-4, toaster-3)
+dobj(push-1, lever-4)
+
+csubj(toasted-5, wait-1)
+mark(is-4, until-2)
+nsubj(is-4, bread-3)
+advcl(wait-1, is-4)
+
+nn(slices-3, bread-2)
+dobj(select-1, slices-3)
+
+prep_in(place-1, toaster-3)
+
+amod(number-3, appropriate-2)
+dobj(obtain-1, number-3)
+nn(slices-6, bread-5)
+prep_of(number-3, slices-6)
+
+dobj(place-1, bread-2)
+prep_in(place-1, toaster-4)
+
+dobj(close-1, toaster-2)
+
+dobj(turn-1, toaster-2)
+prt(turn-1, on-3)
+
+det(bread-3, the-2)
+dobj(find-1, bread-3)
+
+dobj(remove-1, slices-2)
+
+prt(pull-1, out-2)
+dobj(pull-1, toaster-3)
+
+det(slices-3, the-2)
+dobj(insert-1, slices-3)
+prep_of(slices-3, bread-5)
+
+det(timer-3, the-2)
+dobj(set-1, timer-3)
+
+prep_on(turn-1, toaster-3)
+
+det(bread-3, the-2)
+dobj(remove-1, bread-3)
+advmod(done-5, when-4)
+dep(remove-1, done-5)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+prep_on(push-1, switch-3)
+
+nsubj(sliced-2, place-1)
+dobj(sliced-2, bread-3)
+prep_in(sliced-2, toaster-5)
+
+dobj(set-1, toaster-2)
+amod(level-6, prefered-4)
+nn(level-6, darkness-5)
+prep_to(set-1, level-6)
+
+prep_for(wait-1, taaster-3)
+prep_to(wait-1, pop-5)
+prep_of(pop-5, toast-7)
+
+dobj(ask-1, person-2)
+mark(want-5, if-3)
+nsubj(want-5, they-4)
+advcl(ask-1, want-5)
+dobj(want-5, butter-6)
+dobj(want-5, jelly-8)
+conj_and(butter-6, jelly-8)
+det(toast-11, the-10)
+prep_on(butter-6, toast-11)
+
+dobj(get-1, bread-2)
+
+prep_in(put-1, toaster-3)
+
+dobj(push-1, lever-2)
+prt(push-1, down-3)
+
+prep_for(wait-1, toast-3)
+aux(pop-5, to-4)
+xcomp(wait-1, pop-5)
+prt(pop-5, up-6)
+
+dobj(take-1, bread-2)
+prep_from(take-1, toaster-4)
+
+det(bread-3, the-2)
+dobj(put-1, bread-3)
+det(toaster-6, the-5)
+prep_in(put-1, toaster-6)
+
+aux(medium-6, adjust-1)
+det(knob-3, the-2)
+nsubj(medium-6, knob-3)
+nsubj(dark-8, knob-3)
+prep_for(knob-3, light-5)
+conj_or(medium-6, dark-8)
+
+advmod(pops-4, when-1)
+det(toast-3, the-2)
+nsubj(pops-4, toast-3)
+csubj(pull-6, pops-4)
+prt(pops-4, up-5)
+dobj(pull-6, it-7)
+prt(pull-6, out-8)
+
+dobj(remove-1, bread-2)
+prep_from(remove-1, bag-4)
+
+dobj(place-1, bread-2)
+prep_in(place-1, toaster-4)
+
+dobj(turn-1, toaster-2)
+prt(turn-1, on-3)
+
+nn(browns-4, bread-3)
+prep_until(wait-1, browns-4)
+
+dobj(turn-1, toaster-2)
+prt(turn-1, off-3)
+
+dobj(place-1, bread-2)
+prep_on(place-1, plate-4)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+dobj(turn-1, toaster-2)
+prt(turn-1, on-3)
+
+prt(take-1, out-2)
+num(slices-6, 1-3)
+conj_or(1-3, 2-5)
+num(slices-6, 2-5)
+dobj(take-1, slices-6)
+prep_of(slices-6, bread-8)
+
+det(toaster-4, the-3)
+prep_in(plug-1, toaster-4)
+
+det(toaster-3, the-2)
+dobj(stitch-1, toaster-3)
+prep(stitch-1, on-4)
+
+det(slices-4, the-3)
+prep_in(put-1, slices-4)
+prep_of(slices-4, bread-6)
+
+amod(dial-3, doness-2)
+dobj(select-1, dial-3)
+
+prt(push-1, down-2)
+dobj(push-1, leaver-3)
+
+mark(pops-4, until-2)
+nsubj(pops-4, bread-3)
+advcl(wait-1, pops-4)
+prt(pops-4, up-5)
+
+det(toaster-4, the-3)
+prep_in(plug-1, toaster-4)
+
+dobj(put-1, bread-2)
+det(toaster-5, the-4)
+prep_into(put-1, toaster-5)
+
+det(lever-3, the-2)
+dobj(lower-1, lever-3)
+
+mark(pops-5, until-2)
+det(toast-4, the-3)
+nsubj(pops-5, toast-4)
+advcl(wait-1, pops-5)
+prt(pops-5, up-6)
+
+det(toast-3, the-2)
+dobj(get-1, toast-3)
+
+dobj(place-1, slice-2)
+prep_of(slice-2, bread-4)
+nn(slot-7, toaster-6)
+prep_in(place-1, slot-7)
+
+prt(push-1, down-2)
+det(lever-6, the-4)
+nn(lever-6, start-5)
+prep_on(push-1, lever-6)
+
+prep_for(wait-1, toast-3)
+aux(pop-5, to-4)
+xcomp(wait-1, pop-5)
+prt(pop-5, up-6)
+
+advmod(remove-2, carefully-1)
+amod(toast-4, hot-3)
+dobj(remove-2, toast-4)
+
+nsubj(slice-1, bread-2)
+
+det(slice-3, a-2)
+dobj(put-1, slice-3)
+det(toaster-6, the-5)
+prep_in(put-1, toaster-6)
+
+det(toaster-4, the-3)
+prep_on(turn-1, toaster-4)
+
+
+det(slice-3, the-2)
+dobj(remove-1, slice-3)
+
+dobj(take-1, slice-2)
+prep_of(slice-2, bread-4)
+nn(bag-8, bread-7)
+prep_out_of(take-1, bag-8)
+
+nsubj(shut-2, tie-1)
+nn(bag-4, bread-3)
+dobj(shut-2, bag-4)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+dobj(push-1, button-2)
+prep_on(push-1, toaster-4)
+
+mark(pops-4, till-2)
+nsubj(pops-4, it-3)
+advcl(wait-1, pops-4)
+prt(pops-4, up-5)
+
+prep_out_of(take-1, toaster-4)
+
+nsubj(toast-2, butter-1)
+
+nn(packet-3, bread-2)
+dobj(open-1, packet-3)
+
+num(slices-3, 2-2)
+dobj(remove-1, slices-3)
+prep_of(slices-3, bread-5)
+
+dobj(put-1, slices-2)
+prep_in(put-1, toaster-4)
+
+advmod(button-4, down-2)
+det(button-4, the-3)
+dobj(push-1, button-4)
+
+mark(pops-4, until-2)
+nsubj(pops-4, tost-3)
+advcl(wait-1, pops-4)
+prt(pops-4, up-5)
+
+dobj(remove-1, toast-2)
+
+dobj(spread-1, butter-2)
+prep_on(spread-1, toast-4)
+
+dobj(get-1, bread-2)
+
+prep_on(turn-1, toaster-3)
+
+dobj(put-1, bread-2)
+prep(put-1, in-3)
+
+prt(turn-1, on-2)
+
+dobj(close-1, door-2)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+det(loaf-8, the-7)
+prep_from(remove-1, loaf-8)
+
+det(bread-3, the-2)
+dobj(place-1, bread-3)
+det(slot-7, the-5)
+nn(slot-7, toaster-6)
+prep_in(place-1, slot-7)
+
+det(lever-4, the-2)
+nn(lever-4, toaster-3)
+dobj(depress-1, lever-4)
+
+prep_for(wait-1, toast-3)
+aux(pop-5, to-4)
+xcomp(wait-1, pop-5)
+advmod(pop-5, up-6)
+advmod(pop-5, then-7)
+dep(pop-5, remove-8)
+xcomp(wait-1, eat-10)
+conj_and(pop-5, eat-10)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+dep(set-1, desired-2)
+xcomp(desired-2, toasting-3)
+dobj(toasting-3, level-4)
+
+dobj(push-1, lever-2)
+prt(push-1, down-3)
+
+advmod(pops-4, once-1)
+det(bread-3, the-2)
+nsubj(pops-4, bread-3)
+prt(pops-4, up-5)
+ccomp(pops-4, remove-6)
+
+dobj(spread-1, butter-2)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+dep(set-1, desired-2)
+xcomp(desired-2, toasting-3)
+dobj(toasting-3, level-4)
+
+dobj(push-1, lever-2)
+prt(push-1, down-3)
+
+advmod(pops-4, once-1)
+det(bread-3, the-2)
+nsubj(pops-4, bread-3)
+prt(pops-4, up-5)
+ccomp(pops-4, remove-6)
+
+dobj(spread-1, butter-2)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+dep(set-1, desired-2)
+xcomp(desired-2, toasting-3)
+dobj(toasting-3, level-4)
+
+dobj(push-1, lever-2)
+prt(push-1, down-3)
+
+advmod(pops-4, once-1)
+det(bread-3, the-2)
+nsubj(pops-4, bread-3)
+prt(pops-4, up-5)
+ccomp(pops-4, remove-6)
+
+dobj(spread-1, butter-2)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+dep(set-1, desired-2)
+xcomp(desired-2, toasting-3)
+dobj(toasting-3, level-4)
+
+dobj(push-1, lever-2)
+prt(push-1, down-3)
+
+advmod(pops-4, once-1)
+det(bread-3, the-2)
+nsubj(pops-4, bread-3)
+prt(pops-4, up-5)
+ccomp(pops-4, remove-6)
+
+dobj(spread-1, butter-2)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+
+det(slice-3, a-2)
+dobj(remove-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prep_in(place-1, slot-3)
+prep_in(place-1, toaster-5)
+
+dep(set-1, desired-2)
+xcomp(desired-2, toasting-3)
+dobj(toasting-3, level-4)
+
+dobj(push-1, lever-2)
+prt(push-1, down-3)
+
+advmod(pops-4, once-1)
+det(bread-3, the-2)
+nsubj(pops-4, bread-3)
+prt(pops-4, up-5)
+ccomp(pops-4, remove-6)
+
+dobj(spread-1, butter-2)
+
+dobj(cut-1, bread-2)
+
+prep_in(insert-1, toaster-3)
+
+dobj(start-1, toaster-2)
+
+dobj(obtain-1, bread-2)
+
+dobj(place-1, slice-2)
+dep(slice-2, s-4)
+prep_in(place-1, toaster-7)
+
+dobj(start-1, toaster-2)
+
+dobj(remove-1, bread-2)
+advmod(pops-4, when-3)
+dep(remove-1, pops-4)
+
+nn(bag-3, bread-2)
+dobj(open-1, bag-3)
+
+prt(take-1, out-2)
+det(slice-4, a-3)
+dobj(take-1, slice-4)
+
+det(toaster-4, the-3)
+prep_into(put-1, toaster-4)
+
+prt(press-1, down-2)
+nn(lever-4, toaster-3)
+dobj(press-1, lever-4)
+
+advmod(pops-3, when-1)
+nsubj(pops-3, it-2)
+dep(toasted-6, pops-3)
+dobj(pops-3, it-4)
+nsubj(toasted-6, s-5)
+
+nn(jam-3, butter-2)
+dobj(spread-1, jam-3)
+nn(butter-6, peanut-5)
+dobj(spread-1, butter-6)
+conj_or(jam-3, butter-6)
+det(toast-9, the-8)
+prep_on(spread-1, toast-9)
+
+nsubj(slice-1, bread-2)
+prep_from(slice-1, loaf-4)
+
+dobj(place-1, slice-2)
+prep_in(place-1, toaster-4)
+
+nn(lever-3, toaster-2)
+dobj(depress-1, lever-3)
+
+advmod(pops-3, when-1)
+nsubj(pops-3, lever-2)
+csubj(remove-5, pops-3)
+prt(pops-3, up-4)
+dobj(remove-5, toast-6)
+
+dobj(toast-1, bread-2)
+
+dobj(put-1, bread-2)
+prep_into(put-1, toaster-4)
+
+prep_on(turn-1, toaster-3)
+
+csubj(toasted-5, wait-1)
+mark(is-4, until-2)
+nsubj(is-4, bread-3)
+advcl(wait-1, is-4)
+
+dobj(retrieve-1, bread-2)
+
+dobj(locate-1, toaster-2)
+conj_and(locate-1, make-4)
+acomp(make-4, sure-5)
+nsubjpass(plugged-8, it-6)
+auxpass(plugged-8, is-7)
+ccomp(sure-5, plugged-8)
+prt(plugged-8, in-9)
+
+dobj(place-1, bread-2)
+nn(slots-5, toaster-4)
+prep_into(place-1, slots-5)
+
+advmod(button-3, down-2)
+dobj(push-1, button-3)
+conj_or(push-1, turn-5)
+dobj(turn-5, toaster-6)
+prt(turn-5, on-7)
+
+dobj(remove-1, toast-2)
+advmod(prompted-4, when-3)
+dep(remove-1, prompted-4)
+
+dobj(locate-1, bread-2)
+
+dobj(locate-1, toaster-2)
+
+prep_in(plug-1, toaster-3)
+
+dobj(place-1, bread-2)
+prep_in(place-1, toaster-4)
+
+dobj(turn-1, toaster-2)
+prt(turn-1, on-3)
+
+amod(settings-3, intended-2)
+dobj(select-1, settings-3)
+
+dobj(press-1, button-2)
+aux(start-4, to-3)
+xcomp(press-1, start-4)
+
+det(kitchen-4, the-3)
+prep_to(go-1, kitchen-4)
+
+dobj(get-1, loaf-2)
+prep_of(loaf-2, bread-4)
+
+prt(take-1, out-2)
+dobj(take-1, slice-3)
+prep_of(slice-3, bread-5)
+
+prt(put-1, away-2)
+dobj(put-1, loaf-3)
+prep_of(loaf-3, bread-5)
+
+dobj(put-1, slice-2)
+prep_in(put-1, toaster-4)
+
+prt(turn-1, on-2)
+
+prep_till(wait-1, toated-3)
+
+dobj(get-1, bread-2)
+
+dobj(open-1, bag-2)
+
+dobj(place-1, pieces-2)
+prep_of(pieces-2, bread-4)
+prep_in(place-1, toaster-6)
+
+dobj(push-1, bread-2)
+prt(push-1, down-3)
+
+mark(acquired-6, until-2)
+amod(toastiness-4, desired-3)
+nsubjpass(acquired-6, toastiness-4)
+auxpass(acquired-6, is-5)
+advcl(wait-1, acquired-6)
+
+prt(pop-1, up-2)
+
+
+dobj(get-1, bread-2)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+prt(press-1, down-2)
+ccomp(press-1, start-3)
+dobj(start-3, lever-4)
+
+prt(take-1, out-2)
+dobj(take-1, toast-3)
+advmod(pops-6, when-4)
+nsubj(pops-6, it-5)
+advcl(take-1, pops-6)
+prt(pops-6, up-7)
+
+dobj(get-1, bread-2)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+prt(push-1, down-2)
+dobj(push-1, lever-3)
+
+prep_for(wait-1, it-3)
+aux(toast-5, to-4)
+xcomp(wait-1, toast-5)
+
+advmod(pops-3, when-1)
+nsubj(pops-3, it-2)
+csubj(take-5, pops-3)
+prt(pops-3, up-4)
+prt(take-5, out-6)
+dobj(take-5, toast-7)
+
+det(toaster-4, the-3)
+prep_in(plug-1, toaster-4)
+
+num(slices-3, two-2)
+dobj(cut-1, slices-3)
+prep_of(slices-3, bread-5)
+
+prep_in(insert-1, toaster-3)
+
+nn(settings-3, toaster-2)
+dobj(adjust-1, settings-3)
+
+advmod(button-4, down-2)
+det(button-4, the-3)
+dobj(push-1, button-4)
+
+prep_for(wait-1, toast-3)
+prep_to(wait-1, pop-5)
+
+dobj(remove-1, toast-2)
+prep_from(remove-1, toaster-4)
+
+dobj(get-1, bread-2)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+dobj(toast-1, bread-2)
+
+num(slices-3, 1-2-2)
+dobj(remove-1, slices-3)
+prep_of(slices-3, bread-5)
+prep_from(remove-1, bag-7)
+
+dobj(insert-1, bread-2)
+prep_into(insert-1, toaster-4)
+
+dobj(adjust-1, toaster-2)
+amod(toast-7, light-4)
+conj_or(light-4, dark-6)
+amod(toast-7, dark-6)
+prep_for(adjust-1, toast-7)
+
+dobj(pull-1, handle-2)
+prt(pull-1, down-3)
+
+prep_for(wait-1, toast-3)
+aux(pop-5, to-4)
+xcomp(wait-1, pop-5)
+prt(pop-5, up-6)
+
+dobj(obtain-1, slice-2)
+prep_of(slice-2, bread-4)
+
+dobj(place-1, slice-2)
+prep_of(slice-2, bread-4)
+prep_into(place-1, toaster-6)
+
+nsubj(activate-1, toaster-2)
+
+prep_for(wait-1, toast-3)
+aux(pop-5, to-4)
+xcomp(wait-1, pop-5)
+prt(pop-5, up-6)
+
+dobj(take-1, slice-2)
+prep_out_of(slice-2, toaster-5)
+advmod(finished-7, when-6)
+advcl(take-1, finished-7)
+
+nsubj(toast-2, butter-1)
+
+prt(take-1, out-2)
+amod(number-4, desired-3)
+dobj(take-1, number-4)
+prep_of(number-4, slices-6)
+prep_of(slices-6, bread-8)
+
+prep_in(plug-1, toaster-3)
+
+dobj(place-1, bread-2)
+prep_in(place-1, toaster-4)
+
+prt(press-1, down-2)
+det(trigger-4, the-3)
+dobj(press-1, trigger-4)
+
+mark(pops-5, until-2)
+det(toast-4, the-3)
+nsubj(pops-5, toast-4)
+advcl(wait-1, pops-5)
+prt(pops-5, up-6)
+
+dobj(put-1, bread-2)
+prep_in(put-1, toaster-4)
+
+advmod(toasted-3, how-2)
+ccomp(select-1, toasted-3)
+nsubj(want-5, you-4)
+ccomp(toasted-3, want-5)
+dobj(want-5, it-6)
+
+dobj(push-1, lever-2)
+prt(push-1, down-3)
+
+prep_for(wait-1, toast-3)
+

@@ -1,0 +1,1537 @@
+id	score	v	d-obj	p	p-title
+000001	?	get	condiments	food	fast food restaurant
+000002	?	get	condiments	my food	fast food restaurant
+000003	?	get	condiments	napkins and condiments	fast food restaurant
+000004	?	get	condiments	menu board	fast food restaurant
+000005	?	get	condiments	cashier	fast food restaurant
+000006	?	get	condiments	my order	fast food restaurant
+000007	?	get	condiments	order	fast food restaurant
+000008	?	get	condiments	receptacle	fast food restaurant
+000009	?	get	condiments	tray	fast food restaurant
+000010	?	get	condiments	number	fast food restaurant
+000011	?	get	condiments	order number	fast food restaurant
+000012	?	get	condiments	vacant table	fast food restaurant
+000013	?	get	condiments	table	fast food restaurant
+000014	?	get	condiments	place to sit	fast food restaurant
+000015	?	get	condiments	seat	fast food restaurant
+000016	?	get	condiments	restaurant	fast food restaurant
+000017	?	get	condiments	swipe credit card	fast food restaurant
+000018	?	get	condiments	credit card	fast food restaurant
+000019	?	get	condiments	car	fast food restaurant
+000020	?	get	condiments	my receipt	fast food restaurant
+000021	?	get	condiments	receipt	fast food restaurant
+000022	?	get	condiments	your cup	fast food restaurant
+000023	?	get	condiments	cup	fast food restaurant
+000024	?	get	condiments	you	fast food restaurant
+000025	?	get	condiments	line	fast food restaurant
+000026	?	get	condiments	trash	fast food restaurant
+000027	?	get	condiments	trays and trash	fast food restaurant
+000028	?	get	condiments	menu	fast food restaurant
+000029	?	get	condiments	bill	fast food restaurant
+000030	?	get	condiments	counter	fast food restaurant
+000031	?	get	condiments	front counter	fast food restaurant
+000032	?	take	food	my food	fast food restaurant
+000033	?	take	food	napkins and condiments	fast food restaurant
+000034	?	take	food	condiments	fast food restaurant
+000035	?	take	food	menu board	fast food restaurant
+000036	?	take	food	cashier	fast food restaurant
+000037	?	take	food	my order	fast food restaurant
+000038	?	take	food	order	fast food restaurant
+000039	?	take	food	receptacle	fast food restaurant
+000040	?	take	food	tray	fast food restaurant
+000041	?	take	food	number	fast food restaurant
+000042	?	take	food	order number	fast food restaurant
+000043	?	take	food	vacant table	fast food restaurant
+000044	?	take	food	table	fast food restaurant
+000045	?	take	food	place to sit	fast food restaurant
+000046	?	take	food	seat	fast food restaurant
+000047	?	take	food	restaurant	fast food restaurant
+000048	?	take	food	swipe credit card	fast food restaurant
+000049	?	take	food	credit card	fast food restaurant
+000050	?	take	food	car	fast food restaurant
+000051	?	take	food	my receipt	fast food restaurant
+000052	?	take	food	receipt	fast food restaurant
+000053	?	take	food	your cup	fast food restaurant
+000054	?	take	food	cup	fast food restaurant
+000055	?	take	food	you	fast food restaurant
+000056	?	take	food	line	fast food restaurant
+000057	?	take	food	trash	fast food restaurant
+000058	?	take	food	trays and trash	fast food restaurant
+000059	?	take	food	menu	fast food restaurant
+000060	?	take	food	bill	fast food restaurant
+000061	?	take	food	counter	fast food restaurant
+000062	?	take	food	front counter	fast food restaurant
+000063	?	dispense	soda	food	fast food restaurant
+000064	?	dispense	soda	my food	fast food restaurant
+000065	?	dispense	soda	napkins and condiments	fast food restaurant
+000066	?	dispense	soda	condiments	fast food restaurant
+000067	?	dispense	soda	menu board	fast food restaurant
+000068	?	dispense	soda	cashier	fast food restaurant
+000069	?	dispense	soda	my order	fast food restaurant
+000070	?	dispense	soda	order	fast food restaurant
+000071	?	dispense	soda	receptacle	fast food restaurant
+000072	?	dispense	soda	tray	fast food restaurant
+000073	?	dispense	soda	number	fast food restaurant
+000074	?	dispense	soda	order number	fast food restaurant
+000075	?	dispense	soda	vacant table	fast food restaurant
+000076	?	dispense	soda	table	fast food restaurant
+000077	?	dispense	soda	place to sit	fast food restaurant
+000078	?	dispense	soda	seat	fast food restaurant
+000079	?	dispense	soda	restaurant	fast food restaurant
+000080	?	dispense	soda	swipe credit card	fast food restaurant
+000081	?	dispense	soda	credit card	fast food restaurant
+000082	?	dispense	soda	car	fast food restaurant
+000083	?	dispense	soda	my receipt	fast food restaurant
+000084	?	dispense	soda	receipt	fast food restaurant
+000085	?	dispense	soda	your cup	fast food restaurant
+000086	?	dispense	soda	cup	fast food restaurant
+000087	?	dispense	soda	you	fast food restaurant
+000088	?	dispense	soda	line	fast food restaurant
+000089	?	dispense	soda	trash	fast food restaurant
+000090	?	dispense	soda	trays and trash	fast food restaurant
+000091	?	dispense	soda	menu	fast food restaurant
+000092	?	dispense	soda	bill	fast food restaurant
+000093	?	dispense	soda	counter	fast food restaurant
+000094	?	dispense	soda	front counter	fast food restaurant
+000095	?	place	order	food	fast food restaurant
+000096	?	place	order	my food	fast food restaurant
+000097	?	place	order	napkins and condiments	fast food restaurant
+000098	?	place	order	condiments	fast food restaurant
+000099	?	place	order	menu board	fast food restaurant
+000100	?	place	order	cashier	fast food restaurant
+000101	?	place	order	my order	fast food restaurant
+000102	?	place	order	receptacle	fast food restaurant
+000103	?	place	order	tray	fast food restaurant
+000104	?	place	order	number	fast food restaurant
+000105	?	place	order	order number	fast food restaurant
+000106	?	place	order	vacant table	fast food restaurant
+000107	?	place	order	table	fast food restaurant
+000108	?	place	order	place to sit	fast food restaurant
+000109	?	place	order	seat	fast food restaurant
+000110	?	place	order	restaurant	fast food restaurant
+000111	?	place	order	swipe credit card	fast food restaurant
+000112	?	place	order	credit card	fast food restaurant
+000113	?	place	order	car	fast food restaurant
+000114	?	place	order	my receipt	fast food restaurant
+000115	?	place	order	receipt	fast food restaurant
+000116	?	place	order	your cup	fast food restaurant
+000117	?	place	order	cup	fast food restaurant
+000118	?	place	order	you	fast food restaurant
+000119	?	place	order	line	fast food restaurant
+000120	?	place	order	trash	fast food restaurant
+000121	?	place	order	trays and trash	fast food restaurant
+000122	?	place	order	menu	fast food restaurant
+000123	?	place	order	bill	fast food restaurant
+000124	?	place	order	counter	fast food restaurant
+000125	?	place	order	front counter	fast food restaurant
+000126	?	get	napkins	food	fast food restaurant
+000127	?	get	napkins	my food	fast food restaurant
+000128	?	get	napkins	napkins and condiments	fast food restaurant
+000129	?	get	napkins	condiments	fast food restaurant
+000130	?	get	napkins	menu board	fast food restaurant
+000131	?	get	napkins	cashier	fast food restaurant
+000132	?	get	napkins	my order	fast food restaurant
+000133	?	get	napkins	order	fast food restaurant
+000134	?	get	napkins	receptacle	fast food restaurant
+000135	?	get	napkins	tray	fast food restaurant
+000136	?	get	napkins	number	fast food restaurant
+000137	?	get	napkins	order number	fast food restaurant
+000138	?	get	napkins	vacant table	fast food restaurant
+000139	?	get	napkins	table	fast food restaurant
+000140	?	get	napkins	place to sit	fast food restaurant
+000141	?	get	napkins	seat	fast food restaurant
+000142	?	get	napkins	restaurant	fast food restaurant
+000143	?	get	napkins	swipe credit card	fast food restaurant
+000144	?	get	napkins	credit card	fast food restaurant
+000145	?	get	napkins	car	fast food restaurant
+000146	?	get	napkins	my receipt	fast food restaurant
+000147	?	get	napkins	receipt	fast food restaurant
+000148	?	get	napkins	your cup	fast food restaurant
+000149	?	get	napkins	cup	fast food restaurant
+000150	?	get	napkins	you	fast food restaurant
+000151	?	get	napkins	line	fast food restaurant
+000152	?	get	napkins	trash	fast food restaurant
+000153	?	get	napkins	trays and trash	fast food restaurant
+000154	?	get	napkins	menu	fast food restaurant
+000155	?	get	napkins	bill	fast food restaurant
+000156	?	get	napkins	counter	fast food restaurant
+000157	?	get	napkins	front counter	fast food restaurant
+000158	?	receive	food	my food	fast food restaurant
+000159	?	receive	food	napkins and condiments	fast food restaurant
+000160	?	receive	food	condiments	fast food restaurant
+000161	?	receive	food	menu board	fast food restaurant
+000162	?	receive	food	cashier	fast food restaurant
+000163	?	receive	food	my order	fast food restaurant
+000164	?	receive	food	order	fast food restaurant
+000165	?	receive	food	receptacle	fast food restaurant
+000166	?	receive	food	tray	fast food restaurant
+000167	?	receive	food	number	fast food restaurant
+000168	?	receive	food	order number	fast food restaurant
+000169	?	receive	food	vacant table	fast food restaurant
+000170	?	receive	food	table	fast food restaurant
+000171	?	receive	food	place to sit	fast food restaurant
+000172	?	receive	food	seat	fast food restaurant
+000173	?	receive	food	restaurant	fast food restaurant
+000174	?	receive	food	swipe credit card	fast food restaurant
+000175	?	receive	food	credit card	fast food restaurant
+000176	?	receive	food	car	fast food restaurant
+000177	?	receive	food	my receipt	fast food restaurant
+000178	?	receive	food	receipt	fast food restaurant
+000179	?	receive	food	your cup	fast food restaurant
+000180	?	receive	food	cup	fast food restaurant
+000181	?	receive	food	you	fast food restaurant
+000182	?	receive	food	line	fast food restaurant
+000183	?	receive	food	trash	fast food restaurant
+000184	?	receive	food	trays and trash	fast food restaurant
+000185	?	receive	food	menu	fast food restaurant
+000186	?	receive	food	bill	fast food restaurant
+000187	?	receive	food	counter	fast food restaurant
+000188	?	receive	food	front counter	fast food restaurant
+000189	?	receive	tray	food	fast food restaurant
+000190	?	receive	tray	my food	fast food restaurant
+000191	?	receive	tray	napkins and condiments	fast food restaurant
+000192	?	receive	tray	condiments	fast food restaurant
+000193	?	receive	tray	menu board	fast food restaurant
+000194	?	receive	tray	cashier	fast food restaurant
+000195	?	receive	tray	my order	fast food restaurant
+000196	?	receive	tray	order	fast food restaurant
+000197	?	receive	tray	receptacle	fast food restaurant
+000198	?	receive	tray	number	fast food restaurant
+000199	?	receive	tray	order number	fast food restaurant
+000200	?	receive	tray	vacant table	fast food restaurant
+000201	?	receive	tray	table	fast food restaurant
+000202	?	receive	tray	place to sit	fast food restaurant
+000203	?	receive	tray	seat	fast food restaurant
+000204	?	receive	tray	restaurant	fast food restaurant
+000205	?	receive	tray	swipe credit card	fast food restaurant
+000206	?	receive	tray	credit card	fast food restaurant
+000207	?	receive	tray	car	fast food restaurant
+000208	?	receive	tray	my receipt	fast food restaurant
+000209	?	receive	tray	receipt	fast food restaurant
+000210	?	receive	tray	your cup	fast food restaurant
+000211	?	receive	tray	cup	fast food restaurant
+000212	?	receive	tray	you	fast food restaurant
+000213	?	receive	tray	line	fast food restaurant
+000214	?	receive	tray	trash	fast food restaurant
+000215	?	receive	tray	trays and trash	fast food restaurant
+000216	?	receive	tray	menu	fast food restaurant
+000217	?	receive	tray	bill	fast food restaurant
+000218	?	receive	tray	counter	fast food restaurant
+000219	?	receive	tray	front counter	fast food restaurant
+000220	?	get	drink	food	fast food restaurant
+000221	?	get	drink	my food	fast food restaurant
+000222	?	get	drink	napkins and condiments	fast food restaurant
+000223	?	get	drink	condiments	fast food restaurant
+000224	?	get	drink	menu board	fast food restaurant
+000225	?	get	drink	cashier	fast food restaurant
+000226	?	get	drink	my order	fast food restaurant
+000227	?	get	drink	order	fast food restaurant
+000228	?	get	drink	receptacle	fast food restaurant
+000229	?	get	drink	tray	fast food restaurant
+000230	?	get	drink	number	fast food restaurant
+000231	?	get	drink	order number	fast food restaurant
+000232	?	get	drink	vacant table	fast food restaurant
+000233	?	get	drink	table	fast food restaurant
+000234	?	get	drink	place to sit	fast food restaurant
+000235	?	get	drink	seat	fast food restaurant
+000236	?	get	drink	restaurant	fast food restaurant
+000237	?	get	drink	swipe credit card	fast food restaurant
+000238	?	get	drink	credit card	fast food restaurant
+000239	?	get	drink	car	fast food restaurant
+000240	?	get	drink	my receipt	fast food restaurant
+000241	?	get	drink	receipt	fast food restaurant
+000242	?	get	drink	your cup	fast food restaurant
+000243	?	get	drink	cup	fast food restaurant
+000244	?	get	drink	you	fast food restaurant
+000245	?	get	drink	line	fast food restaurant
+000246	?	get	drink	trash	fast food restaurant
+000247	?	get	drink	trays and trash	fast food restaurant
+000248	?	get	drink	menu	fast food restaurant
+000249	?	get	drink	bill	fast food restaurant
+000250	?	get	drink	counter	fast food restaurant
+000251	?	get	drink	front counter	fast food restaurant
+000252	?	confirm	order	food	fast food restaurant
+000253	?	confirm	order	my food	fast food restaurant
+000254	?	confirm	order	napkins and condiments	fast food restaurant
+000255	?	confirm	order	condiments	fast food restaurant
+000256	?	confirm	order	menu board	fast food restaurant
+000257	?	confirm	order	cashier	fast food restaurant
+000258	?	confirm	order	my order	fast food restaurant
+000259	?	confirm	order	receptacle	fast food restaurant
+000260	?	confirm	order	tray	fast food restaurant
+000261	?	confirm	order	number	fast food restaurant
+000262	?	confirm	order	order number	fast food restaurant
+000263	?	confirm	order	vacant table	fast food restaurant
+000264	?	confirm	order	table	fast food restaurant
+000265	?	confirm	order	place to sit	fast food restaurant
+000266	?	confirm	order	seat	fast food restaurant
+000267	?	confirm	order	restaurant	fast food restaurant
+000268	?	confirm	order	swipe credit card	fast food restaurant
+000269	?	confirm	order	credit card	fast food restaurant
+000270	?	confirm	order	car	fast food restaurant
+000271	?	confirm	order	my receipt	fast food restaurant
+000272	?	confirm	order	receipt	fast food restaurant
+000273	?	confirm	order	your cup	fast food restaurant
+000274	?	confirm	order	cup	fast food restaurant
+000275	?	confirm	order	you	fast food restaurant
+000276	?	confirm	order	line	fast food restaurant
+000277	?	confirm	order	trash	fast food restaurant
+000278	?	confirm	order	trays and trash	fast food restaurant
+000279	?	confirm	order	menu	fast food restaurant
+000280	?	confirm	order	bill	fast food restaurant
+000281	?	confirm	order	counter	fast food restaurant
+000282	?	confirm	order	front counter	fast food restaurant
+000283	?	enter	restaurant	food	fast food restaurant
+000284	?	enter	restaurant	my food	fast food restaurant
+000285	?	enter	restaurant	napkins and condiments	fast food restaurant
+000286	?	enter	restaurant	condiments	fast food restaurant
+000287	?	enter	restaurant	menu board	fast food restaurant
+000288	?	enter	restaurant	cashier	fast food restaurant
+000289	?	enter	restaurant	my order	fast food restaurant
+000290	?	enter	restaurant	order	fast food restaurant
+000291	?	enter	restaurant	receptacle	fast food restaurant
+000292	?	enter	restaurant	tray	fast food restaurant
+000293	?	enter	restaurant	number	fast food restaurant
+000294	?	enter	restaurant	order number	fast food restaurant
+000295	?	enter	restaurant	vacant table	fast food restaurant
+000296	?	enter	restaurant	table	fast food restaurant
+000297	?	enter	restaurant	place to sit	fast food restaurant
+000298	?	enter	restaurant	seat	fast food restaurant
+000299	?	enter	restaurant	swipe credit card	fast food restaurant
+000300	?	enter	restaurant	credit card	fast food restaurant
+000301	?	enter	restaurant	car	fast food restaurant
+000302	?	enter	restaurant	my receipt	fast food restaurant
+000303	?	enter	restaurant	receipt	fast food restaurant
+000304	?	enter	restaurant	your cup	fast food restaurant
+000305	?	enter	restaurant	cup	fast food restaurant
+000306	?	enter	restaurant	you	fast food restaurant
+000307	?	enter	restaurant	line	fast food restaurant
+000308	?	enter	restaurant	trash	fast food restaurant
+000309	?	enter	restaurant	trays and trash	fast food restaurant
+000310	?	enter	restaurant	menu	fast food restaurant
+000311	?	enter	restaurant	bill	fast food restaurant
+000312	?	enter	restaurant	counter	fast food restaurant
+000313	?	enter	restaurant	front counter	fast food restaurant
+000314	?	return	tray	food	fast food restaurant
+000315	?	return	tray	my food	fast food restaurant
+000316	?	return	tray	napkins and condiments	fast food restaurant
+000317	?	return	tray	condiments	fast food restaurant
+000318	?	return	tray	menu board	fast food restaurant
+000319	?	return	tray	cashier	fast food restaurant
+000320	?	return	tray	my order	fast food restaurant
+000321	?	return	tray	order	fast food restaurant
+000322	?	return	tray	receptacle	fast food restaurant
+000323	?	return	tray	number	fast food restaurant
+000324	?	return	tray	order number	fast food restaurant
+000325	?	return	tray	vacant table	fast food restaurant
+000326	?	return	tray	table	fast food restaurant
+000327	?	return	tray	place to sit	fast food restaurant
+000328	?	return	tray	seat	fast food restaurant
+000329	?	return	tray	restaurant	fast food restaurant
+000330	?	return	tray	swipe credit card	fast food restaurant
+000331	?	return	tray	credit card	fast food restaurant
+000332	?	return	tray	car	fast food restaurant
+000333	?	return	tray	my receipt	fast food restaurant
+000334	?	return	tray	receipt	fast food restaurant
+000335	?	return	tray	your cup	fast food restaurant
+000336	?	return	tray	cup	fast food restaurant
+000337	?	return	tray	you	fast food restaurant
+000338	?	return	tray	line	fast food restaurant
+000339	?	return	tray	trash	fast food restaurant
+000340	?	return	tray	trays and trash	fast food restaurant
+000341	?	return	tray	menu	fast food restaurant
+000342	?	return	tray	bill	fast food restaurant
+000343	?	return	tray	counter	fast food restaurant
+000344	?	return	tray	front counter	fast food restaurant
+000345	?	eat	food	my food	fast food restaurant
+000346	?	eat	food	napkins and condiments	fast food restaurant
+000347	?	eat	food	condiments	fast food restaurant
+000348	?	eat	food	menu board	fast food restaurant
+000349	?	eat	food	cashier	fast food restaurant
+000350	?	eat	food	my order	fast food restaurant
+000351	?	eat	food	order	fast food restaurant
+000352	?	eat	food	receptacle	fast food restaurant
+000353	?	eat	food	tray	fast food restaurant
+000354	?	eat	food	number	fast food restaurant
+000355	?	eat	food	order number	fast food restaurant
+000356	?	eat	food	vacant table	fast food restaurant
+000357	?	eat	food	table	fast food restaurant
+000358	?	eat	food	place to sit	fast food restaurant
+000359	?	eat	food	seat	fast food restaurant
+000360	?	eat	food	restaurant	fast food restaurant
+000361	?	eat	food	swipe credit card	fast food restaurant
+000362	?	eat	food	credit card	fast food restaurant
+000363	?	eat	food	car	fast food restaurant
+000364	?	eat	food	my receipt	fast food restaurant
+000365	?	eat	food	receipt	fast food restaurant
+000366	?	eat	food	your cup	fast food restaurant
+000367	?	eat	food	cup	fast food restaurant
+000368	?	eat	food	you	fast food restaurant
+000369	?	eat	food	line	fast food restaurant
+000370	?	eat	food	trash	fast food restaurant
+000371	?	eat	food	trays and trash	fast food restaurant
+000372	?	eat	food	menu	fast food restaurant
+000373	?	eat	food	bill	fast food restaurant
+000374	?	eat	food	counter	fast food restaurant
+000375	?	eat	food	front counter	fast food restaurant
+000376	?	take	trash	food	fast food restaurant
+000377	?	take	trash	my food	fast food restaurant
+000378	?	take	trash	napkins and condiments	fast food restaurant
+000379	?	take	trash	condiments	fast food restaurant
+000380	?	take	trash	menu board	fast food restaurant
+000381	?	take	trash	cashier	fast food restaurant
+000382	?	take	trash	my order	fast food restaurant
+000383	?	take	trash	order	fast food restaurant
+000384	?	take	trash	receptacle	fast food restaurant
+000385	?	take	trash	tray	fast food restaurant
+000386	?	take	trash	number	fast food restaurant
+000387	?	take	trash	order number	fast food restaurant
+000388	?	take	trash	vacant table	fast food restaurant
+000389	?	take	trash	table	fast food restaurant
+000390	?	take	trash	place to sit	fast food restaurant
+000391	?	take	trash	seat	fast food restaurant
+000392	?	take	trash	restaurant	fast food restaurant
+000393	?	take	trash	swipe credit card	fast food restaurant
+000394	?	take	trash	credit card	fast food restaurant
+000395	?	take	trash	car	fast food restaurant
+000396	?	take	trash	my receipt	fast food restaurant
+000397	?	take	trash	receipt	fast food restaurant
+000398	?	take	trash	your cup	fast food restaurant
+000399	?	take	trash	cup	fast food restaurant
+000400	?	take	trash	you	fast food restaurant
+000401	?	take	trash	line	fast food restaurant
+000402	?	take	trash	trays and trash	fast food restaurant
+000403	?	take	trash	menu	fast food restaurant
+000404	?	take	trash	bill	fast food restaurant
+000405	?	take	trash	counter	fast food restaurant
+000406	?	take	trash	front counter	fast food restaurant
+000407	?	recieve	food	my food	fast food restaurant
+000408	?	recieve	food	napkins and condiments	fast food restaurant
+000409	?	recieve	food	condiments	fast food restaurant
+000410	?	recieve	food	menu board	fast food restaurant
+000411	?	recieve	food	cashier	fast food restaurant
+000412	?	recieve	food	my order	fast food restaurant
+000413	?	recieve	food	order	fast food restaurant
+000414	?	recieve	food	receptacle	fast food restaurant
+000415	?	recieve	food	tray	fast food restaurant
+000416	?	recieve	food	number	fast food restaurant
+000417	?	recieve	food	order number	fast food restaurant
+000418	?	recieve	food	vacant table	fast food restaurant
+000419	?	recieve	food	table	fast food restaurant
+000420	?	recieve	food	place to sit	fast food restaurant
+000421	?	recieve	food	seat	fast food restaurant
+000422	?	recieve	food	restaurant	fast food restaurant
+000423	?	recieve	food	swipe credit card	fast food restaurant
+000424	?	recieve	food	credit card	fast food restaurant
+000425	?	recieve	food	car	fast food restaurant
+000426	?	recieve	food	my receipt	fast food restaurant
+000427	?	recieve	food	receipt	fast food restaurant
+000428	?	recieve	food	your cup	fast food restaurant
+000429	?	recieve	food	cup	fast food restaurant
+000430	?	recieve	food	you	fast food restaurant
+000431	?	recieve	food	line	fast food restaurant
+000432	?	recieve	food	trash	fast food restaurant
+000433	?	recieve	food	trays and trash	fast food restaurant
+000434	?	recieve	food	menu	fast food restaurant
+000435	?	recieve	food	bill	fast food restaurant
+000436	?	recieve	food	counter	fast food restaurant
+000437	?	recieve	food	front counter	fast food restaurant
+000438	?	pick	food	my food	fast food restaurant
+000439	?	pick	food	napkins and condiments	fast food restaurant
+000440	?	pick	food	condiments	fast food restaurant
+000441	?	pick	food	menu board	fast food restaurant
+000442	?	pick	food	cashier	fast food restaurant
+000443	?	pick	food	my order	fast food restaurant
+000444	?	pick	food	order	fast food restaurant
+000445	?	pick	food	receptacle	fast food restaurant
+000446	?	pick	food	tray	fast food restaurant
+000447	?	pick	food	number	fast food restaurant
+000448	?	pick	food	order number	fast food restaurant
+000449	?	pick	food	vacant table	fast food restaurant
+000450	?	pick	food	table	fast food restaurant
+000451	?	pick	food	place to sit	fast food restaurant
+000452	?	pick	food	seat	fast food restaurant
+000453	?	pick	food	restaurant	fast food restaurant
+000454	?	pick	food	swipe credit card	fast food restaurant
+000455	?	pick	food	credit card	fast food restaurant
+000456	?	pick	food	car	fast food restaurant
+000457	?	pick	food	my receipt	fast food restaurant
+000458	?	pick	food	receipt	fast food restaurant
+000459	?	pick	food	your cup	fast food restaurant
+000460	?	pick	food	cup	fast food restaurant
+000461	?	pick	food	you	fast food restaurant
+000462	?	pick	food	line	fast food restaurant
+000463	?	pick	food	trash	fast food restaurant
+000464	?	pick	food	trays and trash	fast food restaurant
+000465	?	pick	food	menu	fast food restaurant
+000466	?	pick	food	bill	fast food restaurant
+000467	?	pick	food	counter	fast food restaurant
+000468	?	pick	food	front counter	fast food restaurant
+000469	?	take	food tray	food	fast food restaurant
+000470	?	take	food tray	my food	fast food restaurant
+000471	?	take	food tray	napkins and condiments	fast food restaurant
+000472	?	take	food tray	condiments	fast food restaurant
+000473	?	take	food tray	menu board	fast food restaurant
+000474	?	take	food tray	cashier	fast food restaurant
+000475	?	take	food tray	my order	fast food restaurant
+000476	?	take	food tray	order	fast food restaurant
+000477	?	take	food tray	receptacle	fast food restaurant
+000478	?	take	food tray	tray	fast food restaurant
+000479	?	take	food tray	number	fast food restaurant
+000480	?	take	food tray	order number	fast food restaurant
+000481	?	take	food tray	vacant table	fast food restaurant
+000482	?	take	food tray	table	fast food restaurant
+000483	?	take	food tray	place to sit	fast food restaurant
+000484	?	take	food tray	seat	fast food restaurant
+000485	?	take	food tray	restaurant	fast food restaurant
+000486	?	take	food tray	swipe credit card	fast food restaurant
+000487	?	take	food tray	credit card	fast food restaurant
+000488	?	take	food tray	car	fast food restaurant
+000489	?	take	food tray	my receipt	fast food restaurant
+000490	?	take	food tray	receipt	fast food restaurant
+000491	?	take	food tray	your cup	fast food restaurant
+000492	?	take	food tray	cup	fast food restaurant
+000493	?	take	food tray	you	fast food restaurant
+000494	?	take	food tray	line	fast food restaurant
+000495	?	take	food tray	trash	fast food restaurant
+000496	?	take	food tray	trays and trash	fast food restaurant
+000497	?	take	food tray	menu	fast food restaurant
+000498	?	take	food tray	bill	fast food restaurant
+000499	?	take	food tray	counter	fast food restaurant
+000500	?	take	food tray	front counter	fast food restaurant
+000501	?	clear	tray	food	fast food restaurant
+000502	?	clear	tray	my food	fast food restaurant
+000503	?	clear	tray	napkins and condiments	fast food restaurant
+000504	?	clear	tray	condiments	fast food restaurant
+000505	?	clear	tray	menu board	fast food restaurant
+000506	?	clear	tray	cashier	fast food restaurant
+000507	?	clear	tray	my order	fast food restaurant
+000508	?	clear	tray	order	fast food restaurant
+000509	?	clear	tray	receptacle	fast food restaurant
+000510	?	clear	tray	number	fast food restaurant
+000511	?	clear	tray	order number	fast food restaurant
+000512	?	clear	tray	vacant table	fast food restaurant
+000513	?	clear	tray	table	fast food restaurant
+000514	?	clear	tray	place to sit	fast food restaurant
+000515	?	clear	tray	seat	fast food restaurant
+000516	?	clear	tray	restaurant	fast food restaurant
+000517	?	clear	tray	swipe credit card	fast food restaurant
+000518	?	clear	tray	credit card	fast food restaurant
+000519	?	clear	tray	car	fast food restaurant
+000520	?	clear	tray	my receipt	fast food restaurant
+000521	?	clear	tray	receipt	fast food restaurant
+000522	?	clear	tray	your cup	fast food restaurant
+000523	?	clear	tray	cup	fast food restaurant
+000524	?	clear	tray	you	fast food restaurant
+000525	?	clear	tray	line	fast food restaurant
+000526	?	clear	tray	trash	fast food restaurant
+000527	?	clear	tray	trays and trash	fast food restaurant
+000528	?	clear	tray	menu	fast food restaurant
+000529	?	clear	tray	bill	fast food restaurant
+000530	?	clear	tray	counter	fast food restaurant
+000531	?	clear	tray	front counter	fast food restaurant
+000532	?	give	order	food	fast food restaurant
+000533	?	give	order	my food	fast food restaurant
+000534	?	give	order	napkins and condiments	fast food restaurant
+000535	?	give	order	condiments	fast food restaurant
+000536	?	give	order	menu board	fast food restaurant
+000537	?	give	order	cashier	fast food restaurant
+000538	?	give	order	my order	fast food restaurant
+000539	?	give	order	receptacle	fast food restaurant
+000540	?	give	order	tray	fast food restaurant
+000541	?	give	order	number	fast food restaurant
+000542	?	give	order	order number	fast food restaurant
+000543	?	give	order	vacant table	fast food restaurant
+000544	?	give	order	table	fast food restaurant
+000545	?	give	order	place to sit	fast food restaurant
+000546	?	give	order	seat	fast food restaurant
+000547	?	give	order	restaurant	fast food restaurant
+000548	?	give	order	swipe credit card	fast food restaurant
+000549	?	give	order	credit card	fast food restaurant
+000550	?	give	order	car	fast food restaurant
+000551	?	give	order	my receipt	fast food restaurant
+000552	?	give	order	receipt	fast food restaurant
+000553	?	give	order	your cup	fast food restaurant
+000554	?	give	order	cup	fast food restaurant
+000555	?	give	order	you	fast food restaurant
+000556	?	give	order	line	fast food restaurant
+000557	?	give	order	trash	fast food restaurant
+000558	?	give	order	trays and trash	fast food restaurant
+000559	?	give	order	menu	fast food restaurant
+000560	?	give	order	bill	fast food restaurant
+000561	?	give	order	counter	fast food restaurant
+000562	?	give	order	front counter	fast food restaurant
+000563	?	put	credit card	food	fast food restaurant
+000564	?	put	credit card	my food	fast food restaurant
+000565	?	put	credit card	napkins and condiments	fast food restaurant
+000566	?	put	credit card	condiments	fast food restaurant
+000567	?	put	credit card	menu board	fast food restaurant
+000568	?	put	credit card	cashier	fast food restaurant
+000569	?	put	credit card	my order	fast food restaurant
+000570	?	put	credit card	order	fast food restaurant
+000571	?	put	credit card	receptacle	fast food restaurant
+000572	?	put	credit card	tray	fast food restaurant
+000573	?	put	credit card	number	fast food restaurant
+000574	?	put	credit card	order number	fast food restaurant
+000575	?	put	credit card	vacant table	fast food restaurant
+000576	?	put	credit card	table	fast food restaurant
+000577	?	put	credit card	place to sit	fast food restaurant
+000578	?	put	credit card	seat	fast food restaurant
+000579	?	put	credit card	restaurant	fast food restaurant
+000580	?	put	credit card	swipe credit card	fast food restaurant
+000581	?	put	credit card	car	fast food restaurant
+000582	?	put	credit card	my receipt	fast food restaurant
+000583	?	put	credit card	receipt	fast food restaurant
+000584	?	put	credit card	your cup	fast food restaurant
+000585	?	put	credit card	cup	fast food restaurant
+000586	?	put	credit card	you	fast food restaurant
+000587	?	put	credit card	line	fast food restaurant
+000588	?	put	credit card	trash	fast food restaurant
+000589	?	put	credit card	trays and trash	fast food restaurant
+000590	?	put	credit card	menu	fast food restaurant
+000591	?	put	credit card	bill	fast food restaurant
+000592	?	put	credit card	counter	fast food restaurant
+000593	?	put	credit card	front counter	fast food restaurant
+000594	?	order	items	food	fast food restaurant
+000595	?	order	items	my food	fast food restaurant
+000596	?	order	items	napkins and condiments	fast food restaurant
+000597	?	order	items	condiments	fast food restaurant
+000598	?	order	items	menu board	fast food restaurant
+000599	?	order	items	cashier	fast food restaurant
+000600	?	order	items	my order	fast food restaurant
+000601	?	order	items	order	fast food restaurant
+000602	?	order	items	receptacle	fast food restaurant
+000603	?	order	items	tray	fast food restaurant
+000604	?	order	items	number	fast food restaurant
+000605	?	order	items	order number	fast food restaurant
+000606	?	order	items	vacant table	fast food restaurant
+000607	?	order	items	table	fast food restaurant
+000608	?	order	items	place to sit	fast food restaurant
+000609	?	order	items	seat	fast food restaurant
+000610	?	order	items	restaurant	fast food restaurant
+000611	?	order	items	swipe credit card	fast food restaurant
+000612	?	order	items	credit card	fast food restaurant
+000613	?	order	items	car	fast food restaurant
+000614	?	order	items	my receipt	fast food restaurant
+000615	?	order	items	receipt	fast food restaurant
+000616	?	order	items	your cup	fast food restaurant
+000617	?	order	items	cup	fast food restaurant
+000618	?	order	items	you	fast food restaurant
+000619	?	order	items	line	fast food restaurant
+000620	?	order	items	trash	fast food restaurant
+000621	?	order	items	trays and trash	fast food restaurant
+000622	?	order	items	menu	fast food restaurant
+000623	?	order	items	bill	fast food restaurant
+000624	?	order	items	counter	fast food restaurant
+000625	?	order	items	front counter	fast food restaurant
+000626	?	pick	condiments	food	fast food restaurant
+000627	?	pick	condiments	my food	fast food restaurant
+000628	?	pick	condiments	napkins and condiments	fast food restaurant
+000629	?	pick	condiments	menu board	fast food restaurant
+000630	?	pick	condiments	cashier	fast food restaurant
+000631	?	pick	condiments	my order	fast food restaurant
+000632	?	pick	condiments	order	fast food restaurant
+000633	?	pick	condiments	receptacle	fast food restaurant
+000634	?	pick	condiments	tray	fast food restaurant
+000635	?	pick	condiments	number	fast food restaurant
+000636	?	pick	condiments	order number	fast food restaurant
+000637	?	pick	condiments	vacant table	fast food restaurant
+000638	?	pick	condiments	table	fast food restaurant
+000639	?	pick	condiments	place to sit	fast food restaurant
+000640	?	pick	condiments	seat	fast food restaurant
+000641	?	pick	condiments	restaurant	fast food restaurant
+000642	?	pick	condiments	swipe credit card	fast food restaurant
+000643	?	pick	condiments	credit card	fast food restaurant
+000644	?	pick	condiments	car	fast food restaurant
+000645	?	pick	condiments	my receipt	fast food restaurant
+000646	?	pick	condiments	receipt	fast food restaurant
+000647	?	pick	condiments	your cup	fast food restaurant
+000648	?	pick	condiments	cup	fast food restaurant
+000649	?	pick	condiments	you	fast food restaurant
+000650	?	pick	condiments	line	fast food restaurant
+000651	?	pick	condiments	trash	fast food restaurant
+000652	?	pick	condiments	trays and trash	fast food restaurant
+000653	?	pick	condiments	menu	fast food restaurant
+000654	?	pick	condiments	bill	fast food restaurant
+000655	?	pick	condiments	counter	fast food restaurant
+000656	?	pick	condiments	front counter	fast food restaurant
+000657	?	select	place	food	fast food restaurant
+000658	?	select	place	my food	fast food restaurant
+000659	?	select	place	napkins and condiments	fast food restaurant
+000660	?	select	place	condiments	fast food restaurant
+000661	?	select	place	menu board	fast food restaurant
+000662	?	select	place	cashier	fast food restaurant
+000663	?	select	place	my order	fast food restaurant
+000664	?	select	place	order	fast food restaurant
+000665	?	select	place	receptacle	fast food restaurant
+000666	?	select	place	tray	fast food restaurant
+000667	?	select	place	number	fast food restaurant
+000668	?	select	place	order number	fast food restaurant
+000669	?	select	place	vacant table	fast food restaurant
+000670	?	select	place	table	fast food restaurant
+000671	?	select	place	place to sit	fast food restaurant
+000672	?	select	place	seat	fast food restaurant
+000673	?	select	place	restaurant	fast food restaurant
+000674	?	select	place	swipe credit card	fast food restaurant
+000675	?	select	place	credit card	fast food restaurant
+000676	?	select	place	car	fast food restaurant
+000677	?	select	place	my receipt	fast food restaurant
+000678	?	select	place	receipt	fast food restaurant
+000679	?	select	place	your cup	fast food restaurant
+000680	?	select	place	cup	fast food restaurant
+000681	?	select	place	you	fast food restaurant
+000682	?	select	place	line	fast food restaurant
+000683	?	select	place	trash	fast food restaurant
+000684	?	select	place	trays and trash	fast food restaurant
+000685	?	select	place	menu	fast food restaurant
+000686	?	select	place	bill	fast food restaurant
+000687	?	select	place	counter	fast food restaurant
+000688	?	select	place	front counter	fast food restaurant
+000689	?	park	car	food	fast food restaurant
+000690	?	park	car	my food	fast food restaurant
+000691	?	park	car	napkins and condiments	fast food restaurant
+000692	?	park	car	condiments	fast food restaurant
+000693	?	park	car	menu board	fast food restaurant
+000694	?	park	car	cashier	fast food restaurant
+000695	?	park	car	my order	fast food restaurant
+000696	?	park	car	order	fast food restaurant
+000697	?	park	car	receptacle	fast food restaurant
+000698	?	park	car	tray	fast food restaurant
+000699	?	park	car	number	fast food restaurant
+000700	?	park	car	order number	fast food restaurant
+000701	?	park	car	vacant table	fast food restaurant
+000702	?	park	car	table	fast food restaurant
+000703	?	park	car	place to sit	fast food restaurant
+000704	?	park	car	seat	fast food restaurant
+000705	?	park	car	restaurant	fast food restaurant
+000706	?	park	car	swipe credit card	fast food restaurant
+000707	?	park	car	credit card	fast food restaurant
+000708	?	park	car	my receipt	fast food restaurant
+000709	?	park	car	receipt	fast food restaurant
+000710	?	park	car	your cup	fast food restaurant
+000711	?	park	car	cup	fast food restaurant
+000712	?	park	car	you	fast food restaurant
+000713	?	park	car	line	fast food restaurant
+000714	?	park	car	trash	fast food restaurant
+000715	?	park	car	trays and trash	fast food restaurant
+000716	?	park	car	menu	fast food restaurant
+000717	?	park	car	bill	fast food restaurant
+000718	?	park	car	counter	fast food restaurant
+000719	?	park	car	front counter	fast food restaurant
+000720	?	take	number	food	fast food restaurant
+000721	?	take	number	my food	fast food restaurant
+000722	?	take	number	napkins and condiments	fast food restaurant
+000723	?	take	number	condiments	fast food restaurant
+000724	?	take	number	menu board	fast food restaurant
+000725	?	take	number	cashier	fast food restaurant
+000726	?	take	number	my order	fast food restaurant
+000727	?	take	number	order	fast food restaurant
+000728	?	take	number	receptacle	fast food restaurant
+000729	?	take	number	tray	fast food restaurant
+000730	?	take	number	order number	fast food restaurant
+000731	?	take	number	vacant table	fast food restaurant
+000732	?	take	number	table	fast food restaurant
+000733	?	take	number	place to sit	fast food restaurant
+000734	?	take	number	seat	fast food restaurant
+000735	?	take	number	restaurant	fast food restaurant
+000736	?	take	number	swipe credit card	fast food restaurant
+000737	?	take	number	credit card	fast food restaurant
+000738	?	take	number	car	fast food restaurant
+000739	?	take	number	my receipt	fast food restaurant
+000740	?	take	number	receipt	fast food restaurant
+000741	?	take	number	your cup	fast food restaurant
+000742	?	take	number	cup	fast food restaurant
+000743	?	take	number	you	fast food restaurant
+000744	?	take	number	line	fast food restaurant
+000745	?	take	number	trash	fast food restaurant
+000746	?	take	number	trays and trash	fast food restaurant
+000747	?	take	number	menu	fast food restaurant
+000748	?	take	number	bill	fast food restaurant
+000749	?	take	number	counter	fast food restaurant
+000750	?	take	number	front counter	fast food restaurant
+000751	?	put	trays	food	fast food restaurant
+000752	?	put	trays	my food	fast food restaurant
+000753	?	put	trays	napkins and condiments	fast food restaurant
+000754	?	put	trays	condiments	fast food restaurant
+000755	?	put	trays	menu board	fast food restaurant
+000756	?	put	trays	cashier	fast food restaurant
+000757	?	put	trays	my order	fast food restaurant
+000758	?	put	trays	order	fast food restaurant
+000759	?	put	trays	receptacle	fast food restaurant
+000760	?	put	trays	tray	fast food restaurant
+000761	?	put	trays	number	fast food restaurant
+000762	?	put	trays	order number	fast food restaurant
+000763	?	put	trays	vacant table	fast food restaurant
+000764	?	put	trays	table	fast food restaurant
+000765	?	put	trays	place to sit	fast food restaurant
+000766	?	put	trays	seat	fast food restaurant
+000767	?	put	trays	restaurant	fast food restaurant
+000768	?	put	trays	swipe credit card	fast food restaurant
+000769	?	put	trays	credit card	fast food restaurant
+000770	?	put	trays	car	fast food restaurant
+000771	?	put	trays	my receipt	fast food restaurant
+000772	?	put	trays	receipt	fast food restaurant
+000773	?	put	trays	your cup	fast food restaurant
+000774	?	put	trays	cup	fast food restaurant
+000775	?	put	trays	you	fast food restaurant
+000776	?	put	trays	line	fast food restaurant
+000777	?	put	trays	trash	fast food restaurant
+000778	?	put	trays	trays and trash	fast food restaurant
+000779	?	put	trays	menu	fast food restaurant
+000780	?	put	trays	bill	fast food restaurant
+000781	?	put	trays	counter	fast food restaurant
+000782	?	put	trays	front counter	fast food restaurant
+000783	?	exit	place	food	fast food restaurant
+000784	?	exit	place	my food	fast food restaurant
+000785	?	exit	place	napkins and condiments	fast food restaurant
+000786	?	exit	place	condiments	fast food restaurant
+000787	?	exit	place	menu board	fast food restaurant
+000788	?	exit	place	cashier	fast food restaurant
+000789	?	exit	place	my order	fast food restaurant
+000790	?	exit	place	order	fast food restaurant
+000791	?	exit	place	receptacle	fast food restaurant
+000792	?	exit	place	tray	fast food restaurant
+000793	?	exit	place	number	fast food restaurant
+000794	?	exit	place	order number	fast food restaurant
+000795	?	exit	place	vacant table	fast food restaurant
+000796	?	exit	place	table	fast food restaurant
+000797	?	exit	place	place to sit	fast food restaurant
+000798	?	exit	place	seat	fast food restaurant
+000799	?	exit	place	restaurant	fast food restaurant
+000800	?	exit	place	swipe credit card	fast food restaurant
+000801	?	exit	place	credit card	fast food restaurant
+000802	?	exit	place	car	fast food restaurant
+000803	?	exit	place	my receipt	fast food restaurant
+000804	?	exit	place	receipt	fast food restaurant
+000805	?	exit	place	your cup	fast food restaurant
+000806	?	exit	place	cup	fast food restaurant
+000807	?	exit	place	you	fast food restaurant
+000808	?	exit	place	line	fast food restaurant
+000809	?	exit	place	trash	fast food restaurant
+000810	?	exit	place	trays and trash	fast food restaurant
+000811	?	exit	place	menu	fast food restaurant
+000812	?	exit	place	bill	fast food restaurant
+000813	?	exit	place	counter	fast food restaurant
+000814	?	exit	place	front counter	fast food restaurant
+000815	?	examine	menu board	food	fast food restaurant
+000816	?	examine	menu board	my food	fast food restaurant
+000817	?	examine	menu board	napkins and condiments	fast food restaurant
+000818	?	examine	menu board	condiments	fast food restaurant
+000819	?	examine	menu board	cashier	fast food restaurant
+000820	?	examine	menu board	my order	fast food restaurant
+000821	?	examine	menu board	order	fast food restaurant
+000822	?	examine	menu board	receptacle	fast food restaurant
+000823	?	examine	menu board	tray	fast food restaurant
+000824	?	examine	menu board	number	fast food restaurant
+000825	?	examine	menu board	order number	fast food restaurant
+000826	?	examine	menu board	vacant table	fast food restaurant
+000827	?	examine	menu board	table	fast food restaurant
+000828	?	examine	menu board	place to sit	fast food restaurant
+000829	?	examine	menu board	seat	fast food restaurant
+000830	?	examine	menu board	restaurant	fast food restaurant
+000831	?	examine	menu board	swipe credit card	fast food restaurant
+000832	?	examine	menu board	credit card	fast food restaurant
+000833	?	examine	menu board	car	fast food restaurant
+000834	?	examine	menu board	my receipt	fast food restaurant
+000835	?	examine	menu board	receipt	fast food restaurant
+000836	?	examine	menu board	your cup	fast food restaurant
+000837	?	examine	menu board	cup	fast food restaurant
+000838	?	examine	menu board	you	fast food restaurant
+000839	?	examine	menu board	line	fast food restaurant
+000840	?	examine	menu board	trash	fast food restaurant
+000841	?	examine	menu board	trays and trash	fast food restaurant
+000842	?	examine	menu board	menu	fast food restaurant
+000843	?	examine	menu board	bill	fast food restaurant
+000844	?	examine	menu board	counter	fast food restaurant
+000845	?	examine	menu board	front counter	fast food restaurant
+000846	?	eat	meal	food	fast food restaurant
+000847	?	eat	meal	my food	fast food restaurant
+000848	?	eat	meal	napkins and condiments	fast food restaurant
+000849	?	eat	meal	condiments	fast food restaurant
+000850	?	eat	meal	menu board	fast food restaurant
+000851	?	eat	meal	cashier	fast food restaurant
+000852	?	eat	meal	my order	fast food restaurant
+000853	?	eat	meal	order	fast food restaurant
+000854	?	eat	meal	receptacle	fast food restaurant
+000855	?	eat	meal	tray	fast food restaurant
+000856	?	eat	meal	number	fast food restaurant
+000857	?	eat	meal	order number	fast food restaurant
+000858	?	eat	meal	vacant table	fast food restaurant
+000859	?	eat	meal	table	fast food restaurant
+000860	?	eat	meal	place to sit	fast food restaurant
+000861	?	eat	meal	seat	fast food restaurant
+000862	?	eat	meal	restaurant	fast food restaurant
+000863	?	eat	meal	swipe credit card	fast food restaurant
+000864	?	eat	meal	credit card	fast food restaurant
+000865	?	eat	meal	car	fast food restaurant
+000866	?	eat	meal	my receipt	fast food restaurant
+000867	?	eat	meal	receipt	fast food restaurant
+000868	?	eat	meal	your cup	fast food restaurant
+000869	?	eat	meal	cup	fast food restaurant
+000870	?	eat	meal	you	fast food restaurant
+000871	?	eat	meal	line	fast food restaurant
+000872	?	eat	meal	trash	fast food restaurant
+000873	?	eat	meal	trays and trash	fast food restaurant
+000874	?	eat	meal	menu	fast food restaurant
+000875	?	eat	meal	bill	fast food restaurant
+000876	?	eat	meal	counter	fast food restaurant
+000877	?	eat	meal	front counter	fast food restaurant
+000878	?	order	food	my food	fast food restaurant
+000879	?	order	food	napkins and condiments	fast food restaurant
+000880	?	order	food	condiments	fast food restaurant
+000881	?	order	food	menu board	fast food restaurant
+000882	?	order	food	cashier	fast food restaurant
+000883	?	order	food	my order	fast food restaurant
+000884	?	order	food	order	fast food restaurant
+000885	?	order	food	receptacle	fast food restaurant
+000886	?	order	food	tray	fast food restaurant
+000887	?	order	food	number	fast food restaurant
+000888	?	order	food	order number	fast food restaurant
+000889	?	order	food	vacant table	fast food restaurant
+000890	?	order	food	table	fast food restaurant
+000891	?	order	food	place to sit	fast food restaurant
+000892	?	order	food	seat	fast food restaurant
+000893	?	order	food	restaurant	fast food restaurant
+000894	?	order	food	swipe credit card	fast food restaurant
+000895	?	order	food	credit card	fast food restaurant
+000896	?	order	food	car	fast food restaurant
+000897	?	order	food	my receipt	fast food restaurant
+000898	?	order	food	receipt	fast food restaurant
+000899	?	order	food	your cup	fast food restaurant
+000900	?	order	food	cup	fast food restaurant
+000901	?	order	food	you	fast food restaurant
+000902	?	order	food	line	fast food restaurant
+000903	?	order	food	trash	fast food restaurant
+000904	?	order	food	trays and trash	fast food restaurant
+000905	?	order	food	menu	fast food restaurant
+000906	?	order	food	bill	fast food restaurant
+000907	?	order	food	counter	fast food restaurant
+000908	?	order	food	front counter	fast food restaurant
+000909	?	leave	store	food	fast food restaurant
+000910	?	leave	store	my food	fast food restaurant
+000911	?	leave	store	napkins and condiments	fast food restaurant
+000912	?	leave	store	condiments	fast food restaurant
+000913	?	leave	store	menu board	fast food restaurant
+000914	?	leave	store	cashier	fast food restaurant
+000915	?	leave	store	my order	fast food restaurant
+000916	?	leave	store	order	fast food restaurant
+000917	?	leave	store	receptacle	fast food restaurant
+000918	?	leave	store	tray	fast food restaurant
+000919	?	leave	store	number	fast food restaurant
+000920	?	leave	store	order number	fast food restaurant
+000921	?	leave	store	vacant table	fast food restaurant
+000922	?	leave	store	table	fast food restaurant
+000923	?	leave	store	place to sit	fast food restaurant
+000924	?	leave	store	seat	fast food restaurant
+000925	?	leave	store	restaurant	fast food restaurant
+000926	?	leave	store	swipe credit card	fast food restaurant
+000927	?	leave	store	credit card	fast food restaurant
+000928	?	leave	store	car	fast food restaurant
+000929	?	leave	store	my receipt	fast food restaurant
+000930	?	leave	store	receipt	fast food restaurant
+000931	?	leave	store	your cup	fast food restaurant
+000932	?	leave	store	cup	fast food restaurant
+000933	?	leave	store	you	fast food restaurant
+000934	?	leave	store	line	fast food restaurant
+000935	?	leave	store	trash	fast food restaurant
+000936	?	leave	store	trays and trash	fast food restaurant
+000937	?	leave	store	menu	fast food restaurant
+000938	?	leave	store	bill	fast food restaurant
+000939	?	leave	store	counter	fast food restaurant
+000940	?	leave	store	front counter	fast food restaurant
+000941	?	pick	order	food	fast food restaurant
+000942	?	pick	order	my food	fast food restaurant
+000943	?	pick	order	napkins and condiments	fast food restaurant
+000944	?	pick	order	condiments	fast food restaurant
+000945	?	pick	order	menu board	fast food restaurant
+000946	?	pick	order	cashier	fast food restaurant
+000947	?	pick	order	my order	fast food restaurant
+000948	?	pick	order	receptacle	fast food restaurant
+000949	?	pick	order	tray	fast food restaurant
+000950	?	pick	order	number	fast food restaurant
+000951	?	pick	order	order number	fast food restaurant
+000952	?	pick	order	vacant table	fast food restaurant
+000953	?	pick	order	table	fast food restaurant
+000954	?	pick	order	place to sit	fast food restaurant
+000955	?	pick	order	seat	fast food restaurant
+000956	?	pick	order	restaurant	fast food restaurant
+000957	?	pick	order	swipe credit card	fast food restaurant
+000958	?	pick	order	credit card	fast food restaurant
+000959	?	pick	order	car	fast food restaurant
+000960	?	pick	order	my receipt	fast food restaurant
+000961	?	pick	order	receipt	fast food restaurant
+000962	?	pick	order	your cup	fast food restaurant
+000963	?	pick	order	cup	fast food restaurant
+000964	?	pick	order	you	fast food restaurant
+000965	?	pick	order	line	fast food restaurant
+000966	?	pick	order	trash	fast food restaurant
+000967	?	pick	order	trays and trash	fast food restaurant
+000968	?	pick	order	menu	fast food restaurant
+000969	?	pick	order	bill	fast food restaurant
+000970	?	pick	order	counter	fast food restaurant
+000971	?	pick	order	front counter	fast food restaurant
+000972	?	expect	order	food	fast food restaurant
+000973	?	expect	order	my food	fast food restaurant
+000974	?	expect	order	napkins and condiments	fast food restaurant
+000975	?	expect	order	condiments	fast food restaurant
+000976	?	expect	order	menu board	fast food restaurant
+000977	?	expect	order	cashier	fast food restaurant
+000978	?	expect	order	my order	fast food restaurant
+000979	?	expect	order	receptacle	fast food restaurant
+000980	?	expect	order	tray	fast food restaurant
+000981	?	expect	order	number	fast food restaurant
+000982	?	expect	order	order number	fast food restaurant
+000983	?	expect	order	vacant table	fast food restaurant
+000984	?	expect	order	table	fast food restaurant
+000985	?	expect	order	place to sit	fast food restaurant
+000986	?	expect	order	seat	fast food restaurant
+000987	?	expect	order	restaurant	fast food restaurant
+000988	?	expect	order	swipe credit card	fast food restaurant
+000989	?	expect	order	credit card	fast food restaurant
+000990	?	expect	order	car	fast food restaurant
+000991	?	expect	order	my receipt	fast food restaurant
+000992	?	expect	order	receipt	fast food restaurant
+000993	?	expect	order	your cup	fast food restaurant
+000994	?	expect	order	cup	fast food restaurant
+000995	?	expect	order	you	fast food restaurant
+000996	?	expect	order	line	fast food restaurant
+000997	?	expect	order	trash	fast food restaurant
+000998	?	expect	order	trays and trash	fast food restaurant
+000999	?	expect	order	menu	fast food restaurant
+001000	?	expect	order	bill	fast food restaurant
+001001	?	expect	order	counter	fast food restaurant
+001002	?	expect	order	front counter	fast food restaurant
+001003	?	find	table	food	fast food restaurant
+001004	?	find	table	my food	fast food restaurant
+001005	?	find	table	napkins and condiments	fast food restaurant
+001006	?	find	table	condiments	fast food restaurant
+001007	?	find	table	menu board	fast food restaurant
+001008	?	find	table	cashier	fast food restaurant
+001009	?	find	table	my order	fast food restaurant
+001010	?	find	table	order	fast food restaurant
+001011	?	find	table	receptacle	fast food restaurant
+001012	?	find	table	tray	fast food restaurant
+001013	?	find	table	number	fast food restaurant
+001014	?	find	table	order number	fast food restaurant
+001015	?	find	table	vacant table	fast food restaurant
+001016	?	find	table	place to sit	fast food restaurant
+001017	?	find	table	seat	fast food restaurant
+001018	?	find	table	restaurant	fast food restaurant
+001019	?	find	table	swipe credit card	fast food restaurant
+001020	?	find	table	credit card	fast food restaurant
+001021	?	find	table	car	fast food restaurant
+001022	?	find	table	my receipt	fast food restaurant
+001023	?	find	table	receipt	fast food restaurant
+001024	?	find	table	your cup	fast food restaurant
+001025	?	find	table	cup	fast food restaurant
+001026	?	find	table	you	fast food restaurant
+001027	?	find	table	line	fast food restaurant
+001028	?	find	table	trash	fast food restaurant
+001029	?	find	table	trays and trash	fast food restaurant
+001030	?	find	table	menu	fast food restaurant
+001031	?	find	table	bill	fast food restaurant
+001032	?	find	table	counter	fast food restaurant
+001033	?	find	table	front counter	fast food restaurant
+001034	?	make	payment	food	fast food restaurant
+001035	?	make	payment	my food	fast food restaurant
+001036	?	make	payment	napkins and condiments	fast food restaurant
+001037	?	make	payment	condiments	fast food restaurant
+001038	?	make	payment	menu board	fast food restaurant
+001039	?	make	payment	cashier	fast food restaurant
+001040	?	make	payment	my order	fast food restaurant
+001041	?	make	payment	order	fast food restaurant
+001042	?	make	payment	receptacle	fast food restaurant
+001043	?	make	payment	tray	fast food restaurant
+001044	?	make	payment	number	fast food restaurant
+001045	?	make	payment	order number	fast food restaurant
+001046	?	make	payment	vacant table	fast food restaurant
+001047	?	make	payment	table	fast food restaurant
+001048	?	make	payment	place to sit	fast food restaurant
+001049	?	make	payment	seat	fast food restaurant
+001050	?	make	payment	restaurant	fast food restaurant
+001051	?	make	payment	swipe credit card	fast food restaurant
+001052	?	make	payment	credit card	fast food restaurant
+001053	?	make	payment	car	fast food restaurant
+001054	?	make	payment	my receipt	fast food restaurant
+001055	?	make	payment	receipt	fast food restaurant
+001056	?	make	payment	your cup	fast food restaurant
+001057	?	make	payment	cup	fast food restaurant
+001058	?	make	payment	you	fast food restaurant
+001059	?	make	payment	line	fast food restaurant
+001060	?	make	payment	trash	fast food restaurant
+001061	?	make	payment	trays and trash	fast food restaurant
+001062	?	make	payment	menu	fast food restaurant
+001063	?	make	payment	bill	fast food restaurant
+001064	?	make	payment	counter	fast food restaurant
+001065	?	make	payment	front counter	fast food restaurant
+001066	?	collect	utensils	food	fast food restaurant
+001067	?	collect	utensils	my food	fast food restaurant
+001068	?	collect	utensils	napkins and condiments	fast food restaurant
+001069	?	collect	utensils	condiments	fast food restaurant
+001070	?	collect	utensils	menu board	fast food restaurant
+001071	?	collect	utensils	cashier	fast food restaurant
+001072	?	collect	utensils	my order	fast food restaurant
+001073	?	collect	utensils	order	fast food restaurant
+001074	?	collect	utensils	receptacle	fast food restaurant
+001075	?	collect	utensils	tray	fast food restaurant
+001076	?	collect	utensils	number	fast food restaurant
+001077	?	collect	utensils	order number	fast food restaurant
+001078	?	collect	utensils	vacant table	fast food restaurant
+001079	?	collect	utensils	table	fast food restaurant
+001080	?	collect	utensils	place to sit	fast food restaurant
+001081	?	collect	utensils	seat	fast food restaurant
+001082	?	collect	utensils	restaurant	fast food restaurant
+001083	?	collect	utensils	swipe credit card	fast food restaurant
+001084	?	collect	utensils	credit card	fast food restaurant
+001085	?	collect	utensils	car	fast food restaurant
+001086	?	collect	utensils	my receipt	fast food restaurant
+001087	?	collect	utensils	receipt	fast food restaurant
+001088	?	collect	utensils	your cup	fast food restaurant
+001089	?	collect	utensils	cup	fast food restaurant
+001090	?	collect	utensils	you	fast food restaurant
+001091	?	collect	utensils	line	fast food restaurant
+001092	?	collect	utensils	trash	fast food restaurant
+001093	?	collect	utensils	trays and trash	fast food restaurant
+001094	?	collect	utensils	menu	fast food restaurant
+001095	?	collect	utensils	bill	fast food restaurant
+001096	?	collect	utensils	counter	fast food restaurant
+001097	?	collect	utensils	front counter	fast food restaurant
+001098	?	consume	food	my food	fast food restaurant
+001099	?	consume	food	napkins and condiments	fast food restaurant
+001100	?	consume	food	condiments	fast food restaurant
+001101	?	consume	food	menu board	fast food restaurant
+001102	?	consume	food	cashier	fast food restaurant
+001103	?	consume	food	my order	fast food restaurant
+001104	?	consume	food	order	fast food restaurant
+001105	?	consume	food	receptacle	fast food restaurant
+001106	?	consume	food	tray	fast food restaurant
+001107	?	consume	food	number	fast food restaurant
+001108	?	consume	food	order number	fast food restaurant
+001109	?	consume	food	vacant table	fast food restaurant
+001110	?	consume	food	table	fast food restaurant
+001111	?	consume	food	place to sit	fast food restaurant
+001112	?	consume	food	seat	fast food restaurant
+001113	?	consume	food	restaurant	fast food restaurant
+001114	?	consume	food	swipe credit card	fast food restaurant
+001115	?	consume	food	credit card	fast food restaurant
+001116	?	consume	food	car	fast food restaurant
+001117	?	consume	food	my receipt	fast food restaurant
+001118	?	consume	food	receipt	fast food restaurant
+001119	?	consume	food	your cup	fast food restaurant
+001120	?	consume	food	cup	fast food restaurant
+001121	?	consume	food	you	fast food restaurant
+001122	?	consume	food	line	fast food restaurant
+001123	?	consume	food	trash	fast food restaurant
+001124	?	consume	food	trays and trash	fast food restaurant
+001125	?	consume	food	menu	fast food restaurant
+001126	?	consume	food	bill	fast food restaurant
+001127	?	consume	food	counter	fast food restaurant
+001128	?	consume	food	front counter	fast food restaurant
+001129	?	take	cup	food	fast food restaurant
+001130	?	take	cup	my food	fast food restaurant
+001131	?	take	cup	napkins and condiments	fast food restaurant
+001132	?	take	cup	condiments	fast food restaurant
+001133	?	take	cup	menu board	fast food restaurant
+001134	?	take	cup	cashier	fast food restaurant
+001135	?	take	cup	my order	fast food restaurant
+001136	?	take	cup	order	fast food restaurant
+001137	?	take	cup	receptacle	fast food restaurant
+001138	?	take	cup	tray	fast food restaurant
+001139	?	take	cup	number	fast food restaurant
+001140	?	take	cup	order number	fast food restaurant
+001141	?	take	cup	vacant table	fast food restaurant
+001142	?	take	cup	table	fast food restaurant
+001143	?	take	cup	place to sit	fast food restaurant
+001144	?	take	cup	seat	fast food restaurant
+001145	?	take	cup	restaurant	fast food restaurant
+001146	?	take	cup	swipe credit card	fast food restaurant
+001147	?	take	cup	credit card	fast food restaurant
+001148	?	take	cup	car	fast food restaurant
+001149	?	take	cup	my receipt	fast food restaurant
+001150	?	take	cup	receipt	fast food restaurant
+001151	?	take	cup	your cup	fast food restaurant
+001152	?	take	cup	you	fast food restaurant
+001153	?	take	cup	line	fast food restaurant
+001154	?	take	cup	trash	fast food restaurant
+001155	?	take	cup	trays and trash	fast food restaurant
+001156	?	take	cup	menu	fast food restaurant
+001157	?	take	cup	bill	fast food restaurant
+001158	?	take	cup	counter	fast food restaurant
+001159	?	take	cup	front counter	fast food restaurant
+001160	?	tell	order	food	fast food restaurant
+001161	?	tell	order	my food	fast food restaurant
+001162	?	tell	order	napkins and condiments	fast food restaurant
+001163	?	tell	order	condiments	fast food restaurant
+001164	?	tell	order	menu board	fast food restaurant
+001165	?	tell	order	cashier	fast food restaurant
+001166	?	tell	order	my order	fast food restaurant
+001167	?	tell	order	receptacle	fast food restaurant
+001168	?	tell	order	tray	fast food restaurant
+001169	?	tell	order	number	fast food restaurant
+001170	?	tell	order	order number	fast food restaurant
+001171	?	tell	order	vacant table	fast food restaurant
+001172	?	tell	order	table	fast food restaurant
+001173	?	tell	order	place to sit	fast food restaurant
+001174	?	tell	order	seat	fast food restaurant
+001175	?	tell	order	restaurant	fast food restaurant
+001176	?	tell	order	swipe credit card	fast food restaurant
+001177	?	tell	order	credit card	fast food restaurant
+001178	?	tell	order	car	fast food restaurant
+001179	?	tell	order	my receipt	fast food restaurant
+001180	?	tell	order	receipt	fast food restaurant
+001181	?	tell	order	your cup	fast food restaurant
+001182	?	tell	order	cup	fast food restaurant
+001183	?	tell	order	you	fast food restaurant
+001184	?	tell	order	line	fast food restaurant
+001185	?	tell	order	trash	fast food restaurant
+001186	?	tell	order	trays and trash	fast food restaurant
+001187	?	tell	order	menu	fast food restaurant
+001188	?	tell	order	bill	fast food restaurant
+001189	?	tell	order	counter	fast food restaurant
+001190	?	tell	order	front counter	fast food restaurant
+001191	?	keep	receipt	food	fast food restaurant
+001192	?	keep	receipt	my food	fast food restaurant
+001193	?	keep	receipt	napkins and condiments	fast food restaurant
+001194	?	keep	receipt	condiments	fast food restaurant
+001195	?	keep	receipt	menu board	fast food restaurant
+001196	?	keep	receipt	cashier	fast food restaurant
+001197	?	keep	receipt	my order	fast food restaurant
+001198	?	keep	receipt	order	fast food restaurant
+001199	?	keep	receipt	receptacle	fast food restaurant
+001200	?	keep	receipt	tray	fast food restaurant
+001201	?	keep	receipt	number	fast food restaurant
+001202	?	keep	receipt	order number	fast food restaurant
+001203	?	keep	receipt	vacant table	fast food restaurant
+001204	?	keep	receipt	table	fast food restaurant
+001205	?	keep	receipt	place to sit	fast food restaurant
+001206	?	keep	receipt	seat	fast food restaurant
+001207	?	keep	receipt	restaurant	fast food restaurant
+001208	?	keep	receipt	swipe credit card	fast food restaurant
+001209	?	keep	receipt	credit card	fast food restaurant
+001210	?	keep	receipt	car	fast food restaurant
+001211	?	keep	receipt	my receipt	fast food restaurant
+001212	?	keep	receipt	your cup	fast food restaurant
+001213	?	keep	receipt	cup	fast food restaurant
+001214	?	keep	receipt	you	fast food restaurant
+001215	?	keep	receipt	line	fast food restaurant
+001216	?	keep	receipt	trash	fast food restaurant
+001217	?	keep	receipt	trays and trash	fast food restaurant
+001218	?	keep	receipt	menu	fast food restaurant
+001219	?	keep	receipt	bill	fast food restaurant
+001220	?	keep	receipt	counter	fast food restaurant
+001221	?	keep	receipt	front counter	fast food restaurant
+001222	?	throw	containers	food	fast food restaurant
+001223	?	throw	containers	my food	fast food restaurant
+001224	?	throw	containers	napkins and condiments	fast food restaurant
+001225	?	throw	containers	condiments	fast food restaurant
+001226	?	throw	containers	menu board	fast food restaurant
+001227	?	throw	containers	cashier	fast food restaurant
+001228	?	throw	containers	my order	fast food restaurant
+001229	?	throw	containers	order	fast food restaurant
+001230	?	throw	containers	receptacle	fast food restaurant
+001231	?	throw	containers	tray	fast food restaurant
+001232	?	throw	containers	number	fast food restaurant
+001233	?	throw	containers	order number	fast food restaurant
+001234	?	throw	containers	vacant table	fast food restaurant
+001235	?	throw	containers	table	fast food restaurant
+001236	?	throw	containers	place to sit	fast food restaurant
+001237	?	throw	containers	seat	fast food restaurant
+001238	?	throw	containers	restaurant	fast food restaurant
+001239	?	throw	containers	swipe credit card	fast food restaurant
+001240	?	throw	containers	credit card	fast food restaurant
+001241	?	throw	containers	car	fast food restaurant
+001242	?	throw	containers	my receipt	fast food restaurant
+001243	?	throw	containers	receipt	fast food restaurant
+001244	?	throw	containers	your cup	fast food restaurant
+001245	?	throw	containers	cup	fast food restaurant
+001246	?	throw	containers	you	fast food restaurant
+001247	?	throw	containers	line	fast food restaurant
+001248	?	throw	containers	trash	fast food restaurant
+001249	?	throw	containers	trays and trash	fast food restaurant
+001250	?	throw	containers	menu	fast food restaurant
+001251	?	throw	containers	bill	fast food restaurant
+001252	?	throw	containers	counter	fast food restaurant
+001253	?	throw	containers	front counter	fast food restaurant
+001254	?	make	selection	food	fast food restaurant
+001255	?	make	selection	my food	fast food restaurant
+001256	?	make	selection	napkins and condiments	fast food restaurant
+001257	?	make	selection	condiments	fast food restaurant
+001258	?	make	selection	menu board	fast food restaurant
+001259	?	make	selection	cashier	fast food restaurant
+001260	?	make	selection	my order	fast food restaurant
+001261	?	make	selection	order	fast food restaurant
+001262	?	make	selection	receptacle	fast food restaurant
+001263	?	make	selection	tray	fast food restaurant
+001264	?	make	selection	number	fast food restaurant
+001265	?	make	selection	order number	fast food restaurant
+001266	?	make	selection	vacant table	fast food restaurant
+001267	?	make	selection	table	fast food restaurant
+001268	?	make	selection	place to sit	fast food restaurant
+001269	?	make	selection	seat	fast food restaurant
+001270	?	make	selection	restaurant	fast food restaurant
+001271	?	make	selection	swipe credit card	fast food restaurant
+001272	?	make	selection	credit card	fast food restaurant
+001273	?	make	selection	car	fast food restaurant
+001274	?	make	selection	my receipt	fast food restaurant
+001275	?	make	selection	receipt	fast food restaurant
+001276	?	make	selection	your cup	fast food restaurant
+001277	?	make	selection	cup	fast food restaurant
+001278	?	make	selection	you	fast food restaurant
+001279	?	make	selection	line	fast food restaurant
+001280	?	make	selection	trash	fast food restaurant
+001281	?	make	selection	trays and trash	fast food restaurant
+001282	?	make	selection	menu	fast food restaurant
+001283	?	make	selection	bill	fast food restaurant
+001284	?	make	selection	counter	fast food restaurant
+001285	?	make	selection	front counter	fast food restaurant
+001286	?	pay	bill	food	fast food restaurant
+001287	?	pay	bill	my food	fast food restaurant
+001288	?	pay	bill	napkins and condiments	fast food restaurant
+001289	?	pay	bill	condiments	fast food restaurant
+001290	?	pay	bill	menu board	fast food restaurant
+001291	?	pay	bill	cashier	fast food restaurant
+001292	?	pay	bill	my order	fast food restaurant
+001293	?	pay	bill	order	fast food restaurant
+001294	?	pay	bill	receptacle	fast food restaurant
+001295	?	pay	bill	tray	fast food restaurant
+001296	?	pay	bill	number	fast food restaurant
+001297	?	pay	bill	order number	fast food restaurant
+001298	?	pay	bill	vacant table	fast food restaurant
+001299	?	pay	bill	table	fast food restaurant
+001300	?	pay	bill	place to sit	fast food restaurant
+001301	?	pay	bill	seat	fast food restaurant
+001302	?	pay	bill	restaurant	fast food restaurant
+001303	?	pay	bill	swipe credit card	fast food restaurant
+001304	?	pay	bill	credit card	fast food restaurant
+001305	?	pay	bill	car	fast food restaurant
+001306	?	pay	bill	my receipt	fast food restaurant
+001307	?	pay	bill	receipt	fast food restaurant
+001308	?	pay	bill	your cup	fast food restaurant
+001309	?	pay	bill	cup	fast food restaurant
+001310	?	pay	bill	you	fast food restaurant
+001311	?	pay	bill	line	fast food restaurant
+001312	?	pay	bill	trash	fast food restaurant
+001313	?	pay	bill	trays and trash	fast food restaurant
+001314	?	pay	bill	menu	fast food restaurant
+001315	?	pay	bill	counter	fast food restaurant
+001316	?	pay	bill	front counter	fast food restaurant
+001317	?	place	tray	food	fast food restaurant
+001318	?	place	tray	my food	fast food restaurant
+001319	?	place	tray	napkins and condiments	fast food restaurant
+001320	?	place	tray	condiments	fast food restaurant
+001321	?	place	tray	menu board	fast food restaurant
+001322	?	place	tray	cashier	fast food restaurant
+001323	?	place	tray	my order	fast food restaurant
+001324	?	place	tray	order	fast food restaurant
+001325	?	place	tray	receptacle	fast food restaurant
+001326	?	place	tray	number	fast food restaurant
+001327	?	place	tray	order number	fast food restaurant
+001328	?	place	tray	vacant table	fast food restaurant
+001329	?	place	tray	table	fast food restaurant
+001330	?	place	tray	place to sit	fast food restaurant
+001331	?	place	tray	seat	fast food restaurant
+001332	?	place	tray	restaurant	fast food restaurant
+001333	?	place	tray	swipe credit card	fast food restaurant
+001334	?	place	tray	credit card	fast food restaurant
+001335	?	place	tray	car	fast food restaurant
+001336	?	place	tray	my receipt	fast food restaurant
+001337	?	place	tray	receipt	fast food restaurant
+001338	?	place	tray	your cup	fast food restaurant
+001339	?	place	tray	cup	fast food restaurant
+001340	?	place	tray	you	fast food restaurant
+001341	?	place	tray	line	fast food restaurant
+001342	?	place	tray	trash	fast food restaurant
+001343	?	place	tray	trays and trash	fast food restaurant
+001344	?	place	tray	menu	fast food restaurant
+001345	?	place	tray	bill	fast food restaurant
+001346	?	place	tray	counter	fast food restaurant
+001347	?	place	tray	front counter	fast food restaurant
+001348	?	order	it	food	fast food restaurant
+001349	?	order	it	my food	fast food restaurant
+001350	?	order	it	napkins and condiments	fast food restaurant
+001351	?	order	it	condiments	fast food restaurant
+001352	?	order	it	menu board	fast food restaurant
+001353	?	order	it	cashier	fast food restaurant
+001354	?	order	it	my order	fast food restaurant
+001355	?	order	it	order	fast food restaurant
+001356	?	order	it	receptacle	fast food restaurant
+001357	?	order	it	tray	fast food restaurant
+001358	?	order	it	number	fast food restaurant
+001359	?	order	it	order number	fast food restaurant
+001360	?	order	it	vacant table	fast food restaurant
+001361	?	order	it	table	fast food restaurant
+001362	?	order	it	place to sit	fast food restaurant
+001363	?	order	it	seat	fast food restaurant
+001364	?	order	it	restaurant	fast food restaurant
+001365	?	order	it	swipe credit card	fast food restaurant
+001366	?	order	it	credit card	fast food restaurant
+001367	?	order	it	car	fast food restaurant
+001368	?	order	it	my receipt	fast food restaurant
+001369	?	order	it	receipt	fast food restaurant
+001370	?	order	it	your cup	fast food restaurant
+001371	?	order	it	cup	fast food restaurant
+001372	?	order	it	you	fast food restaurant
+001373	?	order	it	line	fast food restaurant
+001374	?	order	it	trash	fast food restaurant
+001375	?	order	it	trays and trash	fast food restaurant
+001376	?	order	it	menu	fast food restaurant
+001377	?	order	it	bill	fast food restaurant
+001378	?	order	it	counter	fast food restaurant
+001379	?	order	it	front counter	fast food restaurant
+001380	?	take	receipt	food	fast food restaurant
+001381	?	take	receipt	my food	fast food restaurant
+001382	?	take	receipt	napkins and condiments	fast food restaurant
+001383	?	take	receipt	condiments	fast food restaurant
+001384	?	take	receipt	menu board	fast food restaurant
+001385	?	take	receipt	cashier	fast food restaurant
+001386	?	take	receipt	my order	fast food restaurant
+001387	?	take	receipt	order	fast food restaurant
+001388	?	take	receipt	receptacle	fast food restaurant
+001389	?	take	receipt	tray	fast food restaurant
+001390	?	take	receipt	number	fast food restaurant
+001391	?	take	receipt	order number	fast food restaurant
+001392	?	take	receipt	vacant table	fast food restaurant
+001393	?	take	receipt	table	fast food restaurant
+001394	?	take	receipt	place to sit	fast food restaurant
+001395	?	take	receipt	seat	fast food restaurant
+001396	?	take	receipt	restaurant	fast food restaurant
+001397	?	take	receipt	swipe credit card	fast food restaurant
+001398	?	take	receipt	credit card	fast food restaurant
+001399	?	take	receipt	car	fast food restaurant
+001400	?	take	receipt	my receipt	fast food restaurant
+001401	?	take	receipt	your cup	fast food restaurant
+001402	?	take	receipt	cup	fast food restaurant
+001403	?	take	receipt	you	fast food restaurant
+001404	?	take	receipt	line	fast food restaurant
+001405	?	take	receipt	trash	fast food restaurant
+001406	?	take	receipt	trays and trash	fast food restaurant
+001407	?	take	receipt	menu	fast food restaurant
+001408	?	take	receipt	bill	fast food restaurant
+001409	?	take	receipt	counter	fast food restaurant
+001410	?	take	receipt	front counter	fast food restaurant
+001411	?	count	change	food	fast food restaurant
+001412	?	count	change	my food	fast food restaurant
+001413	?	count	change	napkins and condiments	fast food restaurant
+001414	?	count	change	condiments	fast food restaurant
+001415	?	count	change	menu board	fast food restaurant
+001416	?	count	change	cashier	fast food restaurant
+001417	?	count	change	my order	fast food restaurant
+001418	?	count	change	order	fast food restaurant
+001419	?	count	change	receptacle	fast food restaurant
+001420	?	count	change	tray	fast food restaurant
+001421	?	count	change	number	fast food restaurant
+001422	?	count	change	order number	fast food restaurant
+001423	?	count	change	vacant table	fast food restaurant
+001424	?	count	change	table	fast food restaurant
+001425	?	count	change	place to sit	fast food restaurant
+001426	?	count	change	seat	fast food restaurant
+001427	?	count	change	restaurant	fast food restaurant
+001428	?	count	change	swipe credit card	fast food restaurant
+001429	?	count	change	credit card	fast food restaurant
+001430	?	count	change	car	fast food restaurant
+001431	?	count	change	my receipt	fast food restaurant
+001432	?	count	change	receipt	fast food restaurant
+001433	?	count	change	your cup	fast food restaurant
+001434	?	count	change	cup	fast food restaurant
+001435	?	count	change	you	fast food restaurant
+001436	?	count	change	line	fast food restaurant
+001437	?	count	change	trash	fast food restaurant
+001438	?	count	change	trays and trash	fast food restaurant
+001439	?	count	change	menu	fast food restaurant
+001440	?	count	change	bill	fast food restaurant
+001441	?	count	change	counter	fast food restaurant
+001442	?	count	change	front counter	fast food restaurant
+001443	?	find	end	food	fast food restaurant
+001444	?	find	end	my food	fast food restaurant
+001445	?	find	end	napkins and condiments	fast food restaurant
+001446	?	find	end	condiments	fast food restaurant
+001447	?	find	end	menu board	fast food restaurant
+001448	?	find	end	cashier	fast food restaurant
+001449	?	find	end	my order	fast food restaurant
+001450	?	find	end	order	fast food restaurant
+001451	?	find	end	receptacle	fast food restaurant
+001452	?	find	end	tray	fast food restaurant
+001453	?	find	end	number	fast food restaurant
+001454	?	find	end	order number	fast food restaurant
+001455	?	find	end	vacant table	fast food restaurant
+001456	?	find	end	table	fast food restaurant
+001457	?	find	end	place to sit	fast food restaurant
+001458	?	find	end	seat	fast food restaurant
+001459	?	find	end	restaurant	fast food restaurant
+001460	?	find	end	swipe credit card	fast food restaurant
+001461	?	find	end	credit card	fast food restaurant
+001462	?	find	end	car	fast food restaurant
+001463	?	find	end	my receipt	fast food restaurant
+001464	?	find	end	receipt	fast food restaurant
+001465	?	find	end	your cup	fast food restaurant
+001466	?	find	end	cup	fast food restaurant
+001467	?	find	end	you	fast food restaurant
+001468	?	find	end	line	fast food restaurant
+001469	?	find	end	trash	fast food restaurant
+001470	?	find	end	trays and trash	fast food restaurant
+001471	?	find	end	menu	fast food restaurant
+001472	?	find	end	bill	fast food restaurant
+001473	?	find	end	counter	fast food restaurant
+001474	?	find	end	front counter	fast food restaurant
+001475	?	get	order	food	fast food restaurant
+001476	?	get	order	my food	fast food restaurant
+001477	?	get	order	napkins and condiments	fast food restaurant
+001478	?	get	order	condiments	fast food restaurant
+001479	?	get	order	menu board	fast food restaurant
+001480	?	get	order	cashier	fast food restaurant
+001481	?	get	order	my order	fast food restaurant
+001482	?	get	order	receptacle	fast food restaurant
+001483	?	get	order	tray	fast food restaurant
+001484	?	get	order	number	fast food restaurant
+001485	?	get	order	order number	fast food restaurant
+001486	?	get	order	vacant table	fast food restaurant
+001487	?	get	order	table	fast food restaurant
+001488	?	get	order	place to sit	fast food restaurant
+001489	?	get	order	seat	fast food restaurant
+001490	?	get	order	restaurant	fast food restaurant
+001491	?	get	order	swipe credit card	fast food restaurant
+001492	?	get	order	credit card	fast food restaurant
+001493	?	get	order	car	fast food restaurant
+001494	?	get	order	my receipt	fast food restaurant
+001495	?	get	order	receipt	fast food restaurant
+001496	?	get	order	your cup	fast food restaurant
+001497	?	get	order	cup	fast food restaurant
+001498	?	get	order	you	fast food restaurant
+001499	?	get	order	line	fast food restaurant
+001500	?	get	order	trash	fast food restaurant
+001501	?	get	order	trays and trash	fast food restaurant
+001502	?	get	order	menu	fast food restaurant
+001503	?	get	order	bill	fast food restaurant
+001504	?	get	order	counter	fast food restaurant
+001505	?	get	order	front counter	fast food restaurant
+001506	?	get	food	my food	fast food restaurant
+001507	?	get	food	napkins and condiments	fast food restaurant
+001508	?	get	food	condiments	fast food restaurant
+001509	?	get	food	menu board	fast food restaurant
+001510	?	get	food	cashier	fast food restaurant
+001511	?	get	food	my order	fast food restaurant
+001512	?	get	food	order	fast food restaurant
+001513	?	get	food	receptacle	fast food restaurant
+001514	?	get	food	tray	fast food restaurant
+001515	?	get	food	number	fast food restaurant
+001516	?	get	food	order number	fast food restaurant
+001517	?	get	food	vacant table	fast food restaurant
+001518	?	get	food	table	fast food restaurant
+001519	?	get	food	place to sit	fast food restaurant
+001520	?	get	food	seat	fast food restaurant
+001521	?	get	food	restaurant	fast food restaurant
+001522	?	get	food	swipe credit card	fast food restaurant
+001523	?	get	food	credit card	fast food restaurant
+001524	?	get	food	car	fast food restaurant
+001525	?	get	food	my receipt	fast food restaurant
+001526	?	get	food	receipt	fast food restaurant
+001527	?	get	food	your cup	fast food restaurant
+001528	?	get	food	cup	fast food restaurant
+001529	?	get	food	you	fast food restaurant
+001530	?	get	food	line	fast food restaurant
+001531	?	get	food	trash	fast food restaurant
+001532	?	get	food	trays and trash	fast food restaurant
+001533	?	get	food	menu	fast food restaurant
+001534	?	get	food	bill	fast food restaurant
+001535	?	get	food	counter	fast food restaurant
+001536	?	get	food	front counter	fast food restaurant

@@ -1,0 +1,615 @@
+dobj(get-1, mower-2)
+
+dobj(start-1, mower-2)
+
+dobj(mow-1, grass-2)
+
+dobj(stop-1, mower-2)
+
+dobj(put-1, mower-2)
+prt(put-1, away-3)
+
+det(garage-4, the-3)
+prep_to(go-1, garage-4)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(get-1, mower-4)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(take-1, mower-4)
+det(grass-7, the-6)
+prep_to(take-1, grass-7)
+
+det(mower-3, the-2)
+dobj(start-1, mower-3)
+
+dobj(push-1, it-2)
+det(area-6, the-4)
+nn(area-6, grass-5)
+prep_over(push-1, area-6)
+
+prt(turn-1, off-2)
+det(mower-4, the-3)
+dobj(turn-1, mower-4)
+
+det(mower-3, the-2)
+dobj(put-1, mower-3)
+advmod(put-1, back-4)
+det(garage-7, the-6)
+prep_in(put-1, garage-7)
+
+det(mover-4, a-2)
+nn(mover-4, lawn-3)
+dobj(get-1, mover-4)
+
+det(mover-4, the-2)
+nn(mover-4, lawn-3)
+dobj(put-1, mover-4)
+det(lawn-7, the-6)
+prep_on(put-1, lawn-7)
+
+prt(turn-1, on-2)
+dep(turn-1, or-3)
+dep(turn-1, activate-4)
+det(mover-7, the-5)
+nn(mover-7, lawn-6)
+dobj(activate-4, mover-7)
+
+det(mover-4, the-2)
+nn(mover-4, lawn-3)
+dobj(move-1, mover-4)
+det(lawn-7, the-6)
+prep_over(move-1, lawn-7)
+
+det(mover-4, the-2)
+nn(mover-4, lawn-3)
+dobj(get-1, mover-4)
+
+det(lawn-5, the-4)
+prep_close_to(move-1, lawn-5)
+
+det(lawnmower-3, the-2)
+dobj(start-1, lawnmower-3)
+
+det(lawnmower-3, the-2)
+dobj(use-1, lawnmower-3)
+det(lawn-6, the-5)
+prep_on(use-1, lawn-6)
+
+dobj(fill-1, lawnmower-2)
+prep_with(fill-1, gas-4)
+
+dobj(start-1, lawnmower-2)
+
+dobj(push-1, lawnmower-2)
+prep_around(push-1, lawn-4)
+
+det(mower-4, the-3)
+prep_on(turn-1, mower-4)
+
+det(mower-3, the-2)
+dobj(push-1, mower-3)
+det(area-6, the-5)
+prep_on(push-1, area-6)
+nsubjpass(mowed-10, area-6)
+aux(mowed-10, should-8)
+auxpass(mowed-10, be-9)
+rcmod(area-6, mowed-10)
+
+det(mower-4, the-3)
+prep_of(turn-1, mower-4)
+
+dobj(get-1, mower-2)
+
+dobj(start-1, mover-2)
+
+dobj(move-1, mower-2)
+prep_over(move-1, lawn-4)
+
+det(spots-4, any-2)
+amod(spots-4, missed-3)
+dobj(find-1, spots-4)
+
+dobj(mow-1, them-2)
+
+dobj(stop-1, mower-2)
+
+dobj(start-1, mower-2)
+
+dobj(move-1, mower-2)
+prep_over(move-1, lawn-4)
+
+mark(are-3, if-1)
+expl(are-3, there-2)
+advcl(left-5, are-3)
+nsubj(left-5, patches-4)
+dobj(left-5, move-6)
+prep_over(left-5, patch-8)
+
+dobj(move-1, lawnmover-2)
+prep_over(move-1, lawn-4)
+
+dobj(start-1, lawnmower-2)
+
+prep_around(move-1, lawnmower-3)
+advmod(covers-7, so-4)
+dep(covers-7, that-5)
+nsubj(covers-7, it-6)
+ccomp(move-1, covers-7)
+predet(lawn-10, all-8)
+det(lawn-10, the-9)
+dobj(covers-7, lawn-10)
+
+advmod(finished-2, when-1)
+nn(lawnmower-4, stop-3)
+dobj(finished-2, lawnmower-4)
+
+det(mover-4, the-2)
+nn(mover-4, lawn-3)
+dobj(find-1, mover-4)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(move-1, mower-4)
+det(lawn-7, the-6)
+prep_to(move-1, lawn-7)
+
+det(mower-5, the-3)
+nn(mower-5, lawn-4)
+prep_on(turn-1, mower-5)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(move-1, mower-4)
+det(section-8, an-6)
+amod(section-8, unmowed-7)
+prep_across(move-1, section-8)
+det(lawn-11, the-10)
+prep_of(section-8, lawn-11)
+det(line-15, a-13)
+amod(line-15, straight-14)
+prep_in(move-1, line-15)
+
+mark(mowed-6, until-2)
+det(lawn-4, the-3)
+nsubjpass(mowed-6, lawn-4)
+auxpass(mowed-6, is-5)
+advcl(repeat-1, mowed-6)
+
+det(garden-4, the-3)
+prep_to(go-1, garden-4)
+
+dep(shed-6, get-1)
+det(mower-3, the-2)
+dobj(get-1, mower-3)
+prt(get-1, out-4)
+nsubj(shed-6, he-5)
+
+det(lawn-3, the-2)
+dobj(mow-1, lawn-3)
+
+det(cuttings-4, the-2)
+nn(cuttings-4, grass-3)
+dobj(empty-1, cuttings-4)
+
+det(mower-3, the-2)
+dobj(put-1, mower-3)
+prt(put-1, away-4)
+
+advmod(go-1, back-2)
+det(house-5, the-4)
+prep_inside(go-1, house-5)
+
+det(mower-3, the-2)
+dobj(get-1, mower-3)
+prt(get-1, out-4)
+
+dobj(plug-1, it-2)
+prep(plug-1, in-3)
+
+det(grass-3, the-2)
+dobj(cut-1, grass-3)
+
+det(box-4, the-2)
+amod(box-4, cutting-3)
+dobj(empty-1, box-4)
+
+det(mower-3, the-2)
+dobj(unplug-1, mower-3)
+
+det(mower-3, the-2)
+dobj(put-1, mower-3)
+prt(put-1, away-4)
+
+nn(mower-4, push-2)
+nn(mower-4, lawn-3)
+dobj(find-1, mower-4)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(move-1, mower-4)
+det(lawn-7, the-6)
+prep_to(move-1, lawn-7)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(push-1, mower-4)
+det(line-8, a-6)
+amod(line-8, straight-7)
+prep_in(push-1, line-8)
+det(line-11, the-10)
+prep_across(push-1, line-11)
+
+mark(mowed-8, until-2)
+nsubjpass(mowed-8, all-3)
+det(lawn-6, the-5)
+prep_of(all-3, lawn-6)
+auxpass(mowed-8, is-7)
+advcl(repeat-1, mowed-8)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(get-1, mower-4)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(start-1, mower-4)
+
+xcomp(begin-1, mowing-2)
+dobj(mowing-2, lawn-3)
+
+mark(cut-7, until-2)
+nsubjpass(cut-7, grass-3)
+prep_in(grass-3, lawn-5)
+auxpass(cut-7, is-6)
+advcl(continue-1, cut-7)
+
+dobj(stop-1, mower-2)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(put-1, mower-4)
+prt(put-1, away-5)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(get-1, mower-4)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(move-1, mower-4)
+det(yard-7, the-6)
+prep_to(move-1, yard-7)
+
+det(mower-5, the-3)
+nn(mower-5, lawn-4)
+prep_on(turn-1, mower-5)
+
+det(lawn-3, the-2)
+dobj(mow-1, lawn-3)
+
+prt(turn-1, off-2)
+det(mower-5, the-3)
+nn(mower-5, lawn-4)
+dobj(turn-1, mower-5)
+
+amod(lawn-2, empty-1)
+nsubj(mower-3, lawn-2)
+dobj(mower-3, bag-4)
+det(trash-7, the-6)
+prep_in(mower-3, trash-7)
+
+prt(put-1, away-2)
+det(mower-5, the-3)
+nn(mower-5, lawn-4)
+dobj(put-1, mower-5)
+
+det(lawnmower-3, the-2)
+dobj(get-1, lawnmower-3)
+
+det(lawnmower-3, the-2)
+dobj(turn-1, lawnmower-3)
+prt(turn-1, on-4)
+
+det(lawnmower-3, the-2)
+dobj(push-1, lawnmower-3)
+det(lawn-6, the-5)
+prep_around(push-1, lawn-6)
+
+det(lawnmower-3, the-2)
+dobj(turn-1, lawnmower-3)
+prt(turn-1, off-4)
+
+dobj(get-1, mower-2)
+prt(get-1, out-3)
+
+prep_with(fill-1, gas-3)
+
+dobj(turn-1, mower-2)
+prt(turn-1, on-3)
+
+
+prt(take-1, out-2)
+nn(mower-4, lawn-3)
+dobj(take-1, mower-4)
+
+prt(start-1, up-2)
+dobj(start-1, mower-3)
+
+dobj(mow-1, lawn-2)
+
+
+
+prt(get-1, out-2)
+det(mower-5, the-3)
+nn(mower-5, lawn-4)
+dobj(get-1, mower-5)
+
+det(oil-3, the-2)
+dobj(check-1, oil-3)
+dobj(check-1, gasoline-5)
+conj_and(oil-3, gasoline-5)
+
+dep(engine-3, prime-1)
+det(engine-3, the-2)
+prepc_by(engine-3, pumping-5)
+det(button-7, the-6)
+dobj(pumping-5, button-7)
+
+dobj(pull-1, cord-2)
+aux(start-4, to-3)
+xcomp(pull-1, start-4)
+det(mower-6, the-5)
+dobj(start-4, mower-6)
+
+det(perimeter-4, the-2)
+nn(perimeter-4, lawn-3)
+dobj(follow-1, perimeter-4)
+advmod(around-6, once-5)
+advmod(follow-1, around-6)
+
+det(rest-3, the-2)
+dobj(mow-1, rest-3)
+det(yard-6, the-5)
+prep_of(rest-3, yard-6)
+amod(rows-9, even-8)
+prep_in(mow-1, rows-9)
+
+dobj(buy-1, gas-2)
+prep_for(buy-1, lawamower-4)
+
+dobj(get-1, lawamower-2)
+prepc_out_of(get-1, shed-5)
+
+dobj(put-1, gas-2)
+prep_in(put-1, lawnmower-4)
+
+dobj(start-1, lawnmower-2)
+
+det(area-3, an-2)
+dobj(mow-1, area-3)
+
+dobj(stop-1, lawnmower-2)
+
+dobj(put-1, lawnmower-2)
+prt(put-1, away-3)
+
+conj_and(check-1, add-3)
+dobj(add-3, oil-4)
+
+conj_and(check-1, add-3)
+dobj(add-3, gas-4)
+
+dobj(cut-1, grass-2)
+
+nsubj(cut-2, bag-1)
+dobj(cut-2, grass-3)
+
+dobj(put-1, gas-2)
+det(lawnmower-5, the-4)
+prep_in(put-1, lawnmower-5)
+
+dobj(take-1, lawnmower-2)
+prep_to(take-1, yard-4)
+
+det(lawnmower-3, the-2)
+dobj(start-1, lawnmower-3)
+
+det(height-3, the-2)
+dobj(adjust-1, height-3)
+det(blades-6, the-5)
+prep_of(height-3, blades-6)
+
+det(lawnmower-3, the-2)
+dobj(push\/ride-1, lawnmower-3)
+prep_across(push\/ride-1, lawn-5)
+
+dobj(empty-1, grass-bag-2)
+advmod(necessary-4, when-3)
+dep(empty-1, necessary-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, lawnmower-3)
+partmod(lawnmower-3, put-4)
+prep(put-4, away-5)
+
+dobj(put-1, gas-2)
+det(lawnmower-5, the-4)
+prep_in(put-1, lawnmower-5)
+
+det(lawnmower-3, the-2)
+dobj(start-1, lawnmower-3)
+
+det(lawnmower-3, the-2)
+dobj(move-1, lawnmower-3)
+det(grass-6, the-5)
+prep_over(move-1, grass-6)
+prep_in(move-1, rows-8)
+
+prt(turn-1, off-2)
+det(lawnmower-4, the-3)
+dobj(turn-1, lawnmower-4)
+
+det(catcher-4, the-2)
+nn(catcher-4, grass-3)
+dobj(empty-1, catcher-4)
+det(lawnmower-7, the-6)
+prep_on(empty-1, lawnmower-7)
+det(trash-10, the-9)
+prep_into(empty-1, trash-10)
+
+nn(mower-3, lawn-2)
+dobj(get-1, mower-3)
+
+prep_with(fill-1, gas-3)
+
+dobj(start-1, mower-2)
+
+dobj(push-1, mower-2)
+prep_around(push-1, lawn-4)
+
+dobj(pull-1, string-2)
+aux(start-4, to-3)
+infmod(string-2, start-4)
+dobj(start-4, mower-5)
+
+dobj(push-1, mower-2)
+num(section-5, one-4)
+prep_down(push-1, section-5)
+prep_of(section-5, grass-7)
+
+advmod(mave-1, slightly-2)
+advmod(mave-1, over-3)
+conj_and(mave-1, go-5)
+advmod(go-5, back-6)
+prep_up(go-5, section-8)
+prep_of(section-8, grass-10)
+
+prt(mover-1, over-2)
+advmod(mover-1, again-3)
+conj_and(mover-1, go-5)
+prt(go-5, down-6)
+dobj(go-5, section-7)
+
+mark(mowed-5, until-2)
+nsubjpass(mowed-5, lawn-3)
+auxpass(mowed-5, is-4)
+advcl(continue-1, mowed-5)
+
+nn(mower-3, lawn-2)
+dobj(start-1, mower-3)
+
+nn(mower-3, lawn-2)
+dobj(push-1, mower-3)
+prep_on(push-1, grass-5)
+
+mark(cut-7, until-2)
+det(grass-4, all-3)
+nsubjpass(cut-7, grass-4)
+aux(cut-7, has-5)
+auxpass(cut-7, been-6)
+advcl(mow-1, cut-7)
+
+prt(turn-1, off-2)
+nn(mower-4, lawn-3)
+dobj(turn-1, mower-4)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(start-1, mower-4)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(push-1, mower-4)
+advmod(push-1, forward-5)
+det(grass-8, the-7)
+prep_over(push-1, grass-8)
+
+det(lawn-3, the-2)
+iobj(mow-1, lawn-3)
+num(swath-6, one-4)
+amod(swath-6, mower-wide-5)
+dobj(mow-1, swath-6)
+det(time-9, a-8)
+prep_at(mow-1, time-9)
+mark(mowed-15, until-10)
+det(lawn-12, the-11)
+nsubjpass(mowed-15, lawn-12)
+auxpass(mowed-15, is-13)
+advmod(mowed-15, completely-14)
+advcl(mow-1, mowed-15)
+
+nn(mower-4, lawn-3)
+prep_on(turn-1, mower-4)
+
+prep_over(push-1, grass-3)
+
+det(garage-4, the-3)
+prep_to(go-1, garage-4)
+
+prt(take-1, out-2)
+det(mower-5, the-3)
+nn(mower-5, lawn-4)
+dobj(take-1, mower-5)
+
+det(mower-4, the-2)
+nn(mower-4, lawn-3)
+dobj(put-1, mower-4)
+det(grass-7, the-6)
+prep_on(put-1, grass-7)
+
+det(mower-5, the-3)
+nn(mower-5, lawn-4)
+prep_on(turn-1, mower-5)
+
+prt(walk-1, up-2)
+dep(up-2, and-3)
+dep(up-2, down-4)
+det(lawn-6, the-5)
+dobj(walk-1, lawn-6)
+mark(trimmed-10, until-7)
+nsubjpass(trimmed-10, it-8)
+auxpass(trimmed-10, is-9)
+advcl(walk-1, trimmed-10)
+
+prt(turn-1, off-2)
+det(mower-4, the-3)
+dobj(turn-1, mower-4)
+
+det(mower-3, the-2)
+dobj(put-1, mower-3)
+prt(put-1, away-4)
+
+nn(mower-4, lawn-3)
+prep_on(turn-1, mower-4)
+
+prep_across(roll-1, grass-3)
+
+aux(shed-3, to-2)
+xcomp(go-1, shed-3)
+
+prt(take-1, out-2)
+nn(mower-4, lawn-3)
+dobj(take-1, mower-4)
+
+prep_with(fill-1, gas-3)
+
+prep_on(turn-1, mower-3)
+
+dobj(mow-1, grass-2)
+num(direction-5, one-4)
+prep_in(mow-1, direction-5)
+
+amod(direction-4, other-3)
+prep_in(mow-1, direction-4)
+
+dobj(put-1, mower-2)
+prt(put-1, away-3)
+
+nn(mower-3, lawn-2)
+dobj(run-1, mower-3)
+det(lawn-6, the-5)
+prep_over(run-1, lawn-6)
+

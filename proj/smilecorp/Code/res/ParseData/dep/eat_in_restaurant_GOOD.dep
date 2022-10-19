@@ -1,0 +1,545 @@
+prep_at(look-1, menu-3)
+
+poss(food-3, your-2)
+dobj(order-1, food-3)
+
+prep_for(wait-1, food-3)
+
+dobj(eat-1, food-2)
+
+conj_and(pay-1, leave-3)
+
+det(menu-3, the-2)
+dobj(check-1, menu-3)
+
+det(meal-3, the-2)
+dobj(order-1, meal-3)
+
+prep_for(wait-1, meal-3)
+
+det(friends-4, the-3)
+prep_to(talk-1, friends-4)
+
+dobj(have-1, meal-2)
+
+det(bill-3, the-2)
+dobj(pay-1, bill-3)
+
+det(door-4, the-2)
+amod(door-4, front-3)
+dobj(enter-1, door-4)
+
+nn(seat-3, hostess-2)
+iobj(let-1, seat-3)
+dobj(let-1, you-4)
+
+iobj(tell-1, waitress-2)
+poss(order-5, your-3)
+nn(order-5, drink-4)
+dobj(tell-1, order-5)
+
+iobj(tell-1, waitress-2)
+poss(order-5, your-3)
+nn(order-5, food-4)
+dobj(tell-1, order-5)
+
+prep_for(wait-1, food-3)
+
+conj_and(eat-1, drink-3)
+
+dobj(get-1, check-2)
+prep_from(get-1, waitress-4)
+
+iobj(give-1, waitress-2)
+nn(card-4, credit-3)
+dobj(give-1, card-4)
+
+nn(slip-3, charge-2)
+dobj(take-1, slip-3)
+prep_from(take-1, waitress-5)
+
+dobj(sign-1, slip-2)
+conj_and(sign-1, add-4)
+det(tip-7, a-6)
+prep_in(add-4, tip-7)
+
+dobj(leave-1, slip-2)
+prep_on(leave-1, table-4)
+
+prt(put-1, up-2)
+nn(card-4, credit-3)
+dobj(put-1, card-4)
+
+det(restaurant-3, the-2)
+dobj(exit-1, restaurant-3)
+
+nsubjpass(seated-3, you-1)
+auxpass(seated-3, are-2)
+
+nsubjpass(placed-3, order-1)
+auxpass(placed-3, is-2)
+
+nsubjpass(served-3, drinks-1)
+auxpass(served-3, are-2)
+
+nsubjpass(served-3, appitizers-1)
+auxpass(served-3, are-2)
+
+amod(course-2, main-1)
+nsubjpass(served-4, course-2)
+auxpass(served-4, is-3)
+
+nsubjpass(ordered-3, desert-1)
+auxpass(ordered-3, is-2)
+
+nsubjpass(served-3, desert-1)
+auxpass(served-3, is-2)
+
+nsubjpass(left-3, tip-1)
+auxpass(left-3, is-2)
+
+nsubjpass(made-3, payment-1)
+auxpass(made-3, is-2)
+
+dep(look-2, i-1)
+prep_over(look-2, menu-4)
+
+dobj(decide-1, what-2)
+dep(decide-1, i-3)
+dep(decide-1, want-4)
+
+det(food-3, the-2)
+dobj(order-1, food-3)
+
+prep_for(wait-1, it-3)
+aux(come-5, to-4)
+xcomp(wait-1, come-5)
+
+det(food-3, the-2)
+dobj(eat-1, food-3)
+
+dobj(make-1, payment-2)
+
+
+prep_to(go-1, restaurant-3)
+
+auxpass(seated-2, get-1)
+
+nn(order-3, waiter-2)
+dobj(give-1, order-3)
+
+nsubj(brings-2, waiter-1)
+dobj(brings-2, drinks-3)
+
+dobj(brings-1, food-2)
+
+nsubj(eat-2, you-1)
+
+nsubj(pay-2, you-1)
+
+nsubj(tip-2, you-1)
+
+nsubj(leave-2, you-1)
+
+nsubj(leads-4, host-1)
+conj_or(host-1, hostess-3)
+nsubj(leads-4, hostess-3)
+dobj(leads-4, you-5)
+prep_to(leads-4, table-7)
+
+nsubj(takes-4, waiter-1)
+conj_or(waiter-1, waitress-3)
+nsubj(takes-4, waitress-3)
+nn(orders-6, drink-5)
+dobj(takes-4, orders-6)
+
+nsubj(brings-4, waiter-1)
+conj_or(waiter-1, waitress-3)
+nsubj(brings-4, waitress-3)
+dobj(brings-4, drinks-5)
+
+nsubj(takes-4, waiter-1)
+conj_or(waiter-1, waitress-3)
+nsubj(takes-4, waitress-3)
+nn(orders-6, food-5)
+dobj(takes-4, orders-6)
+
+nsubj(brings-4, waiter-1)
+conj_or(waiter-1, waitress-3)
+nsubj(brings-4, waitress-3)
+dobj(brings-4, food-5)
+
+poss(meal-4, your-2)
+amod(meal-4, delicious-3)
+dobj(enjoy-1, meal-4)
+
+nsubj(asks-4, waiter-1)
+conj_or(waiter-1, waitress-3)
+nsubj(asks-4, waitress-3)
+prep_about(asks-4, dessert-6)
+
+nsubj(brings-4, waiter-1)
+conj_or(waiter-1, waitress-3)
+nsubj(brings-4, waitress-3)
+poss(dessert-6, your-5)
+dobj(brings-4, dessert-6)
+
+nsubj(brings-4, waiter-1)
+conj_or(waiter-1, waitress-3)
+nsubj(brings-4, waitress-3)
+poss(bill-6, your-5)
+dobj(brings-4, bill-6)
+
+poss(bill-3, your-2)
+dobj(pay-1, bill-3)
+
+dobj(leave-1, restaurant-2)
+
+prep_at(sit-1, table-3)
+
+dobj(read-1, menu-2)
+
+prep_to(listen-1, specials-3)
+
+dobj(give-1, order-2)
+prep_to(give-1, waiter-4)
+
+dobj(consume-1, meal-2)
+
+dobj(pay-1, check-2)
+
+
+auxpass(seated-2, be-1)
+
+
+
+
+dobj(enjoy-1, food-2)
+
+
+det(tip-3, a-2)
+dobj(leave-1, tip-3)
+
+
+aux(seated-4, to-2)
+auxpass(seated-4, be-3)
+xcomp(wait-1, seated-4)
+
+prt(sit-1, down-2)
+
+prep_at(look-1, menu-3)
+
+dobj(order-1, drinks-2)
+
+dobj(order-1, food-2)
+
+
+prep_for(waiting-1, food-3)
+
+nsubj(arrives-2, food-1)
+
+dobj(eat-1, food-2)
+
+prep_for(ask-1, check-3)
+
+prep_for(pay-1, food-3)
+
+dobj(leave-1, tip-2)
+
+
+nsubj(seats-2, hostess-1)
+dobj(seats-2, you-3)
+
+nsubj(presents-2, hostess-1)
+dobj(presents-2, menus-3)
+
+nsubj(introduces-2, server-1)
+dobj(introduces-2, self-3)
+
+nsubj(takes-2, server-1)
+nn(order-4, drink-3)
+dobj(takes-2, order-4)
+
+dobj(browse-1, menu-2)
+
+dobj(select-1, food-2)
+
+nsubj(takes-2, server-1)
+dobj(takes-2, order-3)
+
+nsubjpass(prepared-3, food-1)
+auxpass(prepared-3, is-2)
+
+nsubj(served-2, food-1)
+
+det(blessing-3, the-2)
+dobj(say-1, blessing-3)
+
+
+dobj(receive-1, bill-2)
+
+dobj(pay-1, bill-2)
+
+dobj(leave-1, tip-2)
+
+dobj(leave-1, restaurant-2)
+
+prep_at(seated-1, table-3)
+
+nn(menu-4, drinks-3)
+prep_at(look-1, menu-4)
+
+nn(menu-4, food-3)
+prep_at(look-1, menu-4)
+
+dobj(order-1, food-2)
+dobj(order-1, drinks-4)
+conj_and(food-2, drinks-4)
+
+dobj(check-1, utensils-2)
+prep_for(check-1, cleanliness-4)
+
+prep_for(wait-1, food-3)
+
+
+dobj(pay-1, bill-2)
+
+
+prep_at(arrive-1, restaurant-3)
+
+mark(seats-4, till-2)
+nsubj(seats-4, hostess-3)
+advcl(wait-1, seats-4)
+dobj(seats-4, you-5)
+
+dobj(order-1, beverage-2)
+
+prep_at(look-1, menu-3)
+prep_for(menu-3, meal-5)
+
+nsubj(brings-2, waitress-1)
+dobj(brings-2, drink-3)
+
+nsubj(takes-2, waitress-1)
+dobj(takes-2, order-3)
+prep_for(order-3, food-5)
+
+conj_and(wait-1, talk-3)
+
+conj_and(wait-1, talk-3)
+
+nsubj(arrives-2, meal-1)
+
+pobj(after-1, eating-2)
+
+dobj(leave-1, tip-2)
+
+dobj(get-1, bill-2)
+
+prep_for(pay-1, bill-3)
+
+
+prep_to(go-1, restaurant-3)
+
+aux(seated-4, to-2)
+auxpass(seated-4, be-3)
+xcomp(wait-1, seated-4)
+
+auxpass(led-2, get-1)
+prep_to(led-2, table-4)
+
+dobj(consider-1, menu-2)
+
+dobj(choose-1, items-2)
+
+dobj(tell-1, order-2)
+prep_to(tell-1, server-4)
+
+dobj(eat-1, appetizer-2)
+
+dobj(eat-1, entree-2)
+
+dobj(order-1, desert-2)
+
+dobj(eat-1, desert-2)
+
+prep_for(ask-1, check-3)
+
+prep_for(pay-1, meal-3)
+
+dobj(leave-1, tip-2)
+
+dobj(enter-1, restaurant-2)
+
+dobj(see-1, hostess-2)
+prep_for(see-1, seating-4)
+
+prep_at(sit-1, table-3)
+
+nn(options-3, menu-2)
+dobj(review-1, options-3)
+
+dobj(greet-1, server-2)
+
+dobj(order-1, beverage-2)
+prep_with(order-1, server-4)
+
+dobj(receive-1, beverage-2)
+prep_from(receive-1, server-4)
+
+nn(option-3, meal-2)
+dobj(order-1, option-3)
+prep_with(order-1, server-5)
+
+dobj(receive-1, meal-2)
+prep_from(receive-1, server-4)
+
+dobj(eat-1, meal-2)
+
+nsubj(brings-2, server-1)
+dobj(brings-2, check-3)
+
+nn(card-4, credit-3)
+prep_with(pay-1, card-4)
+prep_with(pay-1, cash-6)
+conj_or(card-4, cash-6)
+
+dobj(place-1, payment-2)
+nn(holder-5, check-4)
+prep_in(place-1, holder-5)
+
+nsubj(pick-3, server-1)
+aux(pick-3, will-2)
+prt(pick-3, up-4)
+dobj(pick-3, payment-5)
+
+xcomp(server-1, bring-2)
+dobj(bring-2, change-3)
+dobj(bring-2, receipt-5)
+conj_or(change-3, receipt-5)
+
+dobj(leave-1, tip-2)
+
+dobj(leave-1, restaurant-2)
+
+aux(seated-4, to-2)
+auxpass(seated-4, be-3)
+xcomp(wait-1, seated-4)
+
+dobj(follow-1, worker-2)
+poss(table-5, our-4)
+prep_to(follow-1, table-5)
+
+
+prep_at(look-1, menu-3)
+
+dobj(select-1, meal-2)
+
+prep_for(wait-1, meal-3)
+
+
+dobj(eat-1, meal-2)
+
+
+dobj(leave-1, tip-2)
+
+dobj(leave-1, restaurant-2)
+
+auxpass(menucard-2, get-1)
+
+prep_for(search-1, items-3)
+
+dobj(order-1, items-2)
+
+dobj(eat-1, items-2)
+
+det(bill-3, the-2)
+dobj(pay-1, bill-3)
+
+dobj(quit-1, restaurant-2)
+
+aux(seated-4, to-2)
+auxpass(seated-4, be-3)
+xcomp(wait-1, seated-4)
+
+prt(sit-1, down-2)
+prep_at(sit-1, table-4)
+
+dobj(get-1, menu-2)
+conj_and(get-1, look-4)
+prep_over(look-4, it-6)
+
+dep(want-4, what-2)
+nsubj(want-4, you-3)
+xsubj(eat-6, you-3)
+ccomp(decide-1, want-4)
+aux(eat-6, to-5)
+xcomp(want-4, eat-6)
+
+det(waiter-3, the-2)
+iobj(give-1, waiter-3)
+det(order-5, the-4)
+dobj(give-1, order-5)
+
+advmod(wait-1, patiently-2)
+prep_for(wait-1, food-4)
+
+det(food-3, the-2)
+dobj(eat-1, food-3)
+
+dobj(order-1, desserts-2)
+
+dobj(eat-1, dessert-2)
+
+prep_for(ask-1, check-3)
+
+prep_for(paid-1, food-3)
+
+dobj(leave-1, tip-2)
+
+det(restaurant-3, the-2)
+dobj(exit-1, restaurant-3)
+
+prt(walk-1, up-2)
+det(reception-5, the-4)
+prep_to(walk-1, reception-5)
+
+det(table-3, a-2)
+dobj(book-1, table-3)
+
+nsubj(shows-2, waiter-1)
+dobj(shows-2, me-3)
+det(table-6, the-5)
+prep_to(shows-2, table-6)
+
+nsubj(shows-2, waiter-1)
+nsubj(menu-5, me-3)
+det(menu-5, the-4)
+xcomp(shows-2, menu-5)
+
+dobj(order-1, food-2)
+det(menu-5, the-4)
+prep_from(order-1, menu-5)
+
+nsubj(brings-2, waiter-1)
+poss(order-5, my-4)
+prep_in(brings-2, order-5)
+
+det(food-3, the-2)
+dobj(enjoy-1, food-3)
+
+det(bill-4, the-3)
+prep_for(ask-1, bill-4)
+
+nsubj(brings-2, waiter-1)
+det(bill-5, the-4)
+prep_in(brings-2, bill-5)
+
+det(bill-3, the-2)
+dobj(pay-1, bill-3)
+
+det(waiter-3, the-2)
+dobj(tip-1, waiter-3)
+
+advmod(walk-1, away-2)
+

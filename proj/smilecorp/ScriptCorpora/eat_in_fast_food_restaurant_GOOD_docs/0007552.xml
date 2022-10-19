@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0007552" url="http://www.brainmass.com/math/modeling-simulation/132186" time="2012-07-13-00:31" support="3" score="0.004483594734197617" bingtitle="Quantitative Analysis" webtitle="Quantitative Analysis">
+			<query id="000104" bing-rank="250"/>
+			<query id="000922" bing-rank="158"/>
+			<query id="000919" bing-rank="116"/>
+	<description>The company plans to place an order when the inventory ... arrivals at a drive-through window of a fast food restaurant ... numbers have been generated: 13, 10, 02, 18, 31 ...</description>
+	<body>
+		Help 
+ About Us Contact Customer Service 
+ Join BrainMass Sign-in 
+ Search: Answers eBooks Videos Search 
+ Home Create Custom Question Prepared Answers eBooks Quizzes Videos Expert Profiles Blog 
+ Mathematics Homework Solutions 
+ Mathematics » Modelling and Simulation » Problem #132186 
+ 
+ Topic: 
+Mathematics/Modelling and Simulation
+ This homework question: Buy Answer 
+Quantitative Analysis
+
+I have some Quantitative Analysis questions I need help understanding.
+
+Simulation Modeling
+
+1. A certain grocery store has noted the following figures with regard to the number of people who arrive at their three checkout stands ready to check out and the time it takes to check out the individuals.
+
+Arrivals/Min. Frequency Service Time in Min. Frequency
+0 0.3 1 0.1
+1 0.5 2 0.3
+2 0.2 3 0.4
+4 0.2
+
+Simulate the utilization rate of the three checkout stands over four minutes using the following random numbers for arrivals: 07, 60, 49, and 95. Use the following random numbers for service: 77,76, 51, and 16. Note the results at the end of the 4 minute period.
+
+2. The number of machine breakdowns in a day is 0, 1, or 2, with probabilities 0.6, 0.3, and 0.1, respectively. The following random numbers have been generated: 13, 10, 02, 18, 31, 19, 32, 85, 31, 94. Use these numbers to generate the number of breakdowns for 10 consecutive days. What proportion of these days had at least 1 breakdown?
+
+3. Average daily sales of a product are 8 units. The actual number of sales each day is either 7, 8, or 9, with probabilities 0.3, 0.4, and 0.3, respectively. The lead time for delivery of this averages 4 days, although the time may be 3, 4, or 5 days, with probabilities 0.2, 0.6, and 0.2. The company plans to place an order when the inventory level drops to 32 units (based on the average demand and average lead time). The following random numbers have been generated: 60, 87, 46, 63 (set 1) and 52, 78, 13, 06, 99, 98, 80, 09, 67, 89, 45 (set 2). Use set 1 of these to generate lead times and use set 2 to simulate daily demand. Simulate 2 ordering periods with this and determine how often the company runs out of stock before the shipment arrives.
+
+4. The time between arrivals at a drive-through window of a fast food restaurant follows the distribution given below. The service time distribution is also given in the table below. Use the random numbers provided to simulate the activity of the first five arrivals. Assume that the window opens at 11:00 AM and the first arrival after this is based on the first interarrival time generated.
+
+Time Between Service
+Arrivals Probability Time Probability
+1 0.2 1 0.3
+2 0.3 2 0.5
+3 0.3 3 0.2
+4 0.2
+
+Random numbers for arrivals: 14, 74, 27, 03
+Random numbers for service times: 88, 32, 36, 24
+
+What times does the fourth customer leave the system?
+ 
+Answer Summary
+
+This posting provides solution to simulation modeling and waiting line problems.
+ Attachments to further explain the question: (this is not the answer) 
+ Chapter 15 5-28-07.doc 
+ Preview of question attachments Chapter 15 5-28-07.doc 
+Chapter 15 â€“ Quantitative Analysis
+
+Simulation Modeling
+
+1. A certain grocery store has noted the following figures with regard
+to the number of people who arrive at their three checkout stands ready
+to check out and the time it takes to check out the individuals.
+
+Arrivals/Min. Frequency Service Time in Min. Frequency
+
+0 0.3 1 0.1
+
+1 0.5 2 0.3
+
+2 0.2 3 0.4
+
+4 0.2
+
+Simulate the utilization rate of the three checkout stands over four
+minutes using the following random numbers for arrivals: 07, 60, 49, and
+95. Use the following random numbers for service: 77,76, 51, and 16.
+Note the results at the end of the 4 minute period.
+
+2. The number of machine breakdowns in a day is 0, 1, or 2, with
+probabilities 0.6, 0.3, and 0.1, respectively. The following random
+numbers have been generated: 13, 10, 02, 18, 31, 19, 32, 85, 31, 94.
+Use these numbers to generate the number of breakdowns for 10
+consecutive days. What proportion of these days had at least 1
+breakdown?
+
+
+
+3. Average daily sales of a product are 8 units. The actual number of
+sales each day is either 7, 8, or 9, with probabilities 0.3, 0.4, and
+0.3, respectively. The lead time for delivery of this averages 4 days,
+although the time may be 3, 4, or 5 days, with probabilities 0.2, 0.6,
+and 0.2. The company plans to place an order when the inventory level
+drops to 32 units (based on the average demand and average lead time).
+The following random numbers have been generated: 60, 87, 46, 63 (set
+1) and 52, 78, 13, 06, 99, 98, 80, 09, 67, 89, 45 (set 2). Use set 1
+of these to generate lead times and use set 2 to simulate daily demand.
+Simulate 2 ordering periods with this and determine how often the
+company runs out of stock before the shipment arrives.
+
+4. The time between arrivals at a drive-through window of a fast food
+restaurant follows the distribution given below. The service time
+distribution is also given in the table below. Use the random numbers
+provided to simulate the activity of the first five arrivals. Assume
+that the window opens at 11:00 am and the first arrival after this is
+based on the first interarrival time generated.
+
+Time Between Service
+
+Arrivals Probability Time Probability
+
+1 0.2 1 0.3
+
+2 0.3 2 0.5
+
+3 0.3 3 0.2
+
+4 0.2
+
+Random numbers for arrivals: 14, 74, 27, 03
+
+Random numbers for service times: 88, 32, 36, 24
+
+What times does the fourth customer leave the system?
+
+PAGE
+
+PAGE 1
+
+ $2.19 
+Instantly Purchase
+
+This Answer Includes:
+
+ Plain text Cited sources when necessary Attached file(s)
+ 132186_Solution.xls 
+ 
+
+Written by Mathematics expert:
+ All tutors are professors, PHDs, or grad students to ensure that your answers are top notch. Neha Jain, ME More info Neha Jain, ME Mathematics Expert (#105227) 
+ Education 
+ PhD (IP) - IIM Bangalore ME - Maharaja Sayajirao University,Baroda Cumulative rating: 4.9/5 Buy Answer $2.19 
+ View Sample Solutions View FAQ 
+
+ 
+Special eBook Offer View more eBooks 
+ (What&apos;s Included in a Need to Know eBook?) 
+ MLA Citations 
+
+This book is a complete reference guide for MLA (Modern Language Association) citations and formatting. It includes a general overview of MLA citations, including formatting, parenthetical or in-text citations, footnotes, and everything you need to know about works cited pages all in accordance with the most current guidelines issued in the 7th edition of the MLA Handbook for Writers of Research Papers. This eBook also presents examples of commonly used citations in research.
+
+This book is ideal for students and researchers in areas of humanities and liberal arts. MLA citations are introduced as early as junior high and used often up through post-graduate writing, yet they continue to be an area of confusion and difficulty. While the formatting changes as the Modern Language Association updates their handbook, a firm grasp of MLA guidelines and citations is essential for scholars of all ages.
+ one-time offer $4.38 $2.19 
+ Business · Economics · Mathematics · Statistics · Sciences · Arts · More 
+ 
+ Legal Terms and Conditions · Privacy Policy · Copyright Notification Policy · Non-Payment Policy · Reference Desk · Advertise on BrainMass · Contact Us 
+
+ ©2004-2012 BrainMass Inc.
+	</body>
+</document>

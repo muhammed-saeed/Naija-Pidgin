@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0003186" url="http://www.functionx.com/visualbasic/fileprocessing/Lesson1.htm" time="2012-07-12-19:19" support="6" score="0.017102349060306044" bingtitle="Visual Basic File Processing: Introduction" webtitle="Visual Basic File Processing: Introduction">
+			<query id="001229" bing-rank="118"/>
+			<query id="001243" bing-rank="23"/>
+			<query id="001251" bing-rank="67"/>
+			<query id="001245" bing-rank="124"/>
+			<query id="001432" bing-rank="140"/>
+			<query id="001246" bing-rank="237"/>
+	<description>... scoops(1, 2, or 3)? 2 Ice Cream Order Flavor: Caramel Au Lait Container ... you create an application for a fast food restaurant ... exists, the compiler will throw an ...</description>
+	<body>
+		Introduction to File Processing
+ 
+  
+ 
+Overview of File Processing and Definitions 
+ 
+ 
+Introduction 
+
+ 
+In Lesson 2 , we saw that a piece
+of information used in an application is primarily represented as a group of
+bits. So far, if we requested information from the user, when the application
+exited, we lost all information that the user had entered. This is because such
+information was only temporarily stored in the random access memory (RAM).
+ 
+
+In
+some cases, you will want to&quot;keep&quot;information that the user has
+entered so you can make the same values available the next time the user opens
+the application. In some other cases, whether you request information from the
+user or inherently provide it to the user, you may want different people working
+from different computers to use or share the same data. In these and other
+scenarios, you must store the information somewhere and retrieve it
+when necessary. This is the basis of file processing.
+
+ 
+Files
+ 
+
+A file is a series of bytes of data that are arranged in a 
+particular way to produce a usable document. For easy storage, location, and 
+management, the bytes are stored on a medium such as a hard disc, a floppy disc, 
+a compact disc, or any valid and support type of storage. When these bytes belong 
+to a single but common entity and hold values that are stored on a medium, the 
+group is referred to as a file. For even greater management, files can be stored 
+in a parent object called a directory or a folder. Since a file is a unit of 
+storage and it stores information, it has a size, which is the number of bits it
+uses to store its values. To manage it, a file has a location also called a path 
+that specifies where and/or how the file can be retrieved. Also, for better 
+management, a file has attributes that indicate what can be done on the file or 
+that provide specific information that the programmer or the operating system can 
+use when dealing with the file.
+
+ 
+Streams
+ 
+
+File processing consists of creating, storing, and/or retrieving 
+the contents of a file from a recognizable medium. For example, it is used to save 
+word-processed files to a hard drive, to store a presentation on floppy disk, or to 
+open a file from a CD-ROM. A stream is the technique or means of performing file 
+processing. In order to manage files stored in a computer, each file must be able to 
+provide basic pieces of information about itself. This basic information is specified 
+when the file is created but can change during the life time of a file.
+
+To create a file, a user must first decide where it would be 
+located: this is a requirement. A file can be located on the root drive. Alternatively, 
+a file can be positioned inside of an existing folder. Based on security settings, a user may not be able to create a file just anywhere in the (file system of the) computer. Once the user has decided where the file would reside, there are various means of creating files that the users are trained to use. When creating a file, the user must give it a name following the rules of the operating system combined with those of the file system.
+The most fundamental piece of information a file must have is a name.
+
+Once the user has created a file, whether the file is empty or not, the operating system assigns basic pieces of information to it. Once a file is created, it can be opened, updated, modified, renamed, etc.
+
+ 
+Streaming Prerequisites
+ 
+ 
+ 
+Introduction
+ 
+
+To support file processing, the .NET Framework provides the System.IO namespace that contains many different classes to handle almost any type of file
+operation you may need to perform. Therefore, to perform file processing,
+include the System.IO namespace in your calls.
+
+The parent class of file processing is Stream . With Stream , you can store data
+to a stream or you can retrieve data from a stream. Stream is an abstract class, which means that you cannot use it to declare a
+variable in your
+application. As an abstract class, Stream is used as the parent of the
+classes that actually implement the necessary operations. You will usually use a
+combination of classes to perform a typical operation. For example, some classes
+are used to create a stream object while some others are used to write data to
+the created stream.
+
+ 
+ Practical
+ Learning: Introducing Streaming 
+
+ Start Notepad and type the following in the empty file:
+ 
+ &apos; This class is used to create and manage an ice cream
+&apos; and to process an order
+Public NotInheritable Class IceCream
+ &apos; This is the base price of an ice cream
+ &apos; Optional values may be added to it
+ Public Const BasePrice As Double = 1.55
+
+ &apos; These arrays are used to build the components of various ice creams
+ &apos; In C#, we can allocate an array&apos;s memory in the body of the class
+ Private Flavors As Collection
+ Private Containers As Collection
+ Private Ingredients As Collection
+
+ &apos; Additional factor used to process an ice cream order
+ Private Scoops As Integer
+ Private TotalPrice As Double
+
+ &apos; Variables that will hold the user&apos;s choice
+ &apos; These are declared&quot;globally&quot;so they can be shared among methods
+ Dim ChoiceFlavor As Integer
+ Dim ChoiceContainer As Integer
+ Dim ChoiceIngredient As Integer
+
+ &apos; This default constructor is the best place for us to initialize the array
+ Public Sub New()
+ Flavors = New Collection
+ Flavors.Add(&quot;Vanilla&quot;)
+ Flavors.Add(&quot;Cream of Cocoa&quot;)
+ Flavors.Add(&quot;Chocolate Chip&quot;)
+ Flavors.Add(&quot;Organic Strawberry&quot;)
+ Flavors.Add(&quot;Butter Pecan&quot;)
+ Flavors.Add(&quot;Cherry Coke&quot;)
+ Flavors.Add(&quot;Chocolate Brownies&quot;)
+ Flavors.Add(&quot;Caramel Au Lait&quot;)
+ Flavors.Add(&quot;Chunky Butter&quot;)
+ Flavors.Add(&quot;Chocolate Cookie&quot;)
+
+ Ingredients = New Collection
+ Ingredients.Add(&quot;No Ingredient&quot;)
+ Ingredients.Add(&quot;Peanuts&quot;)
+ Ingredients.Add(&quot;M&amp;M&quot;)
+ Ingredients.Add(&quot;Cookies&quot;)
+
+ Containers = New Collection
+ Containers.Add(&quot;Cone&quot;)
+ Containers.Add(&quot;Cup&quot;)
+ Containers.Add(&quot;Bowl&quot;)
+ End Sub
+
+ &apos; This method requests a flavor from the user and returns the choice
+ Public Sub ChooseFlavor()
+ &apos; Make sure the user selects a valid number that represents a flavor...
+ Do
+ &apos; In case the user types a symbol that is not a number
+ Try
+ Console.WriteLine(&quot;What type of flavor do you want?&quot;)
+ For i As Integer = 1 To Flavors.Count Step 1
+ Console.WriteLine(&quot;{0} - {1}&quot;, i, Flavors(i))
+ Next
+ Console.Write(&quot;Your Choice?&quot;)
+ ChoiceFlavor = CInt(Console.ReadLine())
+ Catch ex As InvalidCastException &apos; display an appropriate message
+ Console.WriteLine(&quot;You must enter a valid number&quot;&amp;_&quot;and no other character!&quot;)
+ End Try
+
+ &apos; If the user typed an invalid number out of the allowed range
+ &apos; let him or her know and provide another chance
+ If ChoiceFlavor&lt;1 Or ChoiceFlavor&gt;Flavors.Count Then
+ Console.WriteLine(&quot;Invalid Choice - Try Again!&quot;&amp;vbCrLf)
+ End If
+ Loop While ChoiceFlavor&lt;1 Or ChoiceFlavor&gt;Flavors.Count
+ End Sub
+
+ &apos; This method allows the user to select a container
+ Public Sub ChooseContainer()
+ &apos; Make sure the user selects a valid number that represents a container
+ Do
+ &apos; If the user types a symbol that is not a number
+ Try
+ Console.WriteLine(&quot;What type of container do you want?&quot;)
+ For i As Integer = 1 To Containers.Count Step 1
+ Console.WriteLine(&quot;{0} - {1}&quot;, i, Containers(i))
+ Next
+ Console.Write(&quot;Your Choice?&quot;)
+ ChoiceContainer = CInt(Console.ReadLine())
+ Catch ex As InvalidCastException
+ Console.WriteLine(&quot;You must enter a valid number&quot;&amp;_&quot;and no other character!&quot;)
+ End Try
+
+ &apos; If the user typed an invalid number out of the allowed range
+ &apos; let him or her know and provide another chance
+ If ChoiceContainer&lt;1 Or ChoiceContainer&gt;Containers.Count Then
+ Console.WriteLine(&quot;Invalid Choice - Try Again!&quot;)
+ End If
+ Loop While ChoiceContainer&lt;1 Or ChoiceContainer&gt;Containers.Count
+ End Sub
+
+ Public Sub ChooseIngredient()
+ Do
+ Try
+ Console.WriteLine(&quot;Do you want an ingredient or not&quot;)
+ For i As Integer = 1 To Ingredients.Count Step 1
+ Console.WriteLine(&quot;{0} - {1}&quot;, i, Ingredients(i))
+ Next
+ Console.Write(&quot;Your Choice?&quot;)
+ ChoiceIngredient = CInt(Console.ReadLine())
+ Catch ex As InvalidCastException
+ Console.WriteLine(&quot;You must enter a valid number&quot;&amp;_&quot;and no other character!&quot;)
+ End Try
+
+ If ChoiceIngredient&lt;1 Or _
+ ChoiceIngredient&gt;Ingredients.Count Then
+ Console.WriteLine(&quot;Invalid Choice - Try Again!&quot;)
+ End If
+ Loop While ChoiceIngredient&lt;1 Or _
+ ChoiceIngredient&gt;Ingredients.Count
+ End Sub
+
+ Public Sub SpecifyNumberOfScoops()
+ Do
+ Try
+ Console.Write(&quot;How many scoops(1, 2, or 3)?&quot;)
+ Scoops = CInt(Console.ReadLine())
+ Catch ex As InvalidCastException
+ Console.WriteLine(&quot;You must enter a valid number&quot;&amp;_&quot;and no other character!&quot;)
+ End Try
+
+ If Scoops&lt;1 Or Scoops&gt;3 Then
+ Console.WriteLine(&quot;Invalid Choice - Try Again!&quot;)
+ End If
+ Loop While Scoops&lt;1 Or Scoops&gt;3
+ End Sub
+
+ &apos; This method is used to process a customer order
+ &apos; It uses the values of the above methods
+ Public Sub ProcessAnOrder()
+ Dim PriceIngredient As Double
+ Dim PriceScoop As Double
+
+ &apos; Let the user know that this is a vending machine
+ Console.WriteLine(&quot;Ice Cream Vending Machine&quot;)
+
+ &apos; Let the user select the components of the ice cream
+ ChooseFlavor()
+ ChooseContainer()
+ ChooseIngredient()
+ SpecifyNumberOfScoops()
+
+ &apos; If the user selects an ingredient instead of&quot;No Ingredient&quot;,
+ &apos; add $0.50 to the order
+ If ChoiceIngredient = 2 Or _
+ ChoiceIngredient = 3 Or _
+ ChoiceIngredient = 4 Then
+ PriceIngredient = 0.5
+ Else
+ PriceIngredient = 0.0
+ End If
+
+ &apos; Instead of multiplying a number scoops to a value,
+ &apos; We will use an incremental value depending on the number of scoops
+ If Scoops = 1 Then
+ PriceScoop = 0.65
+ ElseIf Scoops = 2 Then
+ PriceScoop = 1.05
+ Else
+ PriceScoop = 1.55
+ End If
+
+ &apos; Calculate the total price of the ice cream
+ TotalPrice = BasePrice + PriceScoop + PriceIngredient
+
+ &apos; Create the ice cream...
+
+ &apos; And display a receipt to the user
+ DisplayReceipt()
+ End Sub
+
+ &apos; This method is used to display a receipt to the user
+ Public Sub DisplayReceipt()
+ Console.WriteLine(vbCrLf&amp;&quot;Ice Cream Order&quot;)
+ Console.WriteLine(&quot;Flavor: {0}&quot;, Flavors(ChoiceFlavor))
+ Console.WriteLine(&quot;Container: {0}&quot;, Containers(ChoiceContainer))
+ Console.WriteLine(&quot;Ingredient: {0}&quot;, Ingredients(ChoiceIngredient))
+ Console.WriteLine(&quot;Scoops: {0}&quot;, Scoops)
+ Console.WriteLine(&quot;Total Price: {0:C}&quot;&amp;vbCrLf, TotalPrice)
+ End Sub
+End Class 
+ Save the file in a new folder named IceCream4 Save the file itself as IceCream.vb in the IceCream4 folder Start a new instance of Notepad and type the following in it:
+ 
+ Imports System
+
+Public Class Exercise
+ Public Shared Sub main()
+ Dim IC As IceCream = New IceCream
+
+ IC.ProcessAnOrder()
+ End Sub
+End Class 
+ Save the file as Exercise.vb in the IceCream4 folder Open the Command Prompt and change to the directory that contains the
+ above Exercise.vb file To compile it, type vbc /out:&quot;Ice Cream Vending Machine&quot;.exe
+ IceCream.vb Exercise.vb and press Enter To execute it, type&quot; Ice Cream Vending Machine&quot; and
+ press Enter. Here is an example:
+ 
+ Ice Cream Vending Machine
+What type of flavor do you want?
+1 - Vanilla
+2 - Cream of Cocoa
+3 - Chocolate Chip
+4 - Organic Strawberry
+5 - Butter Pecan
+6 - Cherry Coke
+7 - Chocolate Brownies
+8 - Caramel Au Lait
+9 - Chunky Butter
+10 - Chocolate Cookie
+Your Choice? 8
+What type of container do you want?
+1 - Cone
+2 - Cup
+3 - Bowl
+Your Choice? 0
+Invalid Choice - Try Again!
+What type of container do you want?
+1 - Cone
+2 - Cup
+3 - Bowl
+Your Choice? -1
+Invalid Choice - Try Again!
+What type of container do you want?
+1 - Cone
+2 - Cup
+3 - Bowl
+Your Choice? 1
+Do you want an ingredient or not
+1 - No Ingredient
+2 - Peanuts
+3 - M&amp;M
+4 - Cookies
+Your Choice? 5
+Invalid Choice - Try Again!
+Do you want an ingredient or not
+1 - No Ingredient
+2 - Peanuts
+3 - M&amp;M
+4 - Cookies
+Your Choice? 4
+How many scoops(1, 2, or 3)? 2
+
+Ice Cream Order
+Flavor: Caramel Au Lait
+Container: Cone
+Ingredient: Cookies
+Scoops: 2
+Total Price: $3.10 
+ Return to the IceCream.vb file 
+
+ 
+The Name of a File
+ 
+
+Before performing file processing, one of your early
+decisions will consist of specifying the type of operation you want to conduct.
+For example, you may want to create a brand new file. You may want to open an
+existing file. Or you may want to perform a routine operation on a file. In all
+or most cases, whether you are creating a new file or manipulating an existing
+one,
+you must specify the name of the file. You can do this by declaring a string
+variable but most classes uses to create a stream as we will learn later can
+take a string that represents the file.
+
+If you are creating a new file, there are certainly some
+rules you must observe. The name of a file follows the directives of the operating system. On MS DOS and Windows
+3.X (that is, prior to Microsoft Windows 9X), the file had to use the 8.3 format. The actual name had to have a maximum of 8 characters with restrictions on the characters that could be used. The user also had to specify three characters after a period. The three characters, known as the file extension, were used by the operating system to classify the file. That was all necessary for those 8-bit and 16-bit operating systems.
+Various rules have changed. For example, the names of folders and files on Microsoft Windows &gt;= 95 can have up to 255 characters. The extension of the file is mostly left to the judgment of the programmer but the files are still using extensions. Applications can also be configured to save different types of
+files that is, files with different extensions.
+
+ At the time of this writing, the rules for file names
+ for Microsoft Windows were on the MSDN web site at Windows Development\Windows Base Services\Files and I/O\SDK Documentation\Storage\Storage Overview\File Management\Creating, Deleting, and Maintaining Files\Naming a File (because it is a web site and not a book, its pages can change anytime). 
+
+Based on this, if you declare a string variable to
+hold the name of the file, you can simply initialize the variable with the
+necessary name and its extension. Here is an example:
+ Imports System
+
+Public Class Exercise
+ Public Shared Sub main()
+ Dim NameOfFile As String =&quot;Employees.spr&quot;End Sub
+End Class 
+ 
+ Practical
+ Learning: Specifying the Name of a File 
+
+ Access the IceCream.vb file and add a new public method named SaveOrder of type sub :
+ 
+ &apos; This class is used to create and manage an ice cream
+&apos; and to process an order
+Public NotInheritable Class IceCream . . . No Change &apos; This method is used to display a receipt to the user
+ Public Sub DisplayReceipt()
+ Console.WriteLine(vbCrLf&amp;&quot;Ice Cream Order&quot;)
+ Console.WriteLine(&quot;Flavor: {0}&quot;, Flavors(ChoiceFlavor))
+ Console.WriteLine(&quot;Container: {0}&quot;, Containers(ChoiceContainer))
+ Console.WriteLine(&quot;Ingredient: {0}&quot;, Ingredients(ChoiceIngredient))
+ Console.WriteLine(&quot;Scoops: {0}&quot;, Scoops)
+ Console.WriteLine(&quot;Total Price: {0:C}&quot;&amp;vbCrLf, TotalPrice)
+ End Sub Public Sub Save()
+ Dim NameOfFile As String
+
+ Console.Write(&quot;Please enter your initials or the name we &quot;&amp;_&quot; will use to remember your order:&quot;)
+ NameOfFile = Console.ReadLine()
+ End Sub End Class 
+ Save the file Access the Exercise.vb file and change it as follows:
+ 
+ Imports System
+
+Public Class Exercise
+ Public Shared Sub main()
+ Dim IC As IceCream = New IceCream
+ Dim Answer As String
+
+ IC.ProcessAnOrder()
+
+ Console.Write(&quot;Do you want us to remember this order the next&quot;&amp;_&quot;time you come to get your ice cream (y/n)?&quot;)
+ Answer = Console.ReadLine()
+
+ If Answer =&quot;y&quot;Or Answer =&quot;Y&quot;Then
+ IC.Save()
+ End If
+ End Sub
+End Class 
+ Save the file Compile and execute it 
+
+ 
+ 
+ 
+  
+ 
+
+ 
+
+  
+   
+ 
+   
+
+ 
+The Path to a File
+ 
+
+If you declare a string as above, the file will be created in
+the folder of the application. Otherwise, you can create your new file anywhere
+on a medium such as the hard drive. To do that, you must provide a complete path where the file
+will reside. A path is a string that specifies the drive (such as A:, C:, or D:). The sections of
+a complete path as string are separated by a backslash. For example, a path can
+the made of a folder followed by the name of the file. An example would be
+ C:\Palermo.tde 
+A path can also consist of a drive followed by the name of
+the folder in which the file will be created. Here is an example:
+ C:\Program Files\Palermo.tde 
+A path can also indicate that the file will be created in a
+folder that itself is inside of another folder. In this case, remember that the
+names of folders must be separated by backslashes. In the same way, you can declare
+a string variable to
+represent the name of an existing file that you plan to use in your program. You
+can also represent its path.
+
+When providing a path to the file, if the drive you specify
+doesn&apos;t exist or cannot be read, the compiler would consider that the file
+doesn&apos;t exist. If you provide folders that don&apos;t exist in the drive, the
+compiler would consider that the file doesn&apos;t exist. This also means that the
+compiler will not create the folder(s) (the .NET Framework provides all means to
+create a folder but you must ask the compiler to create it; simply specifying a
+folder that doesn&apos;t exist will not automatically create it, even if you are
+creating a new file). Therefore, it is your responsibility to make sure that
+either the file or the path to the file is valid. As we will see in the next
+section, the compiler can check the existence of a file or path.
+
+ 
+File Existence
+ 
+
+While Stream is used as the parent of all file
+processing classes, the .NET Framework provides the File class equipped
+with methods to create, save, open, copy, move, delete, or provide detailed
+information about, files. Based on its functionality, the File class is
+typically used to assist the other classes with their processing operations. To
+effectively provide this support, all File &apos;s methods are static which
+means that you will usually not need to declare a File variable to access
+them.
+
+One of the valuable operations that the File class can
+perform is to check the existence of the file you want to use. For example, if
+you are creating a new file, you may want to make sure it doesn&apos;t exist already
+because if you try to create a file that exists already, the compiler may first
+delete the old file before creating the new one. This could lead to
+unpredictable result, especially because such a file is not sent to the Recycle
+Bin. On the other hand, if you are trying to open a file, you should first make
+sure the file exists, otherwise the compiler will not be able to open a file it
+cannot find.
+
+To check the existence of a file, the File class provides
+the Exists method. Its syntax is:
+ Public Shared Function Exists(ByVal path As String) As Boolean 
+If you provide only the name of the file, the compiler would
+check it in the folder of the application. If you provide the path to the file, the
+compiler would check its drive, its folder(s) and the file itself. In both
+cases, if the file exists, the method returns true. If the compiler cannot find
+the file, the method returns false. It&apos;s important to know that if you provided
+a complete path to the file, any slight mistake would produce a false result.
+
+ 
+ Practical
+ Learning: Checking the Existence of a File 
+
+ Access the IceCream.vb file and change it as follows:
+ 
+ Imports System
+Imports System.IO
+
+&apos; This class is used to create and manage an ice cream
+&apos; and to process an order
+Public NotInheritable Class IceCream
+
+ . . . No Change Public Sub Save()
+ Dim NameOfFile As String
+
+ Console.Write(&quot;Please enter your initials or the name&quot;&amp;_&quot;we will use to remember your order:&quot;)
+ NameOfFile = Console.ReadLine()
+
+ If File.Exists(NameOfFile) Then
+
+ Dim Answer As String
+
+ Console.WriteLine(&quot;The file you entered exists already.&quot;)
+ Console.Write(&quot;Do you want to replace it(y/n)?&quot;)
+ Answer = Console.ReadLine()
+
+ If Answer =&quot;y&quot;Or Answer =&quot;Y&quot;Then
+ Console.WriteLine(&quot;The former order with the&quot;&amp;_&quot;same name will be replaced&quot;)
+ ElseIf Answer =&quot;n&quot;Or Answer =&quot;N&quot;Then
+ Console.WriteLine(&quot;Please enter a name we will&quot;&amp;_&quot;use to remember this order:&quot;)
+ NameOfFile = Console.ReadLine()
+ Else
+ Console.WriteLine(&quot;Invalid Answer - We will close&quot;)
+ Exit Sub
+ End If
+ Else
+ Console.WriteLine(&quot;The name you entered is not&quot;&amp;_&quot;registered in our previous orders&quot;)
+ End If
+ End Sub
+
+ Public Sub Open()
+ Dim NameOfFile As String
+
+ Console.Write(&quot;Please enter the name you previously&quot;&amp;_&quot;gave to remember your order:&quot;)
+ NameOfFile = Console.ReadLine()
+
+ If File.Exists(NameOfFile) Then
+ Console.WriteLine(&quot;The file would have been opened&quot;)
+ Else
+ Console.WriteLine(&quot;The name you entered is not&quot;&amp;_&quot;registered in our previous orders&quot;)
+ End If
+ End Sub
+End Class 
+ Save the file Access the Exercise.vb file and change it as follows:
+ 
+ Imports System
+
+Public Class Exercise
+ Public Shared Sub main()
+ Dim IC As IceCream = New IceCream
+ Dim Answer As String =&quot;n&quot;Console.Write(&quot;Have you ordered here before(y/n)?&quot;)
+ Answer = Console.ReadLine()
+
+ If Answer =&quot;y&quot;Or Answer =&quot;Y&quot;Then
+ IC.Open()
+ Else
+
+ IC.ProcessAnOrder()
+
+ Console.Write(&quot;Do you want us to remember this order the&quot;&amp;_&quot;next time you come to get your ice cream (y/n)?&quot;)
+ Answer = Console.ReadLine()
+
+ If Answer =&quot;y&quot;Or Answer =&quot;Y&quot;Then
+ IC.Save()
+ End If
+ End If
+
+ End Sub
+End Class 
+ Save the file Compile and execute it 
+
+ 
+Access to a File
+ 
+
+In order to perform an operation on a file, you must specify
+to the operating system how to proceed. One of the options you have is to
+indicate the type of access that will be granted on the file. This access is
+specified using the FileAccess enumerator. The members of the FileAccess enumerator are:
+
+ FileAccess.Write : New data can be written to the file FileAccess.Read : Existing data can be read from the file FileAccess.ReadWrite : Existing data can be read from the file and
+ new data be written to the file 
+
+ 
+File Sharing
+ 
+
+In standalone workstations, one person is usually able to
+access and open a file then perform the necessary operations on it. In networked
+computers, you may create a file that different people can access at the same
+time or you may make one file access another file to retrieve information. For
+example, suppose you create an application for a fast food restaurant that has
+two or more connected workstations and all workstations save their customers
+orders to a common file. In this case, you must make sure that any of the
+computers can access the file to save an order. An employee from one of these
+workstations must also be able to open the file to retrieve a customer order for
+any necessary reason. You can also create a situation where one file holds an
+inventory of the items of a store and another file holds the customers orders.
+Obviously one file would depend on another. Based on this, when an operation
+must be performed on a file, you may have to specify how a file can be shared.
+This is done through the FileShare enumerator.
+
+The values of the FileShare enumerator are:
+
+ FileShare.Inheritable : Allows other file handles to inherit from
+ this file FileShare.None : The file cannot be shared FileShare.Read : The file can be opened and read from FileShare.Write : The file can be opened and written to FileShare.ReadWrite : The file can be opened to write to it or read
+ from it 
+ 
+ 
+The Mode of a File
+ 
+
+Besides the access to the file, another option you will most
+likely specify to the operating system is referred to as the mode of a file. It
+is specified through the FileMode enumerator. The members of the FileMode Enumerator are:
+
+ FileMode.Append : If the file already exists, the new data will be
+ added to its end. If the file doesn&apos;t exist, it will be created and the new
+ data will be added to it FileMode.Create : If the file already exists, it will be deleted and
+ a new file with the same name will be created. If the file doesn&apos;t exist,
+ then it will be created FileMode.CreateNew : If the new already exists, the compiler will
+ throw an error. If the file doesn&apos;t exist, it will be created FileMode.Open : If the file exists, it will be opened. If the file
+ doesn&apos;t exist, an error would be thrown FileMode.OpenOrCreate : If the file already exists, it will be
+ opened. If the file doesn&apos;t exist, it will be created FileMode.Truncate : If the file already exists, its contents will be
+ deleted completely but the file will be kept, allowing you to write new data
+ to it. If the file doesn&apos;t exist, an error would be thrown 
+ 
+ 
+   
+ 
+ 
+    
+ 
+   
+ Home Copyright©2009-2010 FunctionX,
+ Inc. Next
+	</body>
+</document>

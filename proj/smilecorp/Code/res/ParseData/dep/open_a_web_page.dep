@@ -1,0 +1,288 @@
+det(computer-4, the-3)
+prep_on(turn-1, computer-4)
+
+det(browser-3, the-2)
+dobj(run-1, browser-3)
+
+det(url-3, the-2)
+dobj(enter-1, url-3)
+det(page-7, the-5)
+nn(page-7, web-6)
+prep_of(url-3, page-7)
+
+det(url-3, the-2)
+dobj(enter-1, url-3)
+det(browser-6, the-5)
+prep_into(enter-1, browser-6)
+
+nsubj(enter-3, the-2)
+ccomp(hit-1, enter-3)
+acomp(enter-3, key-4)
+
+dobj(select-1, website-2)
+prep_from(select-1, bookmarks-4)
+
+amod(bookmark-4, website-3)
+prep_on(click-1, bookmark-4)
+
+amod(url-3, desired-2)
+dobj(enter-1, url-3)
+det(bar-7, the-5)
+nn(bar-7, address-6)
+prep_into(enter-1, bar-7)
+det(browser-11, the-9)
+nn(browser-11, web-10)
+prep_of(bar-7, browser-11)
+
+nsubj(enter-2, press-1)
+
+det(computer-4, the-3)
+prep_on(turn-1, computer-4)
+
+amod(explorer-3, internet-2)
+dobj(open-1, explorer-3)
+
+det(address-4, the-2)
+amod(address-4, website-3)
+dobj(type-1, address-4)
+det(bar-8, the-6)
+nn(bar-8, address-7)
+prep_in(type-1, bar-8)
+
+nsubj(enter-2, press-1)
+
+nn(browser-3, web-2)
+dobj(start-1, browser-3)
+
+nn(address-4, web-3)
+prep_in(enter-1, address-4)
+
+nsubj(load-2, click-1)
+dobj(load-2, button-3)
+
+det(browser-3, the-2)
+dobj(open-1, browser-3)
+
+det(address-4, the-3)
+prep_in(type-1, address-4)
+
+det(page-3, the-2)
+dobj(open-1, page-3)
+
+det(computer-4, the-3)
+prep_on(turn-1, computer-4)
+
+amod(explorer-4, internet-3)
+prep_on(click-1, explorer-4)
+
+poss(homepage-3, my-1)
+amod(homepage-3, google-2)
+nsubj(open-6, homepage-3)
+aux(open-6, will-4)
+advmod(open-6, automatically-5)
+
+nn(link-4, web-3)
+prep_on(clink-1, link-4)
+
+det(browser-4, the-2)
+amod(browser-4, internet-3)
+dobj(open-1, browser-4)
+
+det(address-4, the-2)
+nn(address-4, web-3)
+dobj(type-1, address-4)
+det(field-8, the-6)
+nn(field-8, address-7)
+prep_on(type-1, field-8)
+
+nsubj(enter-2, press-1)
+
+det(browser-4, the-2)
+amod(browser-4, internet-3)
+dobj(open-1, browser-4)
+
+det(address-3, the-2)
+dobj(type-1, address-3)
+det(page-7, the-5)
+nn(page-7, web-6)
+prep_of(address-3, page-7)
+det(field-11, the-9)
+nn(field-11, address-10)
+prep_on(type-1, field-11)
+
+nsubj(enter-2, click-1)
+dobj(enter-2, button-3)
+
+det(browser-4, the-2)
+amod(browser-4, internet-3)
+dobj(open-1, browser-4)
+
+det(address-4, the-2)
+nn(address-4, web-3)
+dobj(type-1, address-4)
+det(field-8, the-6)
+nn(field-8, address-7)
+prep_on(type-1, field-8)
+
+nsubj(enter-2, press-1)
+acomp(enter-2, key-3)
+
+det(icon-5, the-3)
+nn(icon-5, browser-4)
+prep_on(click-1, icon-5)
+
+nsubj(bookmarks-2, click-1)
+det(menu-5, the-4)
+prep_on(bookmarks-2, menu-5)
+
+det(bookmark-3, a-2)
+dobj(select-1, bookmark-3)
+det(drop-6, the-5)
+prep_from(select-1, drop-6)
+prep_down(select-1, list-8)
+
+det(page-5, the-3)
+nn(page-5, web-4)
+prep_for(wait-1, page-5)
+aux(connect-7, to-6)
+xcomp(wait-1, connect-7)
+xcomp(wait-1, open-9)
+conj_and(connect-7, open-9)
+
+dobj(open-1, explorer-2)
+
+prep_in(type-1, url-3)
+
+nsubj(go-2, click-1)
+
+det(computer-3, the-2)
+dobj(find-1, computer-3)
+aux(use-5, to-4)
+infmod(computer-3, use-5)
+
+det(browser-4, a-2)
+nn(browser-4, web-3)
+dobj(open-1, browser-4)
+
+det(address-4, the-2)
+nn(address-4, web-3)
+dobj(enter-1, address-4)
+det(browser-8, the-6)
+nn(browser-8, web-7)
+prep_into(enter-1, browser-8)
+
+det(browser-4, the-2)
+nn(browser-4, web-3)
+dobj(open-1, browser-4)
+
+det(bar-5, the-3)
+nn(bar-5, address-4)
+prep_in(click-1, bar-5)
+
+det(address-3, the-2)
+dobj(type-1, address-3)
+
+nsubj(enter-2, press-1)
+
+det(computer-3, a-2)
+dobj(use-1, computer-3)
+aux(open-5, to-4)
+xcomp(use-1, open-5)
+det(page-8, a-6)
+nn(page-8, web-7)
+dobj(open-5, page-8)
+
+det(computer-4, the-3)
+prep_on(switch-1, computer-4)
+
+det(browser-4, the-2)
+amod(browser-4, internet-3)
+dobj(open-1, browser-4)
+
+det(page-4, the-2)
+nn(page-4, web-3)
+dobj(open-1, page-4)
+
+det(browser-3, a-2)
+dobj(open-1, browser-3)
+
+det(page-4, a-2)
+nn(page-4, web-3)
+dobj(load-1, page-4)
+
+complm(available-6, that-2)
+amod(connection-4, internet-3)
+nsubj(available-6, connection-4)
+cop(available-6, is-5)
+ccomp(ensure-1, available-6)
+
+csubj(icon-5, identify-1)
+det(browser-3, the-2)
+dobj(identify-1, browser-3)
+cop(icon-5, s-4)
+
+dobj(open-1, program-2)
+amod(clicking-5, double-4)
+prep_by(open-1, clicking-5)
+prep_on(open-1, icon-7)
+
+dobj(enter-1, website-2)
+nsubj(address-4, s-3)
+dep(enter-1, address-4)
+det(bar-8, the-6)
+nn(bar-8, url-7)
+prep_into(address-4, bar-8)
+
+dobj(allow-1, site-2)
+prep_to(allow-1, load-4)
+
+prep_on(clik-1, broswer-3)
+
+prep_on(click-1, broswer-3)
+
+prep_on(turn-1, computer-3)
+
+dobj(start-1, browser-2)
+
+nn(address-4, web-2)
+nn(address-4, page-3)
+dobj(enter-1, address-4)
+advmod(enter-1, or-5)
+
+nn(bookmark-4, web-2)
+nn(bookmark-4, page-3)
+dobj(select-1, bookmark-4)
+
+prep_on(turn-1, computer-3)
+
+nn(browser-3, web-2)
+dobj(select-1, browser-3)
+
+amod(link-4, desired-3)
+prep_on(click-1, link-4)
+
+acomp(make-1, sure-2)
+dep(connected-5, internet-3)
+auxpass(connected-5, is-4)
+dep(sure-2, connected-5)
+
+csubj(icon-4, locate-1)
+dobj(locate-1, browser-2)
+cop(icon-4, s-3)
+
+amod(click-3, right-2)
+dobj(double-1, click-3)
+prep_on(double-1, icon-5)
+
+nsubj(internet-2, click-1)
+dobj(internet-2, explorer-3)
+
+nn(browser-3, web-2)
+dobj(open-1, browser-3)
+
+nsubj(address-4, type-1)
+prep_in(type-1, web-3)
+
+amod(explorer-4, internet-3)
+prep_on(click-1, explorer-4)
+

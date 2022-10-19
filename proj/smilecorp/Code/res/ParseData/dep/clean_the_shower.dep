@@ -1,0 +1,692 @@
+dobj(get-1, shower-2)
+prep_cleaning(get-1, chemicals-4)
+prep_cleaning(get-1, sponges-6)
+conj_and(chemicals-4, sponges-6)
+
+nn(chemicals-4, pur-3)
+conj_or(spray-1, chemicals-4)
+det(surfaces-8, the-6)
+nn(surfaces-8, shower-7)
+prep_on(spray-1, surfaces-8)
+
+nsubj(shower-3, scrub-1)
+advmod(shower-3, the-2)
+dobj(shower-3, surfaces-4)
+prep_with(shower-3, sponges-6)
+
+det(surfaces-3, the-2)
+dobj(rinse-1, surfaces-3)
+prep_with(rinse-1, water-5)
+
+nn(products-3, cleaning-2)
+dobj(prepare-1, products-3)
+
+nsubj(pour-2, spray-1)
+prep(pour-2, or-3)
+nn(products-6, scrub-4)
+nn(products-6, cleaning-5)
+dep(or-3, products-6)
+advmod(necessary-8, where-7)
+advcl(pour-2, necessary-8)
+
+amod(tool-4, appropriate-2)
+nn(tool-4, cleaning-3)
+dobj(use-1, tool-4)
+prep_with(use-1, product-6)
+
+cc(rinse-3, or-2)
+dobj(wipe-1, rinse-3)
+dep(wipe-1, shower-4)
+dobj(shower-4, surfaces-5)
+prep_with(shower-4, water-7)
+
+dobj(allow-1, time-2)
+prep_for(allow-1, shower-4)
+aux(dry-6, to-5)
+infmod(shower-4, dry-6)
+
+nn(detergent-3, cleaning-2)
+dobj(obtain-1, detergent-3)
+dobj(obtain-1, sponge-5)
+conj_and(detergent-3, sponge-5)
+
+aux(shower-3, to-2)
+xcomp(go-1, shower-3)
+
+partmod(spray-1, cleaning-2)
+dobj(cleaning-2, detergent-3)
+prep_on(cleaning-2, shower-5)
+
+nsubj(shower-2, scrub-1)
+prep_with(shower-2, sponge-4)
+
+amod(shower-2, rinse-1)
+nsubj(wtih-3, shower-2)
+dobj(wtih-3, water-4)
+
+nn(materials-3, cleaning-2)
+dobj(locate-1, materials-3)
+
+dobj(locate-1, shower-2)
+
+nn(materials-3, cleaning-2)
+dobj(use-1, materials-3)
+aux(clean-5, to-4)
+xcomp(use-1, clean-5)
+det(shower-7, the-6)
+dobj(clean-5, shower-7)
+
+prt(walk-1, over-2)
+det(shower-5, the-4)
+prep_to(walk-1, shower-5)
+
+nn(glass-2, spray-1)
+amod(walls-8, cleaner-3)
+dep(cleaner-3, all-4)
+det(shower-7, the-6)
+prep_around(cleaner-3, shower-7)
+dep(glass-2, walls-8)
+
+nn(bathtub-2, spray-1)
+dep(bathtub-2, cleaner-3)
+det(floor-7, the-5)
+nn(floor-7, shower-6)
+prep_on(bathtub-2, floor-7)
+
+num(minute-3, one-2)
+dobj(wait-1, minute-3)
+
+det(shower-4, the-3)
+prep_on(turn-1, shower-4)
+conj_and(turn-1, make-6)
+acomp(make-6, sure-7)
+nsubjpass(washed-13, all-8)
+det(cleaners-11, the-10)
+prep_of(all-8, cleaners-11)
+auxpass(washed-13, are-12)
+ccomp(sure-7, washed-13)
+advmod(washed-13, away-14)
+
+det(bottle-3, a-2)
+dobj(obtain-1, bottle-3)
+nn(spray-6, bathroom-5)
+prep_of(bottle-3, spray-6)
+dep(obtain-1, cleaner-7)
+
+det(sponge-3, a-2)
+dobj(obtain-1, sponge-3)
+
+det(walls-4, the-2)
+dep(walls-4, shower-3)
+dep(spray-1, walls-4)
+dep(spray-1, surface-6)
+conj_and(walls-4, surface-6)
+prep_with(spray-1, cleaner-8)
+
+dep(let-1, stand-2)
+num(minutes-5, ten-4)
+prep_for(stand-2, minutes-5)
+
+det(shower-3, the-2)
+dep(scrub-1, shower-3)
+det(sponge-6, the-5)
+prep_with(shower-3, sponge-6)
+
+det(cleaner-3, the-2)
+dobj(rinse-1, cleaner-3)
+advmod(rinse-1, away-4)
+amod(water-7, fresh-6)
+prep_with(rinse-1, water-7)
+
+nn(soap-2, spray-1)
+prep_in(soap-2, tub-4)
+
+nn(tub-2, scrub-1)
+det(brush-5, a-4)
+prep_with(tub-2, brush-5)
+
+dobj(rinse-1, soap-2)
+advmod(rinse-1, away-3)
+
+nn(cleaner-2, spray-1)
+prep_on(cleaner-2, walls-4)
+
+advmod(wipe-1, away-2)
+acomp(wipe-1, cleaner-3)
+
+nn(clog-3, drain-2)
+dobj(clean-1, clog-3)
+
+nn(room-3, shower-2)
+dobj(clean-1, room-3)
+
+dobj(clean-1, drain-2)
+
+nn(room-3, shower-2)
+dobj(clean-1, room-3)
+
+nn(curtain-3, shower-2)
+dobj(clean-1, curtain-3)
+
+nsubj(cleanig-2, spray-1)
+dobj(cleanig-2, substance-3)
+prep_inside(cleanig-2, shower-5)
+
+prep_with(gather-3, sponge-2)
+det(substance-5, all-4)
+nsubj(gather-3, substance-5)
+
+prep_with(wash-1, water-3)
+
+nn(cleaner-2, spray-1)
+nn(walls-5, shower-4)
+prep_on(cleaner-2, walls-5)
+
+nn(floor-3, shower-2)
+dobj(clean-1, floor-3)
+
+nn(drain-3, shower-2)
+dobj(clean-1, drain-3)
+
+det(cleaning-3, a-2)
+dobj(locate-1, cleaning-3)
+dep(locate-1, solvent-4)
+
+det(rag-4, a-2)
+nn(rag-4, cleaning-3)
+dobj(locate-1, rag-4)
+
+partmod(spray-1, cleaning-2)
+amod(stall-6, solvent-3)
+prep_in(solvent-3, shower-5)
+dobj(cleaning-2, stall-6)
+
+dobj(utilize-1, rag-2)
+aux(wipe-4, to-3)
+xcomp(utilize-1, wipe-4)
+dobj(wipe-4, the-5)
+xcomp(wipe-4, cleaning-6)
+acomp(cleaning-6, solvent-7)
+det(wall-10, the-9)
+prep_on(cleaning-6, wall-10)
+
+dep(allow-1, cleaning-2)
+acomp(cleaning-2, solvent-3)
+aux(evaporate-5, to-4)
+xcomp(solvent-3, evaporate-5)
+prep_off_of(evaporate-5, wall-8)
+
+prep_on(turn-1, shower-3)
+
+partmod(spray-1, cleaning-2)
+dobj(cleaning-2, agent-3)
+nn(floor-6, walls-5)
+prep_onto(cleaning-2, floor-6)
+
+nsubj(agent-2, scrub-1)
+nn(floor-5, walls-4)
+prep_into(agent-2, floor-5)
+
+dobj(rinse-1, agent-2)
+prt(rinse-1, off-3)
+advmod(rinse-1, and-4)
+prep_into(rinse-1, drain-6)
+
+dobj(apply-1, cleanser-2)
+aux(shower-4, to-3)
+xcomp(apply-1, shower-4)
+dobj(shower-4, walls-5)
+
+nn(walls-2, scrub-1)
+prep_with(walls-2, sponge-4)
+
+prep_on(turn-1, shower-3)
+
+dobj(rinse-1, walls-2)
+nn(water-5, shower-4)
+prep_with(rinse-1, water-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, shower-3)
+
+nn(cleaner-2, spray-1)
+prep_in(cleaner-2, shower-4)
+
+nsubj(shower-2, scrub-1)
+
+dobj(rinse-1, shower-2)
+
+det(door-4, the-2)
+nn(door-4, shower-3)
+dobj(open-1, door-4)
+
+dobj(apply-1, cleaner-2)
+aux(shower-4, to-3)
+xcomp(apply-1, shower-4)
+dobj(shower-4, surface-5)
+
+dobj(wipe-1, cleaner-2)
+
+prt(rinse-1, off-2)
+dobj(rinse-1, cleaner-3)
+prep_with(rinse-1, water-5)
+
+nn(door-3, shower-2)
+dobj(close-1, door-3)
+
+dobj(get-1, bucket-2)
+dobj(get-1, water-4)
+conj_and(bucket-2, water-4)
+
+det(shower-4, the-3)
+prep_to(go-1, shower-4)
+
+det(head-4, the-2)
+nn(head-4, shower-3)
+dobj(clean-1, head-4)
+
+det(walls-3, the-2)
+dobj(clean-1, walls-3)
+
+det(floor-3, the-2)
+dobj(clean-1, floor-3)
+
+amod(shower-3, entire-2)
+dobj(rinse-1, shower-3)
+amod(water-6, fresh-5)
+prep_with(rinse-1, water-6)
+
+dobj(obtain-1, disinfecting-2)
+dep(obtain-1, cleaner-3)
+
+nsubj(soiled-5, spray-1)
+partmod(spray-1, disinfecting-2)
+dobj(disinfecting-2, cleaner-3)
+prep(disinfecting-2, on-4)
+dobj(soiled-5, surface-6)
+
+quantmod(5-3, approximately-2)
+num(minutes-4, 5-3)
+dobj(wait-1, minutes-4)
+aux(allow-6, to-5)
+xcomp(wait-1, allow-6)
+acomp(allow-6, cleaner-7)
+aux(penetrate-9, to-8)
+xcomp(allow-6, penetrate-9)
+
+nsubj(soiled-2, wipe-1)
+dobj(soiled-2, surface-3)
+amod(sponge-6, damp-5)
+prep_with(soiled-2, sponge-6)
+prep_with(soiled-2, cloth-8)
+conj_or(sponge-6, cloth-8)
+
+det(shower-3, the-2)
+dobj(brush-1, shower-3)
+
+prep_on(putting-1, gloves-3)
+
+det(shower-3, the-2)
+dobj(spraying-1, shower-3)
+prepc_with(spraying-1, cleaning-5)
+dobj(cleaning-5, spray-6)
+
+det(shower-3, the-2)
+dep(scrubbing-1, shower-3)
+
+dep(soap-3, rinsing-1)
+det(soap-3, the-2)
+prep(soap-3, off-4)
+
+dep(effects-4, all-2)
+amod(effects-4, personal-3)
+dobj(remove-1, effects-4)
+prep_from(remove-1, shower-6)
+
+det(tile-3, the-2)
+dobj(clean-1, tile-3)
+
+det(tub-4, the-2)
+nn(tub-4, bath-3)
+dobj(clean-1, tub-4)
+
+dep(shower-2, wet-1)
+dobj(shower-2, tiles-3)
+
+dobj(apply-1, cleaner-2)
+aux(shower-4, to-3)
+xcomp(apply-1, shower-4)
+dobj(shower-4, tiles-5)
+
+nn(tiles-2, scrub-1)
+
+dobj(rinse-1, cleaner-2)
+prep_from(rinse-1, tiles-4)
+
+nn(door-3, shower-2)
+dobj(open-1, door-3)
+
+quantmod(spray-1, cleaner-2)
+dep(spray-1, all-3)
+prep_over(all-3, shower-5)
+
+num(minutes-3, five-2)
+dobj(wait-1, minutes-3)
+prep_for(wait-1, it-5)
+prep_to(wait-1, work-7)
+
+prt(wipe-1, off-2)
+det(cleaner-4, the-3)
+dobj(wipe-1, cleaner-4)
+
+nsubj(rinse-2, spray-1)
+dobj(rinse-2, water-3)
+dep(rinse-2, all-4)
+prep_over(rinse-2, shower-6)
+
+nn(hole-3, plug-2)
+dobj(clear-1, hole-3)
+det(debris-6, any-5)
+prep_of(hole-3, debris-6)
+
+nn(door-3, shower-2)
+dobj(close-1, door-3)
+
+nn(materials-3, cleaning-2)
+dobj(gather-1, materials-3)
+
+prt(lay-1, out-2)
+xcomp(lay-1, cleaning-3)
+dobj(cleaning-3, materials-4)
+
+partmod(spray-1, cleaning-2)
+dobj(cleaning-2, material-3)
+
+aux(soak-3, let-1)
+nsubj(soak-3, it-2)
+prt(soak-3, in-4)
+
+amod(area-3, dirty-2)
+dobj(wipe-1, area-3)
+
+cc(area-4, or-2)
+dep(area-4, dry-3)
+dobj(reclean-1, area-4)
+
+poss(work-3, your-2)
+dobj(check-1, work-3)
+
+complm(needs-4, that-2)
+nsubj(needs-4, shower-3)
+ccomp(discern-1, needs-4)
+dep(needs-4, cleaning-5)
+
+amod(items-3, cleaning-2)
+dobj(gather-1, items-3)
+
+dobj(take-1, items-2)
+aux(shower-4, to-3)
+xcomp(take-1, shower-4)
+
+dobj(rinse-1, area-2)
+aux(cleaned-5, to-3)
+auxpass(cleaned-5, be-4)
+xcomp(rinse-1, cleaned-5)
+
+amod(material-3, cleaning-2)
+dobj(spread-1, material-3)
+
+amod(grease-5, sponge-2)
+conj_and(sponge-2, elbow-4)
+amod(grease-5, elbow-4)
+dobj(apply-1, grease-5)
+
+advmod(clean-3, now-2)
+amod(shower-4, clean-3)
+dobj(rinse-1, shower-4)
+
+det(door-4, the-2)
+nn(door-4, shower-3)
+dobj(open-1, door-4)
+
+det(shower-3, the-2)
+dep(spray-1, shower-3)
+prepc_with(shower-3, cleaning-5)
+dobj(cleaning-5, product-6)
+
+det(cloth-3, a-2)
+dobj(get-1, cloth-3)
+
+amod(cloth-3, wet-1)
+det(cloth-3, the-2)
+prep_with(cloth-3, water-5)
+
+det(product-4, the-2)
+nn(product-4, cleaning-3)
+dobj(wipe-1, product-4)
+det(shower-7, the-6)
+prep_off(wipe-1, shower-7)
+
+amod(shower-2, wet-1)
+
+prep_with(scrub-1, cleanser-3)
+
+dobj(rinse-1, shower-2)
+
+dobj(take-1, cleaner-2)
+
+dobj(take-1, brush-2)
+
+dobj(clean-1, shower-2)
+prep_with(clean-1, brush-4)
+
+dobj(rinse-1, tub-2)
+
+amod(cleaner-3, all-purpose-2)
+dobj(apply-1, cleaner-3)
+
+dep(scrub-1, tub-2)
+
+nn(tiles-2, scrub-1)
+nn(cleaner-5, tile-4)
+prep_with(tiles-2, cleaner-5)
+
+dep(leave-1, cleaning-2)
+dobj(cleaning-2, agents-3)
+prep(cleaning-2, in-4)
+dep(in-4, for-5)
+num(minutes-7, 15-6)
+pobj(for-5, minutes-7)
+
+amod(water-3, hot-2)
+dobj(apply-1, water-3)
+det(areas-6, all-5)
+prep_to(apply-1, areas-6)
+
+advmod(rinse-1, again-2)
+
+det(cloth-3, a-2)
+dep(wet-1, cloth-3)
+
+dobj(put-1, soap-2)
+prep_on(put-1, it-4)
+
+dobj(rub-1, wall-2)
+
+det(tap-3, the-2)
+dobj(turn-1, tap-3)
+prt(turn-1, off-4)
+
+det(solutions-4, some-2)
+nn(solutions-4, cleaning-3)
+dobj(get-1, solutions-4)
+
+nn(solution-3, cleaning-2)
+dobj(pour-1, solution-3)
+prep_around(pour-1, bathtub-5)
+
+det(sponge-3, a-2)
+dobj(use-1, sponge-3)
+conj_and(use-1, rub-5)
+det(tiles-7, the-6)
+dobj(rub-5, tiles-7)
+dobj(rub-5, bathtub-9)
+conj_and(tiles-7, bathtub-9)
+
+dobj(rinse-1, tiles-2)
+dobj(rinse-1, bathtub-4)
+conj_and(tiles-2, bathtub-4)
+prep_with(rinse-1, water-6)
+
+poss(solutions-4, your-2)
+nn(solutions-4, cleaning-3)
+dobj(put-1, solutions-4)
+conj_and(put-1, sponge-6)
+prt(sponge-6, away-7)
+
+prep_toward(walk-1, bathroom-3)
+
+dobj(get-1, sponge-2)
+
+nn(spray-3, cleaning-2)
+dobj(get-1, spray-3)
+
+det(spray-3, the-2)
+dep(spray-1, spray-3)
+prep_on(spray-3, sponge-5)
+
+dobj(use-1, sponge-2)
+aux(wipe-4, to-3)
+xcomp(use-1, wipe-4)
+dobj(wipe-4, dirt-5)
+
+det(dirt-3, all-2)
+dobj(wipe-1, dirt-3)
+
+dobj(rinse-1, bathroom-2)
+
+prep_with(spray-1, cleanser-3)
+
+
+
+prep_on(turn-1, shower-3)
+
+dobj(wash-1, tub-2)
+prep_with(wash-1, water-4)
+
+acomp(let-1, dry-2)
+
+acomp(write-1, dry-2)
+
+dobj(wash-1, shower-2)
+
+det(cleanser-3, the-2)
+dobj(get-1, cleanser-3)
+
+det(water-4, the-3)
+prep_on(turn-1, water-4)
+
+det(walls-3, the-2)
+dep(scrub-1, walls-3)
+
+det(bottom-3, the-2)
+dep(scrub-1, bottom-3)
+
+advmod(rinse-1, thoroughly-2)
+
+nn(door-3, shower-2)
+dobj(open-1, door-3)
+
+dobj(remove-1, items-2)
+prep_from(remove-1, shower-4)
+
+dep(cleaner-4, get-1)
+nn(spray-3, shower-2)
+dobj(cleaner-4, spray-3)
+
+nn(surface-3, spray-1)
+amod(surface-3, entire-2)
+prep_of(surface-3, shower-5)
+advmod(surface-3, evenly-6)
+
+amod(minutes-3, 5-10-2)
+dobj(wait-1, minutes-3)
+
+prt(wipe-1, off-2)
+dobj(wipe-1, spray-3)
+dobj(wipe-1, dirt-5)
+conj_and(spray-3, dirt-5)
+amod(cloth-8, clean-7)
+prep_with(wipe-1, cloth-8)
+
+dobj(rinse-1, shower-2)
+advmod(rinse-1, thoroughly-3)
+prep_with(rinse-1, water-5)
+
+det(cleaner-3, the-2)
+dobj(get-1, cleaner-3)
+
+aux(shower-3, to-2)
+xcomp(go-1, shower-3)
+
+det(bottles\/products-3, any-2)
+dobj(remove-1, bottles\/products-3)
+
+det(shower-3, the-2)
+dep(spray-1, shower-3)
+prep_with(shower-3, cleaner-5)
+
+cc(scrub-3, or-2)
+dobj(wipe-1, scrub-3)
+dep(wipe-1, shower-4)
+prt(shower-4, down-5)
+
+dobj(rinse-1, shower-2)
+
+dobj(replace-1, bottles-2)
+
+dep(cleaner-3, the-2)
+dep(getting-1, cleaner-3)
+
+det(shower-3, the-2)
+dobj(spraying-1, shower-3)
+
+csubj(sit-4, letting-1)
+det(cleaner-3, the-2)
+dobj(letting-1, cleaner-3)
+
+nsubj(shower-2, scrubbing-1)
+
+dobj(open-1, door-2)
+
+dobj(hold-1, nozle-2)
+prep_of(nozle-2, spray-4)
+dep(hold-1, cleaner-5)
+prep_towards(hold-1, shower-7)
+
+nn(cleaner-2, spray-1)
+dep(cleaner-2, evenly-3)
+amod(shower-6, entire-5)
+prep_over(cleaner-2, shower-6)
+
+amod(minutes-3, 5-10-2)
+dobj(wait-1, minutes-3)
+
+dobj(wipe-1, spray-2)
+dobj(wipe-1, dirt-4)
+conj_and(spray-2, dirt-4)
+advmod(wipe-1, away-5)
+det(cloth-9, a-7)
+amod(cloth-9, clean-8)
+prep_with(wipe-1, cloth-9)
+
+advmod(rinse-1, thoroughly-2)
+amod(water-5, clean-4)
+prep_with(rinse-1, water-5)
+
+dobj(take-1, soap-2)
+
+dobj(take-1, brush-2)
+
+nsubj(shower-2, scrub-1)
+

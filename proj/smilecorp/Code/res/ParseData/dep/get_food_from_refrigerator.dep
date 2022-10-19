@@ -1,0 +1,880 @@
+det(refrigerator-4, the-3)
+prep_to(go-1, refrigerator-4)
+
+det(refrigerator-3, the-2)
+dobj(open-1, refrigerator-3)
+
+dobj(take-1, food-2)
+prep_from(take-1, refrigerator-4)
+
+dobj(close-1, door-2)
+prep_of(door-2, refrigerator-4)
+
+prep_to(go-1, refrigerator-3)
+
+dobj(open-1, door-2)
+
+csubj(is-4, identify-1)
+nn(food-3, shelf-2)
+dobj(identify-1, food-3)
+prep(is-4, on-5)
+
+dobj(pick-1, food-2)
+prt(pick-1, up-3)
+
+dobj(close-1, door-2)
+
+prep_to(go-1, refrigerator-3)
+
+nn(door-3, refrigerator-2)
+dobj(open-1, door-3)
+
+dobj(get-1, food-2)
+
+nn(door-3, refrigerator-2)
+dobj(close-1, door-3)
+
+det(kitchen-4, the-3)
+prep_to(walk-1, kitchen-4)
+
+det(refrigerator-4, the-3)
+prep_to(walk-1, refrigerator-4)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(open-1, door-4)
+
+prt(pull-1, out-2)
+det(food-4, some-3)
+dobj(pull-1, food-4)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(close-1, door-4)
+
+det(table-4, the-3)
+prep_to(walk-1, table-4)
+
+det(refrigerator-4, the-3)
+prep_to(going-1, refrigerator-4)
+
+det(door-3, the-2)
+dobj(opening-1, door-3)
+
+csubj(is-6, having-1)
+det(look-3, a-2)
+dobj(having-1, look-3)
+prep_at(look-3, what-5)
+advmod(is-6, inside-7)
+
+dobj(choosing-1, something-2)
+
+dobj(picking-1, it-2)
+prt(picking-1, up-3)
+
+det(door-3, the-2)
+dobj(shutting-1, door-3)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(open-1, door-4)
+
+det(food-3, the-2)
+dobj(take-1, food-3)
+
+prep_to(move-1, refrigerator-3)
+
+dobj(open-1, door-2)
+
+dobj(retrieve-1, item-2)
+prep_from(retrieve-1, shelf-4)
+prep_from(retrieve-1, drawer-6)
+conj_or(shelf-4, drawer-6)
+
+dobj(close-1, door-2)
+
+dobj(find-1, refrigerator-2)
+
+dobj(open-1, refrigerator-2)
+
+prep_for(look-1, food-3)
+prep_in(look-1, refigerator-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, food-3)
+
+dobj(close-1, refrigerator-2)
+
+dobj(find-1, refrigerator-2)
+
+nn(door-3, refrigerator-2)
+dobj(open-1, door-3)
+
+dobj(find-1, food-2)
+prep_in(find-1, refrigerator-4)
+
+dobj(take-1, food-2)
+prep_out_of(take-1, refrigerator-5)
+
+nn(door-3, refrigerator-2)
+dobj(close-1, door-3)
+
+det(refrigerator-4, the-3)
+prep_to(walk-1, refrigerator-4)
+
+nn(door-3, refrigerator-2)
+dobj(open-1, door-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, food-3)
+
+nn(door-3, refrigerator-2)
+dobj(close-1, door-3)
+
+prep_with(return-1, food-3)
+
+det(refrigerator-3, the-2)
+dobj(open-1, refrigerator-3)
+
+dobj(take-1, food-2)
+prt(take-1, out-3)
+
+det(refrigerator-3, the-2)
+dobj(close-1, refrigerator-3)
+
+dobj(take-1, food-2)
+prep_to(take-1, person-4)
+
+det(refrigerator-3, the-2)
+dobj(open-1, refrigerator-3)
+
+det(food-4, the-2)
+amod(food-4, desired-3)
+dobj(locate-1, food-4)
+det(refrigerator-7, the-6)
+prep_within(locate-1, refrigerator-7)
+
+det(food-3, the-2)
+dobj(remove-1, food-3)
+det(refrigerator-6, the-5)
+prep_from(remove-1, refrigerator-6)
+
+det(refrigerator-3, the-2)
+dobj(close-1, refrigerator-3)
+
+prep_to(go-1, refrigerator-3)
+
+dobj(open-1, door-2)
+
+dobj(remove-1, food-2)
+
+dobj(close-1, door-2)
+
+prep_to(go-1, refrigerator-3)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(open-1, door-4)
+
+det(food-3, the-2)
+dobj(find-1, food-3)
+
+prt(pick-1, up-2)
+det(food-4, the-3)
+dobj(pick-1, food-4)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(close-1, door-4)
+
+det(refrigerator-3, the-2)
+dobj(open-1, refrigerator-3)
+
+det(item-5, the-2)
+amod(item-5, desired-3)
+nn(item-5, foot-4)
+dobj(locate-1, item-5)
+det(refrigerator-8, the-7)
+prep_within(locate-1, refrigerator-8)
+
+det(food-3, the-2)
+dobj(remove-1, food-3)
+det(refrigerator-6, the-5)
+prep_from(remove-1, refrigerator-6)
+
+det(refrigerator-3, the-2)
+dobj(close-1, refrigerator-3)
+
+dobj(open-1, refrigerator-2)
+
+prt(take-1, out-2)
+dobj(take-1, food-3)
+
+prep_to(go-1, refrigerator-3)
+
+dobj(open-1, door-2)
+
+dobj(locate-1, food-2)
+
+dobj(remove-1, food-2)
+prep_from(remove-1, refrigerator-4)
+
+dobj(close-1, door-2)
+
+dobj(open-1, refrigerator-2)
+
+dobj(take-1, food-2)
+prep_out_of(take-1, refrigerator-5)
+
+dobj(close-1, refrigerator-2)
+
+prep_to(go-1, refrigerator-3)
+
+dobj(open-1, door-2)
+
+dobj(grab-1, food-2)
+
+advmod(get-1, back-2)
+
+prep_to(go-1, refrigerator-3)
+
+dobj(open-1, door-2)
+
+dobj(remove-1, food-2)
+prep_from(remove-1, refrigerator-4)
+
+dobj(close-1, door-2)
+
+dobj(bring-1, food-2)
+
+prep_to(go-1, refrigerator-3)
+
+
+dobj(select-1, food-2)
+
+dobj(remove-1, food-2)
+prep_from(remove-1, refrigerator-4)
+
+dobj(close-1, refrigerator-2)
+
+det(refrigerator-3, the-2)
+dobj(locate-1, refrigerator-3)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(open-1, door-4)
+
+det(food-3, the-2)
+dobj(locate-1, food-3)
+
+prt(take-1, out-2)
+det(food-4, the-3)
+dobj(take-1, food-4)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(close-1, door-4)
+
+prep_to(go-1, refrigerator-3)
+
+dobj(open-1, door-2)
+
+dobj(remove-1, food-2)
+prep_from(remove-1, refrigerator-4)
+
+dobj(close-1, door-2)
+
+dobj(bring-1, food-2)
+prep_to(bring-1, table-4)
+
+prep_to(go-1, refrigerator-3)
+
+dobj(open-1, door-2)
+
+dobj(remove-1, food-2)
+
+dobj(close-1, door-2)
+
+prt(bring-1, back-2)
+dobj(bring-1, food-3)
+
+det(refrigerator-4, the-3)
+prep_to(walk-1, refrigerator-4)
+
+det(refrigerator-3, the-2)
+dobj(open-1, refrigerator-3)
+
+dobj(take-1, food-2)
+det(refrigerator-6, the-5)
+prep_out_of(take-1, refrigerator-6)
+
+det(refrigerator-3, the-2)
+dobj(close-1, refrigerator-3)
+
+prep_to(go-1, refrigerator-3)
+
+dobj(open-1, door-2)
+
+prt(take-1, out-2)
+dobj(take-1, food-3)
+prep_from(take-1, refrigerator-5)
+
+dobj(close-1, door-2)
+
+dobj(bring-1, food-2)
+advmod(bring-1, back-3)
+
+det(refrigerator-4, the-3)
+prep_to(walking-1, refrigerator-4)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(opening-1, door-4)
+
+prt(picking-1, up-2)
+det(food-4, the-3)
+dobj(picking-1, food-4)
+det(refrigerator-7, the-6)
+prep_in(picking-1, refrigerator-7)
+
+det(food-3, the-2)
+dobj(removing-1, food-3)
+det(refrigerator-6, the-5)
+prep_from(removing-1, refrigerator-6)
+
+det(refrigerator-3, the-2)
+dobj(open-1, refrigerator-3)
+
+dobj(select-1, food-2)
+aux(get-4, to-3)
+xcomp(select-1, get-4)
+
+det(food-3, the-2)
+dobj(grab-1, food-3)
+aux(get-5, to-4)
+infmod(food-3, get-5)
+
+dobj(retrieve-1, it-2)
+det(refrigerator-5, the-4)
+prep_from(retrieve-1, refrigerator-5)
+
+det(refrigerator-3, the-2)
+dobj(close-1, refrigerator-3)
+
+prep_to(go-1, refrigerator-3)
+
+dobj(open-1, refrigerator-2)
+
+dobj(take-1, food-2)
+prep_out_of(take-1, refrigerator-5)
+
+dobj(close-1, refrigerator-2)
+
+dobj(bring-1, food-2)
+advmod(bring-1, back-3)
+
+det(refrigerator-4, the-3)
+prep_to(go-1, refrigerator-4)
+
+det(food-3, what-2)
+dep(want-5, food-3)
+nsubj(want-5, you-4)
+dep(decide-1, want-5)
+det(refrigerator-8, the-7)
+prep_from(want-5, refrigerator-8)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(open-1, door-4)
+
+prt(take-1, out-2)
+det(food-4, the-3)
+dobj(take-1, food-4)
+nsubj(want-6, you-5)
+dep(take-1, want-6)
+det(refrigerator-9, the-8)
+prep_from(want-6, refrigerator-9)
+
+det(food-3, the-2)
+dobj(carry-1, food-3)
+advmod(want-7, where-5)
+nsubj(want-7, you-6)
+xsubj(eat-9, you-6)
+prepc_to(carry-1, want-7)
+aux(eat-9, to-8)
+xcomp(want-7, eat-9)
+dobj(eat-9, it-10)
+
+amod(food-3, desired-2)
+dobj(determine-1, food-3)
+
+dobj(locate-1, refrigerator-2)
+
+prep_to(relocate-1, refrigerator-3)
+
+amod(food-3, desired-2)
+dobj(retrieve-1, food-3)
+det(refrigerator-6, the-5)
+prep_from(retrieve-1, refrigerator-6)
+
+advmod(desired-7, where-3)
+det(food-5, the-4)
+nsubjpass(desired-7, food-5)
+auxpass(desired-7, is-6)
+prepc_to(return-1, desired-7)
+
+det(refrigerator-4, the-3)
+prep_to(go-1, refrigerator-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+dobj(pick-1, food-2)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(point-4, the-3)
+prep_to(return-1, point-4)
+prep_of(point-4, origin-6)
+
+prep_to(go-1, refridgerator-3)
+
+amod(door-3, refridgerator-2)
+dobj(open-1, door-3)
+
+dobj(locate-1, food-2)
+
+dobj(take-1, food-2)
+
+amod(door-3, refridgerator-2)
+dobj(close-1, door-3)
+
+prep_to(go-1, room-3)
+prep_with(go-1, refrigerator-5)
+
+nn(door-3, refrigerator-2)
+dobj(open-1, door-3)
+
+dobj(retrieve-1, food-2)
+prep_from(retrieve-1, refrigerator-4)
+
+nn(door-3, refrigerator-2)
+dobj(close-1, door-3)
+
+dobj(open-1, refrigerator-2)
+
+dobj(remove-1, food-2)
+
+dobj(close-1, refrigerator-2)
+
+det(fridge-4, the-3)
+prep_for(look-1, fridge-4)
+
+det(handle-3, the-2)
+dobj(hold-1, handle-3)
+det(fridge-6, the-5)
+prep_of(handle-3, fridge-6)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+det(fridge-6, the-5)
+prep_of(door-3, fridge-6)
+
+det(fridge-4, the-3)
+prep_around(look-1, fridge-4)
+
+dep(want-5, find-1)
+det(food-3, the-2)
+dobj(find-1, food-3)
+nsubj(want-5, you-4)
+xsubj(get-7, you-4)
+aux(get-7, to-6)
+xcomp(want-5, get-7)
+
+prt(pick-1, up-2)
+det(food-4, the-3)
+dobj(pick-1, food-4)
+
+det(fridge-3, the-2)
+dobj(close-1, fridge-3)
+
+det(refrigerator-4, the-3)
+prep_to(go-1, refrigerator-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(food-3, the-2)
+dobj(take-1, food-3)
+prt(take-1, out-4)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(refrigerator-3, the-2)
+dobj(open-1, refrigerator-3)
+
+det(food-4, the-2)
+amod(food-4, desired-3)
+dobj(retrieve-1, food-4)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(close-1, door-4)
+
+dobj(open-1, refrigerator-2)
+
+dobj(grasp-1, food-2)
+
+prep_from(remove-1, refrigerator-3)
+
+det(refrigerator-4, the-3)
+prep_to(walk-1, refrigerator-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(food-4, the-3)
+prep_at(look-1, food-4)
+advmod(look-1, inside-5)
+
+det(item-4, a-2)
+nn(item-4, food-3)
+dobj(select-1, item-4)
+
+prt(pick-1, up-2)
+det(item-4, the-3)
+dobj(pick-1, item-4)
+
+det(item-3, the-2)
+dobj(remove-1, item-3)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(refrigerator-4, the-3)
+prep_to(go-1, refrigerator-4)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(food-3, the-2)
+dobj(find-1, food-3)
+det(refrigerator-6, the-5)
+prep_in(find-1, refrigerator-6)
+
+dobj(open-1, door-2)
+prep_to(open-1, refrigerator-4)
+
+dobj(choose-1, items-2)
+
+dobj(place-1, items-2)
+prep_outside(place-1, refrigerator-4)
+
+dobj(close-1, door-2)
+prep_to(close-1, refrigerator-4)
+
+prep_to(walk-1, refrigerator-3)
+
+nn(door-3, refrigerator-2)
+dobj(open-1, door-3)
+
+amod(item-4, desired-2)
+nn(item-4, food-3)
+dobj(find-1, item-4)
+
+nn(item-3, food-2)
+dobj(take-1, item-3)
+prep_from(take-1, refrigerator-5)
+
+nn(door-3, refrigerator-2)
+dobj(close-1, door-3)
+
+dobj(open-1, door-2)
+
+amod(food-3, fopr-2)
+dobj(look-1, food-3)
+
+dobj(open-1, door-2)
+
+prep_for(look-1, food-3)
+
+dobj(take-1, food-2)
+prt(take-1, out-3)
+
+dobj(close-1, door-2)
+
+dobj(open-1, refrigerator-2)
+
+dobj(take-1, food-2)
+prt(take-1, out-3)
+
+nn(dorr-3, refrigerator-2)
+dobj(close-1, dorr-3)
+
+det(refrigerator-4, the-3)
+prep_to(go-1, refrigerator-4)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(open-1, door-4)
+
+advmod(look-1, inside-2)
+
+det(food-3, the-2)
+dobj(take-1, food-3)
+det(refrigerator-6, the-5)
+prep_from(take-1, refrigerator-6)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(close-1, door-4)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(open-1, door-4)
+
+prt(take-1, out-2)
+det(food-4, the-3)
+dobj(take-1, food-4)
+det(refrigerator-8, the-7)
+prep_out_of(take-1, refrigerator-8)
+
+det(door-4, the-2)
+nn(door-4, refrigerator-3)
+dobj(close-1, door-4)
+
+prt(get-1, up-2)
+
+prep_to(walk-1, kitchen-3)
+
+dobj(open-1, refrigerator-2)
+
+dobj(grab-1, food-2)
+
+dobj(shut-1, door-2)
+
+prep_into(go-1, kitchen-3)
+
+prep_in_front_of(stand-1, fridge-5)
+
+amod(door-3, fridge-2)
+dobj(open-1, door-3)
+
+prep_inside(look-1, fridge-3)
+
+amod(item-4, desired-2)
+nn(item-4, food-3)
+dobj(choose-1, item-4)
+
+nn(item-3, food-2)
+dobj(remove-1, item-3)
+prep_from(remove-1, fridge-5)
+
+amod(door-3, fridge-2)
+dobj(close-1, door-3)
+
+prep_to(go-1, refrigerator-3)
+
+dobj(open-1, door-2)
+prep_of(door-2, refrigerator-4)
+
+prep_into(look-1, refrigerator-3)
+
+dobj(choose-1, food-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, food-3)
+
+dobj(remove-1, food-2)
+prep_from(remove-1, refrigerator-4)
+
+dobj(close-1, door-2)
+prep_of(door-2, refrigerator-4)
+
+dobj(open-1, refrigerator-2)
+
+dobj(get-1, food-2)
+
+dobj(close-1, refrigerator-2)
+
+det(refrigerator-3, the-2)
+dobj(open-1, refrigerator-3)
+
+dobj(take-1, food-2)
+det(refrigerator-5, the-4)
+prep_from(take-1, refrigerator-5)
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+det(table-6, the-5)
+prep_on(put-1, table-6)
+
+det(refrigerator-3, the-2)
+dobj(close-1, refrigerator-3)
+
+nsubj(fridge-2, goto-1)
+
+dobj(get-1, food-2)
+
+dobj(find-1, refrigerator-2)
+
+prep_to(go-1, refrigerator-3)
+
+nn(door-3, refrigerator-2)
+dobj(open-1, door-3)
+
+dobj(locate-1, food-2)
+prep_in(locate-1, refrigerator-4)
+
+dobj(take-1, food-2)
+prep_from(take-1, refrigerator-4)
+
+nn(door-3, refrigerator-2)
+dobj(close-1, door-3)
+
+amod(location-4, original-3)
+prep_to(return-1, location-4)
+
+det(refrigerator-4, the-3)
+prep_to(go-1, refrigerator-4)
+
+det(refrigerator-3, the-2)
+dobj(open-1, refrigerator-3)
+
+prt(take-1, out-2)
+det(food-4, the-3)
+dobj(take-1, food-4)
+
+det(refrigerator-3, the-2)
+dobj(close-1, refrigerator-3)
+
+amod(freezer-3, open-1)
+det(freezer-3, the-2)
+nsubj(door-8, freezer-3)
+dep(freezer-3, s-4)
+conj_or(freezer-3, fridge-6)
+nsubj(door-8, fridge-6)
+cop(door-8, s-7)
+
+det(item-5, the-2)
+amod(item-5, wanted-3)
+nn(item-5, food-4)
+dobj(find-1, item-5)
+advmod(find-1, inside-6)
+
+det(item-3, the-2)
+dobj(remove-1, item-3)
+det(compartment-6, the-5)
+prep_from(remove-1, compartment-6)
+
+det(door-4, the-2)
+amod(door-4, respective-3)
+dobj(close-1, door-4)
+
+dobj(open-1, refrigerator-2)
+
+amod(food-3, needed-2)
+dobj(remove-1, food-3)
+
+nn(door-3, refrigerator-2)
+dobj(close-1, door-3)
+
+dobj(set-1, food-2)
+prep_on(set-1, counter-4)
+
+amod(fridge-2, open-1)
+nsubj(door-4, fridge-2)
+cop(door-4, s-3)
+
+det(food-3, the-2)
+dobj(find-1, food-3)
+dobj(want-5, food-3)
+nsubj(want-5, you-4)
+rcmod(food-3, want-5)
+
+det(food-3, the-2)
+dobj(take-1, food-3)
+prt(take-1, out-4)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+nsubj(fridge-2, goto-1)
+
+dobj(open-1, door-2)
+
+dobj(get-1, food-2)
+
+dobj(close-1, door-2)
+
+dobj(goto-1, refrigerator-2)
+
+dobj(open-1, refrigerator-2)
+
+prep_inside(look-1, refrigerator-3)
+
+amod(items-4, specific-2)
+nn(items-4, food-3)
+dobj(get-1, items-4)
+
+dobj(close-1, refrigerator-2)
+
+
+dobj(get-1, food-2)
+prep_from(get-1, fridge-4)
+
+prep_toward(walk-1, kitchen-3)
+
+prep_toward(walk-1, refrigerator-3)
+
+nn(door-3, refrigerator-2)
+dobj(open-1, door-3)
+
+amod(food-3, desired-2)
+dobj(get-1, food-3)
+
+
+nn(door-3, refrigerator-2)
+dobj(open-1, door-3)
+
+dobj(find-1, food-2)
+nsubj(want-4, you-3)
+dep(find-1, want-4)
+
+prep_from(remove-1, refrigerator-3)
+
+nn(door-3, refrigerator-2)
+dobj(close-1, door-3)
+
+dobj(open-1, refridgerator-2)
+
+amod(items-3, desired-2)
+dobj(remove-1, items-3)
+
+dobj(close-1, door-2)
+
+dobj(open-1, door-2)
+
+aux(needed-3, find-1)
+nsubj(needed-3, food-2)
+
+dobj(remove-1, food-2)
+
+dobj(close-1, door-2)
+
+prep_to(go-1, fridge-3)
+
+amod(door-3, fridge-2)
+dobj(open-1, door-3)
+
+det(food-3, the-2)
+dobj(grab-1, food-3)
+dobj(want-5, food-3)
+nsubj(want-5, you-4)
+rcmod(food-3, want-5)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+

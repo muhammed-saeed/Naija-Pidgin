@@ -1,0 +1,474 @@
+det(piano-4, a-3)
+prep_at(sit-1, piano-4)
+
+nsubj(keys-5, press-1)
+det(piano-3, the-2)
+nsubj(keys-5, piano-3)
+cop(keys-5, s-4)
+poss(fingers-8, your-7)
+prep_with(keys-5, fingers-8)
+
+det(piece-3, a-2)
+dobj(locate-1, piece-3)
+prep_of(piece-3, music-5)
+amod(music-5, suitable-6)
+det(piano-9, a-8)
+prep_for(music-5, piano-9)
+
+det(music-3, the-2)
+dobj(read-1, music-3)
+
+det(piano-3, a-2)
+dobj(locate-1, piano-3)
+
+conj_and(open-1, place-3)
+det(music-5, the-4)
+dobj(place-3, music-5)
+det(piano-8, the-7)
+prep_on(place-3, piano-8)
+
+csubj(surface-13, read-1)
+det(music-3, the-2)
+dobj(read-1, music-3)
+conj_and(read-1, hit-5)
+csubj(surface-13, hit-5)
+det(keys-8, the-6)
+amod(keys-8, corresponding-7)
+dobj(hit-5, keys-8)
+det(piano-11, the-10)
+prep_on(hit-5, piano-11)
+cop(surface-13, s-12)
+
+conj_and(identify-1, find-3)
+det(piano-5, a-4)
+dobj(find-3, piano-5)
+
+advmod(sit-1, on-2)
+det(bench-4, a-3)
+dep(on-2, bench-4)
+dep(sit-1, placed-5)
+det(front-8, the-7)
+prep_in(placed-5, front-8)
+det(piano-11, the-10)
+prep_of(front-8, piano-11)
+
+poss(hand-3, your-2)
+dobj(place-1, hand-3)
+det(keyboard-6, the-5)
+prep_over(place-1, keyboard-6)
+
+poss(fingers-4, your-3)
+prep_with(press-1, fingers-4)
+det(keys-7, the-5)
+amod(keys-7, appropriate-6)
+dobj(press-1, keys-7)
+prep_in(keys-7, order-9)
+aux(play-11, to-10)
+infmod(order-9, play-11)
+det(melody-13, a-12)
+dobj(play-11, melody-13)
+
+dobj(find-1, piano-2)
+
+nn(lid-3, piano-2)
+dobj(open-1, lid-3)
+
+dobj(place-1, hands-2)
+prep_on(place-1, keys-4)
+
+dobj(press-1, keys-2)
+prep_with(press-1, fingers-4)
+
+det(keyboard-7, the-5)
+nn(keyboard-7, piano-6)
+prep_in_front_of(sit-1, keyboard-7)
+
+dobj(place-1, hands-2)
+advmod(place-1, directly-3)
+det(keys-6, the-5)
+prep_over(place-1, keys-6)
+
+prt(press-1, down-2)
+det(keys-5, the-4)
+prep_on(press-1, keys-5)
+poss(fingers-8, your-7)
+prep_with(press-1, fingers-8)
+aux(produce-10, to-9)
+infmod(fingers-8, produce-10)
+dobj(produce-10, notes-11)
+
+det(piano-3, the-2)
+dobj(locate-1, piano-3)
+
+det(piano-4, the-3)
+prep_to(go-1, piano-4)
+
+det(lid-4, the-2)
+nn(lid-4, piano-3)
+dobj(open-1, lid-4)
+
+det(chair-4, the-3)
+prep_on(sit-1, chair-4)
+det(piano-9, the-8)
+prep_in_front_of(chair-4, piano-9)
+
+det(keys-3, the-2)
+dobj(play-1, keys-3)
+
+dobj(get-1, song-2)
+
+amod(piano-4, front-3)
+prep_in(sit-1, piano-4)
+
+amod(notes-2, following-1)
+nsubj(play-3, notes-2)
+
+dobj(get-1, note-2)
+prep_for(get-1, song-4)
+
+det(note-3, each-2)
+dobj(play-1, note-3)
+partmod(note-3, using-4)
+dobj(using-4, fingers-5)
+
+dobj(get-1, notes-2)
+
+prt(sit-1, down-2)
+prep_at(sit-1, piano-4)
+
+dobj(play-1, notes-2)
+prep_in(play-1, sequence-4)
+
+det(seat-5, the-3)
+nn(seat-5, piano-4)
+prep_on(seat-1, seat-5)
+
+det(lid-4, the-2)
+amod(lid-4, close-3)
+dobj(open-1, lid-4)
+
+prep_of(think-1, song-3)
+aux(play-5, to-4)
+infmod(song-3, play-5)
+
+det(keys-3, the-2)
+dobj(press-1, keys-3)
+advmod(press-1, accordingly-4)
+
+det(lid-3, the-2)
+dobj(close-1, lid-3)
+
+prt(get-1, up-2)
+det(seat-4, the-3)
+dobj(get-1, seat-4)
+
+dobj(find-1, piano-2)
+
+prep_to(move-1, piano-3)
+
+nn(keys-3, piano-2)
+dobj(press-1, keys-3)
+advmod(press-1, gently-4)
+aux(make-6, to-5)
+xcomp(press-1, make-6)
+dobj(make-6, tones-7)
+
+det(piano-3, the-2)
+dobj(find-1, piano-3)
+
+det(piano-6, the-5)
+prep_in_front_of(sit-1, piano-6)
+advmod(reach-12, so-7)
+dep(reach-12, that-8)
+poss(arms-10, your-9)
+nsubj(reach-12, arms-10)
+aux(reach-12, can-11)
+ccomp(sit-1, reach-12)
+det(keyboard-14, the-13)
+dobj(reach-12, keyboard-14)
+
+poss(hands-3, your-2)
+dobj(extend-1, hands-3)
+det(keys-6, the-5)
+prep_over(extend-1, keys-6)
+
+det(keys-3, the-2)
+dobj(press-1, keys-3)
+poss(fingers-6, your-5)
+prep_with(press-1, fingers-6)
+aux(make-8, to-7)
+infmod(fingers-6, make-8)
+amod(tones-10, musical-9)
+dobj(make-8, tones-10)
+
+det(song-3, a-2)
+dobj(pick-1, song-3)
+aux(play-5, to-4)
+infmod(song-3, play-5)
+
+det(music-3, the-2)
+dobj(read-1, music-3)
+det(song-6, the-5)
+prep_for(read-1, song-6)
+
+det(notes-3, the-2)
+dobj(follow-1, notes-3)
+det(music-6, the-5)
+prep_on(follow-1, music-6)
+
+det(keys-4, the-2)
+nn(keys-4, piano-3)
+dobj(press-1, keys-4)
+mark(read-9, as-5)
+det(music-7, the-6)
+nsubjpass(read-9, music-7)
+auxpass(read-9, is-8)
+advcl(press-1, read-9)
+
+det(piano-3, a-2)
+dobj(find-1, piano-3)
+
+prt(sit-1, down-2)
+det(bench-5, the-4)
+prep_on(sit-1, bench-5)
+det(piano-10, the-9)
+prep_in_front_of(sit-1, piano-10)
+
+det(keys-4, the-2)
+nn(keys-4, piano-3)
+dobj(press-1, keys-4)
+poss(fingers-7, your-6)
+prep_with(press-1, fingers-7)
+aux(make-9, to-8)
+infmod(fingers-7, make-9)
+dobj(make-9, music-10)
+
+det(piano-4, the-3)
+prep_to(go-1, piano-4)
+
+det(stool-4, the-3)
+prep_on(sit-1, stool-4)
+
+det(lid-3, the-2)
+dobj(lift-1, lid-3)
+det(keys-6, the-5)
+prep_off(lift-1, keys-6)
+
+det(keys-3, the-2)
+dobj(press-1, keys-3)
+
+det(tune-3, a-2)
+dobj(determine-1, tune-3)
+aux(play-5, to-4)
+infmod(tune-3, play-5)
+
+prep_to(go-1, piano-3)
+
+amod(piano-2, open-1)
+nsubj(keyboard-4, piano-2)
+cop(keyboard-4, s-3)
+
+det(keys-3, the-2)
+dobj(strike-1, keys-3)
+det(rhythm-7, the-5)
+amod(rhythm-7, proper-6)
+prep_in(strike-1, rhythm-7)
+prep_in(strike-1, order-9)
+conj_and(rhythm-7, order-9)
+aux(play-11, to-10)
+infmod(order-9, play-11)
+det(song-14, the-12)
+amod(song-14, particular-13)
+dobj(play-11, song-14)
+
+det(lid-3, the-2)
+dobj(open-1, lid-3)
+
+prep_on(sit-1, cushion-3)
+
+nn(papers-3, music-2)
+dobj(open-1, papers-3)
+
+dobj(start-1, palying-2)
+
+dobj(identify-1, piano-2)
+
+advmod(play-4, how-2)
+aux(play-4, to-3)
+ccomp(learn-1, play-4)
+xcomp(learn-1, play-4)
+dobj(play-4, piano-5)
+
+prep_at(sit-1, piano-3)
+
+dobj(place-1, fingers-2)
+prep_on(place-1, keys-4)
+
+amod(keys-3, correct-2)
+dobj(press-1, keys-3)
+amod(order-6, correct-5)
+prep_in(press-1, order-6)
+det(time-10, the-8)
+amod(time-10, right-9)
+prep_at(press-1, time-10)
+
+prep_at(sit-1, piano-3)
+
+nn(lid-3, piano-2)
+dobj(open-1, lid-3)
+
+dobj(put-1, music-2)
+prep_on(put-1, piano-4)
+
+dobj(press-1, keys-2)
+prt(press-1, along-3)
+det(sheet-7, the-5)
+nn(sheet-7, music-6)
+prep_to(press-1, sheet-7)
+
+prt(open-1, up-2)
+det(keyboard-4, the-3)
+dobj(open-1, keyboard-4)
+
+prt(open-1, up-2)
+det(book-5, the-3)
+nn(book-5, song-4)
+dobj(open-1, book-5)
+
+det(keys-4, the-2)
+amod(keys-4, corresponding-3)
+dobj(hit-1, keys-4)
+det(notes-7, the-6)
+prep_to(hit-1, notes-7)
+
+prt(sit-1, down-2)
+det(piano-5, the-4)
+prep_at(sit-1, piano-5)
+
+dobj(place-1, fingers-2)
+det(keyboard-5, the-4)
+prep_on(place-1, keyboard-5)
+
+aux(play-3, to-2)
+xcomp(start-1, play-3)
+
+prep_at(sit-1, piano-3)
+
+dobj(place-1, hands-2)
+prep_on(place-1, keys-4)
+
+dobj(press-1, keys-2)
+aux(create-4, to-3)
+xcomp(press-1, create-4)
+dobj(create-4, music-5)
+
+nn(music-3, sheet-2)
+dobj(prepared-1, music-3)
+
+nn(music-3, sheet-2)
+dobj(place-1, music-3)
+prep_on(place-1, piano-5)
+amod(position-8, visable-7)
+prep_in(place-1, position-8)
+
+iobj(open-1, piano-2)
+amod(cover-4, key-3)
+dobj(open-1, cover-4)
+
+dobj(place-1, fingers-2)
+prep_on(place-1, keys-4)
+
+amod(music-4, prepared-2)
+nn(music-4, sheet-3)
+dobj(read-1, music-4)
+
+dobj(play-1, piano-2)
+
+prt(sit-1, down-2)
+nn(bench-5, piano-4)
+prep_on(sit-1, bench-5)
+partmod(bench-5, facing-6)
+det(piano-8, the-7)
+dobj(facing-6, piano-8)
+
+det(piece-6, a-2)
+amod(piece-6, song-3)
+conj_or(song-3, music-5)
+amod(piece-6, music-5)
+dobj(choose-1, piece-6)
+aux(play-8, to-7)
+infmod(piece-6, play-8)
+
+det(keys-3, the-2)
+dobj(press-1, keys-3)
+det(piano-6, the-5)
+prep_on(press-1, piano-6)
+aux(follow-8, to-7)
+infmod(piano-6, follow-8)
+det(notes-10, the-9)
+dobj(follow-8, notes-10)
+aux(play-13, to-11)
+advmod(play-13, correctly-12)
+xcomp(follow-8, play-13)
+det(song-15, the-14)
+dobj(play-13, song-15)
+
+dobj(read-1, notes-2)
+
+prep_on(sit-1, chair-3)
+
+amod(keys-3, proper-2)
+dobj(press-1, keys-3)
+
+acomp(press-1, key-2)
+
+dobj(press-1, key-2)
+prep_on(press-1, piano-4)
+
+prt(sit-1, down-2)
+prep_at(sit-1, piano-4)
+
+dobj(place-1, fingertips-2)
+prep_on(place-1, keys-4)
+
+dobj(press-1, keys-2)
+
+dobj(approach-1, piano-2)
+
+det(cover-3, the-2)
+dobj(open-1, cover-3)
+
+prt(sit-1, down-2)
+det(bench-5, the-4)
+prep_on(sit-1, bench-5)
+
+det(piece-3, the-2)
+dobj(choose-1, piece-3)
+dobj(play-6, piece-3)
+nsubj(play-6, you-4)
+aux(play-6, will-5)
+rcmod(piece-3, play-6)
+
+det(piece-3, the-2)
+dobj(play-1, piece-3)
+
+dobj(excercise-1, fingers-2)
+
+dobj(memorize-1, notes-2)
+
+dobj(practice-1, scales-2)
+
+advmod(often-3, as-2)
+advmod(play-1, often-3)
+mark(can-6, as-4)
+nsubj(can-6, you-5)
+dep(often-3, can-6)
+prep_to(play-1, practice-8)
+
+dobj(use-1, fingers-2)
+
+dobj(place-1, fingers-2)
+prep_on(place-1, piano-4)
+
+dobj(press-1, keys-2)
+

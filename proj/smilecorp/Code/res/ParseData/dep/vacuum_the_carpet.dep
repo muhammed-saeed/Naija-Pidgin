@@ -1,0 +1,694 @@
+det(vacuum-3, a-2)
+dobj(find-1, vacuum-3)
+
+dobj(plug-1, vacuum-2)
+det(outlet-6, an-4)
+amod(outlet-6, electrical-5)
+prep_into(plug-1, outlet-6)
+
+prep_on(turn-1, vacuum-3)
+
+dobj(move-1, vacuum-2)
+det(carpet-5, the-4)
+prep_across(move-1, carpet-5)
+
+dobj(find-1, vacuum-2)
+
+dobj(take-1, vacuum-2)
+prep_to(take-1, carpet-4)
+
+dobj(turn-1, vacuum-2)
+prt(turn-1, on-3)
+
+dobj(run-1, vacuum-2)
+prep_over(run-1, carpet-4)
+
+det(vacuum-3, the-2)
+dobj(find-1, vacuum-3)
+
+det(vacuum-3, the-2)
+dobj(place-1, vacuum-3)
+det(carpet-6, the-5)
+prep_on(place-1, carpet-6)
+
+det(vacuum-3, the-2)
+dobj(plug-1, vacuum-3)
+det(socket-7, the-5)
+amod(socket-7, electric-6)
+prep_into(plug-1, socket-7)
+
+det(vacuum-3, the-2)
+dobj(turn-1, vacuum-3)
+prt(turn-1, on-4)
+
+det(vacuum-3, the-2)
+dobj(run-1, vacuum-3)
+det(carpet-6, the-5)
+prep_over(run-1, carpet-6)
+
+det(vacuum-3, the-2)
+dobj(turn-1, vacuum-3)
+prt(turn-1, off-4)
+
+det(vacuum-3, the-2)
+dobj(put-1, vacuum-3)
+prt(put-1, away-4)
+
+dobj(locate-1, vacuum-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, vacuum-3)
+
+dobj(place-1, vacuum-2)
+prep_on(place-1, carpet-4)
+
+prep_in(plug-1, vacuum-3)
+
+prep_on(turn-1, vacuum-3)
+
+dobj(run-1, vacuum-2)
+prep_over(run-1, floor-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, vacuum-3)
+
+dobj(get-1, vacuum-2)
+
+det(furniture-3, any-2)
+dobj(move-1, furniture-3)
+det(way-7, the-6)
+prep_out_of(move-1, way-7)
+
+prep_on(turn-1, vacuum-3)
+
+dep(start-1, moving-2)
+det(vacuum-4, the-3)
+dobj(moving-2, vacuum-4)
+advmod(moving-2, back-5)
+advmod(moving-2, forth-7)
+conj_and(back-5, forth-7)
+
+prt(turn-1, off-2)
+dobj(turn-1, vacuum-3)
+
+det(vacuum-3, the-2)
+dobj(find-1, vacuum-3)
+
+det(vacuum-3, the-2)
+dobj(plug-1, vacuum-3)
+det(wall-6, the-5)
+prep_into(plug-1, wall-6)
+
+det(vacuum-3, the-2)
+dobj(turn-1, vacuum-3)
+prt(turn-1, on-4)
+
+det(vacuum-3, the-2)
+dobj(push-1, vacuum-3)
+det(carpet-6, the-5)
+prep_over(push-1, carpet-6)
+
+prt(turn-1, off-2)
+det(vacuum-4, the-3)
+dobj(turn-1, vacuum-4)
+
+det(vacuum-3, the-2)
+dobj(unplug-1, vacuum-3)
+
+det(vacuum-3, the-2)
+dobj(replace-1, vacuum-3)
+
+det(cleaner-5, the-3)
+nn(cleaner-5, vacuum-4)
+prep_on(turn-1, cleaner-5)
+
+det(cleaner-4, the-2)
+nn(cleaner-4, vacuum-3)
+dobj(move-1, cleaner-4)
+advmod(move-1, back-5)
+advmod(move-1, forth-7)
+conj_and(back-5, forth-7)
+det(carpet-10, the-9)
+prep_on(move-1, carpet-10)
+
+prt(turn-1, off-2)
+det(vacuum-4, the-3)
+measure(cleaner-5, vacuum-4)
+advmod(turn-1, cleaner-5)
+
+dep(cleaner-3, vacuum-2)
+dobj(get-1, cleaner-3)
+
+nn(cleaner-3, vacuum-2)
+dobj(plug-1, cleaner-3)
+prep_into(plug-1, outlet-5)
+
+nn(cleaner-4, vacuum-3)
+prep_on(turn-1, cleaner-4)
+
+nn(cleaner-3, vacuum-2)
+dobj(move-1, cleaner-3)
+prep_to(move-1, carpet-5)
+
+nn(cleaner-3, vacuum-2)
+dobj(move-1, cleaner-3)
+advmod(move-1, back-4)
+advmod(move-1, forth-6)
+conj_and(back-4, forth-6)
+
+prt(switch-1, off-2)
+dep(cleaner-4, vacuum-3)
+dobj(switch-1, cleaner-4)
+
+measure(cleaner-3, vacuum-2)
+amod(way-4, cleaner-3)
+dobj(put-1, way-4)
+
+dep(cleaner-3, get-1)
+dobj(cleaner-3, vaccum-2)
+
+dobj(clear-1, obstacles-2)
+det(carpet-5, the-4)
+prep_off(clear-1, carpet-5)
+
+dobj(turn-1, vaccum-2)
+advmod(turn-1, cleaner-3)
+dep(cleaner-3, on-4)
+
+conj_and(push-1, pull-3)
+dep(cleaner-5, vacuum-4)
+dobj(pull-3, cleaner-5)
+prep_across(pull-3, carpet-7)
+
+nn(cleaner-3, vacuum-2)
+dobj(turn-1, cleaner-3)
+prt(turn-1, off-4)
+
+det(vacuum-3, the-2)
+dobj(get-1, vacuum-3)
+
+det(vacuum-4, the-3)
+prep_in(plug-1, vacuum-4)
+
+amod(vacuum-4, th-3)
+prep_on(turn-1, vacuum-4)
+
+det(vacuum-3, the-2)
+dobj(push-1, vacuum-3)
+det(carpet-6, the-5)
+prep_over(push-1, carpet-6)
+
+xcomp(keep-1, pushing-2)
+det(vacuum-4, the-3)
+dobj(pushing-2, vacuum-4)
+det(carpet-7, the-6)
+prep_over(pushing-2, carpet-7)
+mark(vacuumed-14, until-8)
+det(carpet-11, the-9)
+amod(carpet-11, entire-10)
+nsubjpass(vacuumed-14, carpet-11)
+aux(vacuumed-14, has-12)
+auxpass(vacuumed-14, been-13)
+advcl(keep-1, vacuumed-14)
+
+nn(cleaner-3, vacuum-2)
+dobj(plug-1, cleaner-3)
+prep(plug-1, in-4)
+
+nn(cleaner-3, vacuum-2)
+dobj(turn-1, cleaner-3)
+prt(turn-1, on-4)
+
+nn(cleaner-3, vacuum-2)
+dobj(slide-1, cleaner-3)
+det(carpet-6, the-5)
+prep_across(slide-1, carpet-6)
+
+dobj(get-1, vacuum-2)
+
+prep_in(plug-1, vacuum-3)
+
+prep_on(turn-1, vacuum-3)
+
+conj_or(pull-1, push-3)
+dobj(push-3, vacuum-4)
+prep_over(push-3, all-6)
+prep_of(all-6, carpet-8)
+
+prt(turn-1, off-2)
+dobj(turn-1, vacuum-3)
+
+dobj(store-1, vacuum-2)
+
+prep_in(plug-1, vaccum-3)
+advmod(plug-1, cleaner-4)
+
+amod(button-3, on\/off-2)
+dobj(press-1, button-3)
+
+dep(cleaner-3, vacuum-2)
+dobj(push-1, cleaner-3)
+det(area-8, the-5)
+amod(area-8, complete-6)
+nn(area-8, surface-7)
+prep_over(push-1, area-8)
+det(carpet-11, the-10)
+prep_of(area-8, carpet-11)
+
+dobj(move-1, objects-2)
+mark(necessary-4, if-3)
+dep(move-1, necessary-4)
+
+nn(button-3, on\/off-2)
+dobj(press-1, button-3)
+advmod(finished-5, when-4)
+advcl(press-1, finished-5)
+
+nn(cleaner-3, vacuum-2)
+dobj(unplug-1, cleaner-3)
+
+det(vacuum-4, the-3)
+prep_on(turn-1, vacuum-4)
+
+advmod(run-1, repeatedly-2)
+det(areas-5, the-4)
+prep_over(run-1, areas-5)
+xsubj(cleaned-9, areas-5)
+partmod(areas-5, needed-6)
+aux(cleaned-9, to-7)
+auxpass(cleaned-9, be-8)
+xcomp(needed-6, cleaned-9)
+
+prt(turn-1, off-2)
+dobj(turn-1, vacuum-3)
+
+prep_in(plug-1, vacuum-3)
+
+prep_on(turn-1, vacuum-3)
+
+dobj(move-1, vacuum-2)
+prep_over(move-1, carpet-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, vacuum-3)
+
+prt(put-1, away-2)
+dobj(put-1, vacuum-3)
+
+det(vacuum-4, the-3)
+prep_on(turn-1, vacuum-4)
+
+det(carpet-4, the-3)
+prep_over(run-1, carpet-4)
+
+prt(turn-1, off-2)
+det(vacuum-4, the-3)
+dobj(turn-1, vacuum-4)
+
+det(cleaner-4, the-2)
+dep(cleaner-4, vacuum-3)
+dobj(get-1, cleaner-4)
+
+det(cleaner-4, the-2)
+nn(cleaner-4, vacuum-3)
+dobj(plug-1, cleaner-4)
+prep(plug-1, in-5)
+
+det(cleaner-4, the-2)
+nn(cleaner-4, vacuum-3)
+dobj(push-1, cleaner-4)
+det(room-7, the-6)
+prep_around(push-1, room-7)
+
+det(cleaner-4, the-2)
+nn(cleaner-4, vacuum-3)
+dobj(unplug-1, cleaner-4)
+
+det(cleaner-4, the-2)
+nn(cleaner-4, vacuum-3)
+dobj(put-1, cleaner-4)
+prt(put-1, away-5)
+
+prt(take-1, out-2)
+det(cleaner-5, the-3)
+nn(cleaner-5, vacuum-4)
+dobj(take-1, cleaner-5)
+
+det(cleaner-5, the-3)
+nn(cleaner-5, vacuum-4)
+prep_in(plug-1, cleaner-5)
+
+det(cleaner-5, the-3)
+nn(cleaner-5, vacuum-4)
+prep_on(turn-1, cleaner-5)
+
+det(cleaner-4, the-2)
+nn(cleaner-4, vacuum-3)
+dobj(push-1, cleaner-4)
+advmod(push-1, about-5)
+
+prt(turn-1, off-2)
+det(vacuum-4, the-3)
+measure(cleaner-5, vacuum-4)
+advmod(turn-1, cleaner-5)
+
+det(cleaner-4, the-2)
+nn(cleaner-4, vacuum-3)
+dobj(unplug-1, cleaner-4)
+
+det(cleaner-4, the-2)
+nn(cleaner-4, vacuum-3)
+dobj(put-1, cleaner-4)
+prt(put-1, away-5)
+
+prt(set-1, up-2)
+conj_and(set-1, plug-4)
+prt(plug-4, in-5)
+dobj(plug-4, cleaner-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, clutter-3)
+
+prt(turn-1, on-2)
+dobj(turn-1, cleaner-3)
+
+dobj(run-1, cleaner-2)
+prep_on(run-1, carpet-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, cleaner-3)
+
+dobj(unplug-1, cleaner-2)
+
+dobj(put-1, cleaner-2)
+prt(put-1, away-3)
+
+det(vacuum-4, the-3)
+prep_in(plug-1, vacuum-4)
+
+det(switch-4, the-3)
+prep_on(turn-1, switch-4)
+
+dobj(push-1, it-2)
+advmod(push-1, back-3)
+advmod(push-1, forth-5)
+conj_and(back-3, forth-5)
+det(carpet-8, the-7)
+prep_over(push-1, carpet-8)
+
+det(vacuum-3, a-2)
+dobj(obtain-1, vacuum-3)
+
+dobj(plug-1, it-2)
+amod(carpet-6, near-4)
+det(carpet-6, the-5)
+prep_in(plug-1, carpet-6)
+
+dobj(turn-1, it-2)
+prt(turn-1, on-3)
+
+dobj(push-1, it-2)
+advmod(push-1, back-3)
+advmod(push-1, forth-5)
+conj_and(back-3, forth-5)
+amod(carpet-8, entire-7)
+prep_over(push-1, carpet-8)
+
+dobj(turn-1, it-2)
+prt(turn-1, off-3)
+
+det(area-3, the-2)
+dobj(identify-1, area-3)
+det(carpet-6, the-5)
+prep_of(area-3, carpet-6)
+prep_to(identify-1, vacuum-8)
+
+prt(get-1, out-2)
+det(vacuum-4, the-3)
+dobj(get-1, vacuum-4)
+
+det(vacuum-3, the-2)
+dobj(plug-1, vacuum-3)
+det(power-6, the-5)
+prep_into(plug-1, power-6)
+
+det(vacuum-4, the-3)
+prep_on(turn-1, vacuum-4)
+
+det(vacuum-3, the-2)
+dep(sweep-1, vacuum-3)
+det(floor-6, the-5)
+prep_over(vacuum-3, floor-6)
+
+det(vacuum-3, the-2)
+dobj(unplug-1, vacuum-3)
+
+det(vacuum-3, the-2)
+dobj(put-1, vacuum-3)
+prt(put-1, away-4)
+
+dep(cleaner-3, vacuum-2)
+dobj(get-1, cleaner-3)
+
+prep_into(plug-1, outlet-3)
+
+prt(turn-1, on-2)
+
+conj_and(push-1, pull-3)
+dobj(pull-3, vacuum-4)
+prep_across(pull-3, floor-6)
+
+prt(turn-1, off-2)
+
+measure(cleaner-3, vacuum-2)
+amod(bag-4, cleaner-3)
+dobj(change-1, bag-4)
+
+nn(cleaner-3, vacuum-2)
+dobj(put-1, cleaner-3)
+advmod(put-1, back-4)
+
+dobj(retrieve-1, vacuum-2)
+
+prep_to(take-1, room-3)
+aux(vacuumed-6, to-4)
+auxpass(vacuumed-6, be-5)
+xcomp(take-1, vacuumed-6)
+
+prep_in(plug-1, vacuum-3)
+
+dobj(vacuum-1, carpet-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+prep_to(go-1, closet-3)
+
+prt(take-1, out-2)
+dobj(take-1, vacuum-3)
+
+prt(pull-1, out-2)
+nn(cord-4, vacuum-3)
+dobj(pull-1, cord-4)
+
+dobj(plug-1, cord-2)
+amod(outlet-5, electrical-4)
+prep_into(plug-1, outlet-5)
+
+dobj(turn-1, vacuum-2)
+prt(turn-1, on-3)
+
+nn(head-3, vacuum-2)
+dobj(push-1, head-3)
+advmod(push-1, back-4)
+advmod(push-1, forth-6)
+conj_and(back-4, forth-6)
+prep_over(push-1, all-8)
+det(carpet-11, the-10)
+prep_of(all-8, carpet-11)
+
+prep_in(plug-1, vacuum-3)
+
+prep_on(turn-1, vacuum-3)
+
+dobj(run-1, vacuum-2)
+amod(carpet-5, entire-4)
+prep_over(run-1, carpet-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, vacuum-3)
+
+dobj(unplug-1, vacuum-2)
+conj_and(unplug-1, put-4)
+prt(put-4, away-5)
+
+nn(cleaner-3, vacuum-2)
+dobj(locate-1, cleaner-3)
+
+prep_in(plug-1, vaccum-3)
+amod(outlet-7, cleaner-4)
+prep_to(cleaner-4, power-6)
+dobj(plug-1, outlet-7)
+
+prt(switch-1, on-2)
+dep(cleaner-4, vacuum-3)
+dobj(switch-1, cleaner-4)
+
+nn(cleaner-3, vacuum-2)
+dobj(move-1, cleaner-3)
+prep_over(move-1, carpet-5)
+
+mark(cleaned-5, until-2)
+nsubjpass(cleaned-5, carpet-3)
+auxpass(cleaned-5, is-4)
+advcl(repeat-1, cleaned-5)
+
+prt(turn-1, off-2)
+dep(cleaner-4, vacuum-3)
+dobj(turn-1, cleaner-4)
+
+nn(cleaner-3, vacuum-2)
+dobj(unplug-1, cleaner-3)
+
+prt(take-1, out-2)
+dobj(take-1, vacuum-3)
+
+prep_in(plug-1, vacuum-3)
+
+dobj(clean-1, carpet-2)
+
+dobj(put-1, vacuum-2)
+prt(put-1, away-3)
+
+prep_on(turn-1, vacuum-3)
+
+prt(roll-1, over-2)
+nn(area-4, carpet-3)
+dobj(roll-1, area-4)
+
+prep_in(plug-1, vacuum-3)
+
+prep_on(turn-1, vacuum-3)
+
+dobj(move-1, vacuum-2)
+advmod(move-1, around-3)
+det(floor-6, the-5)
+prep_on(move-1, floor-6)
+
+aux(make-3, to-2)
+xcomp(watch-1, make-3)
+acomp(make-3, sure-4)
+nsubjpass(sucked-7, objects\/dirt\/etc-5)
+auxpass(sucked-7, is-6)
+ccomp(sure-4, sucked-7)
+prt(sucked-7, up-8)
+
+prep_in(plug-1, vacuum-3)
+
+dobj(turn-1, vacuum-2)
+prt(turn-1, on-3)
+
+dobj(hold-1, handle-2)
+prep_of(handle-2, vacuum-4)
+conj_and(hold-1, move-6)
+dobj(move-6, it-7)
+advmod(move-6, back-8)
+advmod(move-6, forth-10)
+conj_and(back-8, forth-10)
+amod(areas-13, dirty-12)
+prep_over(move-6, areas-13)
+
+dobj(turn-1, vacuum-2)
+prt(turn-1, off-3)
+
+dobj(unplug-1, vacuum-2)
+
+prep_on(turn-1, vacuum-3)
+
+dobj(push-1, vacuum-2)
+prep_over(push-1, carpet-4)
+
+prep_on(turn-1, vacuum-3)
+
+dobj(roll-1, vacuum-2)
+prep_over(roll-1, carpet-4)
+
+det(vacuum-4, the-3)
+prep_on(turn-1, vacuum-4)
+
+det(vacuum-3, the-2)
+dobj(run-1, vacuum-3)
+det(carpet-6, the-5)
+prep_over(run-1, carpet-6)
+
+prt(turn-1, off-2)
+det(vacuum-4, the-3)
+dobj(turn-1, vacuum-4)
+
+nn(head-3, power-2)
+dobj(attach-1, head-3)
+nn(cleaner-6, vacuum-5)
+prep_to(attach-1, cleaner-6)
+
+nn(cleaner-4, vacuum-3)
+prep_in(plug-1, cleaner-4)
+
+dobj(adjust-1, settings-2)
+nn(head-5, power-4)
+prep_for(adjust-1, head-5)
+
+nn(cleaner-4, vacuum-3)
+prep_on(turn-1, cleaner-4)
+
+nn(head-3, power-2)
+dobj(run-1, head-3)
+amod(carpet-6, entire-5)
+prep_over(head-3, carpet-6)
+
+nn(cleaner-3, vacuum-2)
+dobj(unplug-1, cleaner-3)
+
+nn(cleaner-3, vacuum-2)
+dobj(put-1, cleaner-3)
+prt(put-1, away-4)
+
+prep_to(go-1, pantry-3)
+
+prt(take-1, out-2)
+dep(cleaner-4, vacuum-3)
+dobj(take-1, cleaner-4)
+
+dobj(find-1, outlet-2)
+
+prep_into(plug-1, outlet-3)
+
+prep_on(turn-1, vacuum-3)
+
+dobj(move-1, vacuum-2)
+prep_over(move-1, carpet-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, vacuum-3)
+
+prt(take-1, out-2)
+dep(cleaner-4, vacuum-3)
+dobj(take-1, cleaner-4)
+
+dobj(plug-1, vacuum-2)
+prep_into(plug-1, wall-4)
+
+prep_on(turn-1, vacuum-3)
+
+dobj(vacuum-1, carpet-2)
+
+prep_on(turn-1, vaccum-3)
+
+det(carprt-3, the-2)
+dobj(clean-1, carprt-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, vaccum-3)
+
+prt(put-1, back-2)
+dobj(put-1, vaccum-3)
+

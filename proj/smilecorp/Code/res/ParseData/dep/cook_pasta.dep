@@ -1,0 +1,722 @@
+det(stove-4, the-2)
+amod(stove-4, cooking-3)
+dobj(find-1, stove-4)
+
+dobj(put-1, water-2)
+det(utensil-5, a-4)
+prep_in(put-1, utensil-5)
+
+dobj(put-1, utensil-2)
+prep_on(put-1, stove-4)
+
+dobj(turn-1, stove-2)
+advmod(turn-1, on-3)
+aux(boil-5, to-4)
+xcomp(turn-1, boil-5)
+dobj(boil-5, water-6)
+
+dobj(add-1, pasta-2)
+
+advmod(pasta-2, once-1)
+nsubj(cooked-3, pasta-2)
+ccomp(cooked-3, turn-4)
+dobj(turn-4, stove-5)
+prt(turn-4, off-6)
+
+dobj(transfer-1, pasta-2)
+det(plate-5, a-4)
+prep_to(transfer-1, plate-5)
+
+det(pot-3, a-2)
+dobj(fill-1, pot-3)
+prep_with(fill-1, water-5)
+
+det(water-3, the-2)
+dobj(boil-1, water-3)
+det(pot-6, the-5)
+prep_in(boil-1, pot-6)
+
+det(pasta-3, the-2)
+dobj(pour-1, pasta-3)
+det(pot-6, the-5)
+prep_in(pour-1, pot-6)
+
+det(pasta-3, the-2)
+dobj(stir-1, pasta-3)
+advmod(stir-1, occassionally-4)
+mark(soft-8, until-5)
+nsubj(soft-8, it-6)
+cop(soft-8, is-7)
+advcl(stir-1, soft-8)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, pasta-2)
+det(water-5, the-4)
+prep_to(add-1, water-5)
+
+mark(tender-5, until-2)
+nsubj(tender-5, pasta-3)
+cop(tender-5, is-4)
+advcl(wait-1, tender-5)
+
+dobj(drain-1, pasta-2)
+
+dobj(get-1, pasta-2)
+
+dobj(boil-1, water-2)
+
+dobj(put-1, pasta-2)
+prepc_in(put-1, boiling-4)
+dobj(boiling-4, water-5)
+
+dobj(get-1, pasta-2)
+
+dobj(boil-1, water-2)
+
+advmod(boiling-3, when-1)
+nsubj(boiling-3, water-2)
+csubj(add-4, boiling-3)
+dobj(add-4, pasta-5)
+
+dobj(stir-1, pasta-2)
+
+complm(done-5, whether-2)
+nsubjpass(done-5, pasta-3)
+auxpass(done-5, is-4)
+ccomp(check-1, done-5)
+
+advmod(done-2, when-1)
+csubj(remove-3, done-2)
+dobj(remove-3, pasta-4)
+
+dobj(drain-1, pasta-2)
+
+dobj(get-1, pasta-2)
+
+dobj(boil-1, water-2)
+
+advmod(boiling-3, when-1)
+nsubj(boiling-3, water-2)
+csubj(put-4, boiling-3)
+dobj(put-4, pasta-5)
+prep(put-4, in-6)
+
+prep_till(wait-1, pasta-3)
+partmod(pasta-3, cooked-4)
+
+dobj(drain-1, pasta-2)
+
+dobj(boil-1, water-2)
+
+dobj(turn-1, temperature-2)
+prt(turn-1, down-3)
+
+dobj(put-1, pasta-2)
+prep_in(put-1, water-4)
+
+dobj(heat-1, pasta-2)
+amod(heat-5, low-4)
+prep_on(heat-1, heat-5)
+quantmod(8-10-7, about-6)
+num(minutes-8, 8-10-7)
+dep(heat-5, minutes-8)
+conj_or(heat-1, until-10)
+prepc_until(heat-1, done-11)
+
+dobj(strain-1, water-2)
+prep_from(strain-1, pasta-4)
+
+dobj(boil-1, water-2)
+prep_with(boil-1, salt-4)
+amod(oil-7, little-6)
+prep_with(boil-1, oil-7)
+conj_and(salt-4, oil-7)
+
+advmod(add-4, when-1)
+nn(boils-3, water-2)
+nsubj(add-4, boils-3)
+dobj(add-4, pasta-5)
+
+conj_or(wait-1, wait-1')
+num(min-4, 10-3)
+prep_for(wait-1, min-4)
+prepc_until(wait-1', done-7)
+
+dobj(remove-1, pot-2)
+prep_from(remove-1, stove-4)
+
+dobj(drain-1, pasta-2)
+
+dobj(boil-1, water-2)
+
+advmod(boiling-3, when-1)
+nsubj(boiling-3, water-2)
+csubj(add-4, boiling-3)
+dobj(add-4, pasta-5)
+
+prep_for(wait-1, pasta-3)
+aux(cook-5, to-4)
+xcomp(wait-1, cook-5)
+
+dobj(drain-1, pasta-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(boil-1, water-2)
+
+dobj(put-1, pasta-2)
+prepc_in(put-1, boiling-4)
+dobj(boiling-4, water-5)
+
+nn(cook-3, pasta-2)
+dobj(let-1, cook-3)
+mark(soft-8, until-4)
+nsubj(soft-8, it-5)
+nsubj(crunchy-11, it-5)
+cop(soft-8, is-6)
+advmod(soft-8, slightly-7)
+advcl(let-1, soft-8)
+neg(crunchy-11, not-10)
+advcl(let-1, crunchy-11)
+conj_and(soft-8, crunchy-11)
+
+dobj(drain-1, water-2)
+prep_off(drain-1, pasta-4)
+
+dobj(serve-1, pasta-2)
+det(plate-5, a-4)
+prep_on(serve-1, plate-5)
+conj_or(serve-1, in-7)
+det(bowl-9, a-8)
+prep_in(serve-1, bowl-9)
+
+dobj(heat-1, water-2)
+prep_in(heat-1, pot-4)
+
+advmod(starts-3, when-1)
+nsubj(starts-3, it-2)
+xsubj(boil-5, it-2)
+csubj(put-6, starts-3)
+aux(boil-5, to-4)
+xcomp(starts-3, boil-5)
+dobj(put-6, pasta-7)
+prt(put-6, in-8)
+
+prt(turn-1, down-2)
+dobj(turn-1, heat-3)
+amod(boil-6, slow-5)
+prep_to(turn-1, boil-6)
+
+conj_or(cook-1, cook-1')
+num(minutes-4, 10-3)
+prep_for(cook-1, minutes-4)
+prep_until(cook-1', pasta-7)
+det(dente-10, a-8)
+nn(dente-10, al-9)
+dep(cook-1, dente-10)
+
+dobj(drain-1, pasta-2)
+
+dobj(heat-1, water-2)
+
+prep_in(put-1, pasta-3)
+
+dobj(take-1, heat-2)
+prt(take-1, down-3)
+prep_to(take-1, simmer-5)
+
+dobj(cook-1, pasta-2)
+prepc_until(cook-1, done-4)
+
+dobj(locate-1, pasta-2)
+
+dobj(locate-1, pot-2)
+
+dobj(locate-1, recipe-2)
+
+dobj(follow-1, recipe-2)
+aux(prepare-5, to-3)
+advmod(prepare-5, properly-4)
+infmod(recipe-2, prepare-5)
+dobj(prepare-5, pasta-6)
+
+dobj(serve-1, pasta-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(boil-1, pot-2)
+prep_of(pot-2, water-4)
+prep_on(boil-1, stove-6)
+
+amod(pasta-3, uncooked-2)
+dobj(place-1, pasta-3)
+prepc_into(place-1, boiling-5)
+dobj(boiling-5, water-6)
+
+det(salt-4, a-2)
+amod(salt-4, little-3)
+dobj(add-1, salt-4)
+dobj(add-1, oil-6)
+conj_and(salt-4, oil-6)
+det(water-9, the-8)
+prep_to(add-1, water-9)
+
+num(minutes-4, 10-3)
+prep_for(cook-1, minutes-4)
+
+dobj(remove-1, pasta-2)
+prep_from(remove-1, water-4)
+
+dobj(serve-1, pasta-2)
+prep_to(serve-1, guests-4)
+
+dobj(get-1, pan-2)
+
+dobj(boil-1, water-2)
+
+dobj(put-1, pasta-2)
+prep_in(put-1, water-4)
+
+num(minutes-3, 8-2)
+dobj(wait-1, minutes-3)
+
+dobj(take-1, pasta-2)
+prep_out_of(take-1, water-5)
+
+dobj(add-1, sauce-2)
+
+dobj(put-1, water-2)
+prep_in(put-1, pan-4)
+
+dobj(boil-1, water-2)
+
+dobj(put-1, pasta-2)
+prep_in(put-1, water-4)
+
+mark(done-5, until-2)
+nsubjpass(done-5, pasta-3)
+auxpass(done-5, is-4)
+advcl(wait-1, done-5)
+
+dobj(remove-1, water-2)
+prep_from(remove-1, pan-4)
+
+dobj(put-1, pasta-2)
+prep_in(put-1, bowl-4)
+
+dobj(identify-1, pot-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+dobj(heat-1, water-2)
+
+dobj(place-1, pasta-2)
+amod(water-5, heated-4)
+prep_in(place-1, water-5)
+
+prep_to(continue-1, heat-3)
+mark(ready-7, until-4)
+nsubj(ready-7, pasta-5)
+cop(ready-7, is-6)
+advcl(continue-1, ready-7)
+
+dobj(place-1, pot-2)
+nn(burner-5, stove-4)
+prep_on(place-1, burner-5)
+
+iobj(fill-1, pot-2)
+amod(way-4, half-3)
+dobj(fill-1, way-4)
+prep_with(fill-1, water-6)
+
+nn(burner-4, stove-3)
+prep_on(turn-1, burner-4)
+
+advmod(add-4, when-1)
+nn(boils-3, water-2)
+nsubj(add-4, boils-3)
+dobj(add-4, pasta-5)
+
+advmod(cooked-4, when-1)
+nsubjpass(cooked-4, pasta-2)
+auxpass(cooked-4, is-3)
+ccomp(cooked-4, turn-5)
+prt(turn-5, off-6)
+dobj(turn-5, stove-7)
+
+dobj(remove-1, pot-2)
+prep_from(remove-1, stove-4)
+
+dobj(pour-1, pasta-2)
+dobj(pour-1, water-4)
+conj_and(pasta-2, water-4)
+prep_into(pour-1, strainer-6)
+
+dobj(put-1, water-2)
+prep_in(put-1, pan-4)
+
+dobj(boil-1, water-2)
+prep_in(boil-1, pan-4)
+
+dobj(put-1, pasta-2)
+prepc_in(put-1, boiling-4)
+dobj(boiling-4, water-5)
+
+dobj(let-1, pasta-2)
+dep(let-1, cook-3)
+prep_until(cook-3, soft-5)
+
+dobj(drain-1, water-2)
+prep_from(drain-1, pan-4)
+
+dobj(put-1, pasta-2)
+prep_in(put-1, bowl-4)
+
+dobj(heat-1, water-2)
+prep_to(heat-1, boiling-4)
+
+dobj(put-1, pasta-2)
+prep_in(put-1, water-4)
+
+dobj(cover-1, pot-2)
+prep_with(cover-1, lid-4)
+det(time-8, a-6)
+amod(time-8, predetermined-7)
+prep_for(cover-1, time-8)
+
+dobj(remove-1, lid-2)
+
+prt(pour-1, out-2)
+dobj(pour-1, water-3)
+mark(straining-5, while-4)
+advcl(pour-1, straining-5)
+dobj(straining-5, pasta-6)
+prep_out_of(straining-5, water-9)
+
+amod(pot-3, big-2)
+dobj(find-1, pot-3)
+
+amod(water-4, warm-3)
+prep_with(fill-1, water-4)
+
+prep_on(heat-1, stove-3)
+prep_on(heat-1, high-5)
+
+dobj(add-1, pasta-2)
+
+dobj(reduce-1, heat-2)
+
+quantmod(8-4, about-3)
+num(minutes-5, 8-4)
+prep_for(cook-1, minutes-5)
+
+conj_and(drain-1, serve-3)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, burner-4)
+
+prep_on(turn-1, burner-3)
+
+nn(boils-4, water-3)
+prep_until(wait-1, boils-4)
+
+dobj(put-1, pasta-2)
+prep_into(put-1, water-4)
+
+num(minutes-3, five-2)
+dobj(wait-1, minutes-3)
+
+dobj(drain-1, water-2)
+prep_from(drain-1, pot-4)
+
+dobj(put-1, water-2)
+prep_in(put-1, pan-4)
+
+dobj(cover-1, water-2)
+
+dobj(boil-1, water-2)
+
+advmod(boiling-4, when-1)
+nsubj(boiling-4, water-2)
+aux(boiling-4, is-3)
+csubj(add-5, boiling-4)
+dobj(add-5, pasta-6)
+
+mark(cooked-5, until-2)
+nsubjpass(cooked-5, pasta-3)
+nsubj(firm-8, pasta-3)
+auxpass(cooked-5, is-4)
+advcl(cook-1, cooked-5)
+advmod(firm-8, still-7)
+advcl(cook-1, firm-8)
+conj_but(cooked-5, firm-8)
+
+dobj(drain-1, pasta-2)
+prep_in(drain-1, collander-4)
+
+dobj(boil-1, water-2)
+
+dobj(stir-1, pasta-2)
+prepc_into(stir-1, boiling-4)
+dobj(boiling-4, water-5)
+
+number(8-5, 6-3)
+dep(8-5, to-4)
+num(minutes-6, 8-5)
+prep_for(simmer-1, minutes-6)
+
+dobj(drain-1, pasta-2)
+
+
+dobj(boil-1, water-2)
+
+dobj(put-1, pasta-2)
+prep_in(put-1, water-4)
+
+mark(soft-5, until-2)
+nsubj(soft-5, pasta-3)
+cop(soft-5, is-4)
+advcl(wait-1, soft-5)
+
+det(quanity-4, a-2)
+amod(quanity-4, large-3)
+dobj(boil-1, quanity-4)
+prep_of(quanity-4, water-6)
+
+amod(pasta-3, raw-2)
+dobj(get-1, pasta-3)
+prep_from(get-1, cupboard-5)
+
+dobj(put-1, pasta-2)
+prep_in(put-1, water-4)
+nsubj(boiling-7, water-4)
+aux(boiling-7, is-6)
+rcmod(water-4, boiling-7)
+
+det(second-4, the-3)
+prep_to(time-1, second-4)
+
+dobj(remove-1, pasta-2)
+prepc_by(remove-1, pour-4)
+det(pot-6, the-5)
+iobj(pour-4, pot-6)
+amod(strainer-8, thru-7)
+dobj(pour-4, strainer-8)
+prep_into(pour-4, sink-10)
+
+dobj(put-1, pas-2)
+prepc_on(put-1, serving-4)
+dobj(serving-4, platter-5)
+
+
+det(pot-4, a-2)
+amod(pot-4, large-3)
+dobj(get-1, pot-4)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, pasta-2)
+
+
+dobj(get-1, pot-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prt(turn-1, on-2)
+dobj(turn-1, heat-3)
+
+prep_to(bring-1, boil-3)
+
+dobj(add-1, pasta-2)
+
+nn(dente-4, al-3)
+prep_till(cook-1, dente-4)
+
+dobj(boil-1, water-2)
+
+prep_in(pour-1, pasta-3)
+
+dobj(turn-1, temperature-2)
+prt(turn-1, down-3)
+prep_to(turn-1, medium-high-5)
+
+dobj(set-1, timer-2)
+num(minutes-5, 7-10-4)
+prep_for(set-1, minutes-5)
+
+advmod(stir-1, occasionally-2)
+
+dobj(check-1, doneness-2)
+
+dobj(drain-1, pasta-2)
+
+dobj(boil-1, water-2)
+
+dobj(place-1, pasta-2)
+prep_in(place-1, water-4)
+
+dobj(cook-1, pasta-2)
+
+amod(pot-3, large-2)
+dobj(fill-1, pot-3)
+num(water-7, 3-4-5)
+amod(water-7, quarts-6)
+prep_with(fill-1, water-7)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+dobj(add-1, salt-2)
+prep_to(add-1, water-4)
+
+dobj(put-1, lid-2)
+prep_on(put-1, pot-4)
+
+prep_on(turn-1, burner-3)
+prep_to(turn-1, high-5)
+
+nn(boils-4, water-3)
+prep_until(wait-1, boils-4)
+
+dobj(remove-1, cover-2)
+conj_and(remove-1, add-4)
+dobj(add-4, pasta-5)
+
+dobj(boil-1, water-2)
+prep_in(boil-1, pan-4)
+
+dobj(get-1, pasta-2)
+
+dobj(put-1, pasta-2)
+prepc_in(put-1, boiling-4)
+dobj(boiling-4, water-5)
+
+num(minutes-4, 10-3)
+prep_for(stir-1, minutes-4)
+
+det(water-3, the-2)
+dobj(drain-1, water-3)
+prep_out_of(drain-1, pan-6)
+
+dobj(open-1, packet-2)
+prep_of(packet-2, pasta-4)
+
+dobj(get-1, saucepan-2)
+
+dobj(put-1, pasta-2)
+prep_in(put-1, saucepan-4)
+
+dobj(add-1, water-2)
+
+prep_on(put-1, cooker-3)
+conj_and(put-1, turn-5)
+prt(turn-5, on-6)
+dobj(turn-5, heat-7)
+
+dobj(boil-1, pasta-2)
+amod(minutes-5, several-4)
+prep_for(boil-1, minutes-5)
+
+dobj(drain-1, water-2)
+conj_and(drain-1, serve-4)
+
+dobj(get-1, pot-2)
+
+prep_with(fill-1, water-3)
+
+dobj(add-1, salt-2)
+
+dobj(turn-1, stove-2)
+prt(turn-1, on-3)
+
+dobj(cover-1, pot-2)
+
+dobj(add-1, pasta-2)
+
+dobj(stir-1, pasta-2)
+
+dobj(put-1, water-2)
+prep_in(put-1, pan-4)
+
+dobj(put-1, pan-2)
+prep_on(put-1, burner-4)
+
+dobj(put-1, burner-2)
+prep_on(put-1, fire-4)
+
+dobj(put-1, pasta-2)
+prep_in(put-1, pan-4)
+advmod(boils-7, when-5)
+nsubj(boils-7, water-6)
+advcl(put-1, boils-7)
+
+dobj(put-1, spoon-2)
+prep_in(put-1, pan-4)
+conj_and(put-1, stir-6)
+advmod(til-8, occasionally-7)
+advmod(cooked-9, til-8)
+dep(stir-6, cooked-9)
+prep_to(cooked-9, taste-11)
+
+dobj(boil-1, pasta-2)
+
+dobj(boil-1, pot-2)
+prep_of(pot-2, water-4)
+
+dobj(insert-1, pasta-2)
+prepc_in(insert-1, boiling-4)
+dobj(boiling-4, water-5)
+
+dobj(cook-1, pasta-2)
+num(minutes-5, 7-8-4)
+prep_for(cook-1, minutes-5)
+
+dobj(strain-1, pasta-2)
+dobj(strain-1, cool-4)
+conj_and(pasta-2, cool-4)
+
+dobj(cook-1, meat\/vegetables-2)
+
+dobj(add-1, sauce-2)
+
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, burner-3)
+
+prep_for(wait-1, water-3)
+prep_to(wait-1, boil-5)
+
+prep_in(pour-1, pasta-3)
+
+
+dobj(drain-1, pasta-2)
+
+dobj(boil-1, pasta-2)
+
+dobj(make-1, sauce-2)
+
+dobj(add-1, sauce-2)
+prep_to(add-1, pasta-4)
+

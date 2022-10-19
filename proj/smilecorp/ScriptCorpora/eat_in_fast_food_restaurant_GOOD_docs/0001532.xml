@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0001532" url="http://highered.mcgraw-hill.com/sites/0073373591/student_view0/ebook/chapter1/chbody1/1_2_selecting_a_random_sample.html" time="2012-07-12-17:17" support="6" score="0.00789286489810786" bingtitle="1.2 Selecting a Random Sample" webtitle="1.2 Selecting a Random Sample">
+			<query id="001013" bing-rank="102"/>
+			<query id="001280" bing-rank="46"/>
+			<query id="001028" bing-rank="57"/>
+			<query id="000670" bing-rank="26"/>
+			<query id="000667" bing-rank="44"/>
+			<query id="001267" bing-rank="162"/>
+	<description>It is easier to use a random number table. To show how to use such a table, we ... This case concerns coffee temperatures at a fast-food restaurant. Because of the ...</description>
+	<body>
+		You must have javascript enabled to view this website. Please change your browser preferences to enable javascript, and reload this page. 
+ 1.2 Selecting a Random Sample 
+ (See related pages) 
+
+
+ 
+
+ 
+ Random samples    If the information contained in a sample is to accurately reflect the population under study, the sample should be randomly selected from the population. To intuitively illustrate random sampling, suppose that a small company employs 15 people and wishes to randomly select two of them to attend a convention. To make the random selections, we number the employees from 1 to 15, and we place in a hat 15 identical slips of paper numbered from 1 to 15. We thoroughly mix the slips of paper in the hat and, blindfolded, choose one. The number on the chosen slip of paper identifies the first randomly selected employee. Then, still blindfolded, we choose another slip of paper from the hat. The number on the second slip identifies the second randomly selected employee.
+
+Of course, it is impractical to carry out such a procedure when the population is very large. It is easier to use a random number table . To show how to use such a table, we must more formally define a random sample. 2 
+
+ A random sample A sample selected so that, on each selection from the population, every unit remaining in the population on that selection has the same chance of being chosen. is selected so that, on each selection from the population, every unit remaining in the population on that selection has the same chance of being chosen. 
+
+
+ 
+To understand this definition, first note that we can randomly select a sample with or without replacement . If we sample with replacement A list of sampling units from which a sample will be selected. It should closely agree with the target population. , we place the unit chosen on any particular selection back into the population. Thus we give this unit a chance to be chosen on any succeeding selection. In such a case, all of the units in the population remain as candidates to be chosen for each and every selection. Randomly choosing two employees with replacement to attend a convention would make no sense because we wish to send two different employees to the convention. If we sample without replacement , we do not place the unit chosen on a particular selection back into the population. Thus we do not give this unit a chance to be selected on any succeeding selection. In this case, the units remaining as candidates for a particular selection are all of the units in the population except for those that have previously been selected. It is best to sample without replacement . Intuitively, because we will use the sample to learn about the population, sampling without replacement will give us the fullest possible look at the population. This is true because choosing the sample without replacement guarantees that all of the units in the sample will be different (and that we are looking at as many different units from the population as possible).
+ 
+ (K) 
+ Chapter 1 
+ 
+
+In the following example, we illustrate how to use a random number table, or computer-generated random numbers, to select a random sample.
+
+ 
+ EXAMPLE 1.1   The Cell Phone Case: Estimating Cell Phone Costs 3 
+
+Businesses and college students have at least two things in common—both find cellular phones to be nearly indispensable because of their convenience and mobility, and both often rack up unpleasantly high cell phone bills. Students&apos;high bills are usually the result of overage —a student uses more minutes than his or her plan allows. Businesses also lose money due to overage, and, in addition, lose money due to underage when some employees do not use all of the (already paid-for) minutes allowed by their plans. Because cellular carriers offer more than 10,000 rate plans, it is nearly impossible for a business to intelligently choose calling plans that will meet its needs at a reasonable cost.
+
+ 
+Rising cell phone costs have forced companies having large numbers of cellular users to hire services to manage their cellular and other wireless resources. These cellular management services use sophisticated software and mathematical models to choose cost efficient cell phone plans for their clients. One such firm, MobileSense Inc. of Westlake Village, California, specializes in automated wireless cost management. According to Doug L. Stevens, Vice President of Sales and Marketing at MobileSense, cell phone carriers count on overage and underage to deliver almost half of their revenues. As a result, a company&apos;s typical cost of cell phone use can easily exceed 25 cents per minute. However, Mr. Stevens explains that by using MobileSense automated cost management to select calling plans, this cost can be reduced to 12 cents per minute or less.
+
+In this case we consider a bank that wishes to decide whether to hire a cellular management service to choose its employees&apos;calling plans. While the bank has over 10,000 employees on a variety of calling plans, the cellular management service suggests that by studying the calling patterns of cellular users on 500-minute plans, the bank can accurately assess whether its cell phone costs can be substantially reduced.
+ 
+ (K) 
+ 
+
+The bank has 2,136 employees on a 500-minute-per-month plan with a monthly cost of$50. The overage charge is 40 cents per minute, and there are additional charges for long distance and roaming. It would be extremely time consuming to analyze in detail the cell phone bills of all 2,136 employees. Therefore, the bank will estimate its cellular costs for the 500-minute plan by analyzing the cell phone bills of 100 randomly selected employees on this plan. According to the cellular management service, if the cellular cost per minute for the random sample of 100 employees is over 18 cents per minute, the bank should benefit from automated cellular management of its calling plans.
+
+In order to randomly select the sample of 100 cell phone users, the bank will make a numbered list of the 2,136 users on the 500-minute plan. This list is called a frame A list of all of the units in a population. This is needed in order to select a random sample. . The bank can then use a random number table A table containing random digits that is often used to select a random sample. , such as Table 1.1 (a), to select the needed sample. To see how this is done, notice that any single-digit number in the table is assumed to have been randomly selected from the digits 0 to 9. Any two-digit number in the table is assumed to have been randomly selected from the numbers 00 to 99. Any three-digit number is assumed to have been randomly selected from the numbers 000 to 999, and so forth. Note that the table entries are segmented into groups of five to make the table easier to read. Because the total number of cell phone users on the 500-minute plan (2,136) is a four-digit number, we arbitrarily select any set of four digits in the table (we have circled these digits). This number, which is 0511, identifies the first randomly selected user. Then, moving in any direction from the 0511 (up, down, right, or left—it does not matter which), we select additional sets of four digits. These succeeding sets of digits identify additional randomly selected users. Here we arbitrarily move down from 0511 in the table. The first seven sets of four digits we obtain are
+
+ (K) 
+
+(See Table 1.1 (a)—these numbers are enclosed in a rectangle.) Since there are no users numbered 7156, 4461, 3990, or 4919 (remember only 2,136 users are on the 500-minute plan), we ignore these numbers. This implies that the first three randomly selected users are those numbered 0511, 0285, and 1915. Continuing this procedure, we can obtain the entire random sample of 100 users. Notice that, because we are sampling without replacement, we should ignore any set of four digits previously selected from the random number table.
+ 
+ 
+ Table 1.1    Random Numbers 
+ (K) 
+ 
+ 
+
+While using a random number table is one way to select a random sample, this approach has a disadvantage that is illustrated by the current situation. Specifically, since most four-digit random numbers are not between 0001 and 2136, obtaining 100 different, four-digit random numbers between 0001 and 2136 will require ignoring a large number of random numbers in the random number table, and we will in fact need to use a random number table that is larger than Table 1.1 (a). Although larger random number tables are readily available in books of mathematical and statistical tables, a good alternative is to use a computer software package, which can generate random numbers that are between whatever values we specify. For example, Table 1.1 (b) gives the MINITAB output of 100 different, four-digit random numbers that are between 0001 and 2136 (note that the“leading 0&apos;s”are not included in these four digit numbers). If used, the random numbers in Table 1.1 (b) identify the 100 employees that should form the random sample.
+
+After the random sample of 100 employees is selected, the number of cellular minutes used by each employee during the month (the employee&apos;s cellular usage ) is found and recorded. The 100 cellular-usage figures are given in Table 1.2 . Looking at this table, we can see that there is substantial overage and underage—many employees used far more than 500 minutes, while many others failed to use all of the 500 minutes allowed by their plan. In Chapter 3 we will use these 100 usage figures to estimate the cellular cost per minute for the 500-minute plan.
+ 
+ 
+ Table 1.2    A Sample of Cellular Usages (in minutes) for 100 Randomly Selected Employees    (K)    CellUse 
+ (K) 
+ 
+ 
+ 
+
+ Approximately random samples    In general, to take a random sample we must have a list, or frame , of all the population units. This is needed because we must be able to number the population units in order to make random selections from them (by, for example, using a random number table). In Example 1.1 , where we wished to study a population of 2,136 cell phone users who were on the bank&apos;s 500-minute cellular plan, we were able to produce a frame (list) of the population units. Therefore, we were able to select a random sample. Sometimes, however, it is not possible to list and thus number all the units in a population. In such a situation we often select a systematic sample A sample taken by moving systematically through the population. For instance, we might randomly select one of the first 200 population units and then systematically sample every 200th population unit thereafter. , which approximates a random sample.
+
+ 
+ EXAMPLE 1.2 The Marketing Research Case: Rating a New Bottle Design 4 
+ 
+
+
+ 
+The design of a package or bottle can have an important effect on a company&apos;s bottom line. For example, an article in the September 16, 2004, issue of USA Today reported that the introduction of a contoured 1.5-liter bottle for Coke drinks (including the reduced-calorie soft drink Coke C2) played a major role in Coca-Cola&apos;s failure to meet third-quarter earnings forecasts in 2004. According to the article, Coke&apos;s biggest bottler, Coca-Cola Enterprises,“said it would miss expectations because of the 1.5-liter bottle and the absence of common 2-liter and 12-pack sizes for C2 in supermarkets.” 5 
+
+In this case a brand group is studying whether changes should be made in the bottle design for a popular soft drink. To research consumer reaction to a new design, the brand group will use the“mall intercept method” 6 in which shoppers at a large metropolitan shopping mall are intercepted and asked to participate in a consumer survey. Each shopper will be exposed to the new bottle design and asked to rate the bottle image. Bottle image will be measured by combining consumers&apos;responses to five items, with each response measured using a 7-point“Likert scale.”The five items and the scale of possible responses are shown in Figure 1.1 . Here, since we describe the least favorable response and the most favorable response (and we do not describe the responses between them), we say that the scale is“anchored”at its ends. Responses to the five items will be summed to obtain a composite score for each respondent. It follows that the minimum composite score possible is 5 and the maximum composite score possible is 35. Furthermore, experience has shown that the smallest acceptable composite score for a successful bottle design is 25.
+ (K) 
+
+ 
+ 
+ Figure 1.1    The Bottle Design Survey Instrument 
+ Please circle the response that most accurately describes whether you agree or disagree with each statement about the bottle you have examined.
+
+ (K) 
+ 
+ 
+
+In this situation, it is not possible to list and number each and every shopper at the mall while the study is being conducted. Consequently, we cannot use random numbers (as we did in the cell phone case) to obtain a random sample of shoppers. Instead, we can select a systematic sample . To do this, every 100th shopper passing a specified location in the mall will be invited to participate in the survey. Here, selecting every 100th shopper is arbitrary—we could select every 200th, every 300th, and so forth. By selecting every 100th shopper, it is probably reasonable to believe that the responses of the survey participants are not related. Therefore, it is reasonable to assume that the sampled shoppers obtained by the systematic sampling process make up an approximate random sample.
+
+During a Tuesday afternoon and evening, a sample of 60 shoppers is selected by using the systematic sampling process. Each shopper is asked to rate the bottle design by responding to the five items in Figure 1.1 , and a composite score is calculated for each shopper. The 60 composite scores obtained are given in Table 1.3 . Since these scores range from 20 to 35, we might infer that most of the shoppers at the mall on the Tuesday afternoon and evening of the study would rate the new bottle design between 20 and 35. Furthermore, since 57 of the 60 composite scores are at least 25, we might estimate that the proportion of all shoppers at the mall on the Tuesday afternoon and evening who would give the bottle design a composite score of at least 25 is 57/60 = .95. That is, we estimate that 95 percent of the shoppers would give the bottle design a composite score of at least 25.
+ 
+ 
+ Table 1.3    A Sample of Bottle Design Ratings (Composite Scores for a Systematic Sample of 60 Shoppers)   (K)    Design 
+ (K) 
+ 
+ 
+
+In Chapter 3 we will see how to estimate a typical composite score and we will further analyze the composite scores in Table 1.3 .
+
+In some situations, we need to decide whether a sample taken from one population can be employed to make statistical inferences about another, related population. Often logical reasoning is used to do this. For instance, we might reason that the bottle design ratings given by shoppers at the mall on the Tuesday afternoon and evening of the research study would be representative of the ratings given by (1) shoppers at the same mall at other times, (2) shoppers at other malls, and (3) consumers in general. However, if we have no data or other information to back up this reasoning, making such generalizations is dangerous. In practice, marketing research firms choose locations and sampling times that data and experience indicate will produce a representative cross-section of consumers. To simplify our presentation, we will assume that this has been done in the bottle design case. Therefore, we will suppose that it is reasonable to use the 60 bottle design ratings in Table 1.3 to make statistical inferences about all consumers .
+
+To conclude this section, we emphasize the importance of taking a random (or approximately random) sample. Statistical theory tells us that, when we select a random (or approximately random) sample, we can use the sample to make valid statistical inferences about the sampled population. However, if the sample is not random, we cannot do this. A classic example occurred prior to the presidential election of 1936, when the Literary Digest predicted that Alf Landon would defeat Franklin D. Roosevelt by a margin of 57 percent to 43 percent. Instead, Roosevelt won the election in a landslide. Literary Digest &apos;s error was to sample names from telephone books and club membership rosters. In 1936 the country had not yet recovered from the Great Depression, and many unemployed and low-income people did not have phones or belong to clubs. The Literary Digest &apos;s sampling procedure excluded these people, who overwhelmingly voted for Roosevelt. At this time, George Gallup, founder of the Gallup Poll, was beginning to establish his survey business. He used an approximately random sample to correctly predict Roosevelt&apos;s victory.
+
+As another example, today&apos;s television and radio stations, as well as newspaper columnists, use voluntary response samples A survey in which respondents self select. . In such samples, participants self-select—that is, whoever wishes to participate does so (usually expressing some opinion). These samples overrepresent people with strong (usually negative) opinions. For example, the advice columnist Ann Landers once asked her readers,“If you had it to do over again, would you have children?”Of the nearly 10,000 parents who voluntarily responded, 70 percent said that they would not. An approximately random sample taken a few months later found that 91 percent of parents would have children again. We further discuss random sampling in optional Section 1.5 .
+
+ Sampling a process    A population is not always defined to be a set of existing units. Often we are interested in studying the population of all of the units that will be or could potentially be produced by a process.
+
+ A process A sequence of operations that takes inputs and turns them into outputs. is a sequence of operations that takes inputs (labor, materials, methods, machines, and so on) and turns them into outputs (products, services, and the like). 
+
+Processes produce output over time . For example, this year&apos;s Buick LaCrosse manufacturing process produces LaCrosses over time. Early in the model year, General Motors might wish to study the population of the city driving mileages of all Buick LaCrosses that will be produced during the model year. Or, even more hypothetically, General Motors might wish to study the population of the city driving mileages of all LaCrosses that could potentially be produced by this model year&apos;s manufacturing process. The first population is called a finite population A population that contains a finite number of units. because only a finite number of cars will be produced during the year. Any population of existing units is also finite. The second population is called an infinite population A population that is defined so that there is no limit to the number of units that could potentially belong to the population. because the manufacturing process that produces this year&apos;s model could in theory always be used to build“one more car.”That is, theoretically there is no limit to the number of cars that could be produced by this year&apos;s process. There are a multitude of other examples of finite or infinite hypothetical populations. For instance, we might study the population of all waiting times that will or could potentially be experienced by patients of a hospital emergency room. Or we might study the population of all the amounts of grape jelly that will be or could potentially be dispensed into 16-ounce jars by an automated filling machine. To study a population of potential process observations, we sample the process—often at equally spaced time points—over time. This is illustrated in the following case.
+
+ 
+ EXAMPLE 1.3   The Car Mileage Case: Estimating Mileage 
+
+In 2008 the U.S. Department of Energy (DOE) and the Environmental Protection Agency (EPA) emphasized the importance of auto fuel economy. The Fuel Economy Guide , available at the DOE website, discusses the effects of gasoline consumption on U.S. energy security and the economy as follows. 7 
+ 
+ Buying a more fuel efficient vehicle can help strengthen our national energy security by reducing our dependence on foreign oil . More than half of the oil used to produce the gasoline you put in your tank is imported. The United States uses about 20 million barrels of oil per day, two-thirds of which is used for transportation. Petroleum imports cost us about$5.2 billion a week—that&apos;s money that could be used to fuel our own economy.
+ 
+The Guide also discusses the effects of gasoline consumption on global climate change 8 :
+ 
+Burning fossil fuels such as gasoline and diesel adds greenhouse gases, mostly carbon dioxide (CO 2 ), to the Earth&apos;s atmosphere. Large-scale increases in greenhouse gases in the Earth&apos;s atmosphere can lead to global climate change. Vehicles with lower fuel economy burn more fuel, creating more CO 2 . Your vehicle creates about 20 pounds of CO 2 (170 cu. ft.) per gallon of gasoline it consumes. Therefore, you can reduce your contribution to global climate change by choosing a vehicle with higher fuel economy.
+
+ By choosing a vehicle that achieves 25 miles per gallon rather than 20 miles per gallon, you can prevent the release of about 17 tons (260,000 cu. ft.) of greenhouse gases over the lifetime of your vehicle .
+ 
+In this case study we consider a tax credit offered by the federal government to automakers for improving the fuel economy of gasoline powered midsize cars. According to The Fuel Economy Guide—2008 Model Year , virtually every midsize car equipped with an automatic transmission has an EPA combined city and highway mileage estimate of 26 miles per gallon (mpg) or less. 9 Furthermore, the EPA has concluded that a 5 mpg increase in fuel economy is significant and feasible. 10 Therefore, suppose that the government has decided to offer the tax credit to any automaker selling a midsize model with an automatic transmission that achieves an EPA combined city and highway mileage estimate of at least 31 mpg.
+
+Consider an automaker that has recently introduced a new midsize model with an automatic transmission and wishes to demonstrate that this new model qualifies for the tax credit. In order to study the population of all cars of this type that will or could potentially be produced, the automaker will choose a sample of 50 of these cars. Furthermore, because the midsize cars are produced over time, the automaker will choose the sample by randomly selecting one car from those produced during each of 50 consecutive production shifts. Once selected, each car is to be subjected to an EPA test that determines the EPA combined city and highway mileage of the car. This mileage is obtained by testing the car on a device similar to a giant treadmill. The device is used to simulate a 7.5-mile city driving trip and a 10-mile highway driving trip, and the resulting city and highway mileages are used to calculate the EPA combined mileage for the car. 11 
+
+Suppose that when the 50 cars are selected and tested, the sample of 50 EPA combined mileages shown in Table 1.4 is obtained. (Note that these mileages are given in time order.) Examining Table 1.4 , we see that the car mileages range from 29.8 mpg to 33.3 mpg. Based on this, is it reasonable to conclude that most of the new midsize cars produced during the model year will obtain between 29.8 mpg and 33.3 mpg? The answer is yes if the automaker&apos;s manufacturing process for the new midsize model is operating consistently over time. That is, this process must be in a state of statistical control A state in which a process does not exhibit any unusual variations. Often this means that the process displays a constant amount of variation around a constant, or horizontal, level. .
+ 
+ 
+ 
+ Table 1.4    A Sample of 50 Mileages (Time Order is Given by Reading Down the Columns from Left to Right)    (K)    GasMiles 
+ (K) 
+ 
+ 
+
+
+ A process is in statistical control if it does not exhibit any unusual process variations. Often, this means that the process displays a constant amount of variation around a constant , or horizontal, level . 
+
+In Chapter 17 , where we discuss a systematic method for studying processes called statistical process control (SPC) A method for analyzing process data in which we monitor and study the process variation. The goal is to stabilize (and reduce) the amount of process variation. , we consider how to determine whether a process is in statistical control. For now, we note that we can begin to assess statistical control by constructing a runs plot (sometimes called a time series plot ).
+
+ A runs plot A graph of individual process measurements versus time. Also called a time series plot. is a graph of individual process measurements versus time. 
+
+ Figure 1.2 shows a runs plot of the car mileages. (Some people call such a plot a line chart when the plot points are connected by line segments as in Figure 1.2 .) Here we plot each car mileage on the vertical scale versus its corresponding time index on the horizontal scale. For instance, the first car mileage (30.8) is plotted versus time equals 1, the second car mileage (31.7) is plotted versus time equals 2, and so forth. The runs plot suggests that the car mileages exhibit a relatively constant amount of variation around a relatively constant level. That is, the center of the car mileages can be pretty much represented by a horizontal line (constant level)—see the line drawn through the plotted points—and the spread of the points around the line is staying about the same (constant variation). Note that the plot points tend to form a horizontal band. Therefore, the car mileages seem to be in statistical control.
+ 
+ 
+ Figure 1.2    A Runs Plot of the 50 Mileages 
+ (K) 
+ 
+ 
+
+In general, assume that we have sampled a process at different time points and made a runs plot of the resulting sample measurements. If the plot indicates that the process is in statistical control, and if it is reasonable to believe that the process will remain in control, then it is probably reasonable to regard the sample measurements as an approximately random sample from the population of all possible process measurements. Furthermore, since the process is remaining in statistical control, the process performance is predictable . This allows us to make statistical inferences about the population of all possible process measurements that will or potentially could result from using the process. For example, assuming that the manufacturing process for the new midsize model will remain in statistical control, it is reasonable to conclude that most cars produced by this process will obtain between 29.8 mpg and 33.3 mpg. Furthermore, we will soon see how we can estimate the new model&apos;s“typical”EPA combined mileage. The estimate obtained is the EPA combined city and highway mileage estimate for the new midsize model. In Chapters 2 through 8 we study precise methods for making this estimate. For now, note that the horizontal line drawn through the“middle”of the plot points in Figure 1.2 intersects the vertical axis at about 31.5 mpg. This intuitively implies that a“typical”new midsize car will obtain a mileage that exceeds the tax credit standard of 31 mpg. Therefore, it seems that the new midsize model might qualify for the tax credit.
+
+To emphasize the importance of statistical control, suppose that the automaker had observed the car mileages that are plotted versus time in Figure 1.3 . These car mileages also range between 29.8 mpg and 33.3 mpg. However, we could not infer from this that most cars of this type will obtain between 29.8 mpg and 33.3 mpg. This is because the downward trend in the runs plot of Figure 1.3 indicates that the car manufacturing process is out of control and will soon produce cars with mileages below 29.8 mpg. Another example of an out-of-control process is illustrated in Figure 1.4 . Here, the car mileages seem to fluctuate around a constant level but with increasing variation (notice that the plotted mileages fan out as time advances). In general, if a process is not in statistical control, we must use the methods of Chapter 17 to bring it into control before we can make statistical inferences about the population of all possible process measurements.
+ 
+ 
+ Figure 1.3    A Runs Plot of Car Mileages: The Process Level Is Decreasing 
+ (K) 
+ 
+ 
+
+ 
+ 
+ Figure 1.4    A Runs Plot of Car Mileages: The Process Variation Is Increasing 
+ (K) 
+ 
+ 
+
+
+ 
+ Exercises for Sections 1.1 and 1.2 
+
+ CONCEPTS 
+
+ 
+ 1.1 Define a population . Give an example of a population that you might study when you start your career after graduating from college. 1.2 Define what we mean by a variable , and explain the difference between a quantitative variable and a qualitative (categorical) variable. 1.3 Below we list several variables. Which of these variables are quantitative and which are qualitative? Explain.
+ The dollar amount on an accounts receivable invoice. The net profit for a company in 2005. The stock exchange on which a company&apos;s stock is traded. The national debt of the United States in 2005. The advertising medium (radio, television, or print) used to promote a product. 
+ 1.4 Explain the difference between a census and a sample. 1.5 Explain each of the following terms:
+ Descriptive statistics. Random sample. Statistical inference. Process. 
+ 1.6 Explain why sampling without replacement is preferred to sampling with replacement. 
+ 
+ 
+ (K) 
+ 
+ 
+
+ METHODS AND APPLICATIONS 
+
+ 1.7 
+The Forbes 2000 is a ranking of the world&apos;s biggest companies (measured on a composite of sales, profits, assets and market values) by the editors of Forbes magazine. In Table 1.5 we give the best performing U.S. companies in the food, drink and tobacco industry from the Forbes 2000 as listed on the Forbes magazine website on February 1, 2007. Consider the random numbers given in the random number table of Table 1.1 (a) on page 6. Starting in the upper left corner of Table 1.1 (a) and moving down the two leftmost columns, we see that the first three two-digit numbers obtained are
+
+ (K) 
+
+Starting with these three random numbers, and moving down the two leftmost columns of Table 1.1 (a) to find more two-digit random numbers, use Table 1.1 to randomly select five of these companies to be interviewed in detail about their business strategies. Hint: Note that we have numbered the companies in the Forbes list from 1 to 27. (K)    BestPerf 
+ 
+ 
+ Table 1.5    Forbes 2000 Best Performing Food, Drink, and Tobacco Companies    (K)    BestPerf 
+ (K) 
+ 
+ 
+ 1.8 
+ Table 1.6 gives the most admired company in each of 30 industries for 2006 as listed by Fortune magazine. Starting in the upper right corner of the random number table of Table 1.1 (a) (page 6) and moving down the two rightmost columns, we see that the first three two-digit numbers obtained are
+
+ (K) 
+
+Starting with these three random numbers, and moving down the two rightmost columns of Table 1.1 (a) to find more two-digit random numbers, use Table 1.1 to randomly select four of these industries for further study. (K)    MostAdm 
+ 
+ 
+ Table 1.6    The Most Admired Company in Each of 30 Industries for 2006    (K)    MostAdm 
+ (K) 
+ 
+ 
+ 1.9 
+ THE VIDEO GAME SATISFACTION RATING CASE   (K)    VideoGame 
+
+A company that produces and markets video game systems wishes to assess its customer&apos;s level of satisfaction with a relatively new model, the XYZ-Box. In the six months since the introduction of the model, the company has received 73,219 warranty registrations from purchasers. The company will randomly select 65 of these registrations and will conduct telephone interviews with the purchasers. Specifically, each purchaser will be asked to state his or her level of agreement with each of the seven statements listed on the survey instrument given in Figure 1.5 . Here, the level of agreement for each statement is measured on a 7-point Likert scale. Purchaser satisfaction will be measured by adding the purchaser&apos;s responses to the seven statements. It follows that for each consumer the minimum composite score possible is 7 and the maximum is 49. Furthermore, experience has shown that a purchaser of a video game system is“very satisfied”if his or her composite score is at least 42.
+
+ Assume that the warranty registrations are numbered from 1 to 73,219 in a computer. Starting in the upper left corner of Table 1.1 (a) and moving down the five leftmost columns, we see that the first three five-digit numbers obtained are
+ (K) 
+
+Starting with these three random numbers and moving down the five leftmost columns of Table 1.1 (a) to find more five-digit random numbers, use Table 1.1 to randomly select the numbers of the first 10 warranty registrations to be included in the sample of 65 registrations.
+ Suppose that when the 65 customers are interviewed, their composite scores are obtained and are as given in Table 1.7 . Using the data, estimate limits between which most of the 73,219 composite scores would fall. Also, estimate the proportion of the 73,219 composite scores that would be at least 42. 
+ 
+ 
+ Figure 1.5    The Video Game Satisfaction Survey Instrument 
+ (K) 
+ 
+ 
+ 1.10 
+ THE BANK CUSTOMER WAITING TIME CASE   (K)    WaitTime 
+
+A bank manager has developed a new system to reduce the time customers spend waiting to be served by tellers during peak business hours. Typical waiting times during peak business hours under the current system are roughly 9 to 10 minutes. The bank manager hopes that the new system will lower typical waiting times to less than six minutes.
+
+A 30-day trial of the new system is conducted. During the trial run, every 150th customer who arrives during peak business hours is selected until a systematic sample of 100 customers is obtained. Each of the sampled customers is observed, and the time spent waiting for teller service is recorded. The 100 waiting times obtained are given in Table 1.8 . Moreover, the bank manager feels that this systematic sample is as representative as a random sample of waiting times would be. Using the data, estimate limits between which the waiting times of most of the customers arriving during peak business hours would be. Also, estimate the proportion of waiting times of customers arriving during peak business hours that are less than six minutes.
+ 
+ 
+ Table 1.7    Composite Scores for the Video Game Satisfaction Rating Case    (K)    VideoGame 
+ (K) 
+ 
+ 
+
+ 
+ 
+ Table 1.8    Waiting Times (in Minutes) for the BankCustomer Waiting Time Case    (K)    WaitTime 
+ (K) 
+ 
+ 
+ 1.11 In an article titled“Turned Off”in the June 2–4, 1995, issue of USA Weekend , Dan Olmsted and Gigi Anders report on the results of a survey conducted by the magazine. Readers were invited to write in and answer several questions about sex and vulgarity on television. Olmsted and Anders summarized the survey results as follows: 
+Nearly all of the 65,000 readers responding to our write-in survey say TV is too vulgar, too violent, and too racy. TV execs call it reality.
+ 
+Some of the key survey results were as follows:
+
+ 
+ Survey Results 
+
+ l    96% are very or somewhat concerned about SEX on TV.
+
+ l    97% are very or somewhat concerned about VULGAR LANGUAGE on TV.
+
+ l    97% are very or somewhat concerned about VIOLENCE on TV.
+
+ Note: Because participants were not chosen at random, the results of the write-in survey may not be scientific. 
+ 
+
+ Note the disclaimer at the bottom of the survey results. In a write-in survey, anyone who wishes to participate may respond to the survey questions. Therefore, the sample is not random and we say that the survey is“not scientific.”What kind of people would be most likely to respond to a survey about TV sex and violence? Do the survey results agree with your answer? If a random sample of the general population were taken, do you think that its results would be the same? Why or why not? Similarly, for instance, do you think that 97 percent of the general population is“very or somewhat concerned about violence on TV”? Another result obtained in the write-in survey is as follows:
+ Should“V-chips”be installed on TV sets so parents could easily block violent programming?
+ (K) 
+
+If you planned to start a business manufacturing and marketing such V-chips (at a reasonable price), would you expect 90 percent of the general population to desire a V-chip? Why or why not?
+ 
+ 
+ 1.12 
+ THE COFFEE TEMPERATURE CASE   (K)    Coffee 
+
+ 
+According to the website of the Association of Trial Lawyers of America, 12 Stella Liebeck of Albuquerque, New Mexico, was severely burned by McDonald&apos;s coffee in February 1992. Liebeck, who received third-degree burns over 6 percent of her body, was awarded$160,000 in compensatory damages and$480,000 in punitive damages. A postverdict investigation revealed that the coffee temperature at the local Albuquerque McDonald&apos;s had dropped from about 185°F before the trial to about 158°after the trial.
+
+This case concerns coffee temperatures at a fast-food restaurant. Because of the possibility of future litigation and to possibly improve the coffee&apos;s taste, the restaurant wishes to study and monitor the temperature of the coffee it serves. To do this, the restaurant personnel measure the temperature of the coffee being dispensed (in degrees Fahrenheit) at half-hour intervals from 10 A.M. to 9:30 P.M. on a given day. The following table gives the 24 temperature measurements obtained in the time order that they were observed. Here, time equals 1 at 10 A.M. and 24 at 9:30 P.M.
+ 
+ (K) 
+ 
+
+ (K) 
+
+ Figure 1.6 gives the MINITAB output of a runs plot of the coffee temperatures.
+
+ Do the 24 coffee temperatures appear to be in statistical control? Explain. Estimate limits between which most of the temperatures of the restaurant&apos;s coffee would fall. 
+ 
+ 
+ Figure 1.6    MINITAB Runs Plots of Coffee Temperatures (for Exercise 1.12) 
+ (K) 
+ 
+ 
+ 1.13 
+ THE TRASH BAG CASE 13   (K)    TrashBag 
+
+A company that produces and markets trash bags has developed an improved 30-gallon bag. The new bag is produced using a specially formulated plastic that is both stronger and more biodegradable than previously used plastics, and the company wishes to evaluate the strength of this bag. The breaking strength of a trash bag is considered to be the amount (in pounds) of a representative trash mix that when loaded into a bag suspended in the air will cause the bag to sustain significant damage (such as ripping or tearing). The company has decided to carry out a 40-hour pilot production run of the new bags. Each hour, at a randomly selected time during the hour, a bag is taken off the production line. The bag is then subjected to a breaking strength test . The 40 breaking strengths obtained during the pilot production run are given in Table 1.9 , and an Excel runs plot of these breaking strengths is given in Figure 1.7 .
+
+ Do the 40 breaking strengths appear to be in statistical control? Explain. Estimate limits between which most of the breaking strengths of all trash bags would fall. 
+ 
+ 
+ Table 1.9    Trash Bag Breaking Strengths    (K)    TrashBag 
+ (K) 
+ 
+ 
+
+ 
+ 
+ Figure 1.7    Excel Runs Plot of Breaking Strengths (for Exercise 1.13) 
+ (K) 
+ 
+ 
+ 1.14 
+ THE BANK CUSTOMER WAITING TIME CASE   (K)    WaitTime 
+
+Recall that every 150th customer arriving during peak business hours was sampled until a systematic sample of 100 customers was obtained. This systematic sampling procedure is equivalent to sampling from a process. Figure 1.8 shows a MegaStat runs plot of the 100 waiting times in Table 1.8 . Does the process appear to be in statistical control? Explain.
+ 
+ 
+ 
+ Figure 1.8    MegaStat Runs Plot of Waiting Times (for Exercise 1.14) 
+ (K) 
+ 
+ 
+ 
+
+ 2 Actually, there are several different kinds of random samples. The type we will define is sometimes called a simple random sample . For brevity&apos;s sake, however, we will use the term random sample . 
+
+ 3 The authors would like to thank Mr. Doug L. Stevens, Vice President of Sales and Marketing, at MobileSense Inc., Westlake Village, California, for his help in developing this case. 
+
+ 4 This case was motivated by an example in the book Essentials of Marketing Research by W. R. Dillon, T. J. Madden, and N. H. Firtle (Burr Ridge, IL: Richard D. Irwin, 1993). The authors also wish to thank Professor L. Unger of the Department of Marketing at Miami University for helpful discussions concerning how this type of marketing study would be carried out. 
+
+ 5 Theresa Howard,“Coke says earnings will come up short,” USA Today , September 16, 2004, p. 801. 
+
+ 6 This is a commonly used research design. For example, see the Burke Marketing Research website at http://burke.com/about/inc_background.htm , Burke Marketing Research, March 26, 2005. 
+
+ 7 World Wide Web, http://www.fueleconomy.gov/ 
+
+ 8 World Wide Web, http://www.fueleconomy.gov/ 
+
+ 9 The“26 miles per gallon (mpg) or less”figure relates to midsize cars with an automatic transmission and at least a 4 cylinder, 2.4 liter engine (such cars are the most popular midsize models). Therefore, when we refer to a midsize car with an automatic transmission in future discussions, we are assuming that the midsize car also has at least a 4 cylinder, 2.4 liter engine. 
+
+ 10 The authors wish to thank Jeff Alson of the EPA for this information. 
+
+ 11 Since the EPA estimates that 55 percent of all driving is city driving, it calculates combined mileage by adding 55 percent of the city mileage test result to 45 percent of the highway mileage test result. 
+
+ 12 http://www.atla.org , Association of Trial Lawyers of America, June 16, 2006. 
+
+ 13 This case is based on conversations by the authors with several employees working for a leading producer of trash bags. For purposes of confidentiality, we have withheld the company&apos;s name. 
+ 
+
+
+
+ 
+
+
+ To learn more about the book this website supports, please visit its Information Center . 2009 McGraw-Hill Higher Education
+Any use is subject to the Terms of Use and Privacy Notice .
+ McGraw-Hill Higher Education is one of the many fine businesses of The McGraw-Hill Companies . 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Log In You must be a registered user to view the premium content in this website.
+
+If you already have a username and password, enter it below. If your textbook
+ came with a card and this is your first visit to this site, you can use your registration code to
+ 
+ register. Username: Password: Forgot your password? 
+ 
+ 
+ 
+ Site Preferences ( Log out ) Send mail as: TA email: Other email: &quot;Floating&quot; navigation? Drawer speed: 
+ 
+ 
+ 
+ Notes (What is this?)      Add a note 1. (optional) Enter a note here:
+ 
+ 2. (optional) Select some text on the page (or do this before you open the &quot;Notes&quot; drawer). 3. Highlighter Color: None Yellow Red Green Blue 4. 
+ 
+ 
+ 
+ 
+ Search Search for: Search in: This site The web (PowerSearch) 
+ 
+ 
+ Home &gt; Chapter 1 &gt; 1.2 Selecting a Random Sample 
+ 
+ 
+ 
+ Course-wide Content Appendix A 
+ Appendix B 
+ Appendix C 
+ Appendix D 
+ Appendix E 
+ 
+ 
+ Choose one... Chapter 1 Chapter 2 Chapter 3 Chapter 4 Chapter 5 Chapter 6 Chapter 7 Chapter 8 Chapter 9 Chapter 10 Chapter 11 Chapter 12 Chapter 13 Chapter 14 Chapter 15 Chapter 16 Chapter 17 Chapter 18 Chapter 19 
+ 
+ 
+ 
+ More Resources Student PowerPoint Pre... 
+ eBook Chapter Opener 
+ 1.1 Populations and Sa... 
+ 1.2 Selecting a Ran... 
+ 1.3 Ratio, Interval, O... 
+ 1.4 An Introduction to... 
+ 1.5 More About Data Ac... 
+ Chapter Summary 
+ Glossary of Terms 
+ Supplementary Exercises 
+ MINITAB, Excel, and Me... 
+ Appendix 1.1 Getting S... 
+ Appendix 1.2 Getting S... 
+ Appendix 1.3 Getting S... 
+ Appendix 1.4 Introduct... 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Course-wide Content Appendix A 
+ Appendix B 
+ Appendix C 
+ Appendix D 
+ Appendix E 
+ 
+ 
+ Choose one... Chapter 1 Chapter 2 Chapter 3 Chapter 4 Chapter 5 Chapter 6 Chapter 7 Chapter 8 Chapter 9 Chapter 10 Chapter 11 Chapter 12 Chapter 13 Chapter 14 Chapter 15 Chapter 16 Chapter 17 Chapter 18 Chapter 19 
+ 
+ 
+ 
+
+ 
+ More Resources Student PowerPoint Pre... 
+ eBook Chapter Opener 
+ 1.1 Populations and Sa... 
+ 1.2 Selecting a Ran... 
+ 1.3 Ratio, Interval, O... 
+ 1.4 An Introduction to... 
+ 1.5 More About Data Ac... 
+ Chapter Summary 
+ Glossary of Terms 
+ Supplementary Exercises 
+ MINITAB, Excel, and Me... 
+ Appendix 1.1 Getting S... 
+ Appendix 1.2 Getting S... 
+ Appendix 1.3 Getting S... 
+ Appendix 1.4 Introduct...
+	</body>
+</document>

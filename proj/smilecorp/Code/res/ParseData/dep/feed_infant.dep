@@ -1,0 +1,634 @@
+prt(pick-1, up-2)
+dobj(pick-1, baby-3)
+
+dobj(place-1, baby-2)
+nn(chair-5, baby-4)
+prep_in(place-1, chair-5)
+
+nn(jar-4, baby-2)
+nn(jar-4, food-3)
+dobj(find-1, jar-4)
+
+nn(jar-4, baby-2)
+nn(jar-4, food-3)
+dobj(open-1, jar-4)
+
+dobj(find-1, spoon-2)
+
+dobj(place-1, spoon-2)
+prep_in(place-1, jar-4)
+dep(place-1, fill-5)
+prep_with(fill-5, food-7)
+
+nn(spoon-2, place-1)
+nsubj(mouth-6, spoon-2)
+prep_in(spoon-2, baby-4)
+cop(mouth-6, s-5)
+
+nn(food-3, baby-2)
+dobj(find-1, food-3)
+
+nn(food-3, baby-2)
+dobj(open-1, food-3)
+
+det(spoon-4, a-2)
+nn(spoon-4, baby-3)
+dobj(obtain-1, spoon-4)
+
+nsubj(feed-2, hand-1)
+det(baby-4, the-3)
+iobj(feed-2, baby-4)
+det(food-7, the-5)
+nn(food-7, baby-6)
+dobj(feed-2, food-7)
+
+dobj(put-1, infant-2)
+prep_on(put-1, seat-4)
+
+dobj(get-1, food-2)
+
+dobj(give-1, food-2)
+prep_to(give-1, infant-4)
+
+csubj(mouth-4, wipe-1)
+dobj(wipe-1, infant-2)
+cop(mouth-4, s-3)
+
+dobj(warm-1, milk-2)
+
+dobj(put-1, milk-2)
+prep_into(put-1, bottle-4)
+
+dobj(give-1, bottle-2)
+prep_to(give-1, child-4)
+
+prt(warm-1, up-2)
+dobj(warm-1, food-3)
+
+dobj(give-1, food-2)
+prep_to(give-1, infant-4)
+
+prt(warm-1, up-2)
+dobj(warm-1, milk-3)
+
+dobj(pour-1, milk-2)
+prep_in(pour-1, bottle-4)
+
+dobj(hold-1, infant-2)
+poss(arms-5, your-4)
+prep_in(hold-1, arms-5)
+
+dobj(tilt-1, bottle-2)
+advmod(tilt-1, so-3)
+complm(eat-7, that-4)
+nsubj(eat-7, infant-5)
+aux(eat-7, can-6)
+ccomp(tilt-1, eat-7)
+prep_from(eat-7, it-9)
+
+prt(warm-1, up-2)
+dobj(warm-1, milk-3)
+
+dobj(put-1, milk-2)
+nn(bottle-5, milk-4)
+prep_into(put-1, bottle-5)
+
+dobj(give-1, bottle-2)
+prep_to(give-1, infant-4)
+
+dobj(tilt-1, bottle-2)
+advmod(tilt-1, so-3)
+complm(suck-7, that-4)
+nsubj(suck-7, infant-5)
+aux(suck-7, can-6)
+ccomp(tilt-1, suck-7)
+prep_on(suck-7, it-9)
+
+csubj(food-4, get-1)
+dobj(get-1, infant-2)
+cop(food-4, s-3)
+
+det(spoon-4, an-2)
+nn(spoon-4, infant-3)
+dobj(get-1, spoon-4)
+
+det(infant-4, the-3)
+prep_to(move-1, infant-4)
+
+det(infant-3, the-2)
+nsubj(food-5, infant-3)
+cop(food-5, s-4)
+ccomp(feed-1, food-5)
+prep_to(food-5, it-7)
+det(spoon-11, the-9)
+nn(spoon-11, infant-10)
+prep_with(food-5, spoon-11)
+
+det(infant-4, a-2)
+amod(infant-4, hungry-3)
+dobj(locate-1, infant-4)
+
+nn(formula-3, baby-2)
+dobj(locate-1, formula-3)
+
+nn(formula-3, baby-2)
+dobj(prepare-1, formula-3)
+prep_according_to(prepare-1, directions-6)
+
+dobj(place-1, forumla-2)
+det(bottle-6, a-4)
+nn(bottle-6, baby-5)
+prep_in(place-1, bottle-6)
+
+dobj(utilize-1, bottle-2)
+aux(feed-4, to-3)
+xcomp(utilize-1, feed-4)
+dobj(feed-4, formula-5)
+prep_to(feed-4, infant-7)
+
+nn(formula-3, baby-2)
+dobj(locate-1, formula-3)
+
+advmod(prepare-2, properly-1)
+nn(formula-4, baby-3)
+dobj(prepare-2, formula-4)
+prep_according_to(prepare-2, directions-7)
+
+nn(formula-3, baby-2)
+dobj(heat-1, formula-3)
+amod(temperature-6, proper-5)
+prep_to(heat-1, temperature-6)
+
+dobj(serve-1, formula-2)
+prep_to(serve-1, infant-4)
+
+det(bottle-3, a-2)
+dobj(get-1, bottle-3)
+prep_of(bottle-3, milk-5)
+
+det(bottle-3, the-2)
+dobj(heat-1, bottle-3)
+prep_of(bottle-3, milk-5)
+det(stove-8, the-7)
+prep_on(heat-1, stove-8)
+
+det(milk-3, the-2)
+dobj(let-1, milk-3)
+dep(let-1, cool-4)
+prt(cool-4, off-5)
+det(minutes-9, a-7)
+amod(minutes-9, few-8)
+prep_for(cool-4, minutes-9)
+
+csubj(mouth-11, put-1)
+det(nipple-3, the-2)
+dobj(put-1, nipple-3)
+det(bottle-6, the-5)
+prep_of(nipple-3, bottle-6)
+det(infant-9, the-8)
+prep_in(put-1, infant-9)
+cop(mouth-11, s-10)
+
+det(infant-4, the-3)
+prep_for(wait-1, infant-4)
+aux(have-6, to-5)
+xcomp(wait-1, have-6)
+amod(milk-10, drunk-7)
+quantmod(milk-10, all-8)
+quantmod(milk-10, the-9)
+dobj(have-6, milk-10)
+
+det(bottle-3, a-2)
+dobj(get-1, bottle-3)
+
+det(bottle-3, the-2)
+dobj(fill-1, bottle-3)
+prep_with(fill-1, milk-5)
+
+det(bottle-3, the-2)
+dobj(warm-1, bottle-3)
+
+det(bottle-3, the-2)
+dobj(determine-1, bottle-3)
+aux(temperature-8, to-4)
+cop(temperature-8, be-5)
+det(temperature-8, a-6)
+amod(temperature-8, safe-7)
+infmod(bottle-3, temperature-8)
+
+det(bottle-3, the-2)
+dobj(give-1, bottle-3)
+det(infant-6, the-5)
+prep_to(give-1, infant-6)
+
+dobj(obtain-1, food-2)
+det(infant-5, the-4)
+prep_for(obtain-1, infant-5)
+
+dobj(prepare-1, food-2)
+det(infant-5, the-4)
+prep_for(prepare-1, infant-5)
+
+dobj(give-1, food-2)
+prep_to(give-1, infant-4)
+
+dobj(locate-1, infant-2)
+
+dobj(locate-1, food-2)
+
+dobj(get-1, food-2)
+
+nn(location-4, infant-3)
+prep_to(bring-1, location-4)
+
+nn(dispenser-4, food-2)
+nn(dispenser-4, in\/on-3)
+dobj(put-1, dispenser-4)
+
+nn(mouth-4, infants-3)
+prep_in(place-1, mouth-4)
+
+dobj(put-1, infant-2)
+amod(chair-5, high-4)
+prep_in(put-1, chair-5)
+
+dobj(put-1, bib-2)
+prep_on(put-1, infant-4)
+
+dobj(open-1, food-2)
+
+dobj(feed-1, infant-2)
+prep_with(feed-1, spoon-4)
+
+dobj(heat-1, water-2)
+
+prep_in(mix-1, milk-3)
+
+dobj(close-1, bottle-2)
+
+dobj(give-1, bottle-2)
+prep_to(give-1, baby-4)
+
+det(infant-3, the-2)
+dobj(hold-1, infant-3)
+
+poss(head-3, his-2)
+dobj(elevate-1, head-3)
+
+dobj(put-1, nipple-2)
+det(side-5, the-4)
+prep_on(put-1, side-5)
+poss(mouth-8, his-7)
+prep_of(side-5, mouth-8)
+
+dobj(guide-1, it-2)
+poss(mouth-5, his-4)
+prep_to(guide-1, mouth-5)
+
+det(nipple-4, the-2)
+nn(nipple-4, bottle-3)
+dobj(put-1, nipple-4)
+det(side-10, the-6)
+amod(side-10, left-7)
+conj_or(left-7, right-9)
+amod(side-10, right-9)
+prep_on(put-1, side-10)
+det(mouth-13, the-12)
+prep_of(side-10, mouth-13)
+
+amod(bit-3, little-2)
+dobj(push-1, bit-3)
+aux(guide-5, to-4)
+infmod(bit-3, guide-5)
+det(baby-7, the-6)
+dobj(guide-5, baby-7)
+prepc_for(guide-5, sucking-9)
+
+det(head-3, the-2)
+dobj(elevate-1, head-3)
+det(baby-6, the-5)
+prep_of(head-3, baby-6)
+nsubj(feeding-8, while-7)
+rcmod(baby-6, feeding-8)
+
+det(baby-3, the-2)
+dobj(help-1, baby-3)
+dep(help-1, hold-4)
+poss(bottle-6, her-5)
+dobj(hold-4, bottle-6)
+
+det(banana-3, a-2)
+dobj(get-1, banana-3)
+
+det(banana-3, the-2)
+dobj(peel-1, banana-3)
+
+det(banana-3, the-2)
+dobj(put-1, banana-3)
+det(bowl-6, a-5)
+prep_in(put-1, bowl-6)
+
+det(banana-3, the-2)
+dobj(mash-1, banana-3)
+det(fork-6, a-5)
+prep_with(mash-1, fork-6)
+
+det(infant-3, the-2)
+dobj(hold-1, infant-3)
+
+nsubj(mashed-3, spoon-1)
+dep(mashed-3, the-2)
+dobj(mashed-3, banana-4)
+poss(mouth-7, its-6)
+prep_into(mashed-3, mouth-7)
+
+dobj(prepare-1, food-2)
+
+dobj(get-1, infant-2)
+
+dobj(feed-1, infant-2)
+
+nsubj(bottle-4, infant-2)
+cop(bottle-4, s-3)
+ccomp(fell-1, bottle-4)
+prep_with(bottle-4, formula-6)
+
+dobj(place-1, nipple-2)
+prep_on(place-1, bottle-4)
+
+dobj(warm-1, bottle-2)
+
+dobj(insert-1, nipple-2)
+prepc_into(insert-1, infant-4)
+iobj(infant-4, s-5)
+dobj(infant-4, mouth-6)
+
+mark(sucks-4, while-2)
+nsubj(sucks-4, infant-3)
+advcl(wait-1, sucks-4)
+dobj(sucks-4, bottle-5)
+
+dobj(remove-1, nipple-2)
+nn(mouth-5, infants-4)
+prep_from(remove-1, mouth-5)
+
+dobj(pat-1, infant-2)
+prep_on(pat-1, back-4)
+prep_to(pat-1, burp-6)
+
+dobj(put-1, baby-2)
+amod(chair-5, high-4)
+prep_into(put-1, chair-5)
+
+det(bib-4, a-3)
+prep_on(put-1, bib-4)
+
+dobj(choose-1, food-2)
+
+det(spoon-3, a-2)
+dobj(get-1, spoon-3)
+
+dobj(feed-1, baby-2)
+
+dobj(mix-1, formula-2)
+
+prep_into(pour-1, bottle-3)
+
+dobj(heat-1, formula-2)
+
+dobj(test-1, temperature-2)
+prep_of(temperature-2, formula-4)
+
+dobj(feed-1, baby-2)
+
+dobj(find-1, infant-2)
+
+dobj(find-1, food-2)
+
+dobj(place-1, food-2)
+nn(mouth-5, infants-4)
+prep_in(place-1, mouth-5)
+
+dobj(repeat-1, step-2)
+num(step-2, 3-3)
+mark(full-7, until-4)
+nsubj(full-7, infant-5)
+cop(full-7, is-6)
+advcl(repeat-1, full-7)
+
+dobj(burp-1, infant-2)
+
+dobj(return-1, infant-2)
+prep_to(return-1, crib-4)
+
+dobj(return-1, food-2)
+prep_to(return-1, shelf-4)
+
+dobj(hold-1, infant-2)
+nn(hold-5, cradle-4)
+prep_in(hold-1, hold-5)
+
+dobj(unclip-1, bra-2)
+
+dobj(let-1, infant-2)
+dep(let-1, latch-3)
+prep_onto(latch-3, breast-5)
+
+nn(nurse-3, infant-2)
+dobj(let-1, nurse-3)
+prep_until(let-1, full-5)
+
+dobj(unlatch-1, baby-2)
+prep_from(unlatch-1, breast-4)
+
+dobj(take-1, baby-2)
+prep_in(take-1, arms-4)
+partmod(arms-4, suppoting-5)
+poss(head-7, its-6)
+dobj(suppoting-5, head-7)
+
+csubj(breast-10, pull-1)
+prt(pull-1, down-2)
+dobj(pull-1, shirt-3)
+dobj(pull-1, brassier-5)
+conj_and(shirt-3, brassier-5)
+aux(expose-7, to-6)
+xcomp(pull-1, expose-7)
+dobj(expose-7, one-8)
+cop(breast-10, s-9)
+
+nn(nipple-2, place-1)
+nsubj(mouth-6, nipple-2)
+prep_into(nipple-2, infant-4)
+cop(mouth-6, s-5)
+
+complm(bite-6, that-2)
+nsubj(bite-6, baby-3)
+aux(bite-6, does-4)
+neg(bite-6, not-5)
+ccomp(hope-1, bite-6)
+
+dobj(allow-1, infant-2)
+aux(suckle-4, to-3)
+xcomp(allow-1, suckle-4)
+
+prep_for(wait-1, infant-3)
+aux(full-6, to-4)
+cop(full-6, be-5)
+xcomp(wait-1, full-6)
+
+dobj(put-1, baby-2)
+amod(chair-5, high-4)
+prep_in(put-1, chair-5)
+
+dobj(prepare-1, food-2)
+
+dobj(tie-1, bib-2)
+prt(tie-1, on-3)
+
+dobj(feed-1, baby-2)
+
+dobj(clean-1, baby-2)
+prt(clean-1, up-3)
+
+dobj(burp-1, baby-2)
+
+
+dobj(feed-1, infant-2)
+
+nn(jar-4, baby-2)
+nn(jar-4, food-3)
+dobj(open-1, jar-4)
+
+dobj(place-1, food-2)
+amod(spoon-5, small-4)
+prep_on(place-1, spoon-5)
+
+nn(spoon-2, place-1)
+nsubj(mouth-6, spoon-2)
+prep_in(spoon-2, infant-4)
+cop(mouth-6, s-5)
+
+mark(finished-3, until-2)
+advcl(repeat-1, finished-3)
+
+dobj(open-1, jar-2)
+
+dobj(get-1, sppon-2)
+
+dobj(put-1, food-2)
+prep_on(put-1, spoon-4)
+
+nn(mouth-4, kids-3)
+prep_in(put-1, mouth-4)
+
+
+prt(blend-1, up-2)
+dobj(blend-1, food-3)
+
+dobj(put-1, food-2)
+prep_in(put-1, bowl-4)
+
+dobj(get-1, spoon-2)
+
+dobj(scoop-1, food-2)
+prep_with(scoop-1, spoon-4)
+
+dobj(put-1, spoon-2)
+prepc_in(put-1, baby-4)
+iobj(baby-4, s-5)
+dobj(baby-4, mouth-6)
+
+dobj(fill-1, bottle-2)
+
+dobj(warm-1, bottle-2)
+
+dobj(test-1, bottle-2)
+
+dobj(give-1, bottle-2)
+prep_to(give-1, infant-4)
+
+dep(ready-4, get-1)
+det(infant-3, the-2)
+dobj(ready-4, infant-3)
+prepc_by(ready-4, putting-6)
+dobj(putting-6, him-7)
+det(highchair-10, a-9)
+prep_in(putting-6, highchair-10)
+
+det(bib-3, a-2)
+dobj(put-1, bib-3)
+prep_on(put-1, him-5)
+
+poss(food-3, his-2)
+dobj(heat-1, food-3)
+prt(heat-1, up-4)
+
+acomp(make-1, sure-2)
+nsubj(hot-7, it-3)
+nsubj(cold-9, it-3)
+cop(hot-7, is-4)
+neg(hot-7, not-5)
+advmod(hot-7, too-6)
+ccomp(sure-2, hot-7)
+ccomp(sure-2, cold-9)
+conj_or(hot-7, cold-9)
+
+det(plate-3, a-2)
+dobj(get-1, plate-3)
+dobj(get-1, spoon-5)
+conj_and(plate-3, spoon-5)
+
+iobj(feed-1, him-2)
+amod(bites-4, little-3)
+dobj(feed-1, bites-4)
+
+dobj(clean-1, him-2)
+advmod(done-4, when-3)
+dep(clean-1, done-4)
+
+dobj(heat-1, milk-2)
+
+amod(milk-3, hot-2)
+dobj(pour-1, milk-3)
+nn(bottle-6, baby-5)
+prep_in(pour-1, bottle-6)
+
+prep_to(go-1, baby-3)
+
+nn(drink-3, baby-2)
+dobj(make-1, drink-3)
+prep_from(make-1, bottle-5)
+
+det(bottle-3, the-2)
+dobj(warm-1, bottle-3)
+
+det(blanket-4, a-2)
+amod(blanket-4, receiving-3)
+dobj(put-1, blanket-4)
+poss(shoulder-7, your-6)
+prep_over(put-1, shoulder-7)
+
+dobj(place-1, bottle-2)
+amod(mouth-5, childs-4)
+prep_in(place-1, mouth-5)
+
+dobj(feed-1, baby-2)
+
+dobj(get-1, jar-2)
+nn(food-5, baby-4)
+prep_of(jar-2, food-5)
+
+dobj(open-1, jar-2)
+
+dobj(get-1, spoon-2)
+
+prt(scoop-1, out-2)
+det(food-4, some-3)
+dobj(scoop-1, food-4)
+
+csubj(mouth-6, stick-1)
+dobj(stick-1, spoon-2)
+prep_in(stick-1, baby-4)
+cop(mouth-6, s-5)
+

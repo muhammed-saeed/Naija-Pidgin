@@ -1,0 +1,1254 @@
+id	score	v	d-obj	p	p-title
+000001	0.004185570073003028	take	new plate	replacement food	food
+000002	0.0015590948695999817	take	new plate	returns	food
+000003	0.0013539484551640894	take	new plate	issue	food
+000004	0.01895527837229725	take	new plate	waiter	food
+000005	0.014807345946740292	take	new plate	server	food
+000006	0.0055522868315346285	take	new plate	wait staff of problem	food
+000007	0.0	take	new plate	wait for new order	food
+000008	0.0005450744280255425	take	new plate	you	food
+000009	0.001104927715763387	take	new plate	table	food
+000010	0.002467890991123382	take	new plate	flag	food
+000011	0.008371140146006055	take	new plate	new dish	food
+000012	0.002092785036501514	take	new plate	waiter problem	food
+000013	0.0075793175244911375	take	new plate	problem	food
+000014	0.002092785036501514	take	new plate	good tip	food
+000015	0.002092785036501514	take	new plate	higher tip	food
+000016	0.002092785036501514	take	new plate	chef complaint	food
+000017	0.0015590948695999817	take	new plate	reason	food
+000018	0.0018175922430468004	take	new plate	him	food
+000019	0.004061845365492268	take	new plate	waitress	food
+000020	0.016656860494603888	take	new plate	new plate of food	food
+000021	0.0031181897391999633	take	new plate	waitstaff	food
+000022	0.0062904521328369205	take	new plate	server s attention	food
+000023	0.002092785036501514	take	new plate	waitress attention	food
+000024	0.004185570073003028	take	new plate	server s	food
+000025	0.002092785036501514	take	new plate	replacement meal	food
+000026	0.002092785036501514	take	new plate	new meal	food
+000027	0.00779547434799991	take	new plate	chef	food
+000028	0.0055522868315346285	take	new plate	chef complaint of food	food
+000029	0.004185570073003028	show	bad parts	replacement food	food
+000030	0.0015590948695999817	show	bad parts	returns	food
+000031	0.0013539484551640894	show	bad parts	issue	food
+000032	0.01895527837229725	show	bad parts	waiter	food
+000033	0.014807345946740292	show	bad parts	server	food
+000034	0.0055522868315346285	show	bad parts	wait staff of problem	food
+000035	0.0	show	bad parts	wait for new order	food
+000036	0.0005450744280255425	show	bad parts	you	food
+000037	0.001104927715763387	show	bad parts	table	food
+000038	0.002467890991123382	show	bad parts	flag	food
+000039	0.008371140146006055	show	bad parts	new dish	food
+000040	0.012556710219009086	show	bad parts	new plate	food
+000041	0.002092785036501514	show	bad parts	waiter problem	food
+000042	0.0075793175244911375	show	bad parts	problem	food
+000043	0.002092785036501514	show	bad parts	good tip	food
+000044	0.002092785036501514	show	bad parts	higher tip	food
+000045	0.002092785036501514	show	bad parts	chef complaint	food
+000046	0.0015590948695999817	show	bad parts	reason	food
+000047	0.0018175922430468004	show	bad parts	him	food
+000048	0.004061845365492268	show	bad parts	waitress	food
+000049	0.016656860494603888	show	bad parts	new plate of food	food
+000050	0.0031181897391999633	show	bad parts	waitstaff	food
+000051	0.0062904521328369205	show	bad parts	server s attention	food
+000052	0.002092785036501514	show	bad parts	waitress attention	food
+000053	0.004185570073003028	show	bad parts	server s	food
+000054	0.002092785036501514	show	bad parts	replacement meal	food
+000055	0.002092785036501514	show	bad parts	new meal	food
+000056	0.00779547434799991	show	bad parts	chef	food
+000057	0.0055522868315346285	show	bad parts	chef complaint of food	food
+000058	0.012556710219009084	explain	problem	replacement food	food
+000059	0.004677284608799946	explain	problem	returns	food
+000060	0.004061845365492268	explain	problem	issue	food
+000061	0.05686583511689176	explain	problem	waiter	food
+000062	0.04442203784022088	explain	problem	server	food
+000063	0.016656860494603885	explain	problem	wait staff of problem	food
+000064	0.0	explain	problem	wait for new order	food
+000065	0.0016352232840766276	explain	problem	you	food
+000066	0.0033147831472901614	explain	problem	table	food
+000067	0.007403672973370146	explain	problem	flag	food
+000068	0.025113420438018168	explain	problem	new dish	food
+000069	0.037670130657027255	explain	problem	new plate	food
+000070	0.006278355109504542	explain	problem	waiter problem	food
+000071	0.006278355109504542	explain	problem	good tip	food
+000072	0.006278355109504542	explain	problem	higher tip	food
+000073	0.006278355109504542	explain	problem	chef complaint	food
+000074	0.004677284608799946	explain	problem	reason	food
+000075	0.005452776729140401	explain	problem	him	food
+000076	0.012185536096476804	explain	problem	waitress	food
+000077	0.049970581483811664	explain	problem	new plate of food	food
+000078	0.009354569217599891	explain	problem	waitstaff	food
+000079	0.01887135639851076	explain	problem	server s attention	food
+000080	0.006278355109504542	explain	problem	waitress attention	food
+000081	0.012556710219009084	explain	problem	server s	food
+000082	0.006278355109504542	explain	problem	replacement meal	food
+000083	0.006278355109504542	explain	problem	new meal	food
+000084	0.02338642304399973	explain	problem	chef	food
+000085	0.016656860494603885	explain	problem	chef complaint of food	food
+000086	0.003084091632416467	bring	food	replacement food	food
+000087	0.0011488020407281968	bring	food	returns	food
+000088	0.0009976421439526451	bring	food	issue	food
+000089	0.013966990015337032	bring	food	waiter	food
+000090	0.010910631272712797	bring	food	server	food
+000091	0.004091141961368783	bring	food	wait staff of problem	food
+000092	0.0	bring	food	wait for new order	food
+000093	0.0004016321440562229	bring	food	you	food
+000094	0.0008141539296141745	bring	food	table	food
+000095	0.0018184385454521328	bring	food	flag	food
+000096	0.006168183264832934	bring	food	new dish	food
+000097	0.009252274897249401	bring	food	new plate	food
+000098	0.0015420458162082335	bring	food	waiter problem	food
+000099	0.005584737407093387	bring	food	problem	food
+000100	0.0015420458162082335	bring	food	good tip	food
+000101	0.0015420458162082335	bring	food	higher tip	food
+000102	0.0015420458162082335	bring	food	chef complaint	food
+000103	0.0011488020407281968	bring	food	reason	food
+000104	0.001339273009447872	bring	food	him	food
+000105	0.002992926431857935	bring	food	waitress	food
+000106	0.01227342588410635	bring	food	new plate of food	food
+000107	0.0022976040814563937	bring	food	waitstaff	food
+000108	0.004635051008255962	bring	food	server s attention	food
+000109	0.0015420458162082335	bring	food	waitress attention	food
+000110	0.003084091632416467	bring	food	server s	food
+000111	0.0015420458162082335	bring	food	replacement meal	food
+000112	0.0015420458162082335	bring	food	new meal	food
+000113	0.005744010203640985	bring	food	chef	food
+000114	0.004091141961368783	bring	food	chef complaint of food	food
+000115	0.004185570073003028	hand	dish	replacement food	food
+000116	0.0015590948695999817	hand	dish	returns	food
+000117	0.0013539484551640894	hand	dish	issue	food
+000118	0.01895527837229725	hand	dish	waiter	food
+000119	0.014807345946740292	hand	dish	server	food
+000120	0.0055522868315346285	hand	dish	wait staff of problem	food
+000121	0.0	hand	dish	wait for new order	food
+000122	0.0005450744280255425	hand	dish	you	food
+000123	0.001104927715763387	hand	dish	table	food
+000124	0.002467890991123382	hand	dish	flag	food
+000125	0.008371140146006055	hand	dish	new dish	food
+000126	0.012556710219009086	hand	dish	new plate	food
+000127	0.002092785036501514	hand	dish	waiter problem	food
+000128	0.0075793175244911375	hand	dish	problem	food
+000129	0.002092785036501514	hand	dish	good tip	food
+000130	0.002092785036501514	hand	dish	higher tip	food
+000131	0.002092785036501514	hand	dish	chef complaint	food
+000132	0.0015590948695999817	hand	dish	reason	food
+000133	0.0018175922430468004	hand	dish	him	food
+000134	0.004061845365492268	hand	dish	waitress	food
+000135	0.016656860494603888	hand	dish	new plate of food	food
+000136	0.0031181897391999633	hand	dish	waitstaff	food
+000137	0.0062904521328369205	hand	dish	server s attention	food
+000138	0.002092785036501514	hand	dish	waitress attention	food
+000139	0.004185570073003028	hand	dish	server s	food
+000140	0.002092785036501514	hand	dish	replacement meal	food
+000141	0.002092785036501514	hand	dish	new meal	food
+000142	0.00779547434799991	hand	dish	chef	food
+000143	0.0055522868315346285	hand	dish	chef complaint of food	food
+000144	0.004185570073003028	dislike	food	replacement food	food
+000145	0.0015590948695999817	dislike	food	returns	food
+000146	0.0013539484551640894	dislike	food	issue	food
+000147	0.01895527837229725	dislike	food	waiter	food
+000148	0.014807345946740292	dislike	food	server	food
+000149	0.0055522868315346285	dislike	food	wait staff of problem	food
+000150	0.0	dislike	food	wait for new order	food
+000151	0.0005450744280255425	dislike	food	you	food
+000152	0.001104927715763387	dislike	food	table	food
+000153	0.002467890991123382	dislike	food	flag	food
+000154	0.008371140146006055	dislike	food	new dish	food
+000155	0.012556710219009086	dislike	food	new plate	food
+000156	0.002092785036501514	dislike	food	waiter problem	food
+000157	0.0075793175244911375	dislike	food	problem	food
+000158	0.002092785036501514	dislike	food	good tip	food
+000159	0.002092785036501514	dislike	food	higher tip	food
+000160	0.002092785036501514	dislike	food	chef complaint	food
+000161	0.0015590948695999817	dislike	food	reason	food
+000162	0.0018175922430468004	dislike	food	him	food
+000163	0.004061845365492268	dislike	food	waitress	food
+000164	0.016656860494603888	dislike	food	new plate of food	food
+000165	0.0031181897391999633	dislike	food	waitstaff	food
+000166	0.0062904521328369205	dislike	food	server s attention	food
+000167	0.002092785036501514	dislike	food	waitress attention	food
+000168	0.004185570073003028	dislike	food	server s	food
+000169	0.002092785036501514	dislike	food	replacement meal	food
+000170	0.002092785036501514	dislike	food	new meal	food
+000171	0.00779547434799991	dislike	food	chef	food
+000172	0.0055522868315346285	dislike	food	chef complaint of food	food
+000173	0.004185570073003028	get	waitress attention	replacement food	food
+000174	0.0015590948695999817	get	waitress attention	returns	food
+000175	0.0013539484551640894	get	waitress attention	issue	food
+000176	0.01895527837229725	get	waitress attention	waiter	food
+000177	0.014807345946740292	get	waitress attention	server	food
+000178	0.0055522868315346285	get	waitress attention	wait staff of problem	food
+000179	0.0	get	waitress attention	wait for new order	food
+000180	0.0005450744280255425	get	waitress attention	you	food
+000181	0.001104927715763387	get	waitress attention	table	food
+000182	0.002467890991123382	get	waitress attention	flag	food
+000183	0.008371140146006055	get	waitress attention	new dish	food
+000184	0.012556710219009086	get	waitress attention	new plate	food
+000185	0.002092785036501514	get	waitress attention	waiter problem	food
+000186	0.0075793175244911375	get	waitress attention	problem	food
+000187	0.002092785036501514	get	waitress attention	good tip	food
+000188	0.002092785036501514	get	waitress attention	higher tip	food
+000189	0.002092785036501514	get	waitress attention	chef complaint	food
+000190	0.0015590948695999817	get	waitress attention	reason	food
+000191	0.0018175922430468004	get	waitress attention	him	food
+000192	0.004061845365492268	get	waitress attention	waitress	food
+000193	0.016656860494603888	get	waitress attention	new plate of food	food
+000194	0.0031181897391999633	get	waitress attention	waitstaff	food
+000195	0.0062904521328369205	get	waitress attention	server s attention	food
+000196	0.004185570073003028	get	waitress attention	server s	food
+000197	0.002092785036501514	get	waitress attention	replacement meal	food
+000198	0.002092785036501514	get	waitress attention	new meal	food
+000199	0.00779547434799991	get	waitress attention	chef	food
+000200	0.0055522868315346285	get	waitress attention	chef complaint of food	food
+000201	0.004185570073003028	notify	wait staff	replacement food	food
+000202	0.0015590948695999817	notify	wait staff	returns	food
+000203	0.0013539484551640894	notify	wait staff	issue	food
+000204	0.01895527837229725	notify	wait staff	waiter	food
+000205	0.014807345946740292	notify	wait staff	server	food
+000206	0.0055522868315346285	notify	wait staff	wait staff of problem	food
+000207	0.0	notify	wait staff	wait for new order	food
+000208	0.0005450744280255425	notify	wait staff	you	food
+000209	0.001104927715763387	notify	wait staff	table	food
+000210	0.002467890991123382	notify	wait staff	flag	food
+000211	0.008371140146006055	notify	wait staff	new dish	food
+000212	0.012556710219009086	notify	wait staff	new plate	food
+000213	0.002092785036501514	notify	wait staff	waiter problem	food
+000214	0.0075793175244911375	notify	wait staff	problem	food
+000215	0.002092785036501514	notify	wait staff	good tip	food
+000216	0.002092785036501514	notify	wait staff	higher tip	food
+000217	0.002092785036501514	notify	wait staff	chef complaint	food
+000218	0.0015590948695999817	notify	wait staff	reason	food
+000219	0.0018175922430468004	notify	wait staff	him	food
+000220	0.004061845365492268	notify	wait staff	waitress	food
+000221	0.016656860494603888	notify	wait staff	new plate of food	food
+000222	0.0031181897391999633	notify	wait staff	waitstaff	food
+000223	0.0062904521328369205	notify	wait staff	server s attention	food
+000224	0.002092785036501514	notify	wait staff	waitress attention	food
+000225	0.004185570073003028	notify	wait staff	server s	food
+000226	0.002092785036501514	notify	wait staff	replacement meal	food
+000227	0.002092785036501514	notify	wait staff	new meal	food
+000228	0.00779547434799991	notify	wait staff	chef	food
+000229	0.0055522868315346285	notify	wait staff	chef complaint of food	food
+000230	0.004185570073003028	request	replacement meal	replacement food	food
+000231	0.0015590948695999817	request	replacement meal	returns	food
+000232	0.0013539484551640894	request	replacement meal	issue	food
+000233	0.01895527837229725	request	replacement meal	waiter	food
+000234	0.014807345946740292	request	replacement meal	server	food
+000235	0.0055522868315346285	request	replacement meal	wait staff of problem	food
+000236	0.0	request	replacement meal	wait for new order	food
+000237	0.0005450744280255425	request	replacement meal	you	food
+000238	0.001104927715763387	request	replacement meal	table	food
+000239	0.002467890991123382	request	replacement meal	flag	food
+000240	0.008371140146006055	request	replacement meal	new dish	food
+000241	0.012556710219009086	request	replacement meal	new plate	food
+000242	0.002092785036501514	request	replacement meal	waiter problem	food
+000243	0.0075793175244911375	request	replacement meal	problem	food
+000244	0.002092785036501514	request	replacement meal	good tip	food
+000245	0.002092785036501514	request	replacement meal	higher tip	food
+000246	0.002092785036501514	request	replacement meal	chef complaint	food
+000247	0.0015590948695999817	request	replacement meal	reason	food
+000248	0.0018175922430468004	request	replacement meal	him	food
+000249	0.004061845365492268	request	replacement meal	waitress	food
+000250	0.016656860494603888	request	replacement meal	new plate of food	food
+000251	0.0031181897391999633	request	replacement meal	waitstaff	food
+000252	0.0062904521328369205	request	replacement meal	server s attention	food
+000253	0.002092785036501514	request	replacement meal	waitress attention	food
+000254	0.004185570073003028	request	replacement meal	server s	food
+000255	0.002092785036501514	request	replacement meal	new meal	food
+000256	0.00779547434799991	request	replacement meal	chef	food
+000257	0.0055522868315346285	request	replacement meal	chef complaint of food	food
+000258	0.008371140146006055	get	attention	replacement food	food
+000259	0.0031181897391999633	get	attention	returns	food
+000260	0.0027078969103281787	get	attention	issue	food
+000261	0.0379105567445945	get	attention	waiter	food
+000262	0.029614691893480583	get	attention	server	food
+000263	0.011104573663069257	get	attention	wait staff of problem	food
+000264	0.0	get	attention	wait for new order	food
+000265	0.001090148856051085	get	attention	you	food
+000266	0.002209855431526774	get	attention	table	food
+000267	0.004935781982246764	get	attention	flag	food
+000268	0.01674228029201211	get	attention	new dish	food
+000269	0.02511342043801817	get	attention	new plate	food
+000270	0.004185570073003028	get	attention	waiter problem	food
+000271	0.015158635048982275	get	attention	problem	food
+000272	0.004185570073003028	get	attention	good tip	food
+000273	0.004185570073003028	get	attention	higher tip	food
+000274	0.004185570073003028	get	attention	chef complaint	food
+000275	0.0031181897391999633	get	attention	reason	food
+000276	0.0036351844860936008	get	attention	him	food
+000277	0.008123690730984536	get	attention	waitress	food
+000278	0.033313720989207776	get	attention	new plate of food	food
+000279	0.006236379478399927	get	attention	waitstaff	food
+000280	0.012580904265673841	get	attention	server s attention	food
+000281	0.004185570073003028	get	attention	waitress attention	food
+000282	0.008371140146006055	get	attention	server s	food
+000283	0.004185570073003028	get	attention	replacement meal	food
+000284	0.004185570073003028	get	attention	new meal	food
+000285	0.01559094869599982	get	attention	chef	food
+000286	0.011104573663069257	get	attention	chef complaint of food	food
+000287	0.004185570073003028	thank	waiter	replacement food	food
+000288	0.0015590948695999817	thank	waiter	returns	food
+000289	0.0013539484551640894	thank	waiter	issue	food
+000290	0.014807345946740292	thank	waiter	server	food
+000291	0.0055522868315346285	thank	waiter	wait staff of problem	food
+000292	0.0	thank	waiter	wait for new order	food
+000293	0.0005450744280255425	thank	waiter	you	food
+000294	0.001104927715763387	thank	waiter	table	food
+000295	0.002467890991123382	thank	waiter	flag	food
+000296	0.008371140146006055	thank	waiter	new dish	food
+000297	0.012556710219009086	thank	waiter	new plate	food
+000298	0.002092785036501514	thank	waiter	waiter problem	food
+000299	0.0075793175244911375	thank	waiter	problem	food
+000300	0.002092785036501514	thank	waiter	good tip	food
+000301	0.002092785036501514	thank	waiter	higher tip	food
+000302	0.002092785036501514	thank	waiter	chef complaint	food
+000303	0.0015590948695999817	thank	waiter	reason	food
+000304	0.0018175922430468004	thank	waiter	him	food
+000305	0.004061845365492268	thank	waiter	waitress	food
+000306	0.016656860494603888	thank	waiter	new plate of food	food
+000307	0.0031181897391999633	thank	waiter	waitstaff	food
+000308	0.0062904521328369205	thank	waiter	server s attention	food
+000309	0.002092785036501514	thank	waiter	waitress attention	food
+000310	0.004185570073003028	thank	waiter	server s	food
+000311	0.002092785036501514	thank	waiter	replacement meal	food
+000312	0.002092785036501514	thank	waiter	new meal	food
+000313	0.00779547434799991	thank	waiter	chef	food
+000314	0.0055522868315346285	thank	waiter	chef complaint of food	food
+000315	0.0033126690611617704	eat	meal	replacement food	food
+000316	0.0012339454955616908	eat	meal	returns	food
+000317	0.0010715823841438788	eat	meal	issue	food
+000318	0.015002153378014303	eat	meal	waiter	food
+000319	0.01171927262956857	eat	meal	server	food
+000320	0.004394356917867654	eat	meal	wait staff of problem	food
+000321	0.0	eat	meal	wait for new order	food
+000322	0.00043139910747095895	eat	meal	you	food
+000323	0.0008744949421437797	eat	meal	table	food
+000324	0.001953212104928095	eat	meal	flag	food
+000325	0.006625338122323541	eat	meal	new dish	food
+000326	0.00993800718348531	eat	meal	new plate	food
+000327	0.0016563345305808852	eat	meal	waiter problem	food
+000328	0.005998650179111419	eat	meal	problem	food
+000329	0.0016563345305808852	eat	meal	good tip	food
+000330	0.0016563345305808852	eat	meal	higher tip	food
+000331	0.0016563345305808852	eat	meal	chef complaint	food
+000332	0.0012339454955616908	eat	meal	reason	food
+000333	0.001438533218732808	eat	meal	him	food
+000334	0.003214747152431636	eat	meal	waitress	food
+000335	0.013183070753602965	eat	meal	new plate of food	food
+000336	0.0024678909911233816	eat	meal	waitstaff	food
+000337	0.004978577779780695	eat	meal	server s attention	food
+000338	0.0016563345305808852	eat	meal	waitress attention	food
+000339	0.0033126690611617704	eat	meal	server s	food
+000340	0.0016563345305808852	eat	meal	replacement meal	food
+000341	0.0016563345305808852	eat	meal	new meal	food
+000342	0.006169727477808456	eat	meal	chef	food
+000343	0.004394356917867654	eat	meal	chef complaint of food	food
+000344	0.004185570073003028	thank	waitress	replacement food	food
+000345	0.0015590948695999817	thank	waitress	returns	food
+000346	0.0013539484551640894	thank	waitress	issue	food
+000347	0.01895527837229725	thank	waitress	waiter	food
+000348	0.014807345946740292	thank	waitress	server	food
+000349	0.0055522868315346285	thank	waitress	wait staff of problem	food
+000350	0.0	thank	waitress	wait for new order	food
+000351	0.0005450744280255425	thank	waitress	you	food
+000352	0.001104927715763387	thank	waitress	table	food
+000353	0.002467890991123382	thank	waitress	flag	food
+000354	0.008371140146006055	thank	waitress	new dish	food
+000355	0.012556710219009086	thank	waitress	new plate	food
+000356	0.002092785036501514	thank	waitress	waiter problem	food
+000357	0.0075793175244911375	thank	waitress	problem	food
+000358	0.002092785036501514	thank	waitress	good tip	food
+000359	0.002092785036501514	thank	waitress	higher tip	food
+000360	0.002092785036501514	thank	waitress	chef complaint	food
+000361	0.0015590948695999817	thank	waitress	reason	food
+000362	0.0018175922430468004	thank	waitress	him	food
+000363	0.016656860494603888	thank	waitress	new plate of food	food
+000364	0.0031181897391999633	thank	waitress	waitstaff	food
+000365	0.0062904521328369205	thank	waitress	server s attention	food
+000366	0.002092785036501514	thank	waitress	waitress attention	food
+000367	0.004185570073003028	thank	waitress	server s	food
+000368	0.002092785036501514	thank	waitress	replacement meal	food
+000369	0.002092785036501514	thank	waitress	new meal	food
+000370	0.00779547434799991	thank	waitress	chef	food
+000371	0.0055522868315346285	thank	waitress	chef complaint of food	food
+000372	0.004185570073003028	leave	higher tip	replacement food	food
+000373	0.0015590948695999817	leave	higher tip	returns	food
+000374	0.0013539484551640894	leave	higher tip	issue	food
+000375	0.01895527837229725	leave	higher tip	waiter	food
+000376	0.014807345946740292	leave	higher tip	server	food
+000377	0.0055522868315346285	leave	higher tip	wait staff of problem	food
+000378	0.0	leave	higher tip	wait for new order	food
+000379	0.0005450744280255425	leave	higher tip	you	food
+000380	0.001104927715763387	leave	higher tip	table	food
+000381	0.002467890991123382	leave	higher tip	flag	food
+000382	0.008371140146006055	leave	higher tip	new dish	food
+000383	0.012556710219009086	leave	higher tip	new plate	food
+000384	0.002092785036501514	leave	higher tip	waiter problem	food
+000385	0.0075793175244911375	leave	higher tip	problem	food
+000386	0.002092785036501514	leave	higher tip	good tip	food
+000387	0.002092785036501514	leave	higher tip	chef complaint	food
+000388	0.0015590948695999817	leave	higher tip	reason	food
+000389	0.0018175922430468004	leave	higher tip	him	food
+000390	0.004061845365492268	leave	higher tip	waitress	food
+000391	0.016656860494603888	leave	higher tip	new plate of food	food
+000392	0.0031181897391999633	leave	higher tip	waitstaff	food
+000393	0.0062904521328369205	leave	higher tip	server s attention	food
+000394	0.002092785036501514	leave	higher tip	waitress attention	food
+000395	0.004185570073003028	leave	higher tip	server s	food
+000396	0.002092785036501514	leave	higher tip	replacement meal	food
+000397	0.002092785036501514	leave	higher tip	new meal	food
+000398	0.00779547434799991	leave	higher tip	chef	food
+000399	0.0055522868315346285	leave	higher tip	chef complaint of food	food
+000400	0.004185570073003028	get	refund	replacement food	food
+000401	0.0015590948695999817	get	refund	returns	food
+000402	0.0013539484551640894	get	refund	issue	food
+000403	0.01895527837229725	get	refund	waiter	food
+000404	0.014807345946740292	get	refund	server	food
+000405	0.0055522868315346285	get	refund	wait staff of problem	food
+000406	0.0	get	refund	wait for new order	food
+000407	0.0005450744280255425	get	refund	you	food
+000408	0.001104927715763387	get	refund	table	food
+000409	0.002467890991123382	get	refund	flag	food
+000410	0.008371140146006055	get	refund	new dish	food
+000411	0.012556710219009086	get	refund	new plate	food
+000412	0.002092785036501514	get	refund	waiter problem	food
+000413	0.0075793175244911375	get	refund	problem	food
+000414	0.002092785036501514	get	refund	good tip	food
+000415	0.002092785036501514	get	refund	higher tip	food
+000416	0.002092785036501514	get	refund	chef complaint	food
+000417	0.0015590948695999817	get	refund	reason	food
+000418	0.0018175922430468004	get	refund	him	food
+000419	0.004061845365492268	get	refund	waitress	food
+000420	0.016656860494603888	get	refund	new plate of food	food
+000421	0.0031181897391999633	get	refund	waitstaff	food
+000422	0.0062904521328369205	get	refund	server s attention	food
+000423	0.002092785036501514	get	refund	waitress attention	food
+000424	0.004185570073003028	get	refund	server s	food
+000425	0.002092785036501514	get	refund	replacement meal	food
+000426	0.002092785036501514	get	refund	new meal	food
+000427	0.00779547434799991	get	refund	chef	food
+000428	0.0055522868315346285	get	refund	chef complaint of food	food
+000429	0.004185570073003028	thank	chef	replacement food	food
+000430	0.0015590948695999817	thank	chef	returns	food
+000431	0.0013539484551640894	thank	chef	issue	food
+000432	0.01895527837229725	thank	chef	waiter	food
+000433	0.014807345946740292	thank	chef	server	food
+000434	0.0055522868315346285	thank	chef	wait staff of problem	food
+000435	0.0	thank	chef	wait for new order	food
+000436	0.0005450744280255425	thank	chef	you	food
+000437	0.001104927715763387	thank	chef	table	food
+000438	0.002467890991123382	thank	chef	flag	food
+000439	0.008371140146006055	thank	chef	new dish	food
+000440	0.012556710219009086	thank	chef	new plate	food
+000441	0.002092785036501514	thank	chef	waiter problem	food
+000442	0.0075793175244911375	thank	chef	problem	food
+000443	0.002092785036501514	thank	chef	good tip	food
+000444	0.002092785036501514	thank	chef	higher tip	food
+000445	0.002092785036501514	thank	chef	chef complaint	food
+000446	0.0015590948695999817	thank	chef	reason	food
+000447	0.0018175922430468004	thank	chef	him	food
+000448	0.004061845365492268	thank	chef	waitress	food
+000449	0.016656860494603888	thank	chef	new plate of food	food
+000450	0.0031181897391999633	thank	chef	waitstaff	food
+000451	0.0062904521328369205	thank	chef	server s attention	food
+000452	0.002092785036501514	thank	chef	waitress attention	food
+000453	0.004185570073003028	thank	chef	server s	food
+000454	0.002092785036501514	thank	chef	replacement meal	food
+000455	0.002092785036501514	thank	chef	new meal	food
+000456	0.0055522868315346285	thank	chef	chef complaint of food	food
+000457	0.004185570073003028	attract	attention	replacement food	food
+000458	0.0015590948695999817	attract	attention	returns	food
+000459	0.0013539484551640894	attract	attention	issue	food
+000460	0.01895527837229725	attract	attention	waiter	food
+000461	0.014807345946740292	attract	attention	server	food
+000462	0.0055522868315346285	attract	attention	wait staff of problem	food
+000463	0.0	attract	attention	wait for new order	food
+000464	0.0005450744280255425	attract	attention	you	food
+000465	0.001104927715763387	attract	attention	table	food
+000466	0.002467890991123382	attract	attention	flag	food
+000467	0.008371140146006055	attract	attention	new dish	food
+000468	0.012556710219009086	attract	attention	new plate	food
+000469	0.002092785036501514	attract	attention	waiter problem	food
+000470	0.0075793175244911375	attract	attention	problem	food
+000471	0.002092785036501514	attract	attention	good tip	food
+000472	0.002092785036501514	attract	attention	higher tip	food
+000473	0.002092785036501514	attract	attention	chef complaint	food
+000474	0.0015590948695999817	attract	attention	reason	food
+000475	0.0018175922430468004	attract	attention	him	food
+000476	0.004061845365492268	attract	attention	waitress	food
+000477	0.016656860494603888	attract	attention	new plate of food	food
+000478	0.0031181897391999633	attract	attention	waitstaff	food
+000479	0.0062904521328369205	attract	attention	server s attention	food
+000480	0.002092785036501514	attract	attention	waitress attention	food
+000481	0.004185570073003028	attract	attention	server s	food
+000482	0.002092785036501514	attract	attention	replacement meal	food
+000483	0.002092785036501514	attract	attention	new meal	food
+000484	0.00779547434799991	attract	attention	chef	food
+000485	0.0055522868315346285	attract	attention	chef complaint of food	food
+000486	0.004185570073003028	describe	problem	replacement food	food
+000487	0.0015590948695999817	describe	problem	returns	food
+000488	0.0013539484551640894	describe	problem	issue	food
+000489	0.01895527837229725	describe	problem	waiter	food
+000490	0.014807345946740292	describe	problem	server	food
+000491	0.0055522868315346285	describe	problem	wait staff of problem	food
+000492	0.0	describe	problem	wait for new order	food
+000493	0.0005450744280255425	describe	problem	you	food
+000494	0.001104927715763387	describe	problem	table	food
+000495	0.002467890991123382	describe	problem	flag	food
+000496	0.008371140146006055	describe	problem	new dish	food
+000497	0.012556710219009086	describe	problem	new plate	food
+000498	0.002092785036501514	describe	problem	waiter problem	food
+000499	0.002092785036501514	describe	problem	good tip	food
+000500	0.002092785036501514	describe	problem	higher tip	food
+000501	0.002092785036501514	describe	problem	chef complaint	food
+000502	0.0015590948695999817	describe	problem	reason	food
+000503	0.0018175922430468004	describe	problem	him	food
+000504	0.004061845365492268	describe	problem	waitress	food
+000505	0.016656860494603888	describe	problem	new plate of food	food
+000506	0.0031181897391999633	describe	problem	waitstaff	food
+000507	0.0062904521328369205	describe	problem	server s attention	food
+000508	0.002092785036501514	describe	problem	waitress attention	food
+000509	0.004185570073003028	describe	problem	server s	food
+000510	0.002092785036501514	describe	problem	replacement meal	food
+000511	0.002092785036501514	describe	problem	new meal	food
+000512	0.00779547434799991	describe	problem	chef	food
+000513	0.0055522868315346285	describe	problem	chef complaint of food	food
+000514	0.004185570073003028	ask	server	replacement food	food
+000515	0.0015590948695999817	ask	server	returns	food
+000516	0.0013539484551640894	ask	server	issue	food
+000517	0.01895527837229725	ask	server	waiter	food
+000518	0.0055522868315346285	ask	server	wait staff of problem	food
+000519	0.0	ask	server	wait for new order	food
+000520	0.0005450744280255425	ask	server	you	food
+000521	0.001104927715763387	ask	server	table	food
+000522	0.002467890991123382	ask	server	flag	food
+000523	0.008371140146006055	ask	server	new dish	food
+000524	0.012556710219009086	ask	server	new plate	food
+000525	0.002092785036501514	ask	server	waiter problem	food
+000526	0.0075793175244911375	ask	server	problem	food
+000527	0.002092785036501514	ask	server	good tip	food
+000528	0.002092785036501514	ask	server	higher tip	food
+000529	0.002092785036501514	ask	server	chef complaint	food
+000530	0.0015590948695999817	ask	server	reason	food
+000531	0.0018175922430468004	ask	server	him	food
+000532	0.004061845365492268	ask	server	waitress	food
+000533	0.016656860494603888	ask	server	new plate of food	food
+000534	0.0031181897391999633	ask	server	waitstaff	food
+000535	0.0062904521328369205	ask	server	server s attention	food
+000536	0.002092785036501514	ask	server	waitress attention	food
+000537	0.004185570073003028	ask	server	server s	food
+000538	0.002092785036501514	ask	server	replacement meal	food
+000539	0.002092785036501514	ask	server	new meal	food
+000540	0.00779547434799991	ask	server	chef	food
+000541	0.0055522868315346285	ask	server	chef complaint of food	food
+000542	0.004185570073003028	find	something wrong	replacement food	food
+000543	0.0015590948695999817	find	something wrong	returns	food
+000544	0.0013539484551640894	find	something wrong	issue	food
+000545	0.01895527837229725	find	something wrong	waiter	food
+000546	0.014807345946740292	find	something wrong	server	food
+000547	0.0055522868315346285	find	something wrong	wait staff of problem	food
+000548	0.0	find	something wrong	wait for new order	food
+000549	0.0005450744280255425	find	something wrong	you	food
+000550	0.001104927715763387	find	something wrong	table	food
+000551	0.002467890991123382	find	something wrong	flag	food
+000552	0.008371140146006055	find	something wrong	new dish	food
+000553	0.012556710219009086	find	something wrong	new plate	food
+000554	0.002092785036501514	find	something wrong	waiter problem	food
+000555	0.0075793175244911375	find	something wrong	problem	food
+000556	0.002092785036501514	find	something wrong	good tip	food
+000557	0.002092785036501514	find	something wrong	higher tip	food
+000558	0.002092785036501514	find	something wrong	chef complaint	food
+000559	0.0015590948695999817	find	something wrong	reason	food
+000560	0.0018175922430468004	find	something wrong	him	food
+000561	0.004061845365492268	find	something wrong	waitress	food
+000562	0.016656860494603888	find	something wrong	new plate of food	food
+000563	0.0031181897391999633	find	something wrong	waitstaff	food
+000564	0.0062904521328369205	find	something wrong	server s attention	food
+000565	0.002092785036501514	find	something wrong	waitress attention	food
+000566	0.004185570073003028	find	something wrong	server s	food
+000567	0.002092785036501514	find	something wrong	replacement meal	food
+000568	0.002092785036501514	find	something wrong	new meal	food
+000569	0.00779547434799991	find	something wrong	chef	food
+000570	0.0055522868315346285	find	something wrong	chef complaint of food	food
+000571	0.008371140146006055	taste	food	replacement food	food
+000572	0.0031181897391999633	taste	food	returns	food
+000573	0.0027078969103281787	taste	food	issue	food
+000574	0.0379105567445945	taste	food	waiter	food
+000575	0.029614691893480583	taste	food	server	food
+000576	0.011104573663069257	taste	food	wait staff of problem	food
+000577	0.0	taste	food	wait for new order	food
+000578	0.001090148856051085	taste	food	you	food
+000579	0.002209855431526774	taste	food	table	food
+000580	0.004935781982246764	taste	food	flag	food
+000581	0.01674228029201211	taste	food	new dish	food
+000582	0.02511342043801817	taste	food	new plate	food
+000583	0.004185570073003028	taste	food	waiter problem	food
+000584	0.015158635048982275	taste	food	problem	food
+000585	0.004185570073003028	taste	food	good tip	food
+000586	0.004185570073003028	taste	food	higher tip	food
+000587	0.004185570073003028	taste	food	chef complaint	food
+000588	0.0031181897391999633	taste	food	reason	food
+000589	0.0036351844860936008	taste	food	him	food
+000590	0.008123690730984536	taste	food	waitress	food
+000591	0.033313720989207776	taste	food	new plate of food	food
+000592	0.006236379478399927	taste	food	waitstaff	food
+000593	0.012580904265673841	taste	food	server s attention	food
+000594	0.004185570073003028	taste	food	waitress attention	food
+000595	0.008371140146006055	taste	food	server s	food
+000596	0.004185570073003028	taste	food	replacement meal	food
+000597	0.004185570073003028	taste	food	new meal	food
+000598	0.01559094869599982	taste	food	chef	food
+000599	0.011104573663069257	taste	food	chef complaint of food	food
+000600	0.004185570073003028	server	food	replacement food	food
+000601	0.0015590948695999817	server	food	returns	food
+000602	0.0013539484551640894	server	food	issue	food
+000603	0.01895527837229725	server	food	waiter	food
+000604	0.014807345946740292	server	food	server	food
+000605	0.0055522868315346285	server	food	wait staff of problem	food
+000606	0.0	server	food	wait for new order	food
+000607	0.0005450744280255425	server	food	you	food
+000608	0.001104927715763387	server	food	table	food
+000609	0.002467890991123382	server	food	flag	food
+000610	0.008371140146006055	server	food	new dish	food
+000611	0.012556710219009086	server	food	new plate	food
+000612	0.002092785036501514	server	food	waiter problem	food
+000613	0.0075793175244911375	server	food	problem	food
+000614	0.002092785036501514	server	food	good tip	food
+000615	0.002092785036501514	server	food	higher tip	food
+000616	0.002092785036501514	server	food	chef complaint	food
+000617	0.0015590948695999817	server	food	reason	food
+000618	0.0018175922430468004	server	food	him	food
+000619	0.004061845365492268	server	food	waitress	food
+000620	0.016656860494603888	server	food	new plate of food	food
+000621	0.0031181897391999633	server	food	waitstaff	food
+000622	0.0062904521328369205	server	food	server s attention	food
+000623	0.002092785036501514	server	food	waitress attention	food
+000624	0.004185570073003028	server	food	server s	food
+000625	0.002092785036501514	server	food	replacement meal	food
+000626	0.002092785036501514	server	food	new meal	food
+000627	0.00779547434799991	server	food	chef	food
+000628	0.0055522868315346285	server	food	chef complaint of food	food
+000629	0.004185570073003028	inspect	new plate	replacement food	food
+000630	0.0015590948695999817	inspect	new plate	returns	food
+000631	0.0013539484551640894	inspect	new plate	issue	food
+000632	0.01895527837229725	inspect	new plate	waiter	food
+000633	0.014807345946740292	inspect	new plate	server	food
+000634	0.0055522868315346285	inspect	new plate	wait staff of problem	food
+000635	0.0	inspect	new plate	wait for new order	food
+000636	0.0005450744280255425	inspect	new plate	you	food
+000637	0.001104927715763387	inspect	new plate	table	food
+000638	0.002467890991123382	inspect	new plate	flag	food
+000639	0.008371140146006055	inspect	new plate	new dish	food
+000640	0.002092785036501514	inspect	new plate	waiter problem	food
+000641	0.0075793175244911375	inspect	new plate	problem	food
+000642	0.002092785036501514	inspect	new plate	good tip	food
+000643	0.002092785036501514	inspect	new plate	higher tip	food
+000644	0.002092785036501514	inspect	new plate	chef complaint	food
+000645	0.0015590948695999817	inspect	new plate	reason	food
+000646	0.0018175922430468004	inspect	new plate	him	food
+000647	0.004061845365492268	inspect	new plate	waitress	food
+000648	0.016656860494603888	inspect	new plate	new plate of food	food
+000649	0.0031181897391999633	inspect	new plate	waitstaff	food
+000650	0.0062904521328369205	inspect	new plate	server s attention	food
+000651	0.002092785036501514	inspect	new plate	waitress attention	food
+000652	0.004185570073003028	inspect	new plate	server s	food
+000653	0.002092785036501514	inspect	new plate	replacement meal	food
+000654	0.002092785036501514	inspect	new plate	new meal	food
+000655	0.00779547434799991	inspect	new plate	chef	food
+000656	0.0055522868315346285	inspect	new plate	chef complaint of food	food
+000657	0.004185570073003028	call	server	replacement food	food
+000658	0.0015590948695999817	call	server	returns	food
+000659	0.0013539484551640894	call	server	issue	food
+000660	0.01895527837229725	call	server	waiter	food
+000661	0.0055522868315346285	call	server	wait staff of problem	food
+000662	0.0	call	server	wait for new order	food
+000663	0.0005450744280255425	call	server	you	food
+000664	0.001104927715763387	call	server	table	food
+000665	0.002467890991123382	call	server	flag	food
+000666	0.008371140146006055	call	server	new dish	food
+000667	0.012556710219009086	call	server	new plate	food
+000668	0.002092785036501514	call	server	waiter problem	food
+000669	0.0075793175244911375	call	server	problem	food
+000670	0.002092785036501514	call	server	good tip	food
+000671	0.002092785036501514	call	server	higher tip	food
+000672	0.002092785036501514	call	server	chef complaint	food
+000673	0.0015590948695999817	call	server	reason	food
+000674	0.0018175922430468004	call	server	him	food
+000675	0.004061845365492268	call	server	waitress	food
+000676	0.016656860494603888	call	server	new plate of food	food
+000677	0.0031181897391999633	call	server	waitstaff	food
+000678	0.0062904521328369205	call	server	server s attention	food
+000679	0.002092785036501514	call	server	waitress attention	food
+000680	0.004185570073003028	call	server	server s	food
+000681	0.002092785036501514	call	server	replacement meal	food
+000682	0.002092785036501514	call	server	new meal	food
+000683	0.00779547434799991	call	server	chef	food
+000684	0.0055522868315346285	call	server	chef complaint of food	food
+000685	0.004185570073003028	leave	good tip	replacement food	food
+000686	0.0015590948695999817	leave	good tip	returns	food
+000687	0.0013539484551640894	leave	good tip	issue	food
+000688	0.01895527837229725	leave	good tip	waiter	food
+000689	0.014807345946740292	leave	good tip	server	food
+000690	0.0055522868315346285	leave	good tip	wait staff of problem	food
+000691	0.0	leave	good tip	wait for new order	food
+000692	0.0005450744280255425	leave	good tip	you	food
+000693	0.001104927715763387	leave	good tip	table	food
+000694	0.002467890991123382	leave	good tip	flag	food
+000695	0.008371140146006055	leave	good tip	new dish	food
+000696	0.012556710219009086	leave	good tip	new plate	food
+000697	0.002092785036501514	leave	good tip	waiter problem	food
+000698	0.0075793175244911375	leave	good tip	problem	food
+000699	0.002092785036501514	leave	good tip	higher tip	food
+000700	0.002092785036501514	leave	good tip	chef complaint	food
+000701	0.0015590948695999817	leave	good tip	reason	food
+000702	0.0018175922430468004	leave	good tip	him	food
+000703	0.004061845365492268	leave	good tip	waitress	food
+000704	0.016656860494603888	leave	good tip	new plate of food	food
+000705	0.0031181897391999633	leave	good tip	waitstaff	food
+000706	0.0062904521328369205	leave	good tip	server s attention	food
+000707	0.002092785036501514	leave	good tip	waitress attention	food
+000708	0.004185570073003028	leave	good tip	server s	food
+000709	0.002092785036501514	leave	good tip	replacement meal	food
+000710	0.002092785036501514	leave	good tip	new meal	food
+000711	0.00779547434799991	leave	good tip	chef	food
+000712	0.0055522868315346285	leave	good tip	chef complaint of food	food
+000713	0.004185570073003028	correct	issue	replacement food	food
+000714	0.0015590948695999817	correct	issue	returns	food
+000715	0.01895527837229725	correct	issue	waiter	food
+000716	0.014807345946740292	correct	issue	server	food
+000717	0.0055522868315346285	correct	issue	wait staff of problem	food
+000718	0.0	correct	issue	wait for new order	food
+000719	0.0005450744280255425	correct	issue	you	food
+000720	0.001104927715763387	correct	issue	table	food
+000721	0.002467890991123382	correct	issue	flag	food
+000722	0.008371140146006055	correct	issue	new dish	food
+000723	0.012556710219009086	correct	issue	new plate	food
+000724	0.002092785036501514	correct	issue	waiter problem	food
+000725	0.0075793175244911375	correct	issue	problem	food
+000726	0.002092785036501514	correct	issue	good tip	food
+000727	0.002092785036501514	correct	issue	higher tip	food
+000728	0.002092785036501514	correct	issue	chef complaint	food
+000729	0.0015590948695999817	correct	issue	reason	food
+000730	0.0018175922430468004	correct	issue	him	food
+000731	0.004061845365492268	correct	issue	waitress	food
+000732	0.016656860494603888	correct	issue	new plate of food	food
+000733	0.0031181897391999633	correct	issue	waitstaff	food
+000734	0.0062904521328369205	correct	issue	server s attention	food
+000735	0.002092785036501514	correct	issue	waitress attention	food
+000736	0.004185570073003028	correct	issue	server s	food
+000737	0.002092785036501514	correct	issue	replacement meal	food
+000738	0.002092785036501514	correct	issue	new meal	food
+000739	0.00779547434799991	correct	issue	chef	food
+000740	0.0055522868315346285	correct	issue	chef complaint of food	food
+000741	0.004185570073003028	tell	him	replacement food	food
+000742	0.0015590948695999817	tell	him	returns	food
+000743	0.0013539484551640894	tell	him	issue	food
+000744	0.01895527837229725	tell	him	waiter	food
+000745	0.014807345946740292	tell	him	server	food
+000746	0.0055522868315346285	tell	him	wait staff of problem	food
+000747	0.0	tell	him	wait for new order	food
+000748	0.0005450744280255425	tell	him	you	food
+000749	0.001104927715763387	tell	him	table	food
+000750	0.002467890991123382	tell	him	flag	food
+000751	0.008371140146006055	tell	him	new dish	food
+000752	0.012556710219009086	tell	him	new plate	food
+000753	0.002092785036501514	tell	him	waiter problem	food
+000754	0.0075793175244911375	tell	him	problem	food
+000755	0.002092785036501514	tell	him	good tip	food
+000756	0.002092785036501514	tell	him	higher tip	food
+000757	0.002092785036501514	tell	him	chef complaint	food
+000758	0.0015590948695999817	tell	him	reason	food
+000759	0.004061845365492268	tell	him	waitress	food
+000760	0.016656860494603888	tell	him	new plate of food	food
+000761	0.0031181897391999633	tell	him	waitstaff	food
+000762	0.0062904521328369205	tell	him	server s attention	food
+000763	0.002092785036501514	tell	him	waitress attention	food
+000764	0.004185570073003028	tell	him	server s	food
+000765	0.002092785036501514	tell	him	replacement meal	food
+000766	0.002092785036501514	tell	him	new meal	food
+000767	0.00779547434799991	tell	him	chef	food
+000768	0.0055522868315346285	tell	him	chef complaint of food	food
+000769	0.004185570073003028	prepares	new food	replacement food	food
+000770	0.0015590948695999817	prepares	new food	returns	food
+000771	0.0013539484551640894	prepares	new food	issue	food
+000772	0.01895527837229725	prepares	new food	waiter	food
+000773	0.014807345946740292	prepares	new food	server	food
+000774	0.0055522868315346285	prepares	new food	wait staff of problem	food
+000775	0.0	prepares	new food	wait for new order	food
+000776	0.0005450744280255425	prepares	new food	you	food
+000777	0.001104927715763387	prepares	new food	table	food
+000778	0.002467890991123382	prepares	new food	flag	food
+000779	0.008371140146006055	prepares	new food	new dish	food
+000780	0.012556710219009086	prepares	new food	new plate	food
+000781	0.002092785036501514	prepares	new food	waiter problem	food
+000782	0.0075793175244911375	prepares	new food	problem	food
+000783	0.002092785036501514	prepares	new food	good tip	food
+000784	0.002092785036501514	prepares	new food	higher tip	food
+000785	0.002092785036501514	prepares	new food	chef complaint	food
+000786	0.0015590948695999817	prepares	new food	reason	food
+000787	0.0018175922430468004	prepares	new food	him	food
+000788	0.004061845365492268	prepares	new food	waitress	food
+000789	0.016656860494603888	prepares	new food	new plate of food	food
+000790	0.0031181897391999633	prepares	new food	waitstaff	food
+000791	0.0062904521328369205	prepares	new food	server s attention	food
+000792	0.002092785036501514	prepares	new food	waitress attention	food
+000793	0.004185570073003028	prepares	new food	server s	food
+000794	0.002092785036501514	prepares	new food	replacement meal	food
+000795	0.002092785036501514	prepares	new food	new meal	food
+000796	0.00779547434799991	prepares	new food	chef	food
+000797	0.0055522868315346285	prepares	new food	chef complaint of food	food
+000798	0.004185570073003028	asks	me	replacement food	food
+000799	0.0015590948695999817	asks	me	returns	food
+000800	0.0013539484551640894	asks	me	issue	food
+000801	0.01895527837229725	asks	me	waiter	food
+000802	0.014807345946740292	asks	me	server	food
+000803	0.0055522868315346285	asks	me	wait staff of problem	food
+000804	0.0	asks	me	wait for new order	food
+000805	0.0005450744280255425	asks	me	you	food
+000806	0.001104927715763387	asks	me	table	food
+000807	0.002467890991123382	asks	me	flag	food
+000808	0.008371140146006055	asks	me	new dish	food
+000809	0.012556710219009086	asks	me	new plate	food
+000810	0.002092785036501514	asks	me	waiter problem	food
+000811	0.0075793175244911375	asks	me	problem	food
+000812	0.002092785036501514	asks	me	good tip	food
+000813	0.002092785036501514	asks	me	higher tip	food
+000814	0.002092785036501514	asks	me	chef complaint	food
+000815	0.0015590948695999817	asks	me	reason	food
+000816	0.0018175922430468004	asks	me	him	food
+000817	0.004061845365492268	asks	me	waitress	food
+000818	0.016656860494603888	asks	me	new plate of food	food
+000819	0.0031181897391999633	asks	me	waitstaff	food
+000820	0.0062904521328369205	asks	me	server s attention	food
+000821	0.002092785036501514	asks	me	waitress attention	food
+000822	0.004185570073003028	asks	me	server s	food
+000823	0.002092785036501514	asks	me	replacement meal	food
+000824	0.002092785036501514	asks	me	new meal	food
+000825	0.00779547434799991	asks	me	chef	food
+000826	0.0055522868315346285	asks	me	chef complaint of food	food
+000827	0.004185570073003028	brings	new meal	replacement food	food
+000828	0.0015590948695999817	brings	new meal	returns	food
+000829	0.0013539484551640894	brings	new meal	issue	food
+000830	0.01895527837229725	brings	new meal	waiter	food
+000831	0.014807345946740292	brings	new meal	server	food
+000832	0.0055522868315346285	brings	new meal	wait staff of problem	food
+000833	0.0	brings	new meal	wait for new order	food
+000834	0.0005450744280255425	brings	new meal	you	food
+000835	0.001104927715763387	brings	new meal	table	food
+000836	0.002467890991123382	brings	new meal	flag	food
+000837	0.008371140146006055	brings	new meal	new dish	food
+000838	0.012556710219009086	brings	new meal	new plate	food
+000839	0.002092785036501514	brings	new meal	waiter problem	food
+000840	0.0075793175244911375	brings	new meal	problem	food
+000841	0.002092785036501514	brings	new meal	good tip	food
+000842	0.002092785036501514	brings	new meal	higher tip	food
+000843	0.002092785036501514	brings	new meal	chef complaint	food
+000844	0.0015590948695999817	brings	new meal	reason	food
+000845	0.0018175922430468004	brings	new meal	him	food
+000846	0.004061845365492268	brings	new meal	waitress	food
+000847	0.016656860494603888	brings	new meal	new plate of food	food
+000848	0.0031181897391999633	brings	new meal	waitstaff	food
+000849	0.0062904521328369205	brings	new meal	server s attention	food
+000850	0.002092785036501514	brings	new meal	waitress attention	food
+000851	0.004185570073003028	brings	new meal	server s	food
+000852	0.002092785036501514	brings	new meal	replacement meal	food
+000853	0.00779547434799991	brings	new meal	chef	food
+000854	0.0055522868315346285	brings	new meal	chef complaint of food	food
+000855	0.008371140146006055	call	waiter	replacement food	food
+000856	0.0031181897391999633	call	waiter	returns	food
+000857	0.0027078969103281787	call	waiter	issue	food
+000858	0.029614691893480583	call	waiter	server	food
+000859	0.011104573663069257	call	waiter	wait staff of problem	food
+000860	0.0	call	waiter	wait for new order	food
+000861	0.001090148856051085	call	waiter	you	food
+000862	0.002209855431526774	call	waiter	table	food
+000863	0.004935781982246764	call	waiter	flag	food
+000864	0.01674228029201211	call	waiter	new dish	food
+000865	0.02511342043801817	call	waiter	new plate	food
+000866	0.004185570073003028	call	waiter	waiter problem	food
+000867	0.015158635048982275	call	waiter	problem	food
+000868	0.004185570073003028	call	waiter	good tip	food
+000869	0.004185570073003028	call	waiter	higher tip	food
+000870	0.004185570073003028	call	waiter	chef complaint	food
+000871	0.0031181897391999633	call	waiter	reason	food
+000872	0.0036351844860936008	call	waiter	him	food
+000873	0.008123690730984536	call	waiter	waitress	food
+000874	0.033313720989207776	call	waiter	new plate of food	food
+000875	0.006236379478399927	call	waiter	waitstaff	food
+000876	0.012580904265673841	call	waiter	server s attention	food
+000877	0.004185570073003028	call	waiter	waitress attention	food
+000878	0.008371140146006055	call	waiter	server s	food
+000879	0.004185570073003028	call	waiter	replacement meal	food
+000880	0.004185570073003028	call	waiter	new meal	food
+000881	0.01559094869599982	call	waiter	chef	food
+000882	0.011104573663069257	call	waiter	chef complaint of food	food
+000883	0.004185570073003028	tell	waiter problem	replacement food	food
+000884	0.0015590948695999817	tell	waiter problem	returns	food
+000885	0.0013539484551640894	tell	waiter problem	issue	food
+000886	0.01895527837229725	tell	waiter problem	waiter	food
+000887	0.014807345946740292	tell	waiter problem	server	food
+000888	0.0055522868315346285	tell	waiter problem	wait staff of problem	food
+000889	0.0	tell	waiter problem	wait for new order	food
+000890	0.0005450744280255425	tell	waiter problem	you	food
+000891	0.001104927715763387	tell	waiter problem	table	food
+000892	0.002467890991123382	tell	waiter problem	flag	food
+000893	0.008371140146006055	tell	waiter problem	new dish	food
+000894	0.012556710219009086	tell	waiter problem	new plate	food
+000895	0.0075793175244911375	tell	waiter problem	problem	food
+000896	0.002092785036501514	tell	waiter problem	good tip	food
+000897	0.002092785036501514	tell	waiter problem	higher tip	food
+000898	0.002092785036501514	tell	waiter problem	chef complaint	food
+000899	0.0015590948695999817	tell	waiter problem	reason	food
+000900	0.0018175922430468004	tell	waiter problem	him	food
+000901	0.004061845365492268	tell	waiter problem	waitress	food
+000902	0.016656860494603888	tell	waiter problem	new plate of food	food
+000903	0.0031181897391999633	tell	waiter problem	waitstaff	food
+000904	0.0062904521328369205	tell	waiter problem	server s attention	food
+000905	0.002092785036501514	tell	waiter problem	waitress attention	food
+000906	0.004185570073003028	tell	waiter problem	server s	food
+000907	0.002092785036501514	tell	waiter problem	replacement meal	food
+000908	0.002092785036501514	tell	waiter problem	new meal	food
+000909	0.00779547434799991	tell	waiter problem	chef	food
+000910	0.0055522868315346285	tell	waiter problem	chef complaint of food	food
+000911	0.004185570073003028	hand	plate	replacement food	food
+000912	0.0015590948695999817	hand	plate	returns	food
+000913	0.0013539484551640894	hand	plate	issue	food
+000914	0.01895527837229725	hand	plate	waiter	food
+000915	0.014807345946740292	hand	plate	server	food
+000916	0.0055522868315346285	hand	plate	wait staff of problem	food
+000917	0.0	hand	plate	wait for new order	food
+000918	0.0005450744280255425	hand	plate	you	food
+000919	0.001104927715763387	hand	plate	table	food
+000920	0.002467890991123382	hand	plate	flag	food
+000921	0.008371140146006055	hand	plate	new dish	food
+000922	0.012556710219009086	hand	plate	new plate	food
+000923	0.002092785036501514	hand	plate	waiter problem	food
+000924	0.0075793175244911375	hand	plate	problem	food
+000925	0.002092785036501514	hand	plate	good tip	food
+000926	0.002092785036501514	hand	plate	higher tip	food
+000927	0.002092785036501514	hand	plate	chef complaint	food
+000928	0.0015590948695999817	hand	plate	reason	food
+000929	0.0018175922430468004	hand	plate	him	food
+000930	0.004061845365492268	hand	plate	waitress	food
+000931	0.016656860494603888	hand	plate	new plate of food	food
+000932	0.0031181897391999633	hand	plate	waitstaff	food
+000933	0.0062904521328369205	hand	plate	server s attention	food
+000934	0.002092785036501514	hand	plate	waitress attention	food
+000935	0.004185570073003028	hand	plate	server s	food
+000936	0.002092785036501514	hand	plate	replacement meal	food
+000937	0.002092785036501514	hand	plate	new meal	food
+000938	0.00779547434799991	hand	plate	chef	food
+000939	0.0055522868315346285	hand	plate	chef complaint of food	food
+000940	0.004185570073003028	send	old one	replacement food	food
+000941	0.0015590948695999817	send	old one	returns	food
+000942	0.0013539484551640894	send	old one	issue	food
+000943	0.01895527837229725	send	old one	waiter	food
+000944	0.014807345946740292	send	old one	server	food
+000945	0.0055522868315346285	send	old one	wait staff of problem	food
+000946	0.0	send	old one	wait for new order	food
+000947	0.0005450744280255425	send	old one	you	food
+000948	0.001104927715763387	send	old one	table	food
+000949	0.002467890991123382	send	old one	flag	food
+000950	0.008371140146006055	send	old one	new dish	food
+000951	0.012556710219009086	send	old one	new plate	food
+000952	0.002092785036501514	send	old one	waiter problem	food
+000953	0.0075793175244911375	send	old one	problem	food
+000954	0.002092785036501514	send	old one	good tip	food
+000955	0.002092785036501514	send	old one	higher tip	food
+000956	0.002092785036501514	send	old one	chef complaint	food
+000957	0.0015590948695999817	send	old one	reason	food
+000958	0.0018175922430468004	send	old one	him	food
+000959	0.004061845365492268	send	old one	waitress	food
+000960	0.016656860494603888	send	old one	new plate of food	food
+000961	0.0031181897391999633	send	old one	waitstaff	food
+000962	0.0062904521328369205	send	old one	server s attention	food
+000963	0.002092785036501514	send	old one	waitress attention	food
+000964	0.004185570073003028	send	old one	server s	food
+000965	0.002092785036501514	send	old one	replacement meal	food
+000966	0.002092785036501514	send	old one	new meal	food
+000967	0.00779547434799991	send	old one	chef	food
+000968	0.0055522868315346285	send	old one	chef complaint of food	food
+000969	0.004185570073003028	ask	him	replacement food	food
+000970	0.0015590948695999817	ask	him	returns	food
+000971	0.0013539484551640894	ask	him	issue	food
+000972	0.01895527837229725	ask	him	waiter	food
+000973	0.014807345946740292	ask	him	server	food
+000974	0.0055522868315346285	ask	him	wait staff of problem	food
+000975	0.0	ask	him	wait for new order	food
+000976	0.0005450744280255425	ask	him	you	food
+000977	0.001104927715763387	ask	him	table	food
+000978	0.002467890991123382	ask	him	flag	food
+000979	0.008371140146006055	ask	him	new dish	food
+000980	0.012556710219009086	ask	him	new plate	food
+000981	0.002092785036501514	ask	him	waiter problem	food
+000982	0.0075793175244911375	ask	him	problem	food
+000983	0.002092785036501514	ask	him	good tip	food
+000984	0.002092785036501514	ask	him	higher tip	food
+000985	0.002092785036501514	ask	him	chef complaint	food
+000986	0.0015590948695999817	ask	him	reason	food
+000987	0.004061845365492268	ask	him	waitress	food
+000988	0.016656860494603888	ask	him	new plate of food	food
+000989	0.0031181897391999633	ask	him	waitstaff	food
+000990	0.0062904521328369205	ask	him	server s attention	food
+000991	0.002092785036501514	ask	him	waitress attention	food
+000992	0.004185570073003028	ask	him	server s	food
+000993	0.002092785036501514	ask	him	replacement meal	food
+000994	0.002092785036501514	ask	him	new meal	food
+000995	0.00779547434799991	ask	him	chef	food
+000996	0.0055522868315346285	ask	him	chef complaint of food	food
+000997	0.004185570073003028	get	new plate	replacement food	food
+000998	0.0015590948695999817	get	new plate	returns	food
+000999	0.0013539484551640894	get	new plate	issue	food
+001000	0.01895527837229725	get	new plate	waiter	food
+001001	0.014807345946740292	get	new plate	server	food
+001002	0.0055522868315346285	get	new plate	wait staff of problem	food
+001003	0.0	get	new plate	wait for new order	food
+001004	0.0005450744280255425	get	new plate	you	food
+001005	0.001104927715763387	get	new plate	table	food
+001006	0.002467890991123382	get	new plate	flag	food
+001007	0.008371140146006055	get	new plate	new dish	food
+001008	0.002092785036501514	get	new plate	waiter problem	food
+001009	0.0075793175244911375	get	new plate	problem	food
+001010	0.002092785036501514	get	new plate	good tip	food
+001011	0.002092785036501514	get	new plate	higher tip	food
+001012	0.002092785036501514	get	new plate	chef complaint	food
+001013	0.0015590948695999817	get	new plate	reason	food
+001014	0.0018175922430468004	get	new plate	him	food
+001015	0.004061845365492268	get	new plate	waitress	food
+001016	0.016656860494603888	get	new plate	new plate of food	food
+001017	0.0031181897391999633	get	new plate	waitstaff	food
+001018	0.0062904521328369205	get	new plate	server s attention	food
+001019	0.002092785036501514	get	new plate	waitress attention	food
+001020	0.004185570073003028	get	new plate	server s	food
+001021	0.002092785036501514	get	new plate	replacement meal	food
+001022	0.002092785036501514	get	new plate	new meal	food
+001023	0.00779547434799991	get	new plate	chef	food
+001024	0.0055522868315346285	get	new plate	chef complaint of food	food
+001025	0.004185570073003028	thank	waitstaff	replacement food	food
+001026	0.0015590948695999817	thank	waitstaff	returns	food
+001027	0.0013539484551640894	thank	waitstaff	issue	food
+001028	0.01895527837229725	thank	waitstaff	waiter	food
+001029	0.014807345946740292	thank	waitstaff	server	food
+001030	0.0055522868315346285	thank	waitstaff	wait staff of problem	food
+001031	0.0	thank	waitstaff	wait for new order	food
+001032	0.0005450744280255425	thank	waitstaff	you	food
+001033	0.001104927715763387	thank	waitstaff	table	food
+001034	0.002467890991123382	thank	waitstaff	flag	food
+001035	0.008371140146006055	thank	waitstaff	new dish	food
+001036	0.012556710219009086	thank	waitstaff	new plate	food
+001037	0.002092785036501514	thank	waitstaff	waiter problem	food
+001038	0.0075793175244911375	thank	waitstaff	problem	food
+001039	0.002092785036501514	thank	waitstaff	good tip	food
+001040	0.002092785036501514	thank	waitstaff	higher tip	food
+001041	0.002092785036501514	thank	waitstaff	chef complaint	food
+001042	0.0015590948695999817	thank	waitstaff	reason	food
+001043	0.0018175922430468004	thank	waitstaff	him	food
+001044	0.004061845365492268	thank	waitstaff	waitress	food
+001045	0.016656860494603888	thank	waitstaff	new plate of food	food
+001046	0.0062904521328369205	thank	waitstaff	server s attention	food
+001047	0.002092785036501514	thank	waitstaff	waitress attention	food
+001048	0.004185570073003028	thank	waitstaff	server s	food
+001049	0.002092785036501514	thank	waitstaff	replacement meal	food
+001050	0.002092785036501514	thank	waitstaff	new meal	food
+001051	0.00779547434799991	thank	waitstaff	chef	food
+001052	0.0055522868315346285	thank	waitstaff	chef complaint of food	food
+001053	0.004185570073003028	ask	her	replacement food	food
+001054	0.0015590948695999817	ask	her	returns	food
+001055	0.0013539484551640894	ask	her	issue	food
+001056	0.01895527837229725	ask	her	waiter	food
+001057	0.014807345946740292	ask	her	server	food
+001058	0.0055522868315346285	ask	her	wait staff of problem	food
+001059	0.0	ask	her	wait for new order	food
+001060	0.0005450744280255425	ask	her	you	food
+001061	0.001104927715763387	ask	her	table	food
+001062	0.002467890991123382	ask	her	flag	food
+001063	0.008371140146006055	ask	her	new dish	food
+001064	0.012556710219009086	ask	her	new plate	food
+001065	0.002092785036501514	ask	her	waiter problem	food
+001066	0.0075793175244911375	ask	her	problem	food
+001067	0.002092785036501514	ask	her	good tip	food
+001068	0.002092785036501514	ask	her	higher tip	food
+001069	0.002092785036501514	ask	her	chef complaint	food
+001070	0.0015590948695999817	ask	her	reason	food
+001071	0.0018175922430468004	ask	her	him	food
+001072	0.004061845365492268	ask	her	waitress	food
+001073	0.016656860494603888	ask	her	new plate of food	food
+001074	0.0031181897391999633	ask	her	waitstaff	food
+001075	0.0062904521328369205	ask	her	server s attention	food
+001076	0.002092785036501514	ask	her	waitress attention	food
+001077	0.004185570073003028	ask	her	server s	food
+001078	0.002092785036501514	ask	her	replacement meal	food
+001079	0.002092785036501514	ask	her	new meal	food
+001080	0.00779547434799991	ask	her	chef	food
+001081	0.0055522868315346285	ask	her	chef complaint of food	food
+001082	0.004185570073003028	order	something	replacement food	food
+001083	0.0015590948695999817	order	something	returns	food
+001084	0.0013539484551640894	order	something	issue	food
+001085	0.01895527837229725	order	something	waiter	food
+001086	0.014807345946740292	order	something	server	food
+001087	0.0055522868315346285	order	something	wait staff of problem	food
+001088	0.0	order	something	wait for new order	food
+001089	0.0005450744280255425	order	something	you	food
+001090	0.001104927715763387	order	something	table	food
+001091	0.002467890991123382	order	something	flag	food
+001092	0.008371140146006055	order	something	new dish	food
+001093	0.012556710219009086	order	something	new plate	food
+001094	0.002092785036501514	order	something	waiter problem	food
+001095	0.0075793175244911375	order	something	problem	food
+001096	0.002092785036501514	order	something	good tip	food
+001097	0.002092785036501514	order	something	higher tip	food
+001098	0.002092785036501514	order	something	chef complaint	food
+001099	0.0015590948695999817	order	something	reason	food
+001100	0.0018175922430468004	order	something	him	food
+001101	0.004061845365492268	order	something	waitress	food
+001102	0.016656860494603888	order	something	new plate of food	food
+001103	0.0031181897391999633	order	something	waitstaff	food
+001104	0.0062904521328369205	order	something	server s attention	food
+001105	0.002092785036501514	order	something	waitress attention	food
+001106	0.004185570073003028	order	something	server s	food
+001107	0.002092785036501514	order	something	replacement meal	food
+001108	0.002092785036501514	order	something	new meal	food
+001109	0.00779547434799991	order	something	chef	food
+001110	0.0055522868315346285	order	something	chef complaint of food	food
+001111	0.004185570073003028	takes	dish	replacement food	food
+001112	0.0015590948695999817	takes	dish	returns	food
+001113	0.0013539484551640894	takes	dish	issue	food
+001114	0.01895527837229725	takes	dish	waiter	food
+001115	0.014807345946740292	takes	dish	server	food
+001116	0.0055522868315346285	takes	dish	wait staff of problem	food
+001117	0.0	takes	dish	wait for new order	food
+001118	0.0005450744280255425	takes	dish	you	food
+001119	0.001104927715763387	takes	dish	table	food
+001120	0.002467890991123382	takes	dish	flag	food
+001121	0.008371140146006055	takes	dish	new dish	food
+001122	0.012556710219009086	takes	dish	new plate	food
+001123	0.002092785036501514	takes	dish	waiter problem	food
+001124	0.0075793175244911375	takes	dish	problem	food
+001125	0.002092785036501514	takes	dish	good tip	food
+001126	0.002092785036501514	takes	dish	higher tip	food
+001127	0.002092785036501514	takes	dish	chef complaint	food
+001128	0.0015590948695999817	takes	dish	reason	food
+001129	0.0018175922430468004	takes	dish	him	food
+001130	0.004061845365492268	takes	dish	waitress	food
+001131	0.016656860494603888	takes	dish	new plate of food	food
+001132	0.0031181897391999633	takes	dish	waitstaff	food
+001133	0.0062904521328369205	takes	dish	server s attention	food
+001134	0.002092785036501514	takes	dish	waitress attention	food
+001135	0.004185570073003028	takes	dish	server s	food
+001136	0.002092785036501514	takes	dish	replacement meal	food
+001137	0.002092785036501514	takes	dish	new meal	food
+001138	0.00779547434799991	takes	dish	chef	food
+001139	0.0055522868315346285	takes	dish	chef complaint of food	food
+001140	0.004185570073003028	tell	chef complaint	replacement food	food
+001141	0.0015590948695999817	tell	chef complaint	returns	food
+001142	0.0013539484551640894	tell	chef complaint	issue	food
+001143	0.01895527837229725	tell	chef complaint	waiter	food
+001144	0.014807345946740292	tell	chef complaint	server	food
+001145	0.0055522868315346285	tell	chef complaint	wait staff of problem	food
+001146	0.0	tell	chef complaint	wait for new order	food
+001147	0.0005450744280255425	tell	chef complaint	you	food
+001148	0.001104927715763387	tell	chef complaint	table	food
+001149	0.002467890991123382	tell	chef complaint	flag	food
+001150	0.008371140146006055	tell	chef complaint	new dish	food
+001151	0.012556710219009086	tell	chef complaint	new plate	food
+001152	0.002092785036501514	tell	chef complaint	waiter problem	food
+001153	0.0075793175244911375	tell	chef complaint	problem	food
+001154	0.002092785036501514	tell	chef complaint	good tip	food
+001155	0.002092785036501514	tell	chef complaint	higher tip	food
+001156	0.0015590948695999817	tell	chef complaint	reason	food
+001157	0.0018175922430468004	tell	chef complaint	him	food
+001158	0.004061845365492268	tell	chef complaint	waitress	food
+001159	0.016656860494603888	tell	chef complaint	new plate of food	food
+001160	0.0031181897391999633	tell	chef complaint	waitstaff	food
+001161	0.0062904521328369205	tell	chef complaint	server s attention	food
+001162	0.002092785036501514	tell	chef complaint	waitress attention	food
+001163	0.004185570073003028	tell	chef complaint	server s	food
+001164	0.002092785036501514	tell	chef complaint	replacement meal	food
+001165	0.002092785036501514	tell	chef complaint	new meal	food
+001166	0.00779547434799991	tell	chef complaint	chef	food
+001167	0.0055522868315346285	tell	chef complaint	chef complaint of food	food
+001168	0.0015590948695999817	try	replacement food	returns	food
+001169	0.0013539484551640894	try	replacement food	issue	food
+001170	0.01895527837229725	try	replacement food	waiter	food
+001171	0.014807345946740292	try	replacement food	server	food
+001172	0.0055522868315346285	try	replacement food	wait staff of problem	food
+001173	0.0	try	replacement food	wait for new order	food
+001174	0.0005450744280255425	try	replacement food	you	food
+001175	0.001104927715763387	try	replacement food	table	food
+001176	0.002467890991123382	try	replacement food	flag	food
+001177	0.008371140146006055	try	replacement food	new dish	food
+001178	0.012556710219009086	try	replacement food	new plate	food
+001179	0.002092785036501514	try	replacement food	waiter problem	food
+001180	0.0075793175244911375	try	replacement food	problem	food
+001181	0.002092785036501514	try	replacement food	good tip	food
+001182	0.002092785036501514	try	replacement food	higher tip	food
+001183	0.002092785036501514	try	replacement food	chef complaint	food
+001184	0.0015590948695999817	try	replacement food	reason	food
+001185	0.0018175922430468004	try	replacement food	him	food
+001186	0.004061845365492268	try	replacement food	waitress	food
+001187	0.016656860494603888	try	replacement food	new plate of food	food
+001188	0.0031181897391999633	try	replacement food	waitstaff	food
+001189	0.0062904521328369205	try	replacement food	server s attention	food
+001190	0.002092785036501514	try	replacement food	waitress attention	food
+001191	0.004185570073003028	try	replacement food	server s	food
+001192	0.002092785036501514	try	replacement food	replacement meal	food
+001193	0.002092785036501514	try	replacement food	new meal	food
+001194	0.00779547434799991	try	replacement food	chef	food
+001195	0.0055522868315346285	try	replacement food	chef complaint of food	food
+001196	0.004185570073003028	request	money	replacement food	food
+001197	0.0015590948695999817	request	money	returns	food
+001198	0.0013539484551640894	request	money	issue	food
+001199	0.01895527837229725	request	money	waiter	food
+001200	0.014807345946740292	request	money	server	food
+001201	0.0055522868315346285	request	money	wait staff of problem	food
+001202	0.0	request	money	wait for new order	food
+001203	0.0005450744280255425	request	money	you	food
+001204	0.001104927715763387	request	money	table	food
+001205	0.002467890991123382	request	money	flag	food
+001206	0.008371140146006055	request	money	new dish	food
+001207	0.012556710219009086	request	money	new plate	food
+001208	0.002092785036501514	request	money	waiter problem	food
+001209	0.0075793175244911375	request	money	problem	food
+001210	0.002092785036501514	request	money	good tip	food
+001211	0.002092785036501514	request	money	higher tip	food
+001212	0.002092785036501514	request	money	chef complaint	food
+001213	0.0015590948695999817	request	money	reason	food
+001214	0.0018175922430468004	request	money	him	food
+001215	0.004061845365492268	request	money	waitress	food
+001216	0.016656860494603888	request	money	new plate of food	food
+001217	0.0031181897391999633	request	money	waitstaff	food
+001218	0.0062904521328369205	request	money	server s attention	food
+001219	0.002092785036501514	request	money	waitress attention	food
+001220	0.004185570073003028	request	money	server s	food
+001221	0.002092785036501514	request	money	replacement meal	food
+001222	0.002092785036501514	request	money	new meal	food
+001223	0.00779547434799991	request	money	chef	food
+001224	0.0055522868315346285	request	money	chef complaint of food	food
+001225	0.012556710219009084	takes	food	replacement food	food
+001226	0.004677284608799946	takes	food	returns	food
+001227	0.004061845365492268	takes	food	issue	food
+001228	0.05686583511689176	takes	food	waiter	food
+001229	0.04442203784022088	takes	food	server	food
+001230	0.016656860494603885	takes	food	wait staff of problem	food
+001231	0.0	takes	food	wait for new order	food
+001232	0.0016352232840766276	takes	food	you	food
+001233	0.0033147831472901614	takes	food	table	food
+001234	0.007403672973370146	takes	food	flag	food
+001235	0.025113420438018168	takes	food	new dish	food
+001236	0.037670130657027255	takes	food	new plate	food
+001237	0.006278355109504542	takes	food	waiter problem	food
+001238	0.022737952573473413	takes	food	problem	food
+001239	0.006278355109504542	takes	food	good tip	food
+001240	0.006278355109504542	takes	food	higher tip	food
+001241	0.006278355109504542	takes	food	chef complaint	food
+001242	0.004677284608799946	takes	food	reason	food
+001243	0.005452776729140401	takes	food	him	food
+001244	0.012185536096476804	takes	food	waitress	food
+001245	0.049970581483811664	takes	food	new plate of food	food
+001246	0.009354569217599891	takes	food	waitstaff	food
+001247	0.01887135639851076	takes	food	server s attention	food
+001248	0.006278355109504542	takes	food	waitress attention	food
+001249	0.012556710219009084	takes	food	server s	food
+001250	0.006278355109504542	takes	food	replacement meal	food
+001251	0.006278355109504542	takes	food	new meal	food
+001252	0.02338642304399973	takes	food	chef	food
+001253	0.016656860494603885	takes	food	chef complaint of food	food

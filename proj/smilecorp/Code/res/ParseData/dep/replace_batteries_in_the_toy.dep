@@ -1,0 +1,721 @@
+amod(batteries-3, new-2)
+dobj(find-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(take-1, batteries-3)
+
+det(toy-3, a-2)
+dobj(find-1, toy-3)
+amod(batteries-6, old-5)
+prep_with(find-1, batteries-6)
+
+det(toy-3, the-2)
+dobj(take-1, toy-3)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+det(toy-6, the-5)
+prep_from(remove-1, toy-6)
+
+amod(batteries-3, new-2)
+dobj(put-1, batteries-3)
+det(toy-6, the-5)
+prep_inside(batteries-3, toy-6)
+
+amod(batteries-3, old-2)
+dobj(put-1, batteries-3)
+det(bin-7, the-5)
+dep(bin-7, recycle-6)
+prep_in(put-1, bin-7)
+
+amod(battery-2, open-1)
+nsubj(cover-3, battery-2)
+
+amod(batteries-3, expired-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(replace-1, batteries-3)
+
+amod(battery-2, close-1)
+nsubj(cover-3, battery-2)
+
+prt(take-1, out-2)
+det(batteries-5, the-3)
+amod(batteries-5, old-4)
+dobj(take-1, batteries-5)
+
+amod(batteries-3, new-2)
+dobj(get-1, batteries-3)
+
+det(batteries-3, the-2)
+iobj(turn-1, batteries-3)
+det(way-6, the-4)
+amod(way-6, right-5)
+dobj(turn-1, way-6)
+det(toy-10, the-9)
+prep_according_to(turn-1, toy-10)
+
+det(batteries-4, the-2)
+amod(batteries-4, new-3)
+dobj(put-1, batteries-4)
+det(toy-7, the-6)
+prep_into(put-1, toy-7)
+
+det(toy-3, the-2)
+dobj(close-1, toy-3)
+
+det(compartment-4, the-2)
+nn(compartment-4, battery-3)
+dobj(locate-1, compartment-4)
+det(toy-7, the-6)
+prep_on(locate-1, toy-7)
+
+det(batteries-4, the-2)
+amod(batteries-4, old-3)
+dobj(remove-1, batteries-4)
+
+amod(batteries-3, new-2)
+dobj(locate-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+det(toy-6, the-5)
+prep_in(place-1, toy-6)
+
+amod(toy-2, open-1)
+nsubj(case-5, toy-2)
+cop(case-5, s-3)
+nn(case-5, battery-4)
+
+amod(batteries-3, old-2)
+dobj(take-1, batteries-3)
+prep_out_of(take-1, toy-6)
+
+prt(pick-1, up-2)
+amod(batteries-4, new-3)
+dobj(pick-1, batteries-4)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+prep_in(place-1, toy-5)
+
+amod(toy-2, close-1)
+nsubj(case-5, toy-2)
+cop(case-5, s-3)
+nn(case-5, battery-4)
+
+nn(compartment-3, battery-2)
+dobj(open-1, compartment-3)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, fresh-2)
+dobj(install-1, batteries-3)
+
+nn(compartment-3, battery-2)
+dobj(close-1, compartment-3)
+
+nn(compartment-3, batteries-2)
+dobj(open-1, compartment-3)
+prep_in(open-1, toy-5)
+
+amod(batteries-3, old-2)
+dobj(trash-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(get-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(put-1, batteries-3)
+
+amod(batteries-2, close-1)
+nsubj(compatment-3, batteries-2)
+prep_in(compatment-3, toy-5)
+
+nn(cover-3, battery-2)
+dobj(remove-1, cover-3)
+
+dobj(remove-1, batteries-2)
+prep_from(remove-1, toy-4)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+prep_inside(batteries-3, toy-5)
+
+advmod(place-1, back-2)
+dep(place-1, cover-3)
+
+dobj(get-1, toy-2)
+
+nn(case-3, battery-2)
+dobj(open-1, case-3)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-4, new-3)
+prep_in(put-1, batteries-4)
+
+nn(case-3, battery-2)
+dobj(close-1, case-3)
+
+nn(compartment-3, battery-2)
+dobj(find-1, compartment-3)
+
+nn(compartment-3, battery-2)
+dobj(open-1, compartment-3)
+
+dobj(take-1, batteries-2)
+prt(take-1, out-3)
+
+amod(batteries-3, new-2)
+dobj(get-1, batteries-3)
+det(kind-7, the-5)
+amod(kind-7, same-6)
+prep_of(batteries-3, kind-7)
+
+amod(batteries-3, new-2)
+dobj(put-1, batteries-3)
+prep(put-1, in-4)
+
+nn(compartment-3, battery-2)
+dobj(close-1, compartment-3)
+
+det(compartment-4, the-2)
+nn(compartment-4, battery-3)
+dobj(open-1, compartment-4)
+det(toy-7, the-6)
+prep_on(open-1, toy-7)
+
+det(batteries-4, the-2)
+amod(batteries-4, old-3)
+dobj(remove-1, batteries-4)
+det(toy-7, the-6)
+prep_from(remove-1, toy-7)
+
+det(package-5, the-2)
+amod(package-5, new-3)
+nn(package-5, battery-4)
+dobj(open-1, package-5)
+
+det(batteries-4, the-2)
+amod(batteries-4, new-3)
+dobj(remove-1, batteries-4)
+det(package-7, the-6)
+prep_from(remove-1, package-7)
+
+det(batteries-4, the-2)
+amod(batteries-4, new-3)
+dobj(place-1, batteries-4)
+det(toy-7, the-6)
+prep_into(place-1, toy-7)
+
+det(toy-3, the-2)
+dobj(locate-1, toy-3)
+
+det(batteries-3, the-2)
+dobj(locate-1, batteries-3)
+
+aux(locate-3, to-2)
+xcomp(attempt-1, locate-3)
+nn(batteries-5, replacement-4)
+dobj(locate-3, batteries-5)
+det(type-9, the-7)
+amod(type-9, same-8)
+prep_of(batteries-5, type-9)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+det(toy-6, the-5)
+prep_from(remove-1, toy-6)
+
+amod(batteries-3, new-2)
+dobj(insert-1, batteries-3)
+det(toy-6, the-5)
+prep_in(insert-1, toy-6)
+
+det(compartment-3, the-2)
+dobj(finding-1, compartment-3)
+advmod(kept-8, where-4)
+rel(kept-8, where-4)
+det(batteries-6, the-5)
+nsubjpass(kept-8, batteries-6)
+auxpass(kept-8, are-7)
+rcmod(compartment-3, kept-8)
+
+prt(taking-1, out-2)
+det(batteries-5, the-3)
+amod(batteries-5, old-4)
+dobj(taking-1, batteries-5)
+
+nn(case-3, battery-2)
+dobj(open-1, case-3)
+prep_with(open-1, screwdriver-5)
+nsubj(needed-7, if-6)
+rcmod(screwdriver-5, needed-7)
+
+amod(batteries-3, old-2)
+dobj(take-1, batteries-3)
+prt(take-1, out-4)
+
+amod(batteries-4, old-3)
+prep_of(dispose-1, batteries-4)
+
+dobj(follow-1, +-2)
+dobj(follow-1, directions-5)
+conj_and(+-2, directions-5)
+det(toy-8, the-7)
+prep_inside(directions-5, toy-8)
+
+amod(batteries-3, new-2)
+dobj(put-1, batteries-3)
+prep(put-1, in-4)
+
+dobj(replace-1, cover-2)
+nn(case-5, battery-4)
+prep_for(replace-1, case-5)
+
+amod(batteries-3, new-2)
+dobj(get-1, batteries-3)
+
+dobj(get-1, toy-2)
+
+dobj(open-1, toy-2)
+
+dobj(remove-1, batteries-2)
+
+amod(batteries-3, new-2)
+dobj(insert-1, batteries-3)
+
+dobj(close-1, toy-2)
+
+det(toy-3, the-2)
+dobj(get-1, toy-3)
+
+nn(holder-3, battery-2)
+dobj(open-1, holder-3)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+
+nn(holder-3, battery-2)
+dobj(close-1, holder-3)
+
+dobj(locate-1, batteries-2)
+
+dobj(locate-1, toy-2)
+
+nn(compartment-4, toy-2)
+nn(compartment-4, battery-3)
+dobj(open-1, compartment-4)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+prepc_by(remove-1, prising-5)
+dobj(prising-5, them-6)
+prt(prising-5, out-7)
+
+amod(batteries-3, new-2)
+dobj(fit-1, batteries-3)
+
+nn(door-4, battery-2)
+nn(door-4, compartment-3)
+dobj(close-1, door-4)
+
+prep_on(turn-1, toy-3)
+aux(check-5, to-4)
+xcomp(turn-1, check-5)
+nsubj(working-8, it-6)
+aux(working-8, is-7)
+ccomp(check-5, working-8)
+advmod(working-8, again-9)
+
+nn(compartment-3, battery-2)
+dobj(open-1, compartment-3)
+
+prt(take-1, out-2)
+amod(batteries-4, old-3)
+dobj(take-1, batteries-4)
+
+amod(batteries-3, new-2)
+dobj(find-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+prep_in(place-1, compartment-5)
+
+nn(compartment-3, battery-2)
+dobj(close-1, compartment-3)
+
+dobj(get-1, batteries-2)
+partmod(batteries-2, needed-3)
+prep_for(needed-3, toy-5)
+
+nn(shield-3, battery-2)
+dobj(open-1, shield-3)
+prep_from(open-1, toy-5)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+mark(are-6, if-4)
+nsubj(are-6, they-5)
+advcl(remove-1, are-6)
+advmod(are-6, there-7)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+prep_in(place-1, toy-5)
+
+nn(shield-3, battery-2)
+dobj(close-1, shield-3)
+
+mark(works-4, if-2)
+nsubj(works-4, toy-3)
+advcl(check-1, works-4)
+amod(batteries-7, new-6)
+prep_with(works-4, batteries-7)
+
+nn(cover-3, battery-2)
+dobj(remove-1, cover-3)
+
+dobj(find-1, batteries-2)
+amod(size-5, correct-4)
+prep_of(batteries-2, size-5)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(install-1, batteries-3)
+
+dobj(replace-1, cover-2)
+
+amod(batteries-3, old-2)
+dobj(recycle-1, batteries-3)
+
+dobj(open-1, toy-2)
+
+prt(take-1, out-2)
+dobj(take-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(put-1, batteries-3)
+prep(put-1, in-4)
+
+nn(panel-3, battery-2)
+dobj(close-1, panel-3)
+
+prep_with(play-1, toy-3)
+
+amod(battery-2, open-1)
+nsubj(cover-3, battery-2)
+
+amod(batteries-3, current-2)
+dobj(remove-1, batteries-3)
+
+amod(type-4, same-3)
+prep_with(replace-1, type-4)
+prep_of(type-4, battery-6)
+
+nn(cover-3, battery-2)
+dobj(replace-1, cover-3)
+
+nn(compartment-3, battery-2)
+dobj(open-1, compartment-3)
+prep_on(open-1, toy-5)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-4, identical-2)
+amod(batteries-4, new-3)
+dobj(find-1, batteries-4)
+
+dobj(discern-1, placement-2)
+prep_of(placement-2, batteries-4)
+
+dobj(place-1, batteries-2)
+prep_inside(place-1, toy-4)
+
+dobj(close-1, lid-2)
+
+dobj(check-1, operation-2)
+
+prt(pick-1, up-2)
+det(toy-4, the-3)
+dobj(pick-1, toy-4)
+
+det(compartment-4, the-2)
+nn(compartment-4, battery-3)
+dobj(open-1, compartment-4)
+
+det(batteries-4, the-2)
+amod(batteries-4, old-3)
+dobj(remove-1, batteries-4)
+
+det(batteries-4, some-2)
+amod(batteries-4, new-3)
+dobj(find-1, batteries-4)
+
+det(batteries-4, the-2)
+amod(batteries-4, new-3)
+dobj(put-1, batteries-4)
+det(compartment-8, the-6)
+nn(compartment-8, battery-7)
+prep_in(put-1, compartment-8)
+
+det(compartment-4, the-2)
+nn(compartment-4, battery-3)
+dobj(close-1, compartment-4)
+
+nn(compartment-3, battery-2)
+dobj(open-1, compartment-3)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(insert-1, batteries-3)
+
+nn(compartment-3, battery-2)
+dobj(close-1, compartment-3)
+
+prep_on(turn-1, toy-3)
+
+dobj(get-1, screwdriver-2)
+
+amod(battery-2, unscrew-1)
+nsubj(cover-3, battery-2)
+
+amod(cells-3, old-2)
+dobj(remove-1, cells-3)
+
+prt(clean-1, out-2)
+nn(case-4, battery-3)
+dobj(clean-1, case-4)
+
+amod(batteries-3, fresh-2)
+dobj(find-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(install-1, batteries-3)
+
+advmod(cover-2, rescrew-1)
+dobj(cover-2, lid-3)
+
+prt(take-1, out-2)
+det(batteries-5, the-3)
+amod(batteries-5, old-4)
+dobj(take-1, batteries-5)
+
+det(size-4, the-3)
+prep_at(look-1, size-4)
+
+dobj(get-1, 2-2)
+det(size-6, the-4)
+amod(size-6, same-5)
+prep_of(2-2, size-6)
+
+det(ones-4, the-2)
+amod(ones-4, new-3)
+dobj(put-1, ones-4)
+prepc_in(put-1, facing-6)
+det(way-9, the-7)
+amod(way-9, same-8)
+dobj(facing-6, way-9)
+
+dobj(open-1, cover-2)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+prep_with(place-1, +-5)
+prepc_at(place-1, +-7)
+dobj(+-7, and-8)
+prep(+-7, at-10)
+
+prt(pick-1, up-2)
+det(toy-4, the-3)
+dobj(pick-1, toy-4)
+
+det(compartment-4, the-2)
+nn(compartment-4, battery-3)
+dobj(open-1, compartment-4)
+
+det(batteries-3, the-2)
+dobj(remove-1, batteries-3)
+
+det(batteries-4, the-2)
+amod(batteries-4, used-3)
+dobj(discard-1, batteries-4)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+det(compartment-7, the-5)
+nn(compartment-7, battery-6)
+prep_in(place-1, compartment-7)
+
+det(compartment-4, the-2)
+nn(compartment-4, battery-3)
+dobj(close-1, compartment-4)
+
+nn(compartment-3, battery-2)
+dobj(locate-1, compartment-3)
+prep_on(locate-1, toy-5)
+
+dobj(identify-1, type-2)
+prep_of(type-2, screwdriver-4)
+partmod(type-2, required-5)
+
+amod(screwdriver-3, correct-2)
+dobj(retrieve-1, screwdriver-3)
+
+amod(battery-2, unscrew-1)
+nsubj(cover-3, battery-2)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(insert-1, batteries-3)
+
+dobj(replace-1, cover-2)
+
+nn(cover-3, battery-2)
+dobj(remove-1, cover-3)
+
+amod(batteries-3, dead-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, fresh-2)
+dobj(place-1, batteries-3)
+det(toy-6, the-5)
+prep_into(place-1, toy-6)
+
+det(cover-4, the-2)
+nn(cover-4, battery-3)
+dobj(replace-1, cover-4)
+
+nn(cover-3, battery-2)
+dobj(remove-1, cover-3)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(insert-1, batteries-3)
+
+nn(cover-3, battery-2)
+dobj(replace-1, cover-3)
+
+det(case-3, the-2)
+dobj(opening-1, case-3)
+
+dobj(remove-1, batteries-2)
+
+prt(put-1, back-2)
+amod(ones-4, new-3)
+dobj(put-1, ones-4)
+
+dobj(close-1, case-2)
+
+nn(hole-3, battery-2)
+dobj(open-1, hole-3)
+
+amod(batteries-3, dead-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-4, dead-3)
+prep_of(dispose-1, batteries-4)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+prep_in(place-1, hole-5)
+
+dobj(replace-1, cover-2)
+
+prt(test-1, out-2)
+det(batteries-5, the-3)
+amod(batteries-5, new-4)
+dobj(test-1, batteries-5)
+
+amod(packaging-4, discarded-3)
+prep_of(dispose-1, packaging-4)
+
+dobj(get-1, screwdriver-2)
+
+det(screw-3, the-2)
+dobj(unscrew-1, screw-3)
+
+det(compartment-4, the-2)
+nn(compartment-4, battery-3)
+dobj(open-1, compartment-4)
+
+dobj(remove-1, battery-2)
+
+amod(battery-3, new-2)
+dobj(put-1, battery-3)
+prep(put-1, in-4)
+
+dobj(close-1, compartment-2)
+
+det(screw-4, the-3)
+prep_in(screw-1, screw-4)
+
+
+amod(batteries-3, old-2)
+dobj(take-1, batteries-3)
+prt(take-1, out-4)
+
+amod(batteries-3, new-2)
+dobj(get-1, batteries-3)
+
+dobj(get-1, toy-2)
+
+amod(battery-2, open-1)
+nsubj(cover-3, battery-2)
+prep_on(cover-3, toy-5)
+
+dobj(remove-1, batteries-2)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+prep_in(place-1, toy-5)
+
+nn(cover-3, battery-2)
+dobj(replace-1, cover-3)
+prep_on(replace-1, toy-5)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(insert-1, batteries-3)
+
+dobj(open-1, toy-2)
+
+amod(batteries-3, old-2)
+dobj(remove-1, batteries-3)
+
+amod(batteries-3, new-2)
+dobj(place-1, batteries-3)
+
+amod(battery-2, removing-1)
+nsubj(cover-3, battery-2)
+
+amod(batteries-3, old-2)
+dobj(removing-1, batteries-3)
+
+amod(batteries-4, new-3)
+prep_in(putting-1, batteries-4)
+
+amod(battery-2, replacing-1)
+nsubj(cover-3, battery-2)
+

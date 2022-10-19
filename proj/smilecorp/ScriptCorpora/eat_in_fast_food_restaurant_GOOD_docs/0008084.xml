@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0008084" url="http://www.phonelosers.org/2008/03/how-to-hijack-fast-food-drive-thru-frequencies/" time="2012-07-13-01:09" support="12" score="0.021094633783733784" bingtitle="How To Hijack Fast Food Drive-Thru Frequencies « Phone Losers of ..." webtitle="How To Hijack Fast Food Drive-Thru Frequencies | Phone Losers of America">
+			<query id="000176" bing-rank="181"/>
+			<query id="001511" bing-rank="140"/>
+			<query id="001449" bing-rank="74"/>
+			<query id="000037" bing-rank="106"/>
+			<query id="000443" bing-rank="75"/>
+			<query id="000425" bing-rank="202"/>
+			<query id="000435" bing-rank="236"/>
+			<query id="000186" bing-rank="232"/>
+			<query id="000456" bing-rank="203"/>
+			<query id="000412" bing-rank="38"/>
+			<query id="000163" bing-rank="28"/>
+			<query id="000726" bing-rank="104"/>
+	<description>... the transmit frequencies and the receive ... just take the modified CB radio to a fast food ... huge CB antenna on the roof of my car which might be noticed if a fast food ...</description>
+	<body>
+		Main menu
+ Skip to primary content Skip to secondary content 
+ Home Prank Calls Forums Store Podcasts Social 
+ Facebook TinyChat Twitter YouTube Google+ Flickr DeviantArt Reddit Yahoo Group Myspace Live Journal 
+ Music PLA Stuff Read Other Options 
+ Contact Us 
+ 
+ Search 
+ What happened to all the members on TheN\&apos;s After the Tone 
+ 
+Post navigation
+ ← Previous Next → 
+How To Hijack Fast Food Drive-Thru Frequencies
+ Posted on March 31, 2008 by rbcp 
+A few years back, some friends and I were messing around with a Taco Bell’s drive-thru frequencies. RijilV and isotek showed me how easy it was to hijack the frequencies of just about any fast food restaurant with a very simple mod to a ham radio. The radios they used were Yaesu VX-5 and VX-7 models. We had a few weeks of occasional fun, sitting a few parking lots away and saying all kinds of horrible things to potential fast food customers. For the most part, I didn’t record any of it. But you can find a few clips of our fast food hijinks if you scroll down on the PLA Sound Clips Archive page .
+
+Finally we decided to capture a bit of our FCC violations on video. But instead of capturing actual customers being harassed by us as they placed an order, I drove through the Taco Bell drive-thru myself with a video camera sitting on the dashboard. As I attempted to place my order, RijilV informed me of some crazy new Taco Bell policies and a manager immediately rushed out to explain to me that I wasn’t actually talking to an employee. Here is that video:
+
+ 
+
+After spending several years on Google Video and YouTube, it’s been watched approximately 20,000 times. And of those 20,000 people who have viewed it, approximately all of them have emailed me and asked me what kind of radio we used and how can they use a radio to do the same thing. So in the spirit of April 1st and in order to quell the number of emails sent to me and posts on the PLA Forums asking the same thing, I’ve decided to write this tutorial to help those people out.
+
+ 
+ Secret I-Hacked.com Entry Form 
+ 
+
+Congrats, you found a secret i-hacked partner site giving away an additional free Defcon Contest entry!
+(there are 4 other secret sites)
+
+All you have to do is enter your twitter handle below, and then tweet the“secret phrase”that is shown to you.
+
+ Twitter Handle: 
+ 
+ 
+ 
+
+But I’m not going to explain how to modify a Yaesu VX5 or a Yaesu VX7. A simple Google search will show you how to modify these ham radios. The problem with these mods is that, even though they’re fairly simple, you have to buy the radios which could cost you anywhere from $200–$400. Then, after removing a couple solder points, you have to learn how to use it, you have to look up fast food frequency lists , you have to understand the difference between the transmit frequencies and the receive frequencies and you have to scroll through PL tones using trial and error to find the correct one.
+
+ 
+
+Or how about we do this a different way. A way that uses a couple items that you might already have in your home. You can easily modify most old CB radios in a way that will allow them to transmit directly to drive-thru frequencies. You won’t have to scroll through hundreds of possible drive-thru frequencies, because a CB radio’s channels line up in exactly the same way as most drive-thru’s channels, only at a higher frequency. How do you get your CB radio to run at a higher frequency? A simple replacement of the crystal inside, with a 6.5536 MHz crystal. This triples the megahertz that are broadcast on and there is no learning required. You just take the modified CB radio to a fast food restaurant and start broadcasting to the customers.
+
+ “But RBCP, I don’t have a 6.5536 MHz crystal lying around my house,”you might be whining at this point. But this isn’t true. Just about any house has several 6.5536 MHz crystals in them if you know where to look. This just happens to be the exact same crystal that you can find in electric heaters, hair dryers, electric stoves, curling irons, electric hot water heaters, irons, and toasters. These crystals are in just about any item that has heated coils and are used to control the frequency of the heating elements so that they don’t burn your house down.
+
+So for this modification you need…
+
+ 1 CB radio. It has to be a 40 channel CB radio with a digital display, which includes just about any CB radio manufactured after the mid 1980′s. The old 23 channel CBs from the 1970′s will not work. It can even be a walkie talkie CB radio. If you don’t have one, you can find one at Goodwill or a yard sale for probably less than $10.
+ 1 toaster. (Or other item with heating elements inside.) A toaster is the most ideal to use, because it’s almost guaranteed to have the crystal inside of it. It’s more common to find curling irons and hair dryers that don’t. Again, it should be a toaster manufactured within the past 20 years or so. Before that they didn’t have crystal requirements for toaster manufacturers. (And incidentally, there were a lot more electrical house fires back then.) Goodwill will probably have a toaster for less than $10.
+ 1 soldering iron and solder. Don’t worry if you don’t have soldering experience. It’s actually pretty easy. Click here for a soldering tutorial . You can purchase a soldering iron at Radio Shack or Sears for about $10.
+ A few screwdrivers
+
+Even if you have to buy all these materials, you’re only out $30. That’s a lot better than the $300 you might end up spending on a Yaesu radio. And some of you might already have all these items so you don’t have to pay anything. Ask a friend or a relative if they’ve got an old toaster or CB radio lying around that they don’t need.
+
+First you’ll want to take apart your toaster. This isn’t too hard. Just flip it upside down and start removing the screws. You’ll probably need to pull off the plastic lever and knobs before you remove the top of the toaster. Once you have the top off, you’ll see a green or brown circuit board inside.
+
+ 
+
+Flip the circuit board down and you’ll see all the components on the other side, including the 6.5536 MHz crystal. The crystal is silver and will have 6.5 stamped on the side of it. In the picture below, I’ve used an arrow to show you where it’s located.
+
+ 
+
+The crystal is likely in a different spot in other toasters, but it’s hard to mistake for any other electronic component. The crystal will have some form of 6.5 stamped on the side of it. In my toaster, it showed 6.55-12. While the official frequency needed is 6.5536 MHz, anything within 1.6 megahertz will work. So don’t worry if your crystal just says 6.5 or 6.50–it’s all the same for our purposes.
+
+ 
+
+It’s kind of hard to see what I’m doing in the picture above, but I’m heating up the leads on the crystal from underneath with my soldering iron to melt the solder, and I’m pulling on the crystal from above with a pair of needle nose pliers. It only takes a few seconds to get the crystal out of the toaster.
+
+ 
+
+Now that the crystal is out of your toaster, throw your toaster away! Do not attempt to use it once the crystal is removed. Remember, the crystal is in there for safety and using your toaster without the crystal could burn your toast and/or start a kitchen fire. It’s likely your toaster won’t even turn on with the missing crystal, but please don’t even try. Just throw it away.
+
+ 
+
+As I mentioned before, just about any brand and model of CB radio will work, as long as it has the digital display on it. Which means, just about any CB radio manufactured after the mid 1980′s. These are the kinds of CB radios whose frequencies are controlled by a single crystal inside of them. For my mod, I used a Radio Shack TRC-207 walkie talkie CB radio, which is pictured above. I prefer using a walkie talkie CB radio because it doesn’t requiring sticking a huge CB antenna on the roof of my car which might be noticed if a fast food employee starts looking around the parking lot for the culprits.
+
+ 
+
+Taking apart your CB radio is just as easy as taking apart the toaster. Remove the screws and pop it open. You may or may not have to lift up the circuit board inside to find the crystal inside. In my particular model, the crystal actually plugged into a socket so I didn’t need to even desolder the old crystal. I just pulled it out with my fingers and then plugged in the new 6.55 MHz crystal. I don’t know how common this is, because in other CB radios that I’ve modified the crystal was soldered to the circuit board, just like in the toaster.
+
+ 
+
+Put your CB back together and test it to make sure it’s working. You’re finished! Obviously, you won’t be able to talk on normal CB channels anymore since your CB is transmitting and receiving at a much higher frequency now. But who cares, CB channels are lame anyway. Let’s hop in the car and drive to our nearest fast food establishment to test it out.
+
+Sit near the drive-thru and wait for a customer to pull up. While the customer is talking to the drive-thru speaker, start flipping through your channels until you hear them talking. I’ve found that most drive thrus end up being somewhere in the 16–25 channel range. I’ve never found one above channel 30 and only a few on channels 1 through 15. It all depends on how their drive-thru is set up and what frequencies they’re using. Anyway, push down your talk button and start talking to the customer.
+
+The cool thing about using a CB radio to transmit on drive-thru frequencies is that a CB is designed to work for several miles. The headsets that those fast food people wear are only designed to work for about 100 feet. So you can easily overpower the employees, even if you’re several parking lots away. In fact, you may be inadvertently screwing with several other drive-thrus in town without even knowing it. This is more likely when you’re using the kind of CB radio that’s supposed to be installed in a car. Those usually run on 5 watts and can cover an entire city. This is another reason I like to use my walkie talkie. It’s lucky if it will work for even a mile, so I’m only harassing one restaurant at a time.
+
+If you found this tutorial useful, you might also enjoy the video I’ve made on the same subject. It includes much of the same information in this tutorial, but also includes actual footage of us messing with a drive-thru with this CB mod. Enjoy!
+
+ 
+
+You might also enjoy our original Taco Bell Takeover video , our Happy Birthday drive-thru video and our Drive-Thru Shenanigans video .
+ PLA TV: Hijacking Fast Food Frequencies [ 9:12 ] Download (7751) This entry was posted in Pranks by rbcp . Bookmark the permalink . 
+24 thoughts on“ How To Hijack Fast Food Drive-Thru Frequencies ”
+
+ nova on April 1, 2008 at 10:51 am said: 
+Thanks brad! i did this and i have already closed down 3 drivethru’s FOREVER!
+ Josh on April 3, 2008 at 1:40 pm said: 
+Brilliant stuff, i love the video’s.
+ Chartreuse on April 8, 2008 at 10:42 pm said: 
+Something about that crystal you are using sounds familiar…I think it had to do with a Radio shack Tone Dialler :)
+ mattedge on April 9, 2008 at 12:21 pm said: 
+this sucks, i bought a brand new cb radio from radio shack and it didn’t even have the crystal in it, not only that but i bought a brand new toaster from wal-mart and it didn’t have a crystal in it either.
+WHAT THE HELL!
+ Recycle on April 9, 2008 at 8:58 pm said: 
+Throw away the toaster? Dude! No!
+
+Are you going to be connected to the internet through an el-cheapo router, or through an internet toaster? Easy choice on any day but Monday.
+ t.j. on April 11, 2008 at 4:18 am said: 
+Thats because its not real you fucking morons………
+ Chartreuse on April 13, 2008 at 9:40 am said: 
+This can work. Some toasters DO have a crystal in them and SOME CB radios have a crystal in them, in fact most CB radios have a different value of a crystal than RBCP’s. So you have to find a crystal with the appropriate value in it. This may or may not be a joke but it still has some correctness to it.
+ mh on April 18, 2008 at 10:52 am said: 
+i did everything but it still wont work, i unsaughtered and resaughtered the correct crystal in a cobra cb radio. why wont it work?
+ Kaymon on April 21, 2008 at 9:18 am said: 
+April 1 isn’t the best day to take notes, people.
+ Comeau on May 13, 2008 at 8:35 am said: 
+Yeah.. not sure what to think of this now.. I bought the CB radio new, it was exactly as described.. a“midland”to be exact. It has the 40 channel display on the front and all that. I also bought a bunch of 6.5536 crystals brand new from digi-key and was extremely carefull installing them so not to damage anything on the solder board. Still doesn’t work. Picks up absolutely nothing, and I tried every fast food joint in town.
+ Rodney on May 14, 2008 at 3:01 pm said: 
+Wait, does this actually work or not?
+ Magic Man on June 1, 2008 at 7:41 pm said: 
+In my past, I have done this with a modified HAM radio. Another thing that I have done is used my radio as a repeater and set the local police freq as the input and Taco Bell as the output, so EVERYTIME the cops did anything on the radio, Taco Bell got to hear it. I live near the Toxic Hell, so I let it for for about 2 weeks. The police were getting called all of the time by Taco Bell because of their radio“skip.”The P.D. recently went to 800mhz, so I can’t do it anymore, but the FD and school bus garage are still accessible to me.
+ You All Stupid on June 16, 2008 at 2:57 pm said: 
+This is fake anyways- crystal or no crystal–drive thrus also use a sub tone called CTCSS….each uniquly programmed- the speaker outside of the drivethru matches the employees radio headset with this subtone- and will not take any traffic with out it:
+
+ http://en.wikipedia.org/wiki/CTCSS 
+
+This whole thing is a scam- yaesu or icom modded radios- google it…..CB’s have no CTCSS capibilities….
+ Eric on June 30, 2008 at 8:31 pm said: 
+How the hell do you“Suaghter”or“desaughter”something? I dont think you belong anywhere near a soldering iron my friend…
+
+I can’t believe how many people actually bought this…
+ James on August 10, 2008 at 11:07 am said: 
+I bought a hairdryer new, no crystal. Got an old hairdryer from my sister no crystal. And after reading these comments I think this is a joke. To bad I already spent a bunch of cash on a nice cb radio
+ jeff schefke KD8HLN on August 20, 2008 at 4:43 pm said: 
+well it may work depending on the radio you have to replace the 10.24 or 10.240 crystal now this a part 97 crime and the fcc can find you so dont do it i did it works but i DO NOT use it
+ jeff schefke KD8HLN on September 24, 2008 at 1:34 pm said: 
+ps its all crap
+ JOrdan on February 7, 2009 at 1:13 pm said: 
+I purchased a realistic trc-207, the exact model you have for your video tutorial. it was used, and when i opened it up, the inside looks the same as yours in the video/pictures, except no crystal (Actually i cant find it anywhere, so lets assume that the original owner removed it). i picked up the replacement crystal needed, but there isnt actually any port on the board to plug into. i’ll include an imageshack link to photos, maybe you can help. the area where it looks like you plugged into, i tried plugging in, but its not snug, and its pretty much just empty space in there.
+ http://img504.imageshack.us/img504/3048/dsc01812sf7.jpg 
+
+any help at all would be greatly appreciated.
+ darksid3one on May 10, 2009 at 11:53 pm said: 
+^^^^ i fgured it out i put video of it here
+
+ http://goatseemarathon.com 
+ Andy on July 3, 2009 at 8:25 pm said: 
+this is false but not impossible. if you can somehow figure out the freq the drive through is at (i.e. with a scanner) you can then buy the appropriate crystal and put it into a cb with a socket. mines around 38mhz for refs
+ RogerBird on April 13, 2011 at 6:46 pm said: 
+actually,all cb radios use a crystal to gain the”vibrations”needed to get the frequency operational. its a quartz crystal and is labeled 10.240 Mhz. the reason you cant find it in the CB walkie-talkie it’s because is SOLDERED INTO THE BOARD an it can be seen by removing the display board screws. by the way, drive thru radios operates on FM,like the yaesu HandHeld, while the CB operates in AM..kinda difficult to understand how they got the prank done with the cb radio…
+ 1Upper on July 31, 2011 at 8:03 am said: 
+Well done guys.. you did the impossible. You made people think they were IN on the joke, and you made THEM the joke. I wish I knew you guys. I would definitely buy you some beers :)
+ blackowl6 on September 26, 2011 at 12:19 am said: 
+Very nice,this is one neat idea,I’ll be sure not to share!
+ Anon on January 9, 2012 at 6:17 pm said: 
+lol at the first poster. I hope he’s only trying to continue the joke. I saw on a youtube post some guy was bragging about all the goodwill toasters he scooped up. This is cruel and unusual punishment..Robert Harris style
+ 
+ 
+Leave a Reply Cancel reply 
+ 
+Your email address will not be published. Required fields are marked * 
+
+ Name * 
+
+ Email * 
+
+ Website 
+
+ Comment 
+
+You may use these HTML tags and attributes: &lt;a href=&quot;&quot;title=&quot;&quot;&gt;&lt;abbr title=&quot;&quot;&gt;&lt;acronym title=&quot;&quot;&gt;&lt;b&gt;&lt;blockquote cite=&quot;&quot;&gt;&lt;cite&gt;&lt;code&gt;&lt;del datetime=&quot;&quot;&gt;&lt;em&gt;&lt;i&gt;&lt;q cite=&quot;&quot;&gt;&lt;strike&gt;&lt;strong&gt; 
+
+ 
+
+ 
+ 
+Links to PLA&apos;s BFFs
+
+ Jeremy&apos;s House of Funny Rappy McRapperson Right Where You Are Sitting Now TheN&apos;s After The Tone This Is A Recording WeakNet Laboratories 
+ 
+ Latest Forum Posts 
+
+ Re: Whats the PLA Voice Bridge #? TheN&apos;s bridge number is 253-397-1819, which is what I&apos;ve been listing as the official number lately.  Even though nobody calls it and we just hang out on Skype all the time. […] Re: Whats the PLA Voice Bridge #? Pretty sure they do that all over Skype. Just call phonelosers.org on skype or 505-796-4020 during the show. You know, like it says in the box up there while the show is on... […] Re: Sandy Chapin where are you! So far zero seeds. Not working, damn. I was personal friends with the guy who does the calls but I lost contact with him over time. Very unfortunate. I loved these calls […] Re: PLA people opening mail from PLA people My mail is getting weirder. […] Re: Some more twitter hastags to troll https://twitter.com/#!/search/realtime/%23KC […] 
+ 
+ The Phone Show 
+
+ 07-03-2012 – Aftershow This after show is over 2 hours long and mostly consists of us calling up a bunch of Carl’s Jrs and arguing with them about the details of their Spiderman contest. Below is the video of RBCP visiting a couple locations in his Peter Parker costume the following day. […] 07-03-2012 – Brought to you by Carl’s Jr. Here’s the video where a guy calls Laugh Track Matt Jar Jar Binks. World premiere of BrrrStickem’s new hit single! This song will be added to phonelosers.org/songs/ eventually. Join us every Monday night for movie night! Broadcasting on Blue Planet Prank Radio, Madhouse Live and Cacti Radio Here’s the promo video for the Carl’s Jr. […] 
+ 
+Recent Posts
+
+ PLA Paper Archives Own A Piece of PLA Memorabilia Tons of New YouTube Videos Button Contest Winner for April 2012 2012 PLA Tour Shirts Available 
+ 
+Recent Comments
+
+ trevOr on PLA’s Online Store kuraz on PLA’s Online Store rbcp on PLA’s Online Store kuraz on PLA’s Online Store firewife11 on PLA Issue #14: The Adventures of Dino Jay Hova on Apartment Manager Prank Calls Legion303 on PLA’s Online Store Legion303 on PLA Paper Archives &quot;Roy&quot; on Fun at Wal-Mart Stanley on PLA Issue #13: Petty Scams&amp;Telephone Tricks 
+ 
+Posts by Categories
+ Select Category BNF  (3) Cacti Radio  (1) Cactus?  (2) Comics  (1) Cons  (8) Contests  (10) Dear Arby  (4) Hacker Cons  (8) Miscellaneous  (16) Music  (4) Phone Mobbing  (1) PLA Artwork  (6) PLA Book  (3) PLA Events  (12) PLA Merchandise  (24) PLA Radio  (36) PLA Stuff  (17) PLA TV  (16) Plug  (6) Prank Calls  (28) Pranks  (12) products  (1) Telephone  (5) The Phone Show  (16) Uncategorized  (44) United Phone Losers  (1) Website Updates  (23) 
+Our Sponsors
+
+The text links and other ads below help pay for our hosting and crack cocaine bills. They are probably not affiliated with PLA in any way. If you&apos;d like your own link to appear somewhere on this page, then visit our advertising page .
+
+ Cell Phone Reverse 
+ Free Conference Calling Join the other countless businesses that are saving time and money by freeing up their phone lines!
+ Reverse Cell Phone Lookup Run a free reverse cell phone lookup to find information on any phone number including owner information. Try the premium reverse phone lookup to find additional information on any phone number.
+
+ Phone Number Searches 
+
+ phone psychics 
+
+ record calls 
+
+ Spoofcard Fake your caller ID. Have any number appear on the caller ID of the person you are calling. Plus free voice changer and call recording.
+
+
+Buying stuff from Amazon via the search box below, greatly increases the number of hookers RBCP is able to buy in a given week. Please think of him before making a purchase on Amazon.
+
+ Amazon.com Widgets 
+ ©2012 Phone Losers of America Admired Theme
+	</body>
+</document>

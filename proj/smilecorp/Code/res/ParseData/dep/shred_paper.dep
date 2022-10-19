@@ -1,0 +1,460 @@
+dobj(turn-1, shreder-2)
+prt(turn-1, on-3)
+
+dobj(put-1, paper-2)
+prep_in(put-1, shreder-4)
+
+dobj(turn-1, shreder-2)
+prt(turn-1, off-3)
+
+det(paper-3, the-2)
+dobj(taking-1, paper-3)
+
+dobj(putting-1, it-2)
+det(shredder-5, the-4)
+prep_in(putting-1, shredder-5)
+
+det(peices-4, a-2)
+amod(peices-4, few-3)
+dobj(grab-1, peices-4)
+prep_of(peices-4, paper-6)
+
+nn(opening-4, shredder-3)
+prep_in(place-1, opening-4)
+
+amod(button-3, shredder-2)
+dobj(press-1, button-3)
+
+mark(shredded-7, until-2)
+det(pieces-4, all-3)
+nsubj(shredded-7, pieces-4)
+aux(shredded-7, have-5)
+cop(shredded-7, been-6)
+advcl(wait-1, shredded-7)
+
+mark(are-3, if-1)
+expl(are-3, there-2)
+advcl(go-6, are-3)
+nn(sleft-5, paper-4)
+nsubj(go-6, sleft-5)
+prep_to(go-6, 1-8)
+
+dobj(find-1, paper-2)
+
+det(shredder-4, a-2)
+nn(shredder-4, paper-3)
+dobj(find-1, shredder-4)
+
+det(shredder-5, the-3)
+nn(shredder-5, paper-4)
+prep_on(turn-1, shredder-5)
+
+num(piece-3, one-2)
+dobj(place-1, piece-3)
+prep_of(piece-3, paper-5)
+det(shredder-8, the-7)
+prep_into(place-1, shredder-8)
+
+mark(shredded-6, until-2)
+det(paper-4, all-3)
+nsubj(shredded-6, paper-4)
+cop(shredded-6, is-5)
+advcl(repeat-1, shredded-6)
+
+det(shredder-3, the-2)
+dobj(plugin-1, shredder-3)
+
+dobj(switch-1, it-2)
+prep(switch-1, on-3)
+
+det(paper-3, the-2)
+dobj(feed-1, paper-3)
+det(shredder-6, the-5)
+prep_in(feed-1, shredder-6)
+
+det(paper-3, the-2)
+dobj(get-1, paper-3)
+nsubj(want-5, you-4)
+xsubj(shred-7, you-4)
+dep(get-1, want-5)
+aux(shred-7, to-6)
+xcomp(want-5, shred-7)
+
+det(pair-3, a-2)
+dobj(get-1, pair-3)
+prep_of(pair-3, scissors-5)
+
+det(paper-3, the-2)
+dobj(cut-1, paper-3)
+prep_into(cut-1, strips-5)
+det(scissors-8, the-7)
+prep_with(strips-5, scissors-8)
+
+prt(tear-1, up-2)
+det(strips-4, the-3)
+dobj(tear-1, strips-4)
+poss(hands-7, your-6)
+prep_with(tear-1, hands-7)
+
+det(paper-3, the-2)
+dobj(take-1, paper-3)
+det(shredder-6, the-5)
+prep_to(take-1, shredder-6)
+
+det(shredder-3, the-2)
+dobj(switch-1, shredder-3)
+prep(switch-1, on-4)
+
+det(paper-3, the-2)
+dobj(feed-1, paper-3)
+det(shredder-6, the-5)
+prep_into(feed-1, shredder-6)
+
+det(shredder-3, the-2)
+dobj(switch-1, shredder-3)
+prt(switch-1, off-4)
+
+dobj(get-1, paper-2)
+
+dobj(put-1, paper-2)
+prep_in(put-1, shredder-4)
+
+prep_on(push-1, button-3)
+
+det(shredder-3, the-2)
+dobj(turn-1, shredder-3)
+prt(turn-1, on-4)
+
+det(paper-3, the-2)
+dobj(feed-1, paper-3)
+det(shredder-6, the-5)
+prep_into(feed-1, shredder-6)
+
+det(shredder-3, the-2)
+dobj(turn-1, shredder-3)
+prt(turn-1, off-4)
+
+dep(deny-1, everything-2)
+
+dobj(buy-1, shredder-2)
+
+dobj(unpack-1, shredder-2)
+
+prep_in(plug-1, shredder-3)
+
+dobj(read-1, instructions-2)
+
+dobj(feed-1, paper-2)
+
+dobj(empty-1, trash-2)
+
+det(paper-3, the-2)
+dobj(put-1, paper-3)
+det(shedder-6, a-5)
+prep_in(put-1, shedder-6)
+
+prt(press-1, on-2)
+aux(shred-4, to-3)
+xcomp(press-1, shred-4)
+
+det(paper-3, the-2)
+dobj(place-1, paper-3)
+det(slot-7, the-5)
+nn(slot-7, shredder-6)
+prep_inside(place-1, slot-7)
+
+det(shredder-3, the-2)
+dobj(turn-1, shredder-3)
+prt(turn-1, on-4)
+
+det(paper-3, the-2)
+dobj(feed-1, paper-3)
+det(shredder-6, the-5)
+prep_through(feed-1, shredder-6)
+
+det(shredder-3, the-2)
+dobj(turn-1, shredder-3)
+prt(turn-1, off-4)
+
+prep_on(turn-1, shredder-3)
+
+dobj(put-1, edge-2)
+prep_of(edge-2, paper-4)
+prep_into(put-1, top-6)
+prep_of(top-6, shredder-8)
+
+dobj(watch-1, paper-2)
+dep(shredded-4, get-3)
+dep(watch-1, shredded-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, shredder-3)
+
+det(shredder-4, the-3)
+prep_on(turn-1, shredder-4)
+
+det(paper-3, the-2)
+dobj(put-1, paper-3)
+det(shredder-6, the-5)
+prep_in(put-1, shredder-6)
+
+nn(shredder-4, paper-3)
+prep_on(turn-1, shredder-4)
+
+dobj(place-1, paper-2)
+prep_in(place-1, slot-4)
+
+advmod(done-2, when-1)
+csubj(turn-4, done-2)
+xcomp(done-2, shredding-3)
+prt(turn-4, off-5)
+nn(shredder-7, paper-6)
+dobj(turn-4, shredder-7)
+
+prep_on(turn-1, shredder-3)
+
+dobj(insert-1, paper-2)
+prep_into(insert-1, shredder-4)
+
+dobj(take-1, paper-2)
+prep_to(take-1, shredder-4)
+
+dobj(place-1, papaer-2)
+prep_in(place-1, shredder-4)
+
+dobj(turn-1, shredder-2)
+prt(turn-1, on-3)
+
+dobj(remove-1, staples-2)
+dobj(remove-1, clips-4)
+conj_and(staples-2, clips-4)
+
+det(paper-3, the-2)
+dobj(feed-1, paper-3)
+det(shredder-6, the-5)
+prep_to(feed-1, shredder-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, paper-3)
+aux(discarded-6, to-4)
+auxpass(discarded-6, be-5)
+xcomp(pick-1, discarded-6)
+
+dobj(take-1, paper-2)
+prep_to(take-1, shredder-4)
+
+acomp(make-1, sure-2)
+nsubjpass(turned-5, shredder-3)
+auxpass(turned-5, is-4)
+ccomp(sure-2, turned-5)
+prt(turned-5, on-6)
+
+dobj(feed-1, paper-2)
+prep_into(feed-1, shredder-4)
+
+amod(papers-3, other-2)
+dobj(collect-1, papers-3)
+aux(discarded-6, to-4)
+auxpass(discarded-6, be-5)
+xcomp(collect-1, discarded-6)
+
+dobj(repeat-1, steps-2)
+dep(repeat-1, 1-4-3)
+amod(papers-6, remaining-5)
+prep_with(1-4-3, papers-6)
+
+dobj(turn-1, shredder-2)
+prt(turn-1, off-3)
+
+det(paper-3, the-2)
+dobj(select-1, paper-3)
+
+det(paper-3, the-2)
+dobj(shred-1, paper-3)
+
+dobj(get-1, paper-2)
+
+prep_to(go-1, shredder-3)
+
+dobj(put-1, paper-2)
+prep_into(put-1, shreder-4)
+
+det(paper-4, the-3)
+prep_for(wait-1, paper-4)
+aux(shred-7, to-5)
+cop(shred-7, be-6)
+xcomp(wait-1, shred-7)
+
+det(task-3, the-2)
+dobj(report-1, task-3)
+auxpass(done-5, being-4)
+partmod(task-3, done-5)
+
+nn(shredder-4, paper-3)
+prep_on(turn-1, shredder-4)
+
+dobj(get-1, piece-2)
+prep_of(piece-2, paper-4)
+
+dobj(put-1, paper-2)
+det(shredder-5, the-4)
+prep_in(put-1, shredder-5)
+dep(shredder-5, s-6)
+dep(shredder-5, slot-7)
+
+dobj(allow-1, shredder-2)
+aux(shred-4, to-3)
+infmod(shredder-2, shred-4)
+dobj(shred-4, paper-5)
+mark(guide-8, while-6)
+nsubj(guide-8, you-7)
+advcl(shred-4, guide-8)
+det(piece-10, the-9)
+dobj(guide-8, piece-10)
+prep_of(piece-10, paper-12)
+advmod(guide-8, gently-13)
+prep(guide-8, in-14)
+
+nn(paper-3, waste-2)
+dobj(find-1, paper-3)
+
+nn(shredder-4, paper-3)
+prep_on(turn-1, shredder-4)
+
+dobj(feed-1, paper-2)
+nn(sheets-5, afew-4)
+prep_through(feed-1, sheets-5)
+det(time-8, a-7)
+prep_at(sheets-5, time-8)
+
+advmod(shredded-8, when-1)
+predet(paper-5, all-2)
+det(paper-5, the-3)
+nn(paper-5, waste-4)
+nsubj(shredded-8, paper-5)
+aux(shredded-8, has-6)
+cop(shredded-8, been-7)
+csubj(turn-9, shredded-8)
+dobj(turn-9, shredder-10)
+prt(turn-9, off-11)
+
+det(shreds-3, the-2)
+dobj(dump-1, shreds-3)
+det(bin-7, the-5)
+dep(bin-7, recycle-6)
+prep_in(dump-1, bin-7)
+
+dobj(gather-1, paper-2)
+nsubj(is-4, that-3)
+rcmod(paper-2, is-4)
+aux(shredded-7, to-5)
+cop(shredded-7, be-6)
+xcomp(is-4, shredded-7)
+
+dobj(place-1, paper-2)
+amod(one-5, shredder-4)
+prep_into(place-1, one-5)
+prep_by(place-1, one-7)
+
+dobj(discard-1, paper-2)
+mark(shredded-7, after-3)
+nsubj(shredded-7, it-4)
+aux(shredded-7, has-5)
+cop(shredded-7, been-6)
+advcl(discard-1, shredded-7)
+
+prep_on(turn-1, shredder-3)
+
+dobj(insert-1, paper-2)
+
+cop(careful-2, be-1)
+prep_of(careful-2, blades-4)
+
+prep_for(wait-1, job-3)
+aux(finish-5, to-4)
+xcomp(wait-1, finish-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, shredder-3)
+
+amod(paper-3, shredded-2)
+dobj(discard-1, paper-3)
+
+prep_in(plug-1, shredder-3)
+
+dobj(slide-1, paper-2)
+prep_in(slide-1, shredder-4)
+
+prep_of(dispose-1, paper-3)
+
+nn(shredder-4, paper-3)
+prep_on(turn-1, shredder-4)
+
+dobj(feed-1, paper-2)
+prep_through(feed-1, shredder-4)
+
+dobj(turn-1, shredder-2)
+prt(turn-1, on-3)
+
+dobj(place-1, paper-2)
+det(feed-5, the-4)
+prep_in(place-1, feed-5)
+
+prt(turnshredder-1, off-2)
+
+dobj(get-1, piece-2)
+prep_of(piece-2, paper-4)
+
+det(paper-3, the-2)
+dobj(feed-1, paper-3)
+det(shredder-6, the-5)
+prep_into(feed-1, shredder-6)
+
+dobj(take-1, paper-2)
+num(paper-2, one-3)
+det(time-6, a-5)
+prep_at(take-1, time-6)
+
+dobj(insert-1, paper-2)
+prep_into(insert-1, shredder-4)
+
+dobj(gather-1, papers-2)
+prep_for(gather-1, shredding-4)
+
+nsubj(check-2, double-1)
+nsubj(papers-6, they-3)
+cop(papers-6, are-4)
+amod(papers-6, correct-5)
+ccomp(check-2, papers-6)
+
+det(paper-3, a-2)
+nsubj(put-1, paper-3)
+det(shredder-5, the-4)
+dep(put-1, shredder-5)
+
+det(documents-4, all-3)
+prep_for(repeat-1, documents-4)
+
+det(pieces-4, the-2)
+amod(pieces-4, shredded-3)
+dobj(gather-1, pieces-4)
+
+prt(put-1, in-2)
+ccomp(put-1, recycle-3)
+dobj(recycle-3, bin-4)
+
+aux(recycle-3, to-2)
+xcomp(sent-1, recycle-3)
+dobj(recycle-3, center-4)
+
+dobj(get-1, sheet-2)
+prep_of(sheet-2, paper-4)
+
+prep_to(go-1, shredder-3)
+
+dobj(feed-1, paper-2)
+prep_into(feed-1, shredder-4)
+
+dobj(put-1, paper-2)
+prep_into(put-1, shredder-4)
+

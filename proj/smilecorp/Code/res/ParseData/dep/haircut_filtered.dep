@@ -1,0 +1,743 @@
+prep_to(drive-1, salon-3)
+
+prt(check-1, in-2)
+prep_at(check-1, front-4)
+prep_of(front-4, salon-6)
+
+prep_for(wait-1, stylist-3)
+
+nn(seat-4, stylist-3)
+prep_in(sit-1, seat-4)
+
+dobj(choose-1, haircut-2)
+dep(choose-1, wanted-3)
+
+auxpass(washed-3, get-1)
+dobj(washed-3, hair-2)
+
+nsubj(begins-2, stylist-1)
+xsubj(cut-4, stylist-1)
+aux(cut-4, to-3)
+xcomp(begins-2, cut-4)
+dobj(cut-4, hair-5)
+
+prep_in(engage-1, conversation-3)
+prep_with(conversation-3, stylist-5)
+
+nsubj(finishes-2, stylist-1)
+dep(finishes-2, cutting-3)
+dobj(cutting-3, hair-4)
+
+nsubj(blow-drys-2, stylist-1)
+dobj(blow-drys-2, hair-3)
+
+nsubj(asks-2, stylist-1)
+mark(like-5, if-3)
+nsubj(like-5, you-4)
+advcl(asks-2, like-5)
+
+poss(comments-4, your-2)
+amod(comments-4, final-3)
+dobj(give-1, comments-4)
+
+prep_for(pay-1, haircut-3)
+
+nn(tip-3, stylist-2)
+dobj(leave-1, tip-3)
+
+
+dobj(enter-1, salon-2)
+
+prep_with(speak-1, receptionist-3)
+
+dep(wet-2, hair-1)
+
+nn(application-2, shampoo-1)
+
+dobj(head-1, massage-2)
+
+
+nn(application-2, conditioner-1)
+
+
+nn(chair-4, salon-3)
+prep_to(go-1, chair-4)
+
+prep_with(speak-1, stylist-3)
+
+nsubj(cuts-2, stylist-1)
+dobj(cuts-2, length-3)
+prep_of(length-3, hair-5)
+
+nsubj(blow-drys-2, stylist-1)
+dobj(blow-drys-2, hair-3)
+
+prt(walk-1, in-2)
+
+aux(wait-2, may-1)
+
+prt(sit-1, down-2)
+prep_in(sit-1, chair-4)
+
+dobj(tell-1, stylist-2)
+dobj(want-5, what-3)
+nsubj(want-5, you-4)
+dep(tell-1, want-5)
+dep(want-5, done-6)
+
+advmod(sit-1, still-2)
+mark(cuts-5, while-3)
+nsubj(cuts-5, stylist-4)
+advcl(sit-1, cuts-5)
+
+dobj(check-1, hair-2)
+prep_in(check-1, mirror-4)
+
+prt(stand-1, up-2)
+
+prep_at(pay-1, counter-3)
+
+
+nn(shop-4, barber-3)
+prep_in(walk-1, shop-4)
+
+dobj(put-1, name-2)
+prep_on(put-1, list-4)
+
+aux(called-4, to-2)
+auxpass(called-4, be-3)
+xcomp(wait-1, called-4)
+
+dobj(greet-1, stylist-2)
+
+dobj(tell-1, stylist-2)
+rcmod(stylist-2, what-3)
+dep(stylist-2, i-4)
+dep(tell-1, want-5)
+
+poss(hair-3, my-2)
+dobj(have-1, hair-3)
+prep(have-1, clipped-4)
+dep(clipped-4, on-5)
+pobj(on-5, sides-6)
+
+aux(clipped-4, have-1)
+amod(hair-3, top-2)
+dobj(clipped-4, hair-3)
+
+aux(shaved-5, have-1)
+dobj(shaved-5, sideburns-2)
+conj_and(sideburns-2, neck-4)
+dobj(shaved-5, neck-4)
+
+aux(shampooed-4, have-1)
+poss(hair-3, my-2)
+dobj(shampooed-4, hair-3)
+
+nn(blow-dried-3, hair-2)
+dobj(have-1, blow-dried-3)
+
+aux(styled-3, have-1)
+dobj(styled-3, hair-2)
+
+nn(cut-3, hair-2)
+dobj(review-1, cut-3)
+prep_in(review-1, mirror-5)
+
+nn(shop-3, barber-2)
+dobj(pay-1, shop-3)
+
+dobj(tip-1, stylist-2)
+
+nn(shop-3, barber-2)
+dobj(leave-1, shop-3)
+
+dobj(go-1, home-2)
+
+nsubj(pay-2, you-1)
+dobj(pay-2, barber-3)
+
+det(style-3, the-2)
+dobj(choose-1, style-3)
+
+nn(chair-4, barber-3)
+prep_in(sit-1, chair-4)
+
+prep_with(talk-1, barber-3)
+
+prep_in(look-1, mirror-3)
+
+aux(avoid-3, to-2)
+xcomp(try-1, avoid-3)
+dep(avoid-3, going-4)
+
+dobj(realize-1, i-2)
+xsubj(go-5, i-2)
+dep(realize-1, need-3)
+aux(go-5, to-4)
+xcomp(need-3, go-5)
+
+dobj(get-1, money-2)
+
+prt(sort-1, out-2)
+det(lift-4, a-3)
+dobj(sort-1, lift-4)
+advmod(sort-1, there-5)
+
+det(stairs-4, the-3)
+prep_up(walk-1, stairs-4)
+
+prep_into(walk-1, hairdressers-3)
+
+dobj(say-1, hey-2)
+nsubj(working-6, whoever-4)
+aux(working-6, is-5)
+prepc_to(say-1, working-6)
+
+prt(sit-1, down-2)
+
+prep_for(wait-1, turn-3)
+aux(come-5, to-4)
+xcomp(wait-1, come-5)
+
+dobj(read-1, newspaper-2)
+
+dobj(put-1, newspaper-2)
+prt(put-1, down-3)
+
+cop(impatient-2, become-1)
+
+nsubj(turn-5, its-2)
+advmod(turn-5, nearly-3)
+poss(turn-5, my-4)
+ccomp(realize-1, turn-5)
+
+dep(ready-2, get-1)
+aux(get-4, to-3)
+xcomp(ready-2, get-4)
+prt(get-4, up-5)
+
+prt(get-1, up-2)
+
+prt(sit-1, down-2)
+prep_in(sit-1, chair-4)
+
+det(location-3, a-2)
+dobj(find-1, location-3)
+
+det(appointment-4, an-3)
+prep_for(call-1, appointment-4)
+
+prt(show-1, up-2)
+prep_for(show-1, appointment-4)
+
+dobj(discuss-1, styles-2)
+
+auxpass(washed-3, get-1)
+dobj(washed-3, hair-2)
+
+dobj(comb-1, hair-2)
+
+prep_to(agree-1, length-3)
+aux(cut-6, to-4)
+auxpass(cut-6, be-5)
+xcomp(agree-1, cut-6)
+
+prt(sit-1, back-2)
+conj_and(sit-1, relax-4)
+
+nn(commands-4, movement-3)
+prep_to(listen-1, commands-4)
+
+prep_with(style-1, products-3)
+
+
+prep_at(look-1, front-3)
+prep_at(look-1, back-5)
+conj_and(front-3, back-5)
+prep_of(back-5, head-7)
+
+det(haircut-4, the-3)
+prep_on(comment-1, haircut-4)
+
+prt(set-1, up-2)
+amod(appointment-4, next-3)
+dobj(set-1, appointment-4)
+
+prep_for(pay-1, haircut-3)
+
+dobj(thank-1, them-2)
+conj_and(thank-1, leave-4)
+
+det(salon-4, a-2)
+nn(salon-4, hair-3)
+dobj(call-1, salon-4)
+
+det(appointement-3, an-2)
+dobj(make-1, appointement-3)
+
+amod(salon-5, tho-2)
+det(salon-5, the-3)
+nn(salon-5, hair-4)
+dobj(go-1, salon-5)
+
+aux(wait-3, to-2)
+xcomp(sit-1, wait-3)
+poss(turn-6, my-5)
+prep_for(wait-3, turn-6)
+
+dobj(read-1, magazines-2)
+
+dobj(say-1, hi-2)
+det(coiffeur-5, the-4)
+prep_to(say-1, coiffeur-5)
+
+det(chair-4, a-3)
+prep_in(sit-1, chair-4)
+
+amod(salon-5, tho-2)
+det(salon-5, the-3)
+nn(salon-5, hair-4)
+dobj(go-1, salon-5)
+
+aux(cut-4, have-1)
+poss(hair-3, my-2)
+dobj(cut-4, hair-3)
+
+prt(check-1, in-2)
+prep_with(check-1, receptionist-4)
+
+amod(room-4, waiting-3)
+prep_in(wait-1, room-4)
+
+dobj(meet-1, hairstyle-2)
+
+dobj(discuss-1, haircut-2)
+prep_with(discuss-1, stylist-4)
+
+nsubjpass(washed-3, hair-1)
+auxpass(washed-3, is-2)
+
+nsubjpass(cut-3, hair-1)
+auxpass(cut-3, is-2)
+
+nsubjpass(dried-3, hair-1)
+auxpass(dried-3, is-2)
+
+amod(haircut-3, new-2)
+dobj(examine-1, haircut-3)
+
+prep_on(comment-1, haircut-3)
+
+dobj(thank-1, stylist-2)
+
+prep_for(pay-1, haircut-3)
+
+dobj(leave-1, tip-2)
+
+prep_into(walk-1, store-3)
+
+amod(desk-4, front-3)
+prep_at(register-1, desk-4)
+
+prt(sit-1, down-2)
+
+auxpass(called-2, be-1)
+prep_to(called-2, seat-4)
+
+auxpass(washed-3, get-1)
+dobj(washed-3, hair-2)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(explain-1, want-4)
+dep(want-4, done-5)
+
+auxpass(cut-4, get-1)
+poss(hair-3, your-2)
+dobj(cut-4, hair-3)
+
+det(haircut-4, the-3)
+prep_for(pay-1, haircut-4)
+
+amod(appointment-3, next-2)
+dobj(make-1, appointment-3)
+
+dobj(leave-1, store-2)
+
+det(barber-4, the-3)
+prep_to(go-1, barber-4)
+
+poss(turn-4, my-3)
+prep_for(wait-1, turn-4)
+
+det(style-4, the-2)
+amod(style-4, appropriate-3)
+dobj(select-1, style-4)
+
+det(barber-3, the-2)
+dobj(instruct-1, barber-3)
+
+det(barber-3, the-2)
+dobj(pay-1, barber-3)
+
+mark(tip-7, if-1)
+det(haircut-3, the-2)
+nsubj(tip-7, haircut-3)
+cop(tip-7, is-4)
+amod(tip-7, good-5)
+nn(tip-7, pay-6)
+
+det(hair-2, the-1)
+nsubjpass(washed-4, hair-2)
+auxpass(washed-4, is-3)
+
+nsubjpass(brushed-3, hair-1)
+auxpass(brushed-3, is-2)
+
+nsubjpass(cut-3, hair-1)
+auxpass(cut-3, is-2)
+
+nsubjpass(blown-3, hair-1)
+auxpass(blown-3, is-2)
+acomp(blown-3, dry-4)
+
+nsubjpass(styled-3, hair-1)
+auxpass(styled-3, is-2)
+
+nsubjpass(made-3, payment-1)
+auxpass(made-3, is-2)
+
+det(appointment-3, an-2)
+dobj(make-1, appointment-3)
+
+nn(salon-4, hair-3)
+prep_to(go-1, salon-4)
+
+auxpass(cut-4, get-1)
+poss(hair-3, my-2)
+dobj(cut-4, hair-3)
+
+dobj(look-1, it-2)
+prt(look-1, over-3)
+det(mirror-6, the-5)
+prep_in(look-1, mirror-6)
+
+det(hairdresser-3, the-2)
+dobj(tell-1, hairdresser-3)
+mark(ok-7, if-4)
+nsubj(ok-7, it-5)
+cop(ok-7, is-6)
+advcl(tell-1, ok-7)
+
+det(payment-3, a-2)
+dobj(make-1, payment-3)
+
+nn(salon-4, hair-3)
+prep_to(go-1, salon-4)
+
+prt(check-1, in-2)
+prep_at(check-1, desk-4)
+
+aux(called-4, to-2)
+auxpass(called-4, be-3)
+xcomp(wait-1, called-4)
+
+prep_with(go-1, stylist-3)
+prep_to(go-1, chair-5)
+
+dobj(let-1, stylist-2)
+partmod(stylist-2, put-3)
+det(cape-6, a-5)
+prep_on(put-3, cape-6)
+
+dobj(remove-1, glasses-2)
+
+dobj(tell-1, stylist-2)
+dobj(want-5, what-3)
+nsubj(want-5, you-4)
+dep(tell-1, want-5)
+
+nn(work-3, stylist-2)
+dobj(let-1, work-3)
+
+prep_in(look-1, mirror-3)
+
+dobj(request-1, adjustments-2)
+
+dobj(let-1, stylist-2)
+dep(let-1, brush-3)
+dobj(brush-3, you-4)
+prt(brush-3, off-5)
+
+dobj(pay-1, cashier-2)
+
+iobj(give-1, stylist-2)
+det(tip-4, a-3)
+dobj(give-1, tip-4)
+
+dobj(get-1, money-2)
+
+prep_to(go-1, salon-3)
+
+prt(check-1, in-2)
+
+auxpass(washed-3, get-1)
+dobj(washed-3, hair-2)
+
+auxpass(trimmed-3, get-1)
+dobj(trimmed-3, hair-2)
+
+auxpass(dried-3, get-1)
+dobj(dried-3, hair-2)
+
+
+dobj(go-1, home-2)
+
+det(hairdresser-3, a-2)
+dobj(find-1, hairdresser-3)
+
+auxpass(washed-3, get-1)
+dobj(washed-3, hair-2)
+
+dobj(tell-1, hairdresser-2)
+dobj(want-5, what-3)
+nsubj(want-5, you-4)
+dep(tell-1, want-5)
+
+nsubj(cuts-2, hairdresser-1)
+poss(hair-4, your-3)
+dobj(cuts-2, hair-4)
+
+nsubj(dries-2, hairdresser-1)
+dobj(dries-2, hair-3)
+
+dobj(pay-1, hairdresser-2)
+
+nn(stylist-3, hair-2)
+dobj(greet-1, stylist-3)
+
+prep_about(consult-1, haircut-3)
+
+dobj(wash-1, hair-2)
+
+dobj(receive-1, haircut-2)
+
+amod(hair-3, dry-2)
+dobj(blow-1, hair-3)
+
+nn(hair-2, style-1)
+
+nn(cut-4, hair-3)
+prep_for(pay-1, cut-4)
+
+amod(appointment-3, next-2)
+dobj(make-1, appointment-3)
+
+dobj(greet-1, stylist-2)
+
+dobj(explain-1, style-2)
+complm(want-5, that-3)
+nsubj(want-5, you-4)
+ccomp(explain-1, want-5)
+
+nsubjpass(placed-3, cape-1)
+auxpass(placed-3, is-2)
+prep_on(placed-3, shoulders-5)
+
+nn(sink-4, shampoo-3)
+prep_to(walk-1, sink-4)
+
+nsubj(shampoos-2, stylist-1)
+dobj(shampoos-2, hair-3)
+
+nn(towel-2, stylist-1)
+nsubj(dries-3, towel-2)
+dobj(dries-3, hair-4)
+
+prt(walk-1, back-2)
+amod(chair-5, stylists-4)
+prep_to(walk-1, chair-5)
+
+nsubj(cut-3, stylist-1)
+aux(cut-3, will-2)
+dobj(cut-3, hair-4)
+
+nsubjpass(used-5, razor-1)
+conj_or(razor-1, scissors-3)
+nsubjpass(used-5, scissors-3)
+auxpass(used-5, are-4)
+
+nsubj(turns-2, stylists-1)
+dobj(turns-2, chair-3)
+prep_as(turns-2, neccessary-5)
+
+nsubj(completes-2, stylist-1)
+dobj(completes-2, haircut-3)
+
+nsubj(shows-2, stylist-1)
+dobj(shows-2, hair-3)
+prep_in(shows-2, mirror-5)
+
+mark(blown-5, if-1)
+amod(hair-3, requested-2)
+nsubjpass(blown-5, hair-3)
+auxpass(blown-5, is-4)
+acomp(blown-5, dry-6)
+
+nn(product-2, styling-1)
+nsubjpass(applied-4, product-2)
+auxpass(applied-4, is-3)
+
+nsubj(complete-3, haircut-1)
+cop(complete-3, is-2)
+
+dobj(pay-1, stylist-2)
+prep_for(pay-1, haircut-4)
+
+dobj(enter-1, salon-2)
+
+dobj(get-1, shampoo-2)
+
+auxpass(seated-2, be-1)
+conj_and(seated-2, draped-4)
+
+dep(discuss-1, cut-2)
+
+dep(obtain-1, cut-2)
+
+
+dep(review-1, cut-2)
+prep_in(cut-2, mirror-4)
+
+
+dobj(enter-1, salon-2)
+
+
+dobj(make-1, smalltalk-2)
+prep_with(make-1, barber-4)
+
+amod(hairstyle-3, desired-2)
+dobj(describe-1, hairstyle-3)
+
+
+
+
+prt(check-1, in-2)
+prep_at(check-1, counter-4)
+
+amod(chair-4, available-3)
+prep_for(wait-1, chair-4)
+
+auxpass(called-2, get-1)
+prep(called-2, to-3)
+pobj(to-3, back-4)
+
+nsubj(offer-3, sometimes-1)
+aux(offer-3, will-2)
+dobj(offer-3, shampoo-4)
+
+nn(chair-4, barber-3)
+prep_in(sit-1, chair-4)
+
+advmod(is-4, how-2)
+nsubj(is-4, hair-3)
+xsubj(cut-7, hair-3)
+ccomp(asked-1, is-4)
+aux(cut-7, to-5)
+auxpass(cut-7, be-6)
+xcomp(is-4, cut-7)
+
+nsubjpass(put-3, cape-1)
+auxpass(put-3, is-2)
+prt(put-3, on-4)
+
+nsubjpass(adjusted-3, chair-1)
+auxpass(adjusted-3, is-2)
+prep_for(adjusted-3, cut-5)
+
+det(tools-3, any-1)
+amod(tools-3, extra-2)
+nsubjpass(used-5, tools-3)
+auxpass(used-5, are-4)
+
+nsubjpass(cut-3, hair-1)
+auxpass(cut-3, gets-2)
+
+nsubj(talk-5, person-1)
+partmod(person-1, cutting-2)
+dobj(cutting-2, hair-3)
+aux(talk-5, may-4)
+
+nsubjpass(asked-3, you-1)
+auxpass(asked-3, are-2)
+advmod(looks-6, how-4)
+nsubj(looks-6, it-5)
+ccomp(asked-3, looks-6)
+
+nsubjpass(removed-3, cape-1)
+auxpass(removed-3, is-2)
+
+nsubj(swept-2, hair-1)
+prt(swept-2, up-3)
+
+prep_for(pay-1, haircut-3)
+
+
+dobj(tell-1, receptionist-2)
+dobj(arrived-4, receptionist-2)
+nsubj(arrived-4, you-3)
+rcmod(receptionist-2, arrived-4)
+
+prt(sit-1, down-2)
+conj_and(sit-1, wait-4)
+
+nsubj(calls-2, hairdresser-1)
+dobj(calls-2, you-3)
+
+prep_in(sit-1, chair-3)
+
+dobj(get-1, apron-2)
+partmod(apron-2, put-3)
+prep_on(put-3, you-5)
+
+dobj(tell-1, hairdresser-2)
+dobj(want-5, what-3)
+nsubj(want-5, you-4)
+dep(tell-1, want-5)
+
+auxpass(washed-3, get-1)
+dobj(washed-3, hair-2)
+
+auxpass(cut-3, get-1)
+dobj(cut-3, hair-2)
+
+auxpass(dried-3, get-1)
+dobj(dried-3, hair-2)
+
+prt(look-1, up-2)
+dobj(look-1, hairdresser-3)
+
+nn(dresser-4, hair-3)
+prep_to(go-1, dresser-4)
+
+prep_for(wait-1, dresser-3)
+
+prt(sit-1, down-2)
+poss(chair-6, barber-4)
+prep_in(sit-1, chair-6)
+
+nsubjpass(put-3, robe-1)
+auxpass(put-3, is-2)
+prt(put-3, on-4)
+
+nsubjpass(cut-3, hair-1)
+auxpass(cut-3, is-2)
+
+nsubj(taken-2, robe-1)
+prt(taken-2, off-3)
+
+prt(get-1, up-2)
+
+prep_for(pay-1, haircut-3)
+

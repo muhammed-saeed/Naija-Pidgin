@@ -1,0 +1,1608 @@
+id	score	v	d-obj	p	p-title
+00001	0.00014490950050083926	set	setting	utensil	microwave
+00002	0.00013342595108258886	set	setting	microwavable utensil	microwave
+00003	0.00019123542857943918	set	setting	cover	microwave
+00004	0.00013342595108258886	set	setting	protective cover	microwave
+00005	6.727820270143848e-05	set	setting	stop	microwave
+00006	0.0006759482324732993	set	setting	start button	microwave
+00007	0.00025954473560503436	set	setting	oven	microwave
+00008	0.0009617243711408664	set	setting	start	microwave
+00009	0.00047706811400400587	set	setting	plate	microwave
+00010	0.0014367667923171465	set	setting	microwave safe container	microwave
+00011	0.0006952182213007493	set	setting	cooking time	microwave
+00012	0.0011200051112340986	set	setting	time	microwave
+00013	0.0029353709238169544	set	setting	microwave door	microwave
+00014	0.0010787971959490912	set	setting	door	microwave
+00015	0.00013342595108258886	set	setting	cooking temperature	microwave
+00016	0.00021206184174960132	set	setting	temperature	microwave
+00017	0.0013641924674343236	set	setting	timer	microwave
+00018	0.003938349768606982	set	setting	food	microwave
+00019	0.00012401749703948398	set	setting	plastic	microwave
+00020	0.0	set	setting	imp protagonist	microwave
+00021	0.0010674076086607108	set	setting	power level	microwave
+00022	0.00042412368349920265	set	setting	power	microwave
+00023	0.00014490950050083926	open	panel	utensil	microwave
+00024	0.00013342595108258886	open	panel	microwavable utensil	microwave
+00025	0.00019123542857943918	open	panel	cover	microwave
+00026	0.00013342595108258886	open	panel	protective cover	microwave
+00027	6.727820270143848e-05	open	panel	stop	microwave
+00028	0.0006759482324732993	open	panel	start button	microwave
+00029	0.00025954473560503436	open	panel	oven	microwave
+00030	0.0009617243711408664	open	panel	start	microwave
+00031	0.00047706811400400587	open	panel	plate	microwave
+00032	0.0014367667923171465	open	panel	microwave safe container	microwave
+00033	0.0006952182213007493	open	panel	cooking time	microwave
+00034	0.0011200051112340986	open	panel	time	microwave
+00035	0.0029353709238169544	open	panel	microwave door	microwave
+00036	0.0010787971959490912	open	panel	door	microwave
+00037	0.00013342595108258886	open	panel	cooking temperature	microwave
+00038	0.00021206184174960132	open	panel	temperature	microwave
+00039	0.0013641924674343236	open	panel	timer	microwave
+00040	0.003938349768606982	open	panel	food	microwave
+00041	0.00012401749703948398	open	panel	plastic	microwave
+00042	0.0	open	panel	imp protagonist	microwave
+00043	0.0010674076086607108	open	panel	power level	microwave
+00044	0.00042412368349920265	open	panel	power	microwave
+00045	0.002526285129811102	put	food	utensil	microwave
+00046	0.0023260862468358	put	food	microwavable utensil	microwave
+00047	0.0033339099082084836	put	food	cover	microwave
+00048	0.0023260862468358	put	food	protective cover	microwave
+00049	0.0011728970319932663	put	food	stop	microwave
+00050	0.0117841684797575	put	food	start button	microwave
+00051	0.004524782735525024	put	food	oven	microwave
+00052	0.016766257349538186	put	food	start	microwave
+00053	0.00831698458796611	put	food	plate	microwave
+00054	0.025047926946764828	put	food	microwave safe container	microwave
+00055	0.012120112541797318	put	food	cooking time	microwave
+00056	0.019525650478705123	put	food	time	microwave
+00057	0.051173897430387597	put	food	microwave door	microwave
+00058	0.018807250765399734	put	food	door	microwave
+00059	0.0023260862468358	put	food	cooking temperature	microwave
+00060	0.0036969879515199224	put	food	temperature	microwave
+00061	0.02378269977308829	put	food	timer	microwave
+00062	0.0021620636157352996	put	food	plastic	microwave
+00063	0.0	put	food	imp protagonist	microwave
+00064	0.0186086899746864	put	food	power level	microwave
+00065	0.007393975903039845	put	food	power	microwave
+00066	0.00014490950050083926	put	safe container	utensil	microwave
+00067	0.00013342595108258886	put	safe container	microwavable utensil	microwave
+00068	0.00019123542857943918	put	safe container	cover	microwave
+00069	0.00013342595108258886	put	safe container	protective cover	microwave
+00070	6.727820270143848e-05	put	safe container	stop	microwave
+00071	0.0006759482324732993	put	safe container	start button	microwave
+00072	0.00025954473560503436	put	safe container	oven	microwave
+00073	0.0009617243711408664	put	safe container	start	microwave
+00074	0.00047706811400400587	put	safe container	plate	microwave
+00075	0.0014367667923171465	put	safe container	microwave safe container	microwave
+00076	0.0006952182213007493	put	safe container	cooking time	microwave
+00077	0.0011200051112340986	put	safe container	time	microwave
+00078	0.0029353709238169544	put	safe container	microwave door	microwave
+00079	0.0010787971959490912	put	safe container	door	microwave
+00080	0.00013342595108258886	put	safe container	cooking temperature	microwave
+00081	0.00021206184174960132	put	safe container	temperature	microwave
+00082	0.0013641924674343236	put	safe container	timer	microwave
+00083	0.003938349768606982	put	safe container	food	microwave
+00084	0.00012401749703948398	put	safe container	plastic	microwave
+00085	0.0	put	safe container	imp protagonist	microwave
+00086	0.0010674076086607108	put	safe container	power level	microwave
+00087	0.00042412368349920265	put	safe container	power	microwave
+00088	0.0004025467919246043	push	start	utensil	microwave
+00089	0.0003706464267846555	push	start	microwavable utensil	microwave
+00090	0.0005312364476512302	push	start	cover	microwave
+00091	0.0003706464267846555	push	start	protective cover	microwave
+00092	0.00018689336841486422	push	start	stop	microwave
+00093	0.001877729145078775	push	start	start button	microwave
+00094	0.0007209941399123178	push	start	oven	microwave
+00095	0.0013252563714462717	push	start	plate	microwave
+00096	0.003991221148317476	push	start	microwave safe container	microwave
+00097	0.0019312596048215993	push	start	cooking time	microwave
+00098	0.0031112829932350415	push	start	time	microwave
+00099	0.00815422138926242	push	start	microwave door	microwave
+00100	0.0029968107602720653	push	start	door	microwave
+00101	0.0003706464267846555	push	start	cooking temperature	microwave
+00102	0.0005890905274732537	push	start	temperature	microwave
+00103	0.00378961558376372	push	start	timer	microwave
+00104	0.010940414944157274	push	start	food	microwave
+00105	0.00034451050761488374	push	start	plastic	microwave
+00106	0.0	push	start	imp protagonist	microwave
+00107	0.002965171414277244	push	start	power level	microwave
+00108	0.0011781810549465073	push	start	power	microwave
+00109	0.00011468861125364537	remove	container	utensil	microwave
+00110	0.00010559995709025516	remove	container	microwavable utensil	microwave
+00111	0.00015135326290179667	remove	container	cover	microwave
+00112	0.00010559995709025516	remove	container	protective cover	microwave
+00113	5.324732753063725e-05	remove	container	stop	microwave
+00114	0.0005349791683345837	remove	container	start button	microwave
+00115	0.00020541665785787146	remove	container	oven	microwave
+00116	0.0007611566678079368	remove	container	start	microwave
+00117	0.00037757551630093647	remove	container	plate	microwave
+00118	0.0011371289497009473	remove	container	microwave safe container	microwave
+00119	0.0005502303992742742	remove	container	cooking time	microwave
+00120	0.0008864279454450223	remove	container	time	microwave
+00121	0.0023231990559856135	remove	container	microwave door	microwave
+00122	0.000853813944566122	remove	container	door	microwave
+00123	0.00010559995709025516	remove	container	cooking temperature	microwave
+00124	0.0001678363257487816	remove	container	temperature	microwave
+00125	0.0010796900067419682	remove	container	timer	microwave
+00126	0.0031170065732856094	remove	container	food	microwave
+00127	9.815363697654259e-05	remove	container	plastic	microwave
+00128	0.0	remove	container	imp protagonist	microwave
+00129	0.0008447996567220413	remove	container	power level	microwave
+00130	0.0003356726514975632	remove	container	power	microwave
+00131	0.00010677498408995455	press	buttons	utensil	microwave
+00132	9.831345601766095e-05	press	buttons	microwavable utensil	microwave
+00133	0.00014090973865365714	press	buttons	cover	microwave
+00134	9.831345601766095e-05	press	buttons	protective cover	microwave
+00135	4.957320947362748e-05	press	buttons	stop	microwave
+00136	0.0004980650786768216	press	buttons	start button	microwave
+00137	0.000191242706096406	press	buttons	oven	microwave
+00138	0.0007086361078643895	press	buttons	start	microwave
+00139	0.0003515224337020424	press	buttons	plate	microwave
+00140	0.001058665931912103	press	buttons	microwave safe container	microwave
+00141	0.0005122639596566968	press	buttons	cooking time	microwave
+00142	0.0008252635439316557	press	buttons	time	microwave
+00143	0.0021628960323885407	press	buttons	microwave door	microwave
+00144	0.0007948999412435671	press	buttons	door	microwave
+00145	9.831345601766095e-05	press	buttons	cooking temperature	microwave
+00146	0.00015625545392566585	press	buttons	temperature	microwave
+00147	0.0010051903326041215	press	buttons	timer	microwave
+00148	0.0029019300489635676	press	buttons	food	microwave
+00149	9.138093932764743e-05	press	buttons	plastic	microwave
+00150	0.0	press	buttons	imp protagonist	microwave
+00151	0.0007865076481412876	press	buttons	power level	microwave
+00152	0.0003125109078513317	press	buttons	power	microwave
+00153	0.0008446772200645145	take	food	utensil	microwave
+00154	0.0007777396309792146	take	food	microwavable utensil	microwave
+00155	0.0011147109722415417	take	food	cover	microwave
+00156	0.0007777396309792146	take	food	protective cover	microwave
+00157	0.00039216452359836017	take	food	stop	microwave
+00158	0.00394010104195868	take	food	start button	microwave
+00159	0.0015128858011070857	take	food	oven	microwave
+00160	0.005605889644750073	take	food	start	microwave
+00161	0.0027808291859786703	take	food	plate	microwave
+00162	0.008374911070847478	take	food	microwave safe container	microwave
+00163	0.0040524257724779906	take	food	cooking time	microwave
+00164	0.0065285077965594575	take	food	time	microwave
+00165	0.01711027188154272	take	food	microwave door	microwave
+00166	0.0062883069318315265	take	food	door	microwave
+00167	0.0007777396309792146	take	food	cooking temperature	microwave
+00168	0.0012361080974796184	take	food	temperature	microwave
+00169	0.007951875460496128	take	food	timer	microwave
+00170	0.0007228977691360117	take	food	plastic	microwave
+00171	0.0	take	food	imp protagonist	microwave
+00172	0.006221917047833717	take	food	power level	microwave
+00173	0.002472216194959237	take	food	power	microwave
+00174	0.00014490950050083926	cover	dish	utensil	microwave
+00175	0.00013342595108258886	cover	dish	microwavable utensil	microwave
+00176	0.00019123542857943918	cover	dish	cover	microwave
+00177	0.00013342595108258886	cover	dish	protective cover	microwave
+00178	6.727820270143848e-05	cover	dish	stop	microwave
+00179	0.0006759482324732993	cover	dish	start button	microwave
+00180	0.00025954473560503436	cover	dish	oven	microwave
+00181	0.0009617243711408664	cover	dish	start	microwave
+00182	0.00047706811400400587	cover	dish	plate	microwave
+00183	0.0014367667923171465	cover	dish	microwave safe container	microwave
+00184	0.0006952182213007493	cover	dish	cooking time	microwave
+00185	0.0011200051112340986	cover	dish	time	microwave
+00186	0.0029353709238169544	cover	dish	microwave door	microwave
+00187	0.0010787971959490912	cover	dish	door	microwave
+00188	0.00013342595108258886	cover	dish	cooking temperature	microwave
+00189	0.00021206184174960132	cover	dish	temperature	microwave
+00190	0.0013641924674343236	cover	dish	timer	microwave
+00191	0.003938349768606982	cover	dish	food	microwave
+00192	0.00012401749703948398	cover	dish	plastic	microwave
+00193	0.0	cover	dish	imp protagonist	microwave
+00194	0.0010674076086607108	cover	dish	power level	microwave
+00195	0.00042412368349920265	cover	dish	power	microwave
+00196	0.00012584224229539691	unwrap	food	utensil	microwave
+00197	0.00011586970355012491	unwrap	food	microwavable utensil	microwave
+00198	0.00016607258361654817	unwrap	food	cover	microwave
+00199	0.00011586970355012491	unwrap	food	protective cover	microwave
+00200	5.842570608753298e-05	unwrap	food	stop	microwave
+00201	0.0005870066555750605	unwrap	food	start button	microwave
+00202	0.0002253937208507202	unwrap	food	oven	microwave
+00203	0.000835180239502628	unwrap	food	start	microwave
+00204	0.00041429527385302415	unwrap	food	plate	microwave
+00205	0.0012477163621146248	unwrap	food	microwave safe container	microwave
+00206	0.0006037410904787231	unwrap	food	cooking time	microwave
+00207	0.0009726343275828773	unwrap	food	time	microwave
+00208	0.002549133478102748	unwrap	food	microwave door	microwave
+00209	0.0009368485685963292	unwrap	food	door	microwave
+00210	0.00011586970355012491	unwrap	food	cooking temperature	microwave
+00211	0.0001841586478376336	unwrap	food	temperature	microwave
+00212	0.0011846914000192227	unwrap	food	timer	microwave
+00213	0.00010769921818356571	unwrap	food	plastic	microwave
+00214	0.0	unwrap	food	imp protagonist	microwave
+00215	0.0009269576284009993	unwrap	food	power level	microwave
+00216	0.0003683172956752672	unwrap	food	power	microwave
+00217	0.00010677498408995455	put	dish	utensil	microwave
+00218	9.831345601766095e-05	put	dish	microwavable utensil	microwave
+00219	0.00014090973865365714	put	dish	cover	microwave
+00220	9.831345601766095e-05	put	dish	protective cover	microwave
+00221	4.957320947362748e-05	put	dish	stop	microwave
+00222	0.0004980650786768216	put	dish	start button	microwave
+00223	0.000191242706096406	put	dish	oven	microwave
+00224	0.0007086361078643895	put	dish	start	microwave
+00225	0.0003515224337020424	put	dish	plate	microwave
+00226	0.001058665931912103	put	dish	microwave safe container	microwave
+00227	0.0005122639596566968	put	dish	cooking time	microwave
+00228	0.0008252635439316557	put	dish	time	microwave
+00229	0.0021628960323885407	put	dish	microwave door	microwave
+00230	0.0007948999412435671	put	dish	door	microwave
+00231	9.831345601766095e-05	put	dish	cooking temperature	microwave
+00232	0.00015625545392566585	put	dish	temperature	microwave
+00233	0.0010051903326041215	put	dish	timer	microwave
+00234	0.0029019300489635676	put	dish	food	microwave
+00235	9.138093932764743e-05	put	dish	plastic	microwave
+00236	0.0	put	dish	imp protagonist	microwave
+00237	0.0007865076481412876	put	dish	power level	microwave
+00238	0.0003125109078513317	put	dish	power	microwave
+00239	0.00014490950050083926	shut	microwave door	utensil	microwave
+00240	0.00013342595108258886	shut	microwave door	microwavable utensil	microwave
+00241	0.00019123542857943918	shut	microwave door	cover	microwave
+00242	0.00013342595108258886	shut	microwave door	protective cover	microwave
+00243	6.727820270143848e-05	shut	microwave door	stop	microwave
+00244	0.0006759482324732993	shut	microwave door	start button	microwave
+00245	0.00025954473560503436	shut	microwave door	oven	microwave
+00246	0.0009617243711408664	shut	microwave door	start	microwave
+00247	0.00047706811400400587	shut	microwave door	plate	microwave
+00248	0.0014367667923171465	shut	microwave door	microwave safe container	microwave
+00249	0.0006952182213007493	shut	microwave door	cooking time	microwave
+00250	0.0011200051112340986	shut	microwave door	time	microwave
+00251	0.0010787971959490912	shut	microwave door	door	microwave
+00252	0.00013342595108258886	shut	microwave door	cooking temperature	microwave
+00253	0.00021206184174960132	shut	microwave door	temperature	microwave
+00254	0.0013641924674343236	shut	microwave door	timer	microwave
+00255	0.003938349768606982	shut	microwave door	food	microwave
+00256	0.00012401749703948398	shut	microwave door	plastic	microwave
+00257	0.0	shut	microwave door	imp protagonist	microwave
+00258	0.0010674076086607108	shut	microwave door	power level	microwave
+00259	0.00042412368349920265	shut	microwave door	power	microwave
+00260	0.00013342595108258886	keep	utensil	microwavable utensil	microwave
+00261	0.00019123542857943918	keep	utensil	cover	microwave
+00262	0.00013342595108258886	keep	utensil	protective cover	microwave
+00263	6.727820270143848e-05	keep	utensil	stop	microwave
+00264	0.0006759482324732993	keep	utensil	start button	microwave
+00265	0.00025954473560503436	keep	utensil	oven	microwave
+00266	0.0009617243711408664	keep	utensil	start	microwave
+00267	0.00047706811400400587	keep	utensil	plate	microwave
+00268	0.0014367667923171465	keep	utensil	microwave safe container	microwave
+00269	0.0006952182213007493	keep	utensil	cooking time	microwave
+00270	0.0011200051112340986	keep	utensil	time	microwave
+00271	0.0029353709238169544	keep	utensil	microwave door	microwave
+00272	0.0010787971959490912	keep	utensil	door	microwave
+00273	0.00013342595108258886	keep	utensil	cooking temperature	microwave
+00274	0.00021206184174960132	keep	utensil	temperature	microwave
+00275	0.0013641924674343236	keep	utensil	timer	microwave
+00276	0.003938349768606982	keep	utensil	food	microwave
+00277	0.00012401749703948398	keep	utensil	plastic	microwave
+00278	0.0	keep	utensil	imp protagonist	microwave
+00279	0.0010674076086607108	keep	utensil	power level	microwave
+00280	0.00042412368349920265	keep	utensil	power	microwave
+00281	0.00018276187865529485	put	container	utensil	microwave
+00282	0.00016827866631892902	put	container	microwavable utensil	microwave
+00283	0.00024118878383978936	put	container	cover	microwave
+00284	0.00016827866631892902	put	container	protective cover	microwave
+00285	8.48522055197852e-05	put	container	stop	microwave
+00286	0.0008525153175849272	put	container	start button	microwave
+00287	0.0003273414324824972	put	container	oven	microwave
+00288	0.001212940160657505	put	container	start	microwave
+00289	0.0006016849444692242	put	container	plate	microwave
+00290	0.0018120702731419791	put	container	microwave safe container	microwave
+00291	0.0008768188956636531	put	container	cooking time	microwave
+00292	0.0014125660327667117	put	container	time	microwave
+00293	0.0037021306590164387	put	container	microwave door	microwave
+00294	0.001360594036541988	put	container	door	microwave
+00295	0.00016827866631892902	put	container	cooking temperature	microwave
+00296	0.00026745534595942186	put	container	temperature	microwave
+00297	0.0017205385246238918	put	container	timer	microwave
+00298	0.004967101535955464	put	container	food	microwave
+00299	0.00015641259314762656	put	container	plastic	microwave
+00300	0.0	put	container	imp protagonist	microwave
+00301	0.0013462293305514321	put	container	power level	microwave
+00302	0.0005349106919188437	put	container	power	microwave
+00303	0.00014490950050083926	keep	it	utensil	microwave
+00304	0.00013342595108258886	keep	it	microwavable utensil	microwave
+00305	0.00019123542857943918	keep	it	cover	microwave
+00306	0.00013342595108258886	keep	it	protective cover	microwave
+00307	6.727820270143848e-05	keep	it	stop	microwave
+00308	0.0006759482324732993	keep	it	start button	microwave
+00309	0.00025954473560503436	keep	it	oven	microwave
+00310	0.0009617243711408664	keep	it	start	microwave
+00311	0.00047706811400400587	keep	it	plate	microwave
+00312	0.0014367667923171465	keep	it	microwave safe container	microwave
+00313	0.0006952182213007493	keep	it	cooking time	microwave
+00314	0.0011200051112340986	keep	it	time	microwave
+00315	0.0029353709238169544	keep	it	microwave door	microwave
+00316	0.0010787971959490912	keep	it	door	microwave
+00317	0.00013342595108258886	keep	it	cooking temperature	microwave
+00318	0.00021206184174960132	keep	it	temperature	microwave
+00319	0.0013641924674343236	keep	it	timer	microwave
+00320	0.003938349768606982	keep	it	food	microwave
+00321	0.00012401749703948398	keep	it	plastic	microwave
+00322	0.0	keep	it	imp protagonist	microwave
+00323	0.0010674076086607108	keep	it	power level	microwave
+00324	0.00042412368349920265	keep	it	power	microwave
+00325	0.00011976073275753632	press	button	utensil	microwave
+00326	0.00011027013146339215	press	button	microwavable utensil	microwave
+00327	0.00015804688427410938	press	button	cover	microwave
+00328	0.00011027013146339215	press	button	protective cover	microwave
+00329	5.5602198795017354e-05	press	button	stop	microwave
+00330	0.0005586387044836648	press	button	start button	microwave
+00331	0.00021450124120219377	press	button	oven	microwave
+00332	0.0007948189387206113	press	button	start	microwave
+00333	0.0003942738516861061	press	button	plate	microwave
+00334	0.0011874186527100748	press	button	microwave safe container	microwave
+00335	0.0005745644234615698	press	button	cooking time	microwave
+00336	0.0009256303579129704	press	button	time	microwave
+00337	0.002425942892194627	press	button	microwave door	microwave
+00338	0.0008915739978200421	press	button	door	microwave
+00339	0.00011027013146339215	press	button	cooking temperature	microwave
+00340	0.00017525891311520928	press	button	temperature	microwave
+00341	0.001127439463648554	press	button	timer	microwave
+00342	0.0032548566692569203	press	button	food	microwave
+00343	0.00010249449669532311	press	button	plastic	microwave
+00344	0.0	press	button	imp protagonist	microwave
+00345	0.0008821610517071372	press	button	power level	microwave
+00346	0.00035051782623041856	press	button	power	microwave
+00347	0.00014490950050083926	enter	food	utensil	microwave
+00348	0.00013342595108258886	enter	food	microwavable utensil	microwave
+00349	0.00019123542857943918	enter	food	cover	microwave
+00350	0.00013342595108258886	enter	food	protective cover	microwave
+00351	6.727820270143848e-05	enter	food	stop	microwave
+00352	0.0006759482324732993	enter	food	start button	microwave
+00353	0.00025954473560503436	enter	food	oven	microwave
+00354	0.0009617243711408664	enter	food	start	microwave
+00355	0.00047706811400400587	enter	food	plate	microwave
+00356	0.0014367667923171465	enter	food	microwave safe container	microwave
+00357	0.0006952182213007493	enter	food	cooking time	microwave
+00358	0.0011200051112340986	enter	food	time	microwave
+00359	0.0029353709238169544	enter	food	microwave door	microwave
+00360	0.0010787971959490912	enter	food	door	microwave
+00361	0.00013342595108258886	enter	food	cooking temperature	microwave
+00362	0.00021206184174960132	enter	food	temperature	microwave
+00363	0.0013641924674343236	enter	food	timer	microwave
+00364	0.00012401749703948398	enter	food	plastic	microwave
+00365	0.0	enter	food	imp protagonist	microwave
+00366	0.0010674076086607108	enter	food	power level	microwave
+00367	0.00042412368349920265	enter	food	power	microwave
+00368	0.00014490950050083926	set	timer\/power level	utensil	microwave
+00369	0.00013342595108258886	set	timer\/power level	microwavable utensil	microwave
+00370	0.00019123542857943918	set	timer\/power level	cover	microwave
+00371	0.00013342595108258886	set	timer\/power level	protective cover	microwave
+00372	6.727820270143848e-05	set	timer\/power level	stop	microwave
+00373	0.0006759482324732993	set	timer\/power level	start button	microwave
+00374	0.00025954473560503436	set	timer\/power level	oven	microwave
+00375	0.0009617243711408664	set	timer\/power level	start	microwave
+00376	0.00047706811400400587	set	timer\/power level	plate	microwave
+00377	0.0014367667923171465	set	timer\/power level	microwave safe container	microwave
+00378	0.0006952182213007493	set	timer\/power level	cooking time	microwave
+00379	0.0011200051112340986	set	timer\/power level	time	microwave
+00380	0.0029353709238169544	set	timer\/power level	microwave door	microwave
+00381	0.0010787971959490912	set	timer\/power level	door	microwave
+00382	0.00013342595108258886	set	timer\/power level	cooking temperature	microwave
+00383	0.00021206184174960132	set	timer\/power level	temperature	microwave
+00384	0.0013641924674343236	set	timer\/power level	timer	microwave
+00385	0.003938349768606982	set	timer\/power level	food	microwave
+00386	0.00012401749703948398	set	timer\/power level	plastic	microwave
+00387	0.0	set	timer\/power level	imp protagonist	microwave
+00388	0.0010674076086607108	set	timer\/power level	power level	microwave
+00389	0.00042412368349920265	set	timer\/power level	power	microwave
+00390	0.0008694570030050355	close	microwave door	utensil	microwave
+00391	0.000800555706495533	close	microwave door	microwavable utensil	microwave
+00392	0.0011474125714766351	close	microwave door	cover	microwave
+00393	0.000800555706495533	close	microwave door	protective cover	microwave
+00394	0.0004036692162086308	close	microwave door	stop	microwave
+00395	0.004055689394839795	close	microwave door	start button	microwave
+00396	0.001557268413630206	close	microwave door	oven	microwave
+00397	0.005770346226845197	close	microwave door	start	microwave
+00398	0.0028624086840240348	close	microwave door	plate	microwave
+00399	0.008620600753902878	close	microwave door	microwave safe container	microwave
+00400	0.004171309327804495	close	microwave door	cooking time	microwave
+00401	0.006720030667404591	close	microwave door	time	microwave
+00402	0.006472783175694547	close	microwave door	door	microwave
+00403	0.000800555706495533	close	microwave door	cooking temperature	microwave
+00404	0.0012723710504976078	close	microwave door	temperature	microwave
+00405	0.008185154804605941	close	microwave door	timer	microwave
+00406	0.02363009861164189	close	microwave door	food	microwave
+00407	0.0007441049822369038	close	microwave door	plastic	microwave
+00408	0.0	close	microwave door	imp protagonist	microwave
+00409	0.006404445651964264	close	microwave door	power level	microwave
+00410	0.0025447421009952157	close	microwave door	power	microwave
+00411	0.00014490950050083926	cover	plate	utensil	microwave
+00412	0.00013342595108258886	cover	plate	microwavable utensil	microwave
+00413	0.00019123542857943918	cover	plate	cover	microwave
+00414	0.00013342595108258886	cover	plate	protective cover	microwave
+00415	6.727820270143848e-05	cover	plate	stop	microwave
+00416	0.0006759482324732993	cover	plate	start button	microwave
+00417	0.00025954473560503436	cover	plate	oven	microwave
+00418	0.0009617243711408664	cover	plate	start	microwave
+00419	0.0014367667923171465	cover	plate	microwave safe container	microwave
+00420	0.0006952182213007493	cover	plate	cooking time	microwave
+00421	0.0011200051112340986	cover	plate	time	microwave
+00422	0.0029353709238169544	cover	plate	microwave door	microwave
+00423	0.0010787971959490912	cover	plate	door	microwave
+00424	0.00013342595108258886	cover	plate	cooking temperature	microwave
+00425	0.00021206184174960132	cover	plate	temperature	microwave
+00426	0.0013641924674343236	cover	plate	timer	microwave
+00427	0.003938349768606982	cover	plate	food	microwave
+00428	0.00012401749703948398	cover	plate	plastic	microwave
+00429	0.0	cover	plate	imp protagonist	microwave
+00430	0.0010674076086607108	cover	plate	power level	microwave
+00431	0.00042412368349920265	cover	plate	power	microwave
+00432	0.00010677498408995455	press	start	utensil	microwave
+00433	9.831345601766095e-05	press	start	microwavable utensil	microwave
+00434	0.00014090973865365714	press	start	cover	microwave
+00435	9.831345601766095e-05	press	start	protective cover	microwave
+00436	4.957320947362748e-05	press	start	stop	microwave
+00437	0.0004980650786768216	press	start	start button	microwave
+00438	0.000191242706096406	press	start	oven	microwave
+00439	0.0003515224337020424	press	start	plate	microwave
+00440	0.001058665931912103	press	start	microwave safe container	microwave
+00441	0.0005122639596566968	press	start	cooking time	microwave
+00442	0.0008252635439316557	press	start	time	microwave
+00443	0.0021628960323885407	press	start	microwave door	microwave
+00444	0.0007948999412435671	press	start	door	microwave
+00445	9.831345601766095e-05	press	start	cooking temperature	microwave
+00446	0.00015625545392566585	press	start	temperature	microwave
+00447	0.0010051903326041215	press	start	timer	microwave
+00448	0.0029019300489635676	press	start	food	microwave
+00449	9.138093932764743e-05	press	start	plastic	microwave
+00450	0.0	press	start	imp protagonist	microwave
+00451	0.0007865076481412876	press	start	power level	microwave
+00452	0.0003125109078513317	press	start	power	microwave
+00453	0.00014490950050083926	locate	microwave	utensil	microwave
+00454	0.00013342595108258886	locate	microwave	microwavable utensil	microwave
+00455	0.00019123542857943918	locate	microwave	cover	microwave
+00456	0.00013342595108258886	locate	microwave	protective cover	microwave
+00457	6.727820270143848e-05	locate	microwave	stop	microwave
+00458	0.0006759482324732993	locate	microwave	start button	microwave
+00459	0.00025954473560503436	locate	microwave	oven	microwave
+00460	0.0009617243711408664	locate	microwave	start	microwave
+00461	0.00047706811400400587	locate	microwave	plate	microwave
+00462	0.0014367667923171465	locate	microwave	microwave safe container	microwave
+00463	0.0006952182213007493	locate	microwave	cooking time	microwave
+00464	0.0011200051112340986	locate	microwave	time	microwave
+00465	0.0029353709238169544	locate	microwave	microwave door	microwave
+00466	0.0010787971959490912	locate	microwave	door	microwave
+00467	0.00013342595108258886	locate	microwave	cooking temperature	microwave
+00468	0.00021206184174960132	locate	microwave	temperature	microwave
+00469	0.0013641924674343236	locate	microwave	timer	microwave
+00470	0.003938349768606982	locate	microwave	food	microwave
+00471	0.00012401749703948398	locate	microwave	plastic	microwave
+00472	0.0	locate	microwave	imp protagonist	microwave
+00473	0.0010674076086607108	locate	microwave	power level	microwave
+00474	0.00042412368349920265	locate	microwave	power	microwave
+00475	0.00014490950050083926	close	panel	utensil	microwave
+00476	0.00013342595108258886	close	panel	microwavable utensil	microwave
+00477	0.00019123542857943918	close	panel	cover	microwave
+00478	0.00013342595108258886	close	panel	protective cover	microwave
+00479	6.727820270143848e-05	close	panel	stop	microwave
+00480	0.0006759482324732993	close	panel	start button	microwave
+00481	0.00025954473560503436	close	panel	oven	microwave
+00482	0.0009617243711408664	close	panel	start	microwave
+00483	0.00047706811400400587	close	panel	plate	microwave
+00484	0.0014367667923171465	close	panel	microwave safe container	microwave
+00485	0.0006952182213007493	close	panel	cooking time	microwave
+00486	0.0011200051112340986	close	panel	time	microwave
+00487	0.0029353709238169544	close	panel	microwave door	microwave
+00488	0.0010787971959490912	close	panel	door	microwave
+00489	0.00013342595108258886	close	panel	cooking temperature	microwave
+00490	0.00021206184174960132	close	panel	temperature	microwave
+00491	0.0013641924674343236	close	panel	timer	microwave
+00492	0.003938349768606982	close	panel	food	microwave
+00493	0.00012401749703948398	close	panel	plastic	microwave
+00494	0.0	close	panel	imp protagonist	microwave
+00495	0.0010674076086607108	close	panel	power level	microwave
+00496	0.00042412368349920265	close	panel	power	microwave
+00497	0.00014490950050083926	remove	hot food	utensil	microwave
+00498	0.00013342595108258886	remove	hot food	microwavable utensil	microwave
+00499	0.00019123542857943918	remove	hot food	cover	microwave
+00500	0.00013342595108258886	remove	hot food	protective cover	microwave
+00501	6.727820270143848e-05	remove	hot food	stop	microwave
+00502	0.0006759482324732993	remove	hot food	start button	microwave
+00503	0.00025954473560503436	remove	hot food	oven	microwave
+00504	0.0009617243711408664	remove	hot food	start	microwave
+00505	0.00047706811400400587	remove	hot food	plate	microwave
+00506	0.0014367667923171465	remove	hot food	microwave safe container	microwave
+00507	0.0006952182213007493	remove	hot food	cooking time	microwave
+00508	0.0011200051112340986	remove	hot food	time	microwave
+00509	0.0029353709238169544	remove	hot food	microwave door	microwave
+00510	0.0010787971959490912	remove	hot food	door	microwave
+00511	0.00013342595108258886	remove	hot food	cooking temperature	microwave
+00512	0.00021206184174960132	remove	hot food	temperature	microwave
+00513	0.0013641924674343236	remove	hot food	timer	microwave
+00514	0.003938349768606982	remove	hot food	food	microwave
+00515	0.00012401749703948398	remove	hot food	plastic	microwave
+00516	0.0	remove	hot food	imp protagonist	microwave
+00517	0.0010674076086607108	remove	hot food	power level	microwave
+00518	0.00042412368349920265	remove	hot food	power	microwave
+00519	0.00012584224229539691	remove	dish	utensil	microwave
+00520	0.00011586970355012491	remove	dish	microwavable utensil	microwave
+00521	0.00016607258361654817	remove	dish	cover	microwave
+00522	0.00011586970355012491	remove	dish	protective cover	microwave
+00523	5.842570608753298e-05	remove	dish	stop	microwave
+00524	0.0005870066555750605	remove	dish	start button	microwave
+00525	0.0002253937208507202	remove	dish	oven	microwave
+00526	0.000835180239502628	remove	dish	start	microwave
+00527	0.00041429527385302415	remove	dish	plate	microwave
+00528	0.0012477163621146248	remove	dish	microwave safe container	microwave
+00529	0.0006037410904787231	remove	dish	cooking time	microwave
+00530	0.0009726343275828773	remove	dish	time	microwave
+00531	0.002549133478102748	remove	dish	microwave door	microwave
+00532	0.0009368485685963292	remove	dish	door	microwave
+00533	0.00011586970355012491	remove	dish	cooking temperature	microwave
+00534	0.0001841586478376336	remove	dish	temperature	microwave
+00535	0.0011846914000192227	remove	dish	timer	microwave
+00536	0.003420139908785275	remove	dish	food	microwave
+00537	0.00010769921818356571	remove	dish	plastic	microwave
+00538	0.0	remove	dish	imp protagonist	microwave
+00539	0.0009269576284009993	remove	dish	power level	microwave
+00540	0.0003683172956752672	remove	dish	power	microwave
+00541	0.0009562135304820301	remove	food	utensil	microwave
+00542	0.0008804370955779121	remove	food	microwavable utensil	microwave
+00543	0.0012619041793890567	remove	food	cover	microwave
+00544	0.0008804370955779121	remove	food	protective cover	microwave
+00545	0.0004439483091673175	remove	food	stop	microwave
+00546	0.004460375914363449	remove	food	start button	microwave
+00547	0.001712656431035573	remove	food	oven	microwave
+00548	0.006346125361696985	remove	food	start	microwave
+00549	0.0031480267614995474	remove	food	plate	microwave
+00550	0.009480785194984255	remove	food	microwave safe container	microwave
+00551	0.0045875326845224796	remove	food	cooking time	microwave
+00552	0.007390571617938008	remove	food	time	microwave
+00553	0.019369616102714066	remove	food	microwave door	microwave
+00554	0.007118653172133599	remove	food	door	microwave
+00555	0.0008804370955779121	remove	food	cooking temperature	microwave
+00556	0.0013993313183681387	remove	food	temperature	microwave
+00557	0.009001889393268672	remove	food	timer	microwave
+00558	0.0008183535812062431	remove	food	plastic	microwave
+00559	0.0	remove	food	imp protagonist	microwave
+00560	0.007043496764623297	remove	food	power level	microwave
+00561	0.0027986626367362774	remove	food	power	microwave
+00562	0.00028981900100167853	set	power level	utensil	microwave
+00563	0.0002668519021651777	set	power level	microwavable utensil	microwave
+00564	0.00038247085715887837	set	power level	cover	microwave
+00565	0.0002668519021651777	set	power level	protective cover	microwave
+00566	0.00013455640540287696	set	power level	stop	microwave
+00567	0.0013518964649465986	set	power level	start button	microwave
+00568	0.0005190894712100687	set	power level	oven	microwave
+00569	0.0019234487422817327	set	power level	start	microwave
+00570	0.0009541362280080117	set	power level	plate	microwave
+00571	0.002873533584634293	set	power level	microwave safe container	microwave
+00572	0.0013904364426014985	set	power level	cooking time	microwave
+00573	0.0022400102224681973	set	power level	time	microwave
+00574	0.005870741847633909	set	power level	microwave door	microwave
+00575	0.0021575943918981824	set	power level	door	microwave
+00576	0.0002668519021651777	set	power level	cooking temperature	microwave
+00577	0.00042412368349920265	set	power level	temperature	microwave
+00578	0.0027283849348686473	set	power level	timer	microwave
+00579	0.007876699537213963	set	power level	food	microwave
+00580	0.00024803499407896796	set	power level	plastic	microwave
+00581	0.0	set	power level	imp protagonist	microwave
+00582	0.0008482473669984053	set	power level	power	microwave
+00583	0.00014490950050083926	keep	food	utensil	microwave
+00584	0.00013342595108258886	keep	food	microwavable utensil	microwave
+00585	0.00019123542857943918	keep	food	cover	microwave
+00586	0.00013342595108258886	keep	food	protective cover	microwave
+00587	6.727820270143848e-05	keep	food	stop	microwave
+00588	0.0006759482324732993	keep	food	start button	microwave
+00589	0.00025954473560503436	keep	food	oven	microwave
+00590	0.0009617243711408664	keep	food	start	microwave
+00591	0.00047706811400400587	keep	food	plate	microwave
+00592	0.0014367667923171465	keep	food	microwave safe container	microwave
+00593	0.0006952182213007493	keep	food	cooking time	microwave
+00594	0.0011200051112340986	keep	food	time	microwave
+00595	0.0029353709238169544	keep	food	microwave door	microwave
+00596	0.0010787971959490912	keep	food	door	microwave
+00597	0.00013342595108258886	keep	food	cooking temperature	microwave
+00598	0.00021206184174960132	keep	food	temperature	microwave
+00599	0.0013641924674343236	keep	food	timer	microwave
+00600	0.00012401749703948398	keep	food	plastic	microwave
+00601	0.0	keep	food	imp protagonist	microwave
+00602	0.0010674076086607108	keep	food	power level	microwave
+00603	0.00042412368349920265	keep	food	power	microwave
+00604	0.00043472850150251774	open	microwave	utensil	microwave
+00605	0.0004002778532477665	open	microwave	microwavable utensil	microwave
+00606	0.0005737062857383176	open	microwave	cover	microwave
+00607	0.0004002778532477665	open	microwave	protective cover	microwave
+00608	0.0002018346081043154	open	microwave	stop	microwave
+00609	0.0020278446974198974	open	microwave	start button	microwave
+00610	0.000778634206815103	open	microwave	oven	microwave
+00611	0.0028851731134225986	open	microwave	start	microwave
+00612	0.0014312043420120174	open	microwave	plate	microwave
+00613	0.004310300376951439	open	microwave	microwave safe container	microwave
+00614	0.0020856546639022476	open	microwave	cooking time	microwave
+00615	0.0033600153337022954	open	microwave	time	microwave
+00616	0.008806112771450863	open	microwave	microwave door	microwave
+00617	0.0032363915878472734	open	microwave	door	microwave
+00618	0.0004002778532477665	open	microwave	cooking temperature	microwave
+00619	0.0006361855252488039	open	microwave	temperature	microwave
+00620	0.0040925774023029705	open	microwave	timer	microwave
+00621	0.011815049305820944	open	microwave	food	microwave
+00622	0.0003720524911184519	open	microwave	plastic	microwave
+00623	0.0	open	microwave	imp protagonist	microwave
+00624	0.003202222825982132	open	microwave	power level	microwave
+00625	0.0012723710504976078	open	microwave	power	microwave
+00626	0.00032032495226986364	press	start button	utensil	microwave
+00627	0.00029494036805298283	press	start button	microwavable utensil	microwave
+00628	0.0004227292159609714	press	start button	cover	microwave
+00629	0.00029494036805298283	press	start button	protective cover	microwave
+00630	0.00014871962842088243	press	start button	stop	microwave
+00631	0.000573728118289218	press	start button	oven	microwave
+00632	0.0021259083235931685	press	start button	start	microwave
+00633	0.001054567301106127	press	start button	plate	microwave
+00634	0.0031759977957363087	press	start button	microwave safe container	microwave
+00635	0.0015367918789700903	press	start button	cooking time	microwave
+00636	0.002475790631794967	press	start button	time	microwave
+00637	0.006488688097165622	press	start button	microwave door	microwave
+00638	0.002384699823730701	press	start button	door	microwave
+00639	0.00029494036805298283	press	start button	cooking temperature	microwave
+00640	0.0004687663617769975	press	start button	temperature	microwave
+00641	0.0030155709978123644	press	start button	timer	microwave
+00642	0.008705790146890702	press	start button	food	microwave
+00643	0.0002741428179829423	press	start button	plastic	microwave
+00644	0.0	press	start button	imp protagonist	microwave
+00645	0.0023595229444238626	press	start button	power level	microwave
+00646	0.000937532723553995	press	start button	power	microwave
+00647	0.00010677498408995455	put	plate	utensil	microwave
+00648	9.831345601766095e-05	put	plate	microwavable utensil	microwave
+00649	0.00014090973865365714	put	plate	cover	microwave
+00650	9.831345601766095e-05	put	plate	protective cover	microwave
+00651	4.957320947362748e-05	put	plate	stop	microwave
+00652	0.0004980650786768216	put	plate	start button	microwave
+00653	0.000191242706096406	put	plate	oven	microwave
+00654	0.0007086361078643895	put	plate	start	microwave
+00655	0.001058665931912103	put	plate	microwave safe container	microwave
+00656	0.0005122639596566968	put	plate	cooking time	microwave
+00657	0.0008252635439316557	put	plate	time	microwave
+00658	0.0021628960323885407	put	plate	microwave door	microwave
+00659	0.0007948999412435671	put	plate	door	microwave
+00660	9.831345601766095e-05	put	plate	cooking temperature	microwave
+00661	0.00015625545392566585	put	plate	temperature	microwave
+00662	0.0010051903326041215	put	plate	timer	microwave
+00663	0.0029019300489635676	put	plate	food	microwave
+00664	9.138093932764743e-05	put	plate	plastic	microwave
+00665	0.0	put	plate	imp protagonist	microwave
+00666	0.0007865076481412876	put	plate	power level	microwave
+00667	0.0003125109078513317	put	plate	power	microwave
+00668	0.00043472850150251774	close	microwave	utensil	microwave
+00669	0.0004002778532477665	close	microwave	microwavable utensil	microwave
+00670	0.0005737062857383176	close	microwave	cover	microwave
+00671	0.0004002778532477665	close	microwave	protective cover	microwave
+00672	0.0002018346081043154	close	microwave	stop	microwave
+00673	0.0020278446974198974	close	microwave	start button	microwave
+00674	0.000778634206815103	close	microwave	oven	microwave
+00675	0.0028851731134225986	close	microwave	start	microwave
+00676	0.0014312043420120174	close	microwave	plate	microwave
+00677	0.004310300376951439	close	microwave	microwave safe container	microwave
+00678	0.0020856546639022476	close	microwave	cooking time	microwave
+00679	0.0033600153337022954	close	microwave	time	microwave
+00680	0.008806112771450863	close	microwave	microwave door	microwave
+00681	0.0032363915878472734	close	microwave	door	microwave
+00682	0.0004002778532477665	close	microwave	cooking temperature	microwave
+00683	0.0006361855252488039	close	microwave	temperature	microwave
+00684	0.0040925774023029705	close	microwave	timer	microwave
+00685	0.011815049305820944	close	microwave	food	microwave
+00686	0.0003720524911184519	close	microwave	plastic	microwave
+00687	0.0	close	microwave	imp protagonist	microwave
+00688	0.003202222825982132	close	microwave	power level	microwave
+00689	0.0012723710504976078	close	microwave	power	microwave
+00690	0.00025168448459079383	turn	microwave	utensil	microwave
+00691	0.00023173940710024982	turn	microwave	microwavable utensil	microwave
+00692	0.00033214516723309635	turn	microwave	cover	microwave
+00693	0.00023173940710024982	turn	microwave	protective cover	microwave
+00694	0.00011685141217506597	turn	microwave	stop	microwave
+00695	0.001174013311150121	turn	microwave	start button	microwave
+00696	0.0004507874417014404	turn	microwave	oven	microwave
+00697	0.001670360479005256	turn	microwave	start	microwave
+00698	0.0008285905477060483	turn	microwave	plate	microwave
+00699	0.0024954327242292496	turn	microwave	microwave safe container	microwave
+00700	0.0012074821809574462	turn	microwave	cooking time	microwave
+00701	0.0019452686551657545	turn	microwave	time	microwave
+00702	0.005098266956205496	turn	microwave	microwave door	microwave
+00703	0.0018736971371926584	turn	microwave	door	microwave
+00704	0.00023173940710024982	turn	microwave	cooking temperature	microwave
+00705	0.0003683172956752672	turn	microwave	temperature	microwave
+00706	0.0023693828000384454	turn	microwave	timer	microwave
+00707	0.00684027981757055	turn	microwave	food	microwave
+00708	0.00021539843636713142	turn	microwave	plastic	microwave
+00709	0.0	turn	microwave	imp protagonist	microwave
+00710	0.0018539152568019985	turn	microwave	power level	microwave
+00711	0.0007366345913505344	turn	microwave	power	microwave
+00712	0.0015299416487712483	set	timer	utensil	microwave
+00713	0.0014086993529246596	set	timer	microwavable utensil	microwave
+00714	0.0020190466870224906	set	timer	cover	microwave
+00715	0.0014086993529246596	set	timer	protective cover	microwave
+00716	0.000710317294667708	set	timer	stop	microwave
+00717	0.007136601462981518	set	timer	start button	microwave
+00718	0.002740250289656917	set	timer	oven	microwave
+00719	0.010153800578715176	set	timer	start	microwave
+00720	0.005036842818399276	set	timer	plate	microwave
+00721	0.01516925631197481	set	timer	microwave safe container	microwave
+00722	0.007340052295235968	set	timer	cooking time	microwave
+00723	0.011824914588700814	set	timer	time	microwave
+00724	0.03099138576434251	set	timer	microwave door	microwave
+00725	0.01138984507541376	set	timer	door	microwave
+00726	0.0014086993529246596	set	timer	cooking temperature	microwave
+00727	0.002238930109389022	set	timer	temperature	microwave
+00728	0.04158074741542244	set	timer	food	microwave
+00729	0.0013093657299299891	set	timer	plastic	microwave
+00730	0.0	set	timer	imp protagonist	microwave
+00731	0.011269594823397277	set	timer	power level	microwave
+00732	0.004477860218778044	set	timer	power	microwave
+00733	0.00014490950050083926	open	microave	utensil	microwave
+00734	0.00013342595108258886	open	microave	microwavable utensil	microwave
+00735	0.00019123542857943918	open	microave	cover	microwave
+00736	0.00013342595108258886	open	microave	protective cover	microwave
+00737	6.727820270143848e-05	open	microave	stop	microwave
+00738	0.0006759482324732993	open	microave	start button	microwave
+00739	0.00025954473560503436	open	microave	oven	microwave
+00740	0.0009617243711408664	open	microave	start	microwave
+00741	0.00047706811400400587	open	microave	plate	microwave
+00742	0.0014367667923171465	open	microave	microwave safe container	microwave
+00743	0.0006952182213007493	open	microave	cooking time	microwave
+00744	0.0011200051112340986	open	microave	time	microwave
+00745	0.0029353709238169544	open	microave	microwave door	microwave
+00746	0.0010787971959490912	open	microave	door	microwave
+00747	0.00013342595108258886	open	microave	cooking temperature	microwave
+00748	0.00021206184174960132	open	microave	temperature	microwave
+00749	0.0013641924674343236	open	microave	timer	microwave
+00750	0.003938349768606982	open	microave	food	microwave
+00751	0.00012401749703948398	open	microave	plastic	microwave
+00752	0.0	open	microave	imp protagonist	microwave
+00753	0.0010674076086607108	open	microave	power level	microwave
+00754	0.00042412368349920265	open	microave	power	microwave
+00755	0.00011468861125364537	replace	cover	utensil	microwave
+00756	0.00010559995709025516	replace	cover	microwavable utensil	microwave
+00757	0.00010559995709025516	replace	cover	protective cover	microwave
+00758	5.324732753063725e-05	replace	cover	stop	microwave
+00759	0.0005349791683345837	replace	cover	start button	microwave
+00760	0.00020541665785787146	replace	cover	oven	microwave
+00761	0.0007611566678079368	replace	cover	start	microwave
+00762	0.00037757551630093647	replace	cover	plate	microwave
+00763	0.0011371289497009473	replace	cover	microwave safe container	microwave
+00764	0.0005502303992742742	replace	cover	cooking time	microwave
+00765	0.0008864279454450223	replace	cover	time	microwave
+00766	0.0023231990559856135	replace	cover	microwave door	microwave
+00767	0.000853813944566122	replace	cover	door	microwave
+00768	0.00010559995709025516	replace	cover	cooking temperature	microwave
+00769	0.0001678363257487816	replace	cover	temperature	microwave
+00770	0.0010796900067419682	replace	cover	timer	microwave
+00771	0.0031170065732856094	replace	cover	food	microwave
+00772	9.815363697654259e-05	replace	cover	plastic	microwave
+00773	0.0	replace	cover	imp protagonist	microwave
+00774	0.0008447996567220413	replace	cover	power level	microwave
+00775	0.0003356726514975632	replace	cover	power	microwave
+00776	0.00025565267905603085	open	door	utensil	microwave
+00777	0.00023539313662643673	open	door	microwavable utensil	microwave
+00778	0.0003373819485802363	open	door	cover	microwave
+00779	0.00023539313662643673	open	door	protective cover	microwave
+00780	0.00011869375509025251	open	door	stop	microwave
+00781	0.0011925234435128486	open	door	start button	microwave
+00782	0.0004578948016726615	open	door	oven	microwave
+00783	0.0016966962907598666	open	door	start	microwave
+00784	0.0008416545569186175	open	door	plate	microwave
+00785	0.002534777073726033	open	door	microwave safe container	microwave
+00786	0.001226520001723943	open	door	cooking time	microwave
+00787	0.001975938818737332	open	door	time	microwave
+00788	0.005178649005781608	open	door	microwave door	microwave
+00789	0.00023539313662643673	open	door	cooking temperature	microwave
+00790	0.0003741243864720081	open	door	temperature	microwave
+00791	0.0024067397778768968	open	door	timer	microwave
+00792	0.006948127389330438	open	door	food	microwave
+00793	0.0002187945252615361	open	door	plastic	microwave
+00794	0.0	open	door	imp protagonist	microwave
+00795	0.0018831450930114938	open	door	power level	microwave
+00796	0.0007482487729440162	open	door	power	microwave
+00797	0.00014490950050083926	select	heating level	utensil	microwave
+00798	0.00013342595108258886	select	heating level	microwavable utensil	microwave
+00799	0.00019123542857943918	select	heating level	cover	microwave
+00800	0.00013342595108258886	select	heating level	protective cover	microwave
+00801	6.727820270143848e-05	select	heating level	stop	microwave
+00802	0.0006759482324732993	select	heating level	start button	microwave
+00803	0.00025954473560503436	select	heating level	oven	microwave
+00804	0.0009617243711408664	select	heating level	start	microwave
+00805	0.00047706811400400587	select	heating level	plate	microwave
+00806	0.0014367667923171465	select	heating level	microwave safe container	microwave
+00807	0.0006952182213007493	select	heating level	cooking time	microwave
+00808	0.0011200051112340986	select	heating level	time	microwave
+00809	0.0029353709238169544	select	heating level	microwave door	microwave
+00810	0.0010787971959490912	select	heating level	door	microwave
+00811	0.00013342595108258886	select	heating level	cooking temperature	microwave
+00812	0.00021206184174960132	select	heating level	temperature	microwave
+00813	0.0013641924674343236	select	heating level	timer	microwave
+00814	0.003938349768606982	select	heating level	food	microwave
+00815	0.00012401749703948398	select	heating level	plastic	microwave
+00816	0.0	select	heating level	imp protagonist	microwave
+00817	0.0010674076086607108	select	heating level	power level	microwave
+00818	0.00042412368349920265	select	heating level	power	microwave
+00819	8.770772588451219e-05	place	dish	utensil	microwave
+00820	8.0757208485197e-05	place	dish	microwavable utensil	microwave
+00821	0.00011574689369076611	place	dish	cover	microwave
+00822	8.0757208485197e-05	place	dish	protective cover	microwave
+00823	4.072071285972198e-05	place	dish	stop	microwave
+00824	0.0004091235017785828	place	dish	start button	microwave
+00825	0.00015709169134209185	place	dish	oven	microwave
+00826	0.0005820919762261512	place	dish	start	microwave
+00827	0.00028874959355106066	place	dish	plate	microwave
+00828	0.0008696155017095812	place	dish	microwave safe container	microwave
+00829	0.0004207868288346705	place	dish	cooking time	microwave
+00830	0.0006778927602804343	place	dish	time	microwave
+00831	0.0017766585866743339	place	dish	microwave door	microwave
+00832	0.0006529513138908051	place	dish	door	microwave
+00833	8.0757208485197e-05	place	dish	cooking temperature	microwave
+00834	0.0001283522600136981	place	dish	temperature	microwave
+00835	0.0008256892651890205	place	dish	timer	microwave
+00836	0.002383720189141861	place	dish	food	microwave
+00837	7.506266047172915e-05	place	dish	plastic	microwave
+00838	0.0	place	dish	imp protagonist	microwave
+00839	0.000646057667881576	place	dish	power level	microwave
+00840	0.0002567045200273962	place	dish	power	microwave
+00841	0.0003019100939434532	start	button	utensil	microwave
+00842	0.0002779848200884916	start	button	microwavable utensil	microwave
+00843	0.00039842733573842266	start	button	cover	microwave
+00844	0.0002779848200884916	start	button	protective cover	microwave
+00845	0.00014017002631114815	start	button	stop	microwave
+00846	0.001408296858809081	start	button	start button	microwave
+00847	0.0005407456049342383	start	button	oven	microwave
+00848	0.0020036939899407474	start	button	start	microwave
+00849	0.0009939422785847035	start	button	plate	microwave
+00850	0.002993415861238106	start	button	microwave safe container	microwave
+00851	0.0014484447036161995	start	button	cooking time	microwave
+00852	0.0023334622449262808	start	button	time	microwave
+00853	0.006115666041946815	start	button	microwave door	microwave
+00854	0.0022476080702040486	start	button	door	microwave
+00855	0.0002779848200884916	start	button	cooking temperature	microwave
+00856	0.0004418178956049402	start	button	temperature	microwave
+00857	0.00284221168782279	start	button	timer	microwave
+00858	0.008205311208117955	start	button	food	microwave
+00859	0.0002583828807111628	start	button	plastic	microwave
+00860	0.0	start	button	imp protagonist	microwave
+00861	0.0022238785607079327	start	button	power level	microwave
+00862	0.0008836357912098804	start	button	power	microwave
+00863	0.00012584224229539691	let	cool	utensil	microwave
+00864	0.00011586970355012491	let	cool	microwavable utensil	microwave
+00865	0.00016607258361654817	let	cool	cover	microwave
+00866	0.00011586970355012491	let	cool	protective cover	microwave
+00867	5.842570608753298e-05	let	cool	stop	microwave
+00868	0.0005870066555750605	let	cool	start button	microwave
+00869	0.0002253937208507202	let	cool	oven	microwave
+00870	0.000835180239502628	let	cool	start	microwave
+00871	0.00041429527385302415	let	cool	plate	microwave
+00872	0.0012477163621146248	let	cool	microwave safe container	microwave
+00873	0.0006037410904787231	let	cool	cooking time	microwave
+00874	0.0009726343275828773	let	cool	time	microwave
+00875	0.002549133478102748	let	cool	microwave door	microwave
+00876	0.0009368485685963292	let	cool	door	microwave
+00877	0.00011586970355012491	let	cool	cooking temperature	microwave
+00878	0.0001841586478376336	let	cool	temperature	microwave
+00879	0.0011846914000192227	let	cool	timer	microwave
+00880	0.003420139908785275	let	cool	food	microwave
+00881	0.00010769921818356571	let	cool	plastic	microwave
+00882	0.0	let	cool	imp protagonist	microwave
+00883	0.0009269576284009993	let	cool	power level	microwave
+00884	0.0003683172956752672	let	cool	power	microwave
+00885	0.001858289884141932	place	food	utensil	microwave
+00886	0.001711027188154272	place	food	microwavable utensil	microwave
+00887	0.0024523641389313914	place	food	cover	microwave
+00888	0.001711027188154272	place	food	protective cover	microwave
+00889	0.0008627619519163923	place	food	stop	microwave
+00890	0.008668222292309095	place	food	start button	microwave
+00891	0.0033283487624355883	place	food	oven	microwave
+00892	0.01233295721845016	place	food	start	microwave
+00893	0.006117824209153074	place	food	plate	microwave
+00894	0.018424804355864452	place	food	microwave safe container	microwave
+00895	0.00891533669945158	place	food	cooking time	microwave
+00896	0.014362717152430806	place	food	time	microwave
+00897	0.03764259813939399	place	food	microwave door	microwave
+00898	0.013834275250029358	place	food	door	microwave
+00899	0.001711027188154272	place	food	cooking temperature	microwave
+00900	0.0027194378144551608	place	food	temperature	microwave
+00901	0.01749412601309148	place	food	timer	microwave
+00902	0.0015903750920992258	place	food	plastic	microwave
+00903	0.0	place	food	imp protagonist	microwave
+00904	0.013688217505234176	place	food	power level	microwave
+00905	0.0054388756289103215	place	food	power	microwave
+00906	0.0006292112114769845	select	time	utensil	microwave
+00907	0.0005793485177506245	select	time	microwavable utensil	microwave
+00908	0.0008303629180827409	select	time	cover	microwave
+00909	0.0005793485177506245	select	time	protective cover	microwave
+00910	0.0002921285304376649	select	time	stop	microwave
+00911	0.0029350332778753023	select	time	start button	microwave
+00912	0.001126968604253601	select	time	oven	microwave
+00913	0.00417590119751314	select	time	start	microwave
+00914	0.0020714763692651207	select	time	plate	microwave
+00915	0.006238581810573124	select	time	microwave safe container	microwave
+00916	0.003018705452393615	select	time	cooking time	microwave
+00917	0.012745667390513738	select	time	microwave door	microwave
+00918	0.004684242842981645	select	time	door	microwave
+00919	0.0005793485177506245	select	time	cooking temperature	microwave
+00920	0.000920793239188168	select	time	temperature	microwave
+00921	0.005923457000096112	select	time	timer	microwave
+00922	0.017100699543926373	select	time	food	microwave
+00923	0.0005384960909178286	select	time	plastic	microwave
+00924	0.0	select	time	imp protagonist	microwave
+00925	0.004634788142004996	select	time	power level	microwave
+00926	0.001841586478376336	select	time	power	microwave
+00927	0.002173642507512589	open	microwave door	utensil	microwave
+00928	0.0020013892662388327	open	microwave door	microwavable utensil	microwave
+00929	0.0028685314286915884	open	microwave door	cover	microwave
+00930	0.0020013892662388327	open	microwave door	protective cover	microwave
+00931	0.0010091730405215773	open	microwave door	stop	microwave
+00932	0.01013922348709949	open	microwave door	start button	microwave
+00933	0.003893171034075516	open	microwave door	oven	microwave
+00934	0.014425865567112997	open	microwave door	start	microwave
+00935	0.007156021710060088	open	microwave door	plate	microwave
+00936	0.021551501884757202	open	microwave door	microwave safe container	microwave
+00937	0.01042827331951124	open	microwave door	cooking time	microwave
+00938	0.01680007666851148	open	microwave door	time	microwave
+00939	0.01618195793923637	open	microwave door	door	microwave
+00940	0.0020013892662388327	open	microwave door	cooking temperature	microwave
+00941	0.0031809276262440202	open	microwave door	temperature	microwave
+00942	0.020462887011514854	open	microwave door	timer	microwave
+00943	0.05907524652910473	open	microwave door	food	microwave
+00944	0.00186026245559226	open	microwave door	plastic	microwave
+00945	0.0	open	microwave door	imp protagonist	microwave
+00946	0.016011114129910662	open	microwave door	power level	microwave
+00947	0.0063618552524880405	open	microwave door	power	microwave
+00948	0.00010677498408995455	open	food	utensil	microwave
+00949	9.831345601766095e-05	open	food	microwavable utensil	microwave
+00950	0.00014090973865365714	open	food	cover	microwave
+00951	9.831345601766095e-05	open	food	protective cover	microwave
+00952	4.957320947362748e-05	open	food	stop	microwave
+00953	0.0004980650786768216	open	food	start button	microwave
+00954	0.000191242706096406	open	food	oven	microwave
+00955	0.0007086361078643895	open	food	start	microwave
+00956	0.0003515224337020424	open	food	plate	microwave
+00957	0.001058665931912103	open	food	microwave safe container	microwave
+00958	0.0005122639596566968	open	food	cooking time	microwave
+00959	0.0008252635439316557	open	food	time	microwave
+00960	0.0021628960323885407	open	food	microwave door	microwave
+00961	0.0007948999412435671	open	food	door	microwave
+00962	9.831345601766095e-05	open	food	cooking temperature	microwave
+00963	0.00015625545392566585	open	food	temperature	microwave
+00964	0.0010051903326041215	open	food	timer	microwave
+00965	9.138093932764743e-05	open	food	plastic	microwave
+00966	0.0	open	food	imp protagonist	microwave
+00967	0.0007865076481412876	open	food	power level	microwave
+00968	0.0003125109078513317	open	food	power	microwave
+00969	0.00012584224229539691	set	desired time	utensil	microwave
+00970	0.00011586970355012491	set	desired time	microwavable utensil	microwave
+00971	0.00016607258361654817	set	desired time	cover	microwave
+00972	0.00011586970355012491	set	desired time	protective cover	microwave
+00973	5.842570608753298e-05	set	desired time	stop	microwave
+00974	0.0005870066555750605	set	desired time	start button	microwave
+00975	0.0002253937208507202	set	desired time	oven	microwave
+00976	0.000835180239502628	set	desired time	start	microwave
+00977	0.00041429527385302415	set	desired time	plate	microwave
+00978	0.0012477163621146248	set	desired time	microwave safe container	microwave
+00979	0.0006037410904787231	set	desired time	cooking time	microwave
+00980	0.0009726343275828773	set	desired time	time	microwave
+00981	0.002549133478102748	set	desired time	microwave door	microwave
+00982	0.0009368485685963292	set	desired time	door	microwave
+00983	0.00011586970355012491	set	desired time	cooking temperature	microwave
+00984	0.0001841586478376336	set	desired time	temperature	microwave
+00985	0.0011846914000192227	set	desired time	timer	microwave
+00986	0.003420139908785275	set	desired time	food	microwave
+00987	0.00010769921818356571	set	desired time	plastic	microwave
+00988	0.0	set	desired time	imp protagonist	microwave
+00989	0.0009269576284009993	set	desired time	power level	microwave
+00990	0.0003683172956752672	set	desired time	power	microwave
+00991	0.00012584224229539691	choose	time	utensil	microwave
+00992	0.00011586970355012491	choose	time	microwavable utensil	microwave
+00993	0.00016607258361654817	choose	time	cover	microwave
+00994	0.00011586970355012491	choose	time	protective cover	microwave
+00995	5.842570608753298e-05	choose	time	stop	microwave
+00996	0.0005870066555750605	choose	time	start button	microwave
+00997	0.0002253937208507202	choose	time	oven	microwave
+00998	0.000835180239502628	choose	time	start	microwave
+00999	0.00041429527385302415	choose	time	plate	microwave
+01000	0.0012477163621146248	choose	time	microwave safe container	microwave
+01001	0.0006037410904787231	choose	time	cooking time	microwave
+01002	0.002549133478102748	choose	time	microwave door	microwave
+01003	0.0009368485685963292	choose	time	door	microwave
+01004	0.00011586970355012491	choose	time	cooking temperature	microwave
+01005	0.0001841586478376336	choose	time	temperature	microwave
+01006	0.0011846914000192227	choose	time	timer	microwave
+01007	0.003420139908785275	choose	time	food	microwave
+01008	0.00010769921818356571	choose	time	plastic	microwave
+01009	0.0	choose	time	imp protagonist	microwave
+01010	0.0009269576284009993	choose	time	power level	microwave
+01011	0.0003683172956752672	choose	time	power	microwave
+01012	0.00011468861125364537	choose	temperature	utensil	microwave
+01013	0.00010559995709025516	choose	temperature	microwavable utensil	microwave
+01014	0.00015135326290179667	choose	temperature	cover	microwave
+01015	0.00010559995709025516	choose	temperature	protective cover	microwave
+01016	5.324732753063725e-05	choose	temperature	stop	microwave
+01017	0.0005349791683345837	choose	temperature	start button	microwave
+01018	0.00020541665785787146	choose	temperature	oven	microwave
+01019	0.0007611566678079368	choose	temperature	start	microwave
+01020	0.00037757551630093647	choose	temperature	plate	microwave
+01021	0.0011371289497009473	choose	temperature	microwave safe container	microwave
+01022	0.0005502303992742742	choose	temperature	cooking time	microwave
+01023	0.0008864279454450223	choose	temperature	time	microwave
+01024	0.0023231990559856135	choose	temperature	microwave door	microwave
+01025	0.000853813944566122	choose	temperature	door	microwave
+01026	0.00010559995709025516	choose	temperature	cooking temperature	microwave
+01027	0.0010796900067419682	choose	temperature	timer	microwave
+01028	0.0031170065732856094	choose	temperature	food	microwave
+01029	9.815363697654259e-05	choose	temperature	plastic	microwave
+01030	0.0	choose	temperature	imp protagonist	microwave
+01031	0.0008447996567220413	choose	temperature	power level	microwave
+01032	0.0003356726514975632	choose	temperature	power	microwave
+01033	0.0003019100939434532	push	start button	utensil	microwave
+01034	0.0002779848200884916	push	start button	microwavable utensil	microwave
+01035	0.00039842733573842266	push	start button	cover	microwave
+01036	0.0002779848200884916	push	start button	protective cover	microwave
+01037	0.00014017002631114815	push	start button	stop	microwave
+01038	0.0005407456049342383	push	start button	oven	microwave
+01039	0.0020036939899407474	push	start button	start	microwave
+01040	0.0009939422785847035	push	start button	plate	microwave
+01041	0.002993415861238106	push	start button	microwave safe container	microwave
+01042	0.0014484447036161995	push	start button	cooking time	microwave
+01043	0.0023334622449262808	push	start button	time	microwave
+01044	0.006115666041946815	push	start button	microwave door	microwave
+01045	0.0022476080702040486	push	start button	door	microwave
+01046	0.0002779848200884916	push	start button	cooking temperature	microwave
+01047	0.0004418178956049402	push	start button	temperature	microwave
+01048	0.00284221168782279	push	start button	timer	microwave
+01049	0.008205311208117955	push	start button	food	microwave
+01050	0.0002583828807111628	push	start button	plastic	microwave
+01051	0.0	push	start button	imp protagonist	microwave
+01052	0.0022238785607079327	push	start button	power level	microwave
+01053	0.0008836357912098804	push	start button	power	microwave
+01054	0.00014490950050083926	find	microwave	utensil	microwave
+01055	0.00013342595108258886	find	microwave	microwavable utensil	microwave
+01056	0.00019123542857943918	find	microwave	cover	microwave
+01057	0.00013342595108258886	find	microwave	protective cover	microwave
+01058	6.727820270143848e-05	find	microwave	stop	microwave
+01059	0.0006759482324732993	find	microwave	start button	microwave
+01060	0.00025954473560503436	find	microwave	oven	microwave
+01061	0.0009617243711408664	find	microwave	start	microwave
+01062	0.00047706811400400587	find	microwave	plate	microwave
+01063	0.0014367667923171465	find	microwave	microwave safe container	microwave
+01064	0.0006952182213007493	find	microwave	cooking time	microwave
+01065	0.0011200051112340986	find	microwave	time	microwave
+01066	0.0029353709238169544	find	microwave	microwave door	microwave
+01067	0.0010787971959490912	find	microwave	door	microwave
+01068	0.00013342595108258886	find	microwave	cooking temperature	microwave
+01069	0.00021206184174960132	find	microwave	temperature	microwave
+01070	0.0013641924674343236	find	microwave	timer	microwave
+01071	0.003938349768606982	find	microwave	food	microwave
+01072	0.00012401749703948398	find	microwave	plastic	microwave
+01073	0.0	find	microwave	imp protagonist	microwave
+01074	0.0010674076086607108	find	microwave	power level	microwave
+01075	0.00042412368349920265	find	microwave	power	microwave
+01076	0.00020127339596230214	locate	food	utensil	microwave
+01077	0.00018532321339232775	locate	food	microwavable utensil	microwave
+01078	0.0002656182238256151	locate	food	cover	microwave
+01079	0.00018532321339232775	locate	food	protective cover	microwave
+01080	9.344668420743211e-05	locate	food	stop	microwave
+01081	0.0009388645725393875	locate	food	start button	microwave
+01082	0.0003604970699561589	locate	food	oven	microwave
+01083	0.0013357959932938318	locate	food	start	microwave
+01084	0.0006626281857231358	locate	food	plate	microwave
+01085	0.001995610574158738	locate	food	microwave safe container	microwave
+01086	0.0009656298024107997	locate	food	cooking time	microwave
+01087	0.0015556414966175207	locate	food	time	microwave
+01088	0.00407711069463121	locate	food	microwave door	microwave
+01089	0.0014984053801360326	locate	food	door	microwave
+01090	0.00018532321339232775	locate	food	cooking temperature	microwave
+01091	0.00029454526373662684	locate	food	temperature	microwave
+01092	0.00189480779188186	locate	food	timer	microwave
+01093	0.00017225525380744187	locate	food	plastic	microwave
+01094	0.0	locate	food	imp protagonist	microwave
+01095	0.001482585707138622	locate	food	power level	microwave
+01096	0.0005890905274732537	locate	food	power	microwave
+01097	0.00014490950050083926	press	timer	utensil	microwave
+01098	0.00013342595108258886	press	timer	microwavable utensil	microwave
+01099	0.00019123542857943918	press	timer	cover	microwave
+01100	0.00013342595108258886	press	timer	protective cover	microwave
+01101	6.727820270143848e-05	press	timer	stop	microwave
+01102	0.0006759482324732993	press	timer	start button	microwave
+01103	0.00025954473560503436	press	timer	oven	microwave
+01104	0.0009617243711408664	press	timer	start	microwave
+01105	0.00047706811400400587	press	timer	plate	microwave
+01106	0.0014367667923171465	press	timer	microwave safe container	microwave
+01107	0.0006952182213007493	press	timer	cooking time	microwave
+01108	0.0011200051112340986	press	timer	time	microwave
+01109	0.0029353709238169544	press	timer	microwave door	microwave
+01110	0.0010787971959490912	press	timer	door	microwave
+01111	0.00013342595108258886	press	timer	cooking temperature	microwave
+01112	0.00021206184174960132	press	timer	temperature	microwave
+01113	0.003938349768606982	press	timer	food	microwave
+01114	0.00012401749703948398	press	timer	plastic	microwave
+01115	0.0	press	timer	imp protagonist	microwave
+01116	0.0010674076086607108	press	timer	power level	microwave
+01117	0.00042412368349920265	press	timer	power	microwave
+01118	0.00011468861125364537	check	temperature	utensil	microwave
+01119	0.00010559995709025516	check	temperature	microwavable utensil	microwave
+01120	0.00015135326290179667	check	temperature	cover	microwave
+01121	0.00010559995709025516	check	temperature	protective cover	microwave
+01122	5.324732753063725e-05	check	temperature	stop	microwave
+01123	0.0005349791683345837	check	temperature	start button	microwave
+01124	0.00020541665785787146	check	temperature	oven	microwave
+01125	0.0007611566678079368	check	temperature	start	microwave
+01126	0.00037757551630093647	check	temperature	plate	microwave
+01127	0.0011371289497009473	check	temperature	microwave safe container	microwave
+01128	0.0005502303992742742	check	temperature	cooking time	microwave
+01129	0.0008864279454450223	check	temperature	time	microwave
+01130	0.0023231990559856135	check	temperature	microwave door	microwave
+01131	0.000853813944566122	check	temperature	door	microwave
+01132	0.00010559995709025516	check	temperature	cooking temperature	microwave
+01133	0.0010796900067419682	check	temperature	timer	microwave
+01134	0.0031170065732856094	check	temperature	food	microwave
+01135	9.815363697654259e-05	check	temperature	plastic	microwave
+01136	0.0	check	temperature	imp protagonist	microwave
+01137	0.0008447996567220413	check	temperature	power level	microwave
+01138	0.0003356726514975632	check	temperature	power	microwave
+01139	0.00014490950050083926	select	desired length	utensil	microwave
+01140	0.00013342595108258886	select	desired length	microwavable utensil	microwave
+01141	0.00019123542857943918	select	desired length	cover	microwave
+01142	0.00013342595108258886	select	desired length	protective cover	microwave
+01143	6.727820270143848e-05	select	desired length	stop	microwave
+01144	0.0006759482324732993	select	desired length	start button	microwave
+01145	0.00025954473560503436	select	desired length	oven	microwave
+01146	0.0009617243711408664	select	desired length	start	microwave
+01147	0.00047706811400400587	select	desired length	plate	microwave
+01148	0.0014367667923171465	select	desired length	microwave safe container	microwave
+01149	0.0006952182213007493	select	desired length	cooking time	microwave
+01150	0.0011200051112340986	select	desired length	time	microwave
+01151	0.0029353709238169544	select	desired length	microwave door	microwave
+01152	0.0010787971959490912	select	desired length	door	microwave
+01153	0.00013342595108258886	select	desired length	cooking temperature	microwave
+01154	0.00021206184174960132	select	desired length	temperature	microwave
+01155	0.0013641924674343236	select	desired length	timer	microwave
+01156	0.003938349768606982	select	desired length	food	microwave
+01157	0.00012401749703948398	select	desired length	plastic	microwave
+01158	0.0	select	desired length	imp protagonist	microwave
+01159	0.0010674076086607108	select	desired length	power level	microwave
+01160	0.00042412368349920265	select	desired length	power	microwave
+01161	0.00014490950050083926	press	stop	utensil	microwave
+01162	0.00013342595108258886	press	stop	microwavable utensil	microwave
+01163	0.00019123542857943918	press	stop	cover	microwave
+01164	0.00013342595108258886	press	stop	protective cover	microwave
+01165	0.0006759482324732993	press	stop	start button	microwave
+01166	0.00025954473560503436	press	stop	oven	microwave
+01167	0.0009617243711408664	press	stop	start	microwave
+01168	0.00047706811400400587	press	stop	plate	microwave
+01169	0.0014367667923171465	press	stop	microwave safe container	microwave
+01170	0.0006952182213007493	press	stop	cooking time	microwave
+01171	0.0011200051112340986	press	stop	time	microwave
+01172	0.0029353709238169544	press	stop	microwave door	microwave
+01173	0.0010787971959490912	press	stop	door	microwave
+01174	0.00013342595108258886	press	stop	cooking temperature	microwave
+01175	0.00021206184174960132	press	stop	temperature	microwave
+01176	0.0013641924674343236	press	stop	timer	microwave
+01177	0.003938349768606982	press	stop	food	microwave
+01178	0.00012401749703948398	press	stop	plastic	microwave
+01179	0.0	press	stop	imp protagonist	microwave
+01180	0.0010674076086607108	press	stop	power level	microwave
+01181	0.00042412368349920265	press	stop	power	microwave
+01182	0.00025168448459079383	take	plastic	utensil	microwave
+01183	0.00023173940710024982	take	plastic	microwavable utensil	microwave
+01184	0.00033214516723309635	take	plastic	cover	microwave
+01185	0.00023173940710024982	take	plastic	protective cover	microwave
+01186	0.00011685141217506597	take	plastic	stop	microwave
+01187	0.001174013311150121	take	plastic	start button	microwave
+01188	0.0004507874417014404	take	plastic	oven	microwave
+01189	0.001670360479005256	take	plastic	start	microwave
+01190	0.0008285905477060483	take	plastic	plate	microwave
+01191	0.0024954327242292496	take	plastic	microwave safe container	microwave
+01192	0.0012074821809574462	take	plastic	cooking time	microwave
+01193	0.0019452686551657545	take	plastic	time	microwave
+01194	0.005098266956205496	take	plastic	microwave door	microwave
+01195	0.0018736971371926584	take	plastic	door	microwave
+01196	0.00023173940710024982	take	plastic	cooking temperature	microwave
+01197	0.0003683172956752672	take	plastic	temperature	microwave
+01198	0.0023693828000384454	take	plastic	timer	microwave
+01199	0.00684027981757055	take	plastic	food	microwave
+01200	0.0	take	plastic	imp protagonist	microwave
+01201	0.0018539152568019985	take	plastic	power level	microwave
+01202	0.0007366345913505344	take	plastic	power	microwave
+01203	0.000894784376696108	close	door	utensil	microwave
+01204	0.0008238759781925286	close	door	microwavable utensil	microwave
+01205	0.001180836820030827	close	door	cover	microwave
+01206	0.0008238759781925286	close	door	protective cover	microwave
+01207	0.0004154281428158838	close	door	stop	microwave
+01208	0.00417383205229497	close	door	start button	microwave
+01209	0.0016026318058543151	close	door	oven	microwave
+01210	0.005938437017659533	close	door	start	microwave
+01211	0.002945790949215161	close	door	plate	microwave
+01212	0.008871719758041114	close	door	microwave safe container	microwave
+01213	0.0042928200060338	close	door	cooking time	microwave
+01214	0.006915785865580662	close	door	time	microwave
+01215	0.018125271520235627	close	door	microwave door	microwave
+01216	0.0008238759781925286	close	door	cooking temperature	microwave
+01217	0.0013094353526520283	close	door	temperature	microwave
+01218	0.008423589222569139	close	door	timer	microwave
+01219	0.02431844586265653	close	door	food	microwave
+01220	0.0007657808384153764	close	door	plastic	microwave
+01221	0.0	close	door	imp protagonist	microwave
+01222	0.0065910078255402285	close	door	power level	microwave
+01223	0.0026188707053040566	close	door	power	microwave
+01224	0.00022937722250729073	find	food	utensil	microwave
+01225	0.0002111999141805103	find	food	microwavable utensil	microwave
+01226	0.00030270652580359334	find	food	cover	microwave
+01227	0.0002111999141805103	find	food	protective cover	microwave
+01228	0.0001064946550612745	find	food	stop	microwave
+01229	0.0010699583366691673	find	food	start button	microwave
+01230	0.0004108333157157429	find	food	oven	microwave
+01231	0.0015223133356158736	find	food	start	microwave
+01232	0.0007551510326018729	find	food	plate	microwave
+01233	0.0022742578994018946	find	food	microwave safe container	microwave
+01234	0.0011004607985485484	find	food	cooking time	microwave
+01235	0.0017728558908900445	find	food	time	microwave
+01236	0.004646398111971227	find	food	microwave door	microwave
+01237	0.001707627889132244	find	food	door	microwave
+01238	0.0002111999141805103	find	food	cooking temperature	microwave
+01239	0.0003356726514975632	find	food	temperature	microwave
+01240	0.0021593800134839364	find	food	timer	microwave
+01241	0.00019630727395308518	find	food	plastic	microwave
+01242	0.0	find	food	imp protagonist	microwave
+01243	0.0016895993134440825	find	food	power level	microwave
+01244	0.0006713453029951264	find	food	power	microwave
+01245	0.00014490950050083926	select	time power level	utensil	microwave
+01246	0.00013342595108258886	select	time power level	microwavable utensil	microwave
+01247	0.00019123542857943918	select	time power level	cover	microwave
+01248	0.00013342595108258886	select	time power level	protective cover	microwave
+01249	6.727820270143848e-05	select	time power level	stop	microwave
+01250	0.0006759482324732993	select	time power level	start button	microwave
+01251	0.00025954473560503436	select	time power level	oven	microwave
+01252	0.0009617243711408664	select	time power level	start	microwave
+01253	0.00047706811400400587	select	time power level	plate	microwave
+01254	0.0014367667923171465	select	time power level	microwave safe container	microwave
+01255	0.0006952182213007493	select	time power level	cooking time	microwave
+01256	0.0011200051112340986	select	time power level	time	microwave
+01257	0.0029353709238169544	select	time power level	microwave door	microwave
+01258	0.0010787971959490912	select	time power level	door	microwave
+01259	0.00013342595108258886	select	time power level	cooking temperature	microwave
+01260	0.00021206184174960132	select	time power level	temperature	microwave
+01261	0.0013641924674343236	select	time power level	timer	microwave
+01262	0.003938349768606982	select	time power level	food	microwave
+01263	0.00012401749703948398	select	time power level	plastic	microwave
+01264	0.0	select	time power level	imp protagonist	microwave
+01265	0.0010674076086607108	select	time power level	power level	microwave
+01266	0.00042412368349920265	select	time power level	power	microwave
+01267	0.0007550534537723814	set	time	utensil	microwave
+01268	0.0006952182213007494	set	time	microwavable utensil	microwave
+01269	0.000996435501699289	set	time	cover	microwave
+01270	0.0006952182213007494	set	time	protective cover	microwave
+01271	0.00035055423652519786	set	time	stop	microwave
+01272	0.0035220399334503624	set	time	start button	microwave
+01273	0.001352362325104321	set	time	oven	microwave
+01274	0.005011081437015768	set	time	start	microwave
+01275	0.0024857716431181446	set	time	plate	microwave
+01276	0.007486298172687748	set	time	microwave safe container	microwave
+01277	0.0036224465428723383	set	time	cooking time	microwave
+01278	0.015294800868616487	set	time	microwave door	microwave
+01279	0.005621091411577975	set	time	door	microwave
+01280	0.0006952182213007494	set	time	cooking temperature	microwave
+01281	0.0011049518870258016	set	time	temperature	microwave
+01282	0.007108148400115335	set	time	timer	microwave
+01283	0.02052083945271165	set	time	food	microwave
+01284	0.0006461953091013942	set	time	plastic	microwave
+01285	0.0	set	time	imp protagonist	microwave
+01286	0.005561745770405995	set	time	power level	microwave
+01287	0.0022099037740516032	set	time	power	microwave
+01288	0.00011468861125364537	place	plate	utensil	microwave
+01289	0.00010559995709025516	place	plate	microwavable utensil	microwave
+01290	0.00015135326290179667	place	plate	cover	microwave
+01291	0.00010559995709025516	place	plate	protective cover	microwave
+01292	5.324732753063725e-05	place	plate	stop	microwave
+01293	0.0005349791683345837	place	plate	start button	microwave
+01294	0.00020541665785787146	place	plate	oven	microwave
+01295	0.0007611566678079368	place	plate	start	microwave
+01296	0.0011371289497009473	place	plate	microwave safe container	microwave
+01297	0.0005502303992742742	place	plate	cooking time	microwave
+01298	0.0008864279454450223	place	plate	time	microwave
+01299	0.0023231990559856135	place	plate	microwave door	microwave
+01300	0.000853813944566122	place	plate	door	microwave
+01301	0.00010559995709025516	place	plate	cooking temperature	microwave
+01302	0.0001678363257487816	place	plate	temperature	microwave
+01303	0.0010796900067419682	place	plate	timer	microwave
+01304	0.0031170065732856094	place	plate	food	microwave
+01305	9.815363697654259e-05	place	plate	plastic	microwave
+01306	0.0	place	plate	imp protagonist	microwave
+01307	0.0008447996567220413	place	plate	power level	microwave
+01308	0.0003356726514975632	place	plate	power	microwave
+01309	0.00028981900100167853	enter	time	utensil	microwave
+01310	0.0002668519021651777	enter	time	microwavable utensil	microwave
+01311	0.00038247085715887837	enter	time	cover	microwave
+01312	0.0002668519021651777	enter	time	protective cover	microwave
+01313	0.00013455640540287696	enter	time	stop	microwave
+01314	0.0013518964649465986	enter	time	start button	microwave
+01315	0.0005190894712100687	enter	time	oven	microwave
+01316	0.0019234487422817327	enter	time	start	microwave
+01317	0.0009541362280080117	enter	time	plate	microwave
+01318	0.002873533584634293	enter	time	microwave safe container	microwave
+01319	0.0013904364426014985	enter	time	cooking time	microwave
+01320	0.005870741847633909	enter	time	microwave door	microwave
+01321	0.0021575943918981824	enter	time	door	microwave
+01322	0.0002668519021651777	enter	time	cooking temperature	microwave
+01323	0.00042412368349920265	enter	time	temperature	microwave
+01324	0.0027283849348686473	enter	time	timer	microwave
+01325	0.007876699537213963	enter	time	food	microwave
+01326	0.00024803499407896796	enter	time	plastic	microwave
+01327	0.0	enter	time	imp protagonist	microwave
+01328	0.0021348152173214217	enter	time	power level	microwave
+01329	0.0008482473669984053	enter	time	power	microwave
+01330	0.00043472850150251774	select	power level	utensil	microwave
+01331	0.0004002778532477665	select	power level	microwavable utensil	microwave
+01332	0.0005737062857383176	select	power level	cover	microwave
+01333	0.0004002778532477665	select	power level	protective cover	microwave
+01334	0.0002018346081043154	select	power level	stop	microwave
+01335	0.0020278446974198974	select	power level	start button	microwave
+01336	0.000778634206815103	select	power level	oven	microwave
+01337	0.0028851731134225986	select	power level	start	microwave
+01338	0.0014312043420120174	select	power level	plate	microwave
+01339	0.004310300376951439	select	power level	microwave safe container	microwave
+01340	0.0020856546639022476	select	power level	cooking time	microwave
+01341	0.0033600153337022954	select	power level	time	microwave
+01342	0.008806112771450863	select	power level	microwave door	microwave
+01343	0.0032363915878472734	select	power level	door	microwave
+01344	0.0004002778532477665	select	power level	cooking temperature	microwave
+01345	0.0006361855252488039	select	power level	temperature	microwave
+01346	0.0040925774023029705	select	power level	timer	microwave
+01347	0.011815049305820944	select	power level	food	microwave
+01348	0.0003720524911184519	select	power level	plastic	microwave
+01349	0.0	select	power level	imp protagonist	microwave
+01350	0.0012723710504976078	select	power level	power	microwave
+01351	0.00012584224229539691	stir	food	utensil	microwave
+01352	0.00011586970355012491	stir	food	microwavable utensil	microwave
+01353	0.00016607258361654817	stir	food	cover	microwave
+01354	0.00011586970355012491	stir	food	protective cover	microwave
+01355	5.842570608753298e-05	stir	food	stop	microwave
+01356	0.0005870066555750605	stir	food	start button	microwave
+01357	0.0002253937208507202	stir	food	oven	microwave
+01358	0.000835180239502628	stir	food	start	microwave
+01359	0.00041429527385302415	stir	food	plate	microwave
+01360	0.0012477163621146248	stir	food	microwave safe container	microwave
+01361	0.0006037410904787231	stir	food	cooking time	microwave
+01362	0.0009726343275828773	stir	food	time	microwave
+01363	0.002549133478102748	stir	food	microwave door	microwave
+01364	0.0009368485685963292	stir	food	door	microwave
+01365	0.00011586970355012491	stir	food	cooking temperature	microwave
+01366	0.0001841586478376336	stir	food	temperature	microwave
+01367	0.0011846914000192227	stir	food	timer	microwave
+01368	0.00010769921818356571	stir	food	plastic	microwave
+01369	0.0	stir	food	imp protagonist	microwave
+01370	0.0009269576284009993	stir	food	power level	microwave
+01371	0.0003683172956752672	stir	food	power	microwave
+01372	0.00043472850150251774	enter	cooking time	utensil	microwave
+01373	0.0004002778532477665	enter	cooking time	microwavable utensil	microwave
+01374	0.0005737062857383176	enter	cooking time	cover	microwave
+01375	0.0004002778532477665	enter	cooking time	protective cover	microwave
+01376	0.0002018346081043154	enter	cooking time	stop	microwave
+01377	0.0020278446974198974	enter	cooking time	start button	microwave
+01378	0.000778634206815103	enter	cooking time	oven	microwave
+01379	0.0028851731134225986	enter	cooking time	start	microwave
+01380	0.0014312043420120174	enter	cooking time	plate	microwave
+01381	0.004310300376951439	enter	cooking time	microwave safe container	microwave
+01382	0.0033600153337022954	enter	cooking time	time	microwave
+01383	0.008806112771450863	enter	cooking time	microwave door	microwave
+01384	0.0032363915878472734	enter	cooking time	door	microwave
+01385	0.0004002778532477665	enter	cooking time	cooking temperature	microwave
+01386	0.0006361855252488039	enter	cooking time	temperature	microwave
+01387	0.0040925774023029705	enter	cooking time	timer	microwave
+01388	0.011815049305820944	enter	cooking time	food	microwave
+01389	0.0003720524911184519	enter	cooking time	plastic	microwave
+01390	0.0	enter	cooking time	imp protagonist	microwave
+01391	0.003202222825982132	enter	cooking time	power level	microwave
+01392	0.0012723710504976078	enter	cooking time	power	microwave
+01393	0.00014490950050083926	press	cook	utensil	microwave
+01394	0.00013342595108258886	press	cook	microwavable utensil	microwave
+01395	0.00019123542857943918	press	cook	cover	microwave
+01396	0.00013342595108258886	press	cook	protective cover	microwave
+01397	6.727820270143848e-05	press	cook	stop	microwave
+01398	0.0006759482324732993	press	cook	start button	microwave
+01399	0.00025954473560503436	press	cook	oven	microwave
+01400	0.0009617243711408664	press	cook	start	microwave
+01401	0.00047706811400400587	press	cook	plate	microwave
+01402	0.0014367667923171465	press	cook	microwave safe container	microwave
+01403	0.0006952182213007493	press	cook	cooking time	microwave
+01404	0.0011200051112340986	press	cook	time	microwave
+01405	0.0029353709238169544	press	cook	microwave door	microwave
+01406	0.0010787971959490912	press	cook	door	microwave
+01407	0.00013342595108258886	press	cook	cooking temperature	microwave
+01408	0.00021206184174960132	press	cook	temperature	microwave
+01409	0.0013641924674343236	press	cook	timer	microwave
+01410	0.003938349768606982	press	cook	food	microwave
+01411	0.00012401749703948398	press	cook	plastic	microwave
+01412	0.0	press	cook	imp protagonist	microwave
+01413	0.0010674076086607108	press	cook	power level	microwave
+01414	0.00042412368349920265	press	cook	power	microwave
+01415	0.00012584224229539691	take	plate	utensil	microwave
+01416	0.00011586970355012491	take	plate	microwavable utensil	microwave
+01417	0.00016607258361654817	take	plate	cover	microwave
+01418	0.00011586970355012491	take	plate	protective cover	microwave
+01419	5.842570608753298e-05	take	plate	stop	microwave
+01420	0.0005870066555750605	take	plate	start button	microwave
+01421	0.0002253937208507202	take	plate	oven	microwave
+01422	0.000835180239502628	take	plate	start	microwave
+01423	0.0012477163621146248	take	plate	microwave safe container	microwave
+01424	0.0006037410904787231	take	plate	cooking time	microwave
+01425	0.0009726343275828773	take	plate	time	microwave
+01426	0.002549133478102748	take	plate	microwave door	microwave
+01427	0.0009368485685963292	take	plate	door	microwave
+01428	0.00011586970355012491	take	plate	cooking temperature	microwave
+01429	0.0001841586478376336	take	plate	temperature	microwave
+01430	0.0011846914000192227	take	plate	timer	microwave
+01431	0.003420139908785275	take	plate	food	microwave
+01432	0.00010769921818356571	take	plate	plastic	microwave
+01433	0.0	take	plate	imp protagonist	microwave
+01434	0.0009269576284009993	take	plate	power level	microwave
+01435	0.0003683172956752672	take	plate	power	microwave
+01436	0.00028981900100167853	set	power	utensil	microwave
+01437	0.0002668519021651777	set	power	microwavable utensil	microwave
+01438	0.00038247085715887837	set	power	cover	microwave
+01439	0.0002668519021651777	set	power	protective cover	microwave
+01440	0.00013455640540287696	set	power	stop	microwave
+01441	0.0013518964649465986	set	power	start button	microwave
+01442	0.0005190894712100687	set	power	oven	microwave
+01443	0.0019234487422817327	set	power	start	microwave
+01444	0.0009541362280080117	set	power	plate	microwave
+01445	0.002873533584634293	set	power	microwave safe container	microwave
+01446	0.0013904364426014985	set	power	cooking time	microwave
+01447	0.0022400102224681973	set	power	time	microwave
+01448	0.005870741847633909	set	power	microwave door	microwave
+01449	0.0021575943918981824	set	power	door	microwave
+01450	0.0002668519021651777	set	power	cooking temperature	microwave
+01451	0.00042412368349920265	set	power	temperature	microwave
+01452	0.0027283849348686473	set	power	timer	microwave
+01453	0.007876699537213963	set	power	food	microwave
+01454	0.00024803499407896796	set	power	plastic	microwave
+01455	0.0	set	power	imp protagonist	microwave
+01456	0.0021348152173214217	set	power	power level	microwave
+01457	0.00010063669798115107	place	bowl	utensil	microwave
+01458	9.266160669616387e-05	place	bowl	microwavable utensil	microwave
+01459	0.00013280911191280756	place	bowl	cover	microwave
+01460	9.266160669616387e-05	place	bowl	protective cover	microwave
+01461	4.6723342103716056e-05	place	bowl	stop	microwave
+01462	0.00046943228626969376	place	bowl	start button	microwave
+01463	0.00018024853497807945	place	bowl	oven	microwave
+01464	0.0006678979966469159	place	bowl	start	microwave
+01465	0.0003313140928615679	place	bowl	plate	microwave
+01466	0.000997805287079369	place	bowl	microwave safe container	microwave
+01467	0.00048281490120539983	place	bowl	cooking time	microwave
+01468	0.0007778207483087604	place	bowl	time	microwave
+01469	0.002038555347315605	place	bowl	microwave door	microwave
+01470	0.0007492026900680163	place	bowl	door	microwave
+01471	9.266160669616387e-05	place	bowl	cooking temperature	microwave
+01472	0.00014727263186831342	place	bowl	temperature	microwave
+01473	0.00094740389594093	place	bowl	timer	microwave
+01474	0.0027351037360393185	place	bowl	food	microwave
+01475	8.612762690372094e-05	place	bowl	plastic	microwave
+01476	0.0	place	bowl	imp protagonist	microwave
+01477	0.000741292853569311	place	bowl	power level	microwave
+01478	0.00029454526373662684	place	bowl	power	microwave
+01479	0.00014490950050083926	remove	protective cover	utensil	microwave
+01480	0.00013342595108258886	remove	protective cover	microwavable utensil	microwave
+01481	0.00019123542857943918	remove	protective cover	cover	microwave
+01482	6.727820270143848e-05	remove	protective cover	stop	microwave
+01483	0.0006759482324732993	remove	protective cover	start button	microwave
+01484	0.00025954473560503436	remove	protective cover	oven	microwave
+01485	0.0009617243711408664	remove	protective cover	start	microwave
+01486	0.00047706811400400587	remove	protective cover	plate	microwave
+01487	0.0014367667923171465	remove	protective cover	microwave safe container	microwave
+01488	0.0006952182213007493	remove	protective cover	cooking time	microwave
+01489	0.0011200051112340986	remove	protective cover	time	microwave
+01490	0.0029353709238169544	remove	protective cover	microwave door	microwave
+01491	0.0010787971959490912	remove	protective cover	door	microwave
+01492	0.00013342595108258886	remove	protective cover	cooking temperature	microwave
+01493	0.00021206184174960132	remove	protective cover	temperature	microwave
+01494	0.0013641924674343236	remove	protective cover	timer	microwave
+01495	0.003938349768606982	remove	protective cover	food	microwave
+01496	0.00012401749703948398	remove	protective cover	plastic	microwave
+01497	0.0	remove	protective cover	imp protagonist	microwave
+01498	0.0010674076086607108	remove	protective cover	power level	microwave
+01499	0.00042412368349920265	remove	protective cover	power	microwave
+01500	0.00022937722250729073	place	container	utensil	microwave
+01501	0.0002111999141805103	place	container	microwavable utensil	microwave
+01502	0.00030270652580359334	place	container	cover	microwave
+01503	0.0002111999141805103	place	container	protective cover	microwave
+01504	0.0001064946550612745	place	container	stop	microwave
+01505	0.0010699583366691673	place	container	start button	microwave
+01506	0.0004108333157157429	place	container	oven	microwave
+01507	0.0015223133356158736	place	container	start	microwave
+01508	0.0007551510326018729	place	container	plate	microwave
+01509	0.0022742578994018946	place	container	microwave safe container	microwave
+01510	0.0011004607985485484	place	container	cooking time	microwave
+01511	0.0017728558908900445	place	container	time	microwave
+01512	0.004646398111971227	place	container	microwave door	microwave
+01513	0.001707627889132244	place	container	door	microwave
+01514	0.0002111999141805103	place	container	cooking temperature	microwave
+01515	0.0003356726514975632	place	container	temperature	microwave
+01516	0.0021593800134839364	place	container	timer	microwave
+01517	0.006234013146571219	place	container	food	microwave
+01518	0.00019630727395308518	place	container	plastic	microwave
+01519	0.0	place	container	imp protagonist	microwave
+01520	0.0016895993134440825	place	container	power level	microwave
+01521	0.0006713453029951264	place	container	power	microwave
+01522	0.00045932456905656386	get	food	utensil	microwave
+01523	0.0004229247721519635	get	food	microwavable utensil	microwave
+01524	0.0006061654378560877	get	food	cover	microwave
+01525	0.0004229247721519635	get	food	protective cover	microwave
+01526	0.00021325400581695747	get	food	stop	microwave
+01527	0.0021425760872286355	get	food	start button	microwave
+01528	0.0008226877700954587	get	food	oven	microwave
+01529	0.00304841042718876	get	food	start	microwave
+01530	0.0015121790159938378	get	food	plate	microwave
+01531	0.004554168535775421	get	food	microwave safe container	microwave
+01532	0.00220365682578133	get	food	cooking time	microwave
+01533	0.0035501182688554758	get	food	time	microwave
+01534	0.009304344987343198	get	food	microwave door	microwave
+01535	0.003419500139163587	get	food	door	microwave
+01536	0.0004229247721519635	get	food	cooking temperature	microwave
+01537	0.0006721796275490766	get	food	temperature	microwave
+01538	0.004324127231470597	get	food	timer	microwave
+01539	0.00039310247558823616	get	food	plastic	microwave
+01540	0.0	get	food	imp protagonist	microwave
+01541	0.003383398177215708	get	food	power level	microwave
+01542	0.0013443592550981532	get	food	power	microwave
+01543	0.0007245475025041964	start	microwave	utensil	microwave
+01544	0.0006671297554129442	start	microwave	microwavable utensil	microwave
+01545	0.000956177142897196	start	microwave	cover	microwave
+01546	0.0006671297554129442	start	microwave	protective cover	microwave
+01547	0.0003363910135071924	start	microwave	stop	microwave
+01548	0.0033797411623664965	start	microwave	start button	microwave
+01549	0.001297723678025172	start	microwave	oven	microwave
+01550	0.004808621855704332	start	microwave	start	microwave
+01551	0.0023853405700200296	start	microwave	plate	microwave
+01552	0.0071838339615857335	start	microwave	microwave safe container	microwave
+01553	0.0034760911065037465	start	microwave	cooking time	microwave
+01554	0.005600025556170493	start	microwave	time	microwave
+01555	0.014676854619084774	start	microwave	microwave door	microwave
+01556	0.005393985979745456	start	microwave	door	microwave
+01557	0.0006671297554129442	start	microwave	cooking temperature	microwave
+01558	0.0010603092087480067	start	microwave	temperature	microwave
+01559	0.006820962337171619	start	microwave	timer	microwave
+01560	0.019691748843034908	start	microwave	food	microwave
+01561	0.00062008748519742	start	microwave	plastic	microwave
+01562	0.0	start	microwave	imp protagonist	microwave
+01563	0.005337038043303554	start	microwave	power level	microwave
+01564	0.0021206184174960134	start	microwave	power	microwave
+01565	0.00014490950050083926	finish	remove	utensil	microwave
+01566	0.00013342595108258886	finish	remove	microwavable utensil	microwave
+01567	0.00019123542857943918	finish	remove	cover	microwave
+01568	0.00013342595108258886	finish	remove	protective cover	microwave
+01569	6.727820270143848e-05	finish	remove	stop	microwave
+01570	0.0006759482324732993	finish	remove	start button	microwave
+01571	0.00025954473560503436	finish	remove	oven	microwave
+01572	0.0009617243711408664	finish	remove	start	microwave
+01573	0.00047706811400400587	finish	remove	plate	microwave
+01574	0.0014367667923171465	finish	remove	microwave safe container	microwave
+01575	0.0006952182213007493	finish	remove	cooking time	microwave
+01576	0.0011200051112340986	finish	remove	time	microwave
+01577	0.0029353709238169544	finish	remove	microwave door	microwave
+01578	0.0010787971959490912	finish	remove	door	microwave
+01579	0.00013342595108258886	finish	remove	cooking temperature	microwave
+01580	0.00021206184174960132	finish	remove	temperature	microwave
+01581	0.0013641924674343236	finish	remove	timer	microwave
+01582	0.003938349768606982	finish	remove	food	microwave
+01583	0.00012401749703948398	finish	remove	plastic	microwave
+01584	0.0	finish	remove	imp protagonist	microwave
+01585	0.0010674076086607108	finish	remove	power level	microwave
+01586	0.00042412368349920265	finish	remove	power	microwave
+01587	9.562135304820302e-05	serve	food	utensil	microwave
+01588	8.804370955779122e-05	serve	food	microwavable utensil	microwave
+01589	0.00012619041793890566	serve	food	cover	microwave
+01590	8.804370955779122e-05	serve	food	protective cover	microwave
+01591	4.439483091673175e-05	serve	food	stop	microwave
+01592	0.00044603759143634487	serve	food	start button	microwave
+01593	0.0001712656431035573	serve	food	oven	microwave
+01594	0.0006346125361696985	serve	food	start	microwave
+01595	0.00031480267614995475	serve	food	plate	microwave
+01596	0.0009480785194984256	serve	food	microwave safe container	microwave
+01597	0.000458753268452248	serve	food	cooking time	microwave
+01598	0.0007390571617938009	serve	food	time	microwave
+01599	0.0019369616102714068	serve	food	microwave door	microwave
+01600	0.00071186531721336	serve	food	door	microwave
+01601	8.804370955779122e-05	serve	food	cooking temperature	microwave
+01602	0.00013993313183681386	serve	food	temperature	microwave
+01603	0.0009001889393268673	serve	food	timer	microwave
+01604	8.183535812062432e-05	serve	food	plastic	microwave
+01605	0.0	serve	food	imp protagonist	microwave
+01606	0.0007043496764623298	serve	food	power level	microwave
+01607	0.0002798662636736277	serve	food	power	microwave

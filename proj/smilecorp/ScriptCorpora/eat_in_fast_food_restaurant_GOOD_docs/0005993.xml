@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0005993" url="http://www.windows-tech.info/1/b2579b90076b6a6c.php" time="2012-07-12-22:40" support="3" score="0.0033597438941774423" bingtitle="MTU Receiver - Visual C# - Windows Tech - Windows Tech &gt;&gt; SQL ..." webtitle="MTU Receiver - Visual C# - Windows Tech">
+			<query id="001420" bing-rank="219"/>
+			<query id="000212" bing-rank="60"/>
+			<query id="000338" bing-rank="172"/>
+	<description>... done above) if you actually want the variable to change ... Creating a Application which Minimizes to a Tray Icon ... one when you have strings with several words like near 5 ...</description>
+	<body>
+		MTU Receiver
+
+Visual C# General
+ 
+ Windows Tech ‹ Visual C# 
+ Archive 
+ Architecture Windows Live VS 2008 ISV Dotnet VC++ SQL Server Game Windows Vista Visual Studio Smart Device Visual C# VFP VB IE Windows Forms Office SharePoint VS Express 
+ 
+ 
+
+ 
+ Previous 
+ 1 
+ How to avoid memory leak from delegates? Hi, 
+ 
+ I have a window application which required to add controls on runtime. I have also assigned event handlers to them 
+ 
+ For e.g. 
+ 
+ foreach(DataRow dr in dtTable.Rows) 
+ { 
+ 
+ CheckBox chk = new CheckBox (); 
+ chk.Name = dr[&quot;ID&quot;].ToString(); 
+ chk.Text = dr[&quot;Name&quot;].ToString(); 
+ 
+ chk.Click += delegate (System. Object o, System. EventArgs e) 
+ { 
+ 
+ if (chk.Checked == true ) 
+ 
+ SetCheckListCheckStatus(( GroupBox )chk.Parent, chk); 
+ }; 
+ 
+ this.Controls.Add(chk); 
+ } 
+ 
+ The function containing this loop is executed serveral times. 
+ 
+ I have read that the memory of delegates (added at runtime) is cannot be collected by garbage collector. 
+ 
+ Then what should I done to free up the memory used by delegates on unloading of the form. Tag: Visual C# General MTU Receiver Visual C# 
+ 2 
+ Remove a strange character from a string \0 represents the null character, and it shouldn&apos;t be visible when displaying the string to the user. If it does show up, then what is likely truly in the stirng is \\0. Regardless, you can remove it with replace easily enough stringName = stringName.Replace(&quot;\0&quot;,&quot;&quot;); should do it, as would stringName = stringName.Remove(stringName.Length-1); Remember, these string functions actually return new strings, so you need to assign them back to the variable (like I&apos;ve done above) if you actually want the variable to change Of course this changes depending on if it&apos;s \0 or \\0 Anyway. good luck, -mwalts Tag: Visual C# General MTU Receiver Visual C# 
+ 3 
+ Question about foreach instruction ok. Thank&apos;s for the reply. Regards Evald. Tag: Visual C# General MTU Receiver Visual C# 
+ 4 
+ User.DLL and Security Thanks, that gives me something to read about it. Tag: Visual C# General MTU Receiver Visual C# 
+ 5 
+ Please help me confirm on windows service Dear Michael, 
+ I dont quite get you when you said run a console as service application u mean to say that every time a pop of console will come out when it runs is it Can you explain more thanks. Tag: Visual C# General MTU Receiver Visual C# 
+ 6 
+ Thread Two options as I see it: 
+ 
+ You can consider using a background thread by setting the IsBackGround property to true for the serverThread but then you need to use invoke marshalling when getting/setting control properties 
+ When using .NET 2.0 always hook to the Form events FormClosing and FormClosed and no longer use the Closing and Closed events. This guarantees that when the application domain is being shutdown that this events will be raised. Thus ServerForm_FormClosing() 
+ Tips: 
+ 
+ There are patterns for what you are trying to do (see Enterprise Integration Patterns) 
+ consider adding a Thread.Sleep(50) in your while(true) loop this is make other applications responsive as well (context switching) Tag: Visual C# General MTU Receiver Visual C# 
+ 7 
+ GUID for a User Hi, 
+ 
+ I want to retireve the value through C# for a web site 
+ 
+ So i dont think Windows Security will work. 
+ 
+ Sorry for not stating that its an online application. Tag: Visual C# General MTU Receiver Visual C# 
+ 8 
+ How could I do a program in c# that when active hidden all of the programs in the windows taskbar ... If by chance you mean,&quot;Hidden from&quot;all other programs, and not have taskbar item see my blog entitled, Creating a Application which Minimizes to a Tray Icon in .Net which discusses items such as 
+ 
+ Not having a tasbar item.
+ Not having a visible window.
+ Showing up as only an icon in the system tray. Tag: Visual C# General MTU Receiver Visual C# 
+ 9 
+ Manipulating another program. First of all,&quot;Server UI&quot;is a confusing term. Do you mean you have a website Server, as name suggests, provide services to clients. So servers usually don&apos;t have UI other than for administrative or configuration purpose. Tag: Visual C# General MTU Receiver Visual C# 
+ 10 
+ High performance parsing of string messages What is your final goal Why manually parse the string when you could use a regex language which is designed to be a high performance parser in any language Let the parser worry about the memory contraints, there are a whole cadre of MS developers worried about that product I am sure.&lt;g&gt;For example one could create a parser to extract out your example items and place them in groups: Regex parse = new Regex(@&quot;(&lt;Text&gt;\w{1,5})(&lt;Value&gt;\d*)&quot;, RegexOptions.Compiled); MatchCollection mc = parse.Matches(&quot;Omega1256&quot;); if (mc.Count&gt;0) Console.WriteLine(&quot;Text ({0}) Value ({1})&quot;, mc[0].Groups[&quot;Text&quot;].Value, mc[0].Groups[&quot;Value&quot;].Value); Console Output Text (Omega) Value (1256) Tag: Visual C# General MTU Receiver Visual C# 
+ 11 
+ How to create a singleton Instance ? Is there a way to restrict calling using reflection or creating more appdomains Tag: Visual C# General MTU Receiver Visual C# 
+ 12 
+ static list The best solution is a singleton pattern 
+ public class Class1 
+ { 
+ static private List&lt;string&gt;data ; 
+ 
+ static public List&lt;string&gt;Data 
+ { 
+ get { return data; } 
+ set { data = value ; } 
+ } 
+ static Class1() 
+ { 
+ data = new List&lt;string&gt;(); 
+ } 
+ } 
+ 
+ Lior Tag: Visual C# General MTU Receiver Visual C# 
+ 13 
+ Memory Leak Thanks for your answer. I&apos;ve already tried GC.Collect() and GC.WaitForPendingFinalizers() with no luck. I wouldn&apos;t know how to use MemoryFailPoint, since memory is available almost all the time (it takes more than 7 hours to run out of memory) It seems to me like Garbage Collector is blocked for some reason. Any ideas Tag: Visual C# General MTU Receiver Visual C# 
+ 14 
+ Dynamic Thread Creation Hello Paul, Thanks for the reply. I&apos;ll check your solutions in my project. I believe the Delegate.CreateDelegate function is what I am looking for. I cannot use the second method you posted, because I don&apos;t know which Interface method is going to be set with the UseInSeparateThreadAttribute - thus the need of creating a delegate dynamically. It could have been the&quot;Render&quot;method, for instance. A solution would be testing the method name against a switch block, but since I have extensibility in mind, I&apos;d prefer not to have built-in strings for the Interface definition. i.e.: (pseudocode) switch (MethodName) case&quot;Render&quot;: thread = new Thread(plugin.Render); case&quot;Update&quot;: thread = new Thread(plugin.Update); and so on. I&apos;ll be posting my results as soon as possible, thanks again. Tag: Visual C# General MTU Receiver Visual C# 
+ 15 
+ How to create instance of Array using Activator? Same with the IList, using an Activator, and with the init (tested). 
+ 
+ 
+ Code Snippet 
+ public static IList CerateDynamic(IList source) { IList l = (IList)Activator.CreateInstance(source.GetType(), 
+ source.Count); for (int i = 0; i&lt;source.Count; ++i) l[i] = source[i]; return l; } Regards, Tag: Visual C# General MTU Receiver Visual C# 
+ 16 
+ problems with eventhandler How do I remove this FileSystemWatcher so the message will not multiply everytime I click this button. 
+ Instead of getting 1 message per click, I&apos;m getting more and more. 
+ Could someone please give me some advice, 
+ Thanks 
+ 
+ private void button7_Click( object sender, EventArgs e) 
+ { 
+ FileSystemWatcher fsw = new FileSystemWatcher (); 
+ fsw.Path = @textBox7.Text; 
+ fsw.Renamed += new RenamedEventHandler (fsw_Renamed); 
+ fsw.EnableRaisingEvents = true ; 
+ RenameFile(); 
+ fsw = null ; 
+ } 
+ static void fsw_Renamed( object sender, RenamedEventArgs e) 
+ { 
+ MessageBox .Show( string .Format(&quot;File renamed from {0} to {1}&quot;, e.OldFullPath, e.FullPath)); 
+ } 
+ 
+ void RenameFile(){....} Tag: Visual C# General MTU Receiver Visual C# 
+ 
+ Next 
+ 1 
+ Please Explain the code Also, it only hides it when viewed as a VijilCache type. For example: 
+ 
+ 
+ 
+ Code Snippet 
+ NameValueCollection collection = new VijilCache(); 
+ Console.WriteLine(collection.Keys.Count);// this will call NameValueCollection.Keys, not VijilCache.Keys. 
+ 
+ 
+ 
+ Since NameValueCollection.Keys is virtual what you probably want is the override keyword, not the new keyword so you override the Keys property, not just hide it. Tag: Visual C# General MTU Receiver Visual C# 
+ 2 
+ Synchronized anonymous method I understand why you say &apos;don&apos;t use a background worker&apos;. I would answer the same if I didn&apos;t know the context. So I&apos;ll to explain why I want to do this. The application I build is workflow based and each workflow consists of a couple of (configurable) steps: Workflow - Import - ImageProcessing - OCR - Format (write pdf, ascii files etc) - Export (export data to databases, send email etc) The workflow executes each step in a backgroundworker, which works fine for each step, except the OCR step, because it requires me to use the ActiveX dll. Unfortunaly I can&apos;t use a background worker for some steps and no backgroundworker for other steps. Hope you understand what I mean. Tag: Visual C# General MTU Receiver Visual C# 
+ 3 
+ C#, implementation of interface indexer by struct (public vs private and explicit) Hi! 
+ 
+ The following public implementation of interface indexer by struct (Code Snippet 1) does not work when implemented private and explicit by struct (Code Snippet 2). Please help! 
+ 
+ Code Snippet 1: 
+ // indexers in interface, public implementation by struct using System; 
+ interface MyInterface { int this[int index] { get; set; } } 
+ struct MyStruct : MyInterface { int[] array; public int l; 
+ public bool error; 
+ public MyStruct(int size) : this() { array = new int[size]; l = size; } 
+ public int this[int index] { get { if(ok(index)) { error = false; return array[index]; 
+ } else { error = true; return 0; } } 
+ set { if(ok(index)) { array[index] = value; error = false; } else error = true; } } 
+ bool ok(int index) { if((index&gt;=0)&amp;&amp;(index&lt;l)) return true; else return false; } } 
+ struct MainStruct { static void Main() { MyStruct ms = new MyStruct(5); 
+ int x; 
+ Console.WriteLine(&quot;Fail quietly:&quot;); for(int i=0; i&lt;(ms.l*2); i++) ms = i; // assignment 
+ for(int i=0; i&lt;(ms.l*2); i++) { x = ms ; // copy to x if(x!=-1) // Console.Write(x +&quot;&quot;); } 
+ Console.WriteLine(&quot;\nFail with error reports:&quot;); for(int i=0; i&lt;(ms.l*2); i++) { ms = i; // assignment if(ms.error) // *Works well Console.WriteLine(&quot;ms[&quot;+ i +&quot;] out-of-bounds&quot;); } 
+ for(int i=0; i&lt;(ms.l*2); i++) { x = ms ; // copy to x if(!ms.error) // *Works well Console.Write(x +&quot;&quot;); else Console.WriteLine(&quot;ms[&quot;+ i +&quot;] out-of-bounds&quot;); } } } 
+ 
+ Code Snippet 2: 
+ // indexers in interface, implemented private and explicit by struct 
+ using System; 
+ interface MyInterface { int this[int index] { get; set; } } 
+ struct MyStruct : MyInterface { int[] array; public int l; 
+ public bool error; 
+ public MyStruct(int size) : this() { array = new int[size]; l = size; } 
+ int MyInterface.this[int index] { get { if(ok(index)) { error = false; return array[index]; } else { error = true; return 0; } } 
+ set { if(ok(index)) { array[index] = value; error = false; } else error = true; } } 
+ bool ok(int index) { if((index&gt;=0)&amp;&amp;(index&lt;l)) return true; else return false; } } 
+ struct MainStruct { static void Main() { MyStruct ms = new MyStruct(5); 
+ int x; 
+ MyInterface mi = (MyInterface)ms; 
+ Console.WriteLine(&quot;Fail quietly:&quot;); for(int i=0; i&lt;(ms.l*2); i++) mi = i; // Note 
+ for(int i=0; i&lt;(ms.l*2); i++) = 
+ { x = mi ; // Note if(x!=-1) Console.Write(x +&quot;&quot;); } 
+ Console.WriteLine(&quot;\nFail with error reports:&quot;); for(int i=0; i&lt;(ms.l*2); i++) { mi = i; if(ms.error) // *Doesn&apos;t work Console.WriteLine(&quot;mi[&quot;+ i +&quot;] out-of-bounds&quot;); } 
+ for(int i=0; i&lt;(ms.l*2); i++) { x = mi ; if(!ms.error) // *Doesn&apos;t work Console.Write(x +&quot;&quot;); else Console.WriteLine(&quot;mi[&quot;+ i +&quot;] out-of-bounds&quot;); } } } Tag: Visual C# General MTU Receiver Visual C# 
+ 4 
+ Calling a button_click What&apos;s with all the graphics stuff 
+ Deleted all graphics - just need to get text into a textbox. 
+ This one seems to work, twice. Then quits responding. 
+ 
+ I added a listbox to keep track of inputs. 
+ I can get 2 entries, then program pukes. 
+ 
+ All I want to do is send a texbBox entry to another computer, and have it print the string to a listBox (for now). 
+ The catch is, the listener has to sit there ACTIVELY listening. 
+ Once a string is sent, it has to write it to the listBox, and then keep ACTIVELY listening for the next string. 
+ 
+ Basically, I need to write my own HyperTerminal in C#, to listen to the network port, then print out what comes in. Tag: Visual C# General MTU Receiver Visual C# 
+ 5 
+ Convert Image to&quot;Raw Binary Data&quot; Hi 
+ the following converts an image to a byte[] 
+ public byte[] Convert(Image img){ 
+ Byte[] data; 
+ using ( MemoryStream ms = new MemoryStream ()){ 
+ img .Save(ms, img .RawFormat); 
+ data = new byte [ms.Length]; 
+ data = ms.ToArray();} 
+ 
+ } 
+ } 
+ the dump to ascii could be (not sure about this ) : 
+ char[] ascii = Encoding .ASCII.GetChars(data); 
+ Hope this helps you out! Tag: Visual C# General MTU Receiver Visual C# 
+ 6 
+ Convert string to operation The first one would be the best, unfortunately I don&apos;t have the time to write that. The second one is good enough but I&apos;m interested in the third the most. So how do you assign the string as a result of a calculation to a variable If I try for example: 
+ int Result = OperationInString; 
+ then there is no way I can assign (or convert) the string so I get a calculated result. I&apos;m confused here, sorry. 
+ And if I use the static method, that wont work with a variable. If I set a double return type, it won&apos;t let me return the OperationInString variable. Could you explain to me in detail Tag: Visual C# General MTU Receiver Visual C# 
+ 7 
+ Generic casting problem thm99 wrote: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ public virtual T MyMethod&lt;T&gt;() { if (typeof (T) != typeof (Collection&lt;string&gt;)) { return default(T); } Collection&lt;string&gt;collection = new Collection&lt;string&gt;(); 
+ 
+ return (T)collection; } 
+ 
+ 
+ This method has the compile error on the red line above: 
+ 
+ Cannot convert type &apos;System.Collections.ObjectModel.Collection&lt;System.String&gt;&apos; to &apos;T&apos; 
+ 
+ Any reasoning would be appreciated. Does the default is a new keyword in C#3.0 Tag: Visual C# General MTU Receiver Visual C# 
+ 8 
+ Can You Use XP&apos;s&quot;Add or Remove Program&quot;Through Code? Thats what I ended up doing, but the program I want to uninstall didn&apos;t have a UninstallString value listed. However, I this... MsiExec.exe /quiet /x{CC389AE-5...ect.} ...anyways and it worked perfectly. Thanks Again Tag: Visual C# General MTU Receiver Visual C# 
+ 9 
+ AOP in C# - Aspect Oriented Programming - Which Framework should I use? Thomas Koelle wrote: 
+ 
+ 
+ 
+ 
+ 
+ 
+ A few years back aspect oriented programming was a big hype. 
+ 
+ People even build compilers to support it. 
+ 
+ Then came .Net and Java 1.5. Today aspect oriented programming works with annotations in java and attributes in .Net 
+ 
+ So in C# you can use attributes and reflective programming to achive some of the same issues (e.g. security) 
+ 
+ 
+ Not really. Attributes don&apos;t come anywhere near the capabilities that true AOP would provide. For instance, just trying to get each method / constructor of concern to debug-log its input argument values on entry, and its return value / exception on exit would be a challenge (nay, not possible) to do with lowly attributes. So instead, developers are forced to manually weave in these&quot;aspects&quot;by writing the same kind of code (no matter how simple it may be, having to remember to write the code nonetheless instead of having true AOP handle it for you) in the methods. Tag: Visual C# General MTU Receiver Visual C# 
+ 10 
+ PInvokeStackImbalance waveInOpen Thank you for your input. I&apos;ll try do what you said. How do you know what needs to be passed as reference and what doesn&apos;t I didn&apos;t find anything about how to pass things from the waveInOpen documentation. Here&apos;s the link I&apos;ve been using. Tag: Visual C# General MTU Receiver Visual C# 
+ 11 
+ Formatting dates from string Awesome - thankyou kindly! Tag: Visual C# General MTU Receiver Visual C# 
+ 12 
+ Place Spaces In ProperCase Words Here are two methods, one uses strings manipulation and Insert method for inserting space within string, and second uses StringBuilder to avoid string instances whenever you add a space. You will use first one when you have strings with several words like near 5, and use second one with stringbuilder when you have string with much more words to be able to gain performace from StringBuilder: 
+ public static string SplitWords( string input) 
+ { 
+ string lower = input.ToLower(); 
+ string result = input; 
+ for ( int i = input.Length - 1; i&gt;= 1; i--) 
+ { 
+ if (input[ i ] != lower[ i ]) 
+ { 
+ result = result.Insert(i,&quot;&quot;); 
+ } 
+ } 
+ return result; 
+ } 
+ 
+ public static string SplitWords1( string input) 
+ { 
+ string lower = input.ToLower(); 
+ int j = 0; 
+ StringBuilder sb = new StringBuilder (); 
+ for ( int i = 1; i&lt;input.Length; i++) 
+ { 
+ if (input[ i ] != lower[ i ]) 
+ { 
+ sb.Append(input.Substring(j, i - j)); 
+ sb.Append( &apos; &apos; ); 
+ j = i; 
+ } 
+ } 
+ sb.Append(input.Substring(j, input.Length - j)); 
+ return sb.ToString(); 
+ } Tag: Visual C# General MTU Receiver Visual C# 
+ 13 
+ Regex File parsing There&apos;s actually a platform sdk function that I prefer to use to match filename wildcards: PathMatchSpec 
+ 
+ 
+ 
+ Code Snippet [DllImport(&quot;shlwapi.dll&quot;, CharSet=CharSet.Auto)] static extern bool PathMatchSpec([In] String pszFileParam, [In] String pszSpec); Tag: Visual C# General MTU Receiver Visual C# 
+ 14 
+ finally block Hi, 
+ 
+ I will explain you with an example. 
+ 
+ try 
+ { 
+ open database connection 
+ 
+ database operation 
+ 
+ other operation 
+ 
+ } 
+ catch 
+ { 
+ } 
+ finally 
+ { 
+ close connection 
+ } 
+ 
+ 
+ Even if you get some error in other operation then too you want to close connection 
+ and if no error occured then too you want to close connection. 
+ 
+ i.e. In finally you write that cleanup code or code which you want to execute even in case of error. 
+ 
+ 
+ Regards, 
+ Manju Sandhu Tag: Visual C# General MTU Receiver Visual C# 
+ 15 
+ System.Threading.ThreadAbortException Check this System.Threading.ThreadAbortException Class Tag: Visual C# General MTU Receiver Visual C# 
+ 16 
+ Property abstraction with differing get/set interfaces Hi Instead of thinking of a solution that resolves the errors, can you explain your situtation and we can design the interfaces and classes accordingly Because the interfaces and classes are laid out does not seem to be ok. Regards Tag: Visual C# General MTU Receiver Visual C# 
+ 
+ 
+ 
+ Anthony719791
+
+ 
+Hi,
+
+
+
+is there any way to receive some data from an MTU transmitter on my computer and create a program that takes these data and proccess them And is there any MTU receiver for my computer Please give me some example code for the first one...and for the second a link for a site...
+
+
+
+Thanks,
+
+Anthony
+ 
+ Top 
+Re: Visual C# General MTU Receiver
+ Anthony719791
+
+ Or if there is not any MTU receiver for my computer, is Bluetooth compatible with MTU so that I use a bluetooth receiver 
+
+
+ Top 
+Re: Visual C# General MTU Receiver
+ Anthony719791
+
+ 
+ Or maybe, is there any MTU API 
+ 
+
+
+ Top 
+Re: Visual C# General MTU Receiver
+ Peter Ritchie
+
+
+ Do you not know how the MTU connects to your computer I assume you mean Mobile Transmitter Unit... It would depend on the unit it how it would interact with the computer; without detail like that we&apos;d just be randomly guessing. 
+
+
+
+
+ Top 
+Re: Visual C# General MTU Receiver
+ Anthony719791
+
+ 
+ I don&apos;t know exactly...check this out: http://www.theenergydetective.com/what/install.html ...I want to receive data from that MTU transmitter in the diagram and have a program to proccess them and create a graph of the kilowatt-hours used by the house per second...is that possible do you know any way to do this can you help me 
+ 
+
+
+ Top 
+Re: Visual C# General MTU Receiver
+ Peter Ritchie
+
+You&apos;ll have to contact the manufacturer to get that sort of information. The MTU on that product is used to communicate with the display unit. In all likelihood that communication is on a vendor- or class-specific channel that is not compatible with standard computer-connected receivers and probably uses proprietary communication protocols.
+ 
+
+
+
+
+ Top 
+Re: Visual C# General MTU Receiver
+ Anthony719791
+
+ 
+ Thanks a lot, I will try to get in contact with them... 
+ 
+
+
+ Top 
+ Windows Tech
+	</body>
+</document>

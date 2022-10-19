@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0003755" url="http://forums.mikeholt.com/showthread.php?t=127703" time="2012-07-12-19:55" support="3" score="0.0013914579057703947" bingtitle="Plan Rejection, Load Calculations - Mike Holt&apos;s Forum" webtitle="Plan Rejection, Load Calculations">
+			<query id="001011" bing-rank="92"/>
+			<query id="000039" bing-rank="209"/>
+			<query id="000445" bing-rank="118"/>
+	<description>... greater of connected -OR- using value from Table ... per 220.14(F) @ 125%; Gen. purpose receptacles @ 180VA ... This is a fast food restaurant. I don&apos;t disagree with my own ...</description>
+	<body>
+		Register Help Remember Me? 
+ 
+ Forum 
+ Moderators FAQ Forum Actions 
+ Mark Forums Read 
+ Quick Links 
+ Who&apos;s Online Member List 
+ 
+ What&apos;s New? 
+ 
+ Advanced Search 
+ 
+ Forum Active Forums Electrical Calculations / Engineering Plan Rejection, Load Calculations 
+ 
+ If this is your first visit, be sure to
+ check out the FAQ by clicking the
+ link above. You must register before you can post: click the register link above to proceed. To start viewing posts,
+ select the forum that you want to visit from the list below. Join Mike Holt on Facebook , Twitter and YouTube . 
+ Closed Thread Page 1 of 2 1 2 Last 
+ Jump to page: 
+ Results 1 to 10 of 19 
+Thread: Plan Rejection, Load Calculations 
+ 
+ 
+ Thread Tools 
+
+ Show Printable Version Email this Page… Subscribe to this Thread… 
+ 
+ Search Thread 
+ 
+   Advanced Search 
+ 
+ Display 
+
+ Linear Mode Switch to Hybrid Mode Switch to Threaded Mode 
+ 
+ 
+ 07-20-10  10:59 AM #1 Npstewart 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Feb 2010 Posts 522 
+Plan Rejection, Load Calculations
+ I received the following rejection on a project we did. It is a STANDARD rejection that was obviously copied and pasted. I used the same load calc I always use for commercial, (and never have issues with) which basically breaks everything down and takes the load at 100% except the lighting which I multiply at 125%. Heres the rejection:
+
+
+ Please revise the Service Calculation to conform to the prescriptives in the NEC: General Lighting load as greater of connected -OR- using value from Table 220.12 NEC; Comply with NEC 600.5 for sign circuit requirements. Calculate per 220.14(F) @ 125%; Gen. purpose receptacles @ 180VA; Special purpose/ dedicated loads shall be itemized @ actual value; HVAC: greater of Heat -OR- A/C (loads per 440.34); All Motor Loads (Largest @ 125%); All continuous loads @ 125% (sign, lighting, etc.); Storage Type Water Heaters (120g or less) shall be considered (calculated/ protected as) a continuous load (125%) per 422.13. *Also, itemize the following continuous outlet loads: Illuminated Menu, Backlit signage, etc. to demonstrate inclusion. 
+
+
+I know it looks like its long, but like I said its standard, I know this because he cites a electric storage water heater, but my water heater is a instant gas heater. My question is, it appears he wants me to multiply EVERYTHING almost by 125%, however the NEC only says to use 125%&quot;For the purpose of sizing BRANCH circuits&quot;. For instance, a water heater has to be taken at 125% if it is under 125 gallons, however the code states that it is only for SIZING branch circuits. So if you have a water heater that is 4500 watts, the breaker is required to be sized for 125% however, the load itself should be taken at 100%. If you read the rejection, it appears he wants me to artificially increase the load correct? Also, I usually DO increase my lighting in the load calc by multiplying my lighting load by 1.25, but this also is only supposed to be for sizing branch circuits.
+
+Any opinions would be appreciated because I see this interpreted differently quite often, thanks. 07-20-10  12:13 PM #2 Npstewart 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Feb 2010 Posts 522 Also, I think the reason why it is required to multiply by 125% (continuous load)is because 1.25 is the inverse of 80%. For continuous loads you shouldnt fill the breaker over 80%. 07-20-10  12:25 PM #3 nakulak 
+ View Profile View Forum Posts 
+ Senior Member Join Date Aug 2007 Posts 2,754 imo the reason is because of the definition of continuous load. imo everything he noted is per NEC (but I am no expert) 07-20-10  12:46 PM #4 Npstewart 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Feb 2010 Posts 522 Its in there, but hes missing an entire statement that says&quot;for the purpose of sizing branch circuits&quot;. 07-20-10  12:50 PM #5 nakulak 
+ View Profile View Forum Posts 
+ Senior Member Join Date Aug 2007 Posts 2,754 how about posting the load calculation and somebody can pick it apart or agree ? 07-20-10  12:53 PM #6 steve66 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Jun 2003 Posts 5,116 Well, I do think motor feeders need the extra 25% of the largest motor calculated in. And I&apos;m not really seeing where he is asking for everything to be taken at 125%.
+
+I would suggest seeing if you can call the person who wrote the comment. They can probably be more specific over the phone about what they see that they don&apos;t think complies.
+
+Steve 07-20-10  01:11 PM #7 Npstewart 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Feb 2010 Posts 522 Im just going to post my revised load calculation where everything is broken down specifally. My point is that the 125% shouldn&apos;t be carried to the service calculation, it should stop at the branch circuit level. I think this revised one will work, and I do have a call/email into him. Attached Images 
+ load calc.pdf‎ (35.6 KB, 122 views) 
+ 07-20-10  01:37 PM #8 nakulak 
+ View Profile View Forum Posts 
+ Senior Member Join Date Aug 2007 Posts 2,754 Originally Posted by Npstewart Its in there, but hes missing an entire statement that says&quot;for the purpose of sizing branch circuits&quot;. I looked at the calculation. which items are you disagreeing with ? the allowable demand factors are spelled out in part III and IV, and I don&apos;t see permitted reductions for lighting, hvac to less than 125% ? (what type of occupancy is this ?) 07-20-10  01:52 PM #9 Npstewart 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Feb 2010 Posts 522 This is a fast food restaurant. I don&apos;t disagree with my own load calculation, I disagree with the reviewers comment (see original post) that certain items in the load calculation have to be multiplied by 1.25.
+
+In my opinion you should only have to multiply something by 1.25 to size the branch circuit, hence the NEC saying&quot;for the purpose of sizing branch circuits&quot;that is just saying not to load a breaker more then 80% of its value for certain items such as a water heater or lighting. He is asking me to multiply certain items in the load calc by 1.25. Last edited by Npstewart; 07-20-10 at 02:00 PM . 07-20-10  06:10 PM #10 OTT2 
+ View Profile View Forum Posts Private Message 
+ Member Join Date Mar 2010 Location Orygun Posts 96 Originally Posted by Npstewart This is a fast food restaurant. I don&apos;t disagree with my own load calculation, I disagree with the reviewers comment (see original post) that certain items in the load calculation have to be multiplied by 1.25.
+
+In my opinion you should only have to multiply something by 1.25 to size the branch circuit, hence the NEC saying&quot;for the purpose of sizing branch circuits&quot;that is just saying not to load a breaker more then 80% of its value for certain items such as a water heater or lighting. He is asking me to multiply certain items in the load calc by 1.25. 230.42 (A) requires that you take the continuous loads at 125% unless the equipment is listed for operation at 100% of its rating!
+
+The examples in Annex D seem to support this as well.
+
+Your right about the standard rejection format, that&apos;s a fairly normal comment for a plan review. 
+ Closed Thread Page 1 of 2 1 2 Last 
+ Jump to page: 
+ Quick Navigation Electrical Calculations / Engineering Top 
+ Site Areas Settings Private Messages Subscriptions Who&apos;s Online Search Forums Forums Home Forums Active Forums 
+ Business Management / Estimating Continuing Education (CEU) Electrical Calculations / Engineering Electrical Instructors Exam Preparation Grounding versus Bonding Hazardous (Classified) Locations Lighting Low Voltage and Limited Energy NEC Photovoltaic Forum Power Quality&amp;Surge Protection Proposals/Comments for the next NEC cycle Safety UL Issues 
+ Resources 
+ Mike Holt Newsletters Mike Holt YouTube Videos Mike Holt on Facebook 
+ 
+ « Previous Thread | Next Thread » 
+Bookmarks
+ 
+Bookmarks
+
+ Facebook Twitter Google StumbleUpon Digg del.icio.us 
+ 
+ Posting Permissions
+ 
+ You may not post new threads You may not post replies You may not post attachments You may not edit your posts 
+ 
+ BB code is On Smilies are On [IMG] code is On HTML code is Off 
+ 
+ Forum Rules 
+ 
+ Mike Holt Enterprises Home Page Top 
+ All times are GMT -5. The time now is 12:55 PM .
+	</body>
+</document>

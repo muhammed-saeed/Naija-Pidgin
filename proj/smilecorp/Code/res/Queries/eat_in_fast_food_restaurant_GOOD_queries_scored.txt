@@ -1,0 +1,1537 @@
+id	score	v	d-obj	p	p-title
+000001	0.011811618597549763	get	condiments	food	fast food restaurant
+000002	0.0029342140717959373	get	condiments	my food	fast food restaurant
+000003	0.0025412389728946953	get	condiments	napkins and condiments	fast food restaurant
+000004	0.0029342140717959373	get	condiments	menu board	fast food restaurant
+000005	0.0026514526472337504	get	condiments	cashier	fast food restaurant
+000006	0.002548128845198586	get	condiments	my order	fast food restaurant
+000007	0.017566329955107693	get	condiments	order	fast food restaurant
+000008	0.0006628631618084376	get	condiments	receptacle	fast food restaurant
+000009	0.0025771113454700597	get	condiments	tray	fast food restaurant
+000010	0.0011281442669850638	get	condiments	number	fast food restaurant
+000011	0.0014671070358979687	get	condiments	order number	fast food restaurant
+000012	0.0014671070358979687	get	condiments	vacant table	fast food restaurant
+000013	0.0028476537068412703	get	condiments	table	fast food restaurant
+000014	0.002206861589145204	get	condiments	place to sit	fast food restaurant
+000015	0.00048813412622554617	get	condiments	seat	fast food restaurant
+000016	0.002385121724036475	get	condiments	restaurant	fast food restaurant
+000017	0.002206861589145204	get	condiments	swipe credit card	fast food restaurant
+000018	0.0019361982389593537	get	condiments	credit card	fast food restaurant
+000019	0.0012160091578191294	get	condiments	car	fast food restaurant
+000020	0.001274064422599293	get	condiments	my receipt	fast food restaurant
+000021	0.0013257263236168752	get	condiments	receipt	fast food restaurant
+000022	0.0014671070358979687	get	condiments	your cup	fast food restaurant
+000023	0.0009285331079208284	get	condiments	cup	fast food restaurant
+000024	0.0002341304312380484	get	condiments	you	fast food restaurant
+000025	0.0025996532599600396	get	condiments	line	fast food restaurant
+000026	0.0012453020498905353	get	condiments	trash	fast food restaurant
+000027	0.0025412389728946953	get	condiments	trays and trash	fast food restaurant
+000028	0.0036079558836580837	get	condiments	menu	fast food restaurant
+000029	0.000740181991779952	get	condiments	bill	fast food restaurant
+000030	0.003252992809681617	get	condiments	counter	fast food restaurant
+000031	0.0014671070358979687	get	condiments	front counter	fast food restaurant
+000032	0.003420705718634946	take	food	my food	fast food restaurant
+000033	0.0029625754884606225	take	food	napkins and condiments	fast food restaurant
+000034	0.003050988848641774	take	food	condiments	fast food restaurant
+000035	0.003420705718634946	take	food	menu board	fast food restaurant
+000036	0.0030910625507057504	take	food	cashier	fast food restaurant
+000037	0.002970607699135748	take	food	my order	fast food restaurant
+000038	0.02047882119796616	take	food	order	fast food restaurant
+000039	0.0007727656376764376	take	food	receptacle	fast food restaurant
+000040	0.003004395487617823	take	food	tray	fast food restaurant
+000041	0.0013151901841841546	take	food	number	fast food restaurant
+000042	0.001710352859317473	take	food	order number	fast food restaurant
+000043	0.001710352859317473	take	food	vacant table	fast food restaurant
+000044	0.00331979367603598	take	food	table	fast food restaurant
+000045	0.0025727584537157816	take	food	place to sit	fast food restaurant
+000046	0.0005690665902977523	take	food	seat	fast food restaurant
+000047	0.002780574055409077	take	food	restaurant	fast food restaurant
+000048	0.0025727584537157816	take	food	swipe credit card	fast food restaurant
+000049	0.0022572192165806596	take	food	credit card	fast food restaurant
+000050	0.0014176230425881635	take	food	car	fast food restaurant
+000051	0.001485303849567874	take	food	my receipt	fast food restaurant
+000052	0.0015455312753528752	take	food	receipt	fast food restaurant
+000053	0.001710352859317473	take	food	your cup	fast food restaurant
+000054	0.0010824835661232394	take	food	cup	fast food restaurant
+000055	0.00027294917325246774	take	food	you	fast food restaurant
+000056	0.003030674843492379	take	food	line	fast food restaurant
+000057	0.0014517726857199216	take	food	trash	fast food restaurant
+000058	0.0029625754884606225	take	food	trays and trash	fast food restaurant
+000059	0.004206153682664952	take	food	menu	fast food restaurant
+000060	0.0008629039020873365	take	food	bill	fast food restaurant
+000061	0.0037923378575938278	take	food	counter	fast food restaurant
+000062	0.001710352859317473	take	food	front counter	fast food restaurant
+000063	0.011811618597549763	dispense	soda	food	fast food restaurant
+000064	0.0029342140717959373	dispense	soda	my food	fast food restaurant
+000065	0.0025412389728946953	dispense	soda	napkins and condiments	fast food restaurant
+000066	0.0026170782139510185	dispense	soda	condiments	fast food restaurant
+000067	0.0029342140717959373	dispense	soda	menu board	fast food restaurant
+000068	0.0026514526472337504	dispense	soda	cashier	fast food restaurant
+000069	0.002548128845198586	dispense	soda	my order	fast food restaurant
+000070	0.017566329955107693	dispense	soda	order	fast food restaurant
+000071	0.0006628631618084376	dispense	soda	receptacle	fast food restaurant
+000072	0.0025771113454700597	dispense	soda	tray	fast food restaurant
+000073	0.0011281442669850638	dispense	soda	number	fast food restaurant
+000074	0.0014671070358979687	dispense	soda	order number	fast food restaurant
+000075	0.0014671070358979687	dispense	soda	vacant table	fast food restaurant
+000076	0.0028476537068412703	dispense	soda	table	fast food restaurant
+000077	0.002206861589145204	dispense	soda	place to sit	fast food restaurant
+000078	0.00048813412622554617	dispense	soda	seat	fast food restaurant
+000079	0.002385121724036475	dispense	soda	restaurant	fast food restaurant
+000080	0.002206861589145204	dispense	soda	swipe credit card	fast food restaurant
+000081	0.0019361982389593537	dispense	soda	credit card	fast food restaurant
+000082	0.0012160091578191294	dispense	soda	car	fast food restaurant
+000083	0.001274064422599293	dispense	soda	my receipt	fast food restaurant
+000084	0.0013257263236168752	dispense	soda	receipt	fast food restaurant
+000085	0.0014671070358979687	dispense	soda	your cup	fast food restaurant
+000086	0.0009285331079208284	dispense	soda	cup	fast food restaurant
+000087	0.0002341304312380484	dispense	soda	you	fast food restaurant
+000088	0.0025996532599600396	dispense	soda	line	fast food restaurant
+000089	0.0012453020498905353	dispense	soda	trash	fast food restaurant
+000090	0.0025412389728946953	dispense	soda	trays and trash	fast food restaurant
+000091	0.0036079558836580837	dispense	soda	menu	fast food restaurant
+000092	0.000740181991779952	dispense	soda	bill	fast food restaurant
+000093	0.003252992809681617	dispense	soda	counter	fast food restaurant
+000094	0.0014671070358979687	dispense	soda	front counter	fast food restaurant
+000095	0.04724647439019905	place	order	food	fast food restaurant
+000096	0.01173685628718375	place	order	my food	fast food restaurant
+000097	0.010164955891578781	place	order	napkins and condiments	fast food restaurant
+000098	0.010468312855804074	place	order	condiments	fast food restaurant
+000099	0.01173685628718375	place	order	menu board	fast food restaurant
+000100	0.010605810588935002	place	order	cashier	fast food restaurant
+000101	0.010192515380794343	place	order	my order	fast food restaurant
+000102	0.0026514526472337504	place	order	receptacle	fast food restaurant
+000103	0.010308445381880239	place	order	tray	fast food restaurant
+000104	0.004512577067940255	place	order	number	fast food restaurant
+000105	0.005868428143591875	place	order	order number	fast food restaurant
+000106	0.005868428143591875	place	order	vacant table	fast food restaurant
+000107	0.011390614827365081	place	order	table	fast food restaurant
+000108	0.008827446356580816	place	order	place to sit	fast food restaurant
+000109	0.0019525365049021847	place	order	seat	fast food restaurant
+000110	0.0095404868961459	place	order	restaurant	fast food restaurant
+000111	0.008827446356580816	place	order	swipe credit card	fast food restaurant
+000112	0.007744792955837415	place	order	credit card	fast food restaurant
+000113	0.004864036631276518	place	order	car	fast food restaurant
+000114	0.005096257690397172	place	order	my receipt	fast food restaurant
+000115	0.005302905294467501	place	order	receipt	fast food restaurant
+000116	0.005868428143591875	place	order	your cup	fast food restaurant
+000117	0.0037141324316833134	place	order	cup	fast food restaurant
+000118	0.0009365217249521936	place	order	you	fast food restaurant
+000119	0.010398613039840158	place	order	line	fast food restaurant
+000120	0.004981208199562141	place	order	trash	fast food restaurant
+000121	0.010164955891578781	place	order	trays and trash	fast food restaurant
+000122	0.014431823534632335	place	order	menu	fast food restaurant
+000123	0.002960727967119808	place	order	bill	fast food restaurant
+000124	0.013011971238726468	place	order	counter	fast food restaurant
+000125	0.005868428143591875	place	order	front counter	fast food restaurant
+000126	0.011811618597549763	get	napkins	food	fast food restaurant
+000127	0.0029342140717959373	get	napkins	my food	fast food restaurant
+000128	0.0025412389728946953	get	napkins	napkins and condiments	fast food restaurant
+000129	0.0026170782139510185	get	napkins	condiments	fast food restaurant
+000130	0.0029342140717959373	get	napkins	menu board	fast food restaurant
+000131	0.0026514526472337504	get	napkins	cashier	fast food restaurant
+000132	0.002548128845198586	get	napkins	my order	fast food restaurant
+000133	0.017566329955107693	get	napkins	order	fast food restaurant
+000134	0.0006628631618084376	get	napkins	receptacle	fast food restaurant
+000135	0.0025771113454700597	get	napkins	tray	fast food restaurant
+000136	0.0011281442669850638	get	napkins	number	fast food restaurant
+000137	0.0014671070358979687	get	napkins	order number	fast food restaurant
+000138	0.0014671070358979687	get	napkins	vacant table	fast food restaurant
+000139	0.0028476537068412703	get	napkins	table	fast food restaurant
+000140	0.002206861589145204	get	napkins	place to sit	fast food restaurant
+000141	0.00048813412622554617	get	napkins	seat	fast food restaurant
+000142	0.002385121724036475	get	napkins	restaurant	fast food restaurant
+000143	0.002206861589145204	get	napkins	swipe credit card	fast food restaurant
+000144	0.0019361982389593537	get	napkins	credit card	fast food restaurant
+000145	0.0012160091578191294	get	napkins	car	fast food restaurant
+000146	0.001274064422599293	get	napkins	my receipt	fast food restaurant
+000147	0.0013257263236168752	get	napkins	receipt	fast food restaurant
+000148	0.0014671070358979687	get	napkins	your cup	fast food restaurant
+000149	0.0009285331079208284	get	napkins	cup	fast food restaurant
+000150	0.0002341304312380484	get	napkins	you	fast food restaurant
+000151	0.0025996532599600396	get	napkins	line	fast food restaurant
+000152	0.0012453020498905353	get	napkins	trash	fast food restaurant
+000153	0.0025412389728946953	get	napkins	trays and trash	fast food restaurant
+000154	0.0036079558836580837	get	napkins	menu	fast food restaurant
+000155	0.000740181991779952	get	napkins	bill	fast food restaurant
+000156	0.003252992809681617	get	napkins	counter	fast food restaurant
+000157	0.0014671070358979687	get	napkins	front counter	fast food restaurant
+000158	0.005868428143591875	receive	food	my food	fast food restaurant
+000159	0.0050824779457893906	receive	food	napkins and condiments	fast food restaurant
+000160	0.005234156427902037	receive	food	condiments	fast food restaurant
+000161	0.005868428143591875	receive	food	menu board	fast food restaurant
+000162	0.005302905294467501	receive	food	cashier	fast food restaurant
+000163	0.005096257690397172	receive	food	my order	fast food restaurant
+000164	0.035132659910215386	receive	food	order	fast food restaurant
+000165	0.0013257263236168752	receive	food	receptacle	fast food restaurant
+000166	0.005154222690940119	receive	food	tray	fast food restaurant
+000167	0.0022562885339701276	receive	food	number	fast food restaurant
+000168	0.0029342140717959373	receive	food	order number	fast food restaurant
+000169	0.0029342140717959373	receive	food	vacant table	fast food restaurant
+000170	0.005695307413682541	receive	food	table	fast food restaurant
+000171	0.004413723178290408	receive	food	place to sit	fast food restaurant
+000172	0.0009762682524510923	receive	food	seat	fast food restaurant
+000173	0.00477024344807295	receive	food	restaurant	fast food restaurant
+000174	0.004413723178290408	receive	food	swipe credit card	fast food restaurant
+000175	0.0038723964779187074	receive	food	credit card	fast food restaurant
+000176	0.002432018315638259	receive	food	car	fast food restaurant
+000177	0.002548128845198586	receive	food	my receipt	fast food restaurant
+000178	0.0026514526472337504	receive	food	receipt	fast food restaurant
+000179	0.0029342140717959373	receive	food	your cup	fast food restaurant
+000180	0.0018570662158416567	receive	food	cup	fast food restaurant
+000181	0.0004682608624760968	receive	food	you	fast food restaurant
+000182	0.005199306519920079	receive	food	line	fast food restaurant
+000183	0.0024906040997810706	receive	food	trash	fast food restaurant
+000184	0.0050824779457893906	receive	food	trays and trash	fast food restaurant
+000185	0.007215911767316167	receive	food	menu	fast food restaurant
+000186	0.001480363983559904	receive	food	bill	fast food restaurant
+000187	0.006505985619363234	receive	food	counter	fast food restaurant
+000188	0.0029342140717959373	receive	food	front counter	fast food restaurant
+000189	0.011811618597549763	receive	tray	food	fast food restaurant
+000190	0.0029342140717959373	receive	tray	my food	fast food restaurant
+000191	0.0025412389728946953	receive	tray	napkins and condiments	fast food restaurant
+000192	0.0026170782139510185	receive	tray	condiments	fast food restaurant
+000193	0.0029342140717959373	receive	tray	menu board	fast food restaurant
+000194	0.0026514526472337504	receive	tray	cashier	fast food restaurant
+000195	0.002548128845198586	receive	tray	my order	fast food restaurant
+000196	0.017566329955107693	receive	tray	order	fast food restaurant
+000197	0.0006628631618084376	receive	tray	receptacle	fast food restaurant
+000198	0.0011281442669850638	receive	tray	number	fast food restaurant
+000199	0.0014671070358979687	receive	tray	order number	fast food restaurant
+000200	0.0014671070358979687	receive	tray	vacant table	fast food restaurant
+000201	0.0028476537068412703	receive	tray	table	fast food restaurant
+000202	0.002206861589145204	receive	tray	place to sit	fast food restaurant
+000203	0.00048813412622554617	receive	tray	seat	fast food restaurant
+000204	0.002385121724036475	receive	tray	restaurant	fast food restaurant
+000205	0.002206861589145204	receive	tray	swipe credit card	fast food restaurant
+000206	0.0019361982389593537	receive	tray	credit card	fast food restaurant
+000207	0.0012160091578191294	receive	tray	car	fast food restaurant
+000208	0.001274064422599293	receive	tray	my receipt	fast food restaurant
+000209	0.0013257263236168752	receive	tray	receipt	fast food restaurant
+000210	0.0014671070358979687	receive	tray	your cup	fast food restaurant
+000211	0.0009285331079208284	receive	tray	cup	fast food restaurant
+000212	0.0002341304312380484	receive	tray	you	fast food restaurant
+000213	0.0025996532599600396	receive	tray	line	fast food restaurant
+000214	0.0012453020498905353	receive	tray	trash	fast food restaurant
+000215	0.0025412389728946953	receive	tray	trays and trash	fast food restaurant
+000216	0.0036079558836580837	receive	tray	menu	fast food restaurant
+000217	0.000740181991779952	receive	tray	bill	fast food restaurant
+000218	0.003252992809681617	receive	tray	counter	fast food restaurant
+000219	0.0014671070358979687	receive	tray	front counter	fast food restaurant
+000220	0.009348304486101426	get	drink	food	fast food restaurant
+000221	0.002322283465556705	get	drink	my food	fast food restaurant
+000222	0.002011263358562503	get	drink	napkins and condiments	fast food restaurant
+000223	0.0020712863191359528	get	drink	condiments	fast food restaurant
+000224	0.002322283465556705	get	drink	menu board	fast food restaurant
+000225	0.002098491961293313	get	drink	cashier	fast food restaurant
+000226	0.00201671634738323	get	drink	my order	fast food restaurant
+000227	0.013902870277045384	get	drink	order	fast food restaurant
+000228	0.0005246229903233282	get	drink	receptacle	fast food restaurant
+000229	0.0020396545446394855	get	drink	tray	fast food restaurant
+000230	0.0008928696795385706	get	drink	number	fast food restaurant
+000231	0.0011611417327783524	get	drink	order number	fast food restaurant
+000232	0.0011611417327783524	get	drink	vacant table	fast food restaurant
+000233	0.00225377527242963	get	drink	table	fast food restaurant
+000234	0.0017466204080015472	get	drink	place to sit	fast food restaurant
+000235	0.00038633371068721116	get	drink	seat	fast food restaurant
+000236	0.0018877043758705066	get	drink	restaurant	fast food restaurant
+000237	0.0017466204080015472	get	drink	swipe credit card	fast food restaurant
+000238	0.0015324039236248416	get	drink	credit card	fast food restaurant
+000239	0.0009624103395566055	get	drink	car	fast food restaurant
+000240	0.001008358173691615	get	drink	my receipt	fast food restaurant
+000241	0.0010492459806466564	get	drink	receipt	fast food restaurant
+000242	0.0011611417327783524	get	drink	your cup	fast food restaurant
+000243	0.000734887445491224	get	drink	cup	fast food restaurant
+000244	0.00018530250893214112	get	drink	you	fast food restaurant
+000245	0.0020574953408531143	get	drink	line	fast food restaurant
+000246	0.0009855941963752479	get	drink	trash	fast food restaurant
+000247	0.002011263358562503	get	drink	trays and trash	fast food restaurant
+000248	0.0028555163624952797	get	drink	menu	fast food restaurant
+000249	0.0005858169714118101	get	drink	bill	fast food restaurant
+000250	0.002574580869239265	get	drink	counter	fast food restaurant
+000251	0.0011611417327783524	get	drink	front counter	fast food restaurant
+000252	0.011811618597549763	confirm	order	food	fast food restaurant
+000253	0.0029342140717959373	confirm	order	my food	fast food restaurant
+000254	0.0025412389728946953	confirm	order	napkins and condiments	fast food restaurant
+000255	0.0026170782139510185	confirm	order	condiments	fast food restaurant
+000256	0.0029342140717959373	confirm	order	menu board	fast food restaurant
+000257	0.0026514526472337504	confirm	order	cashier	fast food restaurant
+000258	0.002548128845198586	confirm	order	my order	fast food restaurant
+000259	0.0006628631618084376	confirm	order	receptacle	fast food restaurant
+000260	0.0025771113454700597	confirm	order	tray	fast food restaurant
+000261	0.0011281442669850638	confirm	order	number	fast food restaurant
+000262	0.0014671070358979687	confirm	order	order number	fast food restaurant
+000263	0.0014671070358979687	confirm	order	vacant table	fast food restaurant
+000264	0.0028476537068412703	confirm	order	table	fast food restaurant
+000265	0.002206861589145204	confirm	order	place to sit	fast food restaurant
+000266	0.00048813412622554617	confirm	order	seat	fast food restaurant
+000267	0.002385121724036475	confirm	order	restaurant	fast food restaurant
+000268	0.002206861589145204	confirm	order	swipe credit card	fast food restaurant
+000269	0.0019361982389593537	confirm	order	credit card	fast food restaurant
+000270	0.0012160091578191294	confirm	order	car	fast food restaurant
+000271	0.001274064422599293	confirm	order	my receipt	fast food restaurant
+000272	0.0013257263236168752	confirm	order	receipt	fast food restaurant
+000273	0.0014671070358979687	confirm	order	your cup	fast food restaurant
+000274	0.0009285331079208284	confirm	order	cup	fast food restaurant
+000275	0.0002341304312380484	confirm	order	you	fast food restaurant
+000276	0.0025996532599600396	confirm	order	line	fast food restaurant
+000277	0.0012453020498905353	confirm	order	trash	fast food restaurant
+000278	0.0025412389728946953	confirm	order	trays and trash	fast food restaurant
+000279	0.0036079558836580837	confirm	order	menu	fast food restaurant
+000280	0.000740181991779952	confirm	order	bill	fast food restaurant
+000281	0.003252992809681617	confirm	order	counter	fast food restaurant
+000282	0.0014671070358979687	confirm	order	front counter	fast food restaurant
+000283	0.010257440432244571	enter	restaurant	food	fast food restaurant
+000284	0.0025481288451985862	enter	restaurant	my food	fast food restaurant
+000285	0.002206861589145204	enter	restaurant	napkins and condiments	fast food restaurant
+000286	0.0022727218682540504	enter	restaurant	condiments	fast food restaurant
+000287	0.0025481288451985862	enter	restaurant	menu board	fast food restaurant
+000288	0.0023025732979186464	enter	restaurant	cashier	fast food restaurant
+000289	0.002212844888907151	enter	restaurant	my order	fast food restaurant
+000290	0.015254944243208873	enter	restaurant	order	fast food restaurant
+000291	0.0005756433244796616	enter	restaurant	receptacle	fast food restaurant
+000292	0.0022380138585667217	enter	restaurant	tray	fast food restaurant
+000293	0.0009797025295058216	enter	restaurant	number	fast food restaurant
+000294	0.0012740644225992931	enter	restaurant	order number	fast food restaurant
+000295	0.0012740644225992931	enter	restaurant	vacant table	fast food restaurant
+000296	0.0024729581325665315	enter	restaurant	table	fast food restaurant
+000297	0.0019164817341428004	enter	restaurant	place to sit	fast food restaurant
+000298	0.0004239052151364726	enter	restaurant	seat	fast food restaurant
+000299	0.0019164817341428004	enter	restaurant	swipe credit card	fast food restaurant
+000300	0.001681432391091795	enter	restaurant	credit card	fast food restaurant
+000301	0.0010560061179067425	enter	restaurant	car	fast food restaurant
+000302	0.0011064224444535754	enter	restaurant	my receipt	fast food restaurant
+000303	0.0011512866489593232	enter	restaurant	receipt	fast food restaurant
+000304	0.0012740644225992931	enter	restaurant	your cup	fast food restaurant
+000305	0.0008063562978439365	enter	restaurant	cup	fast food restaurant
+000306	0.0002033234422501761	enter	restaurant	you	fast food restaurant
+000307	0.0022575896976610938	enter	restaurant	line	fast food restaurant
+000308	0.001081444637871563	enter	restaurant	trash	fast food restaurant
+000309	0.002206861589145204	enter	restaurant	trays and trash	fast food restaurant
+000310	0.003133219401993411	enter	restaurant	menu	fast food restaurant
+000311	0.0006427885075190273	enter	restaurant	bill	fast food restaurant
+000312	0.00282496253127839	enter	restaurant	counter	fast food restaurant
+000313	0.0012740644225992931	enter	restaurant	front counter	fast food restaurant
+000314	0.011811618597549763	return	tray	food	fast food restaurant
+000315	0.0029342140717959373	return	tray	my food	fast food restaurant
+000316	0.0025412389728946953	return	tray	napkins and condiments	fast food restaurant
+000317	0.0026170782139510185	return	tray	condiments	fast food restaurant
+000318	0.0029342140717959373	return	tray	menu board	fast food restaurant
+000319	0.0026514526472337504	return	tray	cashier	fast food restaurant
+000320	0.002548128845198586	return	tray	my order	fast food restaurant
+000321	0.017566329955107693	return	tray	order	fast food restaurant
+000322	0.0006628631618084376	return	tray	receptacle	fast food restaurant
+000323	0.0011281442669850638	return	tray	number	fast food restaurant
+000324	0.0014671070358979687	return	tray	order number	fast food restaurant
+000325	0.0014671070358979687	return	tray	vacant table	fast food restaurant
+000326	0.0028476537068412703	return	tray	table	fast food restaurant
+000327	0.002206861589145204	return	tray	place to sit	fast food restaurant
+000328	0.00048813412622554617	return	tray	seat	fast food restaurant
+000329	0.002385121724036475	return	tray	restaurant	fast food restaurant
+000330	0.002206861589145204	return	tray	swipe credit card	fast food restaurant
+000331	0.0019361982389593537	return	tray	credit card	fast food restaurant
+000332	0.0012160091578191294	return	tray	car	fast food restaurant
+000333	0.001274064422599293	return	tray	my receipt	fast food restaurant
+000334	0.0013257263236168752	return	tray	receipt	fast food restaurant
+000335	0.0014671070358979687	return	tray	your cup	fast food restaurant
+000336	0.0009285331079208284	return	tray	cup	fast food restaurant
+000337	0.0002341304312380484	return	tray	you	fast food restaurant
+000338	0.0025996532599600396	return	tray	line	fast food restaurant
+000339	0.0012453020498905353	return	tray	trash	fast food restaurant
+000340	0.0025412389728946953	return	tray	trays and trash	fast food restaurant
+000341	0.0036079558836580837	return	tray	menu	fast food restaurant
+000342	0.000740181991779952	return	tray	bill	fast food restaurant
+000343	0.003252992809681617	return	tray	counter	fast food restaurant
+000344	0.0014671070358979687	return	tray	front counter	fast food restaurant
+000345	0.012972261711607407	eat	food	my food	fast food restaurant
+000346	0.01123490523237427	eat	food	napkins and condiments	fast food restaurant
+000347	0.011570193135342492	eat	food	condiments	fast food restaurant
+000348	0.012972261711607407	eat	food	menu board	fast food restaurant
+000349	0.011722163691621249	eat	food	cashier	fast food restaurant
+000350	0.011265365595694292	eat	food	my order	fast food restaurant
+000351	0.07766135118786029	eat	food	order	fast food restaurant
+000352	0.002930540922905312	eat	food	receptacle	fast food restaurant
+000353	0.0113934982299803	eat	food	tray	fast food restaurant
+000354	0.004987564752159475	eat	food	number	fast food restaurant
+000355	0.006486130855803704	eat	food	order number	fast food restaurant
+000356	0.006486130855803704	eat	food	vacant table	fast food restaurant
+000357	0.012589575349750753	eat	food	table	fast food restaurant
+000358	0.009756611274842378	eat	food	place to sit	fast food restaurant
+000359	0.002158057824284393	eat	food	seat	fast food restaurant
+000360	0.010544705485412583	eat	food	restaurant	fast food restaurant
+000361	0.009756611274842378	eat	food	swipe credit card	fast food restaurant
+000362	0.008559999259345414	eat	food	credit card	fast food restaurant
+000363	0.005376018467966133	eat	food	car	fast food restaurant
+000364	0.005632682797847146	eat	food	my receipt	fast food restaurant
+000365	0.005861081845810624	eat	food	receipt	fast food restaurant
+000366	0.006486130855803704	eat	food	your cup	fast food restaurant
+000367	0.004105076926602267	eat	food	cup	fast food restaurant
+000368	0.0010350987195738223	eat	food	you	fast food restaurant
+000369	0.01149315681217288	eat	food	line	fast food restaurant
+000370	0.005505523355115543	eat	food	trash	fast food restaurant
+000371	0.01123490523237427	eat	food	trays and trash	fast food restaurant
+000372	0.015950897521972422	eat	food	menu	fast food restaurant
+000373	0.0032723701395486146	eat	food	bill	fast food restaurant
+000374	0.014381593517250976	eat	food	counter	fast food restaurant
+000375	0.006486130855803704	eat	food	front counter	fast food restaurant
+000376	0.009348304486101426	take	trash	food	fast food restaurant
+000377	0.002322283465556705	take	trash	my food	fast food restaurant
+000378	0.002011263358562503	take	trash	napkins and condiments	fast food restaurant
+000379	0.0020712863191359528	take	trash	condiments	fast food restaurant
+000380	0.002322283465556705	take	trash	menu board	fast food restaurant
+000381	0.002098491961293313	take	trash	cashier	fast food restaurant
+000382	0.00201671634738323	take	trash	my order	fast food restaurant
+000383	0.013902870277045384	take	trash	order	fast food restaurant
+000384	0.0005246229903233282	take	trash	receptacle	fast food restaurant
+000385	0.0020396545446394855	take	trash	tray	fast food restaurant
+000386	0.0008928696795385706	take	trash	number	fast food restaurant
+000387	0.0011611417327783524	take	trash	order number	fast food restaurant
+000388	0.0011611417327783524	take	trash	vacant table	fast food restaurant
+000389	0.00225377527242963	take	trash	table	fast food restaurant
+000390	0.0017466204080015472	take	trash	place to sit	fast food restaurant
+000391	0.00038633371068721116	take	trash	seat	fast food restaurant
+000392	0.0018877043758705066	take	trash	restaurant	fast food restaurant
+000393	0.0017466204080015472	take	trash	swipe credit card	fast food restaurant
+000394	0.0015324039236248416	take	trash	credit card	fast food restaurant
+000395	0.0009624103395566055	take	trash	car	fast food restaurant
+000396	0.001008358173691615	take	trash	my receipt	fast food restaurant
+000397	0.0010492459806466564	take	trash	receipt	fast food restaurant
+000398	0.0011611417327783524	take	trash	your cup	fast food restaurant
+000399	0.000734887445491224	take	trash	cup	fast food restaurant
+000400	0.00018530250893214112	take	trash	you	fast food restaurant
+000401	0.0020574953408531143	take	trash	line	fast food restaurant
+000402	0.002011263358562503	take	trash	trays and trash	fast food restaurant
+000403	0.0028555163624952797	take	trash	menu	fast food restaurant
+000404	0.0005858169714118101	take	trash	bill	fast food restaurant
+000405	0.002574580869239265	take	trash	counter	fast food restaurant
+000406	0.0011611417327783524	take	trash	front counter	fast food restaurant
+000407	0.0029342140717959373	recieve	food	my food	fast food restaurant
+000408	0.0025412389728946953	recieve	food	napkins and condiments	fast food restaurant
+000409	0.0026170782139510185	recieve	food	condiments	fast food restaurant
+000410	0.0029342140717959373	recieve	food	menu board	fast food restaurant
+000411	0.0026514526472337504	recieve	food	cashier	fast food restaurant
+000412	0.002548128845198586	recieve	food	my order	fast food restaurant
+000413	0.017566329955107693	recieve	food	order	fast food restaurant
+000414	0.0006628631618084376	recieve	food	receptacle	fast food restaurant
+000415	0.0025771113454700597	recieve	food	tray	fast food restaurant
+000416	0.0011281442669850638	recieve	food	number	fast food restaurant
+000417	0.0014671070358979687	recieve	food	order number	fast food restaurant
+000418	0.0014671070358979687	recieve	food	vacant table	fast food restaurant
+000419	0.0028476537068412703	recieve	food	table	fast food restaurant
+000420	0.002206861589145204	recieve	food	place to sit	fast food restaurant
+000421	0.00048813412622554617	recieve	food	seat	fast food restaurant
+000422	0.002385121724036475	recieve	food	restaurant	fast food restaurant
+000423	0.002206861589145204	recieve	food	swipe credit card	fast food restaurant
+000424	0.0019361982389593537	recieve	food	credit card	fast food restaurant
+000425	0.0012160091578191294	recieve	food	car	fast food restaurant
+000426	0.001274064422599293	recieve	food	my receipt	fast food restaurant
+000427	0.0013257263236168752	recieve	food	receipt	fast food restaurant
+000428	0.0014671070358979687	recieve	food	your cup	fast food restaurant
+000429	0.0009285331079208284	recieve	food	cup	fast food restaurant
+000430	0.0002341304312380484	recieve	food	you	fast food restaurant
+000431	0.0025996532599600396	recieve	food	line	fast food restaurant
+000432	0.0012453020498905353	recieve	food	trash	fast food restaurant
+000433	0.0025412389728946953	recieve	food	trays and trash	fast food restaurant
+000434	0.0036079558836580837	recieve	food	menu	fast food restaurant
+000435	0.000740181991779952	recieve	food	bill	fast food restaurant
+000436	0.003252992809681617	recieve	food	counter	fast food restaurant
+000437	0.0014671070358979687	recieve	food	front counter	fast food restaurant
+000438	0.002322283465556705	pick	food	my food	fast food restaurant
+000439	0.002011263358562503	pick	food	napkins and condiments	fast food restaurant
+000440	0.0020712863191359528	pick	food	condiments	fast food restaurant
+000441	0.002322283465556705	pick	food	menu board	fast food restaurant
+000442	0.002098491961293313	pick	food	cashier	fast food restaurant
+000443	0.00201671634738323	pick	food	my order	fast food restaurant
+000444	0.013902870277045384	pick	food	order	fast food restaurant
+000445	0.0005246229903233282	pick	food	receptacle	fast food restaurant
+000446	0.0020396545446394855	pick	food	tray	fast food restaurant
+000447	0.0008928696795385706	pick	food	number	fast food restaurant
+000448	0.0011611417327783524	pick	food	order number	fast food restaurant
+000449	0.0011611417327783524	pick	food	vacant table	fast food restaurant
+000450	0.00225377527242963	pick	food	table	fast food restaurant
+000451	0.0017466204080015472	pick	food	place to sit	fast food restaurant
+000452	0.00038633371068721116	pick	food	seat	fast food restaurant
+000453	0.0018877043758705066	pick	food	restaurant	fast food restaurant
+000454	0.0017466204080015472	pick	food	swipe credit card	fast food restaurant
+000455	0.0015324039236248416	pick	food	credit card	fast food restaurant
+000456	0.0009624103395566055	pick	food	car	fast food restaurant
+000457	0.001008358173691615	pick	food	my receipt	fast food restaurant
+000458	0.0010492459806466564	pick	food	receipt	fast food restaurant
+000459	0.0011611417327783524	pick	food	your cup	fast food restaurant
+000460	0.000734887445491224	pick	food	cup	fast food restaurant
+000461	0.00018530250893214112	pick	food	you	fast food restaurant
+000462	0.0020574953408531143	pick	food	line	fast food restaurant
+000463	0.0009855941963752479	pick	food	trash	fast food restaurant
+000464	0.002011263358562503	pick	food	trays and trash	fast food restaurant
+000465	0.0028555163624952797	pick	food	menu	fast food restaurant
+000466	0.0005858169714118101	pick	food	bill	fast food restaurant
+000467	0.002574580869239265	pick	food	counter	fast food restaurant
+000468	0.0011611417327783524	pick	food	front counter	fast food restaurant
+000469	0.011811618597549763	take	food tray	food	fast food restaurant
+000470	0.0029342140717959373	take	food tray	my food	fast food restaurant
+000471	0.0025412389728946953	take	food tray	napkins and condiments	fast food restaurant
+000472	0.0026170782139510185	take	food tray	condiments	fast food restaurant
+000473	0.0029342140717959373	take	food tray	menu board	fast food restaurant
+000474	0.0026514526472337504	take	food tray	cashier	fast food restaurant
+000475	0.002548128845198586	take	food tray	my order	fast food restaurant
+000476	0.017566329955107693	take	food tray	order	fast food restaurant
+000477	0.0006628631618084376	take	food tray	receptacle	fast food restaurant
+000478	0.0025771113454700597	take	food tray	tray	fast food restaurant
+000479	0.0011281442669850638	take	food tray	number	fast food restaurant
+000480	0.0014671070358979687	take	food tray	order number	fast food restaurant
+000481	0.0014671070358979687	take	food tray	vacant table	fast food restaurant
+000482	0.0028476537068412703	take	food tray	table	fast food restaurant
+000483	0.002206861589145204	take	food tray	place to sit	fast food restaurant
+000484	0.00048813412622554617	take	food tray	seat	fast food restaurant
+000485	0.002385121724036475	take	food tray	restaurant	fast food restaurant
+000486	0.002206861589145204	take	food tray	swipe credit card	fast food restaurant
+000487	0.0019361982389593537	take	food tray	credit card	fast food restaurant
+000488	0.0012160091578191294	take	food tray	car	fast food restaurant
+000489	0.001274064422599293	take	food tray	my receipt	fast food restaurant
+000490	0.0013257263236168752	take	food tray	receipt	fast food restaurant
+000491	0.0014671070358979687	take	food tray	your cup	fast food restaurant
+000492	0.0009285331079208284	take	food tray	cup	fast food restaurant
+000493	0.0002341304312380484	take	food tray	you	fast food restaurant
+000494	0.0025996532599600396	take	food tray	line	fast food restaurant
+000495	0.0012453020498905353	take	food tray	trash	fast food restaurant
+000496	0.0025412389728946953	take	food tray	trays and trash	fast food restaurant
+000497	0.0036079558836580837	take	food tray	menu	fast food restaurant
+000498	0.000740181991779952	take	food tray	bill	fast food restaurant
+000499	0.003252992809681617	take	food tray	counter	fast food restaurant
+000500	0.0014671070358979687	take	food tray	front counter	fast food restaurant
+000501	0.011811618597549763	clear	tray	food	fast food restaurant
+000502	0.0029342140717959373	clear	tray	my food	fast food restaurant
+000503	0.0025412389728946953	clear	tray	napkins and condiments	fast food restaurant
+000504	0.0026170782139510185	clear	tray	condiments	fast food restaurant
+000505	0.0029342140717959373	clear	tray	menu board	fast food restaurant
+000506	0.0026514526472337504	clear	tray	cashier	fast food restaurant
+000507	0.002548128845198586	clear	tray	my order	fast food restaurant
+000508	0.017566329955107693	clear	tray	order	fast food restaurant
+000509	0.0006628631618084376	clear	tray	receptacle	fast food restaurant
+000510	0.0011281442669850638	clear	tray	number	fast food restaurant
+000511	0.0014671070358979687	clear	tray	order number	fast food restaurant
+000512	0.0014671070358979687	clear	tray	vacant table	fast food restaurant
+000513	0.0028476537068412703	clear	tray	table	fast food restaurant
+000514	0.002206861589145204	clear	tray	place to sit	fast food restaurant
+000515	0.00048813412622554617	clear	tray	seat	fast food restaurant
+000516	0.002385121724036475	clear	tray	restaurant	fast food restaurant
+000517	0.002206861589145204	clear	tray	swipe credit card	fast food restaurant
+000518	0.0019361982389593537	clear	tray	credit card	fast food restaurant
+000519	0.0012160091578191294	clear	tray	car	fast food restaurant
+000520	0.001274064422599293	clear	tray	my receipt	fast food restaurant
+000521	0.0013257263236168752	clear	tray	receipt	fast food restaurant
+000522	0.0014671070358979687	clear	tray	your cup	fast food restaurant
+000523	0.0009285331079208284	clear	tray	cup	fast food restaurant
+000524	0.0002341304312380484	clear	tray	you	fast food restaurant
+000525	0.0025996532599600396	clear	tray	line	fast food restaurant
+000526	0.0012453020498905353	clear	tray	trash	fast food restaurant
+000527	0.0025412389728946953	clear	tray	trays and trash	fast food restaurant
+000528	0.0036079558836580837	clear	tray	menu	fast food restaurant
+000529	0.000740181991779952	clear	tray	bill	fast food restaurant
+000530	0.003252992809681617	clear	tray	counter	fast food restaurant
+000531	0.0014671070358979687	clear	tray	front counter	fast food restaurant
+000532	0.010257440432244571	give	order	food	fast food restaurant
+000533	0.0025481288451985862	give	order	my food	fast food restaurant
+000534	0.002206861589145204	give	order	napkins and condiments	fast food restaurant
+000535	0.0022727218682540504	give	order	condiments	fast food restaurant
+000536	0.0025481288451985862	give	order	menu board	fast food restaurant
+000537	0.0023025732979186464	give	order	cashier	fast food restaurant
+000538	0.002212844888907151	give	order	my order	fast food restaurant
+000539	0.0005756433244796616	give	order	receptacle	fast food restaurant
+000540	0.0022380138585667217	give	order	tray	fast food restaurant
+000541	0.0009797025295058216	give	order	number	fast food restaurant
+000542	0.0012740644225992931	give	order	order number	fast food restaurant
+000543	0.0012740644225992931	give	order	vacant table	fast food restaurant
+000544	0.0024729581325665315	give	order	table	fast food restaurant
+000545	0.0019164817341428004	give	order	place to sit	fast food restaurant
+000546	0.0004239052151364726	give	order	seat	fast food restaurant
+000547	0.002071286319135953	give	order	restaurant	fast food restaurant
+000548	0.0019164817341428004	give	order	swipe credit card	fast food restaurant
+000549	0.001681432391091795	give	order	credit card	fast food restaurant
+000550	0.0010560061179067425	give	order	car	fast food restaurant
+000551	0.0011064224444535754	give	order	my receipt	fast food restaurant
+000552	0.0011512866489593232	give	order	receipt	fast food restaurant
+000553	0.0012740644225992931	give	order	your cup	fast food restaurant
+000554	0.0008063562978439365	give	order	cup	fast food restaurant
+000555	0.0002033234422501761	give	order	you	fast food restaurant
+000556	0.0022575896976610938	give	order	line	fast food restaurant
+000557	0.001081444637871563	give	order	trash	fast food restaurant
+000558	0.002206861589145204	give	order	trays and trash	fast food restaurant
+000559	0.003133219401993411	give	order	menu	fast food restaurant
+000560	0.0006427885075190273	give	order	bill	fast food restaurant
+000561	0.00282496253127839	give	order	counter	fast food restaurant
+000562	0.0012740644225992931	give	order	front counter	fast food restaurant
+000563	0.008703262266939378	put	credit card	food	fast food restaurant
+000564	0.0021620436186012347	put	credit card	my food	fast food restaurant
+000565	0.001872484205395712	put	credit card	napkins and condiments	fast food restaurant
+000566	0.001928365522557082	put	credit card	condiments	fast food restaurant
+000567	0.0021620436186012347	put	credit card	menu board	fast food restaurant
+000568	0.0019536939486035415	put	credit card	cashier	fast food restaurant
+000569	0.0018775609326157155	put	credit card	my order	fast food restaurant
+000570	0.012943558531310049	put	credit card	order	fast food restaurant
+000571	0.0004884234871508854	put	credit card	receptacle	fast food restaurant
+000572	0.0018989163716633835	put	credit card	tray	fast food restaurant
+000573	0.0008312607920265792	put	credit card	number	fast food restaurant
+000574	0.0010810218093006173	put	credit card	order number	fast food restaurant
+000575	0.0010810218093006173	put	credit card	vacant table	fast food restaurant
+000576	0.002098262558291792	put	credit card	table	fast food restaurant
+000577	0.0016261018791403966	put	credit card	place to sit	fast food restaurant
+000578	0.0003596763040473988	put	credit card	seat	fast food restaurant
+000579	0.0017574509142354307	put	credit card	restaurant	fast food restaurant
+000580	0.0016261018791403966	put	credit card	swipe credit card	fast food restaurant
+000581	0.0008960030779943554	put	credit card	car	fast food restaurant
+000582	0.0009387804663078577	put	credit card	my receipt	fast food restaurant
+000583	0.0009768469743017707	put	credit card	receipt	fast food restaurant
+000584	0.0010810218093006173	put	credit card	your cup	fast food restaurant
+000585	0.0006841794877670446	put	credit card	cup	fast food restaurant
+000586	0.00017251645326230372	put	credit card	you	fast food restaurant
+000587	0.001915526135362147	put	credit card	line	fast food restaurant
+000588	0.0009175872258525905	put	credit card	trash	fast food restaurant
+000589	0.001872484205395712	put	credit card	trays and trash	fast food restaurant
+000590	0.002658482920328737	put	credit card	menu	fast food restaurant
+000591	0.0005453950232581024	put	credit card	bill	fast food restaurant
+000592	0.0023969322528751627	put	credit card	counter	fast food restaurant
+000593	0.0010810218093006173	put	credit card	front counter	fast food restaurant
+000594	0.010257440432244571	order	items	food	fast food restaurant
+000595	0.0025481288451985862	order	items	my food	fast food restaurant
+000596	0.002206861589145204	order	items	napkins and condiments	fast food restaurant
+000597	0.0022727218682540504	order	items	condiments	fast food restaurant
+000598	0.0025481288451985862	order	items	menu board	fast food restaurant
+000599	0.0023025732979186464	order	items	cashier	fast food restaurant
+000600	0.002212844888907151	order	items	my order	fast food restaurant
+000601	0.015254944243208873	order	items	order	fast food restaurant
+000602	0.0005756433244796616	order	items	receptacle	fast food restaurant
+000603	0.0022380138585667217	order	items	tray	fast food restaurant
+000604	0.0009797025295058216	order	items	number	fast food restaurant
+000605	0.0012740644225992931	order	items	order number	fast food restaurant
+000606	0.0012740644225992931	order	items	vacant table	fast food restaurant
+000607	0.0024729581325665315	order	items	table	fast food restaurant
+000608	0.0019164817341428004	order	items	place to sit	fast food restaurant
+000609	0.0004239052151364726	order	items	seat	fast food restaurant
+000610	0.002071286319135953	order	items	restaurant	fast food restaurant
+000611	0.0019164817341428004	order	items	swipe credit card	fast food restaurant
+000612	0.001681432391091795	order	items	credit card	fast food restaurant
+000613	0.0010560061179067425	order	items	car	fast food restaurant
+000614	0.0011064224444535754	order	items	my receipt	fast food restaurant
+000615	0.0011512866489593232	order	items	receipt	fast food restaurant
+000616	0.0012740644225992931	order	items	your cup	fast food restaurant
+000617	0.0008063562978439365	order	items	cup	fast food restaurant
+000618	0.0002033234422501761	order	items	you	fast food restaurant
+000619	0.0022575896976610938	order	items	line	fast food restaurant
+000620	0.001081444637871563	order	items	trash	fast food restaurant
+000621	0.002206861589145204	order	items	trays and trash	fast food restaurant
+000622	0.003133219401993411	order	items	menu	fast food restaurant
+000623	0.0006427885075190273	order	items	bill	fast food restaurant
+000624	0.00282496253127839	order	items	counter	fast food restaurant
+000625	0.0012740644225992931	order	items	front counter	fast food restaurant
+000626	0.011811618597549763	pick	condiments	food	fast food restaurant
+000627	0.0029342140717959373	pick	condiments	my food	fast food restaurant
+000628	0.0025412389728946953	pick	condiments	napkins and condiments	fast food restaurant
+000629	0.0029342140717959373	pick	condiments	menu board	fast food restaurant
+000630	0.0026514526472337504	pick	condiments	cashier	fast food restaurant
+000631	0.002548128845198586	pick	condiments	my order	fast food restaurant
+000632	0.017566329955107693	pick	condiments	order	fast food restaurant
+000633	0.0006628631618084376	pick	condiments	receptacle	fast food restaurant
+000634	0.0025771113454700597	pick	condiments	tray	fast food restaurant
+000635	0.0011281442669850638	pick	condiments	number	fast food restaurant
+000636	0.0014671070358979687	pick	condiments	order number	fast food restaurant
+000637	0.0014671070358979687	pick	condiments	vacant table	fast food restaurant
+000638	0.0028476537068412703	pick	condiments	table	fast food restaurant
+000639	0.002206861589145204	pick	condiments	place to sit	fast food restaurant
+000640	0.00048813412622554617	pick	condiments	seat	fast food restaurant
+000641	0.002385121724036475	pick	condiments	restaurant	fast food restaurant
+000642	0.002206861589145204	pick	condiments	swipe credit card	fast food restaurant
+000643	0.0019361982389593537	pick	condiments	credit card	fast food restaurant
+000644	0.0012160091578191294	pick	condiments	car	fast food restaurant
+000645	0.001274064422599293	pick	condiments	my receipt	fast food restaurant
+000646	0.0013257263236168752	pick	condiments	receipt	fast food restaurant
+000647	0.0014671070358979687	pick	condiments	your cup	fast food restaurant
+000648	0.0009285331079208284	pick	condiments	cup	fast food restaurant
+000649	0.0002341304312380484	pick	condiments	you	fast food restaurant
+000650	0.0025996532599600396	pick	condiments	line	fast food restaurant
+000651	0.0012453020498905353	pick	condiments	trash	fast food restaurant
+000652	0.0025412389728946953	pick	condiments	trays and trash	fast food restaurant
+000653	0.0036079558836580837	pick	condiments	menu	fast food restaurant
+000654	0.000740181991779952	pick	condiments	bill	fast food restaurant
+000655	0.003252992809681617	pick	condiments	counter	fast food restaurant
+000656	0.0014671070358979687	pick	condiments	front counter	fast food restaurant
+000657	0.010257440432244571	select	place	food	fast food restaurant
+000658	0.0025481288451985862	select	place	my food	fast food restaurant
+000659	0.002206861589145204	select	place	napkins and condiments	fast food restaurant
+000660	0.0022727218682540504	select	place	condiments	fast food restaurant
+000661	0.0025481288451985862	select	place	menu board	fast food restaurant
+000662	0.0023025732979186464	select	place	cashier	fast food restaurant
+000663	0.002212844888907151	select	place	my order	fast food restaurant
+000664	0.015254944243208873	select	place	order	fast food restaurant
+000665	0.0005756433244796616	select	place	receptacle	fast food restaurant
+000666	0.0022380138585667217	select	place	tray	fast food restaurant
+000667	0.0009797025295058216	select	place	number	fast food restaurant
+000668	0.0012740644225992931	select	place	order number	fast food restaurant
+000669	0.0012740644225992931	select	place	vacant table	fast food restaurant
+000670	0.0024729581325665315	select	place	table	fast food restaurant
+000671	0.0019164817341428004	select	place	place to sit	fast food restaurant
+000672	0.0004239052151364726	select	place	seat	fast food restaurant
+000673	0.002071286319135953	select	place	restaurant	fast food restaurant
+000674	0.0019164817341428004	select	place	swipe credit card	fast food restaurant
+000675	0.001681432391091795	select	place	credit card	fast food restaurant
+000676	0.0010560061179067425	select	place	car	fast food restaurant
+000677	0.0011064224444535754	select	place	my receipt	fast food restaurant
+000678	0.0011512866489593232	select	place	receipt	fast food restaurant
+000679	0.0012740644225992931	select	place	your cup	fast food restaurant
+000680	0.0008063562978439365	select	place	cup	fast food restaurant
+000681	0.0002033234422501761	select	place	you	fast food restaurant
+000682	0.0022575896976610938	select	place	line	fast food restaurant
+000683	0.001081444637871563	select	place	trash	fast food restaurant
+000684	0.002206861589145204	select	place	trays and trash	fast food restaurant
+000685	0.003133219401993411	select	place	menu	fast food restaurant
+000686	0.0006427885075190273	select	place	bill	fast food restaurant
+000687	0.00282496253127839	select	place	counter	fast food restaurant
+000688	0.0012740644225992931	select	place	front counter	fast food restaurant
+000689	0.008703262266939378	park	car	food	fast food restaurant
+000690	0.0021620436186012347	park	car	my food	fast food restaurant
+000691	0.001872484205395712	park	car	napkins and condiments	fast food restaurant
+000692	0.001928365522557082	park	car	condiments	fast food restaurant
+000693	0.0021620436186012347	park	car	menu board	fast food restaurant
+000694	0.0019536939486035415	park	car	cashier	fast food restaurant
+000695	0.0018775609326157155	park	car	my order	fast food restaurant
+000696	0.012943558531310049	park	car	order	fast food restaurant
+000697	0.0004884234871508854	park	car	receptacle	fast food restaurant
+000698	0.0018989163716633835	park	car	tray	fast food restaurant
+000699	0.0008312607920265792	park	car	number	fast food restaurant
+000700	0.0010810218093006173	park	car	order number	fast food restaurant
+000701	0.0010810218093006173	park	car	vacant table	fast food restaurant
+000702	0.002098262558291792	park	car	table	fast food restaurant
+000703	0.0016261018791403966	park	car	place to sit	fast food restaurant
+000704	0.0003596763040473988	park	car	seat	fast food restaurant
+000705	0.0017574509142354307	park	car	restaurant	fast food restaurant
+000706	0.0016261018791403966	park	car	swipe credit card	fast food restaurant
+000707	0.0014266665432242358	park	car	credit card	fast food restaurant
+000708	0.0009387804663078577	park	car	my receipt	fast food restaurant
+000709	0.0009768469743017707	park	car	receipt	fast food restaurant
+000710	0.0010810218093006173	park	car	your cup	fast food restaurant
+000711	0.0006841794877670446	park	car	cup	fast food restaurant
+000712	0.00017251645326230372	park	car	you	fast food restaurant
+000713	0.001915526135362147	park	car	line	fast food restaurant
+000714	0.0009175872258525905	park	car	trash	fast food restaurant
+000715	0.001872484205395712	park	car	trays and trash	fast food restaurant
+000716	0.002658482920328737	park	car	menu	fast food restaurant
+000717	0.0005453950232581024	park	car	bill	fast food restaurant
+000718	0.0023969322528751627	park	car	counter	fast food restaurant
+000719	0.0010810218093006173	park	car	front counter	fast food restaurant
+000720	0.011811618597549763	take	number	food	fast food restaurant
+000721	0.0029342140717959373	take	number	my food	fast food restaurant
+000722	0.0025412389728946953	take	number	napkins and condiments	fast food restaurant
+000723	0.0026170782139510185	take	number	condiments	fast food restaurant
+000724	0.0029342140717959373	take	number	menu board	fast food restaurant
+000725	0.0026514526472337504	take	number	cashier	fast food restaurant
+000726	0.002548128845198586	take	number	my order	fast food restaurant
+000727	0.017566329955107693	take	number	order	fast food restaurant
+000728	0.0006628631618084376	take	number	receptacle	fast food restaurant
+000729	0.0025771113454700597	take	number	tray	fast food restaurant
+000730	0.0014671070358979687	take	number	order number	fast food restaurant
+000731	0.0014671070358979687	take	number	vacant table	fast food restaurant
+000732	0.0028476537068412703	take	number	table	fast food restaurant
+000733	0.002206861589145204	take	number	place to sit	fast food restaurant
+000734	0.00048813412622554617	take	number	seat	fast food restaurant
+000735	0.002385121724036475	take	number	restaurant	fast food restaurant
+000736	0.002206861589145204	take	number	swipe credit card	fast food restaurant
+000737	0.0019361982389593537	take	number	credit card	fast food restaurant
+000738	0.0012160091578191294	take	number	car	fast food restaurant
+000739	0.001274064422599293	take	number	my receipt	fast food restaurant
+000740	0.0013257263236168752	take	number	receipt	fast food restaurant
+000741	0.0014671070358979687	take	number	your cup	fast food restaurant
+000742	0.0009285331079208284	take	number	cup	fast food restaurant
+000743	0.0002341304312380484	take	number	you	fast food restaurant
+000744	0.0025996532599600396	take	number	line	fast food restaurant
+000745	0.0012453020498905353	take	number	trash	fast food restaurant
+000746	0.0025412389728946953	take	number	trays and trash	fast food restaurant
+000747	0.0036079558836580837	take	number	menu	fast food restaurant
+000748	0.000740181991779952	take	number	bill	fast food restaurant
+000749	0.003252992809681617	take	number	counter	fast food restaurant
+000750	0.0014671070358979687	take	number	front counter	fast food restaurant
+000751	0.011811618597549763	put	trays	food	fast food restaurant
+000752	0.0029342140717959373	put	trays	my food	fast food restaurant
+000753	0.0025412389728946953	put	trays	napkins and condiments	fast food restaurant
+000754	0.0026170782139510185	put	trays	condiments	fast food restaurant
+000755	0.0029342140717959373	put	trays	menu board	fast food restaurant
+000756	0.0026514526472337504	put	trays	cashier	fast food restaurant
+000757	0.002548128845198586	put	trays	my order	fast food restaurant
+000758	0.017566329955107693	put	trays	order	fast food restaurant
+000759	0.0006628631618084376	put	trays	receptacle	fast food restaurant
+000760	0.0025771113454700597	put	trays	tray	fast food restaurant
+000761	0.0011281442669850638	put	trays	number	fast food restaurant
+000762	0.0014671070358979687	put	trays	order number	fast food restaurant
+000763	0.0014671070358979687	put	trays	vacant table	fast food restaurant
+000764	0.0028476537068412703	put	trays	table	fast food restaurant
+000765	0.002206861589145204	put	trays	place to sit	fast food restaurant
+000766	0.00048813412622554617	put	trays	seat	fast food restaurant
+000767	0.002385121724036475	put	trays	restaurant	fast food restaurant
+000768	0.002206861589145204	put	trays	swipe credit card	fast food restaurant
+000769	0.0019361982389593537	put	trays	credit card	fast food restaurant
+000770	0.0012160091578191294	put	trays	car	fast food restaurant
+000771	0.001274064422599293	put	trays	my receipt	fast food restaurant
+000772	0.0013257263236168752	put	trays	receipt	fast food restaurant
+000773	0.0014671070358979687	put	trays	your cup	fast food restaurant
+000774	0.0009285331079208284	put	trays	cup	fast food restaurant
+000775	0.0002341304312380484	put	trays	you	fast food restaurant
+000776	0.0025996532599600396	put	trays	line	fast food restaurant
+000777	0.0012453020498905353	put	trays	trash	fast food restaurant
+000778	0.0025412389728946953	put	trays	trays and trash	fast food restaurant
+000779	0.0036079558836580837	put	trays	menu	fast food restaurant
+000780	0.000740181991779952	put	trays	bill	fast food restaurant
+000781	0.003252992809681617	put	trays	counter	fast food restaurant
+000782	0.0014671070358979687	put	trays	front counter	fast food restaurant
+000783	0.011811618597549763	exit	place	food	fast food restaurant
+000784	0.0029342140717959373	exit	place	my food	fast food restaurant
+000785	0.0025412389728946953	exit	place	napkins and condiments	fast food restaurant
+000786	0.0026170782139510185	exit	place	condiments	fast food restaurant
+000787	0.0029342140717959373	exit	place	menu board	fast food restaurant
+000788	0.0026514526472337504	exit	place	cashier	fast food restaurant
+000789	0.002548128845198586	exit	place	my order	fast food restaurant
+000790	0.017566329955107693	exit	place	order	fast food restaurant
+000791	0.0006628631618084376	exit	place	receptacle	fast food restaurant
+000792	0.0025771113454700597	exit	place	tray	fast food restaurant
+000793	0.0011281442669850638	exit	place	number	fast food restaurant
+000794	0.0014671070358979687	exit	place	order number	fast food restaurant
+000795	0.0014671070358979687	exit	place	vacant table	fast food restaurant
+000796	0.0028476537068412703	exit	place	table	fast food restaurant
+000797	0.002206861589145204	exit	place	place to sit	fast food restaurant
+000798	0.00048813412622554617	exit	place	seat	fast food restaurant
+000799	0.002385121724036475	exit	place	restaurant	fast food restaurant
+000800	0.002206861589145204	exit	place	swipe credit card	fast food restaurant
+000801	0.0019361982389593537	exit	place	credit card	fast food restaurant
+000802	0.0012160091578191294	exit	place	car	fast food restaurant
+000803	0.001274064422599293	exit	place	my receipt	fast food restaurant
+000804	0.0013257263236168752	exit	place	receipt	fast food restaurant
+000805	0.0014671070358979687	exit	place	your cup	fast food restaurant
+000806	0.0009285331079208284	exit	place	cup	fast food restaurant
+000807	0.0002341304312380484	exit	place	you	fast food restaurant
+000808	0.0025996532599600396	exit	place	line	fast food restaurant
+000809	0.0012453020498905353	exit	place	trash	fast food restaurant
+000810	0.0025412389728946953	exit	place	trays and trash	fast food restaurant
+000811	0.0036079558836580837	exit	place	menu	fast food restaurant
+000812	0.000740181991779952	exit	place	bill	fast food restaurant
+000813	0.003252992809681617	exit	place	counter	fast food restaurant
+000814	0.0014671070358979687	exit	place	front counter	fast food restaurant
+000815	0.011811618597549763	examine	menu board	food	fast food restaurant
+000816	0.0029342140717959373	examine	menu board	my food	fast food restaurant
+000817	0.0025412389728946953	examine	menu board	napkins and condiments	fast food restaurant
+000818	0.0026170782139510185	examine	menu board	condiments	fast food restaurant
+000819	0.0026514526472337504	examine	menu board	cashier	fast food restaurant
+000820	0.002548128845198586	examine	menu board	my order	fast food restaurant
+000821	0.017566329955107693	examine	menu board	order	fast food restaurant
+000822	0.0006628631618084376	examine	menu board	receptacle	fast food restaurant
+000823	0.0025771113454700597	examine	menu board	tray	fast food restaurant
+000824	0.0011281442669850638	examine	menu board	number	fast food restaurant
+000825	0.0014671070358979687	examine	menu board	order number	fast food restaurant
+000826	0.0014671070358979687	examine	menu board	vacant table	fast food restaurant
+000827	0.0028476537068412703	examine	menu board	table	fast food restaurant
+000828	0.002206861589145204	examine	menu board	place to sit	fast food restaurant
+000829	0.00048813412622554617	examine	menu board	seat	fast food restaurant
+000830	0.002385121724036475	examine	menu board	restaurant	fast food restaurant
+000831	0.002206861589145204	examine	menu board	swipe credit card	fast food restaurant
+000832	0.0019361982389593537	examine	menu board	credit card	fast food restaurant
+000833	0.0012160091578191294	examine	menu board	car	fast food restaurant
+000834	0.001274064422599293	examine	menu board	my receipt	fast food restaurant
+000835	0.0013257263236168752	examine	menu board	receipt	fast food restaurant
+000836	0.0014671070358979687	examine	menu board	your cup	fast food restaurant
+000837	0.0009285331079208284	examine	menu board	cup	fast food restaurant
+000838	0.0002341304312380484	examine	menu board	you	fast food restaurant
+000839	0.0025996532599600396	examine	menu board	line	fast food restaurant
+000840	0.0012453020498905353	examine	menu board	trash	fast food restaurant
+000841	0.0025412389728946953	examine	menu board	trays and trash	fast food restaurant
+000842	0.0036079558836580837	examine	menu board	menu	fast food restaurant
+000843	0.000740181991779952	examine	menu board	bill	fast food restaurant
+000844	0.003252992809681617	examine	menu board	counter	fast food restaurant
+000845	0.0014671070358979687	examine	menu board	front counter	fast food restaurant
+000846	0.009348304486101426	eat	meal	food	fast food restaurant
+000847	0.002322283465556705	eat	meal	my food	fast food restaurant
+000848	0.002011263358562503	eat	meal	napkins and condiments	fast food restaurant
+000849	0.0020712863191359528	eat	meal	condiments	fast food restaurant
+000850	0.002322283465556705	eat	meal	menu board	fast food restaurant
+000851	0.002098491961293313	eat	meal	cashier	fast food restaurant
+000852	0.00201671634738323	eat	meal	my order	fast food restaurant
+000853	0.013902870277045384	eat	meal	order	fast food restaurant
+000854	0.0005246229903233282	eat	meal	receptacle	fast food restaurant
+000855	0.0020396545446394855	eat	meal	tray	fast food restaurant
+000856	0.0008928696795385706	eat	meal	number	fast food restaurant
+000857	0.0011611417327783524	eat	meal	order number	fast food restaurant
+000858	0.0011611417327783524	eat	meal	vacant table	fast food restaurant
+000859	0.00225377527242963	eat	meal	table	fast food restaurant
+000860	0.0017466204080015472	eat	meal	place to sit	fast food restaurant
+000861	0.00038633371068721116	eat	meal	seat	fast food restaurant
+000862	0.0018877043758705066	eat	meal	restaurant	fast food restaurant
+000863	0.0017466204080015472	eat	meal	swipe credit card	fast food restaurant
+000864	0.0015324039236248416	eat	meal	credit card	fast food restaurant
+000865	0.0009624103395566055	eat	meal	car	fast food restaurant
+000866	0.001008358173691615	eat	meal	my receipt	fast food restaurant
+000867	0.0010492459806466564	eat	meal	receipt	fast food restaurant
+000868	0.0011611417327783524	eat	meal	your cup	fast food restaurant
+000869	0.000734887445491224	eat	meal	cup	fast food restaurant
+000870	0.00018530250893214112	eat	meal	you	fast food restaurant
+000871	0.0020574953408531143	eat	meal	line	fast food restaurant
+000872	0.0009855941963752479	eat	meal	trash	fast food restaurant
+000873	0.002011263358562503	eat	meal	trays and trash	fast food restaurant
+000874	0.0028555163624952797	eat	meal	menu	fast food restaurant
+000875	0.0005858169714118101	eat	meal	bill	fast food restaurant
+000876	0.002574580869239265	eat	meal	counter	fast food restaurant
+000877	0.0011611417327783524	eat	meal	front counter	fast food restaurant
+000878	0.01274064422599293	order	food	my food	fast food restaurant
+000879	0.011034307945726018	order	food	napkins and condiments	fast food restaurant
+000880	0.01136360934127025	order	food	condiments	fast food restaurant
+000881	0.01274064422599293	order	food	menu board	fast food restaurant
+000882	0.011512866489593229	order	food	cashier	fast food restaurant
+000883	0.011064224444535753	order	food	my order	fast food restaurant
+000884	0.07627472121604435	order	food	order	fast food restaurant
+000885	0.0028782166223983072	order	food	receptacle	fast food restaurant
+000886	0.011190069292833608	order	food	tray	fast food restaurant
+000887	0.004898512647529107	order	food	number	fast food restaurant
+000888	0.006370322112996465	order	food	order number	fast food restaurant
+000889	0.006370322112996465	order	food	vacant table	fast food restaurant
+000890	0.012364790662832656	order	food	table	fast food restaurant
+000891	0.009582408670714	order	food	place to sit	fast food restaurant
+000892	0.0021195260756823623	order	food	seat	fast food restaurant
+000893	0.010356431595679763	order	food	restaurant	fast food restaurant
+000894	0.009582408670714	order	food	swipe credit card	fast food restaurant
+000895	0.008407161955458974	order	food	credit card	fast food restaurant
+000896	0.005280030589533712	order	food	car	fast food restaurant
+000897	0.0055321122222678765	order	food	my receipt	fast food restaurant
+000898	0.0057564332447966144	order	food	receipt	fast food restaurant
+000899	0.006370322112996465	order	food	your cup	fast food restaurant
+000900	0.004031781489219682	order	food	cup	fast food restaurant
+000901	0.0010166172112508803	order	food	you	fast food restaurant
+000902	0.011287948488305466	order	food	line	fast food restaurant
+000903	0.005407223189357814	order	food	trash	fast food restaurant
+000904	0.011034307945726018	order	food	trays and trash	fast food restaurant
+000905	0.015666097009967052	order	food	menu	fast food restaurant
+000906	0.003213942537595136	order	food	bill	fast food restaurant
+000907	0.014124812656391948	order	food	counter	fast food restaurant
+000908	0.006370322112996465	order	food	front counter	fast food restaurant
+000909	0.009348304486101426	leave	store	food	fast food restaurant
+000910	0.002322283465556705	leave	store	my food	fast food restaurant
+000911	0.002011263358562503	leave	store	napkins and condiments	fast food restaurant
+000912	0.0020712863191359528	leave	store	condiments	fast food restaurant
+000913	0.002322283465556705	leave	store	menu board	fast food restaurant
+000914	0.002098491961293313	leave	store	cashier	fast food restaurant
+000915	0.00201671634738323	leave	store	my order	fast food restaurant
+000916	0.013902870277045384	leave	store	order	fast food restaurant
+000917	0.0005246229903233282	leave	store	receptacle	fast food restaurant
+000918	0.0020396545446394855	leave	store	tray	fast food restaurant
+000919	0.0008928696795385706	leave	store	number	fast food restaurant
+000920	0.0011611417327783524	leave	store	order number	fast food restaurant
+000921	0.0011611417327783524	leave	store	vacant table	fast food restaurant
+000922	0.00225377527242963	leave	store	table	fast food restaurant
+000923	0.0017466204080015472	leave	store	place to sit	fast food restaurant
+000924	0.00038633371068721116	leave	store	seat	fast food restaurant
+000925	0.0018877043758705066	leave	store	restaurant	fast food restaurant
+000926	0.0017466204080015472	leave	store	swipe credit card	fast food restaurant
+000927	0.0015324039236248416	leave	store	credit card	fast food restaurant
+000928	0.0009624103395566055	leave	store	car	fast food restaurant
+000929	0.001008358173691615	leave	store	my receipt	fast food restaurant
+000930	0.0010492459806466564	leave	store	receipt	fast food restaurant
+000931	0.0011611417327783524	leave	store	your cup	fast food restaurant
+000932	0.000734887445491224	leave	store	cup	fast food restaurant
+000933	0.00018530250893214112	leave	store	you	fast food restaurant
+000934	0.0020574953408531143	leave	store	line	fast food restaurant
+000935	0.0009855941963752479	leave	store	trash	fast food restaurant
+000936	0.002011263358562503	leave	store	trays and trash	fast food restaurant
+000937	0.0028555163624952797	leave	store	menu	fast food restaurant
+000938	0.0005858169714118101	leave	store	bill	fast food restaurant
+000939	0.002574580869239265	leave	store	counter	fast food restaurant
+000940	0.0011611417327783524	leave	store	front counter	fast food restaurant
+000941	0.011811618597549763	pick	order	food	fast food restaurant
+000942	0.0029342140717959373	pick	order	my food	fast food restaurant
+000943	0.0025412389728946953	pick	order	napkins and condiments	fast food restaurant
+000944	0.0026170782139510185	pick	order	condiments	fast food restaurant
+000945	0.0029342140717959373	pick	order	menu board	fast food restaurant
+000946	0.0026514526472337504	pick	order	cashier	fast food restaurant
+000947	0.002548128845198586	pick	order	my order	fast food restaurant
+000948	0.0006628631618084376	pick	order	receptacle	fast food restaurant
+000949	0.0025771113454700597	pick	order	tray	fast food restaurant
+000950	0.0011281442669850638	pick	order	number	fast food restaurant
+000951	0.0014671070358979687	pick	order	order number	fast food restaurant
+000952	0.0014671070358979687	pick	order	vacant table	fast food restaurant
+000953	0.0028476537068412703	pick	order	table	fast food restaurant
+000954	0.002206861589145204	pick	order	place to sit	fast food restaurant
+000955	0.00048813412622554617	pick	order	seat	fast food restaurant
+000956	0.002385121724036475	pick	order	restaurant	fast food restaurant
+000957	0.002206861589145204	pick	order	swipe credit card	fast food restaurant
+000958	0.0019361982389593537	pick	order	credit card	fast food restaurant
+000959	0.0012160091578191294	pick	order	car	fast food restaurant
+000960	0.001274064422599293	pick	order	my receipt	fast food restaurant
+000961	0.0013257263236168752	pick	order	receipt	fast food restaurant
+000962	0.0014671070358979687	pick	order	your cup	fast food restaurant
+000963	0.0009285331079208284	pick	order	cup	fast food restaurant
+000964	0.0002341304312380484	pick	order	you	fast food restaurant
+000965	0.0025996532599600396	pick	order	line	fast food restaurant
+000966	0.0012453020498905353	pick	order	trash	fast food restaurant
+000967	0.0025412389728946953	pick	order	trays and trash	fast food restaurant
+000968	0.0036079558836580837	pick	order	menu	fast food restaurant
+000969	0.000740181991779952	pick	order	bill	fast food restaurant
+000970	0.003252992809681617	pick	order	counter	fast food restaurant
+000971	0.0014671070358979687	pick	order	front counter	fast food restaurant
+000972	0.011811618597549763	expect	order	food	fast food restaurant
+000973	0.0029342140717959373	expect	order	my food	fast food restaurant
+000974	0.0025412389728946953	expect	order	napkins and condiments	fast food restaurant
+000975	0.0026170782139510185	expect	order	condiments	fast food restaurant
+000976	0.0029342140717959373	expect	order	menu board	fast food restaurant
+000977	0.0026514526472337504	expect	order	cashier	fast food restaurant
+000978	0.002548128845198586	expect	order	my order	fast food restaurant
+000979	0.0006628631618084376	expect	order	receptacle	fast food restaurant
+000980	0.0025771113454700597	expect	order	tray	fast food restaurant
+000981	0.0011281442669850638	expect	order	number	fast food restaurant
+000982	0.0014671070358979687	expect	order	order number	fast food restaurant
+000983	0.0014671070358979687	expect	order	vacant table	fast food restaurant
+000984	0.0028476537068412703	expect	order	table	fast food restaurant
+000985	0.002206861589145204	expect	order	place to sit	fast food restaurant
+000986	0.00048813412622554617	expect	order	seat	fast food restaurant
+000987	0.002385121724036475	expect	order	restaurant	fast food restaurant
+000988	0.002206861589145204	expect	order	swipe credit card	fast food restaurant
+000989	0.0019361982389593537	expect	order	credit card	fast food restaurant
+000990	0.0012160091578191294	expect	order	car	fast food restaurant
+000991	0.001274064422599293	expect	order	my receipt	fast food restaurant
+000992	0.0013257263236168752	expect	order	receipt	fast food restaurant
+000993	0.0014671070358979687	expect	order	your cup	fast food restaurant
+000994	0.0009285331079208284	expect	order	cup	fast food restaurant
+000995	0.0002341304312380484	expect	order	you	fast food restaurant
+000996	0.0025996532599600396	expect	order	line	fast food restaurant
+000997	0.0012453020498905353	expect	order	trash	fast food restaurant
+000998	0.0025412389728946953	expect	order	trays and trash	fast food restaurant
+000999	0.0036079558836580837	expect	order	menu	fast food restaurant
+001000	0.000740181991779952	expect	order	bill	fast food restaurant
+001001	0.003252992809681617	expect	order	counter	fast food restaurant
+001002	0.0014671070358979687	expect	order	front counter	fast food restaurant
+001003	0.011811618597549763	find	table	food	fast food restaurant
+001004	0.0029342140717959373	find	table	my food	fast food restaurant
+001005	0.0025412389728946953	find	table	napkins and condiments	fast food restaurant
+001006	0.0026170782139510185	find	table	condiments	fast food restaurant
+001007	0.0029342140717959373	find	table	menu board	fast food restaurant
+001008	0.0026514526472337504	find	table	cashier	fast food restaurant
+001009	0.002548128845198586	find	table	my order	fast food restaurant
+001010	0.017566329955107693	find	table	order	fast food restaurant
+001011	0.0006628631618084376	find	table	receptacle	fast food restaurant
+001012	0.0025771113454700597	find	table	tray	fast food restaurant
+001013	0.0011281442669850638	find	table	number	fast food restaurant
+001014	0.0014671070358979687	find	table	order number	fast food restaurant
+001015	0.0014671070358979687	find	table	vacant table	fast food restaurant
+001016	0.002206861589145204	find	table	place to sit	fast food restaurant
+001017	0.00048813412622554617	find	table	seat	fast food restaurant
+001018	0.002385121724036475	find	table	restaurant	fast food restaurant
+001019	0.002206861589145204	find	table	swipe credit card	fast food restaurant
+001020	0.0019361982389593537	find	table	credit card	fast food restaurant
+001021	0.0012160091578191294	find	table	car	fast food restaurant
+001022	0.001274064422599293	find	table	my receipt	fast food restaurant
+001023	0.0013257263236168752	find	table	receipt	fast food restaurant
+001024	0.0014671070358979687	find	table	your cup	fast food restaurant
+001025	0.0009285331079208284	find	table	cup	fast food restaurant
+001026	0.0002341304312380484	find	table	you	fast food restaurant
+001027	0.0025996532599600396	find	table	line	fast food restaurant
+001028	0.0012453020498905353	find	table	trash	fast food restaurant
+001029	0.0025412389728946953	find	table	trays and trash	fast food restaurant
+001030	0.0036079558836580837	find	table	menu	fast food restaurant
+001031	0.000740181991779952	find	table	bill	fast food restaurant
+001032	0.003252992809681617	find	table	counter	fast food restaurant
+001033	0.0014671070358979687	find	table	front counter	fast food restaurant
+001034	0.008703262266939378	make	payment	food	fast food restaurant
+001035	0.0021620436186012347	make	payment	my food	fast food restaurant
+001036	0.001872484205395712	make	payment	napkins and condiments	fast food restaurant
+001037	0.001928365522557082	make	payment	condiments	fast food restaurant
+001038	0.0021620436186012347	make	payment	menu board	fast food restaurant
+001039	0.0019536939486035415	make	payment	cashier	fast food restaurant
+001040	0.0018775609326157155	make	payment	my order	fast food restaurant
+001041	0.012943558531310049	make	payment	order	fast food restaurant
+001042	0.0004884234871508854	make	payment	receptacle	fast food restaurant
+001043	0.0018989163716633835	make	payment	tray	fast food restaurant
+001044	0.0008312607920265792	make	payment	number	fast food restaurant
+001045	0.0010810218093006173	make	payment	order number	fast food restaurant
+001046	0.0010810218093006173	make	payment	vacant table	fast food restaurant
+001047	0.002098262558291792	make	payment	table	fast food restaurant
+001048	0.0016261018791403966	make	payment	place to sit	fast food restaurant
+001049	0.0003596763040473988	make	payment	seat	fast food restaurant
+001050	0.0017574509142354307	make	payment	restaurant	fast food restaurant
+001051	0.0016261018791403966	make	payment	swipe credit card	fast food restaurant
+001052	0.0014266665432242358	make	payment	credit card	fast food restaurant
+001053	0.0008960030779943554	make	payment	car	fast food restaurant
+001054	0.0009387804663078577	make	payment	my receipt	fast food restaurant
+001055	0.0009768469743017707	make	payment	receipt	fast food restaurant
+001056	0.0010810218093006173	make	payment	your cup	fast food restaurant
+001057	0.0006841794877670446	make	payment	cup	fast food restaurant
+001058	0.00017251645326230372	make	payment	you	fast food restaurant
+001059	0.001915526135362147	make	payment	line	fast food restaurant
+001060	0.0009175872258525905	make	payment	trash	fast food restaurant
+001061	0.001872484205395712	make	payment	trays and trash	fast food restaurant
+001062	0.002658482920328737	make	payment	menu	fast food restaurant
+001063	0.0005453950232581024	make	payment	bill	fast food restaurant
+001064	0.0023969322528751627	make	payment	counter	fast food restaurant
+001065	0.0010810218093006173	make	payment	front counter	fast food restaurant
+001066	0.011811618597549763	collect	utensils	food	fast food restaurant
+001067	0.0029342140717959373	collect	utensils	my food	fast food restaurant
+001068	0.0025412389728946953	collect	utensils	napkins and condiments	fast food restaurant
+001069	0.0026170782139510185	collect	utensils	condiments	fast food restaurant
+001070	0.0029342140717959373	collect	utensils	menu board	fast food restaurant
+001071	0.0026514526472337504	collect	utensils	cashier	fast food restaurant
+001072	0.002548128845198586	collect	utensils	my order	fast food restaurant
+001073	0.017566329955107693	collect	utensils	order	fast food restaurant
+001074	0.0006628631618084376	collect	utensils	receptacle	fast food restaurant
+001075	0.0025771113454700597	collect	utensils	tray	fast food restaurant
+001076	0.0011281442669850638	collect	utensils	number	fast food restaurant
+001077	0.0014671070358979687	collect	utensils	order number	fast food restaurant
+001078	0.0014671070358979687	collect	utensils	vacant table	fast food restaurant
+001079	0.0028476537068412703	collect	utensils	table	fast food restaurant
+001080	0.002206861589145204	collect	utensils	place to sit	fast food restaurant
+001081	0.00048813412622554617	collect	utensils	seat	fast food restaurant
+001082	0.002385121724036475	collect	utensils	restaurant	fast food restaurant
+001083	0.002206861589145204	collect	utensils	swipe credit card	fast food restaurant
+001084	0.0019361982389593537	collect	utensils	credit card	fast food restaurant
+001085	0.0012160091578191294	collect	utensils	car	fast food restaurant
+001086	0.001274064422599293	collect	utensils	my receipt	fast food restaurant
+001087	0.0013257263236168752	collect	utensils	receipt	fast food restaurant
+001088	0.0014671070358979687	collect	utensils	your cup	fast food restaurant
+001089	0.0009285331079208284	collect	utensils	cup	fast food restaurant
+001090	0.0002341304312380484	collect	utensils	you	fast food restaurant
+001091	0.0025996532599600396	collect	utensils	line	fast food restaurant
+001092	0.0012453020498905353	collect	utensils	trash	fast food restaurant
+001093	0.0025412389728946953	collect	utensils	trays and trash	fast food restaurant
+001094	0.0036079558836580837	collect	utensils	menu	fast food restaurant
+001095	0.000740181991779952	collect	utensils	bill	fast food restaurant
+001096	0.003252992809681617	collect	utensils	counter	fast food restaurant
+001097	0.0014671070358979687	collect	utensils	front counter	fast food restaurant
+001098	0.0029342140717959373	consume	food	my food	fast food restaurant
+001099	0.0025412389728946953	consume	food	napkins and condiments	fast food restaurant
+001100	0.0026170782139510185	consume	food	condiments	fast food restaurant
+001101	0.0029342140717959373	consume	food	menu board	fast food restaurant
+001102	0.0026514526472337504	consume	food	cashier	fast food restaurant
+001103	0.002548128845198586	consume	food	my order	fast food restaurant
+001104	0.017566329955107693	consume	food	order	fast food restaurant
+001105	0.0006628631618084376	consume	food	receptacle	fast food restaurant
+001106	0.0025771113454700597	consume	food	tray	fast food restaurant
+001107	0.0011281442669850638	consume	food	number	fast food restaurant
+001108	0.0014671070358979687	consume	food	order number	fast food restaurant
+001109	0.0014671070358979687	consume	food	vacant table	fast food restaurant
+001110	0.0028476537068412703	consume	food	table	fast food restaurant
+001111	0.002206861589145204	consume	food	place to sit	fast food restaurant
+001112	0.00048813412622554617	consume	food	seat	fast food restaurant
+001113	0.002385121724036475	consume	food	restaurant	fast food restaurant
+001114	0.002206861589145204	consume	food	swipe credit card	fast food restaurant
+001115	0.0019361982389593537	consume	food	credit card	fast food restaurant
+001116	0.0012160091578191294	consume	food	car	fast food restaurant
+001117	0.001274064422599293	consume	food	my receipt	fast food restaurant
+001118	0.0013257263236168752	consume	food	receipt	fast food restaurant
+001119	0.0014671070358979687	consume	food	your cup	fast food restaurant
+001120	0.0009285331079208284	consume	food	cup	fast food restaurant
+001121	0.0002341304312380484	consume	food	you	fast food restaurant
+001122	0.0025996532599600396	consume	food	line	fast food restaurant
+001123	0.0012453020498905353	consume	food	trash	fast food restaurant
+001124	0.0025412389728946953	consume	food	trays and trash	fast food restaurant
+001125	0.0036079558836580837	consume	food	menu	fast food restaurant
+001126	0.000740181991779952	consume	food	bill	fast food restaurant
+001127	0.003252992809681617	consume	food	counter	fast food restaurant
+001128	0.0014671070358979687	consume	food	front counter	fast food restaurant
+001129	0.011811618597549763	take	cup	food	fast food restaurant
+001130	0.0029342140717959373	take	cup	my food	fast food restaurant
+001131	0.0025412389728946953	take	cup	napkins and condiments	fast food restaurant
+001132	0.0026170782139510185	take	cup	condiments	fast food restaurant
+001133	0.0029342140717959373	take	cup	menu board	fast food restaurant
+001134	0.0026514526472337504	take	cup	cashier	fast food restaurant
+001135	0.002548128845198586	take	cup	my order	fast food restaurant
+001136	0.017566329955107693	take	cup	order	fast food restaurant
+001137	0.0006628631618084376	take	cup	receptacle	fast food restaurant
+001138	0.0025771113454700597	take	cup	tray	fast food restaurant
+001139	0.0011281442669850638	take	cup	number	fast food restaurant
+001140	0.0014671070358979687	take	cup	order number	fast food restaurant
+001141	0.0014671070358979687	take	cup	vacant table	fast food restaurant
+001142	0.0028476537068412703	take	cup	table	fast food restaurant
+001143	0.002206861589145204	take	cup	place to sit	fast food restaurant
+001144	0.00048813412622554617	take	cup	seat	fast food restaurant
+001145	0.002385121724036475	take	cup	restaurant	fast food restaurant
+001146	0.002206861589145204	take	cup	swipe credit card	fast food restaurant
+001147	0.0019361982389593537	take	cup	credit card	fast food restaurant
+001148	0.0012160091578191294	take	cup	car	fast food restaurant
+001149	0.001274064422599293	take	cup	my receipt	fast food restaurant
+001150	0.0013257263236168752	take	cup	receipt	fast food restaurant
+001151	0.0014671070358979687	take	cup	your cup	fast food restaurant
+001152	0.0002341304312380484	take	cup	you	fast food restaurant
+001153	0.0025996532599600396	take	cup	line	fast food restaurant
+001154	0.0012453020498905353	take	cup	trash	fast food restaurant
+001155	0.0025412389728946953	take	cup	trays and trash	fast food restaurant
+001156	0.0036079558836580837	take	cup	menu	fast food restaurant
+001157	0.000740181991779952	take	cup	bill	fast food restaurant
+001158	0.003252992809681617	take	cup	counter	fast food restaurant
+001159	0.0014671070358979687	take	cup	front counter	fast food restaurant
+001160	0.020514880864489143	tell	order	food	fast food restaurant
+001161	0.0050962576903971725	tell	order	my food	fast food restaurant
+001162	0.004413723178290408	tell	order	napkins and condiments	fast food restaurant
+001163	0.004545443736508101	tell	order	condiments	fast food restaurant
+001164	0.0050962576903971725	tell	order	menu board	fast food restaurant
+001165	0.004605146595837293	tell	order	cashier	fast food restaurant
+001166	0.004425689777814302	tell	order	my order	fast food restaurant
+001167	0.0011512866489593232	tell	order	receptacle	fast food restaurant
+001168	0.004476027717133443	tell	order	tray	fast food restaurant
+001169	0.0019594050590116432	tell	order	number	fast food restaurant
+001170	0.0025481288451985862	tell	order	order number	fast food restaurant
+001171	0.0025481288451985862	tell	order	vacant table	fast food restaurant
+001172	0.004945916265133063	tell	order	table	fast food restaurant
+001173	0.003832963468285601	tell	order	place to sit	fast food restaurant
+001174	0.0008478104302729452	tell	order	seat	fast food restaurant
+001175	0.004142572638271906	tell	order	restaurant	fast food restaurant
+001176	0.003832963468285601	tell	order	swipe credit card	fast food restaurant
+001177	0.00336286478218359	tell	order	credit card	fast food restaurant
+001178	0.002112012235813485	tell	order	car	fast food restaurant
+001179	0.002212844888907151	tell	order	my receipt	fast food restaurant
+001180	0.0023025732979186464	tell	order	receipt	fast food restaurant
+001181	0.0025481288451985862	tell	order	your cup	fast food restaurant
+001182	0.001612712595687873	tell	order	cup	fast food restaurant
+001183	0.0004066468845003522	tell	order	you	fast food restaurant
+001184	0.0045151793953221876	tell	order	line	fast food restaurant
+001185	0.002162889275743126	tell	order	trash	fast food restaurant
+001186	0.004413723178290408	tell	order	trays and trash	fast food restaurant
+001187	0.006266438803986822	tell	order	menu	fast food restaurant
+001188	0.0012855770150380546	tell	order	bill	fast food restaurant
+001189	0.00564992506255678	tell	order	counter	fast food restaurant
+001190	0.0025481288451985862	tell	order	front counter	fast food restaurant
+001191	0.011811618597549763	keep	receipt	food	fast food restaurant
+001192	0.0029342140717959373	keep	receipt	my food	fast food restaurant
+001193	0.0025412389728946953	keep	receipt	napkins and condiments	fast food restaurant
+001194	0.0026170782139510185	keep	receipt	condiments	fast food restaurant
+001195	0.0029342140717959373	keep	receipt	menu board	fast food restaurant
+001196	0.0026514526472337504	keep	receipt	cashier	fast food restaurant
+001197	0.002548128845198586	keep	receipt	my order	fast food restaurant
+001198	0.017566329955107693	keep	receipt	order	fast food restaurant
+001199	0.0006628631618084376	keep	receipt	receptacle	fast food restaurant
+001200	0.0025771113454700597	keep	receipt	tray	fast food restaurant
+001201	0.0011281442669850638	keep	receipt	number	fast food restaurant
+001202	0.0014671070358979687	keep	receipt	order number	fast food restaurant
+001203	0.0014671070358979687	keep	receipt	vacant table	fast food restaurant
+001204	0.0028476537068412703	keep	receipt	table	fast food restaurant
+001205	0.002206861589145204	keep	receipt	place to sit	fast food restaurant
+001206	0.00048813412622554617	keep	receipt	seat	fast food restaurant
+001207	0.002385121724036475	keep	receipt	restaurant	fast food restaurant
+001208	0.002206861589145204	keep	receipt	swipe credit card	fast food restaurant
+001209	0.0019361982389593537	keep	receipt	credit card	fast food restaurant
+001210	0.0012160091578191294	keep	receipt	car	fast food restaurant
+001211	0.001274064422599293	keep	receipt	my receipt	fast food restaurant
+001212	0.0014671070358979687	keep	receipt	your cup	fast food restaurant
+001213	0.0009285331079208284	keep	receipt	cup	fast food restaurant
+001214	0.0002341304312380484	keep	receipt	you	fast food restaurant
+001215	0.0025996532599600396	keep	receipt	line	fast food restaurant
+001216	0.0012453020498905353	keep	receipt	trash	fast food restaurant
+001217	0.0025412389728946953	keep	receipt	trays and trash	fast food restaurant
+001218	0.0036079558836580837	keep	receipt	menu	fast food restaurant
+001219	0.000740181991779952	keep	receipt	bill	fast food restaurant
+001220	0.003252992809681617	keep	receipt	counter	fast food restaurant
+001221	0.0014671070358979687	keep	receipt	front counter	fast food restaurant
+001222	0.011811618597549763	throw	containers	food	fast food restaurant
+001223	0.0029342140717959373	throw	containers	my food	fast food restaurant
+001224	0.0025412389728946953	throw	containers	napkins and condiments	fast food restaurant
+001225	0.0026170782139510185	throw	containers	condiments	fast food restaurant
+001226	0.0029342140717959373	throw	containers	menu board	fast food restaurant
+001227	0.0026514526472337504	throw	containers	cashier	fast food restaurant
+001228	0.002548128845198586	throw	containers	my order	fast food restaurant
+001229	0.017566329955107693	throw	containers	order	fast food restaurant
+001230	0.0006628631618084376	throw	containers	receptacle	fast food restaurant
+001231	0.0025771113454700597	throw	containers	tray	fast food restaurant
+001232	0.0011281442669850638	throw	containers	number	fast food restaurant
+001233	0.0014671070358979687	throw	containers	order number	fast food restaurant
+001234	0.0014671070358979687	throw	containers	vacant table	fast food restaurant
+001235	0.0028476537068412703	throw	containers	table	fast food restaurant
+001236	0.002206861589145204	throw	containers	place to sit	fast food restaurant
+001237	0.00048813412622554617	throw	containers	seat	fast food restaurant
+001238	0.002385121724036475	throw	containers	restaurant	fast food restaurant
+001239	0.002206861589145204	throw	containers	swipe credit card	fast food restaurant
+001240	0.0019361982389593537	throw	containers	credit card	fast food restaurant
+001241	0.0012160091578191294	throw	containers	car	fast food restaurant
+001242	0.001274064422599293	throw	containers	my receipt	fast food restaurant
+001243	0.0013257263236168752	throw	containers	receipt	fast food restaurant
+001244	0.0014671070358979687	throw	containers	your cup	fast food restaurant
+001245	0.0009285331079208284	throw	containers	cup	fast food restaurant
+001246	0.0002341304312380484	throw	containers	you	fast food restaurant
+001247	0.0025996532599600396	throw	containers	line	fast food restaurant
+001248	0.0012453020498905353	throw	containers	trash	fast food restaurant
+001249	0.0025412389728946953	throw	containers	trays and trash	fast food restaurant
+001250	0.0036079558836580837	throw	containers	menu	fast food restaurant
+001251	0.000740181991779952	throw	containers	bill	fast food restaurant
+001252	0.003252992809681617	throw	containers	counter	fast food restaurant
+001253	0.0014671070358979687	throw	containers	front counter	fast food restaurant
+001254	0.010257440432244571	make	selection	food	fast food restaurant
+001255	0.0025481288451985862	make	selection	my food	fast food restaurant
+001256	0.002206861589145204	make	selection	napkins and condiments	fast food restaurant
+001257	0.0022727218682540504	make	selection	condiments	fast food restaurant
+001258	0.0025481288451985862	make	selection	menu board	fast food restaurant
+001259	0.0023025732979186464	make	selection	cashier	fast food restaurant
+001260	0.002212844888907151	make	selection	my order	fast food restaurant
+001261	0.015254944243208873	make	selection	order	fast food restaurant
+001262	0.0005756433244796616	make	selection	receptacle	fast food restaurant
+001263	0.0022380138585667217	make	selection	tray	fast food restaurant
+001264	0.0009797025295058216	make	selection	number	fast food restaurant
+001265	0.0012740644225992931	make	selection	order number	fast food restaurant
+001266	0.0012740644225992931	make	selection	vacant table	fast food restaurant
+001267	0.0024729581325665315	make	selection	table	fast food restaurant
+001268	0.0019164817341428004	make	selection	place to sit	fast food restaurant
+001269	0.0004239052151364726	make	selection	seat	fast food restaurant
+001270	0.002071286319135953	make	selection	restaurant	fast food restaurant
+001271	0.0019164817341428004	make	selection	swipe credit card	fast food restaurant
+001272	0.001681432391091795	make	selection	credit card	fast food restaurant
+001273	0.0010560061179067425	make	selection	car	fast food restaurant
+001274	0.0011064224444535754	make	selection	my receipt	fast food restaurant
+001275	0.0011512866489593232	make	selection	receipt	fast food restaurant
+001276	0.0012740644225992931	make	selection	your cup	fast food restaurant
+001277	0.0008063562978439365	make	selection	cup	fast food restaurant
+001278	0.0002033234422501761	make	selection	you	fast food restaurant
+001279	0.0022575896976610938	make	selection	line	fast food restaurant
+001280	0.001081444637871563	make	selection	trash	fast food restaurant
+001281	0.002206861589145204	make	selection	trays and trash	fast food restaurant
+001282	0.003133219401993411	make	selection	menu	fast food restaurant
+001283	0.0006427885075190273	make	selection	bill	fast food restaurant
+001284	0.00282496253127839	make	selection	counter	fast food restaurant
+001285	0.0012740644225992931	make	selection	front counter	fast food restaurant
+001286	0.009348304486101426	pay	bill	food	fast food restaurant
+001287	0.002322283465556705	pay	bill	my food	fast food restaurant
+001288	0.002011263358562503	pay	bill	napkins and condiments	fast food restaurant
+001289	0.0020712863191359528	pay	bill	condiments	fast food restaurant
+001290	0.002322283465556705	pay	bill	menu board	fast food restaurant
+001291	0.002098491961293313	pay	bill	cashier	fast food restaurant
+001292	0.00201671634738323	pay	bill	my order	fast food restaurant
+001293	0.013902870277045384	pay	bill	order	fast food restaurant
+001294	0.0005246229903233282	pay	bill	receptacle	fast food restaurant
+001295	0.0020396545446394855	pay	bill	tray	fast food restaurant
+001296	0.0008928696795385706	pay	bill	number	fast food restaurant
+001297	0.0011611417327783524	pay	bill	order number	fast food restaurant
+001298	0.0011611417327783524	pay	bill	vacant table	fast food restaurant
+001299	0.00225377527242963	pay	bill	table	fast food restaurant
+001300	0.0017466204080015472	pay	bill	place to sit	fast food restaurant
+001301	0.00038633371068721116	pay	bill	seat	fast food restaurant
+001302	0.0018877043758705066	pay	bill	restaurant	fast food restaurant
+001303	0.0017466204080015472	pay	bill	swipe credit card	fast food restaurant
+001304	0.0015324039236248416	pay	bill	credit card	fast food restaurant
+001305	0.0009624103395566055	pay	bill	car	fast food restaurant
+001306	0.001008358173691615	pay	bill	my receipt	fast food restaurant
+001307	0.0010492459806466564	pay	bill	receipt	fast food restaurant
+001308	0.0011611417327783524	pay	bill	your cup	fast food restaurant
+001309	0.000734887445491224	pay	bill	cup	fast food restaurant
+001310	0.00018530250893214112	pay	bill	you	fast food restaurant
+001311	0.0020574953408531143	pay	bill	line	fast food restaurant
+001312	0.0009855941963752479	pay	bill	trash	fast food restaurant
+001313	0.002011263358562503	pay	bill	trays and trash	fast food restaurant
+001314	0.0028555163624952797	pay	bill	menu	fast food restaurant
+001315	0.002574580869239265	pay	bill	counter	fast food restaurant
+001316	0.0011611417327783524	pay	bill	front counter	fast food restaurant
+001317	0.009348304486101426	place	tray	food	fast food restaurant
+001318	0.002322283465556705	place	tray	my food	fast food restaurant
+001319	0.002011263358562503	place	tray	napkins and condiments	fast food restaurant
+001320	0.0020712863191359528	place	tray	condiments	fast food restaurant
+001321	0.002322283465556705	place	tray	menu board	fast food restaurant
+001322	0.002098491961293313	place	tray	cashier	fast food restaurant
+001323	0.00201671634738323	place	tray	my order	fast food restaurant
+001324	0.013902870277045384	place	tray	order	fast food restaurant
+001325	0.0005246229903233282	place	tray	receptacle	fast food restaurant
+001326	0.0008928696795385706	place	tray	number	fast food restaurant
+001327	0.0011611417327783524	place	tray	order number	fast food restaurant
+001328	0.0011611417327783524	place	tray	vacant table	fast food restaurant
+001329	0.00225377527242963	place	tray	table	fast food restaurant
+001330	0.0017466204080015472	place	tray	place to sit	fast food restaurant
+001331	0.00038633371068721116	place	tray	seat	fast food restaurant
+001332	0.0018877043758705066	place	tray	restaurant	fast food restaurant
+001333	0.0017466204080015472	place	tray	swipe credit card	fast food restaurant
+001334	0.0015324039236248416	place	tray	credit card	fast food restaurant
+001335	0.0009624103395566055	place	tray	car	fast food restaurant
+001336	0.001008358173691615	place	tray	my receipt	fast food restaurant
+001337	0.0010492459806466564	place	tray	receipt	fast food restaurant
+001338	0.0011611417327783524	place	tray	your cup	fast food restaurant
+001339	0.000734887445491224	place	tray	cup	fast food restaurant
+001340	0.00018530250893214112	place	tray	you	fast food restaurant
+001341	0.0020574953408531143	place	tray	line	fast food restaurant
+001342	0.0009855941963752479	place	tray	trash	fast food restaurant
+001343	0.002011263358562503	place	tray	trays and trash	fast food restaurant
+001344	0.0028555163624952797	place	tray	menu	fast food restaurant
+001345	0.0005858169714118101	place	tray	bill	fast food restaurant
+001346	0.002574580869239265	place	tray	counter	fast food restaurant
+001347	0.0011611417327783524	place	tray	front counter	fast food restaurant
+001348	0.011811618597549763	order	it	food	fast food restaurant
+001349	0.0029342140717959373	order	it	my food	fast food restaurant
+001350	0.0025412389728946953	order	it	napkins and condiments	fast food restaurant
+001351	0.0026170782139510185	order	it	condiments	fast food restaurant
+001352	0.0029342140717959373	order	it	menu board	fast food restaurant
+001353	0.0026514526472337504	order	it	cashier	fast food restaurant
+001354	0.002548128845198586	order	it	my order	fast food restaurant
+001355	0.017566329955107693	order	it	order	fast food restaurant
+001356	0.0006628631618084376	order	it	receptacle	fast food restaurant
+001357	0.0025771113454700597	order	it	tray	fast food restaurant
+001358	0.0011281442669850638	order	it	number	fast food restaurant
+001359	0.0014671070358979687	order	it	order number	fast food restaurant
+001360	0.0014671070358979687	order	it	vacant table	fast food restaurant
+001361	0.0028476537068412703	order	it	table	fast food restaurant
+001362	0.002206861589145204	order	it	place to sit	fast food restaurant
+001363	0.00048813412622554617	order	it	seat	fast food restaurant
+001364	0.002385121724036475	order	it	restaurant	fast food restaurant
+001365	0.002206861589145204	order	it	swipe credit card	fast food restaurant
+001366	0.0019361982389593537	order	it	credit card	fast food restaurant
+001367	0.0012160091578191294	order	it	car	fast food restaurant
+001368	0.001274064422599293	order	it	my receipt	fast food restaurant
+001369	0.0013257263236168752	order	it	receipt	fast food restaurant
+001370	0.0014671070358979687	order	it	your cup	fast food restaurant
+001371	0.0009285331079208284	order	it	cup	fast food restaurant
+001372	0.0002341304312380484	order	it	you	fast food restaurant
+001373	0.0025996532599600396	order	it	line	fast food restaurant
+001374	0.0012453020498905353	order	it	trash	fast food restaurant
+001375	0.0025412389728946953	order	it	trays and trash	fast food restaurant
+001376	0.0036079558836580837	order	it	menu	fast food restaurant
+001377	0.000740181991779952	order	it	bill	fast food restaurant
+001378	0.003252992809681617	order	it	counter	fast food restaurant
+001379	0.0014671070358979687	order	it	front counter	fast food restaurant
+001380	0.009348304486101426	take	receipt	food	fast food restaurant
+001381	0.002322283465556705	take	receipt	my food	fast food restaurant
+001382	0.002011263358562503	take	receipt	napkins and condiments	fast food restaurant
+001383	0.0020712863191359528	take	receipt	condiments	fast food restaurant
+001384	0.002322283465556705	take	receipt	menu board	fast food restaurant
+001385	0.002098491961293313	take	receipt	cashier	fast food restaurant
+001386	0.00201671634738323	take	receipt	my order	fast food restaurant
+001387	0.013902870277045384	take	receipt	order	fast food restaurant
+001388	0.0005246229903233282	take	receipt	receptacle	fast food restaurant
+001389	0.0020396545446394855	take	receipt	tray	fast food restaurant
+001390	0.0008928696795385706	take	receipt	number	fast food restaurant
+001391	0.0011611417327783524	take	receipt	order number	fast food restaurant
+001392	0.0011611417327783524	take	receipt	vacant table	fast food restaurant
+001393	0.00225377527242963	take	receipt	table	fast food restaurant
+001394	0.0017466204080015472	take	receipt	place to sit	fast food restaurant
+001395	0.00038633371068721116	take	receipt	seat	fast food restaurant
+001396	0.0018877043758705066	take	receipt	restaurant	fast food restaurant
+001397	0.0017466204080015472	take	receipt	swipe credit card	fast food restaurant
+001398	0.0015324039236248416	take	receipt	credit card	fast food restaurant
+001399	0.0009624103395566055	take	receipt	car	fast food restaurant
+001400	0.001008358173691615	take	receipt	my receipt	fast food restaurant
+001401	0.0011611417327783524	take	receipt	your cup	fast food restaurant
+001402	0.000734887445491224	take	receipt	cup	fast food restaurant
+001403	0.00018530250893214112	take	receipt	you	fast food restaurant
+001404	0.0020574953408531143	take	receipt	line	fast food restaurant
+001405	0.0009855941963752479	take	receipt	trash	fast food restaurant
+001406	0.002011263358562503	take	receipt	trays and trash	fast food restaurant
+001407	0.0028555163624952797	take	receipt	menu	fast food restaurant
+001408	0.0005858169714118101	take	receipt	bill	fast food restaurant
+001409	0.002574580869239265	take	receipt	counter	fast food restaurant
+001410	0.0011611417327783524	take	receipt	front counter	fast food restaurant
+001411	0.011811618597549763	count	change	food	fast food restaurant
+001412	0.0029342140717959373	count	change	my food	fast food restaurant
+001413	0.0025412389728946953	count	change	napkins and condiments	fast food restaurant
+001414	0.0026170782139510185	count	change	condiments	fast food restaurant
+001415	0.0029342140717959373	count	change	menu board	fast food restaurant
+001416	0.0026514526472337504	count	change	cashier	fast food restaurant
+001417	0.002548128845198586	count	change	my order	fast food restaurant
+001418	0.017566329955107693	count	change	order	fast food restaurant
+001419	0.0006628631618084376	count	change	receptacle	fast food restaurant
+001420	0.0025771113454700597	count	change	tray	fast food restaurant
+001421	0.0011281442669850638	count	change	number	fast food restaurant
+001422	0.0014671070358979687	count	change	order number	fast food restaurant
+001423	0.0014671070358979687	count	change	vacant table	fast food restaurant
+001424	0.0028476537068412703	count	change	table	fast food restaurant
+001425	0.002206861589145204	count	change	place to sit	fast food restaurant
+001426	0.00048813412622554617	count	change	seat	fast food restaurant
+001427	0.002385121724036475	count	change	restaurant	fast food restaurant
+001428	0.002206861589145204	count	change	swipe credit card	fast food restaurant
+001429	0.0019361982389593537	count	change	credit card	fast food restaurant
+001430	0.0012160091578191294	count	change	car	fast food restaurant
+001431	0.001274064422599293	count	change	my receipt	fast food restaurant
+001432	0.0013257263236168752	count	change	receipt	fast food restaurant
+001433	0.0014671070358979687	count	change	your cup	fast food restaurant
+001434	0.0009285331079208284	count	change	cup	fast food restaurant
+001435	0.0002341304312380484	count	change	you	fast food restaurant
+001436	0.0025996532599600396	count	change	line	fast food restaurant
+001437	0.0012453020498905353	count	change	trash	fast food restaurant
+001438	0.0025412389728946953	count	change	trays and trash	fast food restaurant
+001439	0.0036079558836580837	count	change	menu	fast food restaurant
+001440	0.000740181991779952	count	change	bill	fast food restaurant
+001441	0.003252992809681617	count	change	counter	fast food restaurant
+001442	0.0014671070358979687	count	change	front counter	fast food restaurant
+001443	0.010257440432244571	find	end	food	fast food restaurant
+001444	0.0025481288451985862	find	end	my food	fast food restaurant
+001445	0.002206861589145204	find	end	napkins and condiments	fast food restaurant
+001446	0.0022727218682540504	find	end	condiments	fast food restaurant
+001447	0.0025481288451985862	find	end	menu board	fast food restaurant
+001448	0.0023025732979186464	find	end	cashier	fast food restaurant
+001449	0.002212844888907151	find	end	my order	fast food restaurant
+001450	0.015254944243208873	find	end	order	fast food restaurant
+001451	0.0005756433244796616	find	end	receptacle	fast food restaurant
+001452	0.0022380138585667217	find	end	tray	fast food restaurant
+001453	0.0009797025295058216	find	end	number	fast food restaurant
+001454	0.0012740644225992931	find	end	order number	fast food restaurant
+001455	0.0012740644225992931	find	end	vacant table	fast food restaurant
+001456	0.0024729581325665315	find	end	table	fast food restaurant
+001457	0.0019164817341428004	find	end	place to sit	fast food restaurant
+001458	0.0004239052151364726	find	end	seat	fast food restaurant
+001459	0.002071286319135953	find	end	restaurant	fast food restaurant
+001460	0.0019164817341428004	find	end	swipe credit card	fast food restaurant
+001461	0.001681432391091795	find	end	credit card	fast food restaurant
+001462	0.0010560061179067425	find	end	car	fast food restaurant
+001463	0.0011064224444535754	find	end	my receipt	fast food restaurant
+001464	0.0011512866489593232	find	end	receipt	fast food restaurant
+001465	0.0012740644225992931	find	end	your cup	fast food restaurant
+001466	0.0008063562978439365	find	end	cup	fast food restaurant
+001467	0.0002033234422501761	find	end	you	fast food restaurant
+001468	0.0022575896976610938	find	end	line	fast food restaurant
+001469	0.001081444637871563	find	end	trash	fast food restaurant
+001470	0.002206861589145204	find	end	trays and trash	fast food restaurant
+001471	0.003133219401993411	find	end	menu	fast food restaurant
+001472	0.0006427885075190273	find	end	bill	fast food restaurant
+001473	0.00282496253127839	find	end	counter	fast food restaurant
+001474	0.0012740644225992931	find	end	front counter	fast food restaurant
+001475	0.011811618597549763	get	order	food	fast food restaurant
+001476	0.0029342140717959373	get	order	my food	fast food restaurant
+001477	0.0025412389728946953	get	order	napkins and condiments	fast food restaurant
+001478	0.0026170782139510185	get	order	condiments	fast food restaurant
+001479	0.0029342140717959373	get	order	menu board	fast food restaurant
+001480	0.0026514526472337504	get	order	cashier	fast food restaurant
+001481	0.002548128845198586	get	order	my order	fast food restaurant
+001482	0.0006628631618084376	get	order	receptacle	fast food restaurant
+001483	0.0025771113454700597	get	order	tray	fast food restaurant
+001484	0.0011281442669850638	get	order	number	fast food restaurant
+001485	0.0014671070358979687	get	order	order number	fast food restaurant
+001486	0.0014671070358979687	get	order	vacant table	fast food restaurant
+001487	0.0028476537068412703	get	order	table	fast food restaurant
+001488	0.002206861589145204	get	order	place to sit	fast food restaurant
+001489	0.00048813412622554617	get	order	seat	fast food restaurant
+001490	0.002385121724036475	get	order	restaurant	fast food restaurant
+001491	0.002206861589145204	get	order	swipe credit card	fast food restaurant
+001492	0.0019361982389593537	get	order	credit card	fast food restaurant
+001493	0.0012160091578191294	get	order	car	fast food restaurant
+001494	0.001274064422599293	get	order	my receipt	fast food restaurant
+001495	0.0013257263236168752	get	order	receipt	fast food restaurant
+001496	0.0014671070358979687	get	order	your cup	fast food restaurant
+001497	0.0009285331079208284	get	order	cup	fast food restaurant
+001498	0.0002341304312380484	get	order	you	fast food restaurant
+001499	0.0025996532599600396	get	order	line	fast food restaurant
+001500	0.0012453020498905353	get	order	trash	fast food restaurant
+001501	0.0025412389728946953	get	order	trays and trash	fast food restaurant
+001502	0.0036079558836580837	get	order	menu	fast food restaurant
+001503	0.000740181991779952	get	order	bill	fast food restaurant
+001504	0.003252992809681617	get	order	counter	fast food restaurant
+001505	0.0014671070358979687	get	order	front counter	fast food restaurant
+001506	0.003100226024724005	get	food	my food	fast food restaurant
+001507	0.00268501718212704	get	food	napkins and condiments	fast food restaurant
+001508	0.002765147255484033	get	food	condiments	fast food restaurant
+001509	0.003100226024724005	get	food	menu board	fast food restaurant
+001510	0.002801466525326208	get	food	cashier	fast food restaurant
+001511	0.0026922968696007194	get	food	my order	fast food restaurant
+001512	0.018560197706495484	get	food	order	fast food restaurant
+001513	0.000700366631331552	get	food	receptacle	fast food restaurant
+001514	0.002722919141665619	get	food	tray	fast food restaurant
+001515	0.001191972409160172	get	food	number	fast food restaurant
+001516	0.0015501130123620026	get	food	order number	fast food restaurant
+001517	0.0015501130123620026	get	food	vacant table	fast food restaurant
+001518	0.0030087682477603042	get	food	table	fast food restaurant
+001519	0.0023317213959934803	get	food	place to sit	fast food restaurant
+001520	0.0005157517770181277	get	food	seat	fast food restaurant
+001521	0.002520067132138925	get	food	restaurant	fast food restaurant
+001522	0.0023317213959934803	get	food	swipe credit card	fast food restaurant
+001523	0.0020457444557794476	get	food	credit card	fast food restaurant
+001524	0.0012848085194636632	get	food	car	fast food restaurant
+001525	0.0013461484348003597	get	food	my receipt	fast food restaurant
+001526	0.001400733262663104	get	food	receipt	fast food restaurant
+001527	0.0015501130123620026	get	food	your cup	fast food restaurant
+001528	0.0009810676506748805	get	food	cup	fast food restaurant
+001529	0.00024737706191279294	get	food	you	fast food restaurant
+001530	0.0027467364325104437	get	food	line	fast food restaurant
+001531	0.0013157587446746067	get	food	trash	fast food restaurant
+001532	0.00268501718212704	get	food	trays and trash	fast food restaurant
+001533	0.0038120867983318673	get	food	menu	fast food restaurant
+001534	0.0007820600057799212	get	food	bill	fast food restaurant
+001535	0.003437040624865623	get	food	counter	fast food restaurant
+001536	0.0015501130123620026	get	food	front counter	fast food restaurant

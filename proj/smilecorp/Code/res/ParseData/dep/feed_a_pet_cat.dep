@@ -1,0 +1,791 @@
+dobj(get-1, food-2)
+
+dep(bowl-6, put-1)
+dobj(put-1, food-2)
+prep_in(put-1, cat-4)
+nsubj(bowl-6, s-5)
+
+dobj(call-1, cat-2)
+
+prt(get-1, out-2)
+det(food-5, the-3)
+amod(food-5, pet-4)
+dobj(get-1, food-5)
+
+dep(bowl-9, pour-1)
+det(food-4, some-2)
+amod(food-4, pet-3)
+dobj(pour-1, food-4)
+det(cat-7, the-6)
+prep_into(pour-1, cat-7)
+nsubj(bowl-9, s-8)
+
+det(food-4, the-2)
+amod(food-4, pet-3)
+dobj(replace-1, food-4)
+
+nn(food-3, cat-2)
+dobj(get-1, food-3)
+
+nn(food-3, cat-2)
+dobj(put-1, food-3)
+prep_into(put-1, bowl-5)
+
+dobj(call-1, cat-2)
+
+nn(food-3, cat-2)
+dobj(get-1, food-3)
+
+nn(food-3, cat-2)
+dobj(pour-1, food-3)
+nn(bowl-6, cat-5)
+prep_in(pour-1, bowl-6)
+
+dobj(call-1, cat-2)
+
+dobj(open-1, can-2)
+nn(food-5, cat-4)
+prep_of(can-2, food-5)
+
+nn(food-3, cat-2)
+dobj(put-1, food-3)
+nn(dish-6, cat-5)
+prep_on(put-1, dish-6)
+
+nn(dish-3, cat-2)
+dobj(put-1, dish-3)
+prep_with(put-1, food-5)
+det(place-9, the-7)
+amod(place-9, usual-8)
+prep_at(put-1, place-9)
+
+dobj(watch-1, cat-2)
+dep(watch-1, eat-3)
+
+dobj(get-1, food-2)
+
+dep(bowl-6, put-1)
+dobj(put-1, food-2)
+prep_into(put-1, cat-4)
+nsubj(bowl-6, s-5)
+
+dobj(put-1, bowl-2)
+det(floor-5, the-4)
+prep_on(put-1, floor-5)
+
+dobj(call-1, cat-2)
+
+dobj(open-1, can-2)
+nn(food-5, cat-4)
+prep_of(can-2, food-5)
+
+nn(food-3, cat-2)
+dobj(put-1, food-3)
+nn(dish-6, cat-5)
+prep_in(put-1, dish-6)
+
+dobj(get-1, cat-2)
+
+nn(food-3, cat-2)
+dobj(prepare-1, food-3)
+
+nn(food-3, cat-2)
+dobj(put-1, food-3)
+prep_on(put-1, dish-5)
+
+dobj(let-1, cat-2)
+dep(let-1, eat-3)
+
+det(dish-5, the-2)
+nn(dish-5, cat-3)
+nn(dish-5, food-4)
+dobj(get-1, dish-5)
+
+nn(container-4, cat-2)
+nn(container-4, food-3)
+dobj(open-1, container-4)
+
+nn(food-3, cat-2)
+dobj(pour-1, food-3)
+nn(dish-7, cat-5)
+nn(dish-7, food-6)
+prep_into(pour-1, dish-7)
+
+det(dish-4, the-2)
+nn(dish-4, food-3)
+dobj(put-1, dish-4)
+advmod(eats-8, where-5)
+rel(eats-8, where-5)
+det(cat-7, the-6)
+nsubj(eats-8, cat-7)
+rcmod(dish-4, eats-8)
+
+det(cat-3, the-2)
+dobj(get-1, cat-3)
+iobj(get-1, cat-3)
+dep(cat-3, s-4)
+nn(bowl-6, food-5)
+dobj(get-1, bowl-6)
+dep(cat-3, bowl-6)
+
+det(cat-3, the-2)
+dobj(get-1, cat-3)
+dobj(can-5, cat-3)
+nsubj(can-5, food-4)
+rcmod(cat-3, can-5)
+
+det(opener-4, a-2)
+dep(opener-4, can-3)
+dobj(get-1, opener-4)
+
+det(opener-4, the-2)
+nn(opener-4, can-3)
+dobj(use-1, opener-4)
+aux(open-6, to-5)
+xcomp(use-1, open-6)
+det(cat-8, the-7)
+dobj(open-6, cat-8)
+dobj(can-10, cat-8)
+nsubj(can-10, food-9)
+rcmod(cat-8, can-10)
+
+amod(cat-2, empty-1)
+dobj(can-4, cat-2)
+nsubj(bowl-10, cat-2)
+nsubj(can-4, food-3)
+rcmod(cat-2, can-4)
+det(cat-7, the-6)
+prep_into(can-4, cat-7)
+cop(bowl-10, s-8)
+nn(bowl-10, food-9)
+
+det(bowl-3, the-2)
+dobj(place-1, bowl-3)
+det(cat-6, the-5)
+prep_near(bowl-3, cat-6)
+dobj(eat-11, cat-6)
+mark(eat-11, so-7)
+det(cat-9, the-8)
+nsubj(eat-11, cat-9)
+aux(eat-11, can-10)
+dep(cat-6, eat-11)
+
+nn(food-3, cat-2)
+dobj(get-1, food-3)
+
+dep(bowl-6, put-1)
+dobj(put-1, food-2)
+prep_in(put-1, cat-4)
+nsubj(bowl-6, s-5)
+
+dobj(call-1, cat-2)
+
+nn(food-3, cat-2)
+dobj(find-1, food-3)
+
+dep(bowl-5, find-1)
+det(cat-3, the-2)
+dobj(find-1, cat-3)
+nsubj(bowl-5, s-4)
+
+det(food-4, some-2)
+nn(food-4, cat-3)
+dobj(pour-1, food-4)
+det(bowl-7, the-6)
+prep_into(pour-1, bowl-7)
+
+det(bowl-3, the-2)
+dobj(place-1, bowl-3)
+det(floor-6, the-5)
+prep_on(place-1, floor-6)
+
+det(cat-3, the-2)
+dobj(call-1, cat-3)
+aux(come-5, to-4)
+infmod(cat-3, come-5)
+ccomp(come-5, eat-6)
+det(food-8, the-7)
+dobj(eat-6, food-8)
+
+det(cat-3, the-2)
+dobj(get-1, cat-3)
+iobj(get-1, cat-3)
+dep(cat-3, s-4)
+nn(dish-6, food-5)
+dobj(get-1, dish-6)
+dep(cat-3, dish-6)
+
+det(opener-4, a-2)
+dep(opener-4, can-3)
+dobj(get-1, opener-4)
+
+amod(can-3, open-1)
+det(can-3, a-2)
+nsubj(packed-6, can-3)
+prep_of(can-3, water-5)
+dobj(packed-6, tuna-7)
+
+amod(can-3, empty-1)
+det(can-3, the-2)
+nsubj(dish-11, can-3)
+prep_of(can-3, tuna-5)
+det(cat-8, the-7)
+prep_into(tuna-5, cat-8)
+cop(dish-11, s-9)
+nn(dish-11, food-10)
+
+det(cat-3, the-2)
+dobj(put-1, cat-3)
+iobj(put-1, cat-3)
+dep(cat-3, s-4)
+nn(dish-6, food-5)
+dobj(put-1, dish-6)
+dep(cat-3, dish-6)
+prep_down(put-1, next-8)
+det(cat-11, the-10)
+prep_to(put-1, cat-11)
+
+nn(food-3, cat-2)
+dobj(locate-1, food-3)
+
+nn(food-3, cat-2)
+dobj(place-1, food-3)
+prep_in(place-1, bowl-5)
+
+dobj(call-1, cat-2)
+
+nn(food-3, cat-2)
+dobj(find-1, food-3)
+
+nn(dish-4, cat-2)
+nn(dish-4, food-3)
+dobj(find-1, dish-4)
+
+nn(food-3, cat-2)
+dobj(pour-1, food-3)
+prep_into(pour-1, dish-5)
+
+dobj(call-1, cat-2)
+
+nn(container-3, food-2)
+dobj(open-1, container-3)
+
+dobj(pour-1, food-2)
+prep_into(pour-1, bowl-4)
+
+dobj(place-1, food-2)
+prep_by(place-1, cat-4)
+
+dobj(getting-1, food-2)
+
+dobj(open-1, food-2)
+
+dobj(get-1, bowl-2)
+
+dobj(pour-1, food-2)
+prep_into(pour-1, bowl-4)
+
+nn(container-3, food-2)
+dobj(close-1, container-3)
+
+nn(container-3, food-2)
+dobj(put-1, container-3)
+prt(put-1, away-4)
+
+det(cat-3, the-2)
+dobj(call-1, cat-3)
+
+nn(food-3, cat-2)
+dobj(get-1, food-3)
+
+nn(food-3, cat-2)
+dobj(open-1, food-3)
+
+nn(food-3, cat-2)
+dobj(put-1, food-3)
+prep_in(put-1, bowl-5)
+
+nn(food-3, cat-2)
+dobj(find-1, food-3)
+
+det(bowl-4, the-2)
+nn(bowl-4, cat-3)
+dobj(find-1, bowl-4)
+
+dobj(put-1, food-2)
+prep_in(put-1, bowl-4)
+
+dobj(put-1, bowl-2)
+prep_on(put-1, floor-4)
+
+dobj(get-1, food-2)
+
+dobj(find-1, cat-2)
+
+dobj(put-1, food-2)
+prep_in(put-1, bowl-4)
+
+dobj(put-1, bowl-2)
+prep_on(put-1, floor-4)
+
+det(food-4, the-2)
+nn(food-4, cat-3)
+dobj(place-1, food-4)
+det(dish-7, a-6)
+prep_in(place-1, dish-7)
+
+det(cat-3, the-2)
+nsubj(know-4, cat-3)
+ccomp(let-1, know-4)
+complm(is-8, that-5)
+det(food-7, the-6)
+nsubj(is-8, food-7)
+ccomp(know-4, is-8)
+advmod(is-8, there-9)
+prepc_by(is-8, making-11)
+dobj(making-11, noises-12)
+det(opener-16, the-14)
+nn(opener-16, can-15)
+prep_with(making-11, opener-16)
+
+nn(food-3, cat-2)
+dobj(open-1, food-3)
+
+prep_in(pour-1, bowl-3)
+
+prep_to(serve-1, cat-3)
+
+amod(meowing-4, hungry-2)
+nn(meowing-4, cat-3)
+dobj(hear-1, meowing-4)
+
+nn(dish-3, food-2)
+dobj(find-1, dish-3)
+
+prep(wash-1, and-2)
+amod(dish-5, rinse-3)
+nn(dish-5, food-4)
+dep(and-2, dish-5)
+
+dep(opener-3, can-2)
+dobj(find-1, opener-3)
+
+dobj(open-1, can-2)
+nn(food-5, cat-4)
+prep_of(can-2, food-5)
+
+prt(spoon-1, out-2)
+dobj(spoon-1, food-3)
+prep_into(food-3, dish-5)
+
+dobj(set-1, dish-2)
+prep_on(set-1, floor-4)
+prep_for(floor-4, cat-6)
+
+dobj(get-1, food-2)
+
+dobj(give-1, food-2)
+prep_to(give-1, cat-4)
+
+dep(buy-1, catfood-2)
+
+nsubj(catfood-2, place-1)
+prep_in(catfood-2, bowl-4)
+
+dobj(give-1, bowl-2)
+prep_to(give-1, cat-4)
+
+dobj(buy-1, food-2)
+
+dobj(put-1, food-2)
+prep_in(put-1, bowl-4)
+
+dobj(give-1, bowl-2)
+prep_to(give-1, cat-4)
+
+det(dish-4, the-2)
+nn(dish-4, cat-3)
+dobj(get-1, dish-4)
+
+det(can-3, the-2)
+dobj(get-1, can-3)
+nn(food-6, cat-5)
+prep_of(can-3, food-6)
+
+det(can-3, the-2)
+dobj(open-1, can-3)
+nn(food-6, cat-5)
+prep_of(can-3, food-6)
+
+det(can-3, the-2)
+dobj(empty-1, can-3)
+nn(food-6, cat-5)
+prep_of(can-3, food-6)
+det(dish-10, the-8)
+nn(dish-10, cat-9)
+prep_into(empty-1, dish-10)
+
+det(dish-4, the-2)
+nn(dish-4, cat-3)
+dobj(put-1, dish-4)
+prt(put-1, down-5)
+
+det(tuna-3, the-2)
+dobj(buying-1, tuna-3)
+
+dobj(putting-1, it-2)
+det(bowl-5, the-4)
+prep_into(putting-1, bowl-5)
+
+det(cat-3, the-2)
+dobj(calling-1, cat-3)
+
+csubj(eat-4, watching-1)
+det(cat-3, the-2)
+dobj(watching-1, cat-3)
+dobj(eat-4, food-5)
+
+det(doesn-4, the-2)
+nn(doesn-4, cat-3)
+dobj(hope-1, doesn-4)
+nsubj(go-6, t-5)
+dep(hope-1, go-6)
+acomp(go-6, feral-7)
+
+dobj(clean-1, bowl-2)
+tmod(done-6, bowl-2)
+advmod(done-6, when-3)
+rel(done-6, when-3)
+nsubjpass(done-6, cat-4)
+auxpass(done-6, is-5)
+dep(bowl-2, done-6)
+
+amod(t-4, pray-1)
+nn(t-4, cat-2)
+nn(t-4, doesn-3)
+nsubj(throw-5, t-4)
+prt(throw-5, up-6)
+prep_on(throw-5, couch-8)
+
+nn(food-3, cat-2)
+dobj(open-1, food-3)
+
+nn(bowl-4, cat-2)
+nn(bowl-4, food-3)
+dobj(locate-1, bowl-4)
+
+dobj(tilt-1, bag-2)
+nn(food-5, cat-4)
+prep_of(bag-2, food-5)
+prep_into(tilt-1, bowl-7)
+
+dobj(get-1, food-2)
+
+dobj(place-1, food-2)
+prep_in(place-1, bowl-4)
+
+dobj(give-1, bowl-2)
+prep_to(give-1, cat-4)
+
+det(can-3, a-2)
+dobj(get-1, can-3)
+prep_of(can-3, food-5)
+
+det(bowl-3, a-2)
+dobj(get-1, bowl-3)
+
+dobj(open-1, can-2)
+
+dobj(pour-1, food-2)
+prep_into(pour-1, bowl-4)
+
+dobj(place-1, bowl-2)
+prep_on(place-1, floor-4)
+
+det(food-3, the-2)
+dobj(get-1, food-3)
+
+dobj(put-1, it-2)
+det(bowl-5, the-4)
+prep_in(put-1, bowl-5)
+
+csubj(open-5, using-1)
+dobj(using-1, a-2)
+aux(open-5, can-3)
+advmod(open-5, opener-4)
+det(can-7, a-6)
+dobj(open-5, can-7)
+nn(food-10, cat-9)
+prep_of(can-7, food-10)
+
+det(spoon-3, a-2)
+prep_with(dish-10, spoon-3)
+csubj(dish-10, put-4)
+nn(food-6, cat-5)
+dobj(put-4, food-6)
+prep_into(put-4, cat-8)
+cop(dish-10, s-9)
+
+nn(food-3, cat-2)
+dobj(open-1, food-3)
+
+nn(food-3, cat-2)
+dobj(pour-1, food-3)
+prep_in(pour-1, bowl-5)
+
+dobj(place-1, bowl-2)
+det(floor-5, the-4)
+prep_on(place-1, floor-5)
+
+dobj(clean-1, bowl-2)
+prep_of(bowl-2, food-4)
+
+dobj(open-1, can-2)
+nn(food-5, cat-4)
+prep_of(can-2, food-5)
+
+dobj(place-1, food-2)
+prep_in(place-1, bowl-4)
+
+dobj(place-1, bowl-2)
+det(floor-5, the-4)
+prep_on(place-1, floor-5)
+
+dobj(put-1, food-2)
+prep_in(put-1, bowl-4)
+
+dobj(put-1, water-2)
+prep_in(put-1, bowl-4)
+
+nn(food-3, cat-2)
+dobj(open-1, food-3)
+
+nn(food-3, cat-2)
+dobj(place-1, food-3)
+prep_in(place-1, dish-5)
+
+prt(take-1, out-2)
+amod(food-4, pet-3)
+dobj(take-1, food-4)
+
+dobj(place-1, food-2)
+prep_on(place-1, dish-4)
+
+dobj(get-1, food-2)
+
+dobj(pour-1, food-2)
+
+nsubj(eats-2, cat-1)
+
+det(box-5, the-2)
+nn(box-5, cat-3)
+nn(box-5, food-4)
+dobj(open-1, box-5)
+
+dobj(pour-1, food-2)
+det(dish-6, the-4)
+nn(dish-6, food-5)
+prep_into(pour-1, dish-6)
+
+dobj(open-1, can-2)
+nn(food-5, cat-4)
+prep_of(can-2, food-5)
+
+num(tablespoons-5, two-2)
+conj_or(two-2, three-4)
+num(tablespoons-5, three-4)
+dobj(place-1, tablespoons-5)
+dep(tablespoons-5, full-6)
+amod(food-9, wet-8)
+prep_of(tablespoons-5, food-9)
+prep_into(place-1, bowl-11)
+
+amod(cup-3, one-half-2)
+dobj(place-1, cup-3)
+amod(food-6, dry-5)
+prep_of(cup-3, food-6)
+prep_into(place-1, bowl-8)
+
+dobj(call-1, kitty-2)
+prep_to(call-1, dinner-4)
+
+dobj(obtain-1, food-2)
+
+dobj(dispense-1, food-2)
+
+dobj(call-1, cat-2)
+
+nn(bag-4, cat-2)
+nn(bag-4, food-3)
+dobj(open-1, bag-4)
+
+nn(food-3, cat-2)
+dobj(remove-1, food-3)
+
+nn(dish-4, cat-3)
+prep_in(place-1, dish-4)
+
+nn(food-3, cat-2)
+dobj(buy-1, food-3)
+
+dobj(place-1, handful-2)
+prep_of(handful-2, food-4)
+prep_in(place-1, bowl-6)
+
+nn(food-3, cat-2)
+dobj(open-1, food-3)
+
+det(food-3, some-2)
+dobj(put-1, food-3)
+det(bowl-7, a-5)
+amod(bowl-7, pet-6)
+prep_in(put-1, bowl-7)
+
+det(bowl-3, the-2)
+dobj(place-1, bowl-3)
+advmod(normally-7, where-4)
+det(cat-6, the-5)
+dep(normally-7, cat-6)
+advcl(place-1, normally-7)
+dep(normally-7, eats-8)
+
+det(kitty-3, the-2)
+dobj(call-1, kitty-3)
+prep_to(call-1, dinner-5)
+
+prt(clean-1, out-2)
+dobj(clean-1, bowl-3)
+
+nn(food-3, cat-2)
+dobj(get-1, food-3)
+
+prt(measure-1, out-2)
+dobj(measure-1, amount-3)
+partmod(amount-3, needed-4)
+
+det(amount-3, that-2)
+dobj(place-1, amount-3)
+prep_in(place-1, bowl-5)
+
+prt(clean-1, out-2)
+nn(bowl-4, water-3)
+dobj(clean-1, bowl-4)
+
+prt(fill-1, up-2)
+amod(water-5, clean-4)
+prep_with(fill-1, water-5)
+
+prt(place-1, back-2)
+prep_in(place-1, spot-4)
+
+advmod(stored-7, where-3)
+det(food-5, the-4)
+nsubjpass(stored-7, food-5)
+auxpass(stored-7, is-6)
+prepc_to(go-1, stored-7)
+
+prt(take-1, out-2)
+det(food-4, the-3)
+dobj(take-1, food-4)
+
+dobj(bring-1, food-2)
+det(dish-6, the-4)
+nn(dish-6, food-5)
+prep_to(bring-1, dish-6)
+
+prt(fill-1, up-2)
+det(dish-5, the-3)
+nn(dish-5, food-4)
+dobj(fill-1, dish-5)
+
+dobj(bring-1, food-2)
+advmod(bring-1, back-3)
+dep(back-3, to-4)
+advmod(stored-8, where-5)
+nsubjpass(stored-8, it-6)
+auxpass(stored-8, is-7)
+pcomp(to-4, stored-8)
+
+dobj(return-1, food-2)
+
+det(end-2, the-1)
+
+det(tin-3, a-2)
+dobj(get-1, tin-3)
+nn(food-6, cat-5)
+prep_of(tin-3, food-6)
+
+dep(opener-3, can-2)
+dobj(get-1, opener-3)
+
+nsubj(opener-3, use-1)
+xsubj(open-5, use-1)
+aux(opener-3, can-2)
+aux(open-5, to-4)
+xcomp(opener-3, open-5)
+dobj(open-5, tin-6)
+prep_of(tin-6, food-8)
+
+dobj(get-1, spoon-2)
+aux(scoop-4, to-3)
+xcomp(get-1, scoop-4)
+prt(scoop-4, out-5)
+dobj(scoop-4, food-6)
+
+dobj(put-1, food-2)
+nn(dish-5, cats-4)
+prep_in(put-1, dish-5)
+
+nn(food-3, cat-2)
+dobj(open-1, food-3)
+
+nn(food-3, cat-2)
+dobj(put-1, food-3)
+prep_in(put-1, dish-5)
+
+dobj(place-1, dish-2)
+prep_on(place-1, floor-4)
+
+det(cat-3, the-2)
+dobj(call-1, cat-3)
+
+det(bag-3, the-2)
+dobj(open-1, bag-3)
+nn(food-6, cat-5)
+prep_of(bag-3, food-6)
+
+dobj(pour-1, some-2)
+det(dish-5, the-4)
+prep_into(pour-1, dish-5)
+
+det(cat-3, the-2)
+dobj(call-1, cat-3)
+prt(call-1, over-4)
+
+dobj(open-1, cabinet-2)
+
+amod(food-4, canned-2)
+nn(food-4, cat-3)
+dobj(take-1, food-4)
+prt(take-1, out-5)
+
+csubj(can-4, pull-1)
+dobj(pull-1, tab-2)
+prt(pull-1, on-3)
+advmod(can-4, upwards-5)
+
+amod(lid-3, tabbed-2)
+dobj(remove-1, lid-3)
+prep_on(remove-1, can-5)
+
+dobj(get-1, cat-2)
+nsubj(bowl-4, s-3)
+dep(get-1, bowl-4)
+
+amod(contents-5, canned-2)
+nn(contents-5, cat-3)
+nn(contents-5, food-4)
+dobj(pour-1, contents-5)
+nn(bowl-8, cat-7)
+prep_in(pour-1, bowl-8)
+

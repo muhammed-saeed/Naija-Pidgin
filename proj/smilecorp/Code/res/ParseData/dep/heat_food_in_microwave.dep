@@ -1,0 +1,1014 @@
+dobj(get-1, food-2)
+
+prep_in(put-1, microwave-3)
+
+dobj(set-1, timer-2)
+nn(type-6, food-5)
+prep_according_to(set-1, type-6)
+
+nsubj(start-2, press-1)
+
+prep_for(wait-1, timer-3)
+
+dobj(remove-1, food-2)
+
+dobj(place-1, food-2)
+prep_in(place-1, microwave-4)
+
+dobj(close-1, door-2)
+
+dobj(set-1, timer-2)
+amod(setting-5, appropriate-4)
+prep_for(set-1, setting-5)
+prep_for(setting-5, food-7)
+
+nsubj(start-2, press-1)
+
+prep_for(wait-1, timer-3)
+
+dobj(remove-1, food-2)
+
+dobj(put-1, food-2)
+det(microwave-5, the-4)
+prep_in(put-1, microwave-5)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(timer-3, the-2)
+dobj(set-1, timer-3)
+
+det(level-4, the-2)
+nn(level-4, power-3)
+dobj(set-1, level-4)
+
+dobj(push-1, start-2)
+
+advmod(done-2, when-1)
+csubj(open-3, done-2)
+det(door-5, the-4)
+dobj(open-3, door-5)
+
+dobj(take-1, food-2)
+prep_out_of(take-1, microwave-5)
+
+dobj(keep-1, food-2)
+amod(utensil-5, microwavable-4)
+prep_in(keep-1, utensil-5)
+
+dobj(press-1, button-2)
+amod(microwave-5, open-4)
+prep_to(press-1, microwave-5)
+
+det(utensil-3, the-2)
+dobj(keep-1, utensil-3)
+prep_in(keep-1, microwave-5)
+
+det(microwave-3, the-2)
+dobj(close-1, microwave-3)
+
+det(timer-3, the-2)
+dobj(set-1, timer-3)
+
+det(button-4, the-2)
+nn(button-4, start-3)
+dobj(press-1, button-4)
+conj_and(press-1, wait-6)
+
+csubj(open-4, after-1)
+det(beep-3, the-2)
+pobj(after-1, beep-3)
+dobj(open-4, microwave-5)
+
+dobj(put-1, food-2)
+det(microwave-5, the-4)
+prep_in(put-1, microwave-5)
+
+dobj(set-1, time-2)
+
+dobj(push-1, start-2)
+
+dobj(put-1, food-2)
+det(microwave-5, the-4)
+prep_into(put-1, microwave-5)
+
+det(microwave-4, the-3)
+prep_on(turn-1, microwave-4)
+
+mark(finished-5, until-2)
+nsubjpass(finished-5, it-3)
+auxpass(finished-5, s-4)
+advcl(wait-1, finished-5)
+dep(finished-5, heating-6)
+
+prt(take-1, out-2)
+det(food-4, the-3)
+dobj(take-1, food-4)
+
+dobj(locate-1, food-2)
+prep_to(locate-1, heat-4)
+
+dobj(place-1, food-2)
+amod(ware-6, microwavable-4)
+amod(ware-6, safe-5)
+prep_in(place-1, ware-6)
+
+dobj(place-1, food-2)
+prep_in(place-1, microwave-4)
+
+dobj(turn-1, microwave-2)
+prt(turn-1, on-3)
+
+dobj(remove-1, food-2)
+prep_from(remove-1, microwave-4)
+
+dobj(find-1, food-2)
+
+dobj(find-1, microwave-2)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(put-1, food-2)
+prep_in(put-1, microwave-4)
+
+nn(door-3, microwave-2)
+dobj(close-1, door-3)
+
+amod(time-3, cooking-2)
+dobj(enter-1, time-3)
+nn(keypad-6, microwave-5)
+prep_on(enter-1, keypad-6)
+
+nsubj(start-2, press-1)
+dobj(start-2, button-3)
+
+dobj(take-1, food-2)
+
+det(microwave-4, the-3)
+prep_to(walk-1, microwave-4)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(put-1, food-2)
+prep(put-1, in-3)
+
+nn(door-3, microwave-2)
+dobj(close-1, door-3)
+
+amod(time-3, desired-2)
+dobj(set-1, time-3)
+det(microwave-6, the-5)
+prep_on(set-1, microwave-6)
+
+nsubj(start-2, press-1)
+det(microwave-5, the-4)
+prep_on(start-2, microwave-5)
+
+dobj(place-1, food-2)
+prep_in(place-1, microwave-4)
+
+dobj(set-1, time-2)
+prep_on(set-1, microwave-4)
+
+dobj(start-1, microwave-2)
+
+dobj(open-1, microwave-2)
+
+dobj(put-1, food-2)
+det(plate-7, a-4)
+nn(plate-7, microwave-5)
+amod(plate-7, safe-6)
+prep_on(put-1, plate-7)
+
+nn(level-3, power-2)
+dobj(select-1, level-3)
+dobj(select-1, time-5)
+conj_and(level-3, time-5)
+
+prep_on(turn-1, oven-3)
+
+dobj(put-1, food-2)
+prep_in(put-1, microwave-4)
+
+nn(level-3, power-2)
+dobj(set-1, level-3)
+
+dobj(set-1, timer-2)
+
+prep_on(turn-1, microwave-3)
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+det(container-8, a-5)
+nn(container-8, microwave-6)
+amod(container-8, safe-7)
+prep_in(put-1, container-8)
+
+det(door-4, the-2)
+nn(door-4, microwave-3)
+dobj(open-1, door-4)
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+det(microwave-6, the-5)
+prep_in(put-1, microwave-6)
+
+det(door-4, the-2)
+nn(door-4, microwave-3)
+dobj(close-1, door-4)
+
+det(timer-3, the-2)
+dobj(set-1, timer-3)
+det(time-7, the-5)
+amod(time-7, appropriate-6)
+prep_for(set-1, time-7)
+
+dobj(get-1, food-2)
+prt(get-1, out-3)
+advmod(goes-6, when-4)
+nsubj(goes-6, timer-5)
+advcl(get-1, goes-6)
+prt(goes-6, off-7)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+det(microwave-6, the-5)
+prep_of(door-3, microwave-6)
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+det(microwave-6, the-5)
+prep_into(put-1, microwave-6)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+det(microwave-6, the-5)
+prep_of(door-3, microwave-6)
+
+prt(set-1, up-2)
+det(time-4, the-3)
+dobj(set-1, time-4)
+prep_for(set-1, heating-6)
+
+det(button-6, the-2)
+nn(button-6, start-4)
+dobj(press-1, button-6)
+
+prt(take-1, out-2)
+det(food-4, the-3)
+dobj(take-1, food-4)
+advmod(is-7, when-5)
+nsubj(is-7, time-6)
+advcl(take-1, is-7)
+prt(is-7, up-8)
+
+dobj(put-1, food-2)
+nn(container-6, microwave-4)
+amod(container-6, safe-5)
+prep_in(put-1, container-6)
+
+nn(level-3, power-2)
+dobj(select-1, level-3)
+dobj(select-1, time-5)
+conj_and(level-3, time-5)
+
+prep_on(turn-1, microwave-3)
+
+
+dobj(remove-1, food-2)
+
+dobj(place-1, food-2)
+nn(container-6, microwave-4)
+amod(container-6, safe-5)
+prep_in(place-1, container-6)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(put-1, container-2)
+prep_inside(put-1, microwave-4)
+
+nn(door-3, microwave-2)
+dobj(close-1, door-3)
+
+dobj(select-1, time-2)
+conj_and(select-1, turn-4)
+prep_on(turn-4, microwave-6)
+
+aux(finish-3, to-2)
+xcomp(wait-1, finish-3)
+
+dobj(remove-1, food-2)
+prep_from(remove-1, microwave-4)
+
+dobj(put-1, food-2)
+amod(dish-5, microwaveable-4)
+prep_in(put-1, dish-5)
+
+dobj(put-1, dish-2)
+prep_in(put-1, microwave-4)
+
+nn(level-3, power-2)
+dobj(select-1, level-3)
+dobj(select-1, time-5)
+conj_and(level-3, time-5)
+
+nsubj(start-2, press-1)
+
+prep_for(wait-1, food-3)
+aux(heat-5, to-4)
+xcomp(wait-1, heat-5)
+prt(heat-5, up-6)
+
+dobj(remove-1, dish-2)
+prep_from(remove-1, microwave-4)
+
+dobj(place-1, food-2)
+amod(container-5, microwave-safe-4)
+prep_in(place-1, container-5)
+
+dobj(place-1, container-2)
+nn(oven-5, microwave-4)
+prep_inside(place-1, oven-5)
+
+amod(level-5, time-2)
+conj_and(time-2, power-4)
+amod(level-5, power-4)
+dobj(select-1, level-5)
+
+nsubj(start-2, press-1)
+
+prep_for(wait-1, food-3)
+aux(heat-5, to-4)
+xcomp(wait-1, heat-5)
+prt(heat-5, up-6)
+
+dobj(remove-1, container-2)
+prep_from(remove-1, oven-4)
+
+dobj(put-1, food-2)
+det(dish-6, a-4)
+amod(dish-6, microwaveable-5)
+prep_on(put-1, dish-6)
+
+prt(put-1, in-2)
+prep_to(put-1, microwave-4)
+
+dobj(set-1, timer-2)
+
+dobj(set-1, power-2)
+
+nsubj(start-2, press-1)
+
+prep_for(wait-1, timer-3)
+aux(finish-5, to-4)
+xcomp(wait-1, finish-5)
+
+amod(food-3, hot-2)
+dobj(remove-1, food-3)
+advmod(remove-1, carefully-4)
+
+dobj(find-1, food-2)
+prep_to(find-1, heat-4)
+
+amod(cover-3, protective-2)
+dobj(remove-1, cover-3)
+prep_from(remove-1, food-5)
+
+dobj(place-1, food-2)
+prep_in(place-1, microwave-4)
+
+dobj(press-1, buttons-2)
+det(microwave-5, the-4)
+prep_on(press-1, microwave-5)
+aux(heat-7, to-6)
+infmod(microwave-5, heat-7)
+det(food-9, the-8)
+dobj(heat-7, food-9)
+
+dobj(place-1, food-2)
+aux(heated-5, to-3)
+auxpass(heated-5, be-4)
+xcomp(place-1, heated-5)
+det(plate-10, a-7)
+amod(plate-10, mcorwave-8)
+amod(plate-10, saft-9)
+prep_on(heated-5, plate-10)
+
+dobj(open-1, door-2)
+prep_to(open-1, microwave-4)
+
+dobj(place-1, plate-2)
+prep_with(place-1, food-4)
+prep_into(place-1, microwave-6)
+
+det(timer-3, the-2)
+dobj(set-1, timer-3)
+det(microwave-6, the-5)
+prep_on(set-1, microwave-6)
+
+nsubj(start-2, press-1)
+
+advmod(buzzes-3, when-1)
+nsubj(buzzes-3, microwave-2)
+xcomp(buzzes-3, remove-4)
+dobj(remove-4, food-5)
+
+dobj(locate-1, microwave-2)
+
+dobj(locate-1, food-2)
+
+dobj(place-1, food-2)
+prep_in(place-1, microwave-4)
+
+prep_on(turn-1, microwave-3)
+
+dobj(unwrap-1, food-2)
+
+dobj(put-1, food-2)
+prep_on(put-1, plate-4)
+
+dobj(put-1, plate-2)
+prep_in(put-1, microwave-4)
+
+dobj(set-1, time-2)
+
+dobj(start-1, microwave-2)
+
+prep_for(wait-1, microwarve-3)
+aux(finish-5, to-4)
+xcomp(wait-1, finish-5)
+
+dobj(take-1, plate-2)
+prep_out_of(take-1, microwave-5)
+
+dobj(place-1, food-2)
+amod(container-5, microwave-safe-4)
+prep_in(place-1, container-5)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(place-1, container-2)
+prep_with(place-1, food-4)
+prep_in(place-1, microwave-6)
+
+nn(door-3, microwave-2)
+dobj(shut-1, door-3)
+
+dobj(set-1, time-2)
+prep_on(set-1, microwave-4)
+
+dobj(start-1, microwave-2)
+
+dobj(get-1, food-2)
+
+dobj(open-1, food-2)
+
+dobj(replace-1, cover-2)
+advmod(replace-1, loosely-3)
+prep_on(replace-1, food-5)
+
+amod(time-3, cooking-2)
+dobj(enter-1, time-3)
+
+dobj(start-1, microwave-2)
+
+advmod(remove-4, when-1)
+nn(beeps-3, microwave-2)
+nsubj(remove-4, beeps-3)
+dobj(remove-4, food-5)
+
+dobj(serve-1, food-2)
+
+dobj(put-1, food-2)
+nn(dish-5, microwave-4)
+prep_in(put-1, dish-5)
+
+dobj(cover-1, dish-2)
+
+prep_in(put-1, microwave-3)
+
+dobj(set-1, timer-2)
+
+dobj(push-1, start-2)
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+det(microwave-6, the-5)
+prep_inside(put-1, microwave-6)
+
+det(timer-3, the-2)
+dobj(set-1, timer-3)
+
+det(microwave-3, the-2)
+dobj(close-1, microwave-3)
+
+dobj(push-1, start-2)
+
+det(door-4, the-2)
+nn(door-4, microwave-3)
+dobj(open-1, door-4)
+
+dobj(place-1, food-2)
+advmod(place-1, inside-3)
+
+dobj(close-1, door-2)
+
+det(time-4, the-2)
+amod(time-4, cooking-3)
+dobj(enter-1, time-4)
+nn(level-7, power-6)
+dobj(enter-1, level-7)
+conj_and(time-4, level-7)
+
+nsubj(start-2, press-1)
+
+dobj(take-1, plastic-2)
+dep(take-1, cover-3)
+prt(cover-3, off-4)
+
+prep_in(place-1, microwave-3)
+
+prep(input-1, in-2)
+dep(in-2, for-3)
+amod(time-5, designated-4)
+pobj(for-3, time-5)
+
+dobj(let-1, cool-2)
+
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(place-1, food-2)
+prep_inside(place-1, microwave-4)
+
+nn(door-3, microwave-2)
+dobj(close-1, door-3)
+
+det(time-3, the-2)
+dobj(set-1, time-3)
+advmod(long-6, how-5)
+dep(needs-8, long-6)
+nsubj(needs-8, food-7)
+xsubj(heated-11, food-7)
+prepc_of(time-3, needs-8)
+aux(heated-11, to-9)
+auxpass(heated-11, be-10)
+xcomp(needs-8, heated-11)
+
+nsubj(start-2, press-1)
+
+advmod(is-3, when-1)
+nsubj(is-3, time-2)
+csubj(open-5, is-3)
+prt(is-3, up-4)
+nn(door-7, microwave-6)
+dobj(open-5, door-7)
+
+prt(take-1, out-2)
+dobj(take-1, food-3)
+conj_and(take-1, eat-5)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(place-1, food-2)
+advmod(place-1, inside-3)
+
+dobj(close-1, door-2)
+
+det(food-3, the-2)
+dobj(place-1, food-3)
+prep_in(place-1, microwave-5)
+
+nn(oven-4, microwave-3)
+prep_on(turn-1, oven-4)
+num(minutes-7, two-6)
+prep_for(turn-1, minutes-7)
+
+dobj(stir-1, food-2)
+
+dobj(check-1, temperature-2)
+
+mark(acheived-6, till-2)
+amod(temperature-4, desired-3)
+nsubjpass(acheived-6, temperature-4)
+auxpass(acheived-6, is-5)
+advcl(repeat-1, acheived-6)
+
+dobj(put-1, food-2)
+nn(dish-6, microwave-4)
+amod(dish-6, safe-5)
+prep_in(put-1, dish-6)
+
+dobj(place-1, dish-2)
+prep_in(place-1, microwave-4)
+
+dobj(turn-1, microwave-2)
+prt(turn-1, on-3)
+
+dobj(take-1, food-2)
+prep_out_of(take-1, wrapper-5)
+
+dobj(put-1, food-2)
+prep_in(put-1, microwave-4)
+
+nn(level-3, heating-2)
+dobj(select-1, level-3)
+prep_for(select-1, microwave-5)
+
+dobj(select-1, time-2)
+
+nsubj(start-2, press-1)
+dobj(start-2, button-3)
+prep_on(start-2, microwave-5)
+
+
+dobj(take-1, food-2)
+prep_out_of(take-1, microwave-5)
+
+dobj(open-1, microave-2)
+
+dobj(place-1, food-2)
+prep_in(place-1, microwave-4)
+
+dobj(close-1, microwave-2)
+
+dep(set-1, cooking-2)
+dobj(cooking-2, temperature-3)
+
+xcomp(set-1, cooking-2)
+dobj(cooking-2, time-3)
+
+dobj(press-1, cook-2)
+
+dobj(put-1, food-2)
+prep_in(put-1, microwave-4)
+
+dobj(set-1, timer-2)
+
+prep_for(wait-1, food-3)
+aux(cook-5, to-4)
+xcomp(wait-1, cook-5)
+
+dobj(get-1, food-2)
+
+dobj(put-1, food-2)
+prep_in(put-1, microwave-4)
+
+prep_on(turn-1, microwave-3)
+
+det(microwave-4, the-3)
+prep_on(switch-1, microwave-4)
+
+det(door-3, the-2)
+iobj(open-1, door-3)
+dobj(open-1, panel-4)
+det(microwave-7, the-6)
+prep_of(panel-4, microwave-7)
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+det(microwave-6, the-5)
+prep_inside(put-1, microwave-6)
+
+det(door-3, the-2)
+iobj(close-1, door-3)
+dobj(close-1, panel-4)
+
+det(setting-3, the-2)
+dobj(set-1, setting-3)
+nn(food-6, heating-5)
+prep_for(set-1, food-6)
+
+det(button-4, the-2)
+nn(button-4, start-3)
+dobj(push-1, button-4)
+
+dobj(put-1, food-2)
+det(bowl-7, a-4)
+nn(bowl-7, microwave-5)
+amod(bowl-7, suitable-6)
+prep_in(put-1, bowl-7)
+
+dobj(place-1, bowl-2)
+prep_with(place-1, food-4)
+prep_in(place-1, microwave-6)
+
+det(temperature-3, the-2)
+dobj(choose-1, temperature-3)
+dep(choose-1, needed-4)
+
+det(time-3, the-2)
+dobj(choose-1, time-3)
+partmod(time-3, required-4)
+
+nsubj(start-2, press-1)
+
+mark(is-5, until-2)
+det(time-4, the-3)
+nsubj(is-5, time-4)
+advcl(wait-1, is-5)
+prt(is-5, over-6)
+
+dobj(take-1, food-2)
+prep_out_of(take-1, microwave-5)
+
+dobj(put-1, food-2)
+det(plate-5, a-4)
+prep_on(put-1, plate-5)
+
+dobj(cover-1, plate-2)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+det(timer-3, the-2)
+dobj(set-1, timer-3)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(button-4, the-2)
+nn(button-4, start-3)
+dobj(press-1, button-4)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(place-1, food-2)
+prep_inside(place-1, microwave-4)
+
+dobj(close-1, door-2)
+
+dobj(set-1, timer-2)
+
+nn(button-3, start-2)
+dobj(push-1, button-3)
+
+dobj(enter-1, food-2)
+prep_in(enter-1, microwave-4)
+
+amod(length-3, desired-2)
+dobj(select-1, length-3)
+dobj(select-1, temperature-5)
+conj_and(length-3, temperature-5)
+
+dobj(press-1, start-3)
+
+advmod(beeping-3, when-2)
+dep(remove-1, beeping-3)
+
+dobj(put-1, food-2)
+prep_into(put-1, microwave-4)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(timer-3, the-2)
+dobj(set-1, timer-3)
+
+nsubj(start-2, press-1)
+
+dobj(remove-1, food-2)
+advmod(is-5, when-3)
+nsubj(is-5, time-4)
+advcl(remove-1, is-5)
+prt(is-5, up-6)
+
+dobj(open-1, microwave-2)
+
+dobj(place-1, food-2)
+prep_in(place-1, microwave-4)
+
+dobj(select-1, time-2)
+
+dobj(close-1, door-2)
+
+
+dobj(put-1, food-2)
+prep_in(put-1, microwave-4)
+
+dobj(press-1, timer-2)
+
+dobj(place-1, food-2)
+det(container-6, a-4)
+amod(container-6, microwave-safe-5)
+prep_on(place-1, container-6)
+
+dobj(place-1, food-2)
+det(microwave-5, the-4)
+prep_into(place-1, microwave-5)
+
+dobj(set-1, time-2)
+dobj(set-1, power-4)
+conj_and(time-2, power-4)
+det(microwave-7, the-6)
+prep_on(set-1, microwave-7)
+
+nsubj(start-2, press-1)
+
+
+dobj(place-1, food-2)
+prep_in(place-1, microwave-4)
+
+dobj(select-1, time-2)
+
+dobj(remove-1, food-2)
+
+dobj(place-1, food-2)
+prep_in(place-1, microwave-4)
+
+dobj(press-1, button-2)
+aux(set-4, to-3)
+xcomp(press-1, set-4)
+dobj(set-4, time-5)
+
+dobj(put-1, food-2)
+prep_into(put-1, microwave-4)
+
+dobj(close-1, door-2)
+
+dobj(set-1, timer-2)
+
+nsubj(start-2, press-1)
+dobj(start-2, button-3)
+
+prep_for(wait-1, microwave-3)
+aux(stop-5, to-4)
+xcomp(wait-1, stop-5)
+
+dobj(open-1, door-2)
+conj_and(open-1, remove-4)
+dobj(remove-4, food-5)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(place-1, food-2)
+prep_in(place-1, mircrowave-4)
+
+dobj(set-1, timer-2)
+amod(time-5, specific-4)
+prep_to(set-1, time-5)
+
+det(food-3, the-2)
+dobj(take-1, food-3)
+
+dobj(keep-1, it-2)
+prep_in(keep-1, microwave-4)
+
+det(microwave-4, the-3)
+prep_on(turn-1, microwave-4)
+
+dobj(put-1, food-2)
+prep_in(put-1, container-4)
+
+prep_in(put-1, microwave-3)
+
+dobj(select-1, time-2)
+
+nsubj(start-2, press-1)
+
+advmod(finish-2, when-1)
+dobj(finish-2, remove-3)
+
+dobj(put-1, food-2)
+prep_on(put-1, plate-4)
+
+nn(towel-4, paper-3)
+prep_in(wrap-1, towel-4)
+
+dep(input-1, time-2)
+
+nsubj(start-2, press-1)
+
+
+dobj(press-1, stop-2)
+amod(microwave-5, open-4)
+dobj(press-1, microwave-5)
+conj_and(stop-2, microwave-5)
+
+dobj(remove-1, food-2)
+
+nn(microwave-4, food-2)
+nn(microwave-4, on\/in-3)
+iobj(put-1, microwave-4)
+amod(container-6, safe-5)
+dobj(put-1, container-6)
+
+dobj(put-1, container-2)
+prep_in(put-1, microwave-4)
+
+amod(level-3, timer\/power-2)
+dobj(set-1, level-3)
+prep_as(set-1, appropriate-5)
+det(item-8, the-7)
+nsubjpass(heated-10, item-8)
+auxpass(heated-10, being-9)
+prepc_for(set-1, heated-10)
+
+det(button-4, the-2)
+nn(button-4, start-3)
+dobj(push-1, button-4)
+
+advmod(dings-4, when-1)
+det(bell-3, the-2)
+nsubj(dings-4, bell-3)
+xcomp(dings-4, remove-5)
+poss(food-7, your-6)
+dobj(remove-5, food-7)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(put-1, food-2)
+prep_in(put-1, microwave-4)
+
+dobj(enter-1, time-2)
+aux(cook-4, to-3)
+infmod(time-2, cook-4)
+
+advmod(is-3, when-1)
+nsubj(is-3, time-2)
+csubj(remove-5, is-3)
+prt(is-3, up-4)
+dobj(remove-5, food-6)
+
+nn(door-3, microwave-2)
+dobj(close-1, door-3)
+
+dobj(get-1, food-2)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(put-1, food-2)
+prep_in(put-1, microwave-4)
+
+dobj(close-1, door-2)
+
+amod(time-4, cooking-3)
+prep_in(punch-1, time-4)
+
+nsubj(start-2, press-1)
+
+dobj(put-1, food-2)
+prep_on(put-1, plate-4)
+
+prep_in(put-1, microwave-3)
+
+dobj(close-1, door-2)
+
+prep_in(press-1, time-3)
+
+nsubj(start-2, press-1)
+
+dobj(get-1, food-2)
+
+nn(door-3, microwave-2)
+dobj(open-1, door-3)
+
+dobj(put-1, food-2)
+prep_in(put-1, microwave-4)
+
+dobj(close-1, door-2)
+
+amod(time-4, cooking-3)
+prep_in(punch-1, time-4)
+
+nsubj(start-2, press-1)
+
+dobj(put-1, food-2)
+prep_on(put-1, plate-4)
+
+prep_in(put-1, microwave-3)
+
+dobj(close-1, door-2)
+
+prep_in(press-1, time-3)
+
+nsubj(start-2, press-1)
+
+dobj(take-1, food-2)
+
+prep_in(place-1, microwave-3)
+
+dobj(start-1, microwave-2)
+
+dobj(take-1, plastic-2)
+det(package-5, the-4)
+prep_off(take-1, package-5)
+
+prep_in(put-1, microve-3)
+
+dobj(enter-1, time-2)
+mark(indicated-4, as-3)
+advcl(enter-1, indicated-4)
+prep_in(indicated-4, instructions-6)
+prep_on(instructions-6, box-8)
+

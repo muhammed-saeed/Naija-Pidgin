@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0006385" url="http://blog.softlayer.com/2008/05/" time="2012-07-12-23:15" support="23" score="0.01564423417722326" bingtitle="May – 2008 – SoftLayer Blog" webtitle="May2008SoftLayer Blog">
+			<query id="000885" bing-rank="176"/>
+			<query id="000414" bing-rank="103"/>
+			<query id="000979" bing-rank="51"/>
+			<query id="000445" bing-rank="137"/>
+			<query id="000165" bing-rank="98"/>
+			<query id="000854" bing-rank="111"/>
+			<query id="000291" bing-rank="80"/>
+			<query id="000665" bing-rank="78"/>
+			<query id="001513" bing-rank="213"/>
+			<query id="000948" bing-rank="80"/>
+			<query id="000039" bing-rank="204"/>
+			<query id="001419" bing-rank="68"/>
+			<query id="000102" bing-rank="155"/>
+			<query id="001482" bing-rank="111"/>
+			<query id="001356" bing-rank="134"/>
+			<query id="001105" bing-rank="150"/>
+			<query id="001294" bing-rank="59"/>
+			<query id="000728" bing-rank="149"/>
+			<query id="001451" bing-rank="189"/>
+			<query id="000539" bing-rank="91"/>
+			<query id="000352" bing-rank="159"/>
+			<query id="000917" bing-rank="115"/>
+			<query id="000602" bing-rank="161"/>
+	<description>Nothing digital, no multi-coin receptacles, just insert nickel ... order “errors” at this internationally recognized fast food restaurant are caused by slow order ...</description>
+	<body>
+		SALES  : 866.398.7638 SUPPORT  : 866.403.7638 LIVE CHAT CONTACT US PORTAL   The InnerLayer RSS 
+ All Blogs Executive Blogs Cloud International Partners Startups Culture Tech Development 
+ 
+Posts from May, 2008
+ RSS May 31, 2008 
+ Response to On Site Development 
+ By Daniel McAloon in Development 
+On May 14th my buddy Shawn wrote On Site Development . Aside from the ambiguous title (I originally thought it was an article on web site development, rather than the more appropriate on-site development), there were a number of things that I felt could be expanded upon. I started by simply commenting on his post, but the comment hit half a page and I had to admit to myself that I was, in fact, writing an entire new post.
+
+Updating the computer systems in these restaurants is a question of scale. Sure, it seems cheap to update the software on the 6 computers in a local fast food restaurant. However, a certain “largest fast-food chain in the world” has 31,000+ locations (according to Wikipedia). Now I know how much I would charge to update greasy fast-food computers, and if you multiply that by 31,000, you get a whole lot of dollars. It just doesn’t scale well enough to make it worthwhile. The bottom line is, the companies do cost-benefit analysis on all projects, and the cost of re-doing the messed up orders is apparently less than the cost of patching the software on a quarter million little cash registers and kitchen computers.
+
+It’s the same logic that lead to Coke being sold for 5 cents for more than 60 years, spanning two world wars and the great depression without fluctuating in price. The vast majority of Coca-Cola during that time period was sold from vending machines. These vending machines only accepted nickels, and once a nickel was inserted, a Coke came out. That’s it. Nothing digital, no multi-coin receptacles, just insert nickel…receive Coke. The cost of replacing 100,000 vending machines was far higher than the profits they would get by increasing the price of coke slightly. Only after World War II, when industrialization and the suburb were really taking off, did Coca-Cola start to phase out their existing vending machine line and replace it with machines capable of charging more than 5 cents per bottle.
+
+Of course, we all know how coke machines operate now. Computerized bill changers, many of them hooked up to the internet, allow Coke to charge upwards of $3 for a 20oz beverage on a hot day at a theme park. Coke even attempted (in 2005) to fluctuate the price of Coke based on local weather conditions. People would want a Coke more on a hot summer day, so why not charge more for it? (Because the public backlash was severe to the point where boycotts were suggested the very same day Coke announced their new plan, but that’s another story.)
+
+The fast food problem Shawn mentioned, as well as the vending machine problem, is why so many companies are moving onto the web. Online retail is exploding at a rate that can be described as a “barely controlled Bubble.” To tie back in with my comments on the fast food restaurant, this means that all your customers see the exact same website, written by the exact same piece of code. Want to change the way orders are displayed? Well simply alter the order display page, and every customer in every country from now on will see that new display format.
+
+This doesn’t just apply to retail, however. Many companies are moving towards web-based internal pages. When I got my mortgage, the load officer entered all my information into a web form on their intranet. This is brilliant, because it takes away all the cost of synchronizing the employee computers with the software, it removes the time needed for upgrades, and (most importantly) it means developers don’t have to come into the office at 4am to ensure that upgrades go smoothly before the start of the business day. So any of you business owners out there that have had to deal with the nightmare of upgrading antiquated POS software on dozens, hundreds, or hundreds of thousands of computers, consider making everything a web site.
+
+SoftLayer has geographically diverse data centers, so your stores can always log in to a nearby servers to cut down on latency, and we allow for VPN access, distributed databases, and real-time backups, making a web-based solution preferable to even the hard coded local systems that many stores use now.
+
+-Daniel
+ Keywords: Development , programming , scale , software , systems 
+
+ 3 Comments»   Categories: Development May 29, 2008 
+ Plot Course to Vulcan, Warp Factor 8. Engage! 
+ By Shawn Boles in Technology 
+Resolutely pointing off into the starry void of space on the bridge of the Enterprise, klieg lights gleaming off his majestic dome, Captain Picard causes the Starship Enterprise to leap off on another mission. Once asked how the “warp drive” worked on Star Trek, Patrick Stewart claimed that “I say Engage and we go.” Best explanation of warp drive I’ve ever heard.
+
+I find I miss my Linux install. Due to circumstances beyond my control (i.e. I’m too lazy to stop being lazy), and the fact that few games work well on Linux without lots of under-the-hood tweaking, I broke down and bought a Windows installation for my PC. In between mining asteroids in my Retriever Mining Ship and solving 3D puzzles with a transdimensional gun, I do normal work with my computer; programming, web design, web browsing, video editing, file management, the whole deal.
+
+Windows Vista, however, has a new feature that makes my work awesome. No, I’m not talking about the 3D accelerated desktop with semitransparent windows (although that IS awesome). I’m talking about the new Start Menu search box.
+
+In Windows XP (I’m doing this right now), hitting the Windows key opens up the start menu. I can either use the mouse to navigate the menu (why use the start key if you’re going to mouse the menu?), or navigate with the keyboard arrows. However, this can be quite tedious and slow. If I remember the program’s “.EXE” name and the program is on the Windows System Path, I can select “Run…” and type in the name, like wmplayer for Windows Media Player. But the names are funky and again, the cool programs aren’t on the path.
+
+In Windows Vista, however, when you bump the start menu, a new device, the SEARCH BOX, is automatically engaged in the start menu! So, when I want to use, say, Notepad, I type ‘windows key notepad enter’. Goldwave (sound recording) is ‘windows key goldwave enter’. When I want to use a Open Office tool, I bump the Windows key, type “open office” and then select the tool I want with the arrow keys, as the search box narrows down the huge Start Menu to just the entries that make sense. Even cooler: when it’s budget time, I hit the Windows key then type “budget”. Search brings up “Apartment Budget.ods”. Select that with the arrow keys, and it opens Open Office Calc (spreadsheet) for me.
+
+It’s like having a command line in Windows. Any program is just a few keystrokes away, and for a Linux nut and a touch typer like me, means that my computer is that much more efficient. I don’t need muscle memory with the mouse to navigate the start menu, I don’t have to squint at the menu items and find my program. I just have to remember the name!
+
+Try it some time. It’s almost as awesome as saying “Engage” and going to Vulcan.
+
+-Shawn
+ Keywords: Captain Picard , enterprise , Linux , programming , Vulcan , Windows Vista 
+
+ No Comments»   Categories: Technology May 27, 2008 
+ CSAs + A Sunday Morning + Baseball? 
+ By David Ellis in Culture , Funny , SoftLayer 
+Alright…get ready for some cheese…(but, it is true cheese!)
+
+I really enjoy being part of the SoftLayer team. One of my co-workers and I have a little banter going back and forth regarding our SoftLayer technical support dayshift team. He decided that I should do part of his job one day because he was TIRED! I told him that, “There is no crying in baseball!” He went on to say that if I were a good team player that I would take up the slack when another team member is down. I told him that a coach (shift lead) simply puts in a new player and the “down player” sits on the bench. He then told me that I am no Billy Martin! I responded that he IS my Roberto Vanderlay. He said that he has never heard of Roberto Vanderlay! I said, “Exactly!” Roberto Vanderlay never made it to the big leagues cuz he spent too much time on the bench!
+
+Anyway, this is all in good fun. This co-worker of mine is a very hard worker and he has been promoted after a very short time with SoftLayer. He has begun to specialize in networking while continuing to perform his duties as a CSA. He is essentially doing two jobs SUCCESSFULLY! And that brings me to the point for writing this blog. I thoroughly enjoy working with these guys because they work very hard and pay close attention to detail. They have integrity. They are NOT looking for ways to waste time or do as little work as possible. This cannot be said of very many employees of very many companies. Usually it is 20% of the employees doing 80% of the work. Not true at Softlayer! Yes, of course we all make mistakes at times, but I can trust that my co-workers are working as hard as possible in order to make as few mistakes as possible. But, I am not the only one that benefits from this type of integrity. Our customers are the direct beneficiaries!
+
+A customer was working with Romeo R. today and insisted on speaking with his supervisor in order to express her satisfaction and gratitude for a job well done. She said that Romeo was patient with her, helped to clarify her issue, and finally resolve the issue. She told me to give him a raise! I told her that I would pass her praise for Romeo up the chain of command and that we really appreciate her taking time to show appreciation for hard work. This is not an unusual occurrence, although usually customers will show their gratitude through an update in their ticket. Whoever hired these guys did a great job in selecting great employees with a strong work ethic and the customers of SoftLayer can, and do, affirm this.
+
+I really enjoy coming to work knowing that I have the privilege of working with these types of people.
+
+Ok…ok…he is my Pudge! But don’t let it go to your head!
+
+-David
+ Keywords: baseball , CSA , employees , hard work , operations 
+
+ 1 Comment»   Categories: Culture | Funny | SoftLayer May 24, 2008 
+ SASafras 
+ By Steve Kinman in Culture , SoftLayer 
+Filth flarn foul filth! You all know by now that my brother and I both work at SoftLayer. We are both smart enough to know that it is THE place to work. Ok, well I work and he just sits in his office dreaming of money (He has done that most of his life). I am pretty sure he still has the penny he took from me (forcibly) when I was still his “little” brother. Anyway, I have since outgrown him and he no longer wants to wrestle or play fight. Go figure, I think he got scared. As I have said before he can’t even beat me in racquetball anymore. So what does he do to pay me back? He gets a SAS-70 Type II review (Statements on Auditing Standards) underway and then somehow strategically gets it dumped right in the middle of my desk.
+
+Now let’s review, Customer Service = Accounting, NO. Customer Service = Compliance, NO! Somehow, somewhere I forgot to either skip that meeting or hide accordingly. I think maybe a sick day was in order. I should have been invisible, something, anything. But alas, here I sit reading, writing, editing, and screaming at new better cooler policies and procedures that will make auditors understand that we know what we are doing and we do it well. Now he could have simply selected SAS-70 type I and then we could just “say” we do all this extra stuff and we do it well and whala! SAS-70. But NO! He had to over achieve and pick Type II which says that we have to let someone else inside to make sure we do what we say we do. Not a problem really except that part about it landing in my lap! I’ll get him back, no worries.
+
+In all seriousness (as serious as I can be anyway), this SAS-70 review is a great thing. It is making us look pretty closely at ourselves as a company and as individuals and making us make sure we are the best at what we say we do and making us do it. It will also allow larger enterprise companies to use us as their outsourced IT solution. I keep talking about why companies should outsource and this is one more reason. We are under review currently and should have a decision by the end of the year. Once we get it then you can have the best servers, the best portal, the best network solution, and the best support and have it all outsourced to a “hopefully” SAS-70 certified datacenter.
+
+I am sure my blog-hogging brother will have a rebuttal for this one, and probably Mike Jones as well for using his coined word of blog-hogging again. Blog on!
+
+-Skinman
+ Keywords: audit , data center , outsource , SAS70 
+
+ 1 Comment»   Categories: Culture | SoftLayer May 23, 2008 
+ The Greening of IT: Beyond the Easy 
+ By Sam Fleitman in Executive Blog , Infrastructure 
+The growth in energy demanded by, and used in, IT environments is a well documented phenomenon. Datacenters are using more energy as CPUs get faster, hard drives become larger, and end user demand for access to data and applications continues to increase. Prices for the underlying hardware and services continue to fall, which just fuels more demand.
+
+Datacenter operators have done their best to maximize the use of every available asset within a facility in order to operate highly efficient environments. Much of the emphasis to date has been on proper datacenter alignment: hot-aisle/cold-aisle configurations, blanking panels to cover gaps in server racks, and sealing holes under raised floors to better contain cold air have become common place in the data center.
+
+However, in most large organizations, there many areas that needs more attention. Departments within a large company often have competing goals that negate green IT efforts. One example of this would be –
+
+ The system administrators and developers want the biggest, fastest machines they can get with the most expandability. This enables them to add memory or hard drives as utilization increases – which makes their jobs much easier to perform and helps them better maintain customer SLAs. Purchasing (and finance) department’s primary goal is to save money. The focus is to work with the vendors to reduce the overall hardware cost.
+
+The disconnect between those two departments will often leave the datacenter manager out in the heat (definitely not “out in the cold”). That person’s job essentially becomes “just find a place to put it” until the datacenter is full enough that the answer becomes “no more”. It then becomes a “fix it now” problem as the company struggles with plans to build more datacenter space. So, the problem is a short term view (meeting quarterly earnings results) versus long term direction (to achieve a sustainable and efficient operations environment that may have a short term cost implication).
+
+What should happen is that the disparate groups need to work together throughout the entire planning process. The purchasing department, the system administrators, developers, and the datacenter managers should build a common plan and set realistic expectations in order to optimize the IT infrastructure required and to best meet business, operations, and efficiency objectives.
+
+Let’s continue the example from above… if a server is ordered just because it’s more expandable (more expansion slots, RAM slots and hard drive bays), that means that the power supply has to be bigger to support the potential need of those future components. A server power supply is most efficient (wastes the least amount of power doing the conversion) when it is running at 80-90% load. If a power supply is over sized to support potential future needs, then it is operating at a much lower efficiency than it should – thus generating more heat, wasting more power and requiring more cooling, which in turn requires more power to run the AC’s.
+
+That might seem like a small price to pay for expandability, but when that scenario is multiplied over an entire datacenter, the scope of the problem becomes very significant. This could lead to lost efficiency of well over 20% as a business plans and buys ahead of demand for the computing capacity it may need in the future.
+
+So, what is the other option? Is purchasing right? Should IT simply buy a small server, at a lower total cost, and scale as the business scales? The problem with this is that it tends to lead to exponential growth in all aspects of IT – more racks to house smaller servers, additional disks, more space and power over time, increased obsolescence of components, and more lost efficiency.
+
+The problem is considerably more complex than both options. The simple fact is that the “fixes” for IT go well beyond implementing a hot-aisle cold-aisle layout and sealing up holes under the raised floor of the datacenter. Now that those things have become “best practices,” it’s time to start highlighting all of the other things that can be done to help improve energy efficiency.
+
+At SoftLayer, we promote an energy efficient focus across the entire company. Datacenter best practices are implemented in all of the datacenter facilities we occupy; we use hot-aisle cold-aisle configurations, we use blanking panels, we use 208v power to the server, we pay very close attention to energy efficient components such as power supplies, hard drives and of course CPUs, and we recycle whatever we can.
+
+Most importantly, we deliver a highly flexible solution that allows customers to scale their businesses as they grow – they do not need to over buy or under buy, since we will simply “re-use” the server for the next customer that needs it. Individually, the energy savings from each of these might be fairly small. But, when multiplied across thousands and thousands of servers and multiple datacenters – these many small things become one large thing quickly – a huge savings in energy consumption over a traditional IT environment.
+
+Ultimately, SoftLayer believes that we can never be satisfied with our efforts. As soon as one set of ideas becomes common place or best practices, we need to be looking for the next round of improvements. And bring those new ideas and practices forward so all can benefit.
+
+-SamF
+ Keywords: best practices , data center , efficiency , enegery , green , hardware , operations 
+
+ No Comments»   Categories: Executive Blog | Infrastructure May 15, 2008 
+ Dreams 
+ By David Ellis in Customer Service , SoftLayer 
+Everyone has dreams. Dreams may include having enough money that one never needs to think about money again. Dreams might include working from home. Actually, forget about working from home, how about working from the beach? I dream of providing technical support from my laptop at the beach while sipping pina coladas (virgin, of course, Mr. Crosby…I would never have alcohol on duty):
+
+ 
+
+I spoke to a customer of SoftLayer via his cell phone while he was on a ski boat in the middle of a lake somewhere. This customer received an email regarding a monitoring alert for one of his servers via his cell phone. He called me, the issue was resolved in 5 minutes, and he went back to skiing. That’s right…all work being done remotely from your favorite locale. That is a great dream. Our hardware manager, Brad, would definitely be on the ski slopes in less than a minute if he were told he could manage from that location via laptop. I can just see him snowboarding down the mountain and typing away to his Server Build Engineers about the latest and greatest hardware we are about to roll out. I’m pretty sure Lance is setting us up for this according to his blog entitled, “ Your Datacenter is Obsolete ”
+
+Wait…maybe he is saying that CSA’s will be obsolete as well…uh…nah…he wouldn’t do that to us, right…right?
+
+I speak to customers daily that are working from their homes and living their dreams. A few weeks ago, I spoke to a customer somewhere in a remote location in Canada. He is running a very lucrative business from a cabin. His location is so remote and desolate that truck drivers must be enticed by a yearly salary of over $120,000 to come up there and work. No one would do it for less money than that. I have always lived and worked in big cities like Dallas, Texas, and I cannot imagine living in such a place. This customer is often trapped by snow in the winter and cannot leave his cabin until it melts to the point that he can get out. And yet, he runs a business using SoftLayer servers making more than the truck drivers (how much? I don’t know) from this desolate place (Why? I don’t know…he must like it). What a great business opportunity for someone who chooses to live away from civilization. People only dreamed of such opportunities not so long ago. The days of having to move away from family, friends, and your home in order to find work are long gone. An internet connection and a few SoftLayer servers ; ) are all one needs to make A LOT of money.
+
+I was speaking to another customer yesterday, who was very excited about his business and how Softlayer was helping him to achieve his dreams. While I quietly worked on his issue, he spoke at length about how he first came to hear about Softlayer, the depth to which his vision for his business has grown while partnering with SoftLayer, and his amazing plans for the future of his business. I was truly inspired by his passion for his business and his particular vision for his company. He shared some of the challenges that he has faced and how he overcame them. He readily admitted to some mistakes he has made in business and what he learned from those mistakes. He said that he would not deviate from his goals and that partnering with SoftLayer was integral to achieving those goals. He also said that SoftLayer had helped him greatly in overcoming some of those challenges that he had faced in the past with other datacenters. I must say that it gives me a real sense of pride when a customer tells me that they have partnered with other datacenters in the past, and that their experience with SoftLayer has been second to none. He was also up north somewhere. I don’t know where he was located exactly, but I know he was working from home because I kept hearing a young child playing in the background. This is one thing that so great about the opportunities in this industry. Work from where ever you like and SoftLayer, in particular, makes this easier than ever before.
+
+“Nothing great in the world has ever been accomplished without first dreaming of that accomplishment.”–based on a quote by Hebbel
+
+-David
+ Keywords: Customer Service , customers , data centers , dreams , engineers , SoftLayer 
+
+ 1 Comment»   Categories: Customer Service | SoftLayer May 14, 2008 
+ On Site Development 
+ By Shawn Boles in Business , Development 
+I have a friend who worked at an internationally recognized fast food restaurant. It relies heavily on it’s computer systems to operate. Being a programmer (I’ve always preferred Computer Alchemist), I’ve always been fascinated with the command and control programs used at these restaurants, and have drilled many family members and friends to describe (in the most non-specific non-job-endangering way) what they do with those computers to do their job.
+
+At the fast food restaurant, every order is entered into the cash register at the front of the line, processed by the computer systems on site, the orders are relayed to the kitchen in realtime and displayed on monitors, and various thermal ticket printers spit out meal tickets to be affixed to the various food items to describe their state (Double Cheeseburger, No Pickles, No Onions, Add Secret Sauce). It’s an amazing dance of software.
+
+But I noticed that my friend the grill cook was constantly complaining about the system. Apparently, the order processing is really real time. When the guy up front presses the “double cheeseburger” button, it immediately lights up in the back but it doesn’t alert you that this is an order in progress! So, if the cooks are in a rush and just preparing orders as fast as possible, they might already have the pickles on the burger before the lady up front presses the “No Pickles” button, updating the display. Also, updated items are NOT IDENTIFIED by the system, so if the burger is already wrapped and the burger man is already moving to the next little square, it might not be caught! (Keep this in mind: most order “errors” at this internationally recognized fast food restaurant are caused by slow order takers, or slow customers, or customers who change their mind at the end of an order (Oh, could you make that burger with no onions?). Remember, if the guys in the back are rushing, get your order together in your head before you speak. If you say “Double Cheeseburger, no pickles, no onions, add secret sauce” just like that, it’ll pop into the system the right way!)
+
+My question, of course, was “Why not rewrite the cash registers to be more awesome?” See, the old registers tied into a small computer in the back room that tied into the monitors in the kitchen. All state was held on that one machine, so obviously as soon as it was updated, it would appear on the monitors. But I couldn’t figure out why they kept using this stupid backwards system. It’s 2008! When I worked in the local greasepit in my small town, we used paper tickets we were more efficient than this fast food restaurant’s system! So why haven’t they updated? Simple: the people who can fix it aren’t there to use it.
+
+Aha! That’s what makes SoftLayer so awesome. See, our programming staff is right here, in the same office as everyone else (except for those people who work in our datacenters, but they have our internal IM, email, and phone numbers and know they can contact us at any time.). If something breaks, or if something is built in a backwards or strange way, we know immediately and can turn around and fix it. In fact, we have a whole lot of programmers, as a ratio of developers to normal people. This high ratio allows us to have the best control portal in the world, and to add features quickly. See, if only developers worked at that fast food restaurant, and saw how the system was used, and were allowed to make changes (another awesome bit about SoftLayer: management is open to change. You’d be surprised how many obvious changes simply are not allowed by management in some dev shops…), then it would be a much easier place for everyone involved. And maybe I’d get my Double Cheeseburger right. Without the onions.
+
+-Shawn
+ Keywords: Development , efficiency , errors , fast food , management , programmers , speed 
+
+ 1 Comment»   Categories: Business | Development May 12, 2008 
+ The Great Debate Rebuttal 
+ By Daniel Kracht in Culture , Funny 
+Although those faithful readers (I know there are two of you out there) might be wondering why the geniuses in the sales department engage in such mundane debates, the answer is pretty clear. We are competitive and also enjoy hearing our own voices. And thus the debates ensue. We have wrestled such fascinating topics as Batman vs. Spiderman, Santa vs. the Easter bunny, Chis Farley vs. John Candy, TuPac vs. Biggy and the infamous Gator vs Python , which regrettably ended in a draw.
+
+Sure, we could argue politics or religion. But those topics are a little too touchy for people you have to sit in close proximity to for so many hours each week. So we debate“safer”topics. Unfortunately, even these“safe debates”become heated. But I digress. Enough with the why, let me get back to the important issue at hand… the rebuttal.
+
+I have known young Miller for close to 20 years now and one thing has always remained constant with his arguments—they are always horribly misguided, fatally flawed, and just plain WRONG. Even as I have watched him grow into the capable young man-child he is today, Miller consistently makes one fateful mistake . . . he continues to doubt my vast comprehension of the cosmos and all beings contained therein.
+
+Based on the knowledge I acquired in vet school (if I went to vet school, why am I in sales, you ask?) and upon the many, many hours of Animal Planet I watch daily, Miller’s argument is deficient for multiple reasons. Your boy Sharky is going down. Easily and with less dignity than that of roadkill, my friend.
+
+The main X factor young Miller is over looking here is home field advantage. If this epic battle is to take place in 4 feet of water, then hands down the Grizzly has the advantage. Without depth, the Sharky loses his mobility and everything that makes him an efficient hunter. While it is rare to see a Great White hunt in the shallows, a Grizzly actually prefers to stalk his prey in this environment. Four feet of water is his home and much like the Chicago Bears, Grizzly bears rarely lose at home.
+
+The next clear advantage being overlooked here is the fact that a bear has non-opposable thumbs. No, this does not mean he can use tools or even grip a rusty shank, but this does mean he has ARMS to put Sharky in a rear naked choke and tap him out (if Sharky only had ARMS to tap!!! THE TRAGEDY!). He can use these appendages to jab and swipe his razor sharp claws, all the while back-peddling and keeping his distance from the damaging teeth of the shark. While in his prime, Muhammad Ali used this exact tactic to chop down opponents much larger then him.
+
+Yet another advantage that goes to the Bear is height. Being 8 feet tall would allow for the Bear to pounce on the shark like Laude at an all you can eat sausage buffet (the guy likes sausage). In 4 feet of water the shark is nothing more then an ankle biting battering ram lacking agility and mobility.
+
+And finally… Bears eat fish and things that swim in the water and I have never seen a shark eat anything on land. I could go on all day here but I will spare you all and just cut to the conclusion: Bear wins, end of story.
+
+There is no reply blog necessary here, Miller. I just shut you down, son. Now if you want to talk Chuck Norris vs. God, I am open to debate. GOOD DAY, SIR. I SAID GOOD DAY!
+
+-Daniel
+ Keywords: Animal Planet , Bear vs. Shark , Gator vs. Python 
+
+ 2 Comments»   Categories: Culture | Funny May 9, 2008 
+ Industry-Wide Language Barrier 
+ By Doug Jackson in Business , Technology 
+What language do we speak here at Softlayer? What language is spoken across the industry? Is it the same, or does everyone have their own code for translation?
+
+It seems that in the “on demand datacenter industry”, “hosting industry”, “dedicated server industry” (or whatever you prefer to call it) each company or provider has its own idea and way of projecting who they are. These projections are seldom in line with one another and have a slight difference only to give some idea of separation.
+
+The biggest grey area that I have seen and something that gets distorted is the idea of managed services and just the term “management” in general seems to have lost any kind of universal meaning. The thing that I run into most is when a customer asks us if we are a managed company. I find this to be a loaded question knowing what I know of the industry and other providers. The reason is that you can call your service anything you want to and even come up with clever and creative names for it, but at the end of the day creative marketing doesn’t get results when the rubber meets the road.
+
+It is imperative that the correct expectations are set so that customers aren’t lead astray and find themselves in a situation that they were unprepared for because they were disillusioned by gimmicky wording. Softlayer has the reputation of being an honorable company and I am proud to be a part of that. We do not consider ourselves to be a managed service, but we do offer support and help in many situations. We have support staff here 24 hours every day of the year that can help you, or possibly help point you in a good direction for you to be able to help yourself. We offer OS updates and patches at no additional charge automatically. We strive to be as upfront and fair on everything from the bottom to the top, so I feel that it is my duty to explain this situation in more detail. In fact, all of our sales representatives and many of our customers have felt this same way. What I have found is that this upfront and honest explanation is a rarity and that many companies are not as forthcoming as they could be or should be when discussing “managed services”.
+
+There are a lot of companies who provide the exact same services as we do and call this being “fully managed”. There are others who promise the moon and a shoe shine with their service and then just come up short on the efforts. Now, this may not be entirely their fault because they may have excellent intentions, but a poor and impractical business model. However, intentions don’t get results and customers are the ones who pay most for the misrepresentation. The worst situation is when someone pays a huge premium for a service that is overpromised and then severely under delivered. When I am able to talk to someone who has been in this situation they really appreciate the options and control that they have over every aspect of their service when choosing Softlayer as their provider. The only satisfaction I can get is helping people that have been taken advantage of find a provider that they know they can count on and exactly what they can expect.
+
+This elaboration of services extends beyond server management. No matter what buzz words a company may want to use to describe your company (“largest”, “best”, “heroic”, “ultimate”, really just fill in the blank on this if you’ve been around long enough.) the main thing that matters in this industry is functionality. I am confident in saying that no other company can offer anything close to what Softlayer can provide. Softlayer provides options and capabilities which are unparalleled in the industry in order to give customers complete control over their hardware and thus their own business. There are some that have tried to copy our model and others who have tried to produce a stop-gap solution between what they offer and what we offer, but they have failed. Is this, perhaps, a key reason why we have been able to sustain our high level of growth and remain stable? Possibly. Is this a sign that the best is yet to come with Softlayer? Definitely.
+
+If you want to talk about situations or projects you may have coming up, I would be happy to speak with you and help come up with a solution that will maximize your businesses potential. In fact my entire team is here for this specific purpose.
+
+-Doug
+ Keywords: communication , expectations , language , lingo , managed , managed services , management , provider , service , terminology 
+
+ No Comments»   Categories: Business | Technology May 7, 2008 
+ The Great Debate 
+ By Michael Miller in Funny 
+Who would win in a fight to the death between a Grizzly Bear and a Great White Shark ?
+
+Yes, we here in SLales, particularly Daniel and myself, have these types of serious debates quite often. Now before you get all riled up about how this would never happen and there’s no way these two would ever even meet, etc, etc, hear me out folks. Daniel said it best during one of our many debates about this important issue:
+
+“I win the lotto and I’m putting this show on Pay-Per-View…. greatest show on earth.”
+
+IIIIIIIIIIIn the red corner weighing in at 5,000lbs, laying 20 feet long – SHARKY! AAAAAAAnd in the blue corner weighing in at 1,500lbs and standing 8 feet tall – GRIZZLY!
+
+The setting would be similar to the UFC Octagon , only twice the size, instead of a cage it will be a solid metal octagon and filled with 4 feet of water so the Shark can maneuver and so can the Bear. Both animals are fully grown adults–the Shark is a female, the Bear is a male–predatory in nature and very aggressive.
+
+My contention would be that the Great White wins this battle to the death for a few reasons:
+
+ The Great White Shark has been dubbed “ an efficient killing machine ” on several occasions by many scientists and experts. This ain’t no Salmon Grizzly; this is 20ft and 5,000lbs of fury coming for YOU Bear! Sharky is HUGE, more than double the size of Grizzly. Sharky has rows and rows of teeth that are easily replaceable in a fight to the death, Grizzly has one set and that’s it. Great White Sharks are notorious for their thick skin; the bear doesn’t stand a chance with his teeth and claws. Yes, Grizzly will be more maneuverable, however one bite from Sharky and he’s done. There is a certain 80′s rock band named after Sharky, none for Grizzly.
+
+What’s you guys’ take on the outcome here, do you think Sharky or Grizzly would win?
+
+Daniel, I await your side of the argument sir!
+
+-Michael
+
+***The views and expressions of these events are completely fictional and meant for entertainment purposes only. ***
+ Keywords: Debate , employees , Grizzly , Pay-Per-View , Shark , SLales , UFC 
+
+ 2 Comments»   Categories: Funny Older Entries» 
+ Search for: 
+Order SoftLayer Hosting
+ 
+ Dedicated Servers CloudLayer Computing Object Storage Managed Hosting Current Server Specials 
+ 
+ Twitter Feed 
+
+ Behind the 3 bars. @ jpwisler shares what it’s been like on the front lines of “SoftLayer’s #International Growth.” ≡ sftlyr.com/1q3 1 hour ago We&apos;ll be in #Boston for #HostingCon next week. Does anyone have recommendations on places we&quot;must see&quot;or restaurant suggestions? 2 hours ago Thanks @ BizReviewEUROPE for the article,&quot;Innovation Never Sleeps,&quot;on #SoftLayer . Starts on page 172. ≡ sftlyr.com/1pz cc: @ jpwisler 4 hours ago Last day at #WPC12 , that means you&apos;ve got till 5:30 to stop by booth 1633 and learn how we can help you build the future. #wpc2012 5 hours ago 
+ Follow @SoftLayer 
+Blog Topics
+
+ 3 Bars 3 Questions (10) Business (173) Cloud (47) Culture (208) Customer Service (53) Development (75) Executive Blog (188) Funny (137) Infrastructure (99) International (31) Introductions (56) News (88) Partner Marketplace (45) Sales (34) Social Media (41) SoftLayer (495) Startup Series (14) Technology (226) Tips and Tricks (119) 
+ 
+Top SoftLayer Bloggers
+ 
+ Steve Kinman (53) Jason Gulledge (47) Gary Kinman (40) Kevin Hazard (28) Matthew Herring (27) Mark Quigley (20) Lance Crosby (19) Nathan Day (18) George Karidis (17) Shawn Boles (17) 
+ 
+Monthly Archives
+ Select Month July 2012 (6) June 2012 (16) May 2012 (15) April 2012 (13) March 2012 (15) February 2012 (18) January 2012 (19) December 2011 (22) November 2011 (24) October 2011 (35) September 2011 (23) August 2011 (14) July 2011 (13) June 2011 (14) May 2011 (18) April 2011 (12) March 2011 (17) February 2011 (16) January 2011 (14) December 2010 (11) November 2010 (15) October 2010 (16) September 2010 (11) August 2010 (10) July 2010 (12) June 2010 (12) May 2010 (11) April 2010 (10) March 2010 (10) February 2010 (10) January 2010 (14) December 2009 (13) November 2009 (10) October 2009 (11) September 2009 (11) August 2009 (6) July 2009 (11) June 2009 (12) May 2009 (12) April 2009 (9) March 2009 (8) February 2009 (8) January 2009 (10) December 2008 (6) November 2008 (10) October 2008 (12) September 2008 (10) August 2008 (10) July 2008 (7) June 2008 (12) May 2008 (13) April 2008 (13) March 2008 (12) February 2008 (11) January 2008 (14) December 2007 (10) November 2007 (6) October 2007 (7) September 2007 (10) August 2007 (7) July 2007 (10) June 2007 (12) May 2007 (7) 
+Subscribe
+ All Posts - RSS All Comments - RSS 
+ 
+ Contact | Corporate Info | Careers | Media&amp;Analysts | Legal | Privacy | Sitemap 
+ ©2012 SoftLayer Technologies, Inc. All rights reserved.
+	</body>
+</document>

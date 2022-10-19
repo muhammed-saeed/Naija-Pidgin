@@ -1,0 +1,507 @@
+dobj(locate-1, paint-2)
+
+det(paintbrush-3, a-2)
+dobj(locate-1, paintbrush-3)
+
+dobj(dip-1, paintbrush-2)
+prep_into(dip-1, paint-4)
+
+dobj(run-1, paintbrush-2)
+det(wall-5, the-4)
+prep_over(run-1, wall-5)
+
+dobj(locate-1, paint-2)
+
+dobj(locate-1, paintbrush-2)
+
+dobj(dip-1, paintbrush-2)
+prep_in(dip-1, paint-4)
+
+dobj(run-1, paintbrush-2)
+prep_across(run-1, wall-4)
+
+det(can-3, a-2)
+dobj(open-1, can-3)
+prep_of(can-3, paint-5)
+
+det(paint-3, the-2)
+dobj(stir-1, paint-3)
+
+det(brush-3, a-2)
+dobj(use-1, brush-3)
+aux(apply-5, to-4)
+infmod(brush-3, apply-5)
+dobj(apply-5, paint-6)
+nn(edges-9, wall-8)
+prep_to(apply-5, edges-9)
+
+det(paint-3, some-2)
+dobj(pour-1, paint-3)
+det(pan-7, a-5)
+amod(pan-7, rolling-6)
+prep_into(pour-1, pan-7)
+
+det(roller-3, a-2)
+dobj(use-1, roller-3)
+aux(apply-5, to-4)
+xcomp(use-1, apply-5)
+dobj(apply-5, paint-6)
+nn(surface-9, wall-8)
+prep_to(apply-5, surface-9)
+
+det(can-3, a-2)
+dobj(open-1, can-3)
+prep_of(can-3, pain-5)
+
+dobj(dip-1, paintbrush-2)
+det(can-5, the-4)
+prep_into(dip-1, can-5)
+
+det(paint-3, the-2)
+dobj(brush-1, paint-3)
+det(wall-6, the-5)
+prep_on(brush-1, wall-6)
+
+dobj(get-1, paint-2)
+
+dobj(get-1, tools-2)
+
+dobj(start-1, painting-2)
+
+prt(get-1, out-2)
+det(bucket-4, a-3)
+dobj(get-1, bucket-4)
+prep_of(bucket-4, paint-6)
+
+prt(get-1, out-2)
+det(paitbrush-4, a-3)
+dobj(get-1, paitbrush-4)
+
+det(brush-3, the-2)
+dobj(dip-1, brush-3)
+det(paint-6, the-5)
+prep_into(dip-1, paint-6)
+
+det(paint-3, the-2)
+dobj(brush-1, paint-3)
+det(wall-6, the-5)
+prep_on(brush-1, wall-6)
+
+advmod(coat-2, evenly-1)
+det(wall-5, the-3)
+amod(wall-5, entire-4)
+dep(coat-2, wall-5)
+prep_with(wall-5, paint-7)
+
+det(paint-3, some-2)
+dobj(pour-1, paint-3)
+det(pan-7, a-5)
+amod(pan-7, rolling-6)
+prep_into(pour-1, pan-7)
+
+dobj(use-1, brush-2)
+aux(apply-4, to-3)
+xcomp(use-1, apply-4)
+dobj(apply-4, paint-5)
+det(edges-8, the-7)
+prep_to(apply-4, edges-8)
+det(wall-11, the-10)
+prep_of(edges-8, wall-11)
+
+det(roller-4, a-2)
+nn(roller-4, paint-3)
+dobj(use-1, roller-4)
+aux(apply-6, to-5)
+xcomp(use-1, apply-6)
+dobj(apply-6, paint-7)
+prep_to(apply-6, area-9)
+prep_between(area-9, edges-11)
+
+dobj(allow-1, paint-2)
+aux(dry-4, to-3)
+infmod(paint-2, dry-4)
+
+det(process-4, the-2)
+amod(process-4, entire-3)
+iobj(repeat-1, process-4)
+num(time-7, one-5)
+amod(time-7, more-6)
+dobj(repeat-1, time-7)
+
+dobj(clean-1, wall-2)
+
+dobj(get-1, paint-2)
+
+dobj(dip-1, brush-2)
+prep_in(brush-2, paint-4)
+
+xcomp(move-1, brush-2)
+prt(brush-2, up-3)
+dep(up-3, and-4)
+dep(up-3, down-5)
+dobj(brush-2, wall-6)
+advmod(brush-2, so-7)
+aux(leave-9, to-8)
+xcomp(brush-2, leave-9)
+dobj(leave-9, paint-10)
+prep(leave-9, on-11)
+
+det(wall-3, all-2)
+dobj(cover-1, wall-3)
+prep_with(cover-1, paint-5)
+
+aux(dry-3, to-2)
+xcomp(wait-1, dry-3)
+
+dobj(get-1, paint-2)
+
+dobj(put-1, paint-2)
+prep_into(put-1, tray-4)
+
+dobj(get-1, roller-2)
+
+dobj(put-1, roller-2)
+prep_in(put-1, paint-4)
+
+nsubj(paint-2, roll-1)
+prep_on(paint-2, wall-4)
+
+dobj(choose-1, color-2)
+prep_of(color-2, paint-4)
+
+amod(paint-2, open-1)
+nsubj(can-3, paint-2)
+
+dobj(get-1, brush-2)
+
+dobj(dip-1, brush-2)
+prep_in(brush-2, paint-4)
+
+dobj(rub-1, brush-2)
+prep_on(rub-1, wall-4)
+mark(covered-9, until-5)
+det(wall-7, the-6)
+nsubjpass(covered-9, wall-7)
+auxpass(covered-9, is-8)
+advcl(rub-1, covered-9)
+
+det(painting-3, the-2)
+dobj(repeat-1, painting-3)
+mark(added-10, until-4)
+amod(coats-6, enough-5)
+nsubjpass(added-10, coats-6)
+prep_of(coats-6, paint-8)
+auxpass(added-10, are-9)
+advcl(repeat-1, added-10)
+
+det(wall-3, the-2)
+dobj(wash-1, wall-3)
+
+det(paint-3, the-2)
+dobj(open-1, paint-3)
+
+det(paint-3, the-2)
+dobj(mix-1, paint-3)
+
+dobj(apply-1, paint-2)
+det(brush-5, the-4)
+prep_with(apply-1, brush-5)
+
+amod(wall-4, first-2)
+det(wall-4, the-3)
+dobj(clean-1, wall-4)
+
+dep(do-6, what-2)
+dobj(want-8, what-2)
+nsubj(do-6, color-3)
+prep_of(color-3, paint-5)
+ccomp(decide-1, do-6)
+nsubj(want-8, you-7)
+ccomp(do-6, want-8)
+
+dobj(apply-1, paint-2)
+nn(roller-5, paint-4)
+prep_with(apply-1, roller-5)
+prep_with(apply-1, brush-7)
+conj_or(roller-5, brush-7)
+
+det(wall-3, the-2)
+dobj(clean-1, wall-3)
+
+det(wall-3, the-2)
+dobj(paint-1, wall-3)
+prep_with(paint-1, primer-5)
+
+det(wall-3, the-2)
+dobj(paint-1, wall-3)
+nn(paint-6, wall-5)
+prep_with(paint-1, paint-6)
+
+dobj(choose-1, color-2)
+
+dobj(buy-1, paint-2)
+
+dobj(buy-1, brush-2)
+
+dobj(open-1, can-2)
+
+dobj(put-1, paint-2)
+prep_on(put-1, wall-4)
+prep_with(put-1, brush-6)
+
+amod(room-3, surrounding-2)
+dobj(cover-1, room-3)
+aux(protect-5, to-4)
+infmod(room-3, protect-5)
+prep_from(protect-5, paint-7)
+
+dobj(get-1, paint-2)
+rcmod(paint-2, can-3)
+
+dobj(get-1, paintbrush-2)
+
+amod(paint-2, open-1)
+nsubj(can-3, paint-2)
+
+dobj(stir-1, paint-2)
+
+dobj(dip-1, paintbrush-2)
+nsubj(can-5, paint-4)
+prepc_in(dip-1, can-5)
+
+dobj(use-1, paintbrush-2)
+aux(spread-4, to-3)
+xcomp(use-1, spread-4)
+dobj(spread-4, paint-5)
+prep_on(spread-4, wall-7)
+
+det(paint-3, some-2)
+dobj(pour-1, paint-3)
+det(tray-6, a-5)
+prep_into(pour-1, tray-6)
+
+det(roller-4, a-2)
+nn(roller-4, paint-3)
+dobj(dip-1, roller-4)
+det(paint-7, the-6)
+prep_into(dip-1, paint-7)
+
+det(roller-3, the-2)
+dobj(hold-1, roller-3)
+det(wall-6, the-5)
+prep_against(hold-1, wall-6)
+
+det(roller-3, the-2)
+dobj(run-1, roller-3)
+prep(run-1, up-4)
+prep(run-1, down-6)
+conj_and(up-4, down-6)
+det(wall-8, the-7)
+pobj(down-6, wall-8)
+
+aux(paint-3, to-2)
+xcomp(decide-1, paint-3)
+dobj(paint-3, wall-4)
+
+prep_on(decide-1, color-3)
+
+dobj(buy-1, paint-2)
+
+dobj(buy-1, brushes-2)
+
+dobj(move-1, furniture-2)
+
+prt(lay-1, down-2)
+amod(protection-4, plastic-3)
+dobj(lay-1, protection-4)
+
+
+amod(paint-2, open-1)
+nsubj(can-3, paint-2)
+
+dobj(stir-1, paint-2)
+
+dobj(buy-1, paint-2)
+
+dobj(clean-1, wall-2)
+
+nn(paint-3, paint-2)
+dobj(open-1, paint-3)
+
+dobj(clean-1, wall-2)
+
+dobj(scrape-1, wall-2)
+
+dobj(cover-1, floor-2)
+amod(blanket-7, plastic-4)
+conj_or(plastic-4, old-6)
+amod(blanket-7, old-6)
+prep_with(cover-1, blanket-7)
+
+dobj(apply-1, paint-2)
+prep_to(apply-1, wall-4)
+
+dobj(get-1, paint-2)
+
+dobj(put-1, paint-2)
+prep_on(put-1, wall-4)
+
+dobj(brush-1, wall-2)
+aux(make-4, to-3)
+xcomp(brush-1, make-4)
+acomp(make-4, sure-5)
+nsubj(clean-8, it-6)
+cop(clean-8, is-7)
+ccomp(sure-5, clean-8)
+
+dobj(pry-1, lid-2)
+prt(pry-1, off-3)
+nsubj(can-5, paint-4)
+dep(pry-1, can-5)
+
+dobj(stir-1, paint-2)
+
+dobj(pour-1, paint-2)
+prep_into(pour-1, tray-4)
+
+nn(roller-2, coat-1)
+prep_with(roller-2, paint-4)
+prep_from(roller-2, tray-6)
+
+nsubj(paint-2, roll-1)
+prep_onto(paint-2, wall-4)
+
+amod(coat-3, second-2)
+dobj(apply-1, coat-3)
+mark(needed-5, if-4)
+dep(apply-1, needed-5)
+
+det(wall-3, the-2)
+dobj(clean-1, wall-3)
+
+dobj(buy-1, paint-2)
+amod(color-5, desired-4)
+prep_of(paint-2, color-5)
+
+dobj(open-1, can-2)
+prep_of(can-2, paint-4)
+
+dep(put-1, paint-2)
+dobj(paint-2, thinner-3)
+prep(paint-2, in-4)
+dep(put-1, mix-6)
+conj_and(paint-2, mix-6)
+advmod(mix-6, well-7)
+mark(consistent-11, so-8)
+nsubj(consistent-11, color-9)
+cop(consistent-11, is-10)
+advcl(mix-6, consistent-11)
+
+dobj(add-1, primer-2)
+det(wall-5, the-4)
+prep_to(add-1, wall-5)
+
+det(primer-3, the-2)
+dobj(let-1, primer-3)
+dep(let-1, dry-4)
+
+det(wall-4, the-3)
+prep_on(paint-1, wall-4)
+conj_and(paint-1, repeat-6)
+mark(necessary-8, if-7)
+dep(repeat-6, necessary-8)
+
+dobj(clean-1, wall-2)
+
+dobj(pour-1, pain-2)
+nn(bin-5, paint-4)
+prep_in(pour-1, bin-5)
+
+dobj(put-1, roller-2)
+prep_in(put-1, paint-4)
+
+dep(evenly-3, paint-2)
+advmod(spread-1, evenly-3)
+prep_on(spread-1, wall-5)
+
+dobj(choose-1, paint-2)
+
+nsubj(paint-2, poor-1)
+prep_in(paint-2, tray-4)
+
+dobj(cover-1, brush-2)
+prep_in(brush-2, paint-4)
+
+dobj(apply-1, paint-2)
+prep_to(apply-1, wall-4)
+
+prt(tape-1, off-2)
+dobj(tape-1, carpet-3)
+
+dobj(open-1, can-2)
+prep_of(can-2, paint-4)
+
+dobj(pour-1, paint-2)
+advmod(pour-1, in-3)
+aux(paint-5, to-4)
+xcomp(pour-1, paint-5)
+dobj(paint-5, tray-6)
+
+dobj(dip-1, roller-2)
+nn(tray-5, paint-4)
+prep_into(dip-1, tray-5)
+
+dobj(roll-1, roller-2)
+prep_onto(roll-1, wall-4)
+advmod(roll-1, slowly-5)
+
+dobj(dip-1, roller-2)
+advmod(dip-1, back-3)
+prep_into(dip-1, paint-5)
+
+dobj(roll-1, paint-2)
+prep_on(roll-1, wall-4)
+mark(colored-8, until-5)
+nsubjpass(colored-8, wall-6)
+auxpass(colored-8, is-7)
+advcl(roll-1, colored-8)
+
+dobj(strip-1, wallpaper-2)
+dep(strip-1, remove-3)
+dobj(remove-3, posters-4)
+dobj(remove-3, nails-6)
+conj_and(posters-4, nails-6)
+
+dobj(tape-1, edges-2)
+
+nn(base-2, roll-1)
+nsubj(paint-3, base-2)
+dobj(paint-3, layer-4)
+
+dep(let-1, dry-2)
+num(hours-5, 24-4)
+prep_for(dry-2, hours-5)
+
+amod(coat-3, second-2)
+dobj(paint-1, coat-3)
+
+nn(cracks-2, patch-1)
+
+acomp(let-1, dry-2)
+
+dep(sand-1, filler-2)
+
+dobj(get-1, paint-2)
+
+prt(put-1, down-2)
+dobj(put-1, paper-3)
+aux(protect-5, to-4)
+xcomp(put-1, protect-5)
+prep_from(protect-5, splatter-7)
+
+dobj(paint-1, walls-2)
+
+dobj(run-1, paintbrush-2)
+prep_over(run-1, walls-4)
+advmod(run-1, vertically-5)
+

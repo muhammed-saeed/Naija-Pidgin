@@ -1,0 +1,131 @@
+dobj(wear-1, gloves-2)
+
+det(mask-3, a-2)
+dobj(wear-1, mask-3)
+
+det(label-3, the-2)
+dobj(read-1, label-3)
+
+prep_away_from(keep-1, children-4)
+
+amod(clothing-4, protective-3)
+prep_on(put-1, clothing-4)
+
+amod(materials-3, toxic-2)
+dobj(gather-1, materials-3)
+amod(container-6, protective-5)
+prep_into(gather-1, container-6)
+
+dobj(put-1, container-2)
+amod(location-5, safe-4)
+prep_into(put-1, location-5)
+prepc_for(location-5, throwing-7)
+prt(throwing-7, away-8)
+amod(materials-10, toxic-9)
+dobj(throwing-7, materials-10)
+
+amod(instructions-3, handling-2)
+dobj(read-1, instructions-3)
+
+det(pair-3, a-2)
+dobj(get-1, pair-3)
+prep_of(pair-3, gloves-5)
+
+det(gloves-3, the-2)
+dobj(wear-1, gloves-3)
+
+det(material-4, the-2)
+amod(material-4, toxic-3)
+dobj(hold-1, material-4)
+advmod(hold-1, firmly-5)
+
+amod(gloved-4, protective-3)
+prep_on(put-1, gloved-4)
+
+prepc_on(put-1, breathing-3)
+dobj(breathing-3, apparatus-4)
+
+amod(suit-4, hazmat-3)
+prep_on(put-1, suit-4)
+
+dobj(know-1, procedures-2)
+prep_for(procedures-2, task-4)
+
+dobj(assess-1, dangers-2)
+
+dobj(plan-1, course-2)
+
+dobj(don-1, protections-2)
+
+dobj(handle-1, materials-2)
+
+dobj(conclude-1, procedures-2)
+
+prt(mop-1, up-2)
+
+amod(suit-4, protective-3)
+prep_on(put-1, suit-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, materials-3)
+
+dobj(put-1, them-2)
+prep_in(put-1, container-4)
+
+amod(clothing-3, protective-2)
+dobj(wear-1, clothing-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, material-3)
+
+amod(sheets-3, msds-2)
+dobj(read-1, sheets-3)
+
+amod(gear-3, proper-2)
+dobj(wear-1, gear-3)
+
+aux(ingest-3, do-1)
+neg(ingest-3, not-2)
+amod(items-5, inhale-4)
+dobj(ingest-3, items-5)
+
+dobj(perform-1, task-2)
+det(chemical-6, the-4)
+amod(chemical-6, toxic-5)
+prep_with(perform-1, chemical-6)
+
+amod(chemicals-3, unused-2)
+dobj(contain-1, chemicals-3)
+
+dobj(wear-1, gloves-2)
+
+nn(mask-4, mouth-3)
+prep_on(put-1, mask-4)
+
+dobj(clear-1, area-2)
+prep_of(area-2, use-4)
+
+dobj(use-1, material-2)
+
+dobj(use-1, water-2)
+advmod(well-4, as-3)
+advmod(use-1, well-4)
+
+dobj(put-1, materials-2)
+prt(put-1, away-3)
+
+dobj(throw-1, trash-2)
+
+dobj(wear-1, gloves-2)
+
+dobj(dispose-1, material-2)
+advmod(dispose-1, properly-3)
+
+dobj(put-1, gloves-2)
+prep(put-1, on-3)
+
+dobj(package-1, contents-2)
+advmod(package-1, appropriately-3)
+
+prep_of(dispose-1, package-3)
+

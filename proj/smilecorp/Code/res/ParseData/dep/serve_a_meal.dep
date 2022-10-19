@@ -1,0 +1,763 @@
+nsubj(cook-4, what-2)
+aux(cook-4, to-3)
+ccomp(decide-1, cook-4)
+xcomp(decide-1, cook-4)
+
+det(list-4, a-2)
+nn(list-4, shopping-3)
+dobj(make-1, list-4)
+
+det(store-4, the-3)
+prep_to(go-1, store-4)
+conj_and(go-1, buy-6)
+dobj(buy-6, ingredients-7)
+
+det(meal-3, the-2)
+dobj(cook-1, meal-3)
+
+det(table-3, the-2)
+dobj(set-1, table-3)
+
+det(dishes-4, the-2)
+amod(dishes-4, finished-3)
+dobj(set-1, dishes-4)
+det(table-7, the-6)
+prep_on(set-1, table-7)
+
+det(table-3, the-2)
+dobj(set-1, table-3)
+
+dobj(cook-1, food-2)
+
+amod(food-3, cooked-2)
+dobj(place-1, food-3)
+prep_on(place-1, table-5)
+
+complm(served-5, that-2)
+nsubjpass(served-5, dinner-3)
+auxpass(served-5, is-4)
+ccomp(announce-1, served-5)
+
+det(table-3, the-2)
+dobj(set-1, table-3)
+
+amod(food-3, cooked-2)
+dobj(place-1, food-3)
+det(table-6, the-5)
+prep_on(place-1, table-6)
+
+dobj(inform-1, those-2)
+partmod(those-2, eating-3)
+complm(ready-8, that-4)
+det(food-6, the-5)
+nsubj(ready-8, food-6)
+cop(ready-8, is-7)
+ccomp(eating-3, ready-8)
+
+det(table-3, the-2)
+dobj(set-1, table-3)
+
+det(meal-3, the-2)
+dobj(carry-1, meal-3)
+det(table-6, the-5)
+prep_to(carry-1, table-6)
+
+csubj(plate-8, put-1)
+det(meal-3, the-2)
+dobj(put-1, meal-3)
+det(person-6, each-5)
+prep_onto(put-1, person-6)
+cop(plate-8, s-7)
+
+det(plate-3, a-2)
+dobj(take-1, plate-3)
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+det(plate-6, the-5)
+prep_on(put-1, plate-6)
+
+det(plate-3, the-2)
+dobj(put-1, plate-3)
+det(table-7, the-5)
+amod(table-7, dining-6)
+prep_at(put-1, table-7)
+
+dobj(plan-1, meal-2)
+
+dobj(cook-1, meal-2)
+
+dobj(bring-1, dishes-2)
+prep_to(bring-1, table-4)
+
+amod(dishes-3, dirty-2)
+dobj(remove-1, dishes-3)
+
+det(food-3, the-2)
+dobj(buy-1, food-3)
+
+det(recipe-3, the-2)
+dobj(prepare-1, recipe-3)
+
+det(food-3, the-2)
+dobj(cook-1, food-3)
+
+det(table-3, the-2)
+dobj(set-1, table-3)
+
+det(food-3, the-2)
+dobj(serve-1, food-3)
+
+prt(pick-1, up-2)
+det(dishes-5, the-3)
+amod(dishes-5, dirty-4)
+dobj(pick-1, dishes-5)
+
+det(table-3, the-2)
+dobj(clean-1, table-3)
+
+dobj(set-1, table-2)
+
+dobj(bring-1, food-2)
+prep_at(bring-1, table-4)
+
+dobj(put-1, food-2)
+prep_in(put-1, plate-4)
+
+dobj(arrange-1, table-2)
+
+dobj(put-1, dishes-2)
+prep_on(put-1, table-4)
+
+dobj(bring-1, courses-2)
+num(courses-2, one-3)
+prep_by(bring-1, one-5)
+
+advmod(remove-3, after-1)
+dep(after-1, done-2)
+dobj(remove-3, plates-4)
+
+det(meal-3, the-2)
+dobj(take-1, meal-3)
+
+det(plate-4, a-3)
+prep_on(put-1, plate-4)
+
+det(plate-3, the-2)
+dobj(put-1, plate-3)
+det(table-6, a-5)
+prep_on(put-1, table-6)
+
+xcomp(remove-1, take-2)
+prt(take-2, out-3)
+dobj(take-2, containers-4)
+prep_from(take-2, bag-6)
+
+xcomp(open-1, take-2)
+prt(take-2, out-3)
+dobj(take-2, containers-4)
+
+dobj(take-1, food-2)
+prt(take-1, out-3)
+advmod(take-1, of-4)
+dep(take-1, take-5)
+prt(take-5, out-6)
+dobj(take-5, containers-7)
+
+dobj(put-1, food-2)
+prep_on(put-1, plates-4)
+det(person-7, each-6)
+prep_for(plates-4, person-7)
+
+det(recipe-3, a-2)
+dobj(find-1, recipe-3)
+
+prep_for(shop-1, ingredients-3)
+
+dobj(prepare-1, food-2)
+
+det(table-3, the-2)
+dobj(lay-1, table-3)
+
+det(meal-3, the-2)
+dobj(serve-1, meal-3)
+
+dobj(prepare-1, meal-2)
+
+dobj(put-1, meal-2)
+prep_on(put-1, table-4)
+
+dobj(put-1, utensils-2)
+dobj(put-1, plates-4)
+conj_and(utensils-2, plates-4)
+prep_on(put-1, table-6)
+
+det(meal-3, the-2)
+dobj(cook-1, meal-3)
+
+dobj(put-1, portions-2)
+prep_on(put-1, plates-4)
+
+dobj(take-1, plates-2)
+det(table-5, the-4)
+prep_to(take-1, table-5)
+
+iobj(set-1, plates-2)
+dobj(set-1, cups-3)
+dobj(set-1, silverware-5)
+conj_and(cups-3, silverware-5)
+det(table-9, the-7)
+nn(table-9, dinner-8)
+prep_on(set-1, table-9)
+
+dobj(serve-1, food-2)
+nn(pots-5, cook-4)
+prep_from(serve-1, pots-5)
+prep_from(serve-1, dishes-7)
+conj_and(pots-5, dishes-7)
+det(plates-10, the-9)
+prep_onto(serve-1, plates-10)
+
+dobj(pour-1, beveraves-2)
+det(cups-5, the-4)
+prep_into(pour-1, cups-5)
+
+det(people-3, the-2)
+dobj(invite-1, people-3)
+aux(sit-5, to-4)
+xcomp(invite-1, sit-5)
+prt(sit-5, down-6)
+det(table-9, the-8)
+prep_at(sit-5, table-9)
+
+dobj(bring-1, meal-2)
+prep_to(bring-1, table-4)
+
+det(plate-3, each-2)
+dobj(take-1, plate-3)
+
+det(food-3, some-2)
+dobj(put-1, food-3)
+det(plate-6, each-5)
+prep_on(put-1, plate-6)
+
+det(meal-3, the-2)
+dobj(cook-1, meal-3)
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+prep_on(put-1, plates-5)
+
+det(plates-3, the-2)
+dobj(take-1, plates-3)
+det(guests-6, the-5)
+prep_to(take-1, guests-6)
+
+dobj(locate-1, food-2)
+prep_for(locate-1, meal-4)
+
+amod(meal-3, desired-2)
+dobj(prepare-1, meal-3)
+partmod(meal-3, utilizing-4)
+det(recipe-6, a-5)
+dobj(utilizing-4, recipe-6)
+
+dobj(place-1, silverware-2)
+dobj(place-1, china-4)
+conj_and(silverware-2, china-4)
+nn(table-7, dinner-6)
+prep_on(place-1, table-7)
+
+amod(food-3, prepared-2)
+dobj(move-1, food-3)
+prep_from(move-1, kitchen-5)
+nn(table-8, dinner-7)
+prep_to(move-1, table-8)
+
+dobj(serve-1, food-2)
+
+dobj(cook-1, meal-2)
+
+det(table-3, the-2)
+dobj(set-1, table-3)
+det(number-6, the-5)
+prep_for(set-1, number-6)
+prep_of(number-6, people-8)
+aux(served-11, to-9)
+auxpass(served-11, be-10)
+xcomp(set-1, served-11)
+
+dobj(place-1, food-2)
+prep_on(place-1, plate-4)
+
+dobj(offer-1, plate-2)
+prep_to(offer-1, guests-4)
+
+det(menu-3, a-2)
+dobj(plan-1, menu-3)
+
+det(ingrediants-3, the-2)
+dobj(buy-1, ingrediants-3)
+
+det(ingredients-3, the-2)
+dobj(prepare-1, ingredients-3)
+
+det(food-3, the-2)
+dobj(cook-1, food-3)
+
+det(food-3, the-2)
+dobj(transfer-1, food-3)
+prepc_to(transfer-1, serving-5)
+dobj(serving-5, dishes-6)
+
+det(food-3, the-2)
+dobj(take-1, food-3)
+det(table-6, the-5)
+prep_to(take-1, table-6)
+
+det(table-4, the-2)
+amod(table-4, dining-3)
+dobj(set-1, table-4)
+
+det(meal-3, a-2)
+dobj(prepare-1, meal-3)
+
+det(meal-3, the-2)
+dobj(put-1, meal-3)
+det(table-6, the-5)
+prep_on(put-1, table-6)
+
+complm(served-6, that-2)
+det(meal-4, the-3)
+nsubjpass(served-6, meal-4)
+auxpass(served-6, is-5)
+ccomp(announce-1, served-6)
+
+dobj(gather-1, ingredients-2)
+
+dobj(cook-1, food-2)
+
+dobj(set-1, table-2)
+
+dobj(call-1, people-2)
+prep_to(call-1, table-4)
+
+dobj(bring-1, food-2)
+prep_to(bring-1, table-4)
+
+dobj(eat-1, food-2)
+
+dobj(cook-1, meal-2)
+
+prt(get-1, out-2)
+dobj(get-1, dishes-3)
+
+dobj(put-1, food-2)
+prep_into(put-1, dishes-4)
+
+dobj(bring-1, dishes-2)
+prep_to(bring-1, table-4)
+
+det(table-3, the-2)
+dobj(setting-1, table-3)
+
+det(food-3, the-2)
+dobj(preparing-1, food-3)
+
+det(food-3, the-2)
+dobj(putting-1, food-3)
+prepc_into(putting-1, serving-5)
+dobj(serving-5, dishes-6)
+
+det(food-3, the-2)
+dobj(bringing-1, food-3)
+det(table-6, the-5)
+prep_to(bringing-1, table-6)
+
+nn(guests-2, letting-1)
+nsubj(take-3, guests-2)
+det(food-5, the-4)
+dobj(take-3, food-5)
+
+det(food-3, the-2)
+dobj(eating-1, food-3)
+
+prt(cleaning-1, up-2)
+det(dishes-4, the-3)
+dobj(cleaning-1, dishes-4)
+det(meal-7, the-6)
+prep_after(cleaning-1, meal-7)
+
+dobj(place-1, meal-2)
+prepc_on(place-1, serving-4)
+dobj(serving-4, tray-5)
+
+amod(tray-3, serving-2)
+dobj(carry-1, tray-3)
+prep_to(carry-1, table-5)
+
+dobj(place-1, tray-2)
+prep_on(place-1, table-4)
+
+dobj(read-1, ingredients-2)
+
+dobj(procure-1, ingredients-2)
+
+nn(procedure-3, preparation-2)
+dobj(follow-1, procedure-3)
+
+det(meal-3, the-2)
+dobj(plan-1, meal-3)
+
+det(meal-3, the-2)
+dobj(cook-1, meal-3)
+
+det(table-3, the-2)
+dobj(set-1, table-3)
+
+amod(food-3, cooked-2)
+dobj(put-1, food-3)
+prep_on(put-1, plates-5)
+
+dobj(put-1, plates-2)
+prep_on(put-1, table-4)
+
+dobj(put-1, plates-2)
+det(table-5, the-4)
+prep_on(put-1, table-5)
+
+det(meal-3, the-2)
+dobj(take-1, meal-3)
+det(table-6, the-5)
+prep_to(take-1, table-6)
+
+det(food-3, the-2)
+dobj(put-1, food-3)
+det(plates-6, the-5)
+prep_on(put-1, plates-6)
+
+det(meal-3, the-2)
+dobj(plan-1, meal-3)
+
+det(meal-3, the-2)
+dobj(cook-1, meal-3)
+
+dobj(place-1, meal-2)
+prep_on(place-1, table-4)
+
+det(meal-3, the-2)
+dobj(serve-1, meal-3)
+
+dobj(get-1, ingredients-2)
+
+dobj(prepare-1, ingredients-2)
+
+dobj(cook-1, meal-2)
+
+dobj(put-1, meal-2)
+prep_on(put-1, dishes-4)
+
+dobj(serve-1, meal-2)
+
+dobj(put-1, eachdish-2)
+amod(plate-5, aserving-4)
+prep_in(put-1, plate-5)
+
+det(dish-3, each-2)
+dobj(put-1, dish-3)
+det(plate-7, a-5)
+amod(plate-7, serving-6)
+prep_in(put-1, plate-7)
+
+dep(put-1, serving-2)
+dobj(serving-2, plates-3)
+prep_on(serving-2, table-5)
+
+dobj(cook-1, meal-2)
+
+dobj(lay-1, table-2)
+
+dobj(place-1, meal-2)
+prep_in(place-1, dishes-4)
+
+dobj(bring-1, meal-2)
+prep_to(bring-1, table-4)
+
+det(meal-3, the-2)
+dobj(prepare-1, meal-3)
+
+det(table-3, the-2)
+dobj(set-1, table-3)
+
+dobj(transfer-1, meal-2)
+prepc_to(transfer-1, serving-4)
+dobj(serving-4, dishes-5)
+
+dobj(call-1, guests-2)
+dobj(call-1, family-4)
+conj_or(guests-2, family-4)
+aux(sit-6, to-5)
+xcomp(call-1, sit-6)
+
+dep(place-1, serving-2)
+dobj(serving-2, dishes-3)
+prep_on(serving-2, table-5)
+
+dobj(say-1, grace-2)
+nsubj(observed-4, if-3)
+rcmod(grace-2, observed-4)
+
+prt(chow-1, down-2)
+
+dobj(put-1, plates-2)
+prep_on(put-1, table-4)
+
+nn(knife-3, spoon-2)
+dobj(put-1, knife-3)
+dobj(put-1, fork-5)
+conj_and(knife-3, fork-5)
+prep_on(put-1, table-7)
+
+dobj(put-1, glass-2)
+prep_on(put-1, table-4)
+
+amod(dishes-3, cooked-2)
+dobj(bring-1, dishes-3)
+prep_to(bring-1, table-5)
+
+dobj(call-1, people-2)
+prep_for(call-1, dinner-4)
+
+nsubj(serves-2, everyone-1)
+amod(dishes-5, cooked-4)
+prep_from(serves-2, dishes-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, plate-3)
+
+dobj(put-1, plate-2)
+prep_on(put-1, table-4)
+
+mark(want-4, if-2)
+nsubj(want-4, they-3)
+advcl(ask-1, want-4)
+dobj(want-4, gravy-5)
+
+dobj(cook-1, meal-2)
+
+dobj(set-1, table-2)
+
+dobj(bring-1, food-2)
+prep_to(bring-1, table-4)
+
+det(meal-3, the-2)
+dobj(cook-1, meal-3)
+
+det(table-3, the-2)
+dobj(set-1, table-3)
+
+det(diners-3, the-2)
+dobj(call-1, diners-3)
+prep_to(call-1, dinner-5)
+
+det(items-4, the-2)
+nn(items-4, food-3)
+dobj(place-1, items-4)
+det(table-7, the-6)
+prep_on(place-1, table-7)
+
+det(meal-3, a-2)
+dobj(make-1, meal-3)
+
+det(table-4, the-2)
+nn(table-4, dinner-3)
+dobj(set-1, table-4)
+
+det(food-3, the-2)
+dobj(place-1, food-3)
+det(table-7, the-5)
+nn(table-7, dinner-6)
+prep_on(place-1, table-7)
+
+det(people-3, the-2)
+dobj(call-1, people-3)
+prep_to(call-1, dinner-5)
+
+aux(dish-3, have-1)
+nsubj(dish-3, them-2)
+det(food-5, the-4)
+dobj(dish-3, food-5)
+poss(plates-8, their-7)
+prep_onto(dish-3, plates-8)
+
+det(meal-3, a-2)
+dobj(make-1, meal-3)
+
+det(table-4, the-2)
+nn(table-4, dinner-3)
+dobj(set-1, table-4)
+
+det(food-3, the-2)
+dobj(place-1, food-3)
+det(table-7, the-5)
+nn(table-7, dinner-6)
+prep_on(place-1, table-7)
+
+det(meal-3, a-2)
+dobj(make-1, meal-3)
+
+det(people-3, the-2)
+dobj(call-1, people-3)
+prep_to(call-1, dinner-5)
+
+det(table-4, the-2)
+nn(table-4, dinner-3)
+dobj(set-1, table-4)
+
+det(food-3, the-2)
+dobj(place-1, food-3)
+det(table-7, the-5)
+nn(table-7, dinner-6)
+prep_on(place-1, table-7)
+
+det(people-3, the-2)
+dobj(call-1, people-3)
+prep_to(call-1, dinner-5)
+
+aux(dish-3, have-1)
+nsubj(dish-3, them-2)
+det(food-5, the-4)
+dobj(dish-3, food-5)
+poss(plates-8, their-7)
+prep_onto(dish-3, plates-8)
+
+aux(dish-3, have-1)
+nsubj(dish-3, them-2)
+det(food-5, the-4)
+dobj(dish-3, food-5)
+poss(plates-8, their-7)
+prep_onto(dish-3, plates-8)
+
+det(meal-3, a-2)
+dobj(make-1, meal-3)
+
+det(table-4, the-2)
+nn(table-4, dinner-3)
+dobj(set-1, table-4)
+
+det(food-3, the-2)
+dobj(place-1, food-3)
+det(table-7, the-5)
+nn(table-7, dinner-6)
+prep_on(place-1, table-7)
+
+det(people-3, the-2)
+dobj(call-1, people-3)
+prep_to(call-1, dinner-5)
+
+aux(dish-3, have-1)
+nsubj(dish-3, them-2)
+det(food-5, the-4)
+dobj(dish-3, food-5)
+poss(plates-8, their-7)
+prep_onto(dish-3, plates-8)
+
+det(food-3, the-2)
+dobj(cooking-1, food-3)
+
+det(table-3, the-2)
+dobj(set-1, table-3)
+
+dobj(put-1, food-2)
+dep(platter-6, no-3)
+det(platter-6, a-4)
+amod(platter-6, serving-5)
+dep(put-1, platter-6)
+
+amod(platter-3, serving-2)
+dobj(bring-1, platter-3)
+det(table-6, the-5)
+prep_to(bring-1, table-6)
+
+dobj(get-1, food-2)
+
+dobj(put-1, food-2)
+prep_on(put-1, plate-4)
+
+dobj(take-1, plate-2)
+prep_to(take-1, table-4)
+
+dobj(place-1, plate-2)
+prep_in_front_of(place-1, person-6)
+
+amod(dishes-3, appropriate-2)
+dobj(get-1, dishes-3)
+
+dobj(fill-1, dishes-2)
+prep_with(fill-1, food-4)
+
+nsubj(filled-2, place-1)
+dobj(filled-2, dishes-3)
+prep_in_front_of(filled-2, individual-7)
+
+dobj(get-1, food-2)
+
+dobj(put-1, food-2)
+prep_on(put-1, plate-4)
+
+dobj(take-1, plate-2)
+prep_to(take-1, table-4)
+
+dobj(place-1, plate-2)
+prep_in_front_of(place-1, person-6)
+
+amod(dishes-3, appropriate-2)
+dobj(get-1, dishes-3)
+
+dobj(fill-1, dishes-2)
+prep_with(fill-1, food-4)
+
+nsubj(filled-2, place-1)
+dobj(filled-2, dishes-3)
+prep_in_front_of(filled-2, individual-7)
+
+dobj(get-1, food-2)
+
+dobj(put-1, food-2)
+prep_on(put-1, plate-4)
+
+dobj(take-1, plate-2)
+prep_to(take-1, table-4)
+
+dobj(place-1, plate-2)
+prep_in_front_of(place-1, person-6)
+
+amod(dishes-3, appropriate-2)
+dobj(get-1, dishes-3)
+
+dobj(fill-1, dishes-2)
+prep_with(fill-1, food-4)
+
+nsubj(filled-2, place-1)
+dobj(filled-2, dishes-3)
+prep_in_front_of(filled-2, individual-7)
+
+dobj(prepare-1, meal-2)
+
+dobj(serve-1, appetizers-2)
+
+dobj(serve-1, salad-2)
+
+amod(course-3, main-2)
+dobj(serve-1, course-3)
+
+dobj(serve-1, dessert-2)
+
+dobj(serve-1, coffee-2)
+
+dobj(place-1, food-2)
+prep_on(place-1, plates-4)
+
+dobj(bring-1, plates-2)
+prep_to(bring-1, table-4)
+

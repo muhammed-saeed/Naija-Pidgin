@@ -1,0 +1,443 @@
+csubj(plug-6, find-1)
+det(appliance-3, the-2)
+dobj(find-1, appliance-3)
+cop(plug-6, s-4)
+amod(plug-6, electric-5)
+
+det(outlet-4, an-2)
+amod(outlet-4, electrical-3)
+dobj(find-1, outlet-4)
+
+det(plug-3, the-2)
+dobj(put-1, plug-3)
+det(outlet-6, the-5)
+prep_into(put-1, outlet-6)
+
+csubj(cord-5, find-1)
+dobj(find-1, appliance-2)
+cop(cord-5, s-3)
+amod(cord-5, electric-4)
+
+dobj(plug-1, cord-2)
+amod(outlet-6, electrical-4)
+nn(outlet-6, wall-5)
+prep_into(plug-1, outlet-6)
+
+det(cord-3, the-2)
+dobj(locate-1, cord-3)
+det(appliance-6, the-5)
+prep_on(locate-1, appliance-6)
+
+det(plug-3, the-2)
+dobj(locate-1, plug-3)
+det(cord-6, the-5)
+prep_on(locate-1, cord-6)
+
+det(outlet-4, an-2)
+amod(outlet-4, electrical-3)
+dobj(locate-1, outlet-4)
+det(plug-7, the-6)
+prep_for(outlet-4, plug-7)
+
+det(plug-3, the-2)
+dobj(insert-1, plug-3)
+det(outlet-7, the-5)
+amod(outlet-7, electrical-6)
+prep_into(insert-1, outlet-7)
+
+amod(outlet-3, electric-2)
+dobj(find-1, outlet-3)
+
+nn(plug-3, appliance-2)
+dobj(put-1, plug-3)
+amod(outlet-6, electric-5)
+prep_in(put-1, outlet-6)
+
+nn(cord-3, power-2)
+dobj(locate-1, cord-3)
+
+nn(outlet-3, power-2)
+dobj(locate-1, outlet-3)
+
+dobj(put-1, plug-2)
+prep_into(put-1, outlet-4)
+
+nn(plug-3, appliance-2)
+dobj(find-1, plug-3)
+
+nn(plug-3, power-2)
+dobj(find-1, plug-3)
+
+nn(plug-3, appliance-2)
+dobj(insert-1, plug-3)
+nn(plug-6, power-5)
+prep_in(insert-1, plug-6)
+
+det(appliance-3, the-2)
+dobj(put-1, appliance-3)
+det(outlet-6, an-5)
+prep_near(appliance-3, outlet-6)
+
+acomp(make-1, sure-2)
+det(outlet-4, the-3)
+nsubj(is-5, outlet-4)
+ccomp(sure-2, is-5)
+neg(is-5, not-6)
+prep_in(is-5, use-8)
+
+det(end-4, the-2)
+nn(end-4, plug-3)
+dobj(put-1, end-4)
+det(cord-7, the-6)
+prep_of(end-4, cord-7)
+det(outlet-10, the-9)
+prep_into(put-1, outlet-10)
+
+det(plug-3, the-2)
+dobj(grasp-1, plug-3)
+
+det(socket-4, the-2)
+amod(socket-4, electric-3)
+dobj(locate-1, socket-4)
+
+det(plug-3, the-2)
+dobj(press-1, plug-3)
+det(socket-6, the-5)
+prep_into(press-1, socket-6)
+
+dobj(find-1, plug-2)
+det(appliance-5, the-4)
+prep_of(plug-2, appliance-5)
+
+dobj(find-1, outlet-2)
+
+dobj(put-1, plug-2)
+prep_in(put-1, outlet-4)
+
+nn(outlet-3, power-2)
+dobj(locate-1, outlet-3)
+
+dobj(locate-1, cord-2)
+
+dobj(plug-1, cord-2)
+nn(outlet-5, power-4)
+prep_into(plug-1, outlet-5)
+
+det(outlet-3, an-2)
+dobj(find-1, outlet-3)
+det(appliance-6, the-5)
+prep_near(outlet-3, appliance-6)
+
+det(plug-3, the-2)
+dobj(turn-1, plug-3)
+det(direction-7, the-5)
+amod(direction-7, correct-6)
+prep_in(turn-1, direction-7)
+
+det(plug-3, the-2)
+dobj(plug-1, plug-3)
+det(outlet-6, the-5)
+prep_into(plug-1, outlet-6)
+
+prt(pick-1, up-2)
+det(end-5, the-3)
+nn(end-5, cord-4)
+dobj(pick-1, end-5)
+
+det(outlet-3, an-2)
+dobj(finding-1, outlet-3)
+
+det(cord-3, the-2)
+dobj(plugging-1, cord-3)
+det(outlet-6, the-5)
+prep_into(plugging-1, outlet-6)
+
+det(outlet-4, an-2)
+amod(outlet-4, electric-3)
+dobj(locate-1, outlet-4)
+
+det(cord-4, the-2)
+nn(cord-4, power-3)
+dobj(find-1, cord-4)
+det(appliance-8, the-6)
+amod(appliance-8, electric-7)
+prep_of(cord-4, appliance-8)
+
+det(cord-4, the-2)
+nn(cord-4, power-3)
+dobj(plug-1, cord-4)
+det(outlet-7, the-6)
+prep_into(plug-1, outlet-7)
+
+amod(plug-3, electric-2)
+dobj(take-1, plug-3)
+
+amod(outlet-5, nearest-3)
+amod(outlet-5, electric-4)
+prep_to(go-1, outlet-5)
+
+dobj(insert-1, plug-2)
+prep_in(insert-1, outlet-4)
+
+nn(plug-3, appliance-2)
+dobj(grab-1, plug-3)
+
+amod(outlet-5, nearest-3)
+nn(outlet-5, power-4)
+prep_to(take-1, outlet-5)
+partmod(outlet-5, moving-6)
+det(appliance-8, the-7)
+dobj(moving-6, appliance-8)
+mark(neccessary-10, if-9)
+advcl(take-1, neccessary-10)
+
+dobj(insert-1, plug-2)
+prep_into(insert-1, outlet-4)
+
+dobj(find-1, outlet-2)
+
+dobj(plug-1, plug-2)
+prep_into(plug-1, outlet-4)
+
+det(appliance-4, an-2)
+amod(appliance-4, electric-3)
+dobj(find-1, appliance-4)
+
+csubj(cord-6, find-1)
+det(appliance-3, the-2)
+dobj(find-1, appliance-3)
+cop(cord-6, s-4)
+nn(cord-6, power-5)
+
+prt(pick-1, up-2)
+det(cord-5, the-3)
+nn(cord-5, power-4)
+dobj(pick-1, cord-5)
+det(connector-9, the-7)
+nn(connector-9, power-8)
+prep_by(pick-1, connector-9)
+
+det(connector-3, the-2)
+dobj(plug-1, connector-3)
+det(outlet-7, an-5)
+amod(outlet-7, electrical-6)
+prep_into(plug-1, outlet-7)
+
+nn(socket-3, electricity-2)
+dobj(find-1, socket-3)
+
+dobj(find-1, plug-2)
+amod(appliance-5, electric-4)
+prep_on(find-1, appliance-5)
+
+dobj(put-1, plug-2)
+prep_in(put-1, socket-4)
+
+prt(pick-1, up-2)
+det(plug-4, the-3)
+dobj(pick-1, plug-4)
+
+det(outlet-3, an-2)
+dobj(find-1, outlet-3)
+
+det(plug-3, the-2)
+dobj(plug-1, plug-3)
+det(outlet-6, the-5)
+prep_into(plug-1, outlet-6)
+
+det(appliance-4, the-2)
+amod(appliance-4, electric-3)
+dobj(find-1, appliance-4)
+
+det(cord-3, the-2)
+dobj(find-1, cord-3)
+prep_on(find-1, it-5)
+
+det(outlet-3, an-2)
+dobj(find-1, outlet-3)
+
+det(cord-3, the-2)
+dobj(plug-1, cord-3)
+det(outlet-6, the-5)
+prep_into(plug-1, outlet-6)
+
+det(plug-3, the-2)
+dobj(put-1, plug-3)
+det(outlet-7, a-5)
+amod(outlet-7, main-6)
+prep_in(put-1, outlet-7)
+det(appliance-11, the-9)
+amod(appliance-11, electric-10)
+prep_of(outlet-7, appliance-11)
+
+dobj(get-1, cord-2)
+
+dobj(find-1, outlet-2)
+
+dobj(insert-1, plug-2)
+prep_into(insert-1, outlet-4)
+
+det(outlet-5, an-2)
+amod(outlet-5, open-3)
+amod(outlet-5, electrical-4)
+dobj(locate-1, outlet-5)
+
+det(appliance-3, the-2)
+dobj(put-1, appliance-3)
+advmod(want-6, where-4)
+rel(want-6, where-4)
+nsubj(want-6, you-5)
+rcmod(appliance-3, want-6)
+dobj(want-6, it-7)
+
+det(applicance-3, the-2)
+dobj(take-1, applicance-3)
+nsubj(plug-5, s-4)
+dep(take-1, plug-5)
+conj_and(take-1, insert-7)
+dobj(insert-7, it-8)
+det(outlet-13, the-10)
+amod(outlet-13, open-11)
+amod(outlet-13, electrical-12)
+prep_in(insert-7, outlet-13)
+
+dobj(hold-1, plug-2)
+poss(hand-5, your-4)
+prep_in(hold-1, hand-5)
+
+dobj(put-1, plug-2)
+amod(socket-5, electrical-4)
+prep_into(put-1, socket-5)
+
+det(plug-3, the-2)
+dobj(push-1, plug-3)
+det(outlet-6, the-5)
+prep_into(push-1, outlet-6)
+
+det(plug-3, the-2)
+dobj(put-1, plug-3)
+det(outlet-6, an-5)
+prep_into(put-1, outlet-6)
+
+prt(pick-1, up-2)
+det(plug-4, the-3)
+dobj(pick-1, plug-4)
+
+det(socket-4, a-2)
+nn(socket-4, wall-3)
+dobj(find-1, socket-4)
+
+det(plug-3, the-2)
+dobj(put-1, plug-3)
+det(wall-6, the-5)
+prep_in(put-1, wall-6)
+
+det(appliance-3, the-2)
+dobj(take-1, appliance-3)
+
+amod(socket-3, suitable-2)
+dobj(select-1, socket-3)
+
+det(wire-3, the-2)
+dobj(plug-1, wire-3)
+
+det(appliance-4, the-3)
+prep_on(swith-1, appliance-4)
+
+nn(socket-3, plug-2)
+dobj(locate-1, socket-3)
+
+dobj(hold-1, plug-2)
+
+dobj(push-1, plug-2)
+prep_into(push-1, socket-4)
+
+dobj(take-1, cord-2)
+
+dobj(put-1, plug-2)
+prep_in(put-1, socket-4)
+
+dobj(locate-1, plug-2)
+
+dobj(locate-1, socket-2)
+
+dobj(insert-1, plug-2)
+prep_into(insert-1, socket-4)
+
+prep_on(switch-1, socket-3)
+
+det(plug-3, the-2)
+dobj(grasp-1, plug-3)
+
+det(outlet-4, an-2)
+amod(outlet-4, electrical-3)
+dobj(find-1, outlet-4)
+
+det(plug-3, the-2)
+dobj(insert-1, plug-3)
+det(outlet-6, the-5)
+prep_into(insert-1, outlet-6)
+
+dobj(find-1, end-2)
+prep_of(end-2, cord-4)
+
+dobj(place-1, plug-2)
+nn(socket-5, wall-4)
+prep_in(place-1, socket-5)
+
+amod(plug-4, electric-2)
+amod(plug-4, applicance-3)
+dobj(find-1, plug-4)
+
+amod(socket-4, proper-2)
+amod(socket-4, electric-3)
+dobj(find-1, socket-4)
+
+dobj(insert-1, plug-2)
+prep_into(insert-1, socket-4)
+
+amod(cord-3, electric-2)
+dobj(grasp-1, cord-3)
+
+nn(prongs-3, metal-2)
+dobj(put-1, prongs-3)
+nn(socket-6, wall-5)
+prep_into(put-1, socket-6)
+
+dobj(grab-1, cord-2)
+
+amod(outlet-3, electrical-2)
+dobj(find-1, outlet-3)
+
+prep_in(plug-1, cord-3)
+
+dobj(take-1, cord-2)
+prep_with(take-1, plug-4)
+prep_in(take-1, hand-6)
+
+prep_for(look-1, outlet-3)
+
+dobj(find-1, outlet-2)
+
+dobj(move-1, plug-2)
+prep_to(move-1, outlet-4)
+
+dobj(align-1, plug-2)
+
+prep_into(push-1, outlet-3)
+
+nsubj(plugged-3, it-1)
+nsubj(plugged-3, s-2)
+prep(plugged-3, in-4)
+dep(in-4, now-5)
+
+amod(appliance-3, electric-2)
+dobj(obtain-1, appliance-3)
+
+dobj(take-1, appliance-2)
+amod(outlet-5, nearest-4)
+prep_to(take-1, outlet-5)
+
+prep_in(plug-1, appliance-3)
+prep_into(plug-1, outlet-5)
+

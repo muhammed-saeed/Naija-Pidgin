@@ -1,0 +1,1254 @@
+id	score	v	d-obj	p	p-title
+00001	?	take	new plate	replacement food	food
+00002	?	take	new plate	returns	food
+00003	?	take	new plate	issue	food
+00004	?	take	new plate	waiter	food
+00005	?	take	new plate	server	food
+00006	?	take	new plate	wait staff of problem	food
+00007	?	take	new plate	wait for new order	food
+00008	?	take	new plate	you	food
+00009	?	take	new plate	table	food
+00010	?	take	new plate	flag	food
+00011	?	take	new plate	new dish	food
+00012	?	take	new plate	waiter problem	food
+00013	?	take	new plate	problem	food
+00014	?	take	new plate	good tip	food
+00015	?	take	new plate	higher tip	food
+00016	?	take	new plate	chef complaint	food
+00017	?	take	new plate	reason	food
+00018	?	take	new plate	him	food
+00019	?	take	new plate	waitress	food
+00020	?	take	new plate	new plate of food	food
+00021	?	take	new plate	waitstaff	food
+00022	?	take	new plate	server s attention	food
+00023	?	take	new plate	waitress attention	food
+00024	?	take	new plate	server s	food
+00025	?	take	new plate	replacement meal	food
+00026	?	take	new plate	new meal	food
+00027	?	take	new plate	chef	food
+00028	?	take	new plate	chef complaint of food	food
+00029	?	show	bad parts	replacement food	food
+00030	?	show	bad parts	returns	food
+00031	?	show	bad parts	issue	food
+00032	?	show	bad parts	waiter	food
+00033	?	show	bad parts	server	food
+00034	?	show	bad parts	wait staff of problem	food
+00035	?	show	bad parts	wait for new order	food
+00036	?	show	bad parts	you	food
+00037	?	show	bad parts	table	food
+00038	?	show	bad parts	flag	food
+00039	?	show	bad parts	new dish	food
+00040	?	show	bad parts	new plate	food
+00041	?	show	bad parts	waiter problem	food
+00042	?	show	bad parts	problem	food
+00043	?	show	bad parts	good tip	food
+00044	?	show	bad parts	higher tip	food
+00045	?	show	bad parts	chef complaint	food
+00046	?	show	bad parts	reason	food
+00047	?	show	bad parts	him	food
+00048	?	show	bad parts	waitress	food
+00049	?	show	bad parts	new plate of food	food
+00050	?	show	bad parts	waitstaff	food
+00051	?	show	bad parts	server s attention	food
+00052	?	show	bad parts	waitress attention	food
+00053	?	show	bad parts	server s	food
+00054	?	show	bad parts	replacement meal	food
+00055	?	show	bad parts	new meal	food
+00056	?	show	bad parts	chef	food
+00057	?	show	bad parts	chef complaint of food	food
+00058	?	explain	problem	replacement food	food
+00059	?	explain	problem	returns	food
+00060	?	explain	problem	issue	food
+00061	?	explain	problem	waiter	food
+00062	?	explain	problem	server	food
+00063	?	explain	problem	wait staff of problem	food
+00064	?	explain	problem	wait for new order	food
+00065	?	explain	problem	you	food
+00066	?	explain	problem	table	food
+00067	?	explain	problem	flag	food
+00068	?	explain	problem	new dish	food
+00069	?	explain	problem	new plate	food
+00070	?	explain	problem	waiter problem	food
+00071	?	explain	problem	good tip	food
+00072	?	explain	problem	higher tip	food
+00073	?	explain	problem	chef complaint	food
+00074	?	explain	problem	reason	food
+00075	?	explain	problem	him	food
+00076	?	explain	problem	waitress	food
+00077	?	explain	problem	new plate of food	food
+00078	?	explain	problem	waitstaff	food
+00079	?	explain	problem	server s attention	food
+00080	?	explain	problem	waitress attention	food
+00081	?	explain	problem	server s	food
+00082	?	explain	problem	replacement meal	food
+00083	?	explain	problem	new meal	food
+00084	?	explain	problem	chef	food
+00085	?	explain	problem	chef complaint of food	food
+00086	?	bring	food	replacement food	food
+00087	?	bring	food	returns	food
+00088	?	bring	food	issue	food
+00089	?	bring	food	waiter	food
+00090	?	bring	food	server	food
+00091	?	bring	food	wait staff of problem	food
+00092	?	bring	food	wait for new order	food
+00093	?	bring	food	you	food
+00094	?	bring	food	table	food
+00095	?	bring	food	flag	food
+00096	?	bring	food	new dish	food
+00097	?	bring	food	new plate	food
+00098	?	bring	food	waiter problem	food
+00099	?	bring	food	problem	food
+00100	?	bring	food	good tip	food
+00101	?	bring	food	higher tip	food
+00102	?	bring	food	chef complaint	food
+00103	?	bring	food	reason	food
+00104	?	bring	food	him	food
+00105	?	bring	food	waitress	food
+00106	?	bring	food	new plate of food	food
+00107	?	bring	food	waitstaff	food
+00108	?	bring	food	server s attention	food
+00109	?	bring	food	waitress attention	food
+00110	?	bring	food	server s	food
+00111	?	bring	food	replacement meal	food
+00112	?	bring	food	new meal	food
+00113	?	bring	food	chef	food
+00114	?	bring	food	chef complaint of food	food
+00115	?	hand	dish	replacement food	food
+00116	?	hand	dish	returns	food
+00117	?	hand	dish	issue	food
+00118	?	hand	dish	waiter	food
+00119	?	hand	dish	server	food
+00120	?	hand	dish	wait staff of problem	food
+00121	?	hand	dish	wait for new order	food
+00122	?	hand	dish	you	food
+00123	?	hand	dish	table	food
+00124	?	hand	dish	flag	food
+00125	?	hand	dish	new dish	food
+00126	?	hand	dish	new plate	food
+00127	?	hand	dish	waiter problem	food
+00128	?	hand	dish	problem	food
+00129	?	hand	dish	good tip	food
+00130	?	hand	dish	higher tip	food
+00131	?	hand	dish	chef complaint	food
+00132	?	hand	dish	reason	food
+00133	?	hand	dish	him	food
+00134	?	hand	dish	waitress	food
+00135	?	hand	dish	new plate of food	food
+00136	?	hand	dish	waitstaff	food
+00137	?	hand	dish	server s attention	food
+00138	?	hand	dish	waitress attention	food
+00139	?	hand	dish	server s	food
+00140	?	hand	dish	replacement meal	food
+00141	?	hand	dish	new meal	food
+00142	?	hand	dish	chef	food
+00143	?	hand	dish	chef complaint of food	food
+00144	?	dislike	food	replacement food	food
+00145	?	dislike	food	returns	food
+00146	?	dislike	food	issue	food
+00147	?	dislike	food	waiter	food
+00148	?	dislike	food	server	food
+00149	?	dislike	food	wait staff of problem	food
+00150	?	dislike	food	wait for new order	food
+00151	?	dislike	food	you	food
+00152	?	dislike	food	table	food
+00153	?	dislike	food	flag	food
+00154	?	dislike	food	new dish	food
+00155	?	dislike	food	new plate	food
+00156	?	dislike	food	waiter problem	food
+00157	?	dislike	food	problem	food
+00158	?	dislike	food	good tip	food
+00159	?	dislike	food	higher tip	food
+00160	?	dislike	food	chef complaint	food
+00161	?	dislike	food	reason	food
+00162	?	dislike	food	him	food
+00163	?	dislike	food	waitress	food
+00164	?	dislike	food	new plate of food	food
+00165	?	dislike	food	waitstaff	food
+00166	?	dislike	food	server s attention	food
+00167	?	dislike	food	waitress attention	food
+00168	?	dislike	food	server s	food
+00169	?	dislike	food	replacement meal	food
+00170	?	dislike	food	new meal	food
+00171	?	dislike	food	chef	food
+00172	?	dislike	food	chef complaint of food	food
+00173	?	get	waitress attention	replacement food	food
+00174	?	get	waitress attention	returns	food
+00175	?	get	waitress attention	issue	food
+00176	?	get	waitress attention	waiter	food
+00177	?	get	waitress attention	server	food
+00178	?	get	waitress attention	wait staff of problem	food
+00179	?	get	waitress attention	wait for new order	food
+00180	?	get	waitress attention	you	food
+00181	?	get	waitress attention	table	food
+00182	?	get	waitress attention	flag	food
+00183	?	get	waitress attention	new dish	food
+00184	?	get	waitress attention	new plate	food
+00185	?	get	waitress attention	waiter problem	food
+00186	?	get	waitress attention	problem	food
+00187	?	get	waitress attention	good tip	food
+00188	?	get	waitress attention	higher tip	food
+00189	?	get	waitress attention	chef complaint	food
+00190	?	get	waitress attention	reason	food
+00191	?	get	waitress attention	him	food
+00192	?	get	waitress attention	waitress	food
+00193	?	get	waitress attention	new plate of food	food
+00194	?	get	waitress attention	waitstaff	food
+00195	?	get	waitress attention	server s attention	food
+00196	?	get	waitress attention	server s	food
+00197	?	get	waitress attention	replacement meal	food
+00198	?	get	waitress attention	new meal	food
+00199	?	get	waitress attention	chef	food
+00200	?	get	waitress attention	chef complaint of food	food
+00201	?	notify	wait staff	replacement food	food
+00202	?	notify	wait staff	returns	food
+00203	?	notify	wait staff	issue	food
+00204	?	notify	wait staff	waiter	food
+00205	?	notify	wait staff	server	food
+00206	?	notify	wait staff	wait staff of problem	food
+00207	?	notify	wait staff	wait for new order	food
+00208	?	notify	wait staff	you	food
+00209	?	notify	wait staff	table	food
+00210	?	notify	wait staff	flag	food
+00211	?	notify	wait staff	new dish	food
+00212	?	notify	wait staff	new plate	food
+00213	?	notify	wait staff	waiter problem	food
+00214	?	notify	wait staff	problem	food
+00215	?	notify	wait staff	good tip	food
+00216	?	notify	wait staff	higher tip	food
+00217	?	notify	wait staff	chef complaint	food
+00218	?	notify	wait staff	reason	food
+00219	?	notify	wait staff	him	food
+00220	?	notify	wait staff	waitress	food
+00221	?	notify	wait staff	new plate of food	food
+00222	?	notify	wait staff	waitstaff	food
+00223	?	notify	wait staff	server s attention	food
+00224	?	notify	wait staff	waitress attention	food
+00225	?	notify	wait staff	server s	food
+00226	?	notify	wait staff	replacement meal	food
+00227	?	notify	wait staff	new meal	food
+00228	?	notify	wait staff	chef	food
+00229	?	notify	wait staff	chef complaint of food	food
+00230	?	request	replacement meal	replacement food	food
+00231	?	request	replacement meal	returns	food
+00232	?	request	replacement meal	issue	food
+00233	?	request	replacement meal	waiter	food
+00234	?	request	replacement meal	server	food
+00235	?	request	replacement meal	wait staff of problem	food
+00236	?	request	replacement meal	wait for new order	food
+00237	?	request	replacement meal	you	food
+00238	?	request	replacement meal	table	food
+00239	?	request	replacement meal	flag	food
+00240	?	request	replacement meal	new dish	food
+00241	?	request	replacement meal	new plate	food
+00242	?	request	replacement meal	waiter problem	food
+00243	?	request	replacement meal	problem	food
+00244	?	request	replacement meal	good tip	food
+00245	?	request	replacement meal	higher tip	food
+00246	?	request	replacement meal	chef complaint	food
+00247	?	request	replacement meal	reason	food
+00248	?	request	replacement meal	him	food
+00249	?	request	replacement meal	waitress	food
+00250	?	request	replacement meal	new plate of food	food
+00251	?	request	replacement meal	waitstaff	food
+00252	?	request	replacement meal	server s attention	food
+00253	?	request	replacement meal	waitress attention	food
+00254	?	request	replacement meal	server s	food
+00255	?	request	replacement meal	new meal	food
+00256	?	request	replacement meal	chef	food
+00257	?	request	replacement meal	chef complaint of food	food
+00258	?	get	attention	replacement food	food
+00259	?	get	attention	returns	food
+00260	?	get	attention	issue	food
+00261	?	get	attention	waiter	food
+00262	?	get	attention	server	food
+00263	?	get	attention	wait staff of problem	food
+00264	?	get	attention	wait for new order	food
+00265	?	get	attention	you	food
+00266	?	get	attention	table	food
+00267	?	get	attention	flag	food
+00268	?	get	attention	new dish	food
+00269	?	get	attention	new plate	food
+00270	?	get	attention	waiter problem	food
+00271	?	get	attention	problem	food
+00272	?	get	attention	good tip	food
+00273	?	get	attention	higher tip	food
+00274	?	get	attention	chef complaint	food
+00275	?	get	attention	reason	food
+00276	?	get	attention	him	food
+00277	?	get	attention	waitress	food
+00278	?	get	attention	new plate of food	food
+00279	?	get	attention	waitstaff	food
+00280	?	get	attention	server s attention	food
+00281	?	get	attention	waitress attention	food
+00282	?	get	attention	server s	food
+00283	?	get	attention	replacement meal	food
+00284	?	get	attention	new meal	food
+00285	?	get	attention	chef	food
+00286	?	get	attention	chef complaint of food	food
+00287	?	thank	waiter	replacement food	food
+00288	?	thank	waiter	returns	food
+00289	?	thank	waiter	issue	food
+00290	?	thank	waiter	server	food
+00291	?	thank	waiter	wait staff of problem	food
+00292	?	thank	waiter	wait for new order	food
+00293	?	thank	waiter	you	food
+00294	?	thank	waiter	table	food
+00295	?	thank	waiter	flag	food
+00296	?	thank	waiter	new dish	food
+00297	?	thank	waiter	new plate	food
+00298	?	thank	waiter	waiter problem	food
+00299	?	thank	waiter	problem	food
+00300	?	thank	waiter	good tip	food
+00301	?	thank	waiter	higher tip	food
+00302	?	thank	waiter	chef complaint	food
+00303	?	thank	waiter	reason	food
+00304	?	thank	waiter	him	food
+00305	?	thank	waiter	waitress	food
+00306	?	thank	waiter	new plate of food	food
+00307	?	thank	waiter	waitstaff	food
+00308	?	thank	waiter	server s attention	food
+00309	?	thank	waiter	waitress attention	food
+00310	?	thank	waiter	server s	food
+00311	?	thank	waiter	replacement meal	food
+00312	?	thank	waiter	new meal	food
+00313	?	thank	waiter	chef	food
+00314	?	thank	waiter	chef complaint of food	food
+00315	?	eat	meal	replacement food	food
+00316	?	eat	meal	returns	food
+00317	?	eat	meal	issue	food
+00318	?	eat	meal	waiter	food
+00319	?	eat	meal	server	food
+00320	?	eat	meal	wait staff of problem	food
+00321	?	eat	meal	wait for new order	food
+00322	?	eat	meal	you	food
+00323	?	eat	meal	table	food
+00324	?	eat	meal	flag	food
+00325	?	eat	meal	new dish	food
+00326	?	eat	meal	new plate	food
+00327	?	eat	meal	waiter problem	food
+00328	?	eat	meal	problem	food
+00329	?	eat	meal	good tip	food
+00330	?	eat	meal	higher tip	food
+00331	?	eat	meal	chef complaint	food
+00332	?	eat	meal	reason	food
+00333	?	eat	meal	him	food
+00334	?	eat	meal	waitress	food
+00335	?	eat	meal	new plate of food	food
+00336	?	eat	meal	waitstaff	food
+00337	?	eat	meal	server s attention	food
+00338	?	eat	meal	waitress attention	food
+00339	?	eat	meal	server s	food
+00340	?	eat	meal	replacement meal	food
+00341	?	eat	meal	new meal	food
+00342	?	eat	meal	chef	food
+00343	?	eat	meal	chef complaint of food	food
+00344	?	thank	waitress	replacement food	food
+00345	?	thank	waitress	returns	food
+00346	?	thank	waitress	issue	food
+00347	?	thank	waitress	waiter	food
+00348	?	thank	waitress	server	food
+00349	?	thank	waitress	wait staff of problem	food
+00350	?	thank	waitress	wait for new order	food
+00351	?	thank	waitress	you	food
+00352	?	thank	waitress	table	food
+00353	?	thank	waitress	flag	food
+00354	?	thank	waitress	new dish	food
+00355	?	thank	waitress	new plate	food
+00356	?	thank	waitress	waiter problem	food
+00357	?	thank	waitress	problem	food
+00358	?	thank	waitress	good tip	food
+00359	?	thank	waitress	higher tip	food
+00360	?	thank	waitress	chef complaint	food
+00361	?	thank	waitress	reason	food
+00362	?	thank	waitress	him	food
+00363	?	thank	waitress	new plate of food	food
+00364	?	thank	waitress	waitstaff	food
+00365	?	thank	waitress	server s attention	food
+00366	?	thank	waitress	waitress attention	food
+00367	?	thank	waitress	server s	food
+00368	?	thank	waitress	replacement meal	food
+00369	?	thank	waitress	new meal	food
+00370	?	thank	waitress	chef	food
+00371	?	thank	waitress	chef complaint of food	food
+00372	?	leave	higher tip	replacement food	food
+00373	?	leave	higher tip	returns	food
+00374	?	leave	higher tip	issue	food
+00375	?	leave	higher tip	waiter	food
+00376	?	leave	higher tip	server	food
+00377	?	leave	higher tip	wait staff of problem	food
+00378	?	leave	higher tip	wait for new order	food
+00379	?	leave	higher tip	you	food
+00380	?	leave	higher tip	table	food
+00381	?	leave	higher tip	flag	food
+00382	?	leave	higher tip	new dish	food
+00383	?	leave	higher tip	new plate	food
+00384	?	leave	higher tip	waiter problem	food
+00385	?	leave	higher tip	problem	food
+00386	?	leave	higher tip	good tip	food
+00387	?	leave	higher tip	chef complaint	food
+00388	?	leave	higher tip	reason	food
+00389	?	leave	higher tip	him	food
+00390	?	leave	higher tip	waitress	food
+00391	?	leave	higher tip	new plate of food	food
+00392	?	leave	higher tip	waitstaff	food
+00393	?	leave	higher tip	server s attention	food
+00394	?	leave	higher tip	waitress attention	food
+00395	?	leave	higher tip	server s	food
+00396	?	leave	higher tip	replacement meal	food
+00397	?	leave	higher tip	new meal	food
+00398	?	leave	higher tip	chef	food
+00399	?	leave	higher tip	chef complaint of food	food
+00400	?	get	refund	replacement food	food
+00401	?	get	refund	returns	food
+00402	?	get	refund	issue	food
+00403	?	get	refund	waiter	food
+00404	?	get	refund	server	food
+00405	?	get	refund	wait staff of problem	food
+00406	?	get	refund	wait for new order	food
+00407	?	get	refund	you	food
+00408	?	get	refund	table	food
+00409	?	get	refund	flag	food
+00410	?	get	refund	new dish	food
+00411	?	get	refund	new plate	food
+00412	?	get	refund	waiter problem	food
+00413	?	get	refund	problem	food
+00414	?	get	refund	good tip	food
+00415	?	get	refund	higher tip	food
+00416	?	get	refund	chef complaint	food
+00417	?	get	refund	reason	food
+00418	?	get	refund	him	food
+00419	?	get	refund	waitress	food
+00420	?	get	refund	new plate of food	food
+00421	?	get	refund	waitstaff	food
+00422	?	get	refund	server s attention	food
+00423	?	get	refund	waitress attention	food
+00424	?	get	refund	server s	food
+00425	?	get	refund	replacement meal	food
+00426	?	get	refund	new meal	food
+00427	?	get	refund	chef	food
+00428	?	get	refund	chef complaint of food	food
+00429	?	thank	chef	replacement food	food
+00430	?	thank	chef	returns	food
+00431	?	thank	chef	issue	food
+00432	?	thank	chef	waiter	food
+00433	?	thank	chef	server	food
+00434	?	thank	chef	wait staff of problem	food
+00435	?	thank	chef	wait for new order	food
+00436	?	thank	chef	you	food
+00437	?	thank	chef	table	food
+00438	?	thank	chef	flag	food
+00439	?	thank	chef	new dish	food
+00440	?	thank	chef	new plate	food
+00441	?	thank	chef	waiter problem	food
+00442	?	thank	chef	problem	food
+00443	?	thank	chef	good tip	food
+00444	?	thank	chef	higher tip	food
+00445	?	thank	chef	chef complaint	food
+00446	?	thank	chef	reason	food
+00447	?	thank	chef	him	food
+00448	?	thank	chef	waitress	food
+00449	?	thank	chef	new plate of food	food
+00450	?	thank	chef	waitstaff	food
+00451	?	thank	chef	server s attention	food
+00452	?	thank	chef	waitress attention	food
+00453	?	thank	chef	server s	food
+00454	?	thank	chef	replacement meal	food
+00455	?	thank	chef	new meal	food
+00456	?	thank	chef	chef complaint of food	food
+00457	?	attract	attention	replacement food	food
+00458	?	attract	attention	returns	food
+00459	?	attract	attention	issue	food
+00460	?	attract	attention	waiter	food
+00461	?	attract	attention	server	food
+00462	?	attract	attention	wait staff of problem	food
+00463	?	attract	attention	wait for new order	food
+00464	?	attract	attention	you	food
+00465	?	attract	attention	table	food
+00466	?	attract	attention	flag	food
+00467	?	attract	attention	new dish	food
+00468	?	attract	attention	new plate	food
+00469	?	attract	attention	waiter problem	food
+00470	?	attract	attention	problem	food
+00471	?	attract	attention	good tip	food
+00472	?	attract	attention	higher tip	food
+00473	?	attract	attention	chef complaint	food
+00474	?	attract	attention	reason	food
+00475	?	attract	attention	him	food
+00476	?	attract	attention	waitress	food
+00477	?	attract	attention	new plate of food	food
+00478	?	attract	attention	waitstaff	food
+00479	?	attract	attention	server s attention	food
+00480	?	attract	attention	waitress attention	food
+00481	?	attract	attention	server s	food
+00482	?	attract	attention	replacement meal	food
+00483	?	attract	attention	new meal	food
+00484	?	attract	attention	chef	food
+00485	?	attract	attention	chef complaint of food	food
+00486	?	describe	problem	replacement food	food
+00487	?	describe	problem	returns	food
+00488	?	describe	problem	issue	food
+00489	?	describe	problem	waiter	food
+00490	?	describe	problem	server	food
+00491	?	describe	problem	wait staff of problem	food
+00492	?	describe	problem	wait for new order	food
+00493	?	describe	problem	you	food
+00494	?	describe	problem	table	food
+00495	?	describe	problem	flag	food
+00496	?	describe	problem	new dish	food
+00497	?	describe	problem	new plate	food
+00498	?	describe	problem	waiter problem	food
+00499	?	describe	problem	good tip	food
+00500	?	describe	problem	higher tip	food
+00501	?	describe	problem	chef complaint	food
+00502	?	describe	problem	reason	food
+00503	?	describe	problem	him	food
+00504	?	describe	problem	waitress	food
+00505	?	describe	problem	new plate of food	food
+00506	?	describe	problem	waitstaff	food
+00507	?	describe	problem	server s attention	food
+00508	?	describe	problem	waitress attention	food
+00509	?	describe	problem	server s	food
+00510	?	describe	problem	replacement meal	food
+00511	?	describe	problem	new meal	food
+00512	?	describe	problem	chef	food
+00513	?	describe	problem	chef complaint of food	food
+00514	?	ask	server	replacement food	food
+00515	?	ask	server	returns	food
+00516	?	ask	server	issue	food
+00517	?	ask	server	waiter	food
+00518	?	ask	server	wait staff of problem	food
+00519	?	ask	server	wait for new order	food
+00520	?	ask	server	you	food
+00521	?	ask	server	table	food
+00522	?	ask	server	flag	food
+00523	?	ask	server	new dish	food
+00524	?	ask	server	new plate	food
+00525	?	ask	server	waiter problem	food
+00526	?	ask	server	problem	food
+00527	?	ask	server	good tip	food
+00528	?	ask	server	higher tip	food
+00529	?	ask	server	chef complaint	food
+00530	?	ask	server	reason	food
+00531	?	ask	server	him	food
+00532	?	ask	server	waitress	food
+00533	?	ask	server	new plate of food	food
+00534	?	ask	server	waitstaff	food
+00535	?	ask	server	server s attention	food
+00536	?	ask	server	waitress attention	food
+00537	?	ask	server	server s	food
+00538	?	ask	server	replacement meal	food
+00539	?	ask	server	new meal	food
+00540	?	ask	server	chef	food
+00541	?	ask	server	chef complaint of food	food
+00542	?	find	something wrong	replacement food	food
+00543	?	find	something wrong	returns	food
+00544	?	find	something wrong	issue	food
+00545	?	find	something wrong	waiter	food
+00546	?	find	something wrong	server	food
+00547	?	find	something wrong	wait staff of problem	food
+00548	?	find	something wrong	wait for new order	food
+00549	?	find	something wrong	you	food
+00550	?	find	something wrong	table	food
+00551	?	find	something wrong	flag	food
+00552	?	find	something wrong	new dish	food
+00553	?	find	something wrong	new plate	food
+00554	?	find	something wrong	waiter problem	food
+00555	?	find	something wrong	problem	food
+00556	?	find	something wrong	good tip	food
+00557	?	find	something wrong	higher tip	food
+00558	?	find	something wrong	chef complaint	food
+00559	?	find	something wrong	reason	food
+00560	?	find	something wrong	him	food
+00561	?	find	something wrong	waitress	food
+00562	?	find	something wrong	new plate of food	food
+00563	?	find	something wrong	waitstaff	food
+00564	?	find	something wrong	server s attention	food
+00565	?	find	something wrong	waitress attention	food
+00566	?	find	something wrong	server s	food
+00567	?	find	something wrong	replacement meal	food
+00568	?	find	something wrong	new meal	food
+00569	?	find	something wrong	chef	food
+00570	?	find	something wrong	chef complaint of food	food
+00571	?	taste	food	replacement food	food
+00572	?	taste	food	returns	food
+00573	?	taste	food	issue	food
+00574	?	taste	food	waiter	food
+00575	?	taste	food	server	food
+00576	?	taste	food	wait staff of problem	food
+00577	?	taste	food	wait for new order	food
+00578	?	taste	food	you	food
+00579	?	taste	food	table	food
+00580	?	taste	food	flag	food
+00581	?	taste	food	new dish	food
+00582	?	taste	food	new plate	food
+00583	?	taste	food	waiter problem	food
+00584	?	taste	food	problem	food
+00585	?	taste	food	good tip	food
+00586	?	taste	food	higher tip	food
+00587	?	taste	food	chef complaint	food
+00588	?	taste	food	reason	food
+00589	?	taste	food	him	food
+00590	?	taste	food	waitress	food
+00591	?	taste	food	new plate of food	food
+00592	?	taste	food	waitstaff	food
+00593	?	taste	food	server s attention	food
+00594	?	taste	food	waitress attention	food
+00595	?	taste	food	server s	food
+00596	?	taste	food	replacement meal	food
+00597	?	taste	food	new meal	food
+00598	?	taste	food	chef	food
+00599	?	taste	food	chef complaint of food	food
+00600	?	server	food	replacement food	food
+00601	?	server	food	returns	food
+00602	?	server	food	issue	food
+00603	?	server	food	waiter	food
+00604	?	server	food	server	food
+00605	?	server	food	wait staff of problem	food
+00606	?	server	food	wait for new order	food
+00607	?	server	food	you	food
+00608	?	server	food	table	food
+00609	?	server	food	flag	food
+00610	?	server	food	new dish	food
+00611	?	server	food	new plate	food
+00612	?	server	food	waiter problem	food
+00613	?	server	food	problem	food
+00614	?	server	food	good tip	food
+00615	?	server	food	higher tip	food
+00616	?	server	food	chef complaint	food
+00617	?	server	food	reason	food
+00618	?	server	food	him	food
+00619	?	server	food	waitress	food
+00620	?	server	food	new plate of food	food
+00621	?	server	food	waitstaff	food
+00622	?	server	food	server s attention	food
+00623	?	server	food	waitress attention	food
+00624	?	server	food	server s	food
+00625	?	server	food	replacement meal	food
+00626	?	server	food	new meal	food
+00627	?	server	food	chef	food
+00628	?	server	food	chef complaint of food	food
+00629	?	inspect	new plate	replacement food	food
+00630	?	inspect	new plate	returns	food
+00631	?	inspect	new plate	issue	food
+00632	?	inspect	new plate	waiter	food
+00633	?	inspect	new plate	server	food
+00634	?	inspect	new plate	wait staff of problem	food
+00635	?	inspect	new plate	wait for new order	food
+00636	?	inspect	new plate	you	food
+00637	?	inspect	new plate	table	food
+00638	?	inspect	new plate	flag	food
+00639	?	inspect	new plate	new dish	food
+00640	?	inspect	new plate	waiter problem	food
+00641	?	inspect	new plate	problem	food
+00642	?	inspect	new plate	good tip	food
+00643	?	inspect	new plate	higher tip	food
+00644	?	inspect	new plate	chef complaint	food
+00645	?	inspect	new plate	reason	food
+00646	?	inspect	new plate	him	food
+00647	?	inspect	new plate	waitress	food
+00648	?	inspect	new plate	new plate of food	food
+00649	?	inspect	new plate	waitstaff	food
+00650	?	inspect	new plate	server s attention	food
+00651	?	inspect	new plate	waitress attention	food
+00652	?	inspect	new plate	server s	food
+00653	?	inspect	new plate	replacement meal	food
+00654	?	inspect	new plate	new meal	food
+00655	?	inspect	new plate	chef	food
+00656	?	inspect	new plate	chef complaint of food	food
+00657	?	call	server	replacement food	food
+00658	?	call	server	returns	food
+00659	?	call	server	issue	food
+00660	?	call	server	waiter	food
+00661	?	call	server	wait staff of problem	food
+00662	?	call	server	wait for new order	food
+00663	?	call	server	you	food
+00664	?	call	server	table	food
+00665	?	call	server	flag	food
+00666	?	call	server	new dish	food
+00667	?	call	server	new plate	food
+00668	?	call	server	waiter problem	food
+00669	?	call	server	problem	food
+00670	?	call	server	good tip	food
+00671	?	call	server	higher tip	food
+00672	?	call	server	chef complaint	food
+00673	?	call	server	reason	food
+00674	?	call	server	him	food
+00675	?	call	server	waitress	food
+00676	?	call	server	new plate of food	food
+00677	?	call	server	waitstaff	food
+00678	?	call	server	server s attention	food
+00679	?	call	server	waitress attention	food
+00680	?	call	server	server s	food
+00681	?	call	server	replacement meal	food
+00682	?	call	server	new meal	food
+00683	?	call	server	chef	food
+00684	?	call	server	chef complaint of food	food
+00685	?	leave	good tip	replacement food	food
+00686	?	leave	good tip	returns	food
+00687	?	leave	good tip	issue	food
+00688	?	leave	good tip	waiter	food
+00689	?	leave	good tip	server	food
+00690	?	leave	good tip	wait staff of problem	food
+00691	?	leave	good tip	wait for new order	food
+00692	?	leave	good tip	you	food
+00693	?	leave	good tip	table	food
+00694	?	leave	good tip	flag	food
+00695	?	leave	good tip	new dish	food
+00696	?	leave	good tip	new plate	food
+00697	?	leave	good tip	waiter problem	food
+00698	?	leave	good tip	problem	food
+00699	?	leave	good tip	higher tip	food
+00700	?	leave	good tip	chef complaint	food
+00701	?	leave	good tip	reason	food
+00702	?	leave	good tip	him	food
+00703	?	leave	good tip	waitress	food
+00704	?	leave	good tip	new plate of food	food
+00705	?	leave	good tip	waitstaff	food
+00706	?	leave	good tip	server s attention	food
+00707	?	leave	good tip	waitress attention	food
+00708	?	leave	good tip	server s	food
+00709	?	leave	good tip	replacement meal	food
+00710	?	leave	good tip	new meal	food
+00711	?	leave	good tip	chef	food
+00712	?	leave	good tip	chef complaint of food	food
+00713	?	correct	issue	replacement food	food
+00714	?	correct	issue	returns	food
+00715	?	correct	issue	waiter	food
+00716	?	correct	issue	server	food
+00717	?	correct	issue	wait staff of problem	food
+00718	?	correct	issue	wait for new order	food
+00719	?	correct	issue	you	food
+00720	?	correct	issue	table	food
+00721	?	correct	issue	flag	food
+00722	?	correct	issue	new dish	food
+00723	?	correct	issue	new plate	food
+00724	?	correct	issue	waiter problem	food
+00725	?	correct	issue	problem	food
+00726	?	correct	issue	good tip	food
+00727	?	correct	issue	higher tip	food
+00728	?	correct	issue	chef complaint	food
+00729	?	correct	issue	reason	food
+00730	?	correct	issue	him	food
+00731	?	correct	issue	waitress	food
+00732	?	correct	issue	new plate of food	food
+00733	?	correct	issue	waitstaff	food
+00734	?	correct	issue	server s attention	food
+00735	?	correct	issue	waitress attention	food
+00736	?	correct	issue	server s	food
+00737	?	correct	issue	replacement meal	food
+00738	?	correct	issue	new meal	food
+00739	?	correct	issue	chef	food
+00740	?	correct	issue	chef complaint of food	food
+00741	?	tell	him	replacement food	food
+00742	?	tell	him	returns	food
+00743	?	tell	him	issue	food
+00744	?	tell	him	waiter	food
+00745	?	tell	him	server	food
+00746	?	tell	him	wait staff of problem	food
+00747	?	tell	him	wait for new order	food
+00748	?	tell	him	you	food
+00749	?	tell	him	table	food
+00750	?	tell	him	flag	food
+00751	?	tell	him	new dish	food
+00752	?	tell	him	new plate	food
+00753	?	tell	him	waiter problem	food
+00754	?	tell	him	problem	food
+00755	?	tell	him	good tip	food
+00756	?	tell	him	higher tip	food
+00757	?	tell	him	chef complaint	food
+00758	?	tell	him	reason	food
+00759	?	tell	him	waitress	food
+00760	?	tell	him	new plate of food	food
+00761	?	tell	him	waitstaff	food
+00762	?	tell	him	server s attention	food
+00763	?	tell	him	waitress attention	food
+00764	?	tell	him	server s	food
+00765	?	tell	him	replacement meal	food
+00766	?	tell	him	new meal	food
+00767	?	tell	him	chef	food
+00768	?	tell	him	chef complaint of food	food
+00769	?	prepares	new food	replacement food	food
+00770	?	prepares	new food	returns	food
+00771	?	prepares	new food	issue	food
+00772	?	prepares	new food	waiter	food
+00773	?	prepares	new food	server	food
+00774	?	prepares	new food	wait staff of problem	food
+00775	?	prepares	new food	wait for new order	food
+00776	?	prepares	new food	you	food
+00777	?	prepares	new food	table	food
+00778	?	prepares	new food	flag	food
+00779	?	prepares	new food	new dish	food
+00780	?	prepares	new food	new plate	food
+00781	?	prepares	new food	waiter problem	food
+00782	?	prepares	new food	problem	food
+00783	?	prepares	new food	good tip	food
+00784	?	prepares	new food	higher tip	food
+00785	?	prepares	new food	chef complaint	food
+00786	?	prepares	new food	reason	food
+00787	?	prepares	new food	him	food
+00788	?	prepares	new food	waitress	food
+00789	?	prepares	new food	new plate of food	food
+00790	?	prepares	new food	waitstaff	food
+00791	?	prepares	new food	server s attention	food
+00792	?	prepares	new food	waitress attention	food
+00793	?	prepares	new food	server s	food
+00794	?	prepares	new food	replacement meal	food
+00795	?	prepares	new food	new meal	food
+00796	?	prepares	new food	chef	food
+00797	?	prepares	new food	chef complaint of food	food
+00798	?	asks	me	replacement food	food
+00799	?	asks	me	returns	food
+00800	?	asks	me	issue	food
+00801	?	asks	me	waiter	food
+00802	?	asks	me	server	food
+00803	?	asks	me	wait staff of problem	food
+00804	?	asks	me	wait for new order	food
+00805	?	asks	me	you	food
+00806	?	asks	me	table	food
+00807	?	asks	me	flag	food
+00808	?	asks	me	new dish	food
+00809	?	asks	me	new plate	food
+00810	?	asks	me	waiter problem	food
+00811	?	asks	me	problem	food
+00812	?	asks	me	good tip	food
+00813	?	asks	me	higher tip	food
+00814	?	asks	me	chef complaint	food
+00815	?	asks	me	reason	food
+00816	?	asks	me	him	food
+00817	?	asks	me	waitress	food
+00818	?	asks	me	new plate of food	food
+00819	?	asks	me	waitstaff	food
+00820	?	asks	me	server s attention	food
+00821	?	asks	me	waitress attention	food
+00822	?	asks	me	server s	food
+00823	?	asks	me	replacement meal	food
+00824	?	asks	me	new meal	food
+00825	?	asks	me	chef	food
+00826	?	asks	me	chef complaint of food	food
+00827	?	brings	new meal	replacement food	food
+00828	?	brings	new meal	returns	food
+00829	?	brings	new meal	issue	food
+00830	?	brings	new meal	waiter	food
+00831	?	brings	new meal	server	food
+00832	?	brings	new meal	wait staff of problem	food
+00833	?	brings	new meal	wait for new order	food
+00834	?	brings	new meal	you	food
+00835	?	brings	new meal	table	food
+00836	?	brings	new meal	flag	food
+00837	?	brings	new meal	new dish	food
+00838	?	brings	new meal	new plate	food
+00839	?	brings	new meal	waiter problem	food
+00840	?	brings	new meal	problem	food
+00841	?	brings	new meal	good tip	food
+00842	?	brings	new meal	higher tip	food
+00843	?	brings	new meal	chef complaint	food
+00844	?	brings	new meal	reason	food
+00845	?	brings	new meal	him	food
+00846	?	brings	new meal	waitress	food
+00847	?	brings	new meal	new plate of food	food
+00848	?	brings	new meal	waitstaff	food
+00849	?	brings	new meal	server s attention	food
+00850	?	brings	new meal	waitress attention	food
+00851	?	brings	new meal	server s	food
+00852	?	brings	new meal	replacement meal	food
+00853	?	brings	new meal	chef	food
+00854	?	brings	new meal	chef complaint of food	food
+00855	?	call	waiter	replacement food	food
+00856	?	call	waiter	returns	food
+00857	?	call	waiter	issue	food
+00858	?	call	waiter	server	food
+00859	?	call	waiter	wait staff of problem	food
+00860	?	call	waiter	wait for new order	food
+00861	?	call	waiter	you	food
+00862	?	call	waiter	table	food
+00863	?	call	waiter	flag	food
+00864	?	call	waiter	new dish	food
+00865	?	call	waiter	new plate	food
+00866	?	call	waiter	waiter problem	food
+00867	?	call	waiter	problem	food
+00868	?	call	waiter	good tip	food
+00869	?	call	waiter	higher tip	food
+00870	?	call	waiter	chef complaint	food
+00871	?	call	waiter	reason	food
+00872	?	call	waiter	him	food
+00873	?	call	waiter	waitress	food
+00874	?	call	waiter	new plate of food	food
+00875	?	call	waiter	waitstaff	food
+00876	?	call	waiter	server s attention	food
+00877	?	call	waiter	waitress attention	food
+00878	?	call	waiter	server s	food
+00879	?	call	waiter	replacement meal	food
+00880	?	call	waiter	new meal	food
+00881	?	call	waiter	chef	food
+00882	?	call	waiter	chef complaint of food	food
+00883	?	tell	waiter problem	replacement food	food
+00884	?	tell	waiter problem	returns	food
+00885	?	tell	waiter problem	issue	food
+00886	?	tell	waiter problem	waiter	food
+00887	?	tell	waiter problem	server	food
+00888	?	tell	waiter problem	wait staff of problem	food
+00889	?	tell	waiter problem	wait for new order	food
+00890	?	tell	waiter problem	you	food
+00891	?	tell	waiter problem	table	food
+00892	?	tell	waiter problem	flag	food
+00893	?	tell	waiter problem	new dish	food
+00894	?	tell	waiter problem	new plate	food
+00895	?	tell	waiter problem	problem	food
+00896	?	tell	waiter problem	good tip	food
+00897	?	tell	waiter problem	higher tip	food
+00898	?	tell	waiter problem	chef complaint	food
+00899	?	tell	waiter problem	reason	food
+00900	?	tell	waiter problem	him	food
+00901	?	tell	waiter problem	waitress	food
+00902	?	tell	waiter problem	new plate of food	food
+00903	?	tell	waiter problem	waitstaff	food
+00904	?	tell	waiter problem	server s attention	food
+00905	?	tell	waiter problem	waitress attention	food
+00906	?	tell	waiter problem	server s	food
+00907	?	tell	waiter problem	replacement meal	food
+00908	?	tell	waiter problem	new meal	food
+00909	?	tell	waiter problem	chef	food
+00910	?	tell	waiter problem	chef complaint of food	food
+00911	?	hand	plate	replacement food	food
+00912	?	hand	plate	returns	food
+00913	?	hand	plate	issue	food
+00914	?	hand	plate	waiter	food
+00915	?	hand	plate	server	food
+00916	?	hand	plate	wait staff of problem	food
+00917	?	hand	plate	wait for new order	food
+00918	?	hand	plate	you	food
+00919	?	hand	plate	table	food
+00920	?	hand	plate	flag	food
+00921	?	hand	plate	new dish	food
+00922	?	hand	plate	new plate	food
+00923	?	hand	plate	waiter problem	food
+00924	?	hand	plate	problem	food
+00925	?	hand	plate	good tip	food
+00926	?	hand	plate	higher tip	food
+00927	?	hand	plate	chef complaint	food
+00928	?	hand	plate	reason	food
+00929	?	hand	plate	him	food
+00930	?	hand	plate	waitress	food
+00931	?	hand	plate	new plate of food	food
+00932	?	hand	plate	waitstaff	food
+00933	?	hand	plate	server s attention	food
+00934	?	hand	plate	waitress attention	food
+00935	?	hand	plate	server s	food
+00936	?	hand	plate	replacement meal	food
+00937	?	hand	plate	new meal	food
+00938	?	hand	plate	chef	food
+00939	?	hand	plate	chef complaint of food	food
+00940	?	send	old one	replacement food	food
+00941	?	send	old one	returns	food
+00942	?	send	old one	issue	food
+00943	?	send	old one	waiter	food
+00944	?	send	old one	server	food
+00945	?	send	old one	wait staff of problem	food
+00946	?	send	old one	wait for new order	food
+00947	?	send	old one	you	food
+00948	?	send	old one	table	food
+00949	?	send	old one	flag	food
+00950	?	send	old one	new dish	food
+00951	?	send	old one	new plate	food
+00952	?	send	old one	waiter problem	food
+00953	?	send	old one	problem	food
+00954	?	send	old one	good tip	food
+00955	?	send	old one	higher tip	food
+00956	?	send	old one	chef complaint	food
+00957	?	send	old one	reason	food
+00958	?	send	old one	him	food
+00959	?	send	old one	waitress	food
+00960	?	send	old one	new plate of food	food
+00961	?	send	old one	waitstaff	food
+00962	?	send	old one	server s attention	food
+00963	?	send	old one	waitress attention	food
+00964	?	send	old one	server s	food
+00965	?	send	old one	replacement meal	food
+00966	?	send	old one	new meal	food
+00967	?	send	old one	chef	food
+00968	?	send	old one	chef complaint of food	food
+00969	?	ask	him	replacement food	food
+00970	?	ask	him	returns	food
+00971	?	ask	him	issue	food
+00972	?	ask	him	waiter	food
+00973	?	ask	him	server	food
+00974	?	ask	him	wait staff of problem	food
+00975	?	ask	him	wait for new order	food
+00976	?	ask	him	you	food
+00977	?	ask	him	table	food
+00978	?	ask	him	flag	food
+00979	?	ask	him	new dish	food
+00980	?	ask	him	new plate	food
+00981	?	ask	him	waiter problem	food
+00982	?	ask	him	problem	food
+00983	?	ask	him	good tip	food
+00984	?	ask	him	higher tip	food
+00985	?	ask	him	chef complaint	food
+00986	?	ask	him	reason	food
+00987	?	ask	him	waitress	food
+00988	?	ask	him	new plate of food	food
+00989	?	ask	him	waitstaff	food
+00990	?	ask	him	server s attention	food
+00991	?	ask	him	waitress attention	food
+00992	?	ask	him	server s	food
+00993	?	ask	him	replacement meal	food
+00994	?	ask	him	new meal	food
+00995	?	ask	him	chef	food
+00996	?	ask	him	chef complaint of food	food
+00997	?	get	new plate	replacement food	food
+00998	?	get	new plate	returns	food
+00999	?	get	new plate	issue	food
+01000	?	get	new plate	waiter	food
+01001	?	get	new plate	server	food
+01002	?	get	new plate	wait staff of problem	food
+01003	?	get	new plate	wait for new order	food
+01004	?	get	new plate	you	food
+01005	?	get	new plate	table	food
+01006	?	get	new plate	flag	food
+01007	?	get	new plate	new dish	food
+01008	?	get	new plate	waiter problem	food
+01009	?	get	new plate	problem	food
+01010	?	get	new plate	good tip	food
+01011	?	get	new plate	higher tip	food
+01012	?	get	new plate	chef complaint	food
+01013	?	get	new plate	reason	food
+01014	?	get	new plate	him	food
+01015	?	get	new plate	waitress	food
+01016	?	get	new plate	new plate of food	food
+01017	?	get	new plate	waitstaff	food
+01018	?	get	new plate	server s attention	food
+01019	?	get	new plate	waitress attention	food
+01020	?	get	new plate	server s	food
+01021	?	get	new plate	replacement meal	food
+01022	?	get	new plate	new meal	food
+01023	?	get	new plate	chef	food
+01024	?	get	new plate	chef complaint of food	food
+01025	?	thank	waitstaff	replacement food	food
+01026	?	thank	waitstaff	returns	food
+01027	?	thank	waitstaff	issue	food
+01028	?	thank	waitstaff	waiter	food
+01029	?	thank	waitstaff	server	food
+01030	?	thank	waitstaff	wait staff of problem	food
+01031	?	thank	waitstaff	wait for new order	food
+01032	?	thank	waitstaff	you	food
+01033	?	thank	waitstaff	table	food
+01034	?	thank	waitstaff	flag	food
+01035	?	thank	waitstaff	new dish	food
+01036	?	thank	waitstaff	new plate	food
+01037	?	thank	waitstaff	waiter problem	food
+01038	?	thank	waitstaff	problem	food
+01039	?	thank	waitstaff	good tip	food
+01040	?	thank	waitstaff	higher tip	food
+01041	?	thank	waitstaff	chef complaint	food
+01042	?	thank	waitstaff	reason	food
+01043	?	thank	waitstaff	him	food
+01044	?	thank	waitstaff	waitress	food
+01045	?	thank	waitstaff	new plate of food	food
+01046	?	thank	waitstaff	server s attention	food
+01047	?	thank	waitstaff	waitress attention	food
+01048	?	thank	waitstaff	server s	food
+01049	?	thank	waitstaff	replacement meal	food
+01050	?	thank	waitstaff	new meal	food
+01051	?	thank	waitstaff	chef	food
+01052	?	thank	waitstaff	chef complaint of food	food
+01053	?	ask	her	replacement food	food
+01054	?	ask	her	returns	food
+01055	?	ask	her	issue	food
+01056	?	ask	her	waiter	food
+01057	?	ask	her	server	food
+01058	?	ask	her	wait staff of problem	food
+01059	?	ask	her	wait for new order	food
+01060	?	ask	her	you	food
+01061	?	ask	her	table	food
+01062	?	ask	her	flag	food
+01063	?	ask	her	new dish	food
+01064	?	ask	her	new plate	food
+01065	?	ask	her	waiter problem	food
+01066	?	ask	her	problem	food
+01067	?	ask	her	good tip	food
+01068	?	ask	her	higher tip	food
+01069	?	ask	her	chef complaint	food
+01070	?	ask	her	reason	food
+01071	?	ask	her	him	food
+01072	?	ask	her	waitress	food
+01073	?	ask	her	new plate of food	food
+01074	?	ask	her	waitstaff	food
+01075	?	ask	her	server s attention	food
+01076	?	ask	her	waitress attention	food
+01077	?	ask	her	server s	food
+01078	?	ask	her	replacement meal	food
+01079	?	ask	her	new meal	food
+01080	?	ask	her	chef	food
+01081	?	ask	her	chef complaint of food	food
+01082	?	order	something	replacement food	food
+01083	?	order	something	returns	food
+01084	?	order	something	issue	food
+01085	?	order	something	waiter	food
+01086	?	order	something	server	food
+01087	?	order	something	wait staff of problem	food
+01088	?	order	something	wait for new order	food
+01089	?	order	something	you	food
+01090	?	order	something	table	food
+01091	?	order	something	flag	food
+01092	?	order	something	new dish	food
+01093	?	order	something	new plate	food
+01094	?	order	something	waiter problem	food
+01095	?	order	something	problem	food
+01096	?	order	something	good tip	food
+01097	?	order	something	higher tip	food
+01098	?	order	something	chef complaint	food
+01099	?	order	something	reason	food
+01100	?	order	something	him	food
+01101	?	order	something	waitress	food
+01102	?	order	something	new plate of food	food
+01103	?	order	something	waitstaff	food
+01104	?	order	something	server s attention	food
+01105	?	order	something	waitress attention	food
+01106	?	order	something	server s	food
+01107	?	order	something	replacement meal	food
+01108	?	order	something	new meal	food
+01109	?	order	something	chef	food
+01110	?	order	something	chef complaint of food	food
+01111	?	takes	dish	replacement food	food
+01112	?	takes	dish	returns	food
+01113	?	takes	dish	issue	food
+01114	?	takes	dish	waiter	food
+01115	?	takes	dish	server	food
+01116	?	takes	dish	wait staff of problem	food
+01117	?	takes	dish	wait for new order	food
+01118	?	takes	dish	you	food
+01119	?	takes	dish	table	food
+01120	?	takes	dish	flag	food
+01121	?	takes	dish	new dish	food
+01122	?	takes	dish	new plate	food
+01123	?	takes	dish	waiter problem	food
+01124	?	takes	dish	problem	food
+01125	?	takes	dish	good tip	food
+01126	?	takes	dish	higher tip	food
+01127	?	takes	dish	chef complaint	food
+01128	?	takes	dish	reason	food
+01129	?	takes	dish	him	food
+01130	?	takes	dish	waitress	food
+01131	?	takes	dish	new plate of food	food
+01132	?	takes	dish	waitstaff	food
+01133	?	takes	dish	server s attention	food
+01134	?	takes	dish	waitress attention	food
+01135	?	takes	dish	server s	food
+01136	?	takes	dish	replacement meal	food
+01137	?	takes	dish	new meal	food
+01138	?	takes	dish	chef	food
+01139	?	takes	dish	chef complaint of food	food
+01140	?	tell	chef complaint	replacement food	food
+01141	?	tell	chef complaint	returns	food
+01142	?	tell	chef complaint	issue	food
+01143	?	tell	chef complaint	waiter	food
+01144	?	tell	chef complaint	server	food
+01145	?	tell	chef complaint	wait staff of problem	food
+01146	?	tell	chef complaint	wait for new order	food
+01147	?	tell	chef complaint	you	food
+01148	?	tell	chef complaint	table	food
+01149	?	tell	chef complaint	flag	food
+01150	?	tell	chef complaint	new dish	food
+01151	?	tell	chef complaint	new plate	food
+01152	?	tell	chef complaint	waiter problem	food
+01153	?	tell	chef complaint	problem	food
+01154	?	tell	chef complaint	good tip	food
+01155	?	tell	chef complaint	higher tip	food
+01156	?	tell	chef complaint	reason	food
+01157	?	tell	chef complaint	him	food
+01158	?	tell	chef complaint	waitress	food
+01159	?	tell	chef complaint	new plate of food	food
+01160	?	tell	chef complaint	waitstaff	food
+01161	?	tell	chef complaint	server s attention	food
+01162	?	tell	chef complaint	waitress attention	food
+01163	?	tell	chef complaint	server s	food
+01164	?	tell	chef complaint	replacement meal	food
+01165	?	tell	chef complaint	new meal	food
+01166	?	tell	chef complaint	chef	food
+01167	?	tell	chef complaint	chef complaint of food	food
+01168	?	try	replacement food	returns	food
+01169	?	try	replacement food	issue	food
+01170	?	try	replacement food	waiter	food
+01171	?	try	replacement food	server	food
+01172	?	try	replacement food	wait staff of problem	food
+01173	?	try	replacement food	wait for new order	food
+01174	?	try	replacement food	you	food
+01175	?	try	replacement food	table	food
+01176	?	try	replacement food	flag	food
+01177	?	try	replacement food	new dish	food
+01178	?	try	replacement food	new plate	food
+01179	?	try	replacement food	waiter problem	food
+01180	?	try	replacement food	problem	food
+01181	?	try	replacement food	good tip	food
+01182	?	try	replacement food	higher tip	food
+01183	?	try	replacement food	chef complaint	food
+01184	?	try	replacement food	reason	food
+01185	?	try	replacement food	him	food
+01186	?	try	replacement food	waitress	food
+01187	?	try	replacement food	new plate of food	food
+01188	?	try	replacement food	waitstaff	food
+01189	?	try	replacement food	server s attention	food
+01190	?	try	replacement food	waitress attention	food
+01191	?	try	replacement food	server s	food
+01192	?	try	replacement food	replacement meal	food
+01193	?	try	replacement food	new meal	food
+01194	?	try	replacement food	chef	food
+01195	?	try	replacement food	chef complaint of food	food
+01196	?	request	money	replacement food	food
+01197	?	request	money	returns	food
+01198	?	request	money	issue	food
+01199	?	request	money	waiter	food
+01200	?	request	money	server	food
+01201	?	request	money	wait staff of problem	food
+01202	?	request	money	wait for new order	food
+01203	?	request	money	you	food
+01204	?	request	money	table	food
+01205	?	request	money	flag	food
+01206	?	request	money	new dish	food
+01207	?	request	money	new plate	food
+01208	?	request	money	waiter problem	food
+01209	?	request	money	problem	food
+01210	?	request	money	good tip	food
+01211	?	request	money	higher tip	food
+01212	?	request	money	chef complaint	food
+01213	?	request	money	reason	food
+01214	?	request	money	him	food
+01215	?	request	money	waitress	food
+01216	?	request	money	new plate of food	food
+01217	?	request	money	waitstaff	food
+01218	?	request	money	server s attention	food
+01219	?	request	money	waitress attention	food
+01220	?	request	money	server s	food
+01221	?	request	money	replacement meal	food
+01222	?	request	money	new meal	food
+01223	?	request	money	chef	food
+01224	?	request	money	chef complaint of food	food
+01225	?	takes	food	replacement food	food
+01226	?	takes	food	returns	food
+01227	?	takes	food	issue	food
+01228	?	takes	food	waiter	food
+01229	?	takes	food	server	food
+01230	?	takes	food	wait staff of problem	food
+01231	?	takes	food	wait for new order	food
+01232	?	takes	food	you	food
+01233	?	takes	food	table	food
+01234	?	takes	food	flag	food
+01235	?	takes	food	new dish	food
+01236	?	takes	food	new plate	food
+01237	?	takes	food	waiter problem	food
+01238	?	takes	food	problem	food
+01239	?	takes	food	good tip	food
+01240	?	takes	food	higher tip	food
+01241	?	takes	food	chef complaint	food
+01242	?	takes	food	reason	food
+01243	?	takes	food	him	food
+01244	?	takes	food	waitress	food
+01245	?	takes	food	new plate of food	food
+01246	?	takes	food	waitstaff	food
+01247	?	takes	food	server s attention	food
+01248	?	takes	food	waitress attention	food
+01249	?	takes	food	server s	food
+01250	?	takes	food	replacement meal	food
+01251	?	takes	food	new meal	food
+01252	?	takes	food	chef	food
+01253	?	takes	food	chef complaint of food	food

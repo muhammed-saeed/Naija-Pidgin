@@ -1,0 +1,565 @@
+dobj(get-1, plunger-2)
+
+dobj(use-1, plunger-2)
+
+
+det(plunger-3, a-2)
+dobj(get-1, plunger-3)
+
+det(end-4, the-2)
+nn(end-4, business-3)
+dobj(stick-1, end-4)
+det(plunger-7, the-6)
+prep_of(end-4, plunger-7)
+det(toilet-11, the-9)
+amod(toilet-11, clogged-10)
+prep_into(stick-1, toilet-11)
+
+det(plunger-3, the-2)
+dobj(use-1, plunger-3)
+aux(suck-5, to-4)
+infmod(plunger-3, suck-5)
+prt(suck-5, out-6)
+det(matter-9, the-7)
+amod(matter-9, clogging-8)
+dobj(suck-5, matter-9)
+
+det(toilet-3, the-2)
+nsubj(flush-1, toilet-3)
+
+prt(rinse-1, off-2)
+det(plunger-4, the-3)
+dobj(rinse-1, plunger-4)
+
+det(plunger-3, the-2)
+dobj(replace-1, plunger-3)
+
+dobj(get-1, plunger-2)
+
+dobj(put-1, plunger-2)
+nn(bowl-5, toilet-4)
+prep_in(put-1, bowl-5)
+
+dobj(move-1, plunger-2)
+advmod(move-1, up-3)
+advmod(move-1, down-5)
+conj_and(up-3, down-5)
+
+dobj(remove-1, plunger-2)
+
+dobj(flush-1, tiolet-2)
+
+det(plunger-3, the-2)
+dobj(take-1, plunger-3)
+
+det(toilet-3, the-2)
+nsubj(plunge-1, toilet-3)
+
+det(toilet-3, the-2)
+nsubj(flush-1, toilet-3)
+
+dobj(put-1, plunger-2)
+prt(put-1, away-3)
+
+det(toilet-4, the-2)
+amod(toilet-4, clogged-3)
+dobj(find-1, toilet-4)
+
+det(plunger-4, a-2)
+nn(plunger-4, toilet-3)
+dobj(find-1, plunger-4)
+
+det(bottom-3, the-2)
+dobj(place-1, bottom-3)
+det(plunger-7, the-5)
+nn(plunger-7, toilet-6)
+prep_of(bottom-3, plunger-7)
+det(toilet-10, the-9)
+prep_inside(plunger-7, toilet-10)
+det(drain-13, the-12)
+prep_over(place-1, drain-13)
+
+det(plunger-3, the-2)
+dobj(push-1, plunger-3)
+advmod(quickly-5, downward-4)
+advmod(push-1, quickly-5)
+
+mark(unclogged-6, until-2)
+det(toilet-4, the-3)
+nsubjpass(unclogged-6, toilet-4)
+auxpass(unclogged-6, is-5)
+advcl(repeat-1, unclogged-6)
+
+det(plunger-4, a-2)
+nn(plunger-4, toilet-3)
+dobj(get-1, plunger-4)
+
+det(plunger-3, the-2)
+dobj(insert-1, plunger-3)
+det(toilet-6, the-5)
+prep_into(insert-1, toilet-6)
+
+dep(handle-5, move-1)
+det(plunger-3, the-2)
+dobj(move-1, plunger-3)
+nsubj(handle-5, s-4)
+advmod(handle-5, up-6)
+advmod(handle-5, down-8)
+conj_and(up-6, down-8)
+
+advmod(unclogged-6, when-2)
+det(toilet-4, the-3)
+nsubjpass(unclogged-6, toilet-4)
+auxpass(unclogged-6, is-5)
+advcl(stop-1, unclogged-6)
+
+nn(lid-3, toilet-2)
+dobj(open-1, lid-3)
+
+dobj(get-1, plunger-2)
+
+dobj(plunge-1, toilet-2)
+mark(opened-6, until-3)
+nsubjpass(opened-6, clog-4)
+auxpass(opened-6, is-5)
+advcl(plunge-1, opened-6)
+
+amod(waste-3, solid-2)
+dobj(remove-1, waste-3)
+
+dobj(insert-1, plunger-2)
+
+dobj(pump-1, water-2)
+prep_in(pump-1, pipe-4)
+mark(clear-8, until-5)
+nsubj(clear-8, pipe-6)
+cop(clear-8, is-7)
+advcl(pump-1, clear-8)
+
+prt(clean-1, up-2)
+
+det(toilet-3, the-2)
+dobj(pump-1, toilet-3)
+prep_to(pump-1, unclog-5)
+
+det(plunger-3, the-2)
+dobj(push-1, plunger-3)
+det(toilet-7, the-5)
+amod(toilet-7, clogged-6)
+prep_into(push-1, toilet-7)
+
+det(toilet-3, the-2)
+nsubj(flush-1, toilet-3)
+
+nsubj(push-2, repeatedly-1)
+det(plunger-4, the-3)
+dobj(push-2, plunger-4)
+
+dobj(place-1, plunger-2)
+prep_in(place-1, toilet-4)
+
+dobj(push-1, plunger-2)
+advmod(push-1, in-3)
+advmod(push-1, out-5)
+conj_and(in-3, out-5)
+
+det(plunger-3, the-2)
+dobj(get-1, plunger-3)
+
+dobj(put-1, it-2)
+det(toilet-5, the-4)
+prep_in(put-1, toilet-5)
+
+dobj(move-1, it-2)
+advmod(move-1, up-3)
+advmod(move-1, down-5)
+conj_and(up-3, down-5)
+
+dobj(use-1, hand-2)
+dobj(use-1, plunger-4)
+conj_or(hand-2, plunger-4)
+aux(move-6, to-5)
+xcomp(use-1, move-6)
+det(material-9, the-7)
+amod(material-9, blockin-8)
+dobj(move-6, material-9)
+prep_in(move-6, farther-11)
+prep_of(farther-11, remove-13)
+
+nsubj(flush-1, toilet-2)
+prep_to(flush-1, clear-4)
+
+prt(mop-1, up-2)
+dobj(mop-1, florr-3)
+
+nn(plunger-3, toilet-2)
+dobj(buy-1, plunger-3)
+
+nsubj(plunger-2, point-1)
+amod(side-4, large-3)
+dobj(plunger-2, side-4)
+prt(plunger-2, down-5)
+
+dobj(put-1, plunger-2)
+prep_in(put-1, toilet-4)
+
+prt(push-1, up-2)
+dep(up-2, and-3)
+dep(up-2, down-4)
+
+xcomp(keep-1, pushing-2)
+mark(seeps-5, until-3)
+nsubj(seeps-5, water-4)
+advcl(pushing-2, seeps-5)
+prep_down(seeps-5, drain-7)
+
+nsubj(flush-1, toilet-2)
+
+dobj(flush-1, toilet-2)
+advmod(flush-1, again-3)
+
+det(plunger-3, the-2)
+dobj(get-1, plunger-3)
+
+dobj(place-1, plunger-2)
+prep_in(place-1, toilet-4)
+
+prt(press-1, down-2)
+prep_with(press-1, plunger-4)
+
+mark(drains-4, until-2)
+nsubj(drains-4, water-3)
+advcl(repeat-1, drains-4)
+prep_from(drains-4, bowl-6)
+
+nsubj(flush-1, toilet-2)
+
+dobj(clean-1, plunger-2)
+
+dobj(plung-1, toilet-2)
+
+nsubj(flush-1, toilet-2)
+
+dobj(lift-1, seat-2)
+
+dobj(place-1, plunger-2)
+nn(bowl-5, toilet-4)
+prep_in(place-1, bowl-5)
+
+prt(push-1, down-2)
+prep_on(push-1, plunger-4)
+
+prt(lift-1, up-2)
+prep_on(lift-1, pluger-4)
+
+dobj(repeat-1, 4-2)
+dobj(repeat-1, 5-4)
+conj_and(4-2, 5-4)
+mark(clears-7, until-5)
+nsubj(clears-7, clog-6)
+advcl(repeat-1, clears-7)
+
+det(toilet-3, the-2)
+dobj(clog-1, toilet-3)
+
+det(plunger-3, the-2)
+dobj(get-1, plunger-3)
+
+det(plunger-3, the-2)
+dobj(press-1, plunger-3)
+det(hole-6, the-5)
+prep_in(press-1, hole-6)
+
+det(toilet-3, the-2)
+nsubj(flush-1, toilet-3)
+
+dep(unclogged-3, if-1)
+neg(unclogged-3, not-2)
+nn(steps-5, repeat-4)
+nsubj(unclogged-3, steps-5)
+
+dobj(goto-1, toilet-2)
+
+dobj(plung-1, toilet-2)
+prep_until(plung-1, uncloggeed-4)
+
+amod(rod-3, flexible-2)
+dobj(use-1, rod-3)
+
+dobj(poke-1, rod-2)
+prep_down(poke-1, toilet-4)
+advmod(clears-8, repeatedly-5)
+dep(clears-8, until-6)
+nsubj(clears-8, blockage-7)
+dep(poke-1, clears-8)
+
+amod(toilet-2, flush-1)
+nsubj(gone-7, toilet-2)
+aux(ensure-4, to-3)
+infmod(toilet-2, ensure-4)
+dobj(ensure-4, blockage-5)
+aux(gone-7, has-6)
+
+dobj(put-1, plunger-2)
+prep_into(put-1, toliet-4)
+
+prt(push-1, down-2)
+det(plunger-4, an-3)
+dobj(push-1, plunger-4)
+
+prt(push-1, down-2)
+det(pluger-4, an-3)
+dep(more-5, pluger-4)
+advmod(push-1, more-5)
+
+amod(toliet-3, fushing-2)
+dobj(try-1, toliet-3)
+
+mark(flushes-3, if-1)
+nsubj(flushes-3, toliet-2)
+amod(plunger-5, rinse-4)
+dobj(flushes-3, plunger-5)
+
+prt(wash-1, up-2)
+
+prep_into(go-1, bathroom-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, plunger-3)
+
+nn(end-3, rubber-2)
+dobj(place-1, end-3)
+prep_of(end-3, plunger-5)
+prep_in(place-1, toilet-7)
+
+dobj(push-1, plunger-2)
+prt(push-1, down-3)
+
+prep_into(go-1, bathroom-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, plunger-3)
+
+nn(end-3, rubber-2)
+dobj(place-1, end-3)
+prep_of(end-3, plunger-5)
+prep_in(place-1, toilet-7)
+
+dobj(push-1, plunger-2)
+advmod(push-1, down-3)
+advmod(push-1, sharply-4)
+
+dobj(pull-1, plunger-2)
+prt(pull-1, up-3)
+
+dobj(repeat-1, 45-2)
+
+dobj(get-1, plunger-2)
+
+det(toilet-4, the-3)
+prep_into(put-1, toilet-4)
+
+dobj(move-1, plunger-2)
+advmod(move-1, up-3)
+advmod(move-1, down-5)
+conj_and(up-3, down-5)
+
+prep_until(is-3, clog-2)
+ccomp(is-3, removed-4)
+
+dobj(get-1, plunger-2)
+
+det(toilet-4, the-3)
+prep_into(put-1, toilet-4)
+
+dobj(move-1, plunger-2)
+advmod(move-1, up-3)
+advmod(move-1, down-5)
+conj_and(up-3, down-5)
+
+prep_until(is-3, clog-2)
+ccomp(is-3, removed-4)
+
+nsubj(flush-1, toilet-2)
+
+dobj(find-1, plunger-2)
+
+dobj(move-1, it-2)
+advmod(move-1, up-3)
+advmod(move-1, down-5)
+conj_and(up-3, down-5)
+
+
+det(clogger-3, a-2)
+dobj(use-1, clogger-3)
+
+det(plunger-3, the-2)
+dobj(find-1, plunger-3)
+
+det(toilet-3, the-2)
+dobj(plunge-1, toilet-3)
+mark(starts-8, until-4)
+det(level-7, the-5)
+nn(level-7, water-6)
+nsubj(starts-8, level-7)
+xsubj(drop-10, level-7)
+advcl(plunge-1, starts-8)
+aux(drop-10, to-9)
+xcomp(starts-8, drop-10)
+
+det(toilet-3, the-2)
+dobj(flush-1, toilet-3)
+conj_but(flush-1, be-5)
+dep(be-5, ready-6)
+prep(ready-6, to-7)
+
+det(flow-4, the-2)
+nn(flow-4, water-3)
+dobj(stop-1, flow-4)
+mark(starts-7, if-5)
+nsubj(starts-7, toilet-6)
+dep(stop-1, starts-7)
+prep_to(starts-7, overflow-9)
+
+
+det(tool-4, the-2)
+amod(tool-4, plaming-3)
+dobj(find-1, tool-4)
+
+nsubj(put-2, than-1)
+dobj(put-2, it-3)
+det(toilet-6, the-5)
+prep_in(put-2, toilet-6)
+
+nsubj(flash-2, than-1)
+dep(more-4, one-3)
+amod(time-5, more-4)
+dobj(flash-2, time-5)
+aux(make-7, to-6)
+infmod(time-5, make-7)
+acomp(make-7, sure-8)
+complm(cloged-12, that-9)
+nsubj(cloged-12, it-10)
+neg(cloged-12, not-11)
+ccomp(sure-8, cloged-12)
+
+dobj(find-1, tools-2)
+
+dobj(unclog-1, toilet-2)
+
+det(plunger-3, the-2)
+dobj(use-1, plunger-3)
+det(clog-6, the-5)
+prep_on(use-1, clog-6)
+
+dobj(pour-1, water-2)
+det(bowl-5, the-4)
+prep_into(pour-1, bowl-5)
+
+advmod(poured-3, when-1)
+nsubj(poured-3, water-2)
+csubj(appears-5, poured-3)
+prt(poured-3, in-4)
+aux(drain-7, to-6)
+xcomp(appears-5, drain-7)
+prt(drain-7, out-8)
+ccomp(drain-7, try-9)
+aux(flush-11, to-10)
+xcomp(try-9, flush-11)
+det(toilet-13, the-12)
+dobj(flush-11, toilet-13)
+advmod(flush-11, again-14)
+
+mark(doesn-3, if-1)
+nsubj(doesn-3, it-2)
+advcl(steps-7, doesn-3)
+dobj(doesn-3, t-4)
+amod(repeat-6, flush-5)
+nsubj(steps-7, repeat-6)
+acomp(steps-7, 1-4-8)
+
+mark(flush-4, if-1)
+nsubj(flush-4, it-2)
+dep(flush-4, does-3)
+advcl(gone-8, flush-4)
+det(clog-6, the-5)
+nsubjpass(gone-8, clog-6)
+auxpass(gone-8, is-7)
+
+dobj(use-1, plunger-2)
+prep_on(use-1, clog-4)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, bowl-4)
+
+mark(flush-4, if-1)
+nn(drains-3, water-2)
+nsubj(flush-4, drains-3)
+det(toilet-6, the-5)
+dobj(flush-4, toilet-6)
+
+mark(not-2, if-1)
+nsubj(steps-4, repeat-3)
+dep(not-2, steps-4)
+acomp(steps-4, 1-3-5)
+
+dobj(get-1, plunger-2)
+
+nsubj(plunge-1, toilet-2)
+
+nsubj(flush-1, toilet-2)
+
+dobj(clean-1, plunger-2)
+
+dobj(put-1, plunger-2)
+prt(put-1, away-3)
+
+dobj(get-1, plunger-2)
+
+prep_in(put-1, toilet-3)
+
+advmod(move-1, up-2)
+advmod(move-1, down-4)
+conj_and(up-2, down-4)
+
+
+dobj(get-1, plunger-2)
+
+nsubj(plunge-1, toilet-2)
+
+nsubj(flush-1, toilet-2)
+
+dobj(clean-1, plunger-2)
+
+prt(put-1, away-2)
+dobj(put-1, plunger-3)
+
+det(toilet-3, the-2)
+dobj(plunge-1, toilet-3)
+aux(break-5, to-4)
+infmod(toilet-3, break-5)
+prt(break-5, up-6)
+det(clog-8, the-7)
+dobj(break-5, clog-8)
+
+dep(try-1, pouring-2)
+det(bit-4, a-3)
+dobj(pouring-2, bit-4)
+prep_of(bit-4, water-6)
+det(toilet-9, the-8)
+prep_down(pouring-2, toilet-9)
+
+mark(flush-4, if-1)
+nn(drains-3, water-2)
+nsubj(flush-4, drains-3)
+det(toilet-6, the-5)
+dobj(flush-4, toilet-6)
+
+mark(doesn-3, if-1)
+nsubj(doesn-3, it-2)
+advcl(steps-7, doesn-3)
+dobj(doesn-3, t-4)
+amod(repeat-6, flush-5)
+nsubj(steps-7, repeat-6)
+acomp(steps-7, 1-4-8)
+

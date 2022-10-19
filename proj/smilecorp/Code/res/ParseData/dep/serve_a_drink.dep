@@ -1,0 +1,729 @@
+det(glass-3, a-2)
+dobj(take-1, glass-3)
+
+det(drink-3, the-2)
+dobj(pour-1, drink-3)
+prep_in(pour-1, it-5)
+
+det(glass-3, the-2)
+dobj(give-1, glass-3)
+det(person-6, a-5)
+prep_to(give-1, person-6)
+
+dobj(offer-1, beverage-2)
+prep_to(offer-1, person-4)
+
+dep(locate-1, requested-2)
+dobj(requested-2, beverage-3)
+
+amod(glass-3, serving-2)
+dobj(locate-1, glass-3)
+
+nsubj(requested-2, place-1)
+dobj(requested-2, beverage-3)
+prep_in(requested-2, glass-5)
+
+dobj(give-1, glass-2)
+prep_to(give-1, person-4)
+
+dobj(locate-1, glass-2)
+
+dobj(locate-1, drink-2)
+
+nsubj(drink-2, poor-1)
+prep_into(drink-2, glass-4)
+
+dobj(bring-1, drink-2)
+prep_to(bring-1, person-4)
+
+dobj(pour-1, drink-2)
+prep_into(pour-1, glass-4)
+
+dobj(bring-1, drink-2)
+prep_to(bring-1, person-4)
+nsubj(requested-6, person-4)
+rcmod(person-4, requested-6)
+dobj(requested-6, drink-7)
+
+det(glass-3, a-2)
+dobj(find-1, glass-3)
+
+det(cubes-4, some-2)
+nn(cubes-4, ice-3)
+dobj(find-1, cubes-4)
+
+det(napkin-3, a-2)
+dobj(find-1, napkin-3)
+
+det(straw-3, a-2)
+dobj(find-1, straw-3)
+
+det(drink-3, the-2)
+dobj(pour-1, drink-3)
+det(glass-6, the-5)
+prep_into(pour-1, glass-6)
+
+det(drink-3, the-2)
+dobj(take-1, drink-3)
+det(person-6, the-5)
+prep_to(take-1, person-6)
+
+det(fridge-4, the-3)
+prep_to(move-1, fridge-4)
+
+nn(container-3, drink-2)
+dobj(remove-1, container-3)
+prep_from(remove-1, fridge-5)
+
+dobj(locate-1, glass-2)
+
+dobj(pour-1, drink-2)
+det(container-5, the-4)
+prep_from(pour-1, container-5)
+det(glass-8, the-7)
+prep_into(pour-1, glass-8)
+
+cc(drink-3, but-1)
+nsubj(drink-3, the-2)
+dobj(drink-3, container-4)
+advmod(drink-3, back-5)
+dep(back-5, into-6)
+pobj(into-6, fridge-7)
+
+amod(door-3, fridge-2)
+dobj(close-1, door-3)
+
+dobj(take-1, drink-2)
+det(person-6, the-4)
+amod(person-6, desired-5)
+prep_to(take-1, person-6)
+
+nn(preference-3, drink-2)
+dobj(ask-1, preference-3)
+
+dobj(get-1, glass-2)
+
+dobj(pour-1, drink-2)
+
+dobj(bring-1, drink-2)
+
+dobj(ask-1, guest-2)
+prep_for(ask-1, preference-4)
+
+dobj(get-1, drink-2)
+
+dobj(pour-1, drink-2)
+prep_in(pour-1, glass-4)
+
+dobj(bring-1, drink-2)
+prep_to(bring-1, guest-4)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+det(bottle-3, a-2)
+dobj(get-1, bottle-3)
+
+dobj(fill-1, glass-2)
+prep_from(fill-1, bottle-4)
+
+dobj(give-1, glass-2)
+prep_to(give-1, person-4)
+
+dobj(ask-1, person-2)
+nsubj(drink-4, person-2)
+rcmod(person-2, drink-4)
+nsubj(want-6, they-5)
+ccomp(drink-4, want-6)
+
+amod(glass-3, appropriate-2)
+dobj(get-1, glass-3)
+
+dobj(put-1, ice-2)
+prep_in(put-1, glass-4)
+mark(appropriate-6, if-5)
+advcl(put-1, appropriate-6)
+det(drink-9, the-8)
+prep_for(appropriate-6, drink-9)
+
+det(liquid-4, the-2)
+amod(liquid-4, requested-3)
+dobj(pour-1, liquid-4)
+det(glass-7, the-6)
+prep_into(pour-1, glass-7)
+
+dobj(give-1, glass-2)
+prep_with(give-1, drink-4)
+det(person-7, the-6)
+prep_to(give-1, person-7)
+
+dobj(pour-1, drink-2)
+prep_into(pour-1, glass-4)
+
+dobj(give-1, drink-2)
+prep_to(give-1, person-4)
+
+prep_to(go-1, refridgerator-3)
+
+dobj(open-1, refridgerator-2)
+
+prt(get-1, out-2)
+amod(drink-4, cold-3)
+dobj(get-1, drink-4)
+
+dobj(pour-1, drink-2)
+prep_in(pour-1, glass-4)
+
+nn(cubes-3, ice-2)
+dobj(add-1, cubes-3)
+
+nsubj(drink-2, hand-1)
+prep_to(drink-2, person-4)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+nn(container-3, drink-2)
+dobj(get-1, container-3)
+
+dobj(hold-1, glass-2)
+
+dobj(pour-1, drink-2)
+nn(container-6, drink-5)
+prep_out_of(pour-1, container-6)
+prep_into(pour-1, glass-8)
+
+det(drink-3, the-2)
+dobj(give-1, drink-3)
+det(person-6, a-5)
+prep_to(give-1, person-6)
+
+amod(glasses-3, serving-2)
+dobj(locate-1, glasses-3)
+
+dobj(locate-1, drink-2)
+aux(serve-4, to-3)
+xcomp(locate-1, serve-4)
+
+dobj(pour-1, drink-2)
+prep_into(pour-1, glasses-4)
+
+dobj(distribute-1, glasses-2)
+
+dobj(locate-1, glasses-2)
+aux(serve-4, to-3)
+infmod(glasses-2, serve-4)
+dobj(serve-4, drink-5)
+prep(serve-4, in-6)
+
+nsubj(drink-3, which-2)
+ccomp(determine-1, drink-3)
+aux(serve-5, to-4)
+xcomp(drink-3, serve-5)
+
+dobj(pour-1, drink-2)
+prep_into(pour-1, glasses-4)
+
+dobj(distribute-1, glasses-2)
+prep_to(distribute-1, guests-4)
+
+prt(find-1, out-2)
+nsubj(drink-4, what-3)
+ccomp(find-1, drink-4)
+det(person-6, the-5)
+nsubj(wants-7, person-6)
+ccomp(drink-4, wants-7)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+amod(bottle-3, open-1)
+det(bottle-3, the-2)
+nsubj(comes-6, bottle-3)
+det(drink-5, the-4)
+nsubj(comes-6, drink-5)
+prt(comes-6, in-7)
+
+det(glass-3, a-2)
+dobj(pour-1, glass-3)
+det(drink-6, the-5)
+prep_of(glass-3, drink-6)
+det(bottle-9, the-8)
+prep_from(pour-1, bottle-9)
+
+det(glass-3, the-2)
+dobj(bring-1, glass-3)
+det(drink-6, the-5)
+prep_of(glass-3, drink-6)
+det(person-9, the-8)
+prep_to(bring-1, person-9)
+nsubj(wanted-11, person-9)
+rcmod(person-9, wanted-11)
+dobj(wanted-11, it-12)
+
+det(glass-4, a-2)
+amod(glass-4, clean-3)
+dobj(get-1, glass-4)
+
+det(ice-3, some-2)
+dobj(put-1, ice-3)
+det(glass-6, the-5)
+prep_in(put-1, glass-6)
+
+amod(beverage-3, preferred-2)
+dobj(open-1, beverage-3)
+
+dobj(pour-1, beverage-2)
+prep_into(pour-1, glass-4)
+
+dobj(offer-1, drink-2)
+prep_to(offer-1, guests-4)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+det(drink-3, the-2)
+dobj(pour-1, drink-3)
+
+det(drink-3, the-2)
+dobj(give-1, drink-3)
+det(person-6, a-5)
+prep_to(give-1, person-6)
+
+det(glass-4, a-2)
+amod(glass-4, clean-3)
+dobj(get-1, glass-4)
+
+dobj(put-1, ice-2)
+det(glass-5, the-4)
+prep_in(put-1, glass-5)
+nsubj(desired-7, if-6)
+rcmod(glass-5, desired-7)
+
+dobj(add-1, ingredients-2)
+det(glass-5, the-4)
+prep_to(add-1, glass-5)
+
+det(garnish-3, a-2)
+dobj(put-1, garnish-3)
+det(glass-6, the-5)
+prep_on(put-1, glass-6)
+
+det(napkin-3, a-2)
+dobj(get-1, napkin-3)
+
+det(glass-3, the-2)
+dobj(put-1, glass-3)
+det(napkin-6, the-5)
+prep_on(put-1, napkin-6)
+
+det(glass-3, the-2)
+dobj(hand-1, glass-3)
+det(drinker-6, the-5)
+prep_to(hand-1, drinker-6)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+dobj(get-1, bottle-2)
+prep_of(bottle-2, soda-4)
+
+nsubj(drink-2, poor-1)
+
+dobj(add-1, ice-2)
+
+det(guest-3, the-2)
+dobj(ask-1, guest-3)
+nsubj(drink-5, guest-3)
+rcmod(guest-3, drink-5)
+nsubj(want-7, they-6)
+ccomp(drink-5, want-7)
+
+conj_and(make-1, serve-3)
+det(drink-5, the-4)
+dobj(serve-3, drink-5)
+prep_to(serve-3, them-7)
+
+det(drink-3, the-2)
+dobj(put-1, drink-3)
+det(glass-7, a-5)
+amod(glass-7, clean-6)
+prep_in(put-1, glass-7)
+
+det(drink-3, the-2)
+dobj(serve-1, drink-3)
+
+det(glass-3, a-2)
+dobj(remove-1, glass-3)
+det(cupboard-6, the-5)
+prep_from(remove-1, cupboard-6)
+
+dobj(remove-1, beverage-2)
+det(refrigerator-5, the-4)
+prep_from(remove-1, refrigerator-5)
+
+amod(amount-3, desired-2)
+dobj(pour-1, amount-3)
+prep_of(amount-3, beverage-5)
+det(glass-8, the-7)
+prep_into(pour-1, glass-8)
+
+det(glass-3, the-2)
+dobj(give-1, glass-3)
+poss(guest-6, your-5)
+prep_to(give-1, guest-6)
+
+dobj(desired-7, what-2)
+nsubjpass(desired-7, kind-3)
+prep_of(kind-3, drink-5)
+auxpass(desired-7, is-6)
+ccomp(ask-1, desired-7)
+
+det(drink-4, the-2)
+amod(drink-4, requested-3)
+dobj(find-1, drink-4)
+
+det(drink-3, the-2)
+dobj(prepare-1, drink-3)
+prepc_for(prepare-1, serving-5)
+
+det(drink-3, the-2)
+dobj(offer-1, drink-3)
+det(person-6, the-5)
+prep_to(offer-1, person-6)
+nsubj(requested-8, person-6)
+rcmod(person-6, requested-8)
+dobj(requested-8, it-9)
+
+det(drink-3, the-2)
+dobj(prepare-1, drink-3)
+
+det(napkin-3, a-2)
+dobj(find-1, napkin-3)
+
+det(drink-3, the-2)
+dobj(serve-1, drink-3)
+
+dobj(pour-1, drink-2)
+prep_in(pour-1, glass-4)
+
+dobj(take-1, it-2)
+nsubj(is-5, whoever-4)
+prepc_to(take-1, is-5)
+aux(served-8, to-6)
+auxpass(served-8, be-7)
+xcomp(is-5, served-8)
+
+det(glass-4, a-2)
+amod(glass-4, clean-3)
+dobj(get-1, glass-4)
+
+det(beverage-3, a-2)
+dobj(get-1, beverage-3)
+det(container-6, a-5)
+prep_in(get-1, container-6)
+
+nn(container-3, beverage-2)
+dobj(open-1, container-3)
+
+dobj(pour-1, contents-2)
+nn(container-5, beverage-4)
+prep_of(contents-2, container-5)
+prep_into(pour-1, glass-7)
+
+prt(pick-1, up-2)
+dobj(pick-1, glass-3)
+
+dobj(deliver-1, glass-2)
+prep_to(deliver-1, person-4)
+
+dobj(pour-1, drink-2)
+prep_into(pour-1, glass-4)
+
+dobj(take-1, glass-2)
+prep_to(take-1, person-4)
+
+dobj(give-1, drink-2)
+prep_to(give-1, patron-4)
+
+dobj(selecting-1, drink-2)
+
+dobj(finding-1, glass-2)
+
+dobj(pooring-1, drink-2)
+prep_into(pooring-1, glass-4)
+
+dobj(ask-1, guest-2)
+dobj(prefer-6, guest-2)
+rel(prefer-6, what-3)
+nsubj(prefer-6, they-4)
+aux(prefer-6, would-5)
+rcmod(guest-2, prefer-6)
+
+prep_to(go-1, kitchen-3)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+amod(drink-3, requested-2)
+dobj(prepare-1, drink-3)
+
+dobj(pour-1, drink-2)
+prep_into(pour-1, glass-4)
+
+dobj(put-1, glass-2)
+det(tray-5, a-4)
+prep_on(put-1, tray-5)
+
+dobj(bring-1, drink-2)
+prep_to(bring-1, guest-4)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+dobj(add-1, ice-2)
+prep_to(add-1, glass-4)
+
+dobj(add-1, drink-2)
+prep_to(add-1, glass-4)
+
+dobj(give-1, drink-2)
+prep_to(give-1, person-4)
+
+dobj(get-1, drink-2)
+
+dobj(get-1, cup\/glass-2)
+
+dobj(pour-1, drink-2)
+prep_into(pour-1, cup\/glass-4)
+
+dobj(take-1, order-2)
+
+dobj(research-1, recipe-2)
+
+dobj(secure-1, ingredients-2)
+
+dobj(mix-1, ingredients-2)
+
+dobj(take-1, order-2)
+
+dobj(research-1, recipe-2)
+
+dobj(secure-1, ingredients-2)
+
+dobj(mix-1, ingredients-2)
+
+dobj(pour-1, ingredients-2)
+prep_in(ingredients-2, vessel-4)
+
+dobj(serve-1, drink-2)
+
+dobj(get-1, glass-2)
+
+dobj(select-1, drink-2)
+
+dobj(pour-1, drink-2)
+
+dobj(serve-1, drink-2)
+
+dobj(open-1, bottle-2)
+
+dobj(pour-1, drink-2)
+prep_into(pour-1, glass-4)
+
+dobj(serve-1, glass-2)
+
+det(glass-3, a-2)
+dobj(get-1, glass-3)
+
+prep_to(go-1, fridge-3)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, glass-4)
+
+dobj(serve-1, drink-2)
+
+dobj(get-1, glass-2)
+
+dobj(get-1, drink-2)
+prep_from(get-1, fridge-4)
+
+dobj(pour-1, drink-2)
+
+dobj(put-1, drink-2)
+prt(put-1, away-3)
+prep_in(put-1, fridge-5)
+
+
+dobj(take-1, order-2)
+
+det(kitchen-4, the-3)
+prep_to(go-1, kitchen-4)
+
+dobj(get-1, glass-2)
+
+dobj(get-1, drink-2)
+
+dobj(put-1, drink-2)
+prep_in(put-1, glass-4)
+
+dobj(bring-1, it-2)
+prt(bring-1, out-3)
+
+dobj(serve-1, it-2)
+prep_to(serve-1, person-4)
+
+dobj(get-1, glass-2)
+
+dobj(get-1, drink-2)
+prep_from(get-1, fridge-4)
+
+dobj(pour-1, drink-2)
+
+dobj(put-1, drink-2)
+prt(put-1, away-3)
+prep_in(put-1, fridge-5)
+
+
+dobj(take-1, order-2)
+
+det(kitchen-4, the-3)
+prep_to(go-1, kitchen-4)
+
+dobj(get-1, glass-2)
+
+dobj(get-1, drink-2)
+
+dobj(put-1, drink-2)
+prep_in(put-1, glass-4)
+
+dobj(bring-1, it-2)
+prt(bring-1, out-3)
+
+dobj(serve-1, it-2)
+prep_to(serve-1, person-4)
+
+dobj(get-1, glass-2)
+
+dobj(get-1, drink-2)
+prep_from(get-1, fridge-4)
+
+dobj(pour-1, drink-2)
+
+dobj(put-1, drink-2)
+prt(put-1, away-3)
+prep_in(put-1, fridge-5)
+
+
+dobj(take-1, order-2)
+
+det(kitchen-4, the-3)
+prep_to(go-1, kitchen-4)
+
+dobj(get-1, glass-2)
+
+dobj(get-1, drink-2)
+
+dobj(put-1, drink-2)
+prep_in(put-1, glass-4)
+
+dobj(bring-1, it-2)
+prt(bring-1, out-3)
+
+dobj(serve-1, it-2)
+prep_to(serve-1, person-4)
+
+dobj(get-1, glass-2)
+
+dobj(get-1, drink-2)
+prep_from(get-1, fridge-4)
+
+dobj(pour-1, drink-2)
+
+dobj(put-1, drink-2)
+prt(put-1, away-3)
+prep_in(put-1, fridge-5)
+
+
+dobj(take-1, order-2)
+
+det(kitchen-4, the-3)
+prep_to(go-1, kitchen-4)
+
+dobj(get-1, glass-2)
+
+dobj(get-1, drink-2)
+
+dobj(put-1, drink-2)
+prep_in(put-1, glass-4)
+
+dobj(bring-1, it-2)
+prt(bring-1, out-3)
+
+dobj(serve-1, it-2)
+prep_to(serve-1, person-4)
+
+dobj(take-1, order-2)
+
+dobj(make-1, drink-2)
+
+dobj(serve-1, drink-2)
+
+dobj(place-1, drink-2)
+prep_on(place-1, tray-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, tray-3)
+prep_with(pick-1, drink-5)
+
+prt(walk-1, over-2)
+det(person-5, the-4)
+prep_to(walk-1, person-5)
+auxpass(served-7, being-6)
+partmod(person-5, served-7)
+
+det(person-3, the-2)
+dobj(ask-1, person-3)
+aux(take-5, to-4)
+infmod(person-3, take-5)
+det(drink-7, the-6)
+dobj(take-5, drink-7)
+det(tray-10, the-9)
+prep_from(take-5, tray-10)
+
+det(person-3, the-2)
+dobj(ask-1, person-3)
+aux(take-5, to-4)
+infmod(person-3, take-5)
+det(napkin-7, a-6)
+dobj(take-5, napkin-7)
+det(tray-10, the-9)
+prep_from(take-5, tray-10)
+
+det(person-5, the-4)
+prep_away_from(walk-1, person-5)
+
+dobj(take-1, drink-2)
+
+dobj(get-1, glasses-2)
+
+dobj(pour-1, drink-2)
+prep_in(pour-1, glass-4)
+
+dobj(bring-1, glass-2)
+prep_to(bring-1, person-4)
+
+dobj(open-1, refrigerator-2)
+
+dobj(find-1, drink-2)
+
+dobj(remove-1, drink-2)
+prep_from(remove-1, refrigerator-4)
+
+dobj(pour-1, drink-2)
+prep_into(pour-1, glass-4)
+dep(glass-4, es-6)
+
+dobj(disperse-1, drink-2)
+dep(drink-2, s-4)
+

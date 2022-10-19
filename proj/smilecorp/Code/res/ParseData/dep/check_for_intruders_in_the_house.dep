@@ -1,0 +1,284 @@
+det(house-4, the-3)
+prep_around(move-1, house-4)
+
+det(room-3, each-2)
+prep_in(check-4, room-3)
+mark(seen-10, if-5)
+det(face-8, an-6)
+amod(face-8, unfamiliar-7)
+nsubjpass(seen-10, face-8)
+auxpass(seen-10, is-9)
+dep(check-4, seen-10)
+
+prt(turn-1, on-2)
+det(lights-4, the-3)
+dobj(turn-1, lights-4)
+mark(go-7, as-5)
+nsubj(go-7, you-6)
+advcl(turn-1, go-7)
+det(room-10, a-9)
+prep_into(go-7, room-10)
+
+dobj(enter-1, house-2)
+
+advmod(move-1, slowly-2)
+det(room-5, every-4)
+prep_through(move-1, room-5)
+
+prep_for(look-1, signs-3)
+prep_of(signs-3, intruders-5)
+
+prt(turn-1, on-2)
+det(lights-4, all-3)
+dobj(turn-1, lights-4)
+
+det(rooms-3, all-2)
+dobj(search-1, rooms-3)
+
+prep_for(listen-1, sounds-3)
+
+det(weapon-3, a-2)
+dobj(get-1, weapon-3)
+
+advmod(walk-1, quietly-2)
+det(house-5, the-4)
+prep_around(walk-1, house-5)
+det(shadows-8, the-7)
+prep_in(house-5, shadows-8)
+
+conj_and(look-1, listen-3)
+det(intruders-6, the-5)
+prep_for(listen-3, intruders-6)
+
+prep_into(go-1, house-3)
+
+det(room-4, each-3)
+prep_into(go-1, room-4)
+
+prep_for(look-1, intruders-3)
+
+det(room-3, each-2)
+pobj(for-1, room-3)
+
+prt(look-1, around-2)
+prep_for(look-1, intruders-4)
+
+det(room-4, each-3)
+prep_to(go-1, room-4)
+
+prt(look-1, around-2)
+prep_for(look-1, sign-4)
+prep_of(sign-4, intruders-6)
+
+amod(room-4, next-3)
+prep_to(go-1, room-4)
+
+det(room-4, a-3)
+prep_to(move-1, room-4)
+det(house-7, the-6)
+prep_of(room-4, house-7)
+
+prep_for(look-1, intruders-3)
+
+det(room-5, a-3)
+amod(room-5, different-4)
+prep_to(move-1, room-5)
+
+mark(checked-5, until-2)
+nsubj(checked-5, you-3)
+aux(checked-5, have-4)
+advcl(repeat-1, checked-5)
+det(rooms-7, all-6)
+dobj(checked-5, rooms-7)
+
+acomp(make-1, sure-2)
+nsubjpass(locked-5, doors-3)
+auxpass(locked-5, are-4)
+ccomp(sure-2, locked-5)
+
+acomp(make-1, sure-2)
+nsubjpass(locked-5, windows-3)
+nsubjpass(broken-8, windows-3)
+auxpass(locked-5, are-4)
+ccomp(sure-2, locked-5)
+neg(broken-8, not-7)
+ccomp(sure-2, broken-8)
+conj_and(locked-5, broken-8)
+
+det(room-4, any-3)
+prep_to(go-1, room-4)
+
+amod(people-4, unrecognized-3)
+prep_for(look-1, people-4)
+
+det(room-5, each-3)
+amod(room-5, other-4)
+prep_in(repeat-1, room-5)
+det(house-8, the-7)
+prep_of(room-5, house-8)
+advmod(repeat-1, sequentially-9)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+det(room-7, each-6)
+prep_of(door-4, room-7)
+
+det(room-4, the-3)
+prep_into(look-1, room-4)
+
+mark(see-3, if-1)
+nsubj(see-3, you-2)
+csubj(call-6, see-3)
+det(intruder-5, an-4)
+dobj(see-3, intruder-5)
+dobj(call-6, police-7)
+
+dobj(load-1, gun-2)
+nn(gun-5, cock-4)
+dep(gun-2, gun-5)
+
+dobj(load-1, gun-2)
+nn(gun-5, cock-4)
+dep(gun-2, gun-5)
+
+dobj(call-1, 911-2)
+
+prep_through(walk-1, house-3)
+prep_through(walk-1, fire-5)
+conj_and(house-3, fire-5)
+prep_on(walk-1, anything-7)
+amod(anything-7, suspicious-8)
+
+dobj(enter-1, house-2)
+
+dobj(identify-1, people-2)
+dobj(identify-1, animals-4)
+conj_or(people-2, animals-4)
+prep_in(identify-1, house-6)
+
+dobj(report-1, results-2)
+prep_to(report-1, police-4)
+
+dep(recognize-11, listen-1)
+advmod(listen-1, carefully-2)
+amod(noises-5, funny-4)
+prep_for(listen-1, noises-5)
+prep_for(listen-1, voices-7)
+conj_or(noises-5, voices-7)
+nsubj(recognize-11, you-8)
+aux(recognize-11, do-9)
+neg(recognize-11, not-10)
+
+mark(tripped-8, if-2)
+det(system-5, the-3)
+nn(system-5, alarm-4)
+nsubjpass(tripped-8, system-5)
+aux(tripped-8, has-6)
+auxpass(tripped-8, been-7)
+advcl(see-1, tripped-8)
+
+prt(turn-1, on-2)
+dobj(turn-1, lights-3)
+prep_in(turn-1, house-5)
+
+amod(house-3, thru-2)
+dobj(walk-1, house-3)
+
+det(alarm-5, a-3)
+amod(alarm-5, loud-4)
+prep_on(turn-1, alarm-5)
+
+
+
+
+det(game-4, a-3)
+prep_on(turn-1, game-4)
+prep_with(game-4, guns-6)
+
+prt(turn-1, in-2)
+prep(turn-1, up-3)
+advmod(turn-1, loud-4)
+
+det(times-4, a-2)
+amod(times-4, few-3)
+tmod(shoot-1, times-4)
+conj_and(shoot-1, wait-6)
+complm(run-9, whether-7)
+nsubj(run-9, people-8)
+ccomp(wait-6, run-9)
+prep_for(run-9, it-11)
+
+aux(see-3, to-2)
+xcomp(listen-1, see-3)
+advmod(are-6, where-4)
+nsubj(are-6, they-5)
+advcl(see-3, are-6)
+
+aux(see-3, to-2)
+xcomp(listen-1, see-3)
+advmod(many-5, how-4)
+dep(be-8, many-5)
+expl(be-8, there-6)
+aux(be-8, might-7)
+ccomp(see-3, be-8)
+
+nn(room-3, house-2)
+dobj(check-1, room-3)
+prep_by(check-1, room-5)
+
+det(doors-3, all-2)
+dobj(check-1, doors-3)
+
+det(windows-3, all-2)
+dobj(check-1, windows-3)
+
+dobj(check-1, basement-2)
+
+mark(go-4, as-2)
+nsubj(go-4, you-3)
+advcl(listen-1, go-4)
+
+nn(system-3, alarm-2)
+dobj(check-1, system-3)
+
+amod(activity-3, unusual-2)
+dobj(notice-1, activity-3)
+
+det(room-4, a-3)
+prep_to(go-1, room-4)
+
+dobj(check-1, windows-2)
+dobj(check-1, doors-4)
+conj_and(windows-2, doors-4)
+
+amod(entry-4, forced-3)
+prep_for(check-1, entry-4)
+
+dobj(make-1, noise-2)
+
+det(room-4, another-3)
+prep_in(repeat-1, room-4)
+
+complm(locked-5, whether-2)
+nsubjpass(locked-5, door-3)
+auxpass(locked-5, is-4)
+ccomp(check-1, locked-5)
+
+amod(window-4, broken-3)
+prep_for(check-1, window-4)
+
+det(room-3, every-2)
+dobj(check-1, room-3)
+
+nsubj(unlocked-3, check-1)
+prep(check-1, for-2)
+dobj(unlocked-3, doors-4)
+
+aux(see-3, to-2)
+xcomp(check-1, see-3)
+mark(is-6, if-4)
+nsubj(is-6, anything-5)
+advcl(see-3, is-6)
+det(ordinary-10, the-9)
+prep_out_of(is-6, ordinary-10)
+

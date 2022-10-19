@@ -1,0 +1,289 @@
+dobj(get-1, knife-2)
+dobj(get-1, scissors-4)
+conj_or(knife-2, scissors-4)
+
+prt(cut-1, along-2)
+dobj(cut-1, edges-3)
+
+dobj(open-1, box-2)
+
+dobj(get-1, package-2)
+
+dobj(locate-1, tape-2)
+
+dobj(remove-1, tape-2)
+
+dobj(remove-1, wrapping-2)
+
+dobj(get-1, package-2)
+
+dobj(determine-1, top-2)
+prep_of(top-2, package-4)
+
+dobj(get-1, knife-2)
+
+advmod(cut-2, carefully-1)
+dobj(cut-2, tape-3)
+
+amod(lid-3, back-2)
+dobj(move-1, lid-3)
+
+dobj(get-1, package-2)
+
+dobj(cut-1, tape-2)
+
+amod(flaps-3, back-2)
+dobj(fold-1, flaps-3)
+
+dobj(remove-1, contents-2)
+prep_from(remove-1, package-4)
+
+det(knife-3, a-2)
+dobj(get-1, knife-3)
+
+det(tape-3, the-2)
+dobj(tear-1, tape-3)
+
+advmod(open-2, then-1)
+det(package-4, the-3)
+dobj(open-2, package-4)
+
+amod(object-3, sharp-2)
+dobj(use-1, object-3)
+aux(open-5, to-4)
+xcomp(use-1, open-5)
+det(package-7, the-6)
+dobj(open-5, package-7)
+
+dobj(get-1, sissors-2)
+
+dobj(place-1, package-2)
+amod(surface-5, flat-4)
+prep_on(place-1, surface-5)
+
+nsubj(sissors-2, use-1)
+xsubj(cut-4, use-1)
+aux(cut-4, to-3)
+xcomp(sissors-2, cut-4)
+dobj(cut-4, tape-5)
+prep_on(cut-4, package-7)
+
+dobj(lift-1, flap-2)
+prep_on(lift-1, package-4)
+
+prt(pick-1, up-2)
+det(package-4, the-3)
+dobj(pick-1, package-4)
+
+prt(pick-1, up-2)
+det(knife-4, a-3)
+dobj(pick-1, knife-4)
+
+det(blade-4, the-2)
+nn(blade-4, knife-3)
+dobj(run-1, blade-4)
+det(seal-8, the-6)
+nn(seal-8, package-7)
+prep_along(blade-4, seal-8)
+
+advmod(effecient-3, most-2)
+amod(manner-4, effecient-3)
+dobj(decide-1, manner-4)
+amod(package-7, open-6)
+prep_to(decide-1, package-7)
+
+dobj(get-1, tools-2)
+xsubj(open-5, tools-2)
+partmod(tools-2, needed-3)
+aux(open-5, to-4)
+xcomp(needed-3, open-5)
+dobj(open-5, package-6)
+
+dobj(use-1, tools-2)
+
+dobj(place-1, package-2)
+prep_on(package-2, counter-4)
+
+dobj(retrieve-1, cutter-2)
+
+csubj(slice-5, use-1)
+dobj(use-1, cutter-2)
+prep(use-1, to-3)
+pobj(to-3, carefully-4)
+dep(slice-5, packing-6)
+dobj(packing-6, tape-7)
+
+amod(box-2, open-1)
+nsubj(flaps-3, box-2)
+
+prt(take-1, out-2)
+xcomp(take-1, packing-3)
+dobj(packing-3, materials-4)
+
+prt(take-1, out-2)
+amod(contents-4, shipped-3)
+dobj(take-1, contents-4)
+
+nn(materials-3, packing-2)
+dobj(recycle-1, materials-3)
+
+dobj(tear-1, package-2)
+
+dobj(repeat-1, step-2)
+num(step-2, 1-3)
+advmod(open-6, fully-5)
+prep_until(repeat-1, open-6)
+
+dobj(get-1, package-2)
+prep_in(get-1, hand-4)
+
+num(end-3, one-2)
+dobj(select-1, end-3)
+aux(open-5, to-4)
+infmod(end-3, open-5)
+
+advmod(open-2, rip-1)
+det(packaging-4, the-3)
+dobj(open-2, packaging-4)
+
+det(rip-3, the-2)
+dobj(widen-1, rip-3)
+mark(revealed-8, until-4)
+det(contents-6, the-5)
+nsubjpass(revealed-8, contents-6)
+auxpass(revealed-8, are-7)
+advcl(widen-1, revealed-8)
+
+prt(pick-1, up-2)
+dobj(pick-1, package-3)
+
+nn(opening-4, package-3)
+prep_for(look-1, opening-4)
+
+nn(opening-3, package-2)
+dobj(tear-1, opening-3)
+
+prep_in(look-1, package-3)
+
+nsubj(do-2, then-1)
+det(dance-5, a-3)
+amod(dance-5, little-4)
+dobj(do-2, dance-5)
+
+dobj(cut-1, string-2)
+amod(tape-5, peel-4)
+dobj(cut-1, tape-5)
+conj_and(string-2, tape-5)
+prep_off(cut-1, package-7)
+
+dobj(tear-1, paper-2)
+prep_off(tear-1, package-4)
+
+det(box-3, the-2)
+dobj(open-1, box-3)
+complm(is-7, that-4)
+det(item-6, the-5)
+nsubj(is-7, item-6)
+dep(box-3, is-7)
+prep(is-7, in-8)
+
+dobj(unwrap-1, box-2)
+
+amod(place-3, suitable-2)
+dobj(find-1, place-3)
+aux(open-5, to-4)
+infmod(place-3, open-5)
+
+dobj(asess-1, flaps-2)
+dobj(asess-1, edges-4)
+conj_or(flaps-2, edges-4)
+amod(way-7, best-6)
+prep_for(asess-1, way-7)
+aux(open-9, to-8)
+xcomp(asess-1, open-9)
+
+aux(open-3, to-2)
+xcomp(proceed-1, open-3)
+
+prt(put-1, away-2)
+dobj(put-1, utensils-3)
+
+nn(contents-3, package-2)
+dobj(enjoy-1, contents-3)
+
+det(package-3, the-2)
+dobj(put-1, package-3)
+det(table-6, the-5)
+prep_on(put-1, table-6)
+
+det(knife-3, a-2)
+dobj(get-1, knife-3)
+
+det(tape-3, the-2)
+dobj(cut-1, tape-3)
+
+det(lid-3, the-2)
+dobj(open-1, lid-3)
+det(box-6, the-5)
+prep_of(lid-3, box-6)
+
+det(package-3, the-2)
+dobj(take-1, package-3)
+det(kitchen-6, the-5)
+prep_into(take-1, kitchen-6)
+
+prt(get-1, out-2)
+det(knife\/scissors-4, a-3)
+dobj(get-1, knife\/scissors-4)
+
+prt(cut-1, open-2)
+num(end-4, one-3)
+dobj(cut-1, end-4)
+det(package-7, the-6)
+prep_of(end-4, package-7)
+
+prt(pull-1, out-2)
+det(contents-4, the-3)
+dobj(pull-1, contents-4)
+det(package-7, the-6)
+prep_of(contents-4, package-7)
+
+dobj(get-1, package-2)
+
+dobj(cut-1, tape-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, package-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, scissors-3)
+
+dobj(use-1, scissors-2)
+aux(cut-4, to-3)
+xcomp(use-1, cut-4)
+dobj(cut-4, package-5)
+
+prt(pick-1, up-2)
+det(package-4, the-3)
+dobj(pick-1, package-4)
+det(hands-7, both-6)
+prep_with(pick-1, hands-7)
+
+num(hand-3, one-2)
+dobj(take-1, hand-3)
+conj_and(take-1, tear-5)
+amod(paper-8, open-6)
+det(paper-8, the-7)
+dobj(tear-5, paper-8)
+
+det(contents-3, the-2)
+dobj(remove-1, contents-3)
+
+det(contents-3, the-2)
+dobj(hold-1, contents-3)
+poss(hands-6, your-5)
+prep_in(hold-1, hands-6)
+
+det(paper-3, the-2)
+dobj(recycle-1, paper-3)
+

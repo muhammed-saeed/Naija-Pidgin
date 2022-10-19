@@ -1,0 +1,604 @@
+dobj(find-1, pot-2)
+
+nn(ingredients-3, soup-2)
+dobj(collect-1, ingredients-3)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+prep_in(put-1, ingredients-3)
+
+dobj(stir-1, soup-2)
+prepc_until(stir-1, cooked-4)
+
+det(can-3, a-2)
+dobj(open-1, can-3)
+prep_of(can-3, soup-5)
+
+det(soup-3, the-2)
+dobj(empty-1, soup-3)
+det(pan-6, the-5)
+prep_into(empty-1, pan-6)
+
+det(water-3, some-2)
+dobj(add-1, water-3)
+
+det(soup-3, the-2)
+dobj(boil-1, soup-3)
+det(stove-6, the-5)
+prep_on(boil-1, stove-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, soup-3)
+det(cup-6, a-5)
+prep_in(soup-3, cup-6)
+
+det(cover-3, the-2)
+dobj(open-1, cover-3)
+
+prt(fill-1, up-2)
+det(cup-4, the-3)
+dobj(fill-1, cup-4)
+prep_with(fill-1, water-6)
+dep(to-8, up-7)
+advmod(fill-1, to-8)
+det(position-11, the-9)
+amod(position-11, marked-10)
+pobj(to-8, position-11)
+
+det(cup-3, the-2)
+dobj(put-1, cup-3)
+prep_in(put-1, microwave-5)
+num(minutes-8, 3-7)
+prep_for(put-1, minutes-8)
+
+amod(pot-3, large-2)
+dobj(fill-1, pot-3)
+prep_with(fill-1, water-5)
+
+dobj(apply-1, heat-2)
+det(boils-6, the-4)
+nn(boils-6, water-5)
+prep_until(apply-1, boils-6)
+
+det(ingredients-4, the-2)
+nn(ingredients-4, soup-3)
+dobj(prepare-1, ingredients-4)
+
+dobj(place-1, ingredients-2)
+det(water-6, the-4)
+amod(water-6, boiling-5)
+prep_into(place-1, water-6)
+
+nsubj(cook-4, it-2)
+aux(cook-4, to-3)
+xcomp(allow-1, cook-4)
+amod(amount-7, appropriate-6)
+prep_for(cook-4, amount-7)
+prep_of(amount-7, time-9)
+
+amod(soup-2, open-1)
+nsubj(can-3, soup-2)
+
+dobj(pour-1, soup-2)
+prep_into(pour-1, pot-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+advmod(hot-4, when-1)
+nsubj(hot-4, soup-2)
+cop(hot-4, is-3)
+csubj(turn-5, hot-4)
+prt(turn-5, off-6)
+dobj(turn-5, stove-7)
+
+dobj(serve-1, soup-2)
+amod(dish-5, deep-4)
+prep_in(serve-1, dish-5)
+
+dobj(get-1, ingredients-2)
+prep_for(get-1, soup-4)
+
+dobj(clean-1, ingredients-2)
+
+dobj(cut-1, ingredients-2)
+
+dobj(put-1, ingredients-2)
+prep_in(put-1, pot-4)
+
+dobj(put-1, water-2)
+prep_in(put-1, pot-4)
+
+prepc_until(heat-1, done-3)
+
+dobj(boil-1, water-2)
+
+prep(cut-1, and-2)
+amod(vegetables-4, peel-3)
+dep(and-2, vegetables-4)
+
+advmod(put-4, when-1)
+nn(boils-3, water-2)
+nsubj(put-4, boils-3)
+dobj(put-4, vegetables-5)
+prep_in(put-4, water-7)
+
+num(minutes-3, ten-2)
+dobj(wait-1, minutes-3)
+
+nn(sauce-3, tomato-2)
+dobj(add-1, sauce-3)
+
+dobj(remove-1, pot-2)
+prep_from(remove-1, stove-4)
+
+dobj(boil-1, water-2)
+
+amod(soup-3, canned-2)
+dobj(open-1, soup-3)
+
+advmod(boiling-3, when-1)
+nsubj(boiling-3, water-2)
+csubj(pour-4, boiling-3)
+dep(pour-4, canned-5)
+dobj(canned-5, soup-6)
+prep_in(canned-5, water-8)
+
+dobj(add-1, spices-2)
+amod(vegetables-5, other-4)
+dobj(add-1, vegetables-5)
+conj_or(spices-2, vegetables-5)
+
+
+dobj(remove-1, pot-2)
+prep_from(remove-1, stove-4)
+
+dobj(boil-1, water-2)
+
+dobj(chop-1, vegetables-2)
+
+advmod(boiling-4, when-1)
+nsubj(boiling-4, water-2)
+aux(boiling-4, is-3)
+ccomp(boiling-4, put-5)
+dobj(put-5, vegetables-6)
+prep_in(put-5, water-8)
+
+aux(boil-3, to-2)
+xcomp(leave-1, boil-3)
+mark(tender-6, until-4)
+nsubj(tender-6, vegetables-5)
+advcl(boil-3, tender-6)
+
+nn(juice-3, tomato-2)
+dobj(add-1, juice-3)
+
+dobj(remove-1, pot-2)
+prep_from(remove-1, stove-4)
+
+det(can-3, a-2)
+dobj(opening-1, can-3)
+prep_of(can-3, soup-5)
+
+det(soup-3, the-2)
+dobj(pouring-1, soup-3)
+prt(pouring-1, in-4)
+det(pot-7, a-6)
+prep_to(pouring-1, pot-7)
+
+det(pot-3, the-2)
+dobj(putting-1, pot-3)
+det(range-7, a-5)
+amod(range-7, cooking-6)
+prep_on(putting-1, range-7)
+
+csubj(range-4, turning-1)
+det(cooking-3, the-2)
+dobj(turning-1, cooking-3)
+dep(range-4, on-5)
+aux(heat-7, to-6)
+xcomp(on-5, heat-7)
+det(soup-9, the-8)
+dobj(heat-7, soup-9)
+
+det(soup-3, the-2)
+dobj(pouring-1, soup-3)
+det(bowl-6, a-5)
+prep_into(pouring-1, bowl-6)
+advmod(ready-10, when-7)
+nsubj(ready-10, it-8)
+cop(ready-10, is-9)
+advcl(pouring-1, ready-10)
+
+amod(soup-2, open-1)
+nsubj(can-3, soup-2)
+
+dobj(pour-1, contents-2)
+prep_into(pour-1, pot-4)
+
+dobj(add-1, water-2)
+dobj(add-1, milk-4)
+conj_and\/or(water-2, milk-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+dobj(mix-1, soup-2)
+
+prepc_until(wait-1, done-3)
+
+dobj(gather-1, ingredients-2)
+
+prep_on(turn-1, stove-3)
+
+dobj(fill-1, pot-2)
+num(thirds-5, two-4)
+prep_with(fill-1, thirds-5)
+prep_with(fill-1, water-7)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+dobj(boil-1, water-2)
+
+dobj(place-1, ingredients-2)
+prepc_into(place-1, boiling-4)
+dobj(boiling-4, water-5)
+
+dobj(keep-1, water-2)
+dep(keep-1, boiling-3)
+mark(done-7, until-4)
+nsubjpass(done-7, soup-5)
+auxpass(done-7, is-6)
+advcl(boiling-3, done-7)
+
+dobj(put-1, water-2)
+prep_in(put-1, pot-4)
+
+dobj(put-1, ingredients-2)
+prep_in(put-1, pot-4)
+
+dobj(heat-1, water-2)
+dobj(heat-1, ingredients-4)
+conj_and(water-2, ingredients-4)
+
+dobj(add-1, spices-2)
+prep_to(add-1, taste-4)
+
+amod(soup-2, open-1)
+nsubj(can-3, soup-2)
+
+nn(contents-3, can-2)
+dobj(dump-1, contents-3)
+prep_into(dump-1, pot-5)
+
+dobj(add-1, water-2)
+dobj(add-1, milk-4)
+conj_or(water-2, milk-4)
+prep_according_to(add-1, recipe-7)
+
+dobj(heat-1, pot-2)
+mark(stirring-4, while-3)
+dep(heat-1, stirring-4)
+
+dep(ready-3, when-2)
+dep(remove-1, ready-3)
+
+det(can-3, a-2)
+dobj(get-1, can-3)
+prep_of(can-3, soup-5)
+det(cupboard-8, the-7)
+prep_from(get-1, cupboard-8)
+
+det(opener-4, a-2)
+dep(opener-4, can-3)
+dobj(get-1, opener-4)
+
+det(opener-4, the-2)
+nn(opener-4, can-3)
+dobj(use-1, opener-4)
+aux(open-6, to-5)
+xcomp(use-1, open-6)
+det(can-8, the-7)
+dobj(open-6, can-8)
+prep_of(can-8, soup-10)
+
+det(can-3, the-2)
+dobj(empty-1, can-3)
+prep_of(can-3, soup-5)
+det(bowl-8, a-7)
+prep_into(empty-1, bowl-8)
+
+det(amount-4, the-2)
+amod(amount-4, appropriate-3)
+dobj(mix-1, amount-4)
+prep_of(amount-4, water-6)
+det(soup-9, the-8)
+prep_with(mix-1, soup-9)
+
+det(soup-3, the-2)
+dobj(heat-1, soup-3)
+det(microwave-6, the-5)
+prep_in(heat-1, microwave-6)
+
+dobj(heat-1, water-2)
+
+dobj(add-1, bouillon-2)
+
+dobj(add-1, vegetables-2)
+
+nn(balls-3, meat-2)
+dobj(add-1, balls-3)
+
+dobj(cook-1, soup-2)
+
+dobj(get-1, ingredients-2)
+
+dobj(heat-1, stove-2)
+
+dobj(follow-1, recipe-2)
+
+dobj(gather-1, foods-2)
+
+dobj(add-1, liquids-2)
+
+dobj(combine-1, foods-2)
+dobj(combine-1, liquids-4)
+conj_and(foods-2, liquids-4)
+
+amod(foods-3, combined-2)
+dobj(heat-1, foods-3)
+dobj(heat-1, liquids-5)
+conj_and(foods-3, liquids-5)
+
+det(pantry-3, the-2)
+dobj(open-1, pantry-3)
+
+det(can-3, a-2)
+dobj(select-1, can-3)
+prep_of(can-3, soup-5)
+
+det(can-3, the-2)
+dobj(open-1, can-3)
+prep_of(can-3, soup-5)
+
+dobj(pour-1, soup-2)
+det(pot-5, a-4)
+prep_into(pour-1, pot-5)
+
+det(pot-3, the-2)
+dobj(place-1, pot-3)
+det(stove-6, the-5)
+prep_on(place-1, stove-6)
+
+det(stove-3, the-2)
+dobj(turn-1, stove-3)
+prt(turn-1, on-4)
+
+det(soup-3, the-2)
+dobj(let-1, soup-3)
+dep(let-1, warm-4)
+det(temperature-8, the-6)
+amod(temperature-8, desired-7)
+prep_to(warm-4, temperature-8)
+
+prt(cut-1, up-2)
+dobj(cut-1, vegetables-3)
+
+dobj(boil-1, water-2)
+prep_in(boil-1, pot-4)
+
+dobj(boil-1, vegetables-2)
+prep_in(boil-1, pot-4)
+
+dobj(find-1, can-2)
+prep_of(can-2, soup-4)
+
+dobj(open-1, can-2)
+prep_of(can-2, soup-4)
+
+dobj(pour-1, soup-2)
+prep_into(pour-1, bowl-4)
+
+dobj(place-1, bowl-2)
+prep_in(place-1, microwave-4)
+
+prep_on(turn-1, microwave-3)
+
+prt(turn-1, off-2)
+dobj(turn-1, microwave-3)
+
+dobj(take-1, bowl-2)
+prep_from(take-1, microwave-4)
+
+nsubj(can-2, use-1)
+nsubj(can-6, opener-3)
+prep_on(opener-3, soup-5)
+ccomp(can-2, can-6)
+
+dobj(put-1, contents-2)
+prep_of(contents-2, can-4)
+det(bowl-7, a-6)
+prep_into(put-1, bowl-7)
+
+dobj(add-1, water-2)
+advmod(instructed-4, as-3)
+partmod(water-2, instructed-4)
+prep_on(instructed-4, soup-6)
+dep(add-1, can-7)
+
+nsubj(instructions-7, heat-1)
+prep_according_to(can-5, soup-4)
+rcmod(heat-1, can-5)
+cop(instructions-7, s-6)
+
+dep(let-1, cool-2)
+num(minutes-5, five-4)
+prep_for(cool-2, minutes-5)
+
+dobj(open-1, can-2)
+prep_of(can-2, soup-4)
+
+prep_into(pour-1, pot-3)
+
+dobj(heat-1, pot-2)
+
+det(can-3, the-2)
+dobj(open-1, can-3)
+prep_of(can-3, soup-5)
+
+dobj(pour-1, soup-2)
+prep_into(pour-1, pan-4)
+
+dobj(place-1, pan-2)
+prep_on(place-1, stovetop-4)
+
+dobj(turn-1, stovetop-2)
+prt(turn-1, on-3)
+
+dobj(heat-1, soup-2)
+prep_until(heat-1, hot-4)
+
+dobj(pour-1, soup-2)
+prep_into(pour-1, bowl-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, stovetop-3)
+
+dobj(gather-1, ingredients-2)
+
+dobj(prepare-1, ingredients-2)
+
+dobj(find-1, container-2)
+
+nn(source-3, heat-2)
+dobj(find-1, source-3)
+
+dobj(mix-1, all-2)
+advmod(mix-1, together-3)
+
+dobj(check-1, tempurature-2)
+
+dobj(remove-1, heat-2)
+
+dobj(open-1, can-2)
+
+dobj(pour-1, soup-2)
+prep_in(pour-1, pot-4)
+
+dobj(heat-1, pot-2)
+
+dobj(heat-1, water-2)
+dobj(heat-1, stock-4)
+conj_or(water-2, stock-4)
+
+dobj(add-1, ingredients-2)
+
+mark(done-3, until-2)
+dep(cook-1, done-3)
+
+dobj(chop-1, onions-2)
+
+dobj(slice-1, carrots-2)
+
+dobj(slice-1, potatoes-2)
+
+acomp(slice-1, sausage-2)
+
+dobj(add-1, ingredients-2)
+prep_to(add-1, pot-4)
+
+dobj(add-1, water-2)
+prep_to(add-1, pot-4)
+
+mark(cooked-5, until-2)
+nsubjpass(cooked-5, ingredients-3)
+auxpass(cooked-5, are-4)
+advcl(heat-1, cooked-5)
+
+prep_to(go-1, cupboard-3)
+
+dobj(choose-1, variety-2)
+prep_of(variety-2, soup-4)
+
+dobj(take-1, can-2)
+prep_of(can-2, soup-4)
+prep_from(take-1, cupboard-6)
+
+nsubj(with-3, open-1)
+aux(with-3, can-2)
+dep(opener-5, can-4)
+ccomp(with-3, opener-5)
+
+dobj(pour-1, soup-2)
+prep_into(pour-1, bowl-4)
+
+dobj(heat-1, soup-2)
+prep_in(heat-1, microwave-4)
+
+nsubj(can-2, rinse-1)
+
+dobj(prepare-1, ingredients-2)
+
+dobj(put-1, ingredience-2)
+prepc_in(put-1, cooking-4)
+dobj(cooking-4, pot-5)
+
+dobj(add-1, water-2)
+
+prep_on(cook-1, gas-3)
+
+dobj(take-1, pot-2)
+prep_out_of(take-1, cuboard-5)
+
+dobj(put-1, pot-2)
+nn(top-5, stove-4)
+prep_on(put-1, top-5)
+
+dobj(take-1, can-2)
+prep_of(can-2, soup-4)
+prep_from(take-1, cupboard-6)
+
+nsubj(with-3, open-1)
+aux(with-3, can-2)
+dep(opener-5, can-4)
+ccomp(with-3, opener-5)
+
+dobj(put-1, soup-2)
+prep_in(put-1, pot-4)
+
+prep_on(turn-1, burner-3)
+
+prep_until(heat-1, hot-3)
+
+dobj(open-1, can-2)
+
+prep_into(pour-1, pot-3)
+
+dobj(heat-1, pot-2)
+amod(heat-5, medium-4)
+prep_on(heat-1, heat-5)
+
+prep_to(bring-1, boil-3)
+
+prep_of(turn-1, heat-3)
+
+dep(let-1, cool-2)
+advmod(cool-2, slightly-3)
+
+
+dobj(boil-1, water-2)
+det(pot-5, a-4)
+prep_in(boil-1, pot-5)
+
+dobj(add-1, ingredients-2)
+
+prep_until(cook-1, ready-3)
+

@@ -1,0 +1,457 @@
+dobj(reach-1, hand-2)
+prep_for(reach-1, cord-4)
+
+dobj(grab-1, cord-2)
+
+dobj(pull-1, cord-2)
+
+det(cord-3, the-2)
+dobj(find-1, cord-3)
+nsubj(raises-5, cord-3)
+nsubj(lowers-7, cord-3)
+rcmod(cord-3, raises-5)
+rcmod(cord-3, lowers-7)
+conj_and(raises-5, lowers-7)
+det(blinds-9, the-8)
+dobj(raises-5, blinds-9)
+
+det(cord-3, the-2)
+dobj(pull-1, cord-3)
+advmod(pull-1, downward-4)
+aux(raise-6, to-5)
+xcomp(pull-1, raise-6)
+det(blinds-8, the-7)
+dobj(raise-6, blinds-8)
+
+dobj(find-1, blinds-2)
+
+dobj(find-1, cord-2)
+nsubj(raises-4, cord-2)
+nsubj(lowers-6, cord-2)
+rcmod(cord-2, raises-4)
+rcmod(cord-2, lowers-6)
+conj_and(raises-4, lowers-6)
+dobj(raises-4, blinds-7)
+
+prep_on(pull-1, cord-3)
+aux(raise-5, to-4)
+xcomp(pull-1, raise-5)
+dobj(raise-5, blinds-6)
+
+det(cord-3, the-2)
+dobj(locate-1, cord-3)
+nsubj(controls-5, cord-3)
+rcmod(cord-3, controls-5)
+det(blinds-7, the-6)
+dobj(controls-5, blinds-7)
+
+det(hand-3, a-2)
+dobj(place-1, hand-3)
+det(cord-6, the-5)
+prep_on(place-1, cord-6)
+
+det(downwards-4, the-2)
+nn(downwards-4, cord-3)
+dobj(pull-1, downwards-4)
+
+prep_to(go-1, window-3)
+
+dobj(pull-1, string-2)
+
+det(curtains-3, the-2)
+dobj(move-1, curtains-3)
+det(window-7, the-6)
+prep_away_from(move-1, window-7)
+
+det(string-3, the-2)
+dobj(locate-1, string-3)
+nsubj(raises-5, string-3)
+rcmod(string-3, raises-5)
+det(blinds-7, the-6)
+dobj(raises-5, blinds-7)
+
+det(string-3, the-2)
+dobj(pull-1, string-3)
+
+det(rise-4, the-2)
+amod(rise-4, blinds-3)
+dobj(watch-1, rise-4)
+det(height-8, the-6)
+amod(height-8, desired-7)
+prep_to(watch-1, height-8)
+
+xcomp(stop-1, pulling-2)
+det(string-4, the-3)
+dobj(pulling-2, string-4)
+
+det(curtains-3, the-2)
+dobj(move-1, curtains-3)
+prt(move-1, back-4)
+
+det(cord-4, the-2)
+amod(cord-4, blind-3)
+dobj(grasp-1, cord-4)
+
+det(cord-3, the-2)
+dobj(pull-1, cord-3)
+prt(pull-1, down-4)
+
+det(cord-4, the-2)
+predet(cord-4, the-2)
+dep(cord-4, the-3)
+dobj(pull-1, cord-4)
+det(center-8, the-7)
+prep_away_from(pull-1, center-8)
+det(window-11, the-10)
+prep_of(center-8, window-11)
+
+det(cord-3, the-2)
+dobj(release-1, cord-3)
+
+dobj(grab-1, cord-2)
+
+dobj(pull-1, cord-2)
+advmod(pull-1, straight-3)
+advmod(pull-1, down-4)
+
+dobj(release-1, cord-2)
+
+mark(raised-5, until-2)
+nsubjpass(raised-5, blinds-3)
+auxpass(raised-5, are-4)
+advcl(repeat-1, raised-5)
+
+prt(walk-1, over-2)
+det(side-5, the-4)
+prep_to(walk-1, side-5)
+det(blinds-8, the-7)
+prep_of(side-5, blinds-8)
+det(string-11, the-10)
+prep_with(blinds-8, string-11)
+
+dobj(pull-1, string-2)
+mark(raised-6, until-3)
+nsubjpass(raised-6, blinds-4)
+auxpass(raised-6, are-5)
+advcl(pull-1, raised-6)
+
+prep_to(go-1, window-3)
+
+prt(pull-1, down-2)
+dobj(pull-1, string-3)
+
+acomp(go-1, next-2)
+prep_to(next-2, window-4)
+
+amod(string-3, blinds-2)
+dobj(pull-1, string-3)
+
+det(blinds-4, the-3)
+prep_to(move-1, blinds-4)
+
+aux(pull-4, find-1)
+det(blinds-3, the-2)
+nsubj(pull-4, blinds-3)
+dobj(pull-4, cord-5)
+
+det(cord-4, the-2)
+nn(cord-4, pull-3)
+dobj(pull-1, cord-4)
+aux(raise-6, to-5)
+xcomp(pull-1, raise-6)
+det(blinds-8, the-7)
+dobj(raise-6, blinds-8)
+
+acomp(go-1, next-2)
+prep_to(next-2, window-4)
+
+dobj(pull-1, chord-2)
+advmod(pull-1, so-3)
+complm(raised-7, that-4)
+nsubjpass(raised-7, bilnds-5)
+auxpass(raised-7, are-6)
+ccomp(pull-1, raised-7)
+
+dobj(pull-1, cord-2)
+partmod(cord-2, attached-3)
+prep_to(attached-3, blinds-5)
+prt(pull-1, down-6)
+
+det(cord-4, the-2)
+amod(cord-4, blind-3)
+dobj(locate-1, cord-4)
+
+det(cord-4, the-2)
+amod(cord-4, blind-3)
+dobj(pull-1, cord-4)
+
+det(cord-4, the-2)
+amod(cord-4, blind-3)
+dobj(locate-1, cord-4)
+
+det(cord-4, the-2)
+amod(cord-4, blind-3)
+dobj(pull-1, cord-4)
+
+det(cord-4, the-2)
+amod(cord-4, blind-3)
+dobj(release-1, cord-4)
+
+amod(cord-4, blind-3)
+prep_on(pull-1, cord-4)
+
+det(cord-3, the-2)
+dobj(find-1, cord-3)
+
+det(cord-3, the-2)
+dobj(pull-1, cord-3)
+prt(pull-1, down-4)
+
+det(cord-3, the-2)
+dobj(pull-1, cord-3)
+det(side-6, the-5)
+prep_to(pull-1, side-6)
+
+amod(cord-3, blind-2)
+dobj(take-1, cord-3)
+
+amod(cord-3, blind-2)
+dobj(pull-1, cord-3)
+
+prep_to(go-1, window-3)
+
+dobj(pull-1, string-2)
+
+dobj(pull-1, cord-2)
+aux(raise-4, to-3)
+xcomp(pull-1, raise-4)
+det(blinds-6, the-5)
+dobj(raise-4, blinds-6)
+
+dobj(pull-1, cord-2)
+
+dobj(lock-1, cord-2)
+prep_in(lock-1, place-4)
+
+det(cord-3, the-2)
+dobj(grasp-1, cord-3)
+
+det(cord-3, the-2)
+dobj(pull-1, cord-3)
+
+det(cord-3, the-2)
+dobj(latch-1, cord-3)
+
+prep_to(walk-1, blinds-3)
+
+dobj(pull-1, string-2)
+dobj(pull-1, cord-4)
+conj_or(string-2, cord-4)
+
+dobj(grasp-1, cord-2)
+
+dobj(pull-1, cord-2)
+amod(level-5, desired-4)
+prep_to(pull-1, level-5)
+
+dobj(pull-1, cord-2)
+prep_to(pull-1, right-4)
+aux(lock-6, to-5)
+infmod(right-4, lock-6)
+dobj(lock-6, level-7)
+
+nsubj(blinds-2, goto-1)
+
+xcomp(find-1, raise-2)
+dobj(raise-2, mechanism-3)
+
+xcomp(adjust-1, raise-2)
+dobj(raise-2, mechanism-3)
+det(direction-6, the-5)
+prep_in(raise-2, direction-6)
+prep_of(direction-6, elevation-8)
+
+dep(let-1, go-2)
+nn(mechanism-5, raise-4)
+prep_of(go-2, mechanism-5)
+
+dobj(pull-1, cord-2)
+
+prep_at(look-1, blinds-3)
+
+amod(cord-3, blind-2)
+dobj(locate-1, cord-3)
+
+amod(cord-3, blind-2)
+dobj(pull-1, cord-3)
+det(angle-6, an-5)
+prep_at(pull-1, angle-6)
+
+amod(cord-3, blind-2)
+dobj(release-1, cord-3)
+
+dobj(open-1, blinds-2)
+
+dobj(pull-1, cord-2)
+aux(raise-4, to-3)
+xcomp(pull-1, raise-4)
+dobj(raise-4, blinds-5)
+
+det(string-3, the-2)
+dobj(pull-1, string-3)
+det(left-6, the-5)
+prep_to(pull-1, left-6)
+prep_to(pull-1, down-8)
+advmod(left-6, down-8)
+conj_and(left-6, down-8)
+
+det(string-3, the-2)
+dobj(pull-1, string-3)
+advmod(right-5, slightly-4)
+advmod(pull-1, right-5)
+
+det(cord-4, the-2)
+amod(cord-4, blind-3)
+dobj(grab-1, cord-4)
+
+
+dobj(put-1, hand-2)
+prep_on(put-1, cord-4)
+
+dobj(pull-1, cord-2)
+prt(pull-1, down-3)
+
+prep_to(walk-1, window-3)
+
+amod(cord-4, blind-2)
+nn(cord-4, pull-3)
+dobj(find-1, cord-4)
+
+amod(cord-4, blind-2)
+nn(cord-4, pull-3)
+dobj(pull-1, cord-4)
+
+amod(cord-3, blind-2)
+dobj(grasp-1, cord-3)
+
+nn(downwards-3, cord-2)
+dobj(pull-1, downwards-3)
+
+dobj(lock-1, blinds-2)
+prep_into(lock-1, place-4)
+
+dobj(release-1, cord-2)
+
+det(window-4, the-3)
+prep_to(go-1, window-4)
+
+det(cord-3, the-2)
+dobj(grab-1, cord-3)
+det(blinds-6, the-5)
+prep_to(grab-1, blinds-6)
+
+det(cord-3, the-2)
+dobj(pull-1, cord-3)
+
+prt(pull-1, down-2)
+det(cord-6, the-4)
+amod(cord-6, blinds-5)
+prep_on(pull-1, cord-6)
+prep_until(pull-1, open-8)
+
+prt(pull-1, back-2)
+prep_on(pull-1, cord-4)
+prep_for(pull-1, blinds-6)
+aux(lock-8, to-7)
+infmod(blinds-6, lock-8)
+
+conj_and(grasp-1, pull-3)
+det(cord-5, the-4)
+dobj(pull-3, cord-5)
+
+nsubj(raise-3, blinds-1)
+aux(raise-3, will-2)
+
+dobj(grab-1, cord-2)
+
+dobj(grab-1, cord-2)
+
+dep(are-6, pull-1)
+dobj(pull-1, cord-2)
+prt(pull-1, down-3)
+amod(blinds-5, untill-4)
+nsubj(are-6, blinds-5)
+amod(height-9, correct-8)
+prep_at(are-6, height-9)
+
+dep(are-6, pull-1)
+dobj(pull-1, cord-2)
+prt(pull-1, down-3)
+amod(blinds-5, untill-4)
+nsubj(are-6, blinds-5)
+amod(height-9, correct-8)
+prep_at(are-6, height-9)
+
+dobj(lock-1, cord-2)
+
+dobj(lock-1, cord-2)
+
+dobj(grab-1, cord-2)
+
+dep(are-6, pull-1)
+dobj(pull-1, cord-2)
+prt(pull-1, down-3)
+amod(blinds-5, untill-4)
+nsubj(are-6, blinds-5)
+amod(height-9, correct-8)
+prep_at(are-6, height-9)
+
+dobj(lock-1, cord-2)
+
+det(room-4, the-3)
+prep_to(walk-1, room-4)
+
+det(blinds-4, the-3)
+prep_to(walk-1, blinds-4)
+
+advmod(want-5, how-2)
+amod(u-4, high-3)
+nsubj(want-5, u-4)
+ccomp(decide-1, want-5)
+det(blinds-7, the-6)
+nsubj(go-9, blinds-7)
+aux(go-9, to-8)
+xcomp(want-5, go-9)
+
+det(rod-3, the-2)
+dobj(take-1, rod-3)
+det(string-6, the-5)
+dobj(take-1, string-6)
+conj_or(rod-3, string-6)
+prep_in(take-1, hands-8)
+
+nsubj(pull-2, slowly-1)
+
+prep(keep-1, pulling-2)
+dep(pulling-2, to-3)
+amod(height-5, desired-4)
+pobj(to-3, height-5)
+
+det(mistakes-4, any-3)
+prep_for(check-1, mistakes-4)
+
+prt(get-1, up-2)
+
+dobj(left-1, foot-2)
+
+amod(foot-2, right-1)
+
+dobj(find-1, string-2)
+
+prep_on(pull-1, string-3)
+
+amod(string-3, other-2)
+dobj(find-1, string-3)
+
+prep_on(pull-1, string-3)
+

@@ -1,0 +1,478 @@
+nn(bedsheets-3, replacement-2)
+dobj(find-1, bedsheets-3)
+
+prt(take-1, out-2)
+amod(bedsheet-4, existing-3)
+dobj(take-1, bedsheet-4)
+
+amod(bedsheet-3, existing-2)
+dobj(put-1, bedsheet-3)
+amod(clothes-6, dirty-5)
+prep_with(put-1, clothes-6)
+
+nn(bedsheet-3, replacement-2)
+dobj(put-1, bedsheet-3)
+
+amod(sheets-3, old-2)
+dobj(remove-1, sheets-3)
+
+amod(sheets-3, new-2)
+dobj(get-1, sheets-3)
+
+amod(sheets-3, new-2)
+dobj(place-1, sheets-3)
+prep_on(place-1, bed-5)
+
+amod(sheets-3, old-2)
+dobj(take-1, sheets-3)
+prep_off(take-1, bed-5)
+
+amod(sheets-3, new-2)
+dobj(get-1, sheets-3)
+
+amod(sheets-3, new-2)
+dobj(put-1, sheets-3)
+prep_on(put-1, bed-5)
+
+prt(take-1, off-2)
+det(sheets-5, the-3)
+amod(sheets-5, old-4)
+dobj(take-1, sheets-5)
+
+prt(take-1, off-2)
+det(sheets-5, the-3)
+amod(sheets-5, old-4)
+dobj(take-1, sheets-5)
+
+det(sheets-5, the-3)
+amod(sheets-5, new-4)
+prep_on(put-1, sheets-5)
+
+det(sheets-4, the-2)
+amod(sheets-4, old-3)
+dobj(put-1, sheets-4)
+det(wash-7, the-6)
+prep_in(put-1, wash-7)
+
+amod(sheets-3, new-2)
+dobj(getting-1, sheets-3)
+
+acomp(going-1, next-2)
+prep_to(going-1, bed-4)
+
+amod(sheets-3, old-2)
+dobj(removing-1, sheets-3)
+prep_from(removing-1, bed-5)
+
+amod(sheets-3, new-2)
+dobj(putting-1, sheets-3)
+prep_on(putting-1, bed-5)
+
+nsubj(removed-2, taking-1)
+nn(sheets-4, bed-3)
+dobj(removed-2, sheets-4)
+amod(machine-7, washing-6)
+prep_to(removed-2, machine-7)
+
+nsubj(soiled-2, remove-1)
+dobj(soiled-2, bedsheets-3)
+
+amod(bedsheets-3, clean-2)
+dobj(place-1, bedsheets-3)
+prep_on(place-1, bed-5)
+
+prt(take-1, off-2)
+det(sheets-5, the-3)
+amod(sheets-5, old-4)
+dobj(take-1, sheets-5)
+
+dobj(put-1, them-2)
+det(laundry-5, the-4)
+prep_in(put-1, laundry-5)
+
+det(sheets-4, the-2)
+amod(sheets-4, new-3)
+dobj(get-1, sheets-4)
+
+dobj(put-1, them-2)
+det(bed-5, the-4)
+prep_on(put-1, bed-5)
+
+amod(sheets-3, previous-2)
+dobj(remove-1, sheets-3)
+prep_from(remove-1, bed-5)
+
+amod(sheet-3, new-2)
+dobj(lay-1, sheet-3)
+partmod(sheet-3, spread-4)
+prt(spread-4, out-5)
+prep_on(spread-4, bed-7)
+
+det(sheet-3, the-2)
+dobj(tuck-1, sheet-3)
+det(mattress-6, the-5)
+prep_under(tuck-1, mattress-6)
+
+acomp(make-1, sure-2)
+det(sheet-4, the-3)
+nsubj(facing-6, sheet-4)
+aux(facing-6, is-5)
+ccomp(sure-2, facing-6)
+det(direction-9, the-7)
+amod(direction-9, proper-8)
+dobj(facing-6, direction-9)
+
+amod(sheets-4, old-2)
+nn(sheets-4, bed-3)
+dobj(remove-1, sheets-4)
+prep_from(remove-1, bed-6)
+
+amod(sheets-4, new-2)
+nn(sheets-4, bed-3)
+dobj(locate-1, sheets-4)
+
+amod(sheets-4, new-2)
+nn(sheets-4, bed-3)
+dobj(place-1, sheets-4)
+prep_on(place-1, bed-6)
+
+conj_and(clean-1, store-3)
+amod(sheets-6, old-4)
+nn(sheets-6, bed-5)
+dobj(store-3, sheets-6)
+
+amod(besheets-3, old-2)
+dobj(remove-1, besheets-3)
+
+amod(sheets-5, new-3)
+nn(sheets-5, bed-4)
+prep_on(put-1, sheets-5)
+
+det(sheet-4, the-2)
+amod(sheet-4, top-3)
+dobj(remove-1, sheet-4)
+det(bed-7, the-6)
+prep_from(remove-1, bed-7)
+
+amod(sheets-3, old-2)
+dobj(remove-1, sheets-3)
+
+dobj(place-1, them-2)
+amod(basket-6, dirty-4)
+nn(basket-6, laundry-5)
+prep_in(place-1, basket-6)
+
+amod(sheets-3, new-2)
+dobj(place-1, sheets-3)
+prep_on(place-1, bed-5)
+
+nn(sheets-3, bed-2)
+dobj(remove-1, sheets-3)
+
+amod(sheets-4, new-2)
+nn(sheets-4, bed-3)
+dobj(place-1, sheets-4)
+prep_on(place-1, bed-6)
+
+det(sheets-5, the-2)
+amod(sheets-5, current-3)
+nn(sheets-5, bed-4)
+dobj(removing-1, sheets-5)
+
+amod(sheets-4, clean-2)
+nn(sheets-4, bed-3)
+dobj(putting-1, sheets-4)
+det(bed-7, the-6)
+prep_on(putting-1, bed-7)
+
+prep_to(go-1, bed-3)
+
+amod(sheets-4, old-2)
+amod(sheets-4, beed-3)
+dobj(remove-1, sheets-4)
+
+amod(sheets-5, new-3)
+nn(sheets-5, bed-4)
+prep_on(put-1, sheets-5)
+
+amod(sheets-3, old-2)
+dobj(put-1, sheets-3)
+amod(laundry-6, dirty-5)
+prep_with(put-1, laundry-6)
+
+det(bed-4, the-3)
+prep_to(go-1, bed-4)
+
+det(blanket-3, the-2)
+dobj(remove-1, blanket-3)
+det(bed-6, the-5)
+prep_from(remove-1, bed-6)
+
+det(sheets-3, the-2)
+dobj(remove-1, sheets-3)
+det(bed-6, the-5)
+prep_from(remove-1, bed-6)
+
+det(sheets-3, the-2)
+dobj(put-1, sheets-3)
+det(pile-6, a-5)
+prep_in(put-1, pile-6)
+
+det(sheets-4, the-2)
+amod(sheets-4, old-3)
+dobj(replace-1, sheets-4)
+amod(ones-7, new-6)
+prep_with(replace-1, ones-7)
+
+amod(sheets-4, dirty-2)
+nn(sheets-4, bed-3)
+dobj(take-1, sheets-4)
+prep_off_of(take-1, bed-7)
+
+dobj(replace-1, them-2)
+amod(sheets-6, clean-4)
+nn(sheets-6, bed-5)
+prep_with(replace-1, sheets-6)
+
+amod(sheets-4, dirty-2)
+nn(sheets-4, bed-3)
+dobj(take-1, sheets-4)
+nn(area-7, laundry-6)
+prep_to(take-1, area-7)
+
+amod(sheets-3, clean-2)
+dobj(get-1, sheets-3)
+
+dobj(remove-1, sheets-2)
+prep_from(remove-1, bed-4)
+
+amod(sheets-3, clean-2)
+dobj(put-1, sheets-3)
+prep_on(put-1, bed-5)
+
+amod(sheets-3, old-2)
+dobj(put-1, sheets-3)
+prep_in(put-1, washingbin-5)
+
+prt(take-1, off-2)
+amod(sheets-5, dirty-3)
+nn(sheets-5, bed-4)
+dobj(take-1, sheets-5)
+
+nsubj(soiled-2, remove-1)
+dobj(soiled-2, sheets-3)
+
+amod(sheets-3, clean-2)
+dobj(locate-1, sheets-3)
+
+amod(sheets-3, clean-2)
+dobj(place-1, sheets-3)
+prep_on(place-1, bed-5)
+
+dobj(locate-1, bed-2)
+amod(sheets-5, dirty-4)
+prep_with(locate-1, sheets-5)
+
+amod(sheets-3, dirty-2)
+dobj(remove-1, sheets-3)
+
+amod(sheets-3, clean-2)
+dobj(put-1, sheets-3)
+prep_on(put-1, bed-5)
+
+amod(sheets-3, dirty-2)
+dobj(place-1, sheets-3)
+prep_into(place-1, clothes-5)
+advmod(place-1, hamper-6)
+
+dobj(remove-1, sheets-2)
+
+amod(sheet-3, clean-2)
+dobj(get-1, sheet-3)
+
+dobj(spread-1, sheet-2)
+prep_over(spread-1, bed-4)
+
+dobj(fold-1, corners-2)
+prep(fold-1, under-3)
+
+dobj(tuck-1, sides-2)
+prep(tuck-1, under-3)
+
+amod(sheets-3, dirty-2)
+dobj(take-1, sheets-3)
+prep(sheets-3, of-4)
+pobj(of-4, of-5)
+pobj(of-5, bed-6)
+
+amod(cases-4, dirty-2)
+nn(cases-4, pillow-3)
+dobj(take-1, cases-4)
+prep_off_of(take-1, pillows-7)
+
+amod(sheets-3, clean-2)
+dobj(put-1, sheets-3)
+prep_on(put-1, bed-5)
+
+amod(cases-4, clean-2)
+nn(cases-4, pillow-3)
+dobj(put-1, cases-4)
+prep_on(put-1, pillows-6)
+
+nn(sheets-3, bed-2)
+dobj(identify-1, sheets-3)
+
+nn(sheets-3, bed-2)
+dobj(remove-1, sheets-3)
+
+amod(sheets-4, new-2)
+nn(sheets-4, bed-3)
+dobj(place-1, sheets-4)
+prep_on(place-1, bed-6)
+
+amod(sheets-6, bedspread-2)
+conj_and(bedspread-2, old-4)
+amod(sheets-6, old-4)
+nn(sheets-6, bed-5)
+dobj(remove-1, sheets-6)
+
+amod(sheet-4, new-2)
+amod(sheet-4, fitted-3)
+dobj(put-1, sheet-4)
+prep_on(put-1, bed-6)
+
+amod(sheet-4, new-2)
+amod(sheet-4, flat-3)
+dobj(put-1, sheet-4)
+prep_on(put-1, bed-6)
+
+dobj(replace-1, bedspread-2)
+
+dobj(remove-1, sheets-2)
+prep_from(remove-1, bed-4)
+
+amod(sheets-3, used-2)
+dobj(put-1, sheets-3)
+prep_in(put-1, hamper-5)
+
+amod(sheets-3, clean-2)
+dobj(remove-1, sheets-3)
+nn(closet-6, linen-5)
+prep_from(remove-1, closet-6)
+
+nsubj(fitted-2, spread-1)
+dobj(fitted-2, sheet-3)
+prep_on(fitted-2, bed-5)
+
+dobj(tuck-1, corners-2)
+amod(sheet-5, fitted-4)
+prep_of(corners-2, sheet-5)
+prep_around(tuck-1, mattress-7)
+
+amod(sheet-3, flat-2)
+dobj(spread-1, sheet-3)
+prep_on(spread-1, bed-5)
+
+dobj(smooth-1, sheet-2)
+
+amod(sheets-3, dirty-2)
+dobj(remove-1, sheets-3)
+
+amod(sheets-3, clean-2)
+dobj(put-1, sheets-3)
+prep_on(put-1, mattress-5)
+
+amod(sheets-3, old-2)
+dobj(remove-1, sheets-3)
+
+amod(sheets-3, old-2)
+dobj(put-1, sheets-3)
+prep_into(put-1, laundry-5)
+advmod(put-1, hamper-6)
+
+amod(bed-5, clean-3)
+det(bed-5, the-4)
+conj_and(dust-1, bed-5)
+
+amod(freshener-4, fabic-3)
+prep_on(spray-1, freshener-4)
+
+acomp(let-1, dry-2)
+
+amod(sheets-3, new-2)
+dobj(get-1, sheets-3)
+
+prep_on(put-1, bed-3)
+
+amod(sheets-6, old-2)
+conj_or(old-2, dirty-4)
+amod(sheets-6, dirty-4)
+nn(sheets-6, bed-5)
+dobj(remove-1, sheets-6)
+
+amod(sheets-7, clean-3)
+conj_or(clean-3, new-5)
+amod(sheets-7, new-5)
+nn(sheets-7, bed-6)
+prep_on(put-1, sheets-7)
+
+prt(take-1, out-2)
+amod(sheet-4, old-3)
+dobj(take-1, sheet-4)
+
+amod(sheet-3, new-2)
+dobj(replace-1, sheet-3)
+prep_on(replace-1, bed-5)
+
+amod(bedding-3, old-2)
+dobj(remove-1, bedding-3)
+
+nsubj(fitted-2, put-1)
+dobj(fitted-2, sheet-3)
+prep_on(fitted-2, mattress-5)
+
+amod(sheet-3, flat-2)
+dobj(put-1, sheet-3)
+prep_on(put-1, mattress-5)
+
+dobj(replace-1, blankets-2)
+conj_and(replace-1, tuck-4)
+dobj(tuck-4, everything-5)
+prt(tuck-4, in-6)
+det(foot-9, the-8)
+prep_at(tuck-4, foot-9)
+det(bed-12, the-11)
+prep_of(foot-9, bed-12)
+
+dobj(put-1, quilt-2)
+prep_on(put-1, mattress-4)
+
+dobj(replace-1, pillows-2)
+
+prt(take-1, off-2)
+amod(sheets-4, used-3)
+dobj(take-1, sheets-4)
+
+amod(sheets-3, new-2)
+dobj(get-1, sheets-3)
+
+amod(sheets-3, new-2)
+dobj(put-1, sheets-3)
+prep_on(put-1, bed-5)
+
+amod(sheets-3, clean-2)
+dobj(get-1, sheets-3)
+prep_from(get-1, closet-5)
+
+prt(take-1, off-2)
+amod(sheets-4, old-3)
+dobj(take-1, sheets-4)
+prep_from(take-1, bed-6)
+
+amod(ones-3, new-2)
+dobj(put-1, ones-3)
+prep(put-1, on-4)
+
+amod(sheets-3, old-2)
+dobj(wash-1, sheets-3)
+

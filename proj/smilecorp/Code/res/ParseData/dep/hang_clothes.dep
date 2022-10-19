@@ -1,0 +1,586 @@
+prt(pick-1, up-2)
+
+prep_on(place-1, hanger-3)
+
+dobj(find-1, hangars-2)
+prep_for(find-1, clothes-4)
+
+dobj(put-1, clothes-2)
+prep_onto(put-1, hangars-4)
+
+dobj(put-1, hangars-2)
+det(rack-5, a-4)
+prep_onto(put-1, rack-5)
+det(closet-8, a-7)
+prep_in(put-1, closet-8)
+
+det(piece-3, a-2)
+dobj(put-1, piece-3)
+prep_of(piece-3, clothing-5)
+det(hangar-9, a-7)
+nn(hangar-9, clothes-8)
+prep_on(put-1, hangar-9)
+
+det(hangar-3, that-2)
+dobj(hang-1, hangar-3)
+det(rack-6, a-5)
+prep_onto(hang-1, rack-6)
+det(closet-9, a-8)
+prep_in(hang-1, closet-9)
+
+mark(hung-6, until-2)
+det(clothes-4, all-3)
+nsubjpass(hung-6, clothes-4)
+auxpass(hung-6, are-5)
+advcl(repeat-1, hung-6)
+
+dobj(spread-1, clothes-2)
+det(string-5, a-4)
+prep_on(spread-1, string-5)
+aux(dry-7, to-6)
+infmod(string-5, dry-7)
+
+det(item-4, the-2)
+nn(item-4, clothes-3)
+dobj(put-1, item-4)
+det(hanger-7, a-6)
+prep_on(put-1, hanger-7)
+
+det(piece-3, that-2)
+dobj(hang-1, piece-3)
+prep_of(piece-3, clothes-5)
+det(closet-8, the-7)
+prep_in(hang-1, closet-8)
+
+dobj(locate-1, clothes-2)
+
+prt(find-1, out-2)
+advmod(needed-7, how-3)
+amod(hangers-5, many-4)
+nsubjpass(needed-7, hangers-5)
+auxpass(needed-7, are-6)
+ccomp(find-1, needed-7)
+
+dobj(locate-1, hangers-2)
+
+dobj(fetch-1, hangers-2)
+
+dobj(put-1, clothes-2)
+prep_on(put-1, hangers-4)
+
+det(hangers-3, the-2)
+dobj(hang-1, hangers-3)
+
+det(hanger-3, a-2)
+dobj(find-1, hanger-3)
+
+det(clothes-3, the-2)
+dobj(put-1, clothes-3)
+det(hanger-6, the-5)
+prep_on(put-1, hanger-6)
+
+det(hanger-3, the-2)
+dobj(attach-1, hanger-3)
+det(hook-6, some-5)
+prep_to(attach-1, hook-6)
+prep_to(attach-1, bar-8)
+conj_or(hook-6, bar-8)
+
+det(clothes-3, the-2)
+dobj(take-1, clothes-3)
+
+det(hangers-3, the-2)
+dobj(take-1, hangers-3)
+
+det(clothes-3, the-2)
+dobj(hang-1, clothes-3)
+det(hangers-6, the-5)
+prep_on(hang-1, hangers-6)
+
+det(hangers-3, the-2)
+dobj(hang-1, hangers-3)
+det(rack-6, a-5)
+prep_on(hang-1, rack-6)
+
+dobj(put-1, clothes-2)
+prep_on(put-1, hangers-4)
+
+prt(hang-1, up-2)
+dobj(hang-1, hangers-3)
+prep_in(hang-1, closet-5)
+
+prt(get-1, out-2)
+det(bunch-4, a-3)
+dobj(get-1, bunch-4)
+prep_of(bunch-4, hangers-6)
+
+det(article-3, each-2)
+dobj(place-1, article-3)
+prep_of(article-3, clothing-5)
+det(hanger-8, a-7)
+prep_on(place-1, hanger-8)
+
+prt(hang-1, up-2)
+det(article-4, each-3)
+dobj(hang-1, article-4)
+det(closet-7, the-6)
+prep_in(hang-1, closet-7)
+
+det(clothes-3, the-2)
+dobj(take-1, clothes-3)
+
+det(hangers-3, the-2)
+dobj(take-1, hangers-3)
+
+det(clothes-3, the-2)
+dobj(place-1, clothes-3)
+det(hangers-6, the-5)
+prep_on(place-1, hangers-6)
+
+det(hangers-3, the-2)
+dobj(put-1, hangers-3)
+det(rack-6, the-5)
+prep_on(put-1, rack-6)
+
+dobj(takes-1, clothes-2)
+nn(machines-5, washing-4)
+prep_from(takes-1, machines-5)
+
+csubj(pegs-5, get-1)
+dobj(get-1, basket-2)
+prep_of(basket-2, clothes-4)
+
+dobj(carry-1, them-2)
+det(lines-6, the-4)
+nn(lines-6, clothes-5)
+prep_to(carry-1, lines-6)
+
+csubj(pegs-7, hang-1)
+det(item-3, each-2)
+dobj(hang-1, item-3)
+det(few-6, a-5)
+prep_with(hang-1, few-6)
+
+nn(basket-2, return-1)
+nsubj(pegs-5, basket-2)
+prep_of(basket-2, clothes-4)
+det(machine-9, the-7)
+amod(machine-9, washing-8)
+prep_to(pegs-5, machine-9)
+
+det(piece-3, a-2)
+dobj(take-1, piece-3)
+prep_of(piece-3, clothing-5)
+det(basket-10, the-8)
+nn(basket-10, laundry-9)
+prep_out_of(take-1, basket-10)
+
+num(clothespins-3, two-2)
+dobj(take-1, clothespins-3)
+
+det(piece-3, the-2)
+dobj(fasten-1, piece-3)
+prep_of(piece-3, clothing-5)
+det(clothesline-8, the-7)
+prep_on(fasten-1, clothesline-8)
+det(clothespins-11, the-10)
+prep_with(fasten-1, clothespins-11)
+
+dobj(repeat-1, steps-2)
+dep(repeat-1, 1-3-3)
+mark(empty-9, until-4)
+det(basket-7, the-5)
+nn(basket-7, laundry-6)
+nsubj(empty-9, basket-7)
+cop(empty-9, is-8)
+ccomp(1-3-3, empty-9)
+
+prt(pick-1, up-2)
+det(item-5, a-3)
+nn(item-5, clothing-4)
+dobj(pick-1, item-5)
+
+dobj(place-1, item-2)
+det(hangar-6, a-4)
+nn(hangar-6, clothes-5)
+prep_onto(place-1, hangar-6)
+
+dobj(hang-1, hangar-2)
+det(rack-6, a-4)
+nn(rack-6, closet-5)
+prep_on(hang-1, rack-6)
+
+mark(hung-6, until-2)
+det(clothes-4, all-3)
+nsubjpass(hung-6, clothes-4)
+auxpass(hung-6, are-5)
+advcl(repeat-1, hung-6)
+
+prt(pick-1, up-2)
+det(clothes-4, the-3)
+dobj(pick-1, clothes-4)
+
+dobj(put-1, them-2)
+prep_on(put-1, hangers-4)
+
+dobj(put-1, them-2)
+det(wardrobe-5, the-4)
+prep_in(put-1, wardrobe-5)
+
+prt(gather-1, up-2)
+det(clothes-4, the-3)
+dobj(gather-1, clothes-4)
+
+dobj(put-1, clothes-2)
+prep_onto(put-1, hangers-4)
+
+det(clothes-3, the-2)
+dobj(hold-1, clothes-3)
+det(hangers-6, the-5)
+prep_by(hold-1, hangers-6)
+
+det(clothes-4, the-2)
+amod(clothes-4, hanged-3)
+dobj(place-1, clothes-4)
+det(rod-8, a-6)
+nn(rod-8, clothing-7)
+prep_on(place-1, rod-8)
+det(closet-11, a-10)
+prep_in(place-1, closet-11)
+
+nn(hangers-3, clothing-2)
+dobj(locate-1, hangers-3)
+
+dobj(place-1, clothes-2)
+nn(hangers-5, clothing-4)
+prep_on(place-1, hangers-5)
+
+det(hangers-4, the-2)
+nn(hangers-4, clothing-3)
+dobj(place-1, hangers-4)
+det(closet-7, a-6)
+prep_in(place-1, closet-7)
+
+dobj(aquire-1, hanger-2)
+
+dobj(aquire-1, clothes-2)
+
+dobj(manuever-1, clothes-2)
+prep_onto(manuever-1, hanger-4)
+
+det(clothes-3, the-2)
+dobj(get-1, clothes-3)
+aux(hanged-6, to-4)
+auxpass(hanged-6, be-5)
+xcomp(get-1, hanged-6)
+
+nn(door-3, closet-2)
+dobj(open-1, door-3)
+
+amod(hanger-3, unused-2)
+dobj(locate-1, hanger-3)
+
+dobj(place-1, clothes-2)
+advmod(place-1, tidily-3)
+prep_on(place-1, hanger-5)
+
+nsubj(hung-2, place-1)
+dobj(hung-2, clothes-3)
+advmod(hung-2, back-4)
+prep_in(hung-2, closet-6)
+
+prt(picking-1, up-2)
+nn(article-4, clothing-3)
+dobj(picking-1, article-4)
+
+prep_to(go-1, closet-3)
+
+dobj(get-1, hanger-2)
+
+dobj(slip-1, clothing-2)
+prep_onto(slip-1, hanger-4)
+
+dobj(place-1, hanger-2)
+prep_with(place-1, clothing-4)
+advmod(place-1, back-5)
+dep(back-5, into-6)
+pobj(into-6, closet-7)
+
+dobj(bring-1, clothes-2)
+
+prep_to(go-1, clothesline-3)
+
+dobj(get-1, clothespins-2)
+
+dobj(put-1, clothes-2)
+prep_on(put-1, clothesline-4)
+
+dobj(get-1, hanger-2)
+
+dobj(put-1, clothing-2)
+prep_on(put-1, hanger-4)
+
+dobj(put-1, hanger-2)
+prepc_on(put-1, hanging-4)
+dobj(hanging-4, rod-5)
+
+det(closet-3, the-2)
+dobj(open-1, closet-3)
+
+det(hangers-3, some-2)
+dobj(get-1, hangers-3)
+
+det(clothing-3, the-2)
+dobj(put-1, clothing-3)
+det(hangers-6, the-5)
+prep_on(put-1, hangers-6)
+
+det(hangers-3, the-2)
+dobj(put-1, hangers-3)
+advmod(put-1, back-4)
+det(closet-7, the-6)
+prep_in(put-1, closet-7)
+
+det(clothing-3, the-2)
+dobj(place-1, clothing-3)
+prep_on(place-1, hangers-5)
+
+det(hangers-3, the-2)
+dobj(hang-1, hangers-3)
+det(rack-6, the-5)
+prep_on(hang-1, rack-6)
+det(closet-9, the-8)
+prep_inside(hang-1, closet-9)
+
+dobj(get-1, clothes-2)
+
+dobj(get-1, hanger-2)
+
+dobj(put-1, clothes-2)
+prep_on(put-1, hanger-4)
+
+det(hanger-3, a-2)
+dobj(get-1, hanger-3)
+
+dobj(get-1, article-2)
+prep_of(article-2, clothing-4)
+
+dobj(place-1, clothing-2)
+prep_on(place-1, hanger-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, hanger-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, clothing-3)
+
+dobj(place-1, clothing-2)
+prep_on(place-1, hanger-4)
+
+dobj(place-1, hanger-2)
+nn(rod-5, closet-4)
+prep_on(place-1, rod-5)
+
+dobj(place-1, clothing-2)
+det(hanger-5, the-4)
+prep_on(place-1, hanger-5)
+
+dobj(remove-1, hanger-2)
+prep_from(remove-1, closet-4)
+
+nn(item-3, clothing-2)
+dobj(put-1, item-3)
+prep_on(put-1, hanger-5)
+
+prep_in(hang-1, closet-3)
+
+dobj(goto-1, clothes-2)
+
+dobj(put-1, clothes-2)
+prep_on(put-1, hanger-4)
+
+dobj(hang-1, clothes-2)
+
+nn(item-3, clothing-2)
+dep(pickup-1, item-3)
+
+prt(shake-1, out-2)
+dobj(shake-1, wrinkles-3)
+
+det(hanger-3, a-2)
+dobj(get-1, hanger-3)
+
+dobj(put-1, hanger-2)
+prep_into(put-1, neck-4)
+prep_of(neck-4, top-6)
+
+prep_in(hang-1, closet-3)
+
+dobj(sort-1, clothes-2)
+
+amod(machine-4, washing-3)
+prep_in(wash-1, machine-4)
+
+det(cycle-5, an-2)
+amod(cycle-5, extra-3)
+nn(cycle-5, rinse-4)
+dobj(run-1, cycle-5)
+
+dobj(sort-1, clothes-2)
+
+amod(machine-4, washing-3)
+prep_in(wash-1, machine-4)
+
+det(cycle-5, an-2)
+amod(cycle-5, extra-3)
+nn(cycle-5, rinse-4)
+dobj(run-1, cycle-5)
+
+dobj(take-1, clothes-2)
+prep_out_of(take-1, machine-5)
+
+nn(basket-4, laundry-3)
+prep_in(place-1, basket-4)
+
+dobj(insert-1, hanger-2)
+
+nn(rack-4, drying-3)
+prep_on(hang-1, rack-4)
+
+dobj(hang-1, clothes-2)
+prep_on(hang-1, hanger-4)
+
+dobj(select-1, clothes-2)
+
+dobj(place-1, clothes-2)
+amod(line-5, hanging-4)
+prep_on(place-1, line-5)
+
+nn(clothes-2, place-1)
+nsubj(pins-3, clothes-2)
+prep_onto(pins-3, line-5)
+
+dobj(take-1, clothes-2)
+prep_out_of(take-1, washer-5)
+
+nn(basket-4, laundry-3)
+prep_in(put-1, basket-4)
+
+dobj(take-1, clothes-2)
+prep_out_of(take-1, washer-5)
+
+nn(basket-4, laundry-3)
+prep_in(put-1, basket-4)
+
+prt(set-1, up-2)
+nn(rack-4, drying-3)
+dobj(set-1, rack-4)
+
+dobj(place-1, clothes-2)
+prep_on(place-1, ract-4)
+
+dobj(take-1, clothes-2)
+prep_out_of(take-1, washer-5)
+
+nn(basket-4, laundry-3)
+prep_in(put-1, basket-4)
+
+prt(set-1, up-2)
+nn(rack-4, drying-3)
+dobj(set-1, rack-4)
+
+dobj(place-1, clothes-2)
+prep_on(place-1, rack-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, clothes-3)
+det(floor-6, the-5)
+prep_off(pick-1, floor-6)
+
+dobj(separate-1, clean-2)
+prep_from(separate-1, dirty-4)
+
+amod(clothes-3, dirty-2)
+dobj(place-1, clothes-3)
+prep_in(place-1, hamper-5)
+
+prt(walk-1, over-2)
+prep_to(walk-1, closet-4)
+
+amod(clothes-3, clean-2)
+dobj(put-1, clothes-3)
+prep_on(put-1, hangers-5)
+
+prt(hang-1, up-2)
+dobj(hang-1, clothes-3)
+
+nn(door-3, closet-2)
+dobj(close-1, door-3)
+
+dobj(separate-1, clean-2)
+prep_from(separate-1, dirty-4)
+
+amod(clothes-3, clean-2)
+dobj(place-1, clothes-3)
+prep_on(place-1, hangers-5)
+
+det(clothes-3, the-2)
+dobj(hang-1, clothes-3)
+det(closet-6, the-5)
+prep_in(hang-1, closet-6)
+
+dobj(locate-1, area-2)
+aux(hang-4, to-3)
+xcomp(locate-1, hang-4)
+dobj(hang-4, clothes-5)
+
+prt(pin-1, up-2)
+dobj(pin-1, clothes-3)
+prep_on(pin-1, clothesline-5)
+
+dobj(take-1, clothes-2)
+prep_out_of(take-1, dryer-5)
+
+prep_on(put-1, hangers-3)
+
+prep_on(hang-1, bar-3)
+
+prt(hook-1, up-2)
+det(line-5, the-3)
+nn(line-5, clothes-4)
+dobj(hook-1, line-5)
+
+dobj(place-1, clothes-2)
+det(line-6, the-4)
+nn(line-6, clothes-5)
+prep_on(place-1, line-6)
+
+dobj(wash-1, clothes-2)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, basket-4)
+
+dobj(get-1, clothespins-2)
+
+dobj(drape-1, clothes-2)
+prep_over(drape-1, line-4)
+
+det(clothes-3, the-2)
+dobj(pin-1, clothes-3)
+det(line-6, the-5)
+prep_to(pin-1, line-6)
+partmod(line-6, using-7)
+det(clothespins-9, the-8)
+dobj(using-7, clothespins-9)
+
+dobj(get-1, clothespins-2)
+
+dobj(drape-1, clothes-2)
+prep_over(drape-1, line-4)
+
+dobj(attach-1, clothespins-2)
+prep_to(attach-1, clothes-4)
+aux(hold-6, to-5)
+xcomp(attach-1, hold-6)
+prep_in(hold-6, place-8)
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0005469" url="http://ehlim.typepad.com/quickbooks-asia/year-end-closing/" time="2012-07-12-22:01" support="2" score="0.001995568930738547" bingtitle="QuickBooks Asia: Year-End-Closing - LedgerBLOG" webtitle="QuickBooks Asia: Year-End-Closing">
+			<query id="001461" bing-rank="66"/>
+			<query id="001472" bing-rank="83"/>
+	<description>Capturing Surcharge from Credit Card; QuickBooks Online ... but this will affect your month- end or year-end ... 2009/10 (Asia) is like a value meal in the fast food restaurant.</description>
+	<body>
+		QuickBooks Asia 
+
+Simple Solutions . Great Results
+ 
+ Home Archives Profile Subscribe 
+ 
+ About 
+ Subscribe in a reader 
+Enter your email address:
+
+ 
+ 
+Delivered by FeedBurner 
+ ehlim 10 Following 84 Followers 
+Recent Posts
+ 
+ Happy New Year! Greeting QuickBooks vs. QuickBooks Foreign currency journal What had you entered today? Setting up selling price for items to be inclusive of GST Editing GST amount in QuickBooks 2011/12 Blank, Asterisk and a tick Capturing Surcharge from Credit Card QuickBooks Online 
+ 
+Recent Comments
+ 
+ Lauren Edith on My business just started, should I use accounting software? Basic Bookkeeping Tutorial on Setting up selling price for items to be inclusive of GST Darcy Grubaugh on Is QuickBooks the best accounting software for small business? Jaylen Watkins on How to import an invoice template from one company file to the other company file? ehlim on Account is not in Account List Rebecca on Account is not in Account List ehlim on Advance payment to supplier JOYCE022872 on Advance payment to supplier Aftab Alam on Advance payment to supplier ehlim on QuickBooks : Switch between a Single User and a Multi-User mode 
+ 
+ Categories 
+ 
+ Accountant Accounts Payable Accounts Receivable Adjustment Note Advance Backup Banking BlackBerry Budget Chart of Accounts Classification Cost of Goods Sold Credit Card Customer Centre Data File Depreciation Discount Employee Centre Error Estimate Expenses Export File Type Fixed Asset General General Journal Greeting GST Import Installation Invoice Items Limitation Memorised Transaction Migration Multicurrency Opening Balance Payroll Portable Company File Preferences Printing QuickBooks QuickBooks 2009/10 (Asia Edn.) QuickBooks Canadian QuickBooks Online QuickBooks Retail Point-of-Sales QuickPOS Reminder List Rep Reporting Restore Setup Small Business Standing Order Supplier Centre Templates Terms Unit of Measurement (UOM) Upgrade Utilities What&apos;s new in v2009/10 Write Cheque Year-End-Closing 
+ Subscribe to this blog&apos;s feed 
+Year-End-Closing
+
+Thursday, 14 July 2011
+ 
+ Closing Date 
+ 
+ Software:  QuickBooks
+
+One of the worry, which an Accountant had, was the user can change the QuickBooks transactions anytime (if he/she has the access right) even the account had already been closed.
+
+A method to prevent changes is to set a Closing Date in your QuickBooks data file. Example: In the month of Oct 2008, you can set a Closing Date as of 30 Sep 2008. This will prevent user to enter data on or before 30 Sep 2008.
+
+To set a closing date, simply go to Edit menu | Preferences | Accounting | Company Preferences tab | click on “Set Date/Password” button and set the closing date and password accordingly.
+
+QuickBooks will prompt for password when user try to save a transaction that is fall on or before the closing date.
+
+To further control the security, QuickBooks Administrator can set the user don’t have the ability to edit or delete transactions that were recorded before the closing date in the user profile.
+
+ 
+ 
+ Posted at 10:13 PM in Accountant , Preferences , QuickBooks , QuickBooks 2009/10 (Asia Edn.) , QuickBooks Canadian , Utilities , Year-End-Closing | Permalink | Comments (2) | TrackBack (0) 
+
+ | Reblog
+ (0) 
+ 
+Friday, 05 March 2010
+ 
+ Document Date vs. Posting Date 
+ 
+When entering a transaction such as bill, shall we follow the document date or the posting date?
+
+In some accounting software, it does provide a document date (date stated in the bill) and a posting date (the date when you post the transaction into the account). However, in QuickBooks, there is only one date field for you to record the transaction. So, in this case, how shall we make use of this ‘Date’ field in QuickBooks? Shall we use it for document date or simply use it as a posting date?
+
+If you use it as a document date, this bill transaction will age accordingly, but this will affect your month- end or year-end closing figure.
+
+If you use it as a transaction date, although it does not affect your closing figure, but your Accounts Payable Ageing will be wrongly calculated.
+
+Is there a solution or a workaround in QuickBooks to resolve both the Closing figure and Accounts Payable Ageing calculation when a bill dated in previous month needed to record after the book is closed?
+
+In QuickBooks, to resolve it is simple. Since the account had already closed, we shall not record a transaction before the closing date and affects the Closing figure. In the Bill form, other than the Date field, there is also a Date Due field (below the Amount Due field). We can use the Date field as a Posting Date and base on the payment terms given, select the Date Due accordingly.
+
+
+
+ For example: 
+
+Your year-end closing is as of 31 December 2009 and you have closed the accounts. On 20 January 2010, you received a bill from your supplier. The bill dated 26 December 2009 with 30 days payment term. Base on 30 days payment terms, this bill should be due on 25 January 2010.
+
+In the Bill form, you enter 20 January 2010 in the ‘Date’ field (Posting date) and 25 January 2010 in the ‘Bill Due’ field (date when this bill is due). You may consider entering the original document date, 26 December 2009, in the memo field for references.
+
+This transaction will not affect your year-end closing figure, since it does not record before your closing date (31 Dec 2009). Besides, from your Accounts Payable Ageing report it will show the transaction correctly aged.
+
+
+
+Join my QuickBooks training class to explore the full capability of QuickBooks. 
+
+QuickBooks is a simple accounting solution, it creates great results for your business.
+
+
+
+
+ 
+ Posted at 05:09 PM in Accountant , Accounts Payable , QuickBooks , QuickBooks 2009/10 (Asia Edn.) , Supplier Centre , Year-End-Closing | Permalink | Comments (0) | TrackBack (0) 
+
+ | Reblog
+ (0) 
+ 
+Friday, 26 February 2010
+ 
+ How can I change the Financial Year of my QuickBooks Company File? 
+ 
+This week I have two customers asking me about how they can change the Financial Year of their QuickBooks Company File.
+
+If you made a mistake in the Financial Year during the creation of your QuickBooks Company File, you can edit this Financial Year information by going into the Company menu, Company Information, and edit the information of your Financial Year from the ‘Financial Year’ field.
+
+However, if your company already in business for many years, I will not suggest you to simple change the Financial Year information from the Company Information wizard.
+
+For example, you have started your company file in QuickBooks since 2006 and your Financial Year is January-December; now, you wanted to change your Financial Year to April-March.
+
+In this case, you have to do your 2009 closing from 1 January 2009 to 31 Mar 2010, which is 15 months of accounts. Hence, if you simply edit the Financial Year information from the Company Information wizard, the financial period for your past years year-end closing report will be change from January-December to April-March. The problem will arise if you are required to re-audit your file (you have to consider the data from year 2006).
+
+Besides, you cannot base on your current set of data to do your prior year comparison if your financial year had changed. You cannot compare April 2010-March 2011 against April 2009-March 2010 as the actual financial period for 2009 was January 2009-March 2010 (15 months). 
+
+Usually, for cases like this, I will suggest to start a new QuickBooks company file. You can export out the entire list item such as Chart of Accounts list, Item list, Name list and template list; and then, import it into your new QuickBooks Company file. Thereafter, record your opening balances into your new QuickBooks Company file accordingly.
+
+This method will be better; you can refer back to your old data from the previous QuickBooks company file created and it will not cause confusion to your accounts.
+
+
+
+
+ 
+ Posted at 05:35 PM in Accountant , QuickBooks , QuickBooks 2009/10 (Asia Edn.) , Setup , Year-End-Closing | Permalink | Comments (0) | TrackBack (0) 
+
+ | Reblog
+ (0) 
+ 
+Tuesday, 08 December 2009
+ 
+ Is QuickBooks the best accounting software for small business? 
+ 
+You do a search in Google, Yahoo! or any other popular search engine, you will be able to find people praising about QuickBooks; and of course, there will be people cursing about QuickBooks. So, is QuickBooks the best accounting software for small business?
+
+I have been using QuickBooks for more than 10 years. To me, user should be looking at your own requirement rather than comparing feature by feature. During my demonstration; prospect like to compare QuickBooks with other brands. Some even ask me to list out all the features in QuickBooks.
+
+When comparing QuickBooks with other brand, user should compare QuickBooks with other accounting software which is at the same level. For example, you should be comparing QuickBooks with software like MYOB or Peachtree. You should not be comparing QuickBooks (which cost between S$400.00 to S$5,000.00) with higher end software like ACCPAC or SAGE accounting software (which can cost 5 figures or even more). There must be a balance between your budget and the software features.
+
+All software had it pros and cons, so understanding your own requirement is a very important factor when you choosing the accounting software.
+
+You should set your own expectation right. I always tell my prospect to be more realistic, after you wrote down all the features that you needed (I call this as a wish list); then, look at your budget, start removing those ‘luxury’ good to have features if your budget does not allow you to have those ‘luxury’ features.
+
+Next, you should be also looking at how user-friendly is this software. I like software that is user friendly. I like software like QuickBooks (I used it for my accounts) and ACT! (I used it for my contact management). As a layman, who does not have much technical knowledge, you need software that is easy to manage. QuickBooks is one of the software that is simple enough that most of the user will be able to handle it. 
+
+Two of the features that I like about QuickBooks is that; QuickBooks does not require to use an accounts number (you can turn it on if you need them) and it does not require to do any year-end closing (of course, you can set a closing date to lock up your account). To understand more about the feature, you can sign up my QuickBooks demonstration at www.QB.sg .
+
+If you are just started a new small business and your budget is limited, you may consider QuickBooks Accounting 2009/10 (Asia) . This software will be a great help to you if you are looking for something better than a Spreadsheet to do your accounts. QuickBooks Accounting 2009/10 (Asia) is like a value meal in the fast food restaurant. This software cost only S$399.00; it comes with great features such as Stock (inventory) and exporting report into Microsoft Excel. To me, QuickBooks Accounting 2009/10 (Asia) can be considered as a value for money software tool.
+
+As long as the software can meet 80% of what you need; personally, I think this off-the-shelve software should be consider as good tool. Besides, this software must be simple enough that you can navigate around it without much problem.
+
+If you are not sure on whether can QuickBooks serve your needs, do sign up a free QuickBooks demonstration at our office and we will explain to you how you can use QuickBooks for your business.
+
+
+
+
+ 
+ Posted at 04:58 PM in Accountant , Chart of Accounts , General , QuickBooks , QuickBooks 2009/10 (Asia Edn.) , Year-End-Closing | Permalink | Comments (7) | TrackBack (0) 
+
+ | Reblog
+ (0) 
+ Next » 
+ Archives 
+ 
+ January 2012 December 2011 November 2011 August 2011 July 2011 January 2011 December 2010 November 2010 October 2010 September 2010 
+ Blog powered by TypePad 
+ QuickBooks Asia Powered by TypePad
+	</body>
+</document>

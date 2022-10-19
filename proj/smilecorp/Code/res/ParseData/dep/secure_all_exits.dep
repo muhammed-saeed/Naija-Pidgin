@@ -1,0 +1,292 @@
+det(dors-3, all-2)
+dobj(lock-1, dors-3)
+
+det(windows-3, all-2)
+dobj(lock-1, windows-3)
+
+det(exit-4, each-3)
+prep_to(go-1, exit-4)
+
+dobj(lock-1, door-2)
+dobj(lock-1, window-4)
+conj_or(door-2, window-4)
+
+det(doors-3, all-2)
+dobj(close-1, doors-3)
+
+det(doors-3, all-2)
+dobj(lock-1, doors-3)
+
+det(windows-3, all-2)
+dobj(close-1, windows-3)
+
+det(windows-3, all-2)
+dobj(lock-1, windows-3)
+
+det(exit-4, an-3)
+prep_to(move-1, exit-4)
+
+complm(closed-9, that-2)
+det(door-5, the-3)
+nn(door-5, exit-4)
+nsubjpass(closed-9, door-5)
+nsubjpass(locked-11, door-5)
+conj_or(door-5, window-7)
+nsubjpass(closed-9, window-7)
+auxpass(closed-9, is-8)
+ccomp(ensure-1, closed-9)
+ccomp(ensure-1, locked-11)
+conj_and(closed-9, locked-11)
+
+mark(closed-8, if-1)
+det(door-3, the-2)
+nsubjpass(closed-8, door-3)
+nsubjpass(locked-10, door-3)
+conj_or(door-3, window-5)
+nsubjpass(closed-8, window-5)
+auxpass(closed-8, is-6)
+neg(closed-8, not-7)
+advcl(lock-14, closed-8)
+conj_and(closed-8, locked-10)
+advcl(lock-14, locked-10)
+advmod(locked-10, close-11)
+nsubj(lock-14, it-12)
+advmod(lock-14, and-13)
+dobj(lock-14, it-15)
+
+mark(secured-7, until-2)
+det(exits-4, all-3)
+nsubjpass(secured-7, exits-4)
+aux(secured-7, have-5)
+auxpass(secured-7, been-6)
+advcl(repeat-1, secured-7)
+
+aux(exit-3, to-2)
+xcomp(go-1, exit-3)
+
+csubjpass(closed-4, ensure-1)
+dobj(ensure-1, exit-2)
+auxpass(closed-4, is-3)
+
+csubjpass(locked-4, ensure-1)
+dobj(ensure-1, exit-2)
+auxpass(locked-4, is-3)
+
+det(exits-4, all-3)
+prep_for(repeat-1, exits-4)
+
+dobj(count-1, number-2)
+prep_of(number-2, exits-4)
+
+det(exits-4, all-3)
+prep_to(move-1, exits-4)
+
+csubj(operating-4, ensure-1)
+dobj(ensure-1, exit-2)
+aux(operating-4, is-3)
+advmod(operating-4, correctly-5)
+
+det(exit-5, each-3)
+amod(exit-5, individual-4)
+prep_to(go-1, exit-5)
+
+advmod(arrive-3, when-1)
+nsubj(arrive-3, you-2)
+xsubj(make-9, you-2)
+dep(locked-13, arrive-3)
+advmod(arrive-3, at-4)
+det(exit-6, each-5)
+dep(at-4, exit-6)
+dep(arrive-3, check-7)
+aux(make-9, to-8)
+xcomp(check-7, make-9)
+acomp(make-9, sure-10)
+nsubjpass(locked-13, it-11)
+auxpass(locked-13, is-12)
+
+det(exits-3, all-2)
+dobj(identify-1, exits-3)
+
+det(exits-3, all-2)
+dobj(close-1, exits-3)
+
+det(exits-3, all-2)
+dobj(lock-1, exits-3)
+
+det(doors-4, all-2)
+nn(doors-4, exit-3)
+dobj(lock-1, doors-4)
+
+dobj(place-1, guards-2)
+dep(doors-6, all-4)
+nn(doors-6, exit-5)
+prep_at(guards-2, doors-6)
+det(points-12, all-8)
+amod(points-12, other-9)
+amod(points-12, possible-10)
+nn(points-12, exit-11)
+prep_at(guards-2, points-12)
+conj_and(doors-6, points-12)
+
+advmod(many-3, how-2)
+amod(exits-4, many-3)
+dobj(are-6, exits-4)
+expl(are-6, there-5)
+ccomp(determine-1, are-6)
+
+dobj(begin-1, rounds-2)
+prep_of(rounds-2, exits-4)
+
+aux(see-3, to-2)
+xcomp(check-1, see-3)
+mark(secure-5, if-4)
+advcl(see-3, secure-5)
+
+mark(latch-4, if-1)
+neg(secure-3, not-2)
+nsubj(latch-4, secure-3)
+
+dobj(continue-1, circuit-2)
+prep_of(circuit-2, exits-4)
+
+aux(check-3, to-2)
+xcomp(continue-1, check-3)
+
+dobj(record-1, data-2)
+prep_after(record-1, rounds-4)
+
+det(door-4, the-3)
+prep_to(walk-1, door-4)
+
+det(door-3, the-2)
+dobj(lock-1, door-3)
+
+det(door-5, the-3)
+amod(door-5, next-4)
+prep_to(walk-1, door-5)
+
+det(door-3, the-2)
+dobj(lock-1, door-3)
+
+det(door-5, the-3)
+nn(door-5, kitchen-4)
+prep_to(walk-1, door-5)
+
+det(door-3, the-2)
+dobj(lock-1, door-3)
+
+det(door-5, the-3)
+amod(door-5, front-4)
+prep_to(walk-1, door-5)
+
+det(door-3, the-2)
+dobj(lock-1, door-3)
+
+prt(waslk-1, down-2)
+det(basement-5, the-4)
+prep_to(waslk-1, basement-5)
+
+det(door-4, the-2)
+nn(door-4, basement-3)
+dobj(lock-1, door-4)
+
+det(doors-3, all-2)
+dobj(lock-1, doors-3)
+
+det(windows-3, all-2)
+dobj(lock-1, windows-3)
+
+nn(guard-3, security-2)
+dobj(place-1, guard-3)
+det(exits-6, all-5)
+prep_at(place-1, exits-6)
+
+nn(alarm-3, security-2)
+nsubj(activate-1, alarm-3)
+
+num(exit-3, one-2)
+dobj(locate-1, exit-3)
+
+dobj(secure-1, it-2)
+
+dobj(repeat-1, steps-2)
+num(steps-2, 1-3)
+dobj(repeat-1, 2-5)
+conj_and(steps-2, 2-5)
+det(exit-8, each-7)
+prep_for(steps-2, exit-8)
+
+predet(doors-4, all-2)
+det(doors-4, the-3)
+dobj(lock-1, doors-4)
+
+det(guard-3, a-2)
+dobj(place-1, guard-3)
+det(door-7, every-5)
+nn(door-7, exit-6)
+prep_at(place-1, door-7)
+
+det(guard-3, a-2)
+dobj(place-1, guard-3)
+det(window-7, every-5)
+amod(window-7, large-6)
+prep_at(place-1, window-7)
+
+det(guard-3, a-2)
+dobj(place-1, guard-3)
+det(gate-7, every-5)
+nn(gate-7, exit-6)
+prep_at(place-1, gate-7)
+
+dobj(close-1, doors-2)
+
+det(exits-4, all-3)
+prep_for(look-1, exits-4)
+
+det(one-3, each-2)
+dobj(check-1, one-3)
+
+acomp(make-1, sure-2)
+nsubj(secure-5, all-3)
+cop(secure-5, are-4)
+ccomp(sure-2, secure-5)
+
+det(doors-4, all-2)
+nn(doors-4, exit-3)
+dobj(monitor-1, doors-4)
+
+amod(areas-3, surrounding-2)
+dobj(survey-1, areas-3)
+
+det(doors-3, all-2)
+dobj(lock-1, doors-3)
+
+quantmod(exit-4, all-2)
+quantmod(exit-4, the-3)
+num(points-5, exit-4)
+dobj(check-1, points-5)
+
+complm(secured-5, that-2)
+nsubjpass(secured-5, exits-3)
+auxpass(secured-5, are-4)
+ccomp(verify-1, secured-5)
+
+det(doors-3, all-2)
+dobj(shut-1, doors-3)
+dobj(shut-1, windows-5)
+conj_and(doors-3, windows-5)
+
+det(doors-3, all-2)
+dobj(lock-1, doors-3)
+dobj(lock-1, windows-5)
+conj_and(doors-3, windows-5)
+
+det(exit-3, each-2)
+dobj(check-1, exit-3)
+
+acomp(make-1, sure-2)
+det(exits-4, all-3)
+nsubjpass(locked-6, exits-4)
+auxpass(locked-6, are-5)
+ccomp(sure-2, locked-6)
+

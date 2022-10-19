@@ -1,0 +1,579 @@
+prt(picking-1, up-2)
+det(receiver-4, the-3)
+dobj(picking-1, receiver-4)
+
+det(number-4, the-2)
+nn(number-4, phone-3)
+dobj(dialing-1, number-4)
+
+aux(speak-3, to-2)
+xcomp(asking-1, speak-3)
+prep_to(speak-3, someone-5)
+
+det(message-3, the-2)
+dobj(repeating-1, message-3)
+
+det(person-3, the-2)
+dobj(call-1, person-3)
+
+iobj(give-1, them-2)
+det(message-4, the-3)
+dobj(give-1, message-4)
+
+det(person-3, the-2)
+dobj(call-1, person-3)
+
+iobj(tell-1, them-2)
+det(message-4, the-3)
+dobj(tell-1, message-4)
+det(phone-7, the-6)
+prep_over(message-4, phone-7)
+
+det(person-3, the-2)
+dobj(call-1, person-3)
+dobj(intended-9, whom-5)
+det(message-7, the-6)
+nsubjpass(intended-9, message-7)
+auxpass(intended-9, is-8)
+prepc_for(call-1, intended-9)
+
+dobj(tell-1, them-2)
+nsubj(have-4, you-3)
+dep(tell-1, have-4)
+det(message-6, a-5)
+dobj(have-4, message-6)
+prep_for(message-6, them-8)
+
+dobj(tell-1, them-2)
+dep(is-6, who-3)
+det(message-5, the-4)
+nsubj(is-6, message-5)
+dep(tell-1, is-6)
+prep(is-6, from-7)
+
+iobj(tell-1, them-2)
+det(message-4, the-3)
+dobj(tell-1, message-4)
+
+det(message-3, the-2)
+dobj(receive-1, message-3)
+aux(transmit-5, to-4)
+infmod(message-3, transmit-5)
+
+det(phone-3, the-2)
+dobj(dial-1, phone-3)
+det(person-6, the-5)
+prep_for(dial-1, person-6)
+dobj(want-8, person-6)
+nsubj(want-8, you-7)
+xsubj(give-10, you-7)
+rcmod(person-6, want-8)
+aux(give-10, to-9)
+xcomp(want-8, give-10)
+det(message-12, the-11)
+dobj(give-10, message-12)
+prep(give-10, to-13)
+
+det(message-3, the-2)
+dobj(transmit-1, message-3)
+advmod(transmit-1, verbally-4)
+
+prt(hang-1, up-2)
+det(phone-4, the-3)
+dobj(hang-1, phone-4)
+
+det(person-3, the-2)
+dobj(call-1, person-3)
+det(phone-6, the-5)
+prep_on(call-1, phone-6)
+
+acomp(make-1, sure-2)
+nsubj(person-7, it-3)
+cop(person-7, s-4)
+det(person-7, the-5)
+amod(person-7, right-6)
+ccomp(sure-2, person-7)
+
+iobj(tell-1, them-2)
+det(message-4, the-3)
+dobj(tell-1, message-4)
+
+prt(hang-1, up-2)
+
+dobj(locate-1, message-2)
+
+dobj(read-1, message-2)
+
+dobj(dictate-1, message-2)
+prep_over(dictate-1, phone-4)
+
+det(message-3, a-2)
+dobj(obtain-1, message-3)
+
+dep(be-1, talking-2)
+prep_to(talking-2, someone-4)
+det(phone-7, the-6)
+prep_on(talking-2, phone-7)
+
+advmod(repeat-2, verbally-1)
+det(message-4, the-3)
+dobj(repeat-2, message-4)
+
+det(person-3, the-2)
+nsubj(number-6, person-3)
+cop(number-6, s-4)
+nn(number-6, phone-5)
+ccomp(find-1, number-6)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+det(number-4, the-2)
+nn(number-4, phone-3)
+dobj(call-1, number-4)
+
+aux(sepak-3, to-2)
+xcomp(ask-1, sepak-3)
+det(person-6, that-5)
+prep_to(sepak-3, person-6)
+
+det(message-3, the-2)
+dobj(say-1, message-3)
+
+det(person-3, the-2)
+dobj(ask-1, person-3)
+aux(confirm-5, to-4)
+infmod(person-3, confirm-5)
+det(message-7, the-6)
+dobj(confirm-5, message-7)
+
+prt(hang-1, up-2)
+det(phone-4, the-3)
+dobj(hang-1, phone-4)
+
+det(number-4, the-2)
+nn(number-4, phone-3)
+dobj(find-1, number-4)
+det(person-7, the-6)
+prep_of(number-4, person-7)
+
+nsubj(number-6, dial-1)
+det(person-3, the-2)
+nsubj(number-6, person-3)
+cop(number-6, s-4)
+nn(number-6, phone-5)
+
+det(person-4, the-3)
+prep_for(wait-1, person-4)
+aux(answer-6, to-5)
+infmod(person-4, answer-6)
+
+det(person-3, the-2)
+dobj(greet-1, person-3)
+
+det(message-3, the-2)
+dep(relay-1, message-3)
+det(person-6, the-5)
+prep_to(message-3, person-6)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+det(person-3, that-2)
+dobj(call-1, person-3)
+
+aux(speak-3, to-2)
+xcomp(ask-1, speak-3)
+det(person-6, the-5)
+prep_to(speak-3, person-6)
+
+det(person-3, the-2)
+iobj(tell-1, person-3)
+det(message-5, the-4)
+dobj(tell-1, message-5)
+dobj(want-7, message-5)
+nsubj(want-7, you-6)
+xsubj(give-9, you-6)
+rcmod(message-5, want-7)
+aux(give-9, to-8)
+xcomp(want-7, give-9)
+
+acomp(make-1, sure-2)
+det(person-4, the-3)
+nsubj(understand-5, person-4)
+ccomp(make-1, understand-5)
+det(message-7, the-6)
+dobj(understand-5, message-7)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, number-2)
+
+prep_for(wait-1, person-3)
+aux(answer-5, to-4)
+xcomp(wait-1, answer-5)
+
+dobj(deliver-1, message-2)
+
+prt(hang-1, up-2)
+
+dobj(call-1, person-2)
+
+prep_for(wait-1, person-3)
+aux(pick-5, to-4)
+xcomp(wait-1, pick-5)
+prt(pick-5, up-6)
+dobj(pick-5, phone-7)
+
+dobj(transmit-1, message-2)
+
+prt(hang-1, up-2)
+
+dobj(call-1, person-2)
+det(phone-5, the-4)
+prep_on(call-1, phone-5)
+
+prep_for(wait-1, person-3)
+aux(pick-5, to-4)
+xcomp(wait-1, pick-5)
+prt(pick-5, up-6)
+
+dobj(deliver-1, message-2)
+
+prt(hang-1, up-2)
+
+nn(person-2, dial-1)
+nsubj(number-5, person-2)
+cop(number-5, s-3)
+nn(number-5, phone-4)
+
+prep_for(wait-1, person-3)
+aux(pick-5, to-4)
+xcomp(wait-1, pick-5)
+prt(pick-5, up-6)
+xcomp(wait-1, ask-8)
+conj_or(pick-5, ask-8)
+prep_for(ask-8, person-10)
+
+dobj(communicate-1, message-2)
+
+prt(hang-1, up-2)
+
+dobj(call-1, person-2)
+
+dobj(deliver-1, message-2)
+
+prt(hang-1, up-2)
+
+dobj(call-1, person-2)
+prep_on(call-1, phone-4)
+
+prep_for(wait-1, person-3)
+aux(pick-5, to-4)
+xcomp(wait-1, pick-5)
+prt(pick-5, up-6)
+
+dobj(deliver-1, message-2)
+
+prt(hang-1, up-2)
+
+det(number-3, the-2)
+dobj(locate-1, number-3)
+det(receipent-6, the-5)
+prep_of(number-3, receipent-6)
+det(message-9, the-8)
+prep_of(receipent-6, message-9)
+
+det(telephone-3, a-2)
+dobj(locate-1, telephone-3)
+
+det(receipient-3, the-2)
+dobj(call-1, receipient-3)
+det(telephone-6, the-5)
+prep_on(call-1, telephone-6)
+
+det(message-3, the-2)
+dobj(recite-1, message-3)
+det(receipient-6, the-5)
+prep_to(recite-1, receipient-6)
+
+prt(hang-1, up-2)
+det(phone-4, the-3)
+dobj(hang-1, phone-4)
+
+aux(speak-3, to-2)
+xcomp(ask-1, speak-3)
+det(person-6, the-5)
+prep_to(speak-3, person-6)
+det(message-8, the-7)
+nsubjpass(intended-10, message-8)
+auxpass(intended-10, is-9)
+ccomp(ask-1, intended-10)
+prep(intended-10, for-11)
+
+det(message-3, the-2)
+dobj(dictate-1, message-3)
+
+dobj(say-1, goodbye-2)
+
+prt(hang-1, up-2)
+det(phone-4, the-3)
+dobj(hang-1, phone-4)
+
+dobj(read-1, message-2)
+advmod(read-1, slowly-3)
+
+nn(information-3, contact-2)
+dobj(read-1, information-3)
+
+dobj(ask-1, person-2)
+mark(got-5, if-3)
+nsubj(got-5, they-4)
+advcl(ask-1, got-5)
+det(message-7, the-6)
+dobj(got-5, message-7)
+
+dobj(read-1, message-2)
+mark(necessary-4, if-3)
+dep(read-1, necessary-4)
+
+prt(hang-1, up-2)
+
+dobj(speak-1, message-2)
+prep_to(speak-1, person-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+nn(number-3, phone-2)
+dobj(dial-1, number-3)
+
+prep_for(ask-1, recipient-3)
+
+dobj(give-1, message-2)
+
+prt(hang-1, up-2)
+dobj(hang-1, phone-3)
+
+dobj(recite-1, message-2)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+det(number-3, a-2)
+dobj(dial-1, number-3)
+dep(dial-1, talk-4)
+prep_to(talk-4, person-6)
+dep(dial-1, give-8)
+conj_and(talk-4, give-8)
+dobj(give-8, message-9)
+
+det(person-3, the-2)
+dobj(call-1, person-3)
+
+mark(are-4, if-2)
+nsubj(are-4, they-3)
+advcl(ask-1, are-4)
+dobj(want-7, who-5)
+nsubj(want-7, you-6)
+ccomp(are-4, want-7)
+
+dobj(tell-1, them-2)
+nsubj(called-4, them-2)
+rcmod(them-2, called-4)
+
+iobj(tell-1, them-2)
+poss(number-5, their-3)
+nn(number-5, phone-4)
+dobj(tell-1, number-5)
+
+dobj(have-1, information-2)
+aux(tell-4, to-3)
+infmod(information-2, tell-4)
+dobj(tell-4, someone-5)
+amod(someone-5, distant-6)
+
+det(number-5, the-2)
+nn(number-5, location-3)
+nn(number-5, phone-4)
+dobj(find-1, number-5)
+
+det(number-3, the-2)
+dobj(dial-1, number-3)
+
+prep_for(ask-1, someone-3)
+
+dobj(greet-1, someone-2)
+
+dobj(transmit-1, message-2)
+
+prep_for(listen-1, response-3)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+poss(number-3, her-2)
+dobj(dial-1, number-3)
+
+poss(message-4, her-2)
+dep(message-4, the-3)
+dobj(tell-1, message-4)
+
+prt(put-1, down-2)
+det(receiver-4, the-3)
+dobj(put-1, receiver-4)
+
+det(number-3, the-2)
+dobj(get-1, number-3)
+
+det(number-3, the-2)
+dobj(dial-1, number-3)
+
+det(person-3, the-2)
+dobj(cotact-1, person-3)
+
+det(message-3, the-2)
+dep(relay-1, message-3)
+
+auxpass(ackowledged-2, get-1)
+
+prt(sign-1, off-2)
+
+det(reciever-3, the-2)
+dobj(keep-1, reciever-3)
+prt(keep-1, down-4)
+
+dobj(call-1, person-2)
+prep_on(call-1, phone-4)
+
+nn(message-3, person-2)
+dobj(tell-1, message-3)
+
+prt(hang-1, up-2)
+
+dep(going-6, call-1)
+det(person-3, the-2)
+dobj(call-1, person-3)
+nsubj(going-6, you-4)
+xsubj(give-8, you-4)
+aux(going-6, are-5)
+aux(give-8, to-7)
+xcomp(going-6, give-8)
+det(messsage-10, the-9)
+dobj(give-8, messsage-10)
+prep_to(give-8, first-12)
+
+advmod(answers-4, when-1)
+det(person-3, the-2)
+nsubj(answers-4, person-3)
+dep(left-14, answers-4)
+det(phone-6, the-5)
+dobj(answers-4, phone-6)
+dep(answers-4, tell-7)
+det(person-9, the-8)
+iobj(tell-7, person-9)
+det(message-11, the-10)
+dobj(tell-7, message-11)
+nsubjpass(left-14, that-12)
+auxpass(left-14, was-13)
+prep_for(left-14, him-16)
+prep_for(left-14, her-18)
+conj_or(him-16, her-18)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+nsubj(phone-1, person-2)
+
+iobj(give-1, them-2)
+dobj(give-1, message-3)
+
+dobj(call-1, message-2)
+dep(call-1, recipient-3)
+
+advmod(answer-3, when-1)
+nsubj(answer-3, they-2)
+ccomp(answer-3, read\/tell-4)
+iobj(read\/tell-4, them-5)
+det(message-7, the-6)
+dobj(read\/tell-4, message-7)
+
+dobj(ask-1, them-2)
+mark(need-5, if-3)
+nsubj(need-5, they-4)
+advcl(ask-1, need-5)
+det(repeat-7, a-6)
+dobj(need-5, repeat-7)
+
+advmod(finished-2, when-1)
+csubj(say-3, finished-2)
+dep(say-3, goodbye-4)
+dep(say-3, hang-6)
+conj_and(goodbye-4, hang-6)
+prt(hang-6, up-7)
+
+mark(take-5, if-2)
+nsubj(take-5, they-3)
+aux(take-5, can-4)
+advcl(ask-1, take-5)
+det(message-7, a-6)
+dobj(take-5, message-7)
+
+dobj(tell-1, them-2)
+dobj(are-5, who-3)
+nsubj(are-5, you-4)
+dep(tell-1, are-5)
+
+iobj(tell-1, them-2)
+poss(message-4, your-3)
+dobj(tell-1, message-4)
+
+dobj(say-1, bye-2)
+
+prt(hang-1, up-2)
+
+prt(write-1, down-2)
+dobj(write-1, message-3)
+
+advmod(comes-4, when-1)
+det(person-3, the-2)
+nsubj(comes-4, person-3)
+csubj(give-6, comes-4)
+dobj(comes-4, home-5)
+iobj(give-6, them-7)
+dobj(give-6, message-8)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+nn(person-2, dial-1)
+nsubj(number-4, person-2)
+cop(number-4, s-3)
+
+prep_for(wait-1, person-3)
+aux(pick-5, to-4)
+xcomp(wait-1, pick-5)
+prt(pick-5, up-6)
+dobj(pick-5, phone-7)
+
+dobj(say-1, hi-2)
+conj_and(say-1, tell-4)
+iobj(tell-4, person-5)
+det(message-7, the-6)
+dobj(tell-4, message-7)
+
+prt(take-1, down-2)
+dobj(take-1, message-3)
+
+dep(talk-6, give-1)
+dobj(give-1, message-2)
+prep_to(give-1, person-4)
+nsubj(talk-6, you-5)
+prep_to(talk-6, them-8)
+acomp(talk-6, next-9)
+

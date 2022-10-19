@@ -1,0 +1,426 @@
+det(conditioner-5, the-3)
+nn(conditioner-5, air-4)
+prep_to(walk-1, conditioner-5)
+
+det(switch-4, the-2)
+nn(switch-4, on\/off-3)
+dobj(locate-1, switch-4)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+amod(position-6, off-5)
+prep_into(turn-1, position-6)
+
+prt(pick-1, up-2)
+det(control-5, the-3)
+amod(control-5, remote-4)
+dobj(pick-1, control-5)
+
+prep_off(push-1, button-3)
+
+det(conditioner-4, the-2)
+nn(conditioner-4, air-3)
+dobj(approach-1, conditioner-4)
+
+det(knob-4, the-2)
+nn(knob-4, power-3)
+dobj(move-1, knob-4)
+det(position-8, the-6)
+amod(position-8, off-7)
+prep_to(move-1, position-8)
+
+nn(conditioner-4, air-3)
+prep_to(go-1, conditioner-4)
+
+dobj(push-1, button-2)
+amod(position-5, off-4)
+prep_to(push-1, position-5)
+
+det(conditioner-4, the-2)
+nn(conditioner-4, air-3)
+dobj(locate-1, conditioner-4)
+
+det(switch\/button-4, the-2)
+nn(switch\/button-4, power-3)
+dobj(locate-1, switch\/button-4)
+
+det(power-3, the-2)
+dobj(turn-1, power-3)
+dep(turn-1, switch-4)
+prep(switch-4, to-5)
+prep(switch-4, off-7)
+dep(turn-1, press-10)
+conj_or(switch-4, press-10)
+det(button-15, the-11)
+nn(button-15, power-13)
+dobj(press-10, button-15)
+
+det(conditioner-5, the-3)
+nn(conditioner-5, air-4)
+prep_to(go-1, conditioner-5)
+ccomp(go-1, control-6)
+nn(place-8, panel-7)
+dobj(control-6, place-8)
+
+dobj(grab-1, hold-2)
+nsubj(controls-7, hold-2)
+det(switch-5, the-4)
+prep_of(hold-2, switch-5)
+rcmod(hold-2, controls-7)
+det(conditioner-10, the-8)
+nn(conditioner-10, air-9)
+dobj(controls-7, conditioner-10)
+
+det(switch-3, the-2)
+dobj(move-1, switch-3)
+det(position-7, the-5)
+amod(position-7, off-6)
+prep_to(move-1, position-7)
+poss(hand-10, your-9)
+prep_with(move-1, hand-10)
+
+det(conditioner-5, the-3)
+nn(conditioner-5, air-4)
+prep_to(move-1, conditioner-5)
+
+dep(switch-7, find-1)
+det(air-3, the-2)
+dobj(find-1, air-3)
+nsubj(switch-7, conditioner-4)
+cop(switch-7, s-5)
+nn(switch-7, power-6)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+det(position-7, the-5)
+amod(position-7, off-6)
+prep_to(turn-1, position-7)
+
+dobj(find-1, thermostat-2)
+
+dobj(turn-1, thermostat-2)
+amod(position-5, off-4)
+prep_to(turn-1, position-5)
+
+det(conditioner-4, the-2)
+nn(conditioner-4, air-3)
+iobj(locate-1, conditioner-4)
+amod(control-6, remote-5)
+dobj(locate-1, control-6)
+
+det(conditioner-4, the-2)
+nn(conditioner-4, air-3)
+iobj(pick-1, conditioner-4)
+amod(control-6, remote-5)
+dobj(pick-1, control-6)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(push-1, button-4)
+
+det(conditioner-4, the-2)
+nn(conditioner-4, air-3)
+iobj(release-1, conditioner-4)
+amod(control-6, remote-5)
+dobj(release-1, control-6)
+
+det(thermostat-4, the-3)
+prep_to(go-1, thermostat-4)
+
+det(switch-4, the-2)
+amod(switch-4, on-off-3)
+dobj(identify-1, switch-4)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+prep(turn-1, to-4)
+advmod(turn-1, off-5)
+
+nn(conditioner-3, air-2)
+dobj(locate-1, conditioner-3)
+
+nn(switch-3, power-2)
+dobj(locate-1, switch-3)
+
+nn(switch-3, power-2)
+dobj(press-1, switch-3)
+amod(position-6, off-5)
+prep_to(press-1, position-6)
+
+nn(conditioner-4, air-3)
+prep_to(go-1, conditioner-4)
+
+amod(switch-3, on\/off-2)
+dobj(locate-1, switch-3)
+
+dobj(set-1, switch-2)
+prep(set-1, to-3)
+prep(set-1, off-4)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+
+det(thermostat-4, the-3)
+prep_to(go-1, thermostat-4)
+
+det(thermostat-3, the-2)
+dobj(set-1, thermostat-3)
+prep(set-1, to-4)
+advmod(set-1, off-5)
+aux(turn-7, to-6)
+xcomp(set-1, turn-7)
+prt(turn-7, off-8)
+det(conditioner-11, the-9)
+nn(conditioner-11, air-10)
+dobj(turn-7, conditioner-11)
+xcomp(set-1, heat-13)
+conj_and(turn-7, heat-13)
+
+nn(conditioner-3, air-2)
+dobj(locate-1, conditioner-3)
+
+dobj(locate-1, buttons-2)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+
+prep_to(go-1, thermostat-3)
+
+aux(turn-3, to-2)
+xcomp(program-1, turn-3)
+prt(turn-3, off-4)
+
+amod(vicinity-4, immediate-3)
+prep_to(walk-1, vicinity-4)
+nn(conditioner-7, air-6)
+prep_of(vicinity-4, conditioner-7)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+conj_or(press-1, turn-5)
+dobj(turn-5, switch-6)
+prep(turn-5, to-7)
+advmod(turn-5, off-8)
+
+nn(conditioner-3, air-2)
+dobj(locate-1, conditioner-3)
+
+prt(locate-1, off-2)
+dobj(locate-1, switch-3)
+
+prt(press-1, off-2)
+dobj(press-1, switch-3)
+
+det(thermostat-3, the-2)
+dobj(find-1, thermostat-3)
+
+det(switch-4, the-2)
+amod(switch-4, heat\/off\/cool-3)
+dobj(set-1, switch-4)
+prep(set-1, to-5)
+prep(set-1, off-6)
+
+det(units-4, any-2)
+nn(units-4, window-3)
+dobj(find-1, units-4)
+
+det(switch-4, the-2)
+nn(switch-4, power-3)
+dobj(turn-1, switch-4)
+prep_on(turn-1, them-6)
+prep(turn-1, to-7)
+prep(turn-1, off-8)
+
+det(switch-3, the-2)
+dobj(find-1, switch-3)
+
+det(switch-3, the-2)
+dobj(turn-1, switch-3)
+prt(turn-1, off-4)
+
+nn(conditioner-3, air-2)
+dobj(identify-1, conditioner-3)
+
+nn(button-3, power-2)
+dobj(identify-1, button-3)
+
+nn(button-3, power-2)
+dobj(press-1, button-3)
+
+det(temperature-3, the-2)
+dobj(notice-1, temperature-3)
+
+det(panel-4, the-2)
+nn(panel-4, control-3)
+dobj(find-1, panel-4)
+
+det(setting-4, a-3)
+prep_on(decide-1, setting-4)
+
+det(dial-3, the-2)
+dobj(turn-1, dial-3)
+amod(setting-6, desired-5)
+prep_to(turn-1, setting-6)
+
+det(fan-3, the-2)
+dobj(adjust-1, fan-3)
+
+dobj(monitor-1, changes-2)
+prep_in(changes-2, temperature-4)
+
+det(comfort-3, the-2)
+dobj(enjoy-1, comfort-3)
+
+det(conditioner-5, the-3)
+nn(conditioner-5, air-4)
+prep_to(go-1, conditioner-5)
+
+det(panel-4, the-2)
+nn(panel-4, control-3)
+dobj(locate-1, panel-4)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(locate-1, button-4)
+
+det(button-4, the-2)
+nn(button-4, power-3)
+dobj(press-1, button-4)
+
+dobj(find-1, switch-2)
+
+dobj(flip-1, switch-2)
+prep(flip-1, to-3)
+advmod(flip-1, off-4)
+
+nn(conditioner-4, air-3)
+prep_to(walk-1, conditioner-4)
+
+conj_or(push-1, turn-3)
+dobj(turn-3, knob-4)
+
+amod(button-3, on\/off-2)
+dobj(find-1, button-3)
+
+amod(button-3, on\/off-2)
+dobj(press-1, button-3)
+
+prep_for(wait-1, unit-3)
+aux(stop-5, to-4)
+xcomp(wait-1, stop-5)
+
+det(conditioner-7, the-2)
+amod(conditioner-7, remote-3)
+det(air-6, the-5)
+prep_for(remote-3, air-6)
+dobj(locate-1, conditioner-7)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(push-1, button-4)
+det(remote-7, the-6)
+prep_on(push-1, remote-7)
+
+det(thermostat-4, the-3)
+prep_to(walk-1, thermostat-4)
+
+dobj(move-1, switch-2)
+prep(move-1, to-3)
+pobj(to-3, off-5)
+
+det(thermostat-4, the-3)
+prep_to(go-1, thermostat-4)
+
+dobj(move-1, switch-2)
+prep_from(move-1, cool-5)
+prep(move-1, to-7)
+pobj(to-7, off-9)
+
+nn(conditioner-3, air-2)
+dobj(locate-1, conditioner-3)
+
+amod(button-3, on\/off-2)
+dobj(locate-1, button-3)
+dobj(locate-1, switch-5)
+conj_or(button-3, switch-5)
+
+amod(position-4, off-3)
+prep_to(set-1, position-4)
+
+prt(walk-1, over-2)
+nn(conditioner-5, air-4)
+prep_to(walk-1, conditioner-5)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+prep_to(walk-1, thermostat-3)
+
+nn(condition-3, air-2)
+dobj(change-1, condition-3)
+prep(change-1, setting-4)
+dep(setting-4, to-5)
+dep(to-5, off-6)
+
+prt(turn-1, off-2)
+dobj(turn-1, switch-3)
+
+amod(conditioner-3, goto-1)
+nn(conditioner-3, air-2)
+nsubj(control-4, conditioner-3)
+dobj(control-4, panel-5)
+
+prt(find-1, off-2)
+dobj(find-1, button-3)
+
+dobj(push-1, button-2)
+
+det(controller-5, the-2)
+amod(controller-5, ac-3)
+amod(controller-5, remote-4)
+dobj(get-1, controller-5)
+
+det(conditioner-5, the-3)
+nn(conditioner-5, air-4)
+prep_at(point-1, conditioner-5)
+
+det(button-4, the-2)
+amod(button-4, off-3)
+dobj(press-1, button-4)
+
+nn(knob-4, air-2)
+nn(knob-4, conditioner-3)
+dobj(turn-1, knob-4)
+prep(turn-1, to-5)
+advmod(turn-1, off-6)
+
+dobj(turn-1, air-2)
+prt(turn-1, off-3)
+
+nn(conditioner-3, air-2)
+dobj(turn-1, conditioner-3)
+prt(turn-1, on-4)
+
+nn(conditioner-4, air-3)
+prep_to(go-1, conditioner-4)
+
+advmod(buton-4, off-3)
+prep_for(look-1, buton-4)
+
+prt(press-1, off-2)
+dobj(press-1, button-3)
+
+nn(conditioner-4, air-3)
+prep_to(go-1, conditioner-4)
+
+amod(clockwise-4, knob-2)
+amod(clockwise-4, counter-3)
+dobj(turn-1, clockwise-4)
+
+prt(select-1, off-2)
+

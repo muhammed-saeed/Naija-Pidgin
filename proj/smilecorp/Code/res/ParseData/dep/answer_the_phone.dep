@@ -1,0 +1,635 @@
+det(phone-3, the-2)
+dobj(find-1, phone-3)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(say-1, hello-2)
+
+dobj(locate-1, phone-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(place-1, receiver-2)
+prep_to(place-1, ear-4)
+
+dobj(say-1, hello-2)
+
+dobj(get-1, phone-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(place-1, receiver-2)
+prep_to(place-1, ear\/speaker-4)
+
+dobj(say-1, hello-2)
+
+det(phone-4, the-3)
+prep_to(go-1, phone-4)
+
+dobj(pick-1, it-2)
+prt(pick-1, up-3)
+
+dobj(say-1, hello-2)
+
+det(ring-4, the-2)
+nn(ring-4, phone-3)
+dobj(hear-1, ring-4)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(say-1, hello-2)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+dobj(pick-1, phone-2)
+prt(pick-1, up-3)
+
+nn(button-3, talk-2)
+dobj(push-1, button-3)
+
+dobj(answer-1, phone-2)
+
+det(phone-3, the-2)
+dobj(taking-1, phone-3)
+prep_in(taking-1, hand-5)
+
+nsubj(answer-2, pressing-1)
+dobj(answer-2, button-3)
+
+prep_to(move-1, phone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(say-1, hello-2)
+
+nsubj(calling-4, who-2)
+aux(calling-4, is-3)
+ccomp(ask-1, calling-4)
+
+det(telephone-3, the-2)
+dobj(find-1, telephone-3)
+
+prt(pick-1, up-2)
+det(receiver-5, the-3)
+nn(receiver-5, telephone-4)
+dobj(pick-1, receiver-5)
+
+det(greeting-3, a-2)
+dobj(speak-1, greeting-3)
+det(receiver-6, the-5)
+prep_into(speak-1, receiver-6)
+dep(receiver-6, s-7)
+dep(receiver-6, microphone-8)
+
+det(phone-3, the-2)
+dobj(find-1, phone-3)
+
+csubj(receiver-6, pick-1)
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+cop(receiver-6, s-5)
+
+det(greeting-3, a-2)
+dobj(speak-1, greeting-3)
+dep(as-5, such-4)
+prep(greeting-3, as-5)
+dep(`-6, hello-7)
+
+det(phone-4, the-3)
+prep_to(walk-1, phone-4)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+acomp(say-1, hello-3)
+
+det(phone-3, the-2)
+dobj(hearing-1, phone-3)
+xcomp(hearing-1, ringing-4)
+
+prt(picking-1, up-2)
+det(phone-4, the-3)
+dobj(picking-1, phone-4)
+
+det(call-3, the-2)
+dobj(answering-1, call-3)
+prepc_by(answering-1, saying-5)
+dobj(saying-5, hello-7)
+
+det(telephone-3, the-2)
+dobj(monitor-1, telephone-3)
+
+mark(rings-4, if-1)
+det(telephone-3, the-2)
+nsubj(rings-4, telephone-3)
+csubj(pick-5, rings-4)
+prt(pick-5, up-6)
+det(receiver-8, the-7)
+dobj(pick-5, receiver-8)
+
+det(person-3, the-2)
+dobj(greet-1, person-3)
+nsubj(calling-6, person-3)
+aux(calling-6, is-5)
+rcmod(person-3, calling-6)
+
+det(caller-4, the-3)
+prep_with(converse-1, caller-4)
+
+det(caller-3, the-2)
+dobj(assist-1, caller-3)
+
+dobj(replace-1, receiver-2)
+prep_upon(replace-1, conclusion-4)
+prep_of(conclusion-4, conversation-6)
+
+det(ring-4, the-2)
+nn(ring-4, phone-3)
+dobj(hear-1, ring-4)
+
+det(phone-3, the-2)
+dobj(get-1, phone-3)
+
+dobj(answer-1, it-2)
+
+det(phone-4, the-3)
+prep_to(go-1, phone-4)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(say-1, hello-2)
+
+dep(find-1, ringing-2)
+dobj(ringing-2, telephone-3)
+
+prt(pick-1, up-2)
+det(handset-4, the-3)
+dobj(pick-1, handset-4)
+det(phone-7, the-6)
+prep_for(handset-4, phone-7)
+
+det(button-6, the-2)
+nn(button-6, talk-4)
+dobj(press-1, button-6)
+
+det(person-3, the-2)
+dobj(greet-1, person-3)
+det(telephone-6, the-5)
+prep_on(greet-1, telephone-6)
+
+advmod(rings-4, when-1)
+det(phone-3, the-2)
+nsubj(rings-4, phone-3)
+csubj(pick-5, rings-4)
+prt(pick-5, up-6)
+det(receiver-8, the-7)
+dobj(pick-5, receiver-8)
+
+det(receiver-4, the-3)
+prep_to(listen-1, receiver-4)
+
+det(person-3, the-2)
+dobj(greet-1, person-3)
+nsubj(calling-6, person-3)
+aux(calling-6, is-5)
+rcmod(person-3, calling-6)
+
+det(direction-4, the-3)
+prep_in(walk-1, direction-4)
+det(phone-7, the-6)
+prep_of(direction-4, phone-7)
+
+poss(arm-3, your-2)
+dobj(lowe-1, arm-3)
+conj_and(lowe-1, grab-5)
+det(receiver-7, the-6)
+dobj(grab-5, receiver-7)
+
+det(receiver-3, the-2)
+dobj(bring-1, receiver-3)
+poss(ear-6, your-5)
+prep_to(bring-1, ear-6)
+advmod(hear-11, so-7)
+dep(hear-11, that-8)
+nsubj(hear-11, you-9)
+aux(hear-11, may-10)
+dep(bring-1, hear-11)
+
+nsubj(calling-4, who-2)
+aux(calling-4, is-3)
+ccomp(ask-1, calling-4)
+
+prt(walk-1, over-2)
+det(phone-5, the-4)
+prep_to(walk-1, phone-5)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+det(greeting-3, a-2)
+dobj(say-1, greeting-3)
+
+
+prep_to(go-1, phone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+nsubj(talk-2, press-1)
+dobj(talk-2, button-3)
+
+det(phone-4, the-3)
+prep_to(walk-1, phone-4)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+det(greeting-3, a-2)
+dobj(say-1, greeting-3)
+
+
+prep_to(go-1, phone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+amod(button-3, tak-2)
+dobj(press-1, button-3)
+
+dobj(say-1, hi-2)
+
+det(phone-4, the-3)
+prep_for(listen-1, phone-4)
+aux(ring-6, to-5)
+xcomp(listen-1, ring-6)
+
+det(receiver-3, the-2)
+dobj(lift-1, receiver-3)
+det(base-6, the-5)
+prep_from(lift-1, base-6)
+
+det(receiver-3, the-2)
+dobj(bring-1, receiver-3)
+poss(mouth-6, your-5)
+prep_to(bring-1, mouth-6)
+prep_to(bring-1, ear-8)
+conj_and(mouth-6, ear-8)
+
+dobj(say-1, hello-2)
+
+prt(go-1, over-2)
+det(phone-5, the-4)
+prep_to(go-1, phone-5)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+det(phone-7, the-6)
+prep_on(receiver-4, phone-7)
+
+aux(speak-3, to-2)
+xcomp(begin-1, speak-3)
+det(person-6, the-5)
+prep_to(speak-3, person-6)
+det(phone-9, the-8)
+prep_on(speak-3, phone-9)
+
+det(telephone-3, the-2)
+dobj(find-1, telephone-3)
+
+prt(pick-1, up-2)
+det(receiver-5, the-3)
+nn(receiver-5, telephone-4)
+dobj(pick-1, receiver-5)
+
+dobj(say-1, hello-2)
+prep(say-1, or-3)
+det(greeting-6, some-4)
+amod(greeting-6, other-5)
+dep(or-3, greeting-6)
+
+prep_for(listen-1, someone-3)
+det(telephone-6, the-5)
+prep_on(someone-3, telephone-6)
+aux(speak-8, to-7)
+xcomp(listen-1, speak-8)
+
+det(ring-4, the-2)
+nn(ring-4, phone-3)
+dobj(hear-1, ring-4)
+
+det(phone-4, the-3)
+prep_to(go-1, phone-4)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+det(ring-4, the-2)
+nn(ring-4, phone-3)
+dobj(hear-1, ring-4)
+
+det(phone-4, the-3)
+prep_to(go-1, phone-4)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+dobj(say-1, hello-3)
+
+det(conversation-3, the-2)
+dobj(continue-1, conversation-3)
+
+det(ring-3, the-2)
+dobj(hear-1, ring-3)
+
+dobj(locate-1, receiver-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+nn(phone-3, ringing-2)
+dobj(locate-1, phone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, handset-3)
+
+dobj(say-1, hello-2)
+
+det(ring-4, the-2)
+nn(ring-4, phone-3)
+dobj(hear-1, ring-4)
+
+prep_to(move-1, telephone-3)
+
+prt(pick-1, up-2)
+nn(horn-4, telephone-3)
+dobj(pick-1, horn-4)
+
+dep(state-1, hello-2)
+conj_and(state-1, name-4)
+
+nn(horn-4, telephone-3)
+prep_to(listen-1, horn-4)
+
+nn(ringing-4, telephone-3)
+prep_to(listen-1, ringing-4)
+
+prep_to(move-1, telephone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, reciever-3)
+
+prep_to(talk-1, receiver-3)
+
+dobj(locate-1, phone-2)
+
+nn(receiver-3, phone-2)
+dobj(lift-1, receiver-3)
+
+dobj(say-1, hello-2)
+
+prep_to(listen-1, response-3)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+dobj(say-1, hello-2)
+
+dobj(find-1, phone-2)
+
+prep_to(go-1, phone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(greet-1, caller-2)
+
+prep_to(listen-1, caller-3)
+
+prep_to(respond-1, caller-3)
+
+
+prep_to(go-1, phone-3)
+
+dobj(pick-1, phone-2)
+prt(pick-1, up-3)
+
+prep_on(press-1, button-3)
+
+prep(answer-1, with-2)
+dep(`-3, hello-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(hold-1, receiver-2)
+prep_to(hold-1, head-4)
+
+dobj(say-1, hello-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(put-1, receiver-2)
+prep_to(put-1, ear-4)
+
+dobj(say-1, hello-2)
+
+prt(pick-1, up-2)
+det(phone-4, the-3)
+dobj(pick-1, phone-4)
+
+advmod(say-2, then-1)
+dobj(say-2, hello-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dep(necessary-2, if-1)
+csubj(push-3, necessary-2)
+nn(button-5, talk-4)
+dobj(push-3, button-5)
+aux(answer-7, to-6)
+xcomp(push-3, answer-7)
+dobj(answer-7, phone-8)
+
+dobj(put-1, receiver-2)
+prep_to(put-1, ear-4)
+
+dobj(say-1, hello-2)
+
+det(ringing-4, the-2)
+nn(ringing-4, phone-3)
+dobj(notice-1, ringing-4)
+
+nsubj(handset-2, pickup-1)
+
+prt(press-1, on-2)
+conj_or(press-1, talk-4)
+
+acomp(say-1, hello-3)
+
+det(phone-3, the-2)
+dobj(locate-1, phone-3)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+dep(say-1, hello-3)
+det(mouthpiece-7, the-6)
+prep_into(say-1, mouthpiece-7)
+
+nn(id-4, caller-3)
+prep_at(look-1, id-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(say-1, hello-2)
+
+dobj(hear-1, ring-2)
+
+dobj(see-1, location-2)
+
+prep_to(go-1, location-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, reciever-3)
+
+dobj(say-1, hello-2)
+
+prep_for(listen-1, response-3)
+
+dobj(recognize-1, message-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, handset-3)
+
+det(microphone-4, the-3)
+prep_into(speak-1, microphone-4)
+
+dobj(say-1, hello-2)
+
+det(phone-4, the-3)
+prep_to(go-1, phone-4)
+
+prt(pick-1, up-2)
+det(handset-4, the-3)
+dobj(pick-1, handset-4)
+
+dobj(say-1, hello-3)
+
+amod(phone-3, rining-2)
+dobj(locate-1, phone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+acomp(say-1, hello-3)
+
+det(ring-4, the-2)
+nn(ring-4, telephone-3)
+dobj(hear-1, ring-4)
+
+prt(pick-1, up-2)
+det(receiver-4, the-3)
+dobj(pick-1, receiver-4)
+
+det(button-4, the-2)
+nn(button-4, talk-3)
+dobj(press-1, button-4)
+
+dobj(say-1, hello-2)
+det(mouthpiece-5, the-4)
+prep_into(say-1, mouthpiece-5)
+nsubj(positioning-7, while-6)
+rcmod(mouthpiece-5, positioning-7)
+det(piece-10, the-8)
+nn(piece-10, ear-9)
+dobj(positioning-7, piece-10)
+poss(ear-13, your-12)
+prep_over(positioning-7, ear-13)
+
+prep_to(walk-1, phone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, headset-3)
+
+dobj(say-1, hello-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+dobj(say-1, hello-2)
+
+dobj(hear-1, phone-2)
+dep(hear-1, ringing-3)
+
+aux(sound-3, to-2)
+xcomp(go-1, sound-3)
+
+dobj(get-1, phone-2)
+
+prt(walk-1, over-2)
+prep_to(walk-1, phone-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, receiver-3)
+
+prep_to(walk-1, phone-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(say-1, hellow-2)
+
+prt(walk-1, up-2)
+prep_to(walk-1, phone-4)
+
+nn(display-4, call-3)
+prep_at(look-1, display-4)
+
+poss(wife-3, your-2)
+dobj(call-1, wife-3)
+prt(call-1, over-4)
+
+dobj(tell-1, her-2)
+nsubj(s-4, it-3)
+dep(tell-1, s-4)
+prep_for(s-4, her-6)
+
+nsubj(pick-3, her-2)
+ccomp(make-1, pick-3)
+prt(pick-3, up-4)
+dobj(pick-3, receiver-5)
+
+nsubj(says-2, she-1)
+acomp(says-2, hello-3)
+
+nsubj(drift-2, you-1)
+acomp(drift-2, away-3)
+advmod(away-3, quietly-4)
+
+prt(pick-1, up-2)
+det(handle-4, the-3)
+dobj(pick-1, handle-4)
+

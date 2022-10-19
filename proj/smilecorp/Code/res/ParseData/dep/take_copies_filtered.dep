@@ -1,0 +1,617 @@
+dobj(put-1, image-2)
+prep_in(put-1, machine-4)
+
+dobj(put-1, lid-2)
+prt(put-1, down-3)
+
+dobj(tell-1, machine-2)
+advmod(many-4, how-3)
+amod(copies-5, many-4)
+dep(tell-1, copies-5)
+
+nn(button-3, copy-2)
+dobj(press-1, button-3)
+
+dobj(get-1, copies-2)
+
+dobj(lift-1, lid-2)
+
+nn(guidelines-3, paper-2)
+dobj(observe-1, guidelines-3)
+
+dobj(match-1, paper-2)
+prep_to(match-1, guidelines-4)
+
+dobj(close-1, lid-2)
+
+dobj(select-1, number-2)
+prep_of(number-2, copies-4)
+
+acomp(select-1, single-2)
+conj_or(select-1, double-4)
+dep(double-4, sided-5)
+
+dobj(select-1, color-2)
+
+nn(reduction-3, size-2)
+dobj(select-1, reduction-3)
+advcl(select-1, if-5)
+dep(if-5, any-6)
+
+prt(hold-1, down-2)
+dobj(hold-1, lid-3)
+
+dobj(press-1, start-2)
+
+prep_for(wait-1, copies-3)
+
+dobj(remove-1, copies-2)
+prep_from(remove-1, tray-4)
+
+dobj(find-1, something-2)
+prep_to(something-2, copy-4)
+
+advmod(many-3, how-2)
+dep(i-4, many-3)
+nsubj(need-5, i-4)
+ccomp(decide-1, need-5)
+
+dobj(put-1, it-2)
+det(machine-5, the-4)
+prep_in(put-1, machine-5)
+
+dobj(press-1, buttons-2)
+
+prep_for(wait-1, it-3)
+prep_to(wait-1, copy-5)
+
+dobj(collect-1, copies-2)
+
+dobj(open-1, top-2)
+prep_of(top-2, machine-4)
+
+prep_at(look-1, markings-3)
+prep_on(look-1, glass-5)
+
+amod(face-3, original-2)
+dobj(place-1, face-3)
+prt(place-1, down-4)
+
+dobj(align-1, original-2)
+prep_to(align-1, marks-4)
+
+det(size-3, what-2)
+dobj(want-5, size-3)
+nsubj(want-5, you-4)
+ccomp(decide-1, want-5)
+
+amod(settings-4, light-2)
+amod(settings-4, dark-3)
+dobj(choose-1, settings-4)
+
+dobj(enter-1, number-2)
+prep_of(number-2, copies-4)
+rcmod(number-2, wanted-5)
+
+dobj(put-1, paper-2)
+nn(tray-5, paper-4)
+prep_into(put-1, tray-5)
+
+nn(button-3, copy-2)
+dobj(press-1, button-3)
+
+prep_for(wait-1, machine-3)
+aux(work-5, to-4)
+xcomp(wait-1, work-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, copy-3)
+prep_from(pick-1, tray-5)
+
+prt(take-1, out-2)
+dobj(take-1, original-3)
+
+dobj(take-1, papers-2)
+prep_to(take-1, machine-4)
+
+mark(at-4, if-3)
+dobj(pay-1, at-4)
+pobj(at-4, store-5)
+
+num(paper-3, one-2)
+dobj(put-1, paper-3)
+prep_in(put-1, machine-5)
+
+dobj(press-1, start-2)
+
+num(copy-2, one-1)
+nsubjpass(made-4, copy-2)
+auxpass(made-4, is-3)
+
+mark(have-4, till-2)
+nsubj(have-4, you-3)
+advcl(continue-1, have-4)
+advmod(have-4, enough-5)
+
+det(paper-4, each-3)
+prep_for(repeat-1, paper-4)
+
+prt(flip-1, over-2)
+conj_and(flip-1, copy-4)
+mark(needed-6, if-5)
+advcl(copy-4, needed-6)
+
+dobj(bring-1, paper-2)
+prep_to(bring-1, copied-4)
+
+dobj(lay-1, page-2)
+poss(glass-6, machine-4)
+prep_on(lay-1, glass-6)
+
+nn(options-3, copying-2)
+dobj(select-1, options-3)
+
+prep_in(type-1, number-3)
+prep_of(number-3, copies-5)
+
+dobj(press-1, start-2)
+
+amod(pages-4, subsequent-3)
+prep_with(repeat-1, pages-4)
+
+acomp(retrieve-1, original-2)
+
+amod(copies-3, printed-2)
+dobj(retrieve-1, copies-3)
+
+dobj(locate-1, copier-2)
+
+nn(top-3, copier-2)
+dobj(open-1, top-3)
+
+dobj(place-1, item-2)
+nn(face-5, glass-4)
+prep_on(place-1, face-5)
+advmod(place-1, down-6)
+
+xcomp(press-1, start-2)
+dobj(start-2, button-3)
+prep_on(start-2, copier-5)
+
+prep_for(wait-1, item-3)
+aux(copied-6, to-4)
+auxpass(copied-6, be-5)
+xcomp(wait-1, copied-6)
+
+dobj(retrieve-1, copy-2)
+
+nn(lid-4, copy-2)
+nn(lid-4, machine-3)
+dobj(open-1, lid-4)
+
+dobj(put-1, item-2)
+amod(area-5, proper-4)
+prep_in(put-1, area-5)
+
+dobj(close-1, lid-2)
+
+dobj(find-1, buttons-2)
+dobj(find-1, menu-4)
+conj_and(buttons-2, menu-4)
+
+nn(type-3, copy-2)
+dobj(adjust-1, type-3)
+prep_for(type-3, item-5)
+
+dobj(use-1, keys-2)
+nn(number-6, input-4)
+nn(number-6, copy-5)
+prep_to(use-1, number-6)
+
+dobj(select-1, color-2)
+dobj(select-1, black-4)
+conj_or(color-2, black-4)
+amod(color-2, white-5)
+
+nsubj(start-2, press-1)
+dobj(start-2, button-3)
+
+nsubj(flashes-2, light-1)
+
+nn(copies-2, machine-1)
+dep(copies-2, document-3)
+
+nsubj(come-2, copies-1)
+prep_out_of(come-2, slot-5)
+
+dobj(remove-1, item-2)
+prep_from(remove-1, machine-4)
+
+dobj(take-1, copies-2)
+prep_with(take-1, you-4)
+
+dobj(open-1, lid-2)
+
+dobj(put-1, document-2)
+prep_on(put-1, glass-4)
+
+dobj(close-1, lid-2)
+
+dobj(enter-1, number-2)
+prep_of(number-2, copies-4)
+
+amod(button-3, green-2)
+dobj(press-1, button-3)
+
+dobj(open-1, lid-2)
+
+amod(document-3, original-2)
+dobj(grab-1, document-3)
+
+dobj(place-1, item-2)
+prep_on(place-1, glass-4)
+
+dobj(select-1, number-2)
+prep_of(number-2, copies-4)
+
+nn(level-3, darkness-2)
+dobj(select-1, level-3)
+
+nsubj(is-3, paper-2)
+ccomp(ensure-1, is-3)
+prep_in(is-3, tray-5)
+
+dobj(press-1, start-2)
+
+dobj(take-1, paper-2)
+prep_from(take-1, tray-4)
+
+amod(copy-4, good-3)
+prep_for(check-1, copy-4)
+
+dobj(load-1, originals-2)
+prep_in(load-1, hopper-4)
+
+nn(format-3, copy-2)
+dobj(select-1, format-3)
+
+dobj(select-1, number-2)
+prep_of(number-2, copies-4)
+
+nn(button-3, start-2)
+dobj(push-1, button-3)
+
+dobj(follow-1, instructions-2)
+prep_for(follow-1, jams-4)
+
+dobj(remove-1, copies-2)
+dobj(remove-1, originals-4)
+conj_and(copies-2, originals-4)
+
+nn(lid-3, copier-2)
+dobj(open-1, lid-3)
+
+amod(face-3, original-2)
+dobj(place-1, face-3)
+prt(place-1, down-4)
+
+dobj(close-1, lid-2)
+
+dobj(select-1, size-2)
+
+dobj(select-1, exposure-2)
+
+dobj(select-1, number-2)
+prep_of(number-2, copies-4)
+
+xcomp(press-1, start-2)
+dobj(start-2, button-3)
+
+mark(works-4, while-2)
+nsubj(works-4, machine-3)
+advcl(wait-1, works-4)
+
+dobj(take-1, copy-2)
+prep_from(take-1, tray-4)
+
+dobj(open-1, lid-2)
+
+acomp(remove-1, original-2)
+
+dobj(close-1, lid-2)
+
+det(copier-3, the-2)
+dobj(lift-1, copier-3)
+
+nn(face-3, image-2)
+dobj(place-1, face-3)
+prt(place-1, down-4)
+
+det(corner-6, the-3)
+amod(corner-6, upper-4)
+amod(corner-6, left-5)
+prep_to(move-1, corner-6)
+
+det(copier-3, the-2)
+dobj(close-1, copier-3)
+
+det(button-4, the-2)
+nn(button-4, start-3)
+dobj(press-1, button-4)
+
+det(image-4, the-2)
+amod(image-4, copied-3)
+dobj(collect-1, image-4)
+
+det(copy-4, the-2)
+amod(copy-4, original-3)
+dobj(remove-1, copy-4)
+
+prt(open-1, up-2)
+det(machine-5, the-3)
+nn(machine-5, copy-4)
+dobj(open-1, machine-5)
+
+det(item-3, the-2)
+nsubj(center-1, item-3)
+aux(copy-5, to-4)
+dep(center-1, copy-5)
+
+det(machine-4, the-2)
+nn(machine-4, copy-3)
+dobj(close-1, machine-4)
+
+advmod(many-3, how-2)
+amod(copies-4, many-3)
+dep(select-1, copies-4)
+
+xcomp(press-1, start-2)
+dobj(start-2, botton-3)
+
+det(copies-4, the-3)
+prep_for(wait-1, copies-4)
+
+nsubj(put-2, i-1)
+poss(copy-4, my-3)
+dobj(put-2, copy-4)
+det(top-8, the-6)
+nn(top-8, class-7)
+prep_in(copy-4, top-8)
+
+nsubj(shut-2, i-1)
+det(lid-4, the-3)
+dobj(shut-2, lid-4)
+
+dep(press-2, i-1)
+det(button-5, the-3)
+nn(button-5, copy-4)
+dep(press-2, button-5)
+dep(press-2, once-6)
+
+mark(looks-3, if-1)
+nsubj(looks-3, it-2)
+advcl(enter-6, looks-3)
+acomp(looks-3, good-4)
+nsubj(enter-6, i-5)
+punct(enter-6, #-7)
+
+neg(good-3, not-2)
+amod(i-4, good-3)
+prep_if(adjust-5, i-4)
+poss(copy-7, my-6)
+dobj(adjust-5, copy-7)
+
+dep(number-3, enter-2)
+dep(i-1, number-3)
+prep_of(number-3, copies-5)
+
+det(button-4, the-2)
+nn(button-4, copy-3)
+dobj(press-1, button-4)
+
+poss(copies-3, my-2)
+dobj(gather-1, copies-3)
+
+dobj(take-1, original-2)
+det(top-5, the-4)
+prep_from(take-1, top-5)
+
+amod(documents-3, ready-2)
+dobj(keep-1, documents-3)
+prep_to(keep-1, copy-5)
+
+dep(color-5, either-1)
+nsubj(color-5, it-2)
+nsubj(black-7, it-2)
+aux(color-5, will-3)
+cop(color-5, be-4)
+conj_or(color-5, black-7)
+det(white-9, an-8)
+dep(color-5, white-9)
+
+advmod(many-3, how-2)
+amod(copies-4, many-3)
+dep(decide-1, copies-4)
+
+acomp(make-1, sure-2)
+dobj(be-6, what-3)
+nsubj(be-6, size-4)
+aux(be-6, should-5)
+ccomp(sure-2, be-6)
+
+det(print-3, the-2)
+dobj(fix-1, print-3)
+dep(fix-1, dark-4)
+dep(fix-1, light-6)
+conj_or(dark-4, light-6)
+
+nn(tray-2, check-1)
+nsubj(has-3, tray-2)
+amod(papers-5, enough-4)
+dobj(has-3, papers-5)
+
+det(documents-3, the-2)
+dobj(arrange-1, documents-3)
+prep_to(arrange-1, copy-5)
+
+det(document-3, the-2)
+dobj(insert-1, document-3)
+
+det(butten-4, the-2)
+nn(butten-4, start-3)
+dobj(hit-1, butten-4)
+
+advmod(comes-5, when-1)
+det(copy-4, the-2)
+amod(copy-4, first-3)
+nsubj(comes-5, copy-4)
+csubj(confirm-7, comes-5)
+prt(comes-5, out-6)
+det(copy-9, the-8)
+nsubj(fine-11, copy-9)
+cop(fine-11, is-10)
+ccomp(confirm-7, fine-11)
+
+iobj(start-1, copy-2)
+det(documents-4, the-3)
+dobj(start-1, documents-4)
+
+tmod(done-6, one-1)
+prep_by(one-1, one-3)
+advmod(done-6, when-4)
+rel(done-6, when-4)
+nsubj(done-6, its-5)
+dep(one-1, done-6)
+
+amod(original-3, safe-1)
+det(original-3, the-2)
+nsubj(documents-4, original-3)
+
+det(copys-3, the-2)
+dobj(arrange-1, copys-3)
+advmod(arrange-1, safely-4)
+
+nsubj(work-2, coping-1)
+dep(work-2, done-3)
+advmod(done-3, perfectly-4)
+
+det(machine-4, a-2)
+nn(machine-4, copy-3)
+dobj(find-1, machine-4)
+
+det(face-4, the-2)
+nn(face-4, document-3)
+dobj(place-1, face-4)
+prt(place-1, down-5)
+
+det(settings-3, the-2)
+dobj(adjust-1, settings-3)
+
+det(copy-4, a-2)
+nn(copy-4, test-3)
+dobj(make-1, copy-4)
+
+mark(ok-7, if-2)
+det(copy-5, the-3)
+nn(copy-5, test-4)
+nsubj(ok-7, copy-5)
+cop(ok-7, is-6)
+advcl(check-1, ok-7)
+
+det(number-3, the-2)
+dobj(select-1, number-3)
+prep_of(number-3, copies-5)
+
+det(button-4, the-2)
+nn(button-4, copy-3)
+dobj(press-1, button-4)
+
+dobj(switch-1, pages-2)
+advmod(needed-4, when-3)
+advcl(switch-1, needed-4)
+
+predet(copies-4, all-2)
+det(copies-4, the-3)
+dobj(check-1, copies-4)
+
+amod(paper-3, blank-2)
+dobj(put-1, paper-3)
+prep_on(put-1, machine-5)
+
+det(document-4, the-2)
+amod(document-4, original-3)
+dobj(scan-1, document-4)
+
+mark(neccessary-3, if-2)
+advcl(resize-1, neccessary-3)
+
+dobj(state-1, numper-2)
+prep_of(numper-2, copies-4)
+
+det(button-4, the-2)
+nn(button-4, print-3)
+dobj(push-1, button-4)
+
+dobj(get-1, papers-2)
+partmod(papers-2, requiring-3)
+dobj(requiring-3, copies-4)
+
+det(machine-5, the-3)
+nn(machine-5, copy-4)
+prep_to(go-1, machine-5)
+
+det(machine-4, the-2)
+nn(machine-4, copy-3)
+dobj(switch-1, machine-4)
+prep(switch-1, on-5)
+
+det(number-3, the-2)
+dobj(enter-1, number-3)
+prep_of(number-3, copies-5)
+
+det(size-3, the-2)
+dobj(enter-1, size-3)
+prep_of(size-3, paper-5)
+
+det(papers-3, the-2)
+dobj(put-1, papers-3)
+det(feeder-6, the-5)
+prep_in(put-1, feeder-6)
+
+dobj(press-1, start-2)
+
+poss(copies-3, your-2)
+dobj(remove-1, copies-3)
+
+poss(papers-4, your-2)
+amod(papers-4, original-3)
+dobj(remove-1, papers-4)
+
+dep(original-2, get-1)
+
+nn(machine-4, copy-3)
+prep_on(turn-1, machine-4)
+
+dobj(lift-1, lid-2)
+prep_on(lift-1, machine-4)
+
+amod(face-3, original-2)
+dobj(put-1, face-3)
+prt(put-1, down-4)
+
+dobj(close-1, lid-2)
+nn(machine-5, copy-4)
+prep_of(lid-2, machine-5)
+
+dobj(select-1, number-2)
+prep_of(number-2, copies-4)
+partmod(copies-4, needed-5)
+
+det(button-4, the-2)
+nn(button-4, copy-3)
+dobj(press-1, button-4)
+
+dobj(collect-1, copies-2)
+
+acomp(retrieve-1, original-2)
+

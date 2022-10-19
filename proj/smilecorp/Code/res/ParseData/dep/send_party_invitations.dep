@@ -1,0 +1,448 @@
+dobj(select-1, guests-2)
+
+poss(addresses-3, their-2)
+dobj(get-1, addresses-3)
+
+dobj(write-1, invitations-2)
+
+dobj(mail-1, invitations-2)
+
+dobj(gather-1, addresses-2)
+
+nn(cards-3, invitation-2)
+dobj(gather-1, cards-3)
+
+dobj(write-1, invitations-2)
+
+dobj(put-1, invitations-2)
+prep_in(put-1, envelopes-4)
+
+dobj(address-1, envelopes-2)
+
+dobj(post-1, invitations-2)
+
+det(name-3, each-2)
+pobj(for-1, name-3)
+nn(list-6, guests-5)
+prep_on(name-3, list-6)
+
+dobj(write-1, invitation-2)
+
+dobj(write-1, address-2)
+prep_on(write-1, invitation-4)
+
+amod(guest-2, next-1)
+
+dobj(mail-1, invitations-2)
+
+dobj(make-1, list-2)
+prep_with(make-1, guests-4)
+
+nn(addresses-3, guests-2)
+dobj(get-1, addresses-3)
+
+det(guest-3, each-2)
+pobj(for-1, guest-3)
+
+dobj(write-1, invitation-2)
+
+dobj(write-1, address-2)
+prep_on(write-1, invitation-4)
+
+dobj(mail-1, invitation-2)
+
+nsubj(invite-4, who-2)
+aux(invite-4, to-3)
+ccomp(decide-1, invite-4)
+xcomp(decide-1, invite-4)
+
+prt(write-1, out-2)
+dobj(write-1, invitations-3)
+
+dobj(post-1, them-2)
+
+det(list-4, a-2)
+nn(list-4, guest-3)
+dobj(make-1, list-4)
+
+csubj(do-4, for-1)
+det(guest-3, each-2)
+pobj(for-1, guest-3)
+
+det(invitation-3, an-2)
+dobj(write-1, invitation-3)
+
+dobj(write-1, address-2)
+prep_on(write-1, envelope-4)
+
+dobj(stamp-1, envelope-2)
+
+dobj(send-1, envelope-2)
+
+dobj(write-1, details-2)
+prep_on(write-1, cards-4)
+
+prep_in(put-1, envelopes-3)
+
+dobj(address-1, envelopes-2)
+
+dobj(put-1, postage-2)
+prep_on(put-1, envelopes-4)
+
+nn(box-4, mail-3)
+prep_in(put-1, box-4)
+
+det(list-3, a-2)
+dobj(make-1, list-3)
+prep_of(list-3, people-5)
+aux(invite-7, to-6)
+infmod(people-5, invite-7)
+
+prt(write-1, out-2)
+det(invitations-4, the-3)
+dobj(write-1, invitations-4)
+
+dobj(put-1, them-2)
+prep_in(put-1, envelopes-4)
+
+poss(addresses-4, their-3)
+prep_on(write-1, addresses-4)
+
+det(stamp-3, a-2)
+dobj(attach-1, stamp-3)
+
+dobj(post-1, them-2)
+
+nn(invitations-3, party-2)
+dobj(create-1, invitations-3)
+
+det(invitation-3, each-2)
+dobj(put-1, invitation-3)
+det(envelope-6, an-5)
+prep_in(put-1, envelope-6)
+
+nn(name-3, guest-2)
+dobj(write-1, name-3)
+dobj(write-1, address-5)
+conj_and(name-3, address-5)
+det(envelope-8, each-7)
+prep_on(write-1, envelope-8)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(put-1, envelopes-2)
+prep_in(put-1, mail-4)
+
+dobj(make-1, list-2)
+prep_of(list-2, people-4)
+aux(invite-6, to-5)
+infmod(people-4, invite-6)
+
+nn(invitations-3, party-2)
+dobj(design-1, invitations-3)
+
+nn(invitations-3, party-2)
+dobj(print-1, invitations-3)
+
+dobj(address-1, invitations-2)
+prep_to(address-1, people-4)
+prep_in(people-4, list-6)
+aux(invite-8, to-7)
+infmod(list-6, invite-8)
+
+dobj(put-1, stamp-2)
+det(envelope-6, each-4)
+nn(envelope-6, invitation-5)
+prep_on(put-1, envelope-6)
+
+prt(mail-1, out-2)
+det(invitations-4, the-3)
+dobj(mail-1, invitations-4)
+
+det(list-4, a-2)
+nn(list-4, guest-3)
+dobj(make-1, list-4)
+
+det(date-3, a-2)
+dobj(set-1, date-3)
+det(party-6, the-5)
+prep_for(set-1, party-6)
+
+dobj(buy-1, invitations-2)
+
+dobj(address-1, invitations-2)
+
+dobj(put-1, stamps-2)
+prep_on(put-1, invitations-4)
+
+dobj(put-1, invitations-2)
+det(mail-5, the-4)
+prep_in(put-1, mail-5)
+
+dobj(choose-1, list-2)
+prep_of(list-2, people-4)
+
+dobj(buy-1, invitations-2)
+
+prt(fill-1, out-2)
+conj_and(fill-1, address-4)
+dobj(address-4, invitations-5)
+
+dobj(stamp-1, invitations-2)
+
+dobj(mail-1, invitations-2)
+
+prep_for(wait-1, responses-3)
+
+det(invitations-4, the-2)
+nn(invitations-4, party-3)
+dobj(place-1, invitations-4)
+amod(envelopes-9, addressed-6)
+conj_and(addressed-6, stamped-8)
+amod(envelopes-9, stamped-8)
+prep_into(place-1, envelopes-9)
+
+det(envelopes-3, the-2)
+dobj(mail-1, envelopes-3)
+
+dobj(plan-1, party-2)
+
+nn(list-3, guest-2)
+dobj(make-1, list-3)
+
+dobj(buy-1, invitations-2)
+
+nn(book-3, address-2)
+dobj(find-1, book-3)
+
+dobj(address-1, invitation-2)
+prep_to(address-1, those-4)
+prep_on(those-4, list-6)
+
+dobj(stamp-1, envelopes-2)
+
+dobj(mail-1, invitations-2)
+
+nn(list-3, mailing-2)
+dobj(create-1, list-3)
+
+conj_or(buy-1, print-3)
+dobj(print-3, invitations-4)
+
+nn(information-4, party-3)
+prep_in(fill-1, information-4)
+
+nn(labels-3, mailing-2)
+dobj(print-1, labels-3)
+
+dobj(put-1, invitations-2)
+prep_in(put-1, envelopes-4)
+
+nn(labels-3, mailing-2)
+dobj(place-1, labels-3)
+prep_on(place-1, envelopes-5)
+
+dobj(put-1, stamps-2)
+prep_on(put-1, envelopes-4)
+prep_on(put-1, mail-6)
+conj_and(envelopes-4, mail-6)
+
+amod(list-3, addressee-2)
+dobj(make-1, list-3)
+
+dobj(address-1, invitations-2)
+
+dobj(stuff-1, envelopes-2)
+
+dobj(stamp-1, envelopes-2)
+
+dobj(mail-1, invitations-2)
+
+det(date-4, the-2)
+nn(date-4, party-3)
+dobj(arrange-1, date-4)
+
+det(invitations-3, the-2)
+dobj(print-1, invitations-3)
+
+det(list-4, the-2)
+nn(list-4, senders-3)
+dobj(identify-1, list-4)
+
+det(invitations-3, the-2)
+dobj(send-1, invitations-3)
+
+dobj(select-1, card-2)
+prep_for(select-1, invitation-4)
+
+prt(write-1, out-2)
+dobj(write-1, details-3)
+dobj(want-5, details-3)
+nsubj(want-5, you-4)
+rcmod(details-3, want-5)
+nsubj(know-8, guests-6)
+aux(know-8, to-7)
+xcomp(want-5, know-8)
+det(party-11, the-10)
+prep_about(know-8, party-11)
+
+prt(pick-1, out-2)
+dobj(pick-1, people-3)
+dobj(want-5, people-3)
+nsubj(want-5, you-4)
+xsubj(invite-7, you-4)
+rcmod(people-3, want-5)
+aux(invite-7, to-6)
+xcomp(want-5, invite-7)
+
+prt(send-1, out-2)
+dobj(send-1, cards-3)
+
+dobj(name-1, list-2)
+
+prep_on(write-1, envelops-3)
+
+dobj(add-1, cards-2)
+amod(decripton-5, small-4)
+prep_with(add-1, decripton-5)
+
+
+dobj(send-1, mail-2)
+
+prt(write-1, out-2)
+nn(list-4, guest-3)
+dobj(write-1, list-4)
+
+prt(write-1, out-2)
+dobj(write-1, invitations-3)
+prep_to(write-1, everyone-5)
+nn(list-8, guest-7)
+prep_on(everyone-5, list-8)
+
+nsubj(stuff-1, invitations-2)
+prep_into(stuff-1, envelopes-4)
+
+prt(send-1, out-2)
+dobj(send-1, invitations-3)
+det(mail-6, the-5)
+prep_in(send-1, mail-6)
+
+nn(invitations-3, party-2)
+dobj(write-1, invitations-3)
+
+nn(invitations-3, party-2)
+dobj(put-1, invitations-3)
+prep_in(put-1, envelopes-5)
+
+nn(invitations-3, party-2)
+dobj(mail-1, invitations-3)
+
+nn(invitations-3, part-2)
+dobj(print-1, invitations-3)
+
+det(invitation-3, the-2)
+dobj(put-1, invitation-3)
+prep_in(put-1, envelope-5)
+
+det(invitations-3, the-2)
+dobj(mail-1, invitations-3)
+
+nn(list-3, invitation-2)
+dobj(make-1, list-3)
+
+nn(details-4, party-3)
+prep_in(fill-1, details-4)
+
+dobj(address-1, cards-2)
+dobj(address-1, envelopes-4)
+conj_and(cards-2, envelopes-4)
+
+dobj(stuff-1, envelopes-2)
+
+nsubj(seal-1, envelope-2)
+
+dobj(place-1, stamp-2)
+prep_on(place-1, envelope-4)
+
+dobj(send-1, invitations-2)
+
+nn(invitations-3, party-2)
+dobj(find-1, invitations-3)
+
+dobj(purchase-1, invitations-2)
+
+prep_on(write-1, invitations-3)
+
+nn(invitations-3, party-2)
+dobj(find-1, invitations-3)
+
+dobj(purchase-1, invitations-2)
+
+prep_on(write-1, invitations-3)
+
+prep_in(put-1, envelopes-3)
+prep_with(put-1, addresses-5)
+
+det(stamp-4, a-3)
+prep_on(put-1, stamp-4)
+
+prep_into(put-1, mailbox-3)
+
+prt(fill-1, out-2)
+nn(invitation-4, party-3)
+dobj(fill-1, invitation-4)
+
+dobj(place-1, invitation-2)
+prep_in(place-1, envelope-4)
+
+dobj(address-1, envelope-2)
+
+dobj(place-1, stamp-2)
+prep_on(place-1, envelope-4)
+
+dobj(place-1, envelope-2)
+prep_into(place-1, mailbox-4)
+
+nsubj(invite-4, who-2)
+aux(invite-4, to-3)
+ccomp(decide-1, invite-4)
+xcomp(decide-1, invite-4)
+
+dobj(obtain-1, address-2)
+det(person-5, each-4)
+prep_for(obtain-1, person-5)
+det(list-8, the-7)
+prep_on(obtain-1, list-8)
+
+dobj(write-1, date-2)
+dobj(write-1, time-4)
+conj_and(date-2, time-4)
+prep_of(date-2, party-6)
+
+dobj(write-1, location-2)
+prep_of(location-2, party-4)
+
+dobj(put-1, invitation-2)
+prep_in(put-1, envelope-4)
+
+prep(seal-1, and-2)
+nn(envelope-4, stamp-3)
+dep(and-2, envelope-4)
+
+dobj(mail-1, invitation-2)
+
+nn(invitations-3, party-2)
+dobj(obtain-1, invitations-3)
+
+dobj(obtain-1, stamps-2)
+
+num(stamp-3, one-2)
+dobj(place-1, stamp-3)
+det(envelope-6, each-5)
+prep_on(place-1, envelope-6)
+
+det(envelopes-3, all-2)
+dobj(place-1, envelopes-3)
+prep_into(place-1, mailbox-5)
+

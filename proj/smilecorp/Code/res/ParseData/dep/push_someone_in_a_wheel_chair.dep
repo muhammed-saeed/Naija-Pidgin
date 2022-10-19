@@ -1,0 +1,379 @@
+dep(grip-1, chair-2)
+
+advmod(move-1, forward-2)
+
+nsubj(requested-4, turn-1)
+prep_in(turn-1, direction-3)
+
+advmod(requested-3, when-2)
+dep(stop-1, requested-3)
+
+prep_to(go-1, wheelchair-3)
+
+dep(grip-1, wheelchair-2)
+
+nsubj(requested-4, push-1)
+prep_in(push-1, direction-3)
+
+advmod(requested-3, when-2)
+dep(stop-1, requested-3)
+
+
+prep_behind(move-1, chair-3)
+
+dobj(place-1, hands-2)
+prep(place-1, on-3)
+dep(on-3, handles-4)
+
+advmod(push-1, forward-2)
+
+advmod(walk-1, forward-2)
+
+dobj(place-1, someone-2)
+det(wheelchair-5, a-4)
+prep_into(place-1, wheelchair-5)
+
+det(chair-3, the-2)
+dobj(push-1, chair-3)
+poss(hands-6, your-5)
+prep_with(push-1, hands-6)
+
+dobj(place-1, person-2)
+prep_in(person-2, wheelchair-4)
+
+prep_behind(step-1, wheelchair-3)
+
+csubj(handles-5, take-1)
+dobj(take-1, hold-2)
+prep_of(hold-2, the-4)
+det(wheelchair-8, the-7)
+prep_on(handles-5, wheelchair-8)
+
+conj_and(push-1, walk-3)
+det(chair-6, the-5)
+prep_behind(walk-3, chair-6)
+
+aux(let-3, do-1)
+neg(let-3, not-2)
+dep(let-3, go-4)
+advmod(long-6, as-5)
+advmod(go-4, long-6)
+mark(pushing-10, as-7)
+nsubj(pushing-10, you-8)
+aux(pushing-10, are-9)
+dep(long-6, pushing-10)
+
+dobj(help-1, someone-2)
+aux(sit-4, to-3)
+infmod(someone-2, sit-4)
+det(wheelchair-7, a-6)
+prep_in(sit-4, wheelchair-7)
+
+det(wheelchair-3, the-2)
+dobj(push-1, wheelchair-3)
+det(location-6, the-5)
+prep_to(push-1, location-6)
+dep(wishes-11, which-8)
+det(person-10, the-9)
+nsubj(wishes-11, person-10)
+xsubj(go-13, person-10)
+prepc_to(push-1, wishes-11)
+aux(go-13, to-12)
+xcomp(wishes-11, go-13)
+
+dep(handles-5, grasp-1)
+det(wheel-3, the-2)
+dobj(grasp-1, wheel-3)
+nsubj(handles-5, chair-4)
+
+advmod(walk-1, forward-2)
+
+nn(chair-3, wheel-2)
+dobj(face-1, chair-3)
+det(direction-7, the-5)
+amod(direction-7, desired-6)
+prep_in(face-1, direction-7)
+
+dobj(position-1, yourself-2)
+det(chair-6, the-4)
+nn(chair-6, wheel-5)
+prep_behind(position-1, chair-6)
+
+advmod(move-1, forward-2)
+
+xcomp(continue-1, moving-2)
+mark(is-6, until-3)
+nn(chair-5, wheel-4)
+nsubj(is-6, chair-5)
+advcl(moving-2, is-6)
+det(location-10, the-8)
+amod(location-10, desired-9)
+prep_at(is-6, location-10)
+
+dobj(ask-1, someone-2)
+aux(sit-4, to-3)
+xcomp(ask-1, sit-4)
+det(chair-8, the-6)
+nn(chair-8, wheel-7)
+prep_in(sit-4, chair-8)
+
+csubj(handles-5, hold-1)
+det(chair-4, the-2)
+nn(chair-4, wheel-3)
+dobj(hold-1, chair-4)
+
+det(chair-4, the-2)
+nn(chair-4, wheel-3)
+dobj(push-1, chair-4)
+
+csubj(handles-3, grab-1)
+dobj(grab-1, the-2)
+det(weelchair-6, the-5)
+prep_of(handles-3, weelchair-6)
+
+dobj(start-1, walking-2)
+
+complm(assist-5, whether-2)
+nsubj(assist-5, you-3)
+aux(assist-5, can-4)
+ccomp(ask-1, assist-5)
+
+nn(chair-3, wheel-2)
+dobj(push-1, chair-3)
+
+nn(chair-3, hold-1)
+nn(chair-3, wheel-2)
+nsubj(handles-4, chair-3)
+
+dep(start-1, walking-2)
+conj_and(start-1, push-4)
+dobj(push-4, hand-5)
+advmod(push-4, forward-6)
+
+amod(chair-4, sure-2)
+nn(chair-4, wheel-3)
+dobj(make-1, chair-4)
+amod(distance-7, safe-6)
+prep_at(make-1, distance-7)
+prep_in_front_of(make-1, you-11)
+
+det(chair-5, the-3)
+nn(chair-5, wheel-4)
+prep_behind(get-1, chair-5)
+
+nn(chair-4, wheel-3)
+prep_against(lean-1, chair-4)
+advmod(moves-8, so-5)
+dep(moves-8, that-6)
+nsubj(moves-8, it-7)
+ccomp(lean-1, moves-8)
+advmod(moves-8, slowly-9)
+
+dep(start-1, waking-2)
+advmod(waking-2, still-3)
+xcomp(waking-2, leaning-4)
+advmod(leaning-4, forward-5)
+
+csubj(wheelchair-6, get-1)
+det(person-4, the-3)
+prep_behind(get-1, person-4)
+cop(wheelchair-6, s-5)
+
+csubj(handles-6, grab-1)
+prt(grab-1, on-2)
+det(wheelchair-5, the-4)
+prep_to(grab-1, wheelchair-5)
+
+mark(applying-3, while-2)
+advcl(walk-1, applying-3)
+dobj(applying-3, pressure-4)
+advmod(applying-3, forward-5)
+det(wheelchair-8, the-7)
+prep_to(applying-3, wheelchair-8)
+
+csubj(handles-5, hold-1)
+nn(chair-4, wheel-3)
+prep_onto(hold-1, chair-4)
+
+nn(chair-3, wheel-2)
+dobj(push-1, chair-3)
+advmod(push-1, forward-4)
+
+det(handle-3, the-2)
+dobj(hold-1, handle-3)
+det(chair-7, the-5)
+nn(chair-7, wheel-6)
+prep_of(handle-3, chair-7)
+
+det(person-3, the-2)
+dobj(ask-1, person-3)
+mark(ready-7, if-4)
+nsubj(ready-7, he-5)
+cop(ready-7, s-6)
+advcl(ask-1, ready-7)
+
+det(chair-4, the-2)
+nn(chair-4, wheel-3)
+dobj(push-1, chair-4)
+advmod(push-1, slowly-5)
+
+det(person-3, the-2)
+dobj(ask-1, person-3)
+advmod(want-6, where-4)
+rel(want-6, where-4)
+nsubj(want-6, they-5)
+xsubj(go-8, they-5)
+rcmod(person-3, want-6)
+aux(go-8, to-7)
+xcomp(want-6, go-8)
+
+csubj(handles-3, grab-1)
+dobj(grab-1, the-2)
+det(wheelchair-6, the-5)
+prep_of(handles-3, wheelchair-6)
+
+dep(little-3, a-2)
+dep(forward-4, little-3)
+advmod(lean-1, forward-4)
+conj_and(lean-1, start-6)
+dep(start-6, walking-7)
+
+dobj(unlock-1, wheels-2)
+
+
+dobj(find-1, someone-2)
+det(chair-6, a-4)
+nn(chair-6, wheel-5)
+prep_in(find-1, chair-6)
+
+dobj(understand-1, direction-2)
+
+dobj(exert-1, force-2)
+det(chair-6, the-4)
+nn(chair-6, wheel-5)
+prep_on(exert-1, chair-6)
+
+det(person-3, the-2)
+dobj(ask-1, person-3)
+advmod(like-7, where-4)
+rel(like-7, where-4)
+nsubj(like-7, they-5)
+xsubj(go-9, they-5)
+advmod(like-7, d-6)
+rcmod(person-3, like-7)
+aux(go-9, to-8)
+xcomp(like-7, go-9)
+
+prep_behind(walk-1, wheelchair-3)
+
+csubj(handles-4, take-1)
+dobj(take-1, hold-2)
+prep(take-1, of-3)
+
+advmod(walk-1, slowly-2)
+advmod(walk-1, smoothly-4)
+conj_and(slowly-2, smoothly-4)
+dep(walk-1, pushing-5)
+
+nsubj(handles-5, push-1)
+det(back-4, the-3)
+prep_on(push-1, back-4)
+
+nn(chair-4, wheel-3)
+prep_behind(stand-1, chair-4)
+
+nsubj(handles-2, grab-1)
+
+dep(ensure-1, person-2)
+dep(person-2, is-3)
+advmod(is-3, properly-4)
+prep_in(is-3, chair-6)
+
+advmod(slowly-3, forward-2)
+advmod(walk-1, slowly-3)
+mark(holding-5, whilst-4)
+dep(slowly-3, holding-5)
+dep(holding-5, handles-6)
+
+dobj(move-1, hands-2)
+prep_in(move-1, direction-4)
+xsubj(go-7, direction-4)
+partmod(direction-4, needed-5)
+aux(go-7, to-6)
+xcomp(needed-5, go-7)
+
+nsubj(handles-2, grasp-1)
+
+advmod(push-1, slowly-2)
+
+csubj(handles-4, grab-1)
+prep_onto(grab-1, wheelchair-3)
+
+nn(brakes-3, wheelchair-2)
+dobj(release-1, brakes-3)
+
+dobj(push-1, wheelchair-2)
+
+
+nsubj(handles-2, grab-1)
+
+advmod(push-1, forward-2)
+
+nn(chair-3, wheel-2)
+dobj(find-1, chair-3)
+
+aux(sit-3, have-1)
+nsubj(sit-3, person-2)
+prep_in(sit-3, chair-5)
+
+dobj(push-1, chair-2)
+prep(push-1, from-3)
+dep(from-3, behind-4)
+
+det(brake-3, the-2)
+dobj(release-1, brake-3)
+
+dep(grab-1, both-2)
+dep(both-2, handles-3)
+advmod(handles-3, firmly-4)
+det(hand-7, each-6)
+prep_in(handles-3, hand-7)
+
+det(chair-4, the-2)
+nn(chair-4, wheel-3)
+dobj(push-1, chair-4)
+det(direction-8, the-6)
+amod(direction-8, deseried-7)
+prep_in(push-1, direction-8)
+
+csubj(handles-5, take-1)
+dobj(take-1, hold-2)
+prep_of(hold-2, the-4)
+
+amod(force-4, gentle-3)
+prep_with(push-1, force-4)
+
+det(chair-4, the-3)
+prep_with(walk-1, chair-4)
+prep_in_front_of(walk-1, you-8)
+
+dobj(put-1, hands-2)
+prep_on(put-1, handle-4)
+
+conj_and(walk-1, push-3)
+dobj(push-3, chair-4)
+
+nn(chair-3, wheel-2)
+dobj(take-1, chair-3)
+
+dobj(grab-1, handle-2)
+
+det(chair-3, the-2)
+dobj(push-1, chair-3)
+
+csubj(handles-5, take-1)
+dobj(take-1, hold-2)
+prep_of(hold-2, the-4)
+
+dobj(push-1, wheelchair-2)
+

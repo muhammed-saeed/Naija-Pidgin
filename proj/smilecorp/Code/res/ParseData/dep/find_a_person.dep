@@ -1,0 +1,109 @@
+prep_for(look-1, person-3)
+
+prep_to(go-1, person-3)
+
+nsubjpass(found-4, person-2)
+auxpass(found-4, is-3)
+dep(announce-1, found-4)
+
+dobj(locate-1, person-2)
+
+prep_to(go-1, person-3)
+
+complm(found-6, that-2)
+det(person-4, the-3)
+nsubjpass(found-6, person-4)
+auxpass(found-6, is-5)
+ccomp(announce-1, found-6)
+
+prt(figure-1, out-2)
+advmod(be-7, where-3)
+det(person-5, the-4)
+nsubj(be-7, person-5)
+aux(be-7, might-6)
+advcl(figure-1, be-7)
+
+advmod(look-1, there-2)
+
+dep(you-5, yell-1)
+dep(you-5, where-3)
+cop(you-5, are-4)
+
+det(voice-4, the-2)
+nn(voice-4, persons-3)
+dobj(follow-1, voice-4)
+
+prep_for(look-1, person-3)
+prep_in(look-1, room-5)
+
+amod(room-4, next-3)
+prep_to(continue-1, room-4)
+mark(found-6, until-5)
+advcl(continue-1, found-6)
+
+advmod(be-6, where-3)
+nsubj(be-6, person-4)
+aux(be-6, might-5)
+prepc_to(go-1, be-6)
+
+prt(look-1, around-2)
+prep_for(look-1, person-4)
+
+nsubj(found-3, of-1)
+neg(found-3, not-2)
+xcomp(found-3, ask-4)
+dobj(ask-4, people-5)
+mark(saw-8, if-6)
+nsubj(saw-8, they-7)
+advcl(ask-4, saw-8)
+dobj(saw-8, person-9)
+
+prep_for(look-1, person-3)
+
+prep_for(look-1, person-3)
+
+advmod(found-5, when-2)
+nsubjpass(found-5, person-3)
+auxpass(found-5, is-4)
+advcl(report-1, found-5)
+
+csubj(name-5, enter-1)
+det(person-3, the-2)
+dobj(enter-1, person-3)
+cop(name-5, s-4)
+prep_into(name-5, google-7)
+
+prep_for(look-1, person-3)
+
+prep_for(search-1, person-3)
+
+det(person-3, a-2)
+dobj(seek-1, person-3)
+
+
+
+
+
+
+
+dobj(found-1, person-2)
+
+
+dobj(find-1, person-2)
+
+det(idea-3, an-2)
+dobj(have-1, idea-3)
+advmod(is-6, where-4)
+rel(is-6, where-4)
+nsubj(is-6, person-5)
+rcmod(idea-3, is-6)
+
+advmod(go-1, there-2)
+
+prep_for(look-1, person-3)
+advmod(look-1, there-4)
+
+prep_for(look-1, person-3)
+
+dobj(locate-1, person-2)
+

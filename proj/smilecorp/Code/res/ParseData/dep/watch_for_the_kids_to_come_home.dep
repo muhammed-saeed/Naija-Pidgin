@@ -1,0 +1,382 @@
+advmod(supposed-6, where-3)
+nsubjpass(supposed-6, you-4)
+xsubj(watch-8, you-4)
+auxpass(supposed-6, are-5)
+prepc_to(go-1, supposed-6)
+aux(watch-8, to-7)
+xcomp(supposed-6, watch-8)
+prep_for(watch-8, them-10)
+
+prep_in(look-1, direction-3)
+prep_from(coming-9, direction-3)
+advmod(coming-9, where-4)
+rel(coming-9, where-4)
+det(kids-6, the-5)
+nsubj(coming-9, kids-6)
+aux(coming-9, will-7)
+aux(coming-9, be-8)
+rcmod(direction-3, coming-9)
+
+amod(length-3, specified-2)
+dobj(wait-1, length-3)
+prep_of(length-3, time-5)
+mark(arrive-8, until-6)
+nsubj(arrive-8, they-7)
+advcl(wait-1, arrive-8)
+
+det(window-4, the-3)
+prep_out(look-1, window-4)
+
+det(kids-4, the-3)
+prep_for(wait-1, kids-4)
+aux(appear-6, to-5)
+xcomp(wait-1, appear-6)
+det(window-9, the-8)
+prep_in(appear-6, window-9)
+
+nn(door-4, entry-3)
+prep_to(move-1, door-4)
+
+det(entry-3, the-2)
+dobj(observe-1, entry-3)
+advmod(observe-1, visually-4)
+
+prep_at(stay-1, window-3)
+
+dobj(observe-1, passer-by-2)
+
+prep_at(be-1, home-3)
+
+mark(come-5, until-2)
+det(kids-4, the-3)
+nsubj(come-5, kids-4)
+advcl(wait-1, come-5)
+dobj(come-5, home-6)
+
+advmod(supposed-6, when-2)
+det(kids-4, the-3)
+nsubjpass(supposed-6, kids-4)
+xsubj(come-8, kids-4)
+auxpass(supposed-6, are-5)
+advcl(knowing-1, supposed-6)
+aux(come-8, to-7)
+xcomp(supposed-6, come-8)
+dobj(come-8, home-9)
+
+advmod(look-4, where-2)
+aux(look-4, to-3)
+xcomp(knowing-1, look-4)
+det(kids-7, the-6)
+prep_for(look-4, kids-7)
+
+dep(look-5, knowing-1)
+dobj(knowing-1, what-2)
+det(kids-4, the-3)
+nsubj(look-5, kids-4)
+prep(look-5, like-6)
+
+advmod(see-6, where-3)
+nsubj(see-6, you-4)
+aux(see-6, can-5)
+prepc_to(going-1, see-6)
+det(kids-8, the-7)
+dobj(see-6, kids-8)
+
+det(kids-4, the-3)
+prep_for(looking-1, kids-4)
+
+prep_outside(look-1, window-3)
+
+mark(walking-5, if-2)
+nsubj(walking-5, kids-3)
+aux(walking-5, are-4)
+advcl(check-1, walking-5)
+prep_toward(walking-5, house-7)
+
+det(window-4, a-3)
+prep_out(look-1, window-4)
+det(direction-7, the-6)
+prep_in(look-1, direction-7)
+prep_from(come-10, direction-7)
+det(kids-9, the-8)
+nsubj(come-10, kids-9)
+rcmod(direction-7, come-10)
+
+det(kids-4, the-3)
+prep_for(look-1, kids-4)
+amod(kids-4, outside-5)
+
+advmod(repeat-1, occasionally-2)
+mark(see-5, until-3)
+nsubj(see-5, you-4)
+advcl(repeat-1, see-5)
+dobj(see-5, them-6)
+
+prt(find-1, out-2)
+advmod(dropped-8, where-3)
+det(kids-5, the-4)
+nsubjpass(dropped-8, kids-5)
+aux(dropped-8, will-6)
+auxpass(dropped-8, be-7)
+advcl(find-1, dropped-8)
+prt(dropped-8, off-9)
+advmod(come-12, when-10)
+nsubj(come-12, the-11)
+advcl(dropped-8, come-12)
+dobj(come-12, home-13)
+
+det(window-5, the-3)
+amod(window-5, closest-4)
+prep_to(go-1, window-5)
+det(location-8, that-7)
+prep_to(go-1, location-8)
+
+det(window-5, the-4)
+prep_out_of(look-1, window-5)
+
+mark(see-4, until-2)
+nsubj(see-4, you-3)
+advcl(wait-1, see-4)
+det(kids-6, the-5)
+dobj(see-4, kids-6)
+det(window-9, the-8)
+prep_through(see-4, window-9)
+
+nn(kids-3, route-2)
+dobj(locate-1, kids-3)
+dep(locate-1, take-4)
+
+dobj(watch-1, route-2)
+
+advmod(see-5, where-2)
+nsubj(see-5, you-3)
+aux(see-5, can-4)
+advcl(stand-1, see-5)
+det(kids-7, the-6)
+dobj(see-5, kids-7)
+xcomp(see-5, coming-8)
+
+det(window-4, the-3)
+prep_to(go-1, window-4)
+
+det(window-4, the-3)
+prep_out(look-1, window-4)
+
+mark(seen-7, until-2)
+det(children-4, the-3)
+nsubjpass(seen-7, children-4)
+aux(seen-7, can-5)
+auxpass(seen-7, be-6)
+advcl(wait-1, seen-7)
+
+det(children-3, the-2)
+dobj(watch-1, children-3)
+mark(enter-6, until-4)
+nsubj(enter-6, they-5)
+advcl(watch-1, enter-6)
+det(home-8, the-7)
+dobj(enter-6, home-8)
+
+det(window-3, the-2)
+dobj(leave-1, window-3)
+
+prep_to(walk-1, window-3)
+advmod(expected-8, when-4)
+det(kids-6, the-5)
+nsubjpass(expected-8, kids-6)
+auxpass(expected-8, are-7)
+advcl(walk-1, expected-8)
+dobj(expected-8, home-9)
+
+prep_out(look-1, window-3)
+prep_for(window-3, kids-5)
+
+det(window-4, the-3)
+prep_out(look-1, window-4)
+
+aux(enjoying-2, be-1)
+det(peace-4, the-3)
+dobj(enjoying-2, peace-4)
+dobj(enjoying-2, quiet-6)
+conj_and(peace-4, quiet-6)
+
+det(time-3, the-2)
+dobj(check-1, time-3)
+
+nn(children-2, notice-1)
+nsubj(home-5, children-2)
+aux(home-5, will-3)
+cop(home-5, be-4)
+advmod(home-5, soon-6)
+
+xcomp(finish-1, watching-2)
+poss(program-4, your-3)
+dobj(watching-2, program-4)
+
+dobj(make-1, snacks-2)
+
+prep_for(watch-1, bus-3)
+
+iobj(see-1, children-2)
+nn(bus-4, exit-3)
+dobj(see-1, bus-4)
+dobj(see-1, head-6)
+conj_and(bus-4, head-6)
+prep_toward(see-1, house-8)
+
+det(window-4, the-3)
+prep_out(look-1, window-4)
+
+det(kids-3, the-2)
+dobj(watch-1, kids-3)
+dep(watch-1, walk-4)
+det(steps-7, the-6)
+prep_to(walk-4, steps-7)
+
+aux(walk-4, watch-1)
+det(kids-3, the-2)
+nsubj(walk-4, kids-3)
+det(house-7, the-6)
+prep_into(walk-4, house-7)
+
+dobj(goto-1, window-2)
+
+prep_for(wait-1, children-3)
+prep_to(wait-1, arive-5)
+
+det(time-4, the-2)
+amod(time-4, usual-3)
+dobj(know-1, time-4)
+complm(arrive-8, that-5)
+det(kids-7, the-6)
+nsubj(arrive-8, kids-7)
+dep(time-4, arrive-8)
+dobj(arrive-8, home-9)
+
+dobj(start-1, waiting-2)
+num(minutes-4, ten-3)
+dep(earlier-5, minutes-4)
+advmod(start-1, earlier-5)
+
+prep_at(look-1, window-3)
+conj_and(look-1, wait-5)
+prep_for(wait-5, kids-7)
+
+prep_for(wait-1, kids-3)
+
+cop(glad-2, be-1)
+complm(get-5, that-3)
+nsubj(get-5, they-4)
+ccomp(glad-2, get-5)
+dobj(get-5, home-6)
+det(time-10, the-8)
+amod(time-10, expected-9)
+prep_around(home-6, time-10)
+
+det(couch-4, the-3)
+prep_on(sit-1, couch-4)
+det(window-7, a-6)
+prep_near(couch-4, window-7)
+det(door-11, the-9)
+amod(door-11, front-10)
+prep_by(sit-1, door-11)
+
+
+det(point-5, a-2)
+amod(point-5, suitable-3)
+nn(point-5, vantage-4)
+dobj(find-1, point-5)
+
+nn(point-3, vantage-2)
+dobj(approach-1, point-3)
+
+prep_in(wait-1, position-3)
+
+det(identity-3, the-2)
+dobj(verify-1, identity-3)
+prep_of(identity-3, those-5)
+amod(those-5, approaching-6)
+
+advmod(go-1, downstairs-2)
+
+det(window-4, the-3)
+prep_to(go-1, window-4)
+
+det(road-3, the-2)
+dobj(scan-1, road-3)
+
+
+dobj(do-1, something-2)
+advmod(something-2, else-3)
+
+mark(spot-4, until-2)
+nsubj(spot-4, you-3)
+advcl(repeat-1, spot-4)
+dobj(spot-4, kids-5)
+
+dobj(welcome-1, them-2)
+advmod(welcome-1, home-3)
+
+amod(window-4, front-3)
+prep_to(go-1, window-4)
+
+dobj(pull-1, curtains-2)
+prt(pull-1, back-3)
+
+prep_for(look-1, kids-3)
+
+dobj(clean-1, house-2)
+
+dobj(watch-1, tv-2)
+
+dobj(cook-1, dinner-2)
+
+dobj(make-1, snacks-2)
+
+prep_to(go-1, window-3)
+
+dobj(watch-1, bus-2)
+dep(watch-1, pull-3)
+prt(pull-3, in-4)
+
+nsubj(get-3, kids-2)
+ccomp(see-1, get-3)
+prt(get-3, out-4)
+
+prep_by(sit-1, window-3)
+
+prep_out(look-1, window-3)
+
+prep_for(wait-1, kids-3)
+aux(come-5, to-4)
+xcomp(wait-1, come-5)
+dobj(come-5, home-6)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+prep_for(open-1, them-5)
+
+prep_out(look-1, window-3)
+
+prep_for(watch-1, kids-3)
+
+dobj(send-1, kids-2)
+advmod(send-1, away-3)
+
+amod(time-3, appropriate-2)
+dobj(wait-1, time-3)
+
+prep_to(walk-1, window-3)
+advmod(walk-1, or-4)
+
+dobj(open-1, door-2)
+
+dobj(look-1, left-2)
+dobj(look-1, right-4)
+conj_and(left-2, right-4)
+
+
+dobj(look-1, right-2)
+dobj(look-1, left-4)
+conj_and(right-2, left-4)
+

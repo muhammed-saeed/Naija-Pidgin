@@ -1,0 +1,553 @@
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(take-1, dog-4)
+det(freezer-7, the-6)
+prep_from(take-1, freezer-7)
+
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(defrost-1, dog-4)
+
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(put-1, dog-4)
+det(oven-7, the-6)
+prep_in(put-1, oven-7)
+
+det(time-4, some-3)
+prep_for(wait-1, time-4)
+
+prt(take-1, out-2)
+det(dog-5, the-3)
+amod(dog-5, hot-4)
+dobj(take-1, dog-5)
+
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(serve-1, dog-4)
+prep_with(serve-1, bread-6)
+
+dobj(add-1, catchup-2)
+det(top-5, the-4)
+prep_on(add-1, top-5)
+
+amod(dog-3, hot-2)
+dobj(find-1, dog-3)
+
+dobj(boil-1, water-2)
+
+amod(dog-3, hot-2)
+dobj(place-1, dog-3)
+prepc_in(place-1, boiling-5)
+dobj(boiling-5, water-6)
+
+det(time-4, some-3)
+prep_for(wait-1, time-4)
+
+dep(hot-dog-2, get-1)
+
+acomp(grill-1, hot-dog-2)
+
+amod(bun-4, hot-dog-2)
+amod(bun-4, inside-3)
+dobj(put-1, bun-4)
+
+nn(pickles-3, mustard-2)
+iobj(pour-1, pickles-3)
+dobj(pour-1, onions-4)
+prep_inside(onions-4, bun-6)
+
+acomp(serve-1, hot-dog-2)
+
+dobj(grill-1, hotdog-2)
+
+prt(warm-1, up-2)
+dobj(warm-1, bun-3)
+
+amod(dog-3, hot-2)
+dobj(put-1, dog-3)
+prep_on(put-1, bun-5)
+
+nn(pickles-4, mustard-2)
+nn(pickles-4, ketchup-3)
+dobj(add-1, pickles-4)
+
+dobj(place-1, hot-dog-2)
+prep_on(place-1, grill-4)
+
+prep_for(wait-1, hot-dog-3)
+aux(cook-5, to-4)
+xcomp(wait-1, cook-5)
+
+acomp(remove-1, hot-dog-2)
+
+dobj(place-1, hot-dog-2)
+prep_on(place-1, bun-4)
+
+dobj(add-1, mustard-2)
+dobj(add-1, ketchup-4)
+conj_and(mustard-2, ketchup-4)
+
+det(dog-4, a-2)
+amod(dog-4, hot-3)
+dobj(locate-1, dog-4)
+
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(cook-1, dog-4)
+det(recipe-8, a-7)
+prep_according_to(cook-1, recipe-8)
+
+det(bun-3, a-2)
+dobj(locate-1, bun-3)
+
+det(dog-5, the-2)
+amod(dog-5, cooked-3)
+amod(dog-5, hot-4)
+dobj(placed-1, dog-5)
+det(bun-8, a-7)
+prep_on(placed-1, bun-8)
+
+amod(condiments-3, desired-2)
+dobj(place-1, condiments-3)
+det(dog-7, the-5)
+amod(dog-7, hot-6)
+prep_on(place-1, dog-7)
+det(bun-10, the-9)
+prep_in(dog-7, bun-10)
+
+det(dog-4, a-2)
+amod(dog-4, hot-3)
+dobj(locate-1, dog-4)
+
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(cook-1, dog-4)
+det(recipe-8, a-7)
+prep_according_to(cook-1, recipe-8)
+
+det(bun-3, a-2)
+dobj(locate-1, bun-3)
+
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(place-1, dog-4)
+det(bun-7, the-6)
+prep_on(place-1, bun-7)
+
+amod(condiments-3, desired-2)
+dobj(add-1, condiments-3)
+det(dog-7, the-5)
+amod(dog-7, hot-6)
+prep_to(add-1, dog-7)
+det(bun-10, the-9)
+prep_in(dog-7, bun-10)
+
+det(roll-4, a-2)
+nn(roll-4, bread-3)
+dobj(get-1, roll-4)
+
+det(sausage-3, a-2)
+dobj(get-1, sausage-3)
+
+det(sausage-3, the-2)
+dobj(cook-1, sausage-3)
+
+det(sausage-3, the-2)
+dobj(put-1, sausage-3)
+det(roll-6, the-5)
+prep_in(put-1, roll-6)
+
+prep_on(pour-1, mustard-3)
+nn(sauce-6, tomato-5)
+prep_on(pour-1, sauce-6)
+conj_and(mustard-3, sauce-6)
+
+prep_to(go-1, store-3)
+
+amod(dogs-3, hot-2)
+dobj(buy-1, dogs-3)
+
+dobj(come-1, home-2)
+
+amod(dogs-3, hot-2)
+dobj(put-1, dogs-3)
+amod(pan-6, frying-5)
+prep_in(put-1, pan-6)
+
+amod(pan-3, frying-2)
+dobj(place-1, pan-3)
+nn(burner-6, heater-5)
+prep_on(place-1, burner-6)
+
+num(minutes-4, 3-3)
+prep_for(cook-1, minutes-4)
+
+amod(dogs-3, hot-2)
+dobj(turn-1, dogs-3)
+prt(turn-1, over-4)
+conj_and(turn-1, cook-6)
+num(minutes-9, 2-7)
+quantmod(2-7, more-8)
+tmod(cook-6, minutes-9)
+
+amod(dog-3, hot-2)
+dobj(identify-1, dog-3)
+
+amod(dog-3, hot-2)
+dobj(remove-1, dog-3)
+prep_from(remove-1, packaging-5)
+
+dobj(identify-1, pot-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(heat-1, water-2)
+prep_on(heat-1, stove-4)
+
+amod(dog-3, hot-2)
+dobj(place-1, dog-3)
+amod(water-6, hot-5)
+prep_in(place-1, water-6)
+
+amod(dog-3, hot-2)
+dobj(heat-1, dog-3)
+
+amod(package-4, hot-2)
+nn(package-4, dog-3)
+dobj(open-1, package-4)
+
+amod(dog-3, hot-2)
+dobj(place-1, dog-3)
+prep_in(place-1, pan-5)
+
+dobj(heat-1, pan-2)
+
+amod(dog-3, hot-2)
+dobj(cook-1, dog-3)
+prep_until(cook-1, heated-5)
+
+amod(dog-3, hot-2)
+dobj(remove-1, dog-3)
+prep_from(remove-1, pan-5)
+
+amod(dog-3, hot-2)
+dobj(place-1, dog-3)
+prep_on(place-1, plate-5)
+prep_on(place-1, bun-7)
+conj_or(plate-5, bun-7)
+
+iobj(get-1, bread-2)
+det(sausage-4, an-3)
+dobj(get-1, sausage-4)
+
+det(cut-3, a-2)
+dobj(make-1, cut-3)
+det(bread-6, the-5)
+prep_in(cut-3, bread-6)
+
+det(sausage-3, the-2)
+dobj(heat-1, sausage-3)
+
+dobj(put-1, sausage-2)
+det(cut-5, the-4)
+prep_in(put-1, cut-5)
+
+dobj(put-1, mustard-2)
+det(sausage-5, the-4)
+prep_on(put-1, sausage-5)
+
+amod(dog-3, hot-2)
+dobj(identify-1, dog-3)
+
+dobj(identify-1, pot-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(place-1, pot-2)
+prep_on(place-1, stove-4)
+
+dobj(heat-1, water-2)
+
+amod(dog-3, hot-2)
+dobj(place-1, dog-3)
+amod(water-6, hot-5)
+prep_in(place-1, water-6)
+
+amod(dog-3, hot-2)
+dobj(remove-1, dog-3)
+prep_from(remove-1, water-5)
+
+amod(bun-4, hot-2)
+nn(bun-4, dog-3)
+dobj(get-1, bun-4)
+
+amod(dog-3, hot-2)
+dobj(get-1, dog-3)
+
+amod(dog-3, hot-2)
+dobj(put-1, dog-3)
+prep_in(put-1, bun-5)
+
+dobj(put-1, condiments-2)
+amod(dog-5, hot-4)
+prep_on(put-1, dog-5)
+
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(boil-1, dog-4)
+
+det(bun-4, a-3)
+prep_in(place-1, bun-4)
+
+nsubj(desired-3, garnish-1)
+advmod(desired-3, as-2)
+
+dobj(boil-1, water-2)
+
+amod(package-4, hot-2)
+nn(package-4, dog-3)
+dobj(open-1, package-4)
+
+amod(dogs-3, hot-2)
+dobj(place-1, dogs-3)
+prepc_in(place-1, boiling-5)
+dobj(boiling-5, water-6)
+
+amod(dogs-3, hot-2)
+dobj(remove-1, dogs-3)
+num(minutes-6, 5-5)
+prep_after(remove-1, minutes-6)
+
+amod(dogs-3, hot-2)
+dobj(place-1, dogs-3)
+prep_in(place-1, buns-5)
+
+amod(packages-4, empty-3)
+prep_of(dispose-1, packages-4)
+
+
+det(water-3, some-2)
+dobj(boil-1, water-3)
+
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(put-1, dog-4)
+det(water-7, the-6)
+prep_in(put-1, water-7)
+
+det(minutes-4, a-2)
+amod(minutes-4, few-3)
+dobj(wait-1, minutes-4)
+
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(remove-1, dog-4)
+det(water-7, the-6)
+prep_from(remove-1, water-7)
+
+amod(bun-4, open-2)
+det(bun-4, a-3)
+dobj(cut-1, bun-4)
+
+det(dog-4, the-2)
+amod(dog-4, hot-3)
+dobj(put-1, dog-4)
+det(bun-7, the-6)
+prep_on(put-1, bun-7)
+
+det(sauce-3, some-2)
+dobj(put-1, sauce-3)
+det(dog-7, the-5)
+amod(dog-7, hot-6)
+prep_on(put-1, dog-7)
+
+amod(package-4, hot-2)
+nn(package-4, dog-3)
+dobj(open-1, package-4)
+
+
+dobj(toast-1, bread-2)
+
+nsubj(sausage-2, heat-1)
+
+dobj(put-1, sausage-2)
+prep_in(put-1, bread-4)
+
+nsubj(relish-5, garnish-1)
+nn(mustard-4, ketchup-3)
+prep_with(garnish-1, mustard-4)
+dobj(relish-5, onions-6)
+
+amod(dog-3, hot-2)
+dobj(remove-1, dog-3)
+prep_from(remove-1, refrigerator-5)
+
+amod(dog-3, hot-2)
+dobj(put-1, dog-3)
+prepc_in(put-1, boiling-5)
+dobj(boiling-5, water-6)
+
+num(minutes-3, 5-2)
+dobj(wait-1, minutes-3)
+
+prt(take-1, out-2)
+conj_and(take-1, put-4)
+prep_in(put-4, bun-6)
+
+dobj(add-1, toppings-2)
+
+
+dobj(place-1, hotdog-2)
+prep_in(place-1, bun-4)
+
+det(items-3, the-2)
+dobj(prepare-1, items-3)
+
+det(methodology-3, the-2)
+dobj(see-1, methodology-3)
+
+amod(dog-3, hot-2)
+dobj(prepare-1, dog-3)
+
+dobj(cook-1, sausage-2)
+
+dobj(put-1, it-2)
+prep_on(put-1, bun-4)
+
+dobj(put-1, ketchup-2)
+
+dobj(put-1, ralish-2)
+
+dobj(put-1, mustard-2)
+
+dep(take-1, ca-2)
+amod(dog-4, hot-3)
+dep(bun-5, dog-4)
+dep(ca-2, bun-5)
+
+det(hotdog-3, the-2)
+dobj(grill-1, hotdog-3)
+
+dobj(put-1, it-2)
+prep_on(put-1, he-4)
+advmod(put-1, bun-5)
+
+det(ketchup-3, the-2)
+dobj(add-1, ketchup-3)
+
+det(mustard-3, the-2)
+dobj(add-1, mustard-3)
+
+det(onions-3, the-2)
+dobj(add-1, onions-3)
+
+dobj(warm-1, it-2)
+prt(warm-1, up-3)
+
+complm(available-7, that-2)
+nsubj(available-7, weiners-3)
+conj_and(weiners-3, buns-5)
+nsubj(available-7, buns-5)
+cop(available-7, are-6)
+ccomp(verify-1, available-7)
+
+prep(boil-1, or-2)
+amod(weiners-4, grill-3)
+dep(or-2, weiners-4)
+
+prep_in(place-1, buns-3)
+
+
+amod(maker-4, hot-2)
+nn(maker-4, dog-3)
+dobj(ask-1, maker-4)
+
+amod(dog-3, hot-2)
+dobj(make-1, dog-3)
+
+amod(dog-3, hot-2)
+dobj(eat-1, dog-3)
+
+
+
+
+
+amod(dog-3, hot-2)
+dobj(boil\/grill-1, dog-3)
+
+dobj(toast-1, bread-2)
+
+dobj(remove-1, weiner-2)
+prep_from(remove-1, package-4)
+
+prep_in(boil-1, water-3)
+
+prt(take-1, out-2)
+prep_from(take-1, water-4)
+prep_from(take-1, place-6)
+conj_and(water-4, place-6)
+prep_in(take-1, bun-8)
+
+dobj(apply-1, ketchup-2)
+
+dobj(apply-1, mustard-2)
+
+amod(dogs-3, hot-2)
+dobj(remove-1, dogs-3)
+prep_from(remove-1, fridge-5)
+
+det(pot-3, a-2)
+dobj(obtain-1, pot-3)
+
+det(pot-3, the-2)
+dobj(fill-1, pot-3)
+prep_with(fill-1, water-5)
+
+det(dogs-4, the-2)
+amod(dogs-4, hot-3)
+dobj(place-1, dogs-4)
+det(water-7, the-6)
+prep_into(place-1, water-7)
+
+prep_to(bring-1, boil-3)
+
+num(minutes-3, 6-2)
+dobj(boil-1, minutes-3)
+conj_and(boil-1, remove-5)
+
+amod(dog-3, hot-2)
+dobj(serve-1, dog-3)
+prep_with(serve-1, bun-5)
+
+amod(dogs-3, hot-2)
+dobj(buy-1, dogs-3)
+
+dobj(open-1, package-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(place-1, pot-2)
+amod(stove-5, hot-4)
+prep_on(place-1, stove-5)
+
+dobj(buy-1, hotdogs-2)
+
+dobj(open-1, package-2)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(place-1, pot-2)
+amod(stove-5, hot-4)
+prep_on(place-1, stove-5)
+
+amod(dogs-3, hot-2)
+dobj(place-1, dogs-3)
+prep_in(place-1, pot-5)
+
+dobj(cook-1, hotdogs-2)
+

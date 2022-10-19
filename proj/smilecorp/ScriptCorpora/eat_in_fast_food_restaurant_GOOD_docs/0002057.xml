@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0002057" url="http://forums.mikeholt.com/showthread.php?t=94332" time="2012-07-12-17:57" support="4" score="0.004509695592858221" bingtitle="Are isolated groung outlets necessary - Mike Holt&apos;s Forum" webtitle="Are isolated groung outlets necessary">
+			<query id="001356" bing-rank="11"/>
+			<query id="000885" bing-rank="25"/>
+			<query id="001451" bing-rank="16"/>
+			<query id="000539" bing-rank="5"/>
+	<description>... outlets necessary to achieve clean power to our order taking and processing equipment in a fast food restaurant. ... installer can also use a GFCI breaker on an IG receptacle</description>
+	<body>
+		Register Help Remember Me? 
+ 
+ Forum 
+ Moderators FAQ Forum Actions 
+ Mark Forums Read 
+ Quick Links 
+ Who&apos;s Online Member List 
+ 
+ What&apos;s New? 
+ 
+ Advanced Search 
+ 
+ Forum Active Forums Power Quality&amp;Surge Protection Are isolated groung outlets necessary 
+ 
+ If this is your first visit, be sure to
+ check out the FAQ by clicking the
+ link above. You must register before you can post: click the register link above to proceed. To start viewing posts,
+ select the forum that you want to visit from the list below. Join Mike Holt on Facebook , Twitter and YouTube . 
+ Closed Thread Page 1 of 4 1 2 3 ... Last 
+ Jump to page: 
+ Results 1 to 10 of 40 
+Thread: Are isolated groung outlets necessary 
+ 
+ 
+ Thread Tools 
+
+ Show Printable Version Email this Page… Subscribe to this Thread… 
+ 
+ Search Thread 
+ 
+   Advanced Search 
+ 
+ Display 
+
+ Linear Mode Switch to Hybrid Mode Switch to Threaded Mode 
+ 
+ 
+ 01-09-08  04:36 PM #1 Dominic Ramirez 
+ View Profile View Forum Posts Private Message 
+ Junior Member Join Date Jan 2008 Posts 15 
+Are isolated ground outlets necessary
+ Are isolated ground outlets necessary to achieve clean power to our order taking and processing equipment in a fast food restaurant. We are using a 3kva dbl conversion ups conditioner and some inspectors want GFCI outlets throughout the store. Is there such thing as an isolated ground GFCI outlet? Last edited by Dominic Ramirez; 01-10-08 at 01:30 PM . 01-09-08  04:37 PM #2 ryan_618 
+ View Profile View Forum Posts Private Message Visit Homepage 
+ Moderator Join Date May 2003 Location Salt Lake City, Utah Posts 5,306 I think IG receptacles are a complete waste of resources. Ryan Jackson, Salt Lake City
+Inspector, Instructor 01-09-08  04:43 PM #3 Dominic Ramirez 
+ View Profile View Forum Posts Private Message 
+ Junior Member Join Date Jan 2008 Posts 15 Could you give me a little info on why you feel this way.
+We&apos;ve required it for years or their warranty is void.
+We are leary to change that unless we have some good verifyable reasons. 01-09-08  04:57 PM #4 ryan_618 
+ View Profile View Forum Posts Private Message Visit Homepage 
+ Moderator Join Date May 2003 Location Salt Lake City, Utah Posts 5,306 According to a study done by IEEE, IG receptacles used for the reduction of noise were found to be benificial about 1/3 of the time, 1/3 of the time there was no noticable difference, and the other 1/3 thye resulted in more electrical noise. Ryan Jackson, Salt Lake City
+Inspector, Instructor 01-09-08  04:58 PM #5 ryan_618 
+ View Profile View Forum Posts Private Message Visit Homepage 
+ Moderator Join Date May 2003 Location Salt Lake City, Utah Posts 5,306 Regarding the GFCI issue, yes, there are GFCI IG receptacles, and the installer can also use a GFCI breaker on an IG receptacle. Ryan Jackson, Salt Lake City
+Inspector, Instructor 01-09-08  05:06 PM #6 dbuckley 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Nov 2005 Location Canterbury, New Zealand Posts 1,877 For IT systems, IG is not appropriate; if somehow an IG outlet makes IT work better then the real problem is the normal ground is busted.
+
+The least bad approach is to use simplified P-A-N-I grounding (search this forum for it).
+
+Breifly, put all your IT outlets marked and connected to one end of the ground bar, and all those horrible unclean kitcheny stuff on the other end of the ground bar, and have the neutral bond and GEC in the middle. If the panel isn&apos;t the service entrance then bring two greens in from the SE to the panel (again from either side of the neutral biond and GEC connection), and use two separate ground bars, one clean, one dirty.
+
+If you are using a UPS, which I think you are, then adopt the same approach for the grounding of the UPS fed outlets. Bring a clean green to a small panel by the UPS thats just for the IT sockets, and feed it&apos;s ground bar from the clean green. 01-09-08  05:14 PM #7 roger 
+ View Profile View Forum Posts Private Message 
+ Moderator Join Date Feb 2003 Location N.C. Posts 14,138 How many modern power supplies are connected to the EGC directly or even indirectly downstream of the Main panel?
+
+Roger Last edited by roger; 01-09-08 at 05:33 PM . Moderator 01-09-08  10:02 PM #8 dereckbc 
+ View Profile View Forum Posts Private Message 
+ Senior Member Join Date Feb 2003 Location Plano, TX Posts 3,447 Originally Posted by Dominic Ramirez Are isolated ground outlets necessary to achieve clean power to our order taking and processing equipment in a fast food restaurant. No, in fact it is not possible for IGR to remove or reduce any type of common-mode noise, there are no active or passive components to do that. The only things that can remove common-mode noise is separately derived systems like transformers and dual conversion UPS. 01-10-08  01:35 PM #9 Dominic Ramirez 
+ View Profile View Forum Posts Private Message 
+ Junior Member Join Date Jan 2008 Posts 15 [QUOTE=roger]How many modern power supplies are connected to the EGC directly or even indirectly downstream of the Main panel?
+
+LCDs, thermal printers, electronic switchboards, keyboards, PCs so probably 20 or 30. It varies from system to system. 01-10-08  01:51 PM #10 roger 
+ View Profile View Forum Posts Private Message 
+ Moderator Join Date Feb 2003 Location N.C. Posts 14,138 [quote=Dominic Ramirez] Originally Posted by roger How many modern power supplies are connected to the EGC directly or even indirectly downstream of the Main panel?
+
+LCDs, thermal printers, electronic switchboards, keyboards, PCs so probably 20 or 30. It varies from system to system. Well wouldn&apos;t IG&apos;s be a non issue if this were not the case?
+
+I guess my question is, why is sensitive electronic equipment still built this way?
+
+Roger Moderator 
+ Closed Thread Page 1 of 4 1 2 3 ... Last 
+ Jump to page: 
+ Quick Navigation Power Quality&amp;Surge Protection Top 
+ Site Areas Settings Private Messages Subscriptions Who&apos;s Online Search Forums Forums Home Forums Active Forums 
+ Business Management / Estimating Continuing Education (CEU) Electrical Calculations / Engineering Electrical Instructors Exam Preparation Grounding versus Bonding Hazardous (Classified) Locations Lighting Low Voltage and Limited Energy NEC Photovoltaic Forum Power Quality&amp;Surge Protection Proposals/Comments for the next NEC cycle Safety UL Issues 
+ Resources 
+ Mike Holt Newsletters Mike Holt YouTube Videos Mike Holt on Facebook 
+ 
+ « Previous Thread | Next Thread » 
+Bookmarks
+ 
+Bookmarks
+
+ Facebook Twitter Google StumbleUpon Digg del.icio.us 
+ 
+ Posting Permissions
+ 
+ You may not post new threads You may not post replies You may not post attachments You may not edit your posts 
+ 
+ BB code is On Smilies are On [IMG] code is On HTML code is Off 
+ 
+ Forum Rules 
+ 
+ Mike Holt Enterprises Home Page Top 
+ All times are GMT -5. The time now is 10:57 AM .
+	</body>
+</document>

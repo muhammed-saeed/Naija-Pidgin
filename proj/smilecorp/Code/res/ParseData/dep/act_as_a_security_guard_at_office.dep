@@ -1,0 +1,265 @@
+det(uniform-4, a-2)
+nn(uniform-4, security-3)
+dobj(don-1, uniform-4)
+
+det(weapon-3, a-2)
+dobj(don-1, weapon-3)
+
+det(badge-4, a-2)
+nn(badge-4, security-3)
+dobj(don-1, badge-4)
+
+det(office-4, the-3)
+prep_at(arrive-1, office-4)
+
+cop(watchful-2, remain-1)
+det(activity-6, any-4)
+amod(activity-6, suspicious-5)
+prep_for(watchful-2, activity-6)
+
+dobj(return-1, home-2)
+det(day-6, the-4)
+nn(day-6, work-5)
+prep_after(return-1, day-6)
+
+det(office-3, the-2)
+nsubj(patrol-1, office-3)
+amod(intervals-6, regular-5)
+prep_at(patrol-1, intervals-6)
+
+det(activity-4, any-2)
+amod(activity-4, suspicious-3)
+dobj(observe-1, activity-4)
+
+det(smoke-3, any-2)
+dobj(observe-1, smoke-3)
+dobj(observe-1, sign-5)
+conj_or(smoke-3, sign-5)
+prep_of(sign-5, fire-7)
+
+det(findings-3, any-2)
+dobj(report-1, findings-3)
+det(authorities-6, the-5)
+prep_to(report-1, authorities-6)
+
+det(office-4, the-3)
+prep_around(walk-1, office-4)
+
+det(eye-3, an-2)
+dobj(keep-1, eye-3)
+prt(keep-1, out-4)
+amod(activity-7, suspicious-6)
+prep_for(keep-1, activity-7)
+
+dobj(accost-1, anyone-2)
+partmod(anyone-2, involved-3)
+amod(activity-6, suspicious-5)
+prep_in(involved-3, activity-6)
+
+amod(desk-4, front-3)
+prep_to(go-1, desk-4)
+
+nn(monitors-3, security-2)
+dobj(observe-1, monitors-3)
+
+prep_for(ask-1, id-3)
+
+det(people-3, all-2)
+dobj(observe-1, people-3)
+nsubj(enter-5, people-3)
+rcmod(people-3, enter-5)
+dobj(enter-5, office-6)
+
+dobj(check-1, ids-2)
+prep_of(ids-2, people-4)
+
+amod(monitors-3, surveilance-2)
+dobj(watch-1, monitors-3)
+amod(activity-6, suspicious-5)
+prep_for(watch-1, activity-6)
+
+amod(activity-4, suspicious-3)
+prep_to(respond-1, activity-4)
+
+dobj(pay-1, attention-2)
+prep_to(pay-1, intruders-4)
+
+dobj(lock-1, doors-2)
+advmod(necessary-4, when-3)
+dep(lock-1, necessary-4)
+
+dobj(call-1, police-2)
+advmod(necessary-4, when-3)
+dep(call-1, necessary-4)
+
+nn(office-4, security-3)
+prep_in(sit-1, office-4)
+
+nn(monitors-3, security-2)
+dobj(watch-1, monitors-3)
+
+dobj(eat-1, donuts-2)
+
+det(nap-3, a-2)
+dobj(take-1, nap-3)
+
+prt(checking-1, in-2)
+
+nn(footage-3, camera-2)
+dobj(watching-1, footage-3)
+
+cop(visible-2, being-1)
+
+dobj(spyiing-1, something-2)
+amod(something-2, suspicious-3)
+
+
+dobj(taking-1, action-2)
+
+nsubj(resuls-2, reporting-1)
+
+prep_in_front_of(stand-1, door-5)
+
+dobj(fight-1, criminals-2)
+
+dobj(prevent-1, theft-2)
+
+nsubj(entering-4, who-2)
+aux(entering-4, is-3)
+ccomp(ask-1, entering-4)
+
+predet(door-4, all-2)
+det(door-4, the-3)
+dobj(lock-1, door-4)
+
+prt(walk-1, around-2)
+prep_on(walk-1, shift-4)
+
+cop(alert-2, stay-1)
+
+det(door-3, the-2)
+dobj(watch-1, door-3)
+
+det(ideas-3, the-2)
+dobj(check-1, ideas-3)
+prep_of(ideas-3, people-5)
+dep(check-1, coming-6)
+prt(coming-6, in-7)
+
+prep_for(watch-1, people-3)
+nsubj(belong-7, people-3)
+csubj(belong-7, don-5)
+dobj(don-5, t-6)
+rcmod(people-3, belong-7)
+
+cop(vigilant-2, be-1)
+
+dobj(keep-1, watch-2)
+det(equiptment-5, all-4)
+prep_of(watch-2, equiptment-5)
+
+amod(monitors-3, cctv-2)
+dobj(watch-1, monitors-3)
+
+det(activity-4, any-3)
+prep_for(heck-1, activity-4)
+
+dobj(keep-1, watch-2)
+det(equiptment-5, all-4)
+prep_of(watch-2, equiptment-5)
+
+amod(monitors-3, cctv-2)
+dobj(watch-1, monitors-3)
+
+det(activity-4, any-3)
+prep_for(check-1, activity-4)
+
+dobj(keep-1, watch-2)
+det(equiptment-5, all-4)
+prep_of(watch-2, equiptment-5)
+
+amod(monitors-3, cctv-2)
+dobj(watch-1, monitors-3)
+
+det(activity-4, any-3)
+prep_for(heck-1, activity-4)
+
+dobj(keep-1, watch-2)
+det(equiptment-5, all-4)
+prep_of(watch-2, equiptment-5)
+
+amod(monitors-3, cctv-2)
+dobj(watch-1, monitors-3)
+
+det(activity-4, any-3)
+prep_for(check-1, activity-4)
+
+det(activities-3, all-2)
+dobj(log-1, activities-3)
+
+prep_on(go-1, patrol-3)
+
+dobj(answer-1, questions-2)
+
+det(phone-3, the-2)
+dobj(answer-1, phone-3)
+
+det(activities-3, all-2)
+dobj(log-1, activities-3)
+
+prep_on(go-1, patrol-3)
+
+dobj(answer-1, questions-2)
+
+det(activities-3, all-2)
+dobj(log-1, activities-3)
+
+prep_on(go-1, patrol-3)
+
+det(phone-3, the-2)
+dobj(answer-1, phone-3)
+
+dobj(answer-1, questions-2)
+
+det(phone-3, the-2)
+dobj(answer-1, phone-3)
+
+det(activities-3, all-2)
+dobj(log-1, activities-3)
+
+prep_on(go-1, patrol-3)
+
+dobj(answer-1, questions-2)
+
+det(phone-3, the-2)
+dobj(answer-1, phone-3)
+
+dobj(keep-1, looking-2)
+
+dobj(keep-1, patrolling-2)
+
+dobj(keep-1, listening-2)
+
+det(police-2, a-1)
+nsubj(check-3, police-2)
+
+
+amod(eyes-2, good-1)
+
+
+prep_of(lots-1, coffee-3)
+
+det(walkie-2, a-1)
+nsubj(talkie-3, walkie-2)
+
+nsubj(sleep-2, no-1)
+
+prep_in(dress-1, uniform-3)
+
+det(area-3, the-2)
+nsubj(patrol-1, area-3)
+
+det(activity-5, any-3)
+amod(activity-5, suspicious-4)
+prep_in(call-1, activity-5)
+

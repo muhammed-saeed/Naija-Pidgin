@@ -1,0 +1,565 @@
+nn(stop-3, bus-2)
+dobj(find-1, stop-3)
+
+nn(stop-4, bus-3)
+prep_at(wait-1, stop-4)
+
+nn(bus-2, flag-1)
+
+nn(bus-2, board-1)
+
+dobj(pay-1, fee-2)
+
+prep_for(look-1, seat-3)
+
+prep_in(sit-1, seat-3)
+
+dobj(watch-1, route-2)
+
+amod(bell-3, alert-2)
+dobj(use-1, bell-3)
+aux(signal-5, to-4)
+xcomp(use-1, signal-5)
+dobj(signal-5, stop-6)
+
+advmod(stops-4, when-2)
+nsubj(stops-4, bus-3)
+advcl(disembark-1, stops-4)
+
+prt(get-1, on-2)
+
+det(driver-3, the-2)
+dobj(pay-1, driver-3)
+
+det(seat-4, a-3)
+prep_in(sit-1, seat-4)
+
+prep_to(talk-1, people-3)
+
+nsubj(sleep-2, you-1)
+
+nsubj(wake-2, you-1)
+prt(wake-2, up-3)
+
+poss(arms-3, your-2)
+dobj(stretch-1, arms-3)
+dobj(stretch-1, leg-5)
+conj_and(arms-3, leg-5)
+
+
+det(window-4, the-3)
+prep_out(look-1, window-4)
+
+conj_and(eat-1, drink-3)
+
+dep(friends-3, text-1)
+poss(friends-3, your-2)
+
+poss(family-3, your-2)
+dobj(call-1, family-3)
+
+poss(ipod-4, your-3)
+prep_to(listen-1, ipod-4)
+
+det(book-4, an-2)
+amod(book-4, interesting-3)
+dobj(read-1, book-4)
+
+det(driver-3, the-2)
+dobj(thank-1, driver-3)
+
+prt(get-1, off-2)
+
+det(stop-5, the-3)
+nn(stop-5, bus-4)
+prep_to(walk-1, stop-5)
+
+prep_in(wait-1, line-3)
+
+det(bus-4, the-3)
+prep_on(get-1, bus-4)
+
+det(ticket-4, the-3)
+prep_for(pay-1, ticket-4)
+
+mark(is-4, if-2)
+expl(is-4, there-3)
+dep(seat-1, is-4)
+nsubj(is-4, room-5)
+aux(do-7, to-6)
+infmod(room-5, do-7)
+advmod(do-7, so-8)
+
+prep_on(decide-1, destination-3)
+
+nn(schedule-4, bus-3)
+prep_at(look-1, schedule-4)
+
+dobj(find-1, change\/tokens-2)
+
+nn(stop-4, bus-3)
+prep_to(go-1, stop-4)
+
+poss(bus-4, your-3)
+prep_for(wait-1, bus-4)
+
+nn(bus-2, board-1)
+
+dobj(put-1, change-2)
+dobj(put-1, token-4)
+conj_and(change-2, token-4)
+prep_into(put-1, box-6)
+
+det(seat-3, a-2)
+dobj(find-1, seat-3)
+
+poss(destination-4, your-3)
+prep_for(wait-1, destination-4)
+
+dobj(pull-1, cord-2)
+
+det(bus-3, the-2)
+dobj(exit-1, bus-3)
+
+det(ticket-3, a-2)
+dobj(purchase-1, ticket-3)
+
+aux(stowed-3, have-1)
+dobj(stowed-3, luggage-2)
+
+nn(bus-2, board-1)
+
+dobj(choose-1, seat-2)
+
+prep_to(ride-1, destination-3)
+
+det(bus-4, the-3)
+prep_in(get-1, bus-4)
+
+det(seat-4, the-3)
+prep_for(look-1, seat-4)
+
+det(seat-3, the-2)
+dobj(take-1, seat-3)
+
+det(fare-3, the-2)
+dobj(pay-1, fare-3)
+
+prt(get-1, off-2)
+det(bus-4, the-3)
+dobj(get-1, bus-4)
+
+nn(schedule-3, bus-2)
+iobj(check-1, schedule-3)
+dobj(check-1, online-4)
+
+nn(stop-4, bus-3)
+prep_to(go-1, stop-4)
+
+prep_for(wait-1, bus-3)
+
+prep_on(get-1, bus-3)
+
+prep_for(pay-1, ride-3)
+
+prt(sit-1, down-2)
+
+
+prt(get-1, off-2)
+prep_at(get-1, stop-4)
+
+prt(look-1, up-2)
+nn(times-5, bus-3)
+nn(times-5, route-4)
+dobj(look-1, times-5)
+
+nn(stop-4, bus-3)
+prep_at(wait-1, stop-4)
+
+complm(arrives-5, that-2)
+amod(bus-4, correct-3)
+nsubj(arrives-5, bus-4)
+ccomp(check-1, arrives-5)
+
+dep(ready-4, have-1)
+poss(fare-3, your-2)
+dobj(ready-4, fare-3)
+
+prep_on(get-1, bus-3)
+
+dobj(pay-1, fare-2)
+
+poss(stop-4, your-3)
+prep_for(watch-1, stop-4)
+
+dobj(signal-1, driver-2)
+aux(stop-4, to-3)
+xcomp(signal-1, stop-4)
+prep_for(stop-4, you-6)
+
+poss(belongings-3, your-2)
+dobj(gather-1, belongings-3)
+
+prt(get-1, off-2)
+dobj(get-1, bus-3)
+
+prep_at(wait-1, stop-3)
+
+prep_on(get-1, bus-3)
+
+dobj(correct-1, fare-2)
+
+det(seat-3, a-2)
+dobj(take-1, seat-3)
+
+prep_for(watch-1, destination-3)
+
+dobj(pull-1, cord-2)
+
+prt(step-1, off-2)
+dobj(step-1, bus-3)
+
+det(bus-4, the-3)
+prep_for(wait-1, bus-4)
+
+det(bus-3, the-2)
+dobj(board-1, bus-3)
+
+nn(pass-3, bus-2)
+dobj(present-1, pass-3)
+dobj(present-1, ticket-5)
+conj_or(pass-3, ticket-5)
+
+advmod(sit-1, quietly-2)
+
+det(bell-3, the-2)
+dobj(ring-1, bell-3)
+
+prt(get-1, off-2)
+det(bus-4, the-3)
+dobj(get-1, bus-4)
+
+nn(schedule-3, bus-2)
+dobj(find-1, schedule-3)
+
+amod(stop-4, nearest-2)
+nn(stop-4, bus-3)
+dobj(find-1, stop-4)
+
+nn(stop-4, bus-3)
+prep_in(wait-1, stop-4)
+
+det(number-4, the-2)
+nn(number-4, bus-3)
+dobj(check-1, number-4)
+prep_in(number-4, front-6)
+
+det(queue-3, the-2)
+dobj(join-1, queue-3)
+
+det(bus-4, the-3)
+prep_into(get-1, bus-4)
+
+dobj(insert-1, money-2)
+nn(machine-5, cash-4)
+prep_in(insert-1, machine-5)
+
+dobj(show-1, pass-2)
+prep_to(pass-2, driver-4)
+
+dobj(receive-1, ticket-2)
+
+dobj(find-1, seat-2)
+
+det(seat-4, the-3)
+prep_in(sit-1, seat-4)
+
+amod(place-4, suitable-2)
+nn(place-4, standing-3)
+dobj(find-1, place-4)
+
+prep_on(hold-1, poles-3)
+
+amod(cord-3, hanging-2)
+dobj(pull-1, cord-3)
+aux(stop-5, to-4)
+infmod(cord-3, stop-5)
+dobj(stop-5, bus-6)
+
+det(driver-3, the-2)
+dobj(thank-1, driver-3)
+
+prt(get-1, off-2)
+det(bus-4, the-3)
+dobj(get-1, bus-4)
+
+amod(ticket-5, fare-2)
+conj_or(fare-2, purchase-4)
+amod(ticket-5, purchase-4)
+dobj(bring-1, ticket-5)
+
+prep_on(get-1, bus-3)
+
+det(fare-3, any-2)
+dobj(deposit-1, fare-3)
+nn(box-6, fare-5)
+prep_in(deposit-1, box-6)
+
+det(seat-3, a-2)
+dobj(take-1, seat-3)
+
+det(seat-2, no-1)
+nsubj(have-5, seat-2)
+xsubj(stand-7, seat-2)
+advmod(have-5, then-3)
+aux(have-5, may-4)
+aux(stand-7, to-6)
+xcomp(have-5, stand-7)
+
+cop(careful-2, be-1)
+amod(riders-5, certain-4)
+prep_of(careful-2, riders-5)
+
+poss(stop-4, your-3)
+prep_for(wait-1, stop-4)
+
+dobj(depart-1, bus-2)
+prep_at(depart-1, destination-4)
+
+nn(stop-4, bus-3)
+prep_to(go-1, stop-4)
+
+prep_for(wait-1, bus-3)
+
+nn(bus-2, board-1)
+
+prep_for(wait-1, stop-3)
+
+prt(get-1, off-2)
+dobj(get-1, bus-3)
+
+prep_at(wait-1, stop-3)
+
+dobj(enter-1, bus-2)
+
+dobj(pay-1, fare-2)
+
+det(seat-3, a-2)
+dobj(select-1, seat-3)
+
+prep_to(ride-1, destination-3)
+
+poss(stop-4, my-3)
+prep_at(exit-1, stop-4)
+
+nn(schedule-3, bus-2)
+dobj(check-1, schedule-3)
+
+prep_for(wait-1, bus-3)
+
+prt(take-1, out-2)
+nn(pass-4, bus-3)
+dobj(take-1, pass-4)
+
+prep_on(get-1, bus-3)
+
+iobj(show-1, busdriver-2)
+nn(pass-4, bus-3)
+dobj(show-1, pass-4)
+
+dobj(ring-1, buzzer-2)
+
+prep_for(wait-1, bus-3)
+aux(stop-5, to-4)
+xcomp(wait-1, stop-5)
+
+xcomp(say-1, thank-2)
+dobj(thank-2, you-3)
+
+prt(get-1, off-2)
+dobj(get-1, bus-3)
+
+nn(station-4, bus-3)
+prep_to(go-1, station-4)
+
+prep_for(wait-1, bus-3)
+
+dobj(notice-1, bus-2)
+dep(notice-1, arriving-3)
+
+amod(number-4, correct-2)
+nn(number-4, bus-3)
+dobj(confirm-1, number-4)
+
+nn(bus-2, board-1)
+
+nn(pass-3, bus-2)
+dobj(scan-1, pass-3)
+
+dobj(find-1, seat-2)
+
+dobj(ride-1, bus-2)
+
+dobj(note-1, stops-2)
+det(way-5, the-4)
+prep_along(note-1, way-5)
+
+dep(notice-1, intended-2)
+nsubj(next-5, stop-3)
+cop(next-5, is-4)
+ccomp(intended-2, next-5)
+
+prt(get-1, off-2)
+dobj(get-1, bus-3)
+
+amod(stop-5, nearby-3)
+nn(stop-5, bus-4)
+prep_to(go-1, stop-5)
+
+dobj(keep-1, eye-2)
+prt(keep-1, out-3)
+det(bus-7, the-5)
+amod(bus-7, right-6)
+prep_for(keep-1, bus-7)
+
+advmod(arrives-3, when-1)
+nsubj(arrives-3, bus-2)
+dep(arrives-3, enter-5)
+
+dobj(put-1, change-2)
+prep_in(put-1, box-4)
+
+det(seat-3, a-2)
+dobj(take-1, seat-3)
+
+dobj(keep-1, eye-2)
+prt(keep-1, out-3)
+nn(stop-6, exit-5)
+prep_for(keep-1, stop-6)
+
+dobj(pull-1, chain-2)
+advmod(pull-1, when-3)
+prep_near(pull-1, stop-5)
+
+prep_out(exit-1, door-3)
+
+det(schedule-4, a-2)
+nn(schedule-4, bus-3)
+dobj(find-1, schedule-4)
+
+amod(route-3, desired-2)
+dobj(locate-1, route-3)
+
+nn(stop-3, bus-2)
+dobj(locate-1, stop-3)
+prep_for(locate-1, route-5)
+
+nn(stop-4, bus-3)
+prep_to(go-1, stop-4)
+amod(time-7, correct-6)
+prep_at(go-1, time-7)
+
+prep_for(wait-1, bus-3)
+
+nsubj(arrives-2, bus-1)
+
+prep_on(get-1, bus-3)
+
+dobj(put-1, fee-2)
+amod(holder-6, front-4)
+amod(holder-6, token-5)
+prep_in(put-1, holder-6)
+
+prt(sit-1, down-2)
+
+poss(stop-5, your-3)
+amod(stop-5, desired-4)
+prep_for(wait-1, stop-5)
+
+dobj(press-1, button-2)
+advmod(near-6, when-3)
+rel(near-6, when-3)
+nsubj(near-6, stop-4)
+cop(near-6, is-5)
+dep(button-2, near-6)
+
+prep_for(wait-1, bus-3)
+aux(stop-5, to-4)
+xcomp(wait-1, stop-5)
+
+det(bus-3, the-2)
+dobj(exit-1, bus-3)
+amod(door-6, rear-5)
+prep_through(exit-1, door-6)
+
+nn(info-4, bus-2)
+nn(info-4, schedule-3)
+dobj(find-1, info-4)
+
+amod(stop-4, nearest-2)
+nn(stop-4, bus-3)
+dobj(find-1, stop-4)
+
+nn(time-3, pickup-2)
+dobj(choose-1, time-3)
+
+aux(busstop-3, to-2)
+xcomp(go-1, busstop-3)
+det(time-6, that-5)
+prep_at(busstop-3, time-6)
+
+prep_for(wait-1, bus-3)
+
+prt(get-1, off-2)
+amod(stop-5, appropriate-4)
+prep_at(get-1, stop-5)
+
+prt(get-1, in-2)
+
+det(seat-3, a-2)
+dobj(find-1, seat-3)
+
+dobj(call-1, conductor-2)
+
+prep_for(ask-1, ticket-3)
+
+dobj(pay-1, money-2)
+
+poss(stop-4, your-3)
+prep_for(wait-1, stop-4)
+
+prt(look-1, around-2)
+
+dobj(enjoy-1, ride-2)
+
+prep_at(look-1, people-3)
+prep_around(people-3, you-5)
+
+poss(destination-2, your-1)
+nsubj(comes-3, destination-2)
+
+prt(get-1, off-2)
+dobj(get-1, bus-3)
+
+auxpass(dressed-2, get-1)
+
+poss(house-5, my-4)
+prep_out_of(go-1, house-5)
+
+poss(door-3, my-2)
+dobj(lock-1, door-3)
+
+det(stop-5, the-3)
+nn(stop-5, bus-4)
+prep_to(go-1, stop-5)
+
+prep_in(wait-1, line-3)
+
+det(bus-4, a-3)
+prep_for(wait-1, bus-4)
+aux(arrive-6, to-5)
+xcomp(wait-1, arrive-6)
+
+det(bus-4, the-3)
+prep_on(get-1, bus-4)
+

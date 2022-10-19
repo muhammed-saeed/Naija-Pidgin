@@ -1,0 +1,463 @@
+amod(machine-4, vending-3)
+prep_to(go-1, machine-4)
+
+dobj(choose-1, product-2)
+
+dobj(insert-1, money-2)
+prep_into(insert-1, machine-4)
+
+dobj(make-1, selection-2)
+prepc_by(make-1, pressing-4)
+amod(buttons-6, appropriate-5)
+dobj(pressing-4, buttons-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, product-3)
+
+dobj(collect-1, change-2)
+mark(any-4, if-3)
+dep(collect-1, any-4)
+
+amod(machine-3, vending-2)
+dobj(locate-1, machine-3)
+
+dobj(determine-1, item-2)
+prep_to(determine-1, purchase-4)
+
+amod(funds-3, necessary-2)
+dobj(locate-1, funds-3)
+aux(purchase-5, to-4)
+xcomp(locate-1, purchase-5)
+dobj(purchase-5, item-6)
+
+dobj(insert-1, funds-2)
+prepc_into(insert-1, vending-4)
+dobj(vending-4, machine-5)
+amod(item-8, desired-7)
+prep_for(vending-4, item-8)
+
+dobj(depress-1, button-2)
+dep(depress-1, indicating-3)
+amod(item-5, desired-4)
+dobj(indicating-3, item-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, item-3)
+
+dep(want-4, what-2)
+nsubj(want-4, you-3)
+xsubj(buy-6, you-3)
+ccomp(decide-1, want-4)
+aux(buy-6, to-5)
+xcomp(want-4, buy-6)
+
+det(money-4, the-2)
+amod(money-4, right-3)
+dobj(insert-1, money-4)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+
+prt(take-1, out-2)
+poss(item-4, your-3)
+dobj(take-1, item-4)
+
+dobj(aquire-1, change-2)
+
+nsubj(choose-2, internally-1)
+dobj(choose-2, product-3)
+
+dobj(insert-1, change-2)
+
+nn(code-3, product-2)
+dobj(enter-1, code-3)
+
+dobj(retrieve-1, product-2)
+
+dobj(locate-1, coins-2)
+
+amod(product-3, desired-2)
+dobj(determine-1, product-3)
+
+dobj(insert-1, coins-2)
+
+nn(code-3, product-2)
+dobj(enter-1, code-3)
+
+dobj(retrieve-1, product-2)
+
+dobj(put-1, money-2)
+prep(put-1, in-3)
+
+dobj(make-1, selection-2)
+
+dobj(take-1, change-2)
+
+dobj(place-1, money-2)
+prepc_in(place-1, vending-4)
+dobj(vending-4, machine-5)
+
+dobj(select-1, item-2)
+
+dobj(take-1, item-2)
+prep_from(take-1, machine-4)
+
+dobj(collect-1, change-2)
+
+det(dollar-4, a-3)
+prep_in(putting-1, dollar-4)
+
+dep(want-5, selecting-1)
+nsubj(food\/drink-3, what-2)
+ccomp(selecting-1, food\/drink-3)
+nsubj(want-5, you-4)
+
+det(item-3, the-2)
+dobj(grabbing-1, item-3)
+
+poss(change-3, your-2)
+dobj(recieving-1, change-3)
+
+dobj(put-1, money-2)
+prepc_in(put-1, vending-4)
+dobj(vending-4, machine-5)
+
+dobj(select-1, item-2)
+aux(buy-4, to-3)
+xcomp(select-1, buy-4)
+
+dobj(get-1, item-2)
+
+amod(machine-3, vending-2)
+dobj(identify-1, machine-3)
+
+amod(product-3, desired-2)
+dobj(identify-1, product-3)
+
+dobj(identify-1, price-2)
+prep_of(price-2, product-4)
+
+amod(amount-3, correct-2)
+dobj(place-1, amount-3)
+prep_of(amount-3, money-5)
+prep_in(place-1, machine-7)
+
+dobj(choose-1, product-2)
+
+dobj(retrieve-1, product-2)
+prepc_from(retrieve-1, vending-4)
+dobj(vending-4, machine-5)
+
+dobj(insert-1, coins-2)
+
+dobj(make-1, selection-2)
+
+dobj(retreive-1, selection-2)
+
+dobj(choose-1, goods-2)
+
+amod(amount-4, correct-3)
+prep_in(put-1, amount-4)
+prep_of(amount-4, money-6)
+
+dobj(press-1, button-2)
+
+prep_for(wait-1, goods-3)
+aux(drop-5, to-4)
+xcomp(wait-1, drop-5)
+
+prep_into(reach-1, flap-3)
+
+prt(take-1, out-2)
+dobj(take-1, goods-3)
+
+dobj(feel-1, thirst-2)
+
+prep_for(look-1, money-3)
+
+nn(money-3, paper-2)
+dobj(change-1, money-3)
+prep_into(change-1, coin-5)
+
+amod(machine-3, vending-2)
+dobj(find-1, machine-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+prep_in(put-1, money-3)
+
+dobj(push-1, button-2)
+dep(push-1, retrieve-3)
+dobj(retrieve-3, item-4)
+dep(retrieve-3, bought-5)
+
+advmod(much-3, how-2)
+advmod(costs-5, much-3)
+nsubj(costs-5, item-4)
+ccomp(see-1, costs-5)
+
+amod(money-3, correct-2)
+dobj(put-1, money-3)
+prep_in(put-1, slot-5)
+
+amod(item-3, desired-2)
+dobj(select-1, item-3)
+
+dobj(get-1, item-2)
+prep_from(get-1, dispenser-4)
+
+poss(change-3, your-2)
+dobj(get-1, change-3)
+
+dobj(put-1, coins-2)
+prep_into(put-1, machine-4)
+
+dobj(choose-1, item-2)
+
+dobj(push-1, button-2)
+
+dobj(remove-1, item-2)
+
+dobj(put-1, money-2)
+prepc_into(put-1, vending-4)
+dobj(vending-4, machine-5)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(decide-1, want-4)
+
+det(item-3, that-2)
+dobj(select-1, item-3)
+det(screen-6, the-5)
+prep_on(select-1, screen-6)
+
+prt(pick-1, up-2)
+poss(item-4, your-3)
+dobj(pick-1, item-4)
+
+poss(change-3, your-2)
+dobj(take-1, change-3)
+mark(any-5, if-4)
+dep(take-1, any-5)
+
+amod(amount-3, correct-2)
+dobj(insert-1, amount-3)
+prep_of(amount-3, change-5)
+
+dobj(select-1, item-2)
+
+det(button-3, the-2)
+dobj(push-1, button-3)
+
+dobj(recieve-1, item-2)
+
+dobj(put-1, coins-2)
+prep_in(put-1, slot-4)
+
+det(item-3, an-2)
+dobj(select-1, item-3)
+prepc_by(select-1, pushing-5)
+nsubj(button-8, it-6)
+cop(button-8, s-7)
+ccomp(pushing-5, button-8)
+
+prep_for(listen-1, item-3)
+aux(drop-5, to-4)
+xcomp(listen-1, drop-5)
+
+dobj(remove-1, item-2)
+prep_from(remove-1, tray-4)
+
+dobj(get-1, money-2)
+
+det(machine-5, a-3)
+amod(machine-5, vending-4)
+prep_to(go-1, machine-5)
+
+det(money-4, the-3)
+prep_in(put-1, money-4)
+
+det(product-3, a-2)
+dobj(select-1, product-3)
+
+dobj(want-4, what-2)
+nsubj(want-4, you-3)
+ccomp(choose-1, want-4)
+
+prep_at(look-1, code-3)
+
+dobj(insert-1, coins-2)
+
+prep_in(type-1, code-3)
+
+dobj(choose-1, product-2)
+
+dobj(insert-1, coins-2)
+
+amod(code-4, correct-2)
+nn(code-4, product-3)
+dobj(select-1, code-4)
+
+dobj(collect-1, change-2)
+
+dobj(approach-1, machine-2)
+
+dobj(choose-1, item-2)
+
+dobj(count-1, money-2)
+
+dobj(insert-1, money-2)
+prep_into(insert-1, machine-4)
+
+dobj(obtain-1, change-2)
+mark(necessary-5, if-4)
+parataxis(obtain-1, necessary-5)
+
+amod(item-3, purchased-2)
+dobj(obtain-1, item-3)
+
+dobj(put-1, coins-2)
+prep_into(put-1, machine-4)
+
+amod(selection-3, desired-2)
+dobj(press-1, selection-3)
+
+prep_for(wait-1, product-3)
+aux(drop-5, to-4)
+xcomp(wait-1, drop-5)
+
+dobj(open-1, door-2)
+conj_and(open-1, grab-4)
+dobj(grab-4, item-5)
+
+prep_towards(walk-1, machine-3)
+
+dobj(put-1, money-2)
+prep(put-1, in-3)
+
+dobj(press-1, number-2)
+
+dobj(buy-1, machine-2)
+
+prep_towards(walk-1, machine-3)
+
+dobj(put-1, money-2)
+prep(put-1, in-3)
+
+dobj(press-1, code-2)
+
+
+dobj(put-1, change-2)
+prep_in(put-1, machine-4)
+
+dobj(select-1, item-2)
+dobj(want-4, item-2)
+nsubj(want-4, you-3)
+rcmod(item-2, want-4)
+
+dobj(choose-1, item-2)
+
+dobj(insert-1, change-2)
+
+nn(button-3, selection-2)
+dobj(press-1, button-3)
+
+dobj(remove-1, item-2)
+
+dobj(take-1, change-2)
+
+dobj(find-1, machine-2)
+
+dobj(find-1, change-2)
+
+det(item-4, what-3)
+dep(want-6, item-4)
+nsubj(want-6, you-5)
+xsubj(puchase-8, you-5)
+prepc_on(decide-1, want-6)
+aux(puchase-8, to-7)
+xcomp(want-6, puchase-8)
+
+dobj(insert-1, coins-2)
+
+dobj(press-1, selection-2)
+
+dobj(watch-1, item-2)
+tmod(watch-1, fall-3)
+
+dobj(open-1, slot-2)
+aux(remove-4, to-3)
+xcomp(open-1, remove-4)
+dobj(remove-4, item-5)
+dep(remove-4, enjoy-6)
+
+dobj(choose-1, product-2)
+
+prep_in(put-1, coin-3)
+
+dobj(select-1, product-2)
+
+dobj(get-1, product-2)
+
+dobj(take-1, money-2)
+prep_from(take-1, pocket-4)
+
+dobj(place-1, money-2)
+det(machine-5, the-4)
+prep_in(place-1, machine-5)
+
+det(product-3, the-2)
+dobj(choose-1, product-3)
+dobj(wish-5, product-3)
+nsubj(wish-5, you-4)
+xsubj(have-7, you-4)
+rcmod(product-3, wish-5)
+aux(have-7, to-6)
+xcomp(wish-5, have-7)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+det(product-6, the-5)
+prep_for(press-1, product-6)
+
+det(product-3, the-2)
+dobj(take-1, product-3)
+det(machine-6, the-5)
+prep_from(take-1, machine-6)
+
+det(product-3, the-2)
+dobj(consume-1, product-3)
+
+dobj(choose-1, product-2)
+
+dobj(insert-1, money-2)
+
+dobj(push-1, button-2)
+
+dobj(retrieve-1, product-2)
+
+amod(machine-3, vendindg-2)
+dobj(choose-1, machine-3)
+
+prt(take-1, out-2)
+amod(money-4, required-3)
+dobj(take-1, money-4)
+
+dobj(insert-1, money-2)
+prep_into(insert-1, machine-4)
+
+nsubj(object-2, select-1)
+xsubj(bought-5, select-1)
+aux(bought-5, to-3)
+auxpass(bought-5, be-4)
+xcomp(object-2, bought-5)
+
+dobj(take-1, money-2)
+
+dobj(put-1, money-2)
+prep_in(put-1, machine-4)
+
+dobj(make-1, selection-2)
+

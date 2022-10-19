@@ -1,0 +1,677 @@
+prt(pick-1, up-2)
+dobj(pick-1, envelope-3)
+
+dobj(open-1, flap-2)
+prep_of(flap-2, envelope-4)
+
+dobj(remove-1, contents-2)
+prep_of(contents-2, envelope-4)
+
+dobj(place-1, envelope-2)
+prep_on(envelope-2, counter-4)
+
+dobj(place-1, contents-2)
+prep_of(contents-2, envelope-4)
+amod(pile-7, separate-6)
+prep_in(place-1, pile-7)
+
+dobj(take-1, hold-2)
+amod(mail-5, indicated-4)
+prep_of(hold-2, mail-5)
+
+dobj(tear-1, envelope-2)
+prep_along(tear-1, top-4)
+dobj(tear-1, fold-5)
+prep_of(fold-5, envelope-7)
+cop(careful-9, being-8)
+dep(fold-5, careful-9)
+neg(tear-12, not-10)
+aux(tear-12, to-11)
+dep(careful-9, tear-12)
+dobj(tear-12, contents-13)
+
+dobj(remove-1, contents-2)
+
+det(object-4, a-2)
+amod(object-4, sharp-3)
+dobj(locate-1, object-4)
+
+det(object-4, the-2)
+amod(object-4, sharp-3)
+dobj(utilize-1, object-4)
+aux(cut-6, to-5)
+infmod(object-4, cut-6)
+prt(cut-6, open-7)
+det(piece-9, the-8)
+dobj(cut-6, piece-9)
+prep_of(piece-9, mail-11)
+
+det(contents-3, the-2)
+dobj(remove-1, contents-3)
+det(envelope-6, the-5)
+prep_of(contents-3, envelope-6)
+prep_of(contents-3, package-8)
+conj_or(envelope-6, package-8)
+
+dobj(get-1, knife-2)
+
+dobj(take-1, letters-2)
+num(letters-2, one-3)
+prep_by(take-1, one-5)
+
+amod(knife-3, using-2)
+dobj(open-1, knife-3)
+
+dobj(read-1, mail-2)
+
+nsubj(mail-2, next-1)
+
+prt(pick-1, up-2)
+det(envelope-4, each-3)
+dobj(pick-1, envelope-4)
+
+det(quarter-3, a-2)
+dobj(cut-1, quarter-3)
+det(inch-6, an-5)
+prep_of(quarter-3, inch-6)
+det(top-9, the-8)
+prep_off(cut-1, top-9)
+det(envelope-12, the-11)
+prep_of(top-9, envelope-12)
+
+det(contents-3, the-2)
+dobj(remove-1, contents-3)
+det(envelope-6, the-5)
+prep_of(contents-3, envelope-6)
+
+dobj(get-1, knife-2)
+
+dobj(cut-1, letter-2)
+
+amod(letter-3, next-2)
+dobj(get-1, letter-3)
+
+prt(pick-1, up-2)
+det(letter-4, a-3)
+dobj(pick-1, letter-4)
+
+amod(letter-4, open-2)
+det(letter-4, the-3)
+dobj(cut-1, letter-4)
+det(opener-8, a-6)
+nn(opener-8, letter-7)
+prep_with(cut-1, opener-8)
+
+det(letter-3, the-2)
+dobj(remove-1, letter-3)
+iobj(remove-1, letter-3)
+dep(letter-3, s-4)
+dobj(remove-1, contents-5)
+dep(letter-3, contents-5)
+
+det(letters-4, all-3)
+prep_for(repeat-1, letters-4)
+
+prep_to(go-1, mailbox-3)
+
+dobj(get-1, mail-2)
+
+dobj(bring-1, mail-2)
+prep_in(bring-1, house-4)
+
+det(envelopes-3, the-2)
+dobj(open-1, envelopes-3)
+nn(opener-6, letter-5)
+prep_with(open-1, opener-6)
+
+prt(take-1, out-2)
+dobj(take-1, paper-3)
+prep_inside(take-1, envelopes-5)
+
+dobj(take-1, letters-2)
+num(letters-2, one-3)
+prep_by(take-1, one-5)
+
+amod(letter-2, open-1)
+partmod(letter-2, using-3)
+dobj(using-3, cutter-4)
+
+dobj(place-1, letter-2)
+advmod(place-1, aside-3)
+
+nn(cutter-3, paper-2)
+dobj(get-1, cutter-3)
+
+dobj(get-1, envelopes-2)
+num(envelopes-2, one-3)
+prep_by(get-1, one-5)
+
+dobj(cut-1, envelope-2)
+dep(cut-1, open-3)
+
+dobj(get-1, letter-2)
+prep_from(get-1, envelope-4)
+
+det(mail-3, the-2)
+dobj(take-1, mail-3)
+
+det(envelope-3, the-2)
+dobj(open-1, envelope-3)
+
+prt(take-1, out-2)
+det(stationary-4, the-3)
+dobj(take-1, stationary-4)
+det(envelope-7, the-6)
+prep_inside(take-1, envelope-7)
+
+det(stationary-3, the-2)
+dobj(unfold-1, stationary-3)
+
+det(door-4, the-3)
+prep_to(go-1, door-4)
+
+prt(pick-1, up-2)
+det(mail-4, the-3)
+dobj(pick-1, mail-4)
+
+det(mail-3, the-2)
+dobj(take-1, mail-3)
+det(table-6, the-5)
+prep_to(take-1, table-6)
+
+det(mail-3, the-2)
+dobj(open-1, mail-3)
+
+dobj(hold-1, mail-2)
+num(hand-5, one-4)
+prep_in(hold-1, hand-5)
+
+nn(opener-3, letter-2)
+dobj(get-1, opener-3)
+
+amod(seal-3, open-2)
+dobj(slice-1, seal-3)
+prep_of(seal-3, mail-5)
+nn(opener-8, letter-7)
+prep_with(mail-5, opener-8)
+
+dobj(remove-1, papers-2)
+amod(envelopes-6, open-5)
+prep_out_of(remove-1, envelopes-6)
+
+det(mail-3, the-2)
+dobj(find-1, mail-3)
+
+det(opener-4, a-2)
+nn(opener-4, letter-3)
+dobj(find-1, opener-4)
+
+prt(pick-1, up-2)
+det(piece-4, a-3)
+dobj(pick-1, piece-4)
+prep_of(piece-4, mail-6)
+
+aux(open-7, slice-1)
+det(top-3, the-2)
+nsubj(open-7, top-3)
+det(letter-6, the-5)
+prep_of(top-3, letter-6)
+det(opener-11, the-9)
+nn(opener-11, mail-10)
+prep_with(open-7, opener-11)
+
+mark(opened-7, until-2)
+det(envelopes-4, all-3)
+nsubjpass(opened-7, envelopes-4)
+aux(opened-7, have-5)
+auxpass(opened-7, been-6)
+advcl(repeat-1, opened-7)
+
+nn(opener-3, letter-2)
+dobj(get-1, opener-3)
+
+dobj(cut-1, letter-2)
+det(edge-5, the-4)
+prep_on(cut-1, edge-5)
+
+dobj(extract-1, letter-2)
+prep_from(extract-1, envelope-4)
+
+amod(letter-3, next-2)
+dobj(open-1, letter-3)
+
+predet(mail-4, all-2)
+det(mail-4, the-3)
+dobj(gather-1, mail-4)
+num(pile-7, one-6)
+prep_into(gather-1, pile-7)
+
+prt(pick-1, up-2)
+det(piece-4, each-3)
+dobj(pick-1, piece-4)
+prep(piece-4, of-5)
+dep(of-5, mail-6)
+advmod(mail-6, individually-7)
+
+amod(flap-5, open-2)
+det(flap-5, the-3)
+amod(flap-5, sealed-4)
+dobj(rip-1, flap-5)
+det(envelopes-8, the-7)
+prep_on(rip-1, envelopes-8)
+
+cop(careful-2, be-1)
+neg(ripping-5, not-4)
+prepc_of(careful-2, ripping-5)
+det(paper-7, the-6)
+dobj(ripping-5, paper-7)
+det(envelopes-10, the-9)
+prep_in(ripping-5, envelopes-10)
+
+det(mail-3, the-2)
+dobj(locate-1, mail-3)
+
+det(opener-4, an-2)
+nn(opener-4, envelope-3)
+dobj(locate-1, opener-4)
+
+det(opener-4, the-2)
+nn(opener-4, envelope-3)
+dobj(utilize-1, opener-4)
+det(piece-7, each-6)
+prep_on(utilize-1, piece-7)
+prep_of(piece-7, mail-9)
+
+det(contents-3, the-2)
+dobj(remove-1, contents-3)
+det(envelope-6, each-5)
+prep_of(contents-3, envelope-6)
+
+det(contents-3, the-2)
+dobj(read-1, contents-3)
+det(envelope-6, each-5)
+prep_of(contents-3, envelope-6)
+
+prt(pick-1, up-2)
+num(envelope-4, one-3)
+dobj(pick-1, envelope-4)
+
+prt(pick-1, up-2)
+det(letter-opener-4, a-3)
+dobj(pick-1, letter-opener-4)
+
+det(letter-opener-3, the-2)
+dobj(insert-1, letter-opener-3)
+det(back-flap-6, the-5)
+prep_into(insert-1, back-flap-6)
+det(envelope-9, the-8)
+prep_of(back-flap-6, envelope-9)
+
+det(letter-opener-3, the-2)
+dobj(pull-1, letter-opener-3)
+det(top-6, the-5)
+prep_towards(pull-1, top-6)
+det(envelope-9, the-8)
+prep_of(top-6, envelope-9)
+
+prt(set-1, down-2)
+det(envelope-4, this-3)
+dobj(set-1, envelope-4)
+
+dobj(aquire-1, mail-2)
+
+amod(object-3, sharp-2)
+dobj(aquire-1, object-3)
+
+amod(mail-3, open-2)
+dobj(cut-1, mail-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, mail-3)
+
+advmod(open-2, carefully-1)
+dobj(open-2, envelope-3)
+prepc_without(open-2, tearing-5)
+dobj(tearing-5, contents-6)
+
+dobj(remove-1, contents-2)
+
+dobj(read-1, contents-2)
+
+det(mail-3, the-2)
+dobj(get-1, mail-3)
+
+det(opener-4, the-2)
+nn(opener-4, letter-3)
+dobj(get-1, opener-4)
+
+amod(mail-4, open-2)
+det(mail-4, the-3)
+nsubj(slice-1, mail-4)
+
+dobj(get-1, mail-2)
+
+dobj(get-1, opener-2)
+
+dobj(open-1, top-2)
+prep_of(top-2, mail-4)
+det(opener-7, the-6)
+prep_with(open-1, opener-7)
+
+dobj(get-1, contents-2)
+det(envelope-6, the-5)
+prep_out_of(get-1, envelope-6)
+
+nn(opener-3, letter-2)
+dobj(get-1, opener-3)
+
+amod(flap-5, sealed-3)
+nn(flap-5, letter-4)
+prep_under(slide-1, flap-5)
+
+nsubj(pull-2, carefully-1)
+advmod(pull-2, upward-3)
+dep(pull-2, cutting-4)
+det(paper-6, the-5)
+dobj(cutting-4, paper-6)
+
+prt(pull-1, out-2)
+det(letter-4, the-3)
+dobj(pull-1, letter-4)
+
+det(mail-3, the-2)
+dobj(get-1, mail-3)
+
+det(envelopes-3, the-2)
+dobj(open-1, envelopes-3)
+
+dobj(remove-1, contents-2)
+prep_of(contents-2, envelopes-4)
+
+det(mail-3, the-2)
+dobj(get-1, mail-3)
+det(mailbox-6, the-5)
+prep_from(get-1, mailbox-6)
+
+det(envelope-3, each-2)
+dobj(open-1, envelope-3)
+
+det(stuff-4, the-3)
+prep_at(look-1, stuff-4)
+advmod(look-1, inside-5)
+
+det(mail-3, the-2)
+dobj(get-1, mail-3)
+det(mailbox-6, the-5)
+prep_from(get-1, mailbox-6)
+
+det(letter-4, a-2)
+amod(letter-4, single-3)
+dobj(take-1, letter-4)
+det(time-7, a-6)
+prep_at(take-1, time-7)
+
+det(strip-4, the-2)
+amod(strip-4, adhesive-3)
+dobj(unseal-1, strip-4)
+
+det(envelope-3, the-2)
+dobj(hold-1, envelope-3)
+num(hand-6, one-5)
+prep_in(hold-1, hand-6)
+
+prt(pick-1, up-2)
+nn(opener-4, letter-3)
+dobj(pick-1, opener-4)
+
+nn(opener-3, letter-2)
+dobj(slide-1, opener-3)
+prep_under(slide-1, edge-5)
+nn(flap-8, envelope-7)
+prep_of(edge-5, flap-8)
+
+nn(opener-3, letter-2)
+dobj(move-1, opener-3)
+prep_across(move-1, top-5)
+prep_of(top-5, envelope-7)
+
+prt(put-1, down-2)
+nn(opener-4, letter-3)
+dobj(put-1, opener-4)
+
+dobj(remove-1, contents-2)
+prep_from(remove-1, envelope-4)
+
+nn(opener-3, letter-2)
+dobj(use-1, opener-3)
+
+nn(opener-3, letter-2)
+dobj(slide-1, opener-3)
+nn(flap-6, envelope-5)
+prep_under(slide-1, flap-6)
+
+acomp(slice-1, open-2)
+
+csubj(envelope-4, pick-1)
+prt(pick-1, up-2)
+cop(envelope-4, am-3)
+
+prt(pick-1, up-2)
+det(opener-5, a-3)
+nn(opener-5, letter-4)
+dobj(pick-1, opener-5)
+
+det(blade-3, the-2)
+dobj(insert-1, blade-3)
+det(opener-6, the-5)
+prep_of(blade-3, opener-6)
+det(back-9, the-8)
+prep_into(insert-1, back-9)
+det(envelope-12, the-11)
+prep_of(back-9, envelope-12)
+
+det(edge-5, the-3)
+amod(edge-5, top-4)
+prep_along(tear-1, edge-5)
+det(envelope-8, the-7)
+prep_of(edge-5, envelope-8)
+det(blade-11, the-10)
+prep_with(tear-1, blade-11)
+
+det(letter-3, the-2)
+dobj(pull-1, letter-3)
+det(envelope-7, the-6)
+prep_out_of(pull-1, envelope-7)
+
+amod(envelope-3, open-2)
+dobj(rip-1, envelope-3)
+
+dobj(check-1, address-2)
+
+
+dobj(pull-1, contents-2)
+prt(pull-1, out-3)
+
+
+det(mail-3, the-2)
+dobj(get-1, mail-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, envelope-3)
+
+det(top-3, the-2)
+dobj(open-1, top-3)
+
+prt(pull-1, out-2)
+nn(inside-4, paper-3)
+dobj(pull-1, inside-4)
+
+dobj(repeat-1, steps-2)
+dep(repeat-1, 2-4-3)
+det(envelope-6, each-5)
+prep_for(2-4-3, envelope-6)
+
+prep_to(go-1, mailbox-3)
+
+dobj(open-1, mailbox-2)
+
+prt(take-1, out-2)
+dobj(take-1, mail-3)
+
+prep_on(put-1, table-3)
+
+dobj(tear-1, top-2)
+prep_of(top-2, envelope-4)
+
+prt(take-1, out-2)
+dobj(take-1, contents-3)
+prep_from(take-1, envelope-5)
+
+det(box-5, the-3)
+nn(box-5, mail-4)
+prep_to(go-1, box-5)
+
+det(mail-3, the-2)
+dobj(get-1, mail-3)
+
+dobj(open-1, it-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, mail-3)
+
+dobj(use-1, finger-2)
+aux(tear-4, to-3)
+xcomp(use-1, tear-4)
+dobj(tear-4, top-5)
+prep_of(top-5, envelope-7)
+
+dobj(remove-1, mail-2)
+prep_from(remove-1, envelope-4)
+
+det(address-4, the-2)
+nn(address-4, mail-3)
+dobj(type-1, address-4)
+
+det(mail-3, the-2)
+dobj(open-1, mail-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, mail-3)
+dep(pick-1, tear-4)
+prt(tear-4, open-5)
+prep_at(tear-4, top-7)
+
+dobj(hold-1, enevelops-2)
+
+dobj(put-1, finger-2)
+prep_under(put-1, flap-4)
+prep_of(flap-4, envelop-6)
+
+dobj(push-1, finger-2)
+prep_away_from(push-1, you-5)
+mark(tearing-7, while-6)
+advcl(push-1, tearing-7)
+det(paper-9, the-8)
+dobj(tearing-7, paper-9)
+
+dobj(take-1, items-2)
+prep_out_of(take-1, enveop-5)
+
+nsubj(receive-1, letter-2)
+
+dobj(open-1, envelope-2)
+
+det(letter-3, the-2)
+dobj(take-1, letter-3)
+
+det(opener-4, a-2)
+nn(opener-4, letter-3)
+dobj(find-1, opener-4)
+
+det(opener-4, the-2)
+nn(opener-4, letter-3)
+dobj(slide-1, opener-4)
+det(flap-8, the-6)
+nn(flap-8, envelope-7)
+prep_under(slide-1, flap-8)
+
+
+prt(take-1, out-2)
+dobj(take-1, letter-3)
+
+dobj(read-1, letter-2)
+
+dobj(hold-1, mail-2)
+prep_in(hold-1, hand-4)
+
+dobj(slide-1, finger-2)
+prep_along(slide-1, opening-4)
+prep_of(opening-4, envelope-6)
+
+dobj(open-1, envelope-2)
+
+prt(pull-1, out-2)
+dobj(pull-1, mail-3)
+
+dobj(open-1, envelope-2)
+
+prt(take-1, out-2)
+dobj(take-1, letter-3)
+
+prt(pick-1, up-2)
+det(envelope-4, the-3)
+dobj(pick-1, envelope-4)
+
+dobj(turn-1, it-2)
+prt(turn-1, around-3)
+mark(faces-6, so-4)
+nsubj(faces-6, flap-5)
+advcl(turn-1, faces-6)
+dobj(faces-6, you-7)
+
+nn(opener-3, envelope-2)
+dobj(insert-1, opener-3)
+amod(corner-6, left-5)
+prep_into(insert-1, corner-6)
+prep_of(corner-6, flap-8)
+
+det(top-4, the-3)
+prep_along(tear-1, top-4)
+det(envelop-7, the-6)
+prep_of(top-4, envelop-7)
+prep_with(tear-1, flap-9)
+
+prt(take-1, out-2)
+det(mail-4, the-3)
+dobj(take-1, mail-4)
+det(envelope-7, the-6)
+prep_inside(take-1, envelope-7)
+
+det(envelope-3, the-2)
+dobj(recycle-1, envelope-3)
+
+dobj(obtain-1, mail-2)
+
+num(envelope-3, 1st-2)
+dobj(take-1, envelope-3)
+
+amod(envelope-4, open-2)
+det(envelope-4, the-3)
+dobj(rip-1, envelope-4)
+
+dobj(read-1, contents-2)
+
+prt(throw-1, out-2)
+det(garbage-4, any-3)
+dobj(throw-1, garbage-4)
+
+nn(box-4, mail-3)
+prep_to(go-1, box-4)
+
+dobj(get-1, mail-2)
+
+dobj(open-1, letter-2)
+
+prt(pull-1, out-2)
+dobj(pull-1, note-3)
+

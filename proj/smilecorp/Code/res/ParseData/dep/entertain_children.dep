@@ -1,0 +1,339 @@
+prep_with(playing-1, toys-3)
+
+dobj(singing-1, songs-2)
+
+dobj(reading-1, books-2)
+
+prep_to(going-1, zoo-3)
+
+prep_to(going-1, playgrounds-3)
+
+dobj(eating-1, ice-cream-2)
+
+amod(programs-3, childrens-2)
+dobj(watching-1, programs-3)
+
+aux(know-3, to-2)
+xcomp(get-1, know-3)
+dobj(think-7, what-4)
+det(children-6, the-5)
+nsubj(think-7, children-6)
+ccomp(know-3, think-7)
+cop(interesting-9, is-8)
+dep(think-7, interesting-9)
+
+det(activity-5, a-3)
+amod(activity-5, related-4)
+prep_of(think-1, activity-5)
+nsubj(involves-7, activity-5)
+rcmod(activity-5, involves-7)
+dobj(interested-11, what-8)
+nsubj(interested-11, they-9)
+cop(interested-11, are-10)
+ccomp(involves-7, interested-11)
+prep(interested-11, in-12)
+
+det(activity-3, the-2)
+dobj(do-1, activity-3)
+det(children-6, the-5)
+prep_with(do-1, children-6)
+
+amod(entertainment-3, appropriate-2)
+dobj(consider-1, entertainment-3)
+
+dobj(involve-1, children-2)
+nn(activities-5, fun-4)
+prep_in(involve-1, activities-5)
+
+iobj(tell-1, children-2)
+det(story-4, a-3)
+dobj(tell-1, story-4)
+
+det(children-4, the-3)
+prep_with(dance-1, children-4)
+
+acomp(make-1, sure-2)
+nsubjpass(fed-6, children-3)
+auxpass(fed-6, are-4)
+advmod(fed-6, properly-5)
+ccomp(sure-2, fed-6)
+
+csubj(rested-6, make-1)
+acomp(make-1, sure-2)
+nsubj(are-4, children-3)
+ccomp(sure-2, are-4)
+advmod(are-4, properly-5)
+
+csubj(make-6, thinking-1)
+csubj(get-10, thinking-1)
+prep_of(thinking-1, something-3)
+rcmod(something-3, that-4)
+aux(make-6, will-5)
+nsubj(happy-8, children-7)
+xcomp(make-6, happy-8)
+conj_and(make-6, get-10)
+poss(attention-12, their-11)
+dobj(get-10, attention-12)
+
+amod(actions-2, performing-1)
+nsubj(thought-4, actions-2)
+advmod(thought-4, previously-3)
+prt(thought-4, up-5)
+
+nn(attention-3, children-2)
+dobj(get-1, attention-3)
+
+det(activity-3, some-2)
+dobj(perform-1, activity-3)
+nsubj(makes-5, activity-3)
+rcmod(activity-3, makes-5)
+nsubj(laugh-7, children-6)
+ccomp(makes-5, laugh-7)
+
+prt(find-1, out-2)
+dep(like-6, what-3)
+det(children-5, the-4)
+nsubj(like-6, children-5)
+xsubj(do-8, children-5)
+ccomp(find-1, like-6)
+aux(do-8, to-7)
+xcomp(like-6, do-8)
+
+det(children-4, the-3)
+prep_with(play-1, children-4)
+
+dobj(call-1, children-2)
+
+dobj(tell-1, story-2)
+prep_to(tell-1, children-4)
+
+
+det(deal-4, a-2)
+amod(deal-4, great-3)
+dobj(fidget-1, deal-4)
+
+nsubj(follow-4, them-2)
+aux(follow-4, to-3)
+xcomp(incite-1, follow-4)
+
+dobj(gather-1, children-2)
+
+dobj(tell-1, story-2)
+
+conj_and(stop-1, ask-3)
+dobj(ask-3, children-4)
+dobj(think-7, children-4)
+rel(think-7, what-5)
+nsubj(think-7, they-6)
+rcmod(children-4, think-7)
+aux(happen-9, will-8)
+dep(think-7, happen-9)
+det(story-12, the-11)
+prep_in(happen-9, story-12)
+
+prep_with(continue-1, story-3)
+
+det(game-3, a-2)
+dobj(choose-1, game-3)
+aux(play-5, to-4)
+infmod(game-3, play-5)
+det(children-8, the-7)
+prep_with(play-5, children-8)
+
+det(box-4, the-2)
+nn(box-4, game-3)
+dobj(open-1, box-4)
+
+det(rules-3, the-2)
+dobj(read-1, rules-3)
+det(game-6, the-5)
+prep_of(rules-3, game-6)
+
+prt(set-1, up-2)
+det(board-5, the-3)
+nn(board-5, game-4)
+dobj(set-1, board-5)
+
+prt(set-1, up-2)
+det(pieces-5, the-3)
+nn(pieces-5, game-4)
+dobj(set-1, pieces-5)
+
+aux(play-3, to-2)
+xcomp(begin-1, play-3)
+det(game-5, the-4)
+dobj(play-3, game-5)
+det(children-8, the-7)
+prep_with(play-3, children-8)
+
+det(children-3, the-2)
+dobj(set-1, children-3)
+prt(set-1, down-4)
+prep_in_front_of(set-1, you-8)
+
+det(book-4, a-2)
+nn(book-4, joke-3)
+dobj(get-1, book-4)
+
+det(children-3, the-2)
+iobj(read-1, children-3)
+det(jokes-5, the-4)
+dobj(read-1, jokes-5)
+det(book-8, the-7)
+prep_in(read-1, book-8)
+
+amod(voices-3, different-2)
+dobj(make-1, voices-3)
+det(characters-6, the-5)
+prep_for(voices-3, characters-6)
+det(jokes-9, the-8)
+prep_in(characters-6, jokes-9)
+
+nsubjpass(entertained-5, children-2)
+aux(entertained-5, to-3)
+auxpass(entertained-5, be-4)
+xcomp(find-1, entertained-5)
+
+dobj(determine-1, method-2)
+prep_of(method-2, entertainment-4)
+
+amod(attention-3, childrens-2)
+dobj(get-1, attention-3)
+
+dobj(entertain-1, child-2)
+prep_with(entertain-1, method-4)
+partmod(method-4, selected-5)
+
+det(tv-4, the-3)
+prep_on(turn-1, tv-4)
+
+det(show-4, a-2)
+nn(show-4, kids-3)
+dobj(find-1, show-4)
+
+iobj(pop-1, kids-2)
+det(popcorn-4, some-3)
+dobj(pop-1, popcorn-4)
+
+det(toy-3, a-2)
+dobj(play-1, toy-3)
+
+det(song-3, a-2)
+dobj(sing-1, song-3)
+
+predet(children-4, all-2)
+det(children-4, the-3)
+dobj(gather-1, children-4)
+
+det(song-3, a-2)
+dobj(sing-1, song-3)
+prep_to(sing-1, them-5)
+
+advmod(old-3, how-2)
+dep(are-6, old-3)
+det(children-5, the-4)
+nsubj(are-6, children-5)
+ccomp(determine-1, are-6)
+
+prt(find-1, out-2)
+dep(interests-4, what-3)
+dep(find-1, interests-4)
+det(child-6, each-5)
+nsubj(interests-4, child-6)
+
+dobj(prepare-1, activity-2)
+det(child-5, each-4)
+prep_for(prepare-1, child-5)
+
+dobj(do-1, activity-2)
+det(child-5, each-4)
+prep_with(do-1, child-5)
+
+dobj(repeat-1, steps-2)
+num(steps-2, 3-3)
+dobj(repeat-1, 4-5)
+conj_and(steps-2, 4-5)
+det(activity-8, each-7)
+prep_for(steps-2, activity-8)
+
+det(song-4, a-2)
+nn(song-4, kids-3)
+dobj(sing-1, song-4)
+
+dobj(goto-1, children-2)
+
+nsubj(laugh-3, children-2)
+ccomp(make-1, laugh-3)
+
+dobj(give-1, food-2)
+
+
+
+
+
+
+
+advmod(act-1, goofy-2)
+
+amod(stories-3, appropriate-2)
+dobj(tell-1, stories-3)
+dobj(tell-1, jokes-5)
+conj_and(stories-3, jokes-5)
+
+prep_to(listen-1, them-3)
+advmod(talk-6, when-4)
+nsubj(talk-6, they-5)
+advcl(listen-1, talk-6)
+
+prep_to(speak-1, them-3)
+prep_like(speak-1, adults-5)
+partmod(adults-5, dont-6)
+cop(condescending-8, be-7)
+ccomp(dont-6, condescending-8)
+
+nsubj(give-2, occasionally-1)
+det(child-4, each-3)
+iobj(give-2, child-4)
+det(stroke-7, a-5)
+amod(stroke-7, verbal-6)
+dobj(give-2, stroke-7)
+
+dobj(make-1, faces-2)
+
+nn(kids-3, jokes-2)
+dobj(tell-1, kids-3)
+prep(tell-1, like-4)
+
+cop(silly-2, be-1)
+conj_and(silly-2, goofy-4)
+
+prep_to(talk-1, kids-3)
+prep_like(kids-3, adults-5)
+
+prep_with(side-1, them-3)
+prep_against(side-1, elders-5)
+
+prt(take-1, out-2)
+det(game-4, a-3)
+dobj(take-1, game-4)
+
+nn(box-3, game-2)
+dobj(open-1, box-3)
+
+dobj(read-1, instructions-2)
+
+nn(pieces-3, game-2)
+dobj(give-1, pieces-3)
+det(child-6, each-5)
+prep_to(give-1, child-6)
+
+dobj(take-1, turns-2)
+det(directions-6, the-5)
+prep_according_to(take-1, directions-6)
+
+prep_to(play-1, end-3)
+prep_of(end-3, game-5)
+
+det(winner-3, the-2)
+dobj(congratdulate-1, winner-3)
+

@@ -1,0 +1,625 @@
+dobj(pack-1, necessities-2)
+
+prep_to(drive-1, airport-3)
+
+det(ticket-3, a-2)
+dobj(buy-1, ticket-3)
+
+dobj(show-1, id-2)
+
+nn(number-3, gate-2)
+dobj(find-1, number-3)
+
+nn(time-3, departure-2)
+dobj(find-1, time-3)
+
+prep_at(sit-1, gate-3)
+
+prep_for(listen-1, flight-3)
+aux(called-6, to-4)
+auxpass(called-6, be-5)
+infmod(flight-3, called-6)
+
+nn(plane-2, board-1)
+
+dobj(find-1, seat-2)
+
+prt(put-1, away-2)
+ccomp(put-1, carry-3)
+prt(carry-3, on-4)
+
+prt(sit-1, down-2)
+
+nn(belt-3, seat-2)
+dobj(buckle-1, belt-3)
+
+nn(attendent-4, flight-3)
+prep_to(listen-1, attendent-4)
+
+prt(look-1, up-2)
+nn(prices-4, flight-3)
+dobj(look-1, prices-4)
+
+det(flight-4, a-3)
+prep_on(decide-1, flight-4)
+
+det(ticket-3, the-2)
+dobj(buy-1, ticket-3)
+
+prep_until(wait-1, date-3)
+prep_of(date-3, flight-5)
+
+det(airport-4, an-3)
+prep_to(go-1, airport-4)
+
+prt(check-1, in-2)
+
+dobj(board-1, flight-2)
+
+prep_at(arrive-1, destination-3)
+
+dobj(leave-1, plane-2)
+
+dep(go-2, i-1)
+det(airport-5, the-4)
+prep_to(go-2, airport-5)
+
+dep(check-2, i-1)
+prep(check-2, in-3)
+dep(in-3, with-4)
+det(airline-6, the-5)
+pobj(with-4, airline-6)
+
+dep(go-2, i-1)
+det(hangar-5, the-4)
+prep_to(go-2, hangar-5)
+
+dep(i-1, board-2)
+det(plane-4, the-3)
+dep(i-1, plane-4)
+
+nsubj(put-2, i-1)
+prt(put-2, away-3)
+poss(carry-5, my-4)
+dobj(put-2, carry-5)
+prep(put-2, on-6)
+
+dep(i-1, seat-2)
+
+nsubj(buckle-2, i-1)
+prt(buckle-2, up-3)
+
+amod(fly-6, relax-2)
+conj_and(relax-2, enjoy-4)
+amod(fly-6, enjoy-4)
+det(fly-6, the-5)
+dep(i-1, fly-6)
+
+dobj(buy-1, tickets-2)
+amod(tickets-2, online-3)
+amod(tickets-2, by-5)
+conj_or(online-3, by-5)
+prep_by(online-3, phone-6)
+
+prep_at(arrive-1, airport-3)
+advmod(arrive-1, early-4)
+
+prt(check-1, in-2)
+nn(desk-5, airline-4)
+prep_at(check-1, desk-5)
+
+dobj(check-1, luggage-2)
+
+nn(security-4, airport-3)
+prep_through(go-1, security-4)
+
+poss(gate-4, your-3)
+prep_by(wait-1, gate-4)
+
+prepc_for(listen-1, boarding-3)
+dobj(boarding-3, call-4)
+
+dobj(have-1, ticket-2)
+amod(ticket-2, ready-3)
+
+dobj(show-1, ticket-2)
+prep_to(show-1, clerk-4)
+
+nn(plane-2, board-1)
+
+dobj(find-1, seat-2)
+
+amod(luggage-3, carry-on-2)
+dobj(store-1, luggage-3)
+
+prep_through(relax-1, flight-3)
+
+dobj(retrieve-1, belongings-2)
+
+dobj(exit-1, plane-2)
+
+prt(pick-1, up-2)
+amod(luggage-4, checked-3)
+dobj(pick-1, luggage-4)
+
+dobj(purchase-1, tickets-2)
+prep_on(purchase-1, internet-4)
+
+prt(print-1, out-2)
+nn(agenda-4, flight-3)
+dobj(print-1, agenda-4)
+
+prt(print-1, out-2)
+nn(pass-4, boarding-3)
+dobj(print-1, pass-4)
+
+dobj(pack-1, bags-2)
+advmod(bags-2, lightly-3)
+num(bag-6, 1-5)
+dep(bags-2, bag-6)
+
+prep_to(go-1, airport-3)
+
+prt(write-1, down-2)
+advmod(park-5, where-3)
+nsubj(park-5, you-4)
+advcl(write-1, park-5)
+
+dep(take-1, carry-2)
+prep_on(carry-2, bag-4)
+prep_with(carry-2, you-6)
+
+prep_through(go-1, security-3)
+prep_at(go-1, airport-5)
+
+amod(terminal-3, right-2)
+dobj(find-1, terminal-3)
+prep_for(find-1, flight-5)
+
+nn(pass-3, boarding-2)
+dobj(present-1, pass-3)
+
+nn(plane-2, board-1)
+
+dobj(stow-1, bag-2)
+prep_in(stow-1, compartment-4)
+
+dobj(enjoy-1, flight-2)
+
+dobj(determine-1, destination-2)
+
+dobj(purchase-1, ticket-2)
+
+dobj(pack-1, luggage-2)
+
+prep_to(drive-1, airport-3)
+
+prep_at(arrive-1, airport-3)
+
+prt(check-1, in-2)
+prep_for(check-1, flight-4)
+
+nn(assignment-3, seat-2)
+dobj(receive-1, assignment-3)
+
+dobj(check-1, luggage-2)
+
+prep_through(go-1, security-3)
+
+amod(gate-4, assigned-3)
+prep_to(go-1, gate-4)
+
+prep_for(wait-1, boarding-3)
+
+dobj(board-1, plane-2)
+advmod(called-4, when-3)
+advcl(board-1, called-4)
+
+dobj(take-1, seat-2)
+conj_and(take-1, buckle-4)
+prt(buckle-4, up-5)
+
+
+nsubj(disembark-1, plane-2)
+prep_upon(disembark-1, arrival-4)
+
+dobj(go-1, online-2)
+
+dobj(buy-1, ticket-2)
+
+
+dobj(call-1, taxi-2)
+
+prep_to(go-1, airport-3)
+
+prt(check-1, in-2)
+
+prt(send-1, off-2)
+dobj(send-1, luggage-3)
+
+nn(pass-3, boarding-2)
+dobj(get-1, pass-3)
+
+prep_through(go-1, security-3)
+
+prep_for(wait-1, plane-3)
+prep_to(wait-1, board-5)
+
+nn(plane-2, board-1)
+
+prt(take-1, off-2)
+
+dobj(purchase-1, ticket-2)
+
+prep_at(arrive-1, airport-3)
+
+prt(check-1, in-2)
+
+dobj(check-1, luggage-2)
+
+prep_for(wait-1, boarding-3)
+
+prep_on(get-1, plane-3)
+
+prt(take-1, off-2)
+
+nsubj(give-2, attendents-1)
+prt(give-2, out-3)
+dobj(give-2, drinks-4)
+
+dobj(in-flight-1, movie-2)
+
+dobj(plane-1, lands-2)
+
+prt(get-1, off-2)
+dobj(get-1, plane-3)
+
+prt(check-1, in-2)
+prep_at(check-1, airport-4)
+
+dobj(enter-1, plane-2)
+advmod(called-4, when-3)
+advcl(enter-1, called-4)
+
+dobj(find-1, seat-2)
+
+amod(carry-ons-2, stow-1)
+
+nn(instructions-3, crew-2)
+dobj(follow-1, instructions-3)
+
+dobj(enjoy-1, flight-2)
+
+dobj(plane-1, lands-2)
+
+dobj(retrieve-1, carry-ons-2)
+
+advmod(instructed-3, when-2)
+advcl(exit-1, instructed-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, baggage-3)
+
+dobj(catch-1, shuttle-2)
+prep_to(catch-1, hotel-4)
+
+dobj(buy-1, plane-2)
+dep(online-4, ticket-3)
+dep(buy-1, online-4)
+
+prep_to(go-1, airport-3)
+
+prt(check-1, in-2)
+nn(kiosk-5, ticket-4)
+prep_at(check-1, kiosk-5)
+
+dep(receive-1, printed-2)
+xcomp(printed-2, boarding-3)
+dobj(boarding-3, pass-4)
+
+prep_through(go-1, security-3)
+
+prep_to(walk-1, concourse-3)
+
+amod(gate-3, specific-2)
+dobj(find-1, gate-3)
+
+prep_for(wait-1, plane-3)
+
+nn(plane-2, board-1)
+
+nn(assignment-3, seat-2)
+dobj(find-1, assignment-3)
+
+dobj(place-1, bags-2)
+amod(bin-5, overhead-4)
+prep_in(place-1, bin-5)
+
+prep_through(fly-1, air-3)
+
+dobj(eat-1, peanuts-2)
+
+prep_at(arrive-1, destination-3)
+
+prep_from(disembark-1, plane-3)
+
+dep(carry-4, i-1)
+nsubj(carry-4, have-2)
+dep(carry-4, a-3)
+prep_on(carry-4, backpack-6)
+
+mark(bag-9, if-1)
+nsubj(bag-9, plane-2)
+cop(bag-9, is-3)
+amod(bag-9, small-4)
+dep(small-4, then-5)
+prep_in(small-4, cart-7)
+dep(small-4, otherwise-8)
+det(seat-12, the-11)
+prep_under(bag-9, seat-12)
+
+dobj(make-1, calls-2)
+prep_before(make-1, takeoff-4)
+
+prep_at(look-1, magazine-3)
+prep_after(look-1, calls-5)
+
+amod(sleep-4, flight-2)
+dep(flight-2, i-3)
+pobj(in-1, sleep-4)
+conj_or(in-1, listen-6)
+prep_to(listen-6, music-8)
+
+poss(ticket-3, my-2)
+dobj(booking-1, ticket-3)
+
+dobj(pay-1, cash-2)
+
+poss(lugagge-3, my-2)
+dobj(take-1, lugagge-3)
+
+dobj(provide-1, clearance-2)
+dobj(provide-1, checkings-4)
+conj_and(clearance-2, checkings-4)
+
+dep(travel-2, and-1)
+
+dobj(pack-1, bags-2)
+
+prep_at(park-1, airport-3)
+
+aux(check-3, to-2)
+xcomp(go-1, check-3)
+prep_in(check-3, counter-5)
+
+prep_in(wait-1, line-3)
+
+prep_in(check-1, luggage-3)
+
+nn(passes-3, boarding-2)
+dobj(get-1, passes-3)
+
+nn(check-4, security-3)
+prep_through(go-1, check-4)
+
+prepc_to(go-1, boarding-3)
+dobj(boarding-3, gate-4)
+
+prep_for(wait-1, flight-3)
+aux(called-6, to-4)
+auxpass(called-6, be-5)
+xcomp(wait-1, called-6)
+
+amod(pass-4, attendant-2)
+nn(pass-4, boarding-3)
+dobj(show-1, pass-4)
+
+nn(plane-2, board-1)
+
+dobj(find-1, seat-2)
+
+amod(overhead-3, carry-on-2)
+dobj(stow-1, overhead-3)
+
+dobj(fasten-1, seatbelt-2)
+
+prt(get-1, off-2)
+dobj(get-1, plane-3)
+
+dobj(get-1, luggage-2)
+prep_off(get-1, belt-4)
+
+nn(plane-2, board-1)
+
+amod(seat-4, assigned-3)
+prep_in(sit-1, seat-4)
+
+poss(seatbelt-3, your-2)
+dobj(buckle-1, seatbelt-3)
+
+dobj(obey-1, instructions-2)
+prep_from(obey-1, pilot-4)
+
+nn(attendant-4, flight-3)
+prep_to(listen-1, attendant-4)
+
+dobj(enjoy-1, music-2)
+dobj(enjoy-1, movies-4)
+conj_and(music-2, movies-4)
+
+dobj(enjoy-1, food-2)
+dobj(enjoy-1, drink-4)
+conj_and(food-2, drink-4)
+
+prt(buckle-1, up-2)
+prep_for(buckle-1, landing-4)
+
+dobj(applaud-1, pilot-2)
+
+det(plane-3, the-2)
+dobj(exit-1, plane-3)
+
+amod(pass-3, broarding-2)
+dobj(print-1, pass-3)
+
+prep_to(drive-1, airport-3)
+
+amod(terminal-3, correct-2)
+dobj(find-1, terminal-3)
+
+dobj(unload-1, bags-2)
+
+nn(counter-4, ticket-3)
+prep_to(go-1, counter-4)
+
+prt(check-1, in-2)
+prep_for(check-1, flight-4)
+
+prep_in(check-1, bags-3)
+
+nn(plane-4, board-3)
+prep_to(wait-1, plane-4)
+
+advmod(go-5, where-2)
+nsubj(go-5, i-3)
+advmod(go-5, want-4)
+advcl(plan-1, go-5)
+
+det(flight-3, the-2)
+dobj(chose-1, flight-3)
+
+nn(date-3, journey-2)
+dep(desired-1, date-3)
+
+dobj(check-1, availability-2)
+prep_of(availability-2, ticket-4)
+
+dobj(buy-1, ticket-2)
+
+det(ticket-3, the-2)
+dobj(check-1, ticket-3)
+
+det(luggage-3, the-2)
+dobj(pack-1, luggage-3)
+
+mark(come-4, before-1)
+num(hours-3, two-2)
+nsubj(come-4, hours-3)
+prep_to(come-4, airport-6)
+
+det(luggage-3, the-2)
+dobj(scan-1, luggage-3)
+
+prep_to(go-1, emigration-3)
+
+det(passport-3, the-2)
+dobj(verify-1, passport-3)
+
+dobj(verify-1, ticket-2)
+
+prepc_in(wait-1, waiting-3)
+dobj(waiting-3, area-4)
+
+prep_to(go-1, boarding-3)
+
+det(seat-3, the-2)
+dobj(catch-1, seat-3)
+
+det(belt-4, the-2)
+nn(belt-4, safety-3)
+dobj(put-1, belt-4)
+
+det(ticket-3, a-2)
+dobj(purchase-1, ticket-3)
+
+advmod(arrive-1, early-2)
+det(airport-5, the-4)
+prep_to(arrive-1, airport-5)
+
+nn(pass-3, boarding-2)
+dobj(get-1, pass-3)
+
+dobj(check-1, bags-2)
+
+prep_through(go-1, security-3)
+
+dobj(locate-1, gate-2)
+
+nn(plane-2, board-1)
+
+dobj(choose-1, destination-2)
+
+dobj(call-1, airline-2)
+
+dobj(make-1, reservations-2)
+
+dobj(pack-1, suitcase-2)
+
+prep_to(drive-1, airport-3)
+
+prt(check-1, in-2)
+
+dobj(retrieve-1, ticket-2)
+
+prep_in(check-1, baggage-3)
+
+nn(check-4, security-3)
+prep_through(go-1, check-4)
+
+nn(arrival-4, plane-3)
+prep_for(wait-1, arrival-4)
+
+nn(plane-2, board-1)
+
+amod(carry-ons-2, stow-1)
+
+dobj(buckle-1, seatbelt-2)
+
+conj_and(relax-1, enjoy-3)
+dobj(enjoy-3, ride-4)
+
+dobj(choose-1, flight-2)
+
+dobj(book-1, tickets-2)
+
+dep(print-1, boarding-2)
+dep(print-1, pass-3)
+
+det(airport-3, the-2)
+dobj(enter-1, airport-3)
+
+aux(check-3, to-2)
+xcomp(go-1, check-3)
+prep_in(check-3, desk-5)
+
+det(luggage-3, the-2)
+dobj(check-1, luggage-3)
+
+dobj(retrieve-1, tickets-2)
+
+dobj(check-1, passport-2)
+
+amod(gate-3, right-2)
+dobj(find-1, gate-3)
+
+det(crowd-3, the-2)
+dobj(follow-1, crowd-3)
+
+det(gate-4, the-3)
+prep_to(go-1, gate-4)
+
+prt(get-1, in-2)
+det(flight-5, the-4)
+prep_to(get-1, flight-5)
+
+dobj(find-1, seat-2)
+
+det(baggage-3, the-2)
+dobj(place-1, baggage-3)
+
+prep_for(look-1, terminal-3)
+
+prt(pick-1, up-2)
+det(luggage-4, the-3)
+dobj(pick-1, luggage-4)
+

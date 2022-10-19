@@ -1,0 +1,630 @@
+det(windows-3, all-2)
+dobj(secure-1, windows-3)
+
+det(doors-3, all-2)
+dobj(secure-1, doors-3)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(door-3, the-2)
+dobj(lock-1, door-3)
+
+prep_to(move-1, windows-3)
+
+det(windows-3, the-2)
+dobj(close-1, windows-3)
+
+dobj(lock-1, windows-2)
+
+amod(door-4, back-3)
+prep_to(move-1, door-4)
+
+amod(door-3, back-2)
+dobj(lock-1, door-3)
+
+det(house-3, the-2)
+dobj(exit-1, house-3)
+
+dobj(find-1, house-2)
+dep(find-1, key-3)
+
+dobj(insert-1, key-2)
+nn(lock-5, door-4)
+prep_into(insert-1, lock-5)
+
+acomp(turn-1, key-2)
+aux(lock-4, to-3)
+xcomp(turn-1, lock-4)
+dobj(lock-4, door-5)
+
+aux(make-3, to-2)
+xcomp(check-1, make-3)
+acomp(make-3, sure-4)
+det(intruders-6, no-5)
+nsubj(are-7, intruders-6)
+ccomp(sure-4, are-7)
+det(house-10, the-9)
+prep_in(are-7, house-10)
+
+conj_and(shut-1, lock-3)
+predet(doors-6, all-4)
+det(doors-6, the-5)
+dobj(lock-3, doors-6)
+
+conj_and(shut-1, lock-3)
+predet(windows-6, all-4)
+det(windows-6, the-5)
+dobj(lock-3, windows-6)
+
+det(door-3, a-2)
+dobj(find-1, door-3)
+
+det(door-3, the-2)
+dobj(lock-1, door-3)
+det(knob-9, a-5)
+amod(knob-9, key-6)
+conj_or(key-6, locking-8)
+amod(knob-9, locking-8)
+prep_using(lock-1, knob-9)
+
+mark(locked-7, until-2)
+det(doors-4, all-3)
+nsubjpass(locked-7, doors-4)
+aux(locked-7, have-5)
+auxpass(locked-7, been-6)
+advcl(repeat-1, locked-7)
+
+det(windows-3, all-2)
+dobj(close-1, windows-3)
+
+conj_and(close-1, lock-3)
+det(doors-5, all-4)
+dobj(lock-3, doors-5)
+
+amod(door-3, front-2)
+dobj(lock-1, door-3)
+
+amod(door-3, back-2)
+dobj(lock-1, door-3)
+mark(available-5, if-4)
+dep(lock-1, available-5)
+
+det(windows-3, all-2)
+dobj(close-1, windows-3)
+
+amod(door-3, front-2)
+dobj(close-1, door-3)
+
+amod(door-3, front-2)
+dobj(lock-1, door-3)
+
+amod(door-3, back-2)
+dobj(close-1, door-3)
+
+amod(door-3, back-2)
+dobj(lock-1, door-3)
+
+det(dors-3, all-2)
+dobj(lock-1, dors-3)
+
+det(windows-3, all-2)
+dobj(lock-1, windows-3)
+
+acomp(insert-1, key-2)
+
+dobj(turn-1, key-2)
+amod(position-5, locked-4)
+prep_into(turn-1, position-5)
+
+dobj(pull-1, key-2)
+prt(pull-1, out-3)
+
+predet(windows-4, all-2)
+det(windows-4, the-3)
+dobj(close-1, windows-4)
+
+predet(windows-4, all-2)
+det(windows-4, the-3)
+dobj(lock-1, windows-4)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+dep(door-3, s-5)
+
+det(door-3, the-2)
+dobj(lock-1, door-3)
+dep(door-3, s-5)
+
+dobj(get-1, keys-2)
+
+prep_to(go-1, door-3)
+
+acomp(insert-1, key-2)
+
+aux(lock-3, to-2)
+xcomp(turn-1, lock-3)
+dobj(lock-3, position-4)
+
+dobj(pull-1, key-2)
+prt(pull-1, out-3)
+
+dobj(close-1, door-2)
+
+dobj(lock-1, doors-2)
+
+det(door-4, each-3)
+prep_to(go-1, door-4)
+
+dobj(close-1, door-2)
+
+dobj(lock-1, door-2)
+
+det(window-4, each-3)
+prep_to(go-1, window-4)
+
+dobj(close-1, window-2)
+
+dobj(lock-1, window-2)
+
+det(keys-4, the-2)
+nn(keys-4, house-3)
+dobj(get-1, keys-4)
+
+det(door-4, each-3)
+prep_to(go-1, door-4)
+det(house-7, the-6)
+prep_in(go-1, house-7)
+
+det(door-3, each-2)
+dobj(lock-1, door-3)
+det(house-6, the-5)
+prep_in(lock-1, house-6)
+
+det(window-4, each-3)
+prep_to(go-1, window-4)
+det(house-7, the-6)
+prep_in(window-4, house-7)
+
+det(lever-4, the-2)
+amod(lever-4, locking-3)
+dobj(close-1, lever-4)
+det(window-7, each-6)
+prep_on(lever-4, window-7)
+det(house-10, the-9)
+prep_in(close-1, house-10)
+
+det(keys-3, the-2)
+dobj(get-1, keys-3)
+
+det(windows-3, the-2)
+dobj(lock-1, windows-3)
+
+det(doors-3, the-2)
+dobj(lock-1, doors-3)
+
+acomp(making-1, sure-2)
+complm(locked-7, that-3)
+det(windows-5, all-4)
+nsubjpass(locked-7, windows-5)
+auxpass(locked-7, are-6)
+ccomp(sure-2, locked-7)
+
+acomp(make-1, sure-2)
+complm(have-5, that-3)
+nsubj(have-5, you-4)
+ccomp(sure-2, have-5)
+dobj(have-5, keys-6)
+
+prep_out_of(walk-1, door-4)
+
+det(lock-3, the-2)
+dobj(lock-1, lock-3)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(door-4, the-2)
+amod(door-4, front-3)
+dobj(close-1, door-4)
+
+det(key-4, the-2)
+amod(key-4, correct-3)
+dobj(get-1, key-4)
+
+acomp(put-1, key-2)
+prep_in(put-1, door-4)
+
+dobj(lock-1, door-2)
+
+dobj(take-1, key-2)
+det(door-6, the-5)
+prep_out_of(take-1, door-6)
+
+acomp(make-1, sure-2)
+det(windows-4, all-3)
+nsubjpass(closed-6, windows-4)
+auxpass(closed-6, are-5)
+ccomp(sure-2, closed-6)
+
+dobj(insert-1, key-2)
+prep_into(insert-1, lock-4)
+
+amod(direction-3, correct-2)
+dobj(turn-1, direction-3)
+aux(throw-5, to-4)
+xcomp(turn-1, throw-5)
+dobj(throw-5, lock-6)
+
+acomp(remove-1, key-2)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+prt(take-1, out-2)
+dobj(take-1, key-3)
+
+acomp(put-1, key-2)
+prep_in(put-1, lock-4)
+
+acomp(turn-1, key-2)
+
+acomp(remove-1, key-2)
+
+det(lock-3, the-2)
+dobj(turn-1, lock-3)
+det(house-6, the-5)
+prep_of(lock-3, house-6)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(door-3, the-2)
+dobj(lock-1, door-3)
+
+det(key-3, the-2)
+dobj(put-1, key-3)
+det(keyhole-6, the-5)
+prep_in(put-1, keyhole-6)
+
+det(key-3, the-2)
+dobj(turn-1, key-3)
+mark(thrown-9, until-4)
+det(bolt-6, the-5)
+nsubjpass(thrown-9, bolt-6)
+auxpass(thrown-9, is-7)
+advmod(thrown-9, fully-8)
+dep(key-3, thrown-9)
+
+det(key-3, the-2)
+dobj(turn-1, key-3)
+advmod(turn-1, back-4)
+det(position-8, the-6)
+amod(position-8, initial-7)
+prep_to(turn-1, position-8)
+
+det(key-3, the-2)
+dobj(remove-1, key-3)
+
+aux(lock-3, to-2)
+xcomp(decide-1, lock-3)
+prt(lock-3, up-4)
+
+acomp(make-1, sure-2)
+dep(is-4, everyone-3)
+dep(sure-2, is-4)
+advmod(is-4, inside-5)
+
+det(doors-3, all-2)
+dobj(check-1, doors-3)
+
+det(windows-3, all-2)
+dobj(check-1, windows-3)
+
+det(doors-3, all-2)
+dobj(secure-1, doors-3)
+
+det(windows-3, all-2)
+dobj(secure-1, windows-3)
+
+det(key-3, the-2)
+dobj(hide-1, key-3)
+
+prep_to(walk-1, window-3)
+
+det(window-3, the-2)
+dobj(lock-1, window-3)
+
+mark(locked-5, until-2)
+nsubjpass(locked-5, all-3)
+auxpass(locked-5, are-4)
+advcl(repeat-1, locked-5)
+
+prep_to(walk-1, door-3)
+
+dobj(lock-1, door-2)
+
+mark(locked-5, until-2)
+nsubjpass(locked-5, all-3)
+auxpass(locked-5, are-4)
+advcl(repeat-1, locked-5)
+
+prt(go-1, out-2)
+
+dobj(lock-1, door-2)
+prep_behind(lock-1, you-4)
+
+dobj(get-1, keys-2)
+
+dobj(close-1, windows-2)
+
+complm(locked-7, that-2)
+det(door-5, the-3)
+amod(door-5, back-4)
+nsubjpass(locked-7, door-5)
+auxpass(locked-7, is-6)
+ccomp(check-1, locked-7)
+
+predet(doors-5, all-2)
+det(doors-5, the-3)
+amod(doors-5, other-4)
+dobj(check-1, doors-5)
+complm(locked-9, that-6)
+nsubjpass(locked-9, they-7)
+auxpass(locked-9, are-8)
+dep(doors-5, locked-9)
+
+nn(alarm-3, security-2)
+dobj(set-1, alarm-3)
+
+advmod(go-1, outside-2)
+
+dobj(lock-1, door-2)
+
+prt(step-1, out-2)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+acomp(put-1, key-2)
+prep_in(put-1, lock-4)
+
+acomp(turn-1, key-2)
+
+acomp(remove-1, key-2)
+
+complm(locked-5, that-2)
+nsubjpass(locked-5, door-3)
+auxpass(locked-5, is-4)
+ccomp(check-1, locked-5)
+agent(locked-5, trying-7)
+aux(open-9, to-8)
+xcomp(trying-7, open-9)
+dobj(open-9, it-10)
+
+det(windows-3, all-2)
+dobj(close-1, windows-3)
+
+det(windows-3, all-2)
+dobj(lock-1, windows-3)
+
+det(doors-3, all-2)
+dobj(close-1, doors-3)
+
+det(doors-3, all-2)
+dobj(lock-1, doors-3)
+
+det(alarm-3, the-2)
+dobj(set-1, alarm-3)
+
+prep_out_of(step-1, house-4)
+
+dobj(close-1, door-2)
+
+det(lock-3, the-2)
+dobj(lock-1, lock-3)
+prep_with(lock-1, key-5)
+
+det(house-3, the-2)
+dobj(leave-1, house-3)
+
+acomp(put-1, key-2)
+prep_in(put-1, door-4)
+
+acomp(turn-1, key-2)
+
+dobj(pull-1, key-2)
+prep_out_of(pull-1, door-5)
+
+dobj(lock-1, windows-2)
+
+dobj(lock-1, doors-2)
+
+advmod(check-2, double-1)
+det(locks-4, all-3)
+dobj(check-2, locks-4)
+
+nn(alarm-4, security-3)
+prep_on(turn-1, alarm-4)
+
+dobj(stick-1, key-2)
+prep_in(stick-1, lock-4)
+
+dobj(leave-1, house-2)
+
+dobj(use-1, key-2)
+aux(lock-4, to-3)
+infmod(key-2, lock-4)
+det(house-6, the-5)
+dobj(lock-4, house-6)
+
+det(doors-3, all-2)
+dobj(lock-1, doors-3)
+
+det(windows-3, all-2)
+dobj(lock-1, windows-3)
+
+prep_to(walk-1, door-3)
+
+aux(open-3, to-2)
+xcomp(try-1, open-3)
+dobj(open-3, door-4)
+
+mark(opens-3, if-1)
+nsubj(opens-3, door-2)
+
+nsubj(requires-2, door-1)
+acomp(requires-2, locking-3)
+
+aux(lock-2, to-1)
+dobj(lock-2, door-3)
+
+dobj(turn-1, knob-2)
+
+cc(insert-2, or-1)
+acomp(insert-2, key-3)
+
+dobj(check-1, windows-2)
+
+det(windows-3, all-2)
+dobj(lock-1, windows-3)
+
+det(doors-3, all-2)
+dobj(close-1, doors-3)
+
+dobj(check-1, locks-2)
+det(doors-5, all-4)
+prep_on(check-1, doors-5)
+
+nsubj(locks-2, turn-1)
+xsubj(lock-4, turn-1)
+aux(lock-4, to-3)
+xcomp(locks-2, lock-4)
+dobj(lock-4, them-5)
+
+dobj(check-1, doors-2)
+
+dobj(use-1, keys-2)
+
+dobj(lock-1, wondows-2)
+
+dobj(lock-1, doors-2)
+
+det(doors-3, the-2)
+dobj(lock-1, doors-3)
+det(key-6, a-5)
+prep_with(lock-1, key-6)
+
+det(windows-3, the-2)
+dobj(lock-1, windows-3)
+prep_with(lock-1, key-5)
+
+aux(see-3, to-2)
+xcomp(check-1, see-3)
+mark(locked-8, if-4)
+amod(door-6, front-5)
+nsubjpass(locked-8, door-6)
+auxpass(locked-8, is-7)
+advcl(see-3, locked-8)
+
+mark(unlocked-2, if-1)
+xcomp(unlocked-2, turn-3)
+amod(mechanism-5, locking-4)
+dobj(turn-3, mechanism-5)
+mark(locked-9, until-6)
+nsubjpass(locked-9, it-7)
+auxpass(locked-9, is-8)
+advcl(turn-3, locked-9)
+
+det(doors-5, any-3)
+amod(doors-5, other-4)
+prep_on(repeat-1, doors-5)
+
+dobj(check-1, windows-2)
+
+amod(mechanism-3, locking-2)
+dobj(turn-1, mechanism-3)
+aux(lock-5, to-4)
+infmod(mechanism-3, lock-5)
+dobj(lock-5, window-6)
+
+det(window-4, every-3)
+prep_on(repeat-1, window-4)
+
+dobj(set-1, alarm-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, lights-3)
+
+prep_on(turn-1, alarm-3)
+
+dobj(lock-1, door-2)
+
+dobj(obtain-1, key-2)
+
+amod(hole-3, key-2)
+dobj(locate-1, hole-3)
+
+dobj(insert-1, key-2)
+amod(hole-5, key-4)
+prep_into(insert-1, hole-5)
+
+amod(turn-5, key-2)
+det(turn-5, a-3)
+amod(turn-5, full-4)
+dobj(turn-1, turn-5)
+
+dobj(turn-1, key-2)
+advmod(turn-1, back-3)
+amod(position-6, original-5)
+prep_to(turn-1, position-6)
+
+acomp(remove-1, key-2)
+
+
+dobj(lock-1, doors-2)
+
+det(windows-3, all-2)
+dobj(close-1, windows-3)
+
+conj_and(close-1, lock-3)
+det(doors-5, all-4)
+dobj(lock-3, doors-5)
+
+dobj(set-1, alarm-2)
+
+amod(door-3, front-2)
+dobj(lock-1, door-3)
+
+dobj(take-1, keys-2)
+
+acomp(put-1, key-2)
+prep_in(put-1, lock-4)
+
+acomp(turn-1, key-2)
+
+det(locks-4, all-3)
+prep_on(repeat-1, locks-4)
+
+dep(key-2, get-1)
+
+acomp(put-1, key-2)
+prep_in(put-1, lock-4)
+
+dep(key-2, get-1)
+
+acomp(put-1, key-2)
+prep_in(put-1, lock-4)
+
+acomp(turn-1, key-2)
+
+dobj(close-1, door-2)
+
+det(door-3, the-2)
+dobj(shut-1, door-3)
+
+det(lock-3, the-2)
+dobj(put-1, lock-3)
+det(door-6, the-5)
+prep_on(put-1, door-6)
+

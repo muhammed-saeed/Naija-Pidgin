@@ -1,0 +1,534 @@
+dobj(break-1, eggs-2)
+
+dobj(mix-1, eggs-2)
+prep_with(mix-1, spices-4)
+
+prt(heat-1, up-2)
+dobj(heat-1, pan-3)
+
+amod(eggs-3, mixed-2)
+dobj(dump-1, eggs-3)
+prep_into(dump-1, pan-5)
+
+num(side-4, one-3)
+prep_for(wait-1, side-4)
+aux(cook-6, to-5)
+xcomp(wait-1, cook-6)
+
+dep(turn-1, cooked-2)
+acomp(cooked-2, omelete-3)
+
+amod(side-4, second-3)
+prep_for(wait-1, side-4)
+aux(cook-6, to-5)
+xcomp(wait-1, cook-6)
+
+dobj(break-1, eggs-2)
+
+dobj(mix-1, eggs-2)
+advmod(mix-1, together-3)
+
+prt(heat-1, up-2)
+dobj(heat-1, pan-3)
+
+amod(eggs-3, mixed-2)
+dobj(pour-1, eggs-3)
+prep_in(pour-1, pan-5)
+
+aux(cook-3, to-2)
+xcomp(wait-1, cook-3)
+num(side-6, one-5)
+prep_on(cook-3, side-6)
+
+det(side-5, the-3)
+amod(side-5, other-4)
+prep_on(turn-1, side-5)
+
+dobj(remove-1, pan-2)
+dobj(remove-1, omelette-4)
+conj_and(pan-2, omelette-4)
+
+det(egg-3, an-2)
+dobj(get-1, egg-3)
+
+det(pan-4, a-2)
+amod(pan-4, frying-3)
+dobj(get-1, pan-4)
+
+det(pan-4, the-2)
+amod(pan-4, frying-3)
+dobj(heat-1, pan-4)
+
+dobj(break-1, egg-2)
+
+dobj(put-1, egg-2)
+amod(pan-5, frying-4)
+prep_in(put-1, pan-5)
+
+nsubjpass(done-5, wait-1)
+prep_to(wait-1, egg-3)
+auxpass(done-5, is-4)
+
+dobj(put-1, egg-2)
+prep_on(put-1, plate-4)
+
+num(eggs-5, one-2)
+conj_or(one-2, more-4)
+quantmod(one-2, more-4)
+num(eggs-5, more-4)
+dobj(get-1, eggs-5)
+
+det(pan-4, a-2)
+amod(pan-4, frying-3)
+dobj(heat-1, pan-4)
+
+dobj(put-1, oil-2)
+amod(pan-5, frying-4)
+prep_in(put-1, pan-5)
+
+dobj(break-1, eggs-2)
+prepc_in(break-1, frying-4)
+dobj(frying-4, pan-5)
+
+mark(white-6, until-2)
+nsubj(white-6, eggs-3)
+cop(white-6, are-4)
+dep(white-6, all-5)
+advcl(wait-1, white-6)
+
+det(eggs-3, the-2)
+dobj(flip-1, eggs-3)
+
+dobj(put-1, eggs-2)
+prep_on(put-1, slices-4)
+prep_of(slices-4, bread-6)
+
+dobj(crack-1, eggs-2)
+det(bowl-5, a-4)
+prep_into(crack-1, bowl-5)
+
+dobj(scramble-1, eggs-2)
+
+dobj(pour-1, eggs-2)
+amod(skillet-5, hot-4)
+prep_into(pour-1, skillet-5)
+
+advmod(set-5, when-1)
+nsubjpass(set-5, eggs-2)
+auxpass(set-5, are-3)
+advmod(set-5, almost-4)
+csubj(sprinkle-6, set-5)
+dobj(sprinkle-6, cheese-7)
+prep_on(sprinkle-6, eggs-9)
+
+dobj(fold-1, omlette-2)
+prep_in(fold-1, half-4)
+
+mark(finished-5, until-2)
+nsubj(finished-5, eggs-3)
+aux(finished-5, have-4)
+advcl(wait-1, finished-5)
+dep(finished-5, cooking-6)
+
+dobj(put-1, omlette-2)
+prep_on(put-1, plate-4)
+
+dobj(get-1, eggs-2)
+
+det(pan-3, a-2)
+dobj(get-1, pan-3)
+
+det(pan-3, the-2)
+dobj(put-1, pan-3)
+det(stove-6, the-5)
+prep_on(put-1, stove-6)
+
+dobj(put-1, butter-2)
+det(pan-5, the-4)
+prep_in(put-1, pan-5)
+
+det(eggs-3, the-2)
+dobj(break-1, eggs-3)
+
+dobj(put-1, eggs-2)
+det(pan-5, the-4)
+prep_in(put-1, pan-5)
+
+mark(done-5, until-2)
+nsubjpass(done-5, eggs-3)
+auxpass(done-5, are-4)
+advcl(wait-1, done-5)
+
+dobj(crack-1, egg-2)
+prep_onto(crack-1, pan-4)
+
+dobj(put-1, toppings-2)
+prep_on(put-1, it-4)
+
+dobj(flip-1, egg-2)
+
+dobj(let-1, cook-2)
+
+prep_on(put-1, plate-3)
+
+dobj(get-1, fork-2)
+dobj(get-1, knife-4)
+conj_and(fork-2, knife-4)
+
+
+nsubj(frying-2, heat-1)
+dobj(frying-2, pan-3)
+
+dobj(crack-1, eggs-2)
+prep_into(crack-1, bowl-4)
+
+prt(mix-1, up-2)
+dobj(mix-1, eggs-3)
+
+dobj(pour-1, eggs-2)
+prep_onto(pour-1, pan-4)
+
+dobj(flip-1, eggs-2)
+prt(flip-1, over-3)
+
+dobj(put-1, ingredients-2)
+prep_on_top_of(put-1, eggs-6)
+
+dobj(fold-1, eggs-2)
+prep_over(fold-1, ingredients-4)
+
+dobj(break-1, eggs-2)
+prep_into(break-1, bowl-4)
+
+amod(amount-3, small-2)
+dobj(pour-1, amount-3)
+prep_of(amount-3, milk-5)
+prep_into(pour-1, bowl-7)
+
+dobj(beat-1, eggs-2)
+
+amod(pan-3, frying-2)
+dobj(heat-1, pan-3)
+prep_on(heat-1, stove-5)
+
+dobj(pour-1, eggs-2)
+amod(pan-5, frying-4)
+prep_into(pour-1, pan-5)
+
+mark(cooked-6, until-2)
+nsubjpass(cooked-6, eggs-3)
+auxpass(cooked-6, are-4)
+advmod(cooked-6, half-5)
+advcl(wait-1, cooked-6)
+
+dobj(flip-1, eggs-2)
+prt(flip-1, over-3)
+conj_and(flip-1, place-5)
+prt(place-5, back-6)
+det(pan-10, the-8)
+amod(pan-10, frying-9)
+prep_in(place-5, pan-10)
+
+amod(pan-3, frying-2)
+dobj(place-1, pan-3)
+prep_over(place-1, heat-5)
+
+dobj(crack-1, eggs-2)
+prep_into(crack-1, bowl-4)
+
+amod(ingredients-3, omelette-2)
+dobj(add-1, ingredients-3)
+prep_to(add-1, eggs-5)
+
+dobj(stir-1, eggs-2)
+amod(ingredients-5, omelette-4)
+dobj(stir-1, ingredients-5)
+conj_and(eggs-2, ingredients-5)
+
+dobj(pour-1, mixture-2)
+amod(pan-5, frying-4)
+prep_into(pour-1, pan-5)
+
+
+dobj(get-1, eggs-2)
+
+dobj(break-1, eggs-2)
+prep_into(break-1, bowl-4)
+
+dobj(beat-1, eggs-2)
+
+nsubj(frying-2, heat-1)
+dobj(frying-2, pan-3)
+
+dobj(add-1, butter-2)
+
+dobj(add-1, eggs-2)
+
+
+dobj(find-1, ingredients-2)
+
+dobj(chop-1, vegestables-2)
+dobj(chop-1, meat-4)
+conj_and\/or(vegestables-2, meat-4)
+
+dobj(whip-1, eggs-2)
+advmod(whip-1, together-3)
+
+dobj(mix-1, ingredients-2)
+
+dobj(add-1, spices-2)
+
+det(mix-3, the-2)
+dep(fry-1, mix-3)
+det(pan-7, a-5)
+amod(pan-7, frying-6)
+prep_in(mix-3, pan-7)
+
+nsubj(frying-2, heat-1)
+dobj(frying-2, pan-3)
+
+dobj(put-1, oil-2)
+dobj(put-1, butter-4)
+conj_or(oil-2, butter-4)
+prep_in(put-1, pan-6)
+
+det(egg-3, an-2)
+dobj(beat-1, egg-3)
+prep_with(beat-1, salt-5)
+prep_with(beat-1, pepper-7)
+conj_and(salt-5, pepper-7)
+
+nn(mixture-3, egg-2)
+dobj(pour-1, mixture-3)
+prep_in(pour-1, pan-5)
+
+prt(turn-1, around-2)
+det(minutes-6, a-4)
+amod(minutes-6, few-5)
+prep_after(turn-1, minutes-6)
+
+dobj(break-1, egg-2)
+prep_in(break-1, bowl-4)
+
+dobj(add-1, dash-2)
+prep_of(dash-2, milk-4)
+
+dobj(beat-1, egg-2)
+dobj(beat-1, milk-4)
+conj_and(egg-2, milk-4)
+
+nn(mushrooms-3, ham-2)
+iobj(add-1, mushrooms-3)
+dobj(add-1, cheese-4)
+
+dobj(heat-1, pan-2)
+prep_on(heat-1, stove-4)
+
+dobj(place-1, mixture-2)
+prep_in(place-1, pan-4)
+prep_on(place-1, stove-6)
+
+advmod(done-5, when-2)
+nsubjpass(done-5, bottom-3)
+auxpass(done-5, is-4)
+advcl(turn-1, done-5)
+
+dobj(crack-1, eggs-2)
+prep_into(crack-1, jug-4)
+
+dobj(whisk-1, eggs-2)
+
+dobj(add-1, salt-2)
+dobj(add-1, peper-4)
+conj_and(salt-2, peper-4)
+conj_and(add-1, whisk-6)
+prt(whisk-6, in-7)
+
+amod(eggs-3, whisked-2)
+dobj(put-1, eggs-3)
+amod(pan-6, frying-5)
+prep_in(put-1, pan-6)
+
+det(edges-3, the-2)
+iobj(pull-1, edges-3)
+amod(cooks-7, inwards-4)
+prep_as(inwards-4, it-6)
+dobj(pull-1, cooks-7)
+
+dobj(crack-1, egg-2)
+
+dobj(beat-1, egg-2)
+
+dobj(place-1, egg-2)
+prep_in(place-1, pan-4)
+prep_on(place-1, stove-6)
+
+dobj(add-1, vegetables-2)
+
+amod(cheese-3, grated-2)
+dobj(add-1, cheese-3)
+
+advmod(cooked-4, when-1)
+nsubjpass(cooked-4, egg-2)
+auxpass(cooked-4, is-3)
+csubj(fold-5, cooked-4)
+nn(mixture-7, egg-6)
+dobj(fold-5, mixture-7)
+prep_in(mixture-7, half-9)
+
+dobj(remove-1, egg-2)
+prep_from(remove-1, pan-4)
+
+dobj(buy-1, eggs-2)
+
+dobj(cook-1, eggs-2)
+
+
+dobj(crack-1, egg-2)
+prep_into(crack-1, bowl-4)
+
+dobj(beat-1, egg-2)
+advmod(beat-1, slightly-3)
+
+dobj(place-1, egg-2)
+amod(pan-6, hot-4)
+amod(pan-6, oiled-5)
+prep_in(place-1, pan-6)
+
+prep_until(cook-1, half-3)
+partmod(half-3, cooked-4)
+
+dobj(add-1, vegetables-2)
+dobj(add-1, cheese-4)
+conj_and(vegetables-2, cheese-4)
+
+advmod(cooked-3, when-1)
+advmod(cooked-3, fully-2)
+csubj(fold-4, cooked-3)
+prep_in(fold-4, half-6)
+
+prep_from(remove-1, pan-3)
+conj_and(remove-1, serve-5)
+
+amod(eggs-3, open-2)
+dobj(crack-1, eggs-3)
+prep_into(crack-1, bowl-5)
+
+dobj(scramble-1, eggs-2)
+
+amod(vegetables-4, other-3)
+prep_in(mix-1, vegetables-4)
+
+dobj(heat-1, mixture-2)
+amod(heat-5, low-4)
+prep_over(heat-1, heat-5)
+det(saucepan-8, a-7)
+prep_on(heat-1, saucepan-8)
+
+acomp(serve-1, hot-2)
+
+dobj(crack-1, egg-2)
+
+dobj(mix-1, egg-2)
+
+dobj(cook-1, egg-2)
+prep_in(cook-1, pan-4)
+
+dobj(add-1, vegetables-2)
+
+dobj(add-1, cheese-2)
+
+dobj(fold-1, egg-2)
+prep_in(fold-1, half-4)
+
+prep_from(remove-1, pan-3)
+conj_and(remove-1, serve-5)
+
+dobj(wash-1, pan-2)
+conj_and(wash-1, put-4)
+prep_on(put-4, stove-6)
+
+prep_on(turn-1, stove-3)
+
+dobj(crack-1, egg-2)
+prep_in(crack-1, bowl-4)
+conj_and(crack-1, beat-6)
+
+amod(peppers-3, onions-2)
+iobj(cut-1, peppers-3)
+dobj(cut-1, etc-4)
+conj_and(cut-1, put-6)
+prep_in(put-6, pan-8)
+
+dobj(put-1, egg-2)
+prep_in(put-1, pan-4)
+
+dobj(flip-1, omelette-2)
+
+prt(turn-1, off-2)
+dobj(turn-1, stove-3)
+conj_and(turn-1, serve-5)
+dobj(serve-5, omelette-6)
+prep_on(serve-5, plate-8)
+
+prt(take-1, out-2)
+dobj(take-1, pan-3)
+dobj(take-1, bowl-5)
+conj_and(pan-3, bowl-5)
+
+prt(take-1, out-2)
+nn(butter-7, eggs-3)
+conj_and(eggs-3, milk-5)
+nn(butter-7, milk-5)
+nn(butter-7, abd-6)
+dobj(take-1, butter-7)
+
+dobj(heat-1, pan-2)
+prep_on(heat-1, medium-4)
+prep_with(heat-1, butter-6)
+
+num(eggs-3, 2-2)
+dobj(crack-1, eggs-3)
+prep_in(crack-1, bowl-5)
+
+prt(take-1, out-2)
+dobj(take-1, fork-3)
+prep_to(take-1, whisk-5)
+
+dobj(add-1, milk-2)
+dobj(add-1, mix-4)
+conj_and(milk-2, mix-4)
+
+aux(pan-3, to-2)
+xcomp(add-1, pan-3)
+
+dobj(open-1, fridge-2)
+
+det(egg-3, an-2)
+dobj(get-1, egg-3)
+
+dobj(crack-1, egg-2)
+
+prep_in(put-1, pan-3)
+
+amod(vegetables-3, preferred-2)
+dobj(chop-1, vegetables-3)
+
+dobj(add-1, vegetables-2)
+
+dobj(cook-1, egg-2)
+
+dobj(crack-1, eggs-2)
+
+dobj(put-1, it-2)
+det(pan-5, the-4)
+prep_in(put-1, pan-5)
+
+dobj(add-1, vegetables-2)
+
+dobj(flip-1, half-2)
+prep_of(half-2, eggs-4)
+prt(flip-1, over-5)
+
+prep_with(serve-1, ketchup-3)
+

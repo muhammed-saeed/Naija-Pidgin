@@ -1,0 +1,615 @@
+det(water-3, some-2)
+dobj(boil-1, water-3)
+
+det(bag-4, a-2)
+nn(bag-4, tea-3)
+dobj(put-1, bag-4)
+det(cup-7, the-6)
+prep_in(bag-4, cup-7)
+
+det(water-4, the-2)
+amod(water-4, hot-3)
+dobj(pour-1, water-4)
+det(cup-7, the-6)
+prep_into(pour-1, cup-7)
+det(bag-11, the-9)
+nn(bag-11, tea-10)
+prep_over(cup-7, bag-11)
+
+det(cup-3, the-2)
+dobj(cover-1, cup-3)
+conj_and(cover-1, wait-5)
+num(minutes-8, 5-7)
+prep_for(wait-5, minutes-8)
+
+det(bag-4, the-2)
+nn(bag-4, tea-3)
+dobj(remove-1, bag-4)
+
+dobj(heat-1, water-2)
+
+det(cup-3, a-2)
+dobj(pour-1, cup-3)
+prep_of(cup-3, water-5)
+
+det(bag-4, a-2)
+nn(bag-4, tea-3)
+dobj(add-1, bag-4)
+det(cup-7, the-6)
+prep_to(add-1, cup-7)
+prep_of(cup-7, water-9)
+
+
+det(teapot-3, a-2)
+dobj(take-1, teapot-3)
+
+det(tealeaves-4, some-2)
+amod(tealeaves-4, dry-3)
+dobj(put-1, tealeaves-4)
+det(teapot-7, the-6)
+prep_into(put-1, teapot-7)
+
+amod(water-3, boiled\/hot-2)
+dobj(pour-1, water-3)
+det(teapot-6, the-5)
+prep_into(pour-1, teapot-6)
+
+num(minutes-4, 2-3)
+prep_for(wait-1, minutes-4)
+
+det(tea-3, the-2)
+dobj(pour-1, tea-3)
+det(cup-6, a-5)
+prep_into(pour-1, cup-6)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, tea-2)
+
+dobj(remove-1, teapot-2)
+prep_from(remove-1, stove-4)
+
+dobj(get-1, tea-2)
+
+dobj(boil-1, water-2)
+
+nn(tea-2, place-1)
+nsubj(leaves-3, tea-2)
+amod(water-6, bioling-5)
+prep_in(leaves-3, water-6)
+
+prt(turn-1, off-2)
+dobj(turn-1, stove-3)
+
+aux(cool-3, to-2)
+xcomp(leave-1, cool-3)
+prt(cool-3, down-4)
+
+dobj(pour-1, water-2)
+prep_in(pour-1, pot-4)
+
+dobj(boil-1, water-2)
+
+nsubj(put-1, tea-2)
+dep(put-1, leaves-3)
+prep_in(leaves-3, pot-5)
+
+det(while-5, a-3)
+amod(while-5, little-4)
+prep_for(wait-1, while-5)
+
+dobj(remove-1, pot-2)
+prep_from(remove-1, stove-4)
+
+dobj(boil-1, water-2)
+
+advmod(add-4, when-1)
+nn(boils-3, water-2)
+nsubj(add-4, boils-3)
+csubj(leaves-6, add-4)
+dobj(add-4, tea-5)
+
+dobj(remove-1, water-2)
+prep_from(remove-1, stove-4)
+
+det(minutes-5, a-3)
+amod(minutes-5, few-4)
+prep_for(wait-1, minutes-5)
+
+dobj(boil-1, water-2)
+
+advmod(add-4, when-1)
+nn(boils-3, water-2)
+nsubj(add-4, boils-3)
+csubj(leaves-6, add-4)
+dobj(add-4, tea-5)
+
+det(couple-4, a-3)
+prep_for(wait-1, couple-4)
+prep_of(couple-4, minutes-6)
+
+dobj(remove-1, teapot-2)
+prep_from(remove-1, stove-4)
+
+dobj(boil-1, water-2)
+nn(pot-5, tea-4)
+prep_in(boil-1, pot-5)
+
+advmod(boiling-4, when-1)
+nsubj(boiling-4, water-2)
+aux(boiling-4, is-3)
+csubj(leaves-7, boiling-4)
+ccomp(boiling-4, add-5)
+dobj(add-5, tea-6)
+
+nn(pot-3, tea-2)
+dobj(remove-1, pot-3)
+prep_from(remove-1, stove-5)
+
+det(minutes-5, a-3)
+amod(minutes-5, few-4)
+prep_for(leave-1, minutes-5)
+
+nn(mix-3, tea-2)
+dobj(locate-1, mix-3)
+
+nn(mix-3, tea-2)
+dobj(place-1, mix-3)
+det(cup-7, an-5)
+amod(cup-7, empty-6)
+prep_in(mix-3, cup-7)
+
+dobj(pour-1, water-2)
+det(cup-5, the-4)
+prep_into(pour-1, cup-5)
+
+det(ingredients-3, the-2)
+dobj(mix-1, ingredients-3)
+det(cup-6, the-5)
+prep_in(ingredients-3, cup-6)
+
+det(tea-3, the-2)
+dobj(enjoy-1, tea-3)
+
+dobj(fill-1, pot-2)
+prep_with(fill-1, water-4)
+
+dobj(heat-1, water-2)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, cup-4)
+
+dobj(place-1, tea-packet-2)
+prep_into(place-1, cup-4)
+
+mark(darkened-5, until-2)
+nsubj(darkened-5, water-3)
+dep(darkened-5, has-4)
+advcl(wait-1, darkened-5)
+amod(color-8, desired-7)
+prep_to(darkened-5, color-8)
+
+dobj(remove-1, tea-packet-2)
+prep_with(remove-1, spoon-4)
+
+dobj(boil-1, water-2)
+
+dobj(pour-1, water-2)
+det(mug-5, a-4)
+prep_in(pour-1, mug-5)
+
+det(bag-4, a-2)
+nn(bag-4, tea-3)
+dobj(put-1, bag-4)
+det(mug-7, the-6)
+prep_in(put-1, mug-7)
+
+dobj(put-1, sugar-2)
+dobj(put-1, milk-4)
+conj_and(sugar-2, milk-4)
+det(mug-7, the-6)
+prep_in(put-1, mug-7)
+
+prt(take-1, out-2)
+det(bag-5, the-3)
+nn(bag-5, tea-4)
+dobj(take-1, bag-5)
+
+dobj(fill-1, teapot-2)
+prep_with(fill-1, water-4)
+
+dobj(place-1, teapot-2)
+nn(burner-5, stove-4)
+prep_on(place-1, burner-5)
+
+advmod(turn-4, when-1)
+nn(boils-3, water-2)
+nsubj(turn-4, boils-3)
+prt(turn-4, off-5)
+dobj(turn-4, stove-6)
+
+dobj(add-1, tea-2)
+prep_to(add-1, teapot-4)
+
+dobj(fill-1, teapot-2)
+prep_with(fill-1, water-4)
+
+dobj(place-1, teapot-2)
+prep_on(place-1, stove-4)
+
+prep_on(turn-1, stove-3)
+
+advmod(turn-4, when-1)
+nn(boils-3, water-2)
+nsubj(turn-4, boils-3)
+prt(turn-4, off-5)
+dobj(turn-4, stove-6)
+
+dobj(place-1, tea-2)
+prep_in(place-1, teapot-4)
+
+det(water-3, some-2)
+dobj(boil-1, water-3)
+det(kettle-6, a-5)
+prep_in(boil-1, kettle-6)
+
+det(cup-3, a-2)
+dobj(get-1, cup-3)
+
+det(bag-3, a-2)
+dobj(get-1, bag-3)
+prep_of(bag-3, tea-5)
+
+det(bag-3, the-2)
+dobj(put-1, bag-3)
+prep_of(bag-3, tea-5)
+det(cup-8, the-7)
+prep_in(tea-5, cup-8)
+
+det(water-4, the-2)
+amod(water-4, boiling-3)
+dobj(pour-1, water-4)
+det(cup-7, the-6)
+prep_into(pour-1, cup-7)
+
+det(tea-3, the-2)
+dobj(let-1, tea-3)
+dep(let-1, sit-4)
+det(cup-7, the-6)
+prep_in(sit-4, cup-7)
+quantmod(2-10, about-9)
+num(minutes-11, 2-10)
+prep_for(cup-7, minutes-11)
+
+det(bag-3, the-2)
+dobj(remove-1, bag-3)
+prep_of(bag-3, tea-5)
+conj_and(remove-1, discard-7)
+dobj(discard-7, it-8)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, tea-2)
+
+dobj(add-1, sugar-2)
+
+dobj(add-1, cream-2)
+
+dobj(put-1, it-2)
+det(teapot-5, a-4)
+prep_in(put-1, teapot-5)
+
+dobj(heat-1, water-2)
+
+dobj(select-1, teabag-2)
+
+dobj(place-1, teabag-2)
+prep_in(teabag-2, cup-4)
+
+dep(pour-1, boiling-2)
+dobj(boiling-2, water-3)
+prep_into(boiling-2, cup-5)
+
+number(10-4, 3-2)
+dep(10-4, to-3)
+num(minutes-5, 10-4)
+tmod(wait-1, minutes-5)
+
+nn(bag-3, tea-2)
+dobj(remove-1, bag-3)
+
+dobj(heat-1, water-2)
+
+dobj(soak-1, tea-2)
+prep_in(soak-1, water-4)
+
+num(minutes-3, five-2)
+dobj(wait-1, minutes-3)
+
+amod(tea-3, soaking-2)
+dobj(extract-1, tea-3)
+
+
+dobj(boil-1, water-2)
+
+amod(water-3, hot-2)
+dobj(pour-1, water-3)
+
+prep_in(place-1, teabag-3)
+
+dobj(boil-1, water-2)
+
+prep_in(add-1, tea-3)
+
+num(minutes-3, 2-2)
+dobj(wait-1, minutes-3)
+
+dobj(boil-1, water-2)
+det(kettle-5, the-4)
+prep_in(boil-1, kettle-5)
+
+prt(scoop-1, up-2)
+det(leaves-5, some-3)
+nn(leaves-5, tea-4)
+dobj(scoop-1, leaves-5)
+det(teaball-8, the-7)
+prep_into(scoop-1, teaball-8)
+
+dobj(boil-1, water-2)
+det(kettle-5, the-4)
+prep_in(boil-1, kettle-5)
+
+prt(scoop-1, up-2)
+det(leaves-5, some-3)
+nn(leaves-5, tea-4)
+dobj(scoop-1, leaves-5)
+det(teaball-8, the-7)
+prep_into(scoop-1, teaball-8)
+
+det(terapot-3, the-2)
+dobj(warm-1, terapot-3)
+prepc_with(terapot-3, boiling-5)
+dobj(boiling-5, water-6)
+
+dobj(boil-1, water-2)
+det(kettle-5, the-4)
+prep_in(boil-1, kettle-5)
+
+prt(scoop-1, up-2)
+det(leaves-5, some-3)
+nn(leaves-5, tea-4)
+dobj(scoop-1, leaves-5)
+det(teaball-8, the-7)
+prep_into(scoop-1, teaball-8)
+
+det(teapot-3, the-2)
+dobj(warm-1, teapot-3)
+prepc_with(teapot-3, boiling-5)
+dobj(boiling-5, water-6)
+
+det(water-3, the-2)
+dobj(pour-1, water-3)
+det(teapot-7, the-6)
+prep_out_of(pour-1, teapot-7)
+
+dobj(putthe-1, teaball-2)
+det(teapot-5, the-4)
+prep_into(putthe-1, teapot-5)
+
+dobj(put-1, water-2)
+nn(kettle-5, tea-4)
+prep_in(put-1, kettle-5)
+
+nn(kettle-3, tea-2)
+dobj(put-1, kettle-3)
+prep_on(put-1, stove-5)
+
+nn(bag-3, tea-2)
+dobj(put-1, bag-3)
+prep_in(put-1, mug-5)
+
+amod(water-3, hot-2)
+dobj(pour-1, water-3)
+nn(bag-6, tea-5)
+prep_over(pour-1, bag-6)
+prep_in(pour-1, mug-8)
+
+amod(tea-2, steep-1)
+
+
+dobj(boil-1, water-2)
+
+nn(bag-3, tea-2)
+dobj(place-1, bag-3)
+nn(cup-6, coffee-5)
+prep_in(bag-3, cup-6)
+
+dobj(add-1, water-2)
+
+prep_to(allow-1, steep-3)
+
+nn(bag-3, tea-2)
+dobj(remove-1, bag-3)
+
+nn(burner-3, stove-2)
+dobj(turn-1, burner-3)
+prt(turn-1, on-4)
+
+nn(pot-3, tea-2)
+dobj(fill-1, pot-3)
+prep_with(fill-1, water-5)
+
+nn(pot-3, tea-2)
+dobj(place-1, pot-3)
+prep_on(place-1, burner-5)
+
+dobj(fill-1, kettle-2)
+prep_with(fill-1, water-4)
+
+dobj(boil-1, water-2)
+
+dobj(warm-1, teapot-2)
+amod(water-5, hot-4)
+prep_with(warm-1, water-5)
+
+nn(bag-3, tea-2)
+dobj(place-1, bag-3)
+prep_in(place-1, teapot-5)
+
+amod(water-3, boiled-2)
+dobj(add-1, water-3)
+prep_to(add-1, teapot-5)
+
+dobj(let-1, tea-2)
+amod(tea-2, steep-3)
+amod(minutes-5, several-4)
+tmod(let-1, minutes-5)
+
+prep_into(pour-1, teacups-3)
+
+dep(want-5, picking-1)
+det(tea-3, the-2)
+dobj(picking-1, tea-3)
+nsubj(want-5, you-4)
+
+det(package-3, the-2)
+dobj(opening-1, package-3)
+
+dobj(putting-1, water-2)
+det(cup-5, a-4)
+prep_in(putting-1, cup-5)
+
+nn(bag-3, tea-2)
+dobj(put-1, bag-3)
+prep_in(bag-3, cup-5)
+
+nn(seep-3, tea-2)
+dobj(let-1, seep-3)
+
+nn(bag-3, tea-2)
+dobj(take-1, bag-3)
+prep_out_of(take-1, cup-6)
+
+dobj(drink-1, tea-2)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, teabag-2)
+prep_to(add-1, cup-4)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, cup-4)
+
+dobj(boil-1, water-2)
+
+nn(pot-3, tea-2)
+dobj(heat-1, pot-3)
+
+dobj(add-1, teabag-2)
+nn(pot-5, tea-4)
+prep_to(add-1, pot-5)
+
+amod(water-3, boiled-2)
+dobj(add-1, water-3)
+
+acomp(let-1, steep-2)
+
+
+dobj(locate-1, kettle-2)
+
+dobj(pour-1, water-2)
+prep_in(pour-1, kettle-4)
+
+prep_on(turn-1, kettle-3)
+aux(boil-5, to-4)
+xcomp(turn-1, boil-5)
+dobj(boil-5, water-6)
+
+amod(water-3, boiled-2)
+dobj(pour-1, water-3)
+prep_in(pour-1, mug-5)
+
+nn(bag-3, tea-2)
+dobj(add-1, bag-3)
+prep(add-1, for-4)
+advmod(long-6, as-5)
+pobj(for-4, long-6)
+nsubj(desired-8, as-7)
+rcmod(long-6, desired-8)
+
+dobj(boil-1, water-2)
+
+nn(bag-3, tea-2)
+dobj(place-1, bag-3)
+prep_in(place-1, teapot-5)
+
+dobj(add-1, water-2)
+prep_to(add-1, teapot-4)
+
+dobj(let-1, tea-2)
+dep(let-1, steep-3)
+
+
+dobj(boil-1, water-2)
+
+nn(bag-3, tea-2)
+dobj(add-1, bag-3)
+det(water-7, the-5)
+amod(water-7, boiled-6)
+prep_to(add-1, water-7)
+
+num(minutes-3, 2-3-2)
+dobj(wait-1, minutes-3)
+
+nn(bag-3, tea-2)
+dobj(remove-1, bag-3)
+prep_from(remove-1, water-5)
+
+dobj(serve-1, tea-2)
+det(cup-5, a-4)
+prep_in(tea-2, cup-5)
+
+nn(cream-3, milk-2)
+dobj(add-1, cream-3)
+dobj(add-1, sugar-5)
+conj_or(cream-3, sugar-5)
+
+det(pot-4, a-2)
+nn(pot-4, tea-3)
+dobj(get-1, pot-4)
+
+det(kettle-3, a-2)
+dobj(locate-1, kettle-3)
+aux(boil-5, to-4)
+infmod(kettle-3, boil-5)
+dobj(boil-5, water-6)
+
+det(kettle-3, the-2)
+dobj(fill-1, kettle-3)
+prep_with(fill-1, water-5)
+
+det(water-3, the-2)
+dobj(boil-1, water-3)
+
+dobj(put-1, tea-2)
+det(pot-6, the-4)
+nn(pot-6, tea-5)
+prep_in(put-1, pot-6)
+
+det(pot-4, the-2)
+nn(pot-4, tea-3)
+dobj(fill-1, pot-4)
+amod(water-7, boiled-6)
+prep_with(fill-1, water-7)
+
+aux(enjoy-10, let-1)
+det(tea-3, the-2)
+nsubj(enjoy-10, tea-3)
+amod(tea-3, steep-4)
+det(time-8, the-6)
+amod(time-8, recommended-7)
+prep_for(steep-4, time-8)
+advmod(enjoy-10, then-9)
+
+dobj(boil-1, water-2)
+

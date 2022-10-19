@@ -1,0 +1,736 @@
+dobj(take-1, leash-2)
+
+dobj(take-1, dog-2)
+
+dobj(attach-1, leach-2)
+prep_to(attach-1, dog-4)
+
+prt(go-1, out-2)
+prep_with(go-1, dog-4)
+
+prt(get-1, up-2)
+
+det(leash-3, the-2)
+dobj(put-1, leash-3)
+det(dog-6, the-5)
+prep_on(put-1, dog-6)
+
+det(door-4, the-3)
+prep_out(walk-1, door-4)
+
+det(dog-3, the-2)
+dobj(walk-1, dog-3)
+
+advmod(come-1, back-2)
+dep(back-2, home-3)
+
+det(leash-3, the-2)
+dobj(take-1, leash-3)
+prt(take-1, off-4)
+
+det(dog-3, the-2)
+dobj(find-1, dog-3)
+
+det(leash-3, a-2)
+dobj(find-1, leash-3)
+
+det(leash-3, the-2)
+dobj(attach-1, leash-3)
+det(dog-6, the-5)
+prep_to(attach-1, dog-6)
+
+aux(using-4, walk-1)
+det(dog-3, the-2)
+nsubj(using-4, dog-3)
+det(leash-6, the-5)
+dobj(using-4, leash-6)
+
+det(leash-3, a-2)
+dobj(find-1, leash-3)
+
+det(leash-3, the-2)
+dobj(attach-1, leash-3)
+det(dog-6, the-5)
+prep_to(attach-1, dog-6)
+
+det(dog-3, the-2)
+dobj(take-1, dog-3)
+prep(take-1, outside-4)
+
+prep_on(walk-1, sidewalks-3)
+prep_on(walk-1, ground-5)
+conj_and(sidewalks-3, ground-5)
+det(dog-8, the-7)
+prep_with(walk-1, dog-8)
+
+det(leash-4, a-2)
+nn(leash-4, dog-3)
+dobj(locate-1, leash-4)
+
+det(collar-4, a-2)
+nn(collar-4, dog-3)
+dobj(locate-1, collar-4)
+
+det(dog-3, a-2)
+dobj(locate-1, dog-3)
+
+advmod(fasten-2, securely-1)
+det(collar-4, the-3)
+dobj(fasten-2, collar-4)
+det(dog-7, the-6)
+prep_to(fasten-2, dog-7)
+
+det(leash-3, the-2)
+dobj(clip-1, leash-3)
+det(collar-6, the-5)
+prep_to(clip-1, collar-6)
+
+advmod(grasp-2, securely-1)
+det(leash-4, the-3)
+dobj(grasp-2, leash-4)
+
+advmod(walk-1, outside-2)
+det(dog-5, the-4)
+prep_with(walk-1, dog-5)
+
+dobj(put-1, leash-2)
+prep_on(put-1, dog-4)
+
+dobj(take-1, dog-2)
+prep(take-1, outside-3)
+
+dobj(choose-1, path-2)
+aux(walk-4, to-3)
+infmod(path-2, walk-4)
+amod(choices-7, available-6)
+prep_from(walk-4, choices-7)
+
+amod(path-3, selected-2)
+dobj(follow-1, path-3)
+poss(end-6, its-5)
+prep_to(follow-1, end-6)
+
+advmod(return-2, then-1)
+advmod(return-2, back-3)
+dep(back-3, home-4)
+
+det(leash-3, a-2)
+dobj(attach-1, leash-3)
+det(dog-6, the-5)
+prep_to(attach-1, dog-6)
+
+dobj(hold-1, leash-2)
+
+dobj(take-1, dog-2)
+prepc_along(take-1, walking-4)
+dobj(walking-4, route-5)
+
+nn(point-4, starting-3)
+prep_to(return-1, point-4)
+
+dobj(remove-1, leash-2)
+prep_from(remove-1, dog-4)
+
+prt(put-1, away-2)
+dobj(put-1, leash-3)
+
+det(leash-4, the-3)
+prep_out(get-1, leash-4)
+
+csubj(collar-8, hook-1)
+det(leash-3, the-2)
+dobj(hook-1, leash-3)
+det(dog-6, the-5)
+prep_onto(hook-1, dog-6)
+cop(collar-8, s-7)
+
+det(leash-3, the-2)
+dobj(grasp-1, leash-3)
+
+advmod(go-1, outside-2)
+
+det(block-4, the-3)
+prep_around(walk-1, block-4)
+
+advmod(inside-3, back-2)
+advmod(come-1, inside-3)
+
+det(leash-3, the-2)
+dobj(unhook-1, leash-3)
+
+dobj(get-1, dog-2)
+
+dobj(place-1, leash-2)
+
+nn(ouside-3, dog-2)
+dobj(take-1, ouside-3)
+
+nn(leash-5, dog-3)
+amod(leash-5, holding-4)
+prep_with(walk-1, leash-5)
+
+advmod(get-1, back-2)
+
+dobj(remove-1, leash-2)
+
+dobj(call-1, dog-2)
+
+dobj(put-1, leach-2)
+prep_on(put-1, dog-4)
+
+dobj(take-1, dog-2)
+prep(take-1, outside-3)
+
+prep_with(walk-1, dog-3)
+prep(walk-1, outside-4)
+
+advmod(come-1, back-2)
+prep_to(come-1, house-4)
+
+dobj(take-1, leach-2)
+prt(take-1, off-3)
+
+dobj(clean-1, dog-2)
+
+dobj(call-1, dog-2)
+
+dobj(put-1, leach-2)
+prep_on(put-1, dog-4)
+
+dobj(take-1, dog-2)
+prep(take-1, outside-3)
+
+prep_with(walk-1, dog-3)
+
+advmod(come-1, back-2)
+prep_to(come-1, house-4)
+
+dobj(enter-1, house-2)
+
+prt(take-1, off-2)
+dobj(take-1, leach-3)
+
+det(dog-3, the-2)
+dobj(find-1, dog-3)
+
+det(leash-3, a-2)
+dobj(find-1, leash-3)
+
+csubj(collar-8, attach-1)
+det(leash-3, the-2)
+dobj(attach-1, leash-3)
+det(dog-6, the-5)
+prep_to(attach-1, dog-6)
+cop(collar-8, s-7)
+
+det(dog-3, the-2)
+dobj(talk-1, dog-3)
+prep(talk-1, outside-4)
+
+csubj(move-4, holding-1)
+det(leash-3, the-2)
+dobj(holding-1, leash-3)
+prt(move-4, around-5)
+det(sidewalks-8, the-7)
+prep_on(move-4, sidewalks-8)
+partmod(sidewalks-8, allowing-9)
+det(dog-11, the-10)
+nsubj(walk-13, dog-11)
+aux(walk-13, to-12)
+xcomp(allowing-9, walk-13)
+
+det(dog-3, the-2)
+dobj(get-1, dog-3)
+
+det(leash-3, the-2)
+dobj(puth-1, leash-3)
+det(dog-6, the-5)
+prep_on(puth-1, dog-6)
+
+det(dog-3, the-2)
+dobj(take-1, dog-3)
+prep(take-1, outside-4)
+
+det(place-3, a-2)
+dobj(choose-1, place-3)
+aux(walk-5, to-4)
+infmod(place-3, walk-5)
+prep(walk-5, to-6)
+
+aux(walk-4, have-1)
+det(dog-3, the-2)
+dobj(walk-4, dog-3)
+advmod(walk-4, back-5)
+advmod(walk-4, forth-7)
+conj_and(back-5, forth-7)
+det(location-10, the-9)
+prep_from(walk-4, location-10)
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+
+poss(lead-4, its-3)
+prep_on(put-1, lead-4)
+
+dobj(take-1, dog-2)
+det(road-5, the-4)
+prep_down(take-1, road-5)
+
+det(leash-3, a-2)
+dobj(get-1, leash-3)
+
+det(dog-3, the-2)
+dobj(get-1, dog-3)
+
+det(leash-3, the-2)
+dobj(put-1, leash-3)
+det(dog-6, the-5)
+prep_on(put-1, dog-6)
+
+det(dog-3, the-2)
+dobj(take-1, dog-3)
+prep(take-1, outside-4)
+
+det(dog-4, the-3)
+prep_with(walk-1, dog-4)
+
+dobj(put-1, collar-2)
+prep_on(put-1, dog-4)
+
+dobj(attach-1, leash-2)
+prep_to(attach-1, collar-4)
+
+advmod(go-1, outside-2)
+prep_with(go-1, dog-4)
+
+det(walk-3, a-2)
+dobj(take-1, walk-3)
+
+dobj(scoop-1, poop-2)
+
+dobj(return-1, home-2)
+
+dobj(remove-1, leash-2)
+dobj(remove-1, collar-4)
+conj_and(leash-2, collar-4)
+prep_from(remove-1, dog-6)
+
+dobj(get-1, leash-2)
+
+dobj(put-1, leash-2)
+prep_on(put-1, dog-4)
+
+advmod(go-1, outside-2)
+
+prep_with(walk-1, dog-3)
+mark(holding-5, while-4)
+advcl(walk-1, holding-5)
+dobj(holding-5, leash-6)
+
+advmod(go-1, inside-2)
+
+dobj(take-1, leash-2)
+prep_off_of(take-1, dog-5)
+
+prt(put-1, away-2)
+dobj(put-1, leash-3)
+
+dobj(attach-1, leash-2)
+prepc_to(attach-1, dog-4)
+iobj(dog-4, s-5)
+dobj(dog-4, collar-6)
+
+dobj(take-1, dog-2)
+prep(take-1, outside-3)
+
+dobj(walk-1, dog-2)
+
+nn(point-4, starting-3)
+prep_to(return-1, point-4)
+
+det(leash-3, the-2)
+dobj(get-1, leash-3)
+
+det(leash-3, the-2)
+dobj(put-1, leash-3)
+det(dog-6, the-5)
+prep_on(put-1, dog-6)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+advmod(go-1, outside-2)
+det(dog-5, the-4)
+prep_with(go-1, dog-5)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+
+det(dog-3, the-2)
+dobj(find-1, dog-3)
+
+det(dog-3, the-2)
+dep(leash-1, dog-3)
+
+dobj(take-1, dog-2)
+prep(take-1, outside-3)
+
+det(dog-4, the-3)
+prep_with(walk-1, dog-4)
+
+prep_to(return-1, home-3)
+
+dobj(unleash-1, dog-2)
+
+det(dog-3, the-2)
+dobj(identify-1, dog-3)
+dobj(need-5, dog-3)
+nsubj(need-5, you-4)
+xsubj(walk-7, you-4)
+rcmod(dog-3, need-5)
+aux(walk-7, to-6)
+xcomp(need-5, walk-7)
+
+csubj(leash-5, get-1)
+det(dog-3, the-2)
+dobj(get-1, dog-3)
+cop(leash-5, s-4)
+
+det(leash-3, the-2)
+dobj(put-1, leash-3)
+det(dog-6, the-5)
+prep_on(put-1, dog-6)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(door-4, the-3)
+prep_out(walk-1, door-4)
+partmod(door-4, guiding-5)
+det(dog-7, the-6)
+dobj(guiding-5, dog-7)
+det(leash-10, the-9)
+prep_on(guiding-5, leash-10)
+
+aux(go-4, let-1)
+det(dog-3, the-2)
+nsubj(go-4, dog-3)
+det(bathroom-7, the-6)
+prep_to(go-4, bathroom-7)
+
+det(dog-3, the-2)
+dobj(bring-1, dog-3)
+advmod(bring-1, back-4)
+det(house-7, the-6)
+prep_in(bring-1, house-7)
+
+dobj(place-1, collar-2)
+prep_around(place-1, neck-4)
+prep_of(neck-4, dog-6)
+
+dobj(attach-1, leash-2)
+prep_to(attach-1, collar-4)
+
+dobj(walk-1, dog-2)
+
+dobj(put-1, dog-2)
+prep_on(put-1, leash-4)
+
+prep_with(walk-1, dog-3)
+prep_on(walk-1, leash-5)
+prep_around(leash-5, neighborhood-7)
+
+dobj(return-1, home-2)
+
+dobj(take-1, dog-2)
+prep_off(take-1, leash-4)
+
+dobj(call-1, dog-2)
+
+dobj(get-1, lead-2)
+
+dobj(put-1, lead-2)
+prep_on(put-1, dog-4)
+
+dobj(hold-1, lead-2)
+
+dobj(lead-1, dog-2)
+prep(lead-1, outside-3)
+
+prep_with(walk-1, dog-3)
+
+dobj(return-1, home-2)
+
+dobj(locate-1, dog-2)
+
+dobj(put-1, leash-2)
+prep_on(put-1, dog-4)
+
+dobj(bring-1, bags-2)
+prep_for(bags-2, waste-4)
+
+poss(shoes-4, my-3)
+prep_on(put-1, shoes-4)
+prep_on(put-1, coat-6)
+conj_and(shoes-4, coat-6)
+
+dobj(leave-1, house-2)
+conj_and(leave-1, lock-4)
+dobj(lock-4, door-5)
+
+prt(walk-1, down-2)
+det(walkway-4, the-3)
+dobj(walk-1, walkway-4)
+
+dobj(follow-1, sidewalk-2)
+det(park-5, the-4)
+prep_to(follow-1, park-5)
+
+advmod(go-1, back-2)
+dep(back-2, home-3)
+conj_and(go-1, unleash-5)
+dobj(unleash-5, dog-6)
+
+dobj(put-1, leash-2)
+prep_on(put-1, dog-4)
+
+dobj(take-1, dog-2)
+prep_to(take-1, park-4)
+
+det(dog-3, the-2)
+dobj(walk-1, dog-3)
+
+aux(let-3, do-1)
+neg(let-3, not-2)
+nn(run-5, dog-4)
+dobj(let-3, run-5)
+advmod(let-3, wildly-6)
+conj_or(let-3, bite-8)
+dobj(bite-8, people-9)
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+prep_to(call-1, you-5)
+
+dobj(put-1, collar-2)
+prep_on(put-1, dog-4)
+
+dobj(attach-1, leash-2)
+prep_to(attach-1, collar-4)
+
+prt(hold-1, on-2)
+nn(loop-5, leash-4)
+prep_to(hold-1, loop-5)
+
+dobj(open-1, door-2)
+
+nn(walk-4, dog-2)
+amod(walk-4, outside-3)
+dobj(take-1, walk-4)
+prt(take-1, around-5)
+
+dobj(return-1, dog-2)
+prep(return-1, to-3)
+pobj(to-3, indoors-4)
+conj_and(return-1, remove-6)
+dobj(remove-6, leash-7)
+dobj(remove-6, collar-9)
+conj_and(leash-7, collar-9)
+
+dobj(get-1, leash-2)
+
+prep_on(put-1, dog-3)
+
+advmod(go-1, outside-2)
+
+det(walk-4, a-3)
+prep_for(go-1, walk-4)
+partmod(walk-4, come-5)
+advmod(inside-7, back-6)
+advmod(come-5, inside-7)
+
+nsubj(chain-1, dog-2)
+
+dobj(take-1, dog-2)
+prep(take-1, out-3)
+dep(out-3, for-4)
+pobj(for-4, walk-5)
+
+dobj(summon-1, dog-2)
+
+dobj(put-1, leash-2)
+nn(collar-5, dog-4)
+prep_on(put-1, collar-5)
+
+advmod(go-1, outside-2)
+
+dobj(walk-1, dog-2)
+prep_around(walk-1, neighborhood-4)
+
+dobj(return-1, home-2)
+
+dobj(take-1, leash-2)
+prep_off(take-1, dog-4)
+
+nn(water-3, dog-2)
+dobj(give-1, water-3)
+aux(drink-5, to-4)
+xcomp(give-1, drink-5)
+
+det(dog-3, the-2)
+dep(leash-1, dog-3)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+dobj(take-1, dog-2)
+prt(take-1, out-3)
+
+det(dog-3, the-2)
+dobj(walk-1, dog-3)
+
+dobj(bring-1, dog-2)
+advmod(bring-1, back-3)
+
+dobj(open-1, door-2)
+
+dobj(put-1, dog-2)
+prep_in(put-1, house-4)
+
+dobj(get-1, leash-2)
+
+dobj(get-1, dog-2)
+
+dobj(attach-1, leash-2)
+prep_to(attach-1, dog-4)
+
+dobj(take-1, dog-2)
+prep_for(take-1, walk-4)
+
+det(dog-3, the-2)
+dobj(take-1, dog-3)
+prep(take-1, outside-4)
+
+det(dog-3, the-2)
+dobj(walk-1, dog-3)
+
+det(leash-3, the-2)
+dobj(get-1, leash-3)
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+
+dobj(hook-1, leash-2)
+nn(collar-5, dog-4)
+prep_to(hook-1, collar-5)
+
+det(dog-3, the-2)
+dobj(walk-1, dog-3)
+
+det(dog-4, the-3)
+prep_with(return-1, dog-4)
+
+dobj(unhook-1, leash-2)
+prep_from(unhook-1, collar-4)
+
+det(collar-3, the-2)
+dobj(put-1, collar-3)
+dobj(put-1, leash-5)
+conj_and(collar-3, leash-5)
+det(dog-8, the-7)
+prep_on(put-1, dog-8)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(dog-3, the-2)
+dobj(take-1, dog-3)
+prep(take-1, outside-4)
+
+det(dog-4, the-3)
+prep_with(walk-1, dog-4)
+
+advmod(return-2, eventually-1)
+dobj(return-2, home-3)
+
+dobj(get-1, leash-2)
+
+dobj(put-1, leash-2)
+prep_on(put-1, dog-4)
+
+dobj(take-1, dog-2)
+prep(take-1, outside-3)
+
+prep_with(walk-1, dog-3)
+
+det(leash-3, the-2)
+dobj(find-1, leash-3)
+
+det(dog-3, the-2)
+dobj(call-1, dog-3)
+
+det(leash-3, the-2)
+dobj(put-1, leash-3)
+prep(put-1, on-4)
+
+prep_out(walk-1, door-3)
+prep_with(walk-1, dog-5)
+
+poss(dog-3, your-2)
+dobj(put-1, dog-3)
+det(leash-6, a-5)
+prep_on(put-1, leash-6)
+
+dep(poops-7, bring-1)
+det(bag-3, a-2)
+dobj(bring-1, bag-3)
+prep_in(bring-1, case-5)
+nsubj(poops-7, he-6)
+
+poss(dog-3, your-2)
+dobj(put-1, dog-3)
+det(leash-6, a-5)
+prep_on(put-1, leash-6)
+
+dep(poops-7, bring-1)
+det(bag-3, a-2)
+dobj(bring-1, bag-3)
+prep_in(bring-1, case-5)
+nsubj(poops-7, he-6)
+
+poss(dog-3, your-2)
+dobj(walk-1, dog-3)
+
+dobj(take-1, coller-2)
+
+dobj(place-1, coller-2)
+prep_on(place-1, dog-4)
+
+advmod(go-1, outside-2)
+
+dobj(take-1, leash-2)
+
+dobj(put-1, leash-2)
+prep_on(put-1, dog-4)
+
+dobj(take-1, dog-2)
+prep(take-1, outside-3)
+
+det(leash-3, a-2)
+dobj(getting-1, leash-3)
+
+det(bag-3, a-2)
+dobj(bringing-1, bag-3)
+
+
+det(dog-3, the-2)
+dobj(dragging-1, dog-3)
+
+det(dog-3, the-2)
+dobj(ordering-1, dog-3)
+
+dobj(poop-1, and-2)
+dep(poop-1, scooping-3)
+
+

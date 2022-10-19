@@ -1,0 +1,555 @@
+dobj(put-1, originals-2)
+nn(machine-5, fax-4)
+prep_in(put-1, machine-5)
+
+nn(number-3, destination-2)
+dobj(dial-1, number-3)
+
+nsubj(send-2, press-1)
+nn(machine-5, fax-4)
+prep_on(send-2, machine-5)
+
+dobj(get-1, number-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, number-2)
+
+nn(tone-4, fax-3)
+prep_for(wait-1, tone-4)
+
+nsubj(send-2, press-1)
+
+nn(number-4, fax-3)
+prep_in(type-1, number-4)
+
+dobj(put-1, document-2)
+aux(be-4, to-3)
+xcomp(put-1, be-4)
+dep(be-4, faxed-5)
+nn(feeder-8, paper-7)
+prep_in(faxed-5, feeder-8)
+
+dep(hit-1, send-2)
+
+mark(gone-5, until-2)
+nsubj(gone-5, document-3)
+aux(gone-5, has-4)
+advcl(wait-1, gone-5)
+prep(gone-5, through-6)
+
+nsubj(successful-5, check-1)
+nsubj(send-3, if-2)
+rcmod(check-1, send-3)
+cop(successful-5, was-4)
+
+det(paper-3, the-2)
+dobj(put-1, paper-3)
+det(fax-6, the-5)
+prep_into(put-1, fax-6)
+
+det(number-3, the-2)
+dobj(dial-1, number-3)
+
+dobj(push-1, start-2)
+
+aux(finish-3, watch-1)
+nsubj(finish-3, it-2)
+dep(finish-3, sending-4)
+
+det(item-4, the-2)
+amod(item-4, sent-3)
+dobj(remove-1, item-4)
+det(tray-7, the-6)
+prep_from(remove-1, tray-7)
+
+det(document-3, the-2)
+dobj(take-1, document-3)
+det(machine-7, the-5)
+nn(machine-7, fax-6)
+prep_to(take-1, machine-7)
+
+aux(facing-7, put-1)
+det(document-3, the-2)
+nsubj(facing-7, document-3)
+det(tray-6, the-5)
+prep_in(document-3, tray-6)
+prt(facing-7, down-8)
+
+det(number-4, the-2)
+nn(number-4, fax-3)
+dobj(dial-1, number-4)
+
+det(button-6, the-2)
+nn(button-6, start-4)
+dobj(press-1, button-6)
+
+dobj(write-1, fax-2)
+
+nn(pages-3, fax-2)
+dobj(put-1, pages-3)
+nn(machine-6, fax-5)
+prep_into(put-1, machine-6)
+
+dobj(dial-1, number-2)
+
+nn(tone-4, fax-3)
+prep_for(wait-1, tone-4)
+
+nsubj(send-2, press-1)
+
+prep_for(wait-1, transmission-3)
+prep_to(wait-1, end-5)
+
+dobj(write-1, fax-2)
+
+dobj(put-1, fax-2)
+nn(machine-5, fax-4)
+prep_in(put-1, machine-5)
+
+dobj(dial-1, number-2)
+
+nn(tone-4, fax-3)
+prep_for(wait-1, tone-4)
+
+nsubj(send-2, press-1)
+
+prt(hang-1, up-2)
+
+dobj(write-1, fax-2)
+
+dobj(insert-1, fax-2)
+nn(machine-5, fax-4)
+prep_into(insert-1, machine-5)
+
+dobj(dial-1, humber-2)
+
+nn(tone-4, fax-3)
+prep_for(wait-1, tone-4)
+
+nsubj(send-2, press-1)
+dobj(send-2, button-3)
+
+mark(transmitted-5, until-2)
+det(fax-4, all-3)
+nsubj(transmitted-5, fax-4)
+advcl(wait-1, transmitted-5)
+
+prt(hang-1, up-2)
+
+dobj(write-1, document-2)
+dobj(write-1, print-4)
+conj_and(document-2, print-4)
+
+dobj(take-1, document-2)
+nn(machine-5, fax-4)
+prep_to(take-1, machine-5)
+
+dobj(insert-1, document-2)
+nn(machine-5, fax-4)
+prep_in(insert-1, machine-5)
+
+dobj(dial-1, number-2)
+
+nn(tone-4, fax-3)
+prep_for(wait-1, tone-4)
+
+nsubj(send-2, press-1)
+
+advmod(hang-3, when-1)
+dep(when-1, finished-2)
+prt(hang-3, up-4)
+
+dobj(select-1, options-2)
+nn(machine-5, fax-4)
+prep_on(select-1, machine-5)
+
+dobj(punch-1, number-2)
+nn(machine-5, fax-4)
+prep_in(number-2, machine-5)
+
+dobj(put-1, document-2)
+aux(sent-5, to-3)
+auxpass(sent-5, be-4)
+xcomp(put-1, sent-5)
+prep_in(sent-5, slot-7)
+
+nsubj(send-2, press-1)
+
+dobj(write-1, fax-2)
+
+dobj(place-1, fax-2)
+nn(machine-5, fax-4)
+prep_in(place-1, machine-5)
+
+dobj(dial-1, number-2)
+
+nn(tone-4, fax-3)
+prep_for(wait-1, tone-4)
+
+nsubj(send-2, press-1)
+
+prep_for(wait-1, fax-3)
+aux(transmit-5, to-4)
+xcomp(wait-1, transmit-5)
+
+dobj(place-1, document-2)
+prep_to(place-1, fax-4)
+nn(machine-7, fax-6)
+prep_into(place-1, machine-7)
+
+prt(pick-1, up-2)
+dobj(pick-1, phone-3)
+
+dobj(dial-1, number-2)
+
+nn(tone-4, fax-3)
+prep_for(wait-1, tone-4)
+
+nsubj(send-2, press-1)
+
+prep_for(wait-1, fax-3)
+aux(finish-5, to-4)
+xcomp(wait-1, finish-5)
+dobj(finish-5, transmission-6)
+
+prt(hang-1, up-2)
+
+nn(number-3, fax-2)
+dobj(locate-1, number-3)
+prep_of(number-3, recipient-5)
+
+nn(number-3, fax-2)
+dobj(dial-1, number-3)
+prep_of(number-3, recipient-5)
+det(machine-9, a-7)
+nn(machine-9, fax-8)
+prep_on(dial-1, machine-9)
+
+dobj(feed-1, message-2)
+prep_to(feed-1, fax-4)
+det(machine-8, the-6)
+nn(machine-8, fax-7)
+prep_into(feed-1, machine-8)
+
+det(fax-3, the-2)
+dobj(transmit-1, fax-3)
+det(recipient-6, the-5)
+prep_to(transmit-1, recipient-6)
+
+det(call-3, the-2)
+dobj(end-1, call-3)
+
+prt(type-1, out-2)
+det(fax-4, the-3)
+dobj(type-1, fax-4)
+
+dobj(print-1, it-2)
+
+det(number-4, the-2)
+nn(number-4, fax-3)
+dobj(enter-1, number-4)
+det(machine-7, the-6)
+prep_in(number-4, machine-7)
+
+det(fax-3, the-2)
+dobj(feed-1, fax-3)
+det(document-6, the-5)
+prep_into(feed-1, document-6)
+
+nsubj(send-2, press-1)
+
+det(fax-3, the-2)
+dobj(insert-1, fax-3)
+det(machine-7, the-5)
+nn(machine-7, fax-6)
+prep_into(insert-1, machine-7)
+
+det(number-5, the-2)
+amod(number-5, recipient-3)
+dep(recipient-3, s-4)
+dobj(dial-1, number-5)
+
+prt(wait-1, for-2)
+ccomp(wait-1, send-4)
+dep(send-4, tone-5)
+
+xcomp(press-1, send-3)
+dobj(send-3, button-5)
+
+nn(material-3, fax-2)
+dobj(get-1, material-3)
+aux(sent-6, to-4)
+auxpass(sent-6, be-5)
+xcomp(get-1, sent-6)
+
+nn(machine-4, fax-3)
+prep_to(go-1, machine-4)
+
+nn(side-4, fax-2)
+nn(side-4, face-3)
+dobj(place-1, side-4)
+prt(place-1, down-5)
+nn(machine-8, fax-7)
+prep_in(place-1, machine-8)
+
+dobj(dial-1, number-2)
+advmod(is-6, where-4)
+nsubj(is-6, fax-5)
+xsubj(sent-9, fax-5)
+prepc_to(dial-1, is-6)
+aux(sent-9, to-7)
+auxpass(sent-9, be-8)
+xcomp(is-6, sent-9)
+
+nsubj(send-2, press-1)
+
+dobj(write-1, letter-2)
+
+dobj(print-1, letter-2)
+
+dobj(put-1, letter-2)
+prep_in(put-1, fax-4)
+
+amod(number-3, recepient-2)
+dobj(type-1, number-3)
+
+nsubj(send-2, press-1)
+
+dobj(place-1, paper-2)
+nn(machine-5, fax-4)
+prep_in(place-1, machine-5)
+
+nn(number-3, fax-2)
+dobj(enter-1, number-3)
+
+dobj(press-1, button-2)
+
+dobj(put-1, fax-2)
+nn(machine-5, fax-4)
+prep_in(put-1, machine-5)
+
+nn(number-3, fax-2)
+dobj(dial-1, number-3)
+
+det(paper-3, the-2)
+dobj(load-1, paper-3)
+det(machine-7, a-5)
+nn(machine-7, fax-6)
+prep_in(load-1, machine-7)
+
+det(number-3, the-2)
+dobj(dial-1, number-3)
+
+nsubj(start-2, press-1)
+xsubj(send-4, press-1)
+aux(send-4, to-3)
+xcomp(start-2, send-4)
+
+det(paper-3, the-2)
+dobj(put-1, paper-3)
+aux(send-5, to-4)
+xcomp(put-1, send-5)
+det(machine-9, the-7)
+nn(machine-9, fax-8)
+prep_in(send-5, machine-9)
+
+det(number-4, the-2)
+nn(number-4, fax-3)
+dobj(dial-1, number-4)
+
+det(fax-4, the-3)
+prep_for(wait-1, fax-4)
+aux(send-6, to-5)
+xcomp(wait-1, send-6)
+
+det(paper-3, the-2)
+dobj(retrieve-1, paper-3)
+det(machine-7, the-5)
+nn(machine-7, fax-6)
+prep_from(retrieve-1, machine-7)
+
+det(paper-3, the-2)
+dobj(file-1, paper-3)
+nsubj(went-5, paper-3)
+rcmod(paper-3, went-5)
+det(machine-9, the-7)
+nn(machine-9, fax-8)
+prep_through(went-5, machine-9)
+
+det(paper-3, the-2)
+dobj(put-1, paper-3)
+det(holder-7, the-5)
+nn(holder-7, fax-6)
+prep_in(put-1, holder-7)
+
+det(number-3, the-2)
+dobj(dial-1, number-3)
+
+nsubj(start-2, press-1)
+
+dobj(write-1, document-2)
+
+dobj(dial-1, number-2)
+
+dobj(insert-1, document-2)
+
+
+det(message-3, a-2)
+dobj(write-1, message-3)
+det(paper-6, a-5)
+prep_in(message-3, paper-6)
+
+det(paper-3, the-2)
+dobj(put-1, paper-3)
+det(machine-7, a-5)
+nn(machine-7, fax-6)
+prep_in(put-1, machine-7)
+
+det(number-3, the-2)
+dobj(dial-1, number-3)
+advmod(want-6, where-4)
+rel(want-6, where-4)
+nsubj(want-6, you-5)
+xsubj(send-8, you-5)
+rcmod(number-3, want-6)
+aux(send-8, to-7)
+xcomp(want-6, send-8)
+
+advmod(start-3, then-1)
+nsubj(start-3, press-2)
+
+dobj(put-1, paper-2)
+det(tray-5, a-4)
+prep_in(put-1, tray-5)
+
+det(number-3, the-2)
+dobj(dial-1, number-3)
+nn(start-6, press-5)
+dobj(dial-1, start-6)
+conj_and(number-3, start-6)
+
+dobj(prepare-1, fax-2)
+
+nn(machine-4, fax-3)
+prep_on(turn-1, machine-4)
+
+acomp(make-1, sure-2)
+det(feed-4, the-3)
+nsubj(clear-6, feed-4)
+cop(clear-6, is-5)
+ccomp(sure-2, clear-6)
+
+dobj(place-1, fax-2)
+prep_into(place-1, feed-4)
+
+det(number-4, the-2)
+amod(number-4, appropriate-3)
+dobj(dial-1, number-4)
+
+csubjpass(completed-6, make-1)
+amod(call-4, sure-2)
+nn(call-4, fax-3)
+dobj(make-1, call-4)
+auxpass(completed-6, is-5)
+
+prt(hang-1, up-2)
+
+dobj(insert-1, paper-2)
+
+det(number-4, the-2)
+nn(number-4, phone-3)
+dep(input-1, number-4)
+
+det(button-4, the-2)
+nn(button-4, start-3)
+dobj(push-1, button-4)
+
+poss(message-3, your-2)
+dobj(write-1, message-3)
+prep_on(write-1, paper-5)
+
+det(machine-5, the-3)
+nn(machine-5, fax-4)
+prep_to(go-1, machine-5)
+
+det(paper-3, the-2)
+dobj(place-1, paper-3)
+det(machine-6, the-5)
+prep_in(place-1, machine-6)
+
+det(number-4, the-2)
+nn(number-4, fax-3)
+dobj(dial-1, number-4)
+
+nsubj(send-3, the-2)
+ccomp(press-1, send-3)
+dobj(send-3, button-4)
+
+nsubj(mind-2, pen-1)
+
+prep_in(feed-1, fax-3)
+
+nn(number-4, fax-3)
+prep_in(type-1, number-4)
+
+nsubj(send-2, press-1)
+
+dobj(retrieve-1, confirmation-2)
+
+dobj(place-1, paper-2)
+prep_in(place-1, fax-4)
+
+dobj(dial-1, number-2)
+
+dobj(send-1, fax-2)
+
+dobj(remove-1, page-2)
+prep_from(remove-1, fax-4)
+
+nn(number-3, fax-2)
+dobj(press-1, number-3)
+
+dobj(insert-1, document-2)
+
+dobj(send-1, fax-2)
+
+det(fax-3, the-2)
+dobj(find-1, fax-3)
+
+dobj(obtain-1, document-2)
+prep_to(obtain-1, fax-4)
+
+nn(machine-4, fax-3)
+prep_to(walk-1, machine-4)
+
+nn(side-4, document-2)
+nn(side-4, face-3)
+dobj(place-1, side-4)
+prt(place-1, down-5)
+nn(machine-8, fax-7)
+prep_onto(place-1, machine-8)
+
+dobj(dail-1, number-2)
+prep_to(dail-1, fax-4)
+
+nsubj(start-2, press-1)
+
+dobj(watch-1, document-2)
+auxpass(faxed-4, be-3)
+dep(watch-1, faxed-4)
+
+dobj(validate-1, document-2)
+rcmod(document-2, was-3)
+ccomp(was-3, faxed-4)
+
+dobj(place-1, paper-2)
+nn(tray-5, fax-4)
+prep_in(place-1, tray-5)
+
+nn(number-3, fax-2)
+dobj(enter-1, number-3)
+
+nsubj(send-2, press-1)
+

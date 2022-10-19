@@ -1,0 +1,309 @@
+dobj(find-1, bill-2)
+
+dobj(write-1, check-2)
+amod(bill-5, specific-4)
+prep_for(check-2, bill-5)
+
+dobj(put-1, bill-2)
+prep_in(put-1, envelope-4)
+nn(stub-7, bill-6)
+prep_with(put-1, stub-7)
+
+nsubj(seal-1, envelope-2)
+
+dobj(stamp-1, envelope-2)
+
+dobj(mail-1, envelope-2)
+
+det(bill-3, each-2)
+pobj(for-1, bill-3)
+
+dobj(write-1, check-2)
+nn(number-5, account-4)
+dobj(write-1, number-5)
+conj_and(check-2, number-5)
+
+dobj(put-1, check-2)
+prep_in(put-1, envelope-4)
+nn(stub-8, bill-7)
+prep_along_with(put-1, stub-8)
+
+amod(bill-2, next-1)
+
+dobj(gather-1, bills-2)
+aux(paid-5, to-3)
+auxpass(paid-5, be-4)
+infmod(bills-2, paid-5)
+
+aux(online-3, to-2)
+xcomp(logon-1, online-3)
+nn(site-5, banking-4)
+dobj(online-3, site-5)
+
+nsubj(amounts-2, input-1)
+xsubj(paid-5, input-1)
+aux(paid-5, to-3)
+auxpass(paid-5, be-4)
+xcomp(amounts-2, paid-5)
+prep_to(paid-5, debtors-7)
+
+dobj(disburse-1, funds-2)
+prep_to(disburse-1, debtors-4)
+nn(account-7, bank-6)
+prep_from(debtors-4, account-7)
+
+det(bills-3, the-2)
+dobj(locate-1, bills-3)
+aux(pay-5, to-4)
+infmod(bills-3, pay-5)
+
+prt(log-1, on-2)
+nn(website-6, bill-4)
+nn(website-6, payment-5)
+prep_to(log-1, website-6)
+
+amod(amount-3, total-2)
+dobj(enter-1, amount-3)
+det(debtor-7, each-6)
+prep_due_to(amount-3, debtor-7)
+
+dobj(disburse-1, funds-2)
+aux(pay-4, to-3)
+xcomp(disburse-1, pay-4)
+dobj(pay-4, debtors-5)
+
+dobj(determine-1, cost-2)
+num(bill-5, one-4)
+prep_of(cost-2, bill-5)
+
+dobj(write-1, check-2)
+det(amount-5, the-4)
+prep_in(write-1, amount-5)
+det(bill-8, this-7)
+prep_of(amount-5, bill-8)
+
+dobj(put-1, check-2)
+prep_into(put-1, envelope-4)
+
+dobj(close-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+nn(envelope-2, address-1)
+nsubj(creditor-6, envelope-2)
+prep_to(envelope-2, bill-4)
+cop(creditor-6, s-5)
+
+det(bill-5, each-3)
+amod(bill-5, other-4)
+prep_with(repeat-1, bill-5)
+
+prep_at(look-1, bills-3)
+
+dobj(write-1, check-2)
+prep_for(check-2, amount-4)
+prep_on(amount-4, bill-6)
+
+nn(check-2, place-1)
+nsubj(provided-5, check-2)
+prep_in(check-2, envelope-4)
+
+dep(necessary-2, if-1)
+csubj(add-3, necessary-2)
+det(stamp-5, a-4)
+dobj(add-3, stamp-5)
+det(envelope-8, the-7)
+prep_to(add-3, envelope-8)
+
+dobj(place-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(place-1, box-5)
+
+dobj(locate-1, bill-2)
+
+dobj(locate-1, money-2)
+
+dobj(take-1, bill-2)
+nn(office-5, post-4)
+prep_to(take-1, office-5)
+
+nn(bill-3, teller-2)
+dobj(give-1, bill-3)
+dobj(give-1, money-5)
+conj_and(bill-3, money-5)
+
+det(reciept-3, the-2)
+dobj(take-1, reciept-3)
+
+dobj(open-1, bills-2)
+
+dobj(write-1, checks-2)
+
+dobj(stuff-1, envelopes-2)
+
+dobj(mail-1, bills-2)
+
+det(bill-3, a-2)
+dobj(find-1, bill-3)
+
+det(amount-3, the-2)
+dobj(find-1, amount-3)
+partmod(amount-3, owed-4)
+
+det(check-3, a-2)
+dobj(write-1, check-3)
+det(amount-6, the-5)
+prep_for(check-3, amount-6)
+partmod(amount-6, owed-7)
+
+det(check-3, the-2)
+dobj(sign-1, check-3)
+
+det(check-3, the-2)
+dobj(put-1, check-3)
+det(envelope-6, an-5)
+prep_in(put-1, envelope-6)
+
+conj_and(stamp-1, address-3)
+det(envelope-5, the-4)
+dobj(address-3, envelope-5)
+
+det(envelope-3, the-2)
+dobj(mail-1, envelope-3)
+
+det(check-3, a-2)
+dobj(make-1, check-3)
+
+det(name-4, the-2)
+amod(name-4, payees-3)
+dobj(write-1, name-4)
+
+det(date-3, the-2)
+dobj(write-1, date-3)
+
+det(amount-3, the-2)
+dobj(write-1, amount-3)
+
+cc(mail-2, and-1)
+
+prep_to(go-1, website-3)
+
+prt(log-1, in-2)
+
+dobj(authorize-1, payment-2)
+
+nn(notices-3, bill-2)
+dobj(gather-1, notices-3)
+
+prt(log-1, on-2)
+nn(website-5, bank-4)
+prep_to(log-1, website-5)
+
+amod(bill-3, online-2)
+dobj(select-1, bill-3)
+dep(select-1, pay-4)
+dobj(pay-4, section-5)
+
+dobj(find-1, payor-2)
+nsubj(matches-4, payor-2)
+rcmod(payor-2, matches-4)
+dobj(matches-4, bill-5)
+
+dobj(put-1, amount-2)
+nn(website-5, payor-4)
+prep_in(put-1, website-5)
+
+dobj(select-1, ok-2)
+dobj(select-1, complete-4)
+conj_or(ok-2, complete-4)
+
+dobj(organize-1, bills-2)
+
+dobj(write-1, checks-2)
+prep_for(checks-2, bills-4)
+
+dobj(put-1, bills-2)
+prep_in(put-1, envelopes-4)
+
+dobj(stamp-1, envelopes-2)
+
+dobj(put-1, envelopes-2)
+prep_in(put-1, mailbox-4)
+
+dobj(open-1, bill-2)
+
+det(amount-3, the-2)
+dobj(note-1, amount-3)
+
+dobj(get-1, checkbook-2)
+dobj(get-1, pen-4)
+conj_and(checkbook-2, pen-4)
+
+dobj(write-1, check-2)
+prep_for(check-2, amount-4)
+prep_of(amount-4, bill-6)
+
+dobj(put-1, ckeck-2)
+prep_into(put-1, envelope-4)
+
+nn(stamp-3, postage-2)
+dobj(put-1, stamp-3)
+prep_on(put-1, envelope-5)
+
+dobj(put-1, envelope-2)
+prep_in(put-1, mailbox-4)
+
+dobj(identify-1, bills-2)
+nsubj(need-4, bills-2)
+rcmod(bills-2, need-4)
+aux(paid-7, to-5)
+auxpass(paid-7, be-6)
+xcomp(need-4, paid-7)
+
+dep(pay-9, go-1)
+det(bank-4, the-3)
+prep_to(go-1, bank-4)
+det(account-7, the-6)
+prep_with(go-1, account-7)
+nsubj(pay-9, you-8)
+dobj(pay-9, bills-10)
+prep(pay-9, with-11)
+
+quantmod(4-3, either-2)
+dobj(select-1, 4-3)
+dobj(select-1, 5-5)
+conj_or(4-3, 5-5)
+
+det(teller-4, the-3)
+prep_to(go-1, teller-4)
+conj_and(go-1, pay-6)
+poss(bill-8, your-7)
+dobj(pay-6, bill-8)
+
+det(machine-5, the-3)
+nn(machine-5, atm-4)
+prep_to(go-1, machine-5)
+conj_and(go-1, pay-7)
+poss(account-10, your-9)
+prep_from(pay-7, account-10)
+
+dobj(open-1, letter-2)
+
+amod(date-3, due-2)
+dobj(check-1, date-3)
+
+aux(online-3, to-2)
+xcomp(go-1, online-3)
+dobj(online-3, banking-4)
+
+nsubj(pay-3, click-1)
+dobj(pay-3, bills-4)
+
+nn(amount-2, input-1)
+amod(amount-2, due-3)
+
+dobj(send\/transfer-1, money-2)
+
+dobj(paid-1, bill-2)
+

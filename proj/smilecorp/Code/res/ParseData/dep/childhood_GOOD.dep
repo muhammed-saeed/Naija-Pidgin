@@ -1,0 +1,171 @@
+nsubjpass(born-3, child-1)
+auxpass(born-3, is-2)
+
+auxpass(fed-2, gets-1)
+conj_and(fed-2, cared-4)
+prep(cared-4, for-5)
+
+aux(older-2, grows-1)
+
+aux(walk-3, to-2)
+xcomp(learns-1, walk-3)
+
+
+prep_to(goes-1, school-3)
+
+dobj(makes-1, friends-2)
+
+prep(goes-1, on-2)
+dep(on-2, to-3)
+amod(school-5, high-4)
+pobj(to-3, school-5)
+
+aux(sit-3, to-2)
+xcomp(learn-1, sit-3)
+prt(sit-3, up-4)
+
+aux(walk-3, to-2)
+xcomp(learn-1, walk-3)
+xcomp(learn-1, talk-5)
+conj_and(walk-3, talk-5)
+
+aux(talk-3, to-2)
+xcomp(learn-1, talk-3)
+
+amod(tooth-3, first-2)
+dobj(loose-1, tooth-3)
+
+prep_to(go-1, kindergarten-3)
+
+amod(school-4, primary-3)
+prep_to(go-1, school-4)
+
+dobj(take-1, part-2)
+amod(play-5, christmas-4)
+prep_in(part-2, play-5)
+
+amod(school-4, secondary-3)
+prep_to(go-1, school-4)
+
+amod(certificate-3, junior-2)
+dobj(do-1, certificate-3)
+
+prt(fill-1, out-2)
+nn(forms-4, college-3)
+dobj(fill-1, forms-4)
+
+amod(certificate-3, leaving-2)
+dobj(do-1, certificate-3)
+
+
+auxpass(born-2, get-1)
+
+dobj(drink-1, milk-2)
+
+dobj(grow-1, bigger-2)
+
+auxpass(trained-3, get-1)
+advmod(trained-3, potty-2)
+
+aux(talk-3, to-2)
+xcomp(learn-1, talk-3)
+
+aux(walk-3, to-2)
+xcomp(learn-1, walk-3)
+
+amod(school-4, elementary-3)
+prep_to(go-1, school-4)
+
+amod(school-4, middle-3)
+prep_to(go-1, school-4)
+
+amod(school-4, high-3)
+prep_to(go-1, school-4)
+
+prep_through(go-1, puberty-3)
+
+aux(walk-3, to-2)
+xcomp(learn-1, walk-3)
+
+aux(talk-3, to-2)
+xcomp(learn-1, talk-3)
+
+aux(ask-3, to-2)
+xcomp(learn-1, ask-3)
+dobj(ask-3, questions-4)
+
+aux(make-3, to-2)
+xcomp(start-1, make-3)
+dobj(make-3, friends-4)
+
+acomp(attend-1, preschool-2)
+
+dobj(learn-1, how-2)
+dep(learn-1, get-3)
+prep_along_with(get-3, others-6)
+
+dobj(start-1, kindergarten-2)
+
+poss(tooth-4, your-2)
+amod(tooth-4, first-3)
+dobj(lose-1, tooth-4)
+
+poss(opinions-5, peers-3)
+prep_about(care-1, opinions-5)
+
+amod(groups-2, social-1)
+nsubj(form-3, groups-2)
+
+aux(grown-4, to-2)
+auxpass(grown-4, be-3)
+xcomp(want-1, grown-4)
+prt(grown-4, up-5)
+
+dep(feel-1, grown-2)
+prt(grown-2, up-3)
+
+nsubjpass(grown-5, you-2)
+auxpass(grown-5, are-3)
+neg(grown-5, n't-4)
+ccomp(realize-1, grown-5)
+prt(grown-5, up-6)
+
+aux(crawl-3, to-2)
+xcomp(learn-1, crawl-3)
+
+aux(walk-3, to-2)
+xcomp(learn-1, walk-3)
+
+aux(talk-3, to-2)
+xcomp(learn-1, talk-3)
+
+dobj(potty-1, train-2)
+
+amod(teeth-3, loose-2)
+dobj(get-1, teeth-3)
+
+prep_to(go-1, school-3)
+
+dobj(make-1, friends-2)
+
+dobj(get-1, colds-2)
+
+advmod(learn-1, right-2)
+prep_from(learn-1, wrong-4)
+
+prep_with(play-1, toys-3)
+
+aux(ride-3, to-2)
+xcomp(learn-1, ride-3)
+det(bike-5, a-4)
+dobj(ride-3, bike-5)
+
+aux(swim-3, to-2)
+xcomp(learn-1, swim-3)
+
+prep_in(participate-1, sports-3)
+
+amod(jobs-4, small-3)
+prep_with(help-1, jobs-4)
+prep_at(help-1, home-6)
+

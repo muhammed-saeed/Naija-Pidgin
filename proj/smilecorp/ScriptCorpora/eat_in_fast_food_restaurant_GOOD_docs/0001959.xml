@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0001959" url="http://forums.asp.net/p/1454642/3328275.aspx" time="2012-07-12-17:52" support="1" score="0.002044615361512032" bingtitle="Importing Data From One Table, Into Another, Possibly Checking For ..." webtitle="Importing Data From One Table, Into Another, Possibly Checking For Errors?!
+ : The Official Microsoft ASP.NET Forums">
+			<query id="000732" bing-rank="141"/>
+	<description>Since duplicates are quite common, I can see this number ... I&apos;d like to know, how many records were in temp table ... Used to take several minutes to import just a few ...</description>
+	<body>
+		Home Get Started Downloads Web Pages Web Forms MVC Solutions 
+FRAMEWORKS
+
+ Web Pages Web Forms MVC 
+ 
+TECHNOLOGIES
+
+ Web API Single Page Application Ajax Mobile 
+ 
+vNEXT
+
+ ASP.NET 4.5 ASP.NET MVC 4 ASP.NET Web Pages 2 More information 
+ 
+ Get Help: Ask a Question in our Forums | Report a Bug | More Help Resources 
+ Community Forums 
+ 
+ 
+ 
+ Sign In | Join 
+ Home / ASP.NET Forums / Data Access / DataSource Controls - SqlDataSource, ObjectDataSource, etc / Importing Data From One Table, Into Another, Possibly Checking For Er... 
+Importing Data From One Table, Into Another, Possibly Checking For Errors?! RSS 
+ 
+23 replies
+
+ Last post Aug 20, 2009 06:48 PM by Naom 
+ ‹ Previous Thread | Next Thread › 
+ 
+ Reply   
+ 
+ RickNZ 
+
+Contributor
+ 
+5233 Points
+
+ 880 Posts 
+ 
+Re: Resetting Identity after SQL DELETE command
+
+Aug 04, 2009 07:00 AM | LINK 
+Why do you care what the value of the identity column is?
+
+If you want some sort of row number value, why not apply it at query time, or maybe create a separate column for that value.
+
+Identity columns are not row numbers, and trying to use them as such will likely lead to headaches in the long run.
+
+
+
+ Check out my book:
+ Ultra-Fast ASP.NET: Build Ultra-Fast and Ultra-Scalable web sites using ASP.NET and SQL Server 
+My blog: http://www.12knowmore.com 
+ 
+ Reply   
+ 
+ Rits4Friends 
+
+Participant
+ 
+1784 Points
+
+ 305 Posts 
+ 
+Re: Resetting Identity after SQL DELETE command
+
+Aug 04, 2009 07:33 AM | LINK 
+I am 100% agree with Rick. Why you need this? you are inviting lots of overhead on the SQL Engine. however, if you really need it than you can follow the link given above in my post. If those are not useful than I am sorry there is no other way to do so.
+
+ Ritesh Shah
+ http://www.SQLHub.com 
+Fight the fear of SQL with SQLHub.com --Ritesh Shah
+
+
+ 
+ 
+ 
+
+
+ Jainism 
+All About Jainism 
+ Reply   
+ 
+ LVPCGuys 
+
+Participant
+ 
+1028 Points
+
+ 224 Posts 
+ 
+Re: Resetting Identity after SQL DELETE command
+
+Aug 04, 2009 03:09 PM | LINK 
+ We deal with records in the hundreds of thousands, if not millions of rows. So the issue is, every duplicate found will increase seed count by one. Since duplicates are quite common, I can see this number reaching 10&apos;s or 100&apos;s of millions in size within
+ 2 - 6 months. At what point will the Identity field be too large? 
+
+My main concern was the future. If we import a list of 750,000 people, and 500,000 are duplicated, my Identity seed will increase by 500K, but not my row size.
+ ASP.NET / SQL / C#
+&quot;I don&apos;t know a lick of VB&quot; 
+ Reply   
+ 
+ LVPCGuys 
+
+Participant
+ 
+1028 Points
+
+ 224 Posts 
+ 
+Re: Resetting Identity after SQL DELETE command
+
+Aug 04, 2009 03:18 PM | LINK 
+ Beautiful code Mike! I think this is exactly what I was looking for! Haven&apos;t tried it out yet, but will play with it today. I did know about the JOIN command, but I didn&apos;t know it could be wrapped inside the INSERT. From just reading it though, I get
+ the concept and will tweak it how I need.
+
+Now, how about finding out how many records were inserted? Let&apos;s say TempTable has 200 records, and I run this stored proc. I&apos;d like to know, how many records were in temp table (SELECT COUNT (*)) and then how many get inserted into the PermanentTable.  Can
+ I do something like this?
+
+INSERT INTO PermanentTable p COUNT((Firstname, Lastname, EmailAddress) Select Distinct FirstName, LastName, EmailAddress
+FROM TempTable t
+LEFT JOIN PermanentTable
+ON t.FirstName = p.FirstName, t.LastName = p.LastName, t.EmailAddress = p.EmailAddress
+WHERE p.FirstName IS NULL AND p.LastName IS NULL AND p.EmailAddress IS NULL)
+ ASP.NET / SQL / C#
+&quot;I don&apos;t know a lick of VB&quot; 
+ Reply   
+ 
+ Naom 
+
+All-Star
+ 
+35908 Points
+
+ 7696 Posts 
+ 
+Re: Resetting Identity after SQL DELETE command
+
+Aug 04, 2009 03:41 PM | LINK 
+select @@Rowcount
+
+right after the Insert will tell you the number of inserted records. BTW, once Mike posted his idea, I was really surprised we haven&apos;t thought about it right from the beginning - it looks so simple.
+
+See also http://forum.lessthandot.com/viewtopic.php?f=17&amp;t=7012 
+
+ Beware of bugs in the above code; I have only proved it correct, not tried it. 
+(Donald Knuth)
+
+ Visit my blog 
+
+Microsoft Community Contributor 2011 
+ Reply   
+ 
+ RickNZ 
+
+Contributor
+ 
+5233 Points
+
+ 880 Posts 
+ 
+Re: Resetting Identity after SQL DELETE command
+
+Aug 04, 2009 03:44 PM | LINK 
+
+ 
+LVPCGuys
+
+
+
+ We deal with records in the hundreds of thousands, if not millions of rows. So the issue is, every duplicate found will increase seed count by one. Since duplicates are quite common, I can see this number reaching 10&apos;s or 100&apos;s of millions in size within
+ 2 - 6 months. At what point will the Identity field be too large? 
+
+My main concern was the future. If we import a list of 750,000 people, and 500,000 are duplicated, my Identity seed will increase by 500K, but not my row size.
+
+
+ 
+
+
+A bigint is 64 bits. If you were to insert 10 million rows per day, that would last 5 billion years before it overflows.
+
+
+.NET uses a 64 bit integer to store the time, with the value increasing every 100 ns. That&apos;s 10 million times per second.
+
+Sorry, but I think you&apos;re concerned about a non-issue. Plus, trying to do it the way you want will cost you from a performance perspective.
+
+
+
+
+ Check out my book:
+ Ultra-Fast ASP.NET: Build Ultra-Fast and Ultra-Scalable web sites using ASP.NET and SQL Server 
+My blog: http://www.12knowmore.com 
+ 
+ Reply   
+ 
+ ramireddyindia 
+
+All-Star
+ 
+31358 Points
+
+ 4579 Posts 
+ 
+Re: Resetting Identity after SQL DELETE command
+
+Aug 04, 2009 06:00 PM | LINK 
+
+
+ declare @Employees table
+(
+Id int identity(1,1),
+EmpName varchar(100),
+PhoneNo varchar(100)
+
+)
+insert into @Employees
+select &apos;ram&apos;,&apos;1&apos; union all
+select &apos;reddy&apos;,&apos;2&apos;
+
+Now we got new data in form of a table like below,
+
+
+Declare @CurData table
+(
+Id int identity(1,1),
+EmpName varchar(100),
+PhoneNo varchar(100)
+)
+insert into @CurData
+select &apos;ram&apos;,&apos;1&apos; union all
+select &apos;reddy&apos;,&apos;3&apos;
+
+insert into @Employees
+select C.EmpId,C.EmpName,C.PhoneNo from
+( select Binary_checksum(EmpName,PhoneNo) as BC,* from @Employees ) E
+right outer join (select Binary_Checksum(EmpName,PhoneNo) as BC,* from @CurData)  C on E.BC = C.BC
+where E.EmpId is null 
+
+
+
+ 
+But normally i will implement a sql job which will do this procedure. When ever the user uploads a file, i will store it in a location. Now then My sql job will query that location, if it finds any file, it will query that and it will get that data into
+ a table, then by using binary_checksum() method it will insert the only new records...
+
+
+ Give a man a fish and you feed him for a day. Teach a man to fish and you feed him forever.
+ 
+ Reply   
+ 
+ Mikesdotnetting 
+
+All-Star
+ 
+139050 Points
+
+ 17483 Posts 
+
+Moderator
+
+MVP
+ 
+Re: Resetting Identity after SQL DELETE command
+
+Aug 04, 2009 08:43 PM | LINK 
+
+ 
+Naom
+BTW, once Mike posted his idea, I was really surprised we haven&apos;t thought about it right from the beginning - it looks so simple. 
+
+
+Programmers, you see. Literal thinkers. You see the title of the question and focus on that. Happens all the time around here. Like the fellow in the other forum said - if you question why someone wants to do something (because it seems bizarre), you normally get ignored or attitude. And there are no shortage of people around here who, just for points, will post reams of code solving the wrong problem to reinforce the questioner&apos;s
+ belief that they are indeed attacking the issue from the right angle.
+
+
+;o)
+
+BTW, I actually got that code from an old classic ASP I built against an Access database years ago. The original import routine consisted of loading the entire spreadheet into a Recordset and checking each row against the database before inserting or ignoring. Used to take several minutes to import just a few thousand rows. Once I changed it to use LEFT JOINS and IS NULL, the routine dropped to a second or two. (It does a number of other checks as well...)
+
+
+
+
+ Regards, Mike
+ Beginning ASP.NET Web Pages with WebMatrix | My Site | Twitter 
+ Reply   
+ 
+ LVPCGuys 
+
+Participant
+ 
+1028 Points
+
+ 224 Posts 
+ 
+Re: Resetting Identity after SQL DELETE command
+
+Aug 20, 2009 05:20 PM | LINK 
+Alright, I&apos;m nearing the end of my application design, and am finishing up the import process. My application is heavily dependent on the PrimaryKey/Identity field in my tables, so I need to make sure our&quot;permanenet&quot;table is very clean. I have searched
+ the internet, and just about everything I read said,&quot;import data from CSV, into a temp table, clean that table up, then import from temp table to permanent table&quot;. Great, now I know what direction I&apos;m headed in.
+
+I have never used&quot;JOINS&quot;, so the concept is utterly confusing to me. lol, I tried using the script Mike wrote above, but it is throwing an error. In my permanent database, a match of email AND phone is considered a&quot;duplicate&quot;.
+
+Here&apos;s what I have written so far,
+
+SQL Statement:
+
+ INSERT INTO brrcount.dbo.list_internet
+(FNAME,LNAME,EMAIL,PHONE,STATE,MORTGAGE_AMT,MONTHS_BEHIND,DATE_ENTERED,LENDER_NAME)
+
+SELECT (FNAME,LNAME,EMAIL,PHONE,STATE,MORTGAGE_AMT,MONTHS_BEHIND,DATE_ENTERED,LENDER_NAME)
+
+FROM brrcount.dbo.import_internet
+
+LEFT JOIN brrcount.dbo.list_internet
+
+ON
+import_internet.FNAME = list_internet.FNAME,
+import_internet.LNAME = list_internet.LNAME,
+import_internet.EMAIL = list_internet.EMAIL,
+import_internet.PHONE = list_internet.PHONE,
+import_internet.STATE = list_internet.STATE,
+import_internet.MORTGAGE_AMT = list_internet.MORTGAGE_AMT,
+import_internet.MONTHS_BEHIND = list_internet.MONTHS_BEHIND,
+import_internet.DATE_ENTERED = list_internet.DATE_ENTERED,
+import_internet.LENDER_NAME = list_internet.LENDER_NAME
+
+WHERE
+Email IS NULL AND PHONE IS NULL 
+
+What I&apos;d like the script to do, is check the temporary table (import_internet) for duplicates(email AND phone match) in my permanent table (list_internet), and then insert the data into permanent table when it isn&apos;t a duplicate. The ability to get the number
+ of rows inserted (successful) and number of rows duplicated (failed) would be great too, but I can worry about that later.
+
+When I run the statement above, I get this error, any ideas?
+ Msg 102, Level 15, State 1, Line 3 Incorrect syntax near &apos;,&apos;. 
+ ASP.NET / SQL / C#
+&quot;I don&apos;t know a lick of VB&quot; 
+ Reply   
+ 
+ Naom 
+
+All-Star
+ 
+35908 Points
+
+ 7696 Posts 
+ 
+Re: Resetting Identity after SQL DELETE command
+
+Aug 20, 2009 05:40 PM | LINK 
+I&apos;m a bit sorry, but this incorrect syntax could have been figured out in 5 minutes if you would take a look in BOL for SELECT command syntax.
+
+Anyway,
+
+
+
+
+INSERT INTO brrcount.dbo.list_internet
+(FNAME,LNAME,EMAIL,PHONE,STATE,MORTGAGE_AMT,MONTHS_BEHIND,DATE_ENTERED,LENDER_NAME)
+
+SELECT FNAME,LNAME,EMAIL,PHONE,STATE,MORTGAGE_AMT,MONTHS_BEHIND,DATE_ENTERED,LENDER_NAME
+
+FROM brrcount.dbo.import_internet
+
+LEFT JOIN brrcount.dbo.list_internet
+
+ON
+import_internet.FNAME = list_internet.FNAME and
+import_internet.LNAME = list_internet.LNAME and
+import_internet.EMAIL = list_internet.EMAIL and
+import_internet.PHONE = list_internet.PHONE and
+import_internet.STATE = list_internet.STATE and
+import_internet.MORTGAGE_AMT = list_internet.MORTGAGE_AMT and
+import_internet.MONTHS_BEHIND = list_internet.MONTHS_BEHIND and
+import_internet.DATE_ENTERED = list_internet.DATE_ENTERED and
+import_internet.LENDER_NAME = list_internet.LENDER_NAME
+
+WHERE
+list_internet.pk is null -- SOME UNIQUE FIELD in List_Internet
+
+
+----------------------------------
+
+
+The above will compare every field you have in JOIN clause and will only insert records that have different combination of the above fields.
+
+
+
+
+ Beware of bugs in the above code; I have only proved it correct, not tried it. 
+(Donald Knuth)
+
+ Visit my blog 
+
+Microsoft Community Contributor 2011 
+ Prev Next First 1 2 3 Last 
+ ‹ Previous Thread | Next Thread › 
+ 
+Powered by MSDN 
+ Privacy Statement | Terms of Service | Site Feedback | Advertise With Us 
+
+ 
+Follow Us On:
+ Twitter | Facebook 
+
+ 
+ Microsoft 
+ Feedback on ASP.NET | File Bugs
+	</body>
+</document>

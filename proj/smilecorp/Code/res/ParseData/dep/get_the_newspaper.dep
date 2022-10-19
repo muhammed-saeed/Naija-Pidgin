@@ -1,0 +1,549 @@
+amod(door-3, front-2)
+dobj(open-1, door-3)
+
+det(newspaper-3, the-2)
+dobj(find-1, newspaper-3)
+
+prt(pick-1, up-2)
+det(newspaper-4, the-3)
+dobj(pick-1, newspaper-4)
+
+prt(walk-1, back-2)
+prep_to(walk-1, home-4)
+
+amod(door-3, front-2)
+dobj(close-1, door-3)
+
+det(store-4, the-3)
+prep_to(go-1, store-4)
+
+det(newspapers-3, the-2)
+dobj(find-1, newspapers-3)
+
+det(newspaper-3, a-2)
+dobj(take-1, newspaper-3)
+det(register-7, the-5)
+nn(register-7, cash-6)
+prep_to(take-1, register-7)
+
+det(newspaper-4, the-3)
+prep_for(pay-1, newspaper-4)
+
+det(home-4, the-2)
+nn(home-4, newspaper-3)
+dobj(take-1, home-4)
+
+det(newspaper-3, the-2)
+dobj(locate-1, newspaper-3)
+
+mark(outside-2, if-1)
+csubj(open-3, outside-2)
+det(door-5, the-4)
+dobj(open-3, door-5)
+
+det(newspaper-4, the-3)
+prep_for(look-1, newspaper-4)
+
+dobj(pick-1, it-2)
+prt(pick-1, up-3)
+
+det(door-3, a-2)
+dobj(locate-1, door-3)
+
+advmod(go-1, outside-2)
+det(door-5, the-4)
+prep_through(go-1, door-5)
+
+det(newspaper-3, the-2)
+dobj(locate-1, newspaper-3)
+
+prt(pick-1, up-2)
+det(newspaper-4, the-3)
+dobj(pick-1, newspaper-4)
+
+advmod(move-1, back-2)
+det(door-5, the-4)
+prep_to(move-1, door-5)
+
+det(inside-4, the-3)
+prep_to(go-1, inside-4)
+det(door-7, the-6)
+prep_through(go-1, door-7)
+
+det(door-5, the-3)
+amod(door-5, front-4)
+prep_to(go-1, door-5)
+
+prt(pick-1, up-2)
+det(newspaper-4, the-3)
+dobj(pick-1, newspaper-4)
+
+prep_to(go-1, door-3)
+
+dobj(open-1, door-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, newspaper-3)
+
+dobj(bring-1, newspaper-2)
+prep_into(bring-1, house-4)
+
+prep_on(put-1, shoes-3)
+
+det(house-5, the-4)
+prep_out_of(walk-1, house-5)
+conj_and(walk-1, down-7)
+det(driveway-9, the-8)
+pobj(down-7, driveway-9)
+
+prt(pick-1, up-2)
+det(newspaper-4, the-3)
+dobj(pick-1, newspaper-4)
+
+det(newspaper-3, the-2)
+dobj(locate-1, newspaper-3)
+
+det(newspaper-4, the-3)
+prep_to(walk-1, newspaper-4)
+
+dobj(pick-1, it-2)
+prt(pick-1, up-3)
+
+dobj(bring-1, it-2)
+det(location-6, the-4)
+amod(location-6, original-5)
+prep_to(bring-1, location-6)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+prt(look-1, down-2)
+
+det(newpaper-3, the-2)
+dobj(see-1, newpaper-3)
+det(ground-6, the-5)
+prep_on(see-1, ground-6)
+
+dobj(pick-1, it-2)
+prt(pick-1, up-3)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+prep_out_of(get-1, bed-4)
+
+dobj(open-1, door-2)
+
+prep_for(look-1, newspaper-3)
+
+dobj(bring-1, newspaper-2)
+prep_inside(bring-1, house-4)
+
+dobj(close-1, door-2)
+
+mark(is-5, if-2)
+det(newspaper-4, the-3)
+nsubj(is-5, newspaper-4)
+advcl(check-1, is-5)
+advmod(is-5, indoors-6)
+
+nsubj(walk-3, if-1)
+nsubj(check-6, if-1)
+neg(walk-3, not-2)
+acomp(walk-3, outside-4)
+conj_and(walk-3, check-6)
+aux(see-8, to-7)
+xcomp(check-6, see-8)
+mark(is-11, if-9)
+nsubj(is-11, newspaper-10)
+advcl(see-8, is-11)
+advmod(is-11, there-12)
+
+advmod(located-4, once-1)
+nsubjpass(located-4, newspaper-2)
+auxpass(located-4, is-3)
+ccomp(located-4, pick-5)
+dobj(pick-5, it-6)
+prt(pick-5, up-7)
+
+det(person-4, the-3)
+prep_to(return-1, person-4)
+partmod(person-4, requesting-5)
+det(newspaper-7, the-6)
+dobj(requesting-5, newspaper-7)
+
+det(shop-5, the-3)
+nn(shop-5, coffee-4)
+prep_to(go-1, shop-5)
+
+det(rack-3, the-2)
+dobj(find-1, rack-3)
+prep_of(rack-3, newspapers-5)
+prep_for(find-1, sale-7)
+
+dobj(pick-1, one-2)
+prt(pick-1, up-3)
+
+dobj(take-1, it-2)
+det(cashier-5, the-4)
+prep_to(take-1, cashier-5)
+
+prep_for(pay-1, it-3)
+
+nn(stand-4, newspaper-3)
+prep_to(go-1, stand-4)
+
+dobj(pick-1, newspaper-2)
+
+
+
+det(newspaper-3, the-2)
+dobj(locate-1, newspaper-3)
+
+det(newspaper-4, the-3)
+prep_to(walk-1, newspaper-4)
+
+det(newspaper-3, the-2)
+dep(pickup-1, newspaper-3)
+
+det(newspaper-3, the-2)
+dobj(read-1, newspaper-3)
+
+nn(stand-4, newspaper-3)
+prep_to(go-1, stand-4)
+
+dobj(select-1, newspaper-2)
+
+
+nn(corner-4, street-3)
+prep_to(go-1, corner-4)
+
+nn(machine-3, newspaper-2)
+dobj(locate-1, machine-3)
+
+dobj(insert-1, coins-2)
+
+det(newspaper-3, a-2)
+dobj(get-1, newspaper-3)
+prep_from(get-1, machine-5)
+
+dobj(return-1, home-2)
+
+dobj(locate-1, newspaper-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, newspaper-3)
+
+prep_to(return-1, owner-3)
+
+prep(look-1, outside-2)
+
+mark(is-3, if-1)
+expl(is-3, there-2)
+advcl(go-7, is-3)
+csubj(go-7, is-3)
+det(newspaper-5, a-4)
+nsubj(is-3, newspaper-5)
+advmod(go-7, then-6)
+acomp(go-7, outside-8)
+
+prt(go-1, over-2)
+det(newspaper-5, the-4)
+prep_to(go-1, newspaper-5)
+
+prt(pick-1, up-2)
+det(newspaper-4, the-3)
+dobj(pick-1, newspaper-4)
+
+advmod(inside-3, back-2)
+advmod(go-1, inside-3)
+
+det(bag-3, the-2)
+dobj(take-1, bag-3)
+det(newspaper-6, the-5)
+prep_off(take-1, newspaper-6)
+
+det(newspaper-3, the-2)
+dobj(take-1, newspaper-3)
+det(table-6, the-5)
+prep_to(take-1, table-6)
+
+det(stand-5, the-3)
+nn(stand-5, news-4)
+prep_to(go-1, stand-5)
+
+amod(newspaper-3, correct-2)
+dobj(select-1, newspaper-3)
+
+det(newspaper-4, the-3)
+prep_for(pay-1, newspaper-4)
+
+det(newspaper-3, the-2)
+dobj(pick-1, newspaper-3)
+prt(pick-1, up-4)
+
+det(store-4, the-3)
+prep_to(walk-1, store-4)
+
+prt(pick-1, up-2)
+det(newspaper-4, a-3)
+dobj(pick-1, newspaper-4)
+
+prep_in(get-1, line-3)
+
+dobj(pay-1, cashier-2)
+
+det(stand-5, the-3)
+nn(stand-5, newspaper-4)
+prep_to(go-1, stand-5)
+
+det(newspaper-3, the-2)
+dobj(get-1, newspaper-3)
+
+det(door-4, the-2)
+amod(door-4, front-3)
+dobj(open-1, door-4)
+
+det(paper-3, the-2)
+dobj(locate-1, paper-3)
+
+det(paper-4, the-3)
+prep_to(walk-1, paper-4)
+
+prt(bend-1, over-2)
+conj_and(bend-1, pick-4)
+prt(pick-4, up-5)
+det(paper-7, the-6)
+dobj(pick-4, paper-7)
+
+prt(walk-1, back-2)
+det(house-5, the-4)
+prep_to(walk-1, house-5)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+dobj(open-1, door-2)
+
+dobj(get-1, newspaper-2)
+
+det(newspaper-3, the-2)
+dobj(finding-1, newspaper-3)
+
+prt(picking-1, up-2)
+det(newspaper-4, the-3)
+dobj(picking-1, newspaper-4)
+
+det(newspaper-3, the-2)
+dobj(placing-1, newspaper-3)
+advmod(placing-1, down-4)
+advmod(needed-8, where-5)
+nsubjpass(needed-8, it-6)
+auxpass(needed-8, is-7)
+advcl(placing-1, needed-8)
+
+poss(robe-4, your-3)
+prep_on(put-1, robe-4)
+
+poss(slippers-4, your-3)
+prep_on(put-1, slippers-4)
+
+det(door-4, the-3)
+prep_out(walk-1, door-4)
+
+det(paper-4, the-3)
+prep_for(look-1, paper-4)
+
+det(paper-3, the-2)
+dobj(grab-1, paper-3)
+
+advmod(go-1, outside-2)
+
+prt(pick-1, up-2)
+det(newspaper-4, the-3)
+dobj(pick-1, newspaper-4)
+det(ground-7, the-6)
+prep_off(pick-1, ground-7)
+
+det(door-5, the-3)
+amod(door-5, front-4)
+prep_to(go-1, door-5)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+prt(go-1, out-2)
+det(steps-6, the-4)
+amod(steps-6, front-5)
+prep_on(go-1, steps-6)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(paper-4, the-3)
+prep_to(walk-1, paper-4)
+
+dobj(pick-1, it-2)
+prt(pick-1, up-3)
+
+prt(walk-1, back-2)
+det(door-6, the-4)
+amod(door-6, front-5)
+prep_to(walk-1, door-6)
+
+nn(stand-4, newspaper-3)
+prep_to(walk-1, stand-4)
+
+dobj(deposit-1, coins-2)
+prep_into(deposit-1, newstand-4)
+
+nn(door-3, stand-2)
+dobj(open-1, door-3)
+
+prt(take-1, out-2)
+num(paper-4, one-3)
+dobj(take-1, paper-4)
+
+nn(door-3, stand-2)
+dobj(close-1, door-3)
+
+amod(door-3, front-2)
+dobj(open-1, door-3)
+
+nn(bag-3, newspaper-2)
+dobj(take-1, bag-3)
+prep_off(take-1, handle-5)
+
+prep_into(bring-1, house-3)
+
+dobj(open-1, door-2)
+
+prep_onto(walk-1, porch-3)
+conj_or(walk-1, to-5)
+det(front-7, the-6)
+pobj(to-5, front-7)
+det(house-10, the-9)
+prep_of(front-7, house-10)
+
+dobj(locate-1, newspaper-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, newspaper-3)
+
+dobj(bring-1, newspaper-2)
+prep_in(bring-1, house-4)
+
+advmod(go-1, outside-2)
+
+dobj(get-1, paper-2)
+
+prep_at(wave-1, neighbors-3)
+
+advmod(inside-3, back-2)
+advmod(go-1, inside-3)
+
+dobj(close-1, door-2)
+
+det(store-4, the-3)
+prep_to(go-1, store-4)
+
+det(type-3, the-2)
+dobj(pick-1, type-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, paper-3)
+
+dobj(give-1, money-2)
+prep_to(give-1, store-4)
+
+dobj(put-1, paper-2)
+prep_into(put-1, bag-4)
+
+nn(home-3, paper-2)
+dobj(take-1, home-3)
+
+
+amod(door-3, front-2)
+dobj(open-1, door-3)
+
+prep_to(go-1, mailbox-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, newspaper-3)
+
+advmod(go-1, outside-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, newspaper-3)
+
+dobj(bring-1, it-2)
+advmod(bring-1, inside-3)
+
+
+dobj(get-1, newspaper-2)
+
+prep_to(walk-1, mailbox-3)
+
+dobj(open-1, mailbox-2)
+
+dobj(remove-1, newspaper-2)
+
+dobj(bring-1, newspaper-2)
+advmod(bring-1, inside-3)
+
+dobj(buy-1, newspaper-2)
+
+advmod(go-1, downstairs-2)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+det(newspaper-4, the-3)
+prep_to(walk-1, newspaper-4)
+
+prt(bend-1, down-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, newspaper-3)
+
+advmod(go-1, back-2)
+prep(go-1, in-3)
+
+dobj(close-1, door-2)
+
+dobj(open-1, door-2)
+prep_in(open-1, morning-4)
+
+dobj(locate-1, newspaper-2)
+
+dobj(pick-1, it-2)
+prt(pick-1, up-3)
+
+advmod(inside-3, back-2)
+advmod(go-1, inside-3)
+
+amod(door-3, front-2)
+dobj(open-1, door-3)
+
+prt(pick-1, up-2)
+det(paper-4, the-3)
+dobj(pick-1, paper-4)
+
+dobj(bring-1, it-2)
+det(house-5, the-4)
+prep_into(bring-1, house-5)
+
+det(door-4, the-2)
+amod(door-4, front-3)
+dobj(close-1, door-4)
+
+amod(door-4, front-3)
+prep_to(go-1, door-4)
+
+dobj(open-1, door-2)
+
+prt(bend-1, over-2)
+conj_and(bend-1, pick-4)
+prt(pick-4, up-5)
+dobj(pick-4, paper-6)
+

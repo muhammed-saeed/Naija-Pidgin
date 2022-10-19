@@ -1,0 +1,293 @@
+det(document-3, the-2)
+dobj(open-1, document-3)
+
+det(printer-4, the-3)
+prep_on(swicth-1, printer-4)
+
+dobj(put-1, paper-2)
+det(printer-5, the-4)
+prep_in(put-1, printer-5)
+
+nsubj(print-2, click-1)
+det(computer-5, the-4)
+prep_on(print-2, computer-5)
+
+acomp(make-1, sure-2)
+det(printer-4, the-3)
+nsubjpass(turned-6, printer-4)
+auxpass(turned-6, is-5)
+ccomp(sure-2, turned-6)
+prt(turned-6, on-7)
+
+acomp(make-1, sure-2)
+det(printer-4, the-3)
+nsubj(has-5, printer-4)
+ccomp(sure-2, has-5)
+dobj(has-5, paper-6)
+
+csubj(window-10, find-1)
+det(button-4, the-2)
+nn(button-4, print-3)
+dobj(find-1, button-4)
+det(document-7, the-6)
+prep_in(find-1, document-7)
+cop(window-10, s-8)
+nn(window-10, application-9)
+
+det(button-4, the-2)
+nn(button-4, print-3)
+dobj(press-1, button-4)
+
+dobj(open-1, document-2)
+prep_in(open-1, computer-4)
+
+acomp(make-1, sure-2)
+dep(is-4, printer-3)
+dep(sure-2, is-4)
+prep(is-4, on-5)
+
+acomp(make-1, sure-2)
+dep(connected-5, printer-3)
+auxpass(connected-5, is-4)
+dep(sure-2, connected-5)
+det(computer-8, the-7)
+prep_to(connected-5, computer-8)
+
+nn(button-3, print-2)
+dobj(press-1, button-3)
+nn(screen-6, computer-5)
+prep_on(press-1, screen-6)
+
+dobj(identify-1, document-2)
+
+aux(file-3, to-2)
+xcomp(go-1, file-3)
+dobj(file-3, menu-4)
+
+nsubj(print-2, click-1)
+
+nsubj(print-2, click-1)
+advmod(print-2, again-3)
+
+dobj(turn-1, printer-2)
+prt(turn-1, on-3)
+
+dobj(print-1, document-2)
+
+dobj(pressing-1, print-2)
+
+dobj(link-1, computer-2)
+prep_with(link-1, printer-4)
+
+nn(file-3, document-2)
+dobj(open-1, file-3)
+
+nn(icon-4, print-3)
+prep_on(click-1, icon-4)
+
+prep_on(turn-1, computer-3)
+
+dobj(open-1, program-2)
+
+dobj(type-1, document-2)
+
+prep_for(check-1, errors-3)
+
+prep_on(turn-1, printer-3)
+
+dobj(tell-1, program-2)
+prep_to(tell-1, print-4)
+
+prt(pick-1, up-2)
+amod(sheet-4, printed-3)
+dobj(pick-1, sheet-4)
+
+dobj(open-1, document-2)
+
+nn(command-3, print-2)
+dobj(do-1, command-3)
+
+dobj(select-1, printer-2)
+
+nn(options-3, print-2)
+dobj(select-1, options-3)
+
+nsubj(go-2, press-1)
+
+dobj(retrieve-1, document-2)
+prep_from(retrieve-1, printer-4)
+
+prt(bring-1, up-2)
+dobj(bring-1, document-3)
+prep_on(document-3, pc-5)
+
+nn(buton-3, print-2)
+dobj(press-1, buton-3)
+
+dobj(load-1, paper-2)
+prep_into(load-1, printer-4)
+
+prep_on(turn-1, printer-3)
+
+dobj(print-1, document-2)
+
+
+nsubj(setup-2, page-1)
+
+
+cc(text-3, or-2)
+dobj(draft-1, text-3)
+
+
+prep_of(number-1, copies-3)
+
+dobj(print-1, command-2)
+
+dobj(put-1, paper-2)
+prep_in(put-1, printer-4)
+
+dobj(turn-1, printer-2)
+prt(turn-1, on-3)
+
+nsubj(print-3, click-1)
+dep(print-3, the-2)
+dobj(print-3, button-4)
+
+dobj(view-1, document-2)
+prep_on(view-1, screen-4)
+
+det(option-4, the-2)
+nn(option-4, print-3)
+dep(click-1, option-4)
+
+det(program-3, the-2)
+dobj(open-1, program-3)
+det(document-6, the-5)
+prep_with(open-1, document-6)
+prep_in(open-1, it-8)
+
+aux(file-3, to-2)
+xcomp(go-1, file-3)
+
+prep_to(go-1, print-3)
+
+prep_on(turn-1, printer-3)
+
+det(settings-4, the-2)
+amod(settings-4, desired-3)
+dobj(select-1, settings-4)
+
+dobj(say-1, ok-2)
+
+prepc_for(wait-1, printing-3)
+aux(complete-5, to-4)
+xcomp(printing-3, complete-5)
+
+dobj(type-1, document-2)
+
+nsubj(file-2, click-1)
+
+nsubj(print-2, click-1)
+
+dobj(accept-1, settings-2)
+
+prep_on(turn-1, printer-3)
+
+dobj(put-1, paper-2)
+prep(put-1, in-3)
+
+nsubj(goes-2, paper-1)
+prt(goes-2, down-3)
+
+dobj(send-1, document-2)
+prep_to(send-1, printer-4)
+
+prep_on(turn-1, printer-3)
+
+dobj(connect-1, printer-2)
+prep_to(connect-1, computer-4)
+
+dobj(open-1, document-2)
+prep_on(open-1, computer-4)
+
+dobj(select-1, print-2)
+
+nsubj(file-2, click-1)
+
+nsubj(print-2, click-1)
+dobj(print-2, preview-3)
+
+dobj(load-1, paper-2)
+
+nsubj(print-2, click-1)
+
+aux(file-3, to-2)
+xcomp(go-1, file-3)
+
+prep_to(go-1, print-3)
+
+dobj(select-1, pages-2)
+prep_to(select-1, print-4)
+
+dobj(select-1, copies-2)
+prep_to(select-1, prin-4)
+
+dobj(select-1, print-3)
+
+dep(click-1, printer-2)
+
+nsubj(print-2, click-1)
+
+dobj(open-1, document-2)
+prep_to(open-1, print-4)
+
+xcomp(select-1, file-2)
+dobj(file-2, print-3)
+
+dobj(select-1, ok-2)
+
+dobj(close-1, document-2)
+
+dep(click-1, printer-2)
+
+nsubj(ok-2, click-1)
+
+acomp(make-1, sure-2)
+expl(is-4, there-3)
+ccomp(sure-2, is-4)
+nsubj(is-4, paper-5)
+prep_in(is-4, printer-7)
+
+acomp(make-1, sure-2)
+dep(is-4, printer-3)
+dep(sure-2, is-4)
+prep(is-4, on-5)
+
+det(icon-4, the-2)
+nn(icon-4, print-3)
+dobj(hit-1, icon-4)
+
+prt(open-1, up-2)
+dobj(open-1, document-3)
+prep_to(open-1, print-5)
+
+nn(icon-3, printer-2)
+dobj(select-1, icon-3)
+
+dobj(select-1, #-2)
+prep_of(#-2, copies-4)
+
+nn(range-3, page-2)
+dobj(select-1, range-3)
+
+amod(properties-4, other-2)
+nn(properties-4, document-3)
+dobj(select-1, properties-4)
+
+advmod(press-1, okay-2)
+
+prep_for(wait-1, document-3)
+prep_to(wait-1, print-5)
+
+nsubj(print-2, click-1)
+

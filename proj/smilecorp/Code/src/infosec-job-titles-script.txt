@@ -1,0 +1,60 @@
+#!/usr/bin/env python
+# encoding: utf-8
+"""
+sectitles.py
+
+Created by John Hoyt on 2011-04-14.
+This script is distributed according to the Creative Commons v3 "Attribution" License.
+
+This program is designed to query the Bing API for a set of specific security job titles.
+"""
+
+from bingapi import bingapi
+from itertools import product
+
+def getInfo(qry):
+	"""
+	This sections queries the Bing API using a specific api key.  
+	It returns a json object that is then set to a results dictionary.
+	The optional arguments are;
+	web.count = This is the total count of results returned per request.  The maximum amount is 50.
+	web.offset = This specifies the offset, from zero, for the starting point of the result set to be returned.  The max is 1000.  I've set it to 1000 to get as close as possible results total.  Bing will respond with a much higher total on the first results set, but if you move to the last set it shows a more accurate total. 
+	"""
+	Q = '"'	 #Used to add the quotes around the title for a more specific search.
+	qry = Q + qry + Q
+	bing = bingapi.Bing('****ENTER*API*CODE*HERE****') #Enter your Bing API code here.
+	j = bing.do_web_search(qry, extra_args={'web.count':10, 'web.offset':1000})
+	results = ''
+	try: #Error checking to test that we do return results
+		results = j['SearchResponse']['Web']['Total']
+	except: 
+		pass
+	
+	return results
+
+
+def titlegen():
+	#This function generates the job title permutations.  It uses the product function of the itertools module, and returns a list of all possible combinations.  
+	results = []
+	a = ['','Chief', 'Senior', 'Principal', 'Regional']
+	b = ['', 'Information', 'Data', 'Network', 'IT', 'Application', 'Enterprise', 'Cyber']
+	c = ['', 'Security']
+	d = ['', 'Program', 'Operations', 'Risk', 'Systems', 'Assurance']
+	e = ['Analyst', 'Engineer', 'Officer', 'Specialst', 'Manager', 'Administrator', 'Director', 'Consultant', 'Associate', 'Architect', 'Lead', 'Auditor', 'Strategist', 'Investigator', 'Advisor', 'Evangelist']
+
+	for r in product(a,b,c,d,e):
+		results.append('%s %s %s %s %s' % r)
+	
+	return results
+	
+
+def main():
+	titles = titlegen()
+	for title in titles:  #Loops through each title in the list. 
+		total = getInfo(title)
+		print title, ',', total #Prints results in a comma seperated format. 
+
+
+if __name__ == '__main__':
+	main()
+

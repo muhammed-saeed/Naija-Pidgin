@@ -1,0 +1,528 @@
+det(edge-3, an-2)
+dobj(grasp-1, edge-3)
+dobj(grasp-1, corner-5)
+conj_or(edge-3, corner-5)
+det(furniture-8, the-7)
+prep_of(corner-5, furniture-8)
+
+conj_or(slide-1, shift-3)
+det(furniture-5, the-4)
+dobj(shift-3, furniture-5)
+
+dobj(pick-1, it-2)
+prt(pick-1, up-3)
+conj_and(pick-1, carry-5)
+dobj(carry-5, it-6)
+mark(slide-11, if-7)
+nsubj(slide-11, you-8)
+aux(slide-11, can-9)
+advmod(slide-11, t-10)
+advcl(carry-5, slide-11)
+dobj(slide-11, it-12)
+
+dobj(put-1, it-2)
+det(place-6, a-4)
+amod(place-6, different-5)
+prep_in(put-1, place-6)
+
+dobj(find-1, furniture-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, furniture-3)
+conj_or(pick-1, push-5)
+dobj(push-5, it-6)
+poss(hands-9, your-8)
+prep_with(push-5, hands-9)
+
+dobj(move-1, furniture-2)
+amod(location-5, new-4)
+prep_to(move-1, location-5)
+
+prt(put-1, down-2)
+dobj(put-1, furniture-3)
+conj_or(put-1, stop-5)
+xcomp(stop-5, pushing-6)
+dobj(pushing-6, it-7)
+
+dobj(assess-1, size-2)
+prep_of(size-2, room-4)
+
+dobj(determine-1, position-2)
+amod(placement-6, new-4)
+nn(placement-6, furniture-5)
+prep_for(determine-1, placement-6)
+
+advmod(move-4, slowly-1)
+conj_and(slowly-1, carefully-3)
+advmod(move-4, carefully-3)
+det(piece-6, each-5)
+nsubj(move-4, piece-6)
+prep_of(piece-6, furniture-8)
+poss(location-12, its-10)
+amod(location-12, new-11)
+prep_to(furniture-8, location-12)
+
+det(furniture-4, the-3)
+prep_near(move-1, furniture-4)
+
+det(furniture-3, the-2)
+dobj(grasp-1, furniture-3)
+
+det(furniture-3, the-2)
+dobj(raise-1, furniture-3)
+det(ground-6, the-5)
+prep_from(raise-1, ground-6)
+
+csubj(location-8, carry-1)
+det(furniture-3, the-2)
+dobj(carry-1, furniture-3)
+prep_to(carry-1, it-5)
+cop(location-8, s-6)
+amod(location-8, new-7)
+
+det(furniture-3, the-2)
+dobj(set-1, furniture-3)
+prt(set-1, down-4)
+det(ground-7, the-6)
+prep_on(set-1, ground-7)
+
+dobj(locate-1, furniture-2)
+aux(moved-5, to-3)
+auxpass(moved-5, be-4)
+xcomp(locate-1, moved-5)
+
+mark(possible-2, if-1)
+advcl(walk-7, possible-2)
+csubj(walk-7, possible-2)
+csubj(put-13, possible-2)
+parataxis(walk-7, pick-3)
+prt(pick-3, up-4)
+det(furniture-6, the-5)
+dobj(pick-3, furniture-6)
+det(location-11, the-9)
+amod(location-11, final-10)
+prep_to(walk-7, location-11)
+conj_and(walk-7, put-13)
+dobj(put-13, it-14)
+prt(put-13, down-15)
+
+advmod(push-2, otherwise-1)
+det(furniture-4, the-3)
+dobj(push-2, furniture-4)
+det(location-8, the-6)
+amod(location-8, final-7)
+prep_to(push-2, location-8)
+
+prt(invite-1, over-2)
+det(friends-4, some-3)
+dobj(invite-1, friends-4)
+aux(help-6, to-5)
+xcomp(invite-1, help-6)
+
+nsubj(grasp-4, each-1)
+prep_of(each-1, you-3)
+det(item-6, the-5)
+dobj(grasp-4, item-6)
+prep_of(item-6, furniture-8)
+
+det(item-3, the-2)
+dobj(lift-1, item-3)
+prep_in(lift-1, concert-5)
+
+det(item-3, the-2)
+dobj(move-1, item-3)
+poss(location-7, its-5)
+amod(location-7, new-6)
+prep_to(move-1, location-7)
+
+det(man-4, a-2)
+amod(man-4, strong-3)
+dobj(fetch-1, man-4)
+
+det(trolley-3, a-2)
+dobj(get-1, trolley-3)
+
+det(man-4, the-2)
+amod(man-4, strong-3)
+nsubj(put-5, man-4)
+ccomp(let-1, put-5)
+det(furniture-7, the-6)
+dobj(put-5, furniture-7)
+det(trolley-10, the-9)
+prep_on(put-5, trolley-10)
+
+nsubj(roll-3, him-2)
+ccomp(let-1, roll-3)
+det(trolley-5, the-4)
+dobj(roll-3, trolley-5)
+det(destination-8, the-7)
+prep_to(roll-3, destination-8)
+
+nsubj(unload-3, him-2)
+ccomp(let-1, unload-3)
+det(furniture-5, the-4)
+dobj(unload-3, furniture-5)
+
+det(man-4, the-2)
+amod(man-4, strong-3)
+dobj(thank-1, man-4)
+
+dobj(make-1, space-2)
+prep_for(make-1, furniture-4)
+
+dobj(lift-1, furniture-2)
+
+amod(place-4, new-3)
+prep_to(move-1, place-4)
+
+dobj(let-1, furniture-2)
+prt(let-1, down-3)
+
+amod(place-3, new-2)
+dobj(decide-1, place-3)
+prep_for(place-3, furniture-5)
+
+dobj(make-1, room-2)
+
+dobj(lift-1, furniture-2)
+
+amod(place-4, new-3)
+prep_to(move-1, place-4)
+
+dobj(release-1, furniture-2)
+
+dobj(get-1, someone-2)
+aux(help-4, to-3)
+infmod(someone-2, help-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, furniture-3)
+
+dobj(carry-1, furniture-2)
+amod(destination-5, new-4)
+prep_to(carry-1, destination-5)
+
+prt(set-1, down-2)
+dobj(set-1, furniture-3)
+
+nsubj(movers-2, schedule-1)
+
+nsubj(carry-3, movers-2)
+ccomp(let-1, carry-3)
+prt(carry-3, away-4)
+dobj(carry-3, furniture-5)
+
+prep_at(be-1, destination-3)
+advmod(arrive-7, when-4)
+det(movers-6, the-5)
+nsubj(arrive-7, movers-6)
+advcl(be-1, arrive-7)
+
+amod(move-3, movers-2)
+dobj(let-1, move-3)
+prep_in(let-1, furniture-5)
+
+dobj(make-1, space-2)
+prep_for(make-1, furniture-4)
+
+prt(lift-1, up-2)
+dobj(lift-1, furniture-3)
+
+amod(place-4, new-3)
+prep_to(carry-1, place-4)
+
+prt(place-1, down-2)
+dobj(place-1, furniture-3)
+
+dobj(grab-1, furniture-2)
+
+dobj(push-1, furniture-2)
+
+det(piece-3, a-2)
+dobj(find-1, piece-3)
+prep_of(piece-3, furniture-5)
+
+dep(push-1, pull-2)
+dep(push-1, carry-4)
+conj_or(pull-2, carry-4)
+det(furniture-6, the-5)
+dobj(carry-4, furniture-6)
+det(location-10, a-8)
+amod(location-10, different-9)
+prep_to(carry-4, location-10)
+
+mark(moved-9, until-2)
+nsubjpass(moved-9, all-3)
+det(furniture-6, the-5)
+prep_of(all-3, furniture-6)
+aux(moved-9, has-7)
+auxpass(moved-9, been-8)
+advcl(repeat-1, moved-9)
+
+det(furniture-4, the-3)
+prep_to(go-1, furniture-4)
+aux(move-6, to-5)
+infmod(furniture-4, move-6)
+
+det(furniture-3, the-2)
+dobj(push-1, furniture-3)
+advmod(else-5, somewhere-4)
+advmod(push-1, else-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, furniture-3)
+
+dobj(carry-1, furniture-2)
+
+prt(set-1, down-2)
+dobj(set-1, furniture-3)
+
+dobj(select-1, furniture-2)
+aux(moved-5, to-3)
+auxpass(moved-5, be-4)
+xcomp(select-1, moved-5)
+
+advmod(move-4, where-2)
+aux(move-4, to-3)
+xcomp(determine-1, move-4)
+dobj(move-4, furniture-5)
+
+conj_or(push-1, carry-3)
+dobj(carry-3, furniture-4)
+amod(location-7, desired-6)
+prep_to(carry-3, location-7)
+
+dobj(identify-1, furniture-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, furniture-3)
+
+
+dobj(put-1, furniture-2)
+prt(put-1, down-3)
+
+prt(bend-1, down-2)
+
+
+
+
+
+
+det(furniture-4, the-3)
+prep_to(go-1, furniture-4)
+
+dobj(pick-1, furniture-2)
+prt(pick-1, up-3)
+
+amod(location-4, new-3)
+prep_to(go-1, location-4)
+prep_for(location-4, furniture-6)
+
+dobj(place-1, furniture-2)
+amod(location-5, new-4)
+prep_on(place-1, location-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, furniture-3)
+
+dobj(carry-1, furniture-2)
+amod(location-5, new-4)
+prep_to(carry-1, location-5)
+
+prt(put-1, down-2)
+dobj(put-1, furniture-3)
+
+amod(location-3, new-2)
+dobj(identify-1, location-3)
+
+amod(location-3, new-2)
+dobj(clear-1, location-3)
+
+dobj(clear-1, path-2)
+
+dobj(lift-1, furniture-2)
+
+dobj(move-1, furniture-2)
+
+dobj(set-1, furniture-2)
+prt(set-1, down-3)
+
+advmod(move-4, where-2)
+aux(move-4, to-3)
+xcomp(decide-1, move-4)
+det(couch-6, the-5)
+dobj(move-4, couch-6)
+prep(move-4, to-7)
+
+det(couch-4, the-3)
+prep_behind(get-1, couch-4)
+
+poss(friend-3, your-2)
+dobj(ask-1, friend-3)
+aux(get-5, to-4)
+infmod(friend-3, get-5)
+prep_in(get-5, front-7)
+
+det(people-2, both-1)
+nsubj(lift-3, people-2)
+det(couch-5, the-4)
+dobj(lift-3, couch-5)
+advmod(lift-3, slightly-6)
+
+det(people-2, both-1)
+nsubj(walk-3, people-2)
+det(couch-6, the-5)
+prep_with(walk-3, couch-6)
+
+prt(pack-1, up-2)
+det(furniture-4, all-3)
+dobj(pack-1, furniture-4)
+
+dobj(place-1, furniture-2)
+prep_in(place-1, vehicle-4)
+
+dobj(drive-1, vehicle-2)
+amod(location-5, new-4)
+prep_to(drive-1, location-5)
+
+dobj(unpack-1, furniture-2)
+
+advmod(go-7, where-3)
+det(furniture-5, the-4)
+nsubj(go-7, furniture-5)
+aux(go-7, will-6)
+prepc_on(deside-1, go-7)
+
+mark(require-3, if-2)
+advcl(deside-1, require-3)
+dobj(require-3, assistance-4)
+
+advmod(go-8, where-2)
+det(peice-4, each-3)
+nsubj(go-8, peice-4)
+prep_of(peice-4, furniture-6)
+aux(go-8, will-7)
+advcl(know-1, go-8)
+prep_before(go-8, you-10)
+ccomp(go-8, move-11)
+dobj(move-11, it-12)
+
+dobj(move-1, furniture-2)
+det(position-5, the-4)
+prep_to(move-1, position-5)
+
+nsubjpass(done-3, you-1)
+auxpass(done-3, are-2)
+
+prep_near(go-1, furniture-3)
+
+det(furniture-3, the-2)
+dep(grip-1, furniture-3)
+
+dobj(push-1, furniture-2)
+
+dep(keep-1, pushing-2)
+aux(prefered-4, to-3)
+xcomp(pushing-2, prefered-4)
+dobj(prefered-4, place-5)
+
+xcomp(let-1, go-2)
+prt(go-2, off-3)
+det(furniture-5, the-4)
+dobj(go-2, furniture-5)
+
+det(furniture-3, the-2)
+dobj(identify-1, furniture-3)
+
+det(force-3, the-2)
+dobj(apply-1, force-3)
+aux(move-5, to-4)
+xcomp(apply-1, move-5)
+
+det(furniture-3, the-2)
+dobj(move-1, furniture-3)
+amod(direction-6, proper-5)
+prep_in(move-1, direction-6)
+
+det(furniture-3, the-2)
+dobj(find-1, furniture-3)
+
+det(trolley-3, a-2)
+dobj(take-1, trolley-3)
+
+det(furniture-3, the-2)
+dobj(keep-1, furniture-3)
+det(trolley-6, the-5)
+prep_inside(furniture-3, trolley-6)
+
+det(furniture-3, the-2)
+dobj(move-1, furniture-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, furniture-3)
+
+amod(location-5, new-3)
+amod(location-5, desired-4)
+prep_to(move-1, location-5)
+
+advmod(lower-2, slowly-1)
+amod(piece-3, lower-2)
+prep_of(piece-3, furniture-5)
+det(ground-8, the-7)
+prep_on(furniture-5, ground-8)
+
+dobj(position-1, piece-2)
+prep_of(piece-2, furniture-4)
+det(arrangement-8, the-6)
+amod(arrangement-8, desired-7)
+prep_to(position-1, arrangement-8)
+
+det(furniture-3, the-2)
+dobj(lift-1, furniture-3)
+
+dobj(move-1, furniture-2)
+amod(area-5, desinated-4)
+prep_to(move-1, area-5)
+
+dobj(find-1, furniture-2)
+nsubj(needs-4, furniture-2)
+rcmod(furniture-2, needs-4)
+dep(needs-4, moving-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, furniture-3)
+
+mark(holding-3, while-2)
+advcl(walk-1, holding-3)
+dobj(holding-3, furniture-4)
+
+dobj(find-1, furniture-2)
+nsubj(needs-4, furniture-2)
+rcmod(furniture-2, needs-4)
+dep(needs-4, moving-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, furniture-3)
+
+dobj(carry-1, it-2)
+aux(wher-4, to-3)
+xcomp(carry-1, wher-4)
+nsubj(want-6, you-5)
+ccomp(wher-4, want-6)
+dobj(want-6, it-7)
+
+dobj(put-1, it-2)
+prt(put-1, down-3)
+
+dobj(picking-1, it-2)
+prt(picking-1, up-3)
+
+prep_around(maneuver-1, corners-3)
+prep_around(maneuver-1, spaces-5)
+conj_and(corners-3, spaces-5)
+
+dobj(use-1, hands-2)
+
+conj_or(push-1, lift-3)
+dobj(lift-3, furniture-4)
+

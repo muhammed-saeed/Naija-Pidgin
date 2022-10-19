@@ -1,0 +1,450 @@
+det(opener-5, the-2)
+nn(opener-5, garage-3)
+nn(opener-5, door-4)
+dobj(press-1, opener-5)
+
+det(control-4, the-2)
+amod(control-4, remote-3)
+dobj(find-1, control-4)
+
+det(garage-5, the-4)
+prep_close_to(door-6, garage-5)
+dobj(drive-1, door-6)
+
+det(button-3, the-2)
+dobj(hit-1, button-3)
+det(control-7, the-5)
+amod(control-7, remote-6)
+prep_on(hit-1, control-7)
+
+dobj(locate-1, garage-2)
+
+acomp(locate-1, remote-2)
+
+acomp(press-1, open-2)
+
+det(door-5, the-3)
+nn(door-5, garage-4)
+prep_to(move-1, door-5)
+
+dep(latch-6, release-1)
+det(door-4, the-2)
+nn(door-4, garage-3)
+dobj(release-1, door-4)
+nsubj(latch-6, s-5)
+
+amod(door-4, thw-2)
+nn(door-4, garage-3)
+dobj(raise-1, door-4)
+det(position-8, an-6)
+amod(position-8, open-7)
+prep_to(raise-1, position-8)
+
+prep_close_to(door-5, garage-4)
+dobj(get-1, door-5)
+
+acomp(use-1, remote-2)
+aux(open-4, to-3)
+xcomp(remote-2, open-4)
+
+dobj(approach-1, garrage-2)
+
+amod(button-3, open-2)
+dobj(press-1, button-3)
+prep_on(press-1, remote-5)
+
+dobj(approach-1, garrage-2)
+
+dobj(press-1, open-2)
+amod(button-5, remote-4)
+prep_on(press-1, button-5)
+
+prep_for(wait-1, door-3)
+aux(open-5, to-4)
+xcomp(wait-1, open-5)
+
+dobj(approach-1, garrage-2)
+
+nsubj(handle-2, holding-1)
+
+prt(pull-1, up-2)
+nn(door-4, garage-3)
+dobj(pull-1, door-4)
+
+prep_close_to(go-1, garage-4)
+
+dobj(hold-1, handle-2)
+
+prt(pull-1, up-2)
+ccomp(pull-1, handle-3)
+advmod(opens-7, so-4)
+dep(opens-7, that-5)
+nsubj(opens-7, door-6)
+ccomp(handle-3, opens-7)
+
+nn(button-5, garage-2)
+nn(button-5, door-3)
+nn(button-5, opener-4)
+dobj(push-1, button-5)
+
+nn(door-4, garage-3)
+prep_to(go-1, door-4)
+
+nsubj(handle-2, press-1)
+nsubj(open-4, press-1)
+conj_and(handle-2, open-4)
+dobj(open-4, door-5)
+
+nn(door-4, garage-3)
+prep_near(go-1, door-4)
+
+dobj(unlock-1, door-2)
+mark(locked-4, if-3)
+dep(unlock-1, locked-4)
+
+dobj(lift-1, door-2)
+dep(lift-1, handle-3)
+advmod(opens-7, so-4)
+dep(opens-7, that-5)
+nsubj(opens-7, door-6)
+ccomp(handle-3, opens-7)
+
+prep_close_to(get-1, garage-4)
+
+amod(control-3, remote-2)
+dobj(aim-1, control-3)
+nn(door-6, garage-5)
+prep_to(aim-1, door-6)
+
+amod(button-3, open-2)
+dobj(press-1, button-3)
+prep_on(press-1, remote-5)
+
+prep_for(wait-1, door-3)
+aux(open-5, to-4)
+xcomp(wait-1, open-5)
+
+det(opener-4, the-2)
+nn(opener-4, garage-3)
+dobj(locate-1, opener-4)
+
+det(opener-4, the-2)
+nn(opener-4, garage-3)
+dobj(utilize-1, opener-4)
+mark(starts-8, until-5)
+det(door-7, the-6)
+nsubj(starts-8, door-7)
+xsubj(open-10, door-7)
+advcl(utilize-1, starts-8)
+aux(open-10, to-9)
+xcomp(starts-8, open-10)
+
+det(door-4, the-2)
+nn(door-4, garage-3)
+dobj(approach-1, door-4)
+
+det(handle-3, the-2)
+dobj(turn-1, handle-3)
+det(door-7, the-5)
+nn(door-7, garage-6)
+prep_on(turn-1, door-7)
+
+advmod(lift-1, upwards-2)
+aux(open-4, to-3)
+xcomp(lift-1, open-4)
+det(door-7, the-5)
+nn(door-7, garage-6)
+dobj(open-4, door-7)
+
+det(door-5, the-3)
+nn(door-5, garage-4)
+prep_to(move-1, door-5)
+
+det(door-4, the-2)
+nn(door-4, garage-3)
+dobj(grasp-1, door-4)
+dep(grasp-1, handle-5)
+
+det(handle-3, the-2)
+dobj(pull-1, handle-3)
+advmod(open-6, upwards-4)
+aux(open-6, to-5)
+infmod(handle-3, open-6)
+det(door-9, the-7)
+nn(door-9, garage-8)
+dobj(open-6, door-9)
+
+det(door-4, the-2)
+nn(door-4, garage-3)
+iobj(get-1, door-4)
+nn(control-6, opener-5)
+dobj(get-1, control-6)
+
+det(garage-3, the-2)
+iobj(get-1, garage-3)
+nn(keys-5, door-4)
+dobj(get-1, keys-5)
+
+advmod(go-1, outside-2)
+
+det(garage-4, the-3)
+prep_to(walk-1, garage-4)
+
+det(door-4, the-2)
+nn(door-4, garage-3)
+dobj(unlock-1, door-4)
+
+det(button-6, the-2)
+nn(button-6, garage-3)
+nn(button-6, door-4)
+nn(button-6, opener-5)
+dobj(push-1, button-6)
+
+det(door-5, the-3)
+nn(door-5, garage-4)
+prep_for(wait-1, door-5)
+aux(open-7, to-6)
+xcomp(wait-1, open-7)
+
+det(garage-3, the-2)
+dobj(locate-1, garage-3)
+
+det(garage-3, the-2)
+dobj(point-1, garage-3)
+dep(point-1, remote-4)
+det(door-8, the-6)
+nn(door-8, garage-7)
+prep_to(remote-4, door-8)
+
+det(button-6, the-2)
+amod(button-6, up-4)
+dobj(press-1, button-6)
+det(garage-9, the-8)
+prep_on(press-1, garage-9)
+dep(press-1, remote-10)
+
+dep(close-2, getting-1)
+prep_to(close-2, garage-4)
+
+nn(opener-4, garage-2)
+nn(opener-4, door-3)
+dobj(retreiving-1, opener-4)
+
+dobj(press-1, button-2)
+nn(opener-6, garage-4)
+nn(opener-6, door-5)
+prep_on(press-1, opener-6)
+
+nn(door-3, garage-2)
+dobj(identify-1, door-3)
+
+dobj(grab-1, handle-2)
+
+
+advmod(open-5, when-2)
+nsubj(open-5, door-3)
+cop(open-5, is-4)
+advcl(stop-1, open-5)
+
+det(door-4, the-2)
+nn(door-4, garage-3)
+dobj(grab-1, door-4)
+dep(grab-1, handle-5)
+
+det(door-4, the-2)
+nn(door-4, garage-3)
+dobj(open-1, door-4)
+
+nn(door-4, garage-3)
+prep_to(go-1, door-4)
+
+nn(door-3, garage-2)
+dobj(unlock-1, door-3)
+
+nn(door-3, garage-2)
+dobj(lift-1, door-3)
+
+det(button-4, the-2)
+amod(button-4, open-3)
+dobj(push-1, button-4)
+det(opener-9, the-6)
+nn(opener-9, garage-7)
+nn(opener-9, door-8)
+prep_on(push-1, opener-9)
+
+dobj(press-1, button-2)
+aux(open-4, to-3)
+xcomp(press-1, open-4)
+det(garage-6, the-5)
+dobj(open-4, garage-6)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+det(opener-8, the-5)
+nn(opener-8, garage-6)
+nn(opener-8, door-7)
+prep_on(press-1, opener-8)
+
+prt(walk-1, up-2)
+det(door-6, the-4)
+nn(door-6, garage-5)
+prep_to(walk-1, door-6)
+
+dobj(take-1, key-2)
+prep_out_of(take-1, pocket-5)
+
+acomp(put-1, key-2)
+prep_in(put-1, lock-4)
+
+acomp(turn-1, key-2)
+
+dobj(turn-1, handle-2)
+
+nn(door-3, garage-2)
+dobj(lift-1, door-3)
+
+det(garage-2, the-1)
+nsubj(open-5, garage-2)
+cop(open-5, is-3)
+advmod(open-5, now-4)
+
+dobj(push-1, button-2)
+nn(opener-6, garage-4)
+nn(opener-6, door-5)
+prep_on(push-1, opener-6)
+
+dobj(drive-1, car-2)
+
+det(door-4, the-2)
+nn(door-4, garage-3)
+iobj(press-1, door-4)
+nn(button-6, opener-5)
+dobj(press-1, button-6)
+
+det(button-5, the-2)
+nn(button-5, garage-3)
+nn(button-5, door-4)
+dobj(press-1, button-5)
+
+dobj(place-1, hand-2)
+prep_on(place-1, handle-4)
+
+dep(lift-1, handle-2)
+prt(handle-2, up-3)
+mark(open-7, until-4)
+nsubj(open-7, door-5)
+cop(open-7, is-6)
+advcl(handle-2, open-7)
+
+nn(switch-4, garage-3)
+prep_to(go-1, switch-4)
+
+dobj(operate-1, switch-2)
+
+det(button-3, the-2)
+dobj(press-1, button-3)
+
+prep_to(go-1, garage-3)
+
+dobj(face-1, door-2)
+
+dobj(grab-1, handle-2)
+prep_on(grab-1, door-4)
+
+
+nn(door-3, garage-2)
+dobj(raise-1, door-3)
+
+dobj(put-1, hand-2)
+nn(door-5, garage-4)
+prep_on(put-1, door-5)
+advmod(put-1, handle-6)
+
+prt(pull-1, up-2)
+advmod(pull-1, hard-3)
+prep_on(pull-1, handle-5)
+
+advmod(is-3, when-1)
+nsubj(is-3, garage-2)
+nn(level-6, waist-5)
+prep_at(is-3, level-6)
+
+dobj(grab-1, bottom-2)
+nn(door-5, garage-4)
+prep_of(bottom-2, door-5)
+
+prt(heave-1, up-2)
+
+dobj(push-1, button-2)
+nn(opener-6, garage-4)
+nn(opener-6, door-5)
+prep_on(push-1, opener-6)
+
+dobj(choose-1, one-2)
+prep_of(one-2, the-4)
+prep(choose-1, below-5)
+
+nn(door-3, garage-2)
+dobj(lift-1, door-3)
+prt(lift-1, up-4)
+
+amod(button-3, open-2)
+dobj(push-1, button-3)
+nn(door-6, garage-5)
+prep_for(push-1, door-6)
+
+dobj(open-1, door-2)
+prep_to(open-1, garage-4)
+
+prep_into(walking-1, garage-3)
+
+det(light-4, the-3)
+prep_on(turning-1, light-4)
+
+prep_of(waiting-1, light-3)
+aux(turn-5, to-4)
+infmod(waiting-1, turn-5)
+prt(turn-5, on-6)
+
+det(button-3, the-2)
+dobj(pushing-1, button-3)
+det(door-6, the-5)
+prep_for(pushing-1, door-6)
+
+mark(open-5, for-2)
+nsubj(open-5, it-3)
+aux(open-5, to-4)
+advcl(waiting-1, open-5)
+xcomp(waiting-1, open-5)
+
+dobj(turn-1, handle-2)
+nn(door-5, garage-4)
+prep_of(handle-2, door-5)
+
+dobj(lift-1, door-2)
+advmod(lift-1, upwards-3)
+
+dobj(press-1, button-2)
+nn(opener-6, garage-4)
+nn(opener-6, door-5)
+prep_on(press-1, opener-6)
+
+det(opener-5, the-2)
+nn(opener-5, garage-3)
+nn(opener-5, door-4)
+dobj(press-1, opener-5)
+
+dobj(unlock-1, garage-2)
+
+dobj(grab-1, handle-2)
+
+nn(door-3, garage-2)
+dobj(pull-1, door-3)
+prt(pull-1, up-4)
+
+det(door-4, the-2)
+nn(door-4, garage-3)
+iobj(press-1, door-4)
+nn(button-6, opener-5)
+dobj(press-1, button-6)
+

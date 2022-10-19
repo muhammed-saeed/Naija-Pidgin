@@ -1,0 +1,5869 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0006268" url="http://www.mosaic-industries.com/Manuals/QVGA/C08.html" time="2012-07-12-22:57" support="1" score="0.0005934038844341436" bingtitle="The QVGA; Chapter 8: Digital and Timer-Controlled I/O" webtitle="The QVGA; Chapter 8: Digital and Timer-Controlled I/O">
+			<query id="001421" bing-rank="237"/>
+	<description>Including the high current drivers the maximum number of ... to be read as a logical 0, and external voltages near 5 ... To change the state of an output bit on PORTA of the ...</description>
+	<body>
+		The C Programmers Guide to the
+QVGA Controller
+
+Table of Contents
+
+PART 1 GETTING STARTED
+
+ Introduction. How to Use This Manual 
+
+ Chapter 1: Getting to Know Your QVGA 
+
+PART 2 PROGRAMMING THE QVGA CONTROLLER
+
+ Chapter 2: Your First Program 
+
+ Chapter 3: The IDE: Writing, Compiling, Downloading and Debugging Programs 
+
+ Chapter 4: Making Effective Use of Memory 
+
+ Chapter 5: Programming the Graphical User Interface 
+
+ Chapter 6: Real Time Programming 
+
+ Chapter 7: Failure and Run-Time Error Recovery 
+
+PART 3 COMMUNICATIONS, MEASUREMENT, AND CONTROL
+
+ Chapter 8: Digital and Timer-Controlled I/O 
+
+ Overview of Available Digital I/O 
+
+ Using the Digital I/O Ports on the 68HC11 Chip 
+
+ Using the PIA 
+
+ Using the High Current Drivers 
+
+ Connecting Hardware to the Digital Outputs 
+
+ The Processors Output Compare Functions 
+
+ Pulse and PWM Generation Techniques 
+
+ Chapter 9: Data Acquisition Using the QVGA Controller 
+
+ Chapter 10: Outputting Voltages with Digital to Analog Conversion
+ Chapter 11: Serial Communications 
+
+ Chapter 12: The Battery-Backed Real Time Clock 
+
+PART 4: PUTTING IT ALL TOGETHER
+
+ Chapter 13: A Turnkeyed Application 
+
+PART 5: REFERENCE DATA
+
+ Appendix A: QVGA Electrical Specifications 
+
+ Appendix B: Connector Pinouts 
+
+ Appendix C: Physical Dimensions 
+
+ Appendix D: Schematics (pdf) 
+ 
+Chapter 8
+
+ &lt;&lt;Previous | Next&gt;&gt; 
+
+Chapter 8: Digital and Timer-Controlled I/O
+
+Overview of Available Digital I/O
+
+The QVGA Controller provides 30 digital I/O lines, 24
+analog I/O lines, and three communications channels. The digital I/O lines
+originate in four ports on the CPU (68HC11), designated PORTA, PORTB, PORTC,
+and PORTD, and three additional ports provided by a peripheral interface adapter
+(PIA) chip (82C55A), designated PPA, PPB and PPB. Table 8‑1 summarizes
+the digital I/O available, its alternate uses, and port assignments.
+
+ Table 8‑1The QVGA Controllers Digital I/O
+
+ 
+ I/O Lines 
+ 
+ Type 
+ 
+ Port Address 
+ 
+ Comments / Alternate Uses 
+ 
+8
+ 
+Configurable either as all
+ digital inputs or outputs
+ 
+PPA 0-7
+ 
+Initialized on start-up and
+ resets as inputs.
+ 
+5
+ 
+Digital outputs
+ 
+PPB 0-4
+ 
+Initialized as outputs, but if
+ the high-current drivers that use PPB 5-7 are not needed, PPB may be software
+ reconfigured to all inputs.
+ 
+4
+ 
+Open-drain high-current outputs
+ 
+PPB 5-7 and PAL bit
+ 
+ 
+ 
+4
+ 
+Digital inputs
+ 
+PPC 0-3
+ 
+Initialized on start-up and resets as inputs, but may be
+ reconfigured as all outputs.
+ 
+3
+ 
+Configurable either as all digital inputs or outputs
+ 
+PPC 5-7
+ 
+Initialized as inputs but if RS485 is used PPC5-7 must be
+ reconfigured as outputs.
+ 
+6
+ 
+Timer-controlled inputs or outputs including 3
+ input-capture, 3 output-compare, and pulse accumulator
+ 
+PA 0-2, 5-7
+ 
+Bit-by-bit configured by the application as inputs or
+ outputs, including:
+Timed inputs: PA 0-2
+Timed outputs: PA 5-7
+Pulse accumulator: PA 7
+ 
+30
+ 
+Digital I/O lines
+ 
+ 
+ 
+ 
+ 
+
+There are a total of 30 fully uncommitted digital I/O
+lines for your use. After initialization or reset these are configured as 21
+digital inputs and 9 digital outputs, but as Figure 8‑1 shows many of
+these I/O lines are reconfigurable. Up to 21 of these I/O lines can be
+configured as inputs, all can be configured as outputs.
+
+In addition to these I/O lines there are several committed
+to other services on the controller; these are summarized in Table 8‑2.
+
+ Table 8‑2 Committed I/O pins
+
+ 
+Service
+ 
+Port
+ 
+Pins
+ 
+RS-485
+ 
+PIA PPC
+ 
+PPC 4
+ 
+8-bit A/D
+ 
+CPU PORTE
+ 
+PE 0-7
+ 
+Serial 2
+ 
+CPU PORTA
+ 
+PA 3-4
+ 
+SPI
+ 
+CPU PORTD
+ 
+PD 2-5
+ 
+
+For applications requiring even more digital I/O, I/O
+lines usually committed to the 8-bit A/D, the RS485 port, the secondary serial
+port or the SPI may be redirected as general purpose digital I/O if these other
+services are not needed, providing up to 15 additional digital I/O lines. Table
+8‑3 summarizes the digital I/O lines gained if other services are not
+used. The services uses are ordered from the least-used (the RS485) to the
+most frequently used (the SPI). Note that the SPI is required to use the
+12-bit A/D and any Wildcard I/O expansion modules. The five of the 9 output
+lines that originate on PPB (PPB 0-4) may be converted to input lines if the
+high current drivers are not needed. In that case, PPB can be reconfigured as
+all inputs, 9 outputs can be traded for 5 inputs, for a loss of 4 total lines
+but a gain of 5 more inputs.
+
+ Table 8‑3 Additional digital I/O lines made available if other
+services are forfeited and their committed I/O pins freed.
+
+ 
+Services
+ Used
+ 
+Digital
+ I/O Available
+ 
+ RS485 
+ 
+ 8-bit A/D 
+ 
+ Serial 2 
+ 
+ SPI 
+ 
+ Inputs 
+ 
+ Outputs 
+ 
+ Total 
+ 
+ Initial 
+ 
+ Max 
+ 
+ Initial 
+ 
+ Max 
+ 
+Yes
+ 
+Yes
+ 
+Yes
+ 
+Yes
+ 
+21
+ 
+21
+ 
+9
+ 
+30
+ 
+30
+ 
+No
+ 
+Yes
+ 
+Yes
+ 
+Yes
+ 
+22
+ 
+22
+ 
+9
+ 
+31
+ 
+31
+ 
+No
+ 
+No
+ 
+Yes
+ 
+Yes
+ 
+30
+ 
+30
+ 
+9
+ 
+39
+ 
+39
+ 
+No
+ 
+No
+ 
+No
+ 
+Yes
+ 
+32
+ 
+32
+ 
+9
+ 
+41
+ 
+41
+ 
+No
+ 
+No
+ 
+No
+ 
+No
+ 
+36
+ 
+36
+ 
+9
+ 
+45
+ 
+45
+ 
+
+Many of these 57 I/O lines are digital inputs and
+outputs. Including the high current drivers the maximum number of digital
+inputs and outputs is 41 (up to 32 can be configured as inputs, up to 29 as
+outputs) if none are used for the 8-bit A/D, the RS485, or the secondary serial
+port. Table 8‑1 summarizes the digital I/O and alternate use of some of the I/O pins.
+
+Digital inputs and outputs are very useful in data
+acquisition, monitoring, instrumentation and control applications. A low
+voltage (approximately 0 Volts) is established on a digital output pin when the
+processor writes a logical 0 to the corresponding bit in a data register
+associated with the digital output port. A high voltage (approximately 5
+Volts) is established on the digital output pin when the processor writes a 1
+to a corresponding bit in the ports data register. This allows software to control
+external events and processes. For example, an application program can use
+digital outputs to activate solenoids and turn switches and lights on and off,
+or to interface the QVGA Controller with a wide variety of digital accessories.
+
+A digital input allows the processor to monitor the
+logical state of an external voltage by reading a data register associated with
+the port. External voltages near 0 Volts connected to a digital input cause
+the corresponding bit in the ports data register to be read as a logical 0,
+and external voltages near 5 Volts connected to a digital input are read as a
+logical 1. Application programs can use digital inputs to read switches and
+keypads or to interface to digital devices such as A/D converters and real-time
+clocks.
+
+In addition, there are four high current drivers
+available. These N-channel MOSFET outputs can sink 150 mA continuously, and up
+to 1 amp on an intermittent basis. Onboard snubber diodes allow control of
+inductive loads. They are particularly useful for driving relays, solenoids,
+and low power stepper motors.
+
+Using digital I/O is very easy: simply configure the
+output port as input or output as explained below, and then use functions or
+assignment statements to read from or write to the port. The names of the data
+and direction registers and all required initialization routines are
+pre-defined in the header files so you dont have to worry about hexadecimal
+register addresses in your code.
+
+The following sections describe the available digital I/O
+ports and how to use them.
+
+The digital I/O signals on the QVGA Controller originate
+from a Motorolla 68HC11 processor chip and an 82C55A peripheral interface
+adapter (PIA) chip. The 68HC11 provides two 8 bit ports named PORTA and PORTE,
+and 4 available bits on PORTD (PD2 through PD5). The PIA supplies three 8 bit
+digital I/O ports named PPA, PPB, and PPC.
+
+Table 8‑4 summarizes the digital input/output available on the QVGA Controller including the names, addresses, and number of signals
+associated with the digital ports on the 68HC11 and PIA. The configurable as
+column specifies whether the direction of the port may be changed on a
+bit-by-bit, nibble-by-nibble, or byte basis (or in the case of PORTE,
+configured as digital or analog input). The final column lists alternate uses (other
+than standard digital I/O), the signal pins and the number of signals
+associated with the alternate uses. Note that a fourth High Current driver
+output is controlled by the onboard PAL.
+
+ Table 8‑4 Digital I/O Port Addresses and Configurability.
+
+ 
+ Port Name 
+ 
+ Address (HEX) 
+ 
+ I/O Line 
+ 
+ Configurable As 
+ 
+ Alternate
+ Use (Signals Used) 
+ 
+ 68HC11: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PORTA
+ 
+8000
+ 
+8
+ 
+Bitwise I/O
+ 
+Serial2: PA3&amp;PA4 (2)
+Pulse accumulator: PA7 (1)
+Timed inputs: PA0-3 (3 or 4)
+Timed outputs: PA3-7 (4 or 5)
+ 
+PORTD
+ 
+8008
+ 
+4
+ 
+Bitwise I/O
+ 
+SPI controls AD12&amp;DAC (4)
+ 
+PORTE
+ 
+800A
+ 
+8
+ 
+Bytewise digital or analog input
+ 
+8 bit A/D: PE0-7 (8)
+ 
+ PIA: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PPA
+ 
+8080
+ 
+8
+ 
+Bytewise I/O
+ 
+ 
+ 
+PPB
+ 
+8081
+ 
+8
+ 
+Bytewise I/O
+ 
+High Current Outs: PPA5-7 (3)
+ 
+PPC lower
+ 
+8082
+ 
+4
+ 
+Nibblewise I/O
+ 
+Keypad Inputs: PPC0-3 (4)
+ 
+PPC upper
+ 
+8082
+ 
+4
+ 
+Nibblewise I/O
+ 
+RS485: PPC4 (1)
+ 
+
+Table 8‑5 specifies the named data direction register which controls the input/output direction, or specifies the functions that configure
+each digital I/O port.
+
+ Table 8‑5 Digital I/O port data direction registers and configuration
+functions.
+
+ 
+Port Name
+ 
+Configured By
+ 
+ 68HC11: 
+ 
+   
+ 
+PORTA
+ 
+ DDRA PORTA.DIRECTION 
+ 
+PORTD
+ 
+ DDRD PORTD.DIRECTION 
+ 
+PORTE
+ 
+ AD8On()
+AD8Off() A/D8.ON
+A/D8.OFF 
+ 
+ PIA: 
+ 
+ 
+ 
+PPA
+ 
+ InitPIA() INIT.PIA 
+ 
+PPB
+ 
+ InitPIA() INIT.PIA 
+ 
+PPC lower
+ 
+ InitPIA() INIT.PIA 
+ 
+PPC upper
+ 
+ InitPIA() INIT.PIA 
+ 
+
+ Alternate
+Uses of the Digital I/O Ports 
+
+ Some of these port
+signals have alternative uses as summarized in Table 8‑4 . The 68HC11s I/O ports and the PIA ports
+can serve a variety of selectable functions: 
+
+ [[[ Figure   1.2 summarizes the digital and analog I/O
+available on the QED Board. It specifies the origin of the signals, their type
+and configurability, and the number of signals dedicated to alternate uses.
+The following text explains the contents of Figure 1.2. 
+
+ The 24 I/O lines
+originating at the PIA are named Peripheral Port A (PPA), Peripheral Port B
+(PPB), and Peripheral Port C (PPC). PPA is an 8 bit digital I/O port available
+for the users application; it can be configured as either input or output. 
+
+ PPB is an 8 bit
+digital port dedicated to the built-in keypad/display interface (PPB0 to PPB6)
+and to the generation of the chip select signal for the optional 12 bit A/D
+(PPB7). It is configured as an output port by QED-Forth. 
+
+ PPC is split into
+two 4 bit digital I/O ports called lower PPC (PPC0 to PPC3) and upper PPC (PPC4
+to PPC7). Lower PPC is used to scan the keypad. If RS485 communications is not
+in use, all of upper PPC is available for the users application; it can be
+configured as either input or output. If RS485 is being used, one bit in upper
+PPC (PPC4) is dedicated to controlling the direction of data transfer, and the
+remaining three output bits (PPC5 to PPC7) are available for the users
+application. 
+
+ As shown in Figure
+1.2, the 68HC11s PORTA is an 8 bit digital I/O port configurable as input or
+output on a bit by bit basis. These signals can also be used to implement
+input captures (PA0 to PA3), output compares (PA3 to PA7), and a pulse
+accumulator (PA7). The secondary serial port, if used, ties up two of the
+PORTA lines (PA3 and PA4) to implement the receive and transmit signals. 
+
+ PORTD on the
+68HC11 contains 4 digital I/O bits (PD2 to PD5) that implement the fast serial
+peripheral interface (SPI). If the SPI is not in use (which implies that the
+12 bit A/D and 8 bit DAC are not on the board), these four lines are available
+as general purpose inputs or outputs. 
+
+ The final three
+entries in the table in Figure 1.2 present the analog I/O ports on the QED
+Board. PORTE on the 68HC11 implements the 8 channel 8 bit A/D. If this A/D is
+not in use, PORTE can be configured as an 8 bit digital input port. The
+optional 8 channel (or 4 channel differential) 12 bit A/D provides 8 analog
+inputs, and the optional 8 channel 8 bit DAC provides 8 analog outputs. As
+explained in Chapter 6, pairs of DACs may be combined to achieve higher
+resolution digital to analog conversion.]]] 
+
+ PORTA 
+
+ PORTA may be used
+as bit-configurable digital input/output. The data direction (input or output)
+of each bit in PORTA is determined by writing to the DDRA register as described
+below. If any bits in PORTA are not being used for simple digital I/O, they
+may be used to implement a variety of counting and timing functions including
+input captures, output compares, and pulse accumulation. In addition, the QED
+Board provides an optional software UART that supports a secondary RS232 serial
+port (called serial2) using pins 3 and 4 of PORTA. 
+
+ PORTD 
+
+ PORTD is a 6 bit
+port that is typically dedicated to serial I/O (PD0 and PD1) and to the Serial
+Peripheral Interface (PD2-PD5). The SPI is a fast synchronous serial link
+which is used to communicate with the optional onboard 12 bit analog to digital
+converter (A/D12) and 8 bit digital to analog converter (DAC). The SPI is
+turned on by executing InitSPI() or InitAD12andDAC() and is turned off by
+executing SPIOff(). The SPI is initially off after a reset or restart. If you
+have ordered a custom board with no 12 bit A/D or DAC, you may use PD2-PD5 as 4
+general purpose digital I/O bits whose data direction is set by register DDRD
+and whose contents are accessible at register PORTD. 
+
+ PORTE 
+
+ PORTE provides 8
+input lines. They may be used as the analog inputs to the 68HC11s built-in 8
+bit A/D converter, or they may be used as general purpose digital inputs if the
+8 bit A/D converter is turned off. The AD8On() function turns the 8 bit A/D
+on, and AD8Off() turns it off. The 8 bit A/D is initially off after a reset or
+restart. 
+
+ PPA 
+
+ PPA has no
+alternate functions and is available as a general purpose digital input port or
+output port. 
+
+ PPB 
+
+ Three bits of PPB
+are dedicated to controlling three of the open-drain high-current drivers. The
+remaining 5 lines are available for your use   . 
+
+ PPC 
+
+ The upper 4 bits
+of PPC are available as digital input or output if RS485 communications are not
+being used. If RS485 communications are used, bit 4 of PPC (that is, the
+lowest bit in the upper nibble of PPC) controls the direction of the RS485
+transceiver, and the upper half of PPC must be configured as an output (see the
+Glossary entry for InitRS485 ). 
+
+ Using the Digital I/O Ports on the 68HC11 Chip 
+
+This section describes how to configure and access the
+PORTA and PORTE digital ports in the 68HC11 chip on the QED Board.
+
+As you work through the examples in the remaining sections
+of the chapter, you can use a voltmeter to verify that the outputs are behaving
+as you expect. You can also connect the input signals through a 1 kOhm
+resistor to +5V or GND to verify that you can digitally read their values.
+(The 1 kOhm resistor is just a safety precaution to minimize the chance that
+youll blow out a port bit by mistakenly connecting an output bit to a supply
+voltage; even if you make this mistake, the resistor would limit the current to
+safe levels.)
+
+Digital inputs and outputs are very useful in data
+acquisition, monitoring, instrumentation and control applications. A low
+voltage (near 0 Volts) is established on a digital output pin when the processor
+writes a logical 0 to the corresponding bit in a data register associated with
+the digital output port. A high voltage (near 5 Volts) is established on the
+digital output pin when the processor writes a 1 to a corresponding bit in the
+ports data register. This allows software to control external events and
+processes. For example, an application program can use digital outputs to
+activate solenoids and turn switches and lights on and off, or to interface the
+QVGA Controller with a wide variety of digital accessories such as D/A
+converters, displays, etc.
+
+A digital input allows the processor to monitor the
+logical state of an external voltage by reading a data register associated with
+the port. External voltages near 0 Volts connected to a digital input cause
+the corresponding bit in the ports data register to be read as a logical 0,
+and external voltages near 5 Volts connected to a digital input are read as a
+logical 1. Application programs can use digital inputs to read switches and
+keypads or to interface to digital devices such as A/D converters and real-time
+clocks.
+
+ Using digital I/O
+is very easy: 
+
+ 0. Configure
+the direction of the digital I/O port. This is accomplished by writing to a
+named data direction port (in the case of PORTA and PORTD ) to set the directions of individual bits
+within a port, or by executing an initialization routine such as INIT.PIA . 
+
+ 0. To change
+the state of an output port, write to the ports data register (whose address
+is left on the stack by simply stating the name of the port) using C! , SET.BITS , CLEAR.BITS , or other pre-defined operators. 
+
+ 0. To read
+the state of an input port, read the ports data register with a C@ command;
+the result is left on the data stack. 
+
+ The names of the
+data and direction registers and all required initialization routines are
+pre-defined in the QED-Forth kernel so you dont have to hassle with
+hexadecimal register addresses in your code. The following sections describe
+the available digital I/O ports and how to use them. 
+
+ QED-Forth
+Provides Named Registers and Pre-coded Configuration Routines 
+
+ The ports are
+addressed in common memory   . The 68HC11 ports are associated with data
+and direction registers in the processors 96 byte block of Control and Status
+Registers located at 8000H-805FH; Appendix B summarizes the contents of all of
+these registers. The PIA ports are associated with data registers addressed at
+8080H-8082H and a control register at address 8083H. 
+
+ QED-Forth names
+the digital I/O ports, and when the name is executed the 32 bit extended
+address of the ports data register is left on the stack. This makes it easy
+to access the port; simply state the ports name and use the standard byte
+fetch and store operations C@ and C! to read or write to the port. Individual
+bits in the digital ports can also be modified with operators such as SET.BITS , CLEAR.BITS , TOGGLE.BITS , and CHANGE.BITS . 
+
+ The names of the
+digital I/O ports and the respective hexadecimal addresses left on the stack
+are as follows: 
+
+   
+
+ PORTA ( -- 8000\0 ) 
+
+ PORTD ( -- 8008\0 ) 
+
+ PORTE ( -- 800A\0 ) 
+
+ PPA ( -- 8080\0 ) 
+
+ PPB ( -- 8081\0 ) 
+
+ PPC ( -- 8082\0 ) 
+
+ QED-Forth also
+makes it easy to configure the data direction (input or output) of the I/O
+ports. The directions of the individual bits in PORTA and PORTD are controlled
+by direction registers which are named in QED-Forth. The direction register
+names and the respective hexadecimal addresses left on the stack are as
+follows: 
+
+   
+
+ PORTA.DIRECTION ( --
+8001\0 ) 
+
+ PORTD.DIRECTION ( --
+8009\0 ) 
+
+ Writing a 1 to a
+bit in the data direction register sets the corresponding port bit to an
+output, and writing a 0 configures the bit as an input. The commands C! , SET.BITS , or CLEAR.BITS can be used to modify the contents of the
+data direction registers. Any combination of input and output bits may be
+specified for these ports. 
+
+ The data direction
+of the PIA ports are set by the routine INIT.PIA which is described later in this chapter and
+in the glossary. 
+
+ PORTE on the 68HC11 can be configured as an 8 channel 8 bit analog to
+digital converter by executing A/D8.ON , and it reverts to its default condition as
+an 8 channel digital input port after execution of A/D8.OFF . 
+
+ Setting the
+Data Direction of PORTA and PORTD 
+
+ Two named
+registers control the direction of the bits in PORTA and PORTD , respectively: 
+
+   
+
+ PORTA.DIRECTION 
+
+ PORTD.DIRECTION 
+
+ Writing a 1 to a
+bit in the direction register sets the corresponding port bit as an output, and
+writing a 0 to a bit in the direction register sets the corresponding port bit
+as an input. A one-to-one correspondence exists between bits in the data
+direction register and its corresponding port. These two ports are
+configurable on a bit-by-bit basis, so any combination of inputs and outputs
+can be specified. 
+
+ For example, to
+set PORTA as
+all input, execute 
+
+   
+
+ 00 PORTA.DIRECTION C! 
+
+ To set the lower 4
+bits of PORTA as input and the upper 4 bits as outputs, execute 
+
+   
+
+ HEX F0 PORTA.DIRECTION
+C! 
+
+ To set the least
+significant bit of PORTA as an input while leaving the direction of all other bits
+unchanged, execute 
+
+   
+
+ 01 PORTA.DIRECTION
+CLEAR.BITS 
+
+ which clears the
+least significant bit in PORTA.DIRECTION to 0. 
+
+   
+
+ The direction of PORTD is controlled in the same way. Recall that PORTD is a 6 bit port, and the two least
+significant bits are used by the primary serial channel. This leaves the four
+bits PD2 through PD5 available for digital I/O if they are not used for the
+SPI. For example, to set the four available bits PD2 through PD5 to all
+outputs, execute 
+
+   
+
+ HEX 3C PORTD.DIRECTION
+C! 
+
+ The command 
+
+   
+
+ HEX FF PORTD.DIRECTION
+C! 
+
+ has the exact same
+effect; the two least significant bits in PORTD are not affected by the PORTD.DIRECTION register, and the two most significant bits
+in PORTD do
+not exist. 
+
+ Configuring
+PORTE as a Digital Input Port 
+
+ PORTE is always an input port. After each reset and restart, it is
+configured as an 8 channel digital input port. Executing 
+
+   
+
+ A/D8.ON 
+
+ turns on the 8 bit
+analog converter and configures PORTE as an 8 channel 8 bit analog input port (see
+Chapter 6). Executing 
+
+   
+
+ A/D8.OFF 
+
+ turns off the 8
+bit A/D and configures PORTE as an 8 channel digital input port. 
+
+ (For experts and
+the curious: A/D8.OFF turns the 8 bit analog converter off by clearing the A/D power
+up bit named ADPU in the OPTION register; A/D8.ON sets the ADPU bit; see MC68HC11F1 Technical
+Data Manual, p.6-4.) 
+
+ For
+Experts: Fast Port Accesses 
+
+ The following
+comments may help those who need maximum speed when accessing a port from within
+a Forth definition. 
+
+ Because all of the
+named digital I/O ports are located in common memory, the fast page-less
+operator (C@) can be used to access the ports. For example, the command 
+
+   
+
+ PORTE DROP (C@) ( --
+byte ) 
+
+ returns the same
+result as the command PORTE C@ . (C@) executes more rapidly than C@ because it does not change pages during the
+read operation. But this time savings is mostly offset by having PORTE place the full extended address including
+page on the data stack at runtime, and then calling DROP to remove the page from the stack. A more
+efficient method is to instruct the compiler to place only the 16 bit address
+on the stack at runtime, and then call (C@) to read the contents. The following
+definition shows how this can be accomplished: 
+
+   
+
+ : READ.PORTE ( -- ) 
+
+ [ PORTE DROP ]
+LITERAL (C@) \ this is a very fast fetch 
+
+ CR . The contents
+of PORTE = . \ display the result 
+
+ ; 
+
+ The [ is an immediate word that invokes the
+execution mode. PORTE DROP places the 16 bit address of the port on the data stack, and ] re-enters the compilation mode. LITERAL removes the 16 bit address of the port from
+the data stack and compiles it as a literal that will be placed on the stack at
+runtime so that (C@) may fetch its contents. The rest of the definition prints the
+result. This same technique may be used to read, modify, or write to any
+location in common memory. A wide variety of fast page-less operators are
+available in the kernel, including (@) , (!) , (F@) , (F!) , (SET.BITS) , (CLEAR.BITS) , (TOGGLE.BITS) , and (CHANGE.BITS) . 
+
+ Of course, the
+fastest way to access the contents of a port in common memory is to use
+assembly code. The following routine leaves the contents of PORTE on the data stack: 
+
+   
+
+ CODE
+FETCH.PORTE.CONTENTS ( -- byte ) 
+
+ PORTE DROP EXT LDAB
+\ B gets contents of portE 
+
+ CLRA
+\ zero upper byte of double accumulator 
+
+ DEY DEY
+\ make room on data stack 
+
+ 0 IND,Y STD
+\ put result on data stack 
+
+ RTS 
+
+ END.CODE 
+
+ Because all of the
+named port addresses are located in the common memory, it is safe to DROP the page and use an assembly coded load
+operation such as LDAB to fetch the contents of the port. Note that when assembly coding
+accesses to locations that are not in common memory, it is best to call the
+pre-coded memory access routines in the QED-Forth kernel (such as C@ ) which properly handle the page changes. 
+
+ Port
+Initialization 
+
+ The PORTA bits PA0
+through PA7 are configured as inputs after a reset or restart, unless the
+serial2 port is specified as the default startup port (see the glossary entry
+for SERIAL2.AT.STARTUP). If the secondary serial port is automatically
+initialized at startup, then PA4 is initialized as the serial output and PA3 is
+configured as the serial input. The remaining PORTA pins are configured as
+digital inputs after the reset or restart. 
+
+ PORTD bits PD2
+through PD5 are configured as digital inputs after a reset or restart. PORTE
+bits PE0 through PE7 are configured as digital inputs after a reset or restart;
+the default state of the 8 bit A/D converter is OFF. 
+
+ Summary of
+Port Access 
+
+ This chapter
+describes how to configure and access the 68HC11 digital I/O ports A, D and E
+and the PIA ports PPA, PPB, and PPC. To use the digital I/O ports, follow
+these three simple steps. 
+
+ 0. Configure
+the direction of the digital I/O port. 
+
+ To configure PORTA, write to the
+PORTA.DIRECTION register using C! or a bit manipulation routine such as
+SET.BITS or CLEAR.BITS. Writing a 1 to a bit position in PORTA.DIRECTION
+configures the corresponding port bit as an output, and writing a 0 to a bit
+position configures the corresponding bit as an input. PORTA is configurable
+on a bit-by-bit basis. 
+
+ To configure PORTD, write to the
+PORTD.DIRECTION register. PORTD is a 6 bit port, and the two least significant
+bits are used by the primary serial channel. This leaves the four bits PD2
+through PD5 available for digital I/O if they are not used for the SPI. The available
+PORTD pins are configurable on a bit-by-bit basis. 
+
+ To configure PORTE for analog input,
+execute A/D8.ON. To configure PORTE for digital input, execute A/D8.OFF.
+PORTE is configured as a digital input after a reset or restart. 
+
+ To configure the PIA, place two flags on
+the stack and execute INIT.PIA. The first flag specifies the direction of PPA,
+and the second flag (top flag on the stack) specifies the direction of the
+upper nibble of PPC. A true flag specifies output and a FALSE flag specifies
+input. INIT.PIA configures PPB as an output and lower PPC as an input to
+ensure compatibility with the keypad/display drivers. 
+
+ 0. To change
+the state of an output port, write to the ports data register (whose address
+is left on the stack by simply stating the name of the port) using C!,
+SET.BITS, CLEAR.BITS, or other pre-defined operators. 
+
+ 0. To read
+the state of an input port, read the ports data register with a C@ command;
+the result is left on the data stack. 
+
+ PORTA 
+
+ PORTA is configurable as
+input or output on a bit-by-bit basis. To configure PORTA , use an assignment statement to write to the DDRA (Data Direction Register A) register. DDRA and all 68HC11 register names are defined in the QEDREGS.H file in the \FABIUS\INCLUDE\MOSAIC directory. Writing a 1 to a bit position in DDRA configures the corresponding port bit as an output, and
+writing a 0 to a bit position configures the corresponding bit as an input.
+For example, the following C statement configures PORTA as all outputs: 
+
+ 
+
+DDRA = 0xFF;
+
+ To configure PORTA as all
+inputs, use the statement: 
+
+ 
+
+DDRA = 0x00;
+
+ If we want to configure bits 0-6
+as inputs, and bit 7 as output, we can execute: 
+
+ 
+
+DDRA = 0x80;
+
+ To change the state of an output
+bit on PORTA of the 68HC11 chip, use an assignment statement with PORTA on the left hand side to write to the ports data register
+named PORTA . For example, if PORTA is configured as all outputs, the following C statement sets all PORTA bits high: 
+
+ 
+
+PORTA = 0xFF;
+
+ To read the state of PORTA , use an assignment statement with PORTA on the right hand side to read the ports data register.
+For example, the following code fragment reads PORTA and places the results in the variable named latest _ porta _ state : 
+
+ 
+
+static unsigned char latest_porta_state;
+
+latest_porta_state = PORTA;
+
+ PORTE 
+
+ PORTE (named in the QEDREGS.H file) is an 8 bit analog or digital input port. PORTE is configured as a digital input after a reset or restart,
+and is read in the same way that PORTA is read: simply use it as the right hand side of an assignment statement. For
+example, to read the digital state of PORTE, your program could execute the
+statements: 
+
+ 
+
+static unsigned char latest_porte_state;
+
+latest_porte_state= PORTE;
+
+ To configure PORTE for analog
+input, use the function: 
+
+ 
+
+AD8On()
+
+ To turn off the 8 bit A/D and
+revert to a digital input port, use: 
+
+ 
+
+AD8Off()
+
+ (For experts and the curious: AD8Off() turns the 8 bit analog converter off by clearing the A/D
+power up bit named ADPU in the OPTION register; AD8On() sets the ADPU bit.) 
+
+ Using the PIA 
+
+This section describes how to configure and access the
+available I/O ports of the Peripheral Interface Adapter (PIA) on the QED Board.
+
+PIA Initialization
+
+ The QED-Forth word 
+
+   
+
+ INIT.PIA ( flag1\flag2
+-- | flag1 = ppa.output?, flag2 = upper.ppc.output?) 
+
+ writes to the
+peripheral interface adapter (PIA) configuration register to set the data
+direction for PPA and the upper 4 bits of PPC. If flag1 is true, INIT.PIA configures PPA as output, and if flag 1 is
+false, it configures PPA as input. Likewise, if flag2 is true, INIT.PIA configures upper PPC as output, and if flag
+2 is false, it configures upper PPC as input. INIT.PIA sets the direction of PPB as output and
+lower PPC as input to ensure compatibility with the built-in keypad and display
+interfaces. It clears bit 6 of PPB and sets bit 7 of PPB high so that the
+display.enable and 12 bit A/D chip select signals are inactive. If the
+specified input/output configuration of the PIA is the same as the prior
+configuration, INIT.PIA does not modify the PIA configuration register, and thus does
+not change the state of any output pins in PPA or upper PPC. If the specified
+PIA configuration is different than the prior configuration, INIT.PIA writes to the PIAs configuration register
+and this automatically zeros any outputs in PPA or upper PPC. Consult the PIA
+data sheet in Appendix C for details of the PIA operation. 
+
+ The function 
+
+ 
+
+void InitPIA( int ppa_output_flag, int
+upper_ppc_output_flag)
+
+ writes to the PIA configuration
+register to set the data direction for PPA and the upper 4 bits of PPC. If ppa _ output _ flag is true (non-zero), InitPIA() configures PPA as output, and if ppa _ output _ flag is false (zero), it configures PPA as input. Likewise, if upper _ ppc _ output _ flag is true, InitPIA() configures the upper four bits of PPC as output, and if upper _ ppc _ output _ flag is false, it configures upper PPC as input. InitPIA() sets the direction of PPB as output and lower PPC as input
+to ensure compatibility with the built-in keypad and high current driver interfaces   .
+It clears bits 5, 6 and 7 of PPB which control high current driver outputs HC1,
+HC2, and HC3. 
+ 
+Warning!
+
+There may be a short transient ON condition on the three high
+current outputs during power-up and reset. The state of the PIA chip can not
+be controlled when it is initially turned on or reset. A consequence of this
+is that in the interval of time between power-up and the operating systems
+initialization of the output to an OFF condition, there may be a short
+transient ON. You may need to take appropriate precautions in critical
+applications.
+
+Additionally, if the specified PIA configuration is different than
+the prior configuration, INIT.PIA InitPIA() writes to the PIAs configuration register and this automatically zeros any
+outputs in PPA or upper PPC, even if the direction of PPA or PPC was not
+changed!
+ 
+If the specified input/output configuration of the PIA is
+the same as the prior configuration, INIT.PIA InitPIA() does not modify the PIA configuration register, and thus does not change the
+state of any output pins in PPA or upper PPC. But, if the specified PIA
+configuration is different than the prior configuration, INIT.PIA InitPIA() writes to the PIAs configuration register and this automatically zeros any
+outputs in PPA or upper PPC, even if the direction of PPA or PPC was not
+changed! Consequently, INIT.PIA InitPIA() may disrupt
+in-progress operations involving the 12 bit A/D, keypad, or display. INIT.PIA is called by INIT.A/D12&amp;DAC , INIT.DISPLAY , and INIT.RS485 . Consult the PIA data sheet for
+details of the PIA operation.
+
+When designing your application, the safest course is to
+perform all required initializations in an autostart routine as soon as the
+application program begins. This avoids the problem of a late initialization
+that disturbs an in-progress I/O operation.
+
+Upon each reset or restart, the PIA is configured as
+follows:
+
+ 
+
+ 
+Port
+ 
+Direction
+ 
+PPA
+ 
+input
+ 
+PPB
+ 
+output
+ 
+lower PPC
+ 
+input
+ 
+upper PPC
+ 
+input
+ 
+
+Accessing PIA Ports PPA, PPB and PPC
+
+ The PIA (ports
+PPA, PPB, and PPC) uses as special set of routines to input or output values.
+These routines employ clock stretching to slow down the access of the
+on-board PIA to ensure that its timing criteria are met. 
+
+   
+ 
+ 
+ PIA
+Addressing 
+ 
+ Standard
+Memory Addressing 
+ 
+ PIA.C! 
+ 
+ C! 
+ 
+ PIA.C@ 
+ 
+ C@ 
+ 
+ PIA.SET.BITS 
+ 
+ SET.BITS 
+ 
+ PIA.CLEAR.BITS 
+ 
+ CLEAR.BITS 
+ 
+ PIA.TOGGLE.BITS 
+ 
+ TOGGLE.BITS 
+ 
+ PIA.CHANGE.BITS 
+ 
+ CHANGE.BITS 
+ 
+ 
+ For example, to
+set all the bits of PPA to zero you would execute, 
+
+ 0 PPA
+PIA.C! 
+
+ The PIA.C! routine
+performs clock stretching (in other words, inserts wait states) during the
+access to PPA to guarantee that the timing conditions of the PIA are met. It
+also disables interrupts for 27 cycles (less than 7 microseconds) during the
+memory access. 
+
+ Similarly, PIA
+port bits can be read, set, cleared, toggled, and changed using the routines
+PIA.C@, PIA.SET.BITS, PIA.CLEAR.BITS, PIA.TOGGLE.BITS, and PIA.CHANGE.BITS,
+respectively. Full descriptions for these routines are in the attached
+Glossary. 
+
+ Because the timing of the PIA
+chip are slightly too slow for simple assignment-statement accesses to be
+guaranteed by design at a 16 MHz clock speed, a set of access functions has
+been defined that inserts a wait state while the PIA is being accessed. This
+guarantees reliable performance over all device variations and temperature
+extremes. To access the ports of the PIA (Peripheral Interface Adapter) chip,
+use the following functions defined in the PIA.H file and described in the Control-C Glossary: 
+
+ 
+
+void PIAStore( uchar c, xaddr address )
+
+uchar PIAFetch( xaddr address )
+
+void PIAChangeBits( uchar data, uchar mask, xaddr address )
+
+void PIAClearBits( uchar mask, xaddr address )
+
+void PIASetBits( uchar mask, xaddr address )
+
+void PIAToggleBits( uchar mask, xaddr address )
+
+ The three PIA port addresses are
+also defined as macros in the PIA.H file: 
+
+ 
+
+#define PPA_ADDRESS ((xaddr) 0x8080)
+
+#define PPB_ADDRESS ((xaddr) 0x8081)
+
+#define PPC_ADDRESS ((xaddr) 0x8082)
+
+ where xaddr is a 32-bit extended address type specifier defined in
+the TYPES.H file. 
+
+ These functions are easy to use,
+as illustrated by the following brief examples. If your program has called InitPIA() to configure PPA as an output port, it can store the value 0x55 to the port by executing the C statement: 
+
+ 
+
+PIAStore(0x55, PPA_ADDRESS);
+
+ You can set the least
+significant bit in PPA by calling: 
+
+ 
+
+PIASetBits(0x01, PPA_ADDRESS);
+
+ where 0x01 is a mask; the 1s in the mask specify which bits are to
+be set. 
+
+ Your program can invert the
+state of the lower 4 output bits in PPA using the statement: 
+
+ 
+
+PIAToggleBits(0x0F, PPA_ADDRESS);
+
+ Again, 0x0F is a mask; the 1s in the mask specify which bits are to
+be toggled, and the 0s in the mask specify bits that are to be left unchanged. 
+
+ If youve configured upper PPC
+as an input port, you can read its value with the statements: 
+
+ 
+
+static unsigned char nibble_contents;
+
+nibble_contents = PIAFetch(PPC_ADDRESS);
+
+ The upper 4 bits of nibble _ contents will then contain the upper PPC input values. 
+
+Characteristics of the PIAs I/O Ports
+
+The 82C55A peripheral interface adapter (PIA) chip is the
+industry standard part for providing digital I/O ports. This brief summary is
+intended to clarify some of the features of this chip.
+
+The PIA is configured by writing to a control register at
+address 8083H. The pre-defined routine INIT.PIA InitPIA() described earlier writes to this register. It configures the PIA for simple
+digital I/O (mode 0) and sets the data direction of ports PPA and upper PPC
+according to user-supplied flags. INIT.PIA InitPIA() configures PPB as an output and the lower half of PPC as an input.
+
+Whenever the PIA is configured by writing to the control
+register, all outputs are set to the logic low state. This is true whether or
+not the new configuration is different from the prior configuration. The INIT.PIA InitPIA() routine tries to minimize the impact of this (often undesirable) feature by
+checking the control register before writing to it. If the PIA configuration
+requested by the programmer is the same as the existing configuration, the
+PIAs control register is not modified. In general, it is best to use a static
+configuration for the PIA; dynamically changing the direction of PIA ports
+while the application is running can cause troublesome glitches on the PIA output
+pins.
+
+The PIA has another unusual feature called bus hold
+circuitry. The PIA tries to maintain specified logic levels on pins that are
+configured as inputs (rather than the standard approach of leaving the input
+pins in a floating high impedance state). After a reset or change in
+configuration, the PIA holds all inputs high by sourcing between 50 and 400
+microamps into the external load attached to the input pin. If your design
+requires that the inputs settle to a voltage near ground, you will need to pull
+the pins low with external pull-down resistors that connect each input pin to
+ground. The resistors should have a value less than 1 K-ohm; the manufacturer
+suggests that the pull-down should be 640 ohms to ensure a logical 0 under
+worst-case conditions. Port PPA also has bus hold circuitry that can hold an
+input in the low condition. If your design requires that PPA inputs be held at
+a logical high state, install external pull-up resistors of less than 3 K-ohms
+from the PPA input pins to the +5 Volt supply.
+
+PIA output pins have good current drive capabilities. The
+data sheet states that the chip can maintain an output high voltage of at least
+3.0 Volts while sourcing up to 2.5 mA. The manufacturers technical support
+staff claims that the typical performance is much better; they say that a
+typical chip can maintain 3.0 Volts or higher while sourcing up to 20 mA. In
+the worst case the PIA outputs can sink up to 2 mA while maintaining the output
+voltage below 0.4 Volts. There is no internal current limiting on the outputs,
+so your custom circuitry should include current-limiting resistors if
+significant current will be required from the output pins.
+
+ Using the High Current Drivers 
+
+Four N-channel MOSFET high current drivers are available
+at the Supplementary I/O connector. Each driver can sink up to 150 mA
+continuously, or up to 1 amp on an intermittent basis at voltages as great as
+60 V. Onboard snubber diodes suppress inductive kickback, so the drivers can
+be used to control solenoids, motors, and other inductive loads.
+
+Figure 8‑1 shows how to connect a DC load (a DC motor is shown) to the MOSFETs.
+
+ 
+
+ Figure 8‑1 Connecting a DC load (for example, a DC motor) to the high
+current drivers using onboard power (left) and using external power (right).
+
+HC0 is controlled by a PAL signal and HC1 - HC3 are
+controlled by the PIA port bits PPB5 - PPB7 respectively. NOTE: Upon power-up
+and reset, the high current MOSFETs, HC1 - HC3, may momentarily sink current
+until the QED-Forth startup software initializes them. The PAL-controlled HC0
+output does not exhibit this transient turn-on behavior at startup.
+
+Two simple functions control these four high current
+drivers:
+
+ 
+
+void ClearHighCurrent( uchar mask ) SET.HIGH.CURRENT 
+
+void SetHighCurrent( uchar mask ) CLEAR.HIGH.CURRENT 
+
+ SET.HIGH.CURRENT SetHighCurrent() accepts a 4-bit mask and turns on the drivers that
+correspond to&quot;1&quot;s in the mask. CLEAR.HIGH.CURRENT ClearHighCurrent() accepts a 4-bit mask and turns off the drivers that correspond to&quot;1&quot;s in the mask. Note that&quot;turning on&quot;a driver allows
+it to sink current, thereby pulling the voltage at the output pin towards
+ground.&quot;Turning off&quot;a driver prevents it from sinking current.
+For example, to turn on all four high current drivers, execute
+
+ 
+
+SetHighCurrent( 0x0F )
+
+   
+
+ HEX 0F
+SET.HIGH.CURRENT 
+
+Then, if you execute
+
+ 
+
+ClearHighCurrent( 0x01 )
+
+   
+
+ 01 CLEAR.HIGH.CURRENT 
+
+you will turn off driver number 0 while leaving the state
+of the other three drivers unchanged.
+
+   
+
+You can verify the operation of the high current outputs
+by connecting a pullup resistor (say, 1 kOhm) from the output to +5V and
+measuring the output voltage with a voltmeter. Note that the output voltage
+goes LOW when the output is ON (sinking current to ground), and the voltage
+goes HIGH when the output is OFF (no current flowing in the load resistor).
+
+Using Uninterruptable Operators
+
+The Importance of Uninterruptable Operators
+
+ Sometimes it is
+necessary to set, clear, toggle, or change one or more bits in a port while
+leaving other bits unaffected. QED-Forth provides convenient read/modify/write
+routines called SET.BITS , CLEAR.BITS , TOGGLE.BITS , and CHANGE.BITS to accomplish these functions. The corresponding fast page-less
+operators named (SET.BITS) , (CLEAR.BITS) , (TOGGLE.BITS) , and (CHANGE.BITS) can also be used to modify the contents of
+addresses in common memory. The glossary entries provide detailed descriptions
+of these operations. 
+
+ For example, if
+upper PPC has been configured as an output using INIT.PIA , the top 4 bits in PPC can be cleared to
+zeros by executing 
+
+   
+
+ HEX F0 PPC CLEAR.BITS 
+
+ F0 is a bit mask with the top 4 bits equal to ones; this tells CLEAR.BITS that only the top 4 bits should be cleared.
+The bottom 4 bits of PPC are unaffected. 
+
+ SET.BITS , CLEAR.BITS , TOGGLE.BITS , and CHANGE.BITS (and the corresponding page-less operators) globally disable
+interrupts just before reading the memory contents and restore the prior state
+of the interrupt flag (enabled or disabled) after writing to the specified
+address. This makes these routines robust with respect to interrupts and
+timesliced multitasking when two or more concurrently executing routines are
+modifying bits in the same memory location. 
+
+ The following
+scenario illustrates the importance of these uninterruptable operators when
+more than one task or interrupt routine is writing to a memory location. Lets
+assume that two different tasks are controlling the bits of the upper nibble of
+PPC. Assume that TASK1 is controlling the state of bit 4 in PPC (perhaps to set the direction of the RS485
+transceiver), and TASK2 controls bit 7 in PPC . Lets assume that bit 4 is low when TASK2 tries to execute the following sequence: 
+
+   
+
+ HEX 
+
+ PPC C@ 80 OR 
+
+ PPC C! 
+
+ TASK2 is merely trying to set the top bit in PPC to 1, but this
+sequence of commands may have unintended consequences. Assume that the
+timeslicer interrupt is serviced just after the OR instruction and transfers
+control to TASK1 . TASK1 may change the state of bit 4 to a 1. When control is then
+transferred back to TASK2, the remaining command PPC C! is executed. Unfortunately, this C! command erroneously sets bit 4 back to the
+low state! TASK2 was interrupted after it read the state of PPC but before it had a chance to write the new
+contents, so it undoes the change that TASK1 made in the state of PPC bit 4. 
+
+ The
+uninterruptable read/modify/write routines avoid this problem by disabling
+interrupts for ten to sixteen cycles (5 to 8 microseconds at an 8 MHz crystal
+speed). This prevents the corruption of the contents when different tasks or
+interrupts share access to a single location. 
+
+ Similar problems
+can arise when one task writes to a floating point or other 4-byte variable,
+and a second task needs to read the saved value. The data that is read may be
+invalid if the read or the write is interrupted between the time of the
+writing/reading of the first 16 bits and the writing/reading of the second 16
+bits. For this reason a set of uninterruptable operators denoted by the | (bar) character are in the kernel. These
+are |2@| , |F@| , |X@| , |2!| , |F!| , and |X!| . Consult the Multitasking chapter in the
+Software Manual for a more detailed discussion of this topic. 
+
+ Care must be taken when
+performing read/modify/write operations in applications that use interrupts
+or multitasking. Operations such as setting or clearing individual bits in a
+byte while leaving other bits unchanged are called read/modify/write operations
+because they involve reading the port, modifying the read contents, and writing
+the result back to the port. Unpredictable results can occur if more than one
+interrupt service routine or task tries to access a single port or memory location
+at the same time using a read/modify/write sequence. The simplest solution to
+this problem is to access the memory location or port using an
+uninterruptable read/modify/write operator. 
+
+ The following scenario
+illustrates the importance of uninterruptable operators when more than one task
+or interrupt routine is writing to a memory location. Lets assume that two
+different tasks are controlling the bits of PORTA. Assume that TASK1 is
+controlling the state of bit 4, and TASK2 controls bit 7. Lets assume that
+bit 4 is low when TASK2 tries to execute the following code: 
+
+ 
+
+static unsigned char mask = 0x80;
+
+PORTA |= mask;
+
+ TASK2 is merely trying to set
+the top bit in PORTA to 1, but this statement may have unintended
+consequences. The compiler generates code that reads the contents of PORTA,
+performs a bitwise OR with the contents of mask, and stores the result back
+into PORTA. Assume that the timeslicer interrupt is serviced just after the OR
+instruction and transfers control to TASK1. TASK1 may change the state of bit
+4 to a 1. When control is then transferred back to TASK2, the final store to
+PORTA is executed. Unfortunately, this store command erroneously sets bit 4
+back to the low state! TASK2 was interrupted after it read the state of PORTA
+but before it had a chance to write the new contents, so it undoes the change
+that TASK1 made in the state of PORTA bit 4! This can indeed cause problems in
+an application program. 
+
+ Pre-coded
+Read/Modify/Write Functions 
+
+ The pre-coded PIA and High
+Current Driver read/modify/write functions described earlier in this chapter
+avoid this problem by disabling interrupts for ten to sixteen cycles (2.5 to 4
+microseconds at a 16 MHz crystal speed). This prevents the corruption of the
+contents when different tasks or interrupts share access to a single location.
+The following functions are uninterruptable: 
+
+ 
+
+void PIAChangeBits( uchar data, uchar mask, xaddr address )
+
+void PIAClearBits( uchar mask, xaddr address )
+
+void PIASetBits( uchar mask, xaddr address )
+
+void PIAToggleBits( uchar mask, xaddr address )
+
+void ClearHighCurrent( uchar mask )
+
+void SetHighCurrent( uchar mask )
+
+ Additional uninterruptable
+operators are declared in the XMEM.H header file in the \MOSAIC\FABIUS\INCLUDE\MOSAIC directory; these routines are described in detail in the
+Control-C Glossary. 
+
+ Create Your Own
+Uninterruptable Functions 
+
+ It is easy to create your own
+uninterruptable functions using the _ protect keyword. For example, the following uninterruptable
+function sets specified bits in a port or memory byte: 
+
+ 
+
+void _protect SetBitsUninterrupted( uchar mask,
+char* address )
+
+{ *address |= mask;
+
+}
+
+ In response to the _ protect keyword, the compiler ensures that interrupts are
+temporarily disabled while SetBitsUninterrupted() is executing, and that the global interrupt mask (the I bit in the condition
+code register) is restored to its prior state after the function terminates. 
+
+ Simple stores to and fetches
+from 1-byte or 2-byte memory locations are intrinsically uninterruptable
+because they are implemented with single assembly-language opcodes. However,
+the 68HC11 processor does not have a single opcode that can access a 32 bit
+memory location. Thus, problems can arise when one task writes to a floating
+point or long variable, and a second task needs to read the saved value. The
+data that is read may be invalid if the read or the write is interrupted
+between the time of the writing/reading of the first 16 bits and the
+writing/reading of the second 16 bits. In these cases uninterruptable
+operators should be used. An example is presented by the functions named: 
+
+ 
+
+PeekFloatUninterrupted()
+
+PokeFloatUninterrupted()
+
+ which are defined using the
+_protect keyword in the TURNKEY.C program in
+the \MOSAIC\DEMOS _ AND _ DRIVERS\MISC\C
+EXAMPLES directory; this program is
+discussed in detail later in this book. 
+
+ Connecting Hardware to the Digital I/O Lines 
+
+You may connect to the digital I/O lines by connecting IDC
+ribbon cable sockets to heaer H3 on the QED Board (for port PPB, the lower
+nibble of PPC, and high current drivers), or to header H2 on the QVGA Board (for
+processor port PA, PI A port PPA, and the upper nibble of PPC). In either
+case, you should connect only to the I/O signals on the connector, and not to
+the system control lines, data or address lines, clock, or SPI lines.
+ 
+Do Not
+Connect to System Control Signals
+
+When connecting
+to the Digital I/O Connector (H2 on the QVGA Board) with a ribbon cable, notch
+out cable wires 11 through 24. Even short pieces of wire connected to some of
+these lines may cause intermittent operation of the touchscreen or processor.
+
+When connecting
+to the Supplemental I/O Connector (H3 on the QED Board) with a ribbon cable,
+only connect the wires you need, and do not connect to the data bus lines or system
+control lines.
+ 
+Electrical Characteristics of the 68HC11s I/O
+Ports
+
+On the QVGA Controller the processors ports A and D are
+available for you to connect to external devices. You can use them to directly
+drive LEDs, relays, transistors, opto-isolators or other digital logic
+devices. But please be careful -- whenever these outputs are connected to
+external devices you must stay within the voltage and current capabilities of
+the output pins. Because the MC68HC11 reference manuals dont specify the
+electrical capability of these ports very well we provide some additional information
+here.
+
+The electrical characteristics of the 68HC11F1s digital
+I/O signals are specified in detail in section 13.4 of the MC68HC11F1 Technical
+Data Manual. This table lists the DC Electrical Characteristics of the
+processor.
+
+Pins on the 68HC11 configured as digital inputs report a
+logical high if the input voltage is greater than 0.7 times the supply
+voltage, or 3.5 Volts. They report a logical low if the input voltage is
+less than 0.2 times the supply voltage, or 1.0 Volt. Input voltages between
+1.0 and 3.5 Volts may be read as either high or low.
+
+Pins on the 68HC11 configured as digital outputs in the
+high state can maintain the output voltage within 0.8 Volts of the positive
+supply if 0.8 mA or less is being drawn from the pin. If less than 10
+microamps is being drawn, the output high voltage is within 0.1 Volt of the
+positive supply. In the low state, the digital outputs can keep the voltage
+below 0.4 Volts while sinking up to 1.6 mA of current. Load circuitry that
+requires significant current to be sourced or sunk by the digital output should
+include external resistors to ensure that the absolute maximum rating of 25 mA
+per output pin is never exceeded.
+
+Protecting the Input and Output Pins
+
+These output pins are very useful because they can
+directly drive a wide range of devices. Nevertheless, any circuitry connected
+to the processor should take care to:
+
+Prevent excessive voltage levels at the pin; and,
+
+Prevent excessively great currents.
+
+Well address each of these concerns in turn.
+
+Preventing Excessive Voltages
+
+Excessive voltages are prevented by ensuring that voltages
+of less than a diode drop below V SS (-0.6 V) or greater than a diode
+drop above V DD (V DD +0.6 V ) are never applied to the processor.
+For some applications, particularly when driving inductive loads such as
+relays, you may need to provide Schottkey diode clamps between the pin and V DD and between the pin and ground. All pins on the processor have inherent diode
+clamps to the processors ground voltage, V SS , but it is best not to
+rely on these; if there is the possibility of the output pin being driven to a
+negative voltage level it is better to prevent excessive power dissipation in
+the processor package by externally clamping the voltage to ground (V SS )
+with a Schottkey diode. Processor ports A and D also have inherent diode
+clamps to the chips +5V supply voltage, V DD , but it is likewise
+better not to rely on these; instead external Schottkey clamps to V DD should be used.
+
+Preventing Excessive Currents
+
+The current into or out of any pin on the MC68HC11 should
+also be limited to prevent damage. The specified maximum current is 25 mA into
+or out of any one pin at a time, although these pins can typically withstand
+transients of more than 100 mA at room temperature. In driving more than one
+pin at a time it is necessary only to stay within the processors maximum power
+dissipation. Unfortunately, Motorola doesnt specify what this maximum is, but
+we recommend that you dont exceed a total of 100 mW for all processor I/O pins
+combined. The chips total power dissipation is the sum of its internal power
+(which varies from device to device so much that it can only be determined by
+actually measuring it, but which is specified at less than 150 mW) and the
+power associated with the I/O pins. Pin currents must be limited using
+external resistors.
+
+Output Pin V-I Characteristics
+
+The output pins of the MC68HC11 are similar in electrical
+characteristics to the SN54/74HC digital logic family. They can source or sink
+up to 25 mA and are guaranteed to source 0.8 mA while providing a valid logic
+high and to sink 1.6 mA at a valid logic low, although they generally do much
+better. A valid logic high level is between V OH = V DD and V OH = V DD - 0.8 V, and a valid low level is between V OL =V SS = 0 V and V OL =V SS + 0.4 V. As the
+output is loaded, the V OL and V OH levels rise or fall.
+It is often useful to know just how much to expect the V OL and V OH levels to degrade with current. For currents of less than 10 mA the voltage
+change is linear with current; that is, it can be modeled as a voltage source
+of either zero or five volts and an equivalent series resistance of 40 ohms.
+At greater output currents the resistance increases until at the greatest
+specified current for any one pin, 25 ma., the equivalent resistance is 60
+ohms. At this current the voltage degradation of the V OL or V OH is 1.5 volts. Figure 8‑2 and Figure 8‑3 illustrate this variation.
+
+These figures can be used to choose component values for
+particular circuits. For example if we wish to use a pin of Port A or D to
+drive a light-emitting diode we would place the LED in series with a resistor
+and connect them between an output pin and ground. The resistor limits the
+current, to the LED. From the LED data sheet we note that its forward voltage
+at a current of 10 mA is specified to be 2.2 V. What should the resistor value
+be? We calculate it as,
+
+Eqn. 8‑1 R = (V OH - 2.2 V ) / 10 mA
+
+Consulting the V OH vs I curve for the output
+pin we find that at 10 mA V OH = 4.4 V. We therefore need a
+resistance of 220 ohms.
+
+ 
+
+ Figure 8‑2 Degradation of the Port A or Port D output high voltage with current. The
+maximum current allowed for continuous operation is 25 ma.
+
+ 
+
+ Figure 8‑3 Degradation of the Port A or Port D output low voltage with current. The maximum current allowed for continuous operation is 25 ma.
+
+ 
+
+ From Old
+Hardware Manual 
+
+   
+
+ **************** 
+
+   
+
+ Accessing
+Digital I/O Ports 
+
+ The three PIA
+ports are named in QED-Forth as PPA, PPB, and PPC (meaning peripheral port A,
+B, and C respectively). The available digital ports on the 68HC11 processor
+are also named; they are PORTA, PORTD, and PORTE. PORTA is a
+bitwise-configurable I/O port with associated counting and timing functions; it
+also supports the serial2 software UART on pins PA3 (input) and PA4 (output).
+PORTD pins PD2 to PD5 can be used as the serial peripheral interface (SPI) or
+as bitwise-configurable I/O. PORTE can be used as an octal 8 bit A/D, or as 8
+bits of digital input if the A/D converter is turned off. 
+
+ Digital ports with
+some or all of their bits configured as outputs can be written to using the
+standard C! (pronounced C-store) operator. For example, if you first set PPA
+as an output by executing 
+
+   
+
+ TRUE FALSE INIT.PIA 
+
+ then the command 
+
+   
+
+ HEX FF PPA C! 
+
+ stores the value
+0xFF into PPA in the peripheral interface adapter and sets all of its outputs high.
+Try measuring the PPA outputs with a voltmeter; the output voltage should be approximately 5
+Volts. 
+
+ Digital ports with
+some or all of their bits configured as inputs can be read using the standard C@ (pronounced C-fetch) operator. For
+example, if PORTE is left in its default state configured as a digital (as opposed
+to analog) input port, the command 
+
+
+
+ PORTE C@ ( -- byte ) 
+
+ leaves the
+contents of the PORTE data register on the stack. The resulting byte left on the
+stack reports a 1 in the bit position corresponding to each pin of PORTE that senses a voltage higher than 3.5
+Volts. Likewise, the byte will contain a 0 in the bit positions corresponding
+to all pins with a voltage lower than 1.0 Volts. Try connecting some PPA output pins to the PORTE inputs by wiring the appropriate pins on the
+40 pin Digital I/O connector together (always be sure that youve identified
+the correct pins!) Now you can write to PPA and verify the results by reading PORTE . 
+
+ Alternate
+Uses of the Digital I/O Ports 
+
+ Many of these port
+signals have alternative uses as summarized in Figure 2.1. The 68HC11s I/O
+ports can serve these multiple functions: 
+
+ PORTA may be used as bit-configurable digital input/output. The data
+direction (input or output) of PORTA is determined by writing to the PORTA.DIRECTION register as described below. If any bits in PORTA are
+not being used for digital I/O, they may be used to implement a variety of
+counting and timing functions including input captures, output compares, and
+pulse accumulation as described in Chapter 4. In addition, QED-Forth provides
+an optional software UART that supports a secondary RS232 serial port (called
+Serial2) using pins 3 and 4 of PORTA (see Chapter 11). 
+
+ PORTD is a 6 bit port. Bits 2-5 of may be used as bit-configurable
+digital I/O. The data direction (input or output) of PORTD is determined by writing to the PORTD.DIRECTION register as described below. The two least
+significant bits of PORTD (PD0 and PD1) are the receive and transmit lines for the serial
+communications interface. Changing the data direction bits for these two
+signals has no effect unless you have disabled serial communications. 
+
+ If PD2 through PD5
+are not being used for general purpose digital I/O they may implement the SPI
+(serial peripheral interface). The SPI is a fast synchronous serial link which
+is used to communicate with the optional onboard 12 bit analog to digital
+converter (A/D12) and 8 bit digital to analog converter (DAC). The SPI is
+turned on by executing INIT.SPI and is turned off by executing SPI.OFF. The
+SPI is initially off after a reset or restart; see Chapter 5 for a detailed
+description of this versatile serial link. 
+
+ PORTE provides 8 input lines. They may be used as the analog inputs
+to the 68HC11s built-in 8 bit A/D converter, or they may be used as general
+purpose digital inputs if the 8 bit A/D converter is turned off. The command A/D8.ON turns the 8 bit A/D on, and the command A/D8.OFF turns it off. The 8 bit A/D is initially
+off after a reset or restart; see Chapter 6 for more details. 
+
+ The PIAs
+three ports serve the following functions: 
+
+ PPA has no
+alternate functions and is always available as a digital input or output port. 
+
+ The upper 4 bits
+of PPC are available as digital input or output if RS485 communications are not
+being used. If RS485 communications are used, bit 4 of PPC (that is, the
+lowest bit in the upper nibble of PPC) controls the direction of the RS485
+transceiver, and the upper half of PPC must be configured as an output (see
+Chapter 11 and the glossary entry for INIT.RS485 ). 
+
+ The top bit (bit
+7) of PPB is used as the chip select signal of the 12 bit A/D converter. 
+
+   
+
+ Digital I/O
+Connections 
+
+ Figure 2.2
+summarizes the pinouts of the 40 pin Digital I/O connector and the 40 pin
+Analog I/O connector on the QED Board. The signals of PORTA , PORTD , PPA , and the upper nibble of PPC are available on the Digtial I/O connector.
+The PORTE signals which can be configured as either analog or digital inputs are
+available on the Analog I/O connector. 
+
+   
+
+   
+
+ The 4 PORTD
+signals are labeled 
+
+ PD2/MISO PD3/MOSI PD4/SCK PD5//SS 
+
+ The first part of
+each signal name conveys the position in PORTD, and the second part is the
+signal name of the shared SPI (serial peripheral interface) function. These signals
+are brought out to pins 11 through 14 on the 40 pin Digital I/O connector (see
+Figure 2.2). The SPI is discussed in detail in Chapter 5. 
+
+   
+
+ The 8 PORTE
+signals are labeled 
+
+ PE0/AN0 PE1/AN1 PE2/AN2 PE3/AN3 
+
+ PE4/AN4 PE5/AN5 PE6/AN6 PE7/AN7 
+
+ The first part of
+the signal name indicates the position in PORTE, and the second part reflects
+each signals shared function as an 8 bit A/D input. These signals are brought
+out to pins 3 through 10 on the 40 pin Analog I/O connector (see Figure 2.2).
+Chapter 6 provides more detail about the A/D converter. 
+
+ The 8 PPA signals
+originating at the PIA are labeled 
+
+ PPA0 PPA1 PPA2 PPA3 PPA4 PPA5 PPA6 PPA7 
+
+ These signals are
+brought out to pins 29 through 36 on the 40 pin Digital I/O connector (see
+Figure 2.2). The 8 bit PPA port does not have any shared functions and is
+always available as general purpose digital input or output. 
+
+ The upper 4 bits
+of PPC are labeled 
+
+ PPC4/RS485.XMIT PPC5 PPC6 PPC7 
+
+ and are brought
+out to pins 25 through 28 on the 40 pin Digital I/O connector (see Figure
+2.2). If RS485 serial communications are used, PPC4/RS485.XMIT controls the direction of the data transfer,
+and the upper half of PPC must be configured as an output (see the glossary
+entry for INIT.RS485 ). If RS485 is not being used, upper PPC can be configured as
+input or output. 
+
+ PPB and the lower
+nibble of PPC are used to implement the keypad/display interface, and are
+brought out to the 34 pin keypad/display connector. The port bits are brought
+out in a scrambled order that facilitates direct connection of a keypad and
+display. 
+
+ Programmable
+Timer and Pulse Accumulator 
+
+ Introduction 
+
+ This section
+describes how the programmable timer and pulse accumulator can be used to: 
+
+ Implement
+clocks 
+
+ Measure
+time intervals 
+
+ Sense
+input signal transitions 
+
+ Measure
+input signal pulse widths 
+
+ Generate
+output pulse signals 
+
+ Control
+stepper motors with synchronized output pulse signals 
+
+ Count
+external events represented by input pulses 
+
+ These feats are
+accomplished by the 68HC11F1s programmable timer and pulse accumulator subsystem.
+Controlled by a set of hardware registers, the subsystem performs input captures,
+output compares, pulse accumulation, gated timing, and real-time interrupt
+generation. 
+
+ A 16-bit free
+running counter is the heart of the programmable timer. All input capture and
+output compare operations are referenced to its count. 
+
+ An input capture
+saves the time at which a specified input signal transition occurs. This
+allows accurate timing of external signals. Interrupts may optionally be
+generated when the signal transitions occur. Coded examples presented below
+show how to use input captures to sense input signal level changes and measure
+input pulse widths. 
+
+ An output compare
+causes actions to occur when the count in a specified register matches the
+value of the free-running counter. The output compare can change the state of
+an output pin at a programmable time, and can optionally generate an interrupt
+at the same time. Coded examples illustrate their use in synthesizing accurate
+clocks, generating output pulse signals, and implementing time-controlled
+program execution. In addition, a sample stepper motor control program that
+generates synchronized output signals is presented. 
+
+ The 8-bit pulse
+accumulator increments a count every time a specified signal transition is
+detected. An associated gated timer increments a count driven by an internal
+clock as long as an external gating input is active. Optional interrupts can
+be generated when the 8-bit count overflows and when a pulse or gate-signal
+edge is detected. Coded examples illustrate their utility for counting
+external events and measuring pulse widths. 
+
+ The real-time
+interrupt generates an optional interrupt at programmable intervals to time
+events or to establish a time base. 
+
+ All of these
+functions are controlled by registers located at addresses 8000H-805FH in
+common memory. Each registers name is highlighted in BOLD when it is first
+introduced. The names, addresses, and contents of all of the registers are
+summarized in Appendix B. The example code uses the REGISTER: routine defined
+in QED-Forth to assign a name and extended address to each relevant control
+register. 
+
+ The 16-Bit
+Free-Running Counter 
+
+ The heart of the
+programmable timer is a 16-bit free running counter (MC68HC11F1 Technical Data
+Manual, , p. 7.2). The counter is accessible via a read-only timer count
+register named TCNT (M68HC11 Reference Manual, p.10-5). Its value is
+incremented continuously at a programmable rate. The count progresses from 0
+to 65,535 (FFFFH) and then overflows to 0 and continues counting. The input
+capture and output compare functions use TCNTs contents to record when an
+event has occurred, or to determine when a specified output event should be
+initiated. 
+
+ The following code
+defines the TCNT register and shows that its contents are being continually
+updated: 
+
+   
+
+ HEX 
+
+ 800E REGISTER: TCNT \
+define the location of the timer count register 
+
+ TCNT C@ . \
+Read the contents of the timer counter, and 
+
+ TCNT C@ . \
+note that each time the result is different. 
+
+ TCNT C@ . 
+
+ The free-running
+counters resolution is programmed by two prescaler bits named PR0 and PR1
+located in the timer interrupt mask register 2, TMSK2 (M68HC11 Reference
+Manual, pp.10-7...10-10, MC68HC11F1 Technical Data Manual, p.7-9). Their
+settings determine whether the timer count registers frequency is equal to the
+system (2 MHz E-clock) frequency divided by 1, 4, 8, or 16. The following
+table summarizes the count resolutions and overflow ranges of the TCNT register
+for the four possible combinations of prescaler bits 0 and 1 (PR0 and PR1): 
+
+ Table 8 ‑5 Free-Running
+Counter Resolution and Range. 
+
+ 
+ PR1 
+ 
+ PR0 
+ 
+ Prescale Factor 
+ 
+ Count
+ Resolution 
+ 
+ Overflow Range 
+ 
+ 0 
+ 
+ 0 
+ 
+ 1 
+ 
+ 0.25 us 
+ 
+ 16.38 ms 
+ 
+ 0 
+ 
+ 1 
+ 
+ 4 
+ 
+ 1 us 
+ 
+ 65.536 ms 
+ 
+ 1 
+ 
+ 0 
+ 
+ 8 
+ 
+ 2 us 
+ 
+ 131.1 ms 
+ 
+ 1 
+ 
+ 1 
+ 
+ 16 
+ 
+ 4 us 
+ 
+ 262.1 ms 
+ 
+
+ The bold entries
+highlight the default values. QED-Forth initializes PR0 and PR1 to achieve a
+count resolution of 2 microseconds (us) and a time-until-overflow of 131.1
+milliseconds (ms). If the crystal frequency is 8 MHz, the default values are
+PR1 = 0 and PR0 = 1; if the crystal frequency is 16 MHz, the default values are
+PR1 = 1 and PR0 = 0. (For experts and the curious: a flag at address FFC0 in
+the kernel PROM tells QED-Forth what crystal frequency the board was
+manufactured with). The values of prescale bits 0 and 1 can be verified by
+executing the following commands: 
+
+   
+
+ HEX 
+
+ 8024 REGISTER: TMSK2 \
+define a control register constant for TMSK2 
+
+ TMSK2 C@ \
+fetch the contents of TMSK2 
+
+ 3 AND \
+AND with 3 to isolate PR0 and PR1 bits 
+
+ . \
+print the result 
+
+ These prescaler
+bits in TMSK2 may be changed only during the first 64 cycles of processor operation
+after a reset. The QED-Forth word INSTALL.REGISTER.INITS allows you to specify
+the contents of TMSK2 that will take effect after every reset; see its glossary
+description for details. 
+
+ The timer count
+register overflows to 0 when its count reaches 65,535 (FFFFH). When an
+overflow occurs, a timer overflow flag is set. The flag is named TOF and it is
+located in the timer interrupt flag register 2, TFLG2. If the timer overflow
+interrupt is enabled by setting the TOI mask bit in the TMSK2 register, then an
+interrupt is triggered when the timer overflow flag is set (M68HC11 Reference
+Manual, pp.10-9...10-10, MC68HC11F1 Technical Data Manual, p.7-9&amp;10).
+Like most interrupt flags, the timer overflow flag is reset by writing a one to
+its location in the TFLG2 register (see Chapter 3 for a discussion of
+interrupts). 
+
+ Polling the
+Timer Overflow Flag 
+
+ We can define a
+routine that times an interval by polling the overflow flag. Given the default
+settings of the timer prescaler bits 0 and 1, the timer overflow flag is set
+every 131.1 ms. Thus it is possible to measure intervals of n*131.1 ms. For
+example, the following code times an approximate 6 second interval: 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ HEX 
+
+ 8025 REGISTER:
+TFLG2 \ define timer interrupt flag register 2 
+
+ 80 CONSTANT
+TIMER.OVERFLOW.FLAG \ define a mask to isolate the TOF bit 
+
+ \ in the TFLG2 register 
+
+   
+
+ : POLL ( mask\xaddr --
+| iterate until bits set in mask are set in xaddr ) 
+
+ \ compares the
+specified mask to the value at xaddr until the bits set in 
+
+ \ mask are also set
+in xaddr. This routine could be assembly coded 
+
+ \ for use in more
+time-critical applications. 
+
+ LOCALS{ x&amp;addr&amp;mask } 
+
+ BEGIN 
+
+ x&amp;addr
+C@ \ fetch the contents of xaddr 
+
+ &amp;mask
+AND \ AND the contents with the given mask 
+
+ &amp;mask = \
+the mask bits are set in xaddr if this is true 
+
+ UNTIL 
+
+ ; 
+
+   
+
+ DECIMAL \ set
+number base to decimal 
+
+ 6.0 0.1312 F/ FIXX
+CONSTANT #OVERFLOWS.IN.6SECONDS 
+
+ \ define constant that
+equals the number of timer overflows 
+
+ \ {which occur every
+0.1312 seconds} per 6 second interval 
+
+   
+
+ : TIME.6.SECONDS ( -- ) 
+
+ \ times an approximate
+6 second interval by counting timer overflows. 
+
+ TIMER.OVERFLOW.FLAG
+TFLG2 C! \ reset the TOF flag 
+
+ #OVERFLOWS.IN.6SECONDS 0 \ specify number of overflows 
+
+ DO 
+
+ TIMER.OVERFLOW.FLAG TFLG2 POLL \ poll for next overflow 
+
+ TIMER.OVERFLOW.FLAG
+TFLG2 C! \ reset the TOF flag 
+
+ LOOP 
+
+ CR . 6 seconds are
+up! 
+
+ ; 
+
+ TIME.6.SECONDS
+resets the timer overflow bit and then polls it, waiting for approximately 6 seconds
+to elapse. This simple routine is for demonstration purposes only, and is
+admittedly not very accurate. Another drawback is that polling unnecessarily
+ties up the CPU. Interrupts offer an attractive alternative. 
+
+ Interval
+Timing An Illustration of Interrupt Processing 
+
+ It is simple to
+have the 68HC11F1 service an interrupt whenever the timer count register
+overflows. This increases the accuracy of timed delays, and also frees the CPU
+for concurrent processing. 
+
+ When the timer
+count register overflows, the timer overflow interrupt flag, TOF, is set. If
+the local timer overflow interrupt mask bit named TOI is set in the TMSK2
+(timer mask 2) register, an interrupt is recognized every time the timer
+overflow flag is set by the processor (MC68HC11F1 Technical Data Manual,
+p.7-9). When a timer overflow interrupt is serviced, it is the responsibility
+of the interrupt handler to reset the timer overflow flag. 
+
+ The following
+example demonstrates how to write a 6.031 second interval timer using
+interrupts. The numbered, bold face comments correspond to the four steps used
+to implement interrupts as described in Chapter 3. 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ \ 1. Define constants
+representing registers related to the interrupt. 
+
+ HEX \ use
+hexadecimal base to specify addresses 
+
+ 8024 REGISTER: TMSK2
+\ define a control register constant for TMSK2 
+
+ 8025 REGISTER:
+TFLG2 \ define the timer interrupt flag #2 register 
+
+ 80 CONSTANT
+TIMER.OVERFLOW.FLAG \ define a mask to isolate the TOF bit 
+
+ \
+in the TFLG2 register 
+
+ 80 CONSTANT
+TIMER.OVERFLOW.INTERRUPT.MASK \ used to set the TOI bit in TMSK2 
+
+ VARIABLE
+#TIMER.OVERFLOWS \ keeps a running count of overflows. 
+
+ DECIMAL
+\ set number base to decimal 
+
+ 6.0 0.1312 F/ FIXX CONSTANT
+#OVERFLOWS.IN.6SECONDS 
+
+ \ define an integer
+constant that equals the approximate number of timer 
+
+ \ overflows {which
+occur every 0.1312 seconds} per 6 second interval 
+
+   
+
+ \ 2. Write an
+interrupt handler routine 
+
+ \ Define the timer
+overflow interrupt handler which resets the timer overflow 
+
+ \ flag. If 6 seconds
+(= 46*131 ms) have elapsed, the routine BEEPs and resets 
+
+ \ the #TIMER.OVERFLOWS
+variable; otherwise, it increments #TIMER.OVERFLOWS 
+
+   
+
+ : BEEP.EVERY.6.SECONDS
+( -- ) 
+
+ TIMER.OVERFLOW.FLAG
+TFLG2 C! \ reset the TOF flag 
+
+ #TIMER.OVERFLOWS @
+#OVERFLOWS.IN.6SECONDS 
+
+ &gt;= \ have 6 seconds elapsed? 
+
+ IF
+BEEP \ yes, so beep 
+
+ #TIMER.OVERFLOWS
+OFF \ and reset the counter 
+
+ ELSE 1
+#TIMER.OVERFLOWS +! \ no, so increment the #overflows 
+
+ ENDIF 
+
+ ; 
+
+   
+
+ \ 3. Write an
+installation word for the interrupt handler 
+
+ \ INSTALL.ALARM uses
+the QED-Forth word ATTACH to properly install 
+
+ \ the timer overflow
+handler BEEP.EVERY.6.SECONDS. 
+
+ : INSTALL.ALARM ( -- ) 
+
+ CFA.FOR
+BEEP.EVERY.6.SECONDS TIMER.OVERFLOW.ID ATTACH 
+
+ ; 
+
+ 
+
+ \ 4. Write words to
+enable and disable the interrupt. 
+
+ \ ARM.ALARM enables the
+6 second beeper by clearing the #TIMER.OVERFLOWS 
+
+ \ variable, clearing
+the timer overflow flag bit TOF, locally enabling 
+
+ \ the timer overflow
+interrupt by setting its TOI mask bit, and ensuring 
+
+ \ that the I bit is
+clear so interrupts are globally enabled. 
+
+ : ARM.ALARM ( -- ) 
+
+ #TIMER.OVERFLOWS
+OFF \ initialize the overflow counter to 0 
+
+ TIMER.OVERFLOW.FLAG
+TFLG2 C! \ reset the TOF flag 
+
+ TIMER.OVERFLOW.INTERRUPT.MASK TMSK2 SET.BITS \ set the TOI mask 
+
+ ENABLE.INTERRUPTS \ ensure that the I bit is clear 
+
+ ; 
+
+   
+
+ \ DISARM.ALARM disables
+the timer overflow interrupt by clearing the timer 
+
+ \ overflow interrupt
+mask bit. Note that the global interrupt mask bit I is not 
+
+ \ used to disable the
+interrupt, as this would affect all maskable interrupts. 
+
+ : DISARM.ALARM ( -- ) 
+
+ TIMER.OVERFLOW.INTERRUPT.MASK TMSK2 CLEAR.BITS 
+
+ ; 
+
+ After defining
+these words, install the timer overflow interrupt handler and activate it by
+typing: 
+
+   
+
+ INSTALL.ALARM 
+
+ ARM.ALARM 
+
+ Your QED Board
+will now beep by transmitting a bell character every 6.031 seconds. To stop
+the beeping type: 
+
+   
+
+ DISARM.ALARM 
+
+ Try fetching the
+contents of #TIMER.OVERFLOWS several times while the timer overflow interrupt
+is operating. The value stored in the variable changes every 131.1 ms. This
+is the result of BEEP.EVERY.6.SECONDS working in the background as an
+interrupt. Unlike the polling example presented above, the processor is now
+spending a very small fraction of its available time performing the timing
+function. This example demonstrates the benefits of interrupts, and how
+QED-Forth simplifies their use. 
+
+ Summary of
+the 16-Bit Free Running Counter 
+
+ The heart of the
+programmable timer subsystem is a free-running 16-bit counter whose count is
+available in the read-only TCNT register. The range and resolution of counts
+in the timer count register are determined by prescaler bits PR0 and PR1 in the
+TMSK2 register. Each time the timer count register overflows, the processor
+sets the timer overflow flag TOF in the TFLG2 register. If the timer overflow
+interrupt mask bit TOI in the TMSK2 register has been set, an interrupt is triggered
+when the TCNT register overflows. To service this interrupt, a handler must be
+installed which clears the timer overflow flag in addition to performing its
+intended task. 
+
+ The example
+program presented above is by no means the best way to measure time intervals.
+Nevertheless, it illustrates three important concepts: use of the free running
+count register, the implementation of interrupts via a flag and an interrupt
+enable mask (TOF and TOI), and the responsibility of the interrupt handler to
+clear its interrupt flag by storing a 1 in the flags location. 
+
+ Configuring
+and Using Input Capture Functions 
+
+ Four input capture
+functions are available to measure input pulse widths and periods, synchronize
+program execution with external devices, and expand the number of available
+external hardware interrupts. External input signals are interfaced to the
+input captures via four PORTA pins PA0, PA1, PA2 and PA3. When an active input
+capture senses a specified signal transition on its PORTA pin, the time of
+occurrence is saved in a 16-bit register. An optional interrupt can be
+triggered in response to the signal transition event. Three types of
+transitions can be sensed: 
+
+ Rising
+edges 
+
+ Falling
+edges 
+
+ All
+rising and falling edges 
+
+ The following five
+steps set up an input capture function that calls an associated interrupt
+service routine. If interrupts are not being used (for example, if the
+interrupt capture flag bit is being polled), steps 2 and 4 may be skipped. 
+
+ 0. Configure
+the PORTA pin associated with the input capture as an input by writing a 0 to
+its bit position in the PORTA data direction register, named PORTA.DIRECTION in
+QED-Forth. 
+
+ 0. (Optional).
+Define an interrupt service routine and install it using ATTACH. 
+
+ 0. Clear
+the input captures flag bit. 
+
+ 0. (Optional).
+Enable (set) the input captures local interrupt mask. 
+
+ 0. Enable
+the input capture function by setting its edge trigger control bits. 
+
+ When a specified
+signal edge is sensed, the value in the timer count (TCNT) register is latched
+into a 16-bit register associated with the input capture, and the input
+captures interrupt flag is set by the processor. If the input captures
+interrupt mask is also enabled, the interrupt is recognized and the installed
+interrupt service routine is called. 
+
+ The secondary
+serial port supported by QED-Forths software UART uses PORTA pin PA3 (associated
+with IC4/OC5) as the serial input and PA4 (associated with OC4) as the serial
+output. If you need the services of the secondary serial port make sure that
+you do not use these pins or compare functions. 
+
+ Configuring
+Port A Pins For Input Capture 
+
+ To configure Port
+A pins PA0, PA1, and PA2 for input capture, their data direction bits in Port
+As data direction register (bits 0, 1, and 2, respectively) must be cleared.
+The data direction register is called DDRA in Appendix B, and is named PORTA.DIRECTION
+in QED-Forth. These bits are cleared upon reset. The sample routines
+presented here explicitly clear them to ensure that the input capture pins are
+properly configured. 
+
+ PORTA pin PA3 can
+be used for either input capture or output compare (output compare functions
+are described later in this chapter). To use PA3 as input capture #4, the
+I4/O5 bit in the pulse accumulator control register, PACTL, must be set
+(MC68HC11F1 Technical Data Manual, p.7-12). Note that if port bit PA3 is
+configured as an input capture by setting I4/O5, and if PA3 is configured as an
+output by setting data direction bit 3 in PORTA.DIRECTION, then changes on the
+PA3 output signal will activate the input capture function. This could be
+useful in some applications. 
+
+ Enabling
+Input Capture Functions for Specified Signal Transitions 
+
+ Each input capture
+function is enabled by two edge bits which determine the signal transition to
+be sensed. These bits are named EDGxA and EDGxB (where x = 1...4 specifies the
+input capture number). The following table relates the edge bits and input
+capture number to the associated PORTA pin: 
+
+ Table 8 ‑5 Enter
+your Table Caption here. 
+
+ 
+ Edge Bits 
+ 
+ Input Capture 
+ 
+ PORTA Pin 
+ 
+ EDG1A, EDG1B 
+ 
+ IC1 
+ 
+ PA2 
+ 
+ EDG2A, EDG2B 
+ 
+ IC2 
+ 
+ PA1 
+ 
+ EDG3A, EDG3B 
+ 
+ IC3 
+ 
+ PA0 
+ 
+ EDG4A, EDG4B 
+ 
+ IC4 
+ 
+ PA3 
+ 
+
+ The edge bits are
+located in timer control register 2, named TCTL2 (MC68HC11F1 Technical Data
+Manual, pp.7-1...7-3, M68HC11 Reference Manual, pp.10-16...10-19). The
+meanings of the edge bits are as follows: 
+
+ Table 8 ‑5 Enter
+your Table Caption here. 
+
+ 
+ EDGxB 
+ 
+ EDGxA 
+ 
+ Configuration 
+ 
+ 0 
+ 
+ 0 
+ 
+ Capture is disabled (this is the state after reset) 
+ 
+ 0 
+ 
+ 1 
+ 
+ Capture on rising
+ edges only 
+ 
+ 1 
+ 
+ 0 
+ 
+ Capture on falling
+ edges only 
+ 
+ 1 
+ 
+ 1 
+ 
+ Capture on any
+ rising or falling edge 
+ 
+
+ Note that clearing
+both edge bits disables the input capture function. 
+
+ Input
+Capture Utility Words 
+
+ The following
+QED-Forth words demonstrate how to configure each input capture function.
+First we define register names and useful constants: 
+
+   
+
+ HEX \ set number
+base to hexadecimal 
+
+ 8021 REGISTER: TCTL2 \
+timer control reg. #2, holds edge specification bits 
+
+ 8023 REGISTER: TFLG1
+\ timer interrupt flag register 
+
+ 8026 REGISTER: PACTL \
+pulse accumulator control register, 
+
+ \ configures PA3
+as input capture 
+
+ 4 CONSTANT I4/O5.MASK
+\ mask for bit that configures PA3 as an input capture 
+
+   
+
+ \ Define flags to
+specify the signal events that trigger the input capture: 
+
+ 0 CONSTANT
+DISABLE.CAPTURE \ disable an input capture 
+
+ 1 CONSTANT RISING.EDGE
+\ capture a rising edge 
+
+ 2 CONSTANT
+FALLING.EDGE \ capture a falling edge 
+
+ 3 CONSTANT ANY.EDGE
+\ capture either a rising or falling edge 
+
+   
+
+ \ Define some input
+capture identification constants: 
+
+ 0 CONSTANT
+IC3/PA0 \ input capture 3, associated with PA0 
+
+ 1 CONSTANT
+IC2/PA1 \ input capture 2, associated with PA1 
+
+ 2 CONSTANT
+IC1/PA2 \ input capture 1, associated with PA2 
+
+ 3 CONSTANT
+IC4/PA3 \ input capture 4, associated with PA3 
+
+ The next word,
+CONFIGURE.INPUT.CAPTURE, configures and enables a given input capture function
+to sense a signal change event. The processor sets the input captures flag
+bit when the specified event is detected: 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ :
+CONFIGURE.INPUT.CAPTURE ( signal.event.flag\input.capture.id -- ) 
+
+ LOCALS{&amp;input.capture.id&amp;sense.event } 
+
+ \ Configure the input
+capture function... 
+
+ 1&amp;input.capture.id SCALE PORTA.DIRECTION \ make PAx an input 
+
+ CLEAR.BITS \ by
+clearing the direction bit 
+
+ &amp;input.capture.id
+IC4/PA3 = \ If its IC4/PA3... 
+
+ IF I4/O5.MASK PACTL
+SET.BITS \ make it an input capture 
+
+ ENDIF 
+
+ \ Now, enable the
+input capture function... 
+
+ 1&amp;input.capture.id SCALE TFLG1 C! \ Clear the ICx flag, see below... 
+
+ 3&amp;input.capture.id 2* SCALE TCTL2 CLEAR.BITS \ Clear EDGxA and EDGxB bits 
+
+ &amp;sense.event&amp;input.capture.id 2* SCALE TCTL2 SET.BITS 
+
+ \ Set EDGxA and
+EDGxB to enable the input capture 
+
+ ; 
+
+   
+
+ CONFIGURE.INPUT.CAPTURE
+lets you configure and enable any of the four input captures to sense a signal
+change event. All you need to do is decide which input capture function you
+will use, and which signal transition you want to sense. For example, the
+following statement configures input capture 3 to detect a falling edge on
+PORTA pin 0: 
+
+ FALLING.EDGE
+IC3/PA0 CONFIGURE.INPUT.CAPTURE 
+
+ Capturing rising
+edges on PORTA pin 3 using input capture 4 is accomplished by executing: 
+
+ RISING.EDGE
+IC4/PA3 CONFIGURE.INPUT.CAPTURE 
+
+ The following word
+disables an input capture: 
+
+   
+
+ : DISABLE.INPUT.CAPTURE
+( input.capture.id -- ) 
+
+ DISABLE.CAPTURE SWAP
+CONFIGURE.INPUT.CAPTURE 
+
+ ; 
+
+ To disable the
+input captures #3 and #4, execute: 
+
+ IC3/PA0 DISABLE.INPUT.CAPTURE 
+
+ IC4/PA3
+DISABLE.INPUT.CAPTURE 
+
+ Input
+Capture Interrupts 
+
+ Using
+CONFIGURE.INPUT.CAPTURE (defined above) we can configure and enable any input
+capture function to detect a signal transition event. When the event occurs,
+the contents of the timer count (TCNT) register are latched into a 16-bit
+register associated with the input capture function. These timer input capture
+registers are named TIC1, TIC2, TIC3, and TI4O5 (see Figure 7-1 in MC68HC11F1
+Technical Data Manual, p.7-2, and M68HC11 Reference Manual,
+pp.10-15...10-16). They are read-only registers and are typically accessed
+using the QED-Forth command @. 
+
+ When a signal
+change event is sensed, the processor sets the input captures interrupt flag.
+The input capture interrupt flags are named IC1F, IC2F, IC3F, and IC4F and are
+located in the timer flag 1 register, TFLG1 (MC68HC11F1 Technical Data Manual,
+p.7-8, M68HC11 Reference Manual, p.10-16). Like other interrupt flags, input
+capture interrupt flags are cleared by writing a 1 to them. An input capture
+triggers an interrupt if its local interrupt mask has been set. Input capture
+interrupt masks are named IC1I, IC2I, IC3I, and IC4I and are located in the timer
+mask register TMSK1 (MC68HC11F1 Technical Data Manual, p.7-7, M68HC11
+Reference Manual, p.10-16). 
+
+ Input capture
+events should be serviced and the flag reset before the next specified signal
+transition occurs. If the input capture register is not read before the next
+specified transition, the originally stored timer count will be written over.
+If the input capture flag is not reset quickly enough, a signal transition may
+be missed. 
+
+ Input
+Signal Pulse Width Measurement 
+
+ The following
+software routines demonstrate how to use interrupts triggered by input capture
+1 to measure input pulse widths. Although a very simple software example could
+be constructed, we present a more complex example in order to point out some
+useful programming techniques. The example shows how to use assembly coded
+service routines to achieve fast response, how to combine input capture and
+timer overflow interrupts to measure long pulse widths, and how to call
+floating point functions from inside an interrupt routine. 
+
+ Some of the
+routines in this example use functions defined in the previous section named
+Input Capture Utility Words. As usual, we start by assigning names to
+relevant control registers. 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ HEX
+\ use hex base to specify addresses 
+
+ 8 WIDTH
+! \ save more characters in names 
+
+ \ to
+avoid non-unique names 
+
+   
+
+ 8010 REGISTER:
+TIC1 \ IC1s 16-bit timer capture register 
+
+ 8012 REGISTER:
+TIC2 \ IC2s 16-bit timer capture register 
+
+ 8014 REGISTER:
+TIC3 \ IC3s 16-bit timer capture register 
+
+ 801E REGISTER:
+TI4O5 \ IC4s 16-bit timer capture register 
+
+ 8022 REGISTER:
+TMSK1 \ timer interrupt mask register #1 
+
+ 8023 REGISTER:
+TFLG1 \ timer interrupt flag register #1 
+
+ 8025 REGISTER:
+TFLG2 \ timer interrupt flag register #2 
+
+   
+
+ RISING.EDGE CONSTANT
+HIGH.PULSE \ flag to time width of high pulse 
+
+ FALLING.EDGE CONSTANT
+LOW.PULSE \ flag to time width of low pulse 
+
+ 
+
+ HEX 
+
+ 8000 CONSTANT
+REGISTER.BASE \ base address of register block 
+
+ 10 CONSTANT
++TIC1 \ byte offset to TIC1 register 
+
+ 21 CONSTANT
++TCTL2 \ byte offset to TCTL2 register 
+
+ 22 CONSTANT +TMSK1
+\ byte offset to TMSK1 register 
+
+ 23 CONSTANT
++TFLG1 \ byte offset to TFLG1 register 
+
+ 24 CONSTANT
++TMSK2 \ byte offset to TMSK2 register 
+
+ 25 CONSTANT
++TFLG2 \ byte offset to TFLG2 register 
+
+ 4 CONSTANT
+IC1.MASK \ mask to set and clear IC1F and IC1I 
+
+ 30 CONSTANT
+EDGE.TOGGLE \ mask to toggle rising/falling edge 
+
+ 80 CONSTANT
+TIMER.OVERFLOW.FLAG \ mask to isolate the TOF bit 
+
+ \
+in the TFLG2 register 
+
+   
+
+ VARIABLE
+LEADING.EDGE.TIME \ variable to store TCNT of leading edge 
+
+ VARIABLE
+#TIMER.OVERFLOWS \ keeps a running count of overflows 
+
+   
+
+ As explained
+earlier in the chapter, the timer count (TCNT) register overflows every 131.1
+ms given the default settings of prescale bits PR0 and PR1 in the TMSK2
+register. Unless we keep track of these timer overflows, we will be limited to
+pulse measurements of less than 131.1 ms. To extend the measurable pulse
+length to 2.4 hours, we count the number of timer overflows using this interrupt
+handler: 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ HEX 
+
+ :
+TIMER.OVERFLOW.COUNTER ( -- ) 
+
+ TIMER.OVERFLOW.FLAG
+TFLG2 C! \ reset the TOF (timer overflow) flag 
+
+ 1 #TIMER.OVERFLOWS
++! \ increment the counter 
+
+ ; 
+
+   
+
+ This routine is
+installed as an interrupt handler by PULSE.WIDTH.TIMER.INIT below. 
+
+ Next we define
+PULSE.WIDTH.MEASURER. This word services interrupts that are triggered by a
+desired edge event. PULSE.WIDTH.MEASURER expects IC1/PA2 to be configured to
+capture the leading edge of a pulse. Thus IC1/PA2 should be triggered on a
+rising edge to measure a high pulse, or triggered on a falling edge to measure
+a low pulse. The timer overflow interrupt handler, TIMER.OVERFLOW.COUNTER,
+must be installed, but its interrupt mask bit, TOI, should initially be cleared
+(interrupt disabled). PULSE.WIDTH.MEASURER controls the TOI mask bit so that
+timer count register overflows are counted only while a pulse is being
+measured. In this example, TOI is used to determine whether a sensed
+transition is a leading or trailing edge. The algorithm is as follows: 
+
+ Initial
+Conditions: 
+
+ Input capture 1s
+interrupt mask&amp;interrupt flag are both set: IC1I = IC1F = 1 
+
+ Algorithm
+implemented by IC1/PA2s interrupt service routine: 
+
+ 0. Clear
+input capture 1s IC1F flag which triggered the interrupt. 
+
+ 0. Invert
+each of the EDG1A and EDG1B bits to make IC1/PA2 sensitive to the next edge.
+That is, if the current input capture was triggered by a rising edge, set the
+edge bits to detect a falling edge, and vis versa. 
+
+ 0. Save
+the captured edges TCNT time on the QED-Forth data stack. 
+
+ 0. Check
+the state of the TOI bit to determine if the captured edge is a leading edge
+(TOI = 0 because the timer overflow interrupt is initially disabled) or
+trailing edge (TOI = 1 because the timer overflow interrupt is enabled after
+the leading edge). 
+
+ . If
+TOI = 0, a leading edge has been sensed: Clear the TOF bit to keep track of
+timer overflows; Set the TOI bit to track timer overflows and to indicate that
+the next edge is trailing; Save TCNT from stack into the LEADING.EDGE.TIME
+variable. 
+
+ . If
+TOI = 1, a trailing edge has been sensed: Clear the TOI bit to disable timer
+overflow interrupts; Compute the pulse width in milliseconds (ms); Print the
+result; Reset #TIMER.OVERFLOWS for the next pulse. 
+
+ 0. Return
+from subroutine. (Note: QED-Forth interrupt handlers return using ; or RTS,
+not RTI. The ATTACH handler supplies the required RTI). 
+
+ This algorithm is
+implemented in the code presented below. The computation and printing of the
+result are performed by the high-level word COMPUTE.PULSE.WIDTH. The assembly
+coded interrupt service routine PULSE.WIDTH.MEASURER handles the time-critical
+tasks and then calls COMPUTE.PULSE.WIDTH. For less demanding applications, the
+interrupt service routine could also be coded in high level. 
+
+ The code minimizes
+the time spent servicing a leading edge interrupt so short-duration pulses can
+be measured. The calculation and printing of the result performed after the
+trailing edge of the input pulse is more time consuming, and limits this
+example to measuring low frequency pulse trains. 
+
+ Handling higher
+frequency signals could easily be accomplished by rapidly storing the timer and
+overflow counts in an array and then performing the time-intensive computation
+and printing tasks when more time is available. In a multitasked system these
+time consuming functions are best performed by a foreground task that accepts
+and processes saved data collected by the background interrupt routine. This
+keeps the interrupt routines short and efficient and keeps the structure and
+real-time behavior of the application modular and easy to maintain. 
+
+ Note that
+COMPUTE.PULSE.WIDTH calls the matched pair of routines FP&amp;STRING.PUSH and
+FP&amp;STRING.POP which save and restore all of the scratchpad user variables
+needed to perform floating point calculations and printing of floating point
+numbers. These utilities should be called whenever floating point routines are
+used inside an interrupt handler, as they prevent the corruption of any floating
+point operation that might be running in the main program. If an interrupt
+performs floating point calculations without calling printing or string
+conversions, the faster save routines FP.PUSH and FP.POP may be used. Please
+consult the glossary for a full explanation of these routines. 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ DECIMAL
+\ set number base 
+
+ 48
+VALLOT \ save 48 bytes in variable area 
+
+ VHERE XCONSTANT
+TEMPORARY.PAD \ declare temporary RAM scratchpad 
+
+ \
+for F. which uses 32 bytes below PAD 
+
+ 2E-3 FCONSTANT
+MS/TCNT \ each TCNT count = 2E-3 ms 
+
+ 131.1 FCONSTANT
+MS/OVERFLOW \ each timer overflow = 131.1 ms 
+
+ 
+
+ : COMPUTE.PULSE.WIDTH (
+falling.edge.TCNT.value -- ) 
+
+ \ this routine computes
+and prints the pulse width based on the falling-edge 
+
+ \ TCNT value, the saved
+leading-edge TCNT value, and the number of 
+
+ \ timer overflows since
+the leading edge. 
+
+ \ Formula: pulse width
+= end.time - start.time, 
+
+ \ where: end.time =
+(falling.edge.TCNT * ms/TCNT) + (#overflows * ms/overflow) 
+
+ \ start.time =
+leading.edge.TCNT * ms/TCNT 
+
+ \ NOTE: some of the
+lines are keyed to the algorithm steps presented above 
+
+ TEMPORARY.PAD
+FP&amp;STRING.PUSH \ save fp scratchpad variables so they 
+
+ \ arent
+changed during the interrupt; 
+
+ \ see glossary
+entry for FP&amp;STRING.PUSH 
+
+ UFLOT \ convert
+trailing TCNT to positive fp# 
+
+ MS/TCNT F* \ convert
+trailing edge TCNT to ms 
+
+ #TIMER.OVERFLOWS @
+FLOT 
+
+ MS/OVERFLOW F* F+ (
+-- end.time.in.ms ) 
+
+ LEADING.EDGE.TIME @
+UFLOT \ convert leading edge TCNT to positive fp# 
+
+ MS/TCNT F* \ convert
+t.start to ms 
+
+ F- \ 4.b.2:
+pulse ms = t.end - t.start 
+
+ CR . Pulse Width =
+ F. . ms \ 4.b.3: print result 
+
+ #TIMER.OVERFLOWS OFF
+\ 4.b.4: reset overflow counter 
+
+ FP&amp;STRING.POP \
+restore floating point user variables 
+
+ ; 
+
+   
+
+   
+
+ CODE
+PULSE.WIDTH.MEASURER ( -- ) 
+
+ \ this is the input
+captures interrupt service routine. 
+
+ \ NOTE: some of the
+lines are keyed to the algorithm steps presented above 
+
+ REGISTER.BASE IMM
+LDX \ load X with base addr of control registers 
+
+ IC1.MASK IMM LDAA
+\ load accumulator A with IC1F mask 
+
+ +TFLG1 IND,X STAA
+\ 1. clear the interrupt flag bit IC1F 
+
+ EDGE.TOGGLE IMM
+LDAA \ load sense event toggle mask into A 
+
+ +TCTL2 IND,X EORA \
+invert edge bits... 
+
+ +TCTL2 IND,X STAA
+\ 2. ...which alternates the edge trigger 
+
+ +TIC1 IND,X LDD \
+get latched TCNT when edge event occurred 
+
+ DEY \ make
+room on data stack 
+
+ DEY 
+
+ 0 IND,Y STD \ 3.
+place latched timer result on data stack 
+
+ +TMSK2 IND,X LDAA
+\ 4.b if MSB of TMSK2 (TOI) is set, 
+
+ MI IF, \
+then the transition is a trailing edge 
+
+ \
+4.b.1 clear the TOI mask 
+
+ TIMER.OVERFLOW.INTERRUPT.MASK
++TMSK2 IND,X BCLR 
+
+ CALL
+COMPUTE.PULSE.WIDTH \ print the result 
+
+ ELSE, \
+else the transition is a leading edge 
+
+ TIMER.OVERFLOW.FLAG IMM LDAA \ put bit mask into A 
+
+ +TFLG2
+IND,X STAA \ 4.a.1 clear TOF flag 
+
+ TIMER.OVERFLOW.INTERRUPT +TMSK2 IND,X BSET 
+
+ \
+4.a.2 set TOI 
+
+ &gt;FORTH \ go to QED-Forth to store 
+
+ LEADING.EDGE.TIME ! \ 4.a.3 store leading edge time 
+
+ &gt;ASSM 
+
+ THEN, 
+
+ RTS \
+5. return from subroutine; note the use of RTS, not RTI 
+
+ END.CODE 
+
+ Notice the
+technique used to clear the IC1F flag in step 1. and the TOF flag in step
+4.a.1. In assembly, a BSET instruction will not properly reset the TOF bit
+(nor will a SET.BITS command) even though it is necessary to store a 1 in TOF
+to clear it. For an important discussion of this matter see M68HC11 Reference
+Manual, p. 10-14, section 10.2.4: Tips for Clearing Timer Flags. Using
+QED-Forth, the easiest way to reset a flag bit is to store a 1 in the
+appropriate position using C!. 
+
+ We now define
+PULSE.WIDTH.TIMER.INIT to initialize and install PULSE.WIDTH.MEASURER and
+TIMER.OVERFLOW.COUNTER. After executing PULSE.WIDTH.TIMER.INIT, IC1/PA2 waits
+for the appropriate signal transition and then times the signals pulse width.
+After the pulses trailing edge has been detected, its width is computed and
+displayed. IC1/PA2 continues measuring pulse widths until 
+
+ IC1/PA2
+DISABLE.INPUT.CAPTURE 
+
+ is executed. 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ :
+PULSE.WIDTH.TIMER.INIT ( low.or.high.pulse -- ) 
+
+ IC1.MASK TMSK1
+CLEAR.BITS \ disable IC1 interrupts 
+
+ TIMER.OVERFLOW.INTERRUPT.MASK TMSK2 CLEAR.BITS \ disable TOI 
+
+ CFA.FOR
+PULSE.WIDTH.MEASURER IC1.ID ATTACH \ install handlers 
+
+ CFA.FOR
+TIMER.OVERFLOW.COUNTER TIMER.OVERFLOW.ID ATTACH 
+
+ #TIMER.OVERFLOWS
+OFF \ clear overflow counter 
+
+ IC1/PA2
+CONFIGURE.INPUT.CAPTURE \ set IC1/PA2 up for leading edge 
+
+ IC1.MASK TMSK1
+SET.BITS \ set IC1I mask bit 
+
+ ; 
+
+ We can now measure
+pulse widths using input capture 1. To test this capability, we can use PORTA
+pin 7 (PA7) as an input pulse signal source by connecting it to input capture
+1s PORTA pin PA2. After connecting these pins together, type the following to
+prepare for testing the pulse width timer: 
+
+   
+
+ HEX 
+
+ 80 CONSTANT PA7.MASK
+\ PA7 is the top bit of PORTA 
+
+   
+
+ : PA7.ON ( -- | set
+output bit 7 of PORTA HIGH ) 
+
+ PA7.MASK PORTA SET.BITS
+\ set bit PA7 to output a HIGH signal 
+
+ ; 
+
+   
+
+ : PA7.OFF ( -- | set
+output bit 7 of PORTA LOW ) 
+
+ PA7.MASK PORTA
+CLEAR.BITS \ clear bit PA7 to output a LOW signal 
+
+ ; 
+
+   
+
+ : PREPARE.TO.MEASURE (
+high/low.pulse.test -- ) 
+
+ PULSE.WIDTH.TIMER.INIT \ install and prep interrupt handlers 
+
+ ENABLE.INTERRUPTS
+\ ensure interrupts are enabled 
+
+ ; 
+
+   
+
+ Using PORTA pin 7
+to control the pulse signal to input capture 1 via PORTA pin 2, we can measure
+a HIGH pulse by typing the following: 
+
+   
+
+ PA7.MASK
+PORTA.DIRECTION SET.BITS \ configure PA7 for digital output 
+
+ 
+
+ PA7.OFF \
+measuring a HIGH pulse requires a LOW start 
+
+ HIGH.PULSE
+PREPARE.TO.MEASURE \ install pulse measurer&amp;enable interrupts 
+
+ PA7.ON \ Send the
+leading edge of the HIGH pulse and begin timing. 
+
+ PA7.OFF \ End the
+pulse. The PULSE.WIDTH.MEASURER will print 
+
+ \ the duration of
+the pulse that you created. 
+
+ \ Iterating this
+sequence of PA7.ON and PA7.OFF will allow 
+
+ \ measurement of
+additional HIGH pulses 
+
+ 
+
+ IC1/PA2
+DISABLE.INPUT.CAPTURE \ call this when you are done, or desire to 
+
+ \
+measure LOW pulses 
+
+   
+
+ Measuring a LOW
+pulse is accomplished as follows: 
+
+   
+
+ PA7.ON \
+measuring a LOW pulse requires a HIGH start 
+
+ LOW.PULSE
+PREPARE.TO.MEASURE \ install pulse measurer&amp;enable interrupts 
+
+ PA7.OFF \
+send the leading edge to begin timing 
+
+ PA7.ON \
+send the trailing edge to get a result 
+
+   
+
+ IC1/PA2
+DISABLE.INPUT.CAPTURE \ call this when you are done, or desire 
+
+ \ to
+measure HIGH pulses 
+
+   
+
+   
+
+ Summary of
+the Input Capture Functions 
+
+ The 68HC11F1 has
+four input captures that sense signal transitions on PORTA pins PA0, PA1, PA2,
+and PA3. When an input capture senses an input event, it records the contents
+of TCNT in its 16-bit input capture register and sets its (interrupt) flag in
+TFLG1. If the input captures local interrupt mask in TMSK1 is set, an
+interrupt is recognized when each specified edge is detected. Two input
+capture edge control bits in TCTL2 enable each input capture and select the
+edge which triggers the input capture. To use input capture 4, a configuration
+bit named I4/O5 in the PACTL register must be set. 
+
+ The following five
+steps set up an input capture function that calls an associated interrupt
+service routine. If interrupts are not being used, steps 2 and 4 may be
+skipped. 
+
+ 0. Configure
+the PORTA pin associated with the input capture as an input by writing a 0 to
+its bit position in the PORTA data direction register, PORTA.DIRECTION. 
+
+ 0. (Optional).
+Define an interrupt service routine and install it using ATTACH. 
+
+ 0. Clear
+the input captures flag bit. 
+
+ 0. (Optional).
+Enable (set) the input captures local interrupt mask. 
+
+ 0. Enable
+the input capture function by setting its edge trigger control bits. 
+
+ This flexible
+subsystem is capable of measuring input pulse widths, synchronizing program
+execution with external devices, and expanding the number of available external
+interrupts. 
+
+ Overview of
+the Output Compare Functions 
+
+ The programmable
+timer subsystem provides 5 output compare functions. Each of these functions
+can automatically call an interrupt routine and/or change the state of an
+associated PORTA pin when the value in a specified register matches the count
+in the TCNT timer register. Thus the programmer can precisely specify a future
+time (well call it time T) at which an action will occur. Using output
+compares, it is easy to set up real-time clocks, cause periodic execution of
+code, and generate precisely timed synchronous or asynchronous waveforms on
+PORTA outputs PA3 through PA7. 
+
+ An active output
+compare function can cause a signal change on a PORTA pin at a specified time
+T, and/or trigger an interrupt at time T. To cause a signal change on a PORTA
+pin when time T equals the contents of TCNT, the PORTA pin must be configured
+as an output, and the output compare function must be enabled. The output
+compare function is enabled by storing a 2-bit code specifying the desired
+signal change. To trigger an interrupt when time T = TCNT, an interrupt
+handler must be installed, and the output compares local interrupt must be
+enabled. 
+
+ Each output
+compare (OC) function has a 16-bit timer compare register which holds the
+specified time T, an output compare (interrupt) flag, an output compare
+interrupt mask, and two signal edge configuration bits (OC1 does not have the
+configuration bits). The two signal edge configuration bits are discussed in
+greater detail later. The timer output compare registers, named TOC1, TOC2,
+TOC3, TOC4 and TOC5, each hold a 16-bit value which is compared with the
+current value in the timer count register TCNT (MC68HC11F1 Technical Data
+Manual, p.7-4, M68HC11 Reference Manual, pp.10-27...10-31). When the values
+are equal (i.e. when a successful output compare occurs), the processor sets
+the output compares interrupt flag. This flag is named OCxF (x = 1...5) and
+is located in the TFLG1 register (MC68HC11F1 Technical Data Manual, p.7-8).
+An interrupt is recognized if the output compares interrupt mask is also set.
+The interrupt mask is named OCxI and is located in the TMSK1 register. 
+
+ The secondary
+serial port supported by QED-Forths software UART uses PORTA pin PA3 (associated
+with IC4/OC5) as the serial input and PA4 (associated with OC4) as the serial
+output. If you need the services of the secondary serial port make sure that
+you do not use these pins or compare functions. The timeslicer uses output
+compare 2, so if you need the services of the timeslicer (timesliced task
+switching, elapsed time clock, or BENCHMARK: function) make sure that you do
+not use OC2 for other functions. Pin PA6 which is associated with OC2 and OC1
+is available for use as a general purpose digital I/O pin, or as an output
+signal controlled by OC1. 
+
+ The following
+sections describe how to use output compares to generate clocks, pulse trains,
+one-shot pulse signals, and synchronized pulsed waveforms. 
+
+ Generating
+Accurate Clocks and Periodic Interrupts 
+
+ The following
+example illustrates the use of an output compare function to periodically
+execute an interrupt service routine. Well use output compare 1 (OC1) to
+generate elapsed-time clocks and to activate a simple alarm that beeps after a
+specified period has elapsed. 
+
+ This example
+illustrates the very useful technique of generating cascaded clocks so that
+long time intervals can be represented. At its default frequency, the 68HC11s
+free-running timer TCNT overflows (resets to a count of 0) every 131 ms. But
+we often need to measure much longer time intervals. Moreover, it is often
+necessary to generate continuously updated clock variables whose contents
+represent an elapsed time expressed in convenient time units such as milliseconds
+or seconds. 
+
+ The solution is to
+use an output compare to implement a clock that has a period less than 131 ms;
+in this example we choose a period of 10 ms. We then use this clock to
+increment a higher level clock that counts in larger time units (1 second in
+this example). Each clock is simply a variable whose contents are
+periodically incremented by the output compares interrupt service routine.
+The contents of the clocks can be read by any program at any time, providing an
+accurate reading of the time that has elapsed since the clocks were
+initialized. 
+
+ In this example,
+the OC1 interrupt service routine increments a variable named 10MS.CLOCK until
+it reaches a value of 100. Realizing that 1 second has now elapsed, the
+interrupt service routine clears the 10MS.CLOCK variable and increments a
+variable named 1SECOND.CLOCK. External programs can read the contents of the
+two clocks to calculate elapsed time intervals in seconds, with a 10 ms time
+resolution. 
+
+ In fact, the
+elapsed time counter that is driven by QED-Forths timeslice multitasker uses
+this technique. It implements a 5 ms clock generated by OC2 that in turn
+increments a 32-bit clock every second. The QED-Forth words READ.ELAPSED.TIME
+and READ.ELAPSED.SECONDS report the current values of these clocks; see their
+glossary entries for details. 
+
+ The example begins
+with definitions of control registers and bit masks needed by the alarm. 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ \ Define Timer Output
+Compare Register Addresses: 
+
+ HEX \
+use hexadecimal number base 
+
+ 800E REGISTER:
+TCNT \ Timer counter register 
+
+ 8016 REGISTER:
+TOC1 \ Output compare 1 register 
+
+ 8018 REGISTER:
+TOC2 \ Output compare 2 register 
+
+ 801A REGISTER:
+TOC3 \ Output compare 3 register 
+
+ 801C REGISTER:
+TOC4 \ Output compare 4 register 
+
+ 801E REGISTER:
+TI4O5 \ Output compare 5 (also used for IC4) 
+
+ 8022 REGISTER:
+TMSK1 \ timer interrupt mask register #1 
+
+ 8023 REGISTER:
+TFLG1 \ timer interrupt flag register #1 
+
+   
+
+ 80 CONSTANT OC1.MASK
+\ isolates OC1 interrupt flag&amp;mask bits 
+
+ DECIMAL \
+go to decimal number base 
+
+ 5000 CONSTANT
+10MS \ 10 ms = 5000 counts of the TCNT timer 
+
+ 100 CONSTANT 1SECOND
+\ 1 second = 100 counts on the 10ms clock 
+
+   
+
+ VARIABLE
+10MS.CLOCK \ is incremented every 10 ms by OC1 
+
+ VARIABLE
+1SECOND.CLOCK \ is incremented every second by OC1 
+
+ VARIABLE
+ALARM.SET.POINT \ alarm sounds when this = 1.SECOND.CLOCK 
+
+   
+
+ \ DISABLE.ALARM turns
+the alarm off by clearing OC1s interrupt mask. 
+
+ : DISABLE.ALARM ( -- ) 
+
+ OC1.MASK TMSK1
+CLEAR.BITS \ disable OC1 interrupts 
+
+ ; 
+
+ 
+
+ \ OC1.ALARM is the
+interrupt service routine for output compare 1. 
+
+ \ It clears OC1s
+interrupt flag, updates its timer compare 
+
+ \ register with the
+time at which the next interrupt should occur 
+
+ \ (10 ms from now), and
+increments the 10ms clock. If the 10ms clock reads 
+
+ \ 100, then 1 second
+has elapsed, so the 10ms clock is cleared and the 1second 
+
+ \ clock is incremented.
+If the 1second clock equals the alarm set point, 
+
+ \ the routine BEEPs and
+disables the output compares interrupt 
+
+ \ which stops the
+clocks. 
+
+ : OC1.ALARM 
+
+ OC1.MASK TFLG1
+C! \ clear the OC1 interrupt flag 
+
+ 10MS TOC1
++! \ update TOC1 for next interrupt 
+
+ 1 10MS.CLOCK
++! \ increment 10 ms clock 
+
+ 10MS.CLOCK @
+1SECOND = \ has 1 second elapsed? 
+
+ IF 10MS.CLOCK
+OFF \ if so, clear 10ms clock 
+
+ 1 1SECOND.CLOCK
++! \ increment 1second clock 
+
+ 1SECOND.CLOCK @ 
+
+ ALARM.SET.POINT @
+= \ is it time to sound alarm? 
+
+ IF
+DISABLE.ALARM \ if it is, turn interrupt off 
+
+ BEEP
+\ and beep to indicate that time is up 
+
+ ENDIF 
+
+ ENDIF 
+
+ ; 
+
+   
+
+ \ SET.ALARM installs
+OC1s interrupt handler, initializes the alarm set point 
+
+ \ and clock variables,
+and enables OC1s interrupt mask. 
+
+ : SET.ALARM (
+time.until.alarm.in.seconds -- ) 
+
+ ALARM.SET.POINT
+! \ initialize set point 
+
+ 10MS.CLOCK
+OFF \ reset 10 ms clock 
+
+ 1SECOND.CLOCK
+OFF \ reset 1 second clock 
+
+ TCNT @ 10MS + TOC1
+! \ set time for first interrupt to occur 
+
+ DISABLE.ALARM \ disable OC1 interrupts 
+
+ CFA.FOR OC1.ALARM
+OC1.ID ATTACH \ install OC1.ALARM 
+
+ OC1.MASK TFLG1
+C! \ reset OC1 interrupt flag 
+
+ OC1.MASK TMSK1
+SET.BITS \ enable OC1I interrupt mask bit 
+
+ ENABLE.INTERRUPTS \ globally enable interrupts 
+
+ ; 
+
+   
+
+ For example, to
+set the alarm to sound in ten seconds type: 
+
+ DECIMAL 
+
+ 10 SET.ALARM 
+
+ The computer will
+beep when ten seconds have elapsed. This timer is much more flexible and accurate
+than the timer overflow alarm that was presented earlier in the chapter. 
+
+   
+
+ Generating
+Output Pulse Signals 
+
+ In addition to
+triggering an interrupt, a successful output compare can cause a signal change
+on a PORTA output pin. Output compares OC2 through OC5 can toggle, clear, or
+set their associated output pins. A pair of bits associated with each output
+compare determines the action to be performed. These bits are named OMn
+(output mode) and OLn (output level) where n = 2, 3, 4, or 5. The bits are
+located in timer control register 1, TCTL1 (MC68HC11F1 Technical Data Manual,
+p.7-7, M68HC11 Reference Manual, pp.10-31...10-33). The following table
+describes the settings of OMn and OLn bits for a desired signal change effect: 
+
+   
+
+ 
+ OMn 
+ 
+ OLn 
+ 
+ Action Taken
+ upon a Successful Output Compare 
+ 
+ 0 
+ 
+ 0 
+ 
+ Timer is disconnected from output pin logic 
+ 
+ 0 
+ 
+ 1 
+ 
+ Toggle the
+ associated output line 
+ 
+ 1 
+ 
+ 0 
+ 
+ Clear the
+ associated output line to LOW 
+ 
+ 1 
+ 
+ 1 
+ 
+ Set the associated
+ output line to HIGH 
+ 
+
+ The output compare
+functions OMn and OLn bits are both initialized to 0 after a reset; thus, all
+output compare functions are initially disabled. If either OMn or OLn is set,
+the output compare controls the associated output pin. These bits override the
+direction configuration bits in the PORTA.DIRECTION register. When either the
+OMn or OLn bit associated with a PORTA pin is set, the PORTA pin is forced to
+be an output. When OMn and OLn are both cleared, the PORTA pin reverts to the
+configuration specified by the PORTA data direction register PORTA.DIRECTION. 
+
+ PORTA pin PA3 may
+be used as output compare 5, or as input capture 4. To configure PA3 for use
+by output compare 5, clear the I4/O5 bit in the PACTL (pulse accumulator
+control) register by executing: 
+
+ 8026 REGISTER:
+PACTL\ define pulse accumulator control register 
+
+ 4 CONSTANT
+I4/O5.MASK \ define mask for bit that configures PA3 
+
+ I4/O5.MASK PACTL
+CLEAR.BITS \ clear the I4/O5 bit 
+
+ This is the only
+special treatment required to properly use OC5; otherwise, OC5 operates exactly
+the same as OC2, OC3, and OC4. Recall that IC4/OC5 is used by the secondary
+serial port; you can use IC4/OC5 if you dont need the services of the second
+RS232 serial link. 
+
+ A One-Shot
+Output Pulse Generator 
+
+ The following
+example demonstrates how to generate a single (one-shot) HIGH or LOW pulse of
+specified width on PORTA bit PA5 using OC3. 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ HEX
+\ set hexadecimal number base 
+
+ 801A REGISTER:
+TOC3 \ output compare 3 count register 
+
+ 8020 REGISTER:
+TCTL1 \ timer control register #1 
+
+ 8022 REGISTER:
+TMSK1 \ timer interrupt mask register #1 
+
+ 8023 REGISTER:
+TFLG1 \ timer interrupt flag register #1 
+
+   
+
+ 1 CONSTANT
+HIGH.PULSE \ flag to output a high pulse 
+
+ 2 CONSTANT
+LOW.PULSE \ flag to output a low pulse 
+
+   
+
+ \ Define output mode
+configuration flags and masks that specify action 
+
+ \ to be performed when
+a successful output compare occurs: 
+
+ 20 CONSTANT
+PA5.MASK \ mask for setting/resetting PA5 
+
+ 20 CONSTANT
+OC3.MASK \ to set/clr OC3 interrupt flag&amp;mask 
+
+ 30 CONSTANT
+SET.OUTPUT \ OM3/OL3 mask in TCTL1; action=set 
+
+ 20 CONSTANT
+CLEAR.OUTPUT \ OM3/OL3 mask in TCTL1; action=clear 
+
+ 10 CONSTANT
+TRAILING.EDGE.MASK \ OM/OL3 mask in TCTL1;action=toggle 
+
+   
+
+ DECIMAL 
+
+ 500. FCONSTANT
+COUNTS/MS \ number of TCNT counts per ms 
+
+ 131. FCONSTANT
+MAX.PULSE.WIDTH \ well limit pulse width to 131 ms 
+
+   
+
+ INTEGER:
+PULSE.WIDTH \ a self-fetching variable, holds the pulse 
+
+ \ width
+expressed as a number of TCNT counts 
+
+   
+
+ CODE OC3.ONE.SHOT (
+-- ) 
+
+ \ This assembly routine
+is the interrupt service code for OC3. It is called on 
+
+ \ the leading edge of
+the pulse. The output compare hardware automatically 
+
+ \ sets the PA5 bit to
+the appropriate level at the same time that this routine 
+
+ \ is called. This
+routine resets the interrupt flag, updates the TOC3 register 
+
+ \ so that the output
+compare will be activated at the falling edge of the pulse, 
+
+ \ configures OM3 and
+OL3 in the TCL1 register to toggle the current state of 
+
+ \ PA5 the next time the
+output compare is successful (which is at 
+
+ \ the trailing edge of
+the pulse), and disables the interrupt mask so that 
+
+ \ this routine will not
+be called at the falling edge of the pulse. Note that 
+
+ \ the processors
+output compare hardware will automatically toggle the 
+
+ \ PA5 signal to end the
+pulse, even though the interrupt is not enabled! 
+
+ OC3.MASK IMM
+LDAA \ load mask needed to reset OC3F 
+
+ TFLG1 DROP EXT
+STAA \ clear the OC3F interrupt flag 
+
+ CALL PULSE.WIDTH \
+push interval time on stack 
+
+ 0 IND,Y LDD
+\ load increment value into ACCD 
+
+ DEY \
+drop value from data stack 
+
+ DEY ( --
+) 
+
+ TOC3 DROP EXT
+ADDD \ t.compare = TOC3 + PULSE.WIDTH 
+
+ TOC3 DROP EXT
+STD \ store the result in TOC3 
+
+ TCTL1 DROP EXT
+LDAA \ load leading edge trigger 
+
+ TRAILING.EDGE.MASK
+IMM EORA \ trailing edge = leading XOR mask 
+
+ TCTL1 DROP EXT
+STAA \ store next edge into TCTL1 
+
+ OC3.MASK NOT IMM LDAA
+\ load mask to turn off interrupt OC3I 
+
+ TMSK1 DROP EXT ANDA
+\ force OC3I to zero 
+
+ TMSK1 DROP EXT
+STAA \ store to TMSK1 turns interrupt off 
+
+ RTS \
+return; note that ATTACH supplies the RTI 
+
+ END.CODE 
+
+ : ONE.SHOT (
+high.or.low.pulse.flag\fp.pulse.width.in.ms -- ) 
+
+ \ note that the pulse
+width must be less than MAX.PULSE.WIDTH which is 131 ms. 
+
+ \ This routine ATTACHes
+the interrupt service routine for OC3, 
+
+ \ converts the
+specified pulse width in ms to TCNT count units, stores the 
+
+ \ result in
+PULSE.WIDTH, and configures the OC3 hardware for a low-to-high 
+
+ \ transition if a
+HIGH.PULSE is specified, or a high-to-low transition if a 
+
+ \ LOW.PULSE is
+specified. It then sets up OC3 so that the first successful 
+
+ \ compare will occur in
+10 ms, and enables the OC3 interrupt mask. 
+
+ OC3.MASK TMSK1
+CLEAR.BITS \ disable OC3 interrupts 
+
+ SET.OUTPUT TCTL1
+CLEAR.BITS \ clear OM3&amp;OL3 to disable pin logic 
+
+ CFA.FOR OC3.ONE.SHOT
+OC3.ID ATTACH \ install OC3.ONE.SHOT 
+
+ FDUP MAX.PULSE.WIDTH F&lt;\ make sure pulse width is&lt;max 
+
+ IF COUNTS/MS F*
+UFIXX \ convert value to TCNT counts 
+
+ TO
+PULSE.WIDTH \ save number of counts in pulse.width 
+
+ ELSE BEEP 
+
+ CR . Pulse width
+must be less than MAX.PULSE.WIDTH F. . ms 
+
+ ABORT 
+
+ ENDIF 
+
+ PA5.MASK
+PORTA.DIRECTION SET.BITS \ make PA5 an output pin 
+
+ HIGH.PULSE = 
+
+ IF PA5.MASK PORTA
+CLEAR.BITS \ ensure that PA5 is LOW 
+
+ SET.OUTPUT \ push mask for HIGH transition 
+
+ ELSE PA5.MASK PORTA
+SET.BITS \ ensure that PA5 is HIGH 
+
+ CLEAR.OUTPUT \ push mask for LOW transition 
+
+ ENDIF 
+
+ TCNT @ 10MS + TOC3
+! \ activate 1-shot after 10ms delay 
+
+ OC3.MASK TFLG1
+C! \ clear interrupt flag OC3F 
+
+ OC3.MASK TMSK1
+SET.BITS \ set OC3I to enable interrupt 
+
+ TCTL1
+SET.BITS \ set bits accding to transition mask 
+
+ ; 
+
+   
+
+ With these words,
+it is possible to generate a single HIGH or LOW pulse of duration between 0.08
+and 131.0 milliseconds. The following command produces a 50 ms HIGH pulse: 
+
+ HIGH.PULSE 50. ONE.SHOT 
+
+ To verify that the
+output timer compare actually sent a 50. ms pulse, you can use the input
+capture pulse measurement routine defined in the Input Signal Pulse Width
+Measurement section above. Connect a jumper between PA2 (IC1) and PA5 (OC3),
+then type the following: 
+
+ HIGH.PULSE
+PREPARE.TO.MEASURE \ set up IC1 pulse width measurement 
+
+ HIGH.PULSE 50.
+ONE.SHOT\ send a 50. ms pulse from OC3 to IC1 
+
+ Send pulses of
+different length using ONE.SHOT. After each call to ONE.SHOT,
+PULSE.WIDTH.MEASURER will report the duration of the pulse. Sending a pulse of
+width less than 0.2 ms will be incorrectly reported as having a width of 131.1
+ms. This is due to PULSE.WIDTH.MEASURERs latency which is approximately 0.2
+ms. PULSE.WIDTH.MEASURER would have to be modified slightly to measure shorter
+pulses. 
+
+ With an 8 MHz
+crystal frequency, the 68HC11F1 and QED-Forth impose an interrupt latency of
+27us (17us interrupt entrance latency, and 10us exit latency). This typically
+limits the maximum achievable output signal frequency generated by an
+interrupt-driven output compare to about 10kHz. If the QED Board is clocked at
+16 MHz then pulse width modulated frequencies up to approximately 20 kHz can be
+generated by the processor. 
+
+ Generating
+Synchronous Waveforms 
+
+ Output compare 1
+may be used to synchronously change any or all of PORTA pins PA3 through PA7.
+Whether a pin is modified, and to what state it is changed, depends on the
+configuration of two registers named OC1M (OC1 masks) and OC1D (OC1 data); see
+MC68HC11F1 Technical Data Manual, pp.7-5...7-6, and M68HC11 Reference Manual,
+pp.10-33...10-36. The OC1M register determines which PORTA pins should be
+affected by a successful compare of TOC1 and TCNT. OC1D determines how the
+selected PORTA pins will be set. A set bit in OC1D indicates that the
+corresponding PORTA pin will be set HIGH, and a clear bit in OC1D indicates
+that the PORTA pin will be cleared to a LOW state. After determining which
+pins should be affected when TOC1 equals TCNT, the following steps must be
+completed to use output compare 1: 
+
+ 0. Set
+the state bits in bit positions 3-7 in the OC1 data register (OC1D). Each bit
+that is set in OC1D causes the parallel PORTA bit to be set HIGH on a
+successful compare. Likewise, clearing an OC1D bit causes the parallel PORTA
+bit to be set LOW on a successful compare. Notice the correspondence between
+bit locations in registers PORTA and OC1D. 
+
+ 0. Determine
+the TCNT count when the desired state changes are to occur and store this value
+in the TOC1 register. 
+
+ 0. Clear
+the OC1F flag bit in the TFLG1 register by writing a 1 to the OC1F bit. 
+
+ 0. If
+an interrupt is to be called upon a successful compare of TCNT and TOC1,
+install the interrupt handler and enable the OC1I bit in the TMSK1 register. 
+
+ 0. Finally,
+enable the PORTA pins whose states should be affected by a successful OC1
+compare by writing ones to each corresponding bit in the OC1 mask register,
+OC1M. Notice the parallelism between bit locations in registers PORTA and
+OC1M. It is important that by the time these bits are set, the count in TCNT
+has not reached the count stored in TOC1 in step 2. 
+
+ To demonstrate the
+use of OC1s synchronized output compare function, the following example
+implements a four-phase stepper motor controller using PORTA pins PA4, PA5,
+PA6, and PA7. 
+
+ An Example:
+Synchronous Stepper Motor Control 
+
+ A stepper motor
+turns clockwise or counterclockwise when its windings are energized. A
+four-phase stepper motor has four windings that are energized using a
+predetermined sequence called a wave step sequence. The speed of the motors
+rotation depends on the rate at which the wave step sequence is presented to
+the windings. The sequence determines the speed, torque and rotational
+precision of the motor. The following table specifies the 4-step sequence, and
+shows the pulse pattern associated with each phase. Each phase/winding of the
+motor is driven by a PORTA output bit under the control of output compare 1. 
+
+   
+
+ 
+ STEP 
+ 
+ PHASE1: PA7 
+ 
+ PHASE2: PA6 
+ 
+ PHASE3: PA5 
+ 
+ PHASE2: PA4 
+ 
+ 1 
+ 
+ HIGH 
+ 
+ LOW 
+ 
+ HIGH 
+ 
+ LOW 
+ 
+ 2 
+ 
+ LOW 
+ 
+ HIGH 
+ 
+ HIGH 
+ 
+ LOW 
+ 
+ 3 
+ 
+ LOW 
+ 
+ HIGH 
+ 
+ LOW 
+ 
+ HIGH 
+ 
+ 4 
+ 
+ HIGH 
+ 
+ LOW 
+ 
+ LOW 
+ 
+ HIGH 
+ 
+
+ When this sequence
+is iterated through steps 1...4, the motor turns in a clockwise direction.
+When stepped through in reverse order, 4...1, it causes the motor to turn
+counterclockwise. 
+
+ The following code
+illustrates how to implement the clockwise wave step sequence using output
+compare 1 to control a 4-phase stepper motor. Extending the code to handle
+counterclockwise rotation is left as an exercise for the interested reader. 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ ANEW
+STEPPER.CONTROLLER \ declare a forget marker 
+
+ HEX 
+
+ \ define the relevant
+control registers: 
+
+ 800C REGISTER:
+OC1M \ output compare 1 mask register 
+
+ 800D REGISTER: OC1D
+\ output compare 1 data register 
+
+ 800E REGISTER:
+TCNT \ timer count register 
+
+ 8016 REGISTER:
+TOC1 \ OC1 timer count register 
+
+ 8022 REGISTER:
+TMSK1 \ timer interrupt mask register 1 
+
+ 8023 REGISTER:
+TFLG1 \ timer interrupt flag register 1 
+
+   
+
+ 80 CONSTANT
+OC1.MASK \ used for OC1 interrupt flag&amp;mask 
+
+ F0 CONSTANT
+STEPPER.OUTPUTS \ mask with bits 4-7 set 
+
+   
+
+ \ define constants to
+specify the step waveform: 
+
+ \ PA7 PA6 PA5
+PA4 
+
+ A0 CONSTANT
+1ST.STEP \ Step 1: HIGH LOW HIGH LOW 
+
+ 60 CONSTANT 2ND.STEP
+\ Step 2: LOW HIGH HIGH LOW 
+
+ 50 CONSTANT 3RD.STEP
+\ Step 3: LOW HIGH LOW HIGH 
+
+ 90 CONSTANT 4TH.STEP
+\ Step 4: HIGH LOW LOW HIGH 
+
+   
+
+ INTEGER: SPEED \ a
+self-fetching variable that holds the #counts to add 
+
+ \ to the
+TOC1 count register. Inited by START.STEPPING 
+
+   
+
+ 200. FCONSTANT
+STEPS/REVOLUTION \ this depends on your stepper motor 
+
+ \
+and the step waveform 
+
+ 5.0E5 FCONSTANT
+TICKS/SEC \ # TCNT ticks per second 
+
+ 
+
+ CODE STEP.CLOCKWISE (
+-- ) 
+
+ \ this routine uses the
+contents of the OC1 data register (OC1D) to 
+
+ \ determine which step
+of the waveform has just been set up, and updates 
+
+ \ OC1D to set up the
+next step when OC1 is triggered the next time. 
+
+ \ The routine puts the
+current contents of OC1D in accumulator A, and the 
+
+ \ next contents of OC1D
+in accumulator B. At the end of the routine it 
+
+ \ stores the updated
+contents in accumulator B into OC1D. 
+
+ OC1D DROP EXT
+LDAA \ A gets current OC1D contents 
+
+ 1ST.STEP IMM CMPA 
+
+ EQ
+IF, \ if were on 1st step... 
+
+ 2ND.STEP IMM
+LDAB \ ...then 2nd step is next 
+
+ ELSE, 
+
+ 2ND.STEP IMM CMPA 
+
+ EQ
+IF, \ if were on 2nd step... 
+
+ 3RD.STEP IMM
+LDAB \ ...then 3rd step is next 
+
+ ELSE, 
+
+ 3RD.STEP IMM
+CMPA 
+
+ EQ
+IF, \ if were on 3rd step... 
+
+ 4TH.STEP IMM
+LDAB \ ...then 4th step is next 
+
+ ELSE, \ if were on 4th step... 
+
+ 1ST.STEP IMM
+LDAB \ ...then 1st step is next 
+
+ THEN, 
+
+ THEN, 
+
+ THEN, 
+
+ OC1D DROP EXT
+STAB \ put updated contents in OC1D 
+
+ RTS \ return 
+
+ END.CODE 
+
+   
+
+   
+
+ CODE MOTOR.HANDLER ( --
+) 
+
+ \ this is the interrupt
+service routine for OC1. It clears the interrupt flag, 
+
+ \ updates the TOC1
+timer compare register according to the contents of SPEED, 
+
+ \ and calls
+STEP.CLOCKWISE to update the OC1 data register so that the 
+
+ \ next steps waveform
+will be output on PORTA pins 4-7 on the next 
+
+ \ successful OC1
+compare. 
+
+ OC1.MASK IMM
+LDAA 
+
+ TFLG1 DROP EXT
+STAA \ clear the interrupt flag bit in TFLG1 register 
+
+ CALL SPEED ( --
+#counts.to.add.to.TOC1 ) 
+
+ 0 IND,Y
+LDD \ accumulator D now has #counts to add 
+
+ TOC1 DROP EXT
+ADDD \ D&lt;- #counts + prior count = new count 
+
+ TOC1 DROP EXT
+STD \ store new count into TOC1 register 
+
+ 2 IMM LDAB 
+
+ ABY ( --
+) \ drop the stack item 
+
+ CALL
+STEP.CLOCKWISE \ update OC1D to do next wave change 
+
+ RTS
+\ return 
+
+ END.CODE 
+
+   
+
+ 
+
+ : SET.SPEED (
+speed.in.rpm -- | input is fp# = speed in revolutions/min ) 
+
+ \ stores the # ticks
+per step interval in the self-fetching variable SPEED 
+
+ 60. F* \
+convert speed to revs/sec 
+
+ STEPS/REVOLUTION F*
+\ #steps/sec = revs/sec * steps/rev 
+
+ TICKS/SEC FSWAP F/
+\ #ticks/step = ticks/sec steps/sec 
+
+ UFIXX \
+convert to integer 
+
+ TO SPEED \
+store #ticks/step in SPEED 
+
+ ; 
+
+   
+
+   
+
+ : START.STEPPING (
+speed.in.rpm -- | input fp# = speed in revolutions/min ) 
+
+ \ initializes the self-fetching
+variable SPEED, ATTACHes motor handler routine, 
+
+ \ initializes the OC1
+configuration registers, and enables the OC1 interrupt 
+
+ 0 OC1M
+C! \ turn OC1 actions off 
+
+ SET.SPEED
+( -- ) \ init SPEED variable 
+
+ CFA.FOR MOTOR.HANDLER
+OC1.ID ATTACH \ attach the handler 
+
+ STEPPER.OUTPUTS
+PORTA.DIRECTION SET.BITS \ PA4...PA7 are outputs 
+
+ 1ST.STEP PORTA
+SET.BITS \ energize outputs as 1st step 
+
+ 2ND.STEP OC1D
+C! \ init OC1D to do next step 
+
+ SPEED TCNT @ + TOC1
+! \ set time for next step 
+
+ OC1.MASK TFLG1
+C! \ clear the OC1 flag 
+
+ OC1.MASK TMSK1
+SET.BITS \ enable OC1 interrupts 
+
+ STEPPER.OUTPUTS OC1M
+C! \ set OC1 to control PORTA pins 4-7 
+
+ ENABLE.INTERRUPTS \ globally enable interrupts 
+
+ ; 
+
+   
+
+ : STOP.STEPPING ( -- ) 
+
+ 0 OC1M
+C! \ disconnect OC1 from PORTA pins 
+
+ OC1.MASK TMSK1
+CLEAR.BITS \ disable OC1 interrupts 
+
+ STEPPER.OUTPUTS PORTA
+CLEAR.BITS \ force stepper outputs low 
+
+ ; 
+
+ The words
+START.STEPPING and SET.SPEED provide the basis for controlling a stepper
+motor. The PORTA signals PA7, PA6, PA5 and PA4 should be interfaced to the
+motor windings via current-boost buffers that are capable of driving inductive
+loads. For smooth motor control, additional routines must be defined to ramp
+the motor from one speed to another. If software is the only factor that
+limits motor performance, the controllable speed ranges from less than 2.5 rpm
+(limited by the 131 ms overflow time of the TCNT register) to over 2500
+revolutions per minute (limited by the time required to execute the
+MOTOR.HANDLER interrupt service routine). 
+
+ In the absence of
+a stepper motor, an oscilloscope can be used to verify the operation of the
+code in creating the desired waveforms. For example, to see the waveforms
+needed to run the motor at 10. rpm, connect your scope probes to the PA4-7
+outputs and execute 
+
+ 10.
+START.STEPPING 
+
+ To see how the
+waveform changes when the speed is doubled, execute 
+
+ 20. SET.SPEED 
+
+ To disable the
+output waveforms, type 
+
+ STOP.STEPPING 
+
+   
+
+ Timesliced
+Multitasking and Output Compare 2 
+
+ The timesliced
+multitasker uses OC2s timer and interrupt to implement timed task switching
+and to maintain an elapsed-time clock as explained in the Multitasking
+chapter in the QED Software Manual. Consequently, when using the timeslicer,
+you may not use OC2s timer. If you want to create an output on pin PA6 that
+is synchronized with the timeslice clock, configure OC2s edge bits to toggle
+with each successful compare. 
+
+ Even while the
+multitasker is running, you may use PA6 as an input or output. OC1 can
+control PA6 while the timeslicer uses OC2s timer. Thus, the stepper motor
+controller described above may be used while the timesliced multitasker is
+running. 
+
+ Forcing
+Output Compares 
+
+ The 68HC11 allows
+you to immediately force a state change on a PORTA output pin that is being
+controlled by an output compare. The compare force register named CFORC
+(M68HC11 Reference Manual, pp.10-36...10-37) controls this function. When an
+appropriate bit in CFORC is set, the output compares next scheduled state
+change is immediately forced upon the associated PORTA pin. No interrupt is
+generated. 
+
+ Force bits FOC1,
+FOC2, FOC3, FOC4, and FOC5 in the CFORC register correspond with output
+compares OC1, OC2, OC3, OC4, and OC5 respectively. Whenever a 1 is written to
+any of these bits, the programmed transition on the corresponding output
+compare is forced to occur on the next count of the TCNT timer. The output
+compares flag bit, OCxF, is not set, and an interrupt is not triggered. After
+the forced signal change, the next transition/interrupt caused by the output
+compare occurs when TCNT equals TOCx (that is, when the next successful output
+compare occurs). Depending on the value in TOCx, a match could occur at any
+time after a CFORC. For this reason, it is uncommon to use CFORC to control a
+bit that is programmed to toggle with each successful compare. This is because
+the forced change of state could be counteracted immediately by a successful
+output compare. 
+
+ The following
+words may be used to force an output compare via the CFORC register. 
+
+   
+
+ HEX 
+
+ 800B REGISTER: CFORC
+\ define the compare force register 
+
+   
+
+ \ now assign names to
+the bit positions in the CFORC register; 
+
+ \ each name indicates
+the output compare number and the affected PORTA bit(s) 
+
+ 80 CONSTANT
+FOC1/PA3-7 
+
+ 40 CONSTANT FOC2/PA6 
+
+ 20 CONSTANT FOC3/PA5 
+
+ 10 CONSTANT FOC4/PA4 
+
+ 08 CONSTANT FOC5/PA3 
+
+ For example, the
+following command immediately forces OC3s associated pin PA5 LOW if it has
+been configured to transition LOW on the next successful compare between TCNT
+and TOC3: 
+
+ FOC3/PA5 CFORC
+SET.BITS 
+
+   
+
+ Summary of
+Output Compare Functions 
+
+ The 68HC11F1 has 5
+output compare functions named OC1, OC2, OC3, OC4, and OC5. An output compare
+function allows the programmer to specify actions that are initiated when the
+contents of TCNT match the contents of a 16-bit TOCx register. When these
+contents match, we say that a successful output compare has occurred. 
+
+ Each output
+compare function has a 16-bit TOCx register, a successful compare OCxF
+(interrupt) flag, and an interrupt mask OCxI, where x is the output compare
+number. Output compares OC2, OC3, OC4 and OC5 also have a pair of output
+mode/level bits, OMn and OLn, which determine the effect that each successful
+compare has on PORTA bits PA6, PA5, PA4, and PA3 respectively. The processor
+sets an output compares OCxF flag bit when the contents of the TCNT register
+and its TOCx register are equal. At the same instant, the state of the
+associated PORTA pin may be changed as specified by the output mode bits. In
+addition, if the output compares OCxI mask bit is set, an interrupt is
+recognized when a successful compare occurs. 
+
+ Output compare 5
+operates like the other output compares; however, it must be initialized by
+clearing the I4/O5 bit of the PACTL (pulse accumulator control) register before
+it may be used. IC4/OC5 and associated pin PA3 are used by the secondary
+serial port, so be sure not to use these resources if you need the second RS232
+serial link. 
+
+ Output compare 1
+is special in that it can synchronously control any of PORTA pins PA7, PA6,
+PA5, PA4, and PA3. Although OC1 may control several PORTA pins, the timer and
+interrupt functions of those output compares may still be used independently of
+the pin (to implement clocks, etc.) Conversely, the timeslicers use of OC2s
+timer and interrupt does not disallow control of the associated pin PA6 by OC1,
+nor does it disallow the use of PA6 as a general purpose digital input or
+output. 
+
+ Using the CFORC
+register, it is possible to immediately force a state change on a timer-controlled
+signal without causing an interrupt. 
+
+ The flexible
+output compare functions can be used to implement a stepper motor controller,
+pulse generator, pulse width modulated signals, timed output pulses, timesliced
+multiplexing, and internal clocks. 
+
+ The Pulse
+Accumulator 
+
+ The 68HC11F1 has
+an 8-bit counter/timer that may be configured either as a pulse accumulator or
+as gated timer. The pulse accumulator can count pulses sensed on PORTA pin
+PA7. The polarity of the edges that increment the accumulator may be
+programmed. Interrupts can be optionally triggered when the 8-bit count
+overflows and when each pulse is detected. 
+
+ The 8-bit gated
+timer is incremented every 32 us while a gating signal at pin PA7 is active.
+The gated timer facilitates pulse width measurement, synchronization of program
+execution using controlled delays, and discrimination of pulses which vary in
+width. 
+
+ This section
+describes the operation of the pulse accumulator, and the next section
+describes the gated timer. 
+
+ The pulse accumulator
+is incremented each time a specified signal transition is detected on PORTA pin
+PA7, which may be configured either as an input or an output. Common pulse
+sources are motor encoders, analog to frequency converters, and switches.
+Using the pulse accumulator requires five steps: 
+
+ 0. Configure
+PORTA pin PA7 either as an input or an output as your application requires, and
+configure the subsystem for pulse accumulation. 
+
+ 0. Configure
+the pulse accumulator for either rising or falling pulse edges. 
+
+ 0. If
+interrupts will be used to service pulse accumulator overflows or sensed pulse
+edges, install appropriate interrupt service routines. 
+
+ 0. Store
+an initial count into the pulse accumulator register. 
+
+ 0. Enable
+the pulse accumulator. 
+
+ The configuration
+and enabling of the pulse accumulator is controlled via three bits in the pulse
+accumulator control register PACTL (M68HC11 Reference Manual, pp.11-2...11-6,
+MC68HC11F1 Technical Data Manual, p.7-12). The three bits are: 
+
+   
+
+ 
+ Bit name 
+ 
+ Function 
+ 
+ PAMOD 
+ 
+ Selects pulse accumulation or gated timer mode 
+ 
+ PEDGE 
+ 
+ Selects the type
+ of pulse edge to be counted 
+ 
+ PAEN 
+ 
+ Enables the pulse
+ accumulator 
+ 
+
+ To configure PORTA
+pin PA7 for pulse accumulation, the PAMOD (pulse accumulator mode) bit must be
+clear in PACTL. 
+
+ If PEDGE is clear,
+falling edges are counted, otherwise rising edges are counted: 
+
+   
+
+ 
+ PEDGE State 
+ 
+ Meaning 
+ 
+ 0 
+ 
+ Count Falling Edges 
+ 
+ 1 
+ 
+ Count Rising Edges 
+ 
+
+ Once the pulse
+accumulator is configured, it is enabled by setting the pulse accumulator
+enable bit PAEN. Before this is done, however, it is sometimes desirable to
+initialize the pulse accumulator count and set up one or both of the associated
+interrupt handlers. 
+
+ When the pulse
+accumulator is enabled, its count is incremented each time the specified pulse
+edge is sensed. The 8-bit pulse accumulator count is stored in a register
+named PACNT (MC68HC11F1 Technical Data Manual, p.7-13). PACNT can be read and
+written without restriction, and it is not affected by a reset. Since it is
+8-bits wide, it can count from 0 to 255 before overflowing to 0. When an
+overflow occurs, the pulse accumulator overflow flag, PAOVF, is set in the timer
+flag register TFLG2 (MC68HC11F1 Technical Data Manual, p.7-10). This flag bit
+is paired with an interrupt mask named PAOVI found in the timer mask register
+TMSK2 (MC68HC11F1 Technical Data Manual, p.7-9). These bits may be used to
+implement an interrupt handler for pulse accumulator overflows. 
+
+ Typical uses for
+the pulse accumulator overflow interrupt are to increase the number of
+countable pulses by incrementing a 16-bit variable each time the counter
+overflows, or to notify the programmer when a predetermined number of pulses
+has been received. For example, to trigger an interrupt after n pulses have
+been detected, initialize the PACNT register to 256-n and enable the overflow
+interrupt (see M68HC11 Reference Manual, pp.11-6...11-7 for more details). 
+
+ It is possible to
+recognize an interrupt after each detected pulse edge. The pulse accumulator
+input-edge interrupt flag PAIF in the TFLG2 register is set whenever an input
+edge is detected. Its corresponding interrupt mask is named PAII, and is located
+in the TMSK2 register. 
+
+ After installing
+the interrupt handlers needed for your implementation of the pulse accumulator,
+you may want to initialize the PACNT register using a C! command before
+enabling the subsystem. As you will see in the example below, the pulse
+accumulator is very easy to use. 
+
+ Words to
+Configure the Pulse Accumulator 
+
+ The following
+utilities configure the pulse accumulator control and status bits: 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ HEX 
+
+ 8024 REGISTER: TMSK2
+\ timer interrupt mask register 2 
+
+ 8025 REGISTER: TFLG2
+\ timer interrupt flag register 2 
+
+ 8026 REGISTER: PACTL
+\ pulse accumulator control register 
+
+ 8027 REGISTER: PACNT
+\ pulse/time count register 
+
+   
+
+ 40 CONSTANT PAEN \
+pulse accumulator/gated timer enable bit 
+
+ 20 CONSTANT PAMOD
+\ mode select bit, clear selects pulse accumulator 
+
+ 10 CONSTANT PEDGE
+\ signal edge trigger/gate configuration bit 
+
+ 20 CONSTANT PAOVF
+\ PACNT overflow flag bit 
+
+ 10 CONSTANT PAIF
+\ trigger/gate sense flag bit 
+
+ 20 CONSTANT PAOVI
+\ interrupt enable bit for PACNT overflows 
+
+ 10 CONSTANT PAII
+\ interrupt enable bit for edge detection 
+
+   
+
+ \ the following 2
+edge.sense.ids are used as inputs to INIT.PULSE.ACCUMULATOR: 
+
+ 1 CONSTANT RISING.EDGE
+\ to increment counter on rising edge 
+
+ 2 CONSTANT
+FALLING.EDGE \ to increment counter on falling edge 
+
+   
+
+ :
+INIT.PULSE.ACCUMULATOR ( edge.sense.id -- ) 
+
+ CASE 
+
+ RISING.EDGE OF
+PEDGE PACTL SET.BITS ENDOF 
+
+ FALLING.EDGE OF
+PEDGE PACTL CLEAR.BITS ENDOF 
+
+ CR . You must
+specify either RISING.EDGE or FALLING.EDGE. 
+
+ ABORT 
+
+ ENDCASE 
+
+ PAMOD PACTL
+CLEAR.BITS \ set mode for pulse accumulation 
+
+ ; 
+
+   
+
+ :
+ENABLE.PULSE.ACCUMULATOR ( -- ) 
+
+ PA7.MASK
+PORTA.DIRECTION CLEAR.BITS \ PA7 is an input 
+
+ PAOVF PAIF OR TFLG2
+C! \ clear both interrupt flags 
+
+ PAEN PACTL
+SET.BITS \ enable the pulse accumulator 
+
+ ; 
+
+   
+
+ :
+DISABLE.PULSE.ACCUMULATOR ( -- ) 
+
+ PAEN PACTL
+CLEAR.BITS \ clear the pulse accumulator enable bit 
+
+ ; 
+
+ To count either
+rising or falling edge pulses using the pulse accumulator, type one of the
+following: 
+
+ RISING.EDGE
+INIT.PULSE.ACCUMULATOR 
+
+ FALLING.EDGE
+INIT.PULSE.ACCUMULATOR 
+
+ Then to enable the
+system type: 
+
+ ENABLE.PULSE.ACCUMULATOR 
+
+ And finally, to
+disable the system: 
+
+ DISABLE.PULSE.ACCUMULATOR 
+
+ To read the 8-bit
+number of counted pulses, execute 
+
+ PACNT C@ 
+
+ Extending
+the Range of the Pulse Accumulator 
+
+ Interrupts are
+available to monitor pulse accumulator overflow and input edge detection. The
+following example uses an interrupt handler to extend the number of pulses that
+can be counted. The code relies on definitions presented in the previous
+section. 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ VARIABLE
+#PULSE.OVERFLOWS \ number of PACNT overflows 
+
+   
+
+ : PAOVF.HANDLER ( --
+) \ interrupt handler for overflows 
+
+ PAOVF TFLG2
+C! \ clear PAOVF flag 
+
+ 1 #PULSE.OVERFLOWS
++! \ increment the number of PACNT overflows 
+
+ ; 
+
+   
+
+ :
+INIT.EXTENDED.PULSE.ACCUMULATOR ( edge.sense.id -- ) 
+
+ \ input is either
+RISING.EDGE or FALLING.EDGE 
+
+ PAOVI TMSK2
+CLEAR.BITS \ disable PACNT overflow interrupt 
+
+ CFA.FOR
+PAOVF.HANDLER PULSE.OVERFLOW.ID 
+
+ ATTACH \ install handler 
+
+ INIT.PULSE.ACCUMULATOR \ initialize pulse accumulator 
+
+ 0 PACNT
+C! \ set pulse accumulator count to 0 
+
+ 0 #PULSE.OVERFLOWS
+! \ set overflow count to 0 
+
+ PAOVI TMSK2
+SET.BITS \ enable PACNT overflow interrupt 
+
+ ; 
+
+   
+
+ : #PULSES ( -- n | n =
+total number of pulses sensed since initialization ) 
+
+ \ each pulse overflow
+represents 100H pulses. The total number of pulses 
+
+ \ equals the pulses
+represented by the overflows plus the number of pulses 
+
+ \ since the last
+overflow (which is simply the contents of PACNT). 
+
+ #PULSE.OVERFLOWS @
+100 * PACNT C@ + 
+
+ ; 
+
+ The pulse accumulator
+can now count over 16 million pulses before the #PULSE.OVERFLOWS variable
+overflows. To prepare the system to count pulses triggered on rising edges
+type: 
+
+ RISING.EDGE
+INIT.EXTENDED.PULSE.ACCUMULATOR 
+
+ Executing #PULSES
+now reveals that no pulses have been detected yet. To begin sensing pulses
+type: 
+
+ ENABLE.PULSE.ACCUMULATOR 
+
+ If a pulse source
+is present at PORTA pin PA7, executing #PULSES reveals the number of pulses that
+have been detected. To disable the pulse accumulator type: 
+
+ DISABLE.PULSE.ACCUMULATOR 
+
+ Summary of
+the Pulse Accumulator 
+
+ There are many
+interesting uses for the pulse accumulator, and its operation is
+straightforward. To accumulate pulses sensed at pin PA7, clear the PAMOD bit
+in the PACTL register. Set PEDGE in PACTL for rising edge detection, or clear
+it for falling edges. If interrupts are used to handle PAOVF or PAIF flags,
+install interrupt handlers and set the PAOVI or PAII bits in TMSK2 to enable
+the interrupts. As always, each interrupt handler must reset its interrupt
+flag by writing a one to the flag bit. Write an appropriate initial value to
+the 8-bit count register PCNT and then enable the pulse accumulator by setting
+the PAEN bit in PACTL. The example above demonstrates how the pulse
+accumulator overflow interrupt facilitates counting more than 255 pulses. 
+
+ The Gated
+Timer 
+
+ The gated timer
+subsystem provides an easy way to measure pulse widths, time external events,
+and discriminate between pulses with differing widths. It is configured and
+controlled by the same registers and control bits used by the pulse
+accumulator. PORTA pin 7 is used as a timer gating signal. The gate signals
+active state is determined by the pulse edge bit PEDGE in the pulse accumulator
+control register PACTL. When the PA7 gating signal is active, the pulse
+accumulator count register PACNT is incremented every 64th E-clock cycle, which
+is equivalent to 32us per count with an 8 MHz crystal and 16 us per count with
+a 16 MHz crystal. Interrupts may be triggered when the gated timer count
+overflows, and/or when the trailing edge of the timer gate signal is detected. 
+
+ Implementation of
+the gated timer subsystem follows the same five steps used by the pulse accumulator.
+To configure PORTA pin 7 for gated timer use, set PA7 as an input or output by
+writing to the PORTA.DIRECTION register, and set the PAMOD bit in the pulse
+accumulator control register PACTL. 
+
+ The PEDGE bit in
+the PACTL register determines the gate signals inactive, or inhibiting,
+state. If PEDGE is clear, the PACNT register is inhibited from advancing while
+PA7 is LOW (in other words, the gating signal is active high). If PEDGE is
+set, the PACNT register is inhibited while PA7 is HIGH (in other words, the
+gating signal is active low). 
+
+ Setting the PAEN
+(pulse accumulator enable) bit enables the gated timer. Once enabled, the
+PACNT register is incremented every 32us (if the crystal frequency is 8 MHz)
+while the gating signal at PA7 is active. 
+
+ Interrupts are
+triggered and controlled by the same flag and mask bits used by the pulse
+accumulator. The pulse accumulator overflow flag (PAOVF) is set whenever pulse
+accumulator count register PACNT overflows. An overflow interrupt is
+recognized if the overflow interrupt mask PAOVI is also set. 
+
+ The pulse
+accumulator input flag PAIF is set by the processor whenever the trailing edge
+of the gating signal on PA7 is detected. If the associated interrupt mask PAII
+is also set, an interrupt is recognized. To measure a pulse width using this
+interrupt, it is common to clear PACNT, install a pulse accumulator edge
+interrupt handler by executing 
+
+ CFA.FOR&lt;name
+of interrupt handler&gt;PULSE.EDGE.ID ATTACH 
+
+ and then enable
+the gated timer subsystem. PACNT is then incremented every 32us (for an 8 MHz
+crystal) while the input gating signal is active. At the trailing edge of the
+input signal, a PAIF interrupt is recognized and the interrupt handler can read
+and reset PACNT. The PACNT reading multiplied by 32us is the pulse width of
+the timer gate signal in microseconds. 
+
+ Words to
+Configure the Gated Timer 
+
+ The following
+utility words configure the gated timer subsystem. This code relies on
+definitions presented in the Pulse Accumulator section. 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ \ the following 2
+constants are used as inputs to INIT.GATED.TIMER: 
+
+ 1 CONSTANT
+HIGH.PULSE \ for measuring an active HIGH pulse 
+
+ 2 CONSTANT
+LOW.PULSE \ for measuring an active LOW pulse 
+
+ 
+
+   
+
+ : INIT.GATED.TIMER (
+gate.pulse -- ) 
+
+ CASE 
+
+ HIGH.PULSE OF
+PEDGE PACTL CLEAR.BITS ENDOF 
+
+ LOW.PULSE OF
+PEDGE PACTL SET.BITS ENDOF 
+
+ CR . You must
+specify either HIGH.PULSE or LOW.PULSE. 
+
+ ABORT 
+
+ ENDCASE 
+
+ PAMOD PACTL
+SET.BITS \ mode is gated timer 
+
+ ; 
+
+   
+
+ : ENABLE.GATED.TIMER (
+-- ) 
+
+ ENABLE.PULSE.ACCUMULATOR 
+
+ ; 
+
+   
+
+ : DISABLE.GATED.TIMER (
+-- ) 
+
+ DISABLE.PULSE.ACCUMULATOR 
+
+ ; 
+
+ Measuring
+Pulse Widths Using the Gated Timer 
+
+ The following
+example demonstrates how to use the gated timer subsystem to measure a pulse
+width. 
+
+ Listing 8 ‑ 0 Enter
+your Listing Caption here. 
+
+ DECIMAL 
+
+ 32 CONSTANT USEC/TICK
+\ 1 clock tick equals 32 usec at 8 MHz crystal freq. 
+
+   
+
+ \ Computes and prints
+the width of the detected pulse in microseconds. 
+
+ : SAY.PULSE.WIDTH ( --
+) 
+
+ PACNT C@ \
+get the number of ticks in PACNT 
+
+ #PULSE.OVERFLOWS @
+256 * + \ get additional ticks from overflows 
+
+ USEC/TICK *
+\ total usec=(PACNT+(#OVERFLOWS*256))*32us/tick 
+
+ . Pulse width = .
+. usec. 
+
+ ; 
+
+ 
+
+ \ This is the interrupt
+service routine for the pulse accumulator 
+
+ \ edge detection
+interrupt. It is executed at the trailing edge of the gate signal, 
+
+ \ which corresponds to
+the time when the gated timer has just finished counting. 
+
+ \ This handler disables
+the pulse accumulator interrupts so that no further 
+
+ \ counting will be
+done. 
+
+ : TRAILING.EDGE.HANDLER
+( -- ) 
+
+ DISABLE.PULSE.ACCUMULATOR \ disable counting 
+
+ PAIF TFLG2
+C! \ clear PAIF flag 
+
+ PAOVI PAII OR TMSK2
+CLEAR.BITS \ disable PAOVI&amp;PAII interrupts 
+
+ ; 
+
+   
+
+ \
+INIT.GATED.PULSE.TIMER uses the PACNT register overflow interrupt 
+
+ \ handler defined
+earlier to extend the range of measurable pulse 
+
+ \ widths beyond 256*32
+usec. INIT.GATED.PULSE.TIMER clears 
+
+ \ the relevant count
+variables, configures the gated timer subsystem, 
+
+ \ installs the overflow
+and trailing edge interrupt handlers defined above, 
+
+ \ and enables the
+overflow and pulse edge interrupts, and the gated timer. 
+
+ :
+ENABLE.GATED.PULSE.TIMER ( gate.pulse -- ) 
+
+ PAOVI PAII OR TMSK2
+CLEAR.BITS \ disable PAOVI&amp;PAII ints. 
+
+ 0 PACNT
+C! \ clear the PACNT register 
+
+ 0 #PULSE.OVERFLOWS
+! \ clear PACNT overflow count 
+
+ INIT.GATED.TIMER
+\ init gated timer 
+
+ CFA.FOR
+PAOVF.HANDLER PULSE.OVERFLOW.ID ATTACH 
+
+ CFA.FOR
+TRAILING.EDGE.HANDLER PULSE.EDGE.ID ATTACH 
+
+ PAOVI PAII OR TFLG2
+C! \ clear interrupt flags 
+
+ PAOVI PAII OR TMSK2
+SET.BITS \ enable PAOVI&amp;PAII interrupts 
+
+ ENABLE.GATED.TIMER 
+
+ ; 
+
+ After connecting a
+pulse signal source to PORTA pin PA7, executing the following words will
+measure the sources HIGH pulse width: 
+
+ HIGH.PULSE
+ENABLE.GATED.PULSE.TIMER 
+
+ After the pulse,
+execute 
+
+ SAY.PULSE.WIDTH 
+
+ to display the
+calculated pulse width. 
+
+ The
+Real-Time Interrupt Function 
+
+ The real-time
+interrupt (RTI) function provides a periodic time reference signal. It may be
+used in applications which require an action to be reliably performed on a
+regular basis. For example, the RTI is a convenient way to ensure that the
+computer operating properly (COP) subsystem is periodically serviced. 
+
+ The RTI function
+triggers a periodic interrupt. Two rate bits, RTR0 and RTR1 in the PACTL register
+program the real-time interrupt period according to the following table
+(MC68HC11F1 Technical Data Manual, pp.7-12...7-13, M68HC11 Reference Manual,
+pp.10-11...10-12): 
+
+ Table 8 ‑5 Enter
+your Table Caption here. 
+
+ 
+ RTR1 
+ 
+ RTR0 
+ 
+ RTI Period @ 16
+ MHz 
+ 
+ 0 
+ 
+ 0 
+ 
+ 2.05 ms 
+ 
+ 0 
+ 
+ 1 
+ 
+ 4.10 ms 
+ 
+ 1 
+ 
+ 0 
+ 
+ 8.19 ms 
+ 
+ 1 
+ 
+ 1 
+ 
+ 16.38 ms 
+ 
+
+ Each time the RTI
+period has elapsed, the processor sets the RTIF interrupt flag in the TFLG2
+(timer flag 2) register. If the interrupt mask bit RTII in TMSK2 is also set,
+an interrupt is recognized. As with all interrupts, it is very important that
+the RTIs interrupt handler reset the interrupt flag by writing a one to it. 
+
+ If the RTI periods
+do not suit your application, a timer based on an output compare function can
+be used to perform a similar service (as demonstrated in the OC1 alarm example
+presented earlier in the chapter). Given the simplicity of the RTI function,
+its implementation is left as an exercise to the interested reader. 
+
+ Programmable
+Timer and Pulse Accumulator Summary 
+
+ The programmable
+timer and pulse accumulator may be used to implement timesliced multitasking,
+clocks, programmable waveform generation, pulse width measurement and
+discrimination, control of stepper motors, external event counting, and many
+other interesting applications. 
+
+ The explanations
+and commented code examples presented in this chapter demonstrate how to configure,
+initialize, and enable each of the timing and counting functions. 
+
+ The Processors Output Compare Functions 
+
+The processors programmable timer subsystem contains 5
+output compare (OC) functions (named OCx for x from 1 to 5) associated with
+PORTA output pins PA7 through PA3 (in descending order). These output compare
+functions allow you to specify actions that take place at particular, well determined
+times. Using output compares, it is easy to set up real-time clocks, cause
+periodic execution of code, and generate precisely timed synchronous or
+asynchronous waveforms. They can be used to implement a stepper motor
+controller, pulse generator, pulse width modulation (PWM) signals, precisely
+timed output pulses, timesliced multiplexing, or serial communications.
+
+Output-compare functions work by automatically changing
+PORTA output pins and/or invoking an interrupt service routine (ISR) whenever
+the contents of a free-running 16-bit counter (TCNT) matches the contents of
+user-set output-compare registers, TOCx. When these contents match, we say
+that a successful output compare has occurred. Thus the programmer can
+precisely specify a future time at which an action will occur by simply storing
+the time as a 16-bit value in the appropriate output compare register, TOCx.
+The free running counter counts at a programmable rate, from 0 to 65536, then
+rolls over to zero and continues counting. Its rate is one count each 2 microseconds,
+for a rollover period of 131.072 milliseconds. Consequently, you can set up
+output compares to trigger events with a resolution of 2 microseconds, and up
+to 131.072 milliseconds into the future (or arbitrarily longer if you keep
+track of rollovers on TCNT).
+
+Because TCNT is clocked by a prescaler driven from the
+system E clock, you can change the count rate by modifying the prescalers division
+ratio, from its current value of 8 to 1, 4, or 16, changing its rollover period
+to 16.384, 65.536, or 262.144 milliseconds. If you do though, the system
+timeslicer will be affected. We find that a 2 microsecond tick rate provides
+sufficient resolution for most applications.
+
+Each of the five output compare subsystems has a 16-bit
+TOCx register, a successful compare OCxF (interrupt) flag, and an interrupt
+mask OCxI, where x is the output compare number. OC1 can control any of pins
+PA3 through PA7 and it has its own register to specify which of PORTA pins are
+affected. Output compares OC2, OC3, OC4 and OC5 each control a single pin.
+They each have a pair of output mode/level bits, OMn and OLn, which determine
+the effect that each successful compare has on PORTA bits PA6, PA5, PA4, and
+PA3 respectively. The processor automatically sets an output compares OCxF
+flag bit in the TFLG1 register when the contents of the TCNT register and the
+OCs TOCx register are equal. At the same instant, the state of the associated
+PORTA pin is set, cleared, or toggled as specified by the output mode bits. In
+addition, if the output compares OCxI mask bit in the TMSK1 register is set,
+an interrupt is recognized when a successful compare occurs.
+
+An active output compare function can cause a signal
+change on a PORTA pin at a specified time T, and/or trigger an interrupt at
+time T:
+
+Signal Change To cause a signal change on a PORTA pin
+when time T equals the contents of TCNT, the PORTA pin must be configured as an
+output, and the output compare function must be enabled. OC1 is enabled by
+storing the data to be output in OC1D and specifying the pins to be changed in
+OC1M, and OC2-OC5 are enabled simply by storing a 2-bit code into TCTL1
+specifying the desired signal change. Using the CFORC register, it is also
+possible for software to immediately force a state change on a timer-controlled
+signal without causing an interrupt.
+
+Interrupt To trigger an interrupt when time TCNT = T,
+an interrupt handler must be installed, and the output compares local
+interrupt must be enabled by setting bits in TMSK1.
+
+Table 8‑6 Output Compares and their properties
+
+ 
+Output Compare
+ 
+Controlled PORTA Pin
+ 
+Comparison Register
+ 
+Comments and Alternate Use
+ 
+OC1
+ 
+PA3, 4, 5, 6, and/or 7
+ 
+TOC1
+ 
+May control multiple pins
+ simultaneously, or be paired with another OC to jointly control pin PA3, 4,
+ 5, or 6.
+ 
+OC2
+ 
+PA6
+ 
+TOC2
+ 
+The OC2 timer is used by the kernels timeslicer and elapsed
+ time clock functions. If you do not use these functions, pin PA6 may be
+ controlled by OC1 or used for general purpose I/O.
+ 
+OC3
+ 
+PA5
+ 
+TOC3
+ 
+Not used by the kernel.
+ 
+OC4
+ 
+PA4
+ 
+TOC4
+ 
+Used as an output by the secondary serial port. Available
+ if you do not need Serial 2.
+ 
+OC5
+ 
+PA3
+ 
+TI4O5
+ 
+Shared with Input Capture 4, which is used as an input by
+ the secondary serial port. Available if you do not need Serial 2.
+ 
+
+As summarized in the table, the output compares are not
+all identical in function, and some are used by the operating system. OC1 and
+OC5 differ from the others slightly in function, OC2 is used by the operating
+systems timeslicer, and OC4 and OC5 are used by the secondary serial port:
+
+OC1 is special in that it can synchronously control any
+of PORTA pins PA7, PA6, PA5, PA4, and PA3. Even when OC1 is used to control
+several PORTA pins, the timer and interrupt functions of those pins output
+compares may still be used independently of the pin (to implement clocks,
+etc.). While the other output compares can be used to set, clear, or toggle an
+output pin, OC1 can be used only to set or clear a pin, but not to toggle it.
+
+OC2 is used by the timeslicer. Consequently, if you
+need the services of the timeslicer (timesliced task switching, elapsed time
+clock, or BENCHMARK: function) make sure that you do not use OC2 for other
+functions. Even if you do use the timeslicer, pin PA6 is still available for
+use as general purpose I/O, or as an output controlled by OC1.
+
+OC4 is used as an output by the secondary serial port,
+so you cant use it or its associated pin PA4 if you need the second RS232
+serial link.
+
+OC5 shares its timer register and output pin with input
+capture 4 (IC4). OC5 operates like the other output compares, but it must be
+initialized by clearing the I4/O5 bit of the PACTL (pulse accumulator control)
+register before it may be used. Also, IC4/OC5 and associated pin PA3 are used
+by the secondary serial port, so be sure not to use these resources if you need
+the second RS232 serial link.
+
+ Pulse and PWM Generation Techniques 
+
+The processors output compare functions provide lots of
+flexibility for creating single pulses or pulse-width-modulated waveforms.
+Most methods are variations on this algorithm:
+
+1. The desired start time of the pulse is programmed
+by storing an appropriate count in the output-compare register (TOCx) of OCx,
+and the OCx interrupt is enabled by setting a flag bit in TMSK1.
+
+2. OCxs mode/level bits (OMx and OLx) are configured
+to automatically set the output compares corresponding output either high or
+low, depending on the polarity of the desired pulse (this action enables the
+output compare).
+
+3. When the compare occurs, the pin state is
+automatically changed and an interrupt service routine called.
+
+4. The interrupt service routine (ISR) reprograms the
+output compare to automatically change its pin back to its inactive level on
+the next compare;
+
+5. The ISR also increments the output-compare register
+by a value corresponding to the desired duration of the pulse.
+
+Since the pin-state is changed by hardware automatically
+at specific values of the free-running counter, the pulse width is controlled
+accurately to the resolution of the free-running counter irrespective of
+software latencies. By repeating the actions for generating a pulse, you can
+generate an output signal of a specific frequency and duty cycle. While
+software latency and execution times do not affect the timing of the waveform,
+they do impose limits on the frequency and duty cycles attainable. The
+different methods of generating PWM signals differ primarily on where the
+software execution times are constrained to fit, either within the on time, the
+off time, or the waveforms period as a whole.
+
+The following is a quick summary of some of some specific
+ways you can use output compares to generate pulses or PWM waveforms. You can
+find complete descriptions of the registers mentioned in Motorolas MC68HC11F1
+Technical Data Manual. Example 1 shows you how to generate a tirggered pulse,
+Examples 2 and 3 represent exceptional and instructive methods of generating
+PWM signals, and examples 4-6 are commonly used PWM methods. Example 6
+provides code for generating failsafe PWM signals.
+
+Example 1 Creating a Single Precise Pulse from an
+External Trigger
+
+Suppose youd like to output a single pulse on PA5 with
+very precise duration in response to a triggering event, for example the
+leading edge of an input pulse on PA0. Youd like the output pulse to start a
+precise, fixed time after the initiating trigger and to last some precise
+duration, between 2 microseconds and 131 milliseconds. Further, the output
+pulse should occur after the first occurrence of the trigger (after enabling
+the system) and then stay off rather than being retriggered by subsequent input
+pulses.
+
+To do this you would use one input capture (IC3) and two output
+compares (OC1 and OC3). Because the trigger may occur anytime an input capture
+is used to determine the precise time of its leading edge. And because the
+output pulse width must be precisely controlled, and its duration can
+potentially be shorter than any interrupt service routine, the pulse should be
+turned on and off by output compares. The input capture invokes an interrupt
+service routine that enables the output compares. For our example well assume
+the desired pulse start time is 10 milliseconds (or 5000 TCNT counts) after the
+trigger is detected, and its duration is precisely 10 microseconds (5 TCNT
+counts). Heres one way to do it using three routines:
+
+An initialization routine (called ENABLE) that configures
+and enables IC3 to capture a rising edge on PA0, forces PA5 off to initialize
+it, and configures and enables OC3 to turn off pin PA5;
+
+An interrupt service routine for IC3 (called IC3_ISR)
+that programs the comparator registers of OC1 and OC3 and enables OC1; and,
+
+An interrupt service routine for OC1 (called
+OC1_ISR) that disables OC1 so that after the output pulse is first turned on it
+is not turned on again.
+
+Heres how to write the routines:
+
+ ENABLE Inhibit IC3, OC1, and OC3 interrupts by
+storing 0x0xxxx0 to TMSK1 (using CLEAR.BITS with a mask of 0xA1). Configure
+OC1 to set PA5 high on an output compare by setting bit 5 of OC1D, but dont
+enable it using OC1M yet the IC3_ISR will be responsible for doing that.
+Configure OC3 to clear its associated pin (PA5) on an output compare by storing
+appropriate mode/level bits (OM3 and OL3), that is xx10xxxx, into the timer
+control register (TCTL1). Initialize PA5 to the OFF state by forcing an early
+output compare on OC3. This is done by setting bit 5 of CFORC. Configure and
+enable IC3 to capture a rising edge PA0. This is done by clearing bit 0 of
+DDRA (to set the data direction of PA0 to input), and setting the lower two bits
+of TCTL2 (the two corresponding to IC3) to xxxxxx01 to capture a rising edge.
+Clear the interrupt flag bit (IC3F) left over from any prior edge detection, if
+any, by writing a one to IC3F in TFLG1. Finally, enable an IC3 interrupt by
+setting the IC3I bit in TMSK1.
+
+ IC3_ISR On entering the ISR routine first
+disable further interrupts by clearing the IC3I bit in TMSK1, and clear the interrupt
+flag bit (IC3F) by writing a one to IC3F in TFLG1. Then read TIC3 to determine
+the trigger time, well call it TT. Set up OC1 to turn on output pin PA5 at
+time TT+5000 by setting TOC1=TT+5000 and configure OC3 to turn it back off just
+5 counts later, by setting TOC3=TT+5000. Enable an OC1 interrupt by setting
+the OC1I bit in TMSK1. Finally enable OC1 and tie it to PA5 by setting bit 5
+in OC1M.
+
+ OC1_ISR This interrupt service routine will be
+invoked when the output pulse is turned on. It only needs to disable OC1 so
+that further pulses are not produced until the system is re-enabled by
+executing ENABLE again. Disable OC1 by clearing bit 5 in OC1M. Disable interrupts
+on OC1 by first clearing the OC1I bit in TMSK1, then clear the interrupt flag
+bit (OC1F) by writing a one to OC1F in TFLG1.
+
+Example 2 Two OCs Generate a PWM Waveform Without
+Interrupts
+
+Using two output compares you can generate a PWM waveform
+of any duty cycle (from 1/65536 to 65535/65536) without using interrupt service
+routines. As no ISR is used, no software resources are needed to maintain the
+waveform, and there is no impact on overall system performance. The PWM
+waveform is free from a software perspective. So whats the catch? The
+catch is that the waveform must have a fixed period, equal to the rollover
+period of the free-running counter, or 131.072 milliseconds. If you can live
+with that, heres how its done: Two output compares are used, one sets the
+output pin at a particular value of TCNT, and the other simply resets the pin
+at another TCNT value. One of the output compares must be OC1 because it
+can be used in conjunction with another to control the same pin. Lets use OC1
+to turn ON an output pin (PA5) whenever TCNT hits 0x0000, and OC3 to turn it
+OFF whenever TCNT hits 0x1000. More specifically,
+
+1. Disable interrupts caused by OCs by storing 0x00 to
+the timer interrupt mask register 1 (TMSK1). Now, output compares will not
+cause interrupts. Even so, they can still control output pins.
+
+2. Use OC3 to turn OFF the pulse whenever TCNT=0x1000
+(for example, for a duty cycle of 1/16) by storing 0x1000 into TOC3. Configure
+OC3 to clear its associated pin (PA5) on a successful compare by storing
+appropriate mode/level bits (OM3 and OL3), that is xx10xxxx, into the timer
+control register (TCTL1). Now, whenever TCNT hits 0x1000 pin PA5 will be
+cleared. We configure the OFF transition first because we dont want the pin
+to get stuck ON before were done configuring our output compares, just in
+case.
+
+3. Use OC1 to turn ON the pulse whenever TCNT=0x0000
+by storing 0x0000 into TOC1. Associate OC1 with pin PA5 by setting bit 5 in
+the output compare mask register OC1M. Configure OC1 to set the pin high by
+storing 0x20 into the OC1 data register, OC1D. Now, whenever TCNT hits 0x0000
+pin PA5 will be set high.
+
+Because an ISR isnt used, there is no possibility of
+software delays influencing the PWM output.
+
+Advantages: Precise transition time control, all duty
+cycles possible with 16-bit resolution, no software needed to keep things
+running, failsafe in that a software crash is not likely to affect operation.
+
+Disadvantages: Only a single channel, only a single PWM
+period.
+
+Example 3 A Single OC-Driven ISR Generates Many
+PWM Channels
+
+What if you want to generate many channels of PWM
+waveforms, more than there are output compares? In the prior example output
+compares were used to generate a precisely-timed high-resolution waveform on a
+single channel without the assistance of an ISR. This example provides the
+other extreme, an unlimited number of channels of low-resolution PWM signals
+are generated by a single output-compare-driven interrupt service routine.
+
+The scheme uses a single output compare to periodically
+invoke an interrupt service routine. The OC is not tied to a PORTA pin, rather
+it is used only as a dedicated clock that calls the ISR at a fixed interval
+corresponding to the smallest ON or OFF time that can be produced. Each time
+the ISR is called it updates all the PWM outputs using any general purpose
+output pins available. It may do this by reading values from a look-up table,
+counting, or more computationally.
+
+Because the ISR latency can vary depending on what other
+interrupt-driven services are running on the controller there is some jitter
+(or variance) on the transition times, producing a slightly varying PWM duty
+cycle. This variation can be compensated on the average if the ISR reads TCNT
+to determine the actual ON and OFF times and modulates the next ON or OFF time
+to attain the desired PWM duty cycle averaged over a number of cycles but of
+course that requires greater execution time.
+
+The sum of the ISR latency and execution times must be
+less than the difference between adjacent OC times, placing a limit on the
+smallest ON or OFF time attainable. If the ISR is delayed so long that the next
+OC time is missed, the next ISR doesnt occur until TCNT rolls over and another
+match occurs. Consequently rollover delays of a TCNT period may be inserted
+into the desired ON or OFF times.
+
+For an example of software generated PWM signals with
+8-bit resolution and best averaging properties see MI-AN-056 Optimal PWM
+Algorithm and MI-AN-058 Using Port PPA for PWM.
+
+Advantages: Any number of channels can be accommodated.
+
+Disadvantages: ISR latency causes jitter in the transition
+times; ON or OFF times smaller than the ISR latency and execution time are not
+possible; rollover delays possible if timing criteria not met; not failsafe.
+
+Example 4 One OC and ISR Generates a No Jitter
+PWM Signal
+
+The simplest way of generating a precise PWM waveform with
+arbitrary duty cycle and period is to use a single output compare to
+automatically turn on and off an output pin and an interrupt service routine
+that reprograms the output compare after each transition. The off transition
+invokes the ISR which sets up the turn-on time and programs the next output
+state to be on, and the on transition invokes the same ISR to set up the
+turn-off time and the next off state. The on and off times must each be
+great enough to contain the latency and execution time of the ISR. So duty
+cycles that would require very small on or off times are not attainable. If
+the ISR is delayed so that it does not program the next transition in time,
+than the output compare doesnt find a match until TCNT rolls all the way
+around. In this case rollover delays of approximately 131 msec may be inserted
+into either the on or off time.
+
+Advantages: Transitions are precise, with no jitter; duty
+cycle and period are programmable over a wide range.
+
+Disadvantages: ON or OFF times smaller than the ISR
+execution time and latency are not possible; rollover delays are possible; not
+failsafe a software crash can leave the output stuck ON.
+
+Example 5 Two OCs and ISRs Generate a No Jitter
+PWM Signal of any Duty Cycle
+
+To obtain ON and OFF times that may be each as small as a
+single clock tick, two OCs and ISRs are required. The off transition invokes
+an ISR which sets up the next turn-off time, and the on transition invokes a
+different ISR to set up the next turn-on time. Each ISR simply increments the
+next ON or OFF comparison register by the period. There is no particular restriction
+on the shortness of the ON or OFF times, either can extend down to just a
+single count of TCNT, but their sum, the period, must be great enough to
+contain the latency and execution times of both ISRs. Because OCs are used to
+drive the output pin, the transition times are exact, with no jitter. If
+service of either ISR is delayed for more than a period then a rollover delay
+may be inserted into either the on or off time.
+
+Advantages: Transitions are precise, with no jitter; duty
+cycle and period are programmable over a wide range, duty cycle extends fully
+from 1/65536 to 65535/65536.
+
+Disadvantages: Rollover delays are possible; not failsafe
+ a software crash can leave the output stuck ON.
+
+Example 6 One OC and ISR Generates a Failsafe
+PWM Signal
+
+A single OC and associated ISR is used. The OC invokes an
+ISR for each transition. For the ON transition, the ISR is responsible for
+setting the output pin. It also computes the next turn-off time based on the
+time at which the pulse is actually turned on, and programs the OC to
+automatically turn it back OFF at the turn-off time. At the next OC the pin is
+turned off by hardware and the ISR is again called. This time the ISR just
+sets the turn-on time for the next OC time, disconnecting the OC from the pin
+so that the pin is not automatically set. This sequence of events produces
+pulses whose duration is invariant with respect to ISR delay, but that may
+jitter back and forth within their fixed period. Despite any jitter, the duty
+cycle and period are both precisely controlled. If the ISR is delayed by more
+than the off time, rollovers are inserted into only the off time, never the on
+time. So the pulse on times are failsafe so long as the processors clock is
+running.
+
+Advantages: Failsafe operation assures an ON pulse is
+never longer than desired and the pulses turn off on a software crash. ON time
+may be as small as a single TCNT count.
+
+Disadvantages: Pulse position jitter; rollover delays are
+possible in the OFF time; minimum OFF time must be greater than the IST latency
+and execution time.
+
+Table 8‑7 PWM Methods.
+
+ 
+ Method 
+ 
+ ISR Used 
+ 
+ Output Compares 
+ 
+ Turn ON/OFF 
+ 
+ Jitter 
+ 
+ D.C. Accuracy 
+ 
+ D.C. Range 
+ 
+ Rollovers inserted? 
+ 
+ Period 
+ 
+ 2 
+ 
+ no 
+ 
+ OC1 and one other 
+ 
+ OC/OC 
+ 
+ none 
+ 
+ perfect 
+ 
+ any 
+ 
+ no
+ failsafe 
+ 
+ Fixed
+ at 131.072 ms 
+ 
+ 3 
+ 
+ yes 
+ 
+ any OC 
+ 
+ ISR/ISR 
+ 
+ yes 
+ 
+ limited
+ by ISR delays 
+ 
+ Ton,
+ Toff&gt;ISR 
+ 
+ yes 
+ 
+ on
+ and off times must each be greater than ISR latency and execution times 
+ 
+ 4 
+ 
+ yes 
+ 
+ any OC 
+ 
+ OC/OC 
+ 
+ no 
+ 
+ perfect 
+ 
+ Ton,
+ Toff&gt;ISR 
+ 
+ yes 
+ 
+ on
+ and off times must each be greater than ISR latency and execution times 
+ 
+ 5 
+ 
+ yes 
+ 
+ OC1 and one other 
+ 
+ OC/OC 
+ 
+ no 
+ 
+ perfect 
+ 
+ Ton,
+ Toff unlimited 
+ 
+ yes 
+ 
+ P&gt;ISR1+ISR2 
+ 
+ 6 
+ 
+ yes 
+ 
+ any OC 
+ 
+ ISR/OC 
+ 
+ yes 
+ 
+ perfect 
+ 
+ Ton
+ unlimited, Toff&gt;ISR 
+ 
+ failsafe
+ into only the off time 
+ 
+   
+ 
+
+ 
+
+ &lt;&lt;Previous | Next&gt;&gt; 
+ 
+
+
+ Home | Site Map | Products | Manuals | Resources | Order | About Us 
+ Copyright (c) 2006 Mosaic Industries, Inc.
+ Your source for single board computers, embedded controllers, and operator interfaces for instruments and automation
+	</body>
+</document>

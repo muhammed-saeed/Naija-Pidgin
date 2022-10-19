@@ -1,0 +1,519 @@
+det(kit-5, a-2)
+nn(kit-5, tire-3)
+nn(kit-5, patch-4)
+dobj(buy-1, kit-5)
+
+prt(wipe-1, off-2)
+amod(site-4, puncture-3)
+dobj(wipe-1, site-4)
+
+dobj(put-1, glue-2)
+prep_on(put-1, patch-4)
+
+dobj(put-1, patch-2)
+prep_on(put-1, hole-4)
+
+dobj(let-1, glue-2)
+dep(let-1, dry-3)
+
+prt(take-1, off-2)
+nn(valve-4, air-3)
+dobj(take-1, valve-4)
+
+nn(pump-3, air-2)
+dobj(attach-1, pump-3)
+prep_to(attach-1, tire-5)
+
+
+nn(pressure-3, tire-2)
+dobj(check-1, pressure-3)
+
+nn(valve-3, air-2)
+dobj(replace-1, valve-3)
+
+prt(take-1, off-2)
+dobj(take-1, wheel-3)
+
+det(tire-3, the-2)
+dobj(take-1, tire-3)
+prt(take-1, off-4)
+
+nsubj(do-4, what-2)
+aux(do-4, to-3)
+ccomp(decide-1, do-4)
+xcomp(decide-1, do-4)
+
+det(tube-4, the-2)
+amod(tube-4, inner-3)
+dobj(replace-1, tube-4)
+
+dobj(put-1, tire-2)
+advmod(put-1, back-3)
+prep_on(put-1, bike-5)
+
+prt(ride-1, away-2)
+
+det(tube-5, a-2)
+amod(tube-5, new-3)
+nn(tube-5, tire-4)
+dobj(get-1, tube-5)
+
+nn(upside-down-3, bike-2)
+dobj(turn-1, upside-down-3)
+
+det(tire-3, the-2)
+dobj(remove-1, tire-3)
+dep(remove-1, tread-4)
+
+amod(tube-3, flat-2)
+dobj(remove-1, tube-3)
+
+amod(tube-4, new-3)
+prep_on(put-1, tube-4)
+
+dobj(put-1, tire-2)
+dep(put-1, tread-3)
+prt(tread-3, back-4)
+prep(tread-3, on-5)
+
+dobj(flip-1, rightside-2)
+prt(flip-1, up-3)
+
+nn(tire-3, bike-2)
+prep_by(fit-4, tire-3)
+dep(kit-6, it-5)
+dobj(fit-4, kit-6)
+
+dobj(remove-1, tire-2)
+prep_from(remove-1, bike-4)
+
+dobj(remove-1, tube-2)
+prep_from(remove-1, tire-4)
+
+dobj(fill-1, tire-2)
+
+dobj(hold-1, tire-2)
+prep_under(hold-1, water-4)
+
+nn(bubble-4, air-3)
+prep_for(look-1, bubble-4)
+
+dobj(place-1, patches-2)
+nn(sites-5, bubble-4)
+prep_at(place-1, sites-5)
+
+dobj(put-1, tire-2)
+advmod(put-1, back-3)
+advmod(put-1, together-4)
+
+dobj(put-1, tire-2)
+advmod(put-1, back-3)
+prep_on(put-1, bike-5)
+
+dobj(fill-1, tire-2)
+
+dobj(stop-1, bike-2)
+
+nn(stand-3, kick-2)
+dobj(engage-1, stand-3)
+
+prt(take-1, off-2)
+dobj(take-1, tire-3)
+
+prt(take-1, out-2)
+dobj(take-1, tube-3)
+
+dobj(fill-1, tube-2)
+prep_with(fill-1, air-4)
+
+prep_for(check-1, leak-3)
+
+nn(tube-2, patch-1)
+
+dobj(return-1, tube-2)
+prep_to(return-1, tire-4)
+
+dobj(replace-1, tire-2)
+prep_on(replace-1, wheel-4)
+
+nn(stand-3, kick-2)
+dobj(disengage-1, stand-3)
+
+
+det(pump-4, the-2)
+nn(pump-4, bike-3)
+dobj(get-1, pump-4)
+conj_and(get-1, tools-6)
+pred(get-1, tools-6)
+
+dobj(remove-1, wheel-2)
+dobj(remove-1, tire-4)
+conj_and(wheel-2, tire-4)
+
+dobj(ascertain-1, damage-2)
+
+
+
+prep_in(pump-1, air-3)
+aux(test-5, to-4)
+xcomp(pump-1, test-5)
+dobj(test-5, repair-6)
+
+det(brake-3, the-2)
+dobj(disconnect-1, brake-3)
+
+det(tire-3, the-2)
+dobj(remove-1, tire-3)
+
+det(tire-3, the-2)
+dobj(remove-1, tire-3)
+det(rim-6, the-5)
+prep_from(remove-1, rim-6)
+
+det(tube-3, the-2)
+dep(patch-1, tube-3)
+
+det(tube-3, the-2)
+dobj(inflate-1, tube-3)
+
+dobj(insert-1, tube-2)
+det(tire-5, the-4)
+prep_inside(insert-1, tire-5)
+
+det(tire-3, the-2)
+dobj(reseat-1, tire-3)
+det(rim-6, the-5)
+prep_within(reseat-1, rim-6)
+
+det(tire-3, the-2)
+dobj(put-1, tire-3)
+advmod(put-1, back-4)
+det(bike-7, the-6)
+prep_on(put-1, bike-7)
+
+det(nut-3, the-2)
+dobj(tighten-1, nut-3)
+
+det(brake-3, the-2)
+dobj(reconnect-1, brake-3)
+
+nn(kit-3, repair-2)
+dobj(use-1, kit-3)
+advmod(use-1, or-4)
+
+dobj(take-1, tire-2)
+prep_off(take-1, bike-4)
+
+amod(tire-3, old-2)
+dobj(remove-1, tire-3)
+prep_from(remove-1, rim-5)
+
+amod(tire-3, new-2)
+dobj(put-1, tire-3)
+prep_on(put-1, rim-5)
+
+dobj(put-1, rim-2)
+advmod(put-1, back-3)
+prep_on(put-1, bike-5)
+
+dobj(inflate-1, tire-2)
+
+nsubjpass(repaired-4, bike-1)
+auxpass(repaired-4, is-2)
+advmod(repaired-4, now-3)
+
+dobj(remove-1, wheel-2)
+prep_from(remove-1, bike-4)
+
+dobj(remove-1, tire-2)
+dobj(remove-1, tube-4)
+prep_from(remove-1, wheel-6)
+
+dobj(check-1, tube-2)
+prep_for(check-1, hole-4)
+
+nn(patch-2, glue-1)
+prep_over(patch-2, hole-4)
+
+dobj(refill-1, tube-2)
+prep_with(refill-1, air-4)
+
+dobj(put-1, tube-2)
+appos(tube-2, tire-4)
+advmod(put-1, back-5)
+prep_on(put-1, wheel-7)
+
+dobj(put-1, wheel-2)
+advmod(put-1, back-3)
+prep_on(put-1, bike-5)
+
+dobj(remove-1, tire-2)
+
+nn(store-4, bike-3)
+prep_to(take-1, store-4)
+
+nn(store-3, bike-2)
+dobj(leave-1, store-3)
+
+advmod(fixed-5, when-2)
+nsubjpass(fixed-5, tire-3)
+auxpass(fixed-5, is-4)
+advcl(return-1, fixed-5)
+
+nn(store-3, bike-2)
+dobj(pay-1, store-3)
+prep_for(pay-1, service-5)
+
+dep(install-1, repaired-2)
+dobj(repaired-2, tire-3)
+prep_to(repaired-2, bike-5)
+
+dobj(loosen-1, bolts-2)
+prep_on(loosen-1, wheel-4)
+
+dobj(remove-1, wheel-2)
+
+dobj(remove-1, tire-2)
+prep_from(remove-1, wheel-4)
+
+dobj(remove-1, tube-2)
+
+conj_or(patch-1, replace-3)
+dobj(replace-3, tube-4)
+
+dobj(reinstall-1, tire-2)
+prep_on(reinstall-1, wheel-4)
+
+
+dobj(reinstall-1, wheel-2)
+prep_on(reinstall-1, bike-4)
+
+dobj(remove-1, tire-2)
+prep_from(remove-1, rim-4)
+
+dobj(remove-1, nail-2)
+prep_from(remove-1, tire-4)
+
+nn(compound-4, vinyl-2)
+nn(compound-4, patch-3)
+dobj(mix-1, compound-4)
+
+nn(compound-3, patch-2)
+dobj(apply-1, compound-3)
+prep_to(apply-1, hole-5)
+
+dobj(allow-1, compound-2)
+aux(dry-4, to-3)
+xcomp(allow-1, dry-4)
+
+dobj(place-1, tire-2)
+prep_on(place-1, rim-4)
+
+dobj(attach-1, pump-2)
+prep_to(attach-1, valve-4)
+
+dobj(inflate-1, tire-2)
+
+dobj(remove-1, pump-2)
+prep_from(remove-1, valve-4)
+
+det(tire-3, the-2)
+dobj(remove-1, tire-3)
+
+dobj(check-1, tube-2)
+prep_for(check-1, holes-4)
+
+dobj(use-1, water-2)
+aux(check-4, to-3)
+xcomp(use-1, check-4)
+
+mark(any-2, if-1)
+appos(any-2, patch-4)
+dep(patch-4, it-5)
+
+dobj(use-1, glue-2)
+
+dobj(hit-1, patch-2)
+aux(keep-4, to-3)
+infmod(patch-2, keep-4)
+nsubj(fixed-6, it-5)
+ccomp(keep-4, fixed-6)
+
+advmod(test-1, again-2)
+prep_for(test-1, leaks-4)
+
+prep_for(keep-1, drying-3)
+
+dobj(put-1, it-2)
+advmod(put-1, back-3)
+det(tire-6, the-5)
+prep_within(put-1, tire-6)
+
+det(tire-3, the-2)
+dobj(put-1, tire-3)
+advmod(put-1, back-4)
+
+det(tire-3, the-2)
+dobj(blow-1, tire-3)
+dep(blow-1, using-4)
+nn(pump-6, air-5)
+dobj(using-4, pump-6)
+
+amod(tools-3, proper-2)
+dobj(gather-1, tools-3)
+
+dobj(remove-1, tire-2)
+
+det(air-3, the-2)
+dobj(let-1, air-3)
+prep_out_of(let-1, tire-6)
+
+amod(tube-3, inner-2)
+dobj(remove-1, tube-3)
+
+amod(tube-3, old-2)
+dobj(replace-1, tube-3)
+amod(one-6, new-5)
+prep_with(replace-1, one-6)
+
+dobj(insert-1, tube-2)
+prep_into(insert-1, tire-4)
+
+dobj(inflate-1, tire-2)
+
+dobj(replace-1, tire-2)
+prep_onto(replace-1, bike-4)
+
+det(tire-3, the-2)
+dobj(remove-1, tire-3)
+
+det(spot-4, the-2)
+nn(spot-4, damage-3)
+dobj(identify-1, spot-4)
+
+iobj(seal-1, it-2)
+dobj(seal-1, airtight-3)
+
+dobj(fill-1, it-2)
+prep_with(fill-1, air-4)
+
+prep_for(check-1, leaks-3)
+prep_for(check-1, refit-5)
+conj_and(leaks-3, refit-5)
+
+det(tire-3, the-2)
+dobj(remove-1, tire-3)
+
+det(problem-3, the-2)
+dobj(check-1, problem-3)
+
+det(tube-3, the-2)
+dep(patch-1, tube-3)
+
+det(tube-3, the-2)
+dobj(put-1, tube-3)
+det(tire-6, the-5)
+prep_into(put-1, tire-6)
+
+det(tire-3, the-2)
+dobj(fix-1, tire-3)
+
+amod(tire-3, flat-2)
+dobj(remove-1, tire-3)
+prep_from(remove-1, bike-5)
+
+amod(tube-3, inner-2)
+dobj(remove-1, tube-3)
+prep_from(remove-1, tire-5)
+
+dobj(find-1, hole-2)
+det(tube-5, the-4)
+prep_in(find-1, tube-5)
+
+dep(patch-1, up-2)
+dep(patch-1, hole-3)
+
+dobj(put-1, tire-2)
+advmod(put-1, back-3)
+advmod(put-1, together-4)
+
+dobj(put-1, tire-2)
+advmod(put-1, back-3)
+prep_on(put-1, bike-5)
+
+det(tube-3, the-2)
+dobj(empty-1, tube-3)
+
+det(whee-3, the-2)
+dobj(remove-1, whee-3)
+
+det(tire-3, the-2)
+dobj(remove-1, tire-3)
+
+det(tire-3, the-2)
+dobj(superinflate-1, tire-3)
+
+det(hole-3, the-2)
+dobj(locate-1, hole-3)
+
+conj_or(patch-1, replace-3)
+dobj(replace-3, tube-4)
+
+det(cause-3, the-2)
+dobj(find-1, cause-3)
+det(flat-6, the-5)
+prep_of(cause-3, flat-6)
+
+det(liner-4, a-2)
+nn(liner-4, tire-3)
+dobj(install-1, liner-4)
+dobj(install-1, slime-6)
+conj_or(liner-4, slime-6)
+
+det(tube-3, the-2)
+dobj(reinstall-1, tube-3)
+
+det(tire-3, the-2)
+dobj(reinstall-1, tire-3)
+
+det(wheel-3, the-2)
+dobj(reinstall-1, wheel-3)
+
+cc(release-3, and-2)
+dobj(inflate-1, release-3)
+
+det(tire-3, the-2)
+dobj(reinflate-1, tire-3)
+
+det(cap-4, the-2)
+nn(cap-4, valve-3)
+dobj(put-1, cap-4)
+advmod(put-1, back-5)
+prep(put-1, on-6)
+
+det(cable-4, the-2)
+amod(cable-4, brake-3)
+dobj(reconnect-1, cable-4)
+
+det(kit-4, the-2)
+nn(kit-4, tool-3)
+dobj(take-1, kit-4)
+
+det(tire-4, the-2)
+amod(tire-4, old-3)
+dobj(remove-1, tire-4)
+
+det(spot-4, the-2)
+amod(spot-4, puncture-3)
+dobj(fix-1, spot-4)
+
+advmod(fix-4, now-1)
+aux(fix-4, rinse-2)
+nsubj(fix-4, it-3)
+dobj(fix-4, water-5)
+
+advmod(fix-2, now-1)
+det(tire-4, the-3)
+dobj(fix-2, tire-4)
+advmod(fix-2, back-5)
+

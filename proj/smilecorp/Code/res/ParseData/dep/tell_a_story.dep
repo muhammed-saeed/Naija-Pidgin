@@ -1,0 +1,336 @@
+det(events-4, the-3)
+prep_about(think-1, events-4)
+det(story-7, a-6)
+prep_in(events-4, story-7)
+
+det(events-3, the-2)
+dobj(speak-1, events-3)
+
+det(audience-3, an-2)
+dobj(find-1, audience-3)
+
+det(topic-5, a-3)
+nn(topic-5, story-4)
+prep_on(decide-1, topic-5)
+
+det(order-3, what-2)
+nsubj(tell-5, order-3)
+aux(tell-5, to-4)
+ccomp(decide-1, tell-5)
+xcomp(decide-1, tell-5)
+det(story-7, the-6)
+dobj(tell-5, story-7)
+prep(tell-5, in-8)
+
+det(story-3, the-2)
+dobj(tell-1, story-3)
+
+dobj(choose-1, story-2)
+amod(selection-5, available-4)
+prep_from(choose-1, selection-5)
+
+dobj(relate-1, story-2)
+prep_to(relate-1, person-4)
+prep_to(relate-1, people-6)
+conj_or(person-4, people-6)
+partmod(people-6, involved-7)
+
+det(details-3, all-2)
+dobj(include-1, details-3)
+amod(emphasis-6, appropriate-5)
+dobj(include-1, emphasis-6)
+conj_and(details-3, emphasis-6)
+
+amod(voices-3, appropriate-2)
+dobj(use-1, voices-3)
+mark(necessary-5, if-4)
+dep(use-1, necessary-5)
+
+det(story-4, a-2)
+amod(story-4, fictional-3)
+dobj(conceptualize-1, story-4)
+det(audience-7, an-6)
+prep_for(story-4, audience-7)
+
+advmod(convey-2, dramatically-1)
+dobj(convey-2, images-3)
+dobj(convey-2, pictures-5)
+conj_and(images-3, pictures-5)
+prep_through(convey-2, verbalization-7)
+
+dobj(choose-1, story-2)
+amod(selection-5, available-4)
+prep_from(choose-1, selection-5)
+
+dobj(relate-1, story-2)
+prep_to(relate-1, person-4)
+prep_to(relate-1, people-6)
+conj_or(person-4, people-6)
+partmod(people-6, involved-7)
+
+det(questions-3, any-2)
+dobj(answer-1, questions-3)
+dobj(has-6, questions-3)
+det(person-5, the-4)
+nsubj(has-6, person-5)
+rcmod(questions-3, has-6)
+det(story-9, the-8)
+prep_about(has-6, story-9)
+
+det(story-3, a-2)
+dobj(recall-1, story-3)
+prep_from(recall-1, memory-5)
+
+advmod(relay-2, verbally-1)
+det(story-4, the-3)
+dep(relay-2, story-4)
+det(person-7, another-6)
+prep_to(story-4, person-7)
+prep_to(story-4, persons-9)
+conj_or(person-7, persons-9)
+
+poss(audience-3, your-2)
+dobj(find-1, audience-3)
+
+det(storybook-3, a-2)
+dobj(find-1, storybook-3)
+
+det(storybook-3, the-2)
+dobj(read-1, storybook-3)
+
+prt(read-1, out-2)
+det(words-4, the-3)
+dobj(read-1, words-4)
+
+det(response-3, the-2)
+dobj(watch-1, response-3)
+det(audience-6, the-5)
+prep_from(response-3, audience-6)
+
+prt(put-1, away-2)
+det(storybook-4, the-3)
+dobj(put-1, storybook-4)
+
+det(audience-3, the-2)
+dobj(ask-1, audience-3)
+mark(want-6, if-4)
+nsubj(want-6, they-5)
+advcl(ask-1, want-6)
+acomp(want-6, more-7)
+
+dobj(tell-1, subject-2)
+prep_of(subject-2, story-4)
+
+dobj(tell-1, introduction-2)
+
+dobj(tell-1, conflict-2)
+
+dobj(tell-1, finish-2)
+
+dobj(tell-1, moral-2)
+prep_of(moral-2, story-4)
+
+dobj(find-1, someone-2)
+aux(tell-4, to-3)
+infmod(someone-2, tell-4)
+det(story-6, a-5)
+dobj(tell-4, story-6)
+prep(tell-4, to-7)
+
+det(book-3, a-2)
+dobj(get-1, book-3)
+
+det(story-3, the-2)
+dobj(readout-1, story-3)
+
+det(story-5, an-3)
+amod(story-5, appropriate-4)
+prep_for(search-1, story-5)
+
+det(story-3, the-2)
+dobj(recite-1, story-3)
+det(manner-7, a-5)
+amod(manner-7, suspenseful-6)
+prep_in(recite-1, manner-7)
+
+det(story-4, a-3)
+prep_of(think-1, story-4)
+
+dobj(open-1, mouth-2)
+conj_and(open-1, say-4)
+det(words-6, the-5)
+dobj(say-4, words-6)
+
+det(story-4, a-3)
+prep_of(think-1, story-4)
+nsubj(want-6, you-5)
+xsubj(tell-8, you-5)
+ccomp(think-1, want-6)
+aux(tell-8, to-7)
+xcomp(want-6, tell-8)
+
+det(people-3, the-2)
+dobj(get-1, people-3)
+dobj(want-5, people-3)
+nsubj(want-5, you-4)
+xsubj(tell-7, you-4)
+rcmod(people-3, want-5)
+aux(tell-7, to-6)
+xcomp(want-5, tell-7)
+det(story-9, the-8)
+dobj(tell-7, story-9)
+prep(tell-7, to-10)
+aux(sit-12, to-11)
+xcomp(tell-7, sit-12)
+prep_in_front_of(sit-12, you-16)
+
+aux(say-3, to-2)
+xcomp(begin-1, say-3)
+det(story-5, the-4)
+dobj(say-3, story-5)
+advmod(ready-10, when-6)
+det(people-8, the-7)
+nsubj(ready-10, people-8)
+cop(ready-10, are-9)
+advcl(say-3, ready-10)
+aux(hear-12, to-11)
+xcomp(ready-10, hear-12)
+dobj(hear-12, it-13)
+
+dobj(choose-1, book-2)
+
+dobj(remove-1, book-2)
+prep_from(remove-1, shelf-4)
+
+dobj(open-1, book-2)
+
+dobj(read-1, words-2)
+prep_on(read-1, page-4)
+
+dobj(turn-1, page-2)
+
+dep(continue-1, reading-2)
+det(pages-4, all-3)
+dobj(reading-2, pages-4)
+
+dobj(close-1, book-2)
+
+dobj(remember-1, story-2)
+aux(tell-4, to-3)
+xcomp(remember-1, tell-4)
+
+dobj(speak-1, story-2)
+
+det(story-3, the-2)
+dobj(read-1, story-3)
+
+det(outline-3, an-2)
+dobj(create-1, outline-3)
+
+xcomp(practice-1, telling-2)
+det(story-4, the-3)
+dobj(telling-2, story-4)
+
+det(story-3, the-2)
+dobj(tell-1, story-3)
+
+prep_of(think-1, story-3)
+
+nsubj(story-2, relay-1)
+
+dobj(read-1, story-2)
+advmod(read-1, aloud-3)
+
+det(story-3, the-2)
+dobj(starting-1, story-3)
+
+det(plot-3, the-2)
+dobj(building-1, plot-3)
+
+amod(characters-3, interesting-2)
+dobj(adding-1, characters-3)
+
+det(couple-3, a-2)
+dobj(having-1, couple-3)
+prep_of(couple-3, twists-5)
+
+prep_of(lots-1, action-3)
+prep_of(lots-1, adventure-5)
+conj_and(action-3, adventure-5)
+
+dep(good-1, over-2)
+amod(good-1, evil-3)
+
+dep(after-3, every-2)
+dep(happily-1, after-3)
+
+prt(make-1, up-2)
+dobj(make-1, story-3)
+
+dobj(communicate-1, story-2)
+
+det(book-3, a-2)
+dobj(choose-1, book-3)
+
+det(chair-4, a-2)
+amod(chair-4, comfortable-3)
+dobj(find-1, chair-4)
+
+nn(climb-3, child-2)
+dobj(let-1, climb-3)
+poss(lap-6, your-5)
+prep_onto(let-1, lap-6)
+
+dobj(read-1, title-2)
+prep_of(title-2, book-4)
+
+amod(page-4, first-3)
+prep_to(turn-1, page-4)
+
+dobj(begin-1, reading-2)
+
+amod(voices-3, interesting-2)
+dobj(use-1, voices-3)
+
+det(category-3, the-2)
+dobj(select-1, category-3)
+
+det(story-3, the-2)
+dobj(tell-1, story-3)
+
+csubj(peaceful-5, make-1)
+amod(listener-3, sure-2)
+dobj(make-1, listener-3)
+cop(peaceful-5, is-4)
+
+nsubj(comfortable-4, listener-1)
+aux(comfortable-4, should-2)
+cop(comfortable-4, be-3)
+
+det(book-3, a-2)
+dobj(pick-1, book-3)
+dobj(like-6, book-3)
+rel(like-6, that-4)
+nsubj(like-6, they-5)
+rcmod(book-3, like-6)
+
+det(point-4, the-2)
+nn(point-4, hgh-3)
+dobj(introduce-1, point-4)
+det(book-7, the-6)
+prep_of(point-4, book-7)
+
+dep(interested-3, get-1)
+dobj(interested-3, listener-2)
+
+advmod(read-1, slowly-2)
+
+prep_with(read-1, emotions-3)
+
+det(story-3, the-2)
+dobj(find-1, story-3)
+
+poss(mouth-3, your-2)
+dobj(open-1, mouth-3)
+conj_and(open-1, speak-5)
+

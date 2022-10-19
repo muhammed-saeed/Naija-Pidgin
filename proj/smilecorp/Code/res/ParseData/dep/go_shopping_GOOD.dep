@@ -1,0 +1,533 @@
+dobj(enter-1, store-2)
+
+prt(look-1, around-2)
+
+dobj(ask-1, salesperson-2)
+prep_for(ask-1, help-4)
+
+dobj(select-1, items-2)
+
+aux(check-3, to-2)
+xcomp(go-1, check-3)
+prt(check-3, out-4)
+
+prep_for(pay-1, items-3)
+
+dobj(leave-1, store-2)
+
+nn(list-4, make-2)
+det(list-4, a-3)
+dep(i-1, list-4)
+
+det(store-4, the-3)
+prep_to(go-1, store-4)
+
+dobj(put-1, groceries-2)
+det(cart-5, a-4)
+prep_in(put-1, cart-5)
+
+det(cashier-4, a-3)
+prep_to(go-1, cashier-4)
+
+
+advmod(go-1, back-2)
+dep(back-2, home-3)
+
+poss(keys-4, my-2)
+nn(keys-4, car-3)
+dobj(find-1, keys-4)
+
+det(store-4, the-3)
+prep_to(drive-1, store-4)
+
+det(space-4, a-3)
+prep_in(park-1, space-4)
+
+poss(card-4, my-2)
+nn(card-4, credit-3)
+dobj(find-1, card-4)
+
+det(store-4, the-3)
+prep_into(walk-1, store-4)
+
+det(cart-4, a-2)
+nn(cart-4, shopping-3)
+dobj(get-1, cart-4)
+
+det(flier-4, a-2)
+nn(flier-4, sales-3)
+dobj(get-1, flier-4)
+
+det(flier-3, the-2)
+dobj(scan-1, flier-3)
+nn(items-6, sale-5)
+prep_for(flier-3, items-6)
+
+prt(walk-1, down-2)
+det(aisles-4, the-3)
+dobj(walk-1, aisles-4)
+
+prt(pick-1, up-2)
+amod(items-4, interesting-3)
+dobj(pick-1, items-4)
+
+dobj(put-1, items-2)
+advmod(put-1, back-3)
+conj_or(put-1, in-5)
+det(cart-7, the-6)
+pobj(in-5, cart-7)
+
+dobj(take-1, cart-2)
+prep_to(take-1, checkout-4)
+
+dobj(put-1, items-2)
+prep_on(items-2, counter-4)
+
+dobj(watch-1, cashier-2)
+dep(watch-1, ring-3)
+prt(ring-3, up-4)
+dobj(ring-3, items-5)
+
+nn(card-3, credit-2)
+iobj(run-1, card-3)
+amod(scanner-5, thru-4)
+dobj(run-1, scanner-5)
+
+dobj(take-1, purchases-2)
+prep_to(take-1, car-4)
+
+dobj(choose-1, store-2)
+
+amod(items-3, desired-2)
+dobj(seek-1, items-3)
+
+prep_in(place-1, cart-3)
+prep_in(place-1, basket-5)
+conj_or(cart-3, basket-5)
+
+nn(isle-4, checkout-3)
+prep_to(go-1, isle-4)
+
+dobj(ring-1, items-2)
+prt(ring-1, up-3)
+nn(register-6, cash-5)
+prep_on(ring-1, register-6)
+
+prep_for(pay-1, items-3)
+
+dobj(leave-1, store-2)
+
+dobj(get-1, purse-2)
+
+prep_in(get-1, car-3)
+
+prep_to(go-1, store-3)
+
+prep_out_of(get-1, car-4)
+
+advmod(go-1, inside-2)
+
+amod(items-4, needed-3)
+prep_for(look-1, items-4)
+
+dobj(put-1, items-2)
+prep_in(put-1, cart-4)
+
+aux(check-3, to-2)
+xcomp(go-1, check-3)
+prt(check-3, out-4)
+
+prep_for(pay-1, items-3)
+
+iobj(take-1, items-2)
+dobj(take-1, home-3)
+
+det(list-3, a-2)
+dobj(make-1, list-3)
+
+poss(trip-3, your-2)
+dobj(plan-1, trip-3)
+
+det(items-3, the-2)
+dobj(find-1, items-3)
+poss(list-6, your-5)
+prep_on(find-1, list-6)
+
+det(line-5, the-3)
+nn(line-5, check-out-4)
+prep_to(go-1, line-5)
+
+poss(items-3, your-2)
+dobj(place-1, items-3)
+det(belt-6, the-5)
+prep_on(place-1, belt-6)
+
+poss(amount-5, your-3)
+amod(amount-5, total-4)
+prep_for(wait-1, amount-5)
+
+det(checker-3, the-2)
+dobj(pay-1, checker-3)
+
+poss(change-3, your-2)
+dobj(get-1, change-3)
+
+poss(items-3, your-2)
+dobj(take-1, items-3)
+
+prep_at(look-1, stores-3)
+
+amod(ones-3, interesting-2)
+dobj(enter-1, ones-3)
+
+dobj(peruse-1, items-2)
+
+mark(purchase-5, if-2)
+nsubj(purchase-5, you-3)
+aux(purchase-5, 'll-4)
+advcl(decide-1, purchase-5)
+dobj(purchase-5, any-6)
+
+dobj(want-5, what-3)
+nsubj(want-5, you-4)
+prepc_for(pay-1, want-5)
+
+det(store-3, the-2)
+dobj(leave-1, store-3)
+
+advmod(desired-3, as-2)
+dep(repeat-1, desired-3)
+
+dobj(enter-1, mall-2)
+
+dobj(park-1, car-2)
+
+dobj(select-1, store-2)
+
+dobj(locate-1, item-2)
+dep(locate-1, desired-3)
+
+prt(try-1, on-2)
+mark(necessary-4, if-3)
+advcl(try-1, necessary-4)
+
+dobj(find-1, cashier-2)
+
+prep_for(pay-1, purchase-3)
+
+dobj(leave-1, store-2)
+
+dobj(get-1, money-2)
+
+prep_to(drive-1, store-3)
+
+
+dobj(choose-1, things-2)
+aux(buy-4, to-3)
+infmod(things-2, buy-4)
+
+dobj(carry-1, them-2)
+det(store-5, the-4)
+prep_through(carry-1, store-5)
+
+dobj(buy-1, something-2)
+amod(something-2, random-3)
+
+prt(check-1, out-2)
+
+prep_to(go-1, store-3)
+
+nn(cart-3, shopping-2)
+dobj(get-1, cart-3)
+dobj(get-1, basket-5)
+conj_or(cart-3, basket-5)
+
+prep_for(look-1, items-3)
+partmod(items-3, desired-4)
+
+prep_for(ask-1, help-3)
+mark(necessary-5, if-4)
+advcl(ask-1, necessary-5)
+
+dobj(place-1, items-2)
+prep_in(place-1, cart\/basket-4)
+
+auxpass(desired-4, get-1)
+det(items-3, all-2)
+dobj(desired-4, items-3)
+
+dobj(take-1, items-2)
+prep_to(take-1, checkout-4)
+
+dobj(purchase-1, items-2)
+
+dobj(leave-1, store-2)
+
+dobj(prepare-1, list-2)
+prep_of(list-2, items-4)
+aux(buy-6, to-5)
+infmod(items-4, buy-6)
+
+prep_to(travel-1, destination-3)
+
+prep_into(go-1, business-3)
+
+dobj(select-1, items-2)
+prep_to(select-1, purchase-4)
+
+prep_to(take-1, cashier-3)
+
+prep_for(pay-1, goods-3)
+
+det(store-3, the-2)
+dobj(leave-1, store-3)
+
+amod(store-4, next-3)
+prep_at(repeat-1, store-4)
+mark(needed-6, if-5)
+advcl(repeat-1, needed-6)
+
+dobj(go-1, home-2)
+
+dobj(park-1, car-2)
+
+dobj(enter-1, store-2)
+
+dobj(brouwse-1, goods-2)
+
+dobj(receive-1, help-2)
+prep_from(receive-1, salesperson-4)
+
+dobj(select-1, items-2)
+
+prep_to(take-1, cashier-3)
+
+
+dobj(exit-1, store-2)
+prep_with(exit-1, goods-4)
+
+prep_to(return-1, car-3)
+
+prep_for(check-1, sales-3)
+
+amod(coupons-3, thru-2)
+dobj(go-1, coupons-3)
+
+prep_in(get-1, car-3)
+
+prep_to(go-1, store-3)
+
+det(cart-3, a-2)
+dobj(get-1, cart-3)
+
+prt(go-1, down-2)
+dobj(go-1, aisles-3)
+aux(find-5, to-4)
+xcomp(go-1, find-5)
+dobj(find-5, items-6)
+
+dobj(check-1, coupons-2)
+aux(use-4, to-3)
+infmod(coupons-2, use-4)
+
+predet(items-4, all-2)
+det(items-4, the-3)
+dobj(find-1, items-4)
+
+prep_to(go-1, cashier-3)
+
+dobj(load-1, items-2)
+prepc_on(load-1, moving-4)
+dobj(moving-4, surface-5)
+
+dobj(give-1, coupons-2)
+prep_to(give-1, clerk-4)
+
+nn(items-3, bag-2)
+dobj(help-1, items-3)
+
+prep_in(put-1, cart-3)
+
+dobj(pay-1, clerk-2)
+
+dobj(get-1, receipt-2)
+
+aux(load-4, to-2)
+advmod(load-4, and-3)
+xcomp(return-1, load-4)
+dobj(load-4, car-5)
+
+prep_to(go-1, store-3)
+
+dobj(get-1, cart-2)
+
+dobj(browse-1, aisle-2)
+
+prep_at(look-1, merchandise-3)
+
+dobj(select-1, items-2)
+
+prep_to(proceed-1, checkout-3)
+
+dobj(place-1, items-2)
+prep_on(items-2, belt-4)
+
+prep_for(pay-1, items-3)
+
+dobj(take-1, bag-2)
+prep_of(bag-2, items-4)
+
+dobj(leave-1, store-2)
+
+dep(look-2, i-1)
+poss(checkbook-5, my-4)
+prep_at(look-2, checkbook-5)
+
+poss(budget-3, my-2)
+dobj(determine-1, budget-3)
+
+prt(figure-1, out-2)
+dobj(figure-1, what-3)
+dep(figure-1, i-4)
+dep(figure-1, want-5)
+aux(buy-7, to-6)
+xcomp(want-5, buy-7)
+
+prt(figure-1, out-2)
+nsubj(stores-4, what-3)
+ccomp(figure-1, stores-4)
+
+det(stores-4, those-3)
+prep_to(go-1, stores-4)
+
+prep_until(continue-1, i-3)
+ccomp(continue-1, find-4)
+dobj(find-4, it-5)
+
+dobj(enter-1, store-2)
+
+prt(look-1, around-2)
+
+aux(buy-3, to-2)
+infmod(things-1, buy-3)
+
+nn(shop-2, window-1)
+
+prep_at(look-1, people-3)
+
+amod(things-4, new-3)
+prep_about(ask-1, things-4)
+
+dobj(put-1, products-2)
+nn(cart-5, shopping-4)
+prep_in(put-1, cart-5)
+
+aux(buy-2, to-1)
+
+neg(buy-3, not-1)
+aux(buy-3, to-2)
+
+nn(helper-4, store-3)
+prep_to(speak-1, helper-4)
+
+prep_for(look-1, freebies-3)
+
+nsubj(counter-2, sales-1)
+
+dobj(buy-1, products-2)
+
+prep_for(pay-1, products-3)
+
+dobj(leave-1, store-2)
+
+prep_to(go-1, store-3)
+
+amod(items-4, desired-3)
+prep_for(browse-1, items-4)
+
+dobj(get-1, items-2)
+
+aux(register-3, to-2)
+xcomp(proceed-1, register-3)
+
+dobj(purchase-1, item-2)
+
+det(store-3, the-2)
+dobj(leave-1, store-3)
+
+nn(list-3, shopping-2)
+dobj(make-1, list-3)
+
+dobj(goto-1, car-2)
+
+nn(mall-4, shopping-3)
+prep_to(drive-1, mall-4)
+
+dobj(get-1, trolley-2)
+
+det(items-3, all-2)
+dobj(keep-1, items-3)
+prep_in(keep-1, trolley-5)
+
+nn(list-3, shopping-2)
+dobj(check-1, list-3)
+
+mark(done-2, if-1)
+amod(counter-5, goto-3)
+nn(counter-5, checking-4)
+dobj(done-2, counter-5)
+
+det(bill-3, the-2)
+dobj(pay-1, bill-3)
+prep_in(pay-1, cash-5)
+prep_in(pay-1, card-7)
+conj_or(cash-5, card-7)
+
+dobj(get-1, things-2)
+prep_into(get-1, car-4)
+
+dobj(keep-1, trolley-2)
+prt(keep-1, aside-3)
+
+dobj(drive-1, car-2)
+advmod(drive-1, back-3)
+dep(back-3, to-4)
+pobj(to-4, destination-5)
+
+det(list-3, a-2)
+dobj(make-1, list-3)
+prep_of(list-3, items-5)
+
+det(cash-3, the-2)
+dobj(check-1, cash-3)
+
+det(market-4, the-3)
+prep_to(go-1, market-4)
+
+dobj(purchase-1, items-2)
+
+det(bill-3, the-2)
+dobj(pay-1, bill-3)
+
+det(list-4, a-2)
+nn(list-4, shopping-3)
+dobj(make-1, list-4)
+
+poss(house-5, my-4)
+prep_out_of(go-1, house-5)
+
+poss(door-3, my-2)
+dobj(lock-1, door-3)
+
+poss(car-3, my-2)
+dobj(start-1, car-3)
+
+det(mall-4, the-3)
+prep_to(drive-1, mall-4)
+
+poss(car-3, my-2)
+dobj(park-1, car-3)
+
+poss(list-5, my-4)
+prep_according_to(shop-1, list-5)
+

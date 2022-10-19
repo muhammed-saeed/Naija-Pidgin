@@ -1,0 +1,680 @@
+prep_to(move-1, toy-3)
+
+dobj(retrieve-1, toy-2)
+
+nn(box-4, toy-3)
+prep_to(move-1, box-4)
+
+dobj(place-1, toy-2)
+nn(box-5, toy-4)
+prep_in(place-1, box-5)
+
+dobj(repeat-1, steps-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+prt(figure-1, out-2)
+advmod(belong-5, where-3)
+nsubj(belong-5, toys-4)
+advcl(figure-1, belong-5)
+
+dobj(place-1, toys-2)
+advmod(belong-5, where-3)
+rel(belong-5, where-3)
+nsubj(belong-5, they-4)
+rcmod(toys-2, belong-5)
+
+prt(pick-1, up-2)
+det(toy-4, a-3)
+dobj(pick-1, toy-4)
+det(floor-7, the-6)
+prep_from(pick-1, floor-7)
+
+dobj(put-1, it-2)
+det(place-5, the-4)
+prep_in(put-1, place-5)
+advmod(belongs-8, where-6)
+rel(belongs-8, where-6)
+nsubj(belongs-8, it-7)
+rcmod(place-5, belongs-8)
+
+mark(put-6, until-2)
+det(toys-4, all-3)
+nsubjpass(put-6, toys-4)
+auxpass(put-6, are-5)
+advcl(repeat-1, put-6)
+prt(put-6, away-7)
+
+prt(pick-1, up-2)
+det(toy-4, a-3)
+dobj(pick-1, toy-4)
+
+det(toy-3, the-2)
+dobj(put-1, toy-3)
+det(place-6, the-5)
+prep_in(put-1, place-6)
+dobj(belongs-10, which-8)
+nsubj(belongs-10, it-9)
+prepc_in(put-1, belongs-10)
+
+mark(put-6, until-2)
+det(toys-4, all-3)
+nsubjpass(put-6, toys-4)
+auxpass(put-6, are-5)
+advcl(continue-1, put-6)
+prt(put-6, away-7)
+
+dep(toys-4, all-2)
+amod(toys-4, scattered-3)
+dobj(gather-1, toys-4)
+
+det(positions-4, the-2)
+amod(positions-4, proper-3)
+dobj(locate-1, positions-4)
+det(toys-7, the-6)
+prep_for(positions-4, toys-7)
+
+det(toys-3, the-2)
+dobj(replace-1, toys-3)
+poss(positions-7, their-5)
+amod(positions-7, proper-6)
+prep_in(replace-1, positions-7)
+
+dobj(find-1, toys-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+dobj(place-1, toys-2)
+prep_in(place-1, box-4)
+
+
+dobj(gather-1, toys-2)
+
+dobj(clean-1, one-2)
+prep_by(clean-1, one-4)
+
+dobj(put-1, toys-2)
+advmod(put-1, back-3)
+
+advmod(locate-2, visually-1)
+det(toys-4, all-3)
+dobj(locate-2, toys-4)
+
+det(toy-3, a-2)
+dobj(pick-1, toy-3)
+prt(pick-1, up-4)
+
+dobj(carry-1, it-2)
+det(room-6, the-4)
+amod(room-6, proper-5)
+prep_to(carry-1, room-6)
+
+csubj(location-8, place-1)
+det(toy-3, the-2)
+dobj(place-1, toy-3)
+prep_in(place-1, it-5)
+cop(location-8, s-6)
+nn(location-8, storage-7)
+
+mark(put-6, until-2)
+det(toys-4, all-3)
+nsubjpass(put-6, toys-4)
+auxpass(put-6, are-5)
+advcl(repeat-1, put-6)
+prt(put-6, away-7)
+
+det(toy-3, each-2)
+dobj(gather-1, toy-3)
+
+dep(toys-6, one-1)
+num(place-4, one-3)
+prep_by(one-1, place-4)
+det(toys-6, the-5)
+advmod(go-9, where-7)
+rel(go-9, where-7)
+nsubj(go-9, they-8)
+rcmod(toys-6, go-9)
+
+prt(pick-1, up-2)
+det(toy-4, a-3)
+dobj(pick-1, toy-4)
+
+dobj(put-1, it-2)
+poss(place-6, its-4)
+amod(place-6, correct-5)
+prep_in(put-1, place-6)
+
+prt(pick-1, up-2)
+det(toy-4, another-3)
+dobj(pick-1, toy-4)
+
+dobj(put-1, it-2)
+poss(place-6, its-4)
+amod(place-6, correct-5)
+prep_in(put-1, place-6)
+
+xcomp(keep-1, going-2)
+mark(are-7, until-3)
+predet(toys-6, all-4)
+det(toys-6, the-5)
+nsubj(are-7, toys-6)
+advcl(going-2, are-7)
+poss(places-11, their-9)
+amod(places-11, correct-10)
+prep_in(are-7, places-11)
+
+det(toys-3, any-2)
+dobj(locate-1, toys-3)
+nsubj(are-5, toys-3)
+rcmod(toys-3, are-5)
+prep_out_of(are-5, place-8)
+
+det(toy-3, a-2)
+dobj(pick-1, toy-3)
+prt(pick-1, up-4)
+
+dep(belongs-7, carry-1)
+dobj(carry-1, it-2)
+det(room-5, the-4)
+prep_to(carry-1, room-5)
+nsubj(belongs-7, it-6)
+prep(belongs-7, in-8)
+
+csubj(place-8, return-1)
+det(toy-3, the-2)
+dobj(return-1, toy-3)
+prep_to(return-1, it-5)
+cop(place-8, s-6)
+amod(place-8, proper-7)
+
+mark(returned-7, until-2)
+det(toys-4, all-3)
+nsubjpass(returned-7, toys-4)
+aux(returned-7, have-5)
+auxpass(returned-7, been-6)
+advcl(continue-1, returned-7)
+
+prt(picking-1, up-2)
+det(toys-4, the-3)
+dobj(picking-1, toys-4)
+
+dobj(sorting-1, them-2)
+
+dobj(putting-1, them-2)
+det(place-6, the-4)
+amod(place-6, proper-5)
+prep_in(putting-1, place-6)
+
+det(child-3, the-2)
+dobj(teaching-1, child-3)
+aux(pick-5, to-4)
+xcomp(teaching-1, pick-5)
+prt(pick-5, up-6)
+prep_after(pick-5, themself-8)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+dobj(carry-1, toys-2)
+nn(box-5, toy-4)
+prep_to(carry-1, box-5)
+
+dobj(put-1, toys-2)
+nn(box-5, toy-4)
+prep_in(put-1, box-5)
+
+dobj(selecting-1, toys-2)
+
+dobj(puting-1, them-2)
+det(box-5, the-4)
+prep_into(puting-1, box-5)
+
+det(box-3, the-2)
+dobj(puting-1, box-3)
+det(place-7, a-5)
+amod(place-7, correct-6)
+prep_in(puting-1, place-7)
+
+dobj(gather-1, toys-2)
+
+dobj(clean-1, toys-2)
+
+dobj(put-1, toys-2)
+advmod(put-1, back-3)
+
+dobj(locate-1, toys-2)
+prep_in(locate-1, room-4)
+
+dobj(gather-1, toys-2)
+num(location-5, one-4)
+prep_into(gather-1, location-5)
+
+dobj(replace-1, toys-2)
+poss(positions-6, their-4)
+amod(positions-6, proper-5)
+prep_in(replace-1, positions-6)
+
+det(toys-3, the-2)
+dobj(locating-1, toys-3)
+
+det(toys-4, the-3)
+prep_to(moving-1, toys-4)
+
+prt(picking-1, up-2)
+det(toys-4, the-3)
+dobj(picking-1, toys-4)
+
+det(toys-3, the-2)
+dobj(moving-1, toys-3)
+poss(location-7, their-5)
+nn(location-7, storage-6)
+prep_to(moving-1, location-7)
+
+det(toys-3, the-2)
+dobj(placing-1, toys-3)
+poss(location-7, their-5)
+nn(location-7, storage-6)
+prep_in(placing-1, location-7)
+
+dobj(identify-1, toys-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+dobj(take-1, toys-2)
+nn(place-5, storage-4)
+prep_to(take-1, place-5)
+
+prt(put-1, down-2)
+dobj(put-1, toys-3)
+
+det(room-4, a-3)
+prep_to(go-1, room-4)
+
+prep_for(look-1, toys-3)
+det(floor-6, the-5)
+prep_on(look-1, floor-6)
+
+mark(is-4, if-2)
+expl(is-4, there-3)
+advcl(determine-1, is-4)
+det(child-6, a-5)
+nsubj(is-4, child-6)
+det(room-9, the-8)
+prep_in(child-6, room-9)
+
+prt(pick-1, up-2)
+det(toys-4, the-3)
+dobj(pick-1, toys-4)
+mark(is-7, if-5)
+expl(is-7, there-6)
+advcl(pick-1, is-7)
+det(child-9, no-8)
+nsubj(is-7, child-9)
+
+dobj(put-1, them-2)
+prt(put-1, away-3)
+
+det(toybox-3, the-2)
+dobj(open-1, toybox-3)
+
+prt(pick-1, up-2)
+predet(toys-5, all-3)
+det(toys-5, the-4)
+dobj(pick-1, toys-5)
+
+det(toys-3, the-2)
+dobj(put-1, toys-3)
+det(toybox-6, the-5)
+prep_in(put-1, toybox-6)
+
+det(toybox-3, the-2)
+dobj(close-1, toybox-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+dobj(put-1, them-2)
+prt(put-1, away-3)
+
+prt(take-1, away-2)
+predet(toys-5, all-3)
+det(toys-5, the-4)
+dobj(take-1, toys-5)
+
+det(toys-3, the-2)
+dobj(put-1, toys-3)
+det(box-7, a-5)
+nn(box-7, toy-6)
+prep_in(put-1, box-7)
+
+prt(bend-1, over-2)
+
+prep_for(reach-1, toys-3)
+
+prt(stand-1, up-2)
+
+dobj(put-1, toys-2)
+det(bin-5, a-4)
+prep_in(put-1, bin-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+prep_in(place-1, toybox-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+dobj(put-1, toys-2)
+prt(put-1, away-3)
+amod(spot-6, designated-5)
+prep_in(put-1, spot-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, toy-3)
+
+prt(wipe-1, off-2)
+prep_with(wipe-1, rag-4)
+
+dobj(drop-1, toy-2)
+
+prt(pick-1, up-2)
+amod(toy-4, different-3)
+dobj(pick-1, toy-4)
+dep(pick-1, wipe-5)
+dep(pick-1, drop-7)
+conj_and(wipe-5, drop-7)
+
+mark(wiped-7, until-2)
+det(toys-5, all-3)
+amod(toys-5, dirty-4)
+nsubjpass(wiped-7, toys-5)
+auxpass(wiped-7, are-6)
+advcl(repeat-1, wiped-7)
+
+dobj(find-1, toys-2)
+
+amod(toys-2, pick-up-1)
+
+dobj(place-1, toys-2)
+advmod(belong-5, where-3)
+rel(belong-5, where-3)
+nsubj(belong-5, they-4)
+rcmod(toys-2, belong-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+dobj(put-1, toys-2)
+prt(put-1, away-3)
+
+dobj(find-1, toy-2)
+
+prt(bend-1, over-2)
+
+nsubj(toy-2, pickup-1)
+
+dobj(place-1, toy-2)
+amod(place-5, proper-4)
+prep_in(place-1, place-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+dobj(put-1, toys-2)
+prt(put-1, away-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+det(floor-6, the-5)
+prep_off(pick-1, floor-6)
+
+det(bin-4, a-3)
+prep_in(place-1, bin-4)
+amod(container-8, other-6)
+amod(container-8, suitable-7)
+prep_in(place-1, container-8)
+conj_or(bin-4, container-8)
+
+dobj(repeat-1, steps-2)
+num(steps-2, 1-3)
+dobj(repeat-1, 2-5)
+conj_and(steps-2, 2-5)
+mark(are-9, until-6)
+det(toys-8, all-7)
+nsubj(are-9, toys-8)
+dep(steps-2, are-9)
+prt(are-9, off-10)
+det(floor-13, the-12)
+prep_of(steps-2, floor-13)
+
+dobj(find-1, toy-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, toy-3)
+
+prep_for(look-1, dirt-3)
+prep_on(look-1, toy-5)
+
+dobj(wipe-1, brush-2)
+conj_or(wipe-1, wash-4)
+dobj(wash-4, dirt-5)
+prep_off_of(wash-4, toy-8)
+
+mark(clean-5, until-2)
+nsubj(clean-5, toy-3)
+cop(clean-5, is-4)
+advcl(repeat-1, clean-5)
+
+advmod(place-5, when-1)
+nsubj(place-5, toy-2)
+cop(place-5, is-3)
+amod(place-5, clean-4)
+csubj(toy-6, place-5)
+prep_in(toy-6, toybox-8)
+
+nsubj(1-3, steps-2)
+xcomp(repeat-1, 1-3)
+number(7-5, thru-4)
+num(1-3, 7-5)
+mark(remain-9, until-6)
+det(toys-8, no-7)
+nsubj(remain-9, toys-8)
+advcl(repeat-1, remain-9)
+prep_outside(remain-9, toybox-11)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+prep_from(pick-1, floor-5)
+
+dobj(put-1, toys-2)
+prep_in(put-1, toybox-4)
+
+dep(are-4, which-2)
+nsubj(are-4, toys-3)
+xsubj(put-7, toys-3)
+ccomp(identify-1, are-4)
+aux(put-7, to-5)
+auxpass(put-7, be-6)
+xcomp(are-4, put-7)
+prt(put-7, away-8)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+dobj(place-1, toys-2)
+poss(containers-6, their-4)
+amod(containers-6, rightful-5)
+prep_into(place-1, containers-6)
+
+amod(places-3, appropriate-2)
+dobj(find-1, places-3)
+nn(toys-6, store-5)
+prep_to(find-1, toys-6)
+
+dobj(pick-1, them-2)
+prt(pick-1, up-3)
+
+dobj(place-1, them-2)
+prep_in(place-1, storage-4)
+
+amod(places-6, hard-3)
+aux(reach-5, to-4)
+xcomp(hard-3, reach-5)
+prep_in(look-1, places-6)
+det(extras-9, any-8)
+prep_for(look-1, extras-9)
+
+amod(room-3, clean-2)
+dobj(enjoy-1, room-3)
+
+dobj(clean-1, toyas-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+prep_in(place-1, toybin-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+prep_in(place-1, toybox-3)
+
+nn(box-3, toy-2)
+dobj(open-1, box-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+conj_and(pick-1, put-5)
+dobj(put-5, them-6)
+det(box-9, the-8)
+prep_in(put-5, box-9)
+
+det(lid-3, the-2)
+dobj(close-1, lid-3)
+det(toybox-6, the-5)
+prep_of(lid-3, toybox-6)
+
+dobj(assess-1, mess-2)
+
+dobj(gather-1, culprets-2)
+
+dobj(assign-1, duties-2)
+
+dobj(supervise-1, task-2)
+
+prt(clean-1, up-2)
+
+
+
+dobj(locate-1, toys-2)
+
+prt(pick-1, up-2)
+det(toys-4, all-3)
+dobj(pick-1, toys-4)
+
+det(toys-3, some-2)
+dobj(place-1, toys-3)
+nn(box-8, basket-5)
+conj_or(basket-5, toy-7)
+nn(box-8, toy-7)
+prep_in(place-1, box-8)
+
+amod(toys-3, remaining-2)
+dobj(place-1, toys-3)
+prep_on(place-1, shelves-5)
+conj_or(place-1, in-7)
+prep_in(place-1, corner-8)
+
+prt(pick-1, up-2)
+dobj(pick-1, toy-3)
+
+prep_in(put-1, bin-3)
+
+dobj(repeat-1, steps-2)
+advmod(steps-2, 1-3)
+advmod(steps-2, 2-5)
+conj_and(1-3, 2-5)
+
+prt(pick-1, up-2)
+num(toy-4, one-3)
+dobj(pick-1, toy-4)
+
+nsubj(put-1, it-2)
+advmod(belongs-5, where-3)
+nsubj(belongs-5, it-4)
+dep(put-1, belongs-5)
+
+dobj(repeat-1, steps-2)
+advmod(steps-2, 1-3)
+advmod(steps-2, 2-5)
+conj_and(1-3, 2-5)
+
+advmod(more-4, when-2)
+dep(more-4, no-3)
+advcl(done-1, more-4)
+dep(more-4, toys-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+prep_in(put-1, box-3)
+
+nn(lid-3, box-2)
+dobj(close-1, lid-3)
+
+prt(bend-1, down-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+dobj(gather-1, them-2)
+prt(gather-1, up-3)
+
+dobj(dump-1, them-2)
+det(bin-6, the-4)
+nn(bin-6, toy-5)
+prep_in(dump-1, bin-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+nn(box-4, toy-3)
+prep_in(put-1, box-4)
+
+det(toys-3, the-2)
+dobj(scan-1, toys-3)
+det(floor-6, the-5)
+prep_on(scan-1, floor-6)
+
+dobj(make-5, what-2)
+nsubj(make-5, piles-3)
+aux(make-5, to-4)
+ccomp(decide-1, make-5)
+xcomp(decide-1, make-5)
+
+prt(pick-1, up-2)
+det(toy-4, a-3)
+dobj(pick-1, toy-4)
+
+dobj(place-1, it-2)
+det(pile-6, the-4)
+amod(pile-6, right-5)
+prep_in(place-1, pile-6)
+
+dep(sorted-6, repeat-1)
+dobj(repeat-1, unitl-2)
+det(toys-4, all-3)
+nsubjpass(sorted-6, toys-4)
+auxpass(sorted-6, are-5)
+
+prt(put-1, away-2)
+det(pile-4, each-3)
+dobj(put-1, pile-4)
+advmod(belongs-7, where-5)
+nsubj(belongs-7, it-6)
+advcl(put-1, belongs-7)
+

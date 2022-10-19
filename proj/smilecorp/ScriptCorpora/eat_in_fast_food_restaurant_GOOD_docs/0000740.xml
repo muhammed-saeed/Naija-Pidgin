@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0000740" url="http://search.janes.com/public/help/search/SearchTips.htm" time="2012-07-12-16:05" support="1" score="0.01138018840543382" bingtitle="Jane&apos;s Search Tips" webtitle="Jane&apos;s Search Tips">
+			<query id="001450" bing-rank="127"/>
+	<description>... beginning, middle, or end of a word. Their purpose is to allow you to search for ... For example, if the search expression &lt;NEAR/5&gt; is ... sorted in ascending date order ...</description>
+	<body>
+		Close Window 
+
+ Search tips Quick search 
+ Quick search results 
+ Search within results 
+ Advanced search 
+ Advanced search results 
+ Refine search page 
+ Image search 
+ Data Browse Quick search To perform a search type in one or more keywords and click on the search
+
+ button for a list of relevant documents.
+This will return results from all of the Jane&apos;s datasets.
+
+For best results, it&apos;s important to choose your keywords wisely. If you&apos;re
+
+ looking for information on Patriot missiles, enter Patriot rather than missiles .
+
+Searching is not case-sensitive, and keywords can be entered in upper,
+
+ lower or mixed case.
+
+ &quot;AND&quot;Searches :
+Separate multiple words with spaces to match all of the words.
+
+ frigate submarine torpedo = frigate&lt;AND&gt;submarine&lt;AND&gt;torpedo 
+
+ &quot;OR&quot;Searches :
+To match any one or more of the search terms, use the&lt;OR&gt;operator in-between your keywords, for example:
+
+ Rocket&lt;OR&gt;Missile 
+
+Phrase Searching:
+Phrase searching is achieved by entering two or more keywords surrounded
+
+ by double-quotes. Only exact matches where the keywords appear adjacent
+
+ in a document will be returned.
+
+An example is as follows:
+
+ &quot;mortar bomb&quot; 
+
+ See &apos;Advanced Search Help&apos; section for more
+
+ information on all operators. Quick Search Results 
+ Search Within Results Link: 
+This loads the‘Search Within Results&apos; page, and allows you to search
+
+ across just the results from your original query.
+
+ Advanced Search Link: 
+Clicking this link will load the Advanced Search Screen. See
+
+ &apos;Advanced Search Help&apos; 
+
+ New Search Button: 
+Entering a new keyword into the field, and clicking the &apos;New Search&apos; button
+
+ will perform a new search across the Jane&apos;s data.
+
+ Sort Score Link: 
+Clicking this link will re-sort your results by score, in ascending or
+
+ descending order.
+
+ Sort Product Link: 
+Clicking this link will re-sort your results alphabetically by publication,
+
+ in ascending or descending order.
+
+ Sort Date Link: 
+Clicking this link will re-sort your results by date, in ascending or
+
+ descending order.
+
+ Product Acronym: 
+Clicking on this link will load a pop-up window, with a brief description
+
+ of that Jane&apos;s product. For example JPSE&gt;Jane’s Police&amp;Security Equipment.
+
+ 
+
+ Paging - Result Page (numbered list) :
+This allows you to navigate to any page within your results, or simply
+
+ advance one page at a time. The‘Prev’and‘Next’buttons allow you to navigate back and forth through your results.
+
+ 
+ Search Within Results 
+This allows you to search through the results of your original query,
+
+ just type in one or more words and click the‘Search within Results’button for a list of relevant documents containing both your original
+
+ query, and your new keyword(s).
+
+ See also‘Quick Search Help’ 
+
+
+ Advanced Search Link: 
+Clicking this link will load the Advanced Search page. See‘Advanced Search Help’ 
+
+ 
+ Advanced Search 
+
+ Stemming: 
+The stemming functionality returns documents containing terms that match the root of your term,
+
+ and stemmed variations. For example:
+ Destroy &gt;Destroyed, Destroying, Destroys
+
+It&apos;s important to note that not all stemmed variations are matched.
+
+ From the example above, the term Destroyer is not matched.
+
+To return results with no stemming, surround your term(s) with double-quotes.
+ Wildcards: 
+The Wildcard characters are the question mark (to replace a single character)
+
+ and the asterisk (to replace any number of characters), and can be used at the
+
+ beginning, middle, or end of a word. Their purpose is to allow you to search for
+
+ all possible variations of a keyword. For example:
+
+ Ma?ia &gt;Mafia, Maria
+
+ hydro* &gt;Hydromechanical, Hydrophones, Hydrographic
+
+ *jet &gt;Learjet, Alpha Jet, Water-Jet, Altajet
+
+ defen*e &gt;Defensive, Defensible
+
+ Boolean Operators: 
+The Boolean&lt;AND&gt;,&lt;OR&gt;, and&lt;NOT&gt;operators are available
+
+ for use, and are more powerful than using keywords alone.
+
+The&lt;AND&gt;operator is used to return documents that contain all
+
+ of your keywords. An example of use is as follows:
+
+ destroyer&lt;AND&gt;frigate&lt;AND&gt;phalanx 
+
+The&lt;OR&gt;operator is used to return documents that contain any
+
+ of your keywords. An example of use is as follows:
+
+ destroyer&lt;OR&gt;frigate 
+
+The&lt;NOT&gt;operator is used to return documents that do not include
+
+ a keyword. An example of use is as follows:
+
+ submarine&lt;NOT&gt;nuclear 
+
+In addition, the Jane’s search functionality supports use of the
+
+ plus and minus characters as alternatives to the&lt;AND&gt;and&lt;NOT&gt;operators, respectively.
+
+An example of their use is as follows:
+
+ destroyer +frigate
+submarine -nuclear 
+
+Note that a space is required between the operator and
+
+ the preceeding term.
+
+ 
+
+ Proximity Operators: 
+The&lt;NEAR&gt;operator is
+
+ used to return documents where the keywords are in close proximity to
+
+ one another. It is more likely that a document will be of greater value
+
+ to you when your keywords appear close together in a document.
+
+The&lt;NEAR&gt;operator will match documents where your keywords appear
+
+ within 1024 words of each other. An example of use is as follows:
+
+ typhoon&lt;NEAR&gt;RAF 
+
+It is good practice to surround all operators with angle brackets as
+
+ shown, as only the AND, OR and NOT operators
+
+ can be used without angle brackets.
+
+The&lt;NEAR&gt;operator can be configured to operate with a user-defined
+
+ range as follows:
+
+&lt;NEAR/N&gt;
+
+This selects documents containing two or more words within N number of
+
+ words of each other, where N is an integer.
+
+Document scores are calculated based on the relative distance of the
+
+ specified words when they are separated by N words or less.
+
+For example, if the search expression&lt;NEAR/5&gt;is used to find two
+
+ words within five words of each other, a document that has the specified
+
+ words within three words of each other is scored higher than a document
+
+ that has the specified words within five words of each other.
+
+The N variable can be an integer between 1 and 1,024, where&lt;NEAR/1&gt;searches for two words that are next to each other.
+If N is 1,000 or above, you must specify its value without commas, as
+
+ in&lt;NEAR/1000&gt;.
+
+You can specify multiple search terms using multiple instances of&lt;NEAR/N&gt;,
+
+ as long as the value of N is the same.
+
+For example, to retrieve relevance-ranked documents that contain stemmed
+
+ variations of the words lightweight, fighter, prototype, and programme
+
+ within 10 words of each other, enter the following:
+ 
+lightweight&lt;NEAR/10&gt;fighter&lt;NEAR/10&gt;prototype&lt;NEAR/10&gt;programme 
+
+
+ Phrase Searching: 
+Phrase searching is achieved by entering two or more keywords surrounded
+
+ by double-quotes. Only exact matches where the keywords appear adjacent
+
+ in a document will be returned.
+
+An example is as follows:
+
+ &quot;mortar bomb&quot; 
+
+ Search Precendence: 
+Your search queries will be read from left to right, but certain operators
+
+ take precedence over others.
+
+For example, the query below is interpreted to mean: Look for documents
+
+ that contain Hornet , or look for documents that contain Prowler and Nimitz .
+
+ Hornet&lt;OR&gt;Prowler&lt;AND&gt;Nimitz 
+
+To change the operator precedence, use parentheses as shown below.
+
+ (Hornet&lt;OR&gt;Prowler)&lt;AND&gt;Nimitz 
+
+This expression will now look for documents that contain either Hornet and Nimitz , or Prowler and Nimitz 
+ Date Range: 
+The date range search field allows you to search for documents with a
+
+ post date between your chosen start and end dates. It’s important
+
+ to note that this is the date the document was made available for release
+
+ to our electronic services, and is not the hard copy publication date.
+
+The format for entering dates is DD-MMM-YYYY - (29-AUG-1976), or you
+
+ can use the calendar buttons to select your dates.
+
+ Document Title: 
+This field allows you to search across only document titles. If a search
+
+ term is present in a document title, that document is more likely to be
+
+ relevant to your needs. If you know it, you can also search using a full
+
+ or part document title, to quickly return just the document you want to
+
+ view.
+
+ Country: 
+Use the country field, to only return documents related to a specific
+
+ country. Magazine titles do not support the country field, as the magazine
+
+ content is often not country specific.
+
+ # of Results per page: 
+Allows you to return 10, 20 or 50 results per page.
+
+ Company: 
+The company field allows you to narrow your search, by only returning
+
+ documents that refer to that specific company. Not all titles make use
+
+ of the company field.
+
+ Score: 
+The default selection, returns documents ranked according to the search
+
+ term accuracy within the document. The higher the score, the more relevant
+
+ the document.
+
+ Date (descending): 
+Returns documents sorted in descending date order, listing the most recent
+
+ documents first.
+
+ Date (ascending): 
+Returns documents sorted in ascending date order, listing the oldest documents
+ 
+ first.
+
+ Product (descending): 
+Returns documents sorted alphabetically in descending publication order,
+
+ Z-A.
+
+ Product (ascending): 
+Returns documents sorted alphabetically in ascending publication order
+
+ A-Z.
+
+ Dataset Selection: 
+You are given several options for selecting which Jane&apos;s titles you would
+
+ like to search (e.g. Fighting Ships, Defence Weekly). By default, Janes.com
+
+ will search all of the available titles (datasets).
+
+The following options allow you to alter the selection of titles to search:
+
+
+  Select the specific datasets that you want
+
+ to search from the list box below.
+
+ 
+  Datasets you have subscribed to: ( Control + Click to select or de-select multiple datasets) 
+Windows users may select or de-select from either box in any combination
+
+ by using the Control (CTRL) key and c licking your
+
+ mouse.
+Apple Mac users can select or de-select from either box in any combination
+
+ by holding down the shift key and clicking your mouse.
+
+
+ Advanced Search Results 
+ Refine Search Button: 
+Clicking this button will take you to the Advanced Search page, with the
+
+ relevant fields now populated by your original query. From here you can
+
+ adjust any parameter to refine your original search. See also‘Advanced Search Help’ 
+ 
+ New Advanced Search Button: 
+This will load a fresh Advanced Search page, for you to perform a different
+
+ search.
+
+ New Quick Search Button: 
+This will load a fresh Quick Search page, for you to perform a different search.
+
+ Resort by Score arrow: 
+Clicking this link will re-sort your results by score, in ascending or
+
+ descending order.
+
+ Resort by Product arrow: 
+Clicking this link will re-sort your results alphabetically by publication,
+
+ in ascending or descending order.
+
+ Resort by Date arrow :
+Clicking this link will re-sort your results by date, in ascending or
+
+ descending order.
+
+
+ Product Acronym: 
+Clicking on this link will load a pop-up window, with a brief description
+
+ of that Jane’s product. For example IDR&gt;International Defence Review
+
+ 
+
+ Paging - Result Page (numbered list): 
+This allows you to navigate to any page within your results, or simply
+
+ advance one page at a time. The‘Prev’and‘Next’buttons allow you to navigate back and forth through your results. 
+ Refine Search Page 
+This is the Advanced Search page, with the relevant fields now populated
+
+ by your original query. From here you can adjust any parameter to refine
+
+ your original search. See also‘Advanced
+
+ Search Help’ .
+
+ 
+ Image Search 
+ The Image Search feature allows you to perform a keyword search across the captions that accompany all images on Janes.com. Search results are returned in the form of image thumbnails, and their captions. Subscribers can then click on a link
+
+to see the full image, and the associated publication entry.
+
+ You can sort the search results by score, product or date.
+
+ 
+ Data Browse Navigation: 
+
+The complete Jane’s content is organized into various groups of
+
+ related material. Browse uses what is known as category drill-down to
+
+ allow you to intuitively navigate through your chosen publications.
+
+When you have drilled down to the final category, only documents are
+
+ displayed.
+
+As you drill down you will notice that what is known as the‘crumb
+
+ trail’, will update at the top of the page to reflect the publication
+
+ and level that you have reached.
+
+For example, if you choose to drill down within the‘Systems and
+
+ Equipment’category, and then the‘Section’category
+
+ within Fighting Ships, the crumb trail will display as shown below.
+
+ 
+
+Should you then wish to drill down into a different title within the‘Systems and Equipment’category for example, without clicking
+
+ on the‘Back’button on your browser, you can simply click
+
+ on the link to&quot;Systems and Equipment&quot;within the crumb trail.
+ Search Within Browse: 
+In addition to drilling all the way down to a document, it’s also
+
+ possible to perform keyword searching at each category level.
+
+There are 5 levels in the browse structure.
+
+ 
+Level 1: The list of datasets (Countries, Images, Markets, News/Analysis,
+
+ Operational Guides, Organizations, Systems and Equipment)
+
+
+ 
+Level 2: The list of publications within each dataset
+
+
+ 
+Level 3: The categories that make up each publication (Company, Country,
+
+ Date, Section)
+
+
+ 
+Level 4: The list of companies, countries, dates, and sections
+
+
+ 
+Level 5: The list of records that match each company, country, date,
+
+ and section.
+
+
+
+It is possible to perform keyword searching using the search functionality,
+
+ across:
+
+A single dataset at level 1
+
+Single, or multiple publications at level 2
+
+Single or multiple categories at level 3 and 4
+
+Just the list of records in that category at level 5
+
+
+Being able to drill down into a publication, and then perform keyword
+
+ searches at that level, gives you more control over what you are searching
+
+ when compared with keyword searching using the main search page.
+
+For example using the main search page to search across a specific publication
+
+ section would require you to know the name of that section. Using the
+
+ browse functionality you can visually select your chosen category, and
+
+ search across it.
+	</body>
+</document>

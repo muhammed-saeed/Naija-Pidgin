@@ -1,0 +1,235 @@
+predet(doors-4, all-2)
+det(doors-4, the-3)
+dobj(lock-1, doors-4)
+
+predet(windows-4, all-2)
+det(windows-4, the-3)
+dobj(lock-1, windows-4)
+
+aux(guard-3, to-2)
+xcomp(go-1, guard-3)
+nn(cage-5, dog-4)
+dobj(guard-3, cage-5)
+
+nn(cage-4, guard-2)
+nn(cage-4, dog-3)
+dobj(open-1, cage-4)
+
+det(house-4, the-3)
+prep_inside(go-1, house-4)
+
+dobj(lock-1, door-2)
+
+dobj(lock-1, windows-2)
+
+det(run-4, the-2)
+nn(run-4, dog-3)
+dobj(have-1, run-4)
+det(house-7, the-6)
+prep_around(have-1, house-7)
+
+amod(persons-4, suspisious-3)
+prep_for(check-1, persons-4)
+
+det(gates-3, the-2)
+dobj(lock-1, gates-3)
+dobj(lock-1, doors-5)
+conj_and(gates-3, doors-5)
+
+det(doors-3, the-2)
+nsubjpass(closed-5, doors-3)
+auxpass(closed-5, are-4)
+ccomp(check-1, closed-5)
+
+det(doors-3, the-2)
+nsubjpass(locked-5, doors-3)
+auxpass(locked-5, are-4)
+ccomp(check-1, locked-5)
+
+det(windows-3, the-2)
+nsubjpass(closed-5, windows-3)
+auxpass(closed-5, are-4)
+ccomp(check-1, closed-5)
+
+det(windows-3, the-2)
+nsubjpass(locked-5, windows-3)
+auxpass(locked-5, are-4)
+ccomp(check-1, locked-5)
+
+det(windows-3, the-2)
+dobj(lock-1, windows-3)
+det(house-6, the-5)
+prep_in(lock-1, house-6)
+
+det(doors-3, the-2)
+dobj(lock-1, doors-3)
+det(house-6, the-5)
+prep_in(lock-1, house-6)
+
+prt(turn-1, on-2)
+det(system-5, the-3)
+nn(system-5, security-4)
+dobj(turn-1, system-5)
+det(house-8, the-7)
+prep_in(turn-1, house-8)
+
+det(fence-5, the-3)
+amod(fence-5, electric-4)
+prep_on(turn-1, fence-5)
+det(house-8, the-7)
+prep_outside(turn-1, house-8)
+
+det(windows-3, the-2)
+dobj(close-1, windows-3)
+
+det(doors-3, the-2)
+dobj(close-1, doors-3)
+
+amod(peoples-4, strange-3)
+prep_for(check-1, peoples-4)
+prep_for(check-1, animal-6)
+conj_or(peoples-4, animal-6)
+det(yard-9, the-8)
+prep_on(check-1, yard-9)
+
+amod(peoples-4, strange-3)
+prep_for(check-1, peoples-4)
+prep_for(check-1, animal-6)
+conj_or(peoples-4, animal-6)
+det(patio-9, the-8)
+prep_on(check-1, patio-9)
+
+amod(peoples-4, strange-3)
+prep_for(check-1, peoples-4)
+prep_for(check-1, animal-6)
+conj_or(peoples-4, animal-6)
+det(house-9, the-8)
+prep_on(check-1, house-9)
+
+dobj(go-1, outside-2)
+prep_of(outside-2, house-4)
+
+prep(begin-1, walking-2)
+dep(walking-2, around-3)
+pobj(around-3, house-4)
+
+amod(individuals-4, unidentified-3)
+prep_for(search-1, individuals-4)
+
+prep(complete-1, walking-2)
+dep(walking-2, around-3)
+pobj(around-3, house-4)
+
+advmod(return-1, inside-2)
+
+dobj(lock-1, door-2)
+
+acomp(make-1, sure-2)
+det(doors-4, all-3)
+nsubjpass(locked-8, doors-4)
+conj_and(doors-4, windows-6)
+nsubjpass(locked-8, windows-6)
+auxpass(locked-8, are-7)
+ccomp(sure-2, locked-8)
+
+det(pets-4, all-3)
+prep_in(bring-1, pets-4)
+
+det(doors-3, all-2)
+dobj(close-1, doors-3)
+dobj(close-1, windows-5)
+conj_and(doors-3, windows-5)
+
+det(doors-3, all-2)
+dobj(lock-1, doors-3)
+dobj(lock-1, windows-5)
+conj_and(doors-3, windows-5)
+
+det(system-4, the-2)
+nn(system-4, security-3)
+nsubj(activate-1, system-4)
+
+det(blinds-3, the-2)
+dobj(close-1, blinds-3)
+
+det(phone-3, a-2)
+dobj(take-1, phone-3)
+
+det(saferoom-4, a-3)
+prep_to(move-1, saferoom-4)
+
+prep_around(go-1, house-3)
+
+prep_for(look-1, intruders-3)
+
+nsubj(intruders-2, report-1)
+prep_to(intruders-2, police-4)
+
+dobj(lock-1, doors-2)
+
+dobj(lock-1, windows-2)
+
+prep_for(check-1, anything-3)
+det(ordinary-7, the-6)
+prep_out_of(check-1, ordinary-7)
+
+det(doors-3, all-2)
+dobj(locking-1, doors-3)
+
+det(windows-3, all-2)
+dobj(locking-1, windows-3)
+
+nsubj(activate-1, alarm-2)
+
+dobj(put-1, fense-2)
+prep_around(put-1, yard-4)
+
+num(dogs-4, 2-2)
+amod(dogs-4, aggresive-3)
+dobj(get-1, dogs-4)
+
+dobj(put-1, dogs-2)
+amod(yard-5, fensed-4)
+prep_in(put-1, yard-5)
+
+advmod(go-1, inside-2)
+
+dobj(close-1, windows-2)
+
+dobj(close-1, doors-2)
+
+dobj(lock-1, windows-2)
+
+dobj(lock-1, doors-2)
+
+dobj(secure-1, house-2)
+
+prt(sending-1, out-2)
+det(team-4, a-3)
+dobj(sending-1, team-4)
+prep_around(sending-1, perimeter-6)
+
+det(intruder-3, no-2)
+dobj(ensure-1, intruder-3)
+
+det(breach-4, no-2)
+nn(breach-4, security-3)
+dobj(ensure-1, breach-4)
+
+det(fence-3, all-2)
+dobj(lock-1, fence-3)
+dobj(lock-1, doors-5)
+conj_and(fence-3, doors-5)
+
+advmod(go-1, outside-2)
+
+prep_around(walk-1, house-3)
+
+det(people-5, any-2)
+amod(people-5, suspicious-3)
+amod(people-5, looking-4)
+dobj(observe-1, people-5)
+
+det(alarm-4, the-3)
+prep_on(turn-1, alarm-4)
+

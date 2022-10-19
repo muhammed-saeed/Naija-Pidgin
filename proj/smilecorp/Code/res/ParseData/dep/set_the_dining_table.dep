@@ -1,0 +1,305 @@
+dobj(put-1, cover-2)
+
+dobj(put-1, dishes-2)
+prep_on(put-1, table-4)
+
+dobj(put-1, glasses-2)
+
+dobj(put-1, silverware-2)
+
+det(objects-3, all-2)
+dobj(clear-1, objects-3)
+det(surface-7, the-5)
+nn(surface-7, table-6)
+prep_from(clear-1, surface-7)
+
+det(dish-3, a-2)
+dobj(place-1, dish-3)
+det(position-7, each-5)
+nn(position-7, seating-6)
+prep_at(place-1, position-7)
+
+det(glass-3, a-2)
+dobj(place-1, glass-3)
+det(position-6, each-5)
+prep_at(place-1, position-6)
+
+nsubj(silverware-2, place-1)
+det(position-5, each-4)
+prep_at(silverware-2, position-5)
+
+det(napkin-3, a-2)
+dobj(place-1, napkin-3)
+det(position-6, each-5)
+prep_at(place-1, position-6)
+
+det(table-3, the-2)
+dobj(clear-1, table-3)
+
+dobj(put-1, placemats-2)
+prep_on(put-1, table-4)
+
+dobj(arrange-1, plates-2)
+prep_on(arrange-1, table-4)
+
+dobj(arrange-1, utensils-2)
+prep_on(arrange-1, table-4)
+
+dobj(arrange-1, napkins-2)
+prep_on(arrange-1, table-4)
+
+nn(glasses-3, drinking-2)
+dobj(arrange-1, glasses-3)
+prep_on(arrange-1, table-5)
+
+advmod(dining-7, how-2)
+amod(people-4, many-3)
+nsubj(dining-7, people-4)
+aux(dining-7, will-5)
+aux(dining-7, be-6)
+ccomp(determine-1, dining-7)
+
+det(tablecloth-3, a-2)
+dobj(put-1, tablecloth-3)
+det(table-6, the-5)
+prep_on(put-1, table-6)
+
+prt(take-1, out-2)
+predet(dishes-5, all-3)
+det(dishes-5, the-4)
+dobj(take-1, dishes-5)
+
+prt(take-1, out-2)
+predet(cutlery-5, all-3)
+det(cutlery-5, the-4)
+dobj(take-1, cutlery-5)
+
+det(cutlery-3, the-2)
+dobj(put-1, cutlery-3)
+dobj(put-1, dishes-5)
+conj_and(cutlery-3, dishes-5)
+det(table-8, the-7)
+prep_on(put-1, table-8)
+
+dobj(get-1, silverware-2)
+
+prep_to(bring-1, table-3)
+
+prep_on(put-1, table-3)
+
+dobj(get-1, plates-2)
+
+prep_to(bring-1, table-3)
+
+prep_on(put-1, table-3)
+
+amod(table-3, dining-2)
+dobj(locate-1, table-3)
+
+dobj(locate-1, cutlery-2)
+
+det(fork-3, a-2)
+dobj(put-1, fork-3)
+det(left-6, the-5)
+prep_on(fork-3, left-6)
+det(knife-8, a-7)
+dobj(put-1, knife-8)
+dep(fork-3, knife-8)
+det(right-11, the-10)
+prep_on(knife-8, right-11)
+det(spoon-14, a-13)
+dobj(put-1, spoon-14)
+conj_and(fork-3, spoon-14)
+det(top-17, the-16)
+prep_at(spoon-14, top-17)
+
+dobj(repeat-1, process-2)
+det(table-5, each-4)
+prep_for(process-2, table-5)
+dep(repeat-1, setting-6)
+
+amod(number-3, appropiate-2)
+dobj(place-1, number-3)
+prep_of(number-3, plates-5)
+prep_on(place-1, table-7)
+
+amod(number-3, appropriate-2)
+dobj(place-1, number-3)
+prep_of(number-3, cups-5)
+prep_on(place-1, table-7)
+
+amod(number-3, appropriate-2)
+dobj(place-1, number-3)
+prep_of(number-3, forks-5)
+prep_of(number-3, knives-7)
+conj_and(forks-5, knives-7)
+prep_on(place-1, table-9)
+
+nn(shakers-5, salt-2)
+conj_and(salt-2, pepper-4)
+nn(shakers-5, pepper-4)
+dobj(bring-1, shakers-5)
+prep_to(bring-1, table-7)
+
+amod(table-3, dining-2)
+dobj(identify-1, table-3)
+
+dobj(identify-1, silverware-2)
+
+dobj(place-1, silverware-2)
+amod(table-5, dining-4)
+prep_around(place-1, table-5)
+
+dobj(identify-1, food-2)
+
+dobj(place-1, food-2)
+prep_around(place-1, table-4)
+prep_on(place-1, plates-6)
+
+prt(putting-1, out-2)
+det(placemats-4, the-3)
+dobj(putting-1, placemats-4)
+
+prt(putting-1, out-2)
+det(amount-5, the-3)
+amod(amount-5, proper-4)
+dobj(putting-1, amount-5)
+prep_of(amount-5, utensils-7)
+
+nsubj(napkins-3, folding-1)
+dep(napkins-3, the-2)
+
+csubj(place-6, putting-1)
+prt(putting-1, out-2)
+dobj(putting-1, plates-3)
+prep_for(plates-3, each-5)
+dep(place-6, setting-7)
+
+dobj(identify-1, silverware-2)
+dobj(identify-1, dishes-4)
+conj_and(silverware-2, dishes-4)
+
+dobj(obtain-1, silverware-2)
+dobj(obtain-1, dishes-4)
+conj_and(silverware-2, dishes-4)
+
+amod(dishes-3, silverware-2)
+dobj(place-1, dishes-3)
+dobj(place-1, napkins-5)
+conj_and(dishes-3, napkins-5)
+prep_on(place-1, table-7)
+
+prt(lay-1, out-2)
+dobj(lay-1, tablecloths-3)
+
+prt(lay-1, out-2)
+dobj(lay-1, placemats-3)
+
+prt(lay-1, out-2)
+dobj(lay-1, plates-3)
+
+prt(lay-1, out-2)
+dobj(lay-1, glasses-3)
+
+prt(lay-1, out-2)
+dobj(lay-1, silverware-3)
+
+prt(lay-1, out-2)
+dobj(lay-1, food-3)
+
+det(tablecloth-3, the-2)
+dobj(lay-1, tablecloth-3)
+
+det(plates-3, the-2)
+dobj(place-1, plates-3)
+det(table-6, the-5)
+prep_on(place-1, table-6)
+
+det(forks-3, the-2)
+dobj(place-1, forks-3)
+det(table-6, the-5)
+prep_on(place-1, table-6)
+
+det(spoons-3, the-2)
+dobj(place-1, spoons-3)
+det(table-6, the-5)
+prep_on(place-1, table-6)
+
+det(knives-3, the-2)
+dobj(place-1, knives-3)
+det(table-6, the-5)
+prep_on(place-1, table-6)
+
+det(glasses-3, the-2)
+dobj(place-1, glasses-3)
+det(table-6, the-5)
+prep_on(place-1, table-6)
+
+det(napkins-3, the-2)
+dobj(place-1, napkins-3)
+det(table-6, the-5)
+prep_on(place-1, table-6)
+
+det(dishes-3, the-2)
+dobj(get-1, dishes-3)
+
+dobj(put-1, them-2)
+det(table-5, the-4)
+prep_on(put-1, table-5)
+
+prt(put-1, down-2)
+dobj(put-1, placemats-3)
+
+det(plate-3, the-2)
+dobj(put-1, plate-3)
+det(center-6, the-5)
+prep_in(put-1, center-6)
+
+det(fork-3, the-2)
+dobj(place-1, fork-3)
+det(left-6, the-5)
+prep_on(fork-3, left-6)
+
+det(spoon-3, the-2)
+dobj(place-1, spoon-3)
+dobj(place-1, knife-5)
+conj_and(spoon-3, knife-5)
+det(right-8, the-7)
+prep_on(place-1, right-8)
+
+det(glass-3, a-2)
+dobj(add-1, glass-3)
+
+det(centerpiece-3, a-2)
+dobj(add-1, centerpiece-3)
+
+dobj(fold-1, napkin-2)
+
+nn(cloth-3, table-2)
+dobj(remove-1, cloth-3)
+
+dobj(place-1, plates-2)
+
+dobj(place-1, knives-2)
+dobj(place-1, forks-4)
+conj_and(knives-2, forks-4)
+
+dobj(place-1, drinks-2)
+
+dobj(fill-1, drinks-2)
+
+nsubj(napkins-2, place-1)
+
+dobj(add-1, salt-2)
+conj_and(add-1, pepper-4)
+dobj(pepper-4, shakers-5)
+
+det(plates-3, the-2)
+dobj(place-1, plates-3)
+
+det(cutlery-3, the-2)
+dobj(place-1, cutlery-3)
+
+det(glasses-3, the-2)
+dobj(place-1, glasses-3)
+

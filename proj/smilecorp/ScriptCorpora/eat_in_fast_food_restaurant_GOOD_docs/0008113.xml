@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0008113" url="http://www.mcts.com/Master-Scheduling.html" time="2012-07-13-01:12" support="3" score="0.0025460442850082313" bingtitle="MCTS - Master Scheduling, An Overview... - Management Coaching ..." webtitle="MCTS - Master Scheduling, An Overview...">
+			<query id="000604" bing-rank="215"/>
+			<query id="000607" bing-rank="206"/>
+			<query id="000623" bing-rank="85"/>
+	<description>... or without air conditioning, an option, and a fast-food restaurant ... firm to stock 4 + 2 + 4 + 3 + S or 18 different items rather than 480. Custom Design &amp; Make-to-Order</description>
+	<body>
+		~ 
+ Video&amp;eBook Downloads ~   
+
+ eBook: Master-Scheduling— $3.00 
+
+ MASTER SCHEDULING: An Overview (Sample of Full-Text) 
+
+ The sections entitled: Uncertainty&amp;Promises and Closed-Loop Planning described production planning and resource requirements planning, which are aggregate plans of production and capacity generally taking one to ten years to complete execution. These plans combine (aggregate) similar products into product groups, combine demand into monthly totals, and often group personnel requirements across departments. The time comes when individual products and services must be scheduled at specific work centers. This is accomplished by master scheduling---producing a plan to manufacture specific items or provide specific services within a given time period. 
+
+ Rough cut capacity planning (RCCP) is the process of determining if the plan is feasible; it determines whether the organization has sufficient capacity to carry out the plan. Although RCCP is more refined than resource requirements planning (RRP), it is called“rough cut&quot;because it is less refined than capacity requirements planning (CRP). 
+
+ Figure 1 illustrates how master scheduling and rough cut capacity planning relate to the corporate and operations planning. 
+
+ This section presents a general picture of master scheduling, the master production schedule (MPS) and its relationship to rough cut capacity planning, the projected on hand (POH) inventory and order promising using the available-to-promise (ATP) quantity. Since these terms and processes are used primarily in manufacturing, we describe them in that context. However, their counterparts exist in many service organizations, A description of the development of the master schedule including the ATP, the POH inventory, and the MPS and its relationship to RCCP follows. 
+
+ 
+ MASTER SCHEDULING&amp;THE MPS 
+
+ The master schedule (MS) is a presentation of the demand, including the fore­cast and the backlog (customer orders received), the master production schedule (the supply plan), the projected on hand (POH) inventory, and the available-to-promise (ATP) quantity. The master production schedule (MPS) is the primary output of the master scheduling process. The MPS specifies the end items the organization anticipates manufacturing each period. End items are either final products or the items from which final assemblies (products) are made; as described later in this section. Thus, the MPS is the plan for pro­viding the supply to meet the demand. An example of a master schedule only including the MPS and the backlog is shown in Table 1 . This example is developed further in the section. 
+
+ 
+ INTERFACES 
+
+ The master schedule (MS) is a key link in the manufacturing planning and control chain. The MS interfaces with marketing, distribution planning, production planning, and capacity planning. It also drives the material requirements planning (MRP) system as shown in Figure 1 . 
+
+ Master scheduling calculates the quantity required to meet demand requirements from all sources. Table 2 shows a case in which the distribution requirements are the gross requirements for the MS. Material requirements planning is used to calculate the quantity required. For example, the 15 units in inventory at the end of Week 3 are subtracted from the gross requirements, 85 units, of Week 4 to determine the net requirements of 70 units for Week 4. 
+
+ The MS enables marketing to make legitimate delivery commitments to field warehouses and final customers. It enables production to evaluate capacity requirements in a more detailed manner. It also provides the necessary information for production and marketing to agree on a course of action when customer requests cannot be met by normal capacity. Finally, it provides to management the opportunity to ascertain whether the business plan and its strategic objectives will be achieved. 
+
+ Before describing the activities involved in creating and managing the MS, we examine the different organizational environments in which master scheduling takes place. These environments are determined in large measure by an organization&apos;s strategic response to the interests of customers and to the actions of competitors. An understanding of these environments, of the bill of material, and of the planning horizon is essential to the first stage of master planning activities---designing the master schedule. 
+
+ 
+ THE ENVIRONMENT 
+
+ The competitive strategy of an organization may be any of the following: 
+ 
+ 1. Make finished items to stock (sell from finished goods inventory) 
+
+ 2. Assemble final products to order and make components, 20 subassemblies, and options to stock 
+
+ 3. Custom design and make-to-order 
+ 
+ The competitive nature of the market and the strategy of the organization determine which of the MS alternates it should use. It is not unusual for an organization to have different strategies for different product lines and, thus, use different MS approaches. 
+
+ 
+ Make-to-Stock 
+
+ The competitive strategy of make-to-stock emphasizes immediate delivery of reasonably priced off-the-shelf standard items. In this environment the MPS is the anticipated build schedule of the items required to maintain the finished goods at the desired level. Quantities on the schedule are based on manufacturing economics and the forecast demand as well as desired safety stock levels. An end item bill of material (BOM) (described later in this section) is used in this environment. Items may be produced either on a mass production (continuous or repetitive) line or in batch production. Case I in Figure 2 represents this situation. Note that the MPS is the same as the final assembly schedule (FAS) in this case. 
+
+ 
+ Assemble-, Finish-, or Package-to-Order 
+
+ In this environment, options, subassemblies and components are either produced or purchased to stock. The competitive strategy is to be able to supply a large variety of final product configurations from standard components and subassemblies within a relatively short lead time. For example, an automobile may be ordered with or without air conditioning, an option, and a fast-food restaurant will deliver your hamburger with or without lettuce. This environment requires a forecast of options as well as of total demand. Thus, there I an MPS for the options, accessories, and common components as well as final assembly schedule (FAS). This is Case II in Figure 2 . 
+
+ The advantage of this approach is that many different final products can be produced from relatively few subassemblies and components. This reduces inventory substantially. Figure 3 represents such a situation. Each final product contains four major subassemblies and a component However, each sub­assembly and the component has different variations (alternates). There are four different variations of SA1, two of SA2, four of SA3, three of SA4, and five of C, which results in 4 x 2 x 4 x 3 x 5 or 480 final product configurations. Assembling to order enables the firm to stock 4 + 2 + 4 + 3 + S or 18 different items rather than 480. 
+
+ 
+ Custom Design&amp;Make-to-Order 
+
+ In many situations the final design of an item is part of what is purchased. The final product is usually a combination of standard items and items custom designed to meet the special needs of the customer, Combined material handling and manufacturing processing systems are an example, special trucks for off-the-road work on utility lines and facilities are another. Thus, there is one MPS for the raw material and the standard items that are purchased, fabricated, or built to stock and another MPS for the custom engineering, fabrication, and final assembly. Case III in Figure 2 represents this situation. 
+
+ As we proceed with the discussion of the policies and procedures of master scheduling and its relationship to rough cut capacity planning (RCCP), we will examine further the relationship of these environments to the MPS task... (there&apos;s much more!) 
+
+ eBook: Master-Scheduling— $3.00 
+
+ eBook 
+ Topics : An Integrated Set of Useful Articles Closed-Loop 
+ Planning How 
+ to Test and Fine-Tune Strategic and Tactical Plans so that Resources 
+ are Only Expended on Achievable Results. Managing 
+ Uncertainty Making 
+ and Keeping Promises that are Realistic and Achievable is a Vital Skill 
+ Needed at Every Organizational Level. Master-Scheduling Available-To-Promise 
+ Inventory can be Strategically Projected Using the Tools of Master Scheduling 
+ by Aligning Production Plans and Sales Plans. Rough-Cut 
+ Capacity Projected 
+ Resource Constraints are used to Modify Production Schedules to Assure 
+ that Available-To-Promise Inventory will Meet Customer Demands. Production-Activity-Control Detailed 
+ Capacity and Material Plans become Actionable, Unanticipated Constraints 
+ are Communicated Immediately to the Scheduler. Just-In-Time When 
+ the Goal is Zero Inventory, the Method is JIT. Only Buy or Build to 
+ Match Real Orders. Inventory Backlog must be Zero as well! Theory 
+ of Constraints TOC 
+ can be seen as Similar to JIT but has a much Wider Application. Once 
+ Identified, Constraints are Exploited until it is Aleviated. Mentorship Developing 
+ Effective Work Relationships is Essential when Communication is central 
+ to the Success of Management Metrics. 
+
+ 
+
+   
+ 
+     ERP-MRP 
+ Evolution…   Keeping 
+ Promises... ERP&amp;Hoshin Kanri…   Responsible 
+ Action... ERP 
+ Implementations…    Employee 
+ Involvement... Profit-Ability Improvement...   Overcoming 
+ Resistance... Profit-Ability 
+ Management Principles...   Developing 
+ Organizational Integrity… People, 
+ Empowerment&amp;Profit-Ability…   Turning 
+ Communication Into a System... Hoshin 
+ Kanri &amp;Deming&apos;s Plan-Do-Check-Act...   Identifying 
+ the Heart of What Really Matters...
+	</body>
+</document>

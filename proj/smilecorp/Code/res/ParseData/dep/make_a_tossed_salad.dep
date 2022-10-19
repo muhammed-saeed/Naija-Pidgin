@@ -1,0 +1,538 @@
+det(bowl-4, a-2)
+nn(bowl-4, salad-3)
+dobj(find-1, bowl-4)
+
+dobj(find-1, lettuce-2)
+
+dobj(chop-1, lettuce-2)
+amod(pieces-5, bit-size-4)
+prep_into(chop-1, pieces-5)
+
+dobj(place-1, lettuce-2)
+prep_into(place-1, bowl-4)
+
+amod(vegetables-4, other-2)
+nn(vegetables-4, salad-3)
+dobj(slice-1, vegetables-4)
+prep_into(slice-1, bowl-6)
+
+nn(dressing-3, salad-2)
+dobj(pour-1, dressing-3)
+prep_into(pour-1, bowl-5)
+
+nn(dressing-3, salad-2)
+dobj(stir-1, dressing-3)
+dobj(stir-1, salad-5)
+conj_and(dressing-3, salad-5)
+det(bowl-8, the-7)
+prep_in(stir-1, bowl-8)
+
+dobj(cut-1, salad-2)
+
+dobj(wash-1, salad-2)
+
+nn(salad-3, cut-2)
+dobj(put-1, salad-3)
+prep_in(put-1, bowl-5)
+
+dobj(add-1, slices-2)
+prep_of(slices-2, tomato-4)
+
+dobj(add-1, slices-2)
+prep_of(slices-2, cucumber-4)
+
+advmod(add-2, optionally-1)
+dobj(add-2, sauce-3)
+
+dobj(add-1, spoon-2)
+
+det(bowl-4, a-2)
+amod(bowl-4, targe-3)
+dobj(get-1, bowl-4)
+
+nn(tongs-3, salad-2)
+dobj(get-1, tongs-3)
+
+nn(ingredients-3, salad-2)
+dobj(get-1, ingredients-3)
+
+dobj(put-1, ingredients-2)
+prep_in(put-1, bowl-4)
+
+dobj(toss-1, ingredients-2)
+prep_with(toss-1, tongs-4)
+
+det(sauce-3, a-2)
+dobj(add-1, sauce-3)
+mark(required-5, if-4)
+dep(add-1, required-5)
+
+dobj(wash-1, vegetables-2)
+
+dobj(slice-1, vegetables-2)
+
+dobj(place-1, vegetables-2)
+det(spinner-6, a-4)
+nn(spinner-6, salad-5)
+prep_in(place-1, spinner-6)
+
+det(salad-3, the-2)
+dobj(spin-1, salad-3)
+mark(dry-7, until-4)
+nsubj(dry-7, it-5)
+cop(dry-7, is-6)
+advcl(spin-1, dry-7)
+
+det(salad-3, the-2)
+dobj(place-1, salad-3)
+det(bowl-6, a-5)
+prep_in(place-1, bowl-6)
+
+
+det(ingredients-3, the-2)
+dobj(place-1, ingredients-3)
+det(salad-6, the-5)
+prep_of(ingredients-3, salad-6)
+det(bowl-9, a-8)
+prep_in(place-1, bowl-9)
+
+det(ingredients-3, the-2)
+dobj(mix-1, ingredients-3)
+advmod(mix-1, thoroughly-4)
+
+det(bowl-3, a-2)
+dobj(get-1, bowl-3)
+
+det(lettuce-3, some-2)
+dobj(wash-1, lettuce-3)
+
+det(lettuce-3, the-2)
+dobj(tear-1, lettuce-3)
+prep_into(tear-1, pieces-5)
+
+det(lettuce-3, the-2)
+dobj(put-1, lettuce-3)
+det(bowl-6, the-5)
+prep_in(put-1, bowl-6)
+
+det(dressing-4, some-2)
+nn(dressing-4, salad-3)
+dobj(get-1, dressing-4)
+
+det(dressing-3, the-2)
+dobj(pour-1, dressing-3)
+det(lettuce-6, the-5)
+prep_onto(pour-1, lettuce-6)
+det(bowl-9, the-8)
+prep_in(lettuce-6, bowl-9)
+
+det(lettuce-3, the-2)
+dobj(stir-1, lettuce-3)
+det(spoon-7, a-5)
+amod(spoon-7, big-6)
+prep_with(stir-1, spoon-7)
+
+amod(bowl-4, large-2)
+amod(bowl-4, clean-3)
+dobj(get-1, bowl-4)
+
+prt(cut-1, up-2)
+nn(tomatoeradish-4, lettuce-3)
+dobj(cut-1, tomatoeradish-4)
+
+prt(cut-1, up-2)
+dobj(cut-1, cucumbermushroombrocoli-3)
+
+det(foods-5, all-2)
+amod(foods-5, cut-3)
+dep(cut-3, up-4)
+dobj(place-1, foods-5)
+det(bowl-10, the-7)
+amod(bowl-10, large-8)
+amod(bowl-10, clean-9)
+prep_in(place-1, bowl-10)
+
+advmod(toss-1, together-2)
+conj_and(toss-1, serve-4)
+nn(dressing-7, salad-6)
+prep_with(serve-4, dressing-7)
+
+det(bowl-3, a-2)
+dobj(getting-1, bowl-3)
+
+det(vegetables-3, the-2)
+dobj(washing-1, vegetables-3)
+
+prt(cutting-1, up-2)
+det(vegetables-4, the-3)
+dobj(cutting-1, vegetables-4)
+
+nn(dressing-4, salad-3)
+prep_on(put-1, dressing-4)
+
+
+dobj(take-1, ingredients-2)
+prep_from(take-1, fridge-4)
+
+dobj(wash-1, lettuce-2)
+
+dobj(spin-1, lettuce-2)
+dep(spin-1, dry-3)
+
+dobj(tear-1, lettuce-2)
+prep_into(tear-1, pieces-4)
+
+amod(vegetables-3, other-2)
+nsubj(slice-1, vegetables-3)
+
+dobj(add-1, dressing-2)
+
+advmod(toss-1, together-2)
+
+det(vegetables-3, the-2)
+dobj(wash-1, vegetables-3)
+
+det(vegetables-3, the-2)
+dobj(chop-1, vegetables-3)
+
+det(vegetables-3, the-2)
+dobj(mix-1, vegetables-3)
+
+dobj(shred-1, lettuce-2)
+
+dobj(cut-1, tomatoes-2)
+
+dobj(cut-1, cucumbers-2)
+
+dobj(cut-1, carrots-2)
+
+dobj(wash-1, lettuce-2)
+
+dobj(toss-1, salad-2)
+prep_with(toss-1, dressing-4)
+
+dobj(serve-1, salad-2)
+
+prt(get-1, out-2)
+det(bowl-5, a-3)
+nn(bowl-5, salad-4)
+dobj(get-1, bowl-5)
+
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(chop-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+dobj(add-1, lettuce-2)
+
+dobj(add-1, dressing-2)
+
+nn(tongs-3, salad-2)
+dobj(use-1, tongs-3)
+aux(toss-5, to-4)
+xcomp(use-1, toss-5)
+det(ingredients-7, all-6)
+dobj(toss-5, ingredients-7)
+advmod(toss-5, together-8)
+
+dobj(buy-1, veggies-2)
+
+
+
+
+prep_into(put-1, bowl-3)
+
+nn(dressing-4, salad-3)
+prep_in(put-1, dressing-4)
+
+
+
+
+nn(ingredients-3, salad-2)
+dobj(obtain-1, ingredients-3)
+
+dobj(cut-1, ingredients-2)
+
+prep_in(place-1, bowl-3)
+
+prt(toss-1, away-2)
+
+dobj(prepare-1, ingredients-2)
+prep_for(prepare-1, salad-4)
+
+dobj(mix-1, ingredients-2)
+prepc_in(mix-1, mixing-4)
+dobj(mixing-4, bowl-5)
+
+det(salad-3, the-2)
+dobj(toss-1, salad-3)
+
+nsubj(ready-3, salad-1)
+cop(ready-3, is-2)
+aux(serve-5, to-4)
+xcomp(ready-3, serve-5)
+
+dobj(find-1, recipe-2)
+
+dobj(find-1, bowl-2)
+
+dobj(find-1, ingredients-2)
+
+dobj(follow-1, recipe-2)
+
+dobj(mix-1, ingredients-2)
+
+dobj(add-1, dressing-2)
+
+
+dobj(get-1, vegetables-2)
+
+dobj(chop-1, vegetables-2)
+
+prep_into(put-1, bowl-3)
+
+prep_on(put-1, dressing-3)
+
+amod(bowls-4, small-3)
+prep_in(serve-1, bowls-4)
+
+dobj(chop-1, of-2)
+pobj(of-2, lettuce-3)
+
+prt(chop-1, up-2)
+dobj(chop-1, cucumbers-3)
+
+prt(chop-1, up-2)
+dobj(chop-1, tomatoes-3)
+
+prt(chop-1, up-2)
+dobj(chop-1, mushrooms-3)
+
+dobj(put-1, all-2)
+prep_into(put-1, bowl-4)
+
+nsubj(tongs-2, use-1)
+xsubj(mix-4, use-1)
+aux(mix-4, to-3)
+xcomp(tongs-2, mix-4)
+
+nn(dressing-3, salad-2)
+dobj(add-1, dressing-3)
+
+dobj(get-1, vegeatbles-2)
+
+prt(cut-1, up-2)
+dobj(cut-1, vegetables-3)
+
+prep_into(put-1, bowl-3)
+
+prep_on(pour-1, dressing-3)
+
+
+dobj(get-1, vegetables-2)
+
+prt(chop-1, up-2)
+dobj(chop-1, vegetables-3)
+
+amod(vegetables-3, choped-2)
+dobj(put-1, vegetables-3)
+prep_in(put-1, bowl-5)
+
+dobj(put-1, dressing-2)
+prep_on(put-1, sald-4)
+
+det(salad-3, the-2)
+dobj(toss-1, salad-3)
+

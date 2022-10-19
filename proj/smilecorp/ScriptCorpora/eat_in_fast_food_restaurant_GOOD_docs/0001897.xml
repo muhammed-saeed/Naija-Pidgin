@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0001897" url="http://www.experts-exchange.com/Microsoft/Development/MS-SQL-Server/SQL-Server-2005/Q_23802499.html" time="2012-07-12-17:48" support="1" score="0.0016911996219831846" bingtitle="Unused (KB) in Disk Usage By Table report: Microsoft, SQL Server 2005" webtitle="Unused (KB) in Disk Usage By Table report: Microsoft, SQL Server 2005">
+			<query id="000576" bing-rank="97"/>
+	<description>1 MB log file can be if he put database to simple ... The database growth a lot, near 5.5GB for which some ... Showcase your knowledge; No credit card required; Sign Up to ...</description>
+	<body>
+		Member Login 
+ Help About Us 
+ 
+ Remember Me 
+ 
+ Login Forgot password? Sign up 
+ 
+ Ask Answer Topics 
+ Topics Microsoft Apple Digital Living Hardware Software Operating Systems Storage Database Security Programming Web Development Networking Virus&amp;Spyware Browse All 
+ Articles Tutorials Blogs Start Free Trial 
+ 
+ 
+ 
+ 
+ 
+ Experts Exchange MS SQL Server MS SQL Server 2005 Unused (KB) in Disk Usage By Table report 
+ 
+Question
+ 
+Unused (KB) in Disk Usage By Table report
+ Asked by: fischermx 
+What is the&quot;Unused(KB)&quot;column in the Disk Usage By Table report?
+I already shrinked the database several times, and it still shows a lot of space as&quot;unused&quot;?
+Shouldn&apos;t be all gone after shrinkage?
+
+ 
+This question has been solved and asker verified All Experts Exchange premium technology solutions are available to subscription members. 
+
+Subscribe now for full access to Experts Exchange and get
+
+Instant Access to this Solution
+
+ Plus... 
+
+ 30 Day FREE access, no risk, no obligation Collaborate with the world&apos;s top tech experts Unlimited access to our exclusive solution database Never be left without tech help again 
+
+ Subscribe Now 
+ Asked On 2008-10-09 at 14:10:35 ID23802499 Tags 
+ Microsoft 
+, 
+ SQL Server 2005 
+ Topics 
+ SQL Server 2005 
+, 
+ SQL Reporting 
+ Participating Experts 3 Points 500 Comments 18 
+Trusted by hundreds of thousands everyday for fast, accurate and reliable tech support.
+
+ &quot;The time we save is the biggest benefit of Experts Exchange to Warner Bros. What could take multiple guys 2 hours or more each to find is accessed in around 15 minutes on Experts Exchange.&quot; Mike Kapnisakis, Warner Bros. &quot;Our team likes having a resource that is more secure than just using Google and most experts using this service really know their stuff. It&apos;s nice to look here first versus using Google.&quot; Dayna Sellner, Lockheed Martin &quot;Anytime that I&apos;ve been stumped with a problem, 9 out of 10 times Experts Exchange has either the accepted solution or an open discussion of the potential solution to the problem.&quot; Kenny Red, eBay Inc. 
+ 
+See what Experts Exchange can do for you.
+ 
+Got a question?
+
+We&apos;ve got the answer.
+
+Experts Exchange has been collecting answers to technology questions since 1996…3 million and counting! If you have a question, chances are we already have your answer.
+ 
+Need individual assistance?
+
+Our experts are ready to help.
+
+If you can&apos;t find the exact answer you&apos;re looking for, ask our exclusive community of 50,000 experts. You’ll get a personalized answer from a trusted professional.
+ 
+Want to learn from the best?
+
+Read articles from industry experts.
+
+Thousands of free tech tips, tricks, how-to’s and tutorials are available in our peer reviewed articles section. See for yourself how smart our experts are, no login required.
+ 
+Working on a long term project?
+
+Store your work and research.
+
+Save solutions to your questions, answers you’ve discovered through searching plus helpful articles in your personal knowledgebase for easy future access.
+ 
+Access all the resources for your technology needs.
+
+ Subscribe Now 
+
+30-day free trial. Register in 60 seconds.
+ 
+What makes Experts Exchange unique?
+ 
+Members of the expert community talk about why the experience at Experts Exchange is different than what you will find anywhere else.
+ 
+Trusted by the world&apos;s most respected brands.
+
+ 
+ 
+Faithfully serving IT professionals since 1996.
+
+ 
+ 
+Try it out and discover for yourself.
+
+ Subscribe Now 
+
+30-day free trial. Register in 60 seconds.
+ 
+Related Solutions
+ 
+ Memory Usage Hi,
+ 
+ I have just finished reinstalling a computer and noticed the memory usage
+ of 691M of 1249M in the task manager.
+ 
+ How can i get this down to a reasonable amount considering i only have 500M of physical RAM.
+ 
+ Also when i add up the Mem Usage in the task manager it does not... INDEX usage After INDEX been created, what is its usage and how to use it? Any simple example? 100% CPU usage My Dad&apos;s pc (Dell Dimension 2200, 384 MB RAM, WinXp SP2) has been very slow lately. His CPU usage is 100% all the time (when looking at it in Task Manager). System Idel processes are at a high 90% range. We unchecked almost all entries in msconfig (all except antivirus&amp;... CPU Usage Hi i have a Dell laptop and i find the laptop moves sluggish. The CPU Usage jumps up to 79% and i am not doing anything on the laptop. Is there a way to find out if something is running in the background that is causing this high cpu usage? 
+ 
+Free Tech Articles
+ 
+ WARNING: 5 Reasons why you should NEVER fix a computer for free. It is in our nature to love the puzzle. We are obsessed. The lot of us. We love puzzles. We love the challenge. We thrive on finding the answer. We hate disarray. It bothers us deep in our soul. W... SCCM OSD Basic troubleshooting SCCM 2007 OSD is a fantastic way to deploy operating systems, however, like most things SCCM issues can sometimes be difficult to resolve due to the sheer volume of logs to sift through and the dispe... Migrate Small Business Server 2003 to Exchange 2010 and Windows 2008 R2 This guide is intended to provide step by step instructions on how to migrate from Small Business Server 2003 to Windows 2008 R2 with Exchange 2010. For this migration to work you will need the fo... Create a Win7 Gadget This article shows you how to create a simple &quot;Gadget&quot; -- a sort of mini-application supported by Windows 7 and Vista. Gadgets can be dropped anywhere on the desktop to provide instant information, ... Outlook continually prompting for username and password There have been a lot of questions recently regarding Outlook prompting for a username and password whilst using Exchange 2007. There are a few reasons why this would happen and I will try to cover t... Backup Exchange 2010 Information Store using Windows Backup There seems to be quite a lot of confusion around the ability to backup Exchange 2010 using the built in Windows Backup feature. This stems from the omission of this feature prior to Exchange 2007 s... 
+ 
+Cloud Class Webinars
+
+ Avoiding Bugs in Microsoft Access Alison Balter takes and in-depth look at avoiding bugs in Access. In this webinar you will learn about using the immediate window to debug your applications, invoking the debugger, using breakpoints to troubleshoot, stepping through code, setting the next statement to execute, ... Top 10 Best New Features in Visio 2010 Scott Helmers gives live demonstrations of the top 10 new features in Visio 2010. This webinar will teach you how to create compelling diagrams by adding shapes to the page with a single click, linking the shapes in a diagram to data in Excel (or SQL Server, or SharePoint), ... IT Consultant Business Secrets Revealed Michael Munger, Experts Exchange tech pro and IT consultant, pulls back the curtain on his very successful businesses and answers question on every IT consultant and business owner should know about. He shares secrets on what he did to solve the 5 most common problems in IT, ... Disaster Recovery and Business Continuity Quest CTO, Mike Billon, gives an overview of the steps involved in building a dynamic disaster recovery plan. Through case studies and an examination of software/hardware tools for monitoring and testing, you&apos;ll gain a better understanding of where you are, where you want ... Organize Your Visio Diagrams with Containers and Lists Scott Helmers uses cross functional flowcharts, wireframe diagrams, data graphic legends and seating charts to teach you: how to utilize all three new structured diagram components in Visio 2010, the best practices for organizing shapes in previous version of Visio, how to organize ... How to Use Objects, Properties, Events and Methods in Microsoft Access Alison Dalter gives an in-depth look at objects, properties, events and methods in Microsoft Access. In this webinar you will learn about using the object browser, referring to objects, working with properties and methods, working with object variables, understanding the ... 
+
+ Watch More 
+ 
+Join the Community
+
+Give a little. Get a lot.
+
+Join the community of experts here and help other tech pros by answering question in your area of expertise. You can earn FREE access to all Experts Exchange&apos;s premium features and resources.
+
+ Join the Community 
+ 20120314-EE-VQP-006 
+3 Ways to Join
+ 
+30-Day Free Trial
+ 
+ For individual users Instant access to solutions Ask your tech questions Start your 30-day Free Trial 
+ 
+Business Accounts
+ 
+ Perfect for organizations Multiple users Save over 36% Create a Business Account 
+ 
+Answer for Membership
+ 
+ Earn free access Showcase your knowledge No credit card required Sign Up to Answer 
+ 
+ The Experts The Experts Testimonials Testimonials Testimonials 
+ 
+ The Experts 
+ 
+98%positive feedback on 31,087 answers since March 2000. angeliii is a Microsoft Most Valuable Professional for his work with MS SQL Server&amp;Development.
+
+He has also proven his knowledge of Visual Basic Programming, PHP Scripting and Oracle Databases.
+ 
+ 
+ 
+ The Experts 
+ 
+97%positive feedback on 10,752 answers since July 2000. lrmoore has more than 18 years experience in the networking industry.
+
+The six-time Microsoft MVPs specialties include firewalls, virtual private networking, and network management.
+ 
+ 
+ 
+ Testimonials 
+ 
+&quot;...an excellent source for support... Kind of like having your very own IT dept.&quot; Electriciansnet 
+ 
+ 
+ 
+ Testimonials 
+ 
+&quot;I was apprehensive at signing up at first. However... it has already made my life as an IT administrator much easier.&quot; JaCrews 
+ 
+ 
+ 
+ Testimonials 
+ 
+&quot;WOW! You guys have great, active, and knowledgeable people on here.&quot; moore50 
+ 
+ 
+ 
+ Business Clients Business Clients In the Press In the Press In the Press 
+ 
+ Business Clients 
+ 
+ 
+ 
+ Business Clients 
+ 
+ 
+ 
+ In the Press 
+ 
+&quot;If you’ve got a question... Experts Exchange can supply an answer.”
+ 
+ 
+ 
+ In the Press 
+ 
+&quot;...an invaluable aid for both IT professionals and those who require tech support.&quot;
+ 
+ 
+ 
+ In the Press 
+ 
+&quot;where IT professionals provide quick answers on just about any topic&quot;
+ 
+ 
+ 
+ Business Account Plans 
+ 
+What is Experts Exchange?
+
+ Overview How it works Features View Topics Plans&amp;Pricing Our Customers 
+ 
+Our Community
+
+ Point System Expert Benefits Business Accounts Customer Support Job Board 
+ 
+Get Support
+
+ Site Help Support Center Terms of Use Privacy Policy Site Map URL Shortener 
+ 
+The Company
+
+ About Us Contact Us Blog Tech News Blog EE Store 
+ 
+Main Topics
+ Browse All Topics 
+ Microsoft Apple Internet Gamers 
+
+ Digital Living Virus&amp;Spyware Hardware Software 
+
+ Security Programming Web Development Networking 
+
+ Developer Storage OS Database 
+ 
+Trending Topics
+ 
+ iOS JavaScript MS Access Java 
+
+ MS SQL Server Android Visual Basic .NET MS Excel 
+
+ Exchange C# Outlook PHP 
+
+ WordPress Oracle Database Visual Basic Classic .NET Programming 
+ ©1996-2012 Experts Exchange, LLC. All rights reserved.
+	</body>
+</document>

@@ -1,0 +1,632 @@
+nn(towels-3, paper-2)
+dobj(get-1, towels-3)
+
+prt(wipe-1, up-2)
+dobj(wipe-1, spill-3)
+mark(absorbed-7, until-4)
+nsubjpass(absorbed-7, it-5)
+auxpass(absorbed-7, is-6)
+advcl(wipe-1, absorbed-7)
+
+dobj(soak-1, liquid-2)
+nn(towel-5, paper-4)
+prep_by(soak-1, towel-5)
+
+det(cleaner-3, some-2)
+dep(spray-1, cleaner-3)
+
+det(cleaner-3, the-2)
+dobj(wipe-1, cleaner-3)
+
+det(towel-4, a-2)
+nn(towel-4, paper-3)
+dobj(take-1, towel-4)
+
+det(area-4, the-2)
+amod(area-4, spilled-3)
+dobj(wipe-1, area-4)
+det(towel-8, the-6)
+nn(towel-8, paper-7)
+prep_with(wipe-1, towel-8)
+
+det(towel-4, another-2)
+nn(towel-4, paper-3)
+dobj(moisten-1, towel-4)
+
+det(area-4, the-2)
+amod(area-4, spilled-3)
+dobj(wipe-1, area-4)
+det(towel-9, the-6)
+amod(towel-9, wet-7)
+nn(towel-9, paper-8)
+prep_with(wipe-1, towel-9)
+advmod(wipe-1, again-10)
+
+dobj(assess-1, size-2)
+dobj(assess-1, type-4)
+conj_and(size-2, type-4)
+prep_of(size-2, spill-6)
+
+nn(towels-3, paper-2)
+iobj(get-1, towels-3)
+dobj(get-1, mop-4)
+dobj(get-1, broom-6)
+conj_or(mop-4, broom-6)
+
+dobj(collect-1, spill-2)
+nn(towels-5, paper-4)
+prep_with(collect-1, towels-5)
+dobj(collect-1, mop-6)
+dobj(collect-1, broom-8)
+conj_or(mop-6, broom-8)
+
+amod(spill-4, collected-3)
+prep_of(dispose-1, spill-4)
+
+aux(clean-3, to-2)
+xcomp(repeat-1, clean-3)
+dobj(clean-3, residue-4)
+
+nn(room-4, store-3)
+prep_to(walk-1, room-4)
+
+det(cloth-3, a-2)
+dobj(take-1, cloth-3)
+
+prep_to(walk-1, spill-3)
+
+dobj(put-1, cloth-2)
+prep_on(put-1, spill-4)
+
+mark(dried-5, till-2)
+nsubjpass(dried-5, spill-3)
+auxpass(dried-5, is-4)
+advcl(wait-1, dried-5)
+
+aux(clean-3, get-1)
+dobj(clean-3, a-2)
+prt(clean-3, up-4)
+dobj(clean-3, cloth-5)
+
+dobj(wipe-1, spill-2)
+amod(cloth-6, clean-4)
+dep(clean-4, up-5)
+prep_with(wipe-1, cloth-6)
+
+mark(gone-5, until-2)
+nsubjpass(gone-5, spill-3)
+auxpass(gone-5, is-4)
+advcl(repeat-1, gone-5)
+
+nsubj(mop-3, a-2)
+ccomp(getting-1, mop-3)
+nn(towel-5, paper-4)
+dobj(mop-3, towel-5)
+dobj(mop-3, sponge-7)
+conj_or(towel-5, sponge-7)
+
+dep(absorbed-18, rubbing-1)
+nsubj(mop-3, the-2)
+ccomp(rubbing-1, mop-3)
+nn(towel-5, paper-4)
+dobj(mop-3, towel-5)
+dobj(mop-3, sponge-7)
+conj_or(towel-5, sponge-7)
+det(untill-11, the-9)
+nn(untill-11, spill-10)
+prep_over(mop-3, untill-11)
+nsubjpass(absorbed-18, all-12)
+det(liquid-15, the-14)
+prep_of(all-12, liquid-15)
+aux(absorbed-18, has-16)
+auxpass(absorbed-18, been-17)
+
+det(sponge-4, a-2)
+nn(sponge-4, cleaning-3)
+dobj(find-1, sponge-4)
+dobj(find-1, towel-6)
+conj_or(sponge-4, towel-6)
+
+amod(sponge-3, wet-1)
+det(sponge-3, the-2)
+conj_or(sponge-3, towel-5)
+det(sink-8, a-7)
+prep_in(sponge-3, sink-8)
+
+det(spill-4, the-3)
+prep_to(move-1, spill-4)
+
+det(sponge-3, the-2)
+dobj(move-1, sponge-3)
+dobj(move-1, towel-5)
+conj_or(sponge-3, towel-5)
+det(motion-9, a-7)
+amod(motion-9, circular-8)
+prep_in(move-1, motion-9)
+det(spill-12, the-11)
+prep_on(motion-9, spill-12)
+
+mark(cleaned-6, until-2)
+det(sill-4, the-3)
+nsubjpass(cleaned-6, sill-4)
+auxpass(cleaned-6, is-5)
+advcl(repeat-1, cleaned-6)
+
+dobj(get-1, cloth-2)
+
+dobj(wipe-1, spill-2)
+prep_with(wipe-1, cloth-4)
+
+det(spill-3, the-2)
+dobj(locate-1, spill-3)
+
+det(towel-3, a-2)
+dobj(fetch-1, towel-3)
+dobj(fetch-1, rag-5)
+conj_or(towel-3, rag-5)
+
+det(towel-3, the-2)
+dobj(wipe-1, towel-3)
+dobj(wipe-1, rag-5)
+conj_or(towel-3, rag-5)
+det(location-8, the-7)
+prep_over(wipe-1, location-8)
+det(spill-11, the-10)
+prep_of(location-8, spill-11)
+
+conj_or(clean-1, dispose-3)
+det(towel-6, the-5)
+prep_of(dispose-3, towel-6)
+prep_of(dispose-3, rag-8)
+conj_or(towel-6, rag-8)
+
+nsubjpass(spilled-4, what-2)
+auxpass(spilled-4, is-3)
+ccomp(determine-1, spilled-4)
+
+dep(is-5, what-2)
+det(spill-4, the-3)
+nsubj(is-5, spill-4)
+ccomp(determine-1, is-5)
+prep(is-5, on-6)
+
+det(towel-4, an-2)
+amod(towel-4, absorbant-3)
+dobj(use-1, towel-4)
+dobj(use-1, sponge-6)
+conj_or(towel-4, sponge-6)
+det(spill-9, the-8)
+prep_on(use-1, spill-9)
+
+dobj(wash-1, towel-2)
+conj_or(wash-1, discard-4)
+dobj(discard-4, sponge-5)
+
+det(area-3, the-2)
+dobj(dry-1, area-3)
+advmod(took-6, where-4)
+rel(took-6, where-4)
+nsubj(took-6, spill-5)
+rcmod(area-3, took-6)
+dobj(took-6, place-7)
+
+dobj(find-1, mop-2)
+
+prt(wipe-1, up-2)
+dobj(wipe-1, spill-3)
+prep_with(wipe-1, mop-5)
+
+dep(put-1, mop-2)
+prt(mop-2, away-3)
+
+det(cloth-3, a-2)
+dobj(get-1, cloth-3)
+
+dobj(place-1, cloth-2)
+prep_on(place-1, spill-4)
+
+dobj(move-1, cloth-2)
+advmod(move-1, around-3)
+aux(absorb-5, to-4)
+xcomp(move-1, absorb-5)
+acomp(absorb-5, liquic-6)
+
+dobj(rinse-1, cloth-2)
+
+amod(steps-3, previous-2)
+dobj(repeat-1, steps-3)
+mark(clean-7, until-4)
+nsubj(clean-7, spill-5)
+cop(clean-7, is-6)
+advcl(repeat-1, clean-7)
+
+det(spill-3, a-2)
+dobj(wipe-1, spill-3)
+det(cloth-7, a-5)
+amod(cloth-7, dry-6)
+prep_with(wipe-1, cloth-7)
+
+prt(wipe-1, up-2)
+det(spill-4, the-3)
+dobj(wipe-1, spill-4)
+
+det(rag-4, the-2)
+amod(rag-4, wiping-3)
+dobj(clean-1, rag-4)
+
+dobj(fill-1, bucket-2)
+amod(water-5, warm-4)
+prep_with(fill-1, water-5)
+
+amod(cleaner-3, liquid-2)
+dobj(add-1, cleaner-3)
+prep_to(add-1, bucket-5)
+
+dobj(get-1, cloth-2)
+
+dobj(use-1, cloth-2)
+aux(clean-4, to-3)
+xcomp(use-1, clean-4)
+prt(clean-4, up-5)
+dobj(clean-4, spill-6)
+
+dobj(rinse-1, cloth-2)
+amod(bucket-5, prepared-4)
+prep_in(rinse-1, bucket-5)
+prep_of(bucket-5, water-7)
+
+dobj(wipe-1, area-2)
+advmod(wipe-1, again-3)
+prep_with(wipe-1, cloth-5)
+
+conj_and(rinse-1, wipe-3)
+num(time-6, one-4)
+amod(time-6, more-5)
+iobj(wipe-3, time-6)
+amod(area-8, dry-7)
+dobj(wipe-3, area-8)
+
+det(towel-3, a-2)
+dobj(get-1, towel-3)
+
+prep_on(place-1, spill-3)
+
+prt(push-1, down-2)
+aux(absorb-4, to-3)
+xcomp(push-1, absorb-4)
+
+dobj(wash-1, towel-2)
+
+det(towel-3, a-2)
+dobj(grab-1, towel-3)
+
+prep(start-1, blotting-2)
+dep(blotting-2, at-3)
+det(edges-5, the-4)
+pobj(at-3, edges-5)
+partmod(edges-5, pushing-6)
+prep_towards(pushing-6, center-8)
+
+prt(wring-1, out-2)
+dobj(wring-1, towel-3)
+
+prt(wipe-1, up-2)
+amod(spill-4, remaining-3)
+dobj(wipe-1, spill-4)
+
+det(rag-3, a-2)
+dobj(get-1, rag-3)
+
+dobj(wipe-1, it-2)
+prt(wipe-1, up-3)
+
+det(rag-3, the-2)
+dobj(throw-1, rag-3)
+det(bin-7, the-5)
+amod(bin-7, dirty-6)
+prep_in(throw-1, bin-7)
+
+dobj(determine-1, material-2)
+partmod(material-2, spilled-3)
+
+nn(method-3, cleaning-2)
+dobj(determine-1, method-3)
+
+nn(materials-3, cleaning-2)
+dobj(gather-1, materials-3)
+
+prt(wipe-1, up-2)
+dobj(wipe-1, spill-3)
+
+advmod(throw-1, away-2)
+conj_or(throw-1, wash-4)
+dobj(wash-4, towels-5)
+
+det(rag-3, a-2)
+dobj(get-1, rag-3)
+
+det(spill-3, the-2)
+dobj(wipe-1, spill-3)
+det(rag-6, the-5)
+prep_with(wipe-1, rag-6)
+prep_until(wipe-1, dry-8)
+
+nn(residue-3, spill-2)
+dobj(clean-1, residue-3)
+det(rag-7, a-5)
+amod(rag-7, wet-6)
+prep_with(clean-1, rag-7)
+
+det(rag-3, a-2)
+dobj(find-1, rag-3)
+
+dobj(put-1, rag-2)
+prep_on(put-1, spill-4)
+
+dobj(wipe-1, rag-2)
+det(area-6, the-4)
+nn(area-6, spill-5)
+prep_around(wipe-1, area-6)
+
+dobj(rinse-1, rag-2)
+
+dobj(wipe-1, rag-2)
+det(area-6, the-4)
+nn(area-6, spill-5)
+prep_around(wipe-1, area-6)
+
+dobj(rinse-1, rag-2)
+
+dobj(put-1, rag-2)
+prep_in(put-1, laundry-4)
+
+nn(towel-3, paper-2)
+dobj(grab-1, towel-3)
+
+dobj(wipe-1, spill-2)
+nn(towel-5, paper-4)
+prep_with(wipe-1, towel-5)
+
+aux(see-3, to-2)
+xcomp(check-1, see-3)
+mark(cleaned-7, if-4)
+nsubjpass(cleaned-7, spill-5)
+auxpass(cleaned-7, is-6)
+advcl(see-3, cleaned-7)
+
+mark(cleaned-4, if-1)
+nsubjpass(cleaned-4, spill-2)
+auxpass(cleaned-4, is-3)
+csubj(toss-5, cleaned-4)
+nn(towel-7, paper-6)
+dobj(toss-5, towel-7)
+prep_in(toss-5, trash-9)
+
+mark(cleaned-5, if-1)
+nsubjpass(cleaned-5, spill-2)
+auxpass(cleaned-5, is-3)
+neg(cleaned-5, not-4)
+csubj(wipe-6, cleaned-5)
+dobj(wipe-6, area-7)
+advmod(wipe-6, again-8)
+nn(towel-11, paper-10)
+prep_with(wipe-6, towel-11)
+
+nn(towel-3, paper-2)
+dobj(toss-1, towel-3)
+
+det(towel-4, a-2)
+nn(towel-4, paper-3)
+dobj(grab-1, towel-4)
+
+det(towel-4, the-2)
+nn(towel-4, paper-3)
+dobj(put-1, towel-4)
+det(spill-7, the-6)
+prep_over(put-1, spill-7)
+
+dobj(let-1, liquid-2)
+dep(let-1, absorb-3)
+nn(towel-6, paper-5)
+prep_into(absorb-3, towel-6)
+
+dobj(wipe-1, area-2)
+nn(towel-5, paper-4)
+prep_with(wipe-1, towel-5)
+
+amod(towel-5, dirty-3)
+nn(towel-5, paper-4)
+prep_of(dispose-1, towel-5)
+
+nn(towels-3, paper-2)
+dobj(grab-1, towels-3)
+
+nn(towel-3, paper-2)
+dobj(lay-1, towel-3)
+prep_over(lay-1, spill-5)
+aux(absorn-7, to-6)
+infmod(spill-5, absorn-7)
+dobj(absorn-7, liquid-8)
+
+det(area-3, the-2)
+dobj(wipe-1, area-3)
+nn(towel-6, paper-5)
+prep_with(wipe-1, towel-6)
+aux(ensure-8, to-7)
+xcomp(wipe-1, ensure-8)
+nsubj(dry-11, it-9)
+cop(dry-11, s-10)
+ccomp(ensure-8, dry-11)
+
+dobj(take-1, a-2)
+dep(take-1, mop-3)
+
+det(cleaner-3, a-2)
+dobj(take-1, cleaner-3)
+
+amod(cloth-3, adry-2)
+dobj(take-1, cloth-3)
+
+det(exxcessi-3, the-2)
+dobj(soak-1, exxcessi-3)
+
+dobj(obtain-1, sponge-2)
+
+prt(wipe-1, up-2)
+dobj(wipe-1, spill-3)
+
+dobj(squeeze-1, sponge-2)
+prep_over(squeeze-1, sink-4)
+
+dobj(repeat-1, step-2)
+advmod(step-2, 2-3)
+advmod(step-2, 3-5)
+conj_and(2-3, 3-5)
+mark(cleaned-8, until-6)
+nsubj(cleaned-8, spill-7)
+advcl(repeat-1, cleaned-8)
+
+dobj(locate-1, spill-2)
+
+dobj(get-1, mop-2)
+
+prt(mop-1, up-2)
+dobj(mop-1, spill-3)
+
+nn(towel-3, paper-2)
+dobj(get-1, towel-3)
+
+prt(wipe-1, up-2)
+dobj(wipe-1, spill-3)
+
+amod(towel-4, new-2)
+nn(towel-4, paper-3)
+dobj(dampen-1, towel-4)
+
+dobj(re-wipe-1, area-2)
+aux(remove-4, to-3)
+xcomp(re-wipe-1, remove-4)
+det(remainders-7, any-5)
+amod(remainders-7, sticky-6)
+dobj(remove-4, remainders-7)
+
+nn(towels-3, paper-2)
+dobj(get-1, towels-3)
+
+prt(pull-1, off-2)
+num(sheets-4, two-3)
+dobj(pull-1, sheets-4)
+nn(towel-7, paper-6)
+prep_of(sheets-4, towel-7)
+
+prt(mop-1, up-2)
+dobj(mop-1, spill-3)
+nn(towels-6, paper-5)
+prep_with(mop-1, towels-6)
+
+dobj(repeat-1, steps-2)
+dep(repeat-1, 1-3-3)
+mark(gone-8, until-4)
+nsubjpass(gone-8, spill-5)
+auxpass(gone-8, is-6)
+advmod(gone-8, completely-7)
+ccomp(1-3-3, gone-8)
+
+nn(towels-3, paper-2)
+dobj(discard-1, towels-3)
+prep_in(discard-1, garbage-5)
+
+dobj(locate-1, spill-2)
+
+nn(towel-3, paper-2)
+dobj(get-1, towel-3)
+
+prt(wipe-1, up-2)
+dobj(wipe-1, spill-3)
+
+prt(throw-1, away-2)
+nn(towel-4, paper-3)
+dobj(throw-1, towel-4)
+
+dobj(get-1, towel-2)
+
+dobj(put-1, towel-2)
+prep_over(put-1, liquid-4)
+
+prt(soak-1, up-2)
+dobj(soak-1, liquid-3)
+
+dobj(wipe-1, floor-2)
+dep(wipe-1, dry-3)
+
+det(cloth-3, a-2)
+dobj(get-1, cloth-3)
+
+prt(mop-1, up-2)
+dobj(mop-1, spill-3)
+prep_with(mop-1, cloth-5)
+
+dobj(rinse-1, cloth-2)
+conj_and(rinse-1, ring-4)
+prt(ring-4, out-5)
+dobj(ring-4, water-6)
+
+det(cleaner-4, a-2)
+nn(cleaner-4, spray-3)
+dobj(get-1, cleaner-4)
+
+nsubj(area-2, spray-1)
+advmod(was-5, where-3)
+nsubj(was-5, spill-4)
+advcl(area-2, was-5)
+prep_with(was-5, cleaner-7)
+
+advmod(wipe-1, away-2)
+dobj(wipe-1, spray-3)
+prep_with(wipe-1, cloth-5)
+
+prep_with(repeat-1, spray-3)
+mark(cleaned-7, until-4)
+nsubjpass(cleaned-7, spill-5)
+auxpass(cleaned-7, is-6)
+advcl(repeat-1, cleaned-7)
+
+dobj(find-1, spill-2)
+
+nn(towel-3, paper-2)
+dobj(get-1, towel-3)
+
+prt(wipe-1, up-2)
+dobj(wipe-1, spill-3)
+prep_with(wipe-1, towel-5)
+
+prt(throw-1, away-2)
+dobj(throw-1, towel-3)
+
+dobj(locate-1, spill-2)
+
+dobj(get-1, towel-2)
+
+dobj(place-1, towel-2)
+det(liquid-5, the-4)
+prep_on(place-1, liquid-5)
+
+prt(soak-1, up-2)
+dobj(soak-1, liquid-3)
+
+dobj(need-5, what-2)
+nsubj(need-5, you-3)
+xsubj(clean-7, you-3)
+aux(need-5, will-4)
+ccomp(determine-1, need-5)
+aux(clean-7, to-6)
+xcomp(need-5, clean-7)
+dobj(clean-7, it-8)
+
+dobj(grab-1, cloths-2)
+
+dobj(wipe-1, spill-2)
+
+prt(mop-1, up-2)
+dobj(mop-1, spill-3)
+

@@ -1,0 +1,981 @@
+id	score	v	d-obj	p	p-title
+000001	?	call	dog	food	dog
+000002	?	call	dog	dog food	dog
+000003	?	call	dog	tin of dog food	dog
+000004	?	call	dog	tin	dog
+000005	?	call	dog	pet	dog
+000006	?	call	dog	can of petfood	dog
+000007	?	call	dog	floor	dog
+000008	?	call	dog	dogs	dog
+000009	?	call	dog	dish	dog
+000010	?	call	dog	bowl	dog
+000011	?	call	dog	tin opener	dog
+000012	?	call	dog	can opener	dog
+000013	?	call	dog	dog s	dog
+000014	?	put	food	dog food	dog
+000015	?	put	food	tin of dog food	dog
+000016	?	put	food	tin	dog
+000017	?	put	food	pet	dog
+000018	?	put	food	can of petfood	dog
+000019	?	put	food	floor	dog
+000020	?	put	food	dogs	dog
+000021	?	put	food	dish	dog
+000022	?	put	food	bowl	dog
+000023	?	put	food	tin opener	dog
+000024	?	put	food	can opener	dog
+000025	?	put	food	dog s	dog
+000026	?	open	bag	food	dog
+000027	?	open	bag	dog food	dog
+000028	?	open	bag	tin of dog food	dog
+000029	?	open	bag	tin	dog
+000030	?	open	bag	pet	dog
+000031	?	open	bag	can of petfood	dog
+000032	?	open	bag	floor	dog
+000033	?	open	bag	dogs	dog
+000034	?	open	bag	dish	dog
+000035	?	open	bag	bowl	dog
+000036	?	open	bag	tin opener	dog
+000037	?	open	bag	can opener	dog
+000038	?	open	bag	dog s	dog
+000039	?	pour	water	food	dog
+000040	?	pour	water	dog food	dog
+000041	?	pour	water	tin of dog food	dog
+000042	?	pour	water	tin	dog
+000043	?	pour	water	pet	dog
+000044	?	pour	water	can of petfood	dog
+000045	?	pour	water	floor	dog
+000046	?	pour	water	dogs	dog
+000047	?	pour	water	dish	dog
+000048	?	pour	water	bowl	dog
+000049	?	pour	water	tin opener	dog
+000050	?	pour	water	can opener	dog
+000051	?	pour	water	dog s	dog
+000052	?	identify	dog food	food	dog
+000053	?	identify	dog food	tin of dog food	dog
+000054	?	identify	dog food	tin	dog
+000055	?	identify	dog food	pet	dog
+000056	?	identify	dog food	can of petfood	dog
+000057	?	identify	dog food	floor	dog
+000058	?	identify	dog food	dogs	dog
+000059	?	identify	dog food	dish	dog
+000060	?	identify	dog food	bowl	dog
+000061	?	identify	dog food	tin opener	dog
+000062	?	identify	dog food	can opener	dog
+000063	?	identify	dog food	dog s	dog
+000064	?	find	measuring cup	food	dog
+000065	?	find	measuring cup	dog food	dog
+000066	?	find	measuring cup	tin of dog food	dog
+000067	?	find	measuring cup	tin	dog
+000068	?	find	measuring cup	pet	dog
+000069	?	find	measuring cup	can of petfood	dog
+000070	?	find	measuring cup	floor	dog
+000071	?	find	measuring cup	dogs	dog
+000072	?	find	measuring cup	dish	dog
+000073	?	find	measuring cup	bowl	dog
+000074	?	find	measuring cup	tin opener	dog
+000075	?	find	measuring cup	can opener	dog
+000076	?	find	measuring cup	dog s	dog
+000077	?	pour	contents	food	dog
+000078	?	pour	contents	dog food	dog
+000079	?	pour	contents	tin of dog food	dog
+000080	?	pour	contents	tin	dog
+000081	?	pour	contents	pet	dog
+000082	?	pour	contents	can of petfood	dog
+000083	?	pour	contents	floor	dog
+000084	?	pour	contents	dogs	dog
+000085	?	pour	contents	dish	dog
+000086	?	pour	contents	bowl	dog
+000087	?	pour	contents	tin opener	dog
+000088	?	pour	contents	can opener	dog
+000089	?	pour	contents	dog s	dog
+000090	?	take	dog food	food	dog
+000091	?	take	dog food	tin of dog food	dog
+000092	?	take	dog food	tin	dog
+000093	?	take	dog food	pet	dog
+000094	?	take	dog food	can of petfood	dog
+000095	?	take	dog food	floor	dog
+000096	?	take	dog food	dogs	dog
+000097	?	take	dog food	dish	dog
+000098	?	take	dog food	bowl	dog
+000099	?	take	dog food	tin opener	dog
+000100	?	take	dog food	can opener	dog
+000101	?	take	dog food	dog s	dog
+000102	?	feed	dpog	food	dog
+000103	?	feed	dpog	dog food	dog
+000104	?	feed	dpog	tin of dog food	dog
+000105	?	feed	dpog	tin	dog
+000106	?	feed	dpog	pet	dog
+000107	?	feed	dpog	can of petfood	dog
+000108	?	feed	dpog	floor	dog
+000109	?	feed	dpog	dogs	dog
+000110	?	feed	dpog	dish	dog
+000111	?	feed	dpog	bowl	dog
+000112	?	feed	dpog	tin opener	dog
+000113	?	feed	dpog	can opener	dog
+000114	?	feed	dpog	dog s	dog
+000115	?	take	food	dog food	dog
+000116	?	take	food	tin of dog food	dog
+000117	?	take	food	tin	dog
+000118	?	take	food	pet	dog
+000119	?	take	food	can of petfood	dog
+000120	?	take	food	floor	dog
+000121	?	take	food	dogs	dog
+000122	?	take	food	dish	dog
+000123	?	take	food	bowl	dog
+000124	?	take	food	tin opener	dog
+000125	?	take	food	can opener	dog
+000126	?	take	food	dog s	dog
+000127	?	open	can	food	dog
+000128	?	open	can	dog food	dog
+000129	?	open	can	tin of dog food	dog
+000130	?	open	can	tin	dog
+000131	?	open	can	pet	dog
+000132	?	open	can	can of petfood	dog
+000133	?	open	can	floor	dog
+000134	?	open	can	dogs	dog
+000135	?	open	can	dish	dog
+000136	?	open	can	bowl	dog
+000137	?	open	can	tin opener	dog
+000138	?	open	can	can opener	dog
+000139	?	open	can	dog s	dog
+000140	?	add	water	food	dog
+000141	?	add	water	dog food	dog
+000142	?	add	water	tin of dog food	dog
+000143	?	add	water	tin	dog
+000144	?	add	water	pet	dog
+000145	?	add	water	can of petfood	dog
+000146	?	add	water	floor	dog
+000147	?	add	water	dogs	dog
+000148	?	add	water	dish	dog
+000149	?	add	water	bowl	dog
+000150	?	add	water	tin opener	dog
+000151	?	add	water	can opener	dog
+000152	?	add	water	dog s	dog
+000153	?	put	tin opener	food	dog
+000154	?	put	tin opener	dog food	dog
+000155	?	put	tin opener	tin of dog food	dog
+000156	?	put	tin opener	tin	dog
+000157	?	put	tin opener	pet	dog
+000158	?	put	tin opener	can of petfood	dog
+000159	?	put	tin opener	floor	dog
+000160	?	put	tin opener	dogs	dog
+000161	?	put	tin opener	dish	dog
+000162	?	put	tin opener	bowl	dog
+000163	?	put	tin opener	can opener	dog
+000164	?	put	tin opener	dog s	dog
+000165	?	carry	it	food	dog
+000166	?	carry	it	dog food	dog
+000167	?	carry	it	tin of dog food	dog
+000168	?	carry	it	tin	dog
+000169	?	carry	it	pet	dog
+000170	?	carry	it	can of petfood	dog
+000171	?	carry	it	floor	dog
+000172	?	carry	it	dogs	dog
+000173	?	carry	it	dish	dog
+000174	?	carry	it	bowl	dog
+000175	?	carry	it	tin opener	dog
+000176	?	carry	it	can opener	dog
+000177	?	carry	it	dog s	dog
+000178	?	get	tin	food	dog
+000179	?	get	tin	dog food	dog
+000180	?	get	tin	tin of dog food	dog
+000181	?	get	tin	pet	dog
+000182	?	get	tin	can of petfood	dog
+000183	?	get	tin	floor	dog
+000184	?	get	tin	dogs	dog
+000185	?	get	tin	dish	dog
+000186	?	get	tin	bowl	dog
+000187	?	get	tin	tin opener	dog
+000188	?	get	tin	can opener	dog
+000189	?	get	tin	dog s	dog
+000190	?	get	dogs bowl	food	dog
+000191	?	get	dogs bowl	dog food	dog
+000192	?	get	dogs bowl	tin of dog food	dog
+000193	?	get	dogs bowl	tin	dog
+000194	?	get	dogs bowl	pet	dog
+000195	?	get	dogs bowl	can of petfood	dog
+000196	?	get	dogs bowl	floor	dog
+000197	?	get	dogs bowl	dogs	dog
+000198	?	get	dogs bowl	dish	dog
+000199	?	get	dogs bowl	bowl	dog
+000200	?	get	dogs bowl	tin opener	dog
+000201	?	get	dogs bowl	can opener	dog
+000202	?	get	dogs bowl	dog s	dog
+000203	?	put	bowl	food	dog
+000204	?	put	bowl	dog food	dog
+000205	?	put	bowl	tin of dog food	dog
+000206	?	put	bowl	tin	dog
+000207	?	put	bowl	pet	dog
+000208	?	put	bowl	can of petfood	dog
+000209	?	put	bowl	floor	dog
+000210	?	put	bowl	dogs	dog
+000211	?	put	bowl	dish	dog
+000212	?	put	bowl	tin opener	dog
+000213	?	put	bowl	can opener	dog
+000214	?	put	bowl	dog s	dog
+000215	?	measure	correct amount	food	dog
+000216	?	measure	correct amount	dog food	dog
+000217	?	measure	correct amount	tin of dog food	dog
+000218	?	measure	correct amount	tin	dog
+000219	?	measure	correct amount	pet	dog
+000220	?	measure	correct amount	can of petfood	dog
+000221	?	measure	correct amount	floor	dog
+000222	?	measure	correct amount	dogs	dog
+000223	?	measure	correct amount	dish	dog
+000224	?	measure	correct amount	bowl	dog
+000225	?	measure	correct amount	tin opener	dog
+000226	?	measure	correct amount	can opener	dog
+000227	?	measure	correct amount	dog s	dog
+000228	?	identify	dog dish	food	dog
+000229	?	identify	dog dish	dog food	dog
+000230	?	identify	dog dish	tin of dog food	dog
+000231	?	identify	dog dish	tin	dog
+000232	?	identify	dog dish	pet	dog
+000233	?	identify	dog dish	can of petfood	dog
+000234	?	identify	dog dish	floor	dog
+000235	?	identify	dog dish	dogs	dog
+000236	?	identify	dog dish	dish	dog
+000237	?	identify	dog dish	bowl	dog
+000238	?	identify	dog dish	tin opener	dog
+000239	?	identify	dog dish	can opener	dog
+000240	?	identify	dog dish	dog s	dog
+000241	?	feed	dogs	food	dog
+000242	?	feed	dogs	dog food	dog
+000243	?	feed	dogs	tin of dog food	dog
+000244	?	feed	dogs	tin	dog
+000245	?	feed	dogs	pet	dog
+000246	?	feed	dogs	can of petfood	dog
+000247	?	feed	dogs	floor	dog
+000248	?	feed	dogs	dish	dog
+000249	?	feed	dogs	bowl	dog
+000250	?	feed	dogs	tin opener	dog
+000251	?	feed	dogs	can opener	dog
+000252	?	feed	dogs	dog s	dog
+000253	?	remove	food	dog food	dog
+000254	?	remove	food	tin of dog food	dog
+000255	?	remove	food	tin	dog
+000256	?	remove	food	pet	dog
+000257	?	remove	food	can of petfood	dog
+000258	?	remove	food	floor	dog
+000259	?	remove	food	dogs	dog
+000260	?	remove	food	dish	dog
+000261	?	remove	food	bowl	dog
+000262	?	remove	food	tin opener	dog
+000263	?	remove	food	can opener	dog
+000264	?	remove	food	dog s	dog
+000265	?	use	can opener	food	dog
+000266	?	use	can opener	dog food	dog
+000267	?	use	can opener	tin of dog food	dog
+000268	?	use	can opener	tin	dog
+000269	?	use	can opener	pet	dog
+000270	?	use	can opener	can of petfood	dog
+000271	?	use	can opener	floor	dog
+000272	?	use	can opener	dogs	dog
+000273	?	use	can opener	dish	dog
+000274	?	use	can opener	bowl	dog
+000275	?	use	can opener	tin opener	dog
+000276	?	use	can opener	dog s	dog
+000277	?	prepare	food	dog food	dog
+000278	?	prepare	food	tin of dog food	dog
+000279	?	prepare	food	tin	dog
+000280	?	prepare	food	pet	dog
+000281	?	prepare	food	can of petfood	dog
+000282	?	prepare	food	floor	dog
+000283	?	prepare	food	dogs	dog
+000284	?	prepare	food	dish	dog
+000285	?	prepare	food	bowl	dog
+000286	?	prepare	food	tin opener	dog
+000287	?	prepare	food	can opener	dog
+000288	?	prepare	food	dog s	dog
+000289	?	scoop	food	dog food	dog
+000290	?	scoop	food	tin of dog food	dog
+000291	?	scoop	food	tin	dog
+000292	?	scoop	food	pet	dog
+000293	?	scoop	food	can of petfood	dog
+000294	?	scoop	food	floor	dog
+000295	?	scoop	food	dogs	dog
+000296	?	scoop	food	dish	dog
+000297	?	scoop	food	bowl	dog
+000298	?	scoop	food	tin opener	dog
+000299	?	scoop	food	can opener	dog
+000300	?	scoop	food	dog s	dog
+000301	?	remove	dog food	food	dog
+000302	?	remove	dog food	tin of dog food	dog
+000303	?	remove	dog food	tin	dog
+000304	?	remove	dog food	pet	dog
+000305	?	remove	dog food	can of petfood	dog
+000306	?	remove	dog food	floor	dog
+000307	?	remove	dog food	dogs	dog
+000308	?	remove	dog food	dish	dog
+000309	?	remove	dog food	bowl	dog
+000310	?	remove	dog food	tin opener	dog
+000311	?	remove	dog food	can opener	dog
+000312	?	remove	dog food	dog s	dog
+000313	?	open	dog food bag	food	dog
+000314	?	open	dog food bag	dog food	dog
+000315	?	open	dog food bag	tin of dog food	dog
+000316	?	open	dog food bag	tin	dog
+000317	?	open	dog food bag	pet	dog
+000318	?	open	dog food bag	can of petfood	dog
+000319	?	open	dog food bag	floor	dog
+000320	?	open	dog food bag	dogs	dog
+000321	?	open	dog food bag	dish	dog
+000322	?	open	dog food bag	bowl	dog
+000323	?	open	dog food bag	tin opener	dog
+000324	?	open	dog food bag	can opener	dog
+000325	?	open	dog food bag	dog s	dog
+000326	?	get	bowl	food	dog
+000327	?	get	bowl	dog food	dog
+000328	?	get	bowl	tin of dog food	dog
+000329	?	get	bowl	tin	dog
+000330	?	get	bowl	pet	dog
+000331	?	get	bowl	can of petfood	dog
+000332	?	get	bowl	floor	dog
+000333	?	get	bowl	dogs	dog
+000334	?	get	bowl	dish	dog
+000335	?	get	bowl	tin opener	dog
+000336	?	get	bowl	can opener	dog
+000337	?	get	bowl	dog s	dog
+000338	?	put	food bag	food	dog
+000339	?	put	food bag	dog food	dog
+000340	?	put	food bag	tin of dog food	dog
+000341	?	put	food bag	tin	dog
+000342	?	put	food bag	pet	dog
+000343	?	put	food bag	can of petfood	dog
+000344	?	put	food bag	floor	dog
+000345	?	put	food bag	dogs	dog
+000346	?	put	food bag	dish	dog
+000347	?	put	food bag	bowl	dog
+000348	?	put	food bag	tin opener	dog
+000349	?	put	food bag	can opener	dog
+000350	?	put	food bag	dog s	dog
+000351	?	fill	food dish	food	dog
+000352	?	fill	food dish	dog food	dog
+000353	?	fill	food dish	tin of dog food	dog
+000354	?	fill	food dish	tin	dog
+000355	?	fill	food dish	pet	dog
+000356	?	fill	food dish	can of petfood	dog
+000357	?	fill	food dish	floor	dog
+000358	?	fill	food dish	dogs	dog
+000359	?	fill	food dish	dish	dog
+000360	?	fill	food dish	bowl	dog
+000361	?	fill	food dish	tin opener	dog
+000362	?	fill	food dish	can opener	dog
+000363	?	fill	food dish	dog s	dog
+000364	?	poor	it	food	dog
+000365	?	poor	it	dog food	dog
+000366	?	poor	it	tin of dog food	dog
+000367	?	poor	it	tin	dog
+000368	?	poor	it	pet	dog
+000369	?	poor	it	can of petfood	dog
+000370	?	poor	it	floor	dog
+000371	?	poor	it	dogs	dog
+000372	?	poor	it	dish	dog
+000373	?	poor	it	bowl	dog
+000374	?	poor	it	tin opener	dog
+000375	?	poor	it	can opener	dog
+000376	?	poor	it	dog s	dog
+000377	?	pour	food	dog food	dog
+000378	?	pour	food	tin of dog food	dog
+000379	?	pour	food	tin	dog
+000380	?	pour	food	pet	dog
+000381	?	pour	food	can of petfood	dog
+000382	?	pour	food	floor	dog
+000383	?	pour	food	dogs	dog
+000384	?	pour	food	dish	dog
+000385	?	pour	food	bowl	dog
+000386	?	pour	food	tin opener	dog
+000387	?	pour	food	can opener	dog
+000388	?	pour	food	dog s	dog
+000389	?	catch	pet dog	food	dog
+000390	?	catch	pet dog	dog food	dog
+000391	?	catch	pet dog	tin of dog food	dog
+000392	?	catch	pet dog	tin	dog
+000393	?	catch	pet dog	pet	dog
+000394	?	catch	pet dog	can of petfood	dog
+000395	?	catch	pet dog	floor	dog
+000396	?	catch	pet dog	dogs	dog
+000397	?	catch	pet dog	dish	dog
+000398	?	catch	pet dog	bowl	dog
+000399	?	catch	pet dog	tin opener	dog
+000400	?	catch	pet dog	can opener	dog
+000401	?	catch	pet dog	dog s	dog
+000402	?	find	dog food	food	dog
+000403	?	find	dog food	tin of dog food	dog
+000404	?	find	dog food	tin	dog
+000405	?	find	dog food	pet	dog
+000406	?	find	dog food	can of petfood	dog
+000407	?	find	dog food	floor	dog
+000408	?	find	dog food	dogs	dog
+000409	?	find	dog food	dish	dog
+000410	?	find	dog food	bowl	dog
+000411	?	find	dog food	tin opener	dog
+000412	?	find	dog food	can opener	dog
+000413	?	find	dog food	dog s	dog
+000414	?	carry	dog food	food	dog
+000415	?	carry	dog food	tin of dog food	dog
+000416	?	carry	dog food	tin	dog
+000417	?	carry	dog food	pet	dog
+000418	?	carry	dog food	can of petfood	dog
+000419	?	carry	dog food	floor	dog
+000420	?	carry	dog food	dogs	dog
+000421	?	carry	dog food	dish	dog
+000422	?	carry	dog food	bowl	dog
+000423	?	carry	dog food	tin opener	dog
+000424	?	carry	dog food	can opener	dog
+000425	?	carry	dog food	dog s	dog
+000426	?	put	food tin	food	dog
+000427	?	put	food tin	dog food	dog
+000428	?	put	food tin	tin of dog food	dog
+000429	?	put	food tin	tin	dog
+000430	?	put	food tin	pet	dog
+000431	?	put	food tin	can of petfood	dog
+000432	?	put	food tin	floor	dog
+000433	?	put	food tin	dogs	dog
+000434	?	put	food tin	dish	dog
+000435	?	put	food tin	bowl	dog
+000436	?	put	food tin	tin opener	dog
+000437	?	put	food tin	can opener	dog
+000438	?	put	food tin	dog s	dog
+000439	?	place	food	dog food	dog
+000440	?	place	food	tin of dog food	dog
+000441	?	place	food	tin	dog
+000442	?	place	food	pet	dog
+000443	?	place	food	can of petfood	dog
+000444	?	place	food	floor	dog
+000445	?	place	food	dogs	dog
+000446	?	place	food	dish	dog
+000447	?	place	food	bowl	dog
+000448	?	place	food	tin opener	dog
+000449	?	place	food	can opener	dog
+000450	?	place	food	dog s	dog
+000451	?	give	food	dog food	dog
+000452	?	give	food	tin of dog food	dog
+000453	?	give	food	tin	dog
+000454	?	give	food	pet	dog
+000455	?	give	food	can of petfood	dog
+000456	?	give	food	floor	dog
+000457	?	give	food	dogs	dog
+000458	?	give	food	dish	dog
+000459	?	give	food	bowl	dog
+000460	?	give	food	tin opener	dog
+000461	?	give	food	can opener	dog
+000462	?	give	food	dog s	dog
+000463	?	place	dog food dish	food	dog
+000464	?	place	dog food dish	dog food	dog
+000465	?	place	dog food dish	tin of dog food	dog
+000466	?	place	dog food dish	tin	dog
+000467	?	place	dog food dish	pet	dog
+000468	?	place	dog food dish	can of petfood	dog
+000469	?	place	dog food dish	floor	dog
+000470	?	place	dog food dish	dogs	dog
+000471	?	place	dog food dish	dish	dog
+000472	?	place	dog food dish	bowl	dog
+000473	?	place	dog food dish	tin opener	dog
+000474	?	place	dog food dish	can opener	dog
+000475	?	place	dog food dish	dog s	dog
+000476	?	locate	dogs bowl	food	dog
+000477	?	locate	dogs bowl	dog food	dog
+000478	?	locate	dogs bowl	tin of dog food	dog
+000479	?	locate	dogs bowl	tin	dog
+000480	?	locate	dogs bowl	pet	dog
+000481	?	locate	dogs bowl	can of petfood	dog
+000482	?	locate	dogs bowl	floor	dog
+000483	?	locate	dogs bowl	dogs	dog
+000484	?	locate	dogs bowl	dish	dog
+000485	?	locate	dogs bowl	bowl	dog
+000486	?	locate	dogs bowl	tin opener	dog
+000487	?	locate	dogs bowl	can opener	dog
+000488	?	locate	dogs bowl	dog s	dog
+000489	?	find	canned food	food	dog
+000490	?	find	canned food	dog food	dog
+000491	?	find	canned food	tin of dog food	dog
+000492	?	find	canned food	tin	dog
+000493	?	find	canned food	pet	dog
+000494	?	find	canned food	can of petfood	dog
+000495	?	find	canned food	floor	dog
+000496	?	find	canned food	dogs	dog
+000497	?	find	canned food	dish	dog
+000498	?	find	canned food	bowl	dog
+000499	?	find	canned food	tin opener	dog
+000500	?	find	canned food	can opener	dog
+000501	?	find	canned food	dog s	dog
+000502	?	encourage	dog	food	dog
+000503	?	encourage	dog	dog food	dog
+000504	?	encourage	dog	tin of dog food	dog
+000505	?	encourage	dog	tin	dog
+000506	?	encourage	dog	pet	dog
+000507	?	encourage	dog	can of petfood	dog
+000508	?	encourage	dog	floor	dog
+000509	?	encourage	dog	dogs	dog
+000510	?	encourage	dog	dish	dog
+000511	?	encourage	dog	bowl	dog
+000512	?	encourage	dog	tin opener	dog
+000513	?	encourage	dog	can opener	dog
+000514	?	encourage	dog	dog s	dog
+000515	?	find	dog dish	food	dog
+000516	?	find	dog dish	dog food	dog
+000517	?	find	dog dish	tin of dog food	dog
+000518	?	find	dog dish	tin	dog
+000519	?	find	dog dish	pet	dog
+000520	?	find	dog dish	can of petfood	dog
+000521	?	find	dog dish	floor	dog
+000522	?	find	dog dish	dogs	dog
+000523	?	find	dog dish	dish	dog
+000524	?	find	dog dish	bowl	dog
+000525	?	find	dog dish	tin opener	dog
+000526	?	find	dog dish	can opener	dog
+000527	?	find	dog dish	dog s	dog
+000528	?	put	tin	food	dog
+000529	?	put	tin	dog food	dog
+000530	?	put	tin	tin of dog food	dog
+000531	?	put	tin	pet	dog
+000532	?	put	tin	can of petfood	dog
+000533	?	put	tin	floor	dog
+000534	?	put	tin	dogs	dog
+000535	?	put	tin	dish	dog
+000536	?	put	tin	bowl	dog
+000537	?	put	tin	tin opener	dog
+000538	?	put	tin	can opener	dog
+000539	?	put	tin	dog s	dog
+000540	?	place	dish	food	dog
+000541	?	place	dish	dog food	dog
+000542	?	place	dish	tin of dog food	dog
+000543	?	place	dish	tin	dog
+000544	?	place	dish	pet	dog
+000545	?	place	dish	can of petfood	dog
+000546	?	place	dish	floor	dog
+000547	?	place	dish	dogs	dog
+000548	?	place	dish	bowl	dog
+000549	?	place	dish	tin opener	dog
+000550	?	place	dish	can opener	dog
+000551	?	place	dish	dog s	dog
+000552	?	measure	food	dog food	dog
+000553	?	measure	food	tin of dog food	dog
+000554	?	measure	food	tin	dog
+000555	?	measure	food	pet	dog
+000556	?	measure	food	can of petfood	dog
+000557	?	measure	food	floor	dog
+000558	?	measure	food	dogs	dog
+000559	?	measure	food	dish	dog
+000560	?	measure	food	bowl	dog
+000561	?	measure	food	tin opener	dog
+000562	?	measure	food	can opener	dog
+000563	?	measure	food	dog s	dog
+000564	?	pour	dry food	food	dog
+000565	?	pour	dry food	dog food	dog
+000566	?	pour	dry food	tin of dog food	dog
+000567	?	pour	dry food	tin	dog
+000568	?	pour	dry food	pet	dog
+000569	?	pour	dry food	can of petfood	dog
+000570	?	pour	dry food	floor	dog
+000571	?	pour	dry food	dogs	dog
+000572	?	pour	dry food	dish	dog
+000573	?	pour	dry food	bowl	dog
+000574	?	pour	dry food	tin opener	dog
+000575	?	pour	dry food	can opener	dog
+000576	?	pour	dry food	dog s	dog
+000577	?	get	dog	food	dog
+000578	?	get	dog	dog food	dog
+000579	?	get	dog	tin of dog food	dog
+000580	?	get	dog	tin	dog
+000581	?	get	dog	pet	dog
+000582	?	get	dog	can of petfood	dog
+000583	?	get	dog	floor	dog
+000584	?	get	dog	dogs	dog
+000585	?	get	dog	dish	dog
+000586	?	get	dog	bowl	dog
+000587	?	get	dog	tin opener	dog
+000588	?	get	dog	can opener	dog
+000589	?	get	dog	dog s	dog
+000590	?	locate	dog	food	dog
+000591	?	locate	dog	dog food	dog
+000592	?	locate	dog	tin of dog food	dog
+000593	?	locate	dog	tin	dog
+000594	?	locate	dog	pet	dog
+000595	?	locate	dog	can of petfood	dog
+000596	?	locate	dog	floor	dog
+000597	?	locate	dog	dogs	dog
+000598	?	locate	dog	dish	dog
+000599	?	locate	dog	bowl	dog
+000600	?	locate	dog	tin opener	dog
+000601	?	locate	dog	can opener	dog
+000602	?	locate	dog	dog s	dog
+000603	?	open	food	dog food	dog
+000604	?	open	food	tin of dog food	dog
+000605	?	open	food	tin	dog
+000606	?	open	food	pet	dog
+000607	?	open	food	can of petfood	dog
+000608	?	open	food	floor	dog
+000609	?	open	food	dogs	dog
+000610	?	open	food	dish	dog
+000611	?	open	food	bowl	dog
+000612	?	open	food	tin opener	dog
+000613	?	open	food	can opener	dog
+000614	?	open	food	dog s	dog
+000615	?	pour	some	food	dog
+000616	?	pour	some	dog food	dog
+000617	?	pour	some	tin of dog food	dog
+000618	?	pour	some	tin	dog
+000619	?	pour	some	pet	dog
+000620	?	pour	some	can of petfood	dog
+000621	?	pour	some	floor	dog
+000622	?	pour	some	dogs	dog
+000623	?	pour	some	dish	dog
+000624	?	pour	some	bowl	dog
+000625	?	pour	some	tin opener	dog
+000626	?	pour	some	can opener	dog
+000627	?	pour	some	dog s	dog
+000628	?	get	can	food	dog
+000629	?	get	can	dog food	dog
+000630	?	get	can	tin of dog food	dog
+000631	?	get	can	tin	dog
+000632	?	get	can	pet	dog
+000633	?	get	can	can of petfood	dog
+000634	?	get	can	floor	dog
+000635	?	get	can	dogs	dog
+000636	?	get	can	dish	dog
+000637	?	get	can	bowl	dog
+000638	?	get	can	tin opener	dog
+000639	?	get	can	can opener	dog
+000640	?	get	can	dog s	dog
+000641	?	give	water	food	dog
+000642	?	give	water	dog food	dog
+000643	?	give	water	tin of dog food	dog
+000644	?	give	water	tin	dog
+000645	?	give	water	pet	dog
+000646	?	give	water	can of petfood	dog
+000647	?	give	water	floor	dog
+000648	?	give	water	dogs	dog
+000649	?	give	water	dish	dog
+000650	?	give	water	bowl	dog
+000651	?	give	water	tin opener	dog
+000652	?	give	water	can opener	dog
+000653	?	give	water	dog s	dog
+000654	?	feed	dog	food	dog
+000655	?	feed	dog	dog food	dog
+000656	?	feed	dog	tin of dog food	dog
+000657	?	feed	dog	tin	dog
+000658	?	feed	dog	pet	dog
+000659	?	feed	dog	can of petfood	dog
+000660	?	feed	dog	floor	dog
+000661	?	feed	dog	dogs	dog
+000662	?	feed	dog	dish	dog
+000663	?	feed	dog	bowl	dog
+000664	?	feed	dog	tin opener	dog
+000665	?	feed	dog	can opener	dog
+000666	?	feed	dog	dog s	dog
+000667	?	put	pet foods	food	dog
+000668	?	put	pet foods	dog food	dog
+000669	?	put	pet foods	tin of dog food	dog
+000670	?	put	pet foods	tin	dog
+000671	?	put	pet foods	pet	dog
+000672	?	put	pet foods	can of petfood	dog
+000673	?	put	pet foods	floor	dog
+000674	?	put	pet foods	dogs	dog
+000675	?	put	pet foods	dish	dog
+000676	?	put	pet foods	bowl	dog
+000677	?	put	pet foods	tin opener	dog
+000678	?	put	pet foods	can opener	dog
+000679	?	put	pet foods	dog s	dog
+000680	?	find	dry food	food	dog
+000681	?	find	dry food	dog food	dog
+000682	?	find	dry food	tin of dog food	dog
+000683	?	find	dry food	tin	dog
+000684	?	find	dry food	pet	dog
+000685	?	find	dry food	can of petfood	dog
+000686	?	find	dry food	floor	dog
+000687	?	find	dry food	dogs	dog
+000688	?	find	dry food	dish	dog
+000689	?	find	dry food	bowl	dog
+000690	?	find	dry food	tin opener	dog
+000691	?	find	dry food	can opener	dog
+000692	?	find	dry food	dog s	dog
+000693	?	pour	dog food	food	dog
+000694	?	pour	dog food	tin of dog food	dog
+000695	?	pour	dog food	tin	dog
+000696	?	pour	dog food	pet	dog
+000697	?	pour	dog food	can of petfood	dog
+000698	?	pour	dog food	floor	dog
+000699	?	pour	dog food	dogs	dog
+000700	?	pour	dog food	dish	dog
+000701	?	pour	dog food	bowl	dog
+000702	?	pour	dog food	tin opener	dog
+000703	?	pour	dog food	can opener	dog
+000704	?	pour	dog food	dog s	dog
+000705	?	take	pet food	food	dog
+000706	?	take	pet food	dog food	dog
+000707	?	take	pet food	tin of dog food	dog
+000708	?	take	pet food	tin	dog
+000709	?	take	pet food	pet	dog
+000710	?	take	pet food	can of petfood	dog
+000711	?	take	pet food	floor	dog
+000712	?	take	pet food	dogs	dog
+000713	?	take	pet food	dish	dog
+000714	?	take	pet food	bowl	dog
+000715	?	take	pet food	tin opener	dog
+000716	?	take	pet food	can opener	dog
+000717	?	take	pet food	dog s	dog
+000718	?	open	tin	food	dog
+000719	?	open	tin	dog food	dog
+000720	?	open	tin	tin of dog food	dog
+000721	?	open	tin	pet	dog
+000722	?	open	tin	can of petfood	dog
+000723	?	open	tin	floor	dog
+000724	?	open	tin	dogs	dog
+000725	?	open	tin	dish	dog
+000726	?	open	tin	bowl	dog
+000727	?	open	tin	tin opener	dog
+000728	?	open	tin	can opener	dog
+000729	?	open	tin	dog s	dog
+000730	?	alert	dog	food	dog
+000731	?	alert	dog	dog food	dog
+000732	?	alert	dog	tin of dog food	dog
+000733	?	alert	dog	tin	dog
+000734	?	alert	dog	pet	dog
+000735	?	alert	dog	can of petfood	dog
+000736	?	alert	dog	floor	dog
+000737	?	alert	dog	dogs	dog
+000738	?	alert	dog	dish	dog
+000739	?	alert	dog	bowl	dog
+000740	?	alert	dog	tin opener	dog
+000741	?	alert	dog	can opener	dog
+000742	?	alert	dog	dog s	dog
+000743	?	pour	specified quantity	food	dog
+000744	?	pour	specified quantity	dog food	dog
+000745	?	pour	specified quantity	tin of dog food	dog
+000746	?	pour	specified quantity	tin	dog
+000747	?	pour	specified quantity	pet	dog
+000748	?	pour	specified quantity	can of petfood	dog
+000749	?	pour	specified quantity	floor	dog
+000750	?	pour	specified quantity	dogs	dog
+000751	?	pour	specified quantity	dish	dog
+000752	?	pour	specified quantity	bowl	dog
+000753	?	pour	specified quantity	tin opener	dog
+000754	?	pour	specified quantity	can opener	dog
+000755	?	pour	specified quantity	dog s	dog
+000756	?	call	dag	food	dog
+000757	?	call	dag	dog food	dog
+000758	?	call	dag	tin of dog food	dog
+000759	?	call	dag	tin	dog
+000760	?	call	dag	pet	dog
+000761	?	call	dag	can of petfood	dog
+000762	?	call	dag	floor	dog
+000763	?	call	dag	dogs	dog
+000764	?	call	dag	dish	dog
+000765	?	call	dag	bowl	dog
+000766	?	call	dag	tin opener	dog
+000767	?	call	dag	can opener	dog
+000768	?	call	dag	dog s	dog
+000769	?	open	dog food	food	dog
+000770	?	open	dog food	tin of dog food	dog
+000771	?	open	dog food	tin	dog
+000772	?	open	dog food	pet	dog
+000773	?	open	dog food	can of petfood	dog
+000774	?	open	dog food	floor	dog
+000775	?	open	dog food	dogs	dog
+000776	?	open	dog food	dish	dog
+000777	?	open	dog food	bowl	dog
+000778	?	open	dog food	tin opener	dog
+000779	?	open	dog food	can opener	dog
+000780	?	open	dog food	dog s	dog
+000781	?	put	full food dish	food	dog
+000782	?	put	full food dish	dog food	dog
+000783	?	put	full food dish	tin of dog food	dog
+000784	?	put	full food dish	tin	dog
+000785	?	put	full food dish	pet	dog
+000786	?	put	full food dish	can of petfood	dog
+000787	?	put	full food dish	floor	dog
+000788	?	put	full food dish	dogs	dog
+000789	?	put	full food dish	dish	dog
+000790	?	put	full food dish	bowl	dog
+000791	?	put	full food dish	tin opener	dog
+000792	?	put	full food dish	can opener	dog
+000793	?	put	full food dish	dog s	dog
+000794	?	take	food dish	food	dog
+000795	?	take	food dish	dog food	dog
+000796	?	take	food dish	tin of dog food	dog
+000797	?	take	food dish	tin	dog
+000798	?	take	food dish	pet	dog
+000799	?	take	food dish	can of petfood	dog
+000800	?	take	food dish	floor	dog
+000801	?	take	food dish	dogs	dog
+000802	?	take	food dish	dish	dog
+000803	?	take	food dish	bowl	dog
+000804	?	take	food dish	tin opener	dog
+000805	?	take	food dish	can opener	dog
+000806	?	take	food dish	dog s	dog
+000807	?	put	water	food	dog
+000808	?	put	water	dog food	dog
+000809	?	put	water	tin of dog food	dog
+000810	?	put	water	tin	dog
+000811	?	put	water	pet	dog
+000812	?	put	water	can of petfood	dog
+000813	?	put	water	floor	dog
+000814	?	put	water	dogs	dog
+000815	?	put	water	dish	dog
+000816	?	put	water	bowl	dog
+000817	?	put	water	tin opener	dog
+000818	?	put	water	can opener	dog
+000819	?	put	water	dog s	dog
+000820	?	get	tin opener	food	dog
+000821	?	get	tin opener	dog food	dog
+000822	?	get	tin opener	tin of dog food	dog
+000823	?	get	tin opener	tin	dog
+000824	?	get	tin opener	pet	dog
+000825	?	get	tin opener	can of petfood	dog
+000826	?	get	tin opener	floor	dog
+000827	?	get	tin opener	dogs	dog
+000828	?	get	tin opener	dish	dog
+000829	?	get	tin opener	bowl	dog
+000830	?	get	tin opener	can opener	dog
+000831	?	get	tin opener	dog s	dog
+000832	?	put	bag	food	dog
+000833	?	put	bag	dog food	dog
+000834	?	put	bag	tin of dog food	dog
+000835	?	put	bag	tin	dog
+000836	?	put	bag	pet	dog
+000837	?	put	bag	can of petfood	dog
+000838	?	put	bag	floor	dog
+000839	?	put	bag	dogs	dog
+000840	?	put	bag	dish	dog
+000841	?	put	bag	bowl	dog
+000842	?	put	bag	tin opener	dog
+000843	?	put	bag	can opener	dog
+000844	?	put	bag	dog s	dog
+000845	?	pour	it	food	dog
+000846	?	pour	it	dog food	dog
+000847	?	pour	it	tin of dog food	dog
+000848	?	pour	it	tin	dog
+000849	?	pour	it	pet	dog
+000850	?	pour	it	can of petfood	dog
+000851	?	pour	it	floor	dog
+000852	?	pour	it	dogs	dog
+000853	?	pour	it	dish	dog
+000854	?	pour	it	bowl	dog
+000855	?	pour	it	tin opener	dog
+000856	?	pour	it	can opener	dog
+000857	?	pour	it	dog s	dog
+000858	?	buy	food	dog food	dog
+000859	?	buy	food	tin of dog food	dog
+000860	?	buy	food	tin	dog
+000861	?	buy	food	pet	dog
+000862	?	buy	food	can of petfood	dog
+000863	?	buy	food	floor	dog
+000864	?	buy	food	dogs	dog
+000865	?	buy	food	dish	dog
+000866	?	buy	food	bowl	dog
+000867	?	buy	food	tin opener	dog
+000868	?	buy	food	can opener	dog
+000869	?	buy	food	dog s	dog
+000870	?	give	bowl	food	dog
+000871	?	give	bowl	dog food	dog
+000872	?	give	bowl	tin of dog food	dog
+000873	?	give	bowl	tin	dog
+000874	?	give	bowl	pet	dog
+000875	?	give	bowl	can of petfood	dog
+000876	?	give	bowl	floor	dog
+000877	?	give	bowl	dogs	dog
+000878	?	give	bowl	dish	dog
+000879	?	give	bowl	tin opener	dog
+000880	?	give	bowl	can opener	dog
+000881	?	give	bowl	dog s	dog
+000882	?	clean	dog dish	food	dog
+000883	?	clean	dog dish	dog food	dog
+000884	?	clean	dog dish	tin of dog food	dog
+000885	?	clean	dog dish	tin	dog
+000886	?	clean	dog dish	pet	dog
+000887	?	clean	dog dish	can of petfood	dog
+000888	?	clean	dog dish	floor	dog
+000889	?	clean	dog dish	dogs	dog
+000890	?	clean	dog dish	dish	dog
+000891	?	clean	dog dish	bowl	dog
+000892	?	clean	dog dish	tin opener	dog
+000893	?	clean	dog dish	can opener	dog
+000894	?	clean	dog dish	dog s	dog
+000895	?	tip	bag	food	dog
+000896	?	tip	bag	dog food	dog
+000897	?	tip	bag	tin of dog food	dog
+000898	?	tip	bag	tin	dog
+000899	?	tip	bag	pet	dog
+000900	?	tip	bag	can of petfood	dog
+000901	?	tip	bag	floor	dog
+000902	?	tip	bag	dogs	dog
+000903	?	tip	bag	dish	dog
+000904	?	tip	bag	bowl	dog
+000905	?	tip	bag	tin opener	dog
+000906	?	tip	bag	can opener	dog
+000907	?	tip	bag	dog s	dog
+000908	?	put	dog food	food	dog
+000909	?	put	dog food	tin of dog food	dog
+000910	?	put	dog food	tin	dog
+000911	?	put	dog food	pet	dog
+000912	?	put	dog food	can of petfood	dog
+000913	?	put	dog food	floor	dog
+000914	?	put	dog food	dogs	dog
+000915	?	put	dog food	dish	dog
+000916	?	put	dog food	bowl	dog
+000917	?	put	dog food	tin opener	dog
+000918	?	put	dog food	can opener	dog
+000919	?	put	dog food	dog s	dog
+000920	?	get	dog food	food	dog
+000921	?	get	dog food	tin of dog food	dog
+000922	?	get	dog food	tin	dog
+000923	?	get	dog food	pet	dog
+000924	?	get	dog food	can of petfood	dog
+000925	?	get	dog food	floor	dog
+000926	?	get	dog food	dogs	dog
+000927	?	get	dog food	dish	dog
+000928	?	get	dog food	bowl	dog
+000929	?	get	dog food	tin opener	dog
+000930	?	get	dog food	can opener	dog
+000931	?	get	dog food	dog s	dog
+000932	?	place	bowl	food	dog
+000933	?	place	bowl	dog food	dog
+000934	?	place	bowl	tin of dog food	dog
+000935	?	place	bowl	tin	dog
+000936	?	place	bowl	pet	dog
+000937	?	place	bowl	can of petfood	dog
+000938	?	place	bowl	floor	dog
+000939	?	place	bowl	dogs	dog
+000940	?	place	bowl	dish	dog
+000941	?	place	bowl	tin opener	dog
+000942	?	place	bowl	can opener	dog
+000943	?	place	bowl	dog s	dog
+000944	?	get	food	dog food	dog
+000945	?	get	food	tin of dog food	dog
+000946	?	get	food	tin	dog
+000947	?	get	food	pet	dog
+000948	?	get	food	can of petfood	dog
+000949	?	get	food	floor	dog
+000950	?	get	food	dogs	dog
+000951	?	get	food	dish	dog
+000952	?	get	food	bowl	dog
+000953	?	get	food	tin opener	dog
+000954	?	get	food	can opener	dog
+000955	?	get	food	dog s	dog
+000956	?	notify	dog	food	dog
+000957	?	notify	dog	dog food	dog
+000958	?	notify	dog	tin of dog food	dog
+000959	?	notify	dog	tin	dog
+000960	?	notify	dog	pet	dog
+000961	?	notify	dog	can of petfood	dog
+000962	?	notify	dog	floor	dog
+000963	?	notify	dog	dogs	dog
+000964	?	notify	dog	dish	dog
+000965	?	notify	dog	bowl	dog
+000966	?	notify	dog	tin opener	dog
+000967	?	notify	dog	can opener	dog
+000968	?	notify	dog	dog s	dog
+000969	?	locate	food	dog food	dog
+000970	?	locate	food	tin of dog food	dog
+000971	?	locate	food	tin	dog
+000972	?	locate	food	pet	dog
+000973	?	locate	food	can of petfood	dog
+000974	?	locate	food	floor	dog
+000975	?	locate	food	dogs	dog
+000976	?	locate	food	dish	dog
+000977	?	locate	food	bowl	dog
+000978	?	locate	food	tin opener	dog
+000979	?	locate	food	can opener	dog
+000980	?	locate	food	dog s	dog

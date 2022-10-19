@@ -1,0 +1,191 @@
+det(eycyclopedia-3, the-2)
+dobj(getting-1, eycyclopedia-3)
+
+prt(looking-1, up-2)
+det(subject-4, the-3)
+dobj(looking-1, subject-4)
+
+det(problem-3, the-2)
+dobj(study-1, problem-3)
+dobj(want-5, problem-3)
+prep_about(learn-7, problem-3)
+nsubj(want-5, you-4)
+xsubj(learn-7, you-4)
+rcmod(problem-3, want-5)
+aux(learn-7, to-6)
+xcomp(want-5, learn-7)
+
+conj_or(look-1, look-1')
+det(internet-4, the-3)
+prep_on(look-1, internet-4)
+cc(look-1, or-5)
+prep_on(look-1, television-7)
+prep_in(look-1', books-10)
+amod(information-13, more-12)
+prep_for(books-10, information-13)
+det(problem-16, the-15)
+prep_about(information-13, problem-16)
+
+dobj(locate-1, someone-2)
+nsubj(has-4, someone-2)
+rcmod(someone-2, has-4)
+det(information-6, the-5)
+dobj(has-4, information-6)
+dobj(need-8, information-6)
+nsubj(need-8, you-7)
+rcmod(information-6, need-8)
+
+det(person-3, the-2)
+dobj(ask-1, person-3)
+det(information-6, the-5)
+prep_for(ask-1, information-6)
+
+det(internet-4, the-3)
+prep_on(research-1, internet-4)
+
+det(friend-3, a-2)
+dobj(ask-1, friend-3)
+
+nsubj(found-7, guessing-1)
+advmod(be-6, where-2)
+rel(be-6, where-2)
+amod(information-4, more-3)
+nsubj(be-6, information-4)
+aux(be-6, can-5)
+rcmod(guessing-1, be-6)
+
+det(source-4, a-3)
+prep_to(going-1, source-4)
+prep_of(source-4, information-6)
+
+det(information-5, the-3)
+amod(information-5, desired-4)
+prep_for(search-1, information-5)
+
+mark(found-7, if-1)
+det(information-3, the-2)
+nsubjpass(found-7, information-3)
+aux(found-7, can-4)
+neg(found-7, not-5)
+auxpass(found-7, be-6)
+csubj(ask-10, found-7)
+agent(found-7, searching-9)
+dobj(ask-10, people-11)
+prep_for(ask-10, help-13)
+
+det(information-3, the-2)
+dobj(determine-1, information-3)
+aux(gather-5, to-4)
+infmod(information-3, gather-5)
+
+amod(sources-3, various-2)
+dobj(utilize-1, sources-3)
+aux(serach-5, to-4)
+xcomp(utilize-1, serach-5)
+prep_for(serach-5, information-7)
+
+dobj(record-1, information-2)
+det(format-6, a-4)
+amod(format-6, readable-5)
+prep_in(record-1, format-6)
+
+amod(information-3, required-2)
+dobj(identify-1, information-3)
+
+advmod(is-4, how-2)
+nsubj(is-4, information-3)
+xsubj(used-7, information-3)
+ccomp(determine-1, is-4)
+aux(used-7, to-5)
+auxpass(used-7, be-6)
+xcomp(is-4, used-7)
+
+dobj(research-1, subject-2)
+
+prt(figure-1, out-2)
+dep(need-5, what-3)
+nsubj(need-5, you-4)
+xsubj(know-7, you-4)
+ccomp(figure-1, need-5)
+aux(know-7, to-6)
+xcomp(need-5, know-7)
+
+dobj(find-1, sources-2)
+
+prep_through(look-1, sources-3)
+
+dobj(ask-1, experts-2)
+
+dobj(read-1, books-2)
+
+
+prep_to(go-1, computer-3)
+
+prep_to(connect-1, internet-3)
+
+nn(browser-3, web-2)
+dobj(open-1, browser-3)
+
+aux(search-3, to-2)
+xcomp(go-1, search-3)
+dobj(search-3, engine-4)
+
+amod(information-4, more-3)
+prep_for(search-1, information-4)
+
+dobj(read-1, information-2)
+
+det(friend-3, a-2)
+dobj(call-1, friend-3)
+
+dobj(google-1, it-2)
+
+dobj(look-1, it-2)
+prt(look-1, up-3)
+det(newspaper-6, a-5)
+prep_in(look-1, newspaper-6)
+
+prep_on(turn-1, computer-3)
+
+prep_to(connect-1, internet-3)
+
+det(engine-5, a-3)
+nn(engine-5, search-4)
+prep_to(go-1, engine-5)
+
+det(information-4, the-3)
+prep_in(type-1, information-4)
+dobj(want-6, information-4)
+nsubj(want-6, you-5)
+rcmod(information-4, want-6)
+
+dep(click-1, search-3)
+
+prt(scroll-1, down-2)
+det(list-4, the-3)
+dobj(scroll-1, list-4)
+prep_of(list-4, websites-6)
+
+det(website-6, the-3)
+advmod(relevant-5, most-4)
+amod(website-6, relevant-5)
+prep_on(click-1, website-6)
+
+dobj(call-1, 411-2)
+
+poss(question-3, your-2)
+dobj(ask-1, question-3)
+
+amod(people-3, nearby-2)
+dobj(ask-1, people-3)
+
+det(facts-3, the-2)
+dobj(gather-1, facts-3)
+
+dobj(call-1, 411-2)
+
+det(operator-3, the-2)
+iobj(ask-1, operator-3)
+poss(question-5, your-4)
+dobj(ask-1, question-5)
+

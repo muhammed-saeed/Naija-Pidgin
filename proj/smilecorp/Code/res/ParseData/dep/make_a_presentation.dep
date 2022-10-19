@@ -1,0 +1,353 @@
+det(idea-4, an-3)
+prep_of(thinking-1, idea-4)
+
+det(idea-3, the-2)
+dobj(organizing-1, idea-3)
+
+det(idea-3, the-2)
+dobj(planning-1, idea-3)
+
+prt(carrying-1, out-2)
+det(presentaion-4, the-3)
+dobj(carrying-1, presentaion-4)
+
+dobj(prepare-1, presentation-2)
+
+dobj(schedule-1, presentation-2)
+
+prep_about(talk-1, presentation-3)
+nsubj(showing-5, while-4)
+rcmod(presentation-3, showing-5)
+dobj(showing-5, visuals-6)
+
+dobj(prepare-1, materials-2)
+det(presentation-5, a-4)
+prep_for(prepare-1, presentation-5)
+
+num(people-5, one-2)
+conj_or(one-2, more-4)
+quantmod(one-2, more-4)
+num(people-5, more-4)
+dobj(arrange-1, people-5)
+det(audience-8, an-7)
+prep_into(arrange-1, audience-8)
+
+det(materials-4, the-2)
+nn(materials-4, presentation-3)
+dobj(show-1, materials-4)
+
+det(presentation-4, the-3)
+prep_about(talk-1, presentation-4)
+det(materials-7, the-6)
+prep_about(talk-1, materials-7)
+conj_and(presentation-4, materials-7)
+
+det(content-3, the-2)
+dobj(determine-1, content-3)
+det(presentation-6, the-5)
+prep_of(content-3, presentation-6)
+
+det(outline-3, an-2)
+dobj(construct-1, outline-3)
+det(material-6, the-5)
+prep_of(outline-3, material-6)
+det(presentation-9, the-8)
+prep_for(construct-1, presentation-9)
+
+det(material-3, the-2)
+dobj(research-1, material-3)
+aux(presented-6, to-4)
+auxpass(presented-6, be-5)
+infmod(material-3, presented-6)
+
+dobj(write-1, notes-2)
+det(presentation-5, the-4)
+prep_for(write-1, presentation-5)
+
+det(presentation-3, the-2)
+dobj(present-1, presentation-3)
+
+dobj(research-1, subject-2)
+
+dobj(prepare-1, slides-2)
+
+dobj(deliver-1, presentation-2)
+
+dobj(prepare-1, slides-2)
+det(presentation-5, the-4)
+prep_for(prepare-1, presentation-5)
+
+det(audience-4, the-3)
+prep_before(stand-1, audience-4)
+
+det(slides-4, the-3)
+prep_through(go-1, slides-4)
+dep(slides-4, one-5)
+prep_by(go-1, one-7)
+
+csubj(describe-4, for-1)
+csubj(explain-6, for-1)
+det(slide-3, each-2)
+pobj(for-1, slide-3)
+conj_and(describe-4, explain-6)
+poss(content-8, its-7)
+dobj(explain-6, content-8)
+
+dobj(research-1, topic-2)
+
+dobj(summarize-1, findings-2)
+
+dobj(write-1, slides-2)
+
+nn(subject-2, research-1)
+prep_of(subject-2, presentation-4)
+
+nn(outlook-3, presentation-2)
+dobj(write-1, outlook-3)
+
+dobj(write-1, slides-2)
+amod(topic-5, chosen-4)
+prep_on(slides-2, topic-5)
+
+nn(subject-2, research-1)
+prep_of(subject-2, presentation-4)
+
+det(list-3, a-2)
+dobj(make-1, list-3)
+amod(point-6, main-5)
+prep_with(make-1, point-6)
+
+dobj(write-1, slides-2)
+aux(illustrate-4, to-3)
+xcomp(write-1, illustrate-4)
+det(points-6, those-5)
+dobj(illustrate-4, points-6)
+
+dobj(review-1, presentation-2)
+
+prt(set-1, up-2)
+nn(equipment-4, presentation-3)
+dobj(set-1, equipment-4)
+
+det(audience-3, the-2)
+dobj(greet-1, audience-3)
+
+dobj(give-1, talk-2)
+det(audience-5, the-4)
+prep_to(give-1, audience-5)
+
+dobj(do-1, question-2)
+conj_and(do-1, answer-4)
+dobj(answer-4, session-5)
+
+dep(be-6, what-2)
+det(presentation-4, the-3)
+nsubj(be-6, presentation-4)
+aux(be-6, will-5)
+ccomp(decide-1, be-6)
+prep(be-6, on-7)
+
+advmod(do-5, how-2)
+nsubj(do-5, you-3)
+aux(do-5, will-4)
+ccomp(dicide-1, do-5)
+poss(presentation-7, your-6)
+dobj(do-5, presentation-7)
+
+dep(information-3, all-2)
+dobj(gather-1, information-3)
+dobj(gather-1, materials-5)
+conj_and(information-3, materials-5)
+
+det(presentation-3, the-2)
+dobj(put-1, presentation-3)
+advmod(put-1, together-4)
+
+det(resources-3, the-2)
+dobj(get-1, resources-3)
+
+prt(lay-1, out-2)
+det(plan-4, a-3)
+dobj(lay-1, plan-4)
+
+dobj(create-1, notes-2)
+
+dobj(memorize-1, notes-2)
+
+det(presentation-3, the-2)
+dobj(do-1, presentation-3)
+
+prt(set-1, up-2)
+det(equipment-5, the-3)
+nn(equipment-5, presentation-4)
+dobj(set-1, equipment-5)
+
+prt(get-1, up-2)
+det(people-7, the-6)
+prep_in_front_of(get-1, people-7)
+det(room-10, the-9)
+prep_in(people-7, room-10)
+
+det(equipment-3, the-2)
+dobj(use-1, equipment-3)
+aux(illustrate-5, to-4)
+xcomp(use-1, illustrate-5)
+det(presentation-7, the-6)
+dobj(illustrate-5, presentation-7)
+
+poss(notes-3, your-2)
+dobj(use-1, notes-3)
+aux(tell-5, to-4)
+xcomp(use-1, tell-5)
+det(information-7, the-6)
+dobj(tell-5, information-7)
+partmod(information-7, needed-8)
+det(presentation-11, the-10)
+prep_in(needed-8, presentation-11)
+
+dobj(open-1, powerpoint-2)
+
+dobj(compose-1, presentation-2)
+
+dobj(perform-1, presentation-2)
+prep_in_front_of(perform-1, peers-6)
+
+dobj(collect-1, pictures-2)
+
+dobj(write-1, information-2)
+
+dobj(create-1, slides-2)
+
+det(audience-3, an-2)
+dobj(assemble-1, audience-3)
+
+nsubj(slides-2, show-1)
+prep_to(slides-2, audience-4)
+
+prep_to(listen-1, questions-3)
+prep_from(questions-3, audience-5)
+
+det(questions-3, the-2)
+dobj(answer-1, questions-3)
+
+prep_on(decide-1, topic-3)
+
+dobj(make-1, notes-2)
+amod(points-5, major-4)
+prep_of(notes-2, points-5)
+aux(make-7, to-6)
+xcomp(make-1, make-7)
+
+
+dobj(organize-1, notes-2)
+
+amod(draft-3, rough-2)
+dobj(write-1, draft-3)
+
+dobj(edit-1, draft-2)
+
+dobj(finalize-1, and-2)
+dep(finalize-1, present-3)
+
+prep_on(decide-1, topic-3)
+
+dobj(research-1, topic-2)
+
+dep(draft-2, rough-1)
+dobj(draft-2, presentation-3)
+
+nn(outs-3, hand-2)
+dobj(prepare-1, outs-3)
+
+dobj(finalize-1, presentation-2)
+
+amod(hand-2, finalize-1)
+nsubj(outs-3, hand-2)
+
+dobj(present-1, presentation-2)
+
+dobj(gather-1, material-2)
+aux(present-4, to-3)
+xcomp(gather-1, present-4)
+
+num(%-3, 10-2)
+dobj(choose-1, %-3)
+
+dobj(open-1, powerpoint-2)
+
+dobj(create-1, slides-2)
+prep_with(create-1, material-4)
+partmod(material-4, chosen-5)
+
+dobj(save-1, powerpoint-2)
+amod(disk-5, portable-4)
+prep_to(save-1, disk-5)
+
+prep_in(type-1, presentation-3)
+prep_to(presentation-3, computer-5)
+
+dobj(get-1, projector-2)
+
+dobj(gather-1, audience-2)
+
+prep_on(turn-1, projector-3)
+
+
+det(topic-3, a-2)
+dobj(choose-1, topic-3)
+
+nn(information-2, research-1)
+det(topic-5, that-4)
+prep_on(information-2, topic-5)
+
+det(information-3, the-2)
+dobj(compile-1, information-3)
+det(presentation-6, a-5)
+prep_into(compile-1, presentation-6)
+
+det(material-3, the-2)
+dobj(learn-1, material-3)
+aux(presented-6, to-4)
+auxpass(presented-6, be-5)
+infmod(material-3, presented-6)
+
+xcomp(practice-1, reciting-2)
+det(speech-4, the-3)
+dobj(reciting-2, speech-4)
+
+det(information-3, the-2)
+dobj(present-1, information-3)
+
+dobj(use-1, projection-2)
+
+dobj(research-1, topic-2)
+
+dobj(gather-1, data-2)
+
+nsubj(date-2, input-1)
+
+dobj(spell-1, check-2)
+
+dobj(prepare-1, folders-2)
+
+dobj(obtain-1, media-2)
+prepc_for(obtain-1, viewing-4)
+
+nn(attendees-2, memo-1)
+
+dobj(gather-1, notes-2)
+dobj(gather-1, visuals-4)
+conj_and(notes-2, visuals-4)
+
+prep_in_front_of(stand-1, room-5)
+
+dobj(face-1, audience-2)
+
+dobj(greet-1, audience-2)
+
+dobj(introduce-1, self-2)
+
+dobj(introduce-1, topic-2)
+
+dobj(begin-1, presentation-2)
+

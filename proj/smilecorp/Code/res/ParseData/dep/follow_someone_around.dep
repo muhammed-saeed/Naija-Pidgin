@@ -1,0 +1,437 @@
+det(person-4, the-3)
+prep_behind(get-1, person-4)
+
+det(person-4, the-3)
+prep_with(move-1, person-4)
+
+dobj(locate-1, person-2)
+
+prep_to(go-1, person-3)
+
+prep_from(repeat-1, step-3)
+num(step-3, 1-4)
+
+det(feet-3, the-2)
+dobj(watch-1, feet-3)
+
+advmod(goes-5, wherever-2)
+det(person-4, the-3)
+nsubj(goes-5, person-4)
+advcl(go-1, goes-5)
+
+nsubj(called-2, if-1)
+csubj(remain-4, called-2)
+prep(called-2, for-3)
+poss(sight-8, their-7)
+prep_out_of(remain-4, sight-8)
+
+det(person-3, a-2)
+dobj(identify-1, person-3)
+dobj(wish-5, person-3)
+nsubj(wish-5, you-4)
+xsubj(follow-7, you-4)
+rcmod(person-3, wish-5)
+aux(follow-7, to-6)
+xcomp(wish-5, follow-7)
+
+prep_near(walk-1, them-3)
+mark(move-6, as-4)
+nsubj(move-6, they-5)
+advcl(walk-1, move-6)
+num(place-9, one-8)
+prep_from(move-6, place-9)
+prep_to(move-6, another-11)
+
+dobj(find-1, someone-2)
+
+det(person-4, that-3)
+prep_near(stay-1, person-4)
+mark(move-7, as-5)
+nsubj(move-7, they-6)
+advcl(stay-1, move-7)
+amod(locations-10, different-9)
+prep_to(move-7, locations-10)
+
+det(person-3, a-2)
+dobj(pick-1, person-3)
+aux(follow-5, to-4)
+infmod(person-3, follow-5)
+
+advmod(find-3, after-1)
+nsubj(find-3, you-2)
+det(person-5, a-4)
+nsubj(follow-7, person-5)
+aux(follow-7, to-6)
+xcomp(find-3, follow-7)
+xcomp(follow-7, get-8)
+dobj(get-8, yourself-9)
+prep_close_to(get-8, them-12)
+
+nsubj(watch-2, next-1)
+dobj(watch-2, them-3)
+poss(eyes-6, your-5)
+prep_with(watch-2, eyes-6)
+
+nsubj(go-2, next-1)
+advmod(go-5, wherever-3)
+nsubj(go-5, they-4)
+advcl(go-2, go-5)
+
+dobj(don-1, t-2)
+dep(don-1, let-3)
+nsubj(see-5, them-4)
+ccomp(let-3, see-5)
+dobj(see-5, you-6)
+mark(want-9, unless-7)
+nsubj(want-9, you-8)
+xsubj(seen-12, you-8)
+advcl(see-5, want-9)
+aux(seen-12, to-10)
+auxpass(seen-12, be-11)
+xcomp(want-9, seen-12)
+
+det(individual-3, the-2)
+dobj(locate-1, individual-3)
+aux(follow-5, to-4)
+infmod(individual-3, follow-5)
+
+det(individual-3, the-2)
+dobj(keep-1, individual-3)
+poss(eyesight-6, your-5)
+prep_in(keep-1, eyesight-6)
+
+dobj(relocate-1, yourself-2)
+advmod(relocate-1, constantly-3)
+aux(keep-5, to-4)
+xcomp(relocate-1, keep-5)
+det(individual-8, the-7)
+prep_near(keep-5, individual-8)
+
+dobj(find-1, someone-2)
+
+dobj(follow-1, him-2)
+
+det(person-3, the-2)
+dobj(watch-1, person-3)
+
+advmod(goes-5, where-2)
+det(person-4, the-3)
+nsubj(goes-5, person-4)
+advcl(go-1, goes-5)
+
+dobj(move-1, next-2)
+det(person-5, the-4)
+prep_to(move-1, person-5)
+aux(followed-8, to-6)
+auxpass(followed-8, be-7)
+infmod(person-5, followed-8)
+
+det(person-3, the-2)
+dobj(watch-1, person-3)
+
+det(person-5, the-4)
+prep_along_with(move-1, person-5)
+mark(walk-8, as-6)
+nsubj(walk-8, they-7)
+advcl(move-1, walk-8)
+
+poss(eyes-3, your-2)
+dobj(keep-1, eyes-3)
+det(person-6, the-5)
+prep_on(keep-1, person-6)
+
+advmod(moves-4, whenever-1)
+det(person-3, the-2)
+nsubj(moves-4, person-3)
+dep(move-6, moves-4)
+nsubj(move-6, you-5)
+advmod(behind-8, closely-7)
+advmod(move-6, behind-8)
+
+dobj(track-1, person-2)
+advmod(track-1, visually-3)
+
+mark(move-4, if-1)
+nn(moves-3, person-2)
+nsubj(move-4, moves-3)
+prep_after(move-4, them-6)
+
+mark(move-5, if-1)
+nsubj(move-5, person-2)
+aux(move-5, does-3)
+neg(move-5, not-4)
+csubj(stay-6, move-5)
+advmod(stay-6, still-7)
+
+dobj(locate-1, person-2)
+
+prep_at(look-1, person-3)
+
+mark(move-4, if-1)
+nn(moves-3, person-2)
+nsubj(move-4, moves-3)
+det(direction-8, the-6)
+amod(direction-8, same-7)
+prep_in(move-4, direction-8)
+
+det(distance-4, a-2)
+amod(distance-4, reasonable-3)
+dobj(keep-1, distance-4)
+prep_from(keep-1, person-6)
+
+dobj(watch-1, person-2)
+
+mark(moves-3, if-1)
+nsubj(moves-3, person-2)
+advcl(move-5, moves-3)
+csubj(move-5, moves-3)
+advmod(move-5, away-4)
+det(direction-9, the-7)
+amod(direction-9, same-8)
+prep_in(move-5, direction-9)
+
+det(distance-4, a-2)
+amod(distance-4, safe-3)
+dobj(keep-1, distance-4)
+prep_from(keep-1, person-6)
+
+det(person-5, the-4)
+prep_close_to(get-1, person-5)
+
+det(person-4, the-3)
+prep_behind(walk-1, person-4)
+
+det(person-3, a-2)
+dobj(pick-1, person-3)
+
+poss(location-3, their-2)
+dobj(find-1, location-3)
+
+prep_after(walk-1, them-3)
+advmod(walk-1, everywhere-4)
+
+det(person-3, the-2)
+dobj(find-1, person-3)
+dobj(want-5, person-3)
+nsubj(want-5, you-4)
+xsubj(follow-7, you-4)
+rcmod(person-3, want-5)
+aux(follow-7, to-6)
+xcomp(want-5, follow-7)
+
+advmod(moving-6, where-2)
+det(person-4, the-3)
+nsubj(moving-6, person-4)
+xsubj(to-7, person-4)
+aux(moving-6, is-5)
+advcl(see-1, moving-6)
+xcomp(moving-6, to-7)
+
+dep(following-10, go-1)
+det(directionas-5, the-3)
+amod(directionas-5, same-4)
+prep_in(go-1, directionas-5)
+det(person-7, the-6)
+dep(directionas-5, person-7)
+nsubj(following-10, you-8)
+aux(following-10, are-9)
+
+dobj(find-1, someone-2)
+aux(follow-4, to-3)
+infmod(someone-2, follow-4)
+
+prep_near(go-1, them-3)
+
+mark(moves-5, until-2)
+poss(someone-4, your-3)
+nsubj(moves-5, someone-4)
+advcl(loiter-1, moves-5)
+
+num(step-5, 2-2)
+conj_and(2-2, then-4)
+quantmod(2-2, then-4)
+num(step-5, then-4)
+dobj(repeat-1, step-5)
+iobj(repeat-1, step-5)
+dobj(repeat-1, 3-6)
+dep(step-5, 3-6)
+
+
+det(person-3, a-2)
+dobj(find-1, person-3)
+
+poss(quirks-3, their-2)
+dobj(learn-1, quirks-3)
+
+poss(routine-3, their-2)
+dobj(learn-1, routine-3)
+
+nn(equipment-3, spy-2)
+dobj(buy-1, equipment-3)
+
+cop(invisible-2, become-1)
+
+prep_behind(hide-1, objects-3)
+
+dobj(follow-1, them-2)
+advmod(go-5, wherever-3)
+nsubj(go-5, they-4)
+advcl(follow-1, go-5)
+
+dobj(find-1, target-2)
+
+
+aux(concealed-2, stay-1)
+
+
+
+
+
+dobj(find-1, someone-2)
+
+dobj(follow-1, someone-2)
+
+dobj(choose-1, someone-2)
+aux(follow-4, to-3)
+infmod(someone-2, follow-4)
+
+advmod(goes-5, wherever-2)
+det(person-4, that-3)
+nsubj(goes-5, person-4)
+advcl(go-1, goes-5)
+
+det(person-3, the-2)
+dobj(identify-1, person-3)
+
+aux(observe-3, to-2)
+xcomp(try-1, observe-3)
+det(path-5, the-4)
+dobj(observe-3, path-5)
+
+det(person-3, the-2)
+dobj(follw-1, person-3)
+
+det(person-3, the-2)
+dobj(identify-1, person-3)
+
+aux(follow-3, to-2)
+xcomp(try-1, follow-3)
+det(person-5, the-4)
+dobj(follow-3, person-5)
+
+dobj(locate-1, person-2)
+
+prep_behind(follow-1, them-3)
+
+dobj(watch-1, someone-2)
+
+advmod(moves-5, when-2)
+det(person-4, that-3)
+nsubj(moves-5, person-4)
+advcl(notice-1, moves-5)
+
+poss(path-3, their-2)
+dobj(follow-1, path-3)
+
+prepc_before(stop-1, running-3)
+prep_into(running-3, them-5)
+
+xcomp(continue-1, watching-2)
+dobj(watching-2, them-3)
+
+mark(move-3, if-1)
+nsubj(move-3, they-2)
+advmod(move-3, again-4)
+dep(move-3, follow-5)
+poss(path-7, their-6)
+dobj(follow-5, path-7)
+advmod(follow-5, again-8)
+
+prepc_until(repeat-1, given-3)
+det(task-5, another-4)
+dobj(given-3, task-5)
+
+det(person-3, the-2)
+iobj(match-1, person-3)
+dobj(match-1, step-4)
+prep_for(step-4, step-6)
+
+dobj(follow-1, person-2)
+
+det(person-3, the-2)
+dobj(identify-1, person-3)
+aux(follow-5, to-4)
+infmod(person-3, follow-5)
+
+dobj(follow-1, them-2)
+
+poss(footsteps-4, their-3)
+prep_in(follow-1, footsteps-4)
+
+poss(target-3, your-2)
+dobj(pick-1, target-3)
+
+poss(quirks-3, their-2)
+dobj(know-1, quirks-3)
+
+advmod(go-4, where-2)
+nsubj(go-4, they-3)
+advcl(know-1, go-4)
+
+mark(drive-4, if-2)
+nsubj(drive-4, they-3)
+advcl(know-1, drive-4)
+det(car-6, a-5)
+dobj(drive-4, car-6)
+
+det(date-3, a-2)
+dobj(choose-1, date-3)
+aux(start-5, to-4)
+infmod(date-3, start-5)
+xcomp(start-5, following-6)
+dobj(following-6, them-7)
+
+cop(ready-2, be-1)
+det(date-5, that-4)
+prep_on(ready-2, date-5)
+
+prep_following(start-1, them-3)
+nn(observations-6, record-5)
+prep_following(start-1, observations-6)
+conj_and(them-3, observations-6)
+
+
+
+
+
+
+
+
+dobj(choose-1, target-2)
+
+det(person-3, that-2)
+dobj(follow-1, person-3)
+advmod(go-6, wherever-4)
+nsubj(go-6, they-5)
+advcl(follow-1, go-6)
+
+nsubj(intended-2, spot-1)
+dobj(intended-2, victim-3)
+
+advmod(are-4, where-2)
+nsubj(are-4, they-3)
+advcl(go-1, are-4)
+
+advmod(repeat-4, when-1)
+det(move-3, the-2)
+nsubj(repeat-4, move-3)
+iobj(repeat-4, steps-5)
+dobj(repeat-4, 2-6)
+dobj(repeat-4, 3-8)
+conj_and(2-6, 3-8)
+
+iobj(do-1, everything-2)
+det(persondoes-5, the-3)
+amod(persondoes-5, other-4)
+dobj(do-1, persondoes-5)
+

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0008864" url="http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/" time="2012-07-13-02:18" support="33" score="0.11018151833699136" bingtitle="Node.js, Doctor’s Offices and Fast Food Restaurants ..." webtitle="Node.js, Doctors Offices and Fast Food RestaurantsUnderstanding Event-driven Programming | Code.DanYork.Com">
+			<query id="000182" bing-rank="201"/>
+			<query id="000252" bing-rank="164"/>
+			<query id="000413" bing-rank="190"/>
+			<query id="001480" bing-rank="194"/>
+			<query id="000430" bing-rank="216"/>
+			<query id="000181" bing-rank="249"/>
+			<query id="000436" bing-rank="244"/>
+			<query id="000888" bing-rank="70"/>
+			<query id="000411" bing-rank="123"/>
+			<query id="000730" bing-rank="73"/>
+			<query id="001165" bing-rank="128"/>
+			<query id="000162" bing-rank="127"/>
+			<query id="000355" bing-rank="19"/>
+			<query id="001380" bing-rank="170"/>
+			<query id="000164" bing-rank="244"/>
+			<query id="001516" bing-rank="35"/>
+			<query id="000920" bing-rank="53"/>
+			<query id="000542" bing-rank="62"/>
+			<query id="001170" bing-rank="36"/>
+			<query id="000417" bing-rank="18"/>
+			<query id="000173" bing-rank="174"/>
+			<query id="001391" bing-rank="22"/>
+			<query id="000262" bing-rank="46"/>
+			<query id="000036" bing-rank="170"/>
+			<query id="000168" bing-rank="19"/>
+			<query id="001396" bing-rank="232"/>
+			<query id="001485" bing-rank="61"/>
+			<query id="000105" bing-rank="68"/>
+			<query id="001510" bing-rank="164"/>
+			<query id="001045" bing-rank="44"/>
+			<query id="000042" bing-rank="48"/>
+			<query id="000257" bing-rank="69"/>
+			<query id="000882" bing-rank="230"/>
+	<description>It struck me that this is also very similar to ordering your food at a fast-food restaurant or ... page), a large number of Http Connections should be available to receive ...</description>
+	<body>
+		Code.DanYork.Com Source code and other developer musings from Dan York Skip to content 
+ About Disruptive Telephony Disruptive Conversations DanYork.com Twitter Github 
+ ← Slides: Using Node.js in a production setting Test Out Python…Directly In Your Web Browser → 
+Node.js, Doctor’s Offices and Fast Food Restaurants–Understanding Event-driven Programming
+ Posted on January 25, 2011 by Dan York 
+Are you struggling to understand“event-driven”programming? Are you having trouble wrapping your brain around“blocking”vs“non-blocking”I/O? Or are you just trying to understand what makes Node.js different and why so many people are talking about it? (and why I keep writing about it ?)
+
+Try out one of these analogies…
+
+The Doctor’s Office Reception Line Analogy
+
+In the excellent episode 102 of the Herding Code podcast , Tim Caswell relates event-driven programming to standing in the line at a doctor’s office to see the receptionist. Inevitably, at least here in the USA, there are additional forms to fill out with insurance info, privacy releases, etc.
+
+A Traditional Model
+
+In a traditional thread-based system, when you get to the receptionist you stand at the counter for as long as it takes you to complete your transaction . If you have to fill out 3 forms, you would do so right there at the counter while the receptionist just sits there waiting for you. You are blocking her or him from servicing any other customers.
+
+The only real way to scale a thread-based system is to add more receptionists. This, however, has financial implications in that you have to pay more people and physical implications in that you have to make the room for the additional receptionist windows.
+
+Events To The Rescue
+
+In an event-based system, when you get to the window and find out you had to complete additional forms, the receptionist gives you the forms, a clipboard and a pen and tells you to come back when you have completed the forms. You go sit down in the waiting and the receptionist helps the next person in line. You are not blocking her from servicing others.
+
+When you are done with your forms, you get back in line and wait to speak with the receptionist again. If you have done something incorrectly or need to fill out another form, he or she will give you the new form or tell you the correction and you’ll repeat the process of going off, doing your work, and then waiting in line again.
+
+This system is already highly scalable (and is in fact used in most doctor’s offices I visit). If the waiting line starts getting too long, you can certainly add an additional receptionist, but you don’t need to do so at quite the rate of a thread-based system.
+
+The Fast Food Restaurant Analogy
+
+It struck me that this is also very similar to ordering your food at a fast-food restaurant or street vendor.
+
+The thread-based way would be to get to the front of the line, give your order to the cashier and then wait right there until your order was cooked and given to you. The cashier would not be able to help the next person until you got your food and went on your way. Need to service more customers…just add more cashiers!
+
+Of course, we know that fast food restaurants don’t work that way. They are very much event-driven in that they try to make those cashiers as efficient as possible. As soon as you place your order, it’s sent off for someone to fulfill while the cashier is still taking your payment. When you are done paying, you have to step aside because the cashier is already looking to service the next customer. In some restaurants, you might even be given a pager that will flash and vibrate when your order is ready for pickup (My local Panera Bread does this).  The key point is that you are not blocking the receiving of new orders.
+
+When your food is set, the cashier–or someone –will signal you by calling out your name, order number or triggering your pager.  The event of your order being ready causes the person to perform some function/action. (In programming lingo, this would be thought of as a“ callback function “.)  You will then go up and get your food.
+
+So What Does This Have To Do With Node.js?
+
+The“traditional”mode of web servers[1] has always been one of the thread-based model. You launch Apache or any other web server and it starts receiving connections. When it receives a connection, it holds that connection open until it has performed the request for the page or whatever other transaction was sent. If it make take a few microseconds to retrieve a page from disk or write results to a database, the web server is blocking on that input/output operation. (This is referred to as“ blocking I/O “.) To scale this type of web server, you need to launch additional copies of the server (referred to as“thread-based”because each copy typically requires another operating system thread).
+
+In contrast, Node.js uses an event-driven model where the web server accepts the request, spins it off to be handled, and then goes on to service the next web request . When the original request is completed, it gets back in the processing queue and when it reaches the front of the queue the results are sent back (or whatever the next action is). This model is highly efficient and scalable because the web server is basically always accepting requests because it’s not waiting for any read or write operations. (This is referred to as“ non-blocking I/O ”or“ event-driven I/O “.)
+
+To put it a bit more concretely, consider this process:
+
+ You use your web browser to make a request for“/about.html”on a Node.js web server. The Node server accepts your request and calls a function to retrieve that file from disk. While the Node server is waiting for the file to be retrieved, it services the next web request. When the file is retrieved, there is a callback function that is inserted in the Node servers queue. The Node server executes that function which in this case would render the“/about.html”page and send it back to your web browser. 
+
+Now, sure, in this case, it may only take microseconds for the server to retrieve the file, but..
+ 
+ microseconds matter! 
+ 
+Particularly when you are talking about highly-scalable web servers!
+
+ This is what makes Node.js different and of such interest right now. Add in the fact that it also uses the very common language of JavaScript, and it is a very easy way for developers to create very fast and very scalable servers.
+
+Do these analogies help? Do have another analogy you use to explain“event-driven programming”or“event-driven I/O”?
+
+[1] While I’m talking about“web servers”here, Node.js lets you write all sorts of different types of servers for many other protocols beyond HTTP. They all have similar issues (blocking vs non-blocking I/O).
+
+ Image credit: gerry balding on Flickr 
+ This entry was posted in Node.js and tagged Events , Node.js . Bookmark the permalink . ← Slides: Using Node.js in a production setting Test Out Python…Directly In Your Web Browser → 
+35 Responses to Node.js, Doctor’s Offices and Fast Food Restaurants–Understanding Event-driven Programming 
+
+ Caleb Land says: January 26, 2011 at 8:59 pm 
+Nice explanation!
+
+By the way, the link to nodejs should go to http://nodejs.org not .com
+ Reply 
+ Dan York says: January 26, 2011 at 9:45 pm 
+Caleb, Glad you liked it and MANY thanks for the catch on the URL! I’ve fixed it. (And it shows exactly why it’s so important to grab“.com”addresses as they are often inadvertently the“default”address people use…even for people who know better but make mistakes.)
+
+Thanks,
+Dan
+ Reply 
+ Tom Hughes-Croucher says: January 27, 2011 at 1:09 am 
+Hey Dan,
+
+I love these analogies. I have a couple more in my slide deck on Node programming from last year: http://www.slideshare.net/sh1mmer/how-to-stop-writing-spaghetti-code 
+ Reply 
+Pingback: Slides: Node.js, Event Loops and How To Stop Writing Spaghetti Code | Code.DanYork.com 
+ chrelad says: February 20, 2011 at 2:34 am 
+Nice job, I like these analogies. I think I’ll refer people to this page when they ask about the event driven nature of node.js; because I just know I’ll mess up the analogy 
+ Reply Jay Godse says: March 4, 2011 at 10:16 am 
+Many folks say that this works with Javascript because of its callback functions. However, I have seen systems similar to these done 10 to 20 years ago in C++ and other languages. What is different about Javascript that enables this asynchronous event processing model? What prevents it from being done in Ruby, C#, Java or other languages?
+
+With node.js, is it possible to process more requests concurrently than the maximum number of simultaneous TCP connections allowed for an application server process? If so, how?
+
+Just curious.
+ Reply 
+ Dan York says: March 7, 2011 at 10:12 am 
+Jay,
+
+Thanks for the comment. You’re absolutely right…callback functions have been around for many years in many different languages. And the async event-driven model is already available in other languages. For instance Ruby has the“EventMachine”framework and python has the“Twisted”framework. So nothing prevents doing async event-driven programming in other languages.
+
+What perhaps has brought JavaScript so much into play is that: 1) developers using JavaScript on the client-side (web browser) are already used to event-driven programming because they are waiting for button presses, hovers, clicks, etc.; and 2) on the server-side there wasn’t really a set-in-stone way of working with server-side JavaScript, so in promoting event-driven programming through Node.js the folks involved weren’t swimming against the tide of common usage. The Register article about Node.js that I recently referenced included a bit of discussion with Ryan Dahl around this point.
+
+Another reason may simply be that Node.JS latched on to a blindingly fast JavaScript engine, which then helped on the performance front.
+
+On your second question, I can’t think of a way that Node.js could process more requests than the max number of simultaneous TCP connections…however, it’s probably going to process those requests much faster than other app environments, and so you’ll be able to handle a greater flow. (Others commenting may have better comments than I on this point…)
+
+Thanks,
+Dan
+ Reply 
+ 
+Pingback: ReadyState4»Blog Archive»Event-driven programming vs traditional programming 
+ Sachin Pethani { Web-Farmer } says: May 14, 2011 at 9:32 am 
+Hi Dan,
+
+Nice explanation of event driven concept. I was so confused about blocking and non blocking IO. Since I have heard about node, i really could not get it functionally.
+
+But your real world example helped me to clear all those area.
+
+Keep writing node’s great tutorial….
+
+Thanks
+ Reply Kernel Guru says: June 11, 2011 at 12:10 pm 
+The current fascination with the event-driven model is sorta sad. It’s living proof that software developers these days know absolutely nothing about the fundamentals of how computers–and operating systems–work.
+
+Sigh.
+
+You see, operating systems themselves are“event driven”and while your thread may be blocked, the computer is not. The operating will do…exactly what your program will do. It will schedule in another thread to be executed when one is blocked waiting for IO. Operating systems have been doing this since the 1970s, and they have nicely optimized and hardened code to do this. The only benefit you get is that your effective thread weight is lighter, but most OS’s these days have VERY lightweight threads available to the tune of a few dozen K, making thread overhead memory usage meaningless in a system of 32GB of ram. Meanwhile you are reinventing the wheel to save a few K of thread weight.
+
+So, if your analogy were true, why, pray-tell, does the internet as we know it even work? The most popular web server is Apache, and it is thread-based. Some of the largest and most heavily trafficked sites in the world serve billions of hits per day on this model. So you suppose they are doing with with what, 500 million CPUs each? Maybe you’re missing something.
+
+So the event-driven thing is a handy language construct, and if that works for you, great, but it’s not some kind of performance miracle.
+
+KG
+ Reply 
+ Jesse Sanford says: July 11, 2011 at 5:12 pm 
+After having worked with both thread model httpd and process model httpd I can tell you that there is a heck of a lot more overhead than simply the thread local cache that you speak of. Of course most of that is not apache’s fault. 99% of the time it is the application server behind apache. The daemon’s that httpd fronts for normally are a) not thread safe (as is the case with PHP ) and there for have to use a process per request model (I can here you saying but…copy on write! true but there again you are only able to use that optimization of the daemon is written in a fashion that can use it) or b) use a virtual machine and thus suffer the greenthread issues (ahem ruby&lt;1.9) that block ALL other threads in the VM while the single operating system thread they are mapped to does some i/o. The above example is a bit trivial in that it only speaks to servicing static file requests. Node is generally not used for such a purpose. In fact I think most people shy away from using it to serve static files.
+ Reply 
+ Kernel Guru says: August 4, 2011 at 12:20 am 
+Oops. I replied to the wrong posting. See my response below…
+=
+=
+=
+\ /
+.
+ Reply 
+ jmarranz says: August 30, 2011 at 1:19 pm 
+Kernel Guru don’t worry, time passes and usually only valid stuff remains
+
+Take a look to these articles of mine, with something more than rhetoric…that is with some code and data:
+
+ The Server Side (Java) 
+
+ javaHispano (refined examples)
+
+Enjoy
+ Reply 
+ 
+Pingback: Event-driven http server in C# with Rx and HttpListener 
+ Alejandro says: June 18, 2011 at 2:51 am 
+Hey! Nice introduction to event-drivent programming!! 
+ Reply Enzo says: June 22, 2011 at 1:42 pm 
+Nice overview. From what I understand, in order for node to take advantage of multiple processors, you need to have more than one instance of it running which is kind of lame.
+ Reply Mahesh Venkat says: July 9, 2011 at 12:39 pm 
+I am curious on how this works for a browser based Http client—for the server side callback function to write back the response data, a Http client connection has to be kept open per user. In the case of multiple http connections per page (large number of widgets per page), a large number of Http Connections should be available to receive the asynchronous response.
+On top of that how do you handle security needs in a asynchronous callback response?
+ Reply 
+ Kernel Guru says: July 30, 2011 at 4:00 am 
+You are comparing apples and bowling balls. If you have an app framework like PHP or Ruby, then an event-driven approach is out of the question anyhow.
+
+If you did the exact same thing (without any sort of app server framework) in either model, the performance and memory usage would be approximately equal, but the threaded model would be me a million times easier to deal with in the long-run because you aren’t constantly re-inventing everything the OS already has been doing for decades.
+
+Saying“this other model is way lighter weight because there is no software written for it so there’s nothing to weigh it down”doesn’t make any sense at all. 
+ Reply 
+ Stu says: July 20, 2011 at 6:38 pm 
+Nice post, but I think the original (and maybe best) analogy goes back some time. Try searching‘your coffee shop doesn’t use 2-phase commit’.
+ Reply Gani says: August 4, 2011 at 12:38 am 
+Wikipedia links that may shed light on event-driven programming:
+
+ http://en.wikipedia.org/wiki/Queueing_theory 
+
+ http://en.wikipedia.org/wiki/Message_queue 
+
+synchronous–HTTP
+asynchronous–AJAX
+ Reply 
+Pingback: Event-Driven Programming«IT Primer 
+ 
+Pingback: NodeJS–initial thoughts«Missional Code 
+ 
+Pingback: Callback in Node.js | Saturngod 
+ 
+Pingback: Event-based programming vs Thread for High Concurrency Environments | Yodiaditya Research 
+ 
+Pingback: An Introduction to Node.js | Object Partners Inc 
+ Sourav Chakraborty says: September 16, 2011 at 7:06 am 
+Event driven programming explained nicely! +1 for the great analogies!
+ Reply Martin says: September 17, 2011 at 9:54 am 
+I cannot see what makes the big difference:
+Node.js begins to serve the next request while the file for the previous is being fetched. The fetch is certainly happening in another thread, so the“event driven”model is in fact thread based, like the thread based one is event driven: While the receiving thread fetches the page in that model, no user is kept waiting since another thread immediately begins to serve the next request. What’s the big difference then?
+
+Also I wonder how the result is finally sent back over the net: How can that“callback”send the response to the requesting browser (or other client) if the network connection is not kept open? Is there an asynchronous I/O facility hidden inside that connection-less http protocol? And if not, what was again the big difference between“event driven”and“thread based”? Thanks for clarifying this.
+ Reply 
+ James Gosnell says: September 29, 2011 at 8:09 pm 
+Martin, check this stackoverflow post out. It will help answer and confirm your thoughts.
+
+ http://stackoverflow.com/questions/3629784/how-is-node-js-inherently-faster-when-it-still-relies-on-threads-internally 
+ Reply 
+ Martin says: September 30, 2011 at 12:47 pm 
+Thanks for the link. It leaves 3 things open to consider:
+
+1) The original socket connection must be kept open, since there is still no way visible how the response could reach the http-client otherwise. So there’s no benefit here.
+
+2) Any real gain seems to be coming from async I/O. And the strategy of not starting a thread for preparing the response but passing a callback is just needed for taking advantage of async I/O. This may work for file I/O but may fail on most other tasks. I know e.g. no way how to tell a database to“call my callback”when the result set is ready: all that async I/O facilities must support such a callback model! And since the callback must run in a thread again, it’s probably the thread of the main event loop that has to check for emerging callbacks at regular intervals (in some getNextRequest-function supposedly) and execute them (that part seems to be often skipped in explanations!)
+
+3) Note that async file I/O can benefit of“one thread less”just because it relies on hardware that performs I/O without the CPU’s help. A database server could benefit if it is running in another process (which is usually true: often on yet another physical machine) so again, there is some hardware working“asynchonously”(in another process) and if you can make it“call you back”somehow, your process uses one thread less for this operation. However, most of the benefit is just due to the operating systems doing such a bad job of handling threads:
+
+The waiting threads are just like waiting callbacks: they don’t need CPU time. It’s administrative overhead that makes an OS slow if you start“too many threads”. A package like Green Threads saves overhead since it maps all logical threads onto one OS-thread and just does very little administration. But that could not utilize multiple CPUs. JVMs have been implemented that limit the number of OS-Threads to some value N and map M logical threads to them even if M is greater than N. For JVMs that do 1:1 mapping, it should help to configure the servers’thread pools: Every decent server should have a thread pool for taking care of the OS’s inefficiency. And mind you, the callback solution works only for async APIs; are there any for you trusty RDBMS? CLI, ODBC, JDBC or what? I don’t think so. And maybe the average database access is so much more complex than a file read that it does not matter much…
+
+By the way: The linked discussion thread mentions a trick of caching a file contents and let subsequent requests not read the file again. This has nothing to do with Node.js, callbacks and async I/O and would wor for any classic threaded solution as well, so that’s just a red herring and does not help to understand the matter.
+
+I conclude that 2) describes it best and that it all boils down to async I/O facilities and how to use them best to get around OS restrictions (the OSes of tomorrow should improve here!) and that it helps by far the most for simple things–like serving static files. It’s probably not intended to make classic webservers serving highly dynamic“computed”content obsolete, right?
+
+*) Note that usually a web application needs to do a lot of“computations”before preparing a response: it’s hardly ever the case that it knows“oh, I’m just going to read that single database record and send it back”. All computations can be done the“async”way only by…? Yes: by delegating to another thread again.
+ Reply 
+ 
+ Jakob says: September 21, 2011 at 1:57 pm 
+Why don’t ordinary webserver just use lightweigt threads (like earlang) instead?
+
+Those lightwight threads could then be scedueld to run on multiple real OS threads, non blocking so to say.
+Btw. thats probaly how Yaws works.
+ Reply Jeff says: October 5, 2011 at 4:39 pm 
+This article seems a little naive in the way of threaded app servers. The doctors office analogy only holds up if the app server has only one thread (the receptionist) which somewhat defeats the purpose of it being multithreaded. An app server such as Tomcat does not simply maintain one thread but has a pool of threads which are assigned to service requests as they come in, as if the doctors office had hundreds of receptionists which (unlike in a real world office) actually take up very little overhead. Yes the request queue will block when all the threads are busy and individual threads will block while doing I/O to the filesystem, DB or external resources but there are asynchronous ways to handle those situations if they become problematic and todays modern servers can handle thousands of simultaneous threads. This is how the current Internet keeps things moving. You do have to keep thread safe practices in mind when handling global resources but most of the time this isn’t much of an issue.
+
+The advantage of Node.js is not in its event driven nature, for me. Others have noted this pattern been around since the early days of OS development and I’ve worked with it quite a lot. Mostly what I love about Node.js is that it is a high level language offering a down-to-the-wire approach to TCP which is refreshing and allows me to craft specialized services quickly and with low overhead in a way that other systems make difficult, if not impossible. It’s like a TCP toy-box. Also its lack of threading is refreshing for someone who’s dealt with threading issues many times over the years. Knowing I can do x++ on a global or manipulate a collection without having to worry about locks is fun.
+
+For example I worked for a week or so making a high traffic long polling server in Tomcat 7 with Servlet 3, juggling reentrant read/write locks with aplomb, and got the whole thing stable only to have it start throwing occasional null pointer exceptions deep in the Tomcat engine under load testing. No doubt some kind of thread based race condition. I rewrote the system in Node.js over the weekend using pretty much the same design and patterns but tossing out all the unnecessary thread safety and it ran great under the same load test. And it’s only 600 lines of code (including lots of comments).
+
+No I would not use Node.js for a major web project or an enterprise class service, but for something like an RSS feed or messaging system backend it’s ideal. For me at least.
+ Reply 
+Pingback: Using Node.js in an ASP.NET MVC application with iisnode - Jon Galloway 
+ 
+Pingback: Using Node.js in an ASP.NET MVC application with iisnode«Ocr Software«OCR Software 
+ Dimitris says: December 24, 2011 at 2:09 am 
+The examples were good and-at last-helped me understand what node.js is all about.
+
+Nonetheless i am lacking some knowledge about threaded servers so the next question popped in my mind after reading the article:
+
+Suppose that Apache has to deal with 2 connections for a site, as the incoming connection increase so does the latency. But since apache is installed in a machine(a server from the hardware point of view, which means that it accepts requests for other sites too), when requests for other sites(installed in the same-shared- server)
+come in, does the overhead increase or the discussion here focuses about requests that accumulate for the same site?
+
+When requests for other sites come in, does apache create a second thread?
+
+Which means that if this second thread has not many requests then there is not problem. I mean, when requests come in for the 2nd site do these“build upon”the request of the first one?
+
+Sorry if i confused you. I do not know how threaded servers work at all.
+ Reply Paul says: January 25, 2012 at 10:57 am 
+Awesome explanation! That helped me soo much!! Thanks and keep up the good work.
+ Reply 
+ 
+Leave a Reply Cancel reply 
+ 
+Your email address will not be published. Required fields are marked * 
+
+ Name * 
+
+ Email * 
+
+ Website 
+
+ Comment 
+
+You may use these HTML tags and attributes: &lt;a href=&quot;&quot;title=&quot;&quot;&gt;&lt;abbr title=&quot;&quot;&gt;&lt;acronym title=&quot;&quot;&gt;&lt;b&gt;&lt;blockquote cite=&quot;&quot;&gt;&lt;cite&gt;&lt;code&gt;&lt;del datetime=&quot;&quot;&gt;&lt;em&gt;&lt;i&gt;&lt;q cite=&quot;&quot;&gt;&lt;strike&gt;&lt;strong&gt; 
+
+ 
+
+ 
+ 
+ Search for: 
+IPv6 detector
+You are still using IPv4.
+212.185.208.100
+ Show stats 
+ Hide stats 
+ This server has received 211306 hits from both ipv4 and ipv6. IPv4 99.3% IPv6 0.7% 
+ 
+ 
+Full Disclosure
+ 
+Dan York, CISSP, is Senior Content Strategist at the Internet Society and is also the Chairman of the VOIP Security Alliance (VOIPSA) .
+Please note that neither the Internet Society nor VOIPSA have any connection to this weblog and any opinions stated here are entirely Dan&apos;s. 
+Tags
+ Administrivia Availability Book Reviews Books Cloud Cloud Computing code Conferences CSS debugging DocBook editors Event-driven Event Loop Events git Github Google IM iPad IPv6 JavaScript JSON Languages LESS Linux Mac OS X Node.js NodeFu Nodester Podcasts Programming PyPI Python Reference Screencasts Slides SMS SMSified Tropo tutorials Twitter video Videos VoiceXML 
+Recent Posts
+
+ Hell Hath Truly Frozen Over: Microsoft WindowsAzure Supports Linux EFF’s Coders’Rights Video: Do It For The Kittens! Contrasting Mercurial vs Git: Two Opposing Blog Posts White House Summer Jobs Code Sprint Deadline is Monday, April 16, 2012 An Excellent Collection of Node.js Links 
+ 
+Recent Comments
+
+ Paul on Node.js, Doctor’s Offices and Fast Food Restaurants–Understanding Event-driven Programming Dimitris on Node.js, Doctor’s Offices and Fast Food Restaurants–Understanding Event-driven Programming Using Node.js in an ASP.NET MVC application with iisnode«Ocr Software«OCR Software on Node.js, Doctor’s Offices and Fast Food Restaurants–Understanding Event-driven Programming Dan York on A Quick Python App to Send SMS via SMSified’s REST API Hugo on A Quick Python App to Send SMS via SMSified’s REST API 
+ 
+Archives
+
+ June 2012 May 2012 April 2012 February 2012 January 2012 December 2011 November 2011 October 2011 September 2011 August 2011 July 2011 June 2011 May 2011 April 2011 March 2011 February 2011 January 2011 December 2010 November 2010 September 2010 
+ 
+Categories
+
+ Administrivia Apple Architecture Books Cloud CSS DocBook Documentation DVCS Events Git Github How Tos IPv6 JavaScript Linux Mac OS X Mobile Node.js Open Source Operating Systems Platforms Podcasts Programming Python Real-Time Communications Security SMS Tools Tropo Tutorials Twitter Version Control Videos VoiceXML Voxeo WordPress 
+ 
+Meta
+
+ Log in Entries RSS Comments RSS WordPress.org 
+ 
+ Code.DanYork.Com Proudly powered by WordPress.
+	</body>
+</document>

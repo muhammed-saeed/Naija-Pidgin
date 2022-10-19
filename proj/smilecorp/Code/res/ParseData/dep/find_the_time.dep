@@ -1,0 +1,293 @@
+det(clock-3, a-2)
+dobj(find-1, clock-3)
+dobj(find-1, watch-5)
+conj_or(clock-3, watch-5)
+
+det(time-3, the-2)
+dobj(say-1, time-3)
+
+det(watch-3, a-2)
+dobj(find-1, watch-3)
+dobj(find-1, clock-5)
+conj_or(watch-3, clock-5)
+
+det(time-3, the-2)
+dobj(read-1, time-3)
+det(watch-6, the-5)
+prep_from(read-1, watch-6)
+prep_from(read-1, clock-8)
+conj_or(watch-6, clock-8)
+
+det(clock-3, a-2)
+dobj(find-1, clock-3)
+dobj(find-1, watch-5)
+conj_or(clock-3, watch-5)
+
+det(time-3, the-2)
+dobj(read-1, time-3)
+det(clock-6, the-5)
+prep_from(read-1, clock-6)
+prep_from(read-1, watch-8)
+conj_or(clock-6, watch-8)
+
+det(watch\/clock\/computer-4, the-3)
+prep_at(look-1, watch\/clock\/computer-4)
+
+det(time-3, the-2)
+dobj(read-1, time-3)
+partmod(time-3, displayed-4)
+prep_on(displayed-4, it-6)
+
+aux(schedule-3, to-2)
+xcomp(try-1, schedule-3)
+amod(activities-5, better-4)
+dobj(schedule-3, activities-5)
+
+poss(calendar-3, your-2)
+dobj(check-1, calendar-3)
+
+dobj(change-1, appointments-2)
+mark(necessary-4, if-3)
+dep(change-1, necessary-4)
+
+det(task-3, the-2)
+dobj(treat-1, task-3)
+det(appointment-6, an-5)
+prep_as(treat-1, appointment-6)
+
+dobj(place-1, task-2)
+poss(book-6, your-4)
+nn(book-6, appointment-5)
+prep_in(place-1, book-6)
+det(time-10, a-8)
+amod(time-10, specific-9)
+prep_for(place-1, time-10)
+
+dobj(do-1, task-2)
+det(time-5, that-4)
+prep_at(do-1, time-5)
+
+dobj(get-1, calendar-2)
+
+det(slot-4, a-2)
+nn(slot-4, time-3)
+dobj(find-1, slot-4)
+prep_for(find-1, activity-6)
+
+amod(appoinements-4, other-3)
+prep_around(move-1, appoinements-4)
+
+det(tv-4, the-3)
+prep_on(turn-1, tv-4)
+
+det(channel-3, the-2)
+dobj(change-1, channel-3)
+nsubj(shows-7, channel-3)
+prep_to(channel-3, one-5)
+rcmod(channel-3, shows-7)
+det(time-9, the-8)
+dobj(shows-7, time-9)
+
+dobj(take-1, note-2)
+det(time-5, the-4)
+prep_of(note-2, time-5)
+
+csubj(watch-5, find-1)
+det(person-3, a-2)
+dobj(find-1, person-3)
+cop(watch-5, s-4)
+
+det(face-4, the-3)
+prep_at(look-1, face-4)
+det(watch-7, the-6)
+prep_of(face-4, watch-7)
+aux(see-9, to-8)
+infmod(watch-7, see-9)
+det(time-11, the-10)
+dobj(see-9, time-11)
+
+det(appliance-4, an-2)
+amod(appliance-4, electrical-3)
+dobj(find-1, appliance-4)
+det(clock-7, a-6)
+prep_with(find-1, clock-7)
+
+det(appliance-4, the-3)
+prep_to(move-1, appliance-4)
+
+csubj(clock-8, read-1)
+det(time-3, the-2)
+dobj(read-1, time-3)
+det(appliance-6, the-5)
+prep_from(read-1, appliance-6)
+cop(clock-8, s-7)
+
+prep_at(look-1, schedule-3)
+
+amod(slots-4, available-2)
+nn(slots-4, time-3)
+dobj(determine-1, slots-4)
+
+amod(activity-3, desired-2)
+dobj(schedule-1, activity-3)
+amod(slot-6, available-5)
+prep_in(schedule-1, slot-6)
+
+det(time-3, a-2)
+dobj(find-1, time-3)
+partmod(time-3, keeping-4)
+dobj(keeping-4, device-5)
+
+det(device-4, the-3)
+prep_at(look-1, device-4)
+
+det(watch-4, the-3)
+prep_at(look-1, watch-4)
+
+det(clock-3, the-2)
+dobj(check-1, clock-3)
+
+det(clock-3, a-2)
+dobj(find-1, clock-3)
+
+prep_at(look-1, it-3)
+
+poss(schedule-4, your-2)
+nn(schedule-4, time-3)
+dobj(arrange-1, schedule-4)
+
+nsubj(find-2, then-1)
+det(time-4, the-3)
+dobj(find-2, time-4)
+
+det(clock-4, a-3)
+prep_at(look-1, clock-4)
+
+det(clock-3, a-2)
+dobj(check-1, clock-3)
+
+det(time-3, the-2)
+dobj(report-1, time-3)
+
+det(clock-3, a-2)
+dobj(find-1, clock-3)
+
+det(clock-3, the-2)
+dobj(interpret-1, clock-3)
+
+det(time-3, the-2)
+dobj(report-1, time-3)
+
+
+prt(figure-1, out-2)
+nsubjpass(scheduled-5, what-3)
+auxpass(scheduled-5, is-4)
+ccomp(figure-1, scheduled-5)
+
+amod(slots-3, empty-2)
+dobj(identify-1, slots-3)
+
+prep_at(look-1, watch-3)
+prep_at(look-1, clock-5)
+conj_or(watch-3, clock-5)
+
+det(time-3, the-2)
+dobj(read-1, time-3)
+
+dobj(identify-1, things-2)
+aux(do-4, to-3)
+infmod(things-2, do-4)
+
+dobj(assign-1, timeslots-2)
+aux(accomplish-4, to-3)
+xcomp(assign-1, accomplish-4)
+dobj(accomplish-4, things-5)
+aux(do-7, to-6)
+xcomp(accomplish-4, do-7)
+
+amod(slots-4, open-2)
+nn(slots-4, time-3)
+dobj(identify-1, slots-4)
+
+det(watch-3, a-2)
+dobj(find-1, watch-3)
+dobj(find-1, clock-5)
+conj_or(watch-3, clock-5)
+
+det(time-3, the-2)
+dobj(read-1, time-3)
+
+det(clock-4, a-3)
+prep_for(look-1, clock-4)
+
+det(time-3, the-2)
+dobj(note-1, time-3)
+
+dobj(put-6, what-2)
+nsubjpass(put-6, chores-3)
+aux(put-6, can-4)
+auxpass(put-6, be-5)
+ccomp(decide-1, put-6)
+prt(put-6, off-7)
+det(bit-9, a-8)
+dobj(put-6, bit-9)
+
+dobj(be-5, decide-1)
+nsubj(skipped-6, decide-1)
+rel(be-5, what-2)
+nsubj(be-5, chores-3)
+aux(be-5, can-4)
+rcmod(decide-1, be-5)
+advmod(skipped-6, entirely-7)
+
+prt(figure-1, out-2)
+mark(gives-5, if-3)
+nsubj(gives-5, this-4)
+advcl(figure-1, gives-5)
+iobj(gives-5, you-6)
+amod(time-8, enough-7)
+dobj(gives-5, time-8)
+aux(do-10, to-9)
+infmod(time-8, do-10)
+dobj(do-10, x-12)
+
+det(obligations-4, all-3)
+prep_about(thinking-1, obligations-4)
+
+amod(activity-3, current-2)
+dobj(stop-1, activity-3)
+
+det(time-3, the-2)
+dobj(find-1, time-3)
+
+det(clock-3, a-2)
+dobj(find-1, clock-3)
+
+prep_at(look-1, time-3)
+
+prep_at(looking-1, watch-3)
+
+det(clock-3, the-2)
+dobj(check-1, clock-3)
+
+det(time-3, the-2)
+tmod(relay-1, time-3)
+
+dobj(find-1, clock-2)
+
+prep_at(look-1, clock-3)
+
+dobj(take-1, note-2)
+det(time-5, the-4)
+prep_of(note-2, time-5)
+
+dobj(tell-1, requester-2)
+det(time-4, the-3)
+tmod(tell-1, time-4)
+
+det(clock-3, a-2)
+dobj(find-1, clock-3)
+
+det(time-3, the-2)
+dobj(check-1, time-3)
+

@@ -1,0 +1,8935 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0009732" url="http://www.physics.utoronto.ca/%7Ejharlow/teaching/phys25_03/fullnotes/" time="2012-07-13-03:08" support="17" score="0.019071996138591216" bingtitle="fullnotes - The Department of Physics at the University of Toronto ..." webtitle="fullnotes">
+			<query id="000762" bing-rank="49"/>
+			<query id="000168" bing-rank="163"/>
+			<query id="000794" bing-rank="109"/>
+			<query id="000387" bing-rank="80"/>
+			<query id="001422" bing-rank="129"/>
+			<query id="000417" bing-rank="164"/>
+			<query id="001140" bing-rank="88"/>
+			<query id="000730" bing-rank="177"/>
+			<query id="000982" bing-rank="117"/>
+			<query id="001108" bing-rank="230"/>
+			<query id="000542" bing-rank="178"/>
+			<query id="000199" bing-rank="53"/>
+			<query id="000324" bing-rank="50"/>
+			<query id="001454" bing-rank="92"/>
+			<query id="001045" bing-rank="182"/>
+			<query id="001327" bing-rank="55"/>
+			<query id="000511" bing-rank="61"/>
+	<description>... the lamps they shine on French fries in a fast food restaurant ... where is the order number, is the wavelength and is the ... A frame that is moving at a constant velocity ...</description>
+	<body>
+		PHYS 23, Lecture 1, 2002 
+ Introduction
+pg 1-10 
+
+
+ 
+
+
+
+write on board: name, office, email, phone, web site
+materials to hand out: Syllabus, Study Guides for Exam 1
+show text - $115, good for both PHYS 23 and PHYS 25
+Introduce myself
+Ph.D. this summer in Astronomy and Astrophysics
+from Penn State Aug 9.
+T.A. for Lab sections 2, 3, 6 is Cody Landis (Engineering Physics
+ Senior). Cody will grade labs for Lab sections 2, 3, 6 and grade
+ homeworks for the Harlow lecture section.
+
+
+ 
+
+
+
+Introduce course web site on computer
+NOTE: Section 2 does not conflict with Genetics. There is a section
+from 9:30-10:40 AM taught by Alward, if you would rather take that, I
+know there is space and the Physics secretary (Olson 101) would be
+happy to help you with the paperwork to transfer.
+discuss syllabus.
+discuss textbook. DOUBLE READING ASSIGNMENT FOR NEXT CLASS: ALL of
+chapter 1, plus sections 2.1 and 2.2 of Chapter 2. Please try to get
+the first Study Guide (Study Guide 1) done by Friday. The Study
+Guides are NOT graded, but you should complete them anyway.
+NOTE - two sets of Study Guide Answers in Library. They can be
+checked out for up to 2 hours for photocopying. Please do not use the
+answers as a crutch! Attempt the problems yourself first, write down
+your answers carefully (good practice for the Exam), and THEN look at
+the answers.
+Exams will include WRITTEN ANSWER questions, in which you must show
+your work.
+
+
+ 
+
+
+
+This course: Mechanics. That means how things move.
+Description of motion: Displacement,
+Velocity, Acceleration.
+Why do things move? Forces: Gravity, Friction, Surface-to-surface
+(push), Tension in ropes (pull).
+- How does a human arm lift?
+- what is the best way to pry out a tooth?
+- What does ``blood pressure&apos;&apos; mean?
+- How do the wheels make your car go? What&apos;s the best way to drive
+over ice?
+
+
+ 
+
+
+
+1.2 - The Metric System
+AKA ``S.I. Units&apos;&apos; advantage: All derived units are factors of 10.
+stands for ``Systeme International&apos;&apos;
+Dimensions: like Length, Time, Mass, Volume (actually Length )
+So some dimensions are combinations of several simpler dimensions.
+Units: a particular amount of some dimension, used in specifying
+things (ie meter, second, kilogram, liter)
+Length (there are 3 perpendicular length dimensions, that&apos;s
+why we say the Universe we live in is ``3-D&apos;&apos;)
+
+ Dimension S.I. Unit other metric other Length meter (m) cm, km foor, inch, mile Mass kilogram (kg) g ?? - not pounds! Time second hour, day   Dimensionless       
+
+
+
+ 
+
+
+
+Quiz 1 (NAME ON TOP)
+Give the dimensions of the following quantities:
+20 miles
+80 kg
+0.01 m
+20 minutes
+5/6
+a dozen
+65 mph (speed limit)
+
+
+ 
+
+
+
+Refer to Table 1.2 on page 4 for standard prefixes for factors of
+ten. Most common:
+kilo = 1000 = 
+centi = 1/00 = 
+giga = 1,000,000,000 = 
+mega = 1,000,000 = 
+
+
+ 
+
+
+
+To convert units, use a conversion fraction which equals one! For
+example,
+
+
+ 
+
+
+also
+
+
+ 
+
+
+So if you want to find out how tall your are in meters, and you are
+six feet tall:
+
+
+
+ 
+
+
+
+to convert to centimeters:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Don&apos;t forget your trigonometry! For a right angle triangle, there is
+sin cos and tan which give the ratios of lengths of sides.
+ PHYS 23, Lecture 2, September 1, 2000 
+ Introduction
+2.1, 2.2 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+NOTE: Exam 1 from Fall 1999 is in the red book at the library, which
+you can check out for 2 hours.
+
+
+ 
+
+
+
+Hand Back Last Day&apos;s Quiz!
+Note to students from Celia:
+``I will be in the office after class today (1:40 PM) Lab sections 1,
+2, and 4 are FULL. You may not switch IN to a full lab section unless
+you have a ``switching partner&apos;&apos; who wants to switch OUT of that
+section. I will post lab rosters by Wednesday, so you can seek out
+switching partners. Lecture section 2 is FULL. No students will be
+added to the roster UNLESS: you are enrolled in Genetics and are in
+your 4th year and need PHYS 23 for your degree. You must bring me
+proof of these things before she will add you to Lecture Section 2.&apos;&apos;
+QUIZ Notes (from separate sheet)
+
+
+ 
+
+
+
+Units can be a problem solving aid.
+ All terms in an equation must have the same units! 
+(Terms are added or subtracted. This is the ``you can&apos;t add apples
+and oranges rule&apos;&apos;)
+Example:
+A sparrow flies with an air velocity of 20 miles per hour toward the
+East. There is a steady wind whose velocity is 20 km/hr toward the
+West. What is the ground velocity of the bird in km/hr?
+see page attached
+
+
+ 
+
+
+
+NOTE: For the trig functions to work properly on your calculator, the ``mode&apos;&apos;
+must be set to degrees!! You can check: sin(45)=0.707.... We won&apos;t
+be using radians in this class, so you can set it to degrees and leave
+it there.
+
+
+ 
+
+
+
+TRIG Review continued.. sin, cos, tan are dimensionless!!
+Last time, (height of building example) we knew an angle and one
+side in a right-angle triangle, and found the length of the other
+side. If we know two sides, we can get the angle.
+Example
+You drive 8.0 km along a straight road with a downward slope (as read
+by your trip odometer), and descend 150 m. What is the angle of your
+displacement vector? (this is the arrow which connects your initial
+and final positions)
+ DIAGRAM 
+
+
+
+
+
+
+Units: 8.0 km (1000m/1km) = 8000 km
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Also, don&apos;t forget pythagorean theorem: .
+In last example, what was the horizontal distance traveled?
+  m
+  m
+ 
+ 
+take square root of both sides, noting that !
+ m
+to within two significant digits, horizontal distance is 8.0 km.
+
+
+ 
+
+
+
+ SCALARS are numbers which can be added or subtracted in the
+regular way. It only takes ONE number to specify a scalar.
+Examples of scalars: mass, volume, temperature, speed
+2 kg + 2 kg = 4 kg always.
+
+
+ 
+
+
+
+ VECTORS 
+A vector is an arrow; it is a straight line with a length and a
+direction.
+It always takes TWO NUMBERS to specify a vector (in 2-dimensions,
+which is what we will be dealing with in this course).
+Either: Magnitude (length) and Direction (an angle)
+or: x-component and y-component.
+Examples of vectors: displacement, velocity, acceleration, force
+How to add vectors (geometric way):
+connect the tail of the second vector to the head of the
+first. The sum is the vector which connects the tail of the
+first to the tead of the second. (DIAGRAM)
+How to subtract vectors (geometric way):
+multiply the second vector by -1 (reverse its direction). then add it
+to the first.
+
+
+ 
+
+
+
+ Quiz 2 
+Two displacement vectors are:
+  m, due North
+  m, due East
+1. Find the displacement vector: 
+2. Find the displacement vector: 
+NOTE: you will need a magnitude and direction for your answer to be
+correct!!
+
+
+ 
+
+
+
+ PHYS 23, Lecture 3, September 6, 2000 
+ Kinematics in 1-D
+2.3 - 2.4 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+NOTES:
+Exam 1 from Fall 1999 is in the red book at the library, which
+you can check out for 2 hours.
+Celia has posted lab section rosters in the glass cabinet. You may
+find ``switching buddies&apos;&apos; here. NO SECTION MAY HAVE MORE THAN 24
+students enrolled! YOU MAY NOT ATTEND A LAB YOU ARE NOT ENROLLED IN
+WITHOUT SPECIAL PERMISSION FROM YOUR INSTRUCTOR!
+
+
+ 
+
+
+
+Hand Back Last Day&apos;s Quiz. - - The answers:
+  m, due North
+  m, due East
+1. Find the displacement vector: 
+perpendicular vectors, so find magnitude with Pythagorean thm:
+
+
+
+ 
+
+
+
+find direction from diagram:
+
+
+
+ 
+
+
+
+final answer:  m, 45 East of North.
+2. Find the displacement vector: 
+perpendicular vectors, so find magnitude with Pythagorean thm:
+
+
+
+ 
+
+
+
+find direction from diagram:
+
+
+
+ 
+
+
+
+final answer:  m, 45 West of North.
+
+
+ 
+
+
+
+1.7 components of a vector
+Any vector in 2-D can be ``projected&apos;&apos; onto the and axes. The 
+projections are called the vector components.
+Each vector component has a corresponding ``scalar component&apos;&apos; which
+is the magnitude of the vector component (positive if the vector is up 
+or to the right, negative if it is down or to the left)
+Any vector is completely specified by its two scalar components.
+ DIAGRAM 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+When is measured counterclockwise from the axis, as it
+usually is in the text, we can use the following formulae:
+To convert from Magnitude and direction to scalar components:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+To convert from scalar components to Magnitude and direction:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+1.8 addition of vectors by components
+Steps for adding two or more vectors which are not necessarily
+parallel or perpendicular:
+1) convert each vector to scalar components notation.
+2) add the components and components separately, just as you
+would add regular scalars.
+3) if necessary, convert final vector back to ``magnitude and
+direction&apos;&apos; notation
+ Example 
+A boat travels  km/hr along the -axis relative to the water.
+Judy walks relative to the deck of the boat at  km/hr, with measured counterclockwise from the -axis, as shown in the diagram. What is the velocity of Judy
+relative to the water (magnitude AND direction)?
+Step 1: convert all vectors to , components, write in a table.
+
+   -comp -comp boat 0 +45 km/hr Judy relative to boat 5.0 cos 25 5.0 sin 25 Judy relative to water 4.532 km/hr 47.113 km/hr 
+
+The magnitude of the velocity is and the direction is 
+Final answer (after rounding):  km/hr, .
+NOTE: Only round-off FINAL answers to the correct number of
+significant digits (the fewest number of significant digits among the
+input values). In intermediate steps, keep a lot of digits, to avoid
+``round off error&apos;&apos;. Several people got instead of on the quiz because they rounded too early and took instead of .
+
+
+ 
+
+
+
+2.2 average speed, average velocity, instantaneous velocity
+average velocity = displacement vector / elapsed time
+
+
+
+ 
+
+
+
+(the bar over top means ``average&apos;&apos;)
+This is the physical quantity which we can actually measure, but we
+sometimes would like to discuss the velocity ``right now&apos;&apos;. What if
+we could shrink the elapsed time interval to near zero, what would
+happen to ? It would also get small. would
+approach its ``instantaneous&apos;&apos; value, or ``instantaneous velocity&apos;&apos;
+ the limit of as .
+
+
+ 
+
+
+
+2.3 average acceleration, instantaneous acceleration
+average acceleration = change in velocity vector / elapsed time
+
+
+
+ 
+
+
+
+(the bar over top means ``average&apos;&apos;)
+The instantaneous acceleration is:
+ the limit of as .
+
+
+ 
+
+
+
+Quiz 3 (YOU WILL NEED A CALCULATOR for Q.2 - or at least tell me
+exactly what you would type in your calculator if you had brought it!)
+1. Billy is stationary at a stop-light in his car. 11 seconds later,
+his velocity is  m/s, , with measured counterclockwise from the axis (see diagram).
+What is Billy&apos;s average acceleration during the 11 seconds he is
+speeding up?
+2. What is the component of Billy&apos;s average acceleration vector
+along the -axis?
+
+
+ 
+
+
+
+Often, motion is restricted to one-dimension (along a line). We often
+define the line to be the -axis, and say that positive (negative)
+numbers represent vectors which point to the right (left). Then
+vectors are parallel and they can be added like scalars.
+2.4 The equations of constant acceleration in 1-dimension (along the -axis):
+The equation of zero acceleration ( ):
+
+
+
+ 
+
+
+
+where is change in distance (1-D) and is the corresponding
+change in time.
+The definition of acceleration:
+
+
+
+ 
+
+
+
+where is the final velocity, is the initial velocity (1-D)
+and is the change in time between initial and final.
+The four equations of constant acceleration :
+
+ 
+ (1) (2) (3) (4) 
+ 
+
+
+
+Equation 1 tells how has changed with time . Use it when is not involved.
+Equation 2 tells that the change in is the average velocity times
+the time interval. Under constant acceleration, average velocity is
+initial plus final divided by two. Use it when is not involved.
+Equation 3 tells how has changed with time when is known. Use
+it when final is not involved. Note also that is often
+zero, in which case this equation becomes .
+Equation 4 is a tricky equation which relates the squares of the 
+initial and final velocities. Use it with care when is not
+involved. (note that the square-root of a number may be positive or
+negative)
+
+
+ 
+
+
+
+ PHYS 23, Lecture 4, September 8, 2000 
+ Kinematics in 1-D
+2.5 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Instructor: Bring little cart with fan that can attach. Plan demo
+with two velocities at the same spot.
+NOTE: Show conversion factors etc. in the covers of the book. - the
+needed information from the covers will be given on examinations.
+
+
+ 
+
+
+
+Hand Back Last Day&apos;s Quiz. - - The answers:
+1.
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+ is not a vector - so direction of is the same
+as the direction of acceleration:
+
+
+ 
+
+
+
+2.
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+2.5 Applying the equations of constant acceleration
+ Example 
+A gas-powered model car has a constant acceleration of 2.0 m/s toward the right. The initial velocity of the car is 6.0 m/s. Find
+its displacement after 8.0 seconds.
+ Answer 
+Define positive as towards the right.
+ DIAGRAM 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+which equation is best?? Note that we don&apos;t have (final velocity)
+or need it, so choose the Equation 3:
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Significant digits
+ 
+ number # of sig. digs 1.00 3 15.37 4 0.012 2 12,000 2 12,000.0 6 12,487 5 0.000300 3 
+ 
+``The number of digits which seem to convey information.&apos;&apos; Zeros
+don&apos;t count if they are just filling up space between a non-zero digit
+and the decimal place.
+The answer should not contain more significant digits than the piece
+of data with the least number of significant digits.
+Some numbers, like ``zero&apos;&apos; (ie at rest) imply an infinite number of
+significant digits. ie, at rest can be taken to mean v=0.000000...
+
+
+ 
+
+
+
+ Example 
+same problem with little car, but now positive is defined as ``toward
+the left&apos;&apos;.
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+which equation is best?? Note that we don&apos;t have (final velocity)
+or need it, so choose the Equation 3:
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Quiz 4 (three one-word answers)
+1. A car is traveling along a straight road and is decelerating.
+Does the car&apos;s acceleration necessarily have a negative value? (yes
+or no only is fine)
+Can the following statements be correct?
+2. ``The car traveled around the track at a constant velocity.&apos;&apos;
+3. ``The car traveled around the track at a constant speed.&apos;&apos;
+
+
+ 
+
+
+
+NOTE: ``deceleration&apos;&apos; is when the acceleration vector is pointing in the
+opposite direction of the velocity vector.
+Steps in solving Chapter 2-like problems:
+1. draw a diagram
+2. decide which direction is positive, and where is .
+3. write down the ``known&apos;&apos; variables and the ones that you need, or
+are asked to ``find&apos;&apos;.
+4. Select the best equations.
+5. if there are segments to the motion, remember that the final
+velocity of one segment is the initial velocity of the next.
+6. there may be two possible answers, since: , .
+
+
+ 
+
+
+
+ Example 
+A cart is traveling along a table with  m/s. At , a
+fan is turned on which gives the cart an acceleration of  m/s . When  m, what is the velocity of the cart?
+ Answer 
+Note that time is not mentioned in the problem - it is not known, and
+you are not asked for it. So, use Equation 4:
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+What does this mean, physically??? How can the cart have two
+different velocities?
+
+
+ 
+
+
+
+ Example (problem 15, pg. 54)
+A sprinter starts a race with  m/s , which she maintains for
+2.0 s. Then she has for the rest of the race. What is her
+speed at a)  s, and b) end of race
+ Answer 
+a) Segment 1
+  m/s ,  s, 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+b) Same answer, (RIGHT??)
+ PHYS 23, Lecture 5, September 1, 2000 
+ Kinematics in 1-D
+2.6, 2.7 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+NOTE: Show conversion factors etc. in the covers of the book. - the
+needed information from the covers will be given on examinations.
+Study Guide 3 - the last Chapter 2 Study Guide, should be done by
+today!
+This week, begin Study Guide 4, which deals with Chapter 3.
+
+
+ 
+
+
+
+Quiz 4 (three one-word answers)
+1. A car is traveling along a straight road and is decelerating.
+Does the car&apos;s acceleration necessarily have a negative value? NO!
+(give two examples, both with ``positive toward the right&apos;&apos;)
+NOTE: ``deceleration&apos;&apos; is when the acceleration vector is pointing in the
+opposite direction of the velocity vector.
+2. ``The car traveled around the track at a constant velocity.&apos;&apos; NO!
+3. ``The car traveled around the track at a constant speed.&apos;&apos; YES.
+
+
+ 
+
+
+
+ PHYS 23, Lecture 13, September 29, 2000 
+ Forces, Newton&apos;s Laws
+4.10 - 4.11 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Study Guide 7 - up to Problem 47 in Chapter 4 should be done today!
+This weekend, begin Study Guide 8, which completes Chapter 4.
+NOTE: The top scores on Exam 1 (100% and 95%) were acheived by
+students who work thoroughly through all problems in the study guide
+AND do extra problems, similar to the ones suggested in Study Guides.
+Moral: Hard work in this course can pay off!
+
+
+ 
+
+
+
+NOTe
+
+
+ 
+
+
+
+Completing discussion of friction:
+Why does it occur? Smashing of mountains on the microscopic scale.
+Do we understand it? Not completely. It would require an exact
+knowledge of the microscopic shape of a surface and its fracture
+properties to know exactly what the macroscopic friction force is.
+However, we do have empirical formulae which work quite well.
+
+
+ 
+
+
+
+Static Frictional Force:
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+where is the coefficient of static friction (dimensionless)
+ie:
+aluminum on aluminum: 
+wood on wood: 
+rubber on dry concrete: 
+waxed wood on snow: 
+ is the normal force of the surface on the object.
+The magnitude of is not allowed to exceed , or the
+object will start to slip. Otherwise, is equal to exactly the
+force needed to keep the object in static contact with the surface.
+
+
+ 
+
+
+
+Kinetic Frictional Force:
+
+
+
+ 
+
+
+
+The direction of is always opposite to that of the
+velocity of the object relative to the surface.
+ is the coefficient of kinetic friction (dimensionless)
+ie:
+aluminum on aluminum: 
+wood on wood: 
+rubber on dry concrete: 
+waxed wood on snow: 
+(NOTE: is always less than - that is why you should
+not spin your wheels frantically when trying to get your car out of
+the snow.)
+
+
+ 
+
+
+
+Example: 1a) A sled of mass 5 kg sits on waxed wooden skiis on snow. What
+is the minimum horizontal force needed to get this sled moving along
+the snow?
+1b) If you push with this force and the sled does start moving, what
+is its acceleration?
+ANSWER
+DIAGRAM.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Tension Force.
+When a cable or rope is stretched ``taut&apos;&apos;, it has some value of
+``Tension&apos;&apos;, which is measured in Newtons.
+On each end of the rope where it is attached, the rope pulls with a
+force of magnitude equal to the rope&apos;s Tension. This is called the
+Tension force. There are always two places where tension force acts,
+at either end of the rope!
+
+
+ 
+
+
+
+Quiz 12: Drawing Free Body Diagrams
+This is IMPORTANT for your worked problems on the next exam.
+1. A skydiver has opened her parachute and is descending at a constant
+velocity. Draw the f.b.d. of forces on the diver which stop her from
+accelerating.
+2. A sled is pulled at a constant velocity by a rope which makes an
+angle of 20 above horizontal. Draw the f.b.d., indicating the
+direction of all forces on the sled.
+
+
+ 
+
+
+
+4.11 Equilibrium Problems.
+Definition:
+An object in ``Equilibrium&apos;&apos; has zero acceleration (or no acceleration,
+or .)
+
+
+ 
+
+
+
+Example (like quiz problem 2)
+A sled of mass 5 kg is pulled at a constant velocity by a rope which makes an
+angle of 20 above horizontal. What is the force in the rope?
+ PHYS 23, Lecture 22, October 23, 2000 
+ Power, Energy, Work done by a variable force
+6.7 - 6.9 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+6.7 Power
+When work is done during a period of time , the average power
+is given by:
+
+
+
+ 
+
+
+
+SI Unit of power is Joule/second = Watt. dimension: [ ]
+
+
+ 
+
+
+
+Example (Ch 6, pr 62, pg 185)
+DIAGRAM
+
+
+
+
+
+
+
+
+Given: power = work/time. Solve for time:
+
+
+
+ 
+
+
+
+constant speed - ding ding ding - equilibrium problem! so
+forces all sum to zero.
+f.b.d.
+
+
+
+
+
+
+
+
+tension in crane cable: 
+distance lifted = 10.0 m. 
+ 
+ 
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Recall from last time:
+The work done by non-conservative forces (at this point, that means
+forces other than gravity) is given by:
+
+
+
+ 
+
+
+
+When this is zero, it means , which is conservation of
+mechanical energy (which I proved with the pendulum last class).
+However, sometimes there is friction or an outside source of energy
+which can provide non-conservative forces which do work.
+
+
+ 
+
+
+
+Example
+A car of mass 1200 kg begins at the top of a windy hill on Lombard
+Street in San Francisco with an initial speed of 5.0 m/s, and height
+above sea level of 59 m. At the bottom of the hill the car&apos;s speed is
+15 m/s, and his height is 23 m above sea level. What was the work
+done on the car by non-conservative forces?
+Answer
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+This NEGATIVE work is probably done by a combination of brakes and friction
+between the wheels and the car. Friction usually does NEGATIVE work,
+because it opposes motion, and therefore the angle between and is 180 .
+NOTE: In this example, 250 Joules of HEAT ENERGY is produced by the
+brakes and wheels, through friction. So, although Total Mechanical
+Energy is not conserved, Energy in the universe is conserved.
+
+
+ 
+
+
+
+6.8 Forms of Energy
+
+ Kinetic due to motion Potential Gravitational Potential Energy Electrical charge times voltage Heat thermal energy transfered between objects Light photon energy Chemical released when molecular bonds change Mass released by nuclear reactions 
+
+ Conservation of Energy 
+In any closed system, energy can neither be created nor destroyed, it
+can only be converted from one form to another.
+
+
+ 
+
+
+
+ Quiz 20 
+Describe three processes that occur in your house on a daily basis
+that convert energy from one form to another. Describe the process,
+and name the initial and final forms of energy.
+
+
+ 
+
+
+
+6.9 Work done by a variable force.
+Recall, work done by a constant force is
+
+
+
+ 
+
+
+
+In general, forces are not always constant along a path, but can vary . With calculus, work can be computed as:
+
+
+
+ 
+
+
+
+where the sign is an integral sign. An integral is just the
+area under a curve. So this equation just says that Work done is the
+area under a plot of versus . (this is the area
+between the plot and the -axis)
+
+
+ 
+
+
+
+Example (Ch 6, Pr. 72, pg 186)
+
+
+ 
+
+
+
+Example (Ch 6, Pr. 47, pg 184)
+ PHYS 25, Lecture 3 
+ Transfer of Heat
+ 13.1 - 13.4 
+Lecture plan:
+Convection, Conduction, Radiation
+
+
+ 
+
+
+
+DEMOS: transparency
+
+
+ 
+
+
+
+The transfer of heat from one place to another is extremely important
+part of our lives! One of the main functions of our bodies is to
+maintain a 37.0 degree body temperature. We use
+the food we eat to generate heat and give energy to our muscles and
+brain to work. This heat must constantly be exchanged with our
+environment at a certain rate in order to maintain our 37.0 degree
+temp. The origin of all this energy is the Sun, 150 million km away.
+The energy travels across the vacuum of space by electromagnetic
+radiation: light.
+Chapter 13.
+There are 3 ways to transfer heat (transparency):
+Convection (circulating fluid flow)
+Conduction (heat traveling through a static solid or material)
+Radiation (electromagnetic radiation, ie light)
+
+
+ 
+
+
+
+Convection - no equation for this! (yet) ``transfer of heat from
+place to place by the bulk movement of fluid.&apos;&apos;
+- can only be described qualitatively - One of the last great
+problems of physics, still unsolved, is that of convective heat flow.
+We need equations or numerical methods which describe turbulent fluid
+flow. ie, how gases travel when an explosion occurs in a piston of an
+internal combustion engine. What is the most efficient piston shape?
+We have some guiding principles:
+hot air has lower mass density than cold air - buoyancy force on warm
+air carries it upward, while cooler air tends to sink.
+Therefore: heaters are best placed near the floor in a corner.
+air conditioners are best placed higher up.
+
+
+ 
+
+
+
+Conduction
+differs from convection: No bulk motion of material
+Only the heat ENERGY moves.
+DIAGRAM: Row of neighboring atoms. Someone vibrates the one on the
+left. It transfers some of its energy to its neighbors. They
+transfer energy, etc, until they are all vibrating. Every point is
+trying to move toward local thermal equilibrium.
+Net heat flow travels from the hot end of an object to the cool end.
+Consider a long object like a rod, length , cross-sectional area . One end is held at temperature , the other is held at
+temperature . What is the rate of heat flow through the rod?
+
+
+
+ 
+
+
+
+where . Heat flows from high temperature end to
+low temperature end. is the thermal conductivity, given in
+Table 13.1 for different substances - units: Joules per (second meter
+Celsius) 
+
+
+ 
+
+
+
+Example.
+One end of an iron poker is placed in a fire where the temperature is  C, ,and the other end is kept at a temperature of C. The poker is 1.2 m long and has a radius of  m. Ignoring the heat lost along the length of the
+poker, find the amount of heat conducted from one end of the poker to
+the other in 5.0 seconds.
+DIAGRAM
+Note: .
+The radius of the rod is the cross-sectional radius, which determines
+the area, assuming a circular cross-section:
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+  J
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Example.
+A styrofoam cup holds liquid nitrogen at 77 Kelvin, and is held by a
+human hand, 37 Celsius. The cup is 2 mm thick, with an area touching
+the hand of 50 square centimeters. How much heat is transfered out of
+your hand in one second?
+Note: .
+77 Kelvin = C
+50 cm = 50/100 m = 0.005 m 
+L = m
+
+
+
+ 
+
+
+
+  J
+Example: what if the cup was made of aluminum? ,  Joules in one second: enough to burn your skin.
+
+
+ 
+
+
+
+Radiation = the transfer of energy by means of electromagnetic waves.
+Example: infrared light. This is light whose wavelength is longer
+than red light - our eyes do not detect it. But it carries energy.
+Example: the lamps they shine on French fries in a fast food
+restaurant - they carry heat energy in the form of infrared. A
+cast-iron stove in a cabin: You can&apos;t see the fire, but the black
+stove emits infrared which you absorb as heat.
+How fast is heat released from an object via EM-waves?
+
+
+
+ 
+
+
+
+where = radiant energy emitted by a surface [J]
+ = time elapsed [s]
+ = ``emissivity&apos;&apos; of the surface; for white, for black.
+ = ``Stefan-Boltzmann constant&apos;&apos; = a constant of nature, 
+ = temperature * must be in Kelvin *
+ = surface area of object.
+NOTE: 
+A black surface absorbs all visible light: absorption coefficient, 
+A white surface reflects all visible light: absorption coefficient, 
+For a surface at a constant temp, energy absorbed = energy
+emitted. (conservation of energy)
+Therefore, the emission coefficient is always equal to the
+absorption coefficient : . So a blackbody is the best
+emitter: . That is why this form of radiation is often called
+blackbody radiation, when can be left out of the equation:
+
+
+
+ 
+
+
+
+(for blackbody radiation)
+
+
+ 
+
+
+
+Quiz 3
+Which process (or processes) best describes heat transfer in the
+following cases? (convection, conduction or radiation)
+1. Blood transferring heat around your body.
+2. One side of a door is hot if there is a fire on the other side.
+3. Heat from sunlight warms you on a sunny day.
+4. A wood stove in a cabin heats the occupants.
+5. The door of a house is left wide open on a winter day, cooling the
+house.
+6. The element on an electric stove heats a pot of water.
+
+
+ 
+
+
+
+Example
+The filament of a light bulb has a temperature of  C
+and radiates sixty watts of power. The emissivity of the filament is
+0.36. Find the surface area of the filament.
+Use:
+
+
+
+ 
+
+
+
+Solve for :
+
+
+
+ 
+
+
+
+here is the power, in Watts. Recall that power=energy/time, 1
+Watt = 1 Joule per second.
+DONT FORGET: Convert to Kelvin.
+ 
+  K
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+ PHYS 25, Lecture 1 
+ Sound Waves
+ 16.1 - 16.6
+pg. 458 - 470 
+Lecture plan:
+Wave parameters , , and 
+Speeds of waves
+
+
+ 
+
+
+
+DEMO: Need Sound Generator, Microphone, Oscilloscope for measuring
+the Period of audible sound.
+again need Figure 15-8 transparency
+Fig 16.2, 16.3 transparency
+Fig. 16.6 transparency
+Fig. 16.12 transparency
+Fig. 16.18 transparency
+
+
+ 
+
+
+
+Introduce myself: Jason Harlow, 101-E Olson Hall (down the hall),
+946-3130, jharlow@uop.edu.
+Email is a GOOD way to contact me. Try to come to my office hours
+with questions or for help with study guides. If you cannot make my
+office hours, please make an appointment with me by email or phone.
+discuss textbook. Copyright 2001, many modern examples and
+applications, clear precise descriptions and examples. A great future
+reference text - keep it!
+Hand out Syllabus, discuss
+Hand out Study Guide, discuss - learning is a process. No matter how
+bright you are, this material cannot be learned overnight - work on
+the study guides steadily throughout the semester.
+
+
+ 
+
+
+
+Chapter 16.
+Waves are a traveling disturbance.
+They carry energy from one place to another.
+DIAGRAM: Boat bobbing up and down. waves travel outward. distant
+boat starts to bob later.
+Note: The WAVE moves from one boat to the other, NOT the water.
+Think of waves in a field of long grass, traveling across the field.
+The blades of grass do not travel across the field with the wave.
+They just sit there oscillating - same with water - indiv. water
+molecules in a water wave stay in the same region, oscillating in
+circular motion.
+Two main types of wave:
+transverse - disturbance is to direction wave travels.
+longitudinal - disturbance is to direction wave travels.
+Examples: electromagnetic waves (light, radio, etc) are transverse
+sound is longitudinal
+
+
+ 
+
+
+
+Properties of a wave.
+A wave is an oscillation, repetitive disturbance, which travels. The
+disturbance has:
+Period (of repetition): = time for a complete cycle [seconds]
+Frequency: = number of complete cycles per second [s ]
+Speed: = speed that disturbance travels [m/s] or [m s ]
+Wavelength: (lambda) = = distance wave travels per
+complete cycle.
+Three important relations between , , and :
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+NOTE: for sound traveling through air at room temperature,  m/s.
+
+
+ 
+
+
+
+DEMO and Quiz
+You will hear two different pitches (frequencies).
+Pitch 1: 
+Pitch 2: 
+1. Compute the frequency of
+a) Pitch 1.
+b) Pitch 2.
+2. Compute the wavelength of
+a) Pitch 1
+b) Pitch 2
+
+
+ 
+
+
+
+Speed of Sound
+In an ideal gas, the speed of sound is:
+
+
+
+ 
+
+
+
+where is a dimensionless constant for the gas
+ = Boltzmann&apos;s constant = J/K.
+ = temperature in Kelvin
+ = the mass of one gas particle.
+
+
+ 
+
+
+
+Example: Average mass of air molecule is  kg. For
+air, At a temperature of 23C, what is the speed of
+sound?
+DON&apos;T FORGET TO CONVERT TO KELVIN!
+  K
+
+
+
+ 
+
+
+
+ PHYS 25, Lecture 2 
+ Decibels, Doppler Effect
+ pg. 471 - 482
+16.7 - 16.11 
+Lecture plan:
+Speed of Sound in Liquid, Solid
+Speed of Transverse waves on String
+Sound intensity, decibels
+Doppler Effect
+
+
+ 
+
+
+
+DEMOS:
+Can on String
+DVD Disc 10, Demo 21
+Google search for ``Doppler Effect Applet&apos;&apos;
+
+
+ 
+
+
+
+NOTE: Units are important for FINAL ANSWER on worked problems of
+exams. You do not need to explicitly show units in intermediate
+calculations, but they MUST be there in final answer.
+
+
+ 
+
+
+
+Always try to THINK about a new equation when you see it. For
+example,
+
+
+
+ 
+
+
+
+Rearranging:
+
+
+
+ 
+
+
+
+So, for a fixed wave speed (like speed of sound), and are inversely proportional - as one goes up, the other goes down.
+That&apos;s true for sound: high frequency corresponds to short wavelength.
+
+
+ 
+
+
+
+Other wave speeds to be aware of (and put on your aid sheet):
+Sound wave in a liquid:
+
+
+
+ 
+
+
+
+where is the adiabatic Bulk modulus for the liquid. (bulk
+modulus for volume changes with no heat transfer) [N/m ]
+ = mass density of liquid [kg/m ]
+Sound wave in a solid:
+
+
+
+ 
+
+
+
+where is the Young&apos;s modulus for the solid. [N/m ]
+ = mass density of solid [kg/m ]
+(recall learning about Young&apos;s modulus in PHYS 23, chapter 10)
+Transverse waves on a taut string:
+
+
+
+ 
+
+
+
+where is the tension in the string [N]
+ = linear mass density of the string [kg/m]
+
+
+ 
+
+
+
+Example:
+A guitar string is pulled so that the tension is 12 Newtons. The
+string is 55 cm long and its mass is 5 grams. What is the speed of a
+transverse wave traveling along its length when it is plucked?
+DON&apos;T FORGET TO CONVERT TO S.I. (aka MKS units: meters, kilograms, seconds)
+length: =55 cm=0.55 m. (since 100cm=1m)
+mass: =5 g=0.005 kg. (since 1000g=1kg)
+ =0.005/0.55=0.009091kg/m
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+We have discussed:
+The nature of waves (Transverse, longitudinal)
+The frequency of waves (determines pitch for sound, color for light)
+The speed of waves.
+Today we will discuss the intensity of waves.
+This is related to the ``amplitude&apos;&apos; of the disturbance, as I
+mentioned briefly last day.
+Waves carry energy. A wave emitter emits a certain amount of energy
+per second (power). A wave detector absorbs a certain amount of
+energy per second, based on its collecting area - more collecting
+area, more received power. (that&apos;s why a satellite dish works better
+than a thin antenna, or why we have ears rather than just little
+holes)
+
+
+ 
+
+
+
+Definition: Power, , of a wave is the amount of energy per time carried
+by it (into all space). Units: Watt = Joule/second.
+Definition: Intensity, , of a wave at a point is the amount of power
+passing through a perpendicular surface divided by the area of that
+surface, . Units: Watts/m 
+relation:
+
+
+
+ 
+
+
+
+Note that a speaker emits a certain power, . The volume knob
+determines this power.
+What you hear with your ear is proportional to intensity, . That&apos;s
+why, as you are farther away from the speaker, it sounds quieter - the
+power is the same, but the intensity has decreased.
+For waves traveling out into all directions in 3-d (spherically
+symmetric), the intensity drops as one over the distance squared:
+
+
+
+ 
+
+
+
+where is the power of the source, and is the intensity
+received at a distance from the source.
+DIAGRAM
+Note: as the wave travels out, it is evenly distributed around a
+sphere at distance . The total area of this large sphere is , so this equation is really the same as .
+
+
+ 
+
+
+
+The Decibel System ( ) - used for describing relative sound intensity
+Defining equation:
+
+
+
+ 
+
+
+
+where is the ``intensity level&apos;&apos; [decibels], is the sound
+intensity [W/m ], and is a reference or standard intensity of . ``log&apos;&apos; means the logarithm to the
+base 10. It is probably the LOG button on your calculator (not LN)
+Because it is a logarithm, adding 10 decibels makes the intensity 10
+times greater.
+
+ Effect Intensity [W/m ] [decibels] Threshold of hearing 0 scurrying mouse 2.5 m away 10 front row tickets to Papa Roach concert 1 120 Maximum 1 minute exposure allowed by NIOSH* 0.1 110 
+
+* National Institute for Occupational Safety and Health
+
+
+ 
+
+
+
+Quiz 6 - challenge quiz!
+A speaker emits a high pitched sound in all directions. At a distance
+of 3 m from the speaker, the intensity level is 50 db.
+1. What is the Intensity at 3 m?
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+2. What is the sound power emitted by the source?
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Doppler Effect.
+If the wave source and the observer are steadily moving closer, then
+the observed wavelength will be slightly SHORTER than ``rest&apos;&apos;
+wavelength, and the observed frequency will be slightly HIGHER than
+``rest&apos;&apos;.
+If the wave source and observer are steadily moving farther apart,
+,then the observed wavelength will be slightly LONGER than rest, and
+observed frequency will be slightly LOWER.
+ PHYS 25, Lecture 3 
+ Review of Waves and Sound
+ 483 - 493
+Finish Chapter 16 
+Lecture plan:
+
+
+ 
+
+
+
+DEMOS: Signal generator and speaker - test sensitivity of human
+hearing (lower your hand when you can&apos;t hear it)
+
+
+ 
+
+
+
+Doppler Effect.
+If the wave source and the observer are steadily moving closer, then
+the observed wavelength will be slightly SHORTER than ``rest&apos;&apos;
+wavelength, and the observed frequency will be slightly HIGHER than
+``rest&apos;&apos;.
+If the wave source and observer are steadily moving farther apart,
+,then the observed wavelength will be slightly LONGER than rest, and
+observed frequency will be slightly LOWER.
+Note: Car driving past you with radio on sounds weird.
+Also, if YOU are in your car driving past the Burns Tower while the
+bells are ringing, it sounds weird!
+Two possibilities:
+The observer is at rest relative to the air, and the source is moving
+toward observer:
+DIAGRAM (source stationary)
+Natural wavlength (source at rest) = The speed of sound
+in air is .
+DIAGRAM (source moving)
+New wavelength (source moves a distance in one period)
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+Note: our ears actually don&apos;t detect the wavelength of the sound, they
+detect the frequency! (How can they know the wavelength without
+detecting pressure at several different locations?)
+To get frequency, note that the speed of sound for the observer is , and use so that
+
+
+ 
+
+
+and so
+
+
+ 
+
+
+
+Note: if the source is moving away from the observer, use a negative
+number for .
+Second Possibility: Source is stationary, observer is moving toward
+the source.
+In this case, the wavelength of the sound as seen by the observer does
+NOT CHANGE!! What changes is the speed of sound. Instead of , the
+sound appears to be coming toward the observer at a speed . So
+the frequency and wavelength are related by: 
+
+
+
+ 
+
+
+where so:
+
+
+ 
+
+
+
+Note: if the observer is moving away from the source, use a negative
+number for .
+Combining these two equations for a general case in which the source
+AND observer are moving: (equation 16.15)
+
+
+
+ 
+
+
+
+where is the Observed frequency, is the ``rest&apos;&apos;
+frequency, emitted by the source. is the speed of the observer
+moving toward the source relative to the air ( is negative if
+observer is moving away). is the speed of the source moving
+toward the observer relative to the air ( is negative if source
+is moving away from observer). is the speed of sound, which is
+always positive.
+As long as the speeds involved are much less than the wave speed, then
+the doppler shift is a fairly minor shift in . If the
+speed is much less than the wave speed, then there is an APPROXIMATE
+Doppler Shift equation that works quite well:
+
+
+
+ 
+
+
+
+where is the shift in frequency ( if source approaches, if source recedes), is the relative speed of source and
+observer, and is the wave speed.
+
+
+ 
+
+
+
+Examples.
+A fire truck drives at 25 m/s toward a stationary observer, with a
+siren set to emit sound at 550 Hz. What frequency does the observer
+hear? (Assume speed of sound is 345 m/s.)
+Answer. (we expect higher). Use exact equation (16.15), with , , , :
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+  Hz.
+
+
+ 
+
+
+
+A stationary fire truck is heard by an observer that is driving at
+25 m/s towards it. The siren emits sound at 550 Hz. What frequency
+does the observer hear? (Assume speed of sound is 345 m/s).
+Answer. (we expect higher). Use exact equation (16.15), with , , , :
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+  Hz.
+
+
+ 
+
+
+
+If the relative speed between a fire truck and observer is 25 m/s
+(moving towards eachother), and the siren emits at 550 Hz,
+approximately what is the observed frequency?
+Use approximate equation for shift, with , , 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+  Hz.
+Moving towards - sound should be HIGHER frequency. :  Hz. (same as answer for stationary source)
+
+
+ 
+
+
+
+Note: depth of water under a boat can be measured by emitting a sound
+wave and waiting for the echo - SONAR. Sound is transmitted through
+water, but reflects off the bottom. The shape of the bottom can be
+mapped. (and fish can be found this way)
+The limit to the precision of distance measurement to the bottom (or
+fish) is the wavelength of the sound. distance uncertainty is always
+greater than the wavelength. So to get more precise measurements,
+you can use shorter wavelength (or higher frequency) sound.
+Ultrasound has a wavelength of 0.3 mm in skin tissue. So it can
+``image&apos;&apos; objects that reflect sound with an imagine accuracy of
+0.3 mm. This can give a nice view of a developing fetus.
+
+
+ 
+
+
+
+Sensitivity of Human Ear:
+Human ear is not equally sensitive at all frequencies. See Figure
+16.37 - most sensitive at about 3500 Hz. Or between 600 Hz and
+6000 Hz.
+Demo: Try different frequencies with the signal generator: which
+sounds the loudest?
+Note also: The shape of the Fletcher-Munson curve is like a sharp-V
+for quiet sounds (low intensity): We have a peaked sensitivity near 3500 Hz. But for
+loud sounds (high intensity) the curve is more flat, meaning that
+lower and higher frequencies are heard at a more even level: the RANGE
+of hearing is better. That is why music concerts are often so loud,
+it is easier for our ears to pick up the high and low notes then, and
+the music sounds better and richer.
+
+
+ 
+
+
+
+Examples from past exams:
+Classify the following waves as longitudinal or transverse:
+wave on a string
+sound
+light
+radio waves
+water waves (on the surface)
+
+
+ 
+
+
+
+Examples from past exams:
+The tension in a taut rope is increased by a factor
+of 9. How does the speed of wave pulses on the rope change, if at
+all?
+A. The speed remains the same.
+B. The speed is reduced by a factor of 3.
+C. The speed is reduced by a factor of 9.
+D. The speed is increased by a factor of 3.
+E. The speed is increased by a factor of 9.
+
+
+ 
+
+
+
+The decibel level of a jack-hammer is 130 dB
+relative to the threshold of hearing. Determine the decibel level if
+two jack-hammers operate side by side.
+A. 65 dB
+B. 130 dB
+C. 133 dB
+D. 144 dB
+E. 260 dB
+ PHYS 25, Lecture 4 
+ Principle of Superposition, Diffraction, Standing Waves
+ pg. 494 - 506
+sections: 17.1, 17.2, 17.3, 17.4, 17.5 
+Lecture plan:
+interference
+diffraction
+beats
+standing waves
+
+
+ 
+
+
+
+DEMOS: DVD disc 9, demos 17-21
+Audio CD: 62-63. and 8-11 (decibel scale)
+
+
+ 
+
+
+
+Homework due Friday:
+Ch. 17, numbers 6 and 10
+
+
+ 
+
+
+
+17.1, 17.2
+Principle of superposition. ``when two or more waves intersect
+ at the same place and time, the resultant disturbance is the sum of
+ the disturbances from the individual waves.&apos;&apos;
+DIAGRAM:
+Draw on board two examples of harmonic waves adding for constructive
+and destructive interference. (same phase angle, ``in phase&apos;&apos;, phase
+different by radians, ``out of phase&apos;&apos;)
+Example: two speakers emiting ``in phase&apos;&apos;. Whether the observer
+hears them ``in phase&apos;&apos; or ``out of phase&apos;&apos; depends on the distances
+to the individual speakers.
+If the difference is 0 or some integer multiple of , then
+there is constructive interference.
+If the difference is ( ) times , where is
+some integer, then there is destructive interference.
+DIAGRAM: Example: right angle between two speakers and observer.
+Distance between speakers is a fixed 1 m. The distance to the
+observer is 10,000 m. The wavelength of sound is 0.05 m. Find . As decreases, when does and ?
+
+
+ 
+
+
+
+17.3 Diffraction of waves.
+Define a ``wave front&apos;&apos;: locus of points with same phase angle: ie,
+connect the crest.
+A point source emits spherical wave fronts. Look like circles in 2-D.
+Many sources on a plane or in a line (2-D) emit plane waves: look like
+lines in 2-D. But this is really the superposition of many little
+spherical wave fronts all propagating in the same direction.
+called ``Huygen&apos;s wavelets&apos;&apos; Many spherical wavelets combine to make
+one plane wave.
+So when there is an obstruction with an opening in it, and a plane
+wave passes through it, the wavelets at the edges do not have
+neighbors on one side to complete the plane wave. So the wave spreads
+out.
+The amount of spreading depends on the ratio of the wavelength to the
+size of the opening.
+If is large (narrow hole compared to wavelength) the
+spreading angle is large.
+If is small (wide hole compared to wavelength) the
+spreading angle is small. The wave continues to be a plane wave with
+a sharp ``shadow&apos;&apos;.
+Equation:
+
+
+
+ 
+
+
+
+ PHYS 25, Lecture 5 
+ Revies of Superposition and Interference
+ pg. 507 - 520
+17.5, 17.6, 17.7, 17.8 
+Lecture plan:
+Ch. 17 Homework due today!
+Finish Chapter 17
+
+
+ 
+
+
+
+DEMO: Google Search: ``Standing Wave Applet&apos;&apos; (www.phy.ntnu.edu.tw and
+icg.harvard.edu)
+
+
+ 
+
+
+
+Quiz:
+1. Sound of wavelength passes through a doorway of width 1 m.
+ What is the diffraction angle in degrees?
+2. Light of wavelength 500 nm =  m passes through a
+ doorway of width 1 m. What is the diffraction angle in degrees.
+3. There are two ways to orient a rectangular diffraction-horn
+ loudspeaker. Which way spreads the sound out better horizontally?
+ (DIAGRAM with A and B.)
+
+
+ 
+
+
+
+17.4 Beats.
+Diagram: draw the sum of two waves that are slightly different
+wavelength. This will cause ``beats&apos;&apos; or changes in the amplitude.
+The frequency of beats is the difference between the frequencies of
+the two overlapping sounds.
+
+
+
+ 
+
+
+
+Example:
+A guitar string is sounded at the same time as a tuning fork. When
+sounded with a 250 Hz fork it produces 4 beats/s. When sounded with a
+255 Hz fork it produces 9 beats/s. What is the vibrational frequency
+of the string?
+
+
+
+ 
+
+
+
+ or so  Hz or  Hz
+
+
+
+ 
+
+
+
+ or so  Hz or  Hz
+so it must be 246 Hz.
+
+
+ 
+
+
+
+17.5, 17.6 Standing Waves
+When a wave hits an obstacle, the energy must either reflected or
+transmitted or absorbed by the obstacle. For sound, the ``echo&apos;&apos; is
+the reflection from the boundary at the surface of the obstacle.
+For waves on a string, when the end of the string is encountered, a
+reflection comes back.
+Property of harmonic waves: When two indentical sine waves traveling
+in opposite directions are superimposed (add) they form a standing
+wave.
+Google Demo.
+A standing wave on a string fixed at both ends is actually the sum of
+multiple traveling waves and their reflections from the ends!
+Standing waves have ``nodes&apos;&apos; (no disturbance), and ``antinodes&apos;&apos;
+maximum time-varying disturbance.
+For a string of a length fixed at both ends, the number of
+intermediate nodes plus one is the ``harmonic number&apos;&apos;. ie 0 nodes is
+1st harmonic. 1 node is 2nd harmonic.
+The frequency for vibrations on a string is given by:
+
+
+
+ 
+
+
+
+where is the harmonic number (number of intermediate nodes + 1)
+ is the speed of sound in the string, given by 
+ is the length of the string.
+
+
+ 
+
+
+
+Example.
+A 40 cm guitar string of mass 5 grams is held at a tension of
+32 newtons. It is plucked and a finger is held at the center to
+create a node there. What is the frequency of the sound?
+Answer
+First find :
+
+
+
+ 
+
+
+
+Recall that one node means second harmonic, or :
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Note: frets on a guitar change Every octave lower is a halve in frequency. A above Middle C has , A below middle C has 220 Hz. A below that has 110 Hz.
+There are twelve notes in each octave and each is times
+lower than the next, descending..
+ PHYS 25, Lecture 6 
+ Electricity, Electric Force, Coulomb&apos;s Law
+ pg. 521 - 533
+Sections 18.1-18.6 
+Lecture plan:
+Electric Force
+Coulomb&apos;s Law
+Definition of electric field
+
+
+ 
+
+
+
+Ben Franklin decided: Neutral = no net electric charge, no electric
+force between objects.
+Positive = charged like a glass rod
+Negative = charged like a rubber rod.
+Franklin observed that if two glass rods were rubbed, they repelled.
+If two rubber rods were rubbed, they repelled. But if a glass and
+rubber rod were rubbed, they attracted each other.
+This is called the ``Electric Force&apos;&apos;, . acts between any
+two objects with electric charge. Like charges repel, opposite
+charges attract.
+Examples of electric force direction:
+DIAGRAM: , (show forces)
+ , (show forces)
+ , (show forces)
+ , (show forces)
+ , (no electric force)
+ , (no electric force)
+
+
+ 
+
+
+
+The magnitude of the electric force depends on both the amount of
+charge and the distance between them:
+
+
+
+ 
+
+
+
+where  N m  C is Coulomb&apos;s constant
+ = charge of object 1, in Coulombs, C.
+ = charge of object 2, in Coulombs, C.
+ = distance between objects 1 and 2, m.
+
+
+ 
+
+
+
+Note: we now have three things for which lower-case is the letter,
+all totally different, with totally different units:
+Coulomb&apos;s constant: ,  N m  C (used in electric force)
+Boltzman&apos;s constant: ,  J K (used in
+speed of sound in ideal gas)
+thermal conductivity: , J s  m  C (used in heat
+conduction)
+Also, there are now two meanings for upper-case C:
+C = Celsius, a unit for the quantity (temperature)
+C = Coulomb, a unit for the quantity (charge)
+Please don&apos;t get mixed up - look carefully at units, and which
+concepts they apply to, before inserting a constant into your equation.
+
+
+ 
+
+
+
+Electric charge: what the heck is it?
+All matter in this room is made up of three types of fundamental
+particles: electrons, protons, and neutrons. these are the building
+blocks of matter.
+neutrons have zero electric charge.
+protons have  C
+electrons (2000 times smaller than neutrons or protons) have  C
+The electron and proton charges are EXACTLY opposite, so that if an
+object contains an equal number of electrons and protons, it is
+neutral.
+Example
+A neutral glass rod by itself has more than electrons, and
+the exact same number of protons. If you rub it, many thousands of
+these electrons can be stripped off. That will give the rod a slight
+residual excess of protons (NOTE: protons don&apos;t move around easily in
+any solid - they are firmly anchored in crystal structure of solids.
+electrons are tiny and can fly through a some solids quite easily)
+So stripping the electrons from a glass rod leaves it with a net
+positive charge!
+When you rub a rubber rod, you tend to deposit more electrons upon
+it. That give it an excess of electrons, which registers as a net
+negative charge.
+
+
+ 
+
+
+
+Conservation of charge.
+Charge can never be created or destroyed, only transfered from one
+place to another (this just says that protons and electrons cannot be
+destroyed or created from nothing - fairly obvious).
+
+
+ 
+
+
+
+Quiz.
+Two short metal wires are identical in size, shape and mass.
+Wire A becomes electrically charged so that its final charge is  C. Wire B becomes electrically charged so that
+its final charge is  C.
+1) Does the number of protons in either wire change?
+2) Does the number of electrons in either wire change?
+3) Which wire ends up with a larger mass?
+4) A single electron has a mass of  kg, what is
+the final difference between the mass of wires A and B?
+
+
+ 
+
+
+
+Where does the coulomb come from?
+One of the seven fundamental S.I. units is the ``Ampere&apos;&apos;. This is a
+unit of electric current that produces a certain magnetic force around
+it. A Coulomb is the amount of charge delivered by one Ampere of
+current in one second.
+
+
+ 
+
+
+
+Electric Field
+A certain point in space may be surrounded by various distributions of
+electric charges. All of those charges will produce a certain force
+if a certain test charge is placed at that point. Since the force per
+charge is all we often care about, we define the Electric Field, , so that:
+
+
+
+ 
+
+
+
+where is the electric field, which is a vector [N/C]
+ is the force (vector) on a small test charge, [N]
+ is the charge of the test charge [C]
+So we think of the electric field as a property of space. When you
+hold up a charged glass rod, it alters the space around it: It
+provides an electric field. This field is there even if there are no
+charges to feel it. But if a charge, , is placed in an electric
+field, , then the force on this charge is:
+ 
+
+
+ 
+
+
+
+Example 1. Between two metal plates, the electric field is =20 N/C, upward. What is the electric force on a proton
+placed in this field?
+Answer,
+ 
+  Newtons, up.
+
+
+ 
+
+
+
+Example 2. Same question, but for an electron instead of proton:
+Answer,
+ 
+  Newtons, down.
+
+
+ 
+
+
+
+Electric field due to a point charge:
+
+
+
+ 
+
+
+
+where is the magnitude of the electric field near a point charge [N/C]
+ is coulomb&apos;s constant [N m C ]
+ is the charge magnitude [C]
+ is the distance from the point charge [m]
+DIAGRAM; if is positive, points away from 
+DIAGRAM; if is negative, points toward from 
+
+
+ 
+
+
+
+Electric Field in a parallel plate capacitor:
+DIAGRAM, charge spread evenly over one large plate, area , charge spread evenly over another large parallel plate, area ,
+
+
+
+ 
+
+
+
+where is the magnitude of the electric field between the plates
+where is the magnitude of the charge on either plate [C]
+ is coulomb&apos;s constant [N m C ]
+ is the area of either plate [m ]
+- NOTE: does not depend on the distance between the plates! This
+is true if the plates are large compared to the distance between them.
+The above equation is useful if you are given and . Sometime,
+people give the voltage between the plates, , and the distance
+between the plates, :
+DIAGRAM
+
+
+
+ 
+
+
+
+where is the magnitude of the electric field between the plates
+ is the electric potential difference (voltage) between the plates
+ is the distance between the plates
+ PHYS 25, Lecture 7 
+ Electric Field Lines
+ pgs.535-541
+18.7, 18.8 (skip Sections 18.9, 18.10) 
+Lecture plan:
+
+
+ 
+
+
+
+DEMO: Bring a parallel plate capacitor and a 9-volt battery.
+Bring rods and rolling can.
+Transparencies: 18-22, 18-23, 18-24, 18-26, 18-30, 18-34
+
+
+ 
+
+
+
+Note: when more than one charge is present, the final electric field
+is the sum of the electric fields due to the individual charges.
+Reasoning for Chapter 18, Problem 31: Before the 3 microCoulomb charge
+is added, the field is a uniform . After it is added, the
+E-field is the sum of the uniform field plus the field of the point
+charge, . is radial, outward from the position
+of the charge, and its magnitude depends on , the distance from the
+charge. There will be one point P in the region where the net
+E-field=E+ is zero. Where and points in the
+direction opposite to .
+
+
+ 
+
+
+
+Electric Field in a parallel plate capacitor:
+DIAGRAM, charge spread evenly over one large plate, area , charge spread evenly over another large parallel plate, area ,
+
+
+
+ 
+
+
+
+where is the magnitude of the electric field between the plates
+where is the magnitude of the charge on either plate [C]
+ is coulomb&apos;s constant [N m C ]
+ is the area of either plate [m ]
+- NOTE: does not depend on the distance between the plates! This
+is true if the plates are large compared to the distance between them.
+The above equation is useful if you are given and . Sometime,
+people give the voltage between the plates, , and the distance
+between the plates, :
+DIAGRAM
+
+
+
+ 
+
+
+
+where is the magnitude of the electric field between the plates
+ is the electric potential difference (voltage) between the plates
+ is the distance between the plates
+
+
+ 
+
+
+
+What is lightning?
+The clouds and the ground act as a huge parallel plate capacitor.
+Charge may flow in the clouds easily, and charge may flow in the
+ground easily, but the air is an &apos;&apos;electrical insulator&apos;&apos;: it is very
+difficult for electrons to flow in it. But when the Electric Field
+magnitude is high enough (about Volts per meter) air can
+conduct: this is a spark or lightning.
+
+
+ 
+
+
+
+Conductors and Insulators
+Different materials have different abilitys to allow charge to flow
+through them.
+DIAGRAM: If a material is placed in an electric field, electrons will
+feel the electric force and try to accelerate (in the opposite
+direction of the -field.
+In a good electrical conductor, such as copper or aluminum, these
+electrons will move: Motion of charge is called electric current, or
+``current&apos;&apos;, and is measured in Amperes=Coulombs/second. The electrons
+will keep moving as long as there is an electric field to accelerate
+them.
+In a good thermal insulator, such as plastic or wood, the electrons
+will not move.
+That&apos;s why wires are made of copper and have a plastic coating on the
+outside of them, so you don&apos;t get shocked.
+
+
+ 
+
+
+
+Charge by induction.
+A neutral conductor normally has its positive charge and negative
+charge spread evenly throughout it. But if it is placed in an
+electric field, the electrons will be accelerated within the
+conducting object until they reach their boundaries.
+Example: Rolling Can demo.
+The can is still neutral: And yet it gains a net charge on one side of
+it and an opposite net charge on the other. But since electric force
+from the rod drops as (1/ ), the attraction to the near side wins,
+and the can is attracted.
+That&apos;s ``charge by induction&apos;&apos;, as opposed to ``charge by contact&apos;&apos;,
+in which the object is actually touched and electrons are transfered
+in or out of the object.
+
+
+ 
+
+
+
+NOTE: Why do electrons orbit the nucleus in an atom?
+The nucleus is positively charged, and the electrons are negatively
+charged. Therefore, there is an attractive electric force, which
+pulls the electrons toward the nucleus. This is exactly analogous to
+how gravity pulls the planets toward the sun or pulls the moon toward
+the Earth. The electrons may either fall directly toward the nucleus,
+or, if they are moving, the electric force may provide the
+centripetal force needed to hold them in orbit.
+Example: Hydrogen. An electron is at a distance of  m from a proton. The proton is fixed, while the
+electron moves sideways. At what speed must the electron move in
+order to travel in a circle around the proton?
+Answer:
+Set:
+Centripetal Force = Electric Force
+
+
+
+ 
+
+
+
+solve for :
+
+
+
+ 
+
+
+
+about 2000 km/s!! These electrons are really trucking around!
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Electric field is a Vector. It is a property of space.
+It points in the direction a positive test charge would be
+accelerated.
+Units of are [Newtons/Coulomb] or [Volts/Meter] (these are
+equivalent)
+
+
+ 
+
+
+
+Demo: Show transparencies.
+Rules for drawing electric field lines.
+1. lines begin at positive charges, and terminate at negative
+charges. - when lines touch a conducting surface, they are always
+perpendicular to the surface.
+3. lines don&apos;t cross.
+4. lines get radially condensed near a point charge.
+5. lines tend to be parallel near a flat charge, like a plate
+EXAMPLES. points: + 
+points: 
+plates + 
+
+
+ 
+
+
+
+NOTE: You will be asked to sketch electric field lines in 2-D for a
+simple charge distribution on Exam 2. Quiz 9 is a print-out - distribute!
+
+
+ 
+
+
+
+18.8 electric field shielding
+A closed conducting surface shields the inside from the effects of any
+charge distribution outside the surface.
+NOTE: similarly, a closed surface shields the outside from the
+effects of a charge distribution inside the surface.
+
+
+ 
+
+
+
+ PHYS 25, Lecture 8 
+ Review of Chs. 16, 17, 18
+ pgs.548-556
+ 
+Lecture plan:
+Review various problems and concepts from Chs. 16, 17, 18
+Explain study guide problems frequently asked about during office hours
+
+
+ 
+
+
+
+Quiz: (go over answer in class)
+ Sketch about 10 representative electric field lines surrounding
+the charge distribution below. The net charges as labeled exist on
+the shaded objects, which are conductors. 
+
+
+
+
+
+
+
+
+ 
+ PHYS 25, Lecture 9 
+ Coulombs Law, the Electric Field
+ 18.1 - 18.6 
+Lecture plan:
+
+
+ 
+
+
+
+Hand back exams.
+Hand out exam answers.
+Hand out study guides
+Hand back quizzes from last Friday.
+
+
+ 
+
+
+
+DEMO: DVD demos: Disk 16.
+DVD Demos: 16-21, 16-22, 16-23, 16-24, 16-25
+
+
+ 
+
+
+
+Ben Franklin decided: Neutral = no net electric charge, no electric
+force between objects.
+Positive = charged like a glass rod
+Negative = charged like a rubber rod.
+Franklin observed that if two glass rods were rubbed, they repelled.
+If two rubber rods were rubbed, they repelled. But if a glass and
+rubber rod were rubbed, they attracted each other.
+This is called the ``Electric Force&apos;&apos;, . acts between any
+two objects with electric charge. Like charges repel, opposite
+charges attract.
+Examples of electric force direction:
+DIAGRAM: , (show forces)
+ , (show forces)
+ , (show forces)
+ , (show forces)
+ , (no electric force)
+ , (no electric force)
+
+
+ 
+
+
+
+The magnitude of the electric force depends on both the amount of
+charge and the distance between them:
+
+
+
+ 
+
+
+
+where  N m  C is Coulomb&apos;s constant
+ = charge of object 1, in Coulombs, C.
+ = charge of object 2, in Coulombs, C.
+ = distance between objects 1 and 2, m.
+
+
+ 
+
+
+
+Note: we now have three things for which lower-case is the letter,
+all totally different, with totally different units:
+Coulomb&apos;s constant: ,  N m  C (used in electric force)
+Boltzman&apos;s constant: ,  J K (used in
+speed of sound in ideal gas)
+thermal conductivity: , J s  m  C (used in heat
+conduction)
+Also, there are now two meanings for upper-case C:
+C = Celsius, a unit for the quantity (temperature)
+C = Coulomb, a unit for the quantity (charge)
+Please don&apos;t get mixed up - look carefully at units, and which
+concepts they apply to, before inserting a constant into your equation.
+
+
+ 
+
+
+
+Electric charge: what the heck is it?
+All matter in this room is made up of three types of fundamental
+particles: electrons, protons, and neutrons. these are the building
+blocks of matter.
+neutrons have zero electric charge.
+protons have  C
+electrons (2000 times smaller than neutrons or protons) have  C
+The electron and proton charges are EXACTLY opposite, so that if an
+object contains an equal number of electrons and protons, it is
+neutral.
+Example
+A neutral glass rod by itself has more than electrons, and
+the exact same number of protons. If you rub it, many thousands of
+these electrons can be stripped off. That will give the rod a slight
+residual excess of protons (NOTE: protons don&apos;t move around easily in
+any solid - they are firmly anchored in crystal structure of solids.
+electrons are tiny and can fly through a some solids quite easily)
+So stripping the electrons from a glass rod leaves it with a net
+positive charge!
+When you rub a rubber rod, you tend to deposit more electrons upon
+it. That give it an excess of electrons, which registers as a net
+negative charge.
+
+
+ 
+
+
+
+Conservation of charge.
+Charge can never be created or destroyed, only transfered from one
+place to another (this just says that protons and electrons cannot be
+destroyed or created from nothing - fairly obvious).
+
+
+ 
+
+
+
+Quiz.
+Two short metal wires are identical in size, shape and mass.
+Wire A becomes electrically charged so that its final charge is  C. Wire B becomes electrically charged so that
+its final charge is  C.
+1) Does the number of protons in either wire change?
+2) Does the number of electrons in either wire change?
+3) Which wire ends up with a larger mass?
+4) A single electron has a mass of  kg, what is
+the final difference between the mass of wires A and B?
+
+
+ 
+
+
+
+Where does the coulomb come from?
+One of the seven fundamental S.I. units is the ``Ampere&apos;&apos;. This is a
+unit of electric current that produces a certain magnetic force around
+it. A Coulomb is the amount of charge delivered by one Ampere of
+current in one second.
+
+
+ 
+
+
+
+Electric Field
+A certain point in space may be surrounded by various distributions of
+electric charges. All of those charges will produce a certain force
+if a certain test charge is placed at that point. Since the force per
+charge is all we often care about, we define the Electric Field, , so that:
+
+
+
+ 
+
+
+
+where is the electric field, which is a vector [N/C]
+ is the force (vector) on a small test charge, [N]
+ is the charge of the test charge [C]
+So we think of the electric field as a property of space. When you
+hold up a charged glass rod, it alters the space around it: It
+provides an electric field. This field is there even if there are no
+charges to feel it. But if a charge, , is placed in an electric
+field, , then the force on this charge is:
+ 
+
+
+ 
+
+
+
+Example 1. Between two metal plates, the electric field is =20 N/C, upward. What is the electric force on a proton
+placed in this field?
+Answer,
+ 
+  Newtons, up.
+
+
+ 
+
+
+
+Example 2. Same question, but for an electron instead of proton:
+Answer,
+ 
+  Newtons, down.
+ PHYS 25, Lecture 10 
+ Electric Potential Energy, Voltage, Equipotential Surfaces
+ pgs. 557 - 569
+19.1 - 19.4 
+Lecture plan:
+Electric Potential Energy ( )
+Electric Potential ( )
+ 
+Equipotential lines/surfaces
+
+
+ 
+
+
+
+DEMO: Tesla Coil
+
+
+ 
+
+
+
+Hand back exams, exam answers.
+Hand back quizzes from last Friday.
+Hand back homeworks from last Wednesday.
+Hand out study guides for Exam 2.
+
+
+ 
+
+
+
+Question: What is a ``Volt&apos;&apos;? Most have heard of it, but few
+understand what it is.
+Volt is the S.I. Unit of ``Electric Potential&apos;&apos;. The difference
+between electric potential of two points is often called ``Voltage&apos;&apos;.
+A voltage between two points can drive an electric current.
+
+
+ 
+
+
+
+Let&apos;s look at the math underlying this:
+ Scalar Field: Assigns a single value (ie pressure or
+temperature) to every point in 3-D space.
+ Vector Field: Assigns a vector (ie electric field)
+to every point in 3-D space.
+Electric Field is a Vector Field. It has direction, is a property of
+space determined by some external charge distribution.
+Electric Potential is a Scalar Field. It is has no direction, but is
+a property of space determined by some external charge distribution.
+
+
+ 
+
+
+
+We define ``Electric Potential Energy&apos;&apos; of any small charge, as:
+
+
+ 
+
+
+where [Joules], is electric potential [Volts], and is charge in [Coulombs].
+
+
+ 
+
+
+
+Example. Tesla Coil.
+  C of charge travels between my wand ( ) and the
+ball at the top of the Tesla Coil. ( ) What is the change in
+K.E. of this charge as it travels between the wand and the ball?
+Work-Energy Theorem:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+For the space surrounding a point charge, , the electric potential
+due to this charge is;
+
+
+
+ 
+
+
+
+where is electric potential in [Volts] or [V], is the Coulomb&apos;s constant, is the charge in [C]
+(including sign), and is the distance from (always
+posistive).
+NOTES:
+ potential has an arbitrary zero point (much like ``height&apos;&apos; or
+gravitational potential). We could have just as correctly written:
+
+
+ 
+
+
+where is some constant.
+ By convention, we choose when .
+So in the above equation.
+ When two or more charges are present, the total potential is
+the sum of the potentials of the individual charges.
+ A positive test charge tends to accelerate from high to
+low . It gains kinetic energy as it does this, and we say that
+this energy comes from the electric potential.
+
+
+ 
+
+
+
+Example: Electric Potential due to more than one charge is MUCH easier
+to compute than Electric Field due to more than one charge.
+Two charges are located in the - plane. One has C
+ and is located on the -axis at , shown as the black dot in
+ the figure below. The other has C and is located on the -axis at , shown as the white dot in the figure below.
+ Find the electric potential at the origin.
+
+
+
+ 
+Answer
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Volts relative to what? What point is the origin 2247 Volts above??
+(Answer: infinity)
+ PHYS 25, Lecture 11 
+ Capacitors, Dielectrics, review of Electric Potential
+ pgs. 570 - 582
+19.5 - end of Chapter 19 
+Lecture plan:
+Conservation of energy in an electric field
+Definition of ``electron-Volt&apos;&apos;
+Equipotential lines/surfaces
+Capacitance, dielectric constant, energy in a capacitor
+
+
+ 
+
+
+
+DEMO: DVD Disk 18. Demos 18, 19, 20, 23
+Bring some capacitors
+
+
+ 
+
+
+
+For the space surrounding a point charge, , the electric potential
+due to this charge is;
+
+
+
+ 
+
+
+
+where is electric potential in [Volts] or [V], is the Coulomb&apos;s constant, is the charge in [C]
+(including sign), and is the distance from (always
+posistive).
+NOTES:
+ potential has an arbitrary zero point (much like ``height&apos;&apos; or
+gravitational potential). We could have just as correctly written:
+
+
+ 
+
+
+where is some constant.
+ By convention, we choose when .
+So in the above equation.
+ When two or more charges are present, the total potential is
+the sum of the potentials of the individual charges.
+ A positive test charge tends to accelerate from high to
+low . It gains kinetic energy as it does this, and we say that
+this energy comes from the electric potential.
+
+
+ 
+
+
+
+Lesson learned from this week&apos;s lab:
+Equipotential Surfaces: can be easily mapped with a volt-meter. -
+surfaces of equal electric potential (volts)
+Things to NOTE:
+ -field is always perpendicular to equipotential surfaces
+ -field always points toward lower potential.
+the surface of a conductor is always an equipotential surface.
+Example:
+The electric potential around a point charge drops as one over the
+distance:
+
+
+
+ 
+
+
+
+ and are constants, so equipotential surfaces around a point
+charge are spheres, of constant . DIAGRAM - is perpendicular
+to these surfaces - it points radially outward.
+
+
+ 
+
+
+
+Let&apos;s do an example to review all the concepts involved in
+electrostatics so far:
+The plates of a capacitor are separated by a distance of 0.03 m.
+There is an electric potential difference between them of  V. A free-floating positive charge of mass  kg and charge  C begins at rest
+at the positive potential plate, and accelerates toward the negative
+plate. What is the speed of the charge when it arrives at the
+negative plate?
+THE MAIN IDEA: The positive charge accelerates toward the negative
+plate - its speed is zero at first, and steadily increases toward
+final speed.
+Two approaches to problem: 1) Electric Field gives Electric Force
+gives acceleration. Acceleration can be used to find final speed.
+OR
+2) Electric Potential give E.P.E. gives work. Work done can be used
+to find final kinetic energy and therefore speed.
+USUALLY Method 2 is EASIER - but lets do both:
+
+
+ 
+
+
+
+Method 1 - electric field:
+equation 19.7 (pg.569):
+
+
+ 
+
+
+ is always directed toward the plate with lower potential -
+the negative plate.
+electric field gives force on a charge:
+
+
+
+ 
+
+
+
+(here we have used the fact that in S.I. units, [V/m] is equivalent to
+[N/C])
+force gives acceleration by Newton&apos;s 2nd law: F=ma:
+
+
+
+ 
+
+
+
+we know distance traveled, and initial speed=zero, so:
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Method 2 - electric potential
+
+
+
+ 
+
+
+
+Since the charge ends at E.P.E.=0 J, it has lost  J
+of E.P.E. in its travel of 0.03 m. All of this E.P.E. is converted to
+kinetic energy. The initial K.E.=0 since the charge begins at rest.
+Therefore the final K.E.=  J
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Quiz 11
+A 12 V single battery is used to power a flashlight. In 7 hours, a
+total of 23,000 Coulombs of charge has flowed from the plus to minus
+terminals of the battery, through the flashlight bulb. How much power
+does this flashlight draw, in Watts?
+hints: calculate the E.P.E. of this much charge at each terminal of
+the battery - the drop in E.P.E. is the work done. Power is Work / time.
+
+
+ 
+
+
+
+NEW ENERGY UNIT (non-S.I.)
+How much energy does an electron get if it is accelerated through a
+potential difference of magnitude 1 Volt? Answer:  Joules. So we define a
+new unit, sometimes used in electronics:
+1 ``electron-Volt&apos;&apos; = 1 eV = Joules
+
+
+ 
+
+
+
+Capacitors and Dielectrics
+What is the electric potential in a parallel plate capacitor?
+DIAGRAM: plate with , plate with , is distance toward from . Area of both plates is .
+if a vacuum separates the plates:
+
+
+
+ 
+
+
+
+where is the electric potential at a point a distance from the
+negative plate. is the magnitude of the charge on either plate
+(positive), and is the area of the plate.
+ is the dielectric constant of the material between the
+plates. is a dimensionless number always greater than or
+equal to 1. For a vacuum, for other materials, is
+listed in Table 19.1 on page 572.
+NOTE: all numbers in this equation are positive.
+- by convention, we always choose the negative plate in a parallel
+plate capacitor to have .
+
+
+ 
+
+
+
+Parallel plate capacitors are commonly used in electronics.
+Abbreviation = ``capacitor&apos;&apos;
+The main application of a capacitor to store some charge. In
+these cases, we wish to know, for a particular capacitor ``How much
+charge can this capacitor hold, for a given voltage, ?&apos;&apos;
+so solve for in the above equation:
+
+
+
+ 
+
+
+
+where is now the total distance between the and plates:
+
+
+
+ 
+
+
+
+For a particular capacitor, and are fixed, so the quantity is a constant. We define a new number:
+
+
+
+ 
+
+
+
+ =capacitance (since it measures the ``capacity&apos;&apos; of a capacitor to
+hold charge, given a potential difference).
+Units of Capacitance, are [Coulombs/Volt] or [Farad] [F]
+So, our equation simplifies to:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+One last equation to ponder over the weekend. When you have a
+capacitor with a capacitance charged up to a voltage , the
+energy stored in this capacitor is:
+
+
+
+ 
+
+
+
+Doesn&apos;t this equation remind you of something (kinetic energy?).
+Isn&apos;t Physics beatuful? The symmetries and analogies to be drawn
+between equations and related phenomena are endless.
+ PHYS 25, Lecture 12 
+ emf, Ohm&apos;s Law, Resistance and Resistivity
+ pgs. 583 - 593
+20.1, 20.2 
+Lecture plan:
+
+
+ 
+
+
+
+DEMO:
+
+
+ 
+
+
+
+Things to review from Chapter 19:
+Work done by Electric force = drop in EPE
+V = EPE / 
+
+
+
+ 
+
+
+
+where EPE = V q
+
+
+ 
+
+
+
+(Imagine a flying, rotating, electrically charged potato connected to
+a spring in an electric field.)
+Practical Example.
+A 0.2 kg potato with  C of charge on it and a
+moment of inertia of kg m is flying with a
+speed of 5 m/s and rotating at 1.5 radians/s at a height of 4 m above
+the floor while attached to a spring of spring constant  N/m
+which is stretched to 0.1 m beyond its equilibrium length at a point
+in space where the electric potential is 25 Volts above ground. What
+is the total energy of this potato?
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Equipotential surfaces are perpendicular to electric field lines.
+
+
+ 
+
+
+
+q = CV for a capacitor
+
+
+
+ 
+
+
+
+or
+
+
+
+ 
+
+
+
+where is the ``dielectric constant&apos;&apos; of the material between
+the plates. is a dimensionless real number that is 1 or
+greater. Example for a vacuum, for other
+materials, air: , rubber: , water, .
+NOTE: all numbers in the equation for are positive.
+Also: both plates must have the same area, , and the same shape,
+and must be parallel for this equation to work. If the plates have
+different area, shape, or are not parallel, a computer analysis can be
+used to calculate .
+- by convention, we always choose the negative plate in a parallel
+plate capacitor to have .
+Also, in the equation , all numbers are positive. is the
+magnitude of the charge on either plate. is the electric
+potential of the postive plate.
+Energy of a charged capacitor:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+NEW ENERGY UNIT (non-S.I.)
+How much energy does an electron get if it is accelerated through a
+potential difference of magnitude 1 Volt? Answer:  Joules. So we define a
+new unit, sometimes used in electronics:
+1 ``electron-Volt&apos;&apos; = 1 eV = Joules
+
+
+ 
+
+
+
+Example
+A F capacitor is hooked to a 9 V battery.
+a) What is the charge stored on the 9 V plate?
+b) What is the charge stored on the 0 V plate?
+c) What is the energy in stored by the capacitor?
+a) C
+b) C
+c)  Joules
+
+
+ 
+
+
+
+NOTE: A non-vacuum always REDUCE between the plates of a
+capacitor.
+Voltage of a capacitor:
+
+
+
+ 
+
+
+
+the reason the Voltage is decreased is because the electric field
+magnitude is decreased. The reason the electric field is decreased is
+because little pairs of charge are stretched throughout the
+dielectric material, causing a net reduction in effective charge on
+either plate. (Figure 19.20)
+
+
+ 
+
+
+
+Example:
+Two parallel aluminum plates are hooked to a battery so that there is
+9 volts potential difference between them. The positive plate holds  C of charge in this configuration. How much charge do
+they hold if a book is slipped between them (all other things
+remaining equal)?
+answer
+what changes? originally, there is air between them, so that (approximately). finally there is paper between them, for
+which . Solve for :
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+  C =  C
+
+
+ 
+
+
+
+Chapter 20:
+Current: . when charge flows from one place to another, the rate
+of charge flow is called ``electric current&apos;&apos; or just ``current&apos;&apos; for
+short. The units are Coulombs per second, or ``Amperes&apos;&apos; or ``Amps&apos;&apos;
+for short.
+ 
+Example
+30 Coulombs of charge flows through a wire in 15 seconds. What is the
+current in the wire?
+answer:
+ 
+
+
+ 
+
+
+
+A DC circuit is created when we hook the terminal of a battery to
+the terminal, connected by wires and possibly other components.
+(note DC stands for ``direct current&apos;&apos;, as opposed to AC which stands
+for alternating current)
+Charge flows through the circuit from to because of the drop
+in electric potential.
+The rate that charge flows is called ``electric current&apos;&apos;, .
+That is determined by the potential drop and the resistance of
+ the circuit, :
+
+
+
+ 
+
+
+
+DIAGRAM: Water flowing through a pipe analogy: PUMP, high pressure,
+low pressure, narrow windy pipe:
+the water goes round and round (like current)
+if you turn up the pressure in the pump, the water flows faster (like voltage)
+if you make the pipe smaller or windier, the water flows slower (like
+resistance)
+(The difference is that you can NEVER empty the pipe of water -
+electrons are everywhere throughout a copper wire and if there is a
+Voltage across the wire, current will ALWAYS flow)
+DIAGRAM: circuit.
+DVD Demos: Disc 17, demos 19, 22
+
+
+ 
+
+
+
+Ohm&apos;s Law
+
+
+
+ 
+
+
+
+where = magnitude of current through a resistor [Coulomb/second]
+or [Amps]
+ = electric potential drop across a resistor (voltage) [Volts]
+ = resistance of resistor [Volts/Ampere] or [Ohms]
+NOTES:
+New unit of resistance = Ohm (an SI unit). Often abreviated: 
+the direction of the current is always from to - high
+potential to low potential.
+remember: all wires are always filled with more than electrons free to move about at any time. So, if a voltage drop
+exists, and the resistance is low enough, a current ALWAYS flows.
+ PHYS 25, Lecture 13 
+ Electric Power, Alternating Current, Series/Parallel Wiring
+ (skip Section 20.10)
+pgs. 594 - 605
+20.3, 20.4, 20.5, 20.6, 20.7, 20.8, 20.9 
+ 
+Lecture plan:
+
+
+ 
+
+
+
+DEMO: DVD Demos:
+
+
+ 
+
+
+
+The most important equation in this course:
+Ohm&apos;s Law
+
+
+
+ 
+
+
+
+where = magnitude of current through a resistor [Coulomb/second]
+or [Amps]
+ = electric potential drop across a resistor (voltage) [Volts]
+ = resistance of resistor [Volts/Ampere] or [Ohms]
+NOTES:
+New unit of resistance = Ohm (an SI unit). Often abreviated: 
+the direction of the current is always from to - high
+potential to low potential.
+remember: all wires are always filled with more than electrons free to move about at any time. So, if a voltage drop
+exists, and the resistance is low enough, a current ALWAYS flows.
+
+
+ 
+
+
+
+20.3 Resistivity
+Any particular resistor you buy has a resistance, in 
+wires, or anything that carries current has some resistance
+for a wire, the resistance is given by:
+
+
+
+ 
+
+
+
+where = ``resistivity&apos;&apos; of the material in [Ohm m]
+ is the length of the wire [m]
+ is the cross-sectional area of wire [m ]
+Examples:
+Aluminum: m
+Copper: m
+Wood: m
+so copper is times better at conducting electricity than
+wood.
+Low resistivity better conductor
+Higher resistivity better insulator
+
+
+ 
+
+
+
+Quiz 12
+A voltage drop of 12,000 Volts exists across a copper wire that is
+300 km long, and 0.5 cm in diameter (circular cross section). What is
+the current through this wire?
+First find resistance:
+
+
+
+ 
+
+
+
+Next use Ohm&apos;s law to find current:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Power
+When current runs through a wire or resistor, it creates HEAT. If,
+instead of a normal resistor, we have an electric engine, mechanical
+work can also be done. In either case, the power is proportional to
+the voltage drop times the current:
+
+
+
+ 
+
+
+
+where is the power dissipated in the wire or circuit [Watts]
+ is the current in the wire or circuit [Amps = Coulombs per second]
+
+
+ 
+
+
+
+Note, since we can solve for in terms of and :
+
+
+
+ 
+
+
+
+or, in terms of and :
+
+
+
+ 
+
+
+
+ DIAGRAM a resistor with two different electric potential values
+on either side, and ., positive charge flows
+from side to , , so the drops.
+ POWER gives the rate of conversion (Joules / Second)
+(power how much E.P.E. is consumed per second by the resistor)
+ DIAGRAM of a Portable CD player in a circuit with DC battery -
+current must flow one way in order for the CD player electronics to
+work.
+ DIAGRAM of a hair dryer in a circuit with AC generator- current
+must flow back and forth 60 times per second. it doesn&apos;t matter
+which wire goes in which socket
+
+
+
+ 
+NOTE: Power used by a resistor is always positive! This is why AC or
+alternating current works! (DIAGRAM)
+
+
+ 
+
+
+
+Alternating current: We look at a particular wire with a resistor. We
+define positive current as flowing ``toward the right&apos;&apos; for example.
+Therefore, negative current means it is flowing ``toward the left&apos;&apos;.
+Similarly, across the resistor from left to right can be positive
+or negative. The only thing that is ALWAYS positive is resistance.
+So in Ohm&apos;s law, if and always have the same sign.
+A DC battery always pushes current in the same direction. The voltage
+supplied by the battery is sometimes called ``emf&apos;&apos; (curly-E). (For
+historical reasons)
+But an AC generator alternates repeately pushing current back and
+forth through the resistor. The supplied voltage is a function of
+time:
+
+
+
+ 
+
+
+
+where is time, and is the frequency, usually 60 Hz. By Ohm&apos;s
+law, , so we can write:
+
+
+
+ 
+
+
+
+The power delivered by an AC generator goes up and down quickly from a
+maximum of to a minimum of . The average is
+half the maximum . For convenience we write:
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+where stands for ``root-mean squared&apos;&apos;, and the quantities are
+defined: and 
+ PHYS 25, Lecture 14 
+ Capacitors in Series/Parallel, RC-circuits
+609 - 621 
+NOTE: skip Section 20.10!
+
+
+ 
+
+
+
+The power delivered by an AC generator goes up and down quickly from a
+maximum of to a minimum of . The average is
+half the maximum . For convenience we write:
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+where stands for ``root-mean squared&apos;&apos;, and the quantities are
+defined: and 
+Ohm&apos;s law still applies, so that , and therefore:
+
+
+
+ 
+
+
+
+and
+
+
+
+ 
+
+
+
+Example: The power supplied by PG&amp;E is 120 Volts AC, meaning that  Volts, and  Hz. What is the resistance of 60 Watt
+light bulb?
+Answer:
+use , Solve for R:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+ Resistors in Series and Parallel (20.6, 20.7 review) 
+For many resistors all in series:
+
+
+
+ 
+
+
+where is the total resistance in a series circuit
+ Example 
+ DIAGRAM 4 resistors in a series circuit with DC
+battery, the total resistance
+of the circuit is .
+Question: if the voltage across the battery is , what is the
+current through the circuit? , where is the total
+resistance of the circuit. 
+For many resistors all in parallel:
+
+
+
+ 
+
+
+where is the total resistance in a parallel circuit
+ Example 
+ DIAGRAM 4 resistors in a parallel circuit with
+DC battery, the total
+resistance of the circuit is:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Question: if the voltage across the battery is , what is the
+current through the circuit? where is the total
+resistance of the circuit. 
+ NOTE: when two resistors are put in series, the resistance tends 
+to go up, since the current must travel through BOTH. when two
+resistors are put in parallel, resistance tends to go down, since the
+current may travel through EITHER.
+
+
+
+ 
+ 20.8 Parallel/Series Circuits 
+If a circuit is wired partially in series and partially in parallel,
+you must compute the resistances of the individual parts.
+ QUIZ 13 
+ 
+1) Compute the total resistance for current flowing from B to D via C.
+(series)
+2) Compute the total resistance between B and D (parallel, using
+result from above)
+3) Compute the total resistance between A and D
+4) Find the current flowing through the 9 V battery
+
+
+
+ 
+ 20.9 Internal Resistance 
+It is important to note that all batteries have some resistance inside 
+them. So when you draw a current through a battery, there is a
+voltage across the internal resistor ( ), and this potential drop 
+effectively reduces the voltage of the battery.
+
+
+
+ 
+
+
+where is the current that is being drawn across the battery. The
+terminal voltage is the actual voltage used in the circuit. As increases (battery ages, leads get corroded, etc.) the
+terminal voltage will decrease, even if the is fine.
+
+
+ 
+
+
+
+ 20.14 Safety (grounding wires in cords) 
+The third wire is held to ground to keep from electrocuting yourself!
+The resistance in a human body is very high compared to a copper wire
+ transparencies from Cutnell 
+ PHYS 25, Lecture 15 
+ Capacitors, RC Circuits, Intro to Magnetic Fields
+pgs. 622 - 634
+20.11 - 20.14, 21.1, 21.2 
+Lecture plan: Finish Chapter 20, introduce Chapter 21: ``Magnets&apos;&apos;
+NOTE: Ch.21 homework is due MONDAY (after the weekend), not FRIDAY.
+
+
+ 
+
+
+
+Demo: DVD, Disc 17 tracks 20,21 and Disc 19, tracks 1-6
+Do transparency circuits worksheet on the transparency
+Demo: transparent light-bulb
+Demo: some bar magnets with N and S labeled on them.
+
+
+ 
+
+
+
+Last time we introduced Current (coulomb/second = ampere), Ohm&apos;s Law
+( ), resistance (of a particular resistor in ) and
+resistivity (of a type of material in  m).
+Recall the DVD demonstration in which they put the wire in a flame,
+and the current dropped. DIAGRAM
+It is ALWAYS true that:
+
+
+
+ 
+
+
+
+and:
+
+
+
+ 
+
+
+
+ remained the SAME, but decreased, therefore MUST have
+increased. and of the wire remained the same (except for some
+very small thermal expansion), therefore MUST have increased.
+Indeed, there is an equation for the TEMPERATURE DEPENDENCE of
+Resistivity, : (eq 20.4 from text)
+
+
+
+ 
+
+
+
+where is the Resitivity at temperature , is the
+Resitivity at temperature , and is the ``temperature
+coefficient of resistivity&apos;&apos; of the material, in Celsius 
+
+
+ 
+
+
+
+Example: Copper has a resistivity of m at
+20 C. Its temperature coefficient of resistivity is . What is the resistivity of copper
+emersed in boiling water?
+ANSWER:
+
+
+
+ 
+
+
+
+ , , , find :
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Last time we intruduced power: This is the rate that electric
+energy is converted to heat or other forms of energy in a resistor.
+Units of power are Watts or Joules/Second.
+ can be combined with Ohm&apos;s Law to get two more useful
+equations:
+ (useful when is not mentioned or unknown)
+ (useful when is not mentioned or unknown)
+
+
+ 
+
+
+
+Let&apos;s do a more difficult example:
+Tungsten has a temperature coefficient of resistivity of . A constant voltage is placed across a tungsten
+filament in a light bulb. When the wire&apos;s temperature is 28 C,
+the power dissipated in the wire is 100 Watts. At what temperature
+will the power be only 50 Watts?
+Answer.
+ is constant. is known before and after. must change. is not mentioned. So
+lets use:
+ 
+where 
+so
+
+
+
+ 
+
+
+
+At the original temperature, :
+
+
+
+ 
+
+
+
+At the final temperature, , , so:
+
+
+
+ 
+
+
+
+plugging in:
+
+
+
+ 
+
+
+
+Solve for :
+...
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+ 20.11 Ammeters, Voltmeters 
+- the fundamental measuring device in an ammeter or voltmeter is
+called a galvanometer. It is a spring loaded coil between two magnets 
+that rotates an amount that is proportional to the current passing
+through it.
+- A voltmeter must be hooked in parallel across to points to measure
+the potential difference between A and B. It draws a small amount of
+current through it, which will effectively reduce the voltage being
+measured. So voltmeters must have a very high resistance in order to
+prevent much current from going through them.
+- An ammeter must be hooked in series with the circuit, to find the
+current flowing between point A and B. Ideally, the resistance inside 
+an ammeter must be low, or it would affect the current being measured
+significantly (by adding to the resistance of the circuit) Note, if
+the ammeter is the ONLY source of resistance in the circuit, the
+current ( ) will be very high and you will destroy the galvanometer!
+NOTE: Multimeters in lab have a fuse in them when used as ammeters.
+This 5-cent fuse will be destroyed if you hook a 9 Volt battery in parallel
+across the ammeter (thereby saving the 30-dollar galvanometer).
+
+
+
+ 
+ 20.12 Capacitors in Series and Parallel 
+For many capacitors all in parallel:
+
+
+
+ 
+
+
+where is the total capacitance in a parallel circuit
+ Example 
+ DIAGRAM 
+4 capacitors in a parallel circuit with DC
+battery, the total capacitance of the ``equivalent
+capacitor&apos;&apos; is .
+For many capacitors all in series:
+
+
+
+ 
+
+
+where is the total capacitance in a series circuit
+ Example 
+ DIAGRAM 
+4 capacitors in a series circuit with
+DC battery, the total
+capacitance of the ``equivalent capacitor&apos;&apos; is:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+   Series Parallel Effective Resistance Effective Capacitance 
+
+
+
+
+ 
+ 20.13 RC Circuits - A resistor in series with a capacitor is a clock 
+ DIAGRAM Fig 20.38, 20.29.
+
+
+
+
+
+
+
+
+When a resistor is in series with a battery and a capacitor, it takes
+some time for the capacitor to charge to its maximum. It is an
+asymptotic rise in charge on the capacitor, so it never actually reaches maximum. But there is a time constant (similar to
+``half-life&apos;&apos;) for such a circuit called the time constant :
+
+
+ 
+
+
+strangely enough, the units of times is seconds.
+An example is when a charged capacitor is placed in a circuit with
+resistance , it acts as a DC battery for a while. Its charge
+decreases with time:
+
+
+
+ 
+
+
+
+So an circuit can use this time to build up a measurable charge
+as a timer - this is what is used in pacemakers and windshield wipers.
+
+
+
+ 
+ 21.1 Magnets 
+- Permanent Magnets have a North and South ``pole&apos;&apos;
+- The names come from the fact that when allowed to rotate without
+frictional torque on the surface of the Earth, the North pole points
+North, and the South pole points South
+- When two permanent magnets are brought together, like poles repel,
+opposite poles attract. Force Of Magnetism!
+ DIAGRAM (bar magnets N-N, S-S repel, N-S, S-N attract)
+
+
+
+
+
+
+
+
+- demos: two strong U-magnets to repel and attract
+- demos: the little pile of levetating annuli
+- demos: compass
+The microscopic reason: Magnetic fields are created by moving
+charges. An iron atom has electrons orbiting its nucleus. Each
+electron is a rapidly moving charge in a tight circular orbit. In
+most materials the magnetic fields of all the atoms are oriented
+randomly and cancel out. In iron there is a tendency for neigboring
+atoms to all have the same alignment of electron orbit directions -
+yielding a net magnetic field.
+
+
+
+- The Earth has electric currents flowing in circles within its liquid
+metallic core - this causes it to act like a giant magnet!
+- Note, the ``South Pole&apos;&apos; or label for the Earth goes up in
+Canada, since that is where the sides of compasses are attracted to.
+- the Magnetic North Pole is not at the same location as the Earth&apos;s
+spin axis (True North Pole)
+- transparencies Magnetic North is in Nunavut, Canada - near
+there, compasses don&apos;t work!
+- transparencies In U.S.A., true North and Compas North differ
+by as much as 20 degrees (angle)
+ 21.2 Magnetic Field, 
+Surrounding a permanent magnet or some moving charges is a Magnetic
+Field, . This is a vector field, similar to Electric Field:
+ : Electric Field - gives direction of force on any positive
+test charge
+ : Magnetic Field - gives direction that the North end of a
+``test compass&apos;&apos; would point.
+ points toward poles of nearby permanent magnets.
+- demos: transparency, transparent compass on it. Put a magnet down,
+compass changes direction depending on where it is - sprinkly iron
+filings down, it traces field lines.
+ 21.2 Magnetic Force, 
+The magnetic field strength and direction also gives the strength and
+direction of the force on a moving charge in the field. The magnitude
+of the force on a moving test charge in a magnetic field of
+strength is:
+
+
+ 
+
+
+where is the particle&apos;s speed, and is the angle between
+the velocity vector and the magnetic field vector.
+- The Magnetic Force is always perpendicular to both and .
+ DIAGRAM (out of page: , into page: notation)
+draw a hand and a moving positive charge (and negative charge)
+
+
+
+
+
+
+Right Hand Rule: Hold your right hand with your four fingers together
+and your thumb pointing to the side. Point your fingers in the
+direction of the field lines, your thumb in the direction of
+the velocity . Your palm should ``push&apos;&apos; in the direction of the
+Magnetic Force, on the positive test charge. Negative test
+charges would be pushed in the opposite direction.
+ PHYS 25, Lecture 16 
+ Motion of Charged Particle in B-field, B-field of Electric Current
+pgs. 635 - 647
+sections: 21.1 - 21.7 
+
+
+ 
+
+
+
+Demo: DVD, Disc 19, tracks 1-6
+- demos: transparency, transparent compass on it. Put a magnet down,
+compass changes direction depending on where it is - sprinkly iron
+filings down, it traces field lines.
+Do transparency circuits worksheet on the transparency
+Demo: some bar magnets with N and S labeled on them.
+
+
+ 
+
+
+
+Lecture Plan:
+moving charges in a magnetic field
+The magnetic field
+Force from a magnetic field, circular motion
+force on a current, torque on a coil
+
+
+ 
+
+
+
+ 21.2 Magnetic Field, 
+Surrounding a permanent magnet or some moving charges is a Magnetic
+Field, . This is a vector field, similar to Electric Field:
+ : Electric Field - gives direction of force on any positive
+test charge. SI Unit of magnitude of : [N/C] or [V/m]
+ : Magnetic Field - gives direction that the North end of a
+``test compass&apos;&apos; would point. SI Unit of magnitude of :
+[Tesla] or [T]
+ points toward poles of nearby permanent magnets.
+- demos: transparency, transparent compass on it. Put a magnet down,
+compass changes direction depending on where it is - sprinkly iron
+filings down, it traces field lines.
+
+
+ 
+
+
+
+ 21.2 Magnetic Force, 
+The magnetic field strength and direction also gives the strength and
+direction of the force on a moving charge in the field. The magnitude
+of the force on a moving test charge in a magnetic field of
+strength is:
+
+
+ 
+
+
+where is the particle&apos;s speed, and is the angle between
+the velocity vector and the magnetic field vector.
+- The Magnetic Force is always perpendicular to both and .
+ DIAGRAM (out of page: , into page: notation)
+draw a hand and a moving positive charge (and negative charge)
+
+
+
+
+
+
+Right Hand Rule: Hold your right hand with your four fingers together
+and your thumb pointing to the side. Point your fingers in the
+direction of the field lines, your thumb in the direction of
+the velocity . Your palm should ``push&apos;&apos; in the direction of the
+Magnetic Force, on the positive test charge. Negative test
+charges would be pushed in the opposite direction.
+
+
+ 
+
+
+
+Example. At the equator, the field of the Earth is  Tesla, to the North. If a positively charged
+golf-ball falls directly down, what is the direction of the magnetic
+force on the ball?
+[East]
+NOTE: If the golf ball had been negatively charged, the answer would
+be West (the opposite of what you get for a positive charge)
+
+
+ 
+
+
+
+Example. If the ball in the previous example has a charge of  C on it, then what is the magnitude of the force
+on the ball, at the instant it is falling with speed 3 m/s,
+perpendicular to ?
+ , so , so:
+
+
+ 
+
+
+
+
+
+
+ 
+ 21.3 Circular Trajectories of charged particles in B-fields 
+- NOTE: the force is always perpendicular to the velocity, which
+should remind you of centripetal force.
+- the path of a particle in a constant magnetic field is circular.
+Recall, centripetal force is given by:
+
+
+
+ 
+
+
+
+if  degrees, then , solve for :
+
+
+
+ 
+
+
+
+stronger magnetic field yields ``tighter&apos;&apos; circular trajectories.
+lower speeds yields ``tighter&apos;&apos; circular trajectories.
+lower masses yields ``tighter&apos;&apos; circular trajectories.
+ 21.4 The Mass Spectrometer 
+ DIAGRAM a mass spectrometer, field out of page, ion source,
+detector
+
+
+
+
+
+
+
+
+
+
+
+When you singly ionize some of the particles in a gas, each individual
+particle will receive a positive charge equal to the charge of an
+electron:  Coulombs. ( )
+- the radius of the curved path of a charge is therefore
+determined by the mass and the strength of the magnetic field. By
+putting a detector at a certain distance, and varying the strength of
+the magnetic field, we can measure the mass of the individual atoms or
+molecules, using the above formula. (mass of the individual particles
+vs number of particles per mole of material = ``Mass Spectrum&apos;&apos;)
+
+ 21.5 The Force on a current in a Magnetic Field 
+ - When a straight wire is placed in a constant magnetic field, there
+is a force on this wire perpendicular to the wire and the magnetic
+field. 
+Begin with the equation for the strength of the magnetic force:
+
+
+
+ 
+
+
+where is some amount of moving charge.
+Multiply and divide by , a small change in time:
+
+
+
+ 
+
+
+where is the current, ,
+and is the distance this current travels, or the length
+of a wire, . We write:
+
+
+ 
+
+
+
+Where is the magnetic force on a current-carrying wire of length .
+- The right hand rule may be applied to find the direction of this
+force.
+ DIAGRAM of a section of a longer wire (length ) carrying
+current through a magnetic field , where the angle between the field and the current is . Show the Force and Direction!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ QUIZ 16 
+An electric power line carries a current of 1400 Amperes in a location
+where the Earth&apos;s Magnetic field is  Tesla, in a
+horizontal direction, due North. The power line is also horizontal, and
+makes an angle of with respect to the field. Determine the
+magnitude and direction of the magnetic force on a 120 meter length of
+the line.
+Answer
+
+
+
+ 
+
+
+
+Force direction on a map is out of the page, or ``vertically upwards&apos;&apos; 
+in real life.
+ 
+ 21.6 Torque on a coil - Electric Motors 
+ - When a loop of current is placed in a constant magnetic field,
+there is a torque on the loop which tends to twist it so that the loop
+normal becomes aligned with the magnetic field 
+For a coil in a constant magnetic field:
+
+
+
+ 
+
+
+
+where is the number of loops in the coil, is the current
+running through the coil, is the cross-sectional area of the coil, is the strength of the magntic field, and is the angle
+between the coil and the magnetic field.
+ DIAGRAM of a coil in a magnetic field with loops, and a
+cross-secional area , at an angle . Show the direction of .
+ - example A circular coil of one turn is made from a wire of
+length  m. There is a current of   in
+the wire. In the presence of a  Tesla magnetic field, what is
+the largest torque that this loop can experience?
+ DIAGRAM +solution:
+The maximum torque as the coil rotates will be when is at
+its maximum value of 1. This occurs when . So we
+have:
+
+
+
+ 
+
+
+
+In our case there is one turn, so . The coil is a circle and the 
+length of the wire must be its circumference, . Solve for  m. The area is then  m . So:
+
+
+
+ 
+
+
+
+ PHYS 25, Lecture 17, February 28, 2000 
+ Ampere&apos;s Law, Magnetic Materials, Levitation Trains
+21.7 - 21.10 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and they may contain
+errors and typos. Students must attend lecture to get complete notes.
+Notes to lecturer:
+- demos: The transparency coils and a power source to produce B fields
+- demos: Jumping wire demo
+
+Notes to students:
+- Ch. 21 Study Guide due today!
+
+
+
+ 
+
+
+
+Review of last lecture material:
+- when a charge moves in a magnetic field there are THREE vectors:
+
+
+
+ 
+
+
+is the Magnetic Field [Tesla] = [Newton second Coulomb meter ] is a vector quantity defined anywhere in space.
+
+
+
+ 
+
+
+is the Force due to the Magnetic Field on a test charge of .
+Units = [Newtons]
+
+
+
+ 
+
+
+is the velocity of the test charge .
+ is always perpendicular to BOTH and .
+In order to find the direction, you can use the ``Right Hand Rule # 1&apos;&apos;:
+Fingers along , thumb along , then will
+be in the direction the palm lifts for positive moving charges, and
+the opposite direction for negative moving charges.
+The magnitude of the Force of Magnetism on the moving particle is:
+
+
+ 
+
+
+where is the angle between the velocity vector and the
+magnetic field vector.
+
+
+ 
+
+
+
+ 21.3 Circular Trajectories of charged particles in B-fields 
+- NOTE: the force is always perpendicular to the velocity, which
+should remind you of centripetal force.
+- the path of a particle in a constant magnetic field is circular.
+Recall, centripetal force is given by:
+
+
+
+ 
+
+
+
+if  degrees, then , solve for :
+
+
+
+ 
+
+
+
+stronger magnetic field yields ``tighter&apos;&apos; circular trajectories.
+lower speeds yields ``tighter&apos;&apos; circular trajectories.
+lower masses yields ``tighter&apos;&apos; circular trajectories.
+
+
+ 
+
+
+
+ 21.4 The Mass Spectrometer 
+ DIAGRAM a mass spectrometer, field out of page, ion source,
+detector
+
+
+
+
+
+
+
+
+
+
+
+When you singly ionize some of the particles in a gas, each individual 
+particle will receive a positive charge equal to the charge of an
+electron:  Coulombs. ( )
+- the radius of the curved path of a charge is therefore
+determined by the mass and the strength of the magnetic field. By
+putting a detector at a certain distance, and varying the strength of
+the magnetic field, we can measure the mass of the individual atoms or
+molecules, using the above formula. (mass of the individual particles
+vs number of particles per mole of material = ``Mass Spectrum&apos;&apos;)
+
+
+ 
+
+
+
+ 21.6 Torque on a coil - Electric Motors 
+ - When a loop of current is placed in a constant magnetic field,
+there is a torque on the loop which tends to twist it so that the loop
+normal becomes aligned with the magnetic field 
+Consider for a moment a square loop in a magnetic field. Use RHR#1
+to determine the force on each wire: they are equal and opposite, so
+there is no net force on the wire, but there is a torque!
+The torque tends to turn the coil until the loop normal points in the 
+direction of the external magnetic field.
+For a coil in a constant magnetic field:
+
+
+
+ 
+
+
+
+where is the number of loops in the coil, is the current
+running through the coil, is the cross-sectional area of the coil, is the strength of the magntic field, and is the angle
+between the coil and the magnetic field.
+ DIAGRAM of a coil in a magnetic field with loops, and a
+cross-secional area , at an angle . Show the direction of .
+
+
+ 
+
+
+
+ 21.7 Currents in wires Create Magnetic Fields. 
+Up until now we have dealt with wires in the presence of external
+magnetic fields, and found the forces and torques on them. NOTE: a
+current carrying wire all by itself in the universe creates a magnetic 
+field. (moving charges create fields)
+
+
+ 
+
+
+
+ Long, Straight wire 
+A long straight wire creates its own field which goes in circles
+around the wire. The strength of the field is given by:
+
+
+
+ 
+
+
+
+where is a constant (permeability of free space = ), is the current, , and is the
+perpendicular distance from the wire.
+The direction is given by the ``Right Hand Rule # 2&apos;&apos;:
+Point your thumb in the direction the current is moving. Allow the
+tips of your fingers to bend. This is the direction of the circular field.
+- NOTE: the magnetic field strength due to a long wire carrying
+current decreases as one over the distance.
+
+
+ 
+
+
+
+ Loop of wire 
+At the center of a some circular loops of wire, the strength of the
+magnetic field is:
+
+
+
+ 
+
+
+
+where is the number of loops, is a constant
+(permeability of free space = ), is the
+current, and is the radius of the loop.
+The direction in this case can be found with the Right Hand Rule # 2.
+ A long circular coil (many many loops like above in a long row) 
+In the interior of a long coil (solenoid):
+
+
+
+ 
+
+
+
+where is a constant (permeability of free space = ), is the number of loops per meter, and is the
+current.
+- NOTE: The strength of a magnetic field in a long solenoid is
+constant throughout the interior volume.
+ 21.8 Ampere&apos;s Law 
+This is basically just a statement of the rule for magnetic field
+around a straight wire. It says that the magnetic field lines are
+closed loops which surround the current. If several wires are added
+side by side, you add the currents to get the total current, needed to make the magnetic field. Without calculus it is difficult
+to appreciate the beauty of Ampere&apos;s law. In the end, Ampere&apos;s la
+reduces to:
+
+
+
+ 
+
+
+
+which is what we had in the last section
+
+
+ 
+
+
+
+ PHYS 25, Lecture 18, March 1, 2000 
+ Review of Magnetism and Chs. 19, 20, 21
+pgs. 661 - 668 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and they may contain
+errors and typos. Students must attend lecture to get complete notes.
+Exam 2 covers:
+Ch. 19 (electric potential, capacitors and capacitance)
+Ch. 20, excluding 20.10 (ohms law, circuits, resistors, capacitors in circuits)
+Ch. 21 (magnetism)
+One 8.5x11 sheet (double-sided) may be brought to the exam
+The format will be very similar to the last exam:
+2 worked problems worth 4 points each: please show your work and box
+final answer, just like homeworks.
+17 multiple choice problems, worth 1 point each, to be answered on
+SCANTRON. Some will be conceptual questions, others will require
+work. I can provide ``scratch paper&apos;&apos; during exam if you need it.
+
+
+ 
+
+
+
+ 21.9 Magnetic Materials 
+Ferromagnetic materials: Iron, Nickel, Cobalt, Chromium Dioxide)
+Materials whose atoms or molecules tend to form with adjacent electron
+orbits parallel. Magnetic ``domains&apos;&apos; form in the material, which act
+like little magnets (0.01 to 0.1 mm in size) Aligning some of these
+domains makes the entire object like a magnet.
+Induced Magnetism: when an external magnetic field is applied, domains 
+in ferromagnetic materials realign themselves, making themselves
+magnetic. Usually this magnetism disappears when the external field
+is taken away, but sometimes in can remain (``memory&apos;&apos;) this is how
+magnetic tapes and computer hard drives work.
+
+
+ 
+
+
+
+What is the difference between a ``right-hand spiral&apos;&apos; and a
+``left-and spiral&apos;&apos;?
+A ``right-handed&apos;&apos; spiral is such that if you go clockwise, it goes
+away from you. Peanut butter jar lids are right-handed, in this
+sense. So are most screws and bolts.
+A ``left-handed&apos;&apos; spiral is such that if you go counter-clockwise, it
+goes away from you.
+Examples of problems from the book for the exam.
+ 
+ PHYS 25, Lecture 20, March 6, 2000 
+ Induced EMF, Magnetic Flux
+22.1 - 22.3 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain error and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+DEMO - levitator?
+
+
+
+ 
+
+
+
+22.1 Induced Current in a coil in a Magnetic Field
+induced emf, induced current
+changing B, changing Area of coil, or changing orientation of coil
+induces a current (the associated voltage is called induced emf)
+Any voltage which is the cause for current through a circuit is called 
+emf (historical tradition). The symbol for emf is a curly capitol E, 
+the units are Volts.
+The current through a circuit with total resistance due to an
+emf will be:
+
+
+ 
+
+
+(this is the same as with instead of .
+
+
+
+
+
+
+ 
+22.2 Moving rod in a B field
+QUIZ. Diagram: a vertical rod sitting in a Magnetic Field, which is
+out of the page. Vertical rod has a velocity to the right.
+1) Imagine the positive charges inside the rod. They will feel a
+magnetic force, since they are moving to the right along with the
+rod. Which way will this force be.
+
+
+
+
+
+
+
+
+
+
+
+2) The magnetic force will generate a current in the following circuit 
+(DIAGRAM), show the direction of this current.
+
+
+
+
+
+
+
+
+
+
+
+3) Now that there is a current in the bar, there is some magnetic
+force on the bar itself (force on a current-carrying wire in a
+magnetic field). Which way is this force? Does it oppose the
+right-ward motion of the bar or increase it?
+
+
+
+ 
+
+
+
+``Motional EMF&apos;&apos; is a voltage or potential difference across a rod
+which is moving in a magnetic field when , and are all
+perpendicular:
+
+
+ 
+
+
+where the (induced voltage across the bar) is also called the
+``Motional EMF&apos;&apos; and has units of Volts.
+ is the speed, is the
+magnitude of the magnetic field, and is the length of the
+conducting rod.
+Note that it takes WORK to make this current flow. Once the current
+flows, there is a force which opposes the motion, wanting to slow it
+down. You have to apply a steady FORCE over a DISTANCE in order to
+keep the current going. You do Mechanical Work per time, which is
+converted into Power in the resistor(s) in the circuit. (this is
+conceptual - no worked problems are associated with this idea)
+22.3 Magnetic Flux through an area, 
+
+
+
+ 
+
+
+where is the Magnetic Flux [Tesla m ] through an area ,
+and is the angle between and the normal vector to the 
+surface .
+ may be the area within a coil or loop of current. As changes, this will induce a current through the loop. (Faraday&apos;s Law)
+DIAGRAM: coil perpendicular to field, , is maximum
+coil at angle,
+coil with normal at 90 degrees, .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Graphical interpretation of Magnetic Flux:
+ the magnetic flux is proportional to the number of field lines that
+passes through a surface 
+ PHYS 25, Lecture 21, March 8, 2000 
+ Faraday&apos;s Law, Lenz&apos;s Law
+22.4, 22.5 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain error and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+22.4 Faraday&apos;s Law ``Electromagnetic Induction&apos;&apos;
+Last time we introduced as the magnetic flux through an area . If is the area of a flat loop, or coil of loops, we can
+discuss the magnetic flux through this coil.
+As changes, the rate of change determines the amount of voltage 
+induced in the coil:
+
+
+
+ 
+
+
+where is the change in magnetic flux through one loop in 
+a time , and is the number of loops in a coil.
+Why is it negative? Because the voltage causes a current in the coil
+which yields a magnetic force which opposes the motion of the coil.
+So it always takes WORK to create a current in a coil by
+electromagnetic induction.
+QUIZ:
+A uniform and constant (in time) magnetic field has a magnitude of
+0.15 T and is perpendicular to a circular loop of wire (one turn) that 
+has a radius of 0.3 m. This circle, without changing its orientation
+relative to the field, is bent into a square with sides of
+length 0.47 m, in a time interval of 0.22 seconds. Find the magnitude 
+of the emf induced in the wire (Volts).
+22.5 Lenz&apos;s Law
+ The induced current in a coil produces an ``induced magnetic field&apos;&apos;.
+This induced magnetic field opposes the original change in magnetic flux. 
+So if the field through a loop is toward the right, and is
+increasing, then the current created in the loop will be in a
+direction such that its induced magnetic field will be toward the
+left.
+Work through Example 9, pg. 685.
+ PHYS 25, Lecture 22, March 10, 2000 
+ Resonance in Circuits, Semiconductors
+23.4, 23.5 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain error and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Skip: 22.6, 22.7, 22.8, 22.9, 23.1, 23.2, 23.3
+Skip Pages 686 to 717
+23.4, Page 717 - Resonance in Electrical Circuits.
+Inductors
+Lots of loops in a long conducting slinky = Long Coil = Solenoid = Inductor
+When a constant current is being sent through a coil, it sets up a
+magnetic field inside it - no resistance (or just a
+small resistance due to the copper in the wire)
+BUT - when the current changes, the magnetic field changes, and an
+induced emf (voltage) in the wire opposes this change. This is called
+``Self-Induction&apos;&apos; or just ``inductance&apos;&apos; of the coil. Inductance is
+called , the S.I. units are [Henries] or [Ohms second]=[ ]
+Inductor : Letter: , Circuit Diagram symbol:
+Physical object: a coil or solenoid, many loops connected as a
+continuous spiral.
+
+   Resistor Capacitor Inductor letter unit [ ] = Ohm [ ] = Farad [ ] = [ ] = Henry symbol       .       .       physical object light bulb, heater, you two parallel plates a coil, solenoid 
+
+A circuit driven by an AC-generator will encounter a voltage drop across
+a solenoid.
+A circuit with an AC-generator, resistor, capacitor, and solenoid all
+in series can experience ``resonance&apos;&apos;. At resonance, the total
+impedance of AC current through the circuit greatly decreases,
+allowing a much higher current to travel through the resistor.
+Resonance frequency, :
+
+
+
+ 
+
+
+depends on the inductance of the inductor and the capacitance of the capacitor.
+This is how radio transmitors work.
+23.5 How semiconductors work (diodes, transistors)
+all conceptual
+semiconductors, doping
+microscopic explanation of:
+ -type semiconductors,
+ -type semiconductors
+How a diode works.
+- applications
+How a transistor works.
+- applications, symbol
+QUIZ: Draw the circuit on pg. 729 with 4 transistors
+1) draw the current flow when the top of the AC-generator is postive
+and the bottom is negative
+2) redraw the diagram, and draw the current flow when the bottom of
+the AC-generator is positive, and the top is negative.
+3) draw the positive and negative ends of the resistor in each case
+ PHYS 25, Lecture 23, March 20, 2000 
+ Electromagnetic Waves
+24.1 - 24.3, 24.5 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Go over quiz from last time:
+DIAGRAM: draw full-wave rectifier circuit
+(pg. 729), and current flowing in both cases:
+
+
+
+
+
+
+
+
+
+
+
+Point: CURRENT CAN ONLY FLOW ONE DIRECTION THROUGH A DIODE.
+(theoretically, it can flow in the opposite direction, but with
+extremely high resistance)
+ 
+24.1
+An alternating current in a wire, near an AC generator, creates an
+Electric Field. Perpendicular to this is a Magnetic field.
+DIAGRAM: wire near an AC generator with current going up and down:
+show E field due to charge dist.
+
+
+
+
+
+
+
+
+
+
+
+DIAGRAM: wire near an AC generator with current going up and down:
+show B field due to current flow.
+
+A wave in the Electric and Magnetic fields is called an
+``Electromagnetic Wave&apos;&apos;
+EM-Waves carry energy! (radiation heat transport discussed in Ch. 13.3)
+EM-waves can travel in a vacuum
+EM-waves are transverse waves, since the direction of the disturbances
+is perpendicular to the direction of motion.
+The speed of any electromagnetic wave in a vacuum is  m/s. (the speed of light) (light is an EM-wave)
+(transparency - EM wave emanating from wire)
+ 
+24.2
+(transparency - EM spectrum)
+NOTE: An alternating current in a wire generates an EM-wave (losing
+power this way - energy is carried away)
+- An EM-wave encountering a wire can generate an alternating current!
+- It works both ways, in the latter case the EM-wave is transferring
+its energy to the wire (the wire is absorbing radiation)
+for a typical AM radio signal passing a wire, the current generated
+would normally be VERY VERY low. But consider the following circuit:
+DIAGRAM RCL circuit. - resonance frequency:
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How AM Radio in lab works:
+http://astro.sci.uop.edu/ harlow/amradio.html
+
+- for any EM-Wave,
+
+
+ 
+
+
+where m/s.
+In a medium such as air, or water, the speed of light is slightly less than this. Usually - the thicker the medium, the slower is .
+Also, usually, the shorter the wavelength of the light, the slower is . (this wavelength-dependence of the speed leads to prisms,
+rainbows, etc)
+ 
+QUIZ.
+1) The wavelength of visible light is near 500 nanometers. Find the
+frequency of the variations in the EM-field due to visible light (Hz).
+2) How many km does light travel in one second?
+3) How many times around the Earth would light be able to travel in
+one second? (Note that the radius of the Earth is 6380 km)
+ 
+24.5
+The Doppler Effect.
+When a source of light is moving relative to an observer, the
+frequency (and wavelength) of the observed light change. The new
+frequency is given (in 1-D) by:
+
+
+
+ 
+
+
+
+ approaching 
+ receding 
+where is the observed frequency, is the emitted, or rest
+frequency. is the speed of light (wave speed) and is the
+relative speed of the observer and light source. The plus sign is
+used if when the observer and source are moving toward one another.
+The minus sign is used when they are moving apart.
+- this formula works in 1-D only - is actually the component of
+the velocity along the line of sight
+- is the rate of change of distance between the observer and
+source (the distance the light has to travel)
+- this formula works only when (much much less than). If becomes very large (significant fraction of ) all Physics changes
+because we have to use Special Relativity (Einstein, Ch.28)
+
+ example like Example 6, Ch. 24.
+A police car is parked on the side of the road, and emits a radio
+signal with a frequency of  Hz. The radio signal 
+bounces off an approaching car, and is received back at the police
+car. The signal has increased in frequency by 2100 Hz. What is the
+speed of the car?
+ Solution Note that the distance the radio wave (light) travels
+is TWO TIMES the distance between the stopped police car and the
+moving car. So if the car moves 1 meter closer, the light travels 2 fewer
+meters.
+So for a reflection or echo, the formula for Doppler shift becomes:
+
+
+
+ 
+
+
+
+in our case, the car is approaching, so we have:
+
+
+
+ 
+
+
+
+solving for :
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+(is he speeding?
+
+
+ 
+
+
+
+
+
+ 
+
+
+YES!! Ticket time!)
+ PHYS 25, Lecture 24, March 22, 2000 
+ The Reflection of Light: Mirrors
+25.1 - 25.3 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+The Doppler Effect (review)
+When a source of light is moving relative to an observer, the
+frequency (and wavelength) of the observed light change. The new
+frequency is given (in 1-D) by:
+
+
+
+ 
+
+
+
+ approaching 
+ receding 
+ example like Example 6, Ch. 24.
+A police car is parked on the side of the road, and emits a radio
+signal with a frequency of  Hz. The radio signal 
+bounces off an approaching car, and is received back at the police
+car. The signal has increased in frequency by 2100 Hz. What is the
+speed of the car?
+ Solution Note that the distance the radio wave (light) travels
+is TWO TIMES the distance between the stopped police car and the
+moving car. So if the car moves 1 meter closer, the light travels 2 fewer
+meters.
+So for a reflection or echo, the formula for Doppler shift becomes:
+
+
+
+ 
+
+
+
+in our case, the car is approaching, so we have:
+
+
+
+ 
+
+
+
+solving for :
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+(is he speeding?
+
+
+ 
+
+
+
+
+
+ 
+
+
+YES!! Ticket time!)
+ 
+25.1 Wave Fronts and Rays
+surface of constant phase = wave front.
+light-rays are perpendicular to wave fronts, and show the direction
+the light travels.
+DIAGRAM spherical wave-fronts around a point wave source, radial rays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIAGRAM plane wave-fronts, parallel rays.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+** we will deal with light-rays in order to understand optics of
+mirrors and lenses.
+25.2 Reflection of light.
+Law of reflection (always true)
+
+
+
+ 
+
+
+
+DIAGRAM: incident ray, reflected ray.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+difference between specular reflection, diffuse reflection
+DIAGRAM: specular, diffuse reflection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QUIZ #22 (sketch light rays)
+25.3 Formation of images with a mirror.
+DEMO: whistler&apos;s ``Ghost&apos;&apos; or something... (candle in the beaker)
+Notes:
+An observer looks at the reflection of an object in a mirror. The
+observer sees an ``image&apos;&apos; of the original object. The image is not a
+physical entity, but we may treat it as such in order to describe what
+we see. This image has the following properties:
+1. The image has the same size as the original object.
+2. The image is the same distance behind the mirror as the
+original object is in front of the mirror.
+3. The image will appear reversed front-to-back compared to the
+original object. (this gives the impression of a left-to-right reversal
+for humans in a mirror)
+Example 1 from Ch. 25
+Looking at self in mirror.
+Q: what is the minimum height of a mirror needed in order to see your
+entire self?
+DIAGRAM - person in front of mirror
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer: half of person&apos;s height
+ PHYS 25, Lecture 24, March 22, 2000 
+ The Reflection of Light: Mirrors
+25.1 - 25.3 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+The Doppler Effect (review)
+When a source of light is moving relative to an observer, the
+frequency (and wavelength) of the observed light change. The new
+frequency is given (in 1-D) by:
+
+
+
+ 
+
+
+
+ approaching 
+ receding 
+ example like Example 6, Ch. 24.
+A police car is parked on the side of the road, and emits a radio
+signal with a frequency of  Hz. The radio signal 
+bounces off an approaching car, and is received back at the police
+car. The signal has increased in frequency by 2100 Hz. What is the
+speed of the car?
+ Solution Note that the distance the radio wave (light) travels
+is TWO TIMES the distance between the stopped police car and the
+moving car. So if the car moves 1 meter closer, the light travels 2 fewer
+meters.
+So for a reflection or echo, the formula for Doppler shift becomes:
+
+
+
+ 
+
+
+
+in our case, the car is approaching, so we have:
+
+
+
+ 
+
+
+
+solving for :
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+(is he speeding?
+
+
+ 
+
+
+
+
+
+ 
+
+
+YES!! Ticket time!)
+ 
+25.1 Wave Fronts and Rays
+surface of constant phase = wave front.
+light-rays are perpendicular to wave fronts, and show the direction
+the light travels.
+DIAGRAM spherical wave-fronts around a point wave source, radial rays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIAGRAM plane wave-fronts, parallel rays.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+** we will deal with light-rays in order to understand optics of
+mirrors and lenses.
+25.2 Reflection of light.
+Law of reflection (always true)
+
+
+
+ 
+
+
+
+DIAGRAM: incident ray, reflected ray.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+difference between specular reflection, diffuse reflection
+DIAGRAM: specular, diffuse reflection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QUIZ #22 (sketch light rays)
+25.3 Formation of images with a mirror.
+DEMO: whistler&apos;s ``Ghost&apos;&apos; or something... (candle in the beaker)
+Notes:
+An observer looks at the reflection of an object in a mirror. The
+observer sees an ``image&apos;&apos; of the original object. The image is not a
+physical entity, but we may treat it as such in order to describe what
+we see. This image has the following properties:
+1. The image has the same size as the original object.
+2. The image is the same distance behind the mirror as the
+original object is in front of the mirror.
+3. The image will appear reversed front-to-back compared to the
+original object. (this gives the impression of a left-to-right reversal
+for humans in a mirror)
+Example 1 from Ch. 25
+Looking at self in mirror.
+Q: what is the minimum height of a mirror needed in order to see your
+entire self?
+DIAGRAM - person in front of mirror
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer: half of person&apos;s height
+ PHYS 25, Lecture 25, March 24, 2000 
+ Index of Refraction, Snell&apos;s Law, Total Internal Reflection
+26.1 - 26.3 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Exam 3 in one week! Covers Ch. 22 - 26. (same format as previous two 
+exams)
+Study Guide 12 (Ch 24, 25) should be done today.
+Complete before Friday next week Chapter 26 Study Guide:
+Ch. 26: Q 2-4, 6-9, 13, 14, 16-18, 23, 24, 26, 27
+Pr. 1-3, 5-14, 16, 17, 24-26, 41, 43, 46
+
+
+ 
+hand around Yoda/Vader box.
+DIAGRAM: half of yoda&apos;s head, up against mirror. Law of reflection
+causes image - same size, same distance on other side of mirror, and
+reversed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Law of Reflection - always applies at the microscopic level.
+For practical applications, law of reflection only applies to specular reflection , ie. MIRRORS
+For all other objects, light rays can reflect at any random angle.
+This is diffuse refluection . The cause is that at the
+microscopic level the surface is not smooth. (Whiteboard is example,
+or any other object such as professor).
+When you see an object (that is not glowing), there is always some light 
+source providing light rays which REFLECT off that object, then end up 
+in your eye.
+Go over Quiz. - draw the ray in each case.
+DIAGRAM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NOTE: When a dentist moves a light over a patient&apos;s mouth, those light 
+rays are all focussed onto the mouth, and they then reflect off the
+mouth and teeth and back up into the dentist&apos;s eye, so the dentist can 
+see the teeth.
+
+
+ 
+QUIZ 23 - Using the Law of Reflection
+The drawing shows two perpendicular mirrors, one along the -axis,
+and one along the -axis. A ray comes in with a direction , where is measured counter-clockwise from
+the positive -direction. Sketch the double-reflection of this ray
+off both mirrors, and find the direction of the final ray ( ).
+DIAGRAM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 26.1 The Index of Refraction
+In materials, the speed that light travels is slower than it is in a
+vacuum.
+
+
+
+ 
+
+
+
+where is speed of light in material [m/s], is speed of light in
+vacuum [m/s], and is the index of refraction [dimensionless]
+Every type of transparent material has an index of refraction (for a
+particular frequency of light - note, index of refraction generally
+goes up as light frequency goes up - this is why rainbows and prisms
+happen)
+examples: Air: , water: , diamond: .
+
+
+ 26.2 Snell&apos;s Law of Refraction.
+Light rays change direction due to reflection or refraction.
+Reflection: Light bouncing off a surface.
+Refraction: Light going from one medium into another, and bending it&apos;s 
+path.
+DIAGRAM: Wave-fronts going from . , causes change in ray
+path, if ray is to be perpendicular to wave fronts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Snell&apos;s Law
+
+
+
+ 
+
+
+
+ = index of refraction of material 1
+ = angle with respect to normal in material 1
+ = index of refraction of material 2
+ = angle with respect to normal in material 2
+DIAGRAM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Example
+A light ray in the air strikes the surface of the water at an angle of 
+46 relative to the normal of the water surface. At what angle 
+to the surface does the ray have inside the water?
+
+
+ 
+
+
+set 1 = air, 2 = water
+solve for 
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+DIAGRAM
+
+
+
+
+
+
+
+
+
+Example
+A light ray in the water strikes the surface of the water at an angle of 
+32.7 relative to the normal of the water surface. At what angle 
+to the surface does the ray have when it travels out into the air?
+
+
+ 
+
+
+set 1 = air, 2 = water
+solve for 
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+DIAGRAM
+
+
+
+
+
+
+
+
+
+
+
+ 
+DEMO: laser in tray of water, showing refraction.
+
+
+ 
+26.3
+When light travels from higher to lower index of refraction, the
+refracted ray bends away from the normal. It can only bend to a 
+maximum of 90 deg away from the normal, or it would not pass through
+to the other side. The angle inside the higher material at which
+the in the lower material goes to 90 degrees is called 
+the critical angle.
+When the angle of incidence exceeds the critical angle, all light is
+reflected back into the higher material - ``Total Internal
+Reflection&apos;&apos; The critical angle, , is given by:
+
+
+
+ 
+
+
+
+ PHYS 25, Lecture 26, March 27, 2000 
+ Prisms, Lenses
+26.5 - 26.6 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Go over quiz:
+A Light Ray reflecting off two perpendicular surfaces returns back in
+the same direction (180 degree turn). This is true in 3-D for the
+corner of a cube. Light always is reflected straight back, exactly in
+opposite direction from which it came. - safety reflectors on bikes
+or cars are often made of tiny cube corners, reflecting headlights
+directly back to the driver.
+
+
+ 
+Exam 3 is scheduled to be held in class this Friday. Students have
+told me this is on the same day as a big OCHEM test.
+Class VOTE: Would it be much better for you to have Exam 3 on Monday
+instead of Friday? In this case, I would have to begin lecturing
+about Exam 4 material on Friday, which is out of sequence.
+A) I STRONGLY would like the exam to be held on Monday, and will still 
+attend Friday&apos;s lecture.
+B) I don&apos;t really care which day the Exam is held.
+C) I would much prefer the Exam to be held on Friday, as scheduled.
+
+
+ 
+TRANSPARENCIES Fig 26-2, 26-5, 26-10
+
+
+ 
+NOTE: The refraction of light depends on two refractive indices.
+Example:
+A beam of light exits a block of ice sitting on land. Inside the ice,
+the ray has an angle of 10 degrees relative to the surface of the ice.
+DIAGRAM.
+
+
+
+
+
+
+
+
+
+a) Will the ray exit the ice into the air? If so, at what angle.
+b) Same question, but now the block of ice is immersed in water.
+Answer: Note first that degrees, since MUST be
+measured relative to the surface normal, not to the surface.
+ , , 
+So going from ice to air, index DROPS, so there is a chance of total
+internal reflection. Check critical angle:
+
+ 
+ (5)   (6) (7) 
+ 
+
+
+
+Since , Total internal reflection does happen.
+NOTE:
+Total Internal reflection happens when Angle of incidence is GREATER
+than critical angle. (in this case, 80 49.8)
+b) when the block is immersed in water, it is going from lower to
+higher index of refraction, so there is no chance of total internal
+reflection.
+Snells law gives refracted angle:
+
+ 
+ (8) (9)   (10) 
+ 
+
+
+
+POINT: Refraction depends on two indices of refraction. A diamond
+does not look as good under water.
+
+
+ 
+QUIZ 24
+- conceptual questions 2, 3 from pg. 820.
+1. two transparent slabs are made from different types of glass.
+Light rays, originally and finally in air, penetrate the slabs as
+shown. Which type of glass has a greater index of refraction? Why?
+DIAGRAM
+
+
+
+
+
+
+
+
+
+
+
+2. two transparent slabs are made from the same type of glass, but are
+immersed in two different fluids. Light rays, originally and finally
+in the fluid, penetrate the slabs as shown. Which liquid has a
+greater index of refraction? Why?
+DIAGRAM
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+26.5, index of refraction depends on wavelength of light.
+for most materials, increases slightly as the wavelength of the
+light decreases (frequency increases). So a white beam of light will
+be separated into its component colors - dispersion. 
+ie, in crown glass for red light (  nm)
+ for blue light (  nm)
+DIAGRAM:
+ray passing through triangle of glass, immersed in air:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEMO with prism
+
+
+ 
+26.6 Lenses
+DIAGRAM
+Analogy of lenses to triangles and prisms.
+converging, diverging lenses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+focal point, focal length
+The focal point, , is the point at which rays converge on one side of a
+lens, when parallel rays exist on the other side of the lens.
+The focal length, , is the distance between the and the center
+of a thin lens.
+FIGURE 26.25, different shapes for diverging and converging lenses.
+University of the Pacific Physics Quiz
+PHYS 25 - General Physics II March 29, 2000
+
+
+ Quiz 25 
+
+
+
+
+
+
+
+
+
+This quiz has questions which are similar to those that will be asked
+in the ``Conceptual Multiple Choice&apos;&apos; part of Exam 3. You will be
+asked to circle the letter of the best answer. The second part of
+Exam 3 will include ``Worked Problems&apos;&apos; for which you must clearly
+show your work.
+
+
+
+
+
+
+1. A conducting loop of wire is placed in a magnetic field that is
+normal to the plane of the loop. Which one of the following actions
+will not result in an induced current in the loop?
+A. Rotate the loop about an axis that is parallel to the field and
+passes trough the center of the loop.
+B. Increase the strength of the magnetic field.
+C. Decrease the area of the loop.
+D. Decrease the strength of the magnetic field.
+E. Rotate the loop about an axis that is perpendicular to the field
+and passes through the center of the loop.
+
+
+
+
+
+
+2. Which one of the following phrases most accurately describes the
+term wave front ?
+A. the surface of a plane mirror
+B. the surface of a convex mirror
+C. a surface upon which a wave front is incident
+D. a surface of constant phase within a wave
+E. a surface that is parallel to the direction of wave propagation
+
+
+
+
+
+
+3. Complete the following sentence: The various colors of visible
+light differ in
+A. frequency only.
+B. wavelength only.
+C. their speeds in a vacuum.
+D. frequency and wavelength.
+E. frequency and their speed in a vacuum.
+ PHYS 25, Lecture 31, April 7, 2000 
+ Special Relativity
+28.1 - 28.3 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Hand Out Conceptual Answers!!
+
+
+ 
+
+
+
+Review: The grating equation:
+
+
+
+ 
+
+
+
+where is the order number, is the wavelength and is
+the distance between adjacent slits. (slits MUST all be equally spaced)
+If , then , which does not depend on wavelength. So
+all wavelengths of light the light passes directly through the
+grating. ``zeroth order image&apos;&apos;
+If , then . In this case, the angle depends on the wavelength
+of the light. There are two ``first order spectra&apos;&apos;.
+If , then . There are two ``second order spectra&apos;&apos;, which are much
+fainter than the first order spectrum. Similarly there, are orders
+for but they are progressively fainter and fainter.
+
+
+ 
+
+
+
+28.1 Special Relativity
+Sound is a wave, the ``thing&apos;&apos; that is oscillating is the air - air
+molecules vibrating.
+If there is an 80 km/hr wind blowing toward the East, sound travels
+that much faster toward the East than toward the West. By measuring
+the speed of sound, we can measure our speed relative to the air.
+(or if we drive in a car at 80 km/hr when there is no wind, we will
+measure sound coming from behind as slower than sound waves coming
+from in front.)
+Light is a wave, but what is oscillating? Light travels through a
+vacuum, where only the Electric and Magnetic field exist.
+
+If we travel very fast, will we measure a change in the speed of
+light? Michelson and Morley (1891) tried to measure the difference
+between the speed of light East and West for different times of day.
+Since the Earth is orbiting the Sun at 30 km/s, they expected to see
+changes in the speed of light as the Earth rotated. - They found NO
+changes. The speed of light in a vacuum is ALWAYS measured to be m/s to a very high precision, and it doesn&apos;t
+depend on your speed.
+This is VERY STRANGE!
+So if I am traveling in a space ship at 0.9 times the speed of light,
+(0.9c), and a stationary person behind me shines a flashlight at me,
+and I lean out and measure the speed of that light as it passes me, I
+will measure c. Even though I am already traveling forward at 0.9 c.
+The stationary person with the flashlight also measures c! Who is
+right? What the hell is going on?
+In 1905 Albert Einstein published the special theory of relativity,
+which explains it all by giving up our fixed ideas of time and space.
+
+
+ 
+
+
+
+28.2 The Postulates of Special Relativity
+All of special relativity is based on two assumptions:
+1) All the laws of physics are the same in every intertial reference
+frame.
+(in other words, constant velocity is relative. No one can same ``I
+am stationary, you are moving&apos;&apos;, because relative according to the
+other guy, he could say ``I am stationary, you are moving&apos;&apos;.)
+2) The speed of light in a vacuum is measured to be in any
+inertial reference frame.
+RECALL (PHYS 23): An inertial frame is one that is not accelerating or
+rotating. Newton&apos;s Laws apply in inertial frames. A frame that is
+moving at a constant velocity relative to an inertial frame is also an
+inertial frame.
+From 1) and 2), all the properties of Special Relativity can be
+derived (including ).
+
+
+ 
+
+
+
+28.3 Time Dilation
+(kind of like pupil dilation - it ``gets bigger&apos;&apos; or stretched out for
+the moving observer)
+The Light Clock. Two mirrors with a short beam of light bouncing
+between them. Every time the light beam bounces off a mirror, it is a
+``tick&apos;&apos;, and you can keep time this way.
+
+QUIZ 28
+1. Two mirrors are 1 m apart. How long does it take light to travel
+from one to another? (this is one tick.)
+A gentleman with a light clock passes by in a bus at 0.5 c. We
+observe the light to travel from his bottom mirror up to his top
+mirror, but in this time he has moved 0.5 meters to the left.
+2. How far does the light have to travel on the bus light-clock?
+3. How long does one ``tick&apos;&apos; take for the bus light-clock?
+
+
+ 
+
+
+
+NOTE: This gentleman&apos;s clock is slow. Also, the speed of light
+determines the speed of electricity, information travel, and all
+chemical reactions. So, not only has this guy&apos;s clock slowed down,
+but all biological processes in his body, including aging, also slow
+down.
+-- the fountain of youth!!!!!
+If you can travel at high speeds, you can live longer!
+BUT, WAIT!!!!
+What does the gentleman on the bus see?
+According relativity, there is no special ``rest-frame&apos;&apos;. He may say
+that he is the one at rest and you are the one moving in the other
+direction. He sees that his light clock is working just fine. But
+when he looks at your light clock, as you whiz by in the other
+direction, he sees that your light beam appears to have further to
+travel. He thinks YOUR CLOCK IS SLOW! He thinks that you are the
+one aging more slowly!
+Who is right? You are both right!
+Time is relative!
+
+
+ 
+
+
+
+Time dilation formula (derived from light-clock example on pg 869 of
+text)
+
+
+
+ 
+
+
+
+where is the time interval between events that happen at
+the same place in a particular inertial frame.
+ is the time interval between the same events measured in
+another inertial frame in which they happen at different places.
+ the relative speed between the two frames.
+ is the speed of light in a vacuum.
+
+
+ 
+
+
+
+Example 2, Ch 28.
+Alpha Centauri is a star 4.3 light-years away. (it takes light 4.3
+years to travel there). If a rocket leaves Earth at a speed of
+0.95 , how much will the passengers have aged by the time they get
+there.
+Answer.
+According to a person on the Earth, the ship travels 4.3 light years
+at 0.95 . equals one light-year per year. So the rocket takes
+a time: = 4.3 years / 0.95 (light-years/year) = 4.5 years
+The two events in this case are 1: leaving Earth. 2: arriving at
+Alpha Centauri. In the case of people on Earth, they happen at
+different locations, so this is . In the case of the
+travelers, these events happen at the same place (just outside their
+space-ship door!!), so this is . We wish to find (the time the trip seems to take according to the travelers),
+when = 4.5 years.
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+= 1.4 years
+So if you go fast enough, you can seem to travel 4.3 light years in
+only 1.3 years! You must think you are going faster than the speed of
+light! BUT - relativity also predicts length contraction. Moving
+things seem shorter. So, in fact, as you travel towards Alpha
+Centauri, you observe the distance you need to travel to shrink. So
+you think you are going 0.95 relative to the Alpha Centauri, but it
+just seems much closer, only about 1.2 light years away, so it is
+natural that it only takes you 1.4 years to go that distance.
+ PHYS 25, Lecture 32, April 10, 2000 
+ Length Contraction, E=mc 
+28.4, 28.6 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Review: Time dilation equation:
+
+
+
+ 
+
+
+
+where is the time interval between events that happen at
+the same place in a particular inertial frame.
+ is the time interval between the same events measured in
+another inertial frame in which they happen at different places.
+ the relative speed between the two frames.
+ is the speed of light in a vacuum.
+
+
+ 
+
+
+
+NOTE: An event is something which occurs at a specific time and space
+coordinate. Like a firecracker going off, or
+
+
+ 
+
+
+
+Example (like Example 2, Ch 28.)
+Epsilon Eridani is a Sun-like star-system 11 light-years away. (it
+takes light 11 years to travel there). If a rocket leaves Earth at a
+speed of 0.99 ,
+a) How long will the trip take as measured by a person on Earth?
+b) How long will the trip take as measured by the passengers?
+Answer.
+As measured by a person on the Earth, the ship travels 11 light years
+at 0.99 . equals one light-year per year. So the rocket takes
+a time: = 11 years / 0.99 (light-years/year) = 11.1 years
+The two events in this case are 1: leaving Earth. 2: arriving at
+Alpha Centauri. As measured by the people on Earth, they happen at
+different locations, so this is . As measured by the
+travelers, these events happen at the same place (just outside their
+space-ship door!!), so this is . We wish to find (the time the trip takes as measured by the travelers),
+when = 11.1 years.
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+= 1.56 years (19 months)
+So if you go fast enough, you can seem to travel 11 light years in
+only 1.56 years! You must think you are going faster than the speed
+of light! BUT - relativity also predicts length contraction. Moving
+things seem shorter. So, in fact, as you travel towards Epsilon
+Eridani, you measure the distance you need to travel to shrink. So
+you think you are going 0.99 relative to the Epsilon Eridani, but
+it just is much closer in your reference frame, only about 1.5 light
+years away, so it is natural that it only takes you 1.5 years to go
+that distance!
+
+
+ 
+
+
+
+28.4 Length Contraction
+Moving objects are measured to be shorter along the direction of motion.
+
+
+
+ 
+
+
+
+where is the length as measured by an observer stationary
+relative to the object.
+ is the length along the direction of motion as measured by an
+observer who is moving relative to the object.
+ is the relative velocity between the observer and object.
+ is the speed of light in a vacuum.
+
+
+ 
+
+
+
+Pole in Barn Paradox
+Bob has a barn which is 5 m in length.
+Joe holds a pole which is 10 m in length (rest length), and runs
+through the barn with it at 0.95c.
+Does the pole fit into the barn?
+ Bob&apos;s frame (at rest relative to barn):
+length of moving pole is:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Yes, it should fits in as Joe runs through, since the pole is now only 
+3.1 m long, and his barn is still 5 m wide.
+ Joe&apos;s frame (at rest relative to pole):
+length of pole is still 10 m. (no change)
+However, length of moving barn is:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+No WAY! Joe still has a 10 m pole, but now he has to fit it into a
+1.56 m barn, which is completely impossible from his point of view.
+From his point of view, the front end of the pole is already through
+the short little barn long before the back end has gone in. The pole
+does NOT fit.
+Who is right? Did the pole fit into the barn or not? Bob could
+quickly close the front and back doors of the barn while Joe is in
+there, and take a picture of Joe with his pole in the barn and win the 
+bet.
+
+
+ 
+
+
+
+Other results of Special Relativity:
+- you cannot travel faster than the speed of light in a vaccuum, or
+even at it. You can only approach the speed of light.
+(this is verified every day in particle accelerators. They pump more
+and more energy into those particles and they just get closer and
+closer to the speed of light. The highest velocities attainable at
+SLAC are around 0.999999999  . But Never, ever, ever, has anyone
+measured a particle to travel at 1.01  or even . That&apos;s okay,
+since it is theoretically impossible.)
+- mass and energy are equivalent. The formula for equivalence is . (rest energy) SI Units. [Joules], [kg], [m/s]
+(this is used by the Sun to convert its mass to energy. It is also
+used in Nuclear Fission reactors, to generate electricity on Earth.
+It is also used in nuclear bombs.)
+
+
+ 
+
+
+
+QUIZ 29
+1. How many Joules of energy are stored in a cup of water sitting on
+the table? (use  kg, )
+2. A 100-Watt light bulb, left on, uses Joules of
+energy per day. How many light bulbs could be powered for one day by
+this cup of water? [3 billion]
+
+
+ 
+
+
+
+Mass is highly concentrated energy.
+Note also that if an object is moving, its total energy is:
+
+
+
+ 
+
+
+
+This is Einstein&apos;s formula for rest energy ( ) plus kinetic energy
+of an object. It approaches as approaches . This is
+why you cannot accelerate an object to speeds greater than or equal to - - it would take infinite energy!
+ PHYS 25, Lecture 33, April 12, 2000 
+ Photons, the Wave-Particle Duality
+29.1 - 29.3 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+ Chapter 28 Study Guide : Should be done by today!!
+ Chapter 29 Study Guide : Complete 
+by Monday 
+Ch. 29 Q: 1 - 6, 11 - 13
+Pr: 1 - 9, 23 - 26, 30, 33 - 35.
+NOTE: Exam next Friday, covers Ch 27, 28, 29, 30
+Interference phenomena, diffraction gratings (Ch 27)
+Special Relativity (Ch 28)
+Quantum Mechanics: light and atoms (Ch 29, 30)
+
+
+ 
+
+
+
+29.2
+Blackbody spectra: draw some. (radiation intensity per wavelength)
+[Watts per meter per nanometer nanometer]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Observed: peak intensity, falls of sharply for shorter, and falls of
+more slowly for longer wavelengths.
+Peak Intensity determined by temp - higher temp, shorter wavelength peak.
+Theoretical prediction for waves: intensity should always decrease for increasing wavelength. This implies infinite energy
+released at the shortest wavelengths. This was called the
+``Ultraviolet Catastrophe&apos;&apos;.
+Theory did not match with experiment, and, in fact, the wave theory of
+light had a serious problem of predicting infinite energy at short
+wavelengths.
+In 1900, Planck tried the following: Assume that not any energy
+could be emitted by an atom as an EM-wave, but only certain energies.
+In particular:
+
+
+
+ 
+
+
+
+where is the allowed amount of energy or absorbed from a material
+to an EM Wave. [Joules]
+ is an integer 0, 1, 2, 3, ....
+ is the frequency of the EM Wave. [Hz]
+ is the ``Planck&apos;s Constant&apos;&apos; [Joule seconds]
+Planck chose this discrete energy bundle equation, and was able to
+derive the shape of the blackbody spectrum EXACTLY! . That is
+why the blackbody spectrum is sometimes called the ``Planck
+Spectrum&apos;&apos;.
+BUT Planck was not able to describe why the EM waves could only
+give or take this amount of energy.
+
+
+ 
+
+
+
+29.3 Photons and the Photoelectric Effect
+Photoelectric Effect:
+When light is shone onto a metal, electrons can be emitted by the
+metal. The light is absorbed, thus imparting energy to the
+electrons. The electrons must first be ``lifted&apos;&apos; out of their atomic
+orbits, this takes some energy. Then, when the electrons leave the
+metal with some speed, they have some kinetic energy. (they are
+moving). Both the kinetic energy and the Work required to lift the
+electron out of its orbit come from the light.
+RESULTS:
+1. When you shine monochromatic light (one wavelength) on a metal, it
+must be above a minimum frequency (below a maximum wavelength) in
+order for electrons to be emitted. The photoelectric effect does NOT
+happen for frequencies below this cut-off.
+2. The higher the frequency, the higher the kinetic energy of the
+individual electrons.
+3. The higher the intensity of light, the higher the NUMBER of electrons
+emitted.
+EXPLANATION
+Light itself is not a wave, but a stream of photons, or
+``light-particles&apos;&apos;. Each photon has an energy of:
+
+
+
+ 
+
+
+
+where is the Plancks constant, and is the frequency of the
+light [Hz] (what does ``frequency&apos;&apos; mean for a particle??)
+Each photon has a momentum of:
+
+
+
+ 
+
+
+
+where is the Plancks constant, and is the wavenlength of
+the light [meters] (what does ``wavelength&apos;&apos; mean for a particle??)
+The frequency of an EM wave is determine by the frequencies of the
+individual photons. The intensity of the EM wave is determined by the
+number of photons per second.
+
+
+ 
+
+
+
+QUIZ 30
+A HeNe Laser Pointer shines light at 632 nm, and outputs a power of Watts into the light at this wavelength.
+1. What is the frequency of the HeNe photons? [Hz]
+2. What is the energy of each HeNe photon? [Joules]
+3. How many photons per second leave the HeNe laser? [number/second]
+
+
+ 
+
+
+
+In the Photoelectric Effect, one electron is emitted for every photon
+absorbed. But, in order for an electron to be emitted, the photon
+must have enough energy to ``lift&apos;&apos; the electron out of its orbital.
+- This explains effect 1) - a minimum frequency corresponds to a
+minimum energy of photon - the energy equal to the work of lifting a
+photon out of its orbital.
+Also, effect 2) is explained: if the photons have higher energy, the
+individual electrons they release will use the extra energy as kinetic
+energy:
+
+
+
+ 
+
+
+
+where = photon energy [Joules]
+ = kinetic energy of ejected electrons.
+ = ``work function&apos;&apos; = the amount of energy needed to lift the
+electron out of its orbital
+Also, effect 3) is also explained: since there is only one electron
+released per photon, the only way to release more electrons is to
+shine more photons - higher intensity light.
+
+
+ 
+
+
+
+BUT: Recall Young&apos;s Double Slit experiment.
+When light is shone through two slits, it interferes . This
+effect is due to the wave nature of light and the superposition of and fields at the detector. You get bright and dark fringes
+depending on the wavelength and angle. ( )
+This proves light is a wave!!!
+But we just showed that a different experiment shows that light is
+composed of particles - photons.
+The truth is, light is neither a particle or a wave. Light is light.
+The Wave-Particle Duality - the split personality of light.
+Some experiments reveal the wave-like nature of light. Some
+experiments reveal the particle-like nature of light.
+
+
+ 
+
+
+
+Next time: (Ch 29.5)
+In 1923, a silly graduate student named Louis De Broglie decided to
+try the Young&apos;s Double slit experiment with electrons.
+OBVIOUSLY there should be no interference, because electrons are
+``things&apos;&apos; - they are definitely particles and not waves.
+The result: Interference fringes - - just like the light!
+Electrons are just like light - they exhibit wave-like properties.
+The same is true for protons, neutrons, baseballs, EVERYTHING.
+Nothing is real, we are all waves in some Quantum Mechanical
+Probability function space.
+ PHYS 25, Lecture 34, April 14, 2000 
+ Matter Waves, the Heisenberg Uncertainty Principle
+29.5, 29.6 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Last Day&apos;s Quiz:
+A HeNe Laser Pointer shines light at 632 nm, and outputs a power of Watts into the light at this wavelength.
+1. 4.75 Hz
+2. 3.15 J/photon
+3. 3.17 photons/second
+Only 6 ``Gold Stars&apos;&apos; were given - perfectly correct quiz. All others
+used wrong equations or made calculator errors. Be careful! is typed 1 EXP 3 +/- 
+
+
+ 
+
+
+
+29.5
+In 1923, a graduate student named Louis De Broglie decided to
+try the Young&apos;s Double slit experiment with electrons.
+OBVIOUSLY there should be no interference, because electrons are
+``things&apos;&apos; - they are definitely particles and not waves.
+APPLET - showing result.
+individual electrons land at seemingly random places on the screen.
+But, after enough have landed, a pattern starts to emerge.
+Interference fringes - - just like the light!
+Electrons are just like light - they exhibit wave-like properties.
+The same is true for protons, neutrons, baseballs, EVERYTHING.
+The probability that an individual electron will land at a
+certain place is governed by a wave equation. As the electron
+travels, the ``probability wave&apos;&apos; spreads out, goes through both slits, and then interferes on the other side. The interference
+pattern is what we see as fringes.
+The wavelength of a moving particle is given by:
+
+
+
+ 
+
+
+
+where is the wavelength of the probability wave of the
+particle (De Broglie wavelength), = Planck&apos;s constant. = the
+particle&apos;s momentum.
+(Note, this formula also works for light, where is the momentum of
+the photon)
+
+
+ 
+
+
+
+Example
+What is the wavelength of an electron traveling at 1000 m/s?
+Answer:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Example
+What is the wavelength of a 150 gram baseball traveling at 100 km/hr?
+Answer:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+This is why baseballs do not seem to diffract around openings or past
+baseball bats. The slit-size would have to be comparable to the
+wavelength, or only nm.
+
+
+ 
+
+
+
+QUIZ 31
+1. An electron in a parallel plate capacitor speeds up as it travels
+toward the positive plate. As it is speeding up, is its De Broglie
+wavelength increasing or decreasing?
+2. An electron and a neutron travel at the same speed. Which has a
+longer De Broglie wavelength?
+
+
+ 
+
+
+
+29.6 Single-slit diffraction of particles - the Heisenberg Uncertainty
+principle.
+DIAGRAM
+slit, width , electron, momentum , .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The electron probability wave can ``diffract&apos;&apos; when it passes through
+this opening. Recall (Apr. 5 notes)
+The angle of diffraction can not be much greater than , where is given by:
+
+
+
+ 
+
+
+
+So the electron may now have a momentum which gives it a component of its velocity which causes it to go up or down by an angle .
+We don&apos;t know what the electron&apos;s momentum is after it passes through
+the slit. But we do know where the electron was - it passed through
+the slit.
+So, by going through a doorway, we learn where the electron is in the direction, but we
+lose information about the momentum in the direction. We can
+never know both to infinite precision. This is the Heisenberg
+uncertainty principle:
+
+
+
+ 
+
+
+
+where is the uncertainty (or error) in any momentum
+measurement, is the uncertainty (or error) in the position
+in this direction, and = Planck&apos;s constant.
+The product of the uncertainty in position and the uncertainty in
+momentum must always be greater than or equal to Planck&apos;s constant / 2 .
+In addition, there is a Heisenburg uncertainty principle for energy
+and time:
+
+
+
+ 
+
+
+
+where is the energy of a particle in a certain state, and is the lifetime of the particle in this state. For
+particles with very short lifetimes, their energy can never be known
+to great precision.
+
+
+ 
+
+
+
+Example
+We know the speed of an electron is 123.23 m/s 0.01 m/s. What
+is our minimum uncertainty in its position?
+Answer:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+If we know that electron&apos;s speed to a precision of 0.01 m/s, then we
+cannot measure it&apos;s position to any better than 1 cm!
+
+
+ 
+
+
+
+Example
+We know the speed of a 150 gram baseball is 123.23 m/s 0.01 m/s.
+What is our minimum uncertainty in its position?
+Answer:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+We can effectively know the speed and position of a baseball to
+arbitrary precision, without noticing quantum mechanical effects.
+ PHYS 25, Lecture 35, April 17, 2000 
+ The Atom, Electron Orbitals
+30.1 - 30.4 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Note to Instructor: DEMO: Hydrogen Lamp - hydrogen line spectrum -
+distribute diffraction gratings.
+
+
+ 
+
+
+
+30.1 - What&apos;s an atom?
+An atom is a tiny but heavy nucleus (positive charge proportional to
+number of protons) surrounded by a cloud of light electrons
+(negatively charged).
+A neutral atom has an equal number of electrons and protons.
+Almost all the mass of an atom is in the fixed nucleus
+(protons and neutrons).
+
+
+ 
+
+
+
+30.2 Line spectra of atomic Hydrogen.
+A free-floating hydrogen atom (in a gas of atomic Hydrogen, for
+example) can only emit and absorb light at certain exact frequencies
+(or wavelengths).
+These frequencies correspond to the photon energies by the formula .
+The energy of the photon emitted or absorbed is equal to the
+difference in energies between the orbitals that the electron
+``jumped&apos;&apos;
+The photon energies emitted from a hydrogen gas always obey the law:
+
+
+
+ 
+
+
+
+where is the Rydberg constant =  m , is
+Planck&apos;s constant, is the speed of light, and and are
+integers 1 or greater.
+(note, this seems to mean that the energy of a particular orbit is
+
+
+ 
+
+
+, but what is ?)
+Since , this means that the wavelength of the light
+is given by:
+
+
+
+ 
+
+
+
+If and this is called the ``Lyman Series&apos;&apos;, and
+all the wavelengths are too short to be seen with the eye:
+ultraviolet.
+If and , this is called the ``Balmer Series&apos;&apos;.
+These lines can be seen with the human eye, so they are very famous.
+NOTE: The colors of the rainbow are:
+ 
+ R 622 - 780 nm O 597 - 622 nm Y 577 - 597 nm G 492 - 577 nm B 460 - 492 nm I 440 - 460 nm V 390 - 440 nm 
+ 
+
+
+ 
+
+
+
+Quiz 32
+1. What is the wavelength, in nm, of the first Balmer line, , ? What should be its approximate color?
+2. What is and color of second Balmer line ( , )?
+3. What is and color of third Balmer line ( , )?
+4. Which (if any) of the above lines can you see in the spectrum of
+the Hydrogen lamp? (remember, when looking through the diffraction
+grating, keep ``Made in USA&apos;&apos; on the bottom; to see the spectrum, look 
+off to the left of the lamp (or right). Wavelength should increase as 
+angle away from the central ``zeroth&apos;&apos; order increases.)
+DEMO: Hydrogen Lamp - hydrogen line spectrum - compare with the one in
+the book - distribute diffraction gratings again.
+
+
+ 
+
+
+
+30.3 The Bohr Model of an Atom.
+So, electrons orbit around the nucleus, just like the planets orbit
+around the Sun, right? Right. (Sort of)
+DIAGRAM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Two problems with this:
+1) By the Heisenberg Uncertainty Principle, if we know precisely the
+momentum of the electron as it orbits the nucleus, we cannot know its
+position.
+2) If the electron really did travel in circles around the nucleus it
+would have centripetal acceleration - thereby radiating EM waves. If
+it radiated energy away like this, it would spiral in toward the
+nucleus very quickly.
+Bohr proposed (1913): The electron orbits are ``stationary states&apos;&apos;.
+Yes, the electron has momentum, just as if it was really orbiting, but
+since we can never really know its moment-to-moment position, it must
+exist only as a ``probability cloud&apos;&apos; around the nucleus, not really
+moving or accelerating. (therefore not emitting any EM waves)
+The electron only emits or absorbs a photon when it jumps between orbits ( between stationary states)
+Each state has an energy, which is determined by the properties of the 
+atom and an integer, . Only discrete values of energy are
+allowed, is the energy of the state.
+ PHYS 25, Lecture 36, April 19, 2000 
+ The Laser
+30.8, 30.9 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+30.3, 30.4 review:
+The energy of the stationary states of an atom in the Bohr model are
+labeled with an integer, . They are:
+
+
+
+ 
+
+
+
+where is an integer, 1,2,3,4...., is the atomic number, or
+number of protons in the nucleus.
+For Hydrogen, , and the constants work out to:
+
+
+
+ 
+
+
+
+This is negative energy: the electron has negative total energy when
+it is in an orbit. Higher orbits have higher energy (less
+negative). As , the total energy 
+approaches zero.
+(Transparency of Fig. 30.9)
+
+
+ 
+
+
+
+30.8 The Laser
+When an electron makes a transition between states from one with
+HIGHER energy to one with LOWER energy, it emits a photon. This can
+happen in one of two ways:
+ spontaneous emission : The electron jumps down a level for no
+apparent reason. The higher energy state may have some half-life, for
+example, and as time elapses it becomes more and more likely that the
+electron has dropped.
+ stimulated emission When a photon passes by with the exact
+amount of energy between a higher level and lower level of an
+electron, the electron may want to jump down emit a photon which
+``joins its buddy&apos;&apos; - a copy-cat photon can be emitted which has
+identical wavelength, identical direction of travel, and identical
+phase.
+1 photon goes in - stimulates the electron to drop -
+2 photons (identical) come out. - the light beam is amplified
+Light Amplified by Stimulated Emission Radiation (LASER)
+Normally, an atoms in a gas have more electrons in lower levels than
+higher levels. Stimulated emission is only effective if a large
+number of electrons are already in higher levels, ready to ``jump
+down&apos;&apos;.
+A gas in a laser has a ``population inversion&apos;&apos;, with more atoms in a
+gas have more electrons in lower levels than higher level
+DIAGRAM: laser, one end completely silvered - reflective. one end
+partially silvered, partially transparent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A photon with the right frequency which encounters an electron in the
+higher energy level will cause the atom to emit two photons (including
+the original photon). These two photons will stimulate two other
+atoms to each emit two photons - yielding 4. And so on! To keep the
+cycle going, each end of the tube is silvered so that the in phase
+photons travel back and forth between the ends, always stimulating
+more photons. One mirror is partially silvered so that the photons in
+the laser are allowed to escape.
+HeNe Lasers use the Helium energies to sustain a population inversion
+in Neon. Neon has a state 20.66 eV above the ground state which
+gathers a higher population than the state which is 18.70 eV. The
+energy difference is 1.96 eV:
+photon energy:
+
+
+
+ 
+
+
+
+wavelength:
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+(red)
+
+
+ 
+
+
+
+30.9 Medical applications of the Laser
+Laser light is: monochromatic - all the light is at one exact
+frequency or wavelength or color.
+a narrow beam - allowing for precision focussed work
+If a particular kind of tissue can absorb at this frequency, then an
+intense, sharp laser beam can be used to destroy small amounts of this
+tissue.
+For example, the cornea absorbs well at  nm, so a laser
+can be used to cleanly and precisely destroy small amounts of the
+outermost surface of the cornea without damage to underlying layers
+(such as the retina) - this is corrective eye surgery - which is why
+Weird Al Yankovich no longer wears glasses.
+
+
+
+ 
+University of the Pacific Physics Quiz
+PHYS 25 - General Physics II April 19, 2000
+
+
+ Quiz 33 
+
+
+
+
+
+
+
+
+
+This quiz has questions which may be similar to those that will be
+asked in the ``Conceptual Multiple Choice&apos;&apos; part of Exam 4. You will
+be asked to circle the letter of the best answer. The second part of
+Exam 4 will include ``Worked Problems&apos;&apos; for which you must clearly
+show your work.
+
+
+
+
+
+
+1. Light of wavelength in a vacuum strikes a lens which is
+made of glass with index of refraction 1.6. The lens has been coated
+with a film of thickness and index of refraction 1.3. For which
+condition will there be no reflection?
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+2. Which one of the following statements is a consequence of Special
+Relativity?
+A. Clocks that are moving run slower than when they are at rest.
+B. The length of a moving object is larger than it was at rest.
+C. Events occur at the same coordinates for observers in all inertial
+reference frames.
+D. Events occur at the same time for observers in all inertial
+reference frames.
+E. Energy and time are equivalent.
+
+
+
+
+
+
+3. Two electrons walk into a bar. Which bar?
+A. Arroyo&apos;s Cafe
+B. Orlie&apos;s Place
+C. Valley Brewery
+D. Stockton Joe&apos;s
+E. It&apos;s impossible to know exactly, since we know they are walking.
+ PHYS 25, Lecture 39, April 28, 2000 
+ Radioactivity, The Neutrino
+31.4 - 31.6 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Last Day&apos;s Quiz:
+1. Uranium has 92 protons.
+If it also has 143 neutrons, then the atomic mass of this isotope of
+Uranium is ( ) So, the symbol is
+
+
+ 
+
+
+
+2. After splitting, one nucleus has 56 protons, which means it is
+Barium. Also, we are told it has an atomic mass of 141. So the
+symbol is
+
+
+ 
+
+
+
+3. The number of protons and neutrons is conserved. The reaction is
+
+
+ 
+
+
+
+So means . means .
+If it has 36 protons then it must be Krypton. So the symbol is:
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+The Great Question of the Alchemists: Is it possible to turn Lead into Gold?
+YES!!!!
+How many neutrons or protons would you have to knock out of a Lead
+nucleus to change it into a Gold nucleus?
+
+
+ 
+
+
+
+protons: so . You need to knock out 3 protons.
+atomic mass (nucleons): so . You need to
+remove 11 nucleons, 3 of which are protons. So there must be 8
+neutrons released:
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+31.3 Binding Energy of a nucleus
+TRANSPARENCY
+It takes energy to break apart a nucleus.
+ (a result of Special Relativity).
+So, when breaking a nucleus apart into its constituent neutrons and
+protons, you must add energy - as you do this you add MASS.
+
+
+
+ 
+
+
+
+where is the mass defect
+ is the number of neutrons times the mass of a neutron
+(  kg)
+ is the number of protons times the mass of a proton
+(  kg)
+ is the mass of the nucleus.
+The binding energy is:
+
+
+
+ 
+
+
+
+where is the speed of light in a vacuum.
+Other useful numbers:
+mass of a proton = 1.0073 
+mass of a neutron = 1.0087 
+mass of an electron = 0.000549 
+
+
+ 
+
+
+
+EXAMPLE
+Q. Calculate the binding energy of the Gold-197 nucleus.
+A. Look it up in Appendix F, pg. 79. has an
+atomic mass of 196.966543  .
+NOTE: this is the mass of the neutral atom,
+including the 79 electrons needed to make it neutral.
+NOTE Also: the number of neutrons is 
+First calculate the mass of the nucleus:
+
+
+
+ 
+
+
+
+Then, calculate the mass defect:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+1 atomic mass unit ( ) =  kg.
+convert to kg, SI units:
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+For Gold, we found  Joules, or
+1565 MeV. Since there are 197 nucleons in this nucleus, this
+corresponds to about 7.9 MeV per nucleon. Fig. 31.6 lists the
+binding energy per nucleon for the stable nuclei.
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+QUIZ 35
+The nucleus has a mass of .
+1. Find the mass defect in .
+2. Convert to kg. (  kg/ )
+2. Find the binding energy (Joules).
+
+
+ 
+
+
+
+
+31.4 Radioactivity
+Historically, we were able to detect high energy particles long before 
+we knew what they were. It was not even recognized fully that these
+were particles, and so called ``rays&apos;&apos;. Rays from space were called
+``cosmic-rays&apos;&apos;
+Magnets have been around a long time and experiments were done to pass 
+various types of radiation through a magnetic field. 3 different
+things were observed to happen:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rays veered left ( rays )
+Rays veered right ( rays )
+Rays went straight through, with no deflection by the magnetic field 
+( rays )
+All were named after the first 3 letters of the Greek alphabet.
+Why might this happen?? RHR# 1. Q: Are positive or negative?
+Q: Beta? Q: Gamma? This is neutral!
+TRANSPARENCY Fig 31.8 - the answer.
+The three most common forms of naturally occuring, possibly harmful
+radiation are:
+1) fast-moving Helium nuclei (stripped of their electrons) 
+- these are positive `` rays&apos;&apos; or, particles!
+2) fast moving electrons (these are negative) `` rays&apos;&apos;
+3) high energy (high frequency, or very short wavelength) EM
+radiation, or photons. `` rays&apos;&apos; (neutral, no deflection in a 
+magnetic field)
+
+
+ 
+
+
+
+A nucleus can undergo decay by releasing two protons and two
+neutrons together (a Helium nucleus).
+A nucleus can undergo decay by releasing an electron. This
+happens when a neutron in the nucleus decays and becomes a proton.
+The element gets one extra proton this way, while conserving atomic
+mass number.
+A nucleus can emit energy by changing its internal energy ``state&apos;&apos;.
+When this happens, a very high energy photon is usually released - in
+the MeV range - or picometer wavelength. (  m) Such a
+photon exists in the Gamma part of the EM spectrum (shortest
+wavelength, even shorter than X-ray)
+
+
+ 
+
+
+
+Note that associated every particle has a corresponding
+``anti-particle&apos;&apos;. This is a particle with the same mass, but in
+every other way is completely opposite to the original particle. This
+is anti-matter.
+For example, an anti-proton has negative charge. An anti-electron has 
+positive charge (equal to that of a proton). Anti-electrons have a
+special name: positrons. (since they are positive)
+When an electron is emitted (classic decay), this is often
+called decay, since the emitted particle is negative.
+When a positron is emitted, this is called decay (same mass 
+particle is emitted, but opposite charge)
+
+
+ 
+
+
+
+Electrons and neutrinos are a kind of particle called ``leptons&apos;&apos;.
+Protons and Neutrons are a different kind of particle, called
+``baryons&apos;&apos;. When a nuclear reaction occurs, baryon number and lepton
+number must both be conserved. When a neutron decays into a proton,
+it emits an electron. This is creation of a lepton, so an anti-lepton
+must also be created in order to conserve lepton number. The
+anti-lepton in this case is an anti-neutrino. In decay, a
+regular neutrino is usually emitted, in order to conserve lepton number.
+ PHYS 25, Lecture 40, May 1, 2000 
+ Radioactive Dating
+31.7 - 31.9 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Last Day&apos;s Quiz:
+
+
+ 
+
+
+
+31.5: The Neutrino
+Some important particles:
+
+ name symbol mass charge lepton number     ( ) ( )   proton neutron electron neutrino 
+
+The corresponding Anti-particles:
+
+ name symbol mass charge lepton number     ( ) ( )   anti-proton anti-neutron positron anti-neutrino 
+
+There are two main types of particles:
+Hadrons (proton and neutron are examples)
+Leptons (electron, neutrino are examples)
+(the photon is neither, it is in its own class)
+In a nuclear reaction mass/energy must be conserved, and charge must
+be conserved. In addition, lepton number must also be 
+conserved.
+When a neutron beta decays to a proton, an electron is also created,
+in order to conserve charge. In order to conserve lepton
+number, a neutral ANTI-Lepton is created: an anti-neutrino
+The reaction is:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+31.6, 31.7 - Radioactivity and Radioactive Dating
+An individual nucleus that is unstable to decay may spontaneously
+decay (emit a particle) at any random time.
+In a sample with many millions of atoms will have some rate of decays, 
+or ``activity&apos;&apos;:
+
+
+
+ 
+
+
+
+the S.I. unit of activity is the Becquerel [Bq] (1 Bq = 1 decay per second).
+ is the change in number of nuclei in the sample
+ is the change in time (small)
+ the total number of nuclei in the sample
+ is ``decay constant&apos;&apos; - units [ ]
+
+
+ 
+
+
+
+The decay constant is 0.693 divided by the half-life:
+
+
+
+ 
+
+
+
+The total number of nuclei in the sample will slowly decrease from its 
+initial number, (the number of nuclei at ) Two possible
+formulae can give this:
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+where . There should be a button on your calculator which
+allows you to raise to the power of any number, positive or
+negative.
+
+
+
+ 
+
+
+
+QUIZ 36:
+Whip out your calculator.
+1. What is ?
+2. What is ?
+3. What is ?
+
+
+ 
+
+
+
+Example
+ has a half-life of 3.16 minutes. At time ,
+a rock has atoms of in it.
+1. What is the activity of the rock at ?
+2. After 3.16 minutes, how many nuclei will be in 
+the rock?
+ANSWER
+1. First, use the half life to calculate . Convert to seconds:
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+The formula for activity is:
+
+
+
+ 
+
+
+
+2. The total number of atoms in the rock at time is given by:
+
+
+
+ 
+
+
+
+As expected, after one half-life has elapsed, half of the decaying
+material remains.
+ PHYS 25, Lecture 41, May 3, 2000 
+ Nuclear Fission, Harmful Radiation
+32.1 - 32.4 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Dating a Material based on its radioactivity
+
+
+
+ 
+
+
+
+where . If we can estimate the number of atoms
+of a particular isotope a sample had when it was formed ( ), and
+we can measure activity to find present day , we can solve for in the above equation as follows:
+solve for :
+
+
+
+ 
+
+
+
+take the natural logarithm ( ) of both sides. Use the fact that:
+
+
+
+ 
+
+
+
+( is the opposite function of exponentiation)
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+ is the time difference between when the sample had atoms of
+the decaying material to when it had atoms.
+
+
+ 
+
+
+
+Problem 40, Pre-Final. (not graded, due to typo - Pre-final is out of
+39)
+The activity of in a sample is 0.04 Bq. Knowing that
+the sample originally contained atoms, determine the age of the sample. (The half-life of is 5730 years).
+
+
+ 
+
+
+
+QUIZ 37
+When Mary first bought her FiestaWare Orange plate, she measured it to
+contain atoms of . Now it only
+has atoms of this nasty element. How long has she
+had the plate? (please express your answer in years or months, not
+seconds!) ( has a half-life of 5.271 yr)
+
+
+ 
+
+
+
+Geiger Counter Demo (31.9)
+The wand contains a gas-filled cylinder with a high-voltage DC wire in
+the center. When a high-energy radiation particle ( , or ) enters the cylinder, it causes atoms in the gas to be
+ionized (electrons knocked off). The electrons create current which
+feeds into a speaker, creating a ``click&apos;&apos;.
+This can be used to measure Bq of a source.
+
+
+ 
+
+
+
+Ch. 32 up to 32.4
+Just as in a geiger counter, a high-energy particle can ionize many
+other particles when it is absorbed. Molecules can be ionized, and
+their structure can be altered. If enough molecules in a cell are
+changed by a radiation particle, it can kill the cell.
+Amount of radiation absorbed is measured in either charge/mass
+(roentgen), or energy/mass (gray, or ``rad&apos;&apos;). The formulae are:
+
+
+
+ 
+
+
+
+where is charge in Coulombs and is the mass of the sample in
+kg.
+or
+
+
+
+ 
+
+
+
+To convert to rad, .
+Also, there is a measure of radiation which specifically gives how
+much damage can be caused to human skin tissue:
+
+
+
+ 
+
+
+
+One human absorbing one roentgen of ionizing radiation has received
+approximately one rem (Roentgen Equivalent Man).
+You should probably not absorb more than about 1/2 a rem per year, to
+stay healthy.
+
+
+ 
+
+
+
+Radiation is all around you.
+The important ones:
+Radon. ( 200 milli-rem per year)
+Radon is a gas which is released naturally by the Uranium in
+the Earth&apos;s soil. It has a half-life of 3.83 days. It decays, which is not important if it is out in the air. particles don&apos;t travel very far. But if you inhale radon, and it is
+in your lung when it decays, that particle, and the
+radioactive nuclei left behind by the original Radon nucleus do
+serious damage to your lung and blood cells.
+We always breath Radon.
+Natural and Man-made sources of radiation which always surround us.
+( 100 milli-rem per year)
+Dental X-rays X-rays are high energy photons ( particles) They
+can be ionizing in human tissue, causing radiation damage. ( 40
+milli-rem per year)
+Cosmic Rays. Absorbed by the atmosphere and deflected by the global
+magnetic field of the Earth. When you travel in an airplane it
+radiation levels go up significantly. Space travel is very hazardous
+for this reason. ( 30
+milli-rem per year)
+Long term effects: Cancer, general degradation of DNA in cells.
+ PHYS 25, Lecture 42, May 5, 2000 
+ Nuclear Fusion, Elementary Particles
+32.5 - 32.6 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+RBE = Relative Biological Effectiveness.
+Different types of radiation can do different amounts of bad damage to 
+human tissue when absorbed. This is measured by RBE. By definition,
+200 keV X-rays have an RBE=1. Also, -rays and -rays
+(electrons) have RBE of about 1. Protons and particles can
+do a lot more damage to your cells, so their RBE values are up around
+10-20.
+You calculate biologically equivalent dose (in rems) from the
+radiation Energy absorbed, dose (in rad) times RBE.
+Recall
+1 rad = 0.01 Joule/kg absorbed
+biologically equivalent dose [rem] = dose [rad] RBE
+
+
+ 
+
+
+
+Example - Problem 7, Ch. 32, pg. 998
+
+32.2 Nuclear Reactions (already discussed)
+nucleon number is conserved
+charge is conserved
+lepton number is conserved
+ 
+There is a new notation for this, which is shorthand. You write:
+First Nucleus ( added particle, created particle ) Final Nucleus.
+For example,
+
+
+
+ 
+
+
+
+is written:
+
+
+
+ 
+
+
+
+since (an particle) is added, and a proton is
+produced.
+
+
+ 
+
+
+
+QUIZ 38.
+1. Write down the shorthand notation for
+
+
+
+ 
+
+
+
+2. What is the nucleon number in the reaction:
+
+
+
+ 
+
+
+
+3. Complete the following reaction:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+32.3 Nuclear Fission (splitting one big nucleus into two smaller)
+If you bombard a nucleus with a neutron, it
+instantly becomes unstable to many decays, such as:
+
+
+
+ 
+
+
+
+(check that this works)
+
+
+
+
+
+
+
+
+
+
+
+the that is released carries ENERGY or HEAT.
+the neutrons that are released can collide with other nuclei, setting off a chain reaction. This is called a nuclear
+fission bomb - very dangerous. But it must be started by a focused
+flux of neutrons - you can&apos;t accidentally set off a nuclear bomb.
+By controlling the input of neutrons, you can carefully stabilize the
+fission reaction - this is a nuclear reactor - power plant.
+Energy is produced, since mass is lost. This creates heat, which
+boils water and turns a turbine. This turbine is connected to a
+magnet near some coils, and uses Electromagnetic Induction to create
+AC power - electricity.
+Unfortunately, when you split Uranium you get some nasty isotopes of Barium,
+Krypton, Strontium, etc, many of which are radioactive, difficult to
+get rid of, with half-lives of thousands of years. - Radioactive
+Waste. Nuclear Fission Power is NOT very clean
+
+
+ 
+
+
+
+32.5 Nuclear Fusion (forcing together two nuclei (Hydrogen) onto one
+(Helium))
+The basic fusion reaction (simplified) is:
+
+
+
+ 
+
+
+
+It turns out that when two heavy Hydrogen nuclei form a Helium
+nucleus, the final mass is less . So energy is released in the
+form of 
+This is how the Sun works.
+We have been able to make this reaction work on Earth, but we cannot
+control it. It is the Hydrogen fusion bomb.
+If we could control it, Fusion energy would be very clean. The only
+waste product is Helium and some neutrons.
+ PHYS 25, Lecture 41, May 3, 2000 
+ Nuclear Fission, Harmful Radiation
+32.1 - 32.4 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+Dating a Material based on its radioactivity
+
+
+
+ 
+
+
+
+where . If we can estimate the number of atoms
+of a particular isotope a sample had when it was formed ( ), and
+we can measure activity to find present day , we can solve for in the above equation as follows:
+solve for :
+
+
+
+ 
+
+
+
+take the natural logarithm ( ) of both sides. Use the fact that:
+
+
+
+ 
+
+
+
+( is the opposite function of exponentiation)
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+ is the time difference between when the sample had atoms of
+the decaying material to when it had atoms.
+
+
+ 
+
+
+
+Problem 40, Pre-Final. (not graded, due to typo - Pre-final is out of
+39)
+The activity of in a sample is 0.04 Bq. Knowing that
+the sample originally contained atoms, determine the age of the sample. (The half-life of is 5730 years).
+
+
+ 
+
+
+
+QUIZ 37
+When Mary first bought her FiestaWare Orange plate, she measured it to
+contain atoms of . Now it only
+has atoms of this nasty element. How long has she
+had the plate? (please express your answer in years or months, not
+seconds!) ( has a half-life of 5.271 yr)
+
+
+ 
+
+
+
+Geiger Counter Demo (31.9)
+The wand contains a gas-filled cylinder with a high-voltage DC wire in
+the center. When a high-energy radiation particle ( , or ) enters the cylinder, it causes atoms in the gas to be
+ionized (electrons knocked off). The electrons create current which
+feeds into a speaker, creating a ``click&apos;&apos;.
+This can be used to measure Bq of a source.
+
+
+ 
+
+
+
+Ch. 32 up to 32.4
+Just as in a geiger counter, a high-energy particle can ionize many
+other particles when it is absorbed. Molecules can be ionized, and
+their structure can be altered. If enough molecules in a cell are
+changed by a radiation particle, it can kill the cell.
+Amount of radiation absorbed is measured in either charge/mass
+(roentgen), or energy/mass (gray, or ``rad&apos;&apos;). The formulae are:
+
+
+
+ 
+
+
+
+where is charge in Coulombs and is the mass of the sample in
+kg.
+or
+
+
+
+ 
+
+
+
+To convert to rad, .
+Also, there is a measure of radiation which specifically gives how
+much damage can be caused to human skin tissue:
+
+
+
+ 
+
+
+
+One human absorbing one roentgen of ionizing radiation has received
+approximately one rem (Roentgen Equivalent Man).
+You should probably not absorb more than about 1/2 a rem per year, to
+stay healthy.
+
+
+ 
+
+
+
+Radiation is all around you.
+The important ones:
+Radon. ( 200 milli-rem per year)
+Radon is a gas which is released naturally by the Uranium in
+the Earth&apos;s soil. It has a half-life of 3.83 days. It decays, which is not important if it is out in the air. particles don&apos;t travel very far. But if you inhale radon, and it is
+in your lung when it decays, that particle, and the
+radioactive nuclei left behind by the original Radon nucleus do
+serious damage to your lung and blood cells.
+We always breath Radon.
+Natural and Man-made sources of radiation which always surround us.
+( 100 milli-rem per year)
+Dental X-rays X-rays are high energy photons ( particles) They
+can be ionizing in human tissue, causing radiation damage. ( 40
+milli-rem per year)
+Cosmic Rays. Absorbed by the atmosphere and deflected by the global
+magnetic field of the Earth. When you travel in an airplane it
+radiation levels go up significantly. Space travel is very hazardous
+for this reason. ( 30
+milli-rem per year)
+Long term effects: Cancer, general degradation of DNA in cells.
+ PHYS 25, Lecture 42, May 5, 2000 
+ Nuclear Fusion, Elementary Particles
+32.5 - 32.6 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+RBE = Relative Biological Effectiveness.
+Different types of radiation can do different amounts of bad damage to 
+human tissue when absorbed. This is measured by RBE. By definition,
+200 keV X-rays have an RBE=1. Also, -rays and -rays
+(electrons) have RBE of about 1. Protons and particles can
+do a lot more damage to your cells, so their RBE values are up around
+10-20.
+You calculate biologically equivalent dose (in rems) from the
+radiation Energy absorbed, dose (in rad) times RBE.
+Recall
+1 rad = 0.01 Joule/kg absorbed
+biologically equivalent dose [rem] = dose [rad] RBE
+
+
+ 
+
+
+
+Example - Problem 7, Ch. 32, pg. 998
+
+32.2 Nuclear Reactions (already discussed)
+nucleon number is conserved
+charge is conserved
+lepton number is conserved
+ 
+There is a new notation for this, which is shorthand. You write:
+First Nucleus ( added particle, created particle ) Final Nucleus.
+For example,
+
+
+
+ 
+
+
+
+is written:
+
+
+
+ 
+
+
+
+since (an particle) is added, and a proton is
+produced.
+
+
+ 
+
+
+
+QUIZ 38.
+1. Write down the shorthand notation for
+
+
+
+ 
+
+
+
+2. What is the nucleon number in the reaction:
+
+
+
+ 
+
+
+
+3. Complete the following reaction:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+32.3 Nuclear Fission (splitting one big nucleus into two smaller)
+If you bombard a nucleus with a neutron, it
+instantly becomes unstable to many decays, such as:
+
+
+
+ 
+
+
+
+(check that this works)
+
+
+
+
+
+
+
+
+
+
+
+the that is released carries ENERGY or HEAT.
+the neutrons that are released can collide with other nuclei, setting off a chain reaction. This is called a nuclear
+fission bomb - very dangerous. But it must be started by a focused
+flux of neutrons - you can&apos;t accidentally set off a nuclear bomb.
+By controlling the input of neutrons, you can carefully stabilize the
+fission reaction - this is a nuclear reactor - power plant.
+Energy is produced, since mass is lost. This creates heat, which
+boils water and turns a turbine. This turbine is connected to a
+magnet near some coils, and uses Electromagnetic Induction to create
+AC power - electricity.
+Unfortunately, when you split Uranium you get some nasty isotopes of Barium,
+Krypton, Strontium, etc, many of which are radioactive, difficult to
+get rid of, with half-lives of thousands of years. - Radioactive
+Waste. Nuclear Fission Power is NOT very clean
+
+
+ 
+
+
+
+32.5 Nuclear Fusion (forcing together two nuclei (Hydrogen) onto one
+(Helium))
+The basic fusion reaction (simplified) is:
+
+
+
+ 
+
+
+
+It turns out that when two heavy Hydrogen nuclei form a Helium
+nucleus, the final mass is less . So energy is released in the
+form of 
+This is how the Sun works.
+We have been able to make this reaction work on Earth, but we cannot
+control it. It is the Hydrogen fusion bomb.
+If we could control it, Fusion energy would be very clean. The only
+waste product is Helium and some neutrons.
+ PHYS 25, Lecture 42, May 5, 2000 
+ Nuclear Fusion, Elementary Particles
+32.5 - 32.6 
+ Disclaimer: These notes are posted for the convenience of the
+students only. These notes are incomplete, and may contain errors and
+typos. Attend lecture to get complete notes.
+
+
+ 
+
+
+
+RBE = Relative Biological Effectiveness.
+Different types of radiation can do different amounts of bad damage to 
+human tissue when absorbed. This is measured by RBE. By definition,
+200 keV X-rays have an RBE=1. Also, -rays and -rays
+(electrons) have RBE of about 1. Protons and particles can
+do a lot more damage to your cells, so their RBE values are up around
+10-20.
+You calculate biologically equivalent dose (in rems) from the
+radiation Energy absorbed, dose (in rad) times RBE.
+Recall
+1 rad = 0.01 Joule/kg absorbed
+biologically equivalent dose [rem] = dose [rad] RBE
+
+
+ 
+
+
+
+Example - Problem 7, Ch. 32, pg. 998
+
+32.2 Nuclear Reactions (already discussed)
+nucleon number is conserved
+charge is conserved
+lepton number is conserved
+ 
+There is a new notation for this, which is shorthand. You write:
+First Nucleus ( added particle, created particle ) Final Nucleus.
+For example,
+
+
+
+ 
+
+
+
+is written:
+
+
+
+ 
+
+
+
+since (an particle) is added, and a proton is
+produced.
+
+
+ 
+
+
+
+QUIZ 38.
+1. Write down the shorthand notation for
+
+
+
+ 
+
+
+
+2. What is the nucleon number in the reaction:
+
+
+
+ 
+
+
+
+3. Complete the following reaction:
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+32.3 Nuclear Fission (splitting one big nucleus into two smaller)
+If you bombard a nucleus with a neutron, it
+instantly becomes unstable to many decays, such as:
+
+
+
+ 
+
+
+
+(check that this works)
+
+
+
+
+
+
+
+
+
+
+
+the that is released carries ENERGY or HEAT.
+the neutrons that are released can collide with other nuclei, setting off a chain reaction. This is called a nuclear
+fission bomb - very dangerous. But it must be started by a focused
+flux of neutrons - you can&apos;t accidentally set off a nuclear bomb.
+By controlling the input of neutrons, you can carefully stabilize the
+fission reaction - this is a nuclear reactor - power plant.
+Energy is produced, since mass is lost. This creates heat, which
+boils water and turns a turbine. This turbine is connected to a
+magnet near some coils, and uses Electromagnetic Induction to create
+AC power - electricity.
+Unfortunately, when you split Uranium you get some nasty isotopes of Barium,
+Krypton, Strontium, etc, many of which are radioactive, difficult to
+get rid of, with half-lives of thousands of years. - Radioactive
+Waste. Nuclear Fission Power is NOT very clean
+
+
+ 
+
+
+
+32.5 Nuclear Fusion (forcing together two nuclei (Hydrogen) onto one
+(Helium))
+The basic fusion reaction (simplified) is:
+
+
+
+ 
+
+
+
+It turns out that when two heavy Hydrogen nuclei form a Helium
+nucleus, the final mass is less . So energy is released in the
+form of 
+This is how the Sun works.
+We have been able to make this reaction work on Earth, but we cannot
+control it. It is the Hydrogen fusion bomb.
+If we could control it, Fusion energy would be very clean. The only
+waste product is Helium and some neutrons.
+
+ Jason J.B. Harlow
+2004-02-12
+	</body>
+</document>

@@ -1,0 +1,614 @@
+advmod(go-5, where-2)
+nsubj(go-5, it-3)
+aux(go-5, should-4)
+advcl(decide-1, go-5)
+
+dobj(use-1, tacky-puddy-2)
+det(corner-5, each-4)
+prep_on(tacky-puddy-2, corner-5)
+
+nn(poster-2, center-1)
+prep_on(poster-2, wall-4)
+
+det(level-3, a-2)
+dobj(use-1, level-3)
+aux(make-5, to-4)
+xcomp(use-1, make-5)
+acomp(make-5, sure-6)
+nsubj(straight-9, it-7)
+cop(straight-9, is-8)
+ccomp(sure-6, straight-9)
+
+prep_to(stick-1, wall-3)
+prep_with(stick-1, tacky-puddy-5)
+
+amod(stickies-3, 3m-2)
+dobj(buy-1, stickies-3)
+
+prep_from(remove-1, package-3)
+
+dobj(remove-1, adhesive-2)
+
+dobj(place-1, one-2)
+amod(one-2, sticky-3)
+det(corner-6, each-5)
+prep_in(place-1, corner-6)
+
+amod(corner-4, top-2)
+amod(corner-4, left-3)
+dobj(press-1, corner-4)
+prep_to(press-1, wall-6)
+
+prt(eye-1, out-2)
+nn(top-4, level-3)
+dobj(eye-1, top-4)
+
+amod(corner-4, right-2)
+amod(corner-4, top-3)
+dobj(place-1, corner-4)
+
+prt(stand-1, back-2)
+conj_and(stand-1, observe-4)
+
+mark(fine-2, if-1)
+advcl(place-4, fine-2)
+amod(corners-6, bottom-5)
+dobj(place-4, corners-6)
+
+mark(crooked-2, if-1)
+dep(crooked-2, readjust-4)
+
+det(poster-3, a-2)
+dobj(put-1, poster-3)
+det(frame-6, a-5)
+prep_in(put-1, frame-6)
+
+dobj(grab-1, nail-2)
+conj_and(grab-1, hammer-4)
+
+amod(spot-4, right-3)
+prep_for(look-1, spot-4)
+
+dobj(get-1, nail-2)
+dep(nail-2, s-4)
+det(wall-8, the-7)
+prep_in(get-1, wall-8)
+
+det(poster-3, the-2)
+dobj(hang-1, poster-3)
+
+dobj(buy-1, poster-2)
+
+nn(gum-3, poster-2)
+dobj(buy-1, gum-3)
+
+advmod(go-5, where-2)
+nsubj(go-5, poster-3)
+aux(go-5, will-4)
+advcl(decider-1, go-5)
+
+prt(wipe-1, off-2)
+dobj(wipe-1, wall-3)
+
+dobj(put-1, gum-2)
+prep_on(put-1, corners-4)
+prep_of(corners-4, poster-6)
+
+dobj(put-1, poster-2)
+prep_on(put-1, wall-4)
+
+acomp(make-1, sure-2)
+nsubj(level-5, poster-3)
+cop(level-5, is-4)
+ccomp(sure-2, level-5)
+
+prt(mash-1, down-2)
+det(corners-4, the-3)
+dobj(mash-1, corners-4)
+
+amod(sticks-4, sure-2)
+nn(sticks-4, gum-3)
+dobj(make-1, sticks-4)
+prep_to(make-1, wall-6)
+
+acomp(make-1, sure-2)
+nsubjpass(stuck-5, poster-3)
+auxpass(stuck-5, is-4)
+ccomp(sure-2, stuck-5)
+
+det(spot-3, a-2)
+dobj(pick-1, spot-3)
+det(wall-6, a-5)
+prep_on(pick-1, wall-6)
+
+num(thumbtacks-3, four-2)
+dobj(get-1, thumbtacks-3)
+
+dobj(hold-1, poster-2)
+prt(hold-1, up-3)
+prep_on(hold-1, wall-5)
+
+dobj(orient-1, poster-2)
+prepc_as(orient-1, desired-4)
+
+dobj(insert-1, thumbtack-2)
+prep_at(insert-1, corners-4)
+
+dobj(unrole-1, poster-2)
+
+dobj(take-1, strips-2)
+prep_of(strips-2, tape-4)
+prep_from(take-1, roll-6)
+
+dobj(hold-1, poster-2)
+prt(hold-1, up-3)
+prep_to(hold-1, wall-5)
+
+acomp(make-1, sure-2)
+nsubj(strait-5, it-3)
+cop(strait-5, is-4)
+ccomp(sure-2, strait-5)
+
+dobj(put-1, tape-2)
+prep_across(put-1, corners-4)
+
+dobj(gather-1, supplies-2)
+dep(supplies-2, tape-4)
+
+dobj(determine-1, location-2)
+prep_for(determine-1, poster-4)
+
+dobj(unwrap-1, poster-2)
+prepc_from(unwrap-1, wrapping-4)
+
+dobj(unroll-1, poster-2)
+
+dobj(place-1, poster-2)
+prep_on(place-1, wall-4)
+
+prep_in(hold-1, position-3)
+num(hand-6, one-5)
+prep_with(hold-1, hand-6)
+
+advmod(tear-4, with-1)
+amod(hand-3, other-2)
+dep(with-1, hand-3)
+dobj(tear-4, tape-5)
+
+amod(corner-3, first-2)
+dobj(tape-1, corner-3)
+prep_of(corner-3, poster-5)
+
+aux(hold-3, to-2)
+xcomp(continue-1, hold-3)
+dobj(hold-3, poster-4)
+prep_to(hold-3, wal-6)
+
+amod(piece-3, second-2)
+dobj(tear-1, piece-3)
+prep_of(piece-3, tape-5)
+
+amod(corner-3, second-2)
+dobj(tape-1, corner-3)
+prep_of(corner-3, poster-5)
+
+aux(above-6, tape-1)
+det(corners-4, all-2)
+num(corners-4, four-3)
+nsubj(above-6, corners-4)
+advmod(above-6, as-5)
+
+nsubj(complete-3, task-1)
+cop(complete-3, is-2)
+
+dobj(wipe-1, wall-2)
+
+dobj(estimate-1, location-2)
+
+dobj(rip-1, tape-2)
+
+dobj(put-1, tape-2)
+nn(corners-5, poster-4)
+prep_on(put-1, corners-5)
+
+dobj(stick-1, poster-2)
+prep_on(stick-1, wall-4)
+
+advmod(step-1, back-2)
+
+dobj(judge-1, straightness-2)
+
+det(spot-3, a-2)
+dobj(choose-1, spot-3)
+
+auxpass(framed-4, get-1)
+det(poster-3, the-2)
+dobj(framed-4, poster-3)
+
+det(hook-3, a-2)
+dobj(hang-1, hook-3)
+
+det(poster-3, the-2)
+dobj(hang-1, poster-3)
+det(hook-6, the-5)
+prep_on(hang-1, hook-6)
+
+
+dobj(find-1, spot-2)
+prep_on(find-1, wall-4)
+
+dobj(unroll-1, poster-2)
+
+dobj(apply-1, tape-2)
+prep_to(apply-1, poster-4)
+
+dobj(put-1, poster-2)
+prep_on(put-1, wall-4)
+
+aux(see-3, to-2)
+xcomp(check-1, see-3)
+mark(straight-5, if-4)
+advcl(see-3, straight-5)
+
+mark(necessary-4, if-3)
+advcl(straighten-1, necessary-4)
+
+dobj(clean-1, wall-2)
+
+acomp(make-1, sure-2)
+nsubjpass(flattened-5, poster-3)
+auxpass(flattened-5, is-4)
+ccomp(sure-2, flattened-5)
+
+dobj(put-1, adhesive-2)
+prep_on(put-1, poster-4)
+advmod(put-1, back-5)
+
+amod(placement-3, exact-2)
+dobj(determine-1, placement-3)
+
+dobj(adhere-1, poster-2)
+prep_to(adhere-1, wall-4)
+
+acomp(make-1, sure-2)
+nsubj(level-5, it-3)
+cop(level-5, 's-4)
+ccomp(sure-2, level-5)
+
+dobj(frame-1, poster-2)
+
+amod(location-3, proper-2)
+dobj(measure-1, location-3)
+
+dobj(use-1, level-2)
+nn(wall-5, mark-4)
+prep_to(use-1, wall-5)
+
+num(nails-3, 2-2)
+dobj(hammer-1, nails-3)
+prep_into(hammer-1, wall-5)
+
+dobj(hang-1, poster-2)
+prep_on(hang-1, nails-4)
+
+dep(4-3, get-2)
+num(tacs-4, 4-3)
+dep(i-1, tacs-4)
+
+nn(positon-3, eyeball-2)
+dep(i-1, positon-3)
+prep_of(positon-3, poster-5)
+
+dep(push-2, i-1)
+num(corner-5, one-4)
+prep_in(push-2, corner-5)
+dep(push-2, right-6)
+
+prep_then(do-3, i-2)
+det(left-5, the-4)
+dobj(do-3, left-5)
+
+prep_then(do-3, i-2)
+det(bottom-5, the-4)
+dobj(do-3, bottom-5)
+
+nsubj(look-3, i-2)
+dep(then-1, look-3)
+prep(look-3, from-4)
+dep(from-4, far-5)
+
+neg(straight-3, not-2)
+amod(i-4, straight-3)
+prep_if(do-5, i-4)
+advmod(do-5, again-6)
+
+mark(leave-4, if-1)
+nsubj(leave-4, straigh-2)
+dep(straigh-2, i-3)
+mark(is-6, as-5)
+advcl(leave-4, is-6)
+
+det(wall-3, the-2)
+dobj(goto-1, wall-3)
+
+amod(area-3, best-2)
+dobj(find-1, area-3)
+aux(put-5, to-4)
+xcomp(find-1, put-5)
+dobj(put-5, poster-6)
+
+det(area-3, the-2)
+dobj(clean-1, area-3)
+
+dobj(put-1, glue-2)
+prep_on(put-1, back-4)
+prep_of(back-4, poster-6)
+
+dobj(stick-1, it-2)
+det(wall-5, the-4)
+prep_on(stick-1, wall-5)
+
+dobj(use-1, selotape-2)
+
+
+amod(selotapes-3, small-2)
+dobj(cut-1, selotapes-3)
+
+prep_to(apply-1, corners-3)
+
+dobj(add-1, glue-2)
+nsubj(needed-4, if-3)
+rcmod(glue-2, needed-4)
+
+dobj(stick-1, it-2)
+det(wall-5, the-4)
+prep_on(stick-1, wall-5)
+
+mark(aligned-5, if-2)
+nsubj(aligned-5, its-3)
+advmod(aligned-5, properly-4)
+advcl(see-1, aligned-5)
+
+dep(not-2, if-1)
+neg(align-3, not-2)
+dobj(align-3, it-4)
+
+det(poster-3, the-2)
+dobj(measure-1, poster-3)
+
+det(wall-3, the-2)
+dobj(check-1, wall-3)
+
+det(equipment-3, the-2)
+dobj(gather-1, equipment-3)
+
+det(tape-3, the-2)
+dobj(use-1, tape-3)
+
+det(poster-3, the-2)
+dobj(check-1, poster-3)
+prep_on(check-1, wall-5)
+
+det(poster-3, the-2)
+dobj(choose-1, poster-3)
+
+dobj(hold-1, it-2)
+det(wall-5, the-4)
+prep_against(hold-1, wall-5)
+
+prep_with(mark-1, pencil-3)
+
+prep_for(check-1, accuracy-3)
+
+dobj(use-1, scissors-2)
+dobj(use-1, sellotape-4)
+conj_and(scissors-2, sellotape-4)
+
+det(poster-4, a-2)
+amod(poster-4, favorite-3)
+dobj(choose-1, poster-4)
+
+det(poster-3, the-2)
+dobj(frame-1, poster-3)
+
+det(store-5, a-3)
+nn(store-5, department-4)
+prep_to(go-1, store-5)
+
+det(wall-4, some-2)
+amod(wall-4, stick-on-3)
+dobj(buy-1, wall-4)
+dep(buy-1, hooks-5)
+
+det(hook-3, a-2)
+dobj(stick-1, hook-3)
+det(wall-6, the-5)
+prep_on(stick-1, wall-6)
+
+det(poster-3, the-2)
+dobj(hang-1, poster-3)
+det(hook-6, the-5)
+prep_on(hang-1, hook-6)
+
+det(poster-3, a-2)
+dobj(make-1, poster-3)
+
+det(surface-3, the-2)
+dobj(clean-1, surface-3)
+appos(surface-3, wall-5)
+
+dobj(apply-1, past-2)
+dep(past-2, gum-4)
+appos(gum-4, glue-6)
+
+advmod(fix-2, then-1)
+dobj(fix-2, it-3)
+
+cc(slowly-2, and-1)
+dep(slowly-2, pressed-3)
+
+dobj(place-1, poster-2)
+det(surface-6, a-4)
+amod(surface-6, flat-5)
+prep_on(poster-2, surface-6)
+
+advmod(put-2, now-1)
+det(glue-4, the-3)
+dobj(put-2, glue-4)
+prep_on(put-2, back-6)
+prep_of(back-6, it-8)
+
+advmod(apply-2, now-1)
+dobj(apply-2, it-3)
+advmod(apply-2, uniformly-4)
+
+dobj(apply-1, it-2)
+det(wall-5, the-4)
+prep_on(apply-1, wall-5)
+advmod(apply-1, also-6)
+
+det(poster-3, the-2)
+dep(paste-1, poster-3)
+det(wall-6, the-5)
+prep_on(poster-3, wall-6)
+
+prt(get-1, out-2)
+ccomp(get-1, push-3)
+dobj(push-3, pins-4)
+dobj(push-3, tape-6)
+conj_or(pins-4, tape-6)
+
+dobj(select-1, spot-2)
+prep_on(select-1, wall-4)
+
+dobj(unroll-1, poster-2)
+
+dobj(position-1, poster-2)
+prep_on(position-1, wall-4)
+
+acomp(make-1, sure-2)
+nsubj(straight-5, poster-3)
+cop(straight-5, is-4)
+ccomp(sure-2, straight-5)
+
+dobj(push-1, pin-2)
+dobj(push-1, tape-4)
+conj_or(pin-2, tape-4)
+prep_in(push-1, corners-6)
+
+advmod(step-1, back-2)
+aux(check-4, to-3)
+xcomp(step-1, check-4)
+dobj(check-4, position-5)
+
+dobj(adjust-1, position-2)
+nsubj(needed-4, if-3)
+rcmod(position-2, needed-4)
+
+dobj(select-1, poster-2)
+aux(use-4, to-3)
+infmod(poster-2, use-4)
+
+dobj(select-1, wall-2)
+aux(use-4, to-3)
+infmod(wall-2, use-4)
+
+det(area-3, an-2)
+dobj(select-1, area-3)
+prep_of(area-3, wall-5)
+aux(use-7, to-6)
+infmod(wall-5, use-7)
+
+dobj(clear-1, area-2)
+amod(items-5, other-4)
+prep_of(area-2, items-5)
+
+dobj(find-1, something-2)
+amod(something-2, adhesive-3)
+
+dobj(apply-1, adhesive-2)
+prep_to(apply-1, poster-4)
+
+dobj(line-1, poster-2)
+prt(line-1, up-3)
+prep_with(line-1, area-5)
+
+dobj(put-1, poster-2)
+prep_onto(put-1, wall-4)
+advmod(put-1, lightly-5)
+
+complm(level-5, that-2)
+nsubj(level-5, it-3)
+cop(level-5, is-4)
+ccomp(check-1, level-5)
+
+det(position-3, the-2)
+dobj(alter-1, position-3)
+advmod(alter-1, slightly-4)
+
+det(level-3, the-2)
+dobj(check-1, level-3)
+advmod(check-1, again-4)
+
+dobj(alter-1, position-2)
+advmod(alter-1, again-3)
+
+dobj(put-1, poster-2)
+prep_on(put-1, wall-4)
+advmod(put-1, definately-5)
+
+poss(handywork-3, my-2)
+dobj(admire-1, handywork-3)
+
+det(posters-3, the-2)
+dobj(collect-1, posters-3)
+
+dobj(get-1, flour-2)
+dobj(get-1, water-4)
+conj_and(flour-2, water-4)
+
+dobj(heat-1, water-2)
+det(pot-5, a-4)
+prep_in(heat-1, pot-5)
+
+dobj(add-1, flour-2)
+dobj(add-1, water-4)
+conj_and(flour-2, water-4)
+
+advmod(stir-1, well-2)
+
+nsubj(ready-3, paste-1)
+cop(ready-3, is-2)
+
+det(site-4, the-3)
+prep_to(go-1, site-4)
+
+det(ladder-3, a-2)
+dobj(keep-1, ladder-3)
+
+prep_on(climb-1, it-3)
+
+det(paste-4, the-2)
+amod(paste-4, made-3)
+dobj(apply-1, paste-4)
+
+dep(evenly-1, on-2)
+det(wall-4, the-3)
+pobj(on-2, wall-4)
+
+advmod(put-2, then-1)
+det(poster-4, the-3)
+dobj(put-2, poster-4)
+prep_on(put-2, it-6)
+
+det(hands-4, both-3)
+prep_with(press-1, hands-4)
+
+dobj(rub-1, it-2)
+advmod(rub-1, evenly-3)
+
+det(poster-2, the-1)
+nsubjpass(fixed-5, poster-2)
+aux(fixed-5, will-3)
+auxpass(fixed-5, be-4)
+

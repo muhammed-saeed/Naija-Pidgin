@@ -1,0 +1,21 @@
+bingCount.py
+  reads search queries from queries.txt, 
+  prefixes the number of Bing search results for the query 
+  and writes it into bingCount.txt
+  ignores prefixed GoogleCounts if present
+
+GoogleCountPerlScript
+  like bingCount.py, from Michaela
+
+sampleQuery.py
+  accesses and prints search results for one search term
+  amount of results and size of result chunks can be set
+
+bingapi
+  contains bingapi module and a version 'translated' to py3k
+  seems to work fine
+
+createQueries.py
+  todo
+  different strategies, change bingCount accordingly
+  according to a strategy build search terms from events, participants, anchor events…

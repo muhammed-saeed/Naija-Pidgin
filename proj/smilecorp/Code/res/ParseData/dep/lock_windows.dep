@@ -1,0 +1,406 @@
+det(window-3, the-2)
+dobj(close-1, window-3)
+
+det(window-3, the-2)
+dobj(lock-1, window-3)
+
+amod(window-4, next-3)
+prep_to(move-1, window-4)
+
+prep_from(repeat-1, step-3)
+num(step-3, 1-4)
+mark(locked-9, until-5)
+det(windows-7, all-6)
+nsubjpass(locked-9, windows-7)
+auxpass(locked-9, are-8)
+advcl(repeat-1, locked-9)
+
+det(window-4, each-3)
+prep_to(go-1, window-4)
+
+dobj(turn-1, lock-2)
+
+det(window-3, each-2)
+pobj(for-1, window-3)
+
+prep_to(go-1, window-3)
+
+mark(needed-3, if-2)
+dep(close-1, needed-3)
+
+
+amod(window-2, next-1)
+
+det(mechanism-4, the-2)
+amod(mechanism-4, locking-3)
+dobj(locating-1, mechanism-4)
+det(windows-7, the-6)
+prep_on(mechanism-4, windows-7)
+
+det(mechanisms-4, the-2)
+amod(mechanisms-4, locking-3)
+dobj(moving-1, mechanisms-4)
+predet(way-8, such-6)
+det(way-8, a-7)
+prep_in(moving-1, way-8)
+complm(opened-15, that-9)
+det(window-11, the-10)
+nsubjpass(opened-15, window-11)
+aux(opened-15, can-12)
+neg(opened-15, not-13)
+auxpass(opened-15, be-14)
+dep(way-8, opened-15)
+det(outside-18, the-17)
+prep_from(opened-15, outside-18)
+
+dobj(close-1, windows-2)
+
+dobj(press-1, lock-2)
+det(window-5, each-4)
+prep_on(press-1, window-5)
+
+det(window-4, each-3)
+prep_to(go-1, window-4)
+
+dobj(close-1, windows-2)
+mark(open-4, if-3)
+dep(close-1, open-4)
+
+dobj(turn-1, lock-2)
+amod(position-5, locked-4)
+prep_to(turn-1, position-5)
+
+det(window-4, a-3)
+prep_for(look-1, window-4)
+
+det(window-4, the-3)
+prep_to(move-1, window-4)
+
+det(window-3, the-2)
+dobj(close-1, window-3)
+
+dep(latch-5, turn-1)
+det(window-3, the-2)
+dobj(turn-1, window-3)
+nsubj(latch-5, s-4)
+det(position-9, the-7)
+amod(position-9, locked-8)
+prep_to(latch-5, position-9)
+
+mark(locked-6, until-2)
+det(windows-4, all-3)
+nsubjpass(locked-6, windows-4)
+auxpass(locked-6, are-5)
+advcl(repeat-1, locked-6)
+
+det(windows-3, all-2)
+dobj(finding-1, windows-3)
+det(structure-6, a-5)
+prep_in(finding-1, structure-6)
+
+advmod(closing-2, securely-1)
+det(window-4, each-3)
+dobj(closing-2, window-4)
+
+det(mechanism-4, the-2)
+amod(mechanism-4, locking-3)
+dobj(engaging-1, mechanism-4)
+det(window-7, each-6)
+prep_on(mechanism-4, window-7)
+
+det(keys-4, the-2)
+nn(keys-4, window-3)
+dobj(get-1, keys-4)
+
+det(window-4, each-3)
+prep_to(go-1, window-4)
+advmod(go-1, individually-5)
+
+det(keys-5, the-2)
+amod(keys-5, individual-3)
+nn(keys-5, windows-4)
+dobj(put-1, keys-5)
+det(locks-9, the-7)
+nn(locks-9, window-8)
+prep_into(put-1, locks-9)
+
+det(keys-3, the-2)
+dobj(turn-1, keys-3)
+aux(lock-5, to-4)
+xcomp(turn-1, lock-5)
+det(windows-7, the-6)
+dobj(lock-5, windows-7)
+det(house-10, the-9)
+prep_in(lock-5, house-10)
+
+det(keys-3, the-2)
+dobj(remove-1, keys-3)
+det(locks-6, the-5)
+prep_from(remove-1, locks-6)
+
+dobj(close-1, window-2)
+
+amod(mechanism-3, locking-2)
+dobj(locate-1, mechanism-3)
+
+amod(mechanism-3, locking-2)
+dobj(activate-1, mechanism-3)
+
+amod(window-4, first-3)
+prep_to(go-1, window-4)
+
+csubjpass(locked-5, ensure-1)
+det(window-3, the-2)
+dobj(ensure-1, window-3)
+auxpass(locked-5, is-4)
+
+amod(windows-4, other-3)
+prep_for(repeat-1, windows-4)
+
+nn(key-3, window-2)
+dobj(locate-1, key-3)
+
+prep_to(go-1, window-3)
+
+acomp(insert-1, key-2)
+
+acomp(turn-1, key-2)
+
+acomp(remove-1, key-2)
+
+dobj(locate-1, windows-2)
+
+acomp(locate-1, key-2)
+
+dobj(insert-1, key-2)
+nn(lock-5, window-4)
+prep_in(insert-1, lock-5)
+
+acomp(turn-1, key-2)
+
+acomp(remove-1, key-2)
+
+det(windows-3, the-2)
+dobj(close-1, windows-3)
+
+det(windows-3, the-2)
+dobj(lock-1, windows-3)
+
+det(locks-3, the-2)
+dobj(turn-1, locks-3)
+det(windows-6, the-5)
+prep_on(turn-1, windows-6)
+
+prepc_by(test-1, trying-3)
+aux(lift-5, to-4)
+xcomp(trying-3, lift-5)
+det(windows-7, the-6)
+dobj(lift-5, windows-7)
+aux(make-9, to-8)
+xcomp(lift-5, make-9)
+acomp(make-9, sure-10)
+det(locks-12, the-11)
+nsubj(don-13, locks-12)
+ccomp(make-9, don-13)
+nn(slip-15, t-14)
+dobj(don-13, slip-15)
+
+det(curtains-3, the-2)
+iobj(close-1, curtains-3)
+dobj(close-1, drapes-4)
+dobj(close-1, blinds-6)
+conj_or(drapes-4, blinds-6)
+
+prep_to(walk-1, window-3)
+
+dobj(close-1, window-2)
+
+nsubj(latch-2, close-1)
+
+dobj(lock-1, latch-2)
+
+complm(locked-5, that-2)
+nsubjpass(locked-5, window-3)
+auxpass(locked-5, is-4)
+ccomp(test-1, locked-5)
+
+csubj(unlocked-4, realize-1)
+nsubj(are-3, windows-2)
+ccomp(realize-1, are-3)
+
+prep_from(rise-1, position-3)
+
+det(windows-3, all-2)
+dobj(check-1, windows-3)
+
+dobj(lower-1, windows-2)
+
+dobj(raise-1, hand-2)
+aux(latch-4, to-3)
+xcomp(raise-1, latch-4)
+
+nsubj(latch-2, move-1)
+amod(position-5, closed-4)
+prep_to(latch-2, position-5)
+
+dobj(check-1, security-2)
+prep_of(security-2, closure-4)
+
+dobj(get-1, list-2)
+det(windows-5, all-4)
+prep_of(list-2, windows-5)
+aux(lock-7, to-6)
+xcomp(get-1, lock-7)
+
+aux(latch-3, turn-1)
+nsubj(latch-3, the-2)
+det(window-6, each-5)
+prep_on(latch-3, window-6)
+
+det(sash-3, the-2)
+dobj(pull-1, sash-3)
+prt(pull-1, down-4)
+
+csubj(latch-4, turn-1)
+det(right-3, the-2)
+dobj(turn-1, right-3)
+det(right-7, the-6)
+prep_to(latch-4, right-7)
+
+csubj(latch-4, turn-1)
+det(left-3, the-2)
+dobj(turn-1, left-3)
+det(left-7, the-6)
+prep_to(latch-4, left-7)
+
+det(window-4, each-3)
+prep_with(repeat-1, window-4)
+
+acomp(make-1, sure-2)
+nsubjpass(closed-6, window-3)
+auxpass(closed-6, is-4)
+advmod(closed-6, completely-5)
+ccomp(sure-2, closed-6)
+
+dobj(latch-1, window-2)
+
+prep_to(walk-1, window-3)
+
+aux(latch-3, turn-1)
+nsubj(latch-3, the-2)
+
+det(window-4, each-3)
+prep_with(repeat-1, window-4)
+
+prep_to(go-1, windows-3)
+
+dobj(losk-1, windows-2)
+
+det(window-3, the-2)
+dobj(close-1, window-3)
+
+aux(latch-3, find-1)
+nsubj(latch-3, the-2)
+
+advmod(latch-3, tunr-1)
+nsubj(latch-3, the-2)
+prt(latch-3, down-4)
+
+det(window-3, the-2)
+dobj(check-1, window-3)
+
+det(window-3, the-2)
+dobj(close-1, window-3)
+
+prt(push-1, up-2)
+det(lock-4, the-3)
+dobj(push-1, lock-4)
+
+det(window-3, the-2)
+dobj(check-1, window-3)
+
+dobj(close-1, windows-2)
+
+nsubj(latch-2, turn-1)
+
+dobj(close-1, window-2)
+
+dobj(turn-1, lock-2)
+prt(turn-1, down-3)
+
+dobj(pull-1, window-2)
+aux(check-4, to-3)
+xcomp(pull-1, check-4)
+mark(locked-6, if-5)
+dep(check-4, locked-6)
+
+dobj(close-1, curtain-2)
+
+dobj(close-1, window-2)
+
+dobj(turn-1, lock-2)
+
+aux(open-3, to-2)
+xcomp(try-1, open-3)
+dobj(open-3, window-4)
+aux(make-6, to-5)
+xcomp(open-3, make-6)
+acomp(make-6, sure-7)
+nsubjpass(locked-10, it-8)
+auxpass(locked-10, s-9)
+ccomp(sure-7, locked-10)
+
+dobj(close-1, window-2)
+
+dobj(turn-1, lock-2)
+
+dobj(close-1, windows-2)
+
+dobj(lock-1, windows-2)
+
+prt(walk-1, over-2)
+prep_to(walk-1, window-4)
+
+dobj(turn-1, lock-2)
+amod(position-5, locked-4)
+prep_to(turn-1, position-5)
+
+dobj(close-1, window-2)
+
+dobj(snap-1, lock-2)
+amod(position-5, closed\/locked-4)
+prep_to(snap-1, position-5)
+
+dobj(check-1, window-2)
+aux(ensure-4, to-3)
+xcomp(check-1, ensure-4)
+nsubj(secure-7, it-5)
+cop(secure-7, s-6)
+ccomp(ensure-4, secure-7)
+
+dobj(close-1, windows-2)
+
+dobj(push-1, lock-2)
+
+prep_to(go-1, window-3)
+
+nsubj(latch-2, push-1)
+det(position-6, the-4)
+amod(position-6, locked-5)
+prep_to(latch-2, position-6)
+
+prt(get-1, up-2)
+
+prep_to(go-1, window-3)
+
+dobj(push-1, lever-2)
+aux(lock-4, to-3)
+infmod(lever-2, lock-4)
+dobj(lock-4, position-5)
+
+det(lock-3, the-2)
+dobj(turn-1, lock-3)
+aux(secure-5, to-4)
+infmod(lock-3, secure-5)
+dobj(secure-5, clasp-6)
+

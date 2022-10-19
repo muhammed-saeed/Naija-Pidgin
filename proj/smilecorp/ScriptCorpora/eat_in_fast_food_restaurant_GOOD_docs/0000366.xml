@@ -1,0 +1,2118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0000366" url="http://drupal.org/node/107806" time="2012-07-12-15:34" support="1" score="0.0014238268534206352" bingtitle="Support for integration with USDA Nutrition Database | drupal.org" webtitle="Support for integration with USDA Nutrition Database | drupal.org">
+			<query id="001235" bing-rank="250"/>
+	<description>I think where they will make changes are to fast food/restaurant ... make much better sense in my opinion for storage ... I would also be willing to throw some cash into the ...</description>
+	<body>
+		Skip to main content Skip to search 
+ Get Started Community Documentation Support Download&amp;Extend Marketplace About 
+ Drupal Search drupal.org Refine your search All Modules Themes Documentation Forums&amp;Issues Groups 
+ Drupal Homepage Log in / Register 
+ Download&amp;Extend 
+ Download&amp;Extend Home Drupal Core Distributions Modules Themes 
+ Recipe » Issues 
+Support for integration with USDA Nutrition Database
+ Posted by stevecrozz on January 8, 2007 at 10:03pm 63 followers 
+Jump to:
+
+ Most recent comment Most recent attachment 
+ 
+ Project: Recipe Version: 7.x-1.x-dev Component: Miscellaneous Category: feature request Priority: normal Assigned: Unassigned Status: active 
+ 
+Issue Summary
+
+The USDA has a free database of nutritional information for thousands of food items. It would be great to somehow integrate that into this module in order to get nutrition facts about each recipe. I&apos;ve been looking through the code myself and I&apos;d like to have a discussion about this with one of the developers of this module and how best to go about it.
+
+ http://www.nal.usda.gov/fnic/foodcomp/Data/SR18/sr18.html 
+
+--Stephen
+ Login or register to post comments 
+Comments
+ 
+ #1 
+ Posted by moonray on January 9, 2007 at 3:37pm 
+Which of the information were you looking to integrate? And how (visually)?
+There&apos;s a lot of info there, and I&apos;m not sure how much would be really usable on a recipe site.
+ 
+ Login or register to post comments 
+ 
+ #2 
+ Posted by stevecrozz on January 11, 2007 at 5:25pm 
+Yes there is a lot of info, but the main point would be to have the ability to print off nutrition facts about each recipe (ie, this recipe contains 22 grams of fat, 550 Calories, 60 mg of sodium, etc.)
+
+Secondarily, the database has a fairly exaustive list of ingredients. It might help consistency on a large recipe database if the ingredients were validated against the list instead of just freely typed. But that may be too much of a pain to work with. That&apos;s why I&apos;m looking for some kind of feedback. If we were going to do this, what would be the best way to go about it?
+
+--Stephen
+ 
+ Login or register to post comments 
+ 
+ #3 
+ Posted by moonray on January 11, 2007 at 6:14pm 
+I would vote against forcing validation. When using eastern recipes, for instance, a lot of ingredients would be &quot;not found.&quot; (I just tried a few) Also, when I do a simple search for salt, I get a million options where salt was included in other ...foodstuffs (for lack of a better word).
+So what would happen to the nutrition information if some of the ingredients aren&apos;t found?
+
+Maybe it should be an add-on module to the recipe module, cause it looks like it might add quite some overhead... something that people can choose to enable/disable (but maybe bundled with the recipe module).
+ 
+ Login or register to post comments 
+ 
+ #4 
+ Posted by marble on January 11, 2007 at 7:51pm 
+This has come up before, and I&apos;d like to see the feature.
+
+Units might be a problem though - you&apos;d need to be able to translate, say, 1 cup flour into its equivalent weight.
+ 
+ Login or register to post comments 
+ 
+ #5 
+ Posted by Acert93 on January 12, 2007 at 11:04am 
+I would like to see this incorperated as an option as well :) My wife and I were talking about this just last week actually. Here are some sites that appear to autogenerate information based off this database:
+
+ Ogles Foods 
+
+ All Recipes 
+
+ Good House Keeping 
+
+ Food Network 
+
+This would be a nice optional feature. Once a flexible picture solution is found ( our site has a set &quot;wide angle&quot; picture at the top of every recipe on the site and we absolutely want to keep pictures at the top of every recipe and viewable in Views for the recipe browsing) we will be switching to the Recipe module so this would be a nice perk to make the move. Nearly no reason not to now that there is a 4.7 &quot;patch&quot;.
+ 
+ Login or register to post comments 
+ 
+ #6 
+ Posted by stevecrozz on January 16, 2007 at 5:12pm 
+Units would be the least of our problems if this was going to become a reality. There are simple mathematical conversions available for that, and I&apos;m pretty sure those are all in the USDA database already. But as moonray pointed out, the database doesn&apos;t have every single ingredient known to mankind in it, and simple ingredients such as salt can become nedlessly complex when there are several types of salt to choose from in the database.
+
+Does anyone know how these other web sites have overcome these problems? Perhaps there is an easier way to do this that I haven&apos;t thought of.
+
+--Stephen
+ 
+ Login or register to post comments 
+ 
+ #7 
+ Posted by Boris Mann on January 16, 2007 at 5:24pm 
+If we make ingredients nodes, we can associate lots of extra information with each one. Nutrition information may be &quot;not found&quot;, but some admin users could then edit ingredients to add this information.
+ 
+ Login or register to post comments 
+ 
+ #8 
+ Posted by soupy on October 8, 2007 at 1:49am 
+Using SR20 , I&apos;ve loaded the nutrient information into my own database, and thought you guys might find this useful.
+
+My table definitions:
+ CREATE TABLE FOOD_DES (
+`NDB_No` CHAR(5) NOT NULL,
+`FdGrp_Cd` CHAR(4) NOT NULL,
+`Long_Desc` CHAR(200) NOT NULL,
+`Shrt_Desc` CHAR(60) NOT NULL,
+`ComName` CHAR(100) NULL,
+`ManufacName` CHAR(50) NULL,
+`Survey` CHAR NULL,
+`Ref_desc` CHAR(60) NULL,
+`Refuse` INT NULL,
+`SciName` CHAR(60) NULL,
+`N_Factor` DOUBLE NULL,
+`Pro_Factor` DOUBLE NULL,
+`Fat_Factor` DOUBLE NULL,
+`CHO_Factor` DOUBLE NULL
+); 
+
+CREATE TABLE NUT_DATA (
+`NDB_No` CHAR(5) NOT NULL,
+`Nutr_No` CHAR(3) NOT NULL,
+`Nutr_Val` DOUBLE NOT NULL,
+`Num_Data_Pts` DOUBLE NOT NULL,
+`Std_Error` DOUBLE NULL,
+`Src_Cd` CHAR(2) NOT NULL,
+`Deriv_Cd` CHAR(4) NULL,
+`Ref_NDB_No` CHAR(5) NULL,
+`Add_Nutr_Mark` CHAR NULL,
+`Num_Studies` INT NULL,
+`Min` DOUBLE NULL,
+`Max` DOUBLE NULL,
+`DF` INT NULL,
+`Low_EB` DOUBLE NULL,
+`Up_EB` DOUBLE NULL,
+`Stat_cmt` CHAR(10) NULL,
+`CC` CHAR NULL
+);
+
+CREATE TABLE FD_GROUP (
+`FdGrp_Cd` CHAR(4) NOT NULL,
+`FdGrp_Desc` CHAR(60) NOT NULL
+);
+
+CREATE TABLE NUTR_DEF (
+`Nutr_No` CHAR(3) NOT NULL,
+`Units` CHAR(7) NOT NULL,
+`Tagname` CHAR(20) NULL,
+`NutrDesc` CHAR(60) NOT NULL,
+`Num_Dec` CHAR NOT NULL,
+`SR_Order` INT NOT NULL
+);
+
+CREATE TABLE SRC_CD (
+`Src_Cd` CHAR(2) NOT NULL,
+`SrcCd_Desc` CHAR(60) NOT NULL
+);
+
+CREATE TABLE DERIV_CD (
+`Deriv_Cd` CHAR(4) NOT NULL,
+`Deriv_Desc` CHAR(120) NOT NULL
+);
+
+CREATE TABLE WEIGHT (
+`NDB_No` CHAR(5) NOT NULL,
+`Seq` CHAR(2) NOT NULL,
+`Amount` DOUBLE NOT NULL,
+`Msre_Desc` CHAR(80) NOT NULL,
+`Gm_Wgt` DOUBLE NOT NULL,
+`Num_Data_Pts` INT NULL,
+`Std_Dev` DOUBLE NULL
+);
+
+CREATE TABLE FOOTNOTE (
+`NDB_No` CHAR(5) NOT NULL,
+`Footnt_No` CHAR(4) NOT NULL,
+`Footnt_Typ` CHAR NOT NULL,
+`Nutr_No` CHAR(3) NULL,
+`Footnt_Txt` CHAR(200) NOT NULL
+);
+
+CREATE TABLE DATA_SRC (
+`DataSrc_ID` CHAR(6) NOT NULL,
+`Authors` CHAR(255) NULL,
+`Title` CHAR(255) NOT NULL,
+`Year` CHAR(4) NULL,
+`Journal` CHAR(135) NULL,
+`Vol_City` CHAR(10) NULL,
+`Issue_State` CHAR(5) NULL,
+`Start_Page` CHAR(5) NULL,
+`End_Page` CHAR(5) NULL
+);
+
+CREATE TABLE DATSRCLN (
+`NDB_No` CHAR(5) NOT NULL,
+`Nutr_No` CHAR(3) NOT NULL,
+`DataSrc_ID` CHAR(6) NOT NULL
+);
+
+CREATE TABLE FIELDINFO (`TABLENAME` VARCHAR(255), `FIELDNAME` VARCHAR(255), `DESCRIPTION` VARCHAR(255)
+);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;NDB_No&apos;,&apos;5-digit Nutrient Databank number that uniquely identifies a food item&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;FdGrp_Cd&apos;,&apos;4-digit code indicating food group to which a food item belongs&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Long_Desc&apos;,&apos;200-character description of food item&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Shrt_Desc&apos;,&apos;60-character abbreviated description of food item. Generated from the 200-character description using abbreviations in appendix A. If short description was longer than 60 characters, additional abbreviations were made.&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;ComName&apos;,&apos;Other names commonly used to describe a food, including local or regional names for various foods, for example, “soda” or “pop” for “carbonated beverages”&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;ManufacName&apos;,&apos;Indicates the company that manufactured the product, when appropriate&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Survey&apos;,&apos;Indicates if the food item is used in the USDA Food and Nutrient Database for Dietary Studies (FNDDS) and has a complete nutrient profile for a specified set of nutrients&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Ref_desc&apos;,&apos;Description of inedible parts of a food item (refuse), such as seeds or bone&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Refuse&apos;,&apos;Percentage of refuse&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;SciName&apos;,&apos;Scientific name of the food item. Given for the least&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;N_Factor&apos;,&apos;Factor for converting nitrogen to protein (see p. 7)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Pro_Factor&apos;,&apos;Factor for calculating calories from protein (see p. 8)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Fat_Factor&apos;,&apos;Factor for calculating calories from fat (see p. 8)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;CHO_Factor&apos;,&apos;Factor for calculating calories from carbohydrate (see p. 8)&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;NDB_No&apos;,&apos;5-digit Nutrient Databank number&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Nutr_No&apos;,&apos;Unique 3-digit identifier code for a nutrient&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Nutr_Val&apos;,&apos;Amount in 100 grams, edible portion †&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Num_Data_Pts&apos;,&apos;Number of data points (previously called Sample_Ct)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Std_Error&apos;,&apos;Standard error of the mean. Null if could not be calculated&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Src_Cd&apos;,&apos;Code indicating type of data&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Deriv_Cd&apos;,&apos;Data Derivation Code giving specific information on how the value was determined&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Ref_NDB_No&apos;,&apos;NDB number of the item used to impute a missing value. Populated only for items added or updated starting with SR14&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Add_Nutr_Mark&apos;,&apos;Indicates a vitamin or mineral added for fortification or enrichment. This field is populated for ready-to-eat breakfast cereals and many brand name hot cereals in food group 8.&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Num_Studies&apos;,&apos;Number of studies&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Min&apos;,&apos;Minimum value&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Max&apos;,&apos;Maximum value&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;DF&apos;,&apos;Degrees of Freedom&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Low_EB&apos;,&apos;Lower 95% error bound&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Up_EB&apos;,&apos;Upper 95% error bound&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Stat_cmt&apos;,&apos;Statistical comments. See definitions below.&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;CC&apos;,&apos;Confidence Code indicating data quality, based on evaluation of sample plan, sample handling, analytical method, analytical quality control, and number of samples analyzed. Not included in this release, but is planned for future releases.&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;FD_GROUP&apos;,&apos;FdGrp_Cd&apos;,&apos;4-digit code identifying a food group. Only the first 2 digits are currently assigned. In the future, the last 2 digits may be used. Codes may not be consecutive.&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FD_GROUP&apos;,&apos;FdGrp_Desc&apos;,&apos;Name of food group&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;Nutr_No&apos;,&apos;Unique 3-digit identifier code for a nutrient&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;Units&apos;,&apos;Units of measure (mg, g, µg, and so on.)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;Tagname&apos;,&apos;International Network of Food Data Systems (INFOODS) Tagnames.† A unique abbreviation for a nutrient/food component developed by INFOODS to aid in the interchange of data&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;NutrDesc&apos;,&apos;Name of nutrient/food component&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;Num_Dec&apos;,&apos;Number of decimal places that a nutrient value is rounded to&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;SR_Order&apos;,&apos;Used to sort nutrient records in the same order as various reports produced from SR&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;SRC_CD&apos;,&apos;Src_Cd&apos;,&apos;2-digit code&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;SRC_CD&apos;,&apos;SrcCd_Desc&apos;,&apos;Description of source code that identifies the type of nutrient data&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;DERIV_CD&apos;,&apos;Deriv_Cd&apos;,&apos;Derivation Code&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DERIV_CD&apos;,&apos;Deriv_Desc&apos;,&apos;Description of derivation code giving specific information on how the value was determined&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;NDB_No&apos;,&apos;5-digit Nutrient Databank number&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Seq&apos;,&apos;Sequence number&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Amount&apos;,&apos;Unit modifier (for example, 1 in “1 cup”)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Msre_Desc&apos;,&apos;Description (for example, cup, diced, and 1-inch pieces)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Gm_Wgt&apos;,&apos;Gram weight&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Num_Data_Pts&apos;,&apos;Number of data points&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Std_Dev&apos;,&apos;Standard deviation&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOTNOTE&apos;,&apos;NDB_No&apos;,&apos;5-digit Nutrient Databank number&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOTNOTE&apos;,&apos;Footnt_No&apos;,&apos;Sequence number. If a given footnote applies to more than one nutrient number, the same footnote number is used. As a result, this file cannot be indexed.&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOTNOTE&apos;,&apos;Footnt_Typ&apos;,&apos;Type of footnote. D = footnote adding information to the food description; M = footnote adding information to measure description; N = footnote providing additional information on a nutrient value. If the Footnt_typ = N, the Nutr_No will also be filled in&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOTNOTE&apos;,&apos;Nutr_No&apos;,&apos;Unique 3-digit identifier code for a nutrient to which footnote applies&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOTNOTE&apos;,&apos;Footnt_Txt&apos;,&apos;Footnote text&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;DataSrc_ID&apos;,&apos;Unique number identifying the reference/source&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Authors&apos;,&apos;List of authors for a journal article or name of sponsoring organization for other documents&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Title&apos;,&apos;Title of article or name of document, such as a report from a company or trade association&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Year&apos;,&apos;Year article or document was published&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Journal&apos;,&apos;Name of the journal in which the article was published&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Vol_City&apos;,&apos;Volume number for journal articles or books; city where sponsoring organization is located&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Issue_State&apos;,&apos;Issue number for journal article; State where the sponsoring organization is located&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Start_Page&apos;,&apos;Starting page number of article/document&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;End_Page&apos;,&apos;Ending page number of article/document&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;DATSRCLN&apos;,&apos;NDB_No&apos;,&apos;5-digit Nutrient Databank number&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATSRCLN&apos;,&apos;Nutr_No&apos;,&apos;Unique 3-digit identifier code for a nutrient&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATSRCLN&apos;,&apos;DataSrc_ID&apos;,&apos;Unique ID identifying the reference/source&apos;);
+
+And the code to populate the database: (sorry - it&apos;s a bit messy, but I&apos;m new to PHP!)
+ &lt;?php
+$dbh = mysql_connect ( /*db info*/ );
+ mysql_select_db ( /*db info*/ );
+
+ //List of SR20 filenames with associated field counts.
+ $filenames = array( &quot;DERIV_CD&quot; =&gt; 2 ,
+ &quot;FD_GROUP&quot; =&gt; 2 ,
+ &quot;NUTR_DEF&quot; =&gt; 6 ,
+ &quot;SRC_CD&quot; =&gt; 2 ,
+ &quot;WEIGHT&quot; =&gt; 7 ,
+ &quot;FOOTNOTE&quot; =&gt; 5 ,
+ &quot;DATA_SRC&quot; =&gt; 9 ,
+ &quot;DATSRCLN&quot; =&gt; 3 ,
+ &quot;FOOD_DES&quot; =&gt; 14 ,
+ &quot;NUT_DATA&quot; =&gt; 17 );
+foreach( $filenames as $filename =&gt; $count ) {
+ $file = file_get_contents ( &apos;raw_data/&apos; . $filename . &apos;.txt&apos; );
+ $lines = preg_split ( &apos;#\n#&apos; , $file );
+for( $i = 0 ; $i &lt; count ( $lines );++ $i ) {
+ $line = $lines [ $i ];
+ //Some text fields are split over several lines. Concatenate them.
+ while( substr_count ( $line , &apos;^&apos; )&lt; $count - 1 || ( substr_count ( $line , &apos;~&apos; )% 2 ) == 1 ) {
+++ $i ;
+if( $i &gt;= count ( $lines )) { break; }
+ $line .= &apos;&lt;br /&gt;&apos; . $lines [ $i ];
+}
+ $fields = $line ;
+if( strlen ( $fields ) == 0 ) continue;
+ $fields = str_replace (array( &quot;&apos;&quot; , &apos;~&apos; , &apos;^&apos; ), array( &quot;&apos;&apos;&quot; , &quot;&apos;&quot; , &apos;,&apos; ), $fields );
+ $sql = &quot;INSERT INTO ` $filename ` VALUES( $fields );&quot; ;
+ //Insert zeroes for unfilled values.
+ $sql = str_replace (array( &apos;,,&apos; , &apos;,)&apos; ), array( &apos;,0,&apos; , &apos;,0)&apos; ), $sql );
+ $sql = str_replace (array( &apos;,,&apos; , &apos;,)&apos; ), array( &apos;,0,&apos; , &apos;,0)&apos; ), $sql );
+ $sql = str_replace (array( &apos;,,&apos; , &apos;,)&apos; ), array( &apos;,0,&apos; , &apos;,0)&apos; ), $sql );
+ //Some single-char fields aren&apos;t quoted.
+ $sql = preg_replace ( &apos;#,([A-Z])\);$#&apos; , &quot;,&apos;$1&apos;);&quot; , $sql );
+ $res = mysql_query ( $sql );
+if( $res == FALSE ) {
+print $sql ;
+}
+}
+}
+ ?&gt; 
+ Login or register to post comments 
+ 
+ #9 
+ Posted by webchick on October 8, 2007 at 3:33am 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #10 
+ Posted by coupet on October 8, 2007 at 3:51am 
+I think we might need primary key for the tables
+ 
+ Login or register to post comments 
+ 
+ #11 
+ Posted by soupy on October 9, 2007 at 2:17am 
+These are the primary keys that I&apos;ve identified...
+
+Some have none:
+FOOTNOTE - none. The documentation states that no unique key exists.
+DATSRCLN - none?
+
+Some are obvious:
+DATA_SRC.DataSrc_ID
+DERIV_CD.Deriv_Cd
+FD_GROUP.FdGrp_Cd
+FOOD_DES.NDB_No
+NUTR_DEF.Nutr_No
+SRC_CD.Src_Cd
+
+Some have composite keys:
+NUT_DATA - NDB_No and Nutr_No
+WEIGHT - NDB_No and Seq
+
+As far as I can tell, there are a lot of &quot;character&quot; fields that should probably be integer. I don&apos;t know how problematic it&apos;d be later if we were to convert them.
+ 
+ Login or register to post comments 
+ 
+ #12 
+ Posted by webchick on October 9, 2007 at 2:26am 
+Would probably be a pain, yeah...
+
+now the other piece of this is how to deal with updates that come in periodically from USDA?
+ 
+ Login or register to post comments 
+ 
+ #13 
+ Posted by gajillion on October 12, 2007 at 5:50pm 
+I took a different approach to this that would make it easier to incorporate the updates. The updates themselves come in an SQL format that you can run against an existing database and it will automatically insert and remove appropriate fields. I&apos;ve actually written an entire module that at this point does nothing but load/and or delete the USDA information. I&apos;m writing it with the intention of incorporating it into the recipe module, but I wanted it to be generic enough that you could use it for a standalone database.
+
+I took the most straightforward approach I could think of for both of these scenarios: I loaded the data directly into a MySQL database, then did an export with an --add-drop-table option. For the standalone database configuration, I left it as-is. For the integrated database portion, I prefixed each table name with the module name, &quot;nutrition_&quot;. The admin page has three options for using the nutrition module:
+
+Do not use USDA data
+Use USDA data in Drupal table (recommended)
+Use USDA data in separate database
+
+I haven&apos;t written the separate database portion, but the intention is that the database doesn&apos;t even have to reside on the local machine. This would allow having a &quot;vanilla&quot; USDA nutrition database anywhere that you could use. Once your option is selected, the database is loaded line by line with the following functions:
+
+
+ &lt;?php
+ function nutrition_admin_load_db ( $where , $dbname = &apos;&apos; ){
+if(! $where ) return; // sanity check 1
+ if( $where == 2 &amp;&amp; $dbname == &apos;&apos; ) return; //sanity check 2
+
+ global $active_db ;
+
+ // Where are we installed?
+ $result = db_query ( &apos;SELECT filename FROM {system} WHERE name=&quot;nutrition&quot;&apos; );
+ $loc = db_fetch_object ( $result );
+ $loc -&gt; filename = dirname ( $loc -&gt; filename );
+ $src = $loc -&gt; filename . &apos;/inst/&apos; ;
+
+if( $where == 1 ){
+ $filename = &apos;nutrition_USDA.sql&apos; ;
+}
+else{
+ $filename = &apos;nutrition_USDA_standalone.sql&apos; ;
+}
+
+ _nutrition_admin_load_db ( $src , $filename , $where , $dbname );
+
+return true ;
+}
+
+ /**
+* Do the actual loading of the appropriate USDA database
+*
+* @param where
+*      1 = load into the drupal database
+*      2 = load into an external database
+* @param src
+*   - a string with the path to the appropriate USDA database file
+* @param filename
+*   - a string with the filename of the appropriate USDA database file
+* @param dbname
+*   - a string naming the external database to load into when &apos;where&apos; == 2
+*
+*/
+ function _nutrition_admin_load_db ( $src , $filename , $where , $dbname = &apos;&apos; ) {
+if( $where == 1 ){
+ $h = fopen ( $src . $filename , &apos;r&apos; );
+if( $h ){
+ $buf = &apos;&apos; ;
+while(! feof ( $h )){
+ $line = fgets ( $h );
+if( preg_match ( &apos;/.*;$/&apos; , $line )){
+ $buf .= $line ;
+ db_query ( $buf );
+ $buf = &apos;&apos; ;
+}
+else{
+ $buf .= $line ;
+}
+}
+}
+else{
+ drupal_set_message ( t ( &apos;Error opening USDA source file: &apos; . $src . $filename . &apos;: &apos; . $php_errormsg ), &apos;error&apos; );
+return;
+}
+ fclose ( $h );
+}
+else{
+ //TODO: Load external db
+ }
+}
+ ?&gt; 
+This way, updates to the database can be done by a simple replacement of a canonical SQL file derived directly from the original USDA database, or, I could trivially adapt the load function to create an &quot;upgrade&quot; function to upload a &quot;diff&quot; SQL file.
+ 
+ Login or register to post comments 
+ 
+ #14 
+ Posted by gajillion on January 27, 2008 at 5:52pm 
+ Title: USDA Nutrition Database »Request for Comments re: USDA Nutrition Database Assigned to: Anonymous »gajillion 
+ 
+Hi all,
+I&apos;ve done a fair amount of work with the USDA SR19 database and have made some progress on a module that can tie into Recipe. As has been mentioned several times here, the biggest hurdle is making sense of the data. For instance, using a simple autocomplete search on &quot;salt&quot; gives you 643 possible USDA SR19 entries.
+
+Slogging through the data, I found that the &quot;long descriptions&quot; are fairly uniform and in fact can be relatively easily parsed as a CSV. There were about 30 exceptions (about .5% based on 7293 entries) and most of these were what I consider to be mistakes in the data (e.g. &quot;fast foods&quot; category broken out as &quot;Fast foods&quot;, &quot;Fast Foods&quot; and &quot;Fast food&quot;). I wrote a parser to break the CSV descriptions down into a tree and then created a couple of tables mapping the USDA nutrition number to the appropriate path through the tree. What that gives me is the ability expand and collapse the 7293 entries all the way up into the 24 top level groupings. This works well for most groups, however several of them are still very cumbersome to work with. For instance, the USDA group &quot;Beverages&quot; has 50 or 60 second level groups (as opposed to, say, &quot;Baby Foods&quot; which has 5).
+
+Working with what I have right now, I put together a jQuery driven module for basically just displaying the USDA data and I&apos;d love to hear some comments on how to improve it. The page is at http://www.eatandbefit.com/nutrition . What you&apos;ll see is a table with 24 cells, each containing one of the 24 USDA basic nutrition groups. The next line will be a (possibly ellipsis shortened) list of the first drill down into that level. Items that are gray in color are branch nodes; they have other descriptors beneath them. Items in blue are actual leaf nodes representing a line in the USDA nutrition database. These would be what you click on to add an ingredient to your recipe. The autocomplete input is there but non-functional.
+
+Things I see immediately that I think need changing or don&apos;t know what to do with:
+
+ The &quot;path&quot; through the tree should be a different color. For instance under Baby Foods: Child formula, MEAD JOHNSON, PORTAGEN, with iron, prepared with powder, the first four levels should be a different color other than gray to show where in the tree you are. The autocomplete needs to work. At this point I&apos;m thinking the autocomplete should always reside at the level of the current tree depth so whatever you search for, the link to get there is assumed: using the above example, at the &quot;Child formula, MEAD JOHNSON, PORTAGEN&quot; level, typing &quot;with ...&quot; into the autocomplete should give you 2 choices in the popup, &quot;with iron, prepared from powder&quot; and &quot;with iron, powder, not reconstituted&quot; An autocomplete at the top of each of the 24 major nutrition groups? Is this necessary? Presentation of realllly long sub groups. For instance, what to do with the second level of Beverages? A nice left/right scrolly thing would be cool, but practical? Worth trying to program? How should that be presented? Should there be something similar to the existing &quot;... (more)&quot;? Should blocks of data be made &quot;re-collapsible&quot;? That&apos;s a lot of work I think. Encapsulated in a form: right now, it&apos;s not a form. The whole thing needs to be presented so when you hit a child node, you can actually capture the data of that child node as input. Best way to use this in the Recipe module? Autocompletion animation for upper level blocks, to let you know when clicking on a keyword that it&apos;s actually searching. 
+
+Please post any thoughts on this you may have.
+ 
+ Login or register to post comments 
+ 
+ #15 
+ Posted by gajillion on February 6, 2008 at 8:19pm 
+Nothing? Anyone? Beuller?
+
+OK, this is &quot;done&quot; as far as I&apos;m concerned now. I&apos;m taking comments from people I know and integrating them as they arrive. I&apos;ve made some of the changes above, other ones I&apos;m either still working on or aren&apos;t important enough to hold up further integration.
+
+ The &quot;path&quot; through the tree should be a different color. For instance under Baby Foods: Child formula, MEAD JOHNSON, PORTAGEN, with iron, prepared with powder, the first four levels should be a different color other than gray to show where in the tree you are. 
+This is done. &quot;Parent&quot; nodes are green, &quot;child&quot; nodes; those that correspond to a line item food product in the USDA database are blue, and the path through the tree is in dark green. There is only one dark green entry per level obviously, and clicking on a blue node submits the form with that as your selection.
+
+ The autocomplete needs to work. 
+Not worrying about this for now. It will work as described above. The skeleton is there, just haven&apos;t written the code yet. The hard part was the &quot;multi-part&quot; autocomplete callback. Since you have to distinguish the top of your search path depending on where in the tree you are, you have to be able to pass the code of your parent level as an argument to the autocomplete callback. That is done.
+
+ An autocomplete at the top of each of the 24 major nutrition groups? Is this necessary? 
+No it&apos;s not.
+
+ Presentation of realllly long sub groups. For instance, what to do with the second level of Beverages? A nice left/right scrolly thing would be cool, but practical? Worth trying to program? How should that be presented? Should there be something similar to the existing &quot;... (more)&quot;? 
+Not worrying about this now.
+
+ Should blocks of data be made &quot;re-collapsible&quot;? That&apos;s a lot of work I think. 
+Yes they should, no it&apos;s not, and I&apos;m not worrying about it yet.
+
+ Encapsulated in a form 
+Done. Uses drupal_message to print out the received values for now.
+
+ Best way to use this in the Recipe module? 
+Here&apos;s where I was hoping I&apos;d get some feedback. You all have failed me.
+
+ http://www.eatandbefit.com/nutrition 
+ 
+ Login or register to post comments 
+ 
+ #16 
+ Posted by anshikam on May 18, 2008 at 5:07pm 
+I tried running the above program&amp;3 data files do not get uploaded. They are DATSRCLN, FOOD_DES, NUT_DATA. I understand that they are huge data files. The error I get is Fatal error: Allowed memory size of 8388608 bytes exhausted (tried to allocate 25720267 bytes) at line: $file = file_get_contents(&apos;C:/Recipe Database/sr20/&apos;.$filename.&apos;.txt&apos;);
+Any help would be greatly appreciated. Is this due to RAM of my machine. I have a 2 GB RAM machine.
+
+Thanks
+ 
+ Login or register to post comments 
+ 
+ #17 
+ Posted by PGiro on May 22, 2008 at 4:45pm 
+sub
+ 
+ Login or register to post comments 
+ 
+ #18 
+ Posted by sclathrop on May 23, 2008 at 2:43am 
+Actually it is probably due to the PHP memory_limit setting in your php.ini file. See the section regarding &quot;Resource Limits&quot; the PHP core directives page: http://php.net/manual/en/ini.core.php , then try increasing your memory allocation incrementally to resolve this problem.
+ 
+ Login or register to post comments 
+ 
+ #19 
+ Posted by anshikam on May 26, 2008 at 10:46pm 
+Thanks. It worked. I need a suggestion. I am new to using USDA database. I am devleoping my trainers website which requires a search engine gfor searching various foods users enter. The results should have info on Calories, protien a,fat and carbs and the unit. Basicaly he needs a very simple info to be shown to the user. The question is should I load all those tables in USDA or can I just use ABBREV table which has the precalculated info on th ebasic info I need.Basically when do we use ABBREV table , by using it Am I mssing any vital info. Since I am the only person looking after the website, I need to think in terms of maintanence perspectiv etoo.
+
+Thank you
+ 
+ Login or register to post comments 
+ 
+ #20 
+ Posted by gajillion on June 24, 2008 at 2:42pm 
+This is tricky. I&apos;m implementing this in my Nutrition module which is pretty close to &quot;alpha&quot; right now. The problem is that going directly against the USDA database gives the user WAY too many choices. For instance, if you search for &quot;salt&quot; when what you&apos;re looking for is &quot;salt, table&quot;, you&apos;ll actually return 643 results to your user.
+
+The solution I&apos;m testing is creating a USDA &quot;filter&quot;. Basically it&apos;s a series of checkboxes with all of the major, top level USDA food groups (about 24). I then modify the autocomplete URL for the recipe ingredients textfield based on the food groups checked. The autocomplete always searches the recipe custom ingredients, but it will also optionally search the USDA database underneath the food groups you have checked. So in the example case, you would select the &quot;Spices and Herbs&quot; food group from the USDA DB, and start typing &quot;salt&quot;. You&apos;ll only get one hit - &quot;salt, table&quot; which is exactly the one you want.
+
+Now the question becomes what to do with the ABBREV table. In theory you could just use the ABBREV table. In fact, that&apos;s probably the best way to do it because most everything you&apos;re interested in, and everything on the standard US nutrition label is in the ABBREV table, however in order to get the same filtering capabilities I mentioned above, you&apos;ll need a number of supporting tables.
+
+Regarding maintenance, what to do about custom ingredients? In my opinion, they should go into the ABBREV table, but I haven&apos;t gotten that far yet so I haven&apos;t quite sussed out the best way to do it. In the next couple of weeks I hope to have a clean alpha to be able to release. There are a couple of sticky issues I have yet to work out - the biggest one required a modification to core autocomplete.js which I&apos;m really not happy about and will be looking at ways to get around.
+
+I&apos;ll keep you posted.
+ 
+ Login or register to post comments 
+ 
+ #21 
+ Posted by flaviodomingos on October 29, 2008 at 11:02pm 
+Hi Gys,
+
+I am very interested in build some kind os nutrient/recipe app. I am deciding between drupal or build using a different framework (maybe web2py, django, etc). So, I guess you guys already wrote some cool stuff. Is there anything I can do for helping out?
+
+best,
+
+Flavio.
+ 
+ Login or register to post comments 
+ 
+ #22 
+ Posted by ingosp on November 29, 2008 at 12:05pm 
+Hi soupy,
+
+I&apos;ve used your Database source code and the php - thank you.
+I found an error in the php, it can be fixed by replacing
+
+$fields = $line;
+with
+
+$fields = trim($line);
+otherwise a trailing CR will be in the data, preventing your replacement-by-0 method.
+
+One more: `Vol_City` CHAR(10) NULL, should be CHAR(16).
+
+The default database type with my mysql was InnoDB, and with innodb it took 5 minutes to load only 10000 records into the nut_data Database :-( it has 500000 records.
+So I changed it to type=Myisam and added DELAYED to the INSERT statement - after that it took only seconds to run completely.
+
+Hope this may help somebody.
+
+Now I&apos;m thinking about some php applications to replace my msacces queries.
+If anybody cound provide some php-code for usind the database -to start with- I&apos;d appreciate it.
+
+cheers, Ingo
+
+here comes my slightly altered mysql create code:
+
+ CREATE TABLE FOOD_DES (
+`NDB_No`  INT NOT NULL,
+`FdGrp_Cd` CHAR(4) NOT NULL,
+`Long_Desc` VARCHAR(200) NOT NULL,
+`Shrt_Desc` VARCHAR(60) NOT NULL,
+`ComName` VARCHAR(100) NULL,
+`ManufacName` VARCHAR(50) NULL,
+`Survey` CHAR NULL,
+`Ref_desc` VARCHAR(135) NULL,
+`Refuse` SMALLINT NULL,
+`SciName` VARCHAR(65) NULL,
+`N_Factor` DECIMAL(4,2) NULL,
+`Pro_Factor` DECIMAL(4,2) NULL,
+`Fat_Factor` DECIMAL(4,2) NULL,
+`CHO_Factor` DECIMAL(4,2) NULL
+,PRIMARY KEY (`NDB_No`)
+)TYPE=MyISAM;;
+
+CREATE TABLE NUT_DATA (
+`NDB_No`  INT NOT NULL,
+`Nutr_No`  SMALLINT NOT NULL,
+`Nutr_Val` DECIMAL(10,3) NOT NULL,
+`Num_Data_Pts` DECIMAL(5) NOT NULL,
+`Std_Error` DECIMAL(8,3) NULL,
+`Src_Cd` CHAR(2) NOT NULL,
+`Deriv_Cd` CHAR(4) NULL,
+`Ref_NDB_No` CHAR(5) NULL,
+`Add_Nutr_Mark` CHAR NULL,
+`Num_Studies` SMALLINT NULL,
+`Min` DECIMAL(10,3) NULL,
+`Max` DECIMAL(10,3) NULL,
+`DF` SMALLINT NULL,
+`Low_EB` DECIMAL(10,3) NULL,
+`Up_EB` DECIMAL(10,3) NULL,
+`Stat_cmt` VARCHAR(10) NULL,
+`CC` CHAR NULL
+,PRIMARY KEY (`NDB_No`,`Nutr_No`)
+) TYPE=MyISAM;
+
+CREATE TABLE FD_GROUP (
+`FdGrp_Cd` CHAR(4) NOT NULL,
+`FdGrp_Desc` CHAR(60) NOT NULL
+)TYPE=MyISAM;;
+
+CREATE TABLE NUTR_DEF (
+`Nutr_No`  SMALLINT NOT NULL,
+`Units` VARCHAR(7) NOT NULL,
+`Tagname` VARCHAR(20) NULL,
+`NutrDesc` VARCHAR(60) NOT NULL,
+`Num_Dec` TINYINT  NOT NULL,
+`SR_Order` INT NOT NULL
+,PRIMARY KEY(`Nutr_No`)
+)TYPE=MyISAM;;
+
+CREATE TABLE SRC_CD (
+`Src_Cd` CHAR(2) NOT NULL,
+`SrcCd_Desc` CHAR(60) NOT NULL
+)TYPE=MyISAM;;
+
+CREATE TABLE DERIV_CD (
+`Deriv_Cd` CHAR(4) NOT NULL,
+`Deriv_Desc` CHAR(120) NOT NULL
+)TYPE=MyISAM;;
+
+CREATE TABLE WEIGHT (
+`NDB_No`  INT NOT NULL,
+`Seq` SMALLINT NOT NULL,
+`Amount` DECIMAL(5,3) NOT NULL,
+`Msre_Desc` VARCHAR(80) NOT NULL,
+`Gm_Wgt` DECIMAL(7,1) NOT NULL,
+`Num_Data_Pts` TINYINT NULL,
+`Std_Dev` DECIMAL(7,1) NULL
+)TYPE=MyISAM;;
+
+CREATE TABLE FOOTNOTE (
+`NDB_No`  INT NOT NULL,
+`Footnt_No` CHAR(4) NOT NULL,
+`Footnt_Typ` CHAR NOT NULL,
+`Nutr_No` CHAR(3) NULL,
+`Footnt_Txt` VARCHAR(200) NOT NULL
+)TYPE=MyISAM;;
+
+CREATE TABLE DATA_SRC (
+`DataSrc_ID`   CHAR(5) NOT NULL,
+`Authors` VARCHAR(255) NULL,
+`Title` VARCHAR(255) NOT NULL,
+`Year` CHAR(4) NULL,
+`Journal` VARCHAR(135) NULL,
+`Vol_City` CHAR(16) NULL,
+`Issue_State` CHAR(5) NULL,
+`Start_Page` CHAR(5) NULL,
+`End_Page` CHAR(5) NULL
+)TYPE=MyISAM;;
+
+
+CREATE TABLE DATSRCLN (
+`NDB_No`  INT NOT NULL,
+`Nutr_No`  SMALLINT NOT NULL,
+`DataSrc_ID`  CHAR(5)  NOT NULL
+)TYPE=MyISAM;;
+
+CREATE TABLE FIELDINFO (`TABLENAME` VARCHAR(255), `FIELDNAME` VARCHAR(255), `DESCRIPTION` VARCHAR(255)
+);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;NDB_No&apos;,&apos;5-digit Nutrient Databank number that uniquely identifies a food item&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;FdGrp_Cd&apos;,&apos;4-digit code indicating food group to which a food item belongs&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Long_Desc&apos;,&apos;200-character description of food item&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Shrt_Desc&apos;,&apos;60-character abbreviated description of food item. Generated from the 200-character description using abbreviations in appendix A. If short description was longer than 60 characters, additional abbreviations were made.&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;ComName&apos;,&apos;Other names commonly used to describe a food, including local or regional names for various foods, for example, “soda” or “pop” for “carbonated beverages”&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;ManufacName&apos;,&apos;Indicates the company that manufactured the product, when appropriate&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Survey&apos;,&apos;Indicates if the food item is used in the USDA Food and Nutrient Database for Dietary Studies (FNDDS) and has a complete nutrient profile for a specified set of nutrients&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Ref_desc&apos;,&apos;Description of inedible parts of a food item (refuse), such as seeds or bone&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Refuse&apos;,&apos;Percentage of refuse&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;SciName&apos;,&apos;Scientific name of the food item. Given for the least&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;N_Factor&apos;,&apos;Factor for converting nitrogen to protein (see p. 7)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Pro_Factor&apos;,&apos;Factor for calculating calories from protein (see p. 8)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;Fat_Factor&apos;,&apos;Factor for calculating calories from fat (see p. 8)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOD_DES&apos;,&apos;CHO_Factor&apos;,&apos;Factor for calculating calories from carbohydrate (see p. 8)&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;NDB_No&apos;,&apos;5-digit Nutrient Databank number&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Nutr_No&apos;,&apos;Unique 3-digit identifier code for a nutrient&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Nutr_Val&apos;,&apos;Amount in 100 grams, edible portion †&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Num_Data_Pts&apos;,&apos;Number of data points (previously called Sample_Ct)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Std_Error&apos;,&apos;Standard error of the mean. Null if could not be calculated&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Src_Cd&apos;,&apos;Code indicating type of data&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Deriv_Cd&apos;,&apos;Data Derivation Code giving specific information on how the value was determined&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Ref_NDB_No&apos;,&apos;NDB number of the item used to impute a missing value. Populated only for items added or updated starting with SR14&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Add_Nutr_Mark&apos;,&apos;Indicates a vitamin or mineral added for fortification or enrichment. This field is populated for ready-to-eat breakfast cereals and many brand name hot cereals in food group 8.&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Num_Studies&apos;,&apos;Number of studies&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Min&apos;,&apos;Minimum value&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Max&apos;,&apos;Maximum value&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;DF&apos;,&apos;Degrees of Freedom&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Low_EB&apos;,&apos;Lower 95% error bound&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Up_EB&apos;,&apos;Upper 95% error bound&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;Stat_cmt&apos;,&apos;Statistical comments. See definitions below.&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUT_DATA&apos;,&apos;CC&apos;,&apos;Confidence Code indicating data quality, based on evaluation of sample plan, sample handling, analytical method, analytical quality control, and number of samples analyzed. Not included in this release, but is planned for future releases.&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;FD_GROUP&apos;,&apos;FdGrp_Cd&apos;,&apos;4-digit code identifying a food group. Only the first 2 digits are currently assigned. In the future, the last 2 digits may be used. Codes may not be consecutive.&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FD_GROUP&apos;,&apos;FdGrp_Desc&apos;,&apos;Name of food group&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;Nutr_No&apos;,&apos;Unique 3-digit identifier code for a nutrient&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;Units&apos;,&apos;Units of measure (mg, g, µg, and so on.)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;Tagname&apos;,&apos;International Network of Food Data Systems (INFOODS) Tagnames.† A unique abbreviation for a nutrient/food component developed by INFOODS to aid in the interchange of data&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;NutrDesc&apos;,&apos;Name of nutrient/food component&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;Num_Dec&apos;,&apos;Number of decimal places that a nutrient value is rounded to&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;NUTR_DEF&apos;,&apos;SR_Order&apos;,&apos;Used to sort nutrient records in the same order as various reports produced from SR&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;SRC_CD&apos;,&apos;Src_Cd&apos;,&apos;2-digit code&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;SRC_CD&apos;,&apos;SrcCd_Desc&apos;,&apos;Description of source code that identifies the type of nutrient data&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;DERIV_CD&apos;,&apos;Deriv_Cd&apos;,&apos;Derivation Code&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DERIV_CD&apos;,&apos;Deriv_Desc&apos;,&apos;Description of derivation code giving specific information on how the value was determined&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;NDB_No&apos;,&apos;5-digit Nutrient Databank number&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Seq&apos;,&apos;Sequence number&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Amount&apos;,&apos;Unit modifier (for example, 1 in “1 cup”)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Msre_Desc&apos;,&apos;Description (for example, cup, diced, and 1-inch pieces)&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Gm_Wgt&apos;,&apos;Gram weight&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Num_Data_Pts&apos;,&apos;Number of data points&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;WEIGHT&apos;,&apos;Std_Dev&apos;,&apos;Standard deviation&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOTNOTE&apos;,&apos;NDB_No&apos;,&apos;5-digit Nutrient Databank number&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOTNOTE&apos;,&apos;Footnt_No&apos;,&apos;Sequence number. If a given footnote applies to more than one nutrient number, the same footnote number is used. As a result, this file cannot be indexed.&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOTNOTE&apos;,&apos;Footnt_Typ&apos;,&apos;Type of footnote. D = footnote adding information to the food description; M = footnote adding information to measure description; N = footnote providing additional information on a nutrient value. If the Footnt_typ = N, the Nutr_No will also be filled in&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOTNOTE&apos;,&apos;Nutr_No&apos;,&apos;Unique 3-digit identifier code for a nutrient to which footnote applies&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;FOOTNOTE&apos;,&apos;Footnt_Txt&apos;,&apos;Footnote text&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;DataSrc_ID&apos;,&apos;Unique number identifying the reference/source&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Authors&apos;,&apos;List of authors for a journal article or name of sponsoring organization for other documents&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Title&apos;,&apos;Title of article or name of document, such as a report from a company or trade association&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Year&apos;,&apos;Year article or document was published&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Journal&apos;,&apos;Name of the journal in which the article was published&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Vol_City&apos;,&apos;Volume number for journal articles or books; city where sponsoring organization is located&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Issue_State&apos;,&apos;Issue number for journal article; State where the sponsoring organization is located&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;Start_Page&apos;,&apos;Starting page number of article/document&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATA_SRC&apos;,&apos;End_Page&apos;,&apos;Ending page number of article/document&apos;);
+
+INSERT INTO `FIELDINFO` VALUES(&apos;DATSRCLN&apos;,&apos;NDB_No&apos;,&apos;5-digit Nutrient Databank number&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATSRCLN&apos;,&apos;Nutr_No&apos;,&apos;Unique 3-digit identifier code for a nutrient&apos;);
+INSERT INTO `FIELDINFO` VALUES(&apos;DATSRCLN&apos;,&apos;DataSrc_ID&apos;,&apos;Unique ID identifying the reference/source&apos;);
+
+DROP TABLE ABBREV ;
+
+CREATE TABLE ABBREV (
+`NDB_No`  INT NOT NULL,
+Shrt_Desc VARCHAR(60),
+Water DECIMAL (10,2) DEFAULT 0,
+Energ_Kcal DECIMAL (10) DEFAULT 0,
+Protein DECIMAL (10,2) DEFAULT 0,
+Lipid_Tot DECIMAL (10,2) DEFAULT 0,
+Ash DECIMAL (10,2) DEFAULT 0,
+Carbohydrt DECIMAL (10,2) DEFAULT 0,
+Fiber_TD DECIMAL (10,1) DEFAULT 0,
+Sugar_Tot DECIMAL (10,2) DEFAULT 0,
+Calcium DECIMAL (10,2) DEFAULT 0,
+Iron DECIMAL (10,2) DEFAULT 0,
+Magnesium DECIMAL (10) DEFAULT 0,
+Phosphorus DECIMAL (10) DEFAULT 0,
+Potassium DECIMAL (10) DEFAULT 0,
+Sodium DECIMAL (10) DEFAULT 0,
+Zinc DECIMAL (10,2) DEFAULT 0,
+Copper DECIMAL (10,3) DEFAULT 0,
+Manganese DECIMAL (10,3) DEFAULT 0,
+Selenium DECIMAL (10,1) DEFAULT 0,
+Vit_C DECIMAL (10,1) DEFAULT 0,
+Thiamin DECIMAL (10,3) DEFAULT 0,
+Riboflavin DECIMAL (10,3) DEFAULT 0,
+Niacin DECIMAL (10,3) DEFAULT 0,
+Panto_acid DECIMAL (10,3) DEFAULT 0,
+Vit_B6  DECIMAL (10,3) DEFAULT 0,
+Folate_Tot DECIMAL (10) DEFAULT 0,
+Folic_acid DECIMAL (10) DEFAULT 0,
+Food_Folate DECIMAL (10) DEFAULT 0,
+Folate_DFE DECIMAL (10) DEFAULT 0,
+Choline DECIMAL (10) DEFAULT 0,
+Vit_B12 DECIMAL (10,2) DEFAULT 0,
+Vit_A_IU DECIMAL (10) DEFAULT 0,
+Vit_A_RAE DECIMAL (10) DEFAULT 0,
+Retinol DECIMAL (10) DEFAULT 0,
+Alpha_Carot DECIMAL (10) DEFAULT 0,
+Beta_Carot DECIMAL (10) DEFAULT 0,
+Beta_Crypt DECIMAL (10) DEFAULT 0,
+Lycopene DECIMAL (10) DEFAULT 0,
+Lut_Zea DECIMAL (10) DEFAULT 0,
+Vit_E DECIMAL (10,2) DEFAULT 0,
+Vit_K DECIMAL (10,2) DEFAULT 0,
+FA_Sat DECIMAL (10,3) DEFAULT 0,
+FA_Mono DECIMAL (10,3) DEFAULT 0,
+FA_Poly DECIMAL (10,3) DEFAULT 0,
+Cholestrl DECIMAL (10,3) DEFAULT 0,
+GmWt_1 DECIMAL (9,2) DEFAULT 0,
+GmWt_desc1 varchar(120),
+GmWt_2 DECIMAL (9,2) DEFAULT 0,
+GmWt_desc2 varchar(120),
+Refuse_Pct DECIMAL (2) DEFAULT 0,
+
+PRIMARY KEY (`NDB_No`)
+)TYPE=MyISAM; 
+ Login or register to post comments 
+ 
+ #23 
+ Posted by tracerhand on December 1, 2008 at 3:58am 
+hey gajillion - how&apos;s your nutrition thingie going?
+
+i&apos;m developing a site now with the recipe module and it would be incredible to have a sort of &quot;master list&quot; of ingredients that ties into USDA info.
+ 
+ Login or register to post comments 
+ 
+ #24 
+ Posted by pianomansam on December 19, 2008 at 6:38pm 
+gajillion: how soon until you put your nutrition module here on drupal.org? I&apos;m interested in seeing the code. Thanks!
+ 
+ Login or register to post comments 
+ 
+ #25 
+ Posted by blueflowers on September 21, 2009 at 5:44pm 
+This is pretty old, however I do think this is a great idea. There are a couple of suggestions/caveats I&apos;d like to speak on however.
+
+The USDA is not the only nutrition db out there. In Canada there is the Canadian Nutrient File ( http://www.hc-sc.gc.ca/fn-an/nutrition/fiche-nutri-data/cnf_downloads-te... ) which has a much different database structure. In order to make anything useful here, we&apos;d have to have the ability to map information to (what I imagine as) a standard schema.
+
+My other thought is that this would almost require a complete overhaul of the Recipe module. I think it&apos;s a great idea to extract the ingredients from the nutritional database and use that for the ingredients (as opposed to taxonomy), this would standardize input. I&apos;m already finding with testing of my multi-user recipe site that things like &apos;potato&apos; vs &apos;potatoe&apos; are being inputted by users, because of this, there is a split in what should be a uniform ingredient. Even small things like &quot;shredded carrot s &quot; vs &quot;shredded carrot&quot; are separated because of the current approach.
+
+I&apos;ve seen many comments already on the recipe module which point to sites like allrecipes.com etc. From what I know of these sites, you aren&apos;t inputting recipes in real time. All the recipes you submit are verified by a moderator who would take the recipes (which are inputted via a textbox) and input each ingredient one by one like the complex option of the recipe module. If the nutritional value is not auto-generated for the moderators, they could easily use a piece of software or a site like http://www.fitwatch.com/database/analyzer.php to achieve this. So for now, I think the comparison to these types of sites is a moot point.
+
+Personally, I think for this module to be used in a multi-user environment and to be more useful and user friendly, it would require a complete re-write from the ground up. I&apos;m prepared to put time in as I&apos;m an experienced Drupal developer. However, I am not a UI developer nor am I a nutritionist. I would require help in both of these areas. If anyone is willing to start this with me, please contact me at kevenages [at] gmail dot com
+ 
+ Login or register to post comments 
+ 
+ #26 
+ Posted by niles on October 6, 2009 at 4:04am 
+We&apos;re looking at using some of the cck3 features and some fuzzy taxonomy, simply because its clear that this module DOES need a complete re-write...
+
+UI / Nutrition seems to be the theme of the summer (fall now), at least on my end.
+
+I&apos;ll be in touch.
+ 
+ Login or register to post comments 
+ 
+ #27 
+ Posted by izmeez on October 6, 2009 at 4:20am 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #28 
+ Posted by shevot on November 16, 2009 at 4:26am 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #29 
+ Posted by boblangdon on December 15, 2009 at 9:51pm 
+Very interesting thread (subscribing).
+
+I&apos;m currently laying with Calorie Queen as a starting point for something similar. It&apos;s not a module, but it comes complete with schema, interface, and php code. I&apos;m playing with it now. Looks easy enough to configure and theme.
+ 
+ Login or register to post comments 
+ 
+ #30 
+ Posted by rickyd1 on December 15, 2009 at 10:05pm 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #31 
+ Posted by tzoscott on December 28, 2009 at 7:09am 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #32 
+ Posted by tzoscott on January 30, 2010 at 7:00pm 
+ Title: Request for Comments re: USDA Nutrition Database »Support for integration with USDA Nutrition Database 
+ 
+Would someone be interested in making this feature into a new Module for Drupal, which adds on to Recipe?
+
+Reasons include:
+1) Something like this would be pretty specialized
+2) it does seem like there are a few enthusiastic users of the nutritional DB.
+3) There are some want-to-use-this folks struggling with setup
+
+That&apos;s exactly what it would take to create an add-on module, keep it up to date, and get yet more people using it.
+This is something I could not do right now, but someone else (who uses this db) could as an add-on.
+
+To whatever degree I can help, let me know.
+ 
+ Login or register to post comments 
+ 
+ #33 
+ Posted by jvandervort on February 4, 2010 at 10:09pm 
+ Version: master »6.x-1.x-dev 
+ 
+ Login or register to post comments 
+ 
+ #34 
+ Posted by jvandervort on February 11, 2010 at 11:30pm 
+I think this would be a great feature, perhaps as a sister module:)
+
+It would go something like this:
+1. Load up the NDB into a single table =&gt;recipe_ndb (ndb_no, details, weights, ...)
+2. Link recipe_ingredient =&gt;recipe_ndb by adding ndb_no to recipe_ingredient.
+3. Allows users to link ingredients to closest_ndb_no
+4. If the recipe has every ingredient linked, either show an ndb tab or a summary box.
+5. And make sure to make a note that everything is approx. Ingredients and preparation differ, etc....
+
+Shouldn&apos;t be too hard. Hopefully when they release a new ndb the ndb_no don&apos;t change.
+
+If performance is too slow though, the nutritional info may need to be copied into the recipe_ingredient
+table.
+
+One nice thing is that the ndb doesn&apos;t change that much rev to rev (relatively speaking).
+If we stayed at rev x for a while, it wouldn&apos;t be that bad.
+
+And the 3 year old thread continues!
+ 
+ Login or register to post comments 
+ 
+ #35 
+ Posted by kribby on February 17, 2010 at 6:29pm 
+Subscribing
+ 
+ Login or register to post comments 
+ 
+ #36 
+ Posted by NotesProf on February 20, 2010 at 7:02pm 
+ Title: Support for integration with USDA Nutrition Database »Subscribing Component: Code »Miscellaneous Assigned to: gajillion »NotesProf 
+ 
+My wife is desperate for the ingredients module, which means I have to be desperate too.
+ 
+ Login or register to post comments 
+ 
+ #37 
+ Posted by tzoscott on February 21, 2010 at 3:44pm 
+ Title: Subscribing »Support for integration with USDA Nutrition Database Assigned to: NotesProf »Anonymous 
+ 
+NotesProf, you just vandalized the Issue Fields. Don&apos;t do that. Thanks. :-)
+Instead, put &apos;subscribe&apos; in the Comment area if you want to subscribe (or any comment at all subscribes you).
+
+If you think any issue field needs modification, please read about Issue Fields in the handbook: http://drupal.org/node/314328 
+Assigning an issue to YOURSELF means you plan to fix it, and you will submit the patch...
+ 
+ Login or register to post comments 
+ 
+ #38 
+ Posted by webwriter on February 21, 2010 at 4:36am 
+Subscribe
+ 
+ Login or register to post comments 
+ 
+ #39 
+ Posted by vood002 on March 9, 2010 at 12:29am 
+Subscribing. Interesting ideas in this thread~
+ 
+ Login or register to post comments 
+ 
+ #40 
+ Posted by organizedhome on March 15, 2010 at 6:43pm 
+Subscribing
+ 
+ Login or register to post comments 
+ 
+ #41 
+ Posted by mosephine on March 30, 2010 at 5:59pm 
+It seems like there is continued interest in this project - is anyone still working on the code for implementing it? I&apos;d like to get involved, and it would help to work with people who already have something in progress.
+ 
+ Login or register to post comments 
+ 
+ #42 
+ Posted by jvandervort on March 30, 2010 at 6:36pm 
+I think there is plenty of interest, but I don&apos;t think any more work has been done (besides thinking about it) since 2008. It would be a nice addition if it could be _optionally_ integrated as a sister module without really messing up the recipe module. Now that we have cleaned up the recipe module quite a bit, this kind of thing becomes feasible once more.
+ 
+ Login or register to post comments 
+ 
+ #43 
+ Posted by apmsooner on March 31, 2010 at 7:22am 
+Hi I am very interested in this topic as well. I&apos;ve been looking through the USDA database files and the NUT_DATA table is huge with over 500,000 entries. I&apos;m thinking this equals well over 500,000 nodes so is this just going to crawl on drupal or require a dedicated server with more bandwidth?
+
+Other questions:
+Each food description in the food_des table relates to values in the nut_data table by nutr_no and a nutr_val field (nutrient value measured in 100 grams) is supplied for every nutrient attached to that food description. So for instance an egg would have several fields in the nut_data that would be values measured in 100 grams for protein, carbohydrates, fats, various minerals and vitamins, etc...
+My thoughts are to setup content types for each of the USDA tables and use the node reference field to form the relations. My idea is to setup the food_des fields as a node reference within recipe module and after selecting a food, you would then get a field to specify serving size which relates to the nut_data table. I don&apos;t think it would be a good idea to integrate the actual database into the recipe module but rather build functionality within recipe to work with the data. Reason I say this is because many of the food descriptions in the USDA table are actual recipes, not just ingredients. Example, a fast food listed in the USDA table would be an actual recipe with many ingredients so you&apos;d have to know the breakdown of all the ingredients and parse them out into separate ingredient entries in the recipe module. Thats not realistic nor useful in my opinion for the intent of this module therefore my intent is to use only some of the data from USDA and update manually if need be from there.
+My main question would be how to perform the math calculations for the different serving sizes in the weight table because all the weights are based on a 100 gram sample of the food. I know the calculation would be nutr_val (from nut_data table)* gm_wgt (from weight table) / 100 to convert from the 100 gram amount to something like cup, tbsp, etc.... What would be the best way to perform this conversion for optimal performance? Should a module be created that does the conversions or can this be done in views? I&apos;m not a php developer but I know about nutrition and have ideas of how to setup workflow for something like this. Just how technically is the best way?
+My interest is not so much in retaining all of the USDA data because for my case, I just want raw foods and not fast foods, baked goods, etc... Raw foods like eggs, meats, spices, won&apos;t change so once I get them in there I&apos;m good cause i can use them to build recipes if I can figure out how to do the conversions. I would like to use the recipe module to select nutrients from these tables to build healthy recipes and have a view that basically calculates nutritional breakdown for each of those items. If any developers share an interest in discussing this further, I&apos;d love to chat.
+ 
+ Login or register to post comments 
+ 
+ #44 
+ Posted by tzoscott on April 1, 2010 at 6:25pm 
+&gt;My main question would be how to perform the math calculations for the different serving sizes in the weight table because all the weights are based on a 100 gram sample of the food. I know the calculation would be nutr_val (from nut_data table)* gm_wgt (from weight table) / 100 to convert from the 100 gram amount to something like cup, tbsp, etc.... What would be the best way to perform this conversion for optimal performance? Should a module be created that does the conversions or can this be done in views?
+
+Ahh... you are touching upon core issues that are not easy to resolve: normalization and conversion of measurements. This in itself would be a major reform of the code that would (as you suggest) make integration like this a little bit easier. It covers a lot of issues I&apos;ve pondered, but can not get into in this ticket without changing the topic.
+
+There is a units module somewhere, BTW, but it doesn&apos;t look up to the task and would need patching if it were to be some sort of back-end helper for Recipe.
+
+My personal take on the issue of USDA integration:
+- That this would be an add-on module (depends on Recipe)
+- It should simplify and condense the USDA DB (see previous comments about the nutritional &quot;differences&quot; between 50 different types of salt, for example). Most likely this would be some cleanup scripts that target specific USDA releases, and those scripts need to be updated for each newer USDA release. The db cleanup would occur as part of install or upgrade of course, so there&apos;s no ongoing calculation penalty
+- It should take care of joining and linking to the Recipe DB
+- the current status of Recipe&apos;s measurement handling (or the lack of it) should be accepted and worked around. This means the &quot;USDA Add-on for Recipe&quot; module would handle all the unit conversions.
+
+This is how I see the problem and solutions anyways.
+
+It sounds like both John and I would love to help some new developer on this, but that someone or someones needs to pick this up, do the heavy lifting and get a working concept release (no matter how limited it is in terms of features) as a companion module.
+
+The trick is for this to happen before the solo developer loses interest or moves on, and it will have a life of it&apos;s own. Then the NEXT person looking at this will have a common area to contribute back their improvements. Community stuff.
+
+It looks like some of these issues HAVE been solved by some installations (see earlier comments), but these solutions have not been contributed back either because they are buggy/incomplete, or are too site-specific, or because there&apos;s been no place to store these ideas of patches.
+ 
+ Login or register to post comments 
+ 
+ #45 
+ Posted by pianomansam on April 1, 2010 at 6:46pm 
+I actually think a web service would be very useful. Let is respond to REST and then let the Drupal module plug into that API. This service could be local or hosted elsewhere.
+
+Or a scraper could be created that scrapes the USDA&apos;s online version of the database ( http://www.nal.usda.gov/fnic/foodcomp/search/ ).
+
+We&apos;d still have 50 different types of salt, though.
+
+For interface level, something like Hierarchical Select could be inspiration ( http://drupal.org/project/hierarchical_select )
+ 
+ Login or register to post comments 
+ 
+ #46 
+ Posted by apmsooner on April 1, 2010 at 7:55pm 
+I think the issue with the 50 different types of salt example could be resolved through taxonomy. something like this: &quot;herbs&amp;spices&quot;&gt;&quot;spices&quot;&gt;Salt = ingredient nodes that have to do with salt would all be assigned to the salt tag. Hierarchical select makes sense to me to drill down this way. I think we could definitely setup node types with node references connecting the relationships between USDA tables. As far as recipe module goes, the ingredient field would have to link to the ingredient content type as I&apos;m imagining it, select an ingredient through hierarchical select or whatever, and the nutrient values would be calculated on the backend based on serving size specified in the recipe UI. Then, I would guess the best way to display the total nutrient values would be in a block that sums up all the values for each corresponding ingredient entry.
+
+This module http://drupal.org/project/hs_nodereference might also be a way to drill down independent of taxonomy or even in conjunction with by setting up a views node reference that filters by taxonomy term.
+ 
+ Login or register to post comments 
+ 
+ #47 
+ Posted by pianomansam on April 2, 2010 at 4:16pm 
+apmsooner, Hierarchical Select has a much better UI, but we could utilize some of the code from hs_nodereference to modify it to accept our data.
+
+I&apos;ve moved on from needing this module immediately, but my client could come back and want it again so I&apos;m interested in helping see this happen.
+
+One of the thoughts I had to control the massive amount of ingredients is to make an ingredient node that sits between the USDA database and the recipe module. So the workflow would work like this:
+
+ USDA database -&gt;Ingredient(s) -&gt;Recipe 
+Each ingredient refers to an entry in the USDA database. Each recipe refers to many ingredients. So when you create an recipe, you have a cck nodereference type field that looks up ingredients. If a suitable ingredient has not been created, you can create one on the spot. This allows for an additional layer between the user and the USDA database so they don&apos;t have to dip into it each time. The more user created ingredients, the less users have to dip into the raw database. The Drupalized ingredient nodes then can have all nutrition information right within them, thus allowing modules to use drupal methods of gathering that info and not having to do costly SQL commands on the full database.
+
+For ingredient node creation within a Recipe, I would use this as inspiration: http://drupal.org/project/node_widget 
+
+Now, on the topic of recipe nutritional data calculation, there are two options on when this can happen: 1) On recipe creation, or 2) On recipe view. Option 1 would be ideal for performance reasons since it doesn&apos;t run every time the recipe node is viewed, but it has downfalls. If the ingredient is updated, all recipes with that ingredient will have to be updated as well. Still better than calculation for each recipe view. Another downfall is that portion/yield can be adjusted on the recipe page. When this occurs, manual recalculation will have to be made, probably via AJAX just like the rest of the portion.
+
+Finally, I&apos;m going to provide you with a copy of the recipe module for 5.x that I modified a while ago. The main modification is that the ingredient autocomplete pulls from the USDA database uploaded into the Drupal DB. There is also commented code that stores ingredients as taxonomy entries, but I have disabled that because when I stopped development I was moving toward the ingredient node idea.
+
+ Attachment Size recipe.module.zip 14.66 KB 
+ 
+ Login or register to post comments 
+ 
+ #48 
+ Posted by pianomansam on April 2, 2010 at 4:29pm 
+More thoughts on ingredient nodes.
+
+While RDF ( http://drupal.org/project/rdf ) presents some interesting standardized features, it might be too much for our purposes. CCK Nodereference will probably be sufficient. Especially when combined with something like Noderelationships ( http://drupal.org/project/noderelationships ).
+
+Since the purpose of ingredient nodes will be to shield users from the raw USDA database, I think their creation should indeed be handled within Recipe creation and edits, not as a separate process. A separate process would be too complicated and disconnected from recipes. Thus the on demand creation that node_widget provides would be preferred to http://drupal.org/project/autocreate or http://drupal.org/project/noderefcreate since ingredient data would be immediately available versus making the recipe nutritional data incomplete until the ingredient nodes are completed.
+ 
+ Login or register to post comments 
+ 
+ #49 
+ Posted by apmsooner on April 2, 2010 at 6:30pm 
+Node widget looks cool. I forgot about that one...
+
+Good discussion. I&apos;ll try to play around with some of these ideas over the weekend and see what I come up with. Computed fields module might be good to handle the calculations but will have to figure out the best way to store the code... I believe php code has to be stored in database for views to work right?
+ 
+ Login or register to post comments 
+ 
+ #50 
+ Posted by pianomansam on April 2, 2010 at 7:52pm 
+Computed Field will definitely give you an idea how to save data to a CCK field when a node is saved. Looking quickly through the source code, looks like that magic is done on the computed_field_field function (cck hook_field function). Unlike Computed Field, the user won&apos;t be entering data to be computed or evaluated. We&apos;ll simply be running our own data, which is actually much more simple of a job.
+ 
+ Login or register to post comments 
+ 
+ #51 
+ Posted by tzoscott on April 3, 2010 at 4:17pm 
+I could also add to this thought process --
+
+currently Recipe ingredients are *not* nodes.
+there&apos;s no reason that a future version of Recipe couldn&apos;t have the Ingredients act as proper Drupal Nodes... everything-as-nodes seems to be the direction D7 has chosen, where even Comments and Taxonomy have become Nodes (they are not nodes in D6).
+
+Ingredients-as-nodes would allow for all sorts of custom extensions via external modules. One extension could be a module that converts the USDA db into nodes (having filtered out the redundancy first) and then that ingredient &quot;node&quot; can have all it&apos;s associated nutritional data, photos of the ingredient, could support Node Reference so you can track back what nodes &quot;used&quot; or linked this ingredient (even if the node linking in were not Recipe related).
+
+I&apos;ve been thinking about ingredients-as-nodes for a while, but hadn&apos;t before considered how it could be helpful here. I should have my day job work caught up in a few weeks and then I&apos;ll have more time for Recipe development.
+ 
+ Login or register to post comments 
+ 
+ #52 
+ Posted by shunshifu on April 3, 2010 at 10:33pm 
+subscribing
+ 
+ Login or register to post comments 
+ 
+ #53 
+ Posted by apmsooner on April 4, 2010 at 1:39am 
+I think converting ingredients to nodes definitely creates some nice options here. I will convert the USDA tables to excel and highlight the columns that I believe are necessary for import and share on here for reference if you guys are interested. Alot of the info in some of the tables are just references for their studies which is unnecessary for us to import. For example, I don&apos;t need to know the standard deviation of the method in which they determined the weight of pork :)
+There is a food group table that categorizes the foods into certain categories but I am going to add an additional column that categorizes the food descriptions further to more easily group like foods. example, categorize all foods that have to do with salt with a &quot;salt&quot; tag in that column. I think this way we could import the data in and assign taxonomy at the same time. Node reference to the ingredients could then be based on views filtered by taxonomy and allow much easier/faster searching to assign to recipes. Again, there is also alot of junk stuff in there that I wouldn&apos;t use in my database but I could easily set the ingredients that I don&apos;t want to unpublished.
+
+If we get ingredients converted to nodes then the last big hurdle i see is that when portion size is determined in recipe module, that number needs multiply by the gram weights (specific to serving size) for each nutrient within the ingredient and then we will have our overall nutrient values for each recipe.
+ 
+ Login or register to post comments 
+ 
+ #54 
+ Posted by shunshifu on April 4, 2010 at 2:08am 
+ooh I was just looking at those tables. I was thinking the same thing. It would be great to categorize them better. I would really love to have your converted tables. Been looking at them all day to decide how to get them imported.
+
+I&apos;ll watch the thread and if I can help let me know.
+
+Phil
+ 
+ Login or register to post comments 
+ 
+ #55 
+ Posted by apmsooner on April 4, 2010 at 7:12am 
+nutritiondata.com is using the USDA tables along with the ability to create recipes from the data. You can setup a free account on that site and see how its constructed into the recipe section for reference.
+ 
+ Login or register to post comments 
+ 
+ #56 
+ Posted by apmsooner on April 4, 2010 at 7:57am 
+Okay looking into this a little further I realize nutritiondata.com also allows users to add an ingredient to their own food list which they can select from that list when adding ingredients to recipes. This is a really good way of doing it to eliminate the need to sort through 50+ entries for egg, salt, etc... How do you guys think about doing this in Drupal? I&apos;m thinking the flag module might be handy for doing this and then allowing the user to select ingredients from a view of flagged ingredients. This would make sense for people to be able to select only the common ingredients they use to create their recipes from. I encourage others to check out this site and offer up some ideas based on how to do what they are doing in drupal.
+ 
+ Login or register to post comments 
+ 
+ #57 
+ Posted by gajillion on April 4, 2010 at 4:26pm 
+Hey all,
+I stopped working on this a while back: changed hosting providers, jobs, drinking habits, etc. I&apos;ve recently resurrected what I had been working with on a dev box if you want to poke around: http://www.juric.org/eatandbefit (sorry about it being really slow... it&apos;s a very small test box).
+
+This site has a parsed version of the USDA data built into it and an autocomplete for finding ingredients. You can filter which top-level categories of the USDA database it pulls the autocompletes from by using the filter checkboxes. I wanted to make that a pop-up but at this point the functionality is more important. The Nutrition table isn&apos;t completed yet, but in theory that will auto-populate based on the ingredients, units, and quantity selected.
+ 
+ Login or register to post comments 
+ 
+ #58 
+ Posted by shunshifu on April 4, 2010 at 5:20pm 
+Hi Gajillion,
+
+Well we hope the change of job, hosting, and drinking habits is a happier and healthier move for you.
+
+Just wanted to say, Love what you are doing and can&apos;t wait to see it. I added a recipe, hope you like it.
+
+Phil
+ 
+ Login or register to post comments 
+ 
+ #59 
+ Posted by apmsooner on April 4, 2010 at 9:57pm 
+Thanks for sharing Gajillion. Cool stuff. Have you actually imported the nut_data table (the huge one with over 500,000 records) yet? I&apos;ve successfully used the node import module to import food_desc, weights, and food_grp tables mapping the fields to content types that I set up with fields that match the data definitions in USDA pdf file. I&apos;ve had no problems getting the data in and mapping the node reference fields to match the tables so pretty cool. I&apos;m fretting over the nut_data table though because I think thats going to take several hours given the amount of records. Did you use node import or did you use php my admin directly? Wonder if the latter is faster?
+ 
+ Login or register to post comments 
+ 
+ #60 
+ Posted by apmsooner on April 4, 2010 at 9:59pm 
+Also, what are your ideas to calculate the nutrients once the data is in there? Please share if you don&apos;t mind how you&apos;re going about this.
+Thanks
+ 
+ Login or register to post comments 
+ 
+ #61 
+ Posted by gajillion on April 5, 2010 at 2:54pm 
+I&apos;ll have to go over my code, but yes, I do load the entire table. However, the nutrition module I&apos;ve written gives you 3 options: Don&apos;t use any USDA information, load a local copy of the USDA database (default), or use a USDA database in a separate DB instance (not thoroughly tested. The idea was you could send queries off to a completely separate, beefier box that contains the USDA nutritional information).
+
+Loading the entire database was a real pain in the butt. I ended up bypassing Drupal for the most part and using native php code because the MySQL calls would time out with so much data. I&apos;ve also done a lot of pre-parsing of the data. I&apos;ve created 2 custom tables: food-to-food-groups and a breakdown of the food-groups in a hierarchy to make categorization and searching easier. That second table is the key to performance and parse-ability in my opinion. With few exceptions (though there are some), the long descriptions of items in the USDA database follow their categorization, separated by commas. For example:
+
+Chicken,broilers or fryers,dark meat,meat and skin,raw
+
+The top level group of &quot;fowl&quot; is USDA Group ID 500 and Chicken is given the arbitrary ID 11477
+
+(&apos;0500&apos;,&apos;11477&apos;,&apos;Chicken&apos;),
+
+I now create a hierarchy for everything under there:
+
+(&apos;11477&apos;,&apos;11478&apos;,&apos;broilers or fryers&apos;),
+(&apos;11477&apos;,&apos;11649&apos;,&apos;canned&apos;),
+(&apos;11477&apos;,&apos;11653&apos;,&apos;capons&apos;),
+(&apos;11477&apos;,&apos;11666&apos;,&apos;cornish game hens&apos;),
+(&apos;11477&apos;,&apos;11675&apos;,&apos;feet&apos;),
+... etc.
+
+So to build our raw chicken dark meat fryers, we have
+
+(&apos;0500&apos;,&apos;11477&apos;,&apos;Chicken&apos;),
+(&apos;11477&apos;,&apos;11478&apos;,&apos;broilers or fryers&apos;),
+(&apos;11478&apos;,&apos;11509&apos;,&apos;dark meat&apos;),
+(&apos;11509&apos;,&apos;11510&apos;,&apos;meat and skin&apos;),
+(&apos;11510&apos;,&apos;11517&apos;,&apos;raw&apos;)
+
+By breaking down the USDA database into a hierarchy, we can create unique paths through it to make search significantly faster than doing row by row selections.
+
+I added an &quot;abbreviated&quot; version of the USDA table for addition of your own food items. My thoughts on filling out the nutrition table were pretty generic. Basically once you select an ingredient using the above drill-down methods, you&apos;ll have the USDA ID for that food item. Then, once you have units, you can then select that item from the USDA database and calculate the values and populate the nutrition table using DHTML (every field in the table has a unique SPAN ID: e.g., ) Custom ingredients can be added to the abbreviated table, or entire recipes can be added by summing up the results of each line item of the recipe multiplied by the units and quantity.
+
+You&apos;re all welcome to the code but I&apos;m just not sure where to put it. It&apos;s way to experimental for general use and not really fleshed out, but a good place to start beating on things I suppose.
+ 
+ Login or register to post comments 
+ 
+ #62 
+ Posted by pianomansam on April 6, 2010 at 5:04pm 
+Great discussion, everyone. Let&apos;s keep this going!
+
+There are three approaches I see coming together to integrate the USDA database with Drupal.
+
+1) Completely external database. This is the approach of gajillion. The benefit of this is that you can host the tables in a separate database, perhaps in the cloud. This also allows a custom scheme to sit in between the raw database and the user&apos;s ability to add ingredients. Issues this would run into would be coming up with that scheme and letting users add ingredients that are outside the scheme. Also, this would not result in ingredient nodes.
+
+2) Complete import of ingredients into nodes. This is apmsooner&apos;s approach. This overcomes a shortcoming of #1 because all ingredients are accessible. However this creates a HUGE Drupal database install. All maintenance tasks on the Drupal database are now monstrously large, and maintaining such a huge Drupal database would be a nightmare. If someone just wanted a simple recipe component of their site, they would now have the headache of managing a huge install just to get recipes.
+
+3) Community driven on demand creation of ingredients. This is the approach I mentioned, and is a hybrid. between #1 and #2. In this approach, the USDA datase base remains external to Drupal and can be hosted anywhere. Some sort of scheme can be used to organize it better, but that isn&apos;t essential. It avoids the flexibility shortcoming of #1, though, because users can add any ingredient to their recipe pulling either from ones already created by the community or creating a new one. It avoids the performance and management shortcomings of #2 because it doesn&apos;t instantly create a massive Drupal database but rather lets users create a range of ingredients common to them. The concerns this approach would have would still be helping manage the ingredient nodes and a UI that lets users easily create and maintain ingredients.
+
+On another note, one more argument for making ingredients be nodes is that reverse operations can be done. Currently ingredients belong to recipes. But recipes could be found based on ingredient using built in Drupal methods if ingredients were nodes. For example, users could create an &quot;ingredient cupboard&quot; that lists all the ingredients and amounts in their house. Then, with some Views or SQL magic, they could look up all the recipes they have the ability to create based on their current ingredient collection. Ingredient nodes would also assist creation of shopping lists(!), and combined with the ingredient cupboard, smart shopping lists that only show what&apos;s left to buy.
+ 
+ Login or register to post comments 
+ 
+ #63 
+ Posted by apmsooner on April 6, 2010 at 5:49pm 
+Well I&apos;ve seen a few sites that have all the table information in there and don&apos;t see any slow performance in the queries. I think the key is as Pianoman mentions in that last statement to allow user&apos;s to build their own favorite ingredient lists to customize ingredient selection and speed up queries. I can&apos;t imagine integrating the USDA tables as an install feature for recipe module since they are so big however, if node templates are created that match the fields in those tables than user&apos;s can elect to import data into those tables as they wish. I had no problem importing the tables using the node import module but havn&apos;t done the huge one yet (nut_data). I plan to split that up into chunks and import a little at a time to prevent any timeout issues. I think if we can at least get ingredients as nodes, then the next nice to have feature in recipe module would be the code to calculate the nutrient values referenced to that ingredient and display them in a block. I could put together a guide of what fields are critical for each node template and specify the calculations that need to occur. I could also put together a how to guide to import the data. If this is helpful to the module maintainer, let me know and I&apos;ll work on that when I get some free time. Example, See attached screenshot for the food_desc table I set up in drupal with node reference to the food group table.
+
+ Attachment Size food_desc.png 36 KB 
+ 
+ Login or register to post comments 
+ 
+ #64 
+ Posted by apmsooner on April 6, 2010 at 5:55pm 
+here&apos;s a few more screen shots of the other node setups.
+
+ Attachment Size food_group.png 26.55 KB weight.png 26.57 KB nut_data.png 36.88 KB 
+ 
+ Login or register to post comments 
+ 
+ #65 
+ Posted by izmeez on April 6, 2010 at 6:33pm 
+All this discussion is great. I&apos;m way behind you all, but I&apos;m wondering if this will be like an API, that recipes and other modules could utilize? There are many others uses it could be put to.
+
+From the experiences reported it sounds like the USDA Nutrition Database definitely needs some refinements and even then the resulting database is large but can be hosted separately. How would the database be updated? Are there other similar and reliable databases with additional nutrition details?
+
+Could a module use such an API to search the database or use a select-box with auto-fill as the user types, and fetch a specific record? And have a content type with a name-title and a field for the nutrition#record. The content type could include flags to indicate if there are multiple records for similar items such as &quot;salt&quot; providing an alert and possibly a drop-down box in the module UI to show and even select one of the others.
+
+An application can create nodes for the &quot;ingredients&quot; as it needs.
+
+Maybe this would be like an API and a cck-field module.
+
+Sorry, if I&apos;m getting carried away. Thanks,
+
+Izzy
+ 
+ Login or register to post comments 
+ 
+ #66 
+ Posted by tzoscott on April 7, 2010 at 1:37am 
+You /wouldn&apos;t/ want to re-calculate nutrition every time you load the recipe. The Drupal caching API should be of help with this sort of thing, so the difference in displaying these bigger data sets should be nil (should... I haven&apos;t looked at caching yet for any previous work.).
+ 
+ Login or register to post comments 
+ 
+ #67 
+ Posted by pianomansam on April 8, 2010 at 3:02pm 
+apmsooner, we won&apos;t know if there is a performance hit until we get all the data in there. I still think there will be, and the process of getting the entire USDA database into Drupal will make using this aspect of the recipe module too much work for someone with a small site. Keeping the database separate and importing on demand will avoid this, as well as opening up the possibility of creating an API as Izmeez mentions. This API then can be used in other systems and ultimately become something very useful to anyone interested in using the USDA database in their application. Put it in the cloud with a CDN and you could start a paid service and generate income.
+
+tzoscott, you are right. We wouldn&apos;t want to re-calculate nutrition every time the recipe is loaded. Nutrition should be calculated:
+
+1) When the recipe is created/modified
+
+AND
+
+2) When the ingredients is contains are modified (reverse lookup)
+ 
+ Login or register to post comments 
+ 
+ #68 
+ Posted by apmsooner on April 10, 2010 at 6:08pm 
+Hey I&apos;m open to whatever works the best and perhaps external database that just plugs into recipe module is advantageous as long as the ingredients that are in there can be filtered or flagged for use in the recipe UI so we don&apos;t have a bunch of ingredients that some of us would never use. Again just for reference, here is the formula for calculating the nutrient values:
+
+N = (V*W)/100
+Where:
+N = nutrient value per household measure (this is the value we&apos;re looking for)
+V = nutrient value per 100 g (Nutr_Val in the Nutrient Data file), and W = g weight of portion (Gm_Wgt in the Weight file).
+
+Take this number &quot;N&quot; and multiply it by the &quot;yield&quot; number of servings in recipe module and we have what we&apos;re after. I&apos;m no programmer but perhaps you add to the recipe module a function that performs the math above, creates a variable of the value of N and then apply that variable to the yield function I believe already in recipe module and thus outputs result in table. If it can be cached as mentioned in earlier thread then perhaps thats the way to go but my understanding is that the values would have to be stored in the database for each ingredient instance that occurs in each recipe node. Perhaps you&apos;re referring to the caching of the actual variable created through the function of getting value of &quot;N&quot; to speed up calculating? Sounds logical anyways... I look forward to this feature as it would be a sweet addon to the already awesome recipe module!
+ 
+ Login or register to post comments 
+ 
+ #69 
+ Posted by NoDice on April 12, 2010 at 11:12pm 
+subscribing
+ 
+ Login or register to post comments 
+ 
+ #70 
+ Posted by xkater on April 13, 2010 at 12:03am 
+sub
+ 
+ Login or register to post comments 
+ 
+ #71 
+ Posted by boblangdon on April 15, 2010 at 12:16pm 
+Here&apos;s a simplified USDA sr22 schema and dump I use in a calorie-counter app I&apos;m using on a dev site if it helps. (The app DOES NOT work right in IE yet, but that&apos;s just a css thing).
+
+ Attachment Size USDAv.sr22.sql_.gz 262.53 KB 
+ 
+ Login or register to post comments 
+ 
+ #72 
+ Posted by apmsooner on April 28, 2010 at 5:26pm 
+I don&apos;t want this thread to dry up and I&apos;ve done a little more research into what I believe needs to happen for all this to work. There are various modules mentioned in assisting the functionality we need however I don&apos;t think there is a complete answer for our objective so I&apos;ve outlined some objectives and explanation around perhaps how to go about this and leave it up for discussion.
+1. We&apos;ve already identified the need to make ingredients nodes in the recipe module. But the big question is how to we use an autocomplete widget in that field to pull an ingredient from the database in an elegant way, meaning not pulling from 8,000 records. My thoughts around this would be that we could use a widget like node hieararchy select or node reference explorer ( http://drupal.org/project/nodereference_explorer ) to get the ingredient node populated into the ingredient field.
+2. Once we get the ingredient node populated into the ingredient field we need to think about how to pull in units specific to that ingredient. This would ultimately pull from the weights table rather than the current units setup in recipe module. Reason being, weights are calculated specifically to the type of ingredient for appropriate nutrient values therefore we cannot select from all generic unit values because the nut_data table values only pertains to the measurements identified by USDA. So if we have a dropdown field for the weights table that references the food description table, how do we filter by only the weights that reference to the food description selected in the previous field? It seems as though a dependent dropdown field that uses ahah functionality would be most suitable. Example provided here: http://drupal.org/node/524220 
+3. it seems once we get over these 2 major hurdles, we can figure out how to calculate nutrient values for each ingredient and for overall recipe based on number of servings.
+4. As a sidenote, I think it would be advantageous to be able to also create ingredients independent of recipes to create a food journal for dieting. What i mean by this is that the food_desc table from USDA is not exactly just composed of &quot;ingredients&quot;. They are food items that people might want to track in a daily journal. Come to think of it, the ability to create a &quot;meal&quot; node that references &quot;ingredients&quot; in the same manner recipe module would so someone could create meal then attach foods accordingly that come from USDA food desc table. So for instance, I want to create a meal called &quot;breakfast&quot; and then attach individual food items like: 1 whole egg, 1 slice bread, 2 apples, etc... and also perhaps have the ability to attach a recipe as a meal item as well... &quot;omelet&quot;?
+
+Okay so the ideas around this project have grown into something probably much more complex than originally anticipated but in doing some brainstorming here I think we can slowly grow the recipe module into something bigger and better if up to the challenge. I can contribute ideas conceptually but my lack in programming limits progressing this along to where it needs to be. I&apos;d like to have some feedback nonetheless of some of the ideas poised here and determine whats doable. thanks!
+ 
+ Login or register to post comments 
+ 
+ #73 
+ Posted by tzoscott on April 28, 2010 at 6:30pm 
+I have been following this for some time. Here is my personal advice to the developers considering this:
+
+&quot;Release early and release often...&quot;. Scale back your requirements so that you can get a 0.1 cooked demo running inside of a weekend or a busy day.
+
+For example:
+
+A Node-aware module that can be tacked onto Recipe as a &quot;field&quot;, using CCK (much like how you can tack &quot;FiveStar&quot; onto Recipe).
+This Nutritional Info &quot;field&quot; would simply display a white box, with the commonly used labels (Protein, Fat, Sodium, etc).
+That&apos;s IT for 0.1.
+Don&apos;t even try to calculate anything, no USDA db yet, just display cooked dataset linked against the recipe Node ID, in the correct graphical Nutritional Information box that everyone recognizes.
+
+This gets something in the hands of users (those willing to install a -dev release) and provides some feedback and encouragement.
+
+Otherwise, there&apos;s just so many issues that it&apos;s like shooting for a &quot;perfect&quot; 1.0 release. The bigger the task, the more likely that someone has to move onto other things before a release gets out.
+
+All the other issues can be tacked on gradually.
+
+OK I am not working on this but that&apos;s my thought.
+ 
+ Login or register to post comments 
+ 
+ #74 
+ Posted by pianomansam on April 28, 2010 at 8:53pm 
+tzscott, good call on breaking things down. If had to envision the releases, it&apos;d go something like this:
+
+Release 1 - Ingredients as nodes. This includes a working and elegant UI for selecting ingredients within recipes and calculating their nutritional value.
+
+Release 2 - USDA Ingredient DB integration. Whichever of the three options we go with, this will happen at this stage.
+
+Release 3 - Cupboard / Shopping List. The idea I mentioned that lets users enter the ingredients they have and create smart shopping lists that tell them what they still need to buy for recipes, and possible also search for recipes that they already have all the ingredients for.
+
+Release 4 - Meal Plans (apmsooner&apos;s idea ). This is actually a really exciting idea, and something I was considering as a separate module for one of my clients, Better Weight For Me . Combine this with recommended calories for each user, and you have a smash bang system.
+ 
+ Login or register to post comments 
+ 
+ #75 
+ Posted by pianomansam on April 28, 2010 at 9:07pm 
+My argument for having calculations within Release 1 is that we&apos;d probably want to match the current functionality of the module. The module currently calculates nutritional information, so we should have that in Release 1. In order to calculate nutritional information, we&apos;ll need to iron out units, as apmsooner brought up. This will make a simple nodereference unusable. We&apos;ll have to come up with a custom/modified cck widget to make this happen. Probably modifying Node Widget to pair a text input for quantity and a selectbox for unit in addition to the nodereference.
+ 
+ Login or register to post comments 
+ 
+ #76 
+ Posted by apmsooner on April 28, 2010 at 9:32pm 
+Okay so say we make ingredients as nodes, can we match the food_desc table field definitions as a prerequesite? I&apos;m not talking about changing the UI at this point in selecting ingredients but would just want to ensure that the necessary fields are in the &quot;ingredient node&quot; table so the food_desc table can be appropriately mapped and imported via phpmyadmin. Next thing, perhaps we can ensure that the units used in the USDA weights table match to the available already existing units table. Is there any thought of making units &quot;nodes&quot; as well? If we can add the units we need to match then we&apos;re good. If we have ability to add CCK field to units table for gram weight as well then we&apos;re moving in the right direction to be able to do calculations at some point. Again, this does nothing to change the current UI of recipe module, just sets up the tables to be more usable to relate via node references and stuff to bring this all together eventually. Once we have ingredients as nodes with the right table structure and units as nodes to match weight table then we at least have the ability to add CCK nodereference of nut_data nodetype on our own to the ingredients table and perhaps we can work through the UI enhancements down the road to make all this work together. Even if we did nothing to the current recipe module but copied the basic assets of recipe to create a separate USDA recipe module where people can contribute to as a side project?
+ 
+ Login or register to post comments 
+ 
+ #77 
+ Posted by jvandervort on April 28, 2010 at 9:58pm 
+If we are getting close to beginning this endeavor how about breaking it into related parts:)
+We need to move recipe towards recipe module +usda module while keeping recipe stand-alone.
+
+So recipe would need:
+1. ingredients as nodes
+2. a new ingredient autocomplete widget (because of the possible large number of ingredients).
+
+usda would need:
+1. a way to link ingredient nodes to usda items (link may include a quantity impedance factor).
+2. to calculate nutritionals for a recipe node&apos;s usda-linked ingredients(with a note about unlinked ingredients).
+3. views/themes/searches to expose the new nutritionals.
+
+Uses:
+1.view a node, see typical nutritional box (on a tab or not).
+2. search for recipes with&lt;X grams of fat?
+3. sort list of recipes by milligrams of sodium?
+others??????? What do you guys plan to do with this?
+
+Implementation questions:
+1. Do we need to import nutrition info into ingredient nodes?
+2. Do we need to import full nutritional info into recipes?
+3. What happens when usda changes schema or users want stats on stuff that doesn&apos;t make the label?
+4. What happens when someone disables and uninstalls the usda module and runs plain recipe again?
+5. How would someone extend the new module to includes ingredients that are Kosher, grown x-miles from his house, or &quot;may contain peanuts&quot;?
+
+And lastly my 2 cents:
+We still need to make sure recipe stands on its own and is still simple to use/install/import/export/etc...
+ 
+ Login or register to post comments 
+ 
+ #78 
+ Posted by jvandervort on April 28, 2010 at 10:09pm 
+A separate question, why ingredients as nodes? To use node selection tools? or
+let people build up expansive ingredient info pages with pictures and stuff?
+
+I still feel most ingredient nodes will just have a title and that&apos;s it.
+
+Also right now if you change a recipe ingredient from salt to tomato the module
+handles it by removing the salt ingredient and adding the tomato ingredient.
+In the future I have 400 recipes that use salt and someone changes the salt ingredient node
+to pepper it just modified 400 recipes to be incorrect and I don&apos;t have a good way to fix
+it if I&apos;m not sure what happened or didn&apos;t notice it. For me this is a big deal.
+ 
+ Login or register to post comments 
+ 
+ #79 
+ Posted by apmsooner on April 28, 2010 at 10:35pm 
+Implementation questions:
+1. Do we need to import nutrition info into ingredient nodes?
+ANSWER-Not necessarily, we need the ability to import just the USDA food_desc table into ingredient nodes. The other USDA tables can reference the ingredient node as other nodes.
+2. Do we need to import full nutritional info into recipes?
+ANSWER-No, we just need to have ingredient nodes to match food_desc table. Where recipe comes into play is in the node_recipe_ingredient ui part I believe. The ingredient field needs to match the ingredients table (food_desc) and the units field needs to match a units table that allows for values that are already in USDA weights table. Additionally, it would be optimal for units field to be filtered based on ingredient since gram weights are only associated for certain units with USDA.
+3. What happens when usda changes schema or users want stats on stuff that doesn&apos;t make the label?
+ANSWER-My opinion... who cares. USDA isn&apos;t going to discover anything really new about salt, apples, beef, eggs, etc... I think where they will make changes are to fast food/restaurant items which I personally don&apos;t find useful anyway because those aren&apos;t ingredients and would have no value interfacing with recipe module for obvious reasons. Even so, user can manually add whatever they want as individual nodes as they wish assuming ingredients are &quot;nodes&quot;. Furthermore, lets not enforce the USDA data as part of the module, let the user manage getting the data in there and managing ongoing.
+4. What happens when someone disables and uninstalls the usda module and runs plain recipe again?
+ANSWER-I guess that just depends on how its connected and/or depended on.
+5. How would someone extend the new module to includes ingredients that are Kosher, grown x-miles from his house, or &quot;may contain peanuts&quot;?
+ANSWER-ingredients as nodes would allow someone to add, edit, delete whatever ingredients they want independent of recipe.
+
+Furthermore, I don&apos;t feel it necessary to try to import the USDA database as part of the module. I think having the framework in place to accept imported data from USDA database tables would be the objective which means:
+1. make ingredients nodes - so we can attach additional cck fields that map to the food_desc table, including node references to other nodes (ie; nut_data)
+2. make units nodes? - allow custom units creation where the USDA weights table can be imported into. Additionally, this allows us to add CCK fields to unit node for gram weight.
+
+I think if this basic framework is in place, then its optional if someone wants to import the USDA data into the tables to customize their own version of recipe. Hope that helps....
+ 
+ Login or register to post comments 
+ 
+ #80 
+ Posted by tzoscott on April 29, 2010 at 6:33pm 
+&gt;&quot;A separate question, why ingredients as nodes? To use node selection tools? or
+let people build up expansive ingredient info pages with pictures and stuff?&quot;
+
+Yes/Correct.
+
+&gt;&quot;I still feel most ingredient nodes will just have a title and that&apos;s it.&quot;
+
+I would agree.
+
+If I possibly &quot;read into&quot; this statement as concern about bloating things by making them nodes, I am not worried. The bar for node-making should be, would that be useful to another module? (there&apos;s probably a better way to phrase that).
+
+The point of nodes now is to let these things be independently extended or used by other users and developers, without affecting the original and intended use. This discussion is a use case.. if we make ingredients nodes, people can push ahead without much co-ordination from Recipe.
+
+&gt;&quot;Also right now if you change a recipe ingredient from salt to tomato the module
+handles it by removing the salt ingredient and adding the tomato ingredient.
+In the future I have 400 recipes that use salt and someone changes the salt ingredient node
+to pepper it just modified 400 recipes to be incorrect and I don&apos;t have a good way to fix
+it if I&apos;m not sure what happened or didn&apos;t notice it. For me this is a big deal.&quot;
+
+Not actually. Ingredients are normalized and abstracted in a mini-node like system. All recipes using an ingredient point to an ingredient id, not a word. Replacing items in one recipe replaces that one pointer. Even if you renamed an ingredient (which you shouldn&apos;t to unless it&apos;s a synonym), that would just rename the ingredient.id&apos;s name.
+
+Or do you see another issue?
+ 
+ Login or register to post comments 
+ 
+ #81 
+ Posted by pianomansam on April 29, 2010 at 7:45pm 
+If we&apos;re not initially going to have nutritional value, then a name would be enough for ingredient nodes. Unless we also want certain ingredients to have access to certain unit measurements, then that would also be a property.
+ 
+ Login or register to post comments 
+ 
+ #82 
+ Posted by jvandervort on April 29, 2010 at 8:07pm 
+@tzoscott, another issue perhaps.
+Since we are creating an ingredient editing system where you change the ingredient without seeing the recipes, people might not understand what they are doing. The only reason we avoid this now is because there is no way to edit ingredients now. So once you enter a recipe, it creates ingredients as needed, but never renames/deletes them. The ingredient=editable_node is a new paradigm that we have to be watchful of. I think there are unforeseen consequences to this workflow(can you say newbies:). I think a lot of people come to recipe from the &quot;keep a bunch of recipe emails in my inbox&quot; background, and may not see the problem of changing an existing ingredient.
+
+ex.
+recipe1 uses Gebhardt&apos;s chili powder
+someone while adding recipe2 wants a plain chili powder, they edit the ingredient to
+chili powder, then add it to recipe2. While technically accurate, they just screwed up recipe1
+which was written by someone that knows that Gebhardt&apos;s tastes quite a bit different than
+McCormick/Schilling&apos;s Chili Powder. The current immutable ingredient system avoids this.
+
+PS: I don&apos;t care about the bloat really, I think the node system can handle it just fine. Just the new work flow.
+ 
+ Login or register to post comments 
+ 
+ #83 
+ Posted by apmsooner on April 29, 2010 at 9:11pm 
+So if I&apos;m understanding all this correctly, the current table recipe_ingredient would be the one made into node. If we can do this then we have the ability to add cck field of ndb_no which would serve as unique identifier for all the other usda tables to reference to. One problem remains that we need to consider however. Currently the weight table for USDA relates to ndb_no in food_des table (which would be stored in recipe_ingredient). The way recipe is setup now is with a table called recipe_node_ingredient that connects table recipe to table recipe_ingredient and also holds unit_id that connects to recipe_unit table. We still have the USDA weights table that has to relate somewhere in this mix in order to pull the nutritional values for each USDA ingredient. Do we somehow incorporate this table into units table and add field for ndb_no which would then relate back through recipe_node_ingredient&gt;recipe_ingredient&gt;nut_data? I hope this is making sense. Essentially, the weights table holds specific weights for specific ingredients and I think the current use of units table is generalized just to store a record in recipe_node_ingredient table therefore not dependent on the type of ingredient to filter for specific weights.
+ 
+ Login or register to post comments 
+ 
+ #84 
+ Posted by apmsooner on April 29, 2010 at 9:14pm 
+Perhaps putting together graphical representation of the current table layout compared to what we are proposing would be helpful to understand?
+ 
+ Login or register to post comments 
+ 
+ #85 
+ Posted by tzoscott on April 30, 2010 at 3:11am 
+I put one in recipe/README.txt, quoted for convenience here:
+
+&quot;Data is saved in normal form. Recipes are collections of pointers to
+ingredients and to quantity terms. New terms can be added by modifying the
+schema. New ingredients are added automatically whenever they are used for
+the first time.
+
+Following is an ASCII art attempt to illustrate the DB relationships:
+
+
+ node.nid +--------------+     +------------------+     +-------------+     +--------------+
+^   | recipe       |     | _node_ingredient |     | _ingredient |     | _unit        |
+|   +--------------+     +------------------+     +-------------+     +--------------+
++---| nid          |&lt;--  | id               |   +-| id          |  +--| id           |
+| source       |  +--| nid              |   | | name        |  |  | name         |
+| yield        |     | unit_id          |&lt;-+| | link        |  |  | abbreviation |
+| instructions |     | quantity         |  || +-------------+  |  | metric       |
+| notes        |     | ingredient_id    |&lt;-|+                  |  | type         |
+| preptime     |     +------------------+  +-------------------+  +--------------+
++--------------+ 
+&quot;
+I don&apos;t know who designed the original implementation, but it&apos;s pretty good in that everything&apos;s abstracted/normalized.
+This does make it less straightforward to &quot;query a recipe&quot;, but it&apos;s more maintainable.
+ 
+ Login or register to post comments 
+ 
+ #86 
+ Posted by tzoscott on April 30, 2010 at 2:44am 
+John&apos;s right about the ingredient node issues.. they need to be planned out. A quick response is, Permissions could let you forbid most users from renaming an ingredient (or at least, from renaming someone else&apos;s...)
+
+Maybe they could be prohibited from renaming... so the only way to &quot;replace&quot; ingredients would be with some kind of bulk command, one which forces you to at least view a list of &quot;affected recipes&quot; and who owns them. Not perfect, but users of Node Reference (a neat CCK module) get burned if someone radically changes a node that is referenced. Although, I could see that type of thing happening more on a system like Recipe, where there could be more push and pull on the recipe db.
+
+I&apos;ll say that overlapping or unnecessary ingredients are a huge pet peeve - kind of like &quot;freetagging&quot; on websites, the value of the vocabulary diminishes more as a greater number of people tag something (just look at the freetagging of bookmarks on Del.icio.us..).
+
+On the plus side, ingredients as nodes DOES give a standard UI for deleting ingredient nodes, and it&apos;s for free.
+
+John and I tend to not be rash at putting things in (and lately, I haven&apos;t put anything in at all, it&apos;s been all John). So this ingredient node idea needs to &quot;stew&quot; some more, and probably needs proper specifications (especially to support upgrades and permissions). This would be additional reason to consider the approach I recently suggested, where this add-on module could move forward without anything happening yet in Recipe.
+ 
+ Login or register to post comments 
+ 
+ #87 
+ Posted by pianomansam on April 30, 2010 at 1:29pm 
+The issue of the community being able to change ingredient nodes and affecting all recipes that use them can be alleviated with a separate permission to Add and/or Edit ingredients. This gives some sort of moderation capabilities, perhaps even combined with full blown moderation like modr8 .
+ 
+ Login or register to post comments 
+ 
+ #88 
+ Posted by shunshifu on May 23, 2010 at 8:09pm 
+Anything happening on this. I hope so this would be a valuable contribution
+ 
+ Login or register to post comments 
+ 
+ #89 
+ Posted by WhenInRome on May 25, 2010 at 4:15am 
+subscribing
+ 
+ Login or register to post comments 
+ 
+ #90 
+ Posted by saud.rehman on June 3, 2010 at 2:42pm 
+Hi apmsooner,
+
+Can you tell me how to find the DV (% daily Value). I mean the formula based on the values from the tables.
+
+saud
+ 
+ Login or register to post comments 
+ 
+ #91 
+ Posted by apmsooner on June 4, 2010 at 4:39am 
+Saud,
+
+N = (V*W)/100
+Where:
+N = nutrient value per household measure (this is the value we&apos;re looking for)
+V = nutrient value per 100 g (Nutr_Val in the Nutrient Data file), and W = g weight of portion (Gm_Wgt in the Weight file). See page 25 of attached document for reference. If your working on a module for this, I&apos;d love to test it out. Let me know if you have any other questions. My conclusion was that it would need some ajax in dependent dropdown fields to make a user interface work but perhaps you have other ideas.
+
+ Attachment Size sr22_doc.pdf 196.03 KB 
+ 
+ Login or register to post comments 
+ 
+ #92 
+ Posted by saud.rehman on June 4, 2010 at 8:43am 
+Hi apmsooner,
+
+Plz see the attached file. I already know what you are telling me. I am asking about some thing else.
+
+*What I feel is that we dont have this data in the USDA tables and we have to take it from some where else.
+
+Plz reply soon.
+
+Thanks.
+
+ Attachment Size recipezaarnutritionfacts.JPG 42.88 KB 
+ 
+ Login or register to post comments 
+ 
+ #93 
+ Posted by apmsooner on June 4, 2010 at 2:33pm 
+Yeah I don&apos;t think that info is provided in the tables. I would assume %dv means percent of recommended daily intake. Might check FDA website perhaps...
+ 
+ Login or register to post comments 
+ 
+ #94 
+ Posted by izmeez on June 4, 2010 at 10:19pm 
+@apmsooner in #91
+
+The USDA pdf file you reference contains a lot and is quite dense to plow through.
+
+But, on the top of page 13 there&apos;s a line that caught my eye. I&apos;m not sure what thoughts it might stir if any so here goes,
+
+&quot;When the protein content of a multi-ingredient food (e.g., beef stew) is calculated using the recipe program of the NDBS the specific nitrogen to protein conversion factors are applied at the ingredient level.&quot;
+
+Is there more information on &quot;recipe program of the NDBS&quot; that could be useful in helping to determine the key fields for the recipe module?
+
+Or do we have enough to determine what values to store in the drupal database and what calculations to perform on them.
+
+Thanks,
+
+Izzy
+ 
+ Login or register to post comments 
+ 
+ #95 
+ Posted by apmsooner on June 5, 2010 at 3:30pm 
+See the screenshots on my posts #63&amp;#64. I setup some sample content types with all the necessary fields in reality, nitrogen factor wasn&apos;t a real important thing in my opinion at least for my needs. My feeling is that the database would be great to calculate for ingredients that can become components of recipes in the recipe module. Some of the entries in the USDA tables however are &quot;recipes&quot; themselves that I would not even incorporate into my own database. I would rather use the raw ingredient values and comprise my own recipes from them. You&apos;ll notice in the USDA database theres alot of stuff for fast foods, snacks, etc... and they certainly don&apos;t even come close to accounting for all of them so personally I think those food categories are useless. Stuff like meats, spices, vegetables, (raw components) that can be used to build recipes I think is what we should be focused on using from the tables for a module that would plug into recipe module.
+ 
+ Login or register to post comments 
+ 
+ #96 
+ Posted by Rollike on June 14, 2010 at 5:50am 
+I hope it is okay that i am asking :)
+Do you think it will be possible to make this work for sites in other laguages?
+
+Thanks in advance
+Mette
+ 
+ Login or register to post comments 
+ 
+ #97 
+ Posted by WhenInRome on June 23, 2010 at 2:26am 
+Hows the dev going on this? I&apos;m willing to donate some money to a dev so we can get the ball rolling on this and completed?
+ 
+ Login or register to post comments 
+ 
+ #98 
+ Posted by Shadlington on July 4, 2010 at 4:06pm 
+I couldn&apos;t see that this had already been mentioned so I&apos;d just like to say that www.recipezaar.com uses the USDA database to great effect.
+Achieving something similar would be fantastic.
+
+I can&apos;t wait to see what comes out of this!
+ 
+ Login or register to post comments 
+ 
+ #99 
+ Posted by chunsaker on August 23, 2010 at 4:51pm 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #100 
+ Posted by mishamake on September 28, 2010 at 3:12pm 
+I like this idea, how is this possible?
+ 
+ Login or register to post comments 
+ 
+ #101 
+ Posted by mishamake on September 28, 2010 at 3:17pm 
+Where do you put the php?
+ 
+ Login or register to post comments 
+ 
+ #102 
+ Posted by katy55 on December 3, 2010 at 12:22pm 
+any news about one module or API?
+ 
+ Login or register to post comments 
+ 
+ #103 
+ Posted by adellefrank on December 18, 2010 at 12:44pm 
+Subscribing.
+ 
+ Login or register to post comments 
+ 
+ #104 
+ Posted by madrone on January 2, 2011 at 7:49am 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #105 
+ Posted by Tafa on January 13, 2011 at 4:16pm 
+Not sure if this would be relevant to the current discussion but I just stumbled across a new module called &quot;diet&quot; which also pulls info from the usda database. Would recipe be able to repro/improve on some of the main features &quot;diet&quot; offers?
+If not, perhaps merging these modules would be another option.
+T
+ 
+ Login or register to post comments 
+ 
+ #106 
+ Posted by jvandervort on January 17, 2011 at 5:36pm 
+I wonder how accurate some of these sites are??
+ http://www.food.com/recipe/hot-buttered-rum-233230 
+Their nutritional states 0 fat. I wonder what kind of butter they&apos;re using...
+
+At least this recipe (as of today):
+ http://www.food.com/recipe/a-1-pot-roast-chuck-steak-177369 
+Let&apos;s you know that the streak is not included in the nutritional.
+ 
+ Login or register to post comments 
+ 
+ #107 
+ Posted by katy55 on January 22, 2011 at 9:24pm 
+Im doing a project where i need to implement the nutricional facts im just asking if anybody did that and i will pay for the support or module, thanks
+ 
+ Login or register to post comments 
+ 
+ #108 
+ Posted by g.k on February 2, 2011 at 1:24am 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #109 
+ Posted by tcate on February 4, 2011 at 11:01pm 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #110 
+ Posted by danielgrin on March 1, 2011 at 5:03pm 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #111 
+ Posted by gthing on March 11, 2011 at 6:00pm 
+One way or another I&apos;m going to need this functionality within the next few months. I am also willing to sponsor development. Several others have offered as well, so this afternoon I&apos;m going to try contacting other who have offered financial support to see if we can come up with a bounty for completing this. I&apos;m also going to ping the more active developers in this thread and let them know the money will be out there for getting this completed.
+ 
+ Login or register to post comments 
+ 
+ #112 
+ Posted by gthing on March 11, 2011 at 6:02pm 
+I think ingredients as nodes is the way to go, as it gives us maximum flexibility within the Drupal framework. As far as performance goes, I imported the entire database using node_import and I&apos;m not too worried about performance. If it comes down to it, we could have people query from a &quot;common ingredients&quot; list and then give them the option to expand their search to include everything. The common ingredients list could be made up of the x most commonly referenced ingredients where x is a reasonable threshold that will meet the needs of most ingredients.
+ 
+ Login or register to post comments 
+ 
+ #113 
+ Posted by apmsooner on March 11, 2011 at 6:52pm 
+This module is still in early stages but could be consideration for querying through ingredients in my opinion: http://drupal.org/project/dependent_fields . I believe you&apos;d need weight as node in addition to ingredient as node to create a relationship with node reference field.
+
+nutritional measurements for instance should be its own table so when you select an ingredient, you get a dropdown selection for selecting cup, pound, ounce, etc...
+I&apos;m not sure what you imported but the USDA has 2 different formats of data to work with which is all the data in ascii format and a slim version which to me wouldn&apos;t be as useful.
+ 
+ Login or register to post comments 
+ 
+ #114 
+ Posted by gthing on March 11, 2011 at 10:41pm 
+I have organized a bounty for completion of this project here: http://samgarfield.com/content/usda-recipes 
+
+I pledged $250. I imagine if a few people did the same then someone could justify spending the time on finishing this up.
+
+Let me know if anyone would like to firm up that requirements list or change something.
+
+Just to cover my ass: I am not responsible for making sure people pay on their pledges, but I will give all the data to the developer who completes the project.
+
+If more then one developer contributed to completing the project and they can&apos;t come to a gentlemanly agreement as to who gets what percentage than the top three contributors will decide. Fair?
+ 
+ Login or register to post comments 
+ 
+ #115 
+ Posted by adellefrank on March 21, 2011 at 9:21pm 
+I&apos;m happy to pitch in $50.
+ 
+ Login or register to post comments 
+ 
+ #116 
+ Posted by kevcol on April 15, 2011 at 12:35am 
+Me, too -- $50
+ 
+ Login or register to post comments 
+ 
+ #117 
+ Posted by apmsooner on April 19, 2011 at 5:21am 
+Okay, now that i&apos;ve got more time to focus on this, i think we collaboratively need to talk this through and figure out how to approach what i&apos;ve discovered as some obstacles with the way the USDA data is currently structured. First, the unique id in the food description table which all the other tables connect to is a unique number (NBD_Number) that is only really necessary for the initial import of USDA data and ongoing USDA updates thus shouldn&apos;t be required when adding new non-usda food items to the existing table so we need an auto incrementing NID to be the actual primary key in this table so that all other tables can reference to appropriately when a new record is added when NBD Number isn&apos;t specified. Assuming you imported the data with node import module using node references then we can handle this but i certainly don&apos;t think node import is going to handle the amount of records in the nut_data table which is over 550K records. I was able to fairly easily import the nut_data table in php my admin in a reasonable amount of time but setting up some sort of batch import process is beyond my intelligence level as far as making this an out of the box module because the amount of data is quite massive. I&apos;m sure i can get as far as creating the install file to setup all the fields for each table and create the node forms and CRUD functionality but i don&apos;t know how to get around making the manual process of the initial import. Perhaps a batch import is not necessary with some clear instruction of getting data in on the backend because afterall, this project is not for the basic drupal user. Some more things to consider
+Update query - once initial data is imported, we need to map all the other tables to the new nid that is created for the food description table so that field is referenced instead of the NBD number. This needs to be more of a &quot;how to guide&quot; since everyones node id sequences will be different and thus can&apos;t account for that.
+Cleanup - first off i think an additional table needs to be added as a sub food group category to eliminate 100&apos;s of records that for example all start with &quot;soup&quot;, thus making &quot;soup&quot; a sub category of &quot;Soups, Sauces, and Gravies&quot;. This will make selecting ingredients much simpler and less resource intensive as well i think. This can be done in excel using text to columns to separate the description field so not worried about that part.
+Dependent dropdowns - we need an expert that understands form state and AJAX to select from dropdown fields in the following order - food group&gt;food sub group&gt;food description&gt;weight. IMO We need to do it this way so that when we get to the weight field, we&apos;re only seeing weights that reference that actual ingredient.
+I think the above is the biggest task to start with and once we get these items settled, the calculations and possible integration with the recipe module is much less of a problem thus a reasonable bounty can then be offered for that additional functionality. I hope this explains what anyone that trys to take on this task is going to have to consider and understand about the current data structure. Again, i need this functionality too and can create the basic modules and install files to get the project started. What i&apos;d like to see is if someone can offer some additional advice or offer to work for bounty on the parts that will remain. Thats my take anyhow on the project... open to hearing some feedback and willing to get started on my end if can come to agreement on the best way to go about this.
+ 
+ Login or register to post comments 
+ 
+ #118 
+ Posted by apmsooner on April 19, 2011 at 5:31am 
+One other thing i forgot to point out is that we don&apos;t need all the tables available in the USDA resource files. Some of them are clearly associated to the research conducted to get the values of the nutrients. I for one don&apos;t care about this. Additionally, many fields aren&apos;t necessary in all of the tables. We don&apos;t need statistical analysis fields and all that garbage for this project. The key tables we need are:
+fd_group
+fd_sub_group (added per my opinion)
+food_des
+nut_data
+nutr_def
+weight
+
+I personally don&apos;t want all the food groups either because my needs are for healthy nutrition so sweets, fast foods, etc.. are useless for me but everyone can choose what they do and don&apos;t want to import for their needs. Again, i think this should be treated as a one time import for people and let them modify to their needs from there. I&apos;ve looked at the USDA updates and the data is not updated often enough nor does it include any substantial changes to justify the need to make our module incorporate the USDA&apos;s updates. That part could be done very simply with node import and feeds module.
+ 
+ Login or register to post comments 
+ 
+ #119 
+ Posted by gthing on April 20, 2011 at 11:03pm 
+apmsooner: As far as importing the database, check out the node import module. It&apos;s perfect for this. I&apos;ll read through your other comments tomorrow and see if I have any other feedback or ideas.
+ 
+ Login or register to post comments 
+ 
+ #120 
+ Posted by apmsooner on April 21, 2011 at 3:43am 
+@gthing,
+I think you&apos;ll see my concerns with node import module for handling this task when you read through my comments. Things i see as roadblocks with that is the amount of data to import... i think you&apos;re going to see some timeouts. Have you actually imported all the tables in via node import or did you just do the abbreviated list? The abbreviated list i&apos;m afraid won&apos;t work for us because it doesn&apos;t contain all the nutritional values and only includes a few weight measures which means we need to get all the individual tables in and relate to one another. I&apos;m interested in how you&apos;ve set your structure up for importing to compare to my experiences on this. I just don&apos;t think the import part of this project can be done effectively through any other way then manually on the backend or through some intelligent batching process...
+Have you received any interest from developers in taking the bounty so far to work on this? Once again i think if we can break it up into smaller parts... some that i would be willing to do then you might be more likely to have someone take on the tougher items as it makes more sense.
+ 
+ Login or register to post comments 
+ 
+ #121 
+ Posted by apmsooner on April 21, 2011 at 7:38am 
+Anyone...
+Whats your thoughts on handling the long USDA food description titles like this?
+
+Long Description:
+Milk, reduced fat, fluid, 2% milkfat, with added nonfat milk solids and vitamin A and vitamin D
+Short Description:
+MILK,RED FAT,FLUID,2% MILKFAT,W/ NONFAT MILK SOL,WO/ VIT A
+
+I&apos;d like to retain the same format for adding multiple ingredients in line with the recipe module but these long names are going to be hard to decipher in that ingredient table. The short description is still pretty long and perhaps not really all that descriptive the way it reads.
+ 
+ Login or register to post comments 
+ 
+ #122 
+ Posted by gthing on April 21, 2011 at 3:56pm 
+apmsooner: Ah I see your concern with node import. I used it to import about 60,000 records yesterday without any problems but didn&apos;t realize how big the full USDA database was. We might want to look into the ni_cron module which automates node import into batches that run during cron. It basically just runs until it times out and then next time cron runs it picks up where it left off. This could also provide a solution for keeping the database up to date.
+
+If we want to import data directly into mysql and ignore the node_import route, then I&apos;d recommend something like Big Dump ( http://www.ozerov.de/bigdump.php ) which I&apos;ve had much success with in the past. It&apos;s much better than phpmyadmin at importing db content.
+ 
+ Login or register to post comments 
+ 
+ #123 
+ Posted by peleg on April 29, 2011 at 5:51pm 
+I&apos;m happy someone is taking care of it, it&apos;s an old dream of mine :)
+
+I&apos;ll be happy to pledge 100$, but I wonder, do you plan to write something that will be applicable outside drupal as well? Or at least without the recipes module?
+ 
+ Login or register to post comments 
+ 
+ #124 
+ Posted by gthing on May 3, 2011 at 9:49pm 
+I&apos;ve been thinking about this some more and I&apos;m wondering how far we could go using the flexifield module. You could have a node reference field for the ingredient, then a field for the measurements and the number. I believe you can add unlimited flexifields just like any other field. Then you could use computed fields to calculate all of the nutrition facts. Thoughts?
+ 
+ Login or register to post comments 
+ 
+ #126 
+ Posted by gthing on May 5, 2011 at 5:21pm 
+Has anyone used the food.com recipe builder? It uses the USDA database but doesn&apos;t require you to actually find the exact ingredients in the database. You just type in plain text &quot;1 cup flour&quot; or &quot;1 Tbsp salt&quot; and it seems to be able to figure out what you&apos;re talking about. So either they have an algorithm that can identify what you mean or they have manually added aliases for the ingredients. I&apos;m a bit baffled as to how they do it, really. I would love to hear some ideas. It would be really nice if you didn&apos;t have to interact with the actual USDA database at all but maybe it&apos;s beyond our abilities.
+ 
+ Login or register to post comments 
+ 
+ #127 
+ Posted by Taxoman on August 7, 2011 at 12:49am 
+ Version: 6.x-1.x-dev »7.x-1.x-dev 
+ 
+ Login or register to post comments 
+ 
+ #128 
+ Posted by ryan.davis on September 2, 2011 at 1:57pm 
+subscribe
+ 
+ Login or register to post comments 
+ 
+ #129 
+ Posted by halo13 on January 12, 2012 at 4:58pm 
+Hey, I am going to keep this one going. I need a module that will import the USDA db and calculate the calories entered by the user. Any suggestions or ideas are welcomed. I am also willing to fund for part of the module.
+ 
+ Login or register to post comments 
+ 
+ #130 
+ Posted by bmarcotte on March 19, 2012 at 1:03pm 
+Boy this is a long standing thread....
+
+I&apos;ve been hacking away on this for a couple of weeks now as a unfunded personal project for my technically oriented diet website TechnicalDiet.com. However this is too massive an undertaking for me to devote my time without funding. I&apos;m really looking for a paying customer/sponsor so that I can dedicate my time to this project. Bounty interest and/or coding help to get this project usable to the community would also be welcome. If we can get funding, then we can work on detailed features. Please let me know if you can help support this project.
+
+Thanks,
+Bob
+
+So far...
+On my offline development system, I have created a USDA module (in D7) with 10 sub-modules for each USDA SR18 table. Each module creates a nodetype for each table, although I&apos;m not sure that nodes are entirely necessary. Each module has an import function that creates a batch job to read the corresponding USDA TXT file and create a node for each line. It took about 8 hours for my laptop to import the nutrient data file into my druapl database. I&apos;m currently developing code to perform the lookups necessary to provide intelligible output.
+
+My ultimate goal is to provide recipes with nutritional information. I haven&apos;t thought through the recipe module interface as of yet. I can see UDSA being an independent module, perhaps an API that Recipe can draw from, or another module needs to be developed to bridge the two. I&apos;m also looking to add additional food itmes; yet another module or extention.
+ 
+ Login or register to post comments 
+ 
+ #131 
+ Posted by apmsooner on March 19, 2012 at 4:45pm 
+Bob, i would elect to not use nodes for everything as the field collection module would seemingly make much better sense in my opinion for storage attached to one nodetype for ingredient. I think that would take care of things like node title where it just wouldn&apos;t make sense to have a weight node with a required title. As i posted earlier, the one hitch in development i found was sending an ajax request to the database to retrieve specific weights when an ingredient is specified. Thats the big difference from recipe module and why this needed to branch out separately because the USDA has so many different weights and tons of them in their datafiles whereas recipe module has standardized measurements that don&apos;t account for things like: 1 package, 1 pat, etc....
+
+If you could build an importer that would import into field collections, i think that would be the best way of doing it.
+ 
+ Login or register to post comments 
+ 
+ #132 
+ Posted by gthing on March 19, 2012 at 9:49pm 
+I am no longer in need of this project, but hope it moves forward. I&apos;ll keep the bounty page up for anyone interested in continuing it, but I have no reason to continue offering the $250 I pledged.
+ 
+ Login or register to post comments 
+ 
+ #133 
+ Posted by bmarcotte on March 19, 2012 at 11:37pm 
+gthing- Thanks for the reply Sam. Given the age of this thread, I understand. I&apos;m interested in seeing if the interest is genuine, just passing or has passed.
+
+ampsooner - Hi Andy,
+Currently: I have done a 1-to-1 straight recreation of the USDA tables, only adding nodeIds. given that the table has keys, the node is merely a drupal feature. All sql lookups can be done with the USDA fields. I have not inched my way up to the ajax calls, so input is appreciated.
+
+Fields: Yes, I could (relatively) easily write an importer into fields. I was thinking about fields but it seemed like way too many fields and more complicated. Since each field is effectively a table in mysql, I&apos;m not sure that fields provides a performance enhancement. Are you suggesting that each ingredient has a field for each nutrient value (i.e. that is 136 fields per ingredient)?
+
+Performance: I have general concerns about performance, given the huge database and much of the data being irrelevant to the general user. Is there any data to support faster performance with fields as opposed to joining tables in an sql call? (joining the tables is quite trivial) Does ajax return faster from fields?
+
+Measurements and weights: I understand your concern. The nutritional data is based on a per 100g basis, which makes sense, and dealing with conversion options is going to be a nightmare. In Recipe, the recipe_ingredient table holds just the ingredient name, and recipe_node_ingredient is specific to the recipe node. Thus, the importer would fill and attach fields to the recipe_ingredient table. The Recipe module is very flexible for measures, but for each recipe measure option we would need to calculate the nutritional value from the 100g equivalent to determine the nutritional value in the recipe. Thus either we limit the options in recipe to those specified in USDA, or we somehow interpolate between the differences.
+
+So, I guess my question to you is, where do you see the path of least resistance? Does using a field collection make the Recipe interfacing easier? If you feel strongly that a specific structure is preferred, please provide explicit instructions and I can code the importer to do it.
+
+-Bob
+ 
+ Login or register to post comments 
+ 
+ #134 
+ Posted by Shadlington on March 20, 2012 at 10:42am 
+I would be willing to toss some money into the pot, should a pot come up.
+I&apos;m a little cash-strapped so the most I could afford to put up is about $100.
+ 
+ Login or register to post comments 
+ 
+ #135 
+ Posted by halo13 on March 21, 2012 at 10:00pm 
+I would also be willing to throw some cash into the pot. $200, possibly more depending on the ease of use.
+ 
+ Login or register to post comments 
+ 
+ #136 
+ Posted by bmarcotte on May 11, 2012 at 8:23pm 
+Huzzah to the tippers! thanks Shadlington and Halo!
+
+I&apos;ve completed a mini-module that JUST imports the USDA database into drupal tables. It currently does nothing else. I coded a sweet little csv reader mated to the schema. The table structure mimics the USDA database table structure. I removed the node structures from my previous attempt due to the excessive overhead of creating a node for each line. Without node creation, the install takes about 5 minutes because you can do bulk db_inserts. Within a node structure, each database row requires being setup and processed individually and thus requires a good 12 hours to install. For what it&apos;s worth, I did add an auto incrementing _id field to each table.
+
+I&apos;m going to move onto Recipe integration next. My personal interest is in forward implementation. However, I expect that current recipe users would like to draw from existing recipe&apos;s. Although semi-structured, the user entered ingredients and amounts can be quite random and may present issues for importation or calculation.
+
+ Request: I could use a dump of the recipe tables from a &quot;real&quot; site. i.e recipe, recipe_ingredient and recipe_node_ingredient for experimentation.
+ 
+-Bob
+ 
+ Login or register to post comments 
+ 
+ #137 
+ Posted by cdanni on April 24, 2012 at 4:37pm 
+I&apos;ve been watching this thread for awhile, hoping to see forward movement. I just re-joined the ranks of the employed so $50 is all I can afford presently.
+
+I haven&apos;t even started to build my site yet, but if you still haven&apos;t received the dump you requested by next week, Bob, let me know and I&apos;ll get mine put together and get the data over to you. (This is, of course, assuming you are still working on this project.)
+
+-Cristina
+ 
+ Login or register to post comments 
+ 
+ #138 
+ Posted by lopresti on April 24, 2012 at 5:53pm 
+Subscribe
+ 
+ Login or register to post comments 
+ 
+ #139 
+ Posted by jeremymcminn on May 3, 2012 at 10:44pm 
+Subscribe
+ 
+ Login or register to post comments 
+ 
+ #140 
+ Posted by jeremymcminn on May 3, 2012 at 10:45pm 
+Am willing to put some money forwrad for this too $100 or so
+ 
+ Login or register to post comments 
+ 
+ #141 
+ Posted by play4quarters on May 5, 2012 at 7:47pm 
+Hi.
+
+I wonder if anyone has investigated using the Calorie King API as an alternative? I believe it supports 20,000 free queries per month.
+
+Thanks
+ 
+ Login or register to post comments 
+ 
+ #142 
+ Posted by bmarcotte on May 11, 2012 at 8:29pm 
+#136, #137 Update:
+
+I managed to install the USDA SR24 database on my www.TechnicalDiet.com site. Check it out. You can look up all kinds of things on it. I&apos;ll admit, TD is a bit lame. I was doing this project as a step to improve it, but it quickly became very time consuming with little projected benefit as it gets minimal traffic.
+
+I struggled to install the database onto the bluehost site because it uses a lot of server time even trying to run it under batch mode. My code ended up being pretty crude, certainly not up to drupal module coding standards, nor something I have time to support.
+
+Anyway, I got TD&apos;s food finder and a couple of other lookups working and since then I&apos;ve been working on other things. At this point, I wouldn&apos;t recommend building a site just to send me a data dump. Writing a translator is more work than writing the code for fresh data, as it requires additional work which I&apos;m certain I will not get too.
+
+Are any of you subscribers interested on entering recipes onto TD if I code the USDA integration? That would give me motivation to take this project to the next step and you would help me to debug the code and improve the site. My general thought is that the USDA identifier would be added to (or replace) the recipe module’s ingredient definition. I’m not sure how possible it is to have USDA be an add-on module to recipe. It could end up requiring large scale recipe module edits.
+
+Subscribers: Interested parties should go to www.TechnicalDiet.com and lookup a variety of ingredients as if you were going to enter them into a recipe. The process of entering a recipe would include selecting each and every ingredient for each and every recipe. I recognize that it is tedious but in order to have accurate results, you have to be diligent in specifying the ingredients accurately. The belief that you could magically get accurate nutritional data from randomly selected ingredients is a pipe dream, in my humble opinion. There is a lot of science that goes into being a dietician.
+
+-Bob
+ 
+ Login or register to post comments 
+ 
+ #143 
+ Posted by cdanni on May 13, 2012 at 6:07pm 
+Hey Bob,
+
+I know we&apos;ve chatted via email, but I just wanted to post this up here in the event anyone else is interested.
+
+I&apos;ll gladly post some recipes up on the site as we&apos;ve discussed. I think to really give it something to work with, I&apos;m going to use some of my more complex ones with many ingredients as well as a few simpler ones.
+
+As discussed I won&apos;t be ready to start on this until next weekend or so. But one of the things I&apos;ve been kicking around in my head is the possibility of a slick jquery filter when entering ingredients that can help users find the right thing to enter in order to get accurate data for their recipe. I need to look into how this can best be done, but it should certainly be in the realm of possibility!
+
+And now back to work. *bleh*
+
+Cristina
+ 
+ Login or register to post comments 
+ 
+ #144 
+ Posted by bmarcotte on May 20, 2012 at 3:05pm 
+Here are a couple of screenshots of where I am at. If you read the help fieldset in recipe_ingredient_ing.jpg, it explains how the USDA food item is linked to the recipe.
+
+For expediancy, I&apos;m currently using an edited version of the recipe module&apos;s previous release. I am trying to plan the next step and I&apos;m ready for input. Let me explain what I have done.
+
+1) I have added 2 fields to the recipe_node_ingredient schema, ndbno and searchterms. Ndbno contains the USDA database reference number and searchterms contains the keywords entered on each of the recipe_ingredient_ing form items. Saving the search terms helps for later edits of the ingredients. The recipe name field is unchanged and provides a display name for the ingredient. The unit_key is multi-functional. If a USDA ingredient is selected, the unit_key is filled with the USDA serving sizes. If there is no USDA ingredient selected, then the former recipe unit_key options are in effect. The recipe_ingredient_ing form uses ajax calls to search the USDA database and load the dropdown options.
+
+2) On the view, I added a display field for the nutritional information. The module is hard coded to pull out the calories, carbs, fats, and protein values for the ingredients that have a USDA reference.
+
+Issues I see:
+1) The full database is huge and time consuming to load, and contains extraneous data. I have it set to run as batch jobs; but I had trouble installing it and needed to piecemeal it. It is not node based. It is structured as provided by the USDA as relational tables. They have an abbreviated version, but it still needs to cross reference to the weights and measures table to get useable unit sizes. I&apos;m planing to use this data for recipe integration. For details on the USDA SR24 offerings see http://www.ars.usda.gov/Services/docs.htm?docid=8964 .
+
+2) What information should be included in the nutritional information box. With the abbreviated database table, you do not get the fat breakdown (saturated total, mono-unsaturated etc); only total fat. Carbs has a breakdown of sugars and fiber available. Vitamines and minerals are available. Note that if we only need limited information, then we can reduce the installation process.
+
+3) Non USDA items dont tally into the nutritional information. This is beyond my scope. While nutritional information fields could be provided for non USDA items, the arbitrary nature of the former recipe ingredients via name/units makes handling nutritional information difficult.
+
+4) Note that RDA percentages are not a USDA database function. Personally, I find the RDA numbers as misleading (one size that fits no one).
+
+5) Can/should this functionality be rolled into the recipe module itself, a sub-module or seperate project?
+
+6) Importing, Exporting and printing.
+
+Thanks for providing input!
+Bob
+
+ Attachment Size recipe_view.jpg 240.31 KB recipe_ingredient_ing.jpg 417.67 KB 
+ 
+ Login or register to post comments 
+ 
+ #145 
+ Posted by itserich on June 20, 2012 at 4:43pm 
+I work with a pet adoption group and am interested in dog and cat nutrition.
+
+Preparing food for pets is more popular but there are no sites which allow people to compare what they are feeding with the standards. For instance, one day I may feed beef liver, with rice and a fish oil capsule. This lacks calcium, for instance.
+
+My idea is to have something like NutritionData.com, but combine ingredients and compare it to the standards for dogs and cats (published by the National Research Council).
+ 
+ Login or register to post comments 
+ 
+ #146 
+ Posted by play4quarters on July 11, 2012 at 12:07pm 
+I&apos;m pretty sure that ESHA is an industry standard for creating accurate nutrition labels. They do have a web service available, though I haven&apos;t investigated a price yet.
+
+I wonder if they would consider some discounted price for the drupal community, provided the community built the integration for drupal?
+
+Just a thought.
+ 
+ Login or register to post comments 
+ 
+ #147 
+ Posted by play4quarters on July 11, 2012 at 12:15pm 
+Also...here&apos;s a nice UI http://recipes.sparkpeople.com/recipe-calculator.asp 
+
+Spark is developed with asp and uses a combination of USDA data and their own propriety data.
+
+All this is probably not as accurate as what ESHA provides, but it is pretty user friendly.
+
+Just FYI.
+ 
+ Login or register to post comments 
+ 
+ Drupal News Planet Drupal Association News Security Announcements Jobs 
+ 
+ Community Getting Involved Services , Training &amp; Hosting Groups&amp;Meetups DrupalCon 
+ 
+ Get Started Documentation Home Installation Guide Site Building Guide Support api.drupal.org 
+ 
+ Download&amp;Extend Drupal Core Modules Themes Distributions 
+ 
+ About Druplicon The Drupal Association Advertise About Drupal.org Web accessibility 
+ 
+Drupal is a registered trademark of Dries Buytaert .
+ nobody click here
+	</body>
+</document>

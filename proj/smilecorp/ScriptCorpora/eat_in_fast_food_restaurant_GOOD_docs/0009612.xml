@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0009612" url="http://blogs.msdn.com/b/ericlippert/archive/2009/08/20/queueing-theory-in-action-plus-frogs.aspx" time="2012-07-13-03:01" support="1" score="0.0019249546218917028" bingtitle="Queueing Theory In Action, plus, frogs - Fabulous Adventures In ..." webtitle="Queueing Theory In Action, plus, frogs - Fabulous Adventures In Coding - Site Home - MSDN Blogs">
+			<query id="000788" bing-rank="137"/>
+	<description>... is exemplified by two popular fast food restaurant chains. At restaurant &quot;M&quot;, if there are, say, four cashiers then ... any sort of problem in the first place was ...</description>
+	<body>
+		Sign In 
+   
+ 
+ 
+ MSDN Blogs Microsoft Blog Images More ... 
+ 
+
+ 
+
+ 
+Queueing Theory In Action, plus, frogs
+ Server&amp;Tools Blogs &gt; Developer Tools Blogs 
+ Executive Bloggers 
+ S. Somasegar Jason Zander Brian Harry Scott Guthrie 
+ Visual Studio 
+ Visual Studio Blend LightSwitch Line of Business Apps by Beth Massi Setup&amp;Install by Heath Stewart 
+ Application Lifecycle Management 
+ Visual Studio ALM 
+ Languages 
+ Visual Basic Visual C# Visual C# by Eric Lippert Visual C++ Visual F# JavaScript 
+ .NET Framework 
+ .NET Framework .NET Parallel Programming ADO.NET (Managed Providers, DataSet&amp;EF) ASP.NET by Scott Hanselman Base Class Library (BCL) Silverlight WCF Data Services Workflow 
+ Platform Development 
+ Internet Explorer SharePoint Office Web Windows 8 Windows Store Windows Azure Windows Phone 
+ 
+ 
+Eric Lippert’s Blog
+ 
+Fabulous Adventures In Coding
+ 
+ * Advanced search options... Search In: Everything Blogs Forums People Groups Places Pages Date range: All Time Last Year Last 6 Months Last 3 Months Last Month Last Week Last Two Days 
+ Search this blog Search all blogs 
+ Subscribe Comments Contact 
+ About Eric Lippert 
+Eric Lippert is a principal developer on the C# compiler team. Learn more about Eric. 
+ Menu 
+ Blog Home Atom 
+ Translate this
+ page 
+Powered by Microsoft® Translator Recent Posts 
+ 
+ When is a cast not a cast? 
+ Posted 2 days ago by Eric Lippert 
+ 22 Comments 
+ 
+ The Best Advice I Ever Got 
+ Posted 15 days ago by Eric Lippert 
+ 11 Comments 
+ 
+ Foolish consistency is foolish 
+ Posted 17 days ago by Eric Lippert 
+ 25 Comments 
+ 
+ Eric Rambles On About C#, Again 
+ Posted 21 days ago by Eric Lippert 
+ 6 Comments 
+ 
+ Live Now on Developer Tools Blogs Tags 
+ Books Breaking Changes C# C# 4.0 Code Quality COM Programming Covariance and Contravariance Immutability JScript JScript .NET Lambda Expressions Language Design Non-computer Pages Performance Puzzles Rants Rarefied Heights Recursion Scripting Security SimpleScript Threading Type Inference VBScript 
+ More ▼ Less ▲ Related resources 
+ Visual Studio Developer Center Visual Studio Product Website 
+ Archives Archives 
+ July 2012 (1) June 2012 (6) May 2012 (2) April 2012 (5) March 2012 (3) February 2012 (7) January 2012 (5) December 2011 (9) November 2011 (4) October 2011 (3) September 2011 (3) August 2011 (2) July 2011 (5) June 2011 (3) May 2011 (7) April 2011 (6) March 2011 (9) February 2011 (8) January 2011 (7) December 2010 (4) November 2010 (8) October 2010 (11) September 2010 (8) July 2010 (7) June 2010 (7) May 2010 (10) April 2010 (9) March 2010 (10) February 2010 (8) January 2010 (8) December 2009 (5) November 2009 (9) October 2009 (9) September 2009 (8) August 2009 (9) July 2009 (9) June 2009 (12) May 2009 (9) April 2009 (9) March 2009 (10) February 2009 (4) January 2009 (7) November 2008 (2) October 2008 (5) September 2008 (4) August 2008 (1) July 2008 (2) June 2008 (3) May 2008 (11) April 2008 (3) March 2008 (2) February 2008 (5) January 2008 (5) December 2007 (7) November 2007 (5) October 2007 (13) September 2007 (3) August 2007 (6) July 2007 (2) June 2007 (7) May 2007 (4) April 2007 (9) March 2007 (2) January 2007 (5) November 2006 (3) October 2006 (1) September 2006 (1) August 2006 (1) July 2006 (2) June 2006 (4) May 2006 (5) April 2006 (3) March 2006 (4) January 2006 (1) December 2005 (7) November 2005 (7) October 2005 (9) September 2005 (8) August 2005 (9) July 2005 (7) June 2005 (7) May 2005 (7) April 2005 (12) March 2005 (7) February 2005 (6) January 2005 (13) December 2004 (9) November 2004 (3) October 2004 (5) September 2004 (7) August 2004 (14) July 2004 (10) June 2004 (11) May 2004 (20) April 2004 (26) March 2004 (32) February 2004 (14) January 2004 (16) December 2003 (7) November 2003 (13) October 2003 (32) September 2003 (36) 
+ More ▼ Less ▲ 
+Queueing Theory In Action, plus, frogs
+ Rate This
+ Eric Lippert 20 Aug 2009 9:32 AM 
+ Comments 34 
+ 
+Well that was a lovely vacation. It got off to a poor start but then it improved dramatically.
+
+Suppose you&apos;ve got an &quot;entrance&quot; that is producing some largish number of &quot;customers&quot; on some schedule. You&apos;ve got a bunch of &quot;servers&quot; who are handling the customer requests. Once a customer request is satisfied, the customer leaves through an &quot;exit&quot;. What happens when there are more customers arriving in quick succession than there are available servers to serve them? This is the domain of analytic queueing theory ; this theory is germane to a great many human and technical problems, from obtaining a double cheeseburger, onion rings and a large... orange... drink... to routing telephone calls over satellite networks.
+
+(Some of you might be wondering what on earth the first two paragraphs have to do with each other. It&apos;ll come together eventually, I promise.)
+
+An interesting example of two different queue servicing algorithms is exemplified by two popular fast food restaurant chains. At restaurant &quot;M&quot;, if there are, say, four cashiers then there are four queues. Customers arrive, choose a queue and wait. At restaurant &quot;W&quot;, there is one long serpentine queue; when a cashier becomes available, the person at the front of the line goes to that cashier.
+
+The principle downside of the W system is that the single queue  looks like it will take much longer than four short queues in the M system, which can be daunting. But by almost every relevant objective metric, by almost every relevant social factor, and in almost every common real-world business scenario the W system is preferable:
+
+ The W system requires no customer to make a choice based on incomplete information ; the M system basically presents the customer with a roll of the dice. Which queue is fastest? It depends not just on the competence of the cashier, but on whether the transactions pending in a given queue are simple or complex. Suppose you are in the M system and two queues -- yours, and the one beside you -- are being serviced at approximately the same rate on average. It is entirely possible and indeed, perhaps common, that even though both queues are in the long run moving at the same rate, that due to sudden starts and stops in both queues you will  perceive that you are spending more time &quot;being passed&quot; by the people next to you than &quot;passing&quot; them. It is quite possible for people in both queues to have this perception simultaneously! Everyone feels like they&apos;ve chosen the wrong queue , even if there is no &quot;wrong queue&quot; on average. In the W system, there is only one queue, so it is automatically the right one. The W system is fair ; the customer who has waited the longest is always served next. The M system is not fair; customers who happen to be in a &quot;fast&quot; queue can get served before customers in a &quot;slow&quot; queue where they are waiting behind a complex ongoing transaction (or worse, behind a customer who has reached the front of the queue before deciding what to order.) The W system has in theory higher possible  throughput ; the only time that a customer with a fast transaction pending at the front of the queue has to wait a long time is in the unlikely situation that every cashier happens to be busy with a complex transaction. If any cashier is at present serving fast transactions, then they&apos;re clearing the front of the queue quickly. In the M system, many fast transactions can get delayed by a single slow one. This drives average throughput way down. The W system is far more flexible . New cashiers can be added dynamically when the queue gets too long and removed to perform less pressing tasks when it shortens. In the M system, when a new cashier comes online there can be a disorganized rush to form a new queue; customers are again asked to make a decision about whether to try the new queue or stay in the old one, and this produces new opportunities for perceived unfairness. But worse, when a cashier is removed in the M system, what happens to their queue? 
+
+It is the importance of this last question that was driven home to me on day one of my vacation. Let&apos;s call the airline &quot;D&quot;. The D Air Lines baggage check in Seattle-Tacoma International Airport operates on the &quot;M&quot; queueing model. You check yourself in at one of the kiosks, print out your boarding passes, pay your fifteen dollars to check a bag, and then choose one of ten or so queues.
+
+Now, D has at least in theory eliminated one problem with the M model; the last thing the checkin system tells you is which queue to stand in. I do not know how that system decides which queue is best, or whether any customer actually reads the message. It&apos;s a subtle thing; I personally was not expecting the system to give me this information, so I could see how someone could miss it entirely and just pick any old queue.
+
+But anyways, we&apos;re standing in our assigned queue and its moving along. We don&apos;t particularly care how long its taking because our flight has been delayed, allegedly by one hour, due to an &quot;unexpected maintenance issue&quot;. So we have plenty of time. (As it turns out, we in reality have over three hours of extra time. Which is fine. Airline mechanics reading this: please take all the time you need to ensure that the wings stay on.) And as we&apos;re waiting, I point out something to my wife: the conveyor belt that the luggage is supposed to be going on is not moving . Or rather, it&apos;s moving by about one bag width per minute -- jerkily starting up and then halting a second later. Luggage is of course arriving at the front of the queues far, far faster than that, so quite an accumulation of luggage is forming. Most of the &quot;servers&quot; aren&apos;t having to walk around, but a few people are walking behind the counter, and it&apos;s quite comical to see them trying to manoevre around the increasingly tall stacks of luggage piled beside the now-saturated conveyor.
+
+Leah informs me that her friend C used to be a baggage handler for D Air Lines, but was recently laid off. &quot;Oh, is the recession and slowdown in air travel making for fewer working hours available?&quot; I ask. No, apparently C claims that there was plenty of work for them to do, but the precarious financial state of the airlines has led them to lay off staff and overwork the remaining handlers.
+
+So anyway, we get to the front of the queue and I look up, trying to make eye contact with the D Air Lines representative directly in front of me. She is fixedly looking at the floor and says loudly in the vicinity of the representative serving the queue beside her &quot;I have to leave now.&quot; Which she does, continuing to look fixedly at the floor as she walks away. The other representatives, all busy serving other customers, do not react to this news. They may not have heard it. Or, they might have interpreted it as mere information -- as it was stated -- rather than as a request for someone to deal with the now-abandoned queue.
+
+I have plenty of time to wait. So I do. I continue to try to make eye contact with the representatives serving the queues on either side of me, but they are either looking at the person they&apos;re serving, or looking with dismay at the growing towers of baggage now thoroughly engulfing the unmoving conveyor belt. I wonder whether it is difficult to miss someone less than two metres away staring at you with an expectant smile for minutes on end. Perhaps D Air Lines trains its staff to be good at that, I muse.
+
+The minutes continue to pass. The queue behind me continues to grow. I reflect upon how this is a failure not just of customer service, but of application of basic results in queueing theory that you&apos;d think an airline would be good at. I realize that I have a blog article in here somewhere, which makes me happy. I realize that I am now thinking about work while I&apos;m on vacation, which makes me vexed. So on balance, it&apos;s a wash.
+
+About five minutes into this, the traveller behind me politely taps me on the shoulder and asks &quot;You&apos;re going to Michigan too, right? Am I in the right line?&quot;
+
+I turn to half face her, and half face the D Air Lines employee who has been so successfully ignoring me and the couple dozen people behind me. &quot; Ma&apos;am ,&quot; I say, &quot; look at the larger picture. You are standing in a queue that is being served by no one to put your bags on a conveyor belt that is not moving. Most of the baggage handlers who would be taking your bags off the belt have been fired, and even if there were baggage handlers, the aircraft cannot fly, and probably is not even at this airport. Clearly you and I have not chosen the wrong queue ; we have chosen the wrong airline .&quot;
+
+Amazingly enough, that aforementioned representative immediately starts servicing our queue.
+
+Though no indication whatsoever that there had been any sort of problem in the first place was forthcoming, to his credit he was polite, seemed reasonably competent at taking my bag, and added my bag to the tower. As we walked away I looked back and saw the fellow now servicing both queues; those queues were now each running at half speed, which I suppose is better than nothing, though I imagine that the people who had chosen either queue were less than thrilled. The airplane did eventually arrive and we did eventually retrieve the bag, so it all worked out in the end.
+
+Now you know why most airlines use the &quot;serpentine&quot; W model rather than the M model. It prevents some of these sorts of problems from happening in the first place.
+
+Things improved considerably after that. A sampling of stuff I saw on my vacation:
+
+ Jupiter in opposition Ganymede the Perseid meteor shower trout frogs toads tadpoles turtles turkey vultures swallows hummingbirds mergansers loons great blue herons some kind of predatory bird that was against the sun so I couldn&apos;t see it clearly but I suspect it was an osprey chipmunks bunny rabbits silver birch snapdragons bright green dragonflies sheep roosters fossilized clams suspiciously damaged wooden kayak paddles: that is, evidence of beaver-shark activity. But how did they get into my kayak storage over the winter? Are beaver-sharks amphibious? my family old friends 
+
+The flight home -- where the baggage check was based on the W model -- was uneventful.
+
+And so, back to more fabulous adventures in coding. I hope you enjoyed the pre-canned posted I prepared before my vacation.
+
+Coming up next: one more addendum about iterator blocks.
+ 
+ 34 Comments 
+ 
+ 
+ Rants , vacation , queueing theory , customer service Tweet Save this on Delicious Leave a Comment 
+ Name * Comment * Please enter a comment * Please add 3 and 4 and type the answer here: Post 
+ Comments 
+ Adam V 20 Aug 2009 10:56 AM 
+Now I want to come up to SEA-TAC to see which airline operates its baggage check on the M model. (That wouldn&apos;t be the only reason to visit, but I&apos;d make a note to try to figure it out while I&apos;m standing there anyway.)
+
+Has your experience convinced you not to use airline D in the future? Or do you think this was just a one-time issue and you&apos;ll fly with them again? Every time you fly, you&apos;re likely to use SEA-TAC and deal with those same issues on the front end of the trip regardless of the destination, so that would weigh into my decision to fly with D in the future.
+
+ 
+ 
+Sadly, if I only flew on airlines that never demonstrated massive incompetence, never majorly inconvenienced me or never treated me disrespectfully then the only airlines I&apos;ve tried that I could fly on again are Virgin and British. Sometime I&apos;ll tell you guys about the time I was on a United flight that struck another aircraft . That was big comedy. -- Eric
+ Erik 20 Aug 2009 11:30 AM 
+Meh. I missed the Perseids this year due to cloud cover. Was it spectacular?
+ 
+It was hazy at the peak for me, but we had clear nights on the tail end of it. Not spectacular, but pleasant. Jupiter, being in opposition, was extremely bright and rising just after sunset every night. And even with my poor binoculars, one of the outer moons -- probably Ganymede -- was easily visible. -- Eric
+ Max 20 Aug 2009 3:38 PM 
+Haha @ the wooden paddles. You positive you locked that storage area?
+ MikeG 20 Aug 2009 4:09 PM 
+Are there any advantages to the M model ever? It doesn&apos;t seem so.
+
+Kind of makes you wonder why it is used, e.g. in grocery stores, etc.
+ 
+Grocery stores are a special case I think. In a grocery store, each queue is typically quite short -- it is rare to have more than four people in a line. Grocery stores typically already have a dedicated &quot;ten items or fewer&quot; lane for small, fast checkouts. People in grocery stores have big bulky carts that are unwieldy in a long serpentine queue. Grocery stores are usually laid out so that there is &quot;overflow space&quot; in the form of aisles behind the cashiers; that space is used to sell things in the 99% usage case that there is no overflow. Serpentine queues take up lots of space even when empty; think about how much space in airport terminals is devoted to such queues and how wide they have to be to accomodate baggage carts. Margins are razor-thin in grocery stores so they need to devote as much floor space as possible to selling products. -- Eric
+ Benjamin Geiger 20 Aug 2009 4:34 PM 
+Actually, grocery stores are about the only case I can see using the M model. Grocery carts are difficult to push around in tight quarters, so a serpentine queue is downright evil. (There&apos;s also the issue of many grocery shoppers checking out a cartload of groceries, so the lanes would get &apos;clogged&apos; fairly quickly. However, this is also a problem with the M model, and can easily be sidestepped by having a hybrid model: a single long queue plus an express lane.)
+ 
+There are many other interesting aspects peculiar to grocery stores that encourage the M model. For example, grocery stores WANT you to have to wait in the queue because in this model, waiting in the queue is another sales opportunity. That&apos;s why the front place in the queue is stacked with chocolate bars and the second place is stacked with magazines. They know you will be more likely to buy impulse buys if you have to wait. And they know that in order to mitigate the frustration of waiting, they can distract you for two minutes with headlines like How To Get A Man , How To Keep Your Man Away From Other Women Who Probably Read This Magazine Who Want To Take Your Man , and  How To Get Rid Of That Good For Nothing Man. A super-efficient queue would actually be worse for grocery stores; slightly inefficient queues allow them to transform even more of their precious square footage into product sales. -- Eric
+ configurator 20 Aug 2009 6:05 PM 
+As a former plane mechanic I can tell you that delaying the flight by three hours can never keep the wings from falling off...
+ 
+Thanks for that reassuring thought. :-) -- Eric
+ 
+If there was an actual mechanical problem it would take much longer and they&apos;d probably either get another plane or delay it by at least a day. Maybe they needed to add some oil to the engine? Usually though, as far as I&apos;ve seen flights get delayed because of personnel issues, or people that just missed the boarding time causing the plane to miss it&apos;s take-off window and have to wait for a new free lane.
+
+Where were you in your vacation?
+ 
+My family has a summer place on Lake Huron in Ontario. -- Eric
+ Adam V 20 Aug 2009 6:18 PM 
+Another thing about grocery stores is that the line is the very last thing you go to, typically after spending 15-45 minutes filling your cart. Compare to the fast food place, where you have to wait through the line before you can find a table and sit down. A long or slow-moving line at a restaurant will often encourage you to find another place to eat. You won&apos;t go to a different grocery store since you&apos;ve already got the full basket, so the grocery store is less sensitive to long lines. (At least for this trip. They do keep the lines somewhat short/fast so that you don&apos;t go somewhere else next time.)
+ ShawnSt 20 Aug 2009 6:43 PM 
+Along the lines of M vs. W in retail stores, a great example of using W in a large scale store would be Fry&apos;s Electronics. (Best Buy does this on a much smaller scale)
+
+Fry&apos;s has a quite long single-turn serpentine queue which is wider to accomodate the shopping carts, and is lined on both sides with all kinds of random junk to sell you while you&apos;re waiting (candy, drinks, movies, games, etc). M style queue would limit the product offerings, since you&apos;d want each person to see the same set of items, whereas the W style queue, everyone sees all the items, and there is a much larger selection. At the end of this queue is a vast array of checkout stations, and a single queue manager employee who directs the front of the queue to the right checkout station as one becomes available. (Sir, please go to register# 27)
+
+There is such an advantage to this W queue style in retail, that I think the only reason it would be a problem are for stores with extended hours where there are greater opportunities for limited customers and perhaps only one available checker to service the queue. In that event, the queue itself is an impediment for someone checking out, as they&apos;d have to navigate the empty queue to check out, rather than going directly to the single open checkout station. This could be mitigated by having a configurable&quot;fast track&quot;passage for off hours to let people quickly check out.
+ Haacked 20 Aug 2009 8:01 PM 
+Welcome back! Your blog, like a good bottle of wine, just keeps getting better with age. :)
+
+Loved how you tied in queueing theory and your vacation. ;)
+
+@Benjamin However, Best Buy and Frys (IIRC) manage to pull the W model with large carts. They just sell you something along the entire queue! Win win! So there&apos;s less time in the queue potentially, but more product space to sell while in the queue.
+ Other Side 20 Aug 2009 8:14 PM 
+One of the issues of M v W from a management perspective (and co-queuers perspective) is that in scenario W, the attendant (Q) who is most expedient and efficient sees the most transactions. Meanwhile, the attendant who has gamed the sysem (R) will work as little as possible to still get the job done. Therefore Q will feel like he/she does more work for the same pay as R.
+
+In scenario M, R will be noticed by customers in queue and complains will be directed directly at R. This negative feedback reigns R in a bit. On the other hand, in scenario M, Q wouldn&apos;t necessarily be praised because Q would be perceived as doing what Q is supposed to do. Conversely, in scenario W, R&apos;s laziness would be attributed to the company (D) not to the attendant at fault. Since the company would like to avoid being blamed generally for the fault of one attendant, M is frequently the preferred scenario for managers, whose task is to maintain the brand regardless of the attendant.
+ RuaidhríMcDonnell 20 Aug 2009 9:04 PM 
+A previous employer of mine did analysis/built solutions for this very problem(those &apos;please come to counter N&apos; installs), and your analysis is identical to the site surveys they did(and a whole lot less).
+
+One variable you might want to consider is the &apos;offload speed&apos;, between the queue and the &apos;server&apos;. All things being equal, this should be negligible, but in some cases, the offload can be quite high,
+
+supermarkets, as others have pointed out,use the &apos;M model&apos;,because amongst other things, people are slow to move their trolleys about,which stalls the entire queue, and so offload time is high, vs a bank where the solution is clearly a &apos;W model&apos;.
+
+Another &apos;M model&apos; that works is traffic(toll booths etc).
+
+Incidentally, a few of the supermarkets over here(ireland) have changed to the W model lately. Interesting to see if it works in the long term.
+ KloopDogg 20 Aug 2009 10:19 PM 
+The Dr. Demento quote made me laugh while the rest scared the S out of me thinking about an upcoming flight on D airlines.
+ Denis 21 Aug 2009 1:37 AM 
+@RuaidhríMcDonnell,
+
+I would LOVE to see the model W attempted with traffic: first, people from all four lanes trying to form one without bumping into each other and flying into road rage; next, at the end of the queue, putting the steering components of their cars to the test to quickly get to the far-off booth that suddenly becomes available... WOW! :-)
+
+This could work for some kind of a drive-by, though: imagine people driving along, or around, a set of stalls, or booths, or whatever, until eventually they reach the free one...
+
+...Just imagining aloud, sorry.
+ Aaron Wolski 21 Aug 2009 1:50 AM 
+I always enjoyed watching motorists attempt to beat the &apos;M&apos; model as we crawled our way into the city on the heavily congested motorway. The &apos;smart&apos; ones would weave from lane to lane, thinking they had found the fastest moving queue at that particular moment in time, satisfied that they had shaved precious slivers of time off their arduous journey and feeling chuffed about their superior driving technique having saved them a stern word from the boss when they could have just left home 10 minutes earlier. The kicker was that, despite their aggresive, impatient and mostly dangerous queue conquering antics, I&apos;d invariably see those same motorists getting out of their distinctive rides as I pulled into the adjacent car park.
+ Fredrik Mörk 21 Aug 2009 3:22 AM 
+Sounds like a nice vacation. I can&apos;t believe that I completely forgot about the Perseids this year. Shame on me.
+
+Anyway, regarding the M vs. W queue models; there is, one more decision model where the M queue might be an advantage to the customer. If time is not an issue, the customer may want to choose the queue with the prettier&quot;server&quot;. Of course, this may not be the optimal choice in terms of easy-to-measure goals, but it may be the better choice for that particular customer anyway.
+
+However, and I am glad for this, this does not apply to computers.
+ 
+ Page 1 of 3 (34 items) 1 2 3 
+ © 2012 Microsoft Corporation. Terms of Use Trademarks Privacy Statement Report Abuse 5.6.521.270
+	</body>
+</document>

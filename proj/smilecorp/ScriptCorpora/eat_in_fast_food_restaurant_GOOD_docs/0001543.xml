@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0001543" url="http://www.forumi9.com/Question/architecture-services-per-table-12034.aspx" time="2012-07-12-17:18" support="2" score="0.004618291403182439" bingtitle=".Net Framework - architecture services table" webtitle=".Net Framework - architecture services table">
+			<query id="001456" bing-rank="104"/>
+			<query id="001424" bing-rank="33"/>
+	<description>... tables, and you want to write CRUD as per table not in an OO fashio. How many WCF services are required? is it near 5 * N ... KB974571 kills Lync Front End service. Even de ...</description>
+	<body>
+		.Net Framework Forum
+ 
+ 
+
+ 
+Architecture of Services per Table
+ 
+
+ 
+ 
+ 
+Hi,
+Let&apos;s say you have N tables, and you want to write CRUD as per table not in an OO fashio.
+How many WCF services are required?
+is it near 5 * N (C,U,D, R and List with different criteria)?
+Or would you have 1 service that takes care of all the CRUD?
+What would be the interface (parameters) passed to such a service.
+The number does not really matter, in fact the only thing I care about is the architecture.
+If you are not able to provide detailed answers, please point me to where I can learn more about this.
+Thank you.
+
+EK
+ 
+ Answers kindly post question wcf forum http //social msdn suggestion 
+ Your Ad Here   
+Related Questions
+   
+ How to use azure storage account and hosted service with silverlight mesh application? 
+ I want to upload some images in storage account and want to use that images will be handled in silverlight mesh application. what should be the structure of my project and what services I have to use, Completely confusion about that. Pleaze help me i... Your Ad Here   
+ Query() of Search Server 2008 Express web service returning wrong record count. 
+ I am using search server 2008 express serach web service in my asp.net application for pdf document search.While searching sevice returns record count in the response, till here it works fine. When I start navigating from one page to another page wit...   
+ How can I populate a listbox programmatically from 1 of 2 tables? 
+ I would like to use a foreach loop in C# to access all records in a table that is only known at runtime.  I have used the foreach command with arrays, but I don’t know how to use it with a table in an SQL database via LINQ.  In my situation, I was ...   
+ KB974571 kills Lync Front End service. Even de-installing it, doesn&apos;t fix the issue. How to fix it ? 
+ KB974571 had been installed automatically via windows update on my Lync Server. This prevents Lync Front End service to restart. Even, when I had de-installed it, the Lync Front End service never come up back again. In case of OCS 2007 R2, this woul...   
+ can we design the architecture as mvc co-exist with SOA? 
+ Can a web based application use the MVC design pattern with  service-oriented architecture as  a model? View Controller  Model -&gt;  web  service client Business Logic - &gt; Web service    is it a best practice?   
+ Error &quot;cannot import wsdl:portType&quot; when generating service references 
+ Our self-hosted WCF service makes extensive use of the Entity Framework, and uses EF-generated classes for transferring data.  This worked reasonably well under .NET 3.5 SP1.  However, at some point after upgrading to .NET 4.0, we&apos;re having trouble g...   
+ Looking for advice regarding the migration to Microsoft technology/architecture 
+ Hi, We develop a business application in Progress OpenEdge. I am looking for advice regarding the migration to Microsoft technology/architecture. What architecture and patterns&amp;practices would you advice? The size of the application is roughly:...   
+ Architecture of service layer 
+ Currently, I am choosing between request/response methods and usual methods. int DoSomething (int param1, bool param2); DoSomethingResponse DoSomething (DoSomethingRequest request); What approach is better? ?nd why?   
+ HttpWeb Services and Routing in WCF 4 
+ In WCF 4 there is support for routing in HttpWeb Services...however unlike routing in ASP.Net variables are not supported, instead variable support is offered only through the UriTemplate parameter. However, the following is a URL I would like to su...   
+ Problems debuggin a service: No export cen found 
+ With windb or ntsd I always see the same error: No export cen found when I use !cen command.  For debug a windows service I use the next command: &apos;windbg -g -G -x -p &apos; After that, I load the sos.dll library: &apos;sxe CLE&apos;  and  &apos;.load c:...   architecture    services    table      Related Answers: 
+ Architecture of Services per Table Enterprise Architecture Conference&amp;Service-... Architecture of service layer Sharepoint excel services&amp;pivot tables data... Help needed SQL Server 2008 Reporting Service... Silverlight RIA Services form with linked tab... VFP service pack 2 will not allow indices bui... RIA Service Query using mutliple tables Differences between WCF Data Services, ADO.NE... What&apos;s the new endpoint for the discontinued ... why do we split one table to two table?please... Filtering row data in table A, by a index num... Infopath 2007 - Copy Repeating Table Data int... Need to insert into 2nd table information fro... Insufficient Permissions to alter table in SS... How Do I connect the user data table with cus... Need help designing these 4 types of data (on... Create a Linked Table in Access 2007 and link... How to change a table into partition table qu... Create a Temp Table to Update Another Table F... 
+   Your Ad Here     
+
+ &lt;&lt;Previous      Next&gt;&gt; 
+ Copyright 2010. All rights reserved
+	</body>
+</document>

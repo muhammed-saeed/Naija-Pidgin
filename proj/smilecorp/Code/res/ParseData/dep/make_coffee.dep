@@ -1,0 +1,667 @@
+det(kitchen-4, the-3)
+prep_to(go-1, kitchen-4)
+
+det(coffeemaker-3, the-2)
+dobj(find-1, coffeemaker-3)
+
+nn(coffee-3, ground-2)
+dobj(put-1, coffee-3)
+
+dobj(fill-1, water-2)
+prep_in(fill-1, coffeemaker-4)
+
+dobj(turn-1, coffemaker-2)
+prt(turn-1, on-3)
+
+prep_for(wait-1, coffee-3)
+aux(stop-5, to-4)
+xcomp(wait-1, stop-5)
+dep(stop-5, dripping-6)
+
+dobj(pour-1, coffee-2)
+prep_from(pour-1, pot-4)
+prep_into(pour-1, cup-6)
+
+dobj(get-1, water-2)
+
+dobj(put-1, water-2)
+amod(maker-5, coffe-4)
+prep_in(put-1, maker-5)
+
+nn(filter-3, coffee-2)
+dobj(get-1, filter-3)
+
+prep_in(place-1, holder-3)
+
+dobj(get-1, coffee-2)
+
+dobj(put-1, coffee-2)
+prep_in(put-1, filter-4)
+
+nn(maker-4, coffee-3)
+prep_on(turn-1, maker-4)
+
+nn(maker-4, coffee-3)
+prep_to(go-1, maker-4)
+
+prep_with(fill-1, water-3)
+
+dobj(place-1, filter-2)
+prep_in(place-1, holder-4)
+
+dobj(place-1, coffee-2)
+prep_in(place-1, filter-4)
+
+dobj(place-1, holder-2)
+nn(maker-5, coffee-4)
+prep_in(place-1, maker-5)
+
+nn(maker-4, coffee-3)
+prep_on(turn-1, maker-4)
+
+amod(bucket-3, coffe-2)
+dobj(get-1, bucket-3)
+prep_from(get-1, refridgerator-5)
+
+amod(bucket-3, coffe-2)
+dobj(open-1, bucket-3)
+
+dobj(put-1, coffee-2)
+det(filter-5, a-4)
+prep_in(put-1, filter-5)
+
+dobj(put-1, wather-2)
+det(coffeemakingmachine-5, the-4)
+prep_on(put-1, coffeemakingmachine-5)
+
+dobj(put-1, coffeefilter-2)
+prep_on(put-1, coffepot-4)
+
+dobj(put-1, coffeepot-2)
+det(coffemakingmachine-5, the-4)
+prep_on(put-1, coffemakingmachine-5)
+
+nn(machine-3, coffee-2)
+dobj(locate-1, machine-3)
+
+nn(machine-3, coffee-2)
+dobj(clean-1, machine-3)
+
+nsubj(grind-1, coffee-2)
+mark(have-4, if-3)
+dep(grind-1, have-4)
+dobj(have-4, beans-5)
+
+nn(coffee-3, ground-2)
+dobj(pour-1, coffee-3)
+prep_in(pour-1, machine-5)
+
+dobj(pour-1, water-2)
+
+prep_on(turn-1, machine-3)
+
+det(machine-5, the-3)
+nn(machine-5, coffee-4)
+prep_to(walk-1, machine-5)
+
+acomp(make-1, sure-2)
+det(machine-4, the-3)
+nsubj(has-5, machine-4)
+ccomp(sure-2, has-5)
+amod(ingredients-7, necessary-6)
+dobj(has-5, ingredients-7)
+
+det(machine-4, the-3)
+prep_on(turn-1, machine-4)
+
+det(beans-4, the-2)
+nn(beans-4, coffee-3)
+dobj(grind-1, beans-4)
+
+det(powder-5, the-2)
+nn(powder-5, ground-3)
+nn(powder-5, coffee-4)
+dobj(load-1, powder-5)
+det(machine-9, the-7)
+nn(machine-9, coffee-8)
+prep_to(load-1, machine-9)
+
+det(machine-5, the-3)
+nn(machine-5, coffee-4)
+prep_on(turn-1, machine-5)
+
+dobj(press-1, start-3)
+
+det(pot-4, a-2)
+nn(pot-4, coffee-3)
+dobj(put-1, pot-4)
+det(machine-8, the-6)
+nn(machine-8, coffee-7)
+prep_under(put-1, machine-8)
+
+mark(filled-7, until-2)
+det(pot-5, the-3)
+nn(pot-5, coffee-4)
+nsubjpass(filled-7, pot-5)
+auxpass(filled-7, is-6)
+advcl(wait-1, filled-7)
+prep_with(filled-7, coffee-9)
+
+dobj(grind-1, coffee-2)
+
+nn(machine-3, coffee-2)
+dobj(clean-1, machine-3)
+
+amod(filter-4, new-3)
+prep_in(put-1, filter-4)
+
+dobj(put-1, coffee-2)
+prep_inside(put-1, filter-4)
+
+dobj(pour-1, water-2)
+prep_in(pour-1, machine-4)
+
+dobj(turn-1, machine-2)
+prt(turn-1, on-3)
+conj_and(turn-1, wait-5)
+aux(brew-7, to-6)
+xcomp(wait-5, brew-7)
+
+dobj(turn-1, machine-2)
+prt(turn-1, off-3)
+
+dobj(get-1, coffee-2)
+
+amod(filter-3, new-2)
+dobj(put-1, filter-3)
+nn(machine-6, coffee-5)
+prep_in(put-1, machine-6)
+
+dobj(put-1, coffee-2)
+prep_in(put-1, filter-4)
+
+dobj(put-1, water-2)
+prep_in(put-1, machine-4)
+
+prep_on(turn-1, machine-3)
+
+prep_for(wait-1, coffee-3)
+aux(brew-5, to-4)
+xcomp(wait-1, brew-5)
+
+prt(turn-1, off-2)
+dobj(turn-1, machine-3)
+
+dobj(get-1, coffee-2)
+
+dobj(place-1, coffee-2)
+nn(machine-5, coffee-4)
+prep_inside(place-1, machine-5)
+
+dobj(pour-1, water-2)
+nn(machine-5, coffee-4)
+prep_in(pour-1, machine-5)
+
+prep_on(turn-1, machine-3)
+
+prep_for(wait-1, coffee-3)
+aux(brewed-6, to-4)
+auxpass(brewed-6, be-5)
+xcomp(wait-1, brewed-6)
+
+dobj(put-1, kettle-2)
+prep(put-1, on-3)
+
+dobj(get-1, mug-2)
+
+dobj(put-1, coffee-2)
+prep_in(put-1, mug-4)
+
+dep(pour-1, boiling-2)
+dobj(boiling-2, water-3)
+prep_in(boiling-2, mug-5)
+
+
+det(pot-5, an-2)
+amod(pot-5, electric-3)
+nn(pot-5, coffee-4)
+dobj(find-1, pot-5)
+
+dobj(place-1, water-2)
+det(pot-6, the-4)
+nn(pot-6, coffee-5)
+prep_into(place-1, pot-6)
+
+amod(crystals-4, instant-2)
+nn(crystals-4, coffee-3)
+dobj(place-1, crystals-4)
+det(pot-8, the-6)
+nn(pot-8, coffee-7)
+prep_into(place-1, pot-8)
+
+det(pot-5, the-3)
+nn(pot-5, coffee-4)
+prep_on(turn-1, pot-5)
+
+det(pot-5, the-3)
+nn(pot-5, coffee-4)
+prep_for(wait-1, pot-5)
+aux(brew-7, to-6)
+xcomp(wait-1, brew-7)
+det(coffee-9, the-8)
+dobj(brew-7, coffee-9)
+
+nn(machine-4, coffee-3)
+prep_to(move-1, machine-4)
+
+dobj(put-1, water-2)
+nn(machine-5, coffee-4)
+prep_in(put-1, machine-5)
+
+dobj(put-1, coffee-2)
+nn(machine-5, coffee-4)
+prep_in(put-1, machine-5)
+
+nn(machine-3, coffee-2)
+dobj(switch-1, machine-3)
+prep(switch-1, on-4)
+
+dobj(put-1, filter-2)
+nn(maker-5, coffee-4)
+prep_in(put-1, maker-5)
+
+nn(grounds-3, coffee-2)
+dobj(put-1, grounds-3)
+prep_in(put-1, filter-5)
+
+dobj(put-1, water-2)
+nn(maker-5, coffee-4)
+prep_in(put-1, maker-5)
+
+nn(maker-4, coffee-3)
+prep_on(turn-1, maker-4)
+
+nn(pot-3, coffee-2)
+dobj(identify-1, pot-3)
+
+nn(grounds-3, coffee-2)
+dobj(idenity-1, grounds-3)
+
+nn(grounds-3, coffee-2)
+dobj(place-1, grounds-3)
+nn(pot-6, coffee-5)
+prep_in(place-1, pot-6)
+
+dobj(place-1, water-2)
+nn(pot-5, coffee-4)
+prep_in(place-1, pot-5)
+
+nn(pot-4, coffee-3)
+prep_on(turn-1, pot-4)
+
+advmod(full-4, when-1)
+nsubj(full-4, pot-2)
+cop(full-4, is-3)
+csubj(remove-5, full-4)
+csubj(serve-7, full-4)
+conj_and(remove-5, serve-7)
+dobj(serve-7, coffee-8)
+
+amod(water-3, hot-2)
+dobj(put-1, water-3)
+det(cup-6, a-5)
+prep_in(put-1, cup-6)
+
+det(coffee-3, the-2)
+dobj(pour-1, coffee-3)
+
+nn(coffee-3, ground-2)
+dobj(put-1, coffee-3)
+det(filter-7, a-5)
+nn(filter-7, coffee-6)
+prep_into(put-1, filter-7)
+
+det(filter-4, the-2)
+nn(filter-4, coffee-3)
+dobj(place-1, filter-4)
+det(maker-8, the-6)
+nn(maker-8, coffee-7)
+prep_into(place-1, maker-8)
+
+det(reservoir-5, the-2)
+nn(reservoir-5, coffee-3)
+nn(reservoir-5, maker-4)
+dobj(fill-1, reservoir-5)
+prep_with(fill-1, water-7)
+
+det(maker-5, the-3)
+nn(maker-5, coffee-4)
+prep_on(turn-1, maker-5)
+
+mark(done-6, until-2)
+det(coffee-4, the-3)
+nsubjpass(done-6, coffee-4)
+auxpass(done-6, is-5)
+advcl(wait-1, done-6)
+dobj(done-6, brewing-7)
+
+nn(maker-4, coffee-3)
+prep_in(plug-1, maker-4)
+
+dobj(find-1, filter-2)
+
+dobj(install-1, filter-2)
+
+dobj(find-1, coffee-2)
+
+dobj(fill-1, filter-2)
+prep_with(fill-1, coffee-4)
+
+dobj(add-1, water-2)
+
+dobj(watch-1, cup-2)
+dep(watch-1, fill-3)
+prt(fill-3, up-4)
+prep_with(fill-3, coffee-6)
+
+dobj(put-1, filter-2)
+prep_in(put-1, basket-4)
+
+dobj(put-1, coffee-2)
+prep_in(put-1, filter-4)
+
+dobj(put-1, water-2)
+nn(pot-5, coffee-4)
+prep_in(put-1, pot-5)
+
+nn(pot-4, coffee-3)
+prep_on(turn-1, pot-4)
+
+prep_for(wait-1, coffee-3)
+aux(brew-5, to-4)
+xcomp(wait-1, brew-5)
+
+dobj(pour-1, coffee-2)
+
+nn(pot-3, coffee-2)
+dobj(turn-1, pot-3)
+prt(turn-1, off-4)
+
+dobj(pour-1, water-2)
+nn(pot-5, coffee-4)
+prep_into(pour-1, pot-5)
+
+dobj(put-1, filter-2)
+prep_into(put-1, basket-4)
+
+dobj(add-1, coffee-2)
+nn(basket-5, filter-4)
+prep_to(add-1, basket-5)
+
+nn(basket-3, filter-2)
+dobj(close-1, basket-3)
+
+nn(pot-3, coffee-2)
+dobj(turn-1, pot-3)
+prt(turn-1, on-4)
+
+dobj(grind-1, coffee-2)
+
+dobj(place-1, filter-2)
+prep_in(place-1, basket-4)
+
+dobj(measure-1, coffee-2)
+prep_into(measure-1, filter-4)
+
+dobj(add-1, water-2)
+aux(cofee-4, to-3)
+xcomp(add-1, cofee-4)
+dobj(cofee-4, maker-5)
+
+nn(maker-4, coffee-3)
+prep_in(plug-1, maker-4)
+
+nn(maker-4, coffee-3)
+prep_on(turn-1, maker-4)
+
+dobj(pour-1, coffee-2)
+prep_into(pour-1, mug-4)
+advmod(brewed-6, when-5)
+advcl(pour-1, brewed-6)
+
+nn(beans-3, coffee-2)
+dobj(grind-1, beans-3)
+
+nn(beans-3, coffee-2)
+dobj(pour-1, beans-3)
+prep_into(pour-1, filter-5)
+
+dobj(brew-1, coffee-2)
+
+nsubj(coffee-2, roast-1)
+
+dobj(grind-1, coffee-2)
+
+dobj(add-1, water-2)
+nn(pot-5, coffee-4)
+prep_to(add-1, pot-5)
+
+dobj(add-1, coffee-2)
+nn(pot-5, coffee-4)
+prep_to(add-1, pot-5)
+
+nn(pot-3, coffee-2)
+dobj(turn-1, pot-3)
+prt(turn-1, on-4)
+
+prep_for(wait-1, coffee-3)
+aux(brew-5, to-4)
+xcomp(wait-1, brew-5)
+
+dobj(put-1, filter-2)
+nn(pot-5, coffee-4)
+prep_in(put-1, pot-5)
+
+dobj(put-1, coffee-2)
+prep_into(put-1, filter-4)
+
+dobj(add-1, water-2)
+prep_to(add-1, machine-4)
+
+dobj(put-1, pot-2)
+prep_on(put-1, burner-4)
+
+dobj(turn-1, machine-2)
+prt(turn-1, on-3)
+
+dobj(get-1, coffee-2)
+
+dobj(make-1, coffee-2)
+
+dobj(put-1, water-2)
+prep_in(put-1, kettle-4)
+prep_in(put-1, boil-6)
+conj_and(kettle-4, boil-6)
+
+dobj(put-1, coffee-2)
+prep_in(put-1, mug-4)
+
+dobj(add-1, sugar-2)
+dobj(add-1, milk-4)
+conj_and(sugar-2, milk-4)
+mark(required-6, if-5)
+dep(add-1, required-6)
+
+amod(water-3, hot-2)
+dobj(pour-1, water-3)
+prep_into(pour-1, mug-5)
+
+
+dobj(put-1, water-2)
+prep_in(put-1, kettle-4)
+
+dobj(put-1, coffee-2)
+prep_in(put-1, mug-4)
+
+dobj(boil-1, kettle-2)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, mug-4)
+
+dobj(add-1, sugar-2)
+dobj(add-1, milk-4)
+conj_and(sugar-2, milk-4)
+prep_to(add-1, taste-6)
+
+dobj(put-1, filter-2)
+prep_in(put-1, coffeepot-4)
+
+dobj(put-1, coffee-2)
+prep_in(put-1, filter-4)
+
+dobj(pour-1, water-2)
+prep_in(pour-1, resevoir-4)
+
+dobj(put-1, lid-2)
+prt(put-1, down-3)
+
+csubj(spout-6, place-1)
+amod(urn-3, coffe-2)
+dobj(place-1, urn-3)
+prep_under(place-1, brew-5)
+
+dobj(set-1, pot-2)
+nn(brew-6, auto-5)
+prep_to(set-1, brew-6)
+
+dobj(turn-1, pot-2)
+prt(turn-1, on-3)
+
+dobj(measure-1, coffee-2)
+
+dobj(put-1, filter-2)
+nn(maker-5, coffee-4)
+prep_in(put-1, maker-5)
+
+dobj(measure-1, water-2)
+
+nn(machine-4, coffee-3)
+prep_on(turn-1, machine-4)
+
+prep_in(coffee-1, cup-3)
+
+amod(water-2, hot-1)
+
+nn(beans-3, coffee-2)
+dobj(grind-1, beans-3)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, water-2)
+prep_to(add-1, coffee-4)
+
+dobj(grind-1, beans-2)
+
+dobj(boil-1, water-2)
+
+dobj(place-1, water-2)
+amod(power-5, grind-4)
+prep_into(place-1, power-5)
+
+dobj(put-1, filter-2)
+nn(machine-5, coffee-4)
+prep_in(put-1, machine-5)
+
+dobj(place-1, coffee-2)
+prep_in(place-1, machine-4)
+
+dobj(add-1, water-2)
+
+prep_on(turn-1, machine-3)
+
+advmod(serve-4, then-3)
+conj_and(wait-1, serve-4)
+
+nn(bean-3, coffee-2)
+dobj(get-1, bean-3)
+
+det(beans-4, the-2)
+nn(beans-4, coffee-3)
+dobj(grind-1, beans-4)
+
+nsubj(grinded-3, filter-1)
+dep(grinded-3, the-2)
+dobj(grinded-3, coffee-4)
+
+amod(water-3, hot-2)
+dobj(run-1, water-3)
+prep_through(run-1, it-5)
+
+det(coffee-3, the-2)
+dobj(pour-1, coffee-3)
+prt(pour-1, out-4)
+
+dobj(put-1, filter-2)
+prep_in(put-1, pot-4)
+
+dobj(put-1, grounds-2)
+prep_in(put-1, filter-4)
+
+dobj(add-1, water-2)
+det(resevoir-5, the-4)
+prep_to(add-1, resevoir-5)
+
+dobj(turn-1, pot-2)
+prt(turn-1, on-3)
+poss(mode-7, its-5)
+nn(mode-7, brew-6)
+prep_to(turn-1, mode-7)
+
+dobj(fill-1, kettle-2)
+prep_with(fill-1, water-4)
+
+dobj(turn-1, kettle-2)
+prt(turn-1, on-3)
+
+amod(coffee-3, instant-2)
+dobj(add-1, coffee-3)
+prep_into(add-1, mug-5)
+
+amod(water-3, boiled-2)
+dobj(add-1, water-3)
+prep_to(add-1, mug-5)
+
+dobj(add-1, sugar-2)
+prepc_as(add-1, desired-4)
+
+dobj(audd-1, milk-2)
+dobj(audd-1, cream-4)
+conj_or(milk-2, cream-4)
+mark(desired-6, as-5)
+advcl(audd-1, desired-6)
+
+dobj(boil-1, water-2)
+
+dobj(add-1, coffee-2)
+
+prep_in(pour-1, cup-3)
+
+dobj(pour-1, water-2)
+det(resevoir-5, the-4)
+prep_in(pour-1, resevoir-5)
+
+dobj(put-1, filter-2)
+det(basket-5, the-4)
+prep_in(put-1, basket-5)
+
+dobj(put-1, grounds-2)
+det(filter-5, the-4)
+prep_in(put-1, filter-5)
+
+dobj(place-1, pot-2)
+det(brewer-5, the-4)
+prep_in(place-1, brewer-5)
+
+dobj(turn-1, maker-2)
+prt(turn-1, on-3)
+

@@ -1,0 +1,449 @@
+dobj(sing-1, part-2)
+det(song-5, a-4)
+prep_of(part-2, song-5)
+det(child-8, a-7)
+prep_to(sing-1, child-8)
+
+det(child-3, the-2)
+dobj(ask-1, child-3)
+aux(repeat-5, to-4)
+xcomp(ask-1, repeat-5)
+det(part-7, the-6)
+dobj(repeat-5, part-7)
+
+amod(parts-3, other-2)
+dobj(sing-1, parts-3)
+det(song-6, the-5)
+prep_of(parts-3, song-6)
+det(child-9, the-8)
+prep_to(sing-1, child-9)
+
+aux(repeat-4, have-1)
+det(child-3, the-2)
+nsubj(repeat-4, child-3)
+det(parts-7, the-5)
+nn(parts-7, song-6)
+dobj(repeat-4, parts-7)
+prep_in(repeat-4, order-9)
+
+dobj(sing-1, song-2)
+prep_to(sing-1, child-4)
+
+nn(repeat-3, child-2)
+dobj(make-1, repeat-3)
+prep_with(make-1, you-5)
+
+dobj(make-1, child-2)
+dep(make-1, sing-3)
+poss(own-6, his-5)
+prep_on(sing-3, own-6)
+
+dobj(sing-1, song-2)
+prep_to(sing-1, child-4)
+
+dobj(make-1, child-2)
+dep(make-1, sing-3)
+prt(sing-3, along-4)
+
+dobj(make-1, child-2)
+dep(make-1, sing-3)
+prep_by(sing-3, himself-5)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+prep_to(sing-1, child-5)
+
+dobj(make-1, child-2)
+dep(make-1, sing-3)
+prep_with(sing-3, you-5)
+
+mark(learns-4, until-2)
+nsubj(learns-4, child-3)
+advcl(repeat-1, learns-4)
+advmod(learns-4, or-5)
+dep(learns-4, bored-6)
+
+advmod(sing-2, first-1)
+det(song-4, the-3)
+dobj(sing-2, song-4)
+det(child-7, the-6)
+prep_to(sing-2, child-7)
+
+det(child-3, the-2)
+dobj(ask-1, child-3)
+aux(sing-5, to-4)
+xcomp(ask-1, sing-5)
+dobj(sing-5, it-6)
+advmod(sing-5, back-7)
+
+det(child-3, the-2)
+nsubj(fix-5, child-3)
+aux(fix-5, to-4)
+xcomp(coach-1, fix-5)
+amod(mistakes-9, his-6)
+conj_or(his-6, her-8)
+amod(mistakes-9, her-8)
+dobj(fix-5, mistakes-9)
+
+aux(sing-4, have-1)
+det(child-3, the-2)
+nsubj(sing-4, child-3)
+det(song-6, the-5)
+dobj(sing-4, song-6)
+advmod(sing-4, again-7)
+
+det(song-3, a-2)
+dobj(select-1, song-3)
+aux(teach-5, to-4)
+infmod(song-3, teach-5)
+
+det(song-3, the-2)
+dobj(read-1, song-3)
+det(child-6, the-5)
+prep_to(read-1, child-6)
+
+aux(repeat-4, have-1)
+det(child-3, the-2)
+nsubj(repeat-4, child-3)
+det(song-6, the-5)
+dobj(repeat-4, song-6)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+prep_together_with(sing-1, music-6)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+det(child-6, the-5)
+prep_to(sing-1, child-6)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+det(child-6, the-5)
+prep_to(sing-1, child-6)
+
+det(child-3, the-2)
+dobj(encourage-1, child-3)
+aux(sing-5, to-4)
+infmod(child-3, sing-5)
+prt(sing-5, along-6)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+det(child-6, the-5)
+prep_to(sing-1, child-6)
+
+dobj(sing-1, song-2)
+prep_to(sing-1, child-4)
+
+prep_along_with(sing-1, child-4)
+
+dobj(encourage-1, child-2)
+aux(sing-4, to-3)
+xcomp(encourage-1, sing-4)
+poss(own-7, his-6)
+prep_on(sing-4, own-7)
+
+dobj(sing-1, song-2)
+prep_to(sing-1, child-4)
+
+dobj(ask-1, child-2)
+dep(ask-1, sing-3)
+prep_along_with(sing-3, you-6)
+
+dobj(repeat-1, song-2)
+det(times-5, a-3)
+amod(times-5, few-4)
+tmod(repeat-1, times-5)
+
+dobj(ask-1, child-2)
+aux(sing-4, to-3)
+xcomp(ask-1, sing-4)
+poss(own-7, his-6)
+prep_on(sing-4, own-7)
+
+amod(attention-3, childs-2)
+dobj(get-1, attention-3)
+
+nn(song-2, song-1)
+det(child-5, the-4)
+prep_to(song-2, child-5)
+
+nsubj(repeat-3, child-2)
+ccomp(let-1, repeat-3)
+det(song-5, the-4)
+dobj(repeat-3, song-5)
+
+dobj(help-1, child-2)
+aux(complete-4, to-3)
+xcomp(help-1, complete-4)
+det(song-6, the-5)
+dobj(complete-4, song-6)
+
+det(song-3, the-2)
+iobj(repeat-1, song-3)
+det(number-5, a-4)
+dobj(repeat-1, number-5)
+prep_of(number-5, times-7)
+
+amod(attention-3, childs-2)
+dobj(get-1, attention-3)
+
+dobj(give-1, lyrics-2)
+prep_to(give-1, child-4)
+
+dobj(sing-1, melody-2)
+prep_to(sing-1, child-4)
+
+dobj(sing-1, song-2)
+prep_with(sing-1, child-4)
+
+dobj(get-1, child-2)
+prep(get-1, interested-3)
+dep(interested-3, in-4)
+pobj(in-4, song-5)
+
+dobj(sing-1, song-2)
+prep_to(sing-1, child-4)
+
+dobj(sing-1, song-2)
+prep_with(sing-1, child-4)
+
+conj_and(clap-1, make-3)
+amod(motions-6, other-4)
+amod(motions-6, interesting-5)
+dobj(make-3, motions-6)
+det(rythm-10, the-9)
+prep_according_to(make-3, rythm-10)
+det(song-13, the-12)
+prep_of(rythm-10, song-13)
+
+det(day-3, every-2)
+tmod(repeat-1, day-3)
+mark(knows-7, until-4)
+det(child-6, the-5)
+nsubj(knows-7, child-6)
+advcl(repeat-1, knows-7)
+det(song-9, the-8)
+dobj(knows-7, song-9)
+
+dobj(sing-1, it-2)
+prep_to(sing-1, them-4)
+advmod(sing-1, over-5)
+advmod(sing-1, over-7)
+conj_and(over-5, over-7)
+
+det(line-4, the-2)
+amod(line-4, first-3)
+dobj(sing-1, line-4)
+
+aux(repeat-4, have-1)
+det(child-3, the-2)
+nsubj(repeat-4, child-3)
+dobj(repeat-4, it-5)
+
+det(lines-5, the-2)
+amod(lines-5, first-3)
+num(lines-5, two-4)
+dobj(sing-1, lines-5)
+
+aux(repeat-4, have-1)
+det(child-3, the-2)
+nsubj(repeat-4, child-3)
+det(lines-6, both-5)
+dobj(repeat-4, lines-6)
+
+mark(complete-6, until-2)
+det(song-4, the-3)
+nsubj(complete-6, song-4)
+cop(complete-6, is-5)
+advcl(repeat-1, complete-6)
+
+det(song-3, the-2)
+iobj(sing-1, song-3)
+amod(times-5, several-4)
+dobj(sing-1, times-5)
+iobj(sing-1, times-5)
+det(day-7, a-6)
+dep(times-5, day-7)
+
+prep_after(hears-3, child-2)
+det(song-5, the-4)
+nsubj(hears-3, song-5)
+
+prt(sit-1, down-2)
+prep_with(sit-1, child-4)
+conj_and(sit-1, teach-6)
+det(words-8, the-7)
+dobj(teach-6, words-8)
+det(child-11, the-10)
+prep_to(teach-6, child-11)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+advmod(sing-1, together-4)
+
+det(child-3, the-2)
+dobj(tell-1, child-3)
+advmod(sing-6, how-4)
+aux(sing-6, to-5)
+xcomp(tell-1, sing-6)
+det(song-8, the-7)
+dobj(sing-6, song-8)
+
+poss(practice-3, their-2)
+dobj(guide-1, practice-3)
+
+det(song-4, an-2)
+amod(song-4, appropriate-3)
+dobj(pick-1, song-4)
+det(child-7, the-6)
+prep_for(pick-1, child-7)
+
+det(line-3, each-2)
+dobj(sing-1, line-3)
+det(song-6, the-5)
+prep_of(line-3, song-6)
+
+aux(repeat-4, have-1)
+det(child-3, the-2)
+nsubj(repeat-4, child-3)
+det(words-6, the-5)
+dobj(repeat-4, words-6)
+dobj(repeat-4, melody-8)
+conj_and(words-6, melody-8)
+
+dobj(correct-1, child-2)
+prep_on(correct-1, mistakes-4)
+
+det(song-4, the-3)
+prep_through(run-1, song-4)
+amod(times-6, several-5)
+tmod(run-1, times-6)
+
+det(song-3, a-2)
+dobj(pick-1, song-3)
+
+dobj(sing-1, it-2)
+prep_to(sing-1, child-4)
+
+nn(attempt-3, child-2)
+dobj(let-1, attempt-3)
+aux(sing-5, to-4)
+infmod(attempt-3, sing-5)
+amod(own-10, his-7)
+conj_or(his-7, her-9)
+amod(own-10, her-9)
+prep_on(sing-5, own-10)
+
+prep_with(help-1, lyrics-3)
+nsubjpass(forgotten-6, lyrics-3)
+auxpass(forgotten-6, were-5)
+rcmod(lyrics-3, forgotten-6)
+
+advmod(listen-1, again-2)
+
+mark(knows-4, until-2)
+nsubj(knows-4, child-3)
+advcl(repeat-1, knows-4)
+predet(words-7, all-5)
+det(words-7, the-6)
+dobj(knows-4, words-7)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+
+det(song-3, the-2)
+dobj(break-1, song-3)
+amod(phrases-6, smaller-5)
+prep_into(break-1, phrases-6)
+
+det(child-3, the-2)
+nsubj(repeat-4, child-3)
+ccomp(let-1, repeat-4)
+det(phrases-7, the-5)
+amod(phrases-7, smaller-6)
+dobj(repeat-4, phrases-7)
+
+mark(learns-5, until-2)
+det(child-4, the-3)
+nsubj(learns-5, child-4)
+advcl(repeat-1, learns-5)
+det(song-7, the-6)
+dobj(learns-5, song-7)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+
+num(line-3, one-2)
+dobj(sing-1, line-3)
+
+aux(repeat-4, have-1)
+det(child-3, the-2)
+nsubj(repeat-4, child-3)
+dobj(repeat-4, it-5)
+
+dobj(follow-1, steps-2)
+num(steps-2, 2-3-3)
+
+dobj(sing-1, song-2)
+advmod(sing-1, slowly-3)
+
+det(line-3, each-2)
+dobj(repeat-1, line-3)
+
+nn(singing-4, child-3)
+prep_with(join-1, singing-4)
+
+nn(child-2, seat-1)
+prep_in_front_of(child-2, you-6)
+
+dobj(introduce-1, song-2)
+
+xcomp(begin-1, singing-2)
+amod(line-4, first-3)
+dobj(singing-2, line-4)
+
+dobj(do-1, actions-2)
+prep_with(do-1, song-4)
+
+dobj(allow-1, child-2)
+aux(repeat-4, to-3)
+xcomp(allow-1, repeat-4)
+amod(line-6, first-5)
+dobj(repeat-4, line-6)
+
+prep_with(continue-1, rest-3)
+nn(line-7, song-5)
+num(line-7, one-6)
+prep_of(rest-3, line-7)
+det(time-10, a-9)
+prep_at(continue-1, time-10)
+
+prep_to(listen-1, mommy-3)
+
+prep_after(repeat-1, me-3)
+
+dobj(sing-1, song-2)
+prep_to(sing-1, child-4)
+
+aux(repeat-3, have-1)
+nsubj(repeat-3, child-2)
+det(song-5, the-4)
+dobj(repeat-3, song-5)
+
+det(song-3, the-2)
+dobj(sing-1, song-3)
+advmod(sing-1, again-4)
+
+dobj(sing-1, song-2)
+prep_for(sing-1, child-4)
+
+nn(lines-4, child-2)
+nn(lines-4, repeat-3)
+dobj(have-1, lines-4)
+
+amod(lines-3, several-2)
+dobj(put-1, lines-3)
+advmod(put-1, together-4)
+

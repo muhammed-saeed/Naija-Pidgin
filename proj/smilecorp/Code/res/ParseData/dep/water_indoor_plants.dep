@@ -1,0 +1,724 @@
+det(container-3, a-2)
+dobj(get-1, container-3)
+
+det(tap-3, a-2)
+dobj(find-1, tap-3)
+
+dobj(fill-1, water-2)
+prep_in(fill-1, container-4)
+
+det(plant-3, the-2)
+dobj(find-1, plant-3)
+
+det(water-3, some-2)
+dobj(put-1, water-3)
+det(pot-6, the-5)
+prep_in(put-1, pot-6)
+
+nn(bucket-3, watering-2)
+dobj(locate-1, bucket-3)
+
+dobj(locate-1, plants-2)
+
+dobj(apply-1, water-2)
+prep_to(apply-1, plants-4)
+
+nn(container-3, water-2)
+dobj(find-1, container-3)
+
+dobj(fill-1, water-2)
+
+det(plant-4, the-3)
+prep_to(go-1, plant-4)
+
+det(water-3, some-2)
+dobj(put-1, water-3)
+nn(pot-6, plant-5)
+prep_in(put-1, pot-6)
+
+nn(container-3, water-2)
+dobj(put-1, container-3)
+advmod(put-1, back-4)
+
+dobj(check-1, plant-2)
+prep_for(check-1, necesity-4)
+
+dobj(fill-1, container-2)
+dep(wat-5, get-4)
+prep_with(fill-1, wat-5)
+
+prep_to(go-1, plant-3)
+
+det(plant-3, the-2)
+dobj(water-1, plant-3)
+
+det(watering-3, the-2)
+nsubj(can-4, watering-3)
+ccomp(fill-1, can-4)
+
+prt(walk-1, around-2)
+
+det(plants-3, the-2)
+dobj(water-1, plants-3)
+
+amod(plants-3, indoor-2)
+dobj(find-1, plants-3)
+
+dobj(get-1, container-2)
+nsubj(hold-5, container-2)
+aux(hold-5, can-4)
+rcmod(container-2, hold-5)
+dobj(hold-5, water-6)
+
+nn(tap-3, kitchen-2)
+dobj(find-1, tap-3)
+
+aux(tap-5, pour-1)
+nsubj(tap-5, water-2)
+advmod(tap-5, from-3)
+dep(from-3, kitchen-4)
+prep_into(tap-5, container-7)
+
+amod(plants-3, indoor-2)
+dobj(locate-1, plants-3)
+
+amod(plants-3, indoor-2)
+dobj(water-1, plants-3)
+
+dobj(obtain-1, water-2)
+dep(water-2, can-3)
+amod(source-7, other-5)
+dep(source-7, water-6)
+dobj(obtain-1, source-7)
+conj_or(water-2, source-7)
+
+det(source-4, the-2)
+nn(source-4, water-3)
+dobj(bring-1, source-4)
+det(plants-7, the-6)
+prep_to(bring-1, plants-7)
+nsubj(need-9, plants-7)
+rcmod(plants-7, need-9)
+aux(be-11, to-10)
+xcomp(need-9, be-11)
+dep(be-11, watered-12)
+
+conj_or(pour-1, dispense-3)
+dobj(dispense-3, water-4)
+det(soil-7, the-6)
+prep_into(dispense-3, soil-7)
+det(plants-10, the-9)
+prep_of(soil-7, plants-10)
+
+nn(container-3, watering-2)
+dobj(get-1, container-3)
+
+dobj(fill-1, container-2)
+prep_with(fill-1, water-4)
+
+det(plant-5, an-3)
+amod(plant-5, indoor-4)
+prep_to(move-1, plant-5)
+
+det(water-3, some-2)
+dobj(pour-1, water-3)
+prep_from(pour-1, container-5)
+prep_into(pour-1, plant-7)
+
+dobj(been-6, repeat-1)
+nsubj(watered-7, repeat-1)
+mark(been-6, until-2)
+det(plants-4, all-3)
+nsubj(been-6, plants-4)
+aux(been-6, have-5)
+dep(repeat-1, been-6)
+
+det(watering-3, a-2)
+dobj(get-1, watering-3)
+rcmod(watering-3, can-4)
+
+det(can-3, the-2)
+dobj(fill-1, can-3)
+prep_with(fill-1, water-5)
+
+det(plant-4, each-2)
+amod(plant-4, potted-3)
+pobj(for-1, plant-4)
+
+det(water-3, some-2)
+dobj(pour-1, water-3)
+det(soil-6, the-5)
+prep_onto(pour-1, soil-6)
+
+det(pot-4, a-2)
+nn(pot-4, watering-3)
+dobj(get-1, pot-4)
+
+det(pot-4, the-2)
+nn(pot-4, watering-3)
+dobj(fill-1, pot-4)
+prep_with(fill-1, water-6)
+
+det(water-3, the-2)
+dobj(pour-1, water-3)
+det(plants-7, the-5)
+amod(plants-7, indoor-6)
+prep_over(pour-1, plants-7)
+
+nsubj(overflows-9, stop-1)
+partmod(stop-1, pouring-2)
+det(plants-6, the-4)
+amod(plants-6, indoor-5)
+prep_before(pouring-2, plants-6)
+cop(overflows-9, s-7)
+nn(overflows-9, container-8)
+
+nn(jug-3, water-2)
+dobj(get-1, jug-3)
+
+prep_to(go-1, plant-3)
+
+dobj(pour-1, water-2)
+
+prep_to(go-1, 2-3)
+det(plants-7, no-5)
+amod(plants-7, more-6)
+prep_until(go-1, plants-7)
+det(water-11, no-9)
+amod(water-11, more-10)
+prep_until(go-1, water-11)
+conj_or(plants-7, water-11)
+
+nn(jug-3, water-2)
+dobj(fill-1, jug-3)
+
+nn(jug-3, water-2)
+dobj(take-1, jug-3)
+prep_to(take-1, plant-5)
+
+dobj(pour-1, water-2)
+nn(pot-5, plant-4)
+prep_into(pour-1, pot-5)
+
+amod(plant-4, next-3)
+prep_to(move-1, plant-4)
+
+dobj(fill-1, watering-2)
+dep(fill-1, can-3)
+
+prep_to(walk-1, plant-3)
+
+det(water-3, some-2)
+dobj(pour-1, water-3)
+nn(pot-6, plant-5)
+prep_in(pour-1, pot-6)
+prep_until(pour-1, damp-8)
+
+dobj(put-1, water-2)
+prepc_in(put-1, watering-4)
+dobj(watering-4, can-5)
+
+dobj(pour-1, water-2)
+det(soil-5, the-4)
+prep_into(pour-1, soil-5)
+det(pots-9, the-7)
+nn(pots-9, plant-8)
+prep_of(soil-5, pots-9)
+
+nn(container-3, water-2)
+dobj(fill-1, container-3)
+
+nn(container-3, water-2)
+dobj(carry-1, container-3)
+prep_to(carry-1, plants-5)
+
+dobj(pour-1, water-2)
+nn(pot-5, plant-4)
+prep_inside(pour-1, pot-5)
+
+amod(plant-4, next-3)
+prep_to(go-1, plant-4)
+det(plants-8, no-6)
+amod(plants-8, more-7)
+prep_until(go-1, plants-8)
+
+prt(pick-1, up-2)
+det(pitcher-5, a-3)
+nn(pitcher-5, watering-4)
+dobj(pick-1, pitcher-5)
+
+det(pitcher-3, the-2)
+dobj(fill-1, pitcher-3)
+prep_with(fill-1, water-5)
+
+prt(pick-1, up-2)
+det(pitcher-5, a-3)
+nn(pitcher-5, watering-4)
+dobj(pick-1, pitcher-5)
+
+det(pitcher-3, the-2)
+dobj(fill-1, pitcher-3)
+prep_with(fill-1, water-5)
+
+det(water-3, the-2)
+dobj(pour-1, water-3)
+det(soild-6, the-5)
+prep_into(pour-1, soild-6)
+det(plant-9, the-8)
+prep_around(soild-6, plant-9)
+
+det(container-5, a-2)
+nn(container-5, plant-3)
+nn(container-5, watering-4)
+dobj(fill-1, container-5)
+prep_with(fill-1, water-7)
+
+det(plant-5, an-3)
+amod(plant-5, indoor-4)
+prep_to(move-1, plant-5)
+nsubj(needs-7, plant-5)
+rcmod(plant-5, needs-7)
+dobj(needs-7, water-8)
+
+csubj(pot-11, pour-1)
+det(water-3, some-2)
+dobj(pour-1, water-3)
+det(container-6, the-5)
+prep_from(pour-1, container-6)
+det(plant-9, the-8)
+prep_into(pour-1, plant-9)
+cop(pot-11, s-10)
+
+dobj(been-7, repeat-1)
+nsubj(watered-8, repeat-1)
+mark(been-7, until-2)
+det(plants-5, all-3)
+amod(plants-5, indoor-4)
+nsubj(been-7, plants-5)
+aux(been-7, have-6)
+dep(repeat-1, been-7)
+
+nn(jug-3, water-2)
+dobj(fill-1, jug-3)
+
+nn(jug-3, water-2)
+dobj(take-1, jug-3)
+prep_to(take-1, plants-5)
+
+dobj(pour-1, water-2)
+nn(pots-5, plants-4)
+prep_in(pour-1, pots-5)
+
+amod(plant-4, next-3)
+prep_to(go-1, plant-4)
+
+dobj(fetch-1, watering-2)
+dep(fetch-1, can-3)
+
+dobj(fill-1, it-2)
+prep_with(fill-1, water-4)
+
+dobj(pour-1, water-2)
+det(plants-5, the-4)
+prep_on(pour-1, plants-5)
+
+det(pitcher-3, a-2)
+dobj(get-1, pitcher-3)
+
+det(pitcher-3, the-2)
+dobj(fill-1, pitcher-3)
+prep_with(fill-1, water-5)
+
+det(plant-4, each-3)
+prep_to(go-1, plant-4)
+advmod(go-1, individually-5)
+
+det(amount-4, the-2)
+amod(amount-4, appropriate-3)
+dobj(pour-1, amount-4)
+prep_of(amount-4, water-6)
+det(pitcher-9, the-8)
+prep_from(pour-1, pitcher-9)
+det(soil-13, the-11)
+nn(soil-13, plant-12)
+prep_into(pour-1, soil-13)
+det(individuall-17, each-15)
+nn(individuall-17, plant-16)
+prep_for(soil-13, individuall-17)
+
+nn(pitcher-3, water-2)
+dobj(get-1, pitcher-3)
+
+dobj(fill-1, pitcher-2)
+amod(water-5, cool-4)
+prep_with(fill-1, water-5)
+
+amod(water-3, enough-2)
+dobj(pour-1, water-3)
+prep_into(pour-1, plant-5)
+aux(last-7, to-6)
+xcomp(pour-1, last-7)
+advmod(week-11, about-9)
+det(week-11, a-10)
+prep_for(last-7, week-11)
+
+det(water-4, any-2)
+amod(water-4, unused-3)
+dobj(discard-1, water-4)
+
+nsubj(can-3, watering-2)
+ccomp(find-1, can-3)
+
+amod(water-4, cool-3)
+prep_on(turn-1, water-4)
+
+dobj(fill-1, watering-2)
+dep(fill-1, can-3)
+amod(water-6, cool-5)
+prep_with(fill-1, water-6)
+
+num(cups-3, two-2)
+dobj(pour-1, cups-3)
+prep_of(cups-3, water-5)
+prep_into(pour-1, plant-7)
+
+dep(empty-1, remaining-2)
+dobj(remaining-2, water-3)
+det(sink-6, the-5)
+prep_into(remaining-2, sink-6)
+
+amod(watering-2, putaway-1)
+nsubj(can-3, watering-2)
+
+dobj(fill-1, bucket-2)
+prep_with(fill-1, water-4)
+
+prep_to(go-1, plant-3)
+
+amod(water-2, poor-1)
+prep_on(water-2, plants-4)
+
+det(plants-4, all-3)
+prep_for(repeat-1, plants-4)
+
+dobj(refill-1, bucket-2)
+mark(needed-4, if-3)
+dep(refill-1, needed-4)
+
+nsubj(can-3, watering-2)
+ccomp(find-1, can-3)
+
+dobj(fill-1, watering-2)
+dep(fill-1, can-3)
+prep_with(fill-1, water-5)
+
+det(water-3, some-2)
+dobj(pour-1, water-3)
+det(plant-7, each-5)
+amod(plant-7, indoor-6)
+prep_on(pour-1, plant-7)
+
+mark(spilled-4, if-1)
+nsubjpass(spilled-4, water-2)
+auxpass(spilled-4, is-3)
+ccomp(spilled-4, clean-5)
+prt(clean-5, up-6)
+dobj(clean-5, spill-7)
+
+amod(watering-2, empty-1)
+nsubj(sink-5, watering-2)
+aux(sink-5, can-3)
+advmod(sink-5, in-4)
+
+amod(watering-2, put-1)
+nsubj(can-3, watering-2)
+advmod(can-3, away-4)
+
+det(spray-5, a-2)
+amod(spray-5, empty-3)
+nn(spray-5, bottle-4)
+dobj(get-1, spray-5)
+
+dobj(put-1, water-2)
+det(spray-6, the-4)
+nn(spray-6, bottle-5)
+prep_on(put-1, spray-6)
+
+det(plants-3, the-2)
+dep(spray-1, plants-3)
+
+nn(pitcher-3, watering-2)
+dobj(remove-1, pitcher-3)
+prep_from(remove-1, storage-5)
+
+prep_on(turn-1, water-3)
+
+dobj(fill-1, pitcher-2)
+prep_with(fill-1, water-4)
+
+prt(turn-1, off-2)
+dobj(turn-1, water-3)
+
+dobj(position-1, pitcher-2)
+prep_over(position-1, plants-4)
+
+dobj(empty-1, water-2)
+prep_onto(empty-1, plants-4)
+
+dobj(return-1, pitcher-2)
+prep_to(return-1, storage-4)
+
+dobj(fill-1, container-2)
+prep_with(fill-1, water-4)
+
+prep_on(pour-1, plants-3)
+
+det(vessel-3, a-2)
+dobj(fill-1, vessel-3)
+prep_with(fill-1, water-5)
+
+det(water-3, the-2)
+dobj(carry-1, water-3)
+det(plant-6, the-5)
+prep_to(carry-1, plant-6)
+
+dobj(pour-1, water-2)
+advmod(pour-1, slowly-3)
+det(soil-6, the-5)
+prep_into(pour-1, soil-6)
+
+xcomp(stop-1, pouring-2)
+advmod(moist-6, when-3)
+nsubj(moist-6, soil-4)
+cop(moist-6, is-5)
+advcl(pouring-2, moist-6)
+
+dobj(put-1, vessel-2)
+prt(put-1, away-3)
+
+prep_to(talk-1, plant-3)
+det(while-7, a-5)
+amod(while-7, short-6)
+prep_for(talk-1, while-7)
+
+dobj(put-1, water-2)
+det(cup-5, a-4)
+prep_into(put-1, cup-5)
+prep_into(put-1, watering-7)
+conj_or(cup-5, watering-7)
+rcmod(cup-5, can-8)
+
+det(amount-4, a-2)
+amod(amount-4, small-3)
+dobj(pour-1, amount-4)
+prep_of(amount-4, water-6)
+prep_onto(pour-1, soil-8)
+
+dobj(repeat-1, step-2)
+num(step-2, 2-3)
+det(plant-6, each-5)
+prep_for(step-2, plant-6)
+
+prt(pour-1, out-2)
+nn(water-4, access-3)
+dobj(pour-1, water-4)
+
+dobj(fill-1, container-2)
+prep_with(fill-1, water-4)
+
+dobj(add-1, water-2)
+prep_to(add-1, plants-4)
+
+nn(plants-2, notice-1)
+nsubj(need-3, plants-2)
+dobj(need-3, water-4)
+
+dobj(find-1, waterer-2)
+
+dobj(run-1, water-2)
+prep_into(run-1, waterer-4)
+
+prep_to(walk-1, plant-3)
+
+dobj(water-1, plant-2)
+
+dobj(check-1, dampness-2)
+
+advmod(water-1, again-2)
+conj_or(water-1, return-4)
+dobj(return-4, waterer-5)
+prep_to(return-4, storage-7)
+
+mark(dry-5, if-2)
+nsubj(dry-5, plants-3)
+cop(dry-5, are-4)
+advcl(check-1, dry-5)
+
+dobj(locate-1, watering-2)
+dep(locate-1, can-3)
+
+aux(sink-3, to-2)
+xcomp(go-1, sink-3)
+
+nsubj(can-3, watering-2)
+ccomp(put-1, can-3)
+prep_under(can-3, faucet-5)
+
+dobj(turn-1, water-2)
+prt(turn-1, on-3)
+
+dobj(fill-1, watering-2)
+dep(fill-1, can-3)
+
+dobj(pour-1, water-2)
+nn(pots-5, plant-4)
+prep_into(pour-1, pots-5)
+
+dobj(goto-1, plants-2)
+
+dobj(give-1, water-2)
+prep_to(give-1, plants-4)
+
+dobj(fill-1, jug-2)
+prep_with(fill-1, water-4)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, plantpot-4)
+
+nn(jug-3, watering-2)
+dobj(fill-1, jug-3)
+prep_with(fill-1, water-5)
+
+prt(walk-1, over-2)
+prep_to(walk-1, plant-4)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, soil-4)
+prep_until(pour-1, moistened-6)
+
+amod(plants-4, other-3)
+prep_with(repeat-1, plants-4)
+
+
+nsubj(plants-3, which-2)
+ccomp(decide-1, plants-3)
+prep_to(plants-3, water-5)
+
+dobj(locate-1, watering-2)
+dep(locate-1, can-3)
+
+dobj(fill-1, can-2)
+prep_with(fill-1, water-4)
+
+dobj(empty-1, water-2)
+prep_onto(empty-1, plants-4)
+
+nsubj(can-2, put-1)
+advmod(can-2, away-3)
+
+dobj(get-1, water-2)
+
+prep_onto(pour-1, plant-3)
+
+dobj(fill-1, container-2)
+prep_with(fill-1, tap-4)
+
+nn(food-4, plant-3)
+prep_in(mix-1, food-4)
+
+dobj(water-1, plants-2)
+amod(amount-5, adequate-4)
+prep_with(water-1, amount-5)
+
+dobj(place-1, plants-2)
+prep_in(place-1, sunlight-4)
+
+nn(jug-3, watering-2)
+dobj(find-1, jug-3)
+
+prt(pick-1, up-2)
+nn(jug-4, watering-3)
+dobj(pick-1, jug-4)
+
+aux(sink-3, to-2)
+xcomp(walk-1, sink-3)
+prep_with(sink-3, jug-5)
+
+prep_under(place-1, tap-3)
+
+prep_on(turn-1, tap-3)
+
+prep_with(fill-1, water-3)
+
+dobj(water-1, plants-2)
+
+dobj(turn-1, tap-2)
+prt(turn-1, on-3)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, jug-4)
+
+dobj(carry-1, jug-2)
+prep_into(carry-1, room-4)
+
+dobj(pour-1, water-2)
+
+dobj(don-1, t-2)
+dep(don-1, pour-3)
+advmod(much-5, too-4)
+acomp(pour-3, much-5)
+
+nsubj(grow-3, plant-1)
+aux(grow-3, will-2)
+
+prep_in(keep-1, sun-3)
+
+dobj(get-1, watering-2)
+rcmod(watering-2, can-3)
+
+dobj(fill-1, watering-2)
+dep(fill-1, can-3)
+prep_with(fill-1, water-5)
+
+prep_to(go-1, plant-3)
+
+dobj(put-1, water-2)
+prep_in(put-1, pot-4)
+mark(moist-8, until-5)
+nsubj(moist-8, dirt-6)
+cop(moist-8, is-7)
+advcl(put-1, moist-8)
+
+det(plant-4, each-3)
+prep_for(repeat-1, plant-4)
+
+amod(watering-2, empty-1)
+nsubj(can-3, watering-2)
+
+amod(watering-2, put-1)
+nsubj(can-3, watering-2)
+advmod(can-3, away-4)
+
+dobj(fill-1, watering-2)
+dep(fill-1, can-3)
+prep_with(fill-1, water-5)
+
+dobj(pour-1, water-2)
+prep_into(pour-1, pots-4)
+mark(saturated-8, until-5)
+nsubjpass(saturated-8, soil-6)
+auxpass(saturated-8, is-7)
+advcl(pour-1, saturated-8)
+
+dobj(take-1, water-2)
+
+dobj(pour-1, water-2)
+prep_on(pour-1, plants-4)
+
+dobj(add-1, water-2)
+det(jug-5, a-4)
+prep_in(add-1, jug-5)
+
+dobj(pour-1, water-2)
+prep_in(pour-1, pots-4)
+

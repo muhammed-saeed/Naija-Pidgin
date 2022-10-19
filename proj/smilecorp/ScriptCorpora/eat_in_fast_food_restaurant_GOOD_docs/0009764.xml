@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document id="doc0009764" url="https://www.bts.gov/publications/journal_of_transportation_and_statistics/volume_06_number_01/html/paper_01/index.html" time="2012-07-13-03:09" support="1" score="0.0007739069671517537" bingtitle="BTS | Truth in Transportation Planning" webtitle="BTS | Truth in Transportation Planning">
+			<query id="000981" bing-rank="157"/>
+	<description>... of trip generation at a fast food restaurant. The number of ... is to report the peak number of cars parked during the hour(s) of expected peak ... be well below 496.12 in order to ...</description>
+	<body>
+		Skip to content 
+ About RITA | Press Room | Offices | Jobs | Photos&amp;Video | Contact Us 
+ About BTS 
+ Advisory Council for Transportation Statistics BTS Job Vacancies and Internships Confidentiality Policy Events   Webinars Laws and Regulations Organizational Chart Scientific Integrity Statistical Policy and Research 
+ 
+ 
+ BTS Press Room 
+ Press Releases Upcoming Press Releases What&apos;s New 
+ 
+ 
+ Data and Statistics 
+ Airline Traffic Data Air Fares Data Airline On-Time Data Border Crossing/Entry Data Commodity Flow Survey Freight Data and Statistics Intermodal Passenger Connectivity Database International Data National Census of Ferry Operators North American Transborder Freight TranStats Other Data and Statistics 
+ 
+ 
+ Publications 
+ Order a Print Publication Aviation and Airline Reports BTS Fact Sheets National Transportation Library (NTL) Research Papers Special Reports/Issue Briefs Survey Results Technical Reports Transportation Trends in Focus 
+ 
+ 
+ Subject Areas 
+ Aviation and Airline Data Congestion Connectivity Economics and Finance Energy and Environment Freight Information Geographic Information International Livability Maritime Program Passenger Travel Safety Trending and Forecasting 
+ 
+ 
+ External Links 
+ American Public Transportation Association Association of American Railroads Federal Highway Administration Publications and Statistics Journey to Work (Census Bureau) International Transport Forum Marine Transportation System Data National Highway Traffic Safety Administration Federal Transit Administration National Transit Database United Nations Economic Commission for Europe Transport Data Transportation/ Government Websites 
+ 
+ RITA &gt; BTS &gt; Publications &gt; Journal of Transportation and Statistics &gt; Volume 6 Number 1 
+Truth in Transportation Planning
+
+ Donald C. Shoup * 
+University of California, Los Angeles
+
+ABSTRACT
+
+Transportation engineers and urban planners often report uncertain estimates as precise numbers, and unwarranted trust in the accuracy of these precise numbers can lead to bad transportation and land-use policies. This paper presents data on parking and trip generation rates to illustrate the misuse of precise numbers to report statistically insignificant estimates. Beyond the problem of statistical insignificance, parking and trip generation rates typically report the parking demand and vehicle trips observed at suburban sites with ample free parking and no public transit. When decisionmakers use these parking and trip generation rates for city planning, they create a city where everyone drives to their destinations and parks free when they get there.
+
+ Beware of certainty where none exists .
+DANIEL PATRICK MOYNIHAN
+
+INTRODUCTION
+
+How far is it from San Diego to San Francisco? An estimate of 632.125 miles is precise but 
+not accurate. An estimate of somewhere between 400 and 500 miles is less precise but more accurate, 
+because the correct answer is 460 
+miles. 1 Nevertheless, if you did not know the distance from San Diego to San Francisco, whom would you believe: someone who confidently says 632.125 miles or someone who tentatively says somewhere between 400 and 500 miles? You would probably believe the one who says 632.125 miles, because precision creates the impression of accuracy.
+
+Although reporting estimates with extreme precision suggests confidence in their accuracy, transportation engineers and urban planners often use precise numbers to report uncertain estimates. As examples of this practice, I will use two manuals published by the Institute of Transportation Engineers (ITE): Parking Generation (ITE 1987a) and Trip Generation (ITE 1987b, 1991, 1997). These manuals have enormous practical consequences for transportation and land use. Urban planners rely on parking generation rates to establish off-street parking requirements, and transportation planners rely on trip generation rates to predict the traffic impacts of development proposals. Yet a close look at the parking and trip generation data shows that placing unwarranted trust in these precise but uncertain estimates of travel behavior leads to bad transportation and land-use policies.
+
+TRIP GENERATION
+
+ Trip Generation reports the number of vehicle trips as a function of land use. Transportation engineers survey the number of vehicle trips to and from a variety of locations, and for each land use the ITE reports a trip generation rate that relates the number of vehicle trips to a characteristic of the land use, such as the floor area or number of employees at a site. The sixth (and most recent) edition of Trip Generation (ITE 1997, vol. 3, pp. ix and 1) describes the data used to estimate trip generation rates as follows:
+
+This document is based on more than 3,750 trip generation studies submitted to the Institute by public agencies, developers, consulting firms, and associations. . . . Data were primarily collected at suburban localities with little or no transit service, nearby pedestrian amenities, or travel demand 
+management programs.
+
+ITE says nothing about the price of parking at the study sites, but since parking is free for 99% of vehicle trips in the United States, most of the study sites probably offer 
+free parking. 2 Trip Generation uses these 3,750 studies to estimate 1,515 trip generation rates, one for each type of land use. Half the 1,515 reported trip generation rates are based on five or fewer studies, and 23% are based on a single 
+ study. 3 The trip generation rates thus typically measure the number of vehicle trips observed at a few suburban sites with free parking but little or no public transit service, pedestrian amenities, or travel demand management (TDM) programs. Urban planners who rely on these trip generation rates as guides to design the transportation system are therefore planning an automobile-dependent city.
+
+ Figure 1 shows a typical page from the fourth edition of Trip Generation (ITE 1987b). 4 It reports the number of vehicle trips to and from fast food restaurants on a weekday. Each point in the figure represents one of the eight studies and shows the number of vehicle trips per day and the floor area at a restaurant. Dividing the number of vehicle trips by the floor area at that restaurant gives the trip generation rate at that restaurant. A glance at the figure suggests that vehicle trips are unrelated to floor area in this sample. The extremely 
+ low R 2 of 0.069 for the fitted curve (regression) equation confirms this 
+ impression. 5 Nevertheless, ITE reports the sample&apos;s average trip generation ratewhich urban planners normally interpret as the significant relationship between floor area and vehicle tripsas precisely 632.125 trips per day per 1,000 square feet of floor 
+ area. 6 The trip generation rate looks accurate because it is 
+ so precise, but the precision is misleading. Few transportation or land-use decisions would be changed if the ITE reported 
+ the trip generation rate as 632 rather than 632.125 trips per 1,000 square feet, so the 
+ three-decimal-point precision serves no purpose other than to give the impression of accuracy.
+
+The equation at the bottom of figure 1 suggests that a fast food restaurant generates 1,168 trips (the intercept) plus 242.75 trips per 1,000 square feet of floor area (the coefficient), but the 95% confidence interval around the floor area coefficient ranges from650 to +1,141 trips per 1,000 square 
+feet. 7 Since this confidence interval contains zero, the data do not show that vehicle trips are related to floor area. Reporting the average trip generation rate implies that larger restaurants generate more vehicle trips, but the figure shows that the smallest restaurant generated the most trips, and a mid-sized restaurant generated the fewest. The data plot contains the warning&quot;CautionUse 
+CarefullyLow R 2 ,&quot;which is good advice, but how can we carefully use a trip generation rate derived from data that show no relationship between vehicle trips and floor area? Despite its precision, the average trip generation rate (623.125 vehicle trips per day per 1,000 square feet) is far too uncertain to use for transportation planning.
+
+PARKING GENERATION
+
+Parking generation rates, which report peak parking occupancy as a function of land use, suffer from similar uncertainty. ITE&apos;s second, and most recent, edition of Parking Generation (ITE 1987a, p. viixv 8 ) describes the data used to estimate parking generation rates.
+
+A vast majority of the data . . . is derived from suburban developments with little or no significant transit ridership. . . . The ideal site for obtaining reliable parking generation data would . . . contain ample, convenient parking facilities for the exclusive use of the traffic generated by the site. . . . The objective of the survey is to count the number of vehicles parked at the time of peak parking demand.
+
+Half the 101 parking generation rates are based on 4 or fewer studies, and 22% are based on 1 study. The parking generation rates thus typically measure the peak parking demand observed at a few suburban sites with ample free parking but little or no transit ridership. Urban planners who use these parking generation rates to set minimum parking requirements therefore shape a city where everyone will drive wherever they go and park free when they get there.
+
+ Figure 2 shows the page for fast food restaurants from the most recent edition of Parking Generation (ITE 1987a). Each point in the plot represents one study (based on the observations at one site on one day). For example, if parking occupancy was observed at one restaurant for five days, this was counted as five 
+studies. 9 Dividing the peak parking occupancy observed in a study by the floor area at the restaurant gives the parking generation rate for the study. The parking generation rates in the 18 studies range between 3.55 and 15.92 spaces per 1,000 square feet of leasable floor area. The largest restaurant in the sample generated one of the lowest peak parking occupancies, while a mid-sized restaurant generated the highest. 
+The R 2 of 0.038 for the equation at the bottom of the figure confirms the visual impression that parking demand is unrelated to floor area in this sample. Nevertheless, ITE reports the average parking generation rate for a fast food restaurant as precisely 9.95 parking spaces per 1,000 square feet of floor 
+ area. 10 
+
+Again, the precision is misleading. The fitted curve equation at the bottom of figure 2 suggests that a fast food restaurant generates a peak parking demand of 20 spaces plus 1.95 spaces per 1,000 square feet of floor area, but the 95% confidence interval around the floor area coefficient ranges from3 to +7 spaces per 1,000 square feet. Since this confidence interval contains zero, the data do not show that parking demand is related to floor 
+area. 11 The average parking generation rate of 9.95 spaces per 1,000 square feet is due mainly to the intercept, which is independent of floor 
+ area. 12 Predicting a parking demand of 26 spaces for every restaurant in this sampleregardless of restaurant sizeproduces about the same average error as predicting a parking demand of 9.95 spaces per 1,000 square 
+ feet. 13 
+
+We cannot say much about how floor area affects either vehicle trips or parking demand, because the 95% confidence interval around the floor area coefficient includes zero in both 
+cases. 14 This is not to say that vehicle trips and parking demand are unrelated to a restaurant&apos;s size, because common sense suggests some correlation. Nevertheless, factors other than the floor area explain most of the variation in vehicle trips and peak parking occupancy at these restaurants. Size does not matter much in these two samples of parking and trip generation, and it is misleading to publish precise average parking and trip generation rates based on floor area.
+
+Parking generation rates are hardly scientific, but the authority inherent in ITE publications often means that planners automatically regard ITE rates as scientifically valid and do not examine them further. ITE offers a precise number without raising difficult public policy questions, although it does warn,&quot;Users of this report should exercise extreme caution when utilizing data that is based on a small number of studies&quot;(ITE 1987a, p. vii). Nevertheless, many planners recommend parking generation rates as minimum parking requirements. For example, the median parking requirement for fast food restaurants in the United States is 10 spaces per 1,000 square feetalmost identical to ITE&apos;s reported parking generation 
+rate. 15 
+
+STATISTICAL SIGNIFICANCE
+
+The combination of extreme precision and statistical insignificance for the parking and trip generation rates for a fast food restaurant raises an important question: how many of the parking and trip generation rates for other land uses are statistically significant? The fourth edition of Trip Generation (ITE 1987b) does not state a policy on statistical significance, but it does show the plots and equations for most land uses with more than two data points. Nevertheless, it fails to show the plots and equations for some land uses with more than 10 data points. For example, consider the report of trip generation at recreational land uses. ITE presents 14 studies of trip generation at recreational land uses but says&quot;No Plot or Equation AvailableInsufficient Data.&quot;The trip generation rates in the 14 studies range from a high of 296 to a low of 0.066 trips per acre on a weekday: a ratio of 4,500 to 1. Given this wide range, reporting the average trip generation rate as precisely 3.635 trips per acre is clearly 
+ misleading. 16 
+
+ 
+ Peak Parking Occupancy vs. Parking Demand 
+
+A big difference exists between&quot;parking occupancy&quot;and&quot;parking 
+demand.&quot;Transportation engineers define the former as the number of parked 
+cars. Economists define the latter as the functional relationship between the 
+price of parking and the number of parked cars, and they define the actual number 
+of parked cars at any time as the quantity of parking demanded at a specific price. 
+Economists call the peak parking occupancy observed at a site that offers free 
+parking the quantity of parking demanded at a zero price at the time of peak parking 
+demand. These differing definitions show the confusion that can result when ITE&apos;s parking generation rates are loosely 
+referred to as parking demand.
+ 
+
+ITE first stated a policy regarding statistical significance in the fifth edition of Trip Generation (ITE 1991, p. I-8):
+
+Best fit curves are shown in this report only when each 
+of the following three conditions are met:
+ The R 2 is greater than or equal to 0.25. The sample size is greater than or equal to 4. The number of trips increases as the size of the independent variable 
+increases. 17 
+
+
+The third criterion is notably unscientific. For example, suppose the R 2 is greater than 0.25 and the sample size is greater than four, but vehicle trips decrease as floor area increases (i.e., the first two criteria are met but the third is not). In this case, ITE would report the average trip generation rate (which implies that vehicle trips increase as floor area increases), but not the regression equation that would cast doubt on this rate. The stated policy, therefore, omits evidence that would contradict the presumed relationship.
+
+ Figure 3 from the fifth edition of Trip Generation (ITE 1991) shows how these three criteria affect the report of trip generation at a fast food restaurant. It shows the same eight data points from the fourth edition, but it omits the regression equation, the R 2 , and the warning&quot;CautionUse CarefullyLow R 2 .&quot;The omitted R 2 remains 0.069 because the data are unchanged from the fourth edition, but the fifth edition is more cautious about needless precision; it truncates the average trip generation rate from 632.125 to 632.12 trips per 1,000 square 
+ feet. 18 
+
+ITE revised its reporting policy in the sixth (most recent) edition of Trip Generation (ITE 1997, p. 19). Regression equations are shown only if the R 2 is greater than or equal to 0.5, while the other two criteria remain the same 
+ (the sample size is four or more, and vehicle trips increase as the independent 
+ variable increases). Figure 4 shows the sixth edition&apos;s report of trip generation at a fast food restaurant. The number of studies increased to 21, and the average trip generation rate fell to 496.12 trips per 1,000 square feet. The R 2 is below 0.5, but we are not told what it is. Since the fifth edition&apos;s rate was 632.12 trips per 1,000 square feet, anyone comparing the two editions might conclude that vehicle trips at fast food restaurants declined 22% between 1991 and 1997. But since both the previous rate (632.12) and the new one (496.12) were derived from data that show almost no relationship between floor area and vehicle trips, this decline seems 
+ unlikely. 19 
+
+The 1997 edition shows regression equations for only 34% of the trip generation rates, which means that 66% of the 1,515 trip generation rates fail to meet at least one of the three criteria. This statistical insignificance is not surprising given that circumstances vary enormously among different sites for the same land use (e.g., a fast food restaurant). Floor area is only one among many factors that influence vehicle trips at a site, and we should not expect floor area or any other single variable to accurately predict the number of vehicle trips at any site or land 
+use. 20 
+
+Although 66% of the trip generation rates fail to meet ITE&apos;s significance 
+criteria, ITE nevertheless publishes a precise trip generation rate for every land use. 
+For example, a report of trip generation at truck terminals 
+( figure 5 ) presents two sites, with the larger site generating fewer vehicle trips. Nevertheless, ITE reports the average trip generation rate as precisely 81.90 vehicle trips per acre on a weekday and plots a line that suggests larger sites generate more vehicle trips.
+
+Reporting statistically insignificant estimates with misleading precision creates serious problems, because many people rely on the ITE manuals to predict how urban development will affect parking and traffic. When estimating the traffic impacts of development, for example, developers and cities often debate over whether a precise trip generation rate is correct. Some cities even base zoning categories on trip generation rates. Consider this zoning ordinance in Beverly Hills, California:
+
+The intensity of use shall not exceed either sixteen (16) vehicle trips per hour, or 200 vehicle trips per day for each 1,000 gross square feet of floor area for uses as specified in the most recent edition of the Institute of Traffic Engineers&apos; publication entitled Trip Generation. 21 
+
+The precise but uncertain ITE data thus govern which land uses the city will allow.
+
+Parking and trip generation rates are difficult to challenge once they are incorporated into municipal codes. Planning is an inherently uncertain activity, but the legal system of land-use regulation makes it difficult to acknowledge uncertainty in planning regulations. Calling attention to the flaws in the reporting of the parking and trip generation rates would expose land-use decisions to countless lawsuits from developers, neighborhood groups, and property rights advocates, all of whom could rightly question the legitimacy of the reasoning used to establish off-street parking requirements and to argue for either more or less parking. This desire for the appearance of certainty explains why transportation engineers, urban planners, developers, and elected officials rely on precise point estimatesrather than rangesto report the highly uncertain parking and trip generation rates.
+
+PLANNING FOR FREE PARKING
+
+ITE&apos;s parking and trip generation rates can create serious problems when they are used for urban planning. Most ITE samples are too small to draw statistically significant conclusions, and ITE&apos;s method of collecting data skews observations toward sites with high parking and trip generation rates. Larger samples might solve the problem of statistical insignificance, but a basic problem with parking and trip generation rates would remain: they measure the peak parking demand and the number of vehicle trips at suburban sites with ample free parking. This situation is troubling, because ITE rates greatly influence the outcome of transportation and land-use planning, ultimately contributing to decisions that result in more traffic, lower density, and more urban sprawl.
+
+To explain how ITE&apos;s parking and trip generation rates influence transportation and 
+land-use planning, consider what appears in practice to be the six-step process of planning 
+for free parking in the United States.
+
+ Step 1. Transportation engineers survey the peak parking demand at a few suburban sites with ample free parking but no transit service, and ITE publishes the results in Parking Generation with misleading precision. Step 2. Urban planners consult Parking Generation to set minimum parking requirements. The maximum observed parking demand thus becomes the minimum required parking supply. Step 3. Developers provide all the parking that planners require, and the ample supply of parking drives the price of most parking to zero, which increases vehicle travel. Step 4. Transportation engineers survey vehicle trips to and from suburban sites with ample free parking but no transit service, and ITE publishes the results in Trip Generation with misleading precision. Step 5. Transportation planners consult Trip Generation as a guide to design the transportation system with adequate capacity to bring cars to the free 
+ parking. 22 Step 6. Urban planners limit density so that development with ample free parking will not generate more vehicle trips than nearby roads can carry. This lower density spreads activities farther apart, further increasing both vehicle travel and parking demand. 
+
+We come full circle when transportation engineers again survey peak parking demand at suburban sites that offer free parking but no transit service and find that more parking spaces are&quot;needed.&quot;Misusing precise numbers to report uncertain data gives a veneer of rigor to this elaborate but unscientific practice, and the circular logic explains why planning for transportation and land use has contributed to increased traffic and sprawl.
+
+The ITE manuals do not cause this circular process, which started long before ITE began collecting data on parking and trip generation. In 1965, economist Edgar M. Hoover described the circular planning process in words that still apply today:
+
+In practice, the separation of highway-building programs from parking programs (they are in different and quite independent bureaucracies or authorities) introduces a still further pernicious element. We know the story of the man who took another piece of bread in order to finish his butter, then another piece of butter in order to finish his bread, and so on till he burst. Similarly, every provision of new freeways into a congested area heightens the observed demand and the public pressure for more parking facilities; every additional downtown parking garage heightens the demand for more new freeways to bring people to it; and so on back and forth indefinitely. Each of the two independent public authorities involved can argue persuasively that it is merely trying to keep up with an undeniably strong and growing demand. (Hoover 1965, pp. 188189)
+
+The main change that has occurred since 1965 is that engineers and planners now have precise parking and trip generation data to quantify the&quot;undeniably strong and growing demand&quot;for parking and highways. The interaction between transportation engineers and urban planners in gathering and interpreting these data helps to explain why planning for parking in the United States is essentially planning for free parking. Urban planners set parking requirements without taking into account the price of parking, the cost of parking spaces, the local context, or the wider consequences for transportation, land use, the economy, and the environment.
+
+ITE warns users to be careful when the R 2 is low (although it removed this warning from the plots of trip generation rates in the two 
+ most recent editions of Trip Generation ). ITE also advises users to modify trip generation rates in response to special circumstances.
+
+At specific sites, the user may want to modify the trip generation rates presented in this document to reflect the presence of public transportation service, ridesharing or other TDM measures, enhanced pedestrian and bicycle trip-making opportunities, or other special characteristics of the site or surrounding area. (ITE 1997, vol. 3, p. 1)
+
+Nevertheless, ITE does not suggest how a user might modify the rates in response to any special characteristics of a site or its surrounding area, and the price of parking is prominently not on the list of special characteristics that might affect trip generation.
+
+Data users should always ask themselves whether the data are appropriate for the intended purpose. Only users can misuse data, but ITE invites misuse when it reports statistically insignificant estimates as precise numbers. This spurious precision has helped to establish ITE parking requirements and trip generation rates as unquestionably authoritative in the planning profession.
+
+CONCLUSION: LESS PRECISION 
+AND MORE TRUTH
+
+Estimates of parking and trip generation respond to a real demand for essential information. Citizens want to know how development will affect parking demand and traffic congestion in their neighborhood. Developers want to know how many parking spaces they should provide for employees and customers. Planners want to regulate development to prevent problems with parking and traffic. Politicians want to avoid complaints from unhappy parkers. These are all valid concerns, but reporting parking and trip generation rates with needless precision creates false confidence in the data. To unsophisticated users, these precise rates appear to carry the rigor of scientific constants.
+
+When planners set parking requirements and design the transportation system, they treat parking and trip generation like established laws and ITE estimates like scientific observations. But parking and trip generation are poorly understood phenomena, and they both depend on the price of parking, an element not addressed by ITE in the two reports discussed. Demand is a function of price, not a fixed number, and this does not cease to be true merely because transportation engineers and urban planners ignore it. Most cities are planned on the unstated assumption that parking should be freeno matter how high the cost or how small the benefit.
+
+American motor vehicles consume one-eighth of the world&apos;s total oil production, and ubiquitous free parking contributes to our automobile 
+dependency. 23 What can be done to improve this situation? Here are four recommendations:
+
+ ITE should state in the report for each parking and trip generation rate that this rate refers only to suburban sites with ample free parking but no public transit, 
+pedestrian amenities, or TDM programs. ITE should show the regression equation and the R 2 for each parking and trip generation report and state whether the coefficient of 
+ floor area (or other independent variable) in the equation is significantly 
+ different from zero. ITE should report the parking and trip generation rates as ranges, not as precise 
+point estimates. Urban planners should recognize that even if the ITE data were accurate, using them to 
+set parking requirements would dictate an automobile-dependent urban form 
+with free parking everywhere. 
+
+Both transportation engineers and urban planners should ponder this warning from Lewis Mumford:&quot;The right to have access to every building in the city by private motorcar, in an age when everyone possesses such a vehicle, is actually the right to destroy the city.&quot;(Mumford 1981)
+
+Parking and trip generation rates illustrate a familiar problem with 
+statistics used in transportation planning, and placing unwarranted trust in the accuracy of 
+these precise but uncertain data leads to bad transportation and land-use policies. Being 
+roughly right is better than being precisely wrong. We need less precisionand more 
+truthin transportation planning.
+
+ACKNOWLEDGMENTS
+
+I am grateful to the University of California Transportation Center for financial support. Douglas Kolozsvari provided superb research assistance. I am also grateful for excellent advice from Jeffrey Brown, Leland Burns, Daniel Chatman, Randall Crane, Melanie Curry, T.H. Culhane, Simon Fraser, Daniel Hess, Mimi Holt, Hiro Iseki, Joshua Kirshner, Robin Liggett, Bravishwar Mallavarapu, Jeremy Nelson, Don Pickrell, Thomas Rice, Michael Sabel, Lisa Schweitzer, Charles Sciammas, Patricia Shoup, Charanjeet Singh, Alexander Smith, Manual Soto, Brian Taylor, Florian Urban, Melvin Webber, Richard Willson, and two anonymous reviewers. Earlier versions of this paper were presented at the 2001 Annual Meeting of the Transportation Research Board in Washington, DC, the 2001 World Parking Symposium in St. Andrews, Scotland, and the 2002 Annual Meeting of the Western Regional Science Association in Monterey, California.
+
+REFERENCES
+
+Davis, S. 2000. Transportation Energy Data Book: Edition 20, ORNL-6959. Oak Ridge, TN: Oak Ridge National Laboratory.
+
+Hoover, E. 1965. Motor Metropolis: Some Observations on Urban Transportation in America. Journal of Industrial Economics 13(3):17192.
+
+Institute of Transportation Engineers (ITE). 1987a. Parking Generation, 2nd edition. Washington, DC.
+
+______. 1987b. Trip Generation, 4th edition. Washington, DC.
+
+______.1991. Trip Generation, 5th edition. Washington, DC.
+
+______. 1997. Trip Generation, 6th edition. Washington, DC.
+
+______. 2001. Trip Generation Handbook: An ITE Recommended Practice. Washington, DC.
+
+Meyer, M. and E. Miller. 2001. Urban Transportation Planning, 2nd edition. New York, NY: McGraw Hill.
+
+Mumford, L. 1981. The Highway and the City. Westport, CT: Greenwood Press.
+
+Planning Advisory Service. 1991. Off-Street Parking Requirements: A National Review of Standards, Planning Advisory Service Report Number 432. Chicago, IL: American Planning Association.
+
+Address for Correspondence and End Notes
+
+ Author address : Department of Urban Planning, University of California, Los Angeles, CA 90095-1656. 
+Email: shoup@ucla.edu .
+
+KEYWORDS: parking, regression analysis, urban planning.
+
+ 1. The airline distance between San Diego and San Francisco is calculated from the latitudes and longitudes of the two cities. See&quot;How far is it?&quot;at http://www.indo.com/distance/ .&quot;Accurate&quot;implies fidelity to fact and freedom from error, while&quot;precise&quot;implies exactness.
+
+ 2. The U.S. Department of Transportation&apos;s 1990 Nationwide Personal Transportation Survey (NPTS) asked respondents,&quot;Did you pay for parking during any part of this trip?&quot;for all automobile trips made on the previous day. Of the responses to this question, 99% were&quot;no.&quot;The NPTS asked the&quot;did you pay for parking&quot;question for all vehicle trips except trips that ended at the respondents&apos; homes, thus free parking at home does not explain this high percentage.
+
+ 3. This refers to the sixth edition of Trip Generation (ITE 1997). The ITE Trip Generation Handbook (ITE 2001, p. 10) notes that the warning&quot;CautionUse CarefullySmall Sample Size&quot;is placed on each trip generation report if the sample includes five or fewer sites. At most sites, vehicle trips are observed during the course of only one day.
+
+ 4. The fourth edition (ITE 1987b) is shown because this is the date of the most recent edition of Parking Generation , to which Trip Generation will be compared. Vehicle trips were surveyed at McDonald&apos;s, Dunkin Donuts, Burger Chef, and similar fast food restaurants.
+
+ 5. &quot;The coefficient of determination [ R 2 ] is defined as the percent of the variance in the number of trips associated with the variance in the size of the independent variable&quot;(ITE 1997, vol. 3, p. 19). An R 2 of zero shows complete lack of correlation between the two variables, and one would expect some correlation in a sample by chance. The significance test for the regression equation shows there is a 53% chance of getting an R 2 of 0.069 or higher even if there were no relationship between floor area and vehicle trips.
+
+ 6. ITE (1987b, p. 9) divides the sum of all vehicle trips by the sum of all floor areas to calculate the weighted average trip generation rate.
+
+ 7. The confidence interval around the coefficient of floor area was calculated by re-estimating the regression equation from the eight observations in the data plot.
+
+ 8. ITE expects to publish a new edition of Parking Generation in 2003.
+
+ 9. It appears that eight restaurants were observed for one day, one restaurant was observed for two days, and two restaurants were observed for four days. We are not told the hour(s), the weekday, or the month when parking occupancy was observed. The 18 studies of parking occupancy at fast food restaurants are an unusually large sample. In contrast, consider the report on Technical Colleges (Land Use 541). Parking occupancy was observed for one hour on one day at one site, and on this basis the parking generation rate for a technical college is reported as 0.82 parking spaces per student (ITE 1987a, p. 88). Parking occupancy was observed for only one or two hours for many of the studies in Parking Generation. Because only the peak occupancy at a site is needed to calculate a parking generation rate, the observer&apos;s main concern is to report the peak number of cars parked during the hour(s) of expected peak demand.
+
+ 10. The significance test for the regression equation shows there is a 42% chance of getting an R 2 of 0.038 or higher even if there were no relationship between floor area and parking occupancy. ITE (1987a, p. viii) divides the sum of all parking generation rates by the number of studies to calculate the unweighted average parking generation rate.
+
+ 11. The confidence interval around the coefficient of floor area was calculated by re-estimating the regression equation from the 18 observations in the data plot.
+
+ 12. Because the intercept is 20 spaces and the average floor area is 3,000 square feet, the average parking generation rate would be 6.7 spaces per 1,000 square feet even if the coefficient of floor area were 0.
+
+ 13. The average peak parking occupancy for the 8 studies was 26 spaces.
+
+ 14. Statistical insignificance does not imply that floor area has no effect on parking demand or vehicle trips; rather, it means that floor area does not reliably predict either variable.
+
+ 15. The Planning Advisory Service (1991) surveyed the parking requirements in 127 cities. The median of 10 spaces per 1,000 square feet applies to cities that base their requirements for fast food restaurants on gross floor area.
+
+ 16. In the fourth edition of Trip Generation, Land Use 400 (Recreational) includes bowling alleys, zoos, sea worlds, lakes, pools, and regional parks (ITE 1987b, p. 537).
+
+ 17. ITE gives no explanation for showing the regression equation and the R 2 only when all three criteria are met.
+
+ 18. Figure 3 (from the fifth edition) also differs from figure 1 (from the fourth edition) in two other respects. First, the directional distribution of vehicle trips was&quot;not available&quot;in 1987, but for the same data became&quot;50% entering, 50% exiting&quot;in 1991. Second, the standard deviation was not reported in 1987 but was reported as 266.29 in 1991.
+
+ 19. If the 8 studies from the fourth (ITE 1987b) and fifth (ITE 1991) editions are included among the 21 studies reported in the sixth (ITE 1997) edition, the average trip generation rate for the 13 new studies must be well below 496.12 in order to reduce the average rate for the 21 studies to 496.12. All of the 8 study sites in the fourth and fifth editions were exactly 2,000, 3,000, or 4,000 square feet, but none of the 21 study sites in the sixth edition matched these sizes.
+
+ 20. Trip generation rates are a stripped-down version of the gravity model for travel forecasting. The gravity model predicts aggregate traffic between origin and destination zones as a function of zone sizes and generalized travel cost, while trip generation rates predict traffic to and from one site as a function of floor area (or another variable) at that site, without reference to cost.
+
+ 21. Section 10-3.162(5) of the Beverly Hills Municipal Code. (ITE changed its name from the Institute of Traffic Engineers to the Institute of Transportation Engineers in 1976.)
+
+ 22. Transportation planners often use the Urban Transportation Modeling System (UTMS) to predict modal flows on links between zones in a network, and the first of the four major steps in the UTMS model is&quot;trip generation.&quot;The four-step UTMS model is thus used to carry out step 5 of the six-step process of planning for free parking. Meyer and Miller (2001) explain the UTMS model.
+
+ 23. Transportation accounted for 66.4% of U.S. oil consumption in 1996, and highway transportation accounted for 78.3% of U.S. oil consumption for transportation. Therefore, highway transportation accounted for 52.0% of U.S. oil consumption (66.4% x 78.3%). The United States also consumed 25.7% of the world&apos;s oil production in 1996. Thus, U.S. highway transportation consumed 13.4% (slightly more than one-eighth) of the world&apos;s total oil production (52.0% x 25.7%). Highway transportation refers to travel by cars, trucks, motorcycles, and buses. See Davis (2000, tables 1.3, 2.10, and 2.7) for the data on energy consumption for transportation in the United States.
+ 
+ Research and Innovative Technology Administration (RITA) • U.S. Department of Transportation (US DOT) 
+1200 New Jersey Avenue, SE•Washington, DC 20590•800.853.1351• E-mail RITA 
+
+ Accessibility | Disclaimer | Fast Lane | FedStats | Freedom of Information Act | No FEAR Act | OIG Hotline | Privacy Policy | RSS | Site Map | USA.gov | White House | Wireless 
+ Plug-ins: PDF Reader | Flash Player | Excel Viewer | PowerPoint Viewer | Word Viewer | WinZip 
+ RITA&apos;s privacy policies and procedures do not necessarily apply to external web sites.
+We suggest contacting these sites directly for information on their data collection and distribution policies.
+	</body>
+</document>

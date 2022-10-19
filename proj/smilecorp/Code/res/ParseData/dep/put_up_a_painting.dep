@@ -1,0 +1,672 @@
+det(hanger-3, a-2)
+dobj(put-1, hanger-3)
+det(wall-6, the-5)
+prep_on(put-1, wall-6)
+
+det(painting-3, the-2)
+dobj(hang-1, painting-3)
+det(hanger-6, the-5)
+prep_on(hang-1, hanger-6)
+
+det(painting-3, the-2)
+dobj(straighten-1, painting-3)
+
+dobj(get-1, hammer-2)
+dobj(get-1, nail-4)
+conj_and(hammer-2, nail-4)
+
+nsubj(nail-2, tack-1)
+prep_into(nail-2, wall-4)
+amod(place-7, appropriate-6)
+prep_in(nail-2, place-7)
+
+dobj(hang-1, painting-2)
+
+det(nail-3, a-2)
+dobj(put-1, nail-3)
+det(wall-6, the-5)
+prep_in(put-1, wall-6)
+
+det(string-3, a-2)
+dobj(hang-1, string-3)
+det(back-6, the-5)
+prep_on(hang-1, back-6)
+det(painting-9, the-8)
+prep_of(back-6, painting-9)
+
+det(painting-3, the-2)
+nsubj(string-5, painting-3)
+cop(string-5, s-4)
+ccomp(hang-1, string-5)
+det(nail-8, the-7)
+prep_over(string-5, nail-8)
+
+det(nail-3, a-2)
+dobj(find-1, nail-3)
+
+aux(hammer-3, find-1)
+nsubj(hammer-3, a-2)
+
+det(nail-3, the-2)
+dobj(nail-1, nail-3)
+det(wall-6, the-5)
+prep_into(nail-1, wall-6)
+prep_with(nail-1, a-8)
+dep(nail-1, hammer-9)
+
+det(painting-4, the-3)
+prep_on(put-1, painting-4)
+det(nail-7, the-6)
+prep_on(put-1, nail-7)
+
+det(painting-3, the-2)
+nsubj(position-5, painting-3)
+cop(position-5, s-4)
+ccomp(adjust-1, position-5)
+
+det(stud-4, the-2)
+nn(stud-4, wall-3)
+dobj(find-1, stud-4)
+
+det(nail-3, a-2)
+dobj(hammer-1, nail-3)
+det(wall-6, the-5)
+prep_into(hammer-1, wall-6)
+
+det(painting-3, the-2)
+dobj(hang-1, painting-3)
+det(nail-6, the-5)
+prep_from(hang-1, nail-6)
+
+dobj(put-1, nail-2)
+prep_in(put-1, wall-4)
+
+prt(hang-1, up-2)
+dobj(hang-1, painting-3)
+
+dobj(put-1, nail-2)
+prep_in(put-1, wall-4)
+
+dobj(put-1, paining-2)
+prep_on(put-1, nail-4)
+
+dobj(get-1, painting-2)
+
+dobj(screw-1, nail-2)
+prep_in(screw-1, wall-4)
+
+dobj(hang-1, painting-2)
+prep_on(hang-1, wall-4)
+
+dobj(put-1, nail-2)
+prep_in(put-1, wall-4)
+
+dobj(hang-1, painting-2)
+prep_on(hang-1, nail-4)
+
+dobj(put-1, nail-2)
+prep_in(put-1, wall-4)
+
+dobj(hang-1, painting-2)
+prep_on(hang-1, nail-4)
+
+dobj(arrange-1, painting-2)
+
+prep_on(decide-1, location-3)
+
+dobj(hammer-1, hook-2)
+det(wall-5, the-4)
+prep_into(hammer-1, wall-5)
+
+dobj(hang-1, picture-2)
+prep_on(hang-1, hook-4)
+
+dobj(straighten-1, picture-2)
+
+dobj(choose-1, location-2)
+prep_for(location-2, painting-4)
+
+nn(hanger-3, picture-2)
+dobj(put-1, hanger-3)
+det(wall-6, the-5)
+prep_on(put-1, wall-6)
+
+dobj(hang-1, picture-2)
+nn(hanger-5, picture-4)
+prep_on(hang-1, hanger-5)
+
+det(painting-4, the-3)
+prep_to(move-1, painting-4)
+
+prt(pick-1, up-2)
+det(painting-4, the-3)
+dobj(pick-1, painting-4)
+
+det(wall-4, a-3)
+prep_to(move-1, wall-4)
+
+det(nail-3, a-2)
+dobj(place-1, nail-3)
+det(wall-6, the-5)
+prep_into(place-1, wall-6)
+det(height-10, the-8)
+amod(height-10, desired-9)
+prep_at(wall-6, height-10)
+det(painting-13, the-12)
+prep_for(height-10, painting-13)
+
+det(wire-3, the-2)
+dobj(hang-1, wire-3)
+det(back-6, the-5)
+prep_on(hang-1, back-6)
+det(painting-9, the-8)
+prep_of(back-6, painting-9)
+det(nail-12, the-11)
+prep_on(hang-1, nail-12)
+
+det(wall-4, a-2)
+amod(wall-4, good-3)
+dobj(find-1, wall-4)
+aux(hang-6, to-5)
+infmod(wall-4, hang-6)
+det(picture-8, the-7)
+dobj(hang-6, picture-8)
+
+det(hook-4, a-2)
+nn(hook-4, picture-3)
+dobj(get-1, hook-4)
+
+aux(hammer-3, get-1)
+dobj(hammer-3, a-2)
+
+det(hook-3, the-2)
+dobj(knock-1, hook-3)
+det(wall-6, the-5)
+prep_into(knock-1, wall-6)
+
+det(picture-3, the-2)
+dobj(hang-1, picture-3)
+det(hook-6, the-5)
+prep_on(hang-1, hook-6)
+
+det(picture-3, the-2)
+dobj(straighten-1, picture-3)
+
+aux(hammer-3, get-1)
+dobj(hammer-3, a-2)
+
+det(nail-3, a-2)
+dobj(get-1, nail-3)
+
+dobj(hold-1, hammer-2)
+num(hand-5, one-4)
+prep_in(hold-1, hand-5)
+
+dobj(hold-1, nail-2)
+amod(hand-5, other-4)
+prep_in(hold-1, hand-5)
+
+dep(use-1, hammer-2)
+aux(put-4, to-3)
+xcomp(hammer-2, put-4)
+dobj(put-4, nail-5)
+det(wall-8, the-7)
+prep_into(put-4, wall-8)
+
+nsubj(string-11, hang-1)
+partmod(hang-1, painting-2)
+det(nail-6, the-5)
+prep_off_of(painting-2, nail-6)
+det(painting-9, the-8)
+agent(painting-2, painting-9)
+cop(string-11, s-10)
+
+dobj(aquire-1, painting-2)
+
+dobj(aquire-1, nail-2)
+
+dobj(find-1, wall-2)
+
+dobj(find-1, stud-2)
+prep_in(find-1, wall-4)
+
+dobj(hammer-1, nail-2)
+
+dobj(hang-1, painting-2)
+
+advmod(hang-4, where-2)
+aux(hang-4, to-3)
+xcomp(determine-1, hang-4)
+det(painting-6, the-5)
+dobj(hang-4, painting-6)
+
+det(hanger-3, a-2)
+dobj(affix-1, hanger-3)
+det(wall-6, the-5)
+prep_to(affix-1, wall-6)
+
+det(painting-3, the-2)
+dobj(hang-1, painting-3)
+det(hanger-6, the-5)
+prep_on(hang-1, hanger-6)
+
+det(place-4, a-2)
+amod(place-4, good-3)
+dobj(find-1, place-4)
+
+det(nail-3, a-2)
+dobj(hammer-1, nail-3)
+det(wall-6, the-5)
+prep_into(hammer-1, wall-6)
+
+det(painting-3, the-2)
+dobj(hang-1, painting-3)
+det(nail-6, the-5)
+prep_on(hang-1, nail-6)
+
+det(wall-3, the-2)
+dobj(clean-1, wall-3)
+
+det(roller-4, a-2)
+nn(roller-4, paint-3)
+dobj(use-1, roller-4)
+
+det(paint-3, a-2)
+dobj(apply-1, paint-3)
+det(wall-6, the-5)
+prep_to(apply-1, wall-6)
+
+dobj(identify-1, place-2)
+aux(hammer-4, to-3)
+infmod(place-2, hammer-4)
+dobj(hammer-4, nail-5)
+
+dobj(hammer-1, nail-2)
+prep_into(hammer-1, wall-4)
+
+nn(wire-3, painting-2)
+dobj(place-1, wire-3)
+prep_on(place-1, nail-5)
+
+dobj(clear-1, wall-2)
+
+dobj(put-1, nail-2)
+prep_in(put-1, wall-4)
+
+csubj(wire-4, hang-1)
+dobj(hang-1, frame-2)
+cop(wire-4, s-3)
+prep_on(wire-4, nail-6)
+
+prep_in(hammer-1, nail-3)
+
+dobj(align-1, painting-2)
+
+dobj(put-1, painting-2)
+prep_on(put-1, nail-4)
+
+iobj(get-1, a-2)
+dobj(get-1, hammer-3)
+dobj(get-1, nail-5)
+conj_and(hammer-3, nail-5)
+
+det(nail-3, the-2)
+dobj(put-1, nail-3)
+det(wall-6, the-5)
+prep_against(put-1, wall-6)
+
+aux(hammer-6, hit-1)
+det(nail-3, the-2)
+nsubj(hammer-6, nail-3)
+prep_with(nail-3, the-5)
+
+det(painting-3, the-2)
+dobj(hang-1, painting-3)
+det(nail-6, the-5)
+prep_on(hang-1, nail-6)
+
+dobj(choose-1, location-2)
+
+dobj(choose-1, hook-2)
+xsubj(wall-5, hook-2)
+dep(choose-1, according-3)
+aux(wall-5, to-4)
+xcomp(according-3, wall-5)
+dobj(wall-5, construction-6)
+
+amod(location-3, correct-2)
+dobj(determine-1, location-3)
+prep_of(location-3, hook-5)
+dep(determine-1, such-6)
+complm(hang-10, that-7)
+nsubj(hang-10, paining-8)
+aux(hang-10, will-9)
+ccomp(such-6, hang-10)
+advmod(desired-12, as-11)
+dep(hang-10, desired-12)
+
+dobj(attach-1, hook-2)
+prep_to(attach-1, wall-4)
+amod(location-7, chosen-6)
+prep_in(attach-1, location-7)
+
+dobj(hang-1, painting-2)
+prep_on(hang-1, hook-4)
+
+advmod(hang-4, where-2)
+aux(hang-4, to-3)
+xcomp(decide-1, hang-4)
+
+dobj(put-1, nail-2)
+prep_in(put-1, wall-4)
+
+
+det(hanger-6, a-2)
+amod(hanger-6, nail-3)
+conj_or(nail-3, picture-5)
+amod(hanger-6, picture-5)
+dobj(place-1, hanger-6)
+det(wall-9, the-8)
+prep_on(place-1, wall-9)
+
+prt(hang-1, up-2)
+det(painting-4, the-3)
+dobj(hang-1, painting-4)
+prepc_without(hang-1, tilting-6)
+dobj(tilting-6, it-7)
+
+det(location-4, a-2)
+amod(location-4, good-3)
+dobj(determine-1, location-4)
+
+dobj(insert-1, nails-2)
+dobj(insert-1, screws-4)
+conj_or(nails-2, screws-4)
+det(wall-7, the-6)
+prep_into(insert-1, wall-7)
+
+acomp(make-1, sure-2)
+expl(is-4, there-3)
+ccomp(sure-2, is-4)
+det(string-6, a-5)
+nsubj(is-4, string-6)
+nsubj(is-4, bracket-8)
+conj_or(string-6, bracket-8)
+det(back-11, the-10)
+prep_on(string-6, back-11)
+det(painting-14, the-13)
+prep_of(back-11, painting-14)
+mark(not-16, if-15)
+advcl(make-1, not-16)
+dep(not-16, attach-17)
+dobj(attach-17, one-18)
+
+dobj(mount-1, painting-2)
+prep_on(mount-1, nails-4)
+prep_on(mount-1, screws-6)
+conj_or(nails-4, screws-6)
+
+det(location-3, a-2)
+dobj(select-1, location-3)
+aux(mount-5, to-4)
+infmod(location-3, mount-5)
+
+advmod(hang-4, where-2)
+aux(hang-4, to-3)
+xcomp(decide-1, hang-4)
+det(painting-6, the-5)
+dobj(hang-4, painting-6)
+
+prt(measure-1, out-2)
+advmod(goes-6, where-3)
+det(nail-5, the-4)
+nsubj(goes-6, nail-5)
+advcl(measure-1, goes-6)
+
+dobj(hammer-1, nail-2)
+prep_in(hammer-1, wall-4)
+
+dobj(hang-1, painting-2)
+
+advmod(belongs-4, where-2)
+nsubj(belongs-4, nail-3)
+advcl(mark-1, belongs-4)
+
+prep_in(hammer-1, nail-3)
+
+dobj(hang-1, picture-2)
+prep_on(hang-1, wall-4)
+
+aux(see-3, to-2)
+xcomp(check-1, see-3)
+mark(streight-7, if-4)
+nsubj(streight-7, it-5)
+cop(streight-7, is-6)
+advcl(see-3, streight-7)
+
+mark(fix-3, if-1)
+amod(fix-3, crooked-2)
+
+dobj(lift-1, painting-2)
+
+prep_onto(hook-1, nail-3)
+prep_on(hook-1, wall-5)
+
+dobj(straighten-1, painting-2)
+
+dobj(locate-1, nail-2)
+dobj(locate-1, hook-4)
+conj_or(nail-2, hook-4)
+prep_on(locate-1, wall-6)
+
+nn(string-3, painting-2)
+dobj(put-1, string-3)
+dobj(put-1, hook-5)
+conj_or(string-3, hook-5)
+prep_onto(put-1, hook-7)
+prep_on(put-1, wall-9)
+
+dobj(straighten-1, painting-2)
+
+dobj(choose-1, location-2)
+
+dobj(hammer-1, nail-2)
+prep_into(hammer-1, wall-4)
+
+dobj(hang-1, picture-2)
+prep_on(hang-1, nail-4)
+
+iobj(get-1, a-2)
+dobj(get-1, hammer-3)
+dobj(get-1, nail-5)
+conj_and(hammer-3, nail-5)
+
+nn(beam-3, wood-2)
+dobj(find-1, beam-3)
+
+det(nail-3, a-2)
+dobj(hammer-1, nail-3)
+det(beam-6, the-5)
+prep_into(hammer-1, beam-6)
+
+det(painting-3, the-2)
+dobj(hang-1, painting-3)
+det(nail-6, the-5)
+prep_onto(hang-1, nail-6)
+
+dobj(choose-1, location-2)
+prep_on(choose-1, wall-4)
+
+dobj(hammer-1, nail-2)
+prep_into(hammer-1, wall-4)
+
+dobj(hang-1, picture-2)
+prep_on(hang-1, nail-4)
+
+dobj(straighten-1, picture-2)
+
+amod(spot-3, right-2)
+dobj(find-1, spot-3)
+prep_for(find-1, painting-5)
+
+det(nail-3, a-2)
+dobj(tap-1, nail-3)
+det(wall-6, the-5)
+prep_into(tap-1, wall-6)
+
+det(painting-3, the-2)
+dobj(hook-1, painting-3)
+det(nail-6, the-5)
+prep_over(hook-1, nail-6)
+
+
+dep(and-1, hammer-2)
+
+dobj(choose-1, location-2)
+prep_on(choose-1, wall-4)
+
+prep_with(mark-1, pencil-3)
+
+dobj(place-1, nail-2)
+prep_to(place-1, wall-4)
+
+advmod(hammer-2, gently-1)
+dobj(hammer-2, nail-3)
+prep_into(hammer-2, wall-5)
+
+dobj(hang-1, picture-2)
+prep_on(hang-1, nail-4)
+
+dobj(adjust-1, picture-2)
+prep_so(adjust-1, level-4)
+
+dobj(get-1, painting-2)
+
+dobj(find-1, wall-2)
+
+dobj(get-1, nail-2)
+
+dobj(get-1, hammer-2)
+
+dobj(hammer-1, nail-2)
+det(wall-5, the-4)
+prep_on(hammer-1, wall-5)
+
+dobj(place-1, painting-2)
+
+dobj(hang-1, it-2)
+
+det(spot-3, a-2)
+dobj(pick-1, spot-3)
+
+dobj(get-1, hammer-2)
+
+dobj(get-1, nails-2)
+
+advmod(put-4, where-2)
+aux(put-4, to-3)
+xcomp(measure-1, put-4)
+
+dobj(hold-1, picture-2)
+prt(hold-1, up-3)
+
+dobj(take-1, picture-2)
+prt(take-1, down-3)
+
+prep_in(hammer-1, nail-3)
+
+det(wall-3, the-2)
+dobj(measure-1, wall-3)
+
+det(place-4, the-2)
+amod(place-4, correct-3)
+dobj(mark-1, place-4)
+det(painting-7, the-6)
+prep_for(place-4, painting-7)
+
+det(nail-4, a-2)
+amod(nail-4, small-3)
+dobj(get-1, nail-4)
+
+det(nail-3, the-2)
+dobj(hammer-1, nail-3)
+det(spot-6, the-5)
+prep_into(hammer-1, spot-6)
+dobj(marked-9, spot-6)
+nsubj(marked-9, you-7)
+aux(marked-9, have-8)
+rcmod(spot-6, marked-9)
+
+det(painting-3, the-2)
+dobj(hang-1, painting-3)
+det(nail-6, the-5)
+prep_on(hang-1, nail-6)
+
+det(painting-3, the-2)
+dobj(straighten-1, painting-3)
+
+dobj(take-1, hammer-2)
+dobj(take-1, nail-4)
+conj_and(hammer-2, nail-4)
+
+det(nail-3, the-2)
+dobj(hammer-1, nail-3)
+det(wall-6, the-5)
+prep_into(hammer-1, wall-6)
+
+det(painting-3, the-2)
+dobj(hang-1, painting-3)
+
+dep(select-1, painting-2)
+aux(hang-4, to-3)
+xcomp(painting-2, hang-4)
+
+aux(hammer-3, obtain-1)
+nsubj(hammer-3, a-2)
+
+dobj(obtain-1, picture-2)
+dep(obtain-1, hanging-3)
+dobj(hanging-3, hardware-4)
+
+dobj(located-1, point-2)
+prep_on(located-1, wall-4)
+aux(hang-6, to-5)
+infmod(wall-4, hang-6)
+dobj(hang-6, painting-7)
+
+dep(secure-1, picturing-2)
+xcomp(picturing-2, hanging-3)
+dobj(hanging-3, hardware-4)
+prep_to(hanging-3, wall-6)
+
+dobj(hang-1, picture-2)
+
+dobj(level-1, picture-2)
+
+det(place-3, a-2)
+dobj(pick-1, place-3)
+aux(put-5, to-4)
+infmod(place-3, put-5)
+dobj(put-5, it-6)
+
+det(nail-3, a-2)
+dobj(hammer-1, nail-3)
+det(wall-6, the-5)
+prep_in(hammer-1, wall-6)
+
+dobj(put-1, painting-2)
+det(nail-5, the-4)
+prep_on(put-1, nail-5)
+
+acomp(make-1, sure-2)
+dep(level-5, painting-3)
+cop(level-5, is-4)
+dep(sure-2, level-5)
+
+dobj(get-1, hammer-2)
+dobj(get-1, nail-4)
+conj_and(hammer-2, nail-4)
+
+dobj(hammer-1, nail-2)
+prep_in(hammer-1, wall-4)
+

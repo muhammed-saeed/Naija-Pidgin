@@ -1,0 +1,341 @@
+dobj(take-1, groceries-2)
+
+nn(can-3, trash-2)
+dobj(open-1, can-3)
+
+dobj(put-1, groceries-2)
+nn(can-5, trash-4)
+prep_to(put-1, can-5)
+
+nn(can-3, trash-2)
+dobj(close-1, can-3)
+
+advmod(walk-1, away-2)
+
+det(beer-3, a-2)
+dobj(take-1, beer-3)
+
+dobj(drink-1, it-2)
+
+dobj(place-1, groceries-2)
+prep_on(place-1, table-4)
+prep_on(place-1, counter-6)
+conj_or(table-4, counter-6)
+
+dobj(lift-1, item-2)
+prep_out_of(lift-1, bag-5)
+
+nsubj(belongs-5, move-1)
+nn(item-4, location-3)
+prep_to(move-1, item-4)
+
+dobj(place-1, item-2)
+amod(location-5, proper-4)
+prep_in(place-1, location-5)
+
+prep_to(return-1, table-3)
+prep_to(return-1, counter-5)
+conj_or(table-3, counter-5)
+
+
+det(items-4, the-2)
+nn(items-4, grocery-3)
+dobj(take-1, items-4)
+det(bags-8, the-7)
+prep_out_of(take-1, bags-8)
+
+det(item-3, each-2)
+dobj(place-1, item-3)
+nn(location-7, it-5)
+nn(location-7, storage-6)
+prep_in(place-1, location-7)
+
+det(item-3, each-2)
+dobj(remove-1, item-3)
+poss(bag-7, its-5)
+nn(bag-7, grocery-6)
+prep_from(remove-1, bag-7)
+
+det(item-3, the-2)
+dobj(place-1, item-3)
+advmod(goes-6, where-4)
+rel(goes-6, where-4)
+nsubj(goes-6, it-5)
+rcmod(item-3, goes-6)
+
+det(bags-5, the-2)
+amod(bags-5, empty-3)
+nn(bags-5, grocery-4)
+dobj(discard-1, bags-5)
+
+det(fridge-3, the-2)
+dobj(open-1, fridge-3)
+
+dobj(take-1, item-2)
+det(bag-7, the-5)
+nn(bag-7, grocery-6)
+prep_out_of(take-1, bag-7)
+
+dobj(put-1, item-2)
+det(fridge-5, the-4)
+prep_into(put-1, fridge-5)
+
+det(objects-4, all-3)
+prep_with(repeat-1, objects-4)
+nn(bag-7, grocery-6)
+prep_in(objects-4, bag-7)
+
+dobj(remove-1, groceries-2)
+prep_from(remove-1, bags-4)
+
+dobj(put-1, groceries-2)
+prep_into(put-1, pantry-4)
+prep_into(put-1, fridge-6)
+conj_or(pantry-4, fridge-6)
+
+dobj(take-1, items-2)
+dep(take-1, form-3)
+det(bags-5, the-4)
+dobj(form-3, bags-5)
+
+dobj(put-1, them-2)
+det(cabinet-5, the-4)
+prep_in(put-1, cabinet-5)
+prep_in(put-1, refrigerator-7)
+conj_or(cabinet-5, refrigerator-7)
+
+dobj(remove-1, groceries-2)
+prep_from(remove-1, bags-4)
+
+dobj(take-1, groceries-2)
+prep_to(take-1, fridge-4)
+prep_to(take-1, pantry-6)
+conj_or(fridge-4, pantry-6)
+
+dobj(store-1, bags-2)
+
+dobj(remove-1, groceries-2)
+prep_from(remove-1, bags-4)
+
+dobj(put-1, perishables-2)
+det(fridge-5, the-4)
+prep_in(put-1, fridge-5)
+
+dobj(put-1, others-2)
+prep_in(put-1, pantry-4)
+
+dobj(take-1, groceries-2)
+prep_out_of(take-1, bag-5)
+
+dobj(put-1, groceries-2)
+prep_in(put-1, refridgerator-4)
+prep_in(put-1, pantry-6)
+conj_or(refridgerator-4, pantry-6)
+
+prt(pick-1, up-2)
+det(groceries-4, the-3)
+dobj(pick-1, groceries-4)
+
+det(location-4, the-3)
+prep_to(move-1, location-4)
+advmod(stored-9, where-5)
+rel(stored-9, where-5)
+det(groceries-7, the-6)
+nsubjpass(stored-9, groceries-7)
+auxpass(stored-9, are-8)
+rcmod(location-4, stored-9)
+
+num(item-4, one-2)
+nn(item-4, grocery-3)
+dobj(place-1, item-4)
+det(place-7, the-6)
+prep_in(place-1, place-7)
+advmod(belongs-10, where-8)
+rel(belongs-10, where-8)
+nsubj(belongs-10, it-9)
+rcmod(place-7, belongs-10)
+
+mark(put-6, until-2)
+det(groceries-4, all-3)
+nsubjpass(put-6, groceries-4)
+auxpass(put-6, are-5)
+advcl(repeat-1, put-6)
+prt(put-6, away-7)
+
+nn(bag-3, grocery-2)
+dobj(empty-1, bag-3)
+
+det(object-3, each-2)
+dobj(place-1, object-3)
+prep_in(place-1, cabinet-5)
+prep_in(place-1, fridge-7)
+conj_or(cabinet-5, fridge-7)
+
+dobj(bring-1, groceries-2)
+prep(bring-1, in-3)
+dep(in-3, from-4)
+pobj(from-4, car-5)
+
+dobj(unpack-1, groceries-2)
+prep_from(unpack-1, bags-4)
+
+amod(items-3, cold-2)
+dobj(put-1, items-3)
+prep_in(put-1, refrigerator-5)
+
+amod(items-3, frozen-2)
+dobj(put-1, items-3)
+prep_in(put-1, freezer-5)
+
+amod(goods-3, canned-2)
+dobj(put-1, goods-3)
+prep_in(put-1, pantry-5)
+
+dobj(fold-1, bags-2)
+dobj(fold-1, store-4)
+conj_and(bags-2, store-4)
+prepc_for(fold-1, recycling-6)
+
+dobj(remove-1, items-2)
+det(bags-5, the-4)
+prep_from(remove-1, bags-5)
+
+conj_or(recycle-1, throw-3)
+prt(throw-3, away-4)
+dobj(throw-3, bags-5)
+
+dobj(organize-1, items-2)
+
+dobj(place-1, them-2)
+advmod(desired-4, where-3)
+advcl(place-1, desired-4)
+prep_in(desired-4, kitchen-6)
+
+dobj(take-1, groceries-2)
+prep_out_of(take-1, bags-5)
+
+dobj(sort-1, groceries-2)
+prt(sort-1, out-3)
+
+dobj(place-1, groceries-2)
+poss(places-6, their-4)
+amod(places-6, specified-5)
+prep_in(place-1, places-6)
+
+conj_or(put-1, throw-3)
+dobj(throw-3, bags-4)
+prt(throw-3, away-5)
+
+dobj(carry-1, groceries-2)
+prep_into(carry-1, kitchen-4)
+
+dobj(put-1, perishables-2)
+prep_in(put-1, fridge-4)
+
+amod(goods-3, canned-2)
+dobj(put-1, goods-3)
+prep_in(put-1, pantry-5)
+
+dobj(put-1, toiletries-2)
+prep_into(put-1, bathroom-4)
+
+nn(soap-3, laundry-2)
+dobj(put-1, soap-3)
+nn(room-6, laundry-5)
+prep_in(put-1, room-6)
+
+prt(check-1, over-2)
+dobj(check-1, receipt-3)
+
+prt(put-1, away-2)
+nn(bags-4, shopping-3)
+dobj(put-1, bags-4)
+
+dobj(take-1, groceries-2)
+
+dobj(eat-1, groceries-2)
+
+dobj(grab-1, bag-2)
+prep_of(bag-2, groceries-4)
+
+det(locations-4, the-2)
+amod(locations-4, desired-3)
+dobj(identify-1, locations-4)
+det(items-8, the-6)
+nn(items-8, grocery-7)
+prep_of(locations-4, items-8)
+
+dobj(put-1, items-2)
+amod(locations-5, respective-4)
+prep_in(items-2, locations-5)
+
+dobj(save-1, bag-2)
+amod(trips-5, future-4)
+prep_for(save-1, trips-5)
+
+prt(take-1, out-2)
+dobj(take-1, groceries-3)
+prep_from(take-1, bag-5)
+
+prep_in(store-1, cabinet-3)
+
+prt(put-1, away-2)
+dobj(put-1, food-3)
+
+dobj(take-1, groceries-2)
+advmod(take-1, inside-3)
+
+dobj(empty-1, bags-2)
+
+dobj(put-1, groceries-2)
+advmod(belong-5, where-3)
+nsubj(belong-5, they-4)
+advcl(put-1, belong-5)
+
+dobj(get-1, groceries-2)
+
+nn(table-4, kitchen-3)
+prep_on(put-1, table-4)
+
+dobj(grab-1, grocery-2)
+
+prep_in(put-1, cupboard\/fridge-3)
+
+dobj(get-1, groceries-2)
+
+dobj(put-1, some-2)
+prep_in(put-1, fridge-4)
+
+dobj(put-1, some-2)
+prep_in(put-1, cupboards-4)
+
+dobj(put-1, some-2)
+prep_in(put-1, freezer-4)
+
+dobj(take-1, groceries-2)
+prep_out_of(take-1, bags-5)
+
+prt(sort-1, out-2)
+
+amod(things-3, cold-2)
+dobj(put-1, things-3)
+prep_in(put-1, fridge-5)
+
+dobj(put-1, rest-2)
+prt(put-1, away-3)
+prep_in(put-1, cabinets-5)
+
+dobj(open-1, refrigerator-2)
+
+prt(put-1, away-2)
+dobj(put-1, perishables-3)
+
+dobj(open-1, cupboards-2)
+
+prt(put-1, away-2)
+dobj(put-1, nonperishables-3)
+
+dobj(take-1, groceries-2)
+
+prep_in(place-1, shelf-3)
+

@@ -1,0 +1,495 @@
+prt(pick-1, up-2)
+dobj(pick-1, pencil-3)
+
+det(sharpener-4, a-2)
+nn(sharpener-4, pencil-3)
+dobj(find-1, sharpener-4)
+
+dobj(put-1, pencil-2)
+det(sharpener-6, the-4)
+nn(sharpener-6, pencil-5)
+prep_into(put-1, sharpener-6)
+
+dep(handle-6, turn-1)
+det(sharpener-4, the-2)
+nn(sharpener-4, pencil-3)
+dobj(turn-1, sharpener-4)
+nsubj(handle-6, s-5)
+xsubj(sharpen-8, s-5)
+aux(sharpen-8, to-7)
+xcomp(handle-6, sharpen-8)
+det(pencil-10, the-9)
+dobj(sharpen-8, pencil-10)
+
+dobj(get-1, pencil-2)
+
+dobj(get-1, sharpener-2)
+
+dobj(use-1, sharpener-2)
+prep_on(use-1, pencil-4)
+
+prep_of(dispose-1, remnants-3)
+
+dobj(turn-1, pencil-2)
+prep_in(turn-1, sharpener-4)
+
+dobj(thow-1, trash-2)
+
+det(sharpner-3, a-2)
+dobj(get-1, sharpner-3)
+
+dobj(rotate-1, pencil-2)
+aux(sharpen-4, to-3)
+xcomp(rotate-1, sharpen-4)
+
+det(pencil-3, the-2)
+dobj(take-1, pencil-3)
+
+det(tip-3, the-2)
+dobj(put-1, tip-3)
+det(pencil-6, the-5)
+prep_of(tip-3, pencil-6)
+det(sharpener-9, the-8)
+prep_inside(put-1, sharpener-9)
+
+det(sharpener-3, the-2)
+nsubj(activate-1, sharpener-3)
+
+dobj(get-1, pencil-2)
+
+dobj(place-1, pencil-2)
+prep_into(place-1, sharpener-4)
+
+prep_on(turn-1, sharpener-3)
+
+prt(pull-1, out-2)
+dobj(pull-1, pencil-3)
+
+nn(sharpener-3, pencil-2)
+dobj(get-1, sharpener-3)
+
+dobj(stick-1, pencil-2)
+nn(sharpener-5, pencil-4)
+prep_in(stick-1, sharpener-5)
+
+dobj(rotate-1, pencil-2)
+advmod(rotate-1, so-3)
+complm(shaved-7, that-4)
+nsubjpass(shaved-7, wood-5)
+auxpass(shaved-7, is-6)
+ccomp(rotate-1, shaved-7)
+prt(shaved-7, off-8)
+
+dobj(take-1, pencil-2)
+prep_out_of(take-1, sharpener-5)
+advmod(sharpened-7, when-6)
+advcl(take-1, sharpened-7)
+
+prt(walk-1, over-2)
+amod(sharpener-6, electric-4)
+nn(sharpener-6, pencil-5)
+prep_to(walk-1, sharpener-6)
+
+prt(stick-1, in-2)
+mark(is-5, until-3)
+expl(is-5, there-4)
+advcl(stick-1, is-5)
+det(resistance-7, some-6)
+nsubj(is-5, resistance-7)
+
+dobj(take-1, pencil-2)
+prt(take-1, out-3)
+advmod(gone-7, when-4)
+nsubjpass(gone-7, resistance-5)
+auxpass(gone-7, is-6)
+advcl(take-1, gone-7)
+
+dobj(take-1, pencil-2)
+
+dobj(insert-1, pencil-2)
+prep_into(insert-1, sharpener-4)
+
+dobj(press-1, pencil-2)
+advmod(works-6, so-3)
+dep(works-6, that-4)
+nsubj(works-6, sharpener-5)
+dep(press-1, works-6)
+
+dobj(remove-1, pencil-2)
+prep_from(remove-1, sharpener-4)
+advmod(sharp-6, when-5)
+dep(remove-1, sharp-6)
+
+dobj(put-1, pencil-2)
+nn(sharpener-5, pencil-4)
+prep_in(put-1, sharpener-5)
+
+dobj(rotate-1, pencil-2)
+prep_until(rotate-1, sharpened-4)
+
+det(sharpener-4, a-2)
+nn(sharpener-4, pencil-3)
+dobj(locate-1, sharpener-4)
+
+det(pencil-3, the-2)
+dobj(stick-1, pencil-3)
+det(hole-6, the-5)
+prep_into(stick-1, hole-6)
+det(sharpener-10, the-8)
+nn(sharpener-10, pencil-9)
+prep_of(hole-6, sharpener-10)
+
+det(pencil-3, the-2)
+dobj(turn-1, pencil-3)
+det(while-6, a-5)
+prep_for(turn-1, while-6)
+
+det(pencil-3, the-2)
+dobj(take-1, pencil-3)
+det(sharpener-8, the-6)
+nn(sharpener-8, pencil-7)
+prep_out_of(take-1, sharpener-8)
+
+nn(sharpener-3, pencil-2)
+dobj(get-1, sharpener-3)
+
+dobj(get-1, pencil-2)
+
+dobj(put-1, pencil-2)
+prep_in(put-1, sharpener-4)
+
+dobj(rotate-1, pencil-2)
+
+dobj(take-1, pencil-2)
+prep_out_of(take-1, sharpener-5)
+
+dobj(identify-1, pencil-2)
+
+dobj(identify-1, sharpener-2)
+
+dobj(place-1, pencil-2)
+prep_in(place-1, sharpener-4)
+
+dobj(manipulate-1, sharpener-2)
+
+dobj(remove-1, pencil-2)
+
+dobj(place-1, pencil-2)
+prep_in(place-1, hand-4)
+
+dobj(place-1, end-2)
+prep_of(end-2, pencil-4)
+prep_without(place-1, eraser-6)
+prep_in(place-1, sharpener-8)
+
+dobj(turn-1, hand-2)
+dep(turn-1, crank-3)
+
+prt(pull-1, out-2)
+dobj(pull-1, pencil-3)
+
+dobj(obtain-1, pencil-2)
+
+dobj(place-1, pencil-2)
+nn(sharpener-5, pencil-4)
+prep_in(place-1, sharpener-5)
+
+dobj(turn-1, crank-2)
+
+dobj(remove-1, pencil-2)
+
+det(sharpener-3, a-2)
+dobj(get-1, sharpener-3)
+
+det(pencil-3, the-2)
+dobj(insert-1, pencil-3)
+
+det(pencil-3, the-2)
+dobj(putting-1, pencil-3)
+det(sharpener-6, the-5)
+prep_in(putting-1, sharpener-6)
+
+det(handle-3, the-2)
+dobj(turning-1, handle-3)
+
+det(pencil-3, the-2)
+dobj(put-1, pencil-3)
+det(sharpener-6, the-5)
+prep_in(put-1, sharpener-6)
+
+det(pencil-3, the-2)
+dobj(remove-1, pencil-3)
+
+mark(sharp-6, until-2)
+det(pencil-4, the-3)
+nsubj(sharp-6, pencil-4)
+cop(sharp-6, is-5)
+advcl(repeat-1, sharp-6)
+
+csubj(needs-3, realize-1)
+dobj(realize-1, pencil-2)
+dep(needs-3, sharperned-4)
+
+det(sharpener-4, a-2)
+nn(sharpener-4, pencil-3)
+dobj(find-1, sharpener-4)
+
+dobj(set-1, dial-2)
+aux(correct-4, to-3)
+xcomp(set-1, correct-4)
+dobj(correct-4, size-5)
+
+dobj(insert-1, pencil-2)
+
+dobj(operate-1, handle-2)
+
+nsubj(steady-3, pencil-2)
+xcomp(hold-1, steady-3)
+
+det(pencil-4, the-2)
+amod(pencil-4, sharp-3)
+dobj(remove-1, pencil-4)
+
+prt(pick-1, up-2)
+det(pencil-4, the-3)
+dobj(pick-1, pencil-4)
+
+prt(pick-1, up-2)
+det(sharpener-5, the-3)
+nn(sharpener-5, pencil-4)
+dobj(pick-1, sharpener-5)
+
+det(pencil-3, the-2)
+dobj(put-1, pencil-3)
+det(sharpener-6, the-5)
+prep_into(put-1, sharpener-6)
+
+det(pencil-3, the-2)
+dobj(rotate-1, pencil-3)
+
+det(pencil-3, the-2)
+dobj(remove-1, pencil-3)
+det(sharpener-6, the-5)
+prep_from(remove-1, sharpener-6)
+
+dobj(find-1, sharpener-2)
+
+dobj(insert-1, pencil-2)
+prep_in(insert-1, opening-4)
+
+dep(turn-1, crank-2)
+prep_on(crank-2, side-4)
+
+dobj(remove-1, pencil-2)
+
+nn(sharpener-3, pencil-2)
+dobj(find-1, sharpener-3)
+
+det(pencil-3, the-2)
+dobj(place-1, pencil-3)
+nn(sharpener-6, pencil-5)
+prep_in(place-1, sharpener-6)
+
+dobj(turn-1, pencil-2)
+prep_in(turn-1, relation-4)
+nn(sharpener-7, pencil-6)
+prep_to(relation-4, sharpener-7)
+
+det(pencil-3, the-2)
+dobj(put-1, pencil-3)
+det(sharpener-7, the-5)
+amod(sharpener-7, electric-6)
+prep_in(put-1, sharpener-7)
+
+det(pencil-3, the-2)
+dobj(put-1, pencil-3)
+det(sharpener-7, the-5)
+amod(sharpener-7, electric-6)
+prep_in(put-1, sharpener-7)
+
+advmod(lit-5, when-1)
+det(light-3, the-2)
+nsubjpass(lit-5, light-3)
+auxpass(lit-5, is-4)
+ccomp(lit-5, pull-6)
+det(pencil-8, the-7)
+dobj(pull-6, pencil-8)
+prt(pull-6, out-9)
+
+dobj(take-1, pencil-2)
+
+dobj(put-1, pencil-2)
+prep_into(put-1, sharpener-4)
+
+det(pencil-3, the-2)
+dobj(put-1, pencil-3)
+det(hole-6, the-5)
+prep_in(put-1, hole-6)
+det(sharpener-9, the-8)
+prep_of(hole-6, sharpener-9)
+
+advmod(goes-4, when-1)
+det(light-3, the-2)
+nsubj(goes-4, light-3)
+csubj(pull-6, goes-4)
+prt(goes-4, on-5)
+det(pencil-8, the-7)
+dobj(pull-6, pencil-8)
+prt(pull-6, out-9)
+
+det(pencil-3, the-2)
+dobj(put-1, pencil-3)
+det(sharpener-6, the-5)
+prep_in(put-1, sharpener-6)
+
+advmod(goes-4, when-1)
+det(light-3, the-2)
+nsubj(goes-4, light-3)
+csubj(pull-6, goes-4)
+prt(goes-4, on-5)
+dobj(pull-6, it-7)
+prt(pull-6, out-8)
+
+dobj(put-1, it-2)
+det(sharpener-5, the-4)
+prep_in(put-1, sharpener-5)
+
+det(knob-3, the-2)
+dobj(turn-1, knob-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, pencil-3)
+
+amod(end-3, writing-2)
+dobj(insert-1, end-3)
+prep_into(insert-1, sharpener-5)
+
+nn(end-3, eraser-2)
+dobj(hold-1, end-3)
+advmod(hold-1, firmly-4)
+
+nn(handle-3, sharpener-2)
+dobj(turn-1, handle-3)
+
+dobj(push-1, pencil-2)
+advmod(push-1, gently-3)
+advmod(push-1, firmly-5)
+conj_but(gently-3, firmly-5)
+prep_into(push-1, sharpener-7)
+
+mark(sharp-5, if-2)
+nsubj(sharp-5, pencil-3)
+cop(sharp-5, is-4)
+advcl(check-1, sharp-5)
+advmod(sharp-5, enough-6)
+
+prep_until(sharpen-1, sharp-3)
+advmod(sharpen-1, enough-4)
+
+det(pencil-3, the-2)
+dobj(hold-1, pencil-3)
+det(grip-7, a-5)
+nn(grip-7, firm-6)
+prep_with(hold-1, grip-7)
+
+det(pencil-3, the-2)
+dobj(push-1, pencil-3)
+advmod(push-1, gently-4)
+det(sharpener-7, the-6)
+prep_into(push-1, sharpener-7)
+
+det(pencil-3, the-2)
+dobj(remove-1, pencil-3)
+aux(check-5, to-4)
+infmod(pencil-3, check-5)
+dobj(check-5, sharpness-6)
+
+dobj(repeat-1, steps-2)
+num(steps-2, 1-3)
+prep_through(repeat-1, 3-5)
+mark(sharp-11, until-6)
+det(pencil-8, the-7)
+nsubj(sharp-11, pencil-8)
+cop(sharp-11, is-9)
+advmod(sharp-11, sufficiently-10)
+advcl(repeat-1, sharp-11)
+
+dobj(put-1, pencil-2)
+prep_into(put-1, sharpener-4)
+
+dobj(turn-1, pencil-2)
+prep_until(turn-1, sharp-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, pencil-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, sharpener-3)
+
+dobj(insert-1, pencil-2)
+prep_into(insert-1, sharpener-4)
+
+aux(around-3, twist-1)
+nsubj(around-3, pencil-2)
+aux(sharpen-5, to-4)
+xcomp(around-3, sharpen-5)
+
+dobj(repeat-1, step-2)
+num(step-2, four-3)
+mark(reached-8, until-4)
+amod(sharpness-6, desired-5)
+nsubjpass(reached-8, sharpness-6)
+auxpass(reached-8, is-7)
+advcl(repeat-1, reached-8)
+
+dobj(put-1, pencil-2)
+prep_into(put-1, sharpener-4)
+
+iobj(turn-1, pencil-2)
+det(couple-4, a-3)
+dobj(turn-1, couple-4)
+prep_of(couple-4, times-6)
+
+prt(pull-1, out-2)
+dobj(pull-1, pencil-3)
+prep_from(pull-1, sharpener-5)
+
+prt(blow-1, off-2)
+det(dust-5, the-3)
+amod(dust-5, pencil\/lead-4)
+dobj(blow-1, dust-5)
+
+det(pencil-3, a-2)
+dobj(find-1, pencil-3)
+conj_and(find-1, sharpen-5)
+dobj(sharpen-5, it-6)
+
+det(pencil-3, the-2)
+dobj(put-1, pencil-3)
+det(sharpener-7, the-5)
+nn(sharpener-7, pencil-6)
+prep_into(put-1, sharpener-7)
+
+aux(crank-3, turn-1)
+nsubj(crank-3, the-2)
+
+det(pencil-3, the-2)
+dobj(remove-1, pencil-3)
+
+dobj(put-1, pencil-2)
+prep_in(put-1, sharpener-4)
+
+dobj(rotate-1, pencil-2)
+prep_until(rotate-1, sharp-4)
+
+dobj(remove-1, pencil-2)
+prep_from(remove-1, sharpener-4)
+
+dobj(get-1, pecil-2)
+
+dobj(put-1, pencil-2)
+prep_into(put-1, shapener-4)
+
+dobj(put-1, pencil-2)
+prep_in(put-1, sharpener-4)
+

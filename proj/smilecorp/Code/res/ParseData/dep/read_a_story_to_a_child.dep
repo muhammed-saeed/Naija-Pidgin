@@ -1,0 +1,1010 @@
+prt(pick-1, up-2)
+det(book-5, a-3)
+nn(book-5, story-4)
+dobj(pick-1, book-5)
+
+det(child-5, the-4)
+prep_close_to(move-1, child-5)
+
+prep_to(turn-1, page-3)
+num(page-3, one-4)
+det(book-7, the-6)
+prep_of(page-3, book-7)
+
+prep(start-1, reading-2)
+dep(reading-2, from-3)
+det(book-5, the-4)
+pobj(from-3, book-5)
+
+advmod(reached-7, once-1)
+nsubjpass(reached-7, end-2)
+det(page-5, a-4)
+prep_of(end-2, page-5)
+auxpass(reached-7, is-6)
+dobj(reached-7, move-8)
+det(page-12, the-10)
+amod(page-12, next-11)
+prep_to(reached-7, page-12)
+
+advmod(asleep-5, when-2)
+nsubj(asleep-5, child-3)
+nsubj(asked-7, child-3)
+xsubj(stop-9, child-3)
+cop(asleep-5, is-4)
+advcl(stop-1, asleep-5)
+advcl(stop-1, asked-7)
+conj_or(asleep-5, asked-7)
+aux(stop-9, to-8)
+xcomp(asked-7, stop-9)
+
+dobj(get-1, book-2)
+
+prep_at(open-1, begining-3)
+prep_of(begining-3, story-5)
+
+prep(start-1, reading-2)
+dep(reading-2, from-3)
+pobj(from-3, book-4)
+
+amod(moments-4, important-3)
+prep_at(pause-1, moments-4)
+
+dobj(end-1, story-2)
+
+det(story-3, a-2)
+dobj(choose-1, story-3)
+det(child-6, the-5)
+prep_with(story-3, child-6)
+
+det(book-3, the-2)
+dobj(open-1, book-3)
+det(beginning-6, the-5)
+prep_at(open-1, beginning-6)
+det(story-9, the-8)
+prep_of(beginning-6, story-9)
+
+det(story-3, the-2)
+dobj(read-1, story-3)
+advmod(loud-5, out-4)
+advmod(read-1, loud-5)
+
+dobj(get-1, book-2)
+
+dobj(open-1, book-2)
+amod(page-5, desired-4)
+prep_to(open-1, page-5)
+
+dobj(read-1, story-2)
+
+dobj(close-1, book-2)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(child-3, a-2)
+dobj(find-1, child-3)
+
+det(words-3, the-2)
+dobj(read-1, words-3)
+det(page-6, a-5)
+prep_on(read-1, page-6)
+det(story-9, the-8)
+prep_of(page-6, story-9)
+det(child-12, the-11)
+prep_to(story-9, child-12)
+
+det(page-3, the-2)
+dobj(turn-1, page-3)
+
+mark(read-5, until-2)
+nsubj(read-5, you-3)
+aux(read-5, have-4)
+advcl(repeat-1, read-5)
+dobj(read-5, all-6)
+det(pages-9, the-8)
+prep_of(all-6, pages-9)
+
+det(story-3, a-2)
+dobj(choose-1, story-3)
+aux(read-5, to-4)
+infmod(story-3, read-5)
+det(child-8, the-7)
+prep_to(read-5, child-8)
+
+prt(sit-1, down-2)
+det(chair-5, a-4)
+prep_in(sit-1, chair-5)
+det(child-8, the-7)
+prep_with(chair-5, child-8)
+poss(lap-11, your-10)
+prep_in(sit-1, lap-11)
+
+det(book-3, the-2)
+dobj(open-1, book-3)
+det(beginning-6, the-5)
+prep_to(open-1, beginning-6)
+det(story-9, the-8)
+prep_of(beginning-6, story-9)
+
+aux(read-3, to-2)
+xcomp(begin-1, read-3)
+det(book-5, the-4)
+dobj(read-3, book-5)
+
+det(pages-3, the-2)
+dobj(turn-1, pages-3)
+advmod(necessary-5, when-4)
+dep(turn-1, necessary-5)
+
+det(child-3, a-2)
+dobj(locate-1, child-3)
+
+csubj(story-6, locate-1)
+det(children-4, an-2)
+amod(children-4, appropriate-3)
+dobj(locate-1, children-4)
+cop(story-6, s-5)
+aux(read-8, to-7)
+xcomp(story-6, read-8)
+
+det(text-3, the-2)
+dobj(recite-1, text-3)
+det(story-6, the-5)
+prep_from(recite-1, story-6)
+prepc_from(recite-1, beginning-8)
+prep_to(beginning-8, end-10)
+
+det(book-3, a-2)
+dobj(get-1, book-3)
+
+prt(sit-1, down-2)
+det(child-5, a-4)
+prep_with(sit-1, child-5)
+
+det(book-3, the-2)
+dobj(open-1, book-3)
+
+det(book-3, the-2)
+dobj(read-1, book-3)
+advmod(loud-5, out-4)
+advmod(read-1, loud-5)
+det(child-8, the-7)
+prep_to(read-1, child-8)
+
+dobj(get-1, child-2)
+prep_in(get-1, bed-4)
+
+dobj(get-1, book-2)
+
+dobj(open-1, book-2)
+det(page-6, the-4)
+amod(page-6, correct-5)
+prep_at(open-1, page-6)
+
+dobj(start-1, reading-2)
+
+advmod(asleep-4, when-1)
+nsubj(asleep-4, child-2)
+cop(asleep-4, is-3)
+csubj(stop-5, asleep-4)
+dep(stop-5, reading-6)
+
+det(page-3, the-2)
+dobj(mark-1, page-3)
+
+dobj(close-1, book-2)
+
+dobj(choose-1, book-2)
+
+dobj(open-1, book-2)
+
+dobj(read-1, book-2)
+
+dobj(get-1, book-2)
+
+dobj(open-1, book-2)
+
+advmod(read-1, aloud-2)
+prep_to(read-1, child-4)
+
+det(book-3, a-2)
+dobj(select-1, book-3)
+
+acomp(sit-1, next-2)
+det(child-5, the-4)
+prep_to(next-2, child-5)
+
+det(book-3, the-2)
+dobj(open-1, book-3)
+
+det(words-3, the-2)
+dobj(read-1, words-3)
+partmod(words-3, written-4)
+det(book-7, the-6)
+prep_in(written-4, book-7)
+
+det(book-3, the-2)
+dobj(close-1, book-3)
+
+det(book-3, the-2)
+dobj(return-1, book-3)
+
+det(book-4, a-2)
+nn(book-4, story-3)
+dobj(get-1, book-4)
+
+det(book-4, the-2)
+nn(book-4, story-3)
+dobj(open-1, book-4)
+advmod(stoped-7, where-5)
+rel(stoped-7, where-5)
+nsubj(stoped-7, you-6)
+rcmod(book-4, stoped-7)
+tmod(stoped-7, yesterday-8)
+mark(new-12, if-10)
+neg(new-12, not-11)
+parataxis(stoped-7, new-12)
+
+det(child-3, the-2)
+dobj(breif-1, child-3)
+dobj(read-7, what-5)
+nsubj(read-7, you-6)
+prepc_about(breif-1, read-7)
+tmod(breif-1, yesterday-8)
+
+dep(begine-1, reading-2)
+det(story-4, the-3)
+dobj(reading-2, story-4)
+
+det(child-3, the-2)
+dobj(find-1, child-3)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+dobj(open-1, story-2)
+amod(page-5, first-4)
+prep_to(open-1, page-5)
+
+dobj(read-1, story-2)
+prep_to(read-1, child-4)
+
+amod(place-3, comfortable-2)
+dobj(find-1, place-3)
+aux(sit-5, to-4)
+infmod(place-3, sit-5)
+
+prt(sit-1, down-2)
+prep_with(sit-1, child-4)
+
+iobj(find-1, age-2)
+amod(book-4, appropreate-3)
+dobj(find-1, book-4)
+prep_for(find-1, child-6)
+
+dobj(open-1, book-2)
+
+dobj(read-1, book-2)
+prep_with(read-1, child-4)
+
+prep_at(look-1, pictures-3)
+prep_with(pictures-3, child-5)
+
+nn(name-3, child-2)
+dobj(tell-1, name-3)
+dobj(tell-1, author-5)
+conj_or(name-3, author-5)
+prep_of(author-5, book-7)
+
+mark(wants-4, if-2)
+nsubj(wants-4, child-3)
+xsubj(read-7, child-3)
+advcl(determine-1, wants-4)
+aux(read-7, to-5)
+auxpass(read-7, be-6)
+xcomp(wants-4, read-7)
+prep(read-7, to-8)
+
+dep(want-4, what-2)
+nsubj(want-4, they-3)
+xsubj(hear-6, they-3)
+ccomp(ask-1, want-4)
+aux(hear-6, to-5)
+xcomp(want-4, hear-6)
+
+poss(answer-4, their-3)
+prep_to(listen-1, answer-4)
+
+det(book-3, the-2)
+dobj(find-1, book-3)
+
+det(setting-4, a-2)
+amod(setting-4, comfortable-3)
+dobj(find-1, setting-4)
+aux(read-6, to-5)
+infmod(setting-4, read-6)
+
+det(story-3, the-2)
+dobj(read-1, story-3)
+
+prepc_in(tuck-1, sleeping-3)
+dobj(sleeping-3, child-4)
+
+dobj(sit-1, child-2)
+prt(sit-1, down-3)
+
+dobj(open-1, book-2)
+
+dobj(read-1, book-2)
+
+mark(wants-4, if-2)
+nsubj(wants-4, child-3)
+xsubj(hear-6, child-3)
+advcl(discern-1, wants-4)
+aux(hear-6, to-5)
+xcomp(wants-4, hear-6)
+det(story-8, a-7)
+dobj(hear-6, story-8)
+
+dobj(ask-1, child-2)
+nn(suggestions-5, story-4)
+prep_for(ask-1, suggestions-5)
+
+prep_on(decide-1, story-3)
+
+dobj(find-1, book-2)
+
+dobj(find-1, place-2)
+aux(read-4, to-3)
+infmod(place-2, read-4)
+
+prep_to(read-1, child-3)
+
+prepc_in(tuck-1, sleeping-3)
+dobj(sleeping-3, child-4)
+
+det(book-3, a-2)
+dobj(choose-1, book-3)
+
+prt(sit-1, down-2)
+prep_next_to(sit-1, child-5)
+
+det(words-3, the-2)
+dobj(read-1, words-3)
+det(book-6, the-5)
+prep_in(read-1, book-6)
+
+dobj(put-1, book-2)
+prt(put-1, away-3)
+
+det(child-3, a-2)
+dobj(sit-1, child-3)
+prt(sit-1, down-4)
+
+det(child-4, the-3)
+prep_near(sit-1, child-4)
+
+dobj(open-1, book-2)
+
+amod(page-3, first-2)
+dobj(find-1, page-3)
+
+xcomp(start-1, reading-2)
+dobj(reading-2, sentences-3)
+
+det(story-3, a-2)
+dobj(select-1, story-3)
+
+det(child-3, the-2)
+dobj(ask-1, child-3)
+aux(sit-5, to-4)
+xcomp(ask-1, sit-5)
+xcomp(ask-1, be-7)
+conj_and(sit-5, be-7)
+advmod(be-7, still-8)
+
+det(story-3, the-2)
+dobj(open-1, story-3)
+det(beginning-6, the-5)
+prep_to(open-1, beginning-6)
+
+det(page-3, the-2)
+dobj(read-1, page-3)
+
+aux(let-3, to-2)
+xcomp(pause-1, let-3)
+nsubj(see-5, child-4)
+ccomp(let-3, see-5)
+dobj(see-5, pictures-6)
+
+dobj(turn-1, page-2)
+
+
+det(story-3, a-2)
+dobj(select-1, story-3)
+
+det(child-3, the-2)
+dobj(ask-1, child-3)
+aux(sit-5, to-4)
+xcomp(ask-1, sit-5)
+xcomp(ask-1, be-7)
+conj_and(sit-5, be-7)
+advmod(be-7, still-8)
+
+det(story-3, the-2)
+dobj(open-1, story-3)
+det(beginning-6, the-5)
+prep_to(open-1, beginning-6)
+
+det(page-3, the-2)
+dobj(read-1, page-3)
+
+aux(let-3, to-2)
+xcomp(pause-1, let-3)
+nsubj(see-5, child-4)
+ccomp(let-3, see-5)
+dobj(see-5, pictures-6)
+
+dobj(turn-1, page-2)
+
+dobj(repeat-1, steps-2)
+dep(steps-2, 4-3)
+dep(steps-2, 6-5)
+mark(finished-10, until-6)
+det(story-8, the-7)
+nsubjpass(finished-10, story-8)
+auxpass(finished-10, is-9)
+advcl(repeat-1, finished-10)
+
+det(book-3, a-2)
+dobj(choose-1, book-3)
+
+prep_with(sit-1, child-3)
+
+det(page-4, the-2)
+amod(page-4, first-3)
+dobj(read-1, page-4)
+
+det(page-3, the-2)
+dobj(turn-1, page-3)
+
+nsubj(steps-2, repeat-1)
+dobj(steps-2, three-3)
+dobj(steps-2, four-5)
+conj_and(three-3, four-5)
+
+det(book-3, a-2)
+dobj(choose-1, book-3)
+
+det(book-3, the-2)
+dobj(read-1, book-3)
+advmod(read-1, aloud-4)
+
+det(book-3, a-2)
+dobj(find-1, book-3)
+
+det(book-3, a-2)
+dobj(find-1, book-3)
+
+det(book-3, the-2)
+dobj(open-1, book-3)
+
+det(words-3, the-2)
+dobj(read-1, words-3)
+
+det(book-3, a-2)
+dobj(find-1, book-3)
+
+det(book-4, a-2)
+nn(book-4, story-3)
+dobj(choose-1, book-4)
+
+det(book-3, a-2)
+dobj(choose-1, book-3)
+
+prt(sit-1, down-2)
+det(child-5, the-4)
+prep_with(sit-1, child-5)
+
+det(book-3, the-2)
+dobj(open-1, book-3)
+
+det(pages-3, the-2)
+dobj(turn-1, pages-3)
+mark(read-8, as-4)
+det(words-6, the-5)
+nsubjpass(read-8, words-6)
+auxpass(read-8, are-7)
+advcl(turn-1, read-8)
+
+det(pictures-3, the-2)
+dobj(show-1, pictures-3)
+det(book-6, the-5)
+prep_in(show-1, book-6)
+det(child-9, the-8)
+prep_to(book-6, child-9)
+mark(are-12, if-10)
+expl(are-12, there-11)
+advcl(show-1, are-12)
+nsubj(are-12, any-13)
+
+det(child-3, the-2)
+dobj(ask-1, child-3)
+rel(wants-6, what-4)
+nsubj(wants-6, he\/she-5)
+xsubj(read-8, he\/she-5)
+rcmod(child-3, wants-6)
+aux(read-8, to-7)
+xcomp(wants-6, read-8)
+
+det(book-3, the-2)
+dobj(get-1, book-3)
+
+aux(sit-4, have-1)
+det(child-3, the-2)
+nsubj(sit-4, child-3)
+acomp(sit-4, next-5)
+prep_to(next-5, you-7)
+
+det(book-3, the-2)
+dobj(read-1, book-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+csubj(book-6, pick-1)
+prt(pick-1, out-2)
+det(children-4, a-3)
+dobj(pick-1, children-4)
+cop(book-6, s-5)
+
+det(story-3, a-2)
+dobj(find-1, story-3)
+
+det(story-3, the-2)
+nsubj(read-1, story-3)
+mark(showing-5, while-4)
+dep(read-1, showing-5)
+det(pictures-7, the-6)
+dobj(showing-5, pictures-7)
+det(child-10, the-9)
+prep_to(showing-5, child-10)
+
+dobj(choose-1, book-2)
+
+prep_on(sit-1, sofa-3)
+
+dobj(open-1, book-2)
+
+dobj(read-1, words-2)
+
+prep_to(point-1, pictures-3)
+
+det(book-3, the-2)
+dobj(read-1, book-3)
+
+dobj(tuck-1, child-2)
+prep_in(tuck-1, bed-4)
+
+amod(book-4, favorite-2)
+nn(book-4, bedtime-3)
+dobj(select-1, book-4)
+
+dobj(read-1, story-2)
+
+advmod(falls-3, when-1)
+nsubj(falls-3, child-2)
+csubj(stop-5, falls-3)
+acomp(falls-3, asleep-4)
+dep(stop-5, reading-6)
+
+nsubj(room-6, go-1)
+det(child-4, the-3)
+prep_to(go-1, child-4)
+cop(room-6, s-5)
+prep_with(room-6, child-8)
+
+dobj(ask-1, child-2)
+nsubj(book-4, child-2)
+rcmod(child-2, book-4)
+dobj(book-4, she-5)
+dep(book-4, d-6)
+prep(book-4, like-7)
+
+det(book-3, that-2)
+dobj(find-1, book-3)
+
+det(book-3, the-2)
+dobj(open-1, book-3)
+
+nn(page-4, page-2)
+amod(page-4, flip-3)
+dobj(read-1, page-4)
+
+dep(5-3, #-2)
+dobj(repeat-1, 5-3)
+prep_until(repeat-1, end-5)
+prep_of(end-5, book-7)
+
+dobj(put-1, book-2)
+prt(put-1, away-3)
+
+det(story-3, a-2)
+dobj(choose-1, story-3)
+aux(read-5, to-4)
+infmod(story-3, read-5)
+
+det(words-3, the-2)
+dobj(read-1, words-3)
+det(story-6, the-5)
+prep_in(read-1, story-6)
+prep_with(read-1, enthusiasm-8)
+
+dobj(include-1, actions-2)
+amod(effects-5, sound-4)
+dobj(include-1, effects-5)
+conj_and(actions-2, effects-5)
+
+dobj(pick-1, book-2)
+
+dobj(read-1, pages-2)
+prep_from(read-1, begining-4)
+
+dobj(close-1, book-2)
+advmod(done-4, when-3)
+dep(close-1, done-4)
+
+dobj(get-1, book-2)
+
+dobj(read-1, page-2)
+num(page-2, 1-3)
+
+det(page-3, the-2)
+dobj(turn-1, page-3)
+
+dobj(repeat-1, step-2)
+num(step-2, 2-3)
+partmod(step-2, adding-4)
+dobj(adding-4, 1-5)
+
+dobj(close-1, book-2)
+
+dobj(open-1, book-2)
+
+dobj(read-1, contents-2)
+
+dobj(close-1, book-2)
+
+aux(sit-3, have-1)
+nsubj(sit-3, child-2)
+
+dobj(get-1, book-2)
+
+acomp(sit-1, next-2)
+prep_to(next-2, child-4)
+
+dobj(open-1, book-2)
+
+prep_through(read-1, book-3)
+
+dobj(ask-1, child-2)
+det(story-4, child-2)
+nsubj(read-6, story-4)
+aux(read-6, to-5)
+infmod(child-2, read-6)
+rcmod(child-2, read-6)
+
+prt(walk-1, over-2)
+prep_to(walk-1, bookcase-4)
+
+prt(pick-1, up-2)
+amod(book-4, desired-3)
+dobj(pick-1, book-4)
+
+prt(walk-1, over-2)
+prep_to(walk-1, child-4)
+
+prt(sit-1, down-2)
+prep_with(sit-1, child-4)
+
+prep_to(open-1, page-3)
+num(page-3, 1-4)
+
+aux(read-3, to-2)
+xcomp(begin-1, read-3)
+prep_to(read-3, child-5)
+
+dobj(get-1, book-2)
+
+dobj(open-1, book-2)
+
+det(story-3, the-2)
+dobj(read-1, story-3)
+
+det(book-3, a-2)
+dobj(get-1, book-3)
+
+prt(sit-1, down-2)
+prep_with(sit-1, child-4)
+
+dobj(open-1, book-2)
+
+dobj(read-1, book-2)
+prep_to(read-1, child-4)
+

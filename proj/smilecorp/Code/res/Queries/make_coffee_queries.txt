@@ -1,0 +1,1370 @@
+id	score	v	d-obj	p	p-title
+000001	?	turn	kettle	holder	coffee
+000002	?	turn	kettle	mug	coffee
+000003	?	turn	kettle	coffee pot	coffee
+000004	?	turn	kettle	brew	coffee
+000005	?	turn	kettle	auto brew	coffee
+000006	?	turn	kettle	water	coffee
+000007	?	turn	kettle	hot water	coffee
+000008	?	turn	kettle	coffee maker	coffee
+000009	?	turn	kettle	maker	coffee
+000010	?	turn	kettle	coffee beans	coffee
+000011	?	turn	kettle	coffee grounds	coffee
+000012	?	turn	kettle	grounds	coffee
+000013	?	turn	kettle	filter	coffee
+000014	?	turn	kettle	coffee filter	coffee
+000015	?	turn	kettle	coffeemaker	coffee
+000016	?	turn	kettle	machine	coffee
+000017	?	turn	kettle	coffee machine	coffee
+000018	?	turn	kettle	resevoir	coffee
+000019	?	measure	water	holder	coffee
+000020	?	measure	water	mug	coffee
+000021	?	measure	water	coffee pot	coffee
+000022	?	measure	water	brew	coffee
+000023	?	measure	water	auto brew	coffee
+000024	?	measure	water	hot water	coffee
+000025	?	measure	water	coffee maker	coffee
+000026	?	measure	water	maker	coffee
+000027	?	measure	water	coffee beans	coffee
+000028	?	measure	water	coffee grounds	coffee
+000029	?	measure	water	grounds	coffee
+000030	?	measure	water	filter	coffee
+000031	?	measure	water	coffee filter	coffee
+000032	?	measure	water	coffeemaker	coffee
+000033	?	measure	water	machine	coffee
+000034	?	measure	water	coffee machine	coffee
+000035	?	measure	water	resevoir	coffee
+000036	?	pour	water	holder	coffee
+000037	?	pour	water	mug	coffee
+000038	?	pour	water	coffee pot	coffee
+000039	?	pour	water	brew	coffee
+000040	?	pour	water	auto brew	coffee
+000041	?	pour	water	hot water	coffee
+000042	?	pour	water	coffee maker	coffee
+000043	?	pour	water	maker	coffee
+000044	?	pour	water	coffee beans	coffee
+000045	?	pour	water	coffee grounds	coffee
+000046	?	pour	water	grounds	coffee
+000047	?	pour	water	filter	coffee
+000048	?	pour	water	coffee filter	coffee
+000049	?	pour	water	coffeemaker	coffee
+000050	?	pour	water	machine	coffee
+000051	?	pour	water	coffee machine	coffee
+000052	?	pour	water	resevoir	coffee
+000053	?	grind	coffee	holder	coffee
+000054	?	grind	coffee	mug	coffee
+000055	?	grind	coffee	coffee pot	coffee
+000056	?	grind	coffee	brew	coffee
+000057	?	grind	coffee	auto brew	coffee
+000058	?	grind	coffee	water	coffee
+000059	?	grind	coffee	hot water	coffee
+000060	?	grind	coffee	coffee maker	coffee
+000061	?	grind	coffee	maker	coffee
+000062	?	grind	coffee	coffee beans	coffee
+000063	?	grind	coffee	coffee grounds	coffee
+000064	?	grind	coffee	grounds	coffee
+000065	?	grind	coffee	filter	coffee
+000066	?	grind	coffee	coffee filter	coffee
+000067	?	grind	coffee	coffeemaker	coffee
+000068	?	grind	coffee	machine	coffee
+000069	?	grind	coffee	coffee machine	coffee
+000070	?	grind	coffee	resevoir	coffee
+000071	?	place	coffee	holder	coffee
+000072	?	place	coffee	mug	coffee
+000073	?	place	coffee	coffee pot	coffee
+000074	?	place	coffee	brew	coffee
+000075	?	place	coffee	auto brew	coffee
+000076	?	place	coffee	water	coffee
+000077	?	place	coffee	hot water	coffee
+000078	?	place	coffee	coffee maker	coffee
+000079	?	place	coffee	maker	coffee
+000080	?	place	coffee	coffee beans	coffee
+000081	?	place	coffee	coffee grounds	coffee
+000082	?	place	coffee	grounds	coffee
+000083	?	place	coffee	filter	coffee
+000084	?	place	coffee	coffee filter	coffee
+000085	?	place	coffee	coffeemaker	coffee
+000086	?	place	coffee	machine	coffee
+000087	?	place	coffee	coffee machine	coffee
+000088	?	place	coffee	resevoir	coffee
+000089	?	locate	coffee machine	holder	coffee
+000090	?	locate	coffee machine	mug	coffee
+000091	?	locate	coffee machine	coffee pot	coffee
+000092	?	locate	coffee machine	brew	coffee
+000093	?	locate	coffee machine	auto brew	coffee
+000094	?	locate	coffee machine	water	coffee
+000095	?	locate	coffee machine	hot water	coffee
+000096	?	locate	coffee machine	coffee maker	coffee
+000097	?	locate	coffee machine	maker	coffee
+000098	?	locate	coffee machine	coffee beans	coffee
+000099	?	locate	coffee machine	coffee grounds	coffee
+000100	?	locate	coffee machine	grounds	coffee
+000101	?	locate	coffee machine	filter	coffee
+000102	?	locate	coffee machine	coffee filter	coffee
+000103	?	locate	coffee machine	coffeemaker	coffee
+000104	?	locate	coffee machine	machine	coffee
+000105	?	locate	coffee machine	resevoir	coffee
+000106	?	add	water	holder	coffee
+000107	?	add	water	mug	coffee
+000108	?	add	water	coffee pot	coffee
+000109	?	add	water	brew	coffee
+000110	?	add	water	auto brew	coffee
+000111	?	add	water	hot water	coffee
+000112	?	add	water	coffee maker	coffee
+000113	?	add	water	maker	coffee
+000114	?	add	water	coffee beans	coffee
+000115	?	add	water	coffee grounds	coffee
+000116	?	add	water	grounds	coffee
+000117	?	add	water	filter	coffee
+000118	?	add	water	coffee filter	coffee
+000119	?	add	water	coffeemaker	coffee
+000120	?	add	water	machine	coffee
+000121	?	add	water	coffee machine	coffee
+000122	?	add	water	resevoir	coffee
+000123	?	add	milk	holder	coffee
+000124	?	add	milk	mug	coffee
+000125	?	add	milk	coffee pot	coffee
+000126	?	add	milk	brew	coffee
+000127	?	add	milk	auto brew	coffee
+000128	?	add	milk	water	coffee
+000129	?	add	milk	hot water	coffee
+000130	?	add	milk	coffee maker	coffee
+000131	?	add	milk	maker	coffee
+000132	?	add	milk	coffee beans	coffee
+000133	?	add	milk	coffee grounds	coffee
+000134	?	add	milk	grounds	coffee
+000135	?	add	milk	filter	coffee
+000136	?	add	milk	coffee filter	coffee
+000137	?	add	milk	coffeemaker	coffee
+000138	?	add	milk	machine	coffee
+000139	?	add	milk	coffee machine	coffee
+000140	?	add	milk	resevoir	coffee
+000141	?	place	holder	mug	coffee
+000142	?	place	holder	coffee pot	coffee
+000143	?	place	holder	brew	coffee
+000144	?	place	holder	auto brew	coffee
+000145	?	place	holder	water	coffee
+000146	?	place	holder	hot water	coffee
+000147	?	place	holder	coffee maker	coffee
+000148	?	place	holder	maker	coffee
+000149	?	place	holder	coffee beans	coffee
+000150	?	place	holder	coffee grounds	coffee
+000151	?	place	holder	grounds	coffee
+000152	?	place	holder	filter	coffee
+000153	?	place	holder	coffee filter	coffee
+000154	?	place	holder	coffeemaker	coffee
+000155	?	place	holder	machine	coffee
+000156	?	place	holder	coffee machine	coffee
+000157	?	place	holder	resevoir	coffee
+000158	?	get	water	holder	coffee
+000159	?	get	water	mug	coffee
+000160	?	get	water	coffee pot	coffee
+000161	?	get	water	brew	coffee
+000162	?	get	water	auto brew	coffee
+000163	?	get	water	hot water	coffee
+000164	?	get	water	coffee maker	coffee
+000165	?	get	water	maker	coffee
+000166	?	get	water	coffee beans	coffee
+000167	?	get	water	coffee grounds	coffee
+000168	?	get	water	grounds	coffee
+000169	?	get	water	filter	coffee
+000170	?	get	water	coffee filter	coffee
+000171	?	get	water	coffeemaker	coffee
+000172	?	get	water	machine	coffee
+000173	?	get	water	coffee machine	coffee
+000174	?	get	water	resevoir	coffee
+000175	?	measure	coffee	holder	coffee
+000176	?	measure	coffee	mug	coffee
+000177	?	measure	coffee	coffee pot	coffee
+000178	?	measure	coffee	brew	coffee
+000179	?	measure	coffee	auto brew	coffee
+000180	?	measure	coffee	water	coffee
+000181	?	measure	coffee	hot water	coffee
+000182	?	measure	coffee	coffee maker	coffee
+000183	?	measure	coffee	maker	coffee
+000184	?	measure	coffee	coffee beans	coffee
+000185	?	measure	coffee	coffee grounds	coffee
+000186	?	measure	coffee	grounds	coffee
+000187	?	measure	coffee	filter	coffee
+000188	?	measure	coffee	coffee filter	coffee
+000189	?	measure	coffee	coffeemaker	coffee
+000190	?	measure	coffee	machine	coffee
+000191	?	measure	coffee	coffee machine	coffee
+000192	?	measure	coffee	resevoir	coffee
+000193	?	pour	hot water	holder	coffee
+000194	?	pour	hot water	mug	coffee
+000195	?	pour	hot water	coffee pot	coffee
+000196	?	pour	hot water	brew	coffee
+000197	?	pour	hot water	auto brew	coffee
+000198	?	pour	hot water	water	coffee
+000199	?	pour	hot water	coffee maker	coffee
+000200	?	pour	hot water	maker	coffee
+000201	?	pour	hot water	coffee beans	coffee
+000202	?	pour	hot water	coffee grounds	coffee
+000203	?	pour	hot water	grounds	coffee
+000204	?	pour	hot water	filter	coffee
+000205	?	pour	hot water	coffee filter	coffee
+000206	?	pour	hot water	coffeemaker	coffee
+000207	?	pour	hot water	machine	coffee
+000208	?	pour	hot water	coffee machine	coffee
+000209	?	pour	hot water	resevoir	coffee
+000210	?	put	coffeepot	holder	coffee
+000211	?	put	coffeepot	mug	coffee
+000212	?	put	coffeepot	coffee pot	coffee
+000213	?	put	coffeepot	brew	coffee
+000214	?	put	coffeepot	auto brew	coffee
+000215	?	put	coffeepot	water	coffee
+000216	?	put	coffeepot	hot water	coffee
+000217	?	put	coffeepot	coffee maker	coffee
+000218	?	put	coffeepot	maker	coffee
+000219	?	put	coffeepot	coffee beans	coffee
+000220	?	put	coffeepot	coffee grounds	coffee
+000221	?	put	coffeepot	grounds	coffee
+000222	?	put	coffeepot	filter	coffee
+000223	?	put	coffeepot	coffee filter	coffee
+000224	?	put	coffeepot	coffeemaker	coffee
+000225	?	put	coffeepot	machine	coffee
+000226	?	put	coffeepot	coffee machine	coffee
+000227	?	put	coffeepot	resevoir	coffee
+000228	?	audd	cream	holder	coffee
+000229	?	audd	cream	mug	coffee
+000230	?	audd	cream	coffee pot	coffee
+000231	?	audd	cream	brew	coffee
+000232	?	audd	cream	auto brew	coffee
+000233	?	audd	cream	water	coffee
+000234	?	audd	cream	hot water	coffee
+000235	?	audd	cream	coffee maker	coffee
+000236	?	audd	cream	maker	coffee
+000237	?	audd	cream	coffee beans	coffee
+000238	?	audd	cream	coffee grounds	coffee
+000239	?	audd	cream	grounds	coffee
+000240	?	audd	cream	filter	coffee
+000241	?	audd	cream	coffee filter	coffee
+000242	?	audd	cream	coffeemaker	coffee
+000243	?	audd	cream	machine	coffee
+000244	?	audd	cream	coffee machine	coffee
+000245	?	audd	cream	resevoir	coffee
+000246	?	turn	machine	holder	coffee
+000247	?	turn	machine	mug	coffee
+000248	?	turn	machine	coffee pot	coffee
+000249	?	turn	machine	brew	coffee
+000250	?	turn	machine	auto brew	coffee
+000251	?	turn	machine	water	coffee
+000252	?	turn	machine	hot water	coffee
+000253	?	turn	machine	coffee maker	coffee
+000254	?	turn	machine	maker	coffee
+000255	?	turn	machine	coffee beans	coffee
+000256	?	turn	machine	coffee grounds	coffee
+000257	?	turn	machine	grounds	coffee
+000258	?	turn	machine	filter	coffee
+000259	?	turn	machine	coffee filter	coffee
+000260	?	turn	machine	coffeemaker	coffee
+000261	?	turn	machine	coffee machine	coffee
+000262	?	turn	machine	resevoir	coffee
+000263	?	get	coffee	holder	coffee
+000264	?	get	coffee	mug	coffee
+000265	?	get	coffee	coffee pot	coffee
+000266	?	get	coffee	brew	coffee
+000267	?	get	coffee	auto brew	coffee
+000268	?	get	coffee	water	coffee
+000269	?	get	coffee	hot water	coffee
+000270	?	get	coffee	coffee maker	coffee
+000271	?	get	coffee	maker	coffee
+000272	?	get	coffee	coffee beans	coffee
+000273	?	get	coffee	coffee grounds	coffee
+000274	?	get	coffee	grounds	coffee
+000275	?	get	coffee	filter	coffee
+000276	?	get	coffee	coffee filter	coffee
+000277	?	get	coffee	coffeemaker	coffee
+000278	?	get	coffee	machine	coffee
+000279	?	get	coffee	coffee machine	coffee
+000280	?	get	coffee	resevoir	coffee
+000281	?	place	water	holder	coffee
+000282	?	place	water	mug	coffee
+000283	?	place	water	coffee pot	coffee
+000284	?	place	water	brew	coffee
+000285	?	place	water	auto brew	coffee
+000286	?	place	water	hot water	coffee
+000287	?	place	water	coffee maker	coffee
+000288	?	place	water	maker	coffee
+000289	?	place	water	coffee beans	coffee
+000290	?	place	water	coffee grounds	coffee
+000291	?	place	water	grounds	coffee
+000292	?	place	water	filter	coffee
+000293	?	place	water	coffee filter	coffee
+000294	?	place	water	coffeemaker	coffee
+000295	?	place	water	machine	coffee
+000296	?	place	water	coffee machine	coffee
+000297	?	place	water	resevoir	coffee
+000298	?	add	sugar	holder	coffee
+000299	?	add	sugar	mug	coffee
+000300	?	add	sugar	coffee pot	coffee
+000301	?	add	sugar	brew	coffee
+000302	?	add	sugar	auto brew	coffee
+000303	?	add	sugar	water	coffee
+000304	?	add	sugar	hot water	coffee
+000305	?	add	sugar	coffee maker	coffee
+000306	?	add	sugar	maker	coffee
+000307	?	add	sugar	coffee beans	coffee
+000308	?	add	sugar	coffee grounds	coffee
+000309	?	add	sugar	grounds	coffee
+000310	?	add	sugar	filter	coffee
+000311	?	add	sugar	coffee filter	coffee
+000312	?	add	sugar	coffeemaker	coffee
+000313	?	add	sugar	machine	coffee
+000314	?	add	sugar	coffee machine	coffee
+000315	?	add	sugar	resevoir	coffee
+000316	?	place	coffee grounds	holder	coffee
+000317	?	place	coffee grounds	mug	coffee
+000318	?	place	coffee grounds	coffee pot	coffee
+000319	?	place	coffee grounds	brew	coffee
+000320	?	place	coffee grounds	auto brew	coffee
+000321	?	place	coffee grounds	water	coffee
+000322	?	place	coffee grounds	hot water	coffee
+000323	?	place	coffee grounds	coffee maker	coffee
+000324	?	place	coffee grounds	maker	coffee
+000325	?	place	coffee grounds	coffee beans	coffee
+000326	?	place	coffee grounds	grounds	coffee
+000327	?	place	coffee grounds	filter	coffee
+000328	?	place	coffee grounds	coffee filter	coffee
+000329	?	place	coffee grounds	coffeemaker	coffee
+000330	?	place	coffee grounds	machine	coffee
+000331	?	place	coffee grounds	coffee machine	coffee
+000332	?	place	coffee grounds	resevoir	coffee
+000333	?	add	instant coffee	holder	coffee
+000334	?	add	instant coffee	mug	coffee
+000335	?	add	instant coffee	coffee pot	coffee
+000336	?	add	instant coffee	brew	coffee
+000337	?	add	instant coffee	auto brew	coffee
+000338	?	add	instant coffee	water	coffee
+000339	?	add	instant coffee	hot water	coffee
+000340	?	add	instant coffee	coffee maker	coffee
+000341	?	add	instant coffee	maker	coffee
+000342	?	add	instant coffee	coffee beans	coffee
+000343	?	add	instant coffee	coffee grounds	coffee
+000344	?	add	instant coffee	grounds	coffee
+000345	?	add	instant coffee	filter	coffee
+000346	?	add	instant coffee	coffee filter	coffee
+000347	?	add	instant coffee	coffeemaker	coffee
+000348	?	add	instant coffee	machine	coffee
+000349	?	add	instant coffee	coffee machine	coffee
+000350	?	add	instant coffee	resevoir	coffee
+000351	?	get	coffe bucket	holder	coffee
+000352	?	get	coffe bucket	mug	coffee
+000353	?	get	coffe bucket	coffee pot	coffee
+000354	?	get	coffe bucket	brew	coffee
+000355	?	get	coffe bucket	auto brew	coffee
+000356	?	get	coffe bucket	water	coffee
+000357	?	get	coffe bucket	hot water	coffee
+000358	?	get	coffe bucket	coffee maker	coffee
+000359	?	get	coffe bucket	maker	coffee
+000360	?	get	coffe bucket	coffee beans	coffee
+000361	?	get	coffe bucket	coffee grounds	coffee
+000362	?	get	coffe bucket	grounds	coffee
+000363	?	get	coffe bucket	filter	coffee
+000364	?	get	coffe bucket	coffee filter	coffee
+000365	?	get	coffe bucket	coffeemaker	coffee
+000366	?	get	coffe bucket	machine	coffee
+000367	?	get	coffe bucket	coffee machine	coffee
+000368	?	get	coffe bucket	resevoir	coffee
+000369	?	get	coffee bean	holder	coffee
+000370	?	get	coffee bean	mug	coffee
+000371	?	get	coffee bean	coffee pot	coffee
+000372	?	get	coffee bean	brew	coffee
+000373	?	get	coffee bean	auto brew	coffee
+000374	?	get	coffee bean	water	coffee
+000375	?	get	coffee bean	hot water	coffee
+000376	?	get	coffee bean	coffee maker	coffee
+000377	?	get	coffee bean	maker	coffee
+000378	?	get	coffee bean	coffee beans	coffee
+000379	?	get	coffee bean	coffee grounds	coffee
+000380	?	get	coffee bean	grounds	coffee
+000381	?	get	coffee bean	filter	coffee
+000382	?	get	coffee bean	coffee filter	coffee
+000383	?	get	coffee bean	coffeemaker	coffee
+000384	?	get	coffee bean	machine	coffee
+000385	?	get	coffee bean	coffee machine	coffee
+000386	?	get	coffee bean	resevoir	coffee
+000387	?	add	coffee	holder	coffee
+000388	?	add	coffee	mug	coffee
+000389	?	add	coffee	coffee pot	coffee
+000390	?	add	coffee	brew	coffee
+000391	?	add	coffee	auto brew	coffee
+000392	?	add	coffee	water	coffee
+000393	?	add	coffee	hot water	coffee
+000394	?	add	coffee	coffee maker	coffee
+000395	?	add	coffee	maker	coffee
+000396	?	add	coffee	coffee beans	coffee
+000397	?	add	coffee	coffee grounds	coffee
+000398	?	add	coffee	grounds	coffee
+000399	?	add	coffee	filter	coffee
+000400	?	add	coffee	coffee filter	coffee
+000401	?	add	coffee	coffeemaker	coffee
+000402	?	add	coffee	machine	coffee
+000403	?	add	coffee	coffee machine	coffee
+000404	?	add	coffee	resevoir	coffee
+000405	?	press	start	holder	coffee
+000406	?	press	start	mug	coffee
+000407	?	press	start	coffee pot	coffee
+000408	?	press	start	brew	coffee
+000409	?	press	start	auto brew	coffee
+000410	?	press	start	water	coffee
+000411	?	press	start	hot water	coffee
+000412	?	press	start	coffee maker	coffee
+000413	?	press	start	maker	coffee
+000414	?	press	start	coffee beans	coffee
+000415	?	press	start	coffee grounds	coffee
+000416	?	press	start	grounds	coffee
+000417	?	press	start	filter	coffee
+000418	?	press	start	coffee filter	coffee
+000419	?	press	start	coffeemaker	coffee
+000420	?	press	start	machine	coffee
+000421	?	press	start	coffee machine	coffee
+000422	?	press	start	resevoir	coffee
+000423	?	put	coffeefilter	holder	coffee
+000424	?	put	coffeefilter	mug	coffee
+000425	?	put	coffeefilter	coffee pot	coffee
+000426	?	put	coffeefilter	brew	coffee
+000427	?	put	coffeefilter	auto brew	coffee
+000428	?	put	coffeefilter	water	coffee
+000429	?	put	coffeefilter	hot water	coffee
+000430	?	put	coffeefilter	coffee maker	coffee
+000431	?	put	coffeefilter	maker	coffee
+000432	?	put	coffeefilter	coffee beans	coffee
+000433	?	put	coffeefilter	coffee grounds	coffee
+000434	?	put	coffeefilter	grounds	coffee
+000435	?	put	coffeefilter	filter	coffee
+000436	?	put	coffeefilter	coffee filter	coffee
+000437	?	put	coffeefilter	coffeemaker	coffee
+000438	?	put	coffeefilter	machine	coffee
+000439	?	put	coffeefilter	coffee machine	coffee
+000440	?	put	coffeefilter	resevoir	coffee
+000441	?	put	wather	holder	coffee
+000442	?	put	wather	mug	coffee
+000443	?	put	wather	coffee pot	coffee
+000444	?	put	wather	brew	coffee
+000445	?	put	wather	auto brew	coffee
+000446	?	put	wather	water	coffee
+000447	?	put	wather	hot water	coffee
+000448	?	put	wather	coffee maker	coffee
+000449	?	put	wather	maker	coffee
+000450	?	put	wather	coffee beans	coffee
+000451	?	put	wather	coffee grounds	coffee
+000452	?	put	wather	grounds	coffee
+000453	?	put	wather	filter	coffee
+000454	?	put	wather	coffee filter	coffee
+000455	?	put	wather	coffeemaker	coffee
+000456	?	put	wather	machine	coffee
+000457	?	put	wather	coffee machine	coffee
+000458	?	put	wather	resevoir	coffee
+000459	?	find	coffeemaker	holder	coffee
+000460	?	find	coffeemaker	mug	coffee
+000461	?	find	coffeemaker	coffee pot	coffee
+000462	?	find	coffeemaker	brew	coffee
+000463	?	find	coffeemaker	auto brew	coffee
+000464	?	find	coffeemaker	water	coffee
+000465	?	find	coffeemaker	hot water	coffee
+000466	?	find	coffeemaker	coffee maker	coffee
+000467	?	find	coffeemaker	maker	coffee
+000468	?	find	coffeemaker	coffee beans	coffee
+000469	?	find	coffeemaker	coffee grounds	coffee
+000470	?	find	coffeemaker	grounds	coffee
+000471	?	find	coffeemaker	filter	coffee
+000472	?	find	coffeemaker	coffee filter	coffee
+000473	?	find	coffeemaker	machine	coffee
+000474	?	find	coffeemaker	coffee machine	coffee
+000475	?	find	coffeemaker	resevoir	coffee
+000476	?	fill	water	holder	coffee
+000477	?	fill	water	mug	coffee
+000478	?	fill	water	coffee pot	coffee
+000479	?	fill	water	brew	coffee
+000480	?	fill	water	auto brew	coffee
+000481	?	fill	water	hot water	coffee
+000482	?	fill	water	coffee maker	coffee
+000483	?	fill	water	maker	coffee
+000484	?	fill	water	coffee beans	coffee
+000485	?	fill	water	coffee grounds	coffee
+000486	?	fill	water	grounds	coffee
+000487	?	fill	water	filter	coffee
+000488	?	fill	water	coffee filter	coffee
+000489	?	fill	water	coffeemaker	coffee
+000490	?	fill	water	machine	coffee
+000491	?	fill	water	coffee machine	coffee
+000492	?	fill	water	resevoir	coffee
+000493	?	install	filter	holder	coffee
+000494	?	install	filter	mug	coffee
+000495	?	install	filter	coffee pot	coffee
+000496	?	install	filter	brew	coffee
+000497	?	install	filter	auto brew	coffee
+000498	?	install	filter	water	coffee
+000499	?	install	filter	hot water	coffee
+000500	?	install	filter	coffee maker	coffee
+000501	?	install	filter	maker	coffee
+000502	?	install	filter	coffee beans	coffee
+000503	?	install	filter	coffee grounds	coffee
+000504	?	install	filter	grounds	coffee
+000505	?	install	filter	coffee filter	coffee
+000506	?	install	filter	coffeemaker	coffee
+000507	?	install	filter	machine	coffee
+000508	?	install	filter	coffee machine	coffee
+000509	?	install	filter	resevoir	coffee
+000510	?	boil	kettle	holder	coffee
+000511	?	boil	kettle	mug	coffee
+000512	?	boil	kettle	coffee pot	coffee
+000513	?	boil	kettle	brew	coffee
+000514	?	boil	kettle	auto brew	coffee
+000515	?	boil	kettle	water	coffee
+000516	?	boil	kettle	hot water	coffee
+000517	?	boil	kettle	coffee maker	coffee
+000518	?	boil	kettle	maker	coffee
+000519	?	boil	kettle	coffee beans	coffee
+000520	?	boil	kettle	coffee grounds	coffee
+000521	?	boil	kettle	grounds	coffee
+000522	?	boil	kettle	filter	coffee
+000523	?	boil	kettle	coffee filter	coffee
+000524	?	boil	kettle	coffeemaker	coffee
+000525	?	boil	kettle	machine	coffee
+000526	?	boil	kettle	coffee machine	coffee
+000527	?	boil	kettle	resevoir	coffee
+000528	?	grind	beans	holder	coffee
+000529	?	grind	beans	mug	coffee
+000530	?	grind	beans	coffee pot	coffee
+000531	?	grind	beans	brew	coffee
+000532	?	grind	beans	auto brew	coffee
+000533	?	grind	beans	water	coffee
+000534	?	grind	beans	hot water	coffee
+000535	?	grind	beans	coffee maker	coffee
+000536	?	grind	beans	maker	coffee
+000537	?	grind	beans	coffee beans	coffee
+000538	?	grind	beans	coffee grounds	coffee
+000539	?	grind	beans	grounds	coffee
+000540	?	grind	beans	filter	coffee
+000541	?	grind	beans	coffee filter	coffee
+000542	?	grind	beans	coffeemaker	coffee
+000543	?	grind	beans	machine	coffee
+000544	?	grind	beans	coffee machine	coffee
+000545	?	grind	beans	resevoir	coffee
+000546	?	open	coffe bucket	holder	coffee
+000547	?	open	coffe bucket	mug	coffee
+000548	?	open	coffe bucket	coffee pot	coffee
+000549	?	open	coffe bucket	brew	coffee
+000550	?	open	coffe bucket	auto brew	coffee
+000551	?	open	coffe bucket	water	coffee
+000552	?	open	coffe bucket	hot water	coffee
+000553	?	open	coffe bucket	coffee maker	coffee
+000554	?	open	coffe bucket	maker	coffee
+000555	?	open	coffe bucket	coffee beans	coffee
+000556	?	open	coffe bucket	coffee grounds	coffee
+000557	?	open	coffe bucket	grounds	coffee
+000558	?	open	coffe bucket	filter	coffee
+000559	?	open	coffe bucket	coffee filter	coffee
+000560	?	open	coffe bucket	coffeemaker	coffee
+000561	?	open	coffe bucket	machine	coffee
+000562	?	open	coffe bucket	coffee machine	coffee
+000563	?	open	coffe bucket	resevoir	coffee
+000564	?	get	coffee filter	holder	coffee
+000565	?	get	coffee filter	mug	coffee
+000566	?	get	coffee filter	coffee pot	coffee
+000567	?	get	coffee filter	brew	coffee
+000568	?	get	coffee filter	auto brew	coffee
+000569	?	get	coffee filter	water	coffee
+000570	?	get	coffee filter	hot water	coffee
+000571	?	get	coffee filter	coffee maker	coffee
+000572	?	get	coffee filter	maker	coffee
+000573	?	get	coffee filter	coffee beans	coffee
+000574	?	get	coffee filter	coffee grounds	coffee
+000575	?	get	coffee filter	grounds	coffee
+000576	?	get	coffee filter	filter	coffee
+000577	?	get	coffee filter	coffeemaker	coffee
+000578	?	get	coffee filter	machine	coffee
+000579	?	get	coffee filter	coffee machine	coffee
+000580	?	get	coffee filter	resevoir	coffee
+000581	?	turn	maker	holder	coffee
+000582	?	turn	maker	mug	coffee
+000583	?	turn	maker	coffee pot	coffee
+000584	?	turn	maker	brew	coffee
+000585	?	turn	maker	auto brew	coffee
+000586	?	turn	maker	water	coffee
+000587	?	turn	maker	hot water	coffee
+000588	?	turn	maker	coffee maker	coffee
+000589	?	turn	maker	coffee beans	coffee
+000590	?	turn	maker	coffee grounds	coffee
+000591	?	turn	maker	grounds	coffee
+000592	?	turn	maker	filter	coffee
+000593	?	turn	maker	coffee filter	coffee
+000594	?	turn	maker	coffeemaker	coffee
+000595	?	turn	maker	machine	coffee
+000596	?	turn	maker	coffee machine	coffee
+000597	?	turn	maker	resevoir	coffee
+000598	?	idenity	coffee grounds	holder	coffee
+000599	?	idenity	coffee grounds	mug	coffee
+000600	?	idenity	coffee grounds	coffee pot	coffee
+000601	?	idenity	coffee grounds	brew	coffee
+000602	?	idenity	coffee grounds	auto brew	coffee
+000603	?	idenity	coffee grounds	water	coffee
+000604	?	idenity	coffee grounds	hot water	coffee
+000605	?	idenity	coffee grounds	coffee maker	coffee
+000606	?	idenity	coffee grounds	maker	coffee
+000607	?	idenity	coffee grounds	coffee beans	coffee
+000608	?	idenity	coffee grounds	grounds	coffee
+000609	?	idenity	coffee grounds	filter	coffee
+000610	?	idenity	coffee grounds	coffee filter	coffee
+000611	?	idenity	coffee grounds	coffeemaker	coffee
+000612	?	idenity	coffee grounds	machine	coffee
+000613	?	idenity	coffee grounds	coffee machine	coffee
+000614	?	idenity	coffee grounds	resevoir	coffee
+000615	?	put	new filter	holder	coffee
+000616	?	put	new filter	mug	coffee
+000617	?	put	new filter	coffee pot	coffee
+000618	?	put	new filter	brew	coffee
+000619	?	put	new filter	auto brew	coffee
+000620	?	put	new filter	water	coffee
+000621	?	put	new filter	hot water	coffee
+000622	?	put	new filter	coffee maker	coffee
+000623	?	put	new filter	maker	coffee
+000624	?	put	new filter	coffee beans	coffee
+000625	?	put	new filter	coffee grounds	coffee
+000626	?	put	new filter	grounds	coffee
+000627	?	put	new filter	filter	coffee
+000628	?	put	new filter	coffee filter	coffee
+000629	?	put	new filter	coffeemaker	coffee
+000630	?	put	new filter	machine	coffee
+000631	?	put	new filter	coffee machine	coffee
+000632	?	put	new filter	resevoir	coffee
+000633	?	put	lid	holder	coffee
+000634	?	put	lid	mug	coffee
+000635	?	put	lid	coffee pot	coffee
+000636	?	put	lid	brew	coffee
+000637	?	put	lid	auto brew	coffee
+000638	?	put	lid	water	coffee
+000639	?	put	lid	hot water	coffee
+000640	?	put	lid	coffee maker	coffee
+000641	?	put	lid	maker	coffee
+000642	?	put	lid	coffee beans	coffee
+000643	?	put	lid	coffee grounds	coffee
+000644	?	put	lid	grounds	coffee
+000645	?	put	lid	filter	coffee
+000646	?	put	lid	coffee filter	coffee
+000647	?	put	lid	coffeemaker	coffee
+000648	?	put	lid	machine	coffee
+000649	?	put	lid	coffee machine	coffee
+000650	?	put	lid	resevoir	coffee
+000651	?	add	boiled water	holder	coffee
+000652	?	add	boiled water	mug	coffee
+000653	?	add	boiled water	coffee pot	coffee
+000654	?	add	boiled water	brew	coffee
+000655	?	add	boiled water	auto brew	coffee
+000656	?	add	boiled water	water	coffee
+000657	?	add	boiled water	hot water	coffee
+000658	?	add	boiled water	coffee maker	coffee
+000659	?	add	boiled water	maker	coffee
+000660	?	add	boiled water	coffee beans	coffee
+000661	?	add	boiled water	coffee grounds	coffee
+000662	?	add	boiled water	grounds	coffee
+000663	?	add	boiled water	filter	coffee
+000664	?	add	boiled water	coffee filter	coffee
+000665	?	add	boiled water	coffeemaker	coffee
+000666	?	add	boiled water	machine	coffee
+000667	?	add	boiled water	coffee machine	coffee
+000668	?	add	boiled water	resevoir	coffee
+000669	?	boil	water	holder	coffee
+000670	?	boil	water	mug	coffee
+000671	?	boil	water	coffee pot	coffee
+000672	?	boil	water	brew	coffee
+000673	?	boil	water	auto brew	coffee
+000674	?	boil	water	hot water	coffee
+000675	?	boil	water	coffee maker	coffee
+000676	?	boil	water	maker	coffee
+000677	?	boil	water	coffee beans	coffee
+000678	?	boil	water	coffee grounds	coffee
+000679	?	boil	water	grounds	coffee
+000680	?	boil	water	filter	coffee
+000681	?	boil	water	coffee filter	coffee
+000682	?	boil	water	coffeemaker	coffee
+000683	?	boil	water	machine	coffee
+000684	?	boil	water	coffee machine	coffee
+000685	?	boil	water	resevoir	coffee
+000686	?	place	instant coffee crystals	holder	coffee
+000687	?	place	instant coffee crystals	mug	coffee
+000688	?	place	instant coffee crystals	coffee pot	coffee
+000689	?	place	instant coffee crystals	brew	coffee
+000690	?	place	instant coffee crystals	auto brew	coffee
+000691	?	place	instant coffee crystals	water	coffee
+000692	?	place	instant coffee crystals	hot water	coffee
+000693	?	place	instant coffee crystals	coffee maker	coffee
+000694	?	place	instant coffee crystals	maker	coffee
+000695	?	place	instant coffee crystals	coffee beans	coffee
+000696	?	place	instant coffee crystals	coffee grounds	coffee
+000697	?	place	instant coffee crystals	grounds	coffee
+000698	?	place	instant coffee crystals	filter	coffee
+000699	?	place	instant coffee crystals	coffee filter	coffee
+000700	?	place	instant coffee crystals	coffeemaker	coffee
+000701	?	place	instant coffee crystals	machine	coffee
+000702	?	place	instant coffee crystals	coffee machine	coffee
+000703	?	place	instant coffee crystals	resevoir	coffee
+000704	?	switch	coffee machine	holder	coffee
+000705	?	switch	coffee machine	mug	coffee
+000706	?	switch	coffee machine	coffee pot	coffee
+000707	?	switch	coffee machine	brew	coffee
+000708	?	switch	coffee machine	auto brew	coffee
+000709	?	switch	coffee machine	water	coffee
+000710	?	switch	coffee machine	hot water	coffee
+000711	?	switch	coffee machine	coffee maker	coffee
+000712	?	switch	coffee machine	maker	coffee
+000713	?	switch	coffee machine	coffee beans	coffee
+000714	?	switch	coffee machine	coffee grounds	coffee
+000715	?	switch	coffee machine	grounds	coffee
+000716	?	switch	coffee machine	filter	coffee
+000717	?	switch	coffee machine	coffee filter	coffee
+000718	?	switch	coffee machine	coffeemaker	coffee
+000719	?	switch	coffee machine	machine	coffee
+000720	?	switch	coffee machine	resevoir	coffee
+000721	?	pour	ground coffee	holder	coffee
+000722	?	pour	ground coffee	mug	coffee
+000723	?	pour	ground coffee	coffee pot	coffee
+000724	?	pour	ground coffee	brew	coffee
+000725	?	pour	ground coffee	auto brew	coffee
+000726	?	pour	ground coffee	water	coffee
+000727	?	pour	ground coffee	hot water	coffee
+000728	?	pour	ground coffee	coffee maker	coffee
+000729	?	pour	ground coffee	maker	coffee
+000730	?	pour	ground coffee	coffee beans	coffee
+000731	?	pour	ground coffee	coffee grounds	coffee
+000732	?	pour	ground coffee	grounds	coffee
+000733	?	pour	ground coffee	filter	coffee
+000734	?	pour	ground coffee	coffee filter	coffee
+000735	?	pour	ground coffee	coffeemaker	coffee
+000736	?	pour	ground coffee	machine	coffee
+000737	?	pour	ground coffee	coffee machine	coffee
+000738	?	pour	ground coffee	resevoir	coffee
+000739	?	fill	kettle	holder	coffee
+000740	?	fill	kettle	mug	coffee
+000741	?	fill	kettle	coffee pot	coffee
+000742	?	fill	kettle	brew	coffee
+000743	?	fill	kettle	auto brew	coffee
+000744	?	fill	kettle	water	coffee
+000745	?	fill	kettle	hot water	coffee
+000746	?	fill	kettle	coffee maker	coffee
+000747	?	fill	kettle	maker	coffee
+000748	?	fill	kettle	coffee beans	coffee
+000749	?	fill	kettle	coffee grounds	coffee
+000750	?	fill	kettle	grounds	coffee
+000751	?	fill	kettle	filter	coffee
+000752	?	fill	kettle	coffee filter	coffee
+000753	?	fill	kettle	coffeemaker	coffee
+000754	?	fill	kettle	machine	coffee
+000755	?	fill	kettle	coffee machine	coffee
+000756	?	fill	kettle	resevoir	coffee
+000757	?	clean	coffee machine	holder	coffee
+000758	?	clean	coffee machine	mug	coffee
+000759	?	clean	coffee machine	coffee pot	coffee
+000760	?	clean	coffee machine	brew	coffee
+000761	?	clean	coffee machine	auto brew	coffee
+000762	?	clean	coffee machine	water	coffee
+000763	?	clean	coffee machine	hot water	coffee
+000764	?	clean	coffee machine	coffee maker	coffee
+000765	?	clean	coffee machine	maker	coffee
+000766	?	clean	coffee machine	coffee beans	coffee
+000767	?	clean	coffee machine	coffee grounds	coffee
+000768	?	clean	coffee machine	grounds	coffee
+000769	?	clean	coffee machine	filter	coffee
+000770	?	clean	coffee machine	coffee filter	coffee
+000771	?	clean	coffee machine	coffeemaker	coffee
+000772	?	clean	coffee machine	machine	coffee
+000773	?	clean	coffee machine	resevoir	coffee
+000774	?	grind	coffee beans	holder	coffee
+000775	?	grind	coffee beans	mug	coffee
+000776	?	grind	coffee beans	coffee pot	coffee
+000777	?	grind	coffee beans	brew	coffee
+000778	?	grind	coffee beans	auto brew	coffee
+000779	?	grind	coffee beans	water	coffee
+000780	?	grind	coffee beans	hot water	coffee
+000781	?	grind	coffee beans	coffee maker	coffee
+000782	?	grind	coffee beans	maker	coffee
+000783	?	grind	coffee beans	coffee grounds	coffee
+000784	?	grind	coffee beans	grounds	coffee
+000785	?	grind	coffee beans	filter	coffee
+000786	?	grind	coffee beans	coffee filter	coffee
+000787	?	grind	coffee beans	coffeemaker	coffee
+000788	?	grind	coffee beans	machine	coffee
+000789	?	grind	coffee beans	coffee machine	coffee
+000790	?	grind	coffee beans	resevoir	coffee
+000791	?	put	coffee pot	holder	coffee
+000792	?	put	coffee pot	mug	coffee
+000793	?	put	coffee pot	brew	coffee
+000794	?	put	coffee pot	auto brew	coffee
+000795	?	put	coffee pot	water	coffee
+000796	?	put	coffee pot	hot water	coffee
+000797	?	put	coffee pot	coffee maker	coffee
+000798	?	put	coffee pot	maker	coffee
+000799	?	put	coffee pot	coffee beans	coffee
+000800	?	put	coffee pot	coffee grounds	coffee
+000801	?	put	coffee pot	grounds	coffee
+000802	?	put	coffee pot	filter	coffee
+000803	?	put	coffee pot	coffee filter	coffee
+000804	?	put	coffee pot	coffeemaker	coffee
+000805	?	put	coffee pot	machine	coffee
+000806	?	put	coffee pot	coffee machine	coffee
+000807	?	put	coffee pot	resevoir	coffee
+000808	?	fill	filter	holder	coffee
+000809	?	fill	filter	mug	coffee
+000810	?	fill	filter	coffee pot	coffee
+000811	?	fill	filter	brew	coffee
+000812	?	fill	filter	auto brew	coffee
+000813	?	fill	filter	water	coffee
+000814	?	fill	filter	hot water	coffee
+000815	?	fill	filter	coffee maker	coffee
+000816	?	fill	filter	maker	coffee
+000817	?	fill	filter	coffee beans	coffee
+000818	?	fill	filter	coffee grounds	coffee
+000819	?	fill	filter	grounds	coffee
+000820	?	fill	filter	coffee filter	coffee
+000821	?	fill	filter	coffeemaker	coffee
+000822	?	fill	filter	machine	coffee
+000823	?	fill	filter	coffee machine	coffee
+000824	?	fill	filter	resevoir	coffee
+000825	?	place	coffee filter	holder	coffee
+000826	?	place	coffee filter	mug	coffee
+000827	?	place	coffee filter	coffee pot	coffee
+000828	?	place	coffee filter	brew	coffee
+000829	?	place	coffee filter	auto brew	coffee
+000830	?	place	coffee filter	water	coffee
+000831	?	place	coffee filter	hot water	coffee
+000832	?	place	coffee filter	coffee maker	coffee
+000833	?	place	coffee filter	maker	coffee
+000834	?	place	coffee filter	coffee beans	coffee
+000835	?	place	coffee filter	coffee grounds	coffee
+000836	?	place	coffee filter	grounds	coffee
+000837	?	place	coffee filter	filter	coffee
+000838	?	place	coffee filter	coffeemaker	coffee
+000839	?	place	coffee filter	machine	coffee
+000840	?	place	coffee filter	coffee machine	coffee
+000841	?	place	coffee filter	resevoir	coffee
+000842	?	put	filter	holder	coffee
+000843	?	put	filter	mug	coffee
+000844	?	put	filter	coffee pot	coffee
+000845	?	put	filter	brew	coffee
+000846	?	put	filter	auto brew	coffee
+000847	?	put	filter	water	coffee
+000848	?	put	filter	hot water	coffee
+000849	?	put	filter	coffee maker	coffee
+000850	?	put	filter	maker	coffee
+000851	?	put	filter	coffee beans	coffee
+000852	?	put	filter	coffee grounds	coffee
+000853	?	put	filter	grounds	coffee
+000854	?	put	filter	coffee filter	coffee
+000855	?	put	filter	coffeemaker	coffee
+000856	?	put	filter	machine	coffee
+000857	?	put	filter	coffee machine	coffee
+000858	?	put	filter	resevoir	coffee
+000859	?	grinded	coffee	holder	coffee
+000860	?	grinded	coffee	mug	coffee
+000861	?	grinded	coffee	coffee pot	coffee
+000862	?	grinded	coffee	brew	coffee
+000863	?	grinded	coffee	auto brew	coffee
+000864	?	grinded	coffee	water	coffee
+000865	?	grinded	coffee	hot water	coffee
+000866	?	grinded	coffee	coffee maker	coffee
+000867	?	grinded	coffee	maker	coffee
+000868	?	grinded	coffee	coffee beans	coffee
+000869	?	grinded	coffee	coffee grounds	coffee
+000870	?	grinded	coffee	grounds	coffee
+000871	?	grinded	coffee	filter	coffee
+000872	?	grinded	coffee	coffee filter	coffee
+000873	?	grinded	coffee	coffeemaker	coffee
+000874	?	grinded	coffee	machine	coffee
+000875	?	grinded	coffee	coffee machine	coffee
+000876	?	grinded	coffee	resevoir	coffee
+000877	?	find	electric coffee pot	holder	coffee
+000878	?	find	electric coffee pot	mug	coffee
+000879	?	find	electric coffee pot	coffee pot	coffee
+000880	?	find	electric coffee pot	brew	coffee
+000881	?	find	electric coffee pot	auto brew	coffee
+000882	?	find	electric coffee pot	water	coffee
+000883	?	find	electric coffee pot	hot water	coffee
+000884	?	find	electric coffee pot	coffee maker	coffee
+000885	?	find	electric coffee pot	maker	coffee
+000886	?	find	electric coffee pot	coffee beans	coffee
+000887	?	find	electric coffee pot	coffee grounds	coffee
+000888	?	find	electric coffee pot	grounds	coffee
+000889	?	find	electric coffee pot	filter	coffee
+000890	?	find	electric coffee pot	coffee filter	coffee
+000891	?	find	electric coffee pot	coffeemaker	coffee
+000892	?	find	electric coffee pot	machine	coffee
+000893	?	find	electric coffee pot	coffee machine	coffee
+000894	?	find	electric coffee pot	resevoir	coffee
+000895	?	close	filter basket	holder	coffee
+000896	?	close	filter basket	mug	coffee
+000897	?	close	filter basket	coffee pot	coffee
+000898	?	close	filter basket	brew	coffee
+000899	?	close	filter basket	auto brew	coffee
+000900	?	close	filter basket	water	coffee
+000901	?	close	filter basket	hot water	coffee
+000902	?	close	filter basket	coffee maker	coffee
+000903	?	close	filter basket	maker	coffee
+000904	?	close	filter basket	coffee beans	coffee
+000905	?	close	filter basket	coffee grounds	coffee
+000906	?	close	filter basket	grounds	coffee
+000907	?	close	filter basket	filter	coffee
+000908	?	close	filter basket	coffee filter	coffee
+000909	?	close	filter basket	coffeemaker	coffee
+000910	?	close	filter basket	machine	coffee
+000911	?	close	filter basket	coffee machine	coffee
+000912	?	close	filter basket	resevoir	coffee
+000913	?	load	ground coffee powder	holder	coffee
+000914	?	load	ground coffee powder	mug	coffee
+000915	?	load	ground coffee powder	coffee pot	coffee
+000916	?	load	ground coffee powder	brew	coffee
+000917	?	load	ground coffee powder	auto brew	coffee
+000918	?	load	ground coffee powder	water	coffee
+000919	?	load	ground coffee powder	hot water	coffee
+000920	?	load	ground coffee powder	coffee maker	coffee
+000921	?	load	ground coffee powder	maker	coffee
+000922	?	load	ground coffee powder	coffee beans	coffee
+000923	?	load	ground coffee powder	coffee grounds	coffee
+000924	?	load	ground coffee powder	grounds	coffee
+000925	?	load	ground coffee powder	filter	coffee
+000926	?	load	ground coffee powder	coffee filter	coffee
+000927	?	load	ground coffee powder	coffeemaker	coffee
+000928	?	load	ground coffee powder	machine	coffee
+000929	?	load	ground coffee powder	coffee machine	coffee
+000930	?	load	ground coffee powder	resevoir	coffee
+000931	?	put	grounds	holder	coffee
+000932	?	put	grounds	mug	coffee
+000933	?	put	grounds	coffee pot	coffee
+000934	?	put	grounds	brew	coffee
+000935	?	put	grounds	auto brew	coffee
+000936	?	put	grounds	water	coffee
+000937	?	put	grounds	hot water	coffee
+000938	?	put	grounds	coffee maker	coffee
+000939	?	put	grounds	maker	coffee
+000940	?	put	grounds	coffee beans	coffee
+000941	?	put	grounds	coffee grounds	coffee
+000942	?	put	grounds	filter	coffee
+000943	?	put	grounds	coffee filter	coffee
+000944	?	put	grounds	coffeemaker	coffee
+000945	?	put	grounds	machine	coffee
+000946	?	put	grounds	coffee machine	coffee
+000947	?	put	grounds	resevoir	coffee
+000948	?	fill	coffee maker reservoir	holder	coffee
+000949	?	fill	coffee maker reservoir	mug	coffee
+000950	?	fill	coffee maker reservoir	coffee pot	coffee
+000951	?	fill	coffee maker reservoir	brew	coffee
+000952	?	fill	coffee maker reservoir	auto brew	coffee
+000953	?	fill	coffee maker reservoir	water	coffee
+000954	?	fill	coffee maker reservoir	hot water	coffee
+000955	?	fill	coffee maker reservoir	coffee maker	coffee
+000956	?	fill	coffee maker reservoir	maker	coffee
+000957	?	fill	coffee maker reservoir	coffee beans	coffee
+000958	?	fill	coffee maker reservoir	coffee grounds	coffee
+000959	?	fill	coffee maker reservoir	grounds	coffee
+000960	?	fill	coffee maker reservoir	filter	coffee
+000961	?	fill	coffee maker reservoir	coffee filter	coffee
+000962	?	fill	coffee maker reservoir	coffeemaker	coffee
+000963	?	fill	coffee maker reservoir	machine	coffee
+000964	?	fill	coffee maker reservoir	coffee machine	coffee
+000965	?	fill	coffee maker reservoir	resevoir	coffee
+000966	?	put	coffee	holder	coffee
+000967	?	put	coffee	mug	coffee
+000968	?	put	coffee	coffee pot	coffee
+000969	?	put	coffee	brew	coffee
+000970	?	put	coffee	auto brew	coffee
+000971	?	put	coffee	water	coffee
+000972	?	put	coffee	hot water	coffee
+000973	?	put	coffee	coffee maker	coffee
+000974	?	put	coffee	maker	coffee
+000975	?	put	coffee	coffee beans	coffee
+000976	?	put	coffee	coffee grounds	coffee
+000977	?	put	coffee	grounds	coffee
+000978	?	put	coffee	filter	coffee
+000979	?	put	coffee	coffee filter	coffee
+000980	?	put	coffee	coffeemaker	coffee
+000981	?	put	coffee	machine	coffee
+000982	?	put	coffee	coffee machine	coffee
+000983	?	put	coffee	resevoir	coffee
+000984	?	turn	coffee pot	holder	coffee
+000985	?	turn	coffee pot	mug	coffee
+000986	?	turn	coffee pot	brew	coffee
+000987	?	turn	coffee pot	auto brew	coffee
+000988	?	turn	coffee pot	water	coffee
+000989	?	turn	coffee pot	hot water	coffee
+000990	?	turn	coffee pot	coffee maker	coffee
+000991	?	turn	coffee pot	maker	coffee
+000992	?	turn	coffee pot	coffee beans	coffee
+000993	?	turn	coffee pot	coffee grounds	coffee
+000994	?	turn	coffee pot	grounds	coffee
+000995	?	turn	coffee pot	filter	coffee
+000996	?	turn	coffee pot	coffee filter	coffee
+000997	?	turn	coffee pot	coffeemaker	coffee
+000998	?	turn	coffee pot	machine	coffee
+000999	?	turn	coffee pot	coffee machine	coffee
+001000	?	turn	coffee pot	resevoir	coffee
+001001	?	put	ground coffee	holder	coffee
+001002	?	put	ground coffee	mug	coffee
+001003	?	put	ground coffee	coffee pot	coffee
+001004	?	put	ground coffee	brew	coffee
+001005	?	put	ground coffee	auto brew	coffee
+001006	?	put	ground coffee	water	coffee
+001007	?	put	ground coffee	hot water	coffee
+001008	?	put	ground coffee	coffee maker	coffee
+001009	?	put	ground coffee	maker	coffee
+001010	?	put	ground coffee	coffee beans	coffee
+001011	?	put	ground coffee	coffee grounds	coffee
+001012	?	put	ground coffee	grounds	coffee
+001013	?	put	ground coffee	filter	coffee
+001014	?	put	ground coffee	coffee filter	coffee
+001015	?	put	ground coffee	coffeemaker	coffee
+001016	?	put	ground coffee	machine	coffee
+001017	?	put	ground coffee	coffee machine	coffee
+001018	?	put	ground coffee	resevoir	coffee
+001019	?	make	coffee	holder	coffee
+001020	?	make	coffee	mug	coffee
+001021	?	make	coffee	coffee pot	coffee
+001022	?	make	coffee	brew	coffee
+001023	?	make	coffee	auto brew	coffee
+001024	?	make	coffee	water	coffee
+001025	?	make	coffee	hot water	coffee
+001026	?	make	coffee	coffee maker	coffee
+001027	?	make	coffee	maker	coffee
+001028	?	make	coffee	coffee beans	coffee
+001029	?	make	coffee	coffee grounds	coffee
+001030	?	make	coffee	grounds	coffee
+001031	?	make	coffee	filter	coffee
+001032	?	make	coffee	coffee filter	coffee
+001033	?	make	coffee	coffeemaker	coffee
+001034	?	make	coffee	machine	coffee
+001035	?	make	coffee	coffee machine	coffee
+001036	?	make	coffee	resevoir	coffee
+001037	?	place	pot	holder	coffee
+001038	?	place	pot	mug	coffee
+001039	?	place	pot	coffee pot	coffee
+001040	?	place	pot	brew	coffee
+001041	?	place	pot	auto brew	coffee
+001042	?	place	pot	water	coffee
+001043	?	place	pot	hot water	coffee
+001044	?	place	pot	coffee maker	coffee
+001045	?	place	pot	maker	coffee
+001046	?	place	pot	coffee beans	coffee
+001047	?	place	pot	coffee grounds	coffee
+001048	?	place	pot	grounds	coffee
+001049	?	place	pot	filter	coffee
+001050	?	place	pot	coffee filter	coffee
+001051	?	place	pot	coffeemaker	coffee
+001052	?	place	pot	machine	coffee
+001053	?	place	pot	coffee machine	coffee
+001054	?	place	pot	resevoir	coffee
+001055	?	pour	coffee beans	holder	coffee
+001056	?	pour	coffee beans	mug	coffee
+001057	?	pour	coffee beans	coffee pot	coffee
+001058	?	pour	coffee beans	brew	coffee
+001059	?	pour	coffee beans	auto brew	coffee
+001060	?	pour	coffee beans	water	coffee
+001061	?	pour	coffee beans	hot water	coffee
+001062	?	pour	coffee beans	coffee maker	coffee
+001063	?	pour	coffee beans	maker	coffee
+001064	?	pour	coffee beans	coffee grounds	coffee
+001065	?	pour	coffee beans	grounds	coffee
+001066	?	pour	coffee beans	filter	coffee
+001067	?	pour	coffee beans	coffee filter	coffee
+001068	?	pour	coffee beans	coffeemaker	coffee
+001069	?	pour	coffee beans	machine	coffee
+001070	?	pour	coffee beans	coffee machine	coffee
+001071	?	pour	coffee beans	resevoir	coffee
+001072	?	put	water	holder	coffee
+001073	?	put	water	mug	coffee
+001074	?	put	water	coffee pot	coffee
+001075	?	put	water	brew	coffee
+001076	?	put	water	auto brew	coffee
+001077	?	put	water	hot water	coffee
+001078	?	put	water	coffee maker	coffee
+001079	?	put	water	maker	coffee
+001080	?	put	water	coffee beans	coffee
+001081	?	put	water	coffee grounds	coffee
+001082	?	put	water	grounds	coffee
+001083	?	put	water	filter	coffee
+001084	?	put	water	coffee filter	coffee
+001085	?	put	water	coffeemaker	coffee
+001086	?	put	water	machine	coffee
+001087	?	put	water	coffee machine	coffee
+001088	?	put	water	resevoir	coffee
+001089	?	put	coffee grounds	holder	coffee
+001090	?	put	coffee grounds	mug	coffee
+001091	?	put	coffee grounds	coffee pot	coffee
+001092	?	put	coffee grounds	brew	coffee
+001093	?	put	coffee grounds	auto brew	coffee
+001094	?	put	coffee grounds	water	coffee
+001095	?	put	coffee grounds	hot water	coffee
+001096	?	put	coffee grounds	coffee maker	coffee
+001097	?	put	coffee grounds	maker	coffee
+001098	?	put	coffee grounds	coffee beans	coffee
+001099	?	put	coffee grounds	grounds	coffee
+001100	?	put	coffee grounds	filter	coffee
+001101	?	put	coffee grounds	coffee filter	coffee
+001102	?	put	coffee grounds	coffeemaker	coffee
+001103	?	put	coffee grounds	machine	coffee
+001104	?	put	coffee grounds	coffee machine	coffee
+001105	?	put	coffee grounds	resevoir	coffee
+001106	?	get	mug	holder	coffee
+001107	?	get	mug	coffee pot	coffee
+001108	?	get	mug	brew	coffee
+001109	?	get	mug	auto brew	coffee
+001110	?	get	mug	water	coffee
+001111	?	get	mug	hot water	coffee
+001112	?	get	mug	coffee maker	coffee
+001113	?	get	mug	maker	coffee
+001114	?	get	mug	coffee beans	coffee
+001115	?	get	mug	coffee grounds	coffee
+001116	?	get	mug	grounds	coffee
+001117	?	get	mug	filter	coffee
+001118	?	get	mug	coffee filter	coffee
+001119	?	get	mug	coffeemaker	coffee
+001120	?	get	mug	machine	coffee
+001121	?	get	mug	coffee machine	coffee
+001122	?	get	mug	resevoir	coffee
+001123	?	put	pot	holder	coffee
+001124	?	put	pot	mug	coffee
+001125	?	put	pot	coffee pot	coffee
+001126	?	put	pot	brew	coffee
+001127	?	put	pot	auto brew	coffee
+001128	?	put	pot	water	coffee
+001129	?	put	pot	hot water	coffee
+001130	?	put	pot	coffee maker	coffee
+001131	?	put	pot	maker	coffee
+001132	?	put	pot	coffee beans	coffee
+001133	?	put	pot	coffee grounds	coffee
+001134	?	put	pot	grounds	coffee
+001135	?	put	pot	filter	coffee
+001136	?	put	pot	coffee filter	coffee
+001137	?	put	pot	coffeemaker	coffee
+001138	?	put	pot	machine	coffee
+001139	?	put	pot	coffee machine	coffee
+001140	?	put	pot	resevoir	coffee
+001141	?	turn	pot	holder	coffee
+001142	?	turn	pot	mug	coffee
+001143	?	turn	pot	coffee pot	coffee
+001144	?	turn	pot	brew	coffee
+001145	?	turn	pot	auto brew	coffee
+001146	?	turn	pot	water	coffee
+001147	?	turn	pot	hot water	coffee
+001148	?	turn	pot	coffee maker	coffee
+001149	?	turn	pot	maker	coffee
+001150	?	turn	pot	coffee beans	coffee
+001151	?	turn	pot	coffee grounds	coffee
+001152	?	turn	pot	grounds	coffee
+001153	?	turn	pot	filter	coffee
+001154	?	turn	pot	coffee filter	coffee
+001155	?	turn	pot	coffeemaker	coffee
+001156	?	turn	pot	machine	coffee
+001157	?	turn	pot	coffee machine	coffee
+001158	?	turn	pot	resevoir	coffee
+001159	?	identify	coffee pot	holder	coffee
+001160	?	identify	coffee pot	mug	coffee
+001161	?	identify	coffee pot	brew	coffee
+001162	?	identify	coffee pot	auto brew	coffee
+001163	?	identify	coffee pot	water	coffee
+001164	?	identify	coffee pot	hot water	coffee
+001165	?	identify	coffee pot	coffee maker	coffee
+001166	?	identify	coffee pot	maker	coffee
+001167	?	identify	coffee pot	coffee beans	coffee
+001168	?	identify	coffee pot	coffee grounds	coffee
+001169	?	identify	coffee pot	grounds	coffee
+001170	?	identify	coffee pot	filter	coffee
+001171	?	identify	coffee pot	coffee filter	coffee
+001172	?	identify	coffee pot	coffeemaker	coffee
+001173	?	identify	coffee pot	machine	coffee
+001174	?	identify	coffee pot	coffee machine	coffee
+001175	?	identify	coffee pot	resevoir	coffee
+001176	?	turn	coffemaker	holder	coffee
+001177	?	turn	coffemaker	mug	coffee
+001178	?	turn	coffemaker	coffee pot	coffee
+001179	?	turn	coffemaker	brew	coffee
+001180	?	turn	coffemaker	auto brew	coffee
+001181	?	turn	coffemaker	water	coffee
+001182	?	turn	coffemaker	hot water	coffee
+001183	?	turn	coffemaker	coffee maker	coffee
+001184	?	turn	coffemaker	maker	coffee
+001185	?	turn	coffemaker	coffee beans	coffee
+001186	?	turn	coffemaker	coffee grounds	coffee
+001187	?	turn	coffemaker	grounds	coffee
+001188	?	turn	coffemaker	filter	coffee
+001189	?	turn	coffemaker	coffee filter	coffee
+001190	?	turn	coffemaker	coffeemaker	coffee
+001191	?	turn	coffemaker	machine	coffee
+001192	?	turn	coffemaker	coffee machine	coffee
+001193	?	turn	coffemaker	resevoir	coffee
+001194	?	brew	coffee	holder	coffee
+001195	?	brew	coffee	mug	coffee
+001196	?	brew	coffee	coffee pot	coffee
+001197	?	brew	coffee	brew	coffee
+001198	?	brew	coffee	auto brew	coffee
+001199	?	brew	coffee	water	coffee
+001200	?	brew	coffee	hot water	coffee
+001201	?	brew	coffee	coffee maker	coffee
+001202	?	brew	coffee	maker	coffee
+001203	?	brew	coffee	coffee beans	coffee
+001204	?	brew	coffee	coffee grounds	coffee
+001205	?	brew	coffee	grounds	coffee
+001206	?	brew	coffee	filter	coffee
+001207	?	brew	coffee	coffee filter	coffee
+001208	?	brew	coffee	coffeemaker	coffee
+001209	?	brew	coffee	machine	coffee
+001210	?	brew	coffee	coffee machine	coffee
+001211	?	brew	coffee	resevoir	coffee
+001212	?	set	pot	holder	coffee
+001213	?	set	pot	mug	coffee
+001214	?	set	pot	coffee pot	coffee
+001215	?	set	pot	brew	coffee
+001216	?	set	pot	auto brew	coffee
+001217	?	set	pot	water	coffee
+001218	?	set	pot	hot water	coffee
+001219	?	set	pot	coffee maker	coffee
+001220	?	set	pot	maker	coffee
+001221	?	set	pot	coffee beans	coffee
+001222	?	set	pot	coffee grounds	coffee
+001223	?	set	pot	grounds	coffee
+001224	?	set	pot	filter	coffee
+001225	?	set	pot	coffee filter	coffee
+001226	?	set	pot	coffeemaker	coffee
+001227	?	set	pot	machine	coffee
+001228	?	set	pot	coffee machine	coffee
+001229	?	set	pot	resevoir	coffee
+001230	?	run	hot water	holder	coffee
+001231	?	run	hot water	mug	coffee
+001232	?	run	hot water	coffee pot	coffee
+001233	?	run	hot water	brew	coffee
+001234	?	run	hot water	auto brew	coffee
+001235	?	run	hot water	water	coffee
+001236	?	run	hot water	coffee maker	coffee
+001237	?	run	hot water	maker	coffee
+001238	?	run	hot water	coffee beans	coffee
+001239	?	run	hot water	coffee grounds	coffee
+001240	?	run	hot water	grounds	coffee
+001241	?	run	hot water	filter	coffee
+001242	?	run	hot water	coffee filter	coffee
+001243	?	run	hot water	coffeemaker	coffee
+001244	?	run	hot water	machine	coffee
+001245	?	run	hot water	coffee machine	coffee
+001246	?	run	hot water	resevoir	coffee
+001247	?	find	coffee	holder	coffee
+001248	?	find	coffee	mug	coffee
+001249	?	find	coffee	coffee pot	coffee
+001250	?	find	coffee	brew	coffee
+001251	?	find	coffee	auto brew	coffee
+001252	?	find	coffee	water	coffee
+001253	?	find	coffee	hot water	coffee
+001254	?	find	coffee	coffee maker	coffee
+001255	?	find	coffee	maker	coffee
+001256	?	find	coffee	coffee beans	coffee
+001257	?	find	coffee	coffee grounds	coffee
+001258	?	find	coffee	grounds	coffee
+001259	?	find	coffee	filter	coffee
+001260	?	find	coffee	coffee filter	coffee
+001261	?	find	coffee	coffeemaker	coffee
+001262	?	find	coffee	machine	coffee
+001263	?	find	coffee	coffee machine	coffee
+001264	?	find	coffee	resevoir	coffee
+001265	?	put	kettle	holder	coffee
+001266	?	put	kettle	mug	coffee
+001267	?	put	kettle	coffee pot	coffee
+001268	?	put	kettle	brew	coffee
+001269	?	put	kettle	auto brew	coffee
+001270	?	put	kettle	water	coffee
+001271	?	put	kettle	hot water	coffee
+001272	?	put	kettle	coffee maker	coffee
+001273	?	put	kettle	maker	coffee
+001274	?	put	kettle	coffee beans	coffee
+001275	?	put	kettle	coffee grounds	coffee
+001276	?	put	kettle	grounds	coffee
+001277	?	put	kettle	filter	coffee
+001278	?	put	kettle	coffee filter	coffee
+001279	?	put	kettle	coffeemaker	coffee
+001280	?	put	kettle	machine	coffee
+001281	?	put	kettle	coffee machine	coffee
+001282	?	put	kettle	resevoir	coffee
+001283	?	pour	coffee	holder	coffee
+001284	?	pour	coffee	mug	coffee
+001285	?	pour	coffee	coffee pot	coffee
+001286	?	pour	coffee	brew	coffee
+001287	?	pour	coffee	auto brew	coffee
+001288	?	pour	coffee	water	coffee
+001289	?	pour	coffee	hot water	coffee
+001290	?	pour	coffee	coffee maker	coffee
+001291	?	pour	coffee	maker	coffee
+001292	?	pour	coffee	coffee beans	coffee
+001293	?	pour	coffee	coffee grounds	coffee
+001294	?	pour	coffee	grounds	coffee
+001295	?	pour	coffee	filter	coffee
+001296	?	pour	coffee	coffee filter	coffee
+001297	?	pour	coffee	coffeemaker	coffee
+001298	?	pour	coffee	machine	coffee
+001299	?	pour	coffee	coffee machine	coffee
+001300	?	pour	coffee	resevoir	coffee
+001301	?	put	hot water	holder	coffee
+001302	?	put	hot water	mug	coffee
+001303	?	put	hot water	coffee pot	coffee
+001304	?	put	hot water	brew	coffee
+001305	?	put	hot water	auto brew	coffee
+001306	?	put	hot water	water	coffee
+001307	?	put	hot water	coffee maker	coffee
+001308	?	put	hot water	maker	coffee
+001309	?	put	hot water	coffee beans	coffee
+001310	?	put	hot water	coffee grounds	coffee
+001311	?	put	hot water	grounds	coffee
+001312	?	put	hot water	filter	coffee
+001313	?	put	hot water	coffee filter	coffee
+001314	?	put	hot water	coffeemaker	coffee
+001315	?	put	hot water	machine	coffee
+001316	?	put	hot water	coffee machine	coffee
+001317	?	put	hot water	resevoir	coffee
+001318	?	watch	cup	holder	coffee
+001319	?	watch	cup	mug	coffee
+001320	?	watch	cup	coffee pot	coffee
+001321	?	watch	cup	brew	coffee
+001322	?	watch	cup	auto brew	coffee
+001323	?	watch	cup	water	coffee
+001324	?	watch	cup	hot water	coffee
+001325	?	watch	cup	coffee maker	coffee
+001326	?	watch	cup	maker	coffee
+001327	?	watch	cup	coffee beans	coffee
+001328	?	watch	cup	coffee grounds	coffee
+001329	?	watch	cup	grounds	coffee
+001330	?	watch	cup	filter	coffee
+001331	?	watch	cup	coffee filter	coffee
+001332	?	watch	cup	coffeemaker	coffee
+001333	?	watch	cup	machine	coffee
+001334	?	watch	cup	coffee machine	coffee
+001335	?	watch	cup	resevoir	coffee
+001336	?	find	filter	holder	coffee
+001337	?	find	filter	mug	coffee
+001338	?	find	filter	coffee pot	coffee
+001339	?	find	filter	brew	coffee
+001340	?	find	filter	auto brew	coffee
+001341	?	find	filter	water	coffee
+001342	?	find	filter	hot water	coffee
+001343	?	find	filter	coffee maker	coffee
+001344	?	find	filter	maker	coffee
+001345	?	find	filter	coffee beans	coffee
+001346	?	find	filter	coffee grounds	coffee
+001347	?	find	filter	grounds	coffee
+001348	?	find	filter	coffee filter	coffee
+001349	?	find	filter	coffeemaker	coffee
+001350	?	find	filter	machine	coffee
+001351	?	find	filter	coffee machine	coffee
+001352	?	find	filter	resevoir	coffee
+001353	?	place	filter	holder	coffee
+001354	?	place	filter	mug	coffee
+001355	?	place	filter	coffee pot	coffee
+001356	?	place	filter	brew	coffee
+001357	?	place	filter	auto brew	coffee
+001358	?	place	filter	water	coffee
+001359	?	place	filter	hot water	coffee
+001360	?	place	filter	coffee maker	coffee
+001361	?	place	filter	maker	coffee
+001362	?	place	filter	coffee beans	coffee
+001363	?	place	filter	coffee grounds	coffee
+001364	?	place	filter	grounds	coffee
+001365	?	place	filter	coffee filter	coffee
+001366	?	place	filter	coffeemaker	coffee
+001367	?	place	filter	machine	coffee
+001368	?	place	filter	coffee machine	coffee
+001369	?	place	filter	resevoir	coffee

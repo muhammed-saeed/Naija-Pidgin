@@ -1,0 +1,450 @@
+det(alarm-3, an-2)
+dobj(locate-1, alarm-3)
+
+det(time-3, the-2)
+dobj(determine-1, time-3)
+aux(wake-5, to-4)
+infmod(time-3, wake-5)
+prt(wake-5, up-6)
+prep(wake-5, at-7)
+
+det(alarm-3, the-2)
+dobj(adjust-1, alarm-3)
+aux(sound-5, to-4)
+infmod(alarm-3, sound-5)
+det(noise-7, a-6)
+dobj(sound-5, noise-7)
+det(wake-11, the-9)
+amod(wake-11, desired-10)
+prep_at(sound-5, wake-11)
+prep_up(wake-11, time-13)
+
+det(alarm-3, the-2)
+dobj(locate-1, alarm-3)
+
+det(time-3, the-2)
+dobj(determine-1, time-3)
+partmod(time-3, needed-4)
+prep_to(needed-4, wake-6)
+
+det(panel-4, the-2)
+nn(panel-4, control-3)
+dobj(locate-1, panel-4)
+det(alarm-7, the-6)
+prep_on(locate-1, alarm-7)
+
+det(panel-4, the-2)
+nn(panel-4, control-3)
+dobj(utilize-1, panel-4)
+aux(change-6, to-5)
+xcomp(utilize-1, change-6)
+det(wake-8, the-7)
+dobj(change-6, wake-8)
+prep_up(wake-8, time-10)
+det(alarm-13, the-12)
+prep_on(change-6, alarm-13)
+
+det(alarm-3, the-2)
+dobj(locate-1, alarm-3)
+
+det(time-4, the-2)
+amod(time-4, appropriate-3)
+dobj(determine-1, time-4)
+prep_to(determine-1, wake-6)
+
+det(panel-4, the-2)
+nn(panel-4, control-3)
+dobj(operate-1, panel-4)
+det(alarm-7, the-6)
+prep_on(operate-1, alarm-7)
+aux(sound-9, to-8)
+infmod(alarm-7, sound-9)
+det(time-13, the-11)
+amod(time-13, designated-12)
+prep_at(sound-9, time-13)
+
+dobj(set-1, minutes-2)
+
+dobj(set-1, hours-2)
+
+dobj(turn-1, alarm-2)
+prt(turn-1, on-3)
+
+dobj(wake-6, what-3)
+nsubj(wake-6, time-4)
+infmod(time-4, to-5)
+prepc_on(decide-1, wake-6)
+prt(wake-6, up-7)
+
+det(time-3, the-2)
+dobj(set-1, time-3)
+det(alarm-6, the-5)
+prep_for(time-3, alarm-6)
+aux(time-10, to-7)
+cop(time-10, be-8)
+det(time-10, that-9)
+xcomp(set-1, time-10)
+
+aux(see-3, to-2)
+xcomp(check-1, see-3)
+mark(set-8, if-4)
+det(alarm-6, the-5)
+nsubjpass(set-8, alarm-6)
+auxpass(set-8, is-7)
+advcl(see-3, set-8)
+prep(set-8, to-9)
+pobj(to-9, on-11)
+
+aux(see-3, to-2)
+xcomp(check-1, see-3)
+complm(right-15, that-4)
+det('-8, the-5)
+dep('-8, am-7)
+amod(factors-13, pm-11)
+conj_and('-8, factors-13)
+cop(right-15, are-14)
+ccomp(see-3, right-15)
+
+dobj(set-1, time-2)
+
+dobj(set-1, alarm-2)
+prep(set-1, to-3)
+prep(set-1, on-4)
+
+dobj(press-1, button-2)
+aux(set-4, to-3)
+xcomp(press-1, set-4)
+dobj(set-4, wake-5)
+prt(set-4, up-6)
+tmod(set-4, time-7)
+
+dobj(set-1, alarm-2)
+prep(set-1, to-3)
+prep(set-1, on-4)
+
+dobj(find-1, alarm-2)
+
+dep(use-1, keypad-2)
+aux(set-4, to-3)
+xcomp(keypad-2, set-4)
+nn(time-6, alarm-5)
+dobj(set-4, time-6)
+
+dobj(enable-1, alarm-2)
+
+nn(button-5, wake-3)
+dobj(hold-1, button-5)
+
+amod(click-5, at-1)
+det(time-4, the-2)
+amod(time-4, same-3)
+pobj(at-1, time-4)
+poss(button-9, hour-7)
+dep(click-5, button-9)
+det(hour-12, the-11)
+prep_to(click-5, hour-12)
+
+advmod(holding-2, still-1)
+ccomp(holding-2, wake-4)
+poss(click-8, button-6)
+dobj(wake-4, click-8)
+iobj(wake-4, click-8)
+poss(button-12, minute-10)
+dep(click-8, button-12)
+det(minutes-16, the-14)
+amod(minutes-16, right-15)
+prep_to(click-8, minutes-16)
+
+det(clock-4, the-2)
+nn(clock-4, alarm-3)
+dobj(find-1, clock-4)
+
+det(button-5, the-2)
+amod(button-5, set-3)
+nn(button-5, alarm-4)
+dobj(press-1, button-5)
+
+det(hour-3, the-2)
+dobj(select-1, hour-3)
+det(alarm-6, the-5)
+prep_of(hour-3, alarm-6)
+
+det(minute-3, the-2)
+dobj(select-1, minute-3)
+det(alarm-6, the-5)
+prep_of(minute-3, alarm-6)
+
+nsubj(pm-4, select-1)
+cop(pm-4, am-2)
+cc(pm-4, or-3)
+
+aux(enter-3, hit-1)
+nsubj(enter-3, the-2)
+dobj(enter-3, button-4)
+
+det(type-3, the-2)
+dep(click-1, type-3)
+prep_of(type-3, alarm-5)
+dep(click-1, music-7)
+dep(click-1, buzz-9)
+conj_or(music-7, buzz-9)
+
+det(button-4, the-2)
+nn(button-4, alarm-3)
+dobj(select-1, button-4)
+det(menu-7, the-6)
+prep_from(select-1, menu-7)
+
+det(hour-3, the-2)
+dobj(set-1, hour-3)
+prep_to(set-1, wake-5)
+advmod(set-1, up-6)
+
+det(minute-3, the-2)
+dobj(set-1, minute-3)
+prep_to(set-1, wake-5)
+advmod(set-1, up-6)
+
+det(selection\/button-4, the-2)
+nn(selection\/button-4, ok-3)
+dobj(select-1, selection\/button-4)
+
+dobj(find-1, clock-2)
+prep_with(find-1, alarm-4)
+
+dobj(set-1, time-2)
+
+nsubj(wake-2, set-1)
+prt(wake-2, up-3)
+tmod(wake-2, time-4)
+
+dobj(set-1, clock-2)
+prep_for(set-1, alarm-4)
+
+det(format-4, the-2)
+nn(format-4, time-3)
+dobj(set-1, format-4)
+
+det(date-3, the-2)
+dobj(adjust-1, date-3)
+
+det(time-3, the-2)
+dobj(set-1, time-3)
+
+dobj(keep-1, alarm-2)
+
+dobj(set-1, time-2)
+
+conj_and(press-1, hold-3)
+nn(button-5, alarm-4)
+dobj(hold-3, button-5)
+
+nn(time-3, alarm-2)
+dobj(ajust-1, time-3)
+
+nn(switch-3, alarm-2)
+dobj(switch-1, switch-3)
+prep(switch-1, to-4)
+prep_on(switch-1, position-6)
+
+prepc_for(ask-1, wake-3)
+prt(wake-3, up-4)
+dobj(wake-3, time-5)
+
+nn(time-3, alarm-2)
+dobj(set-1, time-3)
+
+det(time-3, the-2)
+dobj(check-1, time-3)
+aux(ensure-5, to-4)
+infmod(time-3, ensure-5)
+nsubj(correct-8, it-6)
+cop(correct-8, s-7)
+ccomp(ensure-5, correct-8)
+
+nn(button-3, alarm-2)
+dobj(press-1, button-3)
+nn(time-6, alarm-5)
+prep_for(press-1, time-6)
+partmod(time-6, set-7)
+
+nsubj(hour\/minute-2, press-1)
+xsubj(set-4, press-1)
+aux(set-4, to-3)
+xcomp(hour\/minute-2, set-4)
+nn(time-6, alarm-5)
+dobj(set-4, time-6)
+
+nn(button-3, alarm-2)
+dobj(turn-1, button-3)
+prep(turn-1, to-4)
+advmod(turn-1, on-5)
+
+dep(choose-1, wake-2)
+prt(wake-2, up-3)
+dobj(wake-2, time-4)
+
+dobj(set-1, alarm-2)
+prep_to(set-1, time-4)
+
+aux(sleep-3, to-2)
+xcomp(go-1, sleep-3)
+
+det(time-4, the-3)
+prep_on(decide-1, time-4)
+
+dobj(push-1, button-2)
+prepc_for(push-1, setting-4)
+dobj(setting-4, alarm-5)
+
+dobj(set-1, hour-2)
+
+dobj(set-1, minutes-2)
+
+preconj(buzzer-3, either-2)
+dobj(set-1, buzzer-3)
+dobj(set-1, radio-5)
+conj_or(buzzer-3, radio-5)
+
+dobj(set-1, alarm-2)
+
+nsubj(display-2, revert-1)
+advmod(display-2, back-3)
+dep(back-3, to-4)
+amod(time-6, regular-5)
+pobj(to-4, time-6)
+
+det(time-3, a-2)
+dobj(pick-1, time-3)
+prep_to(time-3, wake-5)
+prt(pick-1, up-6)
+
+nsubj(time-2, input-1)
+prep_into(time-2, alarm-4)
+
+acomp(make-1, sure-2)
+dep(set-5, alarm-3)
+auxpass(set-5, is-4)
+dep(sure-2, set-5)
+
+nn(settings-3, am\/pm-2)
+dobj(verify-1, settings-3)
+
+aux(sleep-3, to-2)
+xcomp(go-1, sleep-3)
+
+
+dobj(set-1, alarm-2)
+
+prep_on(turn-1, alarm-3)
+
+dobj(set-1, time-2)
+
+det(time-3, what-2)
+dep(want-5, time-3)
+nsubj(want-5, you-4)
+dep(decide-1, want-5)
+prep_to(want-5, wake-7)
+advmod(want-5, up-8)
+
+nn(alarm-3, clock-2)
+dobj(set-1, alarm-3)
+prt(set-1, on-4)
+
+aux(setting-5, set-1)
+nsubj(setting-5, clock-2)
+prep_to(clock-2, alarm-4)
+dobj(setting-5, mode-6)
+
+dobj(set-1, hour-2)
+aux(get-4, to-3)
+xcomp(set-1, get-4)
+prt(get-4, up-5)
+prep(get-4, at-6)
+aux(match-8, to-7)
+xcomp(get-4, match-8)
+
+dobj(turn-1, knob-2)
+prep_to(turn-1, alarm-4)
+
+amod(time-3, desired-2)
+dobj(select-1, time-3)
+prep_for(time-3, alarm-5)
+
+nsubj(know-2, turn-1)
+advmod(know-2, back-3)
+dep(back-3, to-4)
+amod(position-6, previous-5)
+pobj(to-4, position-6)
+
+nsubj(turn-3, light-1)
+aux(turn-3, will-2)
+det(display-7, the-5)
+nn(display-7, clock-6)
+prep_on(turn-3, display-7)
+advmod(set-11, when-8)
+nsubjpass(set-11, alarm-9)
+auxpass(set-11, is-10)
+advcl(turn-3, set-11)
+
+nn(clock-3, alarm-2)
+dobj(locate-1, clock-3)
+
+dep(determine-1, intended-2)
+ccomp(intended-2, wake-3)
+prt(wake-3, up-4)
+dobj(wake-3, time-5)
+
+csubj(marked-3, locate-1)
+dobj(locate-1, button-2)
+dobj(marked-3, alarm-4)
+
+amod(buttons-5, hours-2)
+conj_and(hours-2, minutes-4)
+amod(buttons-5, minutes-4)
+dobj(locate-1, buttons-5)
+
+nn(button-3, alarm-2)
+dobj(press-1, button-3)
+dobj(press-1, hours-5)
+conj_and(button-3, hours-5)
+conj_and(button-3, minutes-7)
+conj_and(hours-5, minutes-7)
+dep(hours-5, button-8)
+advmod(press-1, accordingly-9)
+
+amod(time-3, desired-2)
+dobj(select-1, time-3)
+
+det(buttons-3, the-2)
+dobj(press-1, buttons-3)
+mark(set-9, until-4)
+det(time-7, the-5)
+amod(time-7, proper-6)
+nsubjpass(set-9, time-7)
+auxpass(set-9, is-8)
+advcl(press-1, set-9)
+
+det(volume-3, the-2)
+dobj(adjust-1, volume-3)
+
+det(button-5, the-3)
+nn(button-5, alarm-4)
+prep_on(turn-1, button-5)
+
+prt(turn-1, up-2)
+dobj(turn-1, volume-3)
+
+prep_on(switch-1, alarm-3)
+
+
+nn(clock-4, alarm-3)
+prep_to(go-1, clock-4)
+
+nsubj(wake-2, press-1)
+dep(wake-2, setting-3)
+
+det(time-4, the-2)
+amod(time-4, desired-3)
+dobj(set-1, time-4)
+

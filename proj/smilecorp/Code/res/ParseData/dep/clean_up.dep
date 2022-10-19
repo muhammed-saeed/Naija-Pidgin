@@ -1,0 +1,289 @@
+det(table-3, the-2)
+dobj(clean-1, table-3)
+
+det(dishes-3, the-2)
+dobj(wash-1, dishes-3)
+
+det(floor-3, the-2)
+dobj(clean-1, floor-3)
+
+dobj(find-1, objects-2)
+nsubj(are-4, objects-2)
+rcmod(objects-2, are-4)
+neg(are-4, not-5)
+advmod(belong-8, where-6)
+nsubj(belong-8, they-7)
+advcl(are-4, belong-8)
+
+prt(pick-1, up-2)
+det(object-4, each-3)
+dobj(pick-1, object-4)
+
+dobj(put-1, it-2)
+det(place-5, the-4)
+prep_in(put-1, place-5)
+advmod(belongs-8, where-6)
+rel(belongs-8, where-6)
+nsubj(belongs-8, it-7)
+rcmod(place-5, belongs-8)
+
+mark(put-6, until-2)
+det(objects-4, all-3)
+nsubjpass(put-6, objects-4)
+auxpass(put-6, are-5)
+advcl(continue-1, put-6)
+prt(put-6, away-7)
+
+dobj(locate-1, trash-2)
+
+dobj(take-1, object-2)
+nn(can-5, trash-4)
+prep_to(take-1, can-5)
+
+det(object-3, an-2)
+dobj(find-1, object-3)
+aux(put-6, to-4)
+auxpass(put-6, be-5)
+infmod(object-3, put-6)
+prt(put-6, away-7)
+
+det(object-3, the-2)
+dobj(put-1, object-3)
+poss(place-6, its-5)
+prep_into(put-1, place-6)
+
+mark(put-6, until-2)
+det(objects-4, all-3)
+nsubjpass(put-6, objects-4)
+auxpass(put-6, are-5)
+advcl(repeat-1, put-6)
+prt(put-6, away-7)
+
+dep(want-4, what-2)
+nsubj(want-4, you-3)
+xsubj(clean-6, you-3)
+ccomp(choose-1, want-4)
+aux(clean-6, to-5)
+xcomp(want-4, clean-6)
+prt(clean-6, up-7)
+
+det(materials-5, the-2)
+amod(materials-5, correct-3)
+nn(materials-5, cleaning-4)
+dobj(get-1, materials-5)
+
+dobj(use-1, them-2)
+aux(clean-4, to-3)
+xcomp(use-1, clean-4)
+det(object-6, the-5)
+dobj(clean-4, object-6)
+dobj(want-10, object-6)
+dobj(clean-4, area-8)
+conj_or(object-6, area-8)
+dobj(want-10, area-8)
+nsubj(want-10, you-9)
+xsubj(clean-12, you-9)
+rcmod(object-6, want-10)
+aux(clean-12, to-11)
+xcomp(want-10, clean-12)
+
+dobj(identify-1, mess-2)
+
+amod(method-3, best-2)
+dobj(identify-1, method-3)
+aux(clean-5, to-4)
+infmod(method-3, clean-5)
+dobj(clean-5, mess-6)
+
+dobj(employ-1, method-2)
+
+det(basket-3, a-2)
+dobj(take-1, basket-3)
+
+dobj(put-1, water-2)
+prep_in(put-1, basket-4)
+
+dobj(add-1, soap-2)
+
+dep(put-1, mop-2)
+prep_in(mop-2, basket-4)
+
+dep(move-1, mop-2)
+det(floor-5, the-4)
+prep_over(mop-2, floor-5)
+
+dobj(squash-1, water-2)
+prt(squash-1, out-3)
+advmod(squash-1, of-4)
+dep(squash-1, mop-5)
+
+iobj(re-do-1, he-2)
+dobj(re-do-1, floor-3)
+prep_with(re-do-1, dry-5)
+advmod(re-do-1, mop-6)
+
+prt(figure-1, out-2)
+advmod(look-7, how-3)
+det(room-5, the-4)
+nsubj(look-7, room-5)
+aux(look-7, should-6)
+ccomp(figure-1, look-7)
+advmod(clean-9, when-8)
+dep(look-7, clean-9)
+
+prt(pick-1, up-2)
+nn(objects-6, place-5)
+prep_out_of(pick-1, objects-6)
+
+amod(things-3, dirty-2)
+dobj(clean-1, things-3)
+
+det(items-3, all-2)
+dobj(put-1, items-3)
+det(counter-6, the-5)
+prep_on(items-3, counter-6)
+advmod(put-1, away-7)
+
+prt(pick-1, up-2)
+det(items-4, all-3)
+dobj(pick-1, items-4)
+det(floor-7, the-6)
+prep_on(pick-1, floor-7)
+
+conj_or(sweep-1, vacuum-3)
+dobj(sweep-1, floor-4)
+
+dobj(clean-1, bathroom-2)
+
+prt(pick-1, up-2)
+det(task-4, a-3)
+dobj(pick-1, task-4)
+prep_for(pick-1, clean-6)
+advmod(pick-1, up-7)
+
+predet(things-4, all-2)
+det(things-4, the-3)
+dobj(gather-1, things-4)
+nsubj(need-6, things-4)
+rcmod(things-4, need-6)
+aux(cleaned-9, to-7)
+auxpass(cleaned-9, be-8)
+xcomp(need-6, cleaned-9)
+prt(cleaned-9, up-10)
+
+dobj(put-1, items-2)
+poss(places-6, their-4)
+amod(places-6, respective-5)
+prep_in(put-1, places-6)
+
+prt(pick-1, up-2)
+dobj(pick-1, toys-3)
+
+dobj(put-1, toys-2)
+nn(box-5, toy-4)
+prep_in(put-1, box-5)
+
+prt(pick-1, up-2)
+dobj(pick-1, books-3)
+
+dobj(return-1, books-2)
+prep_to(return-1, shelves-4)
+
+amod(dishes-3, dirty-2)
+dobj(take-1, dishes-3)
+prep_to(take-1, kitchen-5)
+
+amod(clothes-3, dirty-2)
+dobj(put-1, clothes-3)
+prep_in(put-1, hamper-5)
+
+dobj(vacuum-1, floor-2)
+
+csubj(involves-3, clean-1)
+prt(clean-1, up-2)
+dep(involves-3, replacing-4)
+ccomp(replacing-4, moving-5)
+ccomp(replacing-4, arranging-7)
+conj_or(moving-5, arranging-7)
+dobj(arranging-7, room-8)
+advmod(arranging-7, back-9)
+dep(back-9, to-10)
+det(state-13, the-11)
+amod(state-13, original-12)
+pobj(to-10, state-13)
+
+det(place-3, the-2)
+dobj(find-1, place-3)
+
+det(water-3, the-2)
+dobj(pour-1, water-3)
+
+
+prt(pick-1, up-2)
+amod(objects-4, large-3)
+dobj(pick-1, objects-4)
+
+prt(sweep-1, up-2)
+dobj(sweep-1, debris-3)
+
+amod(objects-3, permanent-2)
+dobj(straighten-1, objects-3)
+
+dobj(collect-1, garbage-2)
+
+
+det(floor-3, the-2)
+dobj(mop-1, floor-3)
+
+dobj(wipe-1, surface-2)
+nn(towel-5, paper-4)
+prep_with(wipe-1, towel-5)
+aux(rid-7, to-6)
+xcomp(wipe-1, rid-7)
+prep_of(rid-7, crumbs-9)
+
+nsubj(surface-2, spray-1)
+prep_with(surface-2, cleaner-4)
+
+dobj(wipe-1, surface-2)
+nn(towel-5, paper-4)
+prep_with(wipe-1, towel-5)
+
+dobj(gather-1, items-2)
+nsubj(causing-5, items-2)
+aux(causing-5, are-4)
+rcmod(items-2, causing-5)
+dobj(causing-5, mess-6)
+
+dobj(find-1, mess-2)
+
+prt(clean-1, up-2)
+dobj(clean-1, mess-3)
+
+dobj(organize-1, mess-2)
+
+det(mess-3, the-2)
+dobj(see-1, mess-3)
+
+dobj(get-1, broom-2)
+dobj(get-1, dustpan-4)
+conj_and(broom-2, dustpan-4)
+
+prt(set-1, aside-2)
+
+prt(pick-1, up-2)
+det(objects-4, all-3)
+dobj(pick-1, objects-4)
+
+dobj(put-1, them-2)
+prt(put-1, away-3)
+
+dobj(take-1, broom-2)
+dobj(take-1, sweep-4)
+conj_and(broom-2, sweep-4)
+
+dobj(use-1, dustpan-2)
+aux(get-4, to-3)
+xcomp(use-1, get-4)
+dobj(get-4, dirt-5)
+

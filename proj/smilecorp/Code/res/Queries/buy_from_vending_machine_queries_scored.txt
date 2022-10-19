@@ -1,0 +1,1318 @@
+id	score	v	d-obj	p	p-title
+000001	0.004318932872762171	put	change	item	vending machine
+000002	0.0016240629360319185	put	change	desired item	vending machine
+000003	0.0016899669392332136	put	change	correct amount of change	vending machine
+000004	0.003379933878466427	put	change	correct amount of money	vending machine
+000005	0.0005413543120106395	put	change	desired selection	vending machine
+000006	0.00212550358981887	put	change	selection	vending machine
+000007	0.0022720237736340463	put	change	coins	vending machine
+000008	0.0005413543120106395	put	change	right money	vending machine
+000009	0.005383726207140404	put	change	money	vending machine
+000010	0.007569649660027026	put	change	product	vending machine
+000011	0.0008456803651358805	put	change	goods	vending machine
+000012	0.0011839635530406037	put	change	button	vending machine
+000013	0.0005413543120106395	put	change	appropriate buttons	vending machine
+000014	0.0002028607692682215	put	change	any	vending machine
+000015	0.0003566681541885391	put	change	you	vending machine
+000016	0.0016240629360319185	put	change	product code	vending machine
+000017	0.001816715918406486	put	change	code	vending machine
+000018	0.004359604314824658	put	change	machine	vending machine
+000019	0.004973325283091476	place	correct amount	item	vending machine
+000020	0.0018701363274335123	place	correct amount	desired item	vending machine
+000021	0.0019460259175322634	place	correct amount	correct amount of change	vending machine
+000022	0.0038920518350645267	place	correct amount	correct amount of money	vending machine
+000023	0.0006233787758111708	place	correct amount	desired selection	vending machine
+000024	0.00244755384118469	place	correct amount	selection	vending machine
+000025	0.002616274346022079	place	correct amount	coins	vending machine
+000026	0.0026891387231845637	place	correct amount	change	vending machine
+000027	0.0006233787758111708	place	correct amount	right money	vending machine
+000028	0.006199453071399463	place	correct amount	money	vending machine
+000029	0.008716581421252912	place	correct amount	product	vending machine
+000030	0.0009738154459100127	place	correct amount	goods	vending machine
+000031	0.0013633543391541143	place	correct amount	button	vending machine
+000032	0.0006233787758111708	place	correct amount	appropriate buttons	vending machine
+000033	0.00023359765536337118	place	correct amount	any	vending machine
+000034	0.00041070949726638854	place	correct amount	you	vending machine
+000035	0.0018701363274335123	place	correct amount	product code	vending machine
+000036	0.002091979541100699	place	correct amount	code	vending machine
+000037	0.005020159146239665	place	correct amount	machine	vending machine
+000038	0.004973325283091476	insert	right money	item	vending machine
+000039	0.0018701363274335123	insert	right money	desired item	vending machine
+000040	0.0019460259175322634	insert	right money	correct amount of change	vending machine
+000041	0.0038920518350645267	insert	right money	correct amount of money	vending machine
+000042	0.0006233787758111708	insert	right money	desired selection	vending machine
+000043	0.00244755384118469	insert	right money	selection	vending machine
+000044	0.002616274346022079	insert	right money	coins	vending machine
+000045	0.0026891387231845637	insert	right money	change	vending machine
+000046	0.006199453071399463	insert	right money	money	vending machine
+000047	0.008716581421252912	insert	right money	product	vending machine
+000048	0.0009738154459100127	insert	right money	goods	vending machine
+000049	0.0013633543391541143	insert	right money	button	vending machine
+000050	0.0006233787758111708	insert	right money	appropriate buttons	vending machine
+000051	0.00023359765536337118	insert	right money	any	vending machine
+000052	0.00041070949726638854	insert	right money	you	vending machine
+000053	0.0018701363274335123	insert	right money	product code	vending machine
+000054	0.002091979541100699	insert	right money	code	vending machine
+000055	0.005020159146239665	insert	right money	machine	vending machine
+000056	0.004973325283091476	approach	machine	item	vending machine
+000057	0.0018701363274335123	approach	machine	desired item	vending machine
+000058	0.0019460259175322634	approach	machine	correct amount of change	vending machine
+000059	0.0038920518350645267	approach	machine	correct amount of money	vending machine
+000060	0.0006233787758111708	approach	machine	desired selection	vending machine
+000061	0.00244755384118469	approach	machine	selection	vending machine
+000062	0.002616274346022079	approach	machine	coins	vending machine
+000063	0.0026891387231845637	approach	machine	change	vending machine
+000064	0.0006233787758111708	approach	machine	right money	vending machine
+000065	0.006199453071399463	approach	machine	money	vending machine
+000066	0.008716581421252912	approach	machine	product	vending machine
+000067	0.0009738154459100127	approach	machine	goods	vending machine
+000068	0.0013633543391541143	approach	machine	button	vending machine
+000069	0.0006233787758111708	approach	machine	appropriate buttons	vending machine
+000070	0.00023359765536337118	approach	machine	any	vending machine
+000071	0.00041070949726638854	approach	machine	you	vending machine
+000072	0.0018701363274335123	approach	machine	product code	vending machine
+000073	0.002091979541100699	approach	machine	code	vending machine
+000074	0.004973325283091476	find	change	item	vending machine
+000075	0.0018701363274335123	find	change	desired item	vending machine
+000076	0.0019460259175322634	find	change	correct amount of change	vending machine
+000077	0.0038920518350645267	find	change	correct amount of money	vending machine
+000078	0.0006233787758111708	find	change	desired selection	vending machine
+000079	0.00244755384118469	find	change	selection	vending machine
+000080	0.002616274346022079	find	change	coins	vending machine
+000081	0.0006233787758111708	find	change	right money	vending machine
+000082	0.006199453071399463	find	change	money	vending machine
+000083	0.008716581421252912	find	change	product	vending machine
+000084	0.0009738154459100127	find	change	goods	vending machine
+000085	0.0013633543391541143	find	change	button	vending machine
+000086	0.0006233787758111708	find	change	appropriate buttons	vending machine
+000087	0.00023359765536337118	find	change	any	vending machine
+000088	0.00041070949726638854	find	change	you	vending machine
+000089	0.0018701363274335123	find	change	product code	vending machine
+000090	0.002091979541100699	find	change	code	vending machine
+000091	0.005020159146239665	find	change	machine	vending machine
+000092	0.034813276981640336	choose	product	item	vending machine
+000093	0.013090954292034588	choose	product	desired item	vending machine
+000094	0.013622181422725844	choose	product	correct amount of change	vending machine
+000095	0.02724436284545169	choose	product	correct amount of money	vending machine
+000096	0.004363651430678196	choose	product	desired selection	vending machine
+000097	0.017132876888292833	choose	product	selection	vending machine
+000098	0.018313920422154555	choose	product	coins	vending machine
+000099	0.018823971062291948	choose	product	change	vending machine
+000100	0.004363651430678196	choose	product	right money	vending machine
+000101	0.04339617149979625	choose	product	money	vending machine
+000102	0.00681670812137009	choose	product	goods	vending machine
+000103	0.009543480374078801	choose	product	button	vending machine
+000104	0.004363651430678196	choose	product	appropriate buttons	vending machine
+000105	0.0016351835875435985	choose	product	any	vending machine
+000106	0.00287496648086472	choose	product	you	vending machine
+000107	0.013090954292034588	choose	product	product code	vending machine
+000108	0.014643856787704893	choose	product	code	vending machine
+000109	0.035141114023677665	choose	product	machine	vending machine
+000110	0.004973325283091476	select	correct product code	item	vending machine
+000111	0.0018701363274335123	select	correct product code	desired item	vending machine
+000112	0.0019460259175322634	select	correct product code	correct amount of change	vending machine
+000113	0.0038920518350645267	select	correct product code	correct amount of money	vending machine
+000114	0.0006233787758111708	select	correct product code	desired selection	vending machine
+000115	0.00244755384118469	select	correct product code	selection	vending machine
+000116	0.002616274346022079	select	correct product code	coins	vending machine
+000117	0.0026891387231845637	select	correct product code	change	vending machine
+000118	0.0006233787758111708	select	correct product code	right money	vending machine
+000119	0.006199453071399463	select	correct product code	money	vending machine
+000120	0.008716581421252912	select	correct product code	product	vending machine
+000121	0.0009738154459100127	select	correct product code	goods	vending machine
+000122	0.0013633543391541143	select	correct product code	button	vending machine
+000123	0.0006233787758111708	select	correct product code	appropriate buttons	vending machine
+000124	0.00023359765536337118	select	correct product code	any	vending machine
+000125	0.00041070949726638854	select	correct product code	you	vending machine
+000126	0.0018701363274335123	select	correct product code	product code	vending machine
+000127	0.002091979541100699	select	correct product code	code	vending machine
+000128	0.005020159146239665	select	correct product code	machine	vending machine
+000129	0.014919975849274429	collect	change	item	vending machine
+000130	0.005610408982300538	collect	change	desired item	vending machine
+000131	0.00583807775259679	collect	change	correct amount of change	vending machine
+000132	0.01167615550519358	collect	change	correct amount of money	vending machine
+000133	0.0018701363274335123	collect	change	desired selection	vending machine
+000134	0.00734266152355407	collect	change	selection	vending machine
+000135	0.007848823038066237	collect	change	coins	vending machine
+000136	0.0018701363274335123	collect	change	right money	vending machine
+000137	0.018598359214198393	collect	change	money	vending machine
+000138	0.026149744263758736	collect	change	product	vending machine
+000139	0.0029214463377300382	collect	change	goods	vending machine
+000140	0.004090063017462343	collect	change	button	vending machine
+000141	0.0018701363274335123	collect	change	appropriate buttons	vending machine
+000142	0.0007007929660901136	collect	change	any	vending machine
+000143	0.0012321284917991657	collect	change	you	vending machine
+000144	0.005610408982300538	collect	change	product code	vending machine
+000145	0.006275938623302097	collect	change	code	vending machine
+000146	0.015060477438718996	collect	change	machine	vending machine
+000147	0.004973325283091476	locate	necessary funds	item	vending machine
+000148	0.0018701363274335123	locate	necessary funds	desired item	vending machine
+000149	0.0019460259175322634	locate	necessary funds	correct amount of change	vending machine
+000150	0.0038920518350645267	locate	necessary funds	correct amount of money	vending machine
+000151	0.0006233787758111708	locate	necessary funds	desired selection	vending machine
+000152	0.00244755384118469	locate	necessary funds	selection	vending machine
+000153	0.002616274346022079	locate	necessary funds	coins	vending machine
+000154	0.0026891387231845637	locate	necessary funds	change	vending machine
+000155	0.0006233787758111708	locate	necessary funds	right money	vending machine
+000156	0.006199453071399463	locate	necessary funds	money	vending machine
+000157	0.008716581421252912	locate	necessary funds	product	vending machine
+000158	0.0009738154459100127	locate	necessary funds	goods	vending machine
+000159	0.0013633543391541143	locate	necessary funds	button	vending machine
+000160	0.0006233787758111708	locate	necessary funds	appropriate buttons	vending machine
+000161	0.00023359765536337118	locate	necessary funds	any	vending machine
+000162	0.00041070949726638854	locate	necessary funds	you	vending machine
+000163	0.0018701363274335123	locate	necessary funds	product code	vending machine
+000164	0.002091979541100699	locate	necessary funds	code	vending machine
+000165	0.005020159146239665	locate	necessary funds	machine	vending machine
+000166	0.004973325283091476	aquire	change	item	vending machine
+000167	0.0018701363274335123	aquire	change	desired item	vending machine
+000168	0.0019460259175322634	aquire	change	correct amount of change	vending machine
+000169	0.0038920518350645267	aquire	change	correct amount of money	vending machine
+000170	0.0006233787758111708	aquire	change	desired selection	vending machine
+000171	0.00244755384118469	aquire	change	selection	vending machine
+000172	0.002616274346022079	aquire	change	coins	vending machine
+000173	0.0006233787758111708	aquire	change	right money	vending machine
+000174	0.006199453071399463	aquire	change	money	vending machine
+000175	0.008716581421252912	aquire	change	product	vending machine
+000176	0.0009738154459100127	aquire	change	goods	vending machine
+000177	0.0013633543391541143	aquire	change	button	vending machine
+000178	0.0006233787758111708	aquire	change	appropriate buttons	vending machine
+000179	0.00023359765536337118	aquire	change	any	vending machine
+000180	0.00041070949726638854	aquire	change	you	vending machine
+000181	0.0018701363274335123	aquire	change	product code	vending machine
+000182	0.002091979541100699	aquire	change	code	vending machine
+000183	0.005020159146239665	aquire	change	machine	vending machine
+000184	0.004973325283091476	identify	price	item	vending machine
+000185	0.0018701363274335123	identify	price	desired item	vending machine
+000186	0.0019460259175322634	identify	price	correct amount of change	vending machine
+000187	0.0038920518350645267	identify	price	correct amount of money	vending machine
+000188	0.0006233787758111708	identify	price	desired selection	vending machine
+000189	0.00244755384118469	identify	price	selection	vending machine
+000190	0.002616274346022079	identify	price	coins	vending machine
+000191	0.0026891387231845637	identify	price	change	vending machine
+000192	0.0006233787758111708	identify	price	right money	vending machine
+000193	0.006199453071399463	identify	price	money	vending machine
+000194	0.008716581421252912	identify	price	product	vending machine
+000195	0.0009738154459100127	identify	price	goods	vending machine
+000196	0.0013633543391541143	identify	price	button	vending machine
+000197	0.0006233787758111708	identify	price	appropriate buttons	vending machine
+000198	0.00023359765536337118	identify	price	any	vending machine
+000199	0.00041070949726638854	identify	price	you	vending machine
+000200	0.0018701363274335123	identify	price	product code	vending machine
+000201	0.002091979541100699	identify	price	code	vending machine
+000202	0.005020159146239665	identify	price	machine	vending machine
+000203	0.011220817964601075	select	item	desired item	vending machine
+000204	0.01167615550519358	select	item	correct amount of change	vending machine
+000205	0.02335231101038716	select	item	correct amount of money	vending machine
+000206	0.0037402726548670245	select	item	desired selection	vending machine
+000207	0.01468532304710814	select	item	selection	vending machine
+000208	0.015697646076132474	select	item	coins	vending machine
+000209	0.016134832339107383	select	item	change	vending machine
+000210	0.0037402726548670245	select	item	right money	vending machine
+000211	0.03719671842839679	select	item	money	vending machine
+000212	0.05229948852751747	select	item	product	vending machine
+000213	0.0058428926754600765	select	item	goods	vending machine
+000214	0.008180126034924686	select	item	button	vending machine
+000215	0.0037402726548670245	select	item	appropriate buttons	vending machine
+000216	0.0014015859321802272	select	item	any	vending machine
+000217	0.0024642569835983314	select	item	you	vending machine
+000218	0.011220817964601075	select	item	product code	vending machine
+000219	0.012551877246604193	select	item	code	vending machine
+000220	0.030120954877437992	select	item	machine	vending machine
+000221	0.009946650566182953	place	money	item	vending machine
+000222	0.0037402726548670245	place	money	desired item	vending machine
+000223	0.0038920518350645267	place	money	correct amount of change	vending machine
+000224	0.0077841036701290535	place	money	correct amount of money	vending machine
+000225	0.0012467575516223416	place	money	desired selection	vending machine
+000226	0.00489510768236938	place	money	selection	vending machine
+000227	0.005232548692044158	place	money	coins	vending machine
+000228	0.005378277446369127	place	money	change	vending machine
+000229	0.0012467575516223416	place	money	right money	vending machine
+000230	0.017433162842505824	place	money	product	vending machine
+000231	0.0019476308918200255	place	money	goods	vending machine
+000232	0.0027267086783082286	place	money	button	vending machine
+000233	0.0012467575516223416	place	money	appropriate buttons	vending machine
+000234	0.00046719531072674235	place	money	any	vending machine
+000235	0.0008214189945327771	place	money	you	vending machine
+000236	0.0037402726548670245	place	money	product code	vending machine
+000237	0.004183959082201398	place	money	code	vending machine
+000238	0.01004031829247933	place	money	machine	vending machine
+000239	0.004973325283091476	press	desired selection	item	vending machine
+000240	0.0018701363274335123	press	desired selection	desired item	vending machine
+000241	0.0019460259175322634	press	desired selection	correct amount of change	vending machine
+000242	0.0038920518350645267	press	desired selection	correct amount of money	vending machine
+000243	0.00244755384118469	press	desired selection	selection	vending machine
+000244	0.002616274346022079	press	desired selection	coins	vending machine
+000245	0.0026891387231845637	press	desired selection	change	vending machine
+000246	0.0006233787758111708	press	desired selection	right money	vending machine
+000247	0.006199453071399463	press	desired selection	money	vending machine
+000248	0.008716581421252912	press	desired selection	product	vending machine
+000249	0.0009738154459100127	press	desired selection	goods	vending machine
+000250	0.0013633543391541143	press	desired selection	button	vending machine
+000251	0.0006233787758111708	press	desired selection	appropriate buttons	vending machine
+000252	0.00023359765536337118	press	desired selection	any	vending machine
+000253	0.00041070949726638854	press	desired selection	you	vending machine
+000254	0.0018701363274335123	press	desired selection	product code	vending machine
+000255	0.002091979541100699	press	desired selection	code	vending machine
+000256	0.005020159146239665	press	desired selection	machine	vending machine
+000257	0.019893301132365905	retrieve	product	item	vending machine
+000258	0.007480545309734049	retrieve	product	desired item	vending machine
+000259	0.0077841036701290535	retrieve	product	correct amount of change	vending machine
+000260	0.015568207340258107	retrieve	product	correct amount of money	vending machine
+000261	0.002493515103244683	retrieve	product	desired selection	vending machine
+000262	0.00979021536473876	retrieve	product	selection	vending machine
+000263	0.010465097384088316	retrieve	product	coins	vending machine
+000264	0.010756554892738255	retrieve	product	change	vending machine
+000265	0.002493515103244683	retrieve	product	right money	vending machine
+000266	0.024797812285597853	retrieve	product	money	vending machine
+000267	0.003895261783640051	retrieve	product	goods	vending machine
+000268	0.005453417356616457	retrieve	product	button	vending machine
+000269	0.002493515103244683	retrieve	product	appropriate buttons	vending machine
+000270	0.0009343906214534847	retrieve	product	any	vending machine
+000271	0.0016428379890655541	retrieve	product	you	vending machine
+000272	0.007480545309734049	retrieve	product	product code	vending machine
+000273	0.008367918164402795	retrieve	product	code	vending machine
+000274	0.02008063658495866	retrieve	product	machine	vending machine
+000275	0.01832270231216433	insert	coins	item	vending machine
+000276	0.006889947723151623	insert	coins	desired item	vending machine
+000277	0.007169539804670819	insert	coins	correct amount of change	vending machine
+000278	0.014339079609341637	insert	coins	correct amount of money	vending machine
+000279	0.002296649241050541	insert	coins	desired selection	vending machine
+000280	0.009017266692265248	insert	coins	selection	vending machine
+000281	0.00990731261205505	insert	coins	change	vending machine
+000282	0.002296649241050541	insert	coins	right money	vending machine
+000283	0.02283999671440672	insert	coins	money	vending machine
+000284	0.032113589494005695	insert	coins	product	vending machine
+000285	0.003587726421808741	insert	coins	goods	vending machine
+000286	0.005022863834635464	insert	coins	button	vending machine
+000287	0.002296649241050541	insert	coins	appropriate buttons	vending machine
+000288	0.0008606194158653589	insert	coins	any	vending machine
+000289	0.001513134055553448	insert	coins	you	vending machine
+000290	0.006889947723151623	insert	coins	product code	vending machine
+000291	0.007707261478561367	insert	coins	code	vending machine
+000292	0.018495247417048256	insert	coins	machine	vending machine
+000293	0.009946650566182953	insert	change	item	vending machine
+000294	0.0037402726548670245	insert	change	desired item	vending machine
+000295	0.0038920518350645267	insert	change	correct amount of change	vending machine
+000296	0.0077841036701290535	insert	change	correct amount of money	vending machine
+000297	0.0012467575516223416	insert	change	desired selection	vending machine
+000298	0.00489510768236938	insert	change	selection	vending machine
+000299	0.005232548692044158	insert	change	coins	vending machine
+000300	0.0012467575516223416	insert	change	right money	vending machine
+000301	0.012398906142798927	insert	change	money	vending machine
+000302	0.017433162842505824	insert	change	product	vending machine
+000303	0.0019476308918200255	insert	change	goods	vending machine
+000304	0.0027267086783082286	insert	change	button	vending machine
+000305	0.0012467575516223416	insert	change	appropriate buttons	vending machine
+000306	0.00046719531072674235	insert	change	any	vending machine
+000307	0.0008214189945327771	insert	change	you	vending machine
+000308	0.0037402726548670245	insert	change	product code	vending machine
+000309	0.004183959082201398	insert	change	code	vending machine
+000310	0.01004031829247933	insert	change	machine	vending machine
+000311	0.006165321232418098	press	button	item	vending machine
+000312	0.002318366595935801	press	button	desired item	vending machine
+000313	0.0024124452404085577	press	button	correct amount of change	vending machine
+000314	0.004824890480817115	press	button	correct amount of money	vending machine
+000315	0.0007727888653119336	press	button	desired selection	vending machine
+000316	0.0030341783023615848	press	button	selection	vending machine
+000317	0.0032433373763426946	press	button	coins	vending machine
+000318	0.0033336657313236383	press	button	change	vending machine
+000319	0.0007727888653119336	press	button	right money	vending machine
+000320	0.007685324702252274	press	button	money	vending machine
+000321	0.010805752982468497	press	button	product	vending machine
+000322	0.0012072174457476096	press	button	goods	vending machine
+000323	0.0007727888653119336	press	button	appropriate buttons	vending machine
+000324	0.0002895858409566225	press	button	any	vending machine
+000325	0.0005091474696942024	press	button	you	vending machine
+000326	0.002318366595935801	press	button	product code	vending machine
+000327	0.002593380715792439	press	button	code	vending machine
+000328	0.006223380135551859	press	button	machine	vending machine
+000329	0.004973325283091476	get	product	item	vending machine
+000330	0.0018701363274335123	get	product	desired item	vending machine
+000331	0.0019460259175322634	get	product	correct amount of change	vending machine
+000332	0.0038920518350645267	get	product	correct amount of money	vending machine
+000333	0.0006233787758111708	get	product	desired selection	vending machine
+000334	0.00244755384118469	get	product	selection	vending machine
+000335	0.002616274346022079	get	product	coins	vending machine
+000336	0.0026891387231845637	get	product	change	vending machine
+000337	0.0006233787758111708	get	product	right money	vending machine
+000338	0.006199453071399463	get	product	money	vending machine
+000339	0.0009738154459100127	get	product	goods	vending machine
+000340	0.0013633543391541143	get	product	button	vending machine
+000341	0.0006233787758111708	get	product	appropriate buttons	vending machine
+000342	0.00023359765536337118	get	product	any	vending machine
+000343	0.00041070949726638854	get	product	you	vending machine
+000344	0.0018701363274335123	get	product	product code	vending machine
+000345	0.002091979541100699	get	product	code	vending machine
+000346	0.005020159146239665	get	product	machine	vending machine
+000347	0.004973325283091476	identify	desired product	item	vending machine
+000348	0.0018701363274335123	identify	desired product	desired item	vending machine
+000349	0.0019460259175322634	identify	desired product	correct amount of change	vending machine
+000350	0.0038920518350645267	identify	desired product	correct amount of money	vending machine
+000351	0.0006233787758111708	identify	desired product	desired selection	vending machine
+000352	0.00244755384118469	identify	desired product	selection	vending machine
+000353	0.002616274346022079	identify	desired product	coins	vending machine
+000354	0.0026891387231845637	identify	desired product	change	vending machine
+000355	0.0006233787758111708	identify	desired product	right money	vending machine
+000356	0.006199453071399463	identify	desired product	money	vending machine
+000357	0.008716581421252912	identify	desired product	product	vending machine
+000358	0.0009738154459100127	identify	desired product	goods	vending machine
+000359	0.0013633543391541143	identify	desired product	button	vending machine
+000360	0.0006233787758111708	identify	desired product	appropriate buttons	vending machine
+000361	0.00023359765536337118	identify	desired product	any	vending machine
+000362	0.00041070949726638854	identify	desired product	you	vending machine
+000363	0.0018701363274335123	identify	desired product	product code	vending machine
+000364	0.002091979541100699	identify	desired product	code	vending machine
+000365	0.005020159146239665	identify	desired product	machine	vending machine
+000366	0.004973325283091476	take	product	item	vending machine
+000367	0.0018701363274335123	take	product	desired item	vending machine
+000368	0.0019460259175322634	take	product	correct amount of change	vending machine
+000369	0.0038920518350645267	take	product	correct amount of money	vending machine
+000370	0.0006233787758111708	take	product	desired selection	vending machine
+000371	0.00244755384118469	take	product	selection	vending machine
+000372	0.002616274346022079	take	product	coins	vending machine
+000373	0.0026891387231845637	take	product	change	vending machine
+000374	0.0006233787758111708	take	product	right money	vending machine
+000375	0.006199453071399463	take	product	money	vending machine
+000376	0.0009738154459100127	take	product	goods	vending machine
+000377	0.0013633543391541143	take	product	button	vending machine
+000378	0.0006233787758111708	take	product	appropriate buttons	vending machine
+000379	0.00023359765536337118	take	product	any	vending machine
+000380	0.00041070949726638854	take	product	you	vending machine
+000381	0.0018701363274335123	take	product	product code	vending machine
+000382	0.002091979541100699	take	product	code	vending machine
+000383	0.005020159146239665	take	product	machine	vending machine
+000384	0.004318932872762171	find	vending machine	item	vending machine
+000385	0.0016240629360319185	find	vending machine	desired item	vending machine
+000386	0.0016899669392332136	find	vending machine	correct amount of change	vending machine
+000387	0.003379933878466427	find	vending machine	correct amount of money	vending machine
+000388	0.0005413543120106395	find	vending machine	desired selection	vending machine
+000389	0.00212550358981887	find	vending machine	selection	vending machine
+000390	0.0022720237736340463	find	vending machine	coins	vending machine
+000391	0.002335300622797787	find	vending machine	change	vending machine
+000392	0.0005413543120106395	find	vending machine	right money	vending machine
+000393	0.005383726207140404	find	vending machine	money	vending machine
+000394	0.007569649660027026	find	vending machine	product	vending machine
+000395	0.0008456803651358805	find	vending machine	goods	vending machine
+000396	0.0011839635530406037	find	vending machine	button	vending machine
+000397	0.0005413543120106395	find	vending machine	appropriate buttons	vending machine
+000398	0.0002028607692682215	find	vending machine	any	vending machine
+000399	0.0003566681541885391	find	vending machine	you	vending machine
+000400	0.0016240629360319185	find	vending machine	product code	vending machine
+000401	0.001816715918406486	find	vending machine	code	vending machine
+000402	0.004359604314824658	find	vending machine	machine	vending machine
+000403	0.002358641961789681	pick	item	desired item	vending machine
+000404	0.0024543549689347694	pick	item	correct amount of change	vending machine
+000405	0.004908709937869539	pick	item	correct amount of money	vending machine
+000406	0.000786213987263227	pick	item	desired selection	vending machine
+000407	0.003086888965725932	pick	item	selection	vending machine
+000408	0.0032996816144147756	pick	item	coins	vending machine
+000409	0.003391579180904466	pick	item	change	vending machine
+000410	0.000786213987263227	pick	item	right money	vending machine
+000411	0.007818836487934355	pick	item	money	vending machine
+000412	0.010993473792222447	pick	item	product	vending machine
+000413	0.0012281895924210076	pick	item	goods	vending machine
+000414	0.001719481465573134	pick	item	button	vending machine
+000415	0.000786213987263227	pick	item	appropriate buttons	vending machine
+000416	0.0002946166137908575	pick	item	any	vending machine
+000417	0.0005179925335643685	pick	item	you	vending machine
+000418	0.002358641961789681	pick	item	product code	vending machine
+000419	0.0026384337101333873	pick	item	code	vending machine
+000420	0.006331494577955629	pick	item	machine	vending machine
+000421	0.0018701363274335123	watch	item	desired item	vending machine
+000422	0.0019460259175322634	watch	item	correct amount of change	vending machine
+000423	0.0038920518350645267	watch	item	correct amount of money	vending machine
+000424	0.0006233787758111708	watch	item	desired selection	vending machine
+000425	0.00244755384118469	watch	item	selection	vending machine
+000426	0.002616274346022079	watch	item	coins	vending machine
+000427	0.0026891387231845637	watch	item	change	vending machine
+000428	0.0006233787758111708	watch	item	right money	vending machine
+000429	0.006199453071399463	watch	item	money	vending machine
+000430	0.008716581421252912	watch	item	product	vending machine
+000431	0.0009738154459100127	watch	item	goods	vending machine
+000432	0.0013633543391541143	watch	item	button	vending machine
+000433	0.0006233787758111708	watch	item	appropriate buttons	vending machine
+000434	0.00023359765536337118	watch	item	any	vending machine
+000435	0.00041070949726638854	watch	item	you	vending machine
+000436	0.0018701363274335123	watch	item	product code	vending machine
+000437	0.002091979541100699	watch	item	code	vending machine
+000438	0.005020159146239665	watch	item	machine	vending machine
+000439	0.0018701363274335123	determine	item	desired item	vending machine
+000440	0.0019460259175322634	determine	item	correct amount of change	vending machine
+000441	0.0038920518350645267	determine	item	correct amount of money	vending machine
+000442	0.0006233787758111708	determine	item	desired selection	vending machine
+000443	0.00244755384118469	determine	item	selection	vending machine
+000444	0.002616274346022079	determine	item	coins	vending machine
+000445	0.0026891387231845637	determine	item	change	vending machine
+000446	0.0006233787758111708	determine	item	right money	vending machine
+000447	0.006199453071399463	determine	item	money	vending machine
+000448	0.008716581421252912	determine	item	product	vending machine
+000449	0.0009738154459100127	determine	item	goods	vending machine
+000450	0.0013633543391541143	determine	item	button	vending machine
+000451	0.0006233787758111708	determine	item	appropriate buttons	vending machine
+000452	0.00023359765536337118	determine	item	any	vending machine
+000453	0.00041070949726638854	determine	item	you	vending machine
+000454	0.0018701363274335123	determine	item	product code	vending machine
+000455	0.002091979541100699	determine	item	code	vending machine
+000456	0.005020159146239665	determine	item	machine	vending machine
+000457	0.009946650566182953	select	product	item	vending machine
+000458	0.0037402726548670245	select	product	desired item	vending machine
+000459	0.0038920518350645267	select	product	correct amount of change	vending machine
+000460	0.0077841036701290535	select	product	correct amount of money	vending machine
+000461	0.0012467575516223416	select	product	desired selection	vending machine
+000462	0.00489510768236938	select	product	selection	vending machine
+000463	0.005232548692044158	select	product	coins	vending machine
+000464	0.005378277446369127	select	product	change	vending machine
+000465	0.0012467575516223416	select	product	right money	vending machine
+000466	0.012398906142798927	select	product	money	vending machine
+000467	0.0019476308918200255	select	product	goods	vending machine
+000468	0.0027267086783082286	select	product	button	vending machine
+000469	0.0012467575516223416	select	product	appropriate buttons	vending machine
+000470	0.00046719531072674235	select	product	any	vending machine
+000471	0.0008214189945327771	select	product	you	vending machine
+000472	0.0037402726548670245	select	product	product code	vending machine
+000473	0.004183959082201398	select	product	code	vending machine
+000474	0.01004031829247933	select	product	machine	vending machine
+000475	0.004973325283091476	press	code	item	vending machine
+000476	0.0018701363274335123	press	code	desired item	vending machine
+000477	0.0019460259175322634	press	code	correct amount of change	vending machine
+000478	0.0038920518350645267	press	code	correct amount of money	vending machine
+000479	0.0006233787758111708	press	code	desired selection	vending machine
+000480	0.00244755384118469	press	code	selection	vending machine
+000481	0.002616274346022079	press	code	coins	vending machine
+000482	0.0026891387231845637	press	code	change	vending machine
+000483	0.0006233787758111708	press	code	right money	vending machine
+000484	0.006199453071399463	press	code	money	vending machine
+000485	0.008716581421252912	press	code	product	vending machine
+000486	0.0009738154459100127	press	code	goods	vending machine
+000487	0.0013633543391541143	press	code	button	vending machine
+000488	0.0006233787758111708	press	code	appropriate buttons	vending machine
+000489	0.00023359765536337118	press	code	any	vending machine
+000490	0.00041070949726638854	press	code	you	vending machine
+000491	0.0018701363274335123	press	code	product code	vending machine
+000492	0.005020159146239665	press	code	machine	vending machine
+000493	0.004973325283091476	locate	vending machine	item	vending machine
+000494	0.0018701363274335123	locate	vending machine	desired item	vending machine
+000495	0.0019460259175322634	locate	vending machine	correct amount of change	vending machine
+000496	0.0038920518350645267	locate	vending machine	correct amount of money	vending machine
+000497	0.0006233787758111708	locate	vending machine	desired selection	vending machine
+000498	0.00244755384118469	locate	vending machine	selection	vending machine
+000499	0.002616274346022079	locate	vending machine	coins	vending machine
+000500	0.0026891387231845637	locate	vending machine	change	vending machine
+000501	0.0006233787758111708	locate	vending machine	right money	vending machine
+000502	0.006199453071399463	locate	vending machine	money	vending machine
+000503	0.008716581421252912	locate	vending machine	product	vending machine
+000504	0.0009738154459100127	locate	vending machine	goods	vending machine
+000505	0.0013633543391541143	locate	vending machine	button	vending machine
+000506	0.0006233787758111708	locate	vending machine	appropriate buttons	vending machine
+000507	0.00023359765536337118	locate	vending machine	any	vending machine
+000508	0.00041070949726638854	locate	vending machine	you	vending machine
+000509	0.0018701363274335123	locate	vending machine	product code	vending machine
+000510	0.002091979541100699	locate	vending machine	code	vending machine
+000511	0.005020159146239665	locate	vending machine	machine	vending machine
+000512	0.004973325283091476	choose	goods	item	vending machine
+000513	0.0018701363274335123	choose	goods	desired item	vending machine
+000514	0.0019460259175322634	choose	goods	correct amount of change	vending machine
+000515	0.0038920518350645267	choose	goods	correct amount of money	vending machine
+000516	0.0006233787758111708	choose	goods	desired selection	vending machine
+000517	0.00244755384118469	choose	goods	selection	vending machine
+000518	0.002616274346022079	choose	goods	coins	vending machine
+000519	0.0026891387231845637	choose	goods	change	vending machine
+000520	0.0006233787758111708	choose	goods	right money	vending machine
+000521	0.006199453071399463	choose	goods	money	vending machine
+000522	0.008716581421252912	choose	goods	product	vending machine
+000523	0.0013633543391541143	choose	goods	button	vending machine
+000524	0.0006233787758111708	choose	goods	appropriate buttons	vending machine
+000525	0.00023359765536337118	choose	goods	any	vending machine
+000526	0.00041070949726638854	choose	goods	you	vending machine
+000527	0.0018701363274335123	choose	goods	product code	vending machine
+000528	0.002091979541100699	choose	goods	code	vending machine
+000529	0.005020159146239665	choose	goods	machine	vending machine
+000530	0.014919975849274429	take	change	item	vending machine
+000531	0.005610408982300538	take	change	desired item	vending machine
+000532	0.00583807775259679	take	change	correct amount of change	vending machine
+000533	0.01167615550519358	take	change	correct amount of money	vending machine
+000534	0.0018701363274335123	take	change	desired selection	vending machine
+000535	0.00734266152355407	take	change	selection	vending machine
+000536	0.007848823038066237	take	change	coins	vending machine
+000537	0.0018701363274335123	take	change	right money	vending machine
+000538	0.018598359214198393	take	change	money	vending machine
+000539	0.026149744263758736	take	change	product	vending machine
+000540	0.0029214463377300382	take	change	goods	vending machine
+000541	0.004090063017462343	take	change	button	vending machine
+000542	0.0018701363274335123	take	change	appropriate buttons	vending machine
+000543	0.0007007929660901136	take	change	any	vending machine
+000544	0.0012321284917991657	take	change	you	vending machine
+000545	0.005610408982300538	take	change	product code	vending machine
+000546	0.006275938623302097	take	change	code	vending machine
+000547	0.015060477438718996	take	change	machine	vending machine
+000548	0.009946650566182953	take	money	item	vending machine
+000549	0.0037402726548670245	take	money	desired item	vending machine
+000550	0.0038920518350645267	take	money	correct amount of change	vending machine
+000551	0.0077841036701290535	take	money	correct amount of money	vending machine
+000552	0.0012467575516223416	take	money	desired selection	vending machine
+000553	0.00489510768236938	take	money	selection	vending machine
+000554	0.005232548692044158	take	money	coins	vending machine
+000555	0.005378277446369127	take	money	change	vending machine
+000556	0.0012467575516223416	take	money	right money	vending machine
+000557	0.017433162842505824	take	money	product	vending machine
+000558	0.0019476308918200255	take	money	goods	vending machine
+000559	0.0027267086783082286	take	money	button	vending machine
+000560	0.0012467575516223416	take	money	appropriate buttons	vending machine
+000561	0.00046719531072674235	take	money	any	vending machine
+000562	0.0008214189945327771	take	money	you	vending machine
+000563	0.0037402726548670245	take	money	product code	vending machine
+000564	0.004183959082201398	take	money	code	vending machine
+000565	0.01004031829247933	take	money	machine	vending machine
+000566	0.004973325283091476	identify	vending machine	item	vending machine
+000567	0.0018701363274335123	identify	vending machine	desired item	vending machine
+000568	0.0019460259175322634	identify	vending machine	correct amount of change	vending machine
+000569	0.0038920518350645267	identify	vending machine	correct amount of money	vending machine
+000570	0.0006233787758111708	identify	vending machine	desired selection	vending machine
+000571	0.00244755384118469	identify	vending machine	selection	vending machine
+000572	0.002616274346022079	identify	vending machine	coins	vending machine
+000573	0.0026891387231845637	identify	vending machine	change	vending machine
+000574	0.0006233787758111708	identify	vending machine	right money	vending machine
+000575	0.006199453071399463	identify	vending machine	money	vending machine
+000576	0.008716581421252912	identify	vending machine	product	vending machine
+000577	0.0009738154459100127	identify	vending machine	goods	vending machine
+000578	0.0013633543391541143	identify	vending machine	button	vending machine
+000579	0.0006233787758111708	identify	vending machine	appropriate buttons	vending machine
+000580	0.00023359765536337118	identify	vending machine	any	vending machine
+000581	0.00041070949726638854	identify	vending machine	you	vending machine
+000582	0.0018701363274335123	identify	vending machine	product code	vending machine
+000583	0.002091979541100699	identify	vending machine	code	vending machine
+000584	0.005020159146239665	identify	vending machine	machine	vending machine
+000585	0.017275731491048683	insert	money	item	vending machine
+000586	0.006496251744127674	insert	money	desired item	vending machine
+000587	0.006759867756932854	insert	money	correct amount of change	vending machine
+000588	0.013519735513865708	insert	money	correct amount of money	vending machine
+000589	0.002165417248042558	insert	money	desired selection	vending machine
+000590	0.00850201435927548	insert	money	selection	vending machine
+000591	0.009088095094536185	insert	money	coins	vending machine
+000592	0.009341202491191148	insert	money	change	vending machine
+000593	0.002165417248042558	insert	money	right money	vending machine
+000594	0.030278598640108106	insert	money	product	vending machine
+000595	0.003382721460543522	insert	money	goods	vending machine
+000596	0.004735854212162415	insert	money	button	vending machine
+000597	0.002165417248042558	insert	money	appropriate buttons	vending machine
+000598	0.000811443077072886	insert	money	any	vending machine
+000599	0.0014266726167541563	insert	money	you	vending machine
+000600	0.006496251744127674	insert	money	product code	vending machine
+000601	0.007266863673625944	insert	money	code	vending machine
+000602	0.017438417259298632	insert	money	machine	vending machine
+000603	0.004973325283091476	depress	button	item	vending machine
+000604	0.0018701363274335123	depress	button	desired item	vending machine
+000605	0.0019460259175322634	depress	button	correct amount of change	vending machine
+000606	0.0038920518350645267	depress	button	correct amount of money	vending machine
+000607	0.0006233787758111708	depress	button	desired selection	vending machine
+000608	0.00244755384118469	depress	button	selection	vending machine
+000609	0.002616274346022079	depress	button	coins	vending machine
+000610	0.0026891387231845637	depress	button	change	vending machine
+000611	0.0006233787758111708	depress	button	right money	vending machine
+000612	0.006199453071399463	depress	button	money	vending machine
+000613	0.008716581421252912	depress	button	product	vending machine
+000614	0.0009738154459100127	depress	button	goods	vending machine
+000615	0.0006233787758111708	depress	button	appropriate buttons	vending machine
+000616	0.00023359765536337118	depress	button	any	vending machine
+000617	0.00041070949726638854	depress	button	you	vending machine
+000618	0.0018701363274335123	depress	button	product code	vending machine
+000619	0.002091979541100699	depress	button	code	vending machine
+000620	0.005020159146239665	depress	button	machine	vending machine
+000621	0.0024680916764702253	take	item	desired item	vending machine
+000622	0.002568246121312495	take	item	correct amount of change	vending machine
+000623	0.00513649224262499	take	item	correct amount of money	vending machine
+000624	0.000822697225490075	take	item	desired selection	vending machine
+000625	0.0032301320361124448	take	item	selection	vending machine
+000626	0.0034527990510944415	take	item	coins	vending machine
+000627	0.003548961004716675	take	item	change	vending machine
+000628	0.000822697225490075	take	item	right money	vending machine
+000629	0.008181659432917876	take	item	money	vending machine
+000630	0.011503611655195851	take	item	product	vending machine
+000631	0.001285182134164009	take	item	goods	vending machine
+000632	0.0017992717681515993	take	item	button	vending machine
+000633	0.000822697225490075	take	item	appropriate buttons	vending machine
+000634	0.00030828791483694337	take	item	any	vending machine
+000635	0.0005420293038430817	take	item	you	vending machine
+000636	0.0024680916764702253	take	item	product code	vending machine
+000637	0.0027608667972470044	take	item	code	vending machine
+000638	0.006625299354723374	take	item	machine	vending machine
+000639	0.003936137851962995	get	money	item	vending machine
+000640	0.0014801192296367061	get	money	desired item	vending machine
+000641	0.0015401820389552969	get	money	correct amount of change	vending machine
+000642	0.0030803640779105937	get	money	correct amount of money	vending machine
+000643	0.0004933730765455687	get	money	desired selection	vending machine
+000644	0.0019371162694220424	get	money	selection	vending machine
+000645	0.002070650097935253	get	money	coins	vending machine
+000646	0.0021283186027451144	get	money	change	vending machine
+000647	0.0004933730765455687	get	money	right money	vending machine
+000648	0.00689873758882381	get	money	product	vending machine
+000649	0.0007707261478561366	get	money	goods	vending machine
+000650	0.0010790266701893102	get	money	button	vending machine
+000651	0.0004933730765455687	get	money	appropriate buttons	vending machine
+000652	0.00018488084351362137	get	money	any	vending machine
+000653	0.00032505599499939026	get	money	you	vending machine
+000654	0.0014801192296367061	get	money	product code	vending machine
+000655	0.0016556970213177145	get	money	code	vending machine
+000656	0.003973204508776694	get	money	machine	vending machine
+000657	0.017275731491048683	make	selection	item	vending machine
+000658	0.006496251744127674	make	selection	desired item	vending machine
+000659	0.006759867756932854	make	selection	correct amount of change	vending machine
+000660	0.013519735513865708	make	selection	correct amount of money	vending machine
+000661	0.002165417248042558	make	selection	desired selection	vending machine
+000662	0.009088095094536185	make	selection	coins	vending machine
+000663	0.009341202491191148	make	selection	change	vending machine
+000664	0.002165417248042558	make	selection	right money	vending machine
+000665	0.021534904828561616	make	selection	money	vending machine
+000666	0.030278598640108106	make	selection	product	vending machine
+000667	0.003382721460543522	make	selection	goods	vending machine
+000668	0.004735854212162415	make	selection	button	vending machine
+000669	0.002165417248042558	make	selection	appropriate buttons	vending machine
+000670	0.000811443077072886	make	selection	any	vending machine
+000671	0.0014266726167541563	make	selection	you	vending machine
+000672	0.006496251744127674	make	selection	product code	vending machine
+000673	0.007266863673625944	make	selection	code	vending machine
+000674	0.017438417259298632	make	selection	machine	vending machine
+000675	0.004973325283091476	take	goods	item	vending machine
+000676	0.0018701363274335123	take	goods	desired item	vending machine
+000677	0.0019460259175322634	take	goods	correct amount of change	vending machine
+000678	0.0038920518350645267	take	goods	correct amount of money	vending machine
+000679	0.0006233787758111708	take	goods	desired selection	vending machine
+000680	0.00244755384118469	take	goods	selection	vending machine
+000681	0.002616274346022079	take	goods	coins	vending machine
+000682	0.0026891387231845637	take	goods	change	vending machine
+000683	0.0006233787758111708	take	goods	right money	vending machine
+000684	0.006199453071399463	take	goods	money	vending machine
+000685	0.008716581421252912	take	goods	product	vending machine
+000686	0.0013633543391541143	take	goods	button	vending machine
+000687	0.0006233787758111708	take	goods	appropriate buttons	vending machine
+000688	0.00023359765536337118	take	goods	any	vending machine
+000689	0.00041070949726638854	take	goods	you	vending machine
+000690	0.0018701363274335123	take	goods	product code	vending machine
+000691	0.002091979541100699	take	goods	code	vending machine
+000692	0.005020159146239665	take	goods	machine	vending machine
+000693	0.004973325283091476	find	machine	item	vending machine
+000694	0.0018701363274335123	find	machine	desired item	vending machine
+000695	0.0019460259175322634	find	machine	correct amount of change	vending machine
+000696	0.0038920518350645267	find	machine	correct amount of money	vending machine
+000697	0.0006233787758111708	find	machine	desired selection	vending machine
+000698	0.00244755384118469	find	machine	selection	vending machine
+000699	0.002616274346022079	find	machine	coins	vending machine
+000700	0.0026891387231845637	find	machine	change	vending machine
+000701	0.0006233787758111708	find	machine	right money	vending machine
+000702	0.006199453071399463	find	machine	money	vending machine
+000703	0.008716581421252912	find	machine	product	vending machine
+000704	0.0009738154459100127	find	machine	goods	vending machine
+000705	0.0013633543391541143	find	machine	button	vending machine
+000706	0.0006233787758111708	find	machine	appropriate buttons	vending machine
+000707	0.00023359765536337118	find	machine	any	vending machine
+000708	0.00041070949726638854	find	machine	you	vending machine
+000709	0.0018701363274335123	find	machine	product code	vending machine
+000710	0.002091979541100699	find	machine	code	vending machine
+000711	0.0018701363274335123	recieve	item	desired item	vending machine
+000712	0.0019460259175322634	recieve	item	correct amount of change	vending machine
+000713	0.0038920518350645267	recieve	item	correct amount of money	vending machine
+000714	0.0006233787758111708	recieve	item	desired selection	vending machine
+000715	0.00244755384118469	recieve	item	selection	vending machine
+000716	0.002616274346022079	recieve	item	coins	vending machine
+000717	0.0026891387231845637	recieve	item	change	vending machine
+000718	0.0006233787758111708	recieve	item	right money	vending machine
+000719	0.006199453071399463	recieve	item	money	vending machine
+000720	0.008716581421252912	recieve	item	product	vending machine
+000721	0.0009738154459100127	recieve	item	goods	vending machine
+000722	0.0013633543391541143	recieve	item	button	vending machine
+000723	0.0006233787758111708	recieve	item	appropriate buttons	vending machine
+000724	0.00023359765536337118	recieve	item	any	vending machine
+000725	0.00041070949726638854	recieve	item	you	vending machine
+000726	0.0018701363274335123	recieve	item	product code	vending machine
+000727	0.002091979541100699	recieve	item	code	vending machine
+000728	0.005020159146239665	recieve	item	machine	vending machine
+000729	0.004973325283091476	feel	thirst	item	vending machine
+000730	0.0018701363274335123	feel	thirst	desired item	vending machine
+000731	0.0019460259175322634	feel	thirst	correct amount of change	vending machine
+000732	0.0038920518350645267	feel	thirst	correct amount of money	vending machine
+000733	0.0006233787758111708	feel	thirst	desired selection	vending machine
+000734	0.00244755384118469	feel	thirst	selection	vending machine
+000735	0.002616274346022079	feel	thirst	coins	vending machine
+000736	0.0026891387231845637	feel	thirst	change	vending machine
+000737	0.0006233787758111708	feel	thirst	right money	vending machine
+000738	0.006199453071399463	feel	thirst	money	vending machine
+000739	0.008716581421252912	feel	thirst	product	vending machine
+000740	0.0009738154459100127	feel	thirst	goods	vending machine
+000741	0.0013633543391541143	feel	thirst	button	vending machine
+000742	0.0006233787758111708	feel	thirst	appropriate buttons	vending machine
+000743	0.00023359765536337118	feel	thirst	any	vending machine
+000744	0.00041070949726638854	feel	thirst	you	vending machine
+000745	0.0018701363274335123	feel	thirst	product code	vending machine
+000746	0.002091979541100699	feel	thirst	code	vending machine
+000747	0.005020159146239665	feel	thirst	machine	vending machine
+000748	0.0037021375147053377	remove	item	desired item	vending machine
+000749	0.003852369181968742	remove	item	correct amount of change	vending machine
+000750	0.007704738363937484	remove	item	correct amount of money	vending machine
+000751	0.0012340458382351124	remove	item	desired selection	vending machine
+000752	0.004845198054168667	remove	item	selection	vending machine
+000753	0.005179198576641662	remove	item	coins	vending machine
+000754	0.005323441507075013	remove	item	change	vending machine
+000755	0.0012340458382351124	remove	item	right money	vending machine
+000756	0.012272489149376812	remove	item	money	vending machine
+000757	0.017255417482793776	remove	item	product	vending machine
+000758	0.0019277732012460134	remove	item	goods	vending machine
+000759	0.0026989076522273988	remove	item	button	vending machine
+000760	0.0012340458382351124	remove	item	appropriate buttons	vending machine
+000761	0.00046243187225541505	remove	item	any	vending machine
+000762	0.0008130439557646226	remove	item	you	vending machine
+000763	0.0037021375147053377	remove	item	product code	vending machine
+000764	0.004141300195870506	remove	item	code	vending machine
+000765	0.009937949032085062	remove	item	machine	vending machine
+000766	0.0021935137586649557	open	door	item	vending machine
+000767	0.0008248343977723099	open	door	desired item	vending machine
+000768	0.000858305938551476	open	door	correct amount of change	vending machine
+000769	0.001716611877102952	open	door	correct amount of money	vending machine
+000770	0.0002749447992574366	open	door	desired selection	vending machine
+000771	0.0010795077176963997	open	door	selection	vending machine
+000772	0.0011539228680562525	open	door	coins	vending machine
+000773	0.0011860601212469609	open	door	change	vending machine
+000774	0.0002749447992574366	open	door	right money	vending machine
+000775	0.0027343044812583434	open	door	money	vending machine
+000776	0.003844498436699162	open	door	product	vending machine
+000777	0.0004295069108522601	open	door	goods	vending machine
+000778	0.0006013152831642587	open	door	button	vending machine
+000779	0.0002749447992574366	open	door	appropriate buttons	vending machine
+000780	0.0001030295912422032	open	door	any	vending machine
+000781	0.0001811457891425478	open	door	you	vending machine
+000782	0.0008248343977723099	open	door	product code	vending machine
+000783	0.0009226796248077988	open	door	code	vending machine
+000784	0.002214170103733768	open	door	machine	vending machine
+000785	0.004973325283091476	take	required money	item	vending machine
+000786	0.0018701363274335123	take	required money	desired item	vending machine
+000787	0.0019460259175322634	take	required money	correct amount of change	vending machine
+000788	0.0038920518350645267	take	required money	correct amount of money	vending machine
+000789	0.0006233787758111708	take	required money	desired selection	vending machine
+000790	0.00244755384118469	take	required money	selection	vending machine
+000791	0.002616274346022079	take	required money	coins	vending machine
+000792	0.0026891387231845637	take	required money	change	vending machine
+000793	0.0006233787758111708	take	required money	right money	vending machine
+000794	0.006199453071399463	take	required money	money	vending machine
+000795	0.008716581421252912	take	required money	product	vending machine
+000796	0.0009738154459100127	take	required money	goods	vending machine
+000797	0.0013633543391541143	take	required money	button	vending machine
+000798	0.0006233787758111708	take	required money	appropriate buttons	vending machine
+000799	0.00023359765536337118	take	required money	any	vending machine
+000800	0.00041070949726638854	take	required money	you	vending machine
+000801	0.0018701363274335123	take	required money	product code	vending machine
+000802	0.002091979541100699	take	required money	code	vending machine
+000803	0.005020159146239665	take	required money	machine	vending machine
+000804	0.004973325283091476	insert	correct amount	item	vending machine
+000805	0.0018701363274335123	insert	correct amount	desired item	vending machine
+000806	0.0019460259175322634	insert	correct amount	correct amount of change	vending machine
+000807	0.0038920518350645267	insert	correct amount	correct amount of money	vending machine
+000808	0.0006233787758111708	insert	correct amount	desired selection	vending machine
+000809	0.00244755384118469	insert	correct amount	selection	vending machine
+000810	0.002616274346022079	insert	correct amount	coins	vending machine
+000811	0.0026891387231845637	insert	correct amount	change	vending machine
+000812	0.0006233787758111708	insert	correct amount	right money	vending machine
+000813	0.006199453071399463	insert	correct amount	money	vending machine
+000814	0.008716581421252912	insert	correct amount	product	vending machine
+000815	0.0009738154459100127	insert	correct amount	goods	vending machine
+000816	0.0013633543391541143	insert	correct amount	button	vending machine
+000817	0.0006233787758111708	insert	correct amount	appropriate buttons	vending machine
+000818	0.00023359765536337118	insert	correct amount	any	vending machine
+000819	0.00041070949726638854	insert	correct amount	you	vending machine
+000820	0.0018701363274335123	insert	correct amount	product code	vending machine
+000821	0.002091979541100699	insert	correct amount	code	vending machine
+000822	0.005020159146239665	insert	correct amount	machine	vending machine
+000823	0.004973325283091476	obtain	purchased item	item	vending machine
+000824	0.0018701363274335123	obtain	purchased item	desired item	vending machine
+000825	0.0019460259175322634	obtain	purchased item	correct amount of change	vending machine
+000826	0.0038920518350645267	obtain	purchased item	correct amount of money	vending machine
+000827	0.0006233787758111708	obtain	purchased item	desired selection	vending machine
+000828	0.00244755384118469	obtain	purchased item	selection	vending machine
+000829	0.002616274346022079	obtain	purchased item	coins	vending machine
+000830	0.0026891387231845637	obtain	purchased item	change	vending machine
+000831	0.0006233787758111708	obtain	purchased item	right money	vending machine
+000832	0.006199453071399463	obtain	purchased item	money	vending machine
+000833	0.008716581421252912	obtain	purchased item	product	vending machine
+000834	0.0009738154459100127	obtain	purchased item	goods	vending machine
+000835	0.0013633543391541143	obtain	purchased item	button	vending machine
+000836	0.0006233787758111708	obtain	purchased item	appropriate buttons	vending machine
+000837	0.00023359765536337118	obtain	purchased item	any	vending machine
+000838	0.00041070949726638854	obtain	purchased item	you	vending machine
+000839	0.0018701363274335123	obtain	purchased item	product code	vending machine
+000840	0.002091979541100699	obtain	purchased item	code	vending machine
+000841	0.005020159146239665	obtain	purchased item	machine	vending machine
+000842	0.004973325283091476	determine	desired product	item	vending machine
+000843	0.0018701363274335123	determine	desired product	desired item	vending machine
+000844	0.0019460259175322634	determine	desired product	correct amount of change	vending machine
+000845	0.0038920518350645267	determine	desired product	correct amount of money	vending machine
+000846	0.0006233787758111708	determine	desired product	desired selection	vending machine
+000847	0.00244755384118469	determine	desired product	selection	vending machine
+000848	0.002616274346022079	determine	desired product	coins	vending machine
+000849	0.0026891387231845637	determine	desired product	change	vending machine
+000850	0.0006233787758111708	determine	desired product	right money	vending machine
+000851	0.006199453071399463	determine	desired product	money	vending machine
+000852	0.008716581421252912	determine	desired product	product	vending machine
+000853	0.0009738154459100127	determine	desired product	goods	vending machine
+000854	0.0013633543391541143	determine	desired product	button	vending machine
+000855	0.0006233787758111708	determine	desired product	appropriate buttons	vending machine
+000856	0.00023359765536337118	determine	desired product	any	vending machine
+000857	0.00041070949726638854	determine	desired product	you	vending machine
+000858	0.0018701363274335123	determine	desired product	product code	vending machine
+000859	0.002091979541100699	determine	desired product	code	vending machine
+000860	0.005020159146239665	determine	desired product	machine	vending machine
+000861	0.004973325283091476	pick	product	item	vending machine
+000862	0.0018701363274335123	pick	product	desired item	vending machine
+000863	0.0019460259175322634	pick	product	correct amount of change	vending machine
+000864	0.0038920518350645267	pick	product	correct amount of money	vending machine
+000865	0.0006233787758111708	pick	product	desired selection	vending machine
+000866	0.00244755384118469	pick	product	selection	vending machine
+000867	0.002616274346022079	pick	product	coins	vending machine
+000868	0.0026891387231845637	pick	product	change	vending machine
+000869	0.0006233787758111708	pick	product	right money	vending machine
+000870	0.006199453071399463	pick	product	money	vending machine
+000871	0.0009738154459100127	pick	product	goods	vending machine
+000872	0.0013633543391541143	pick	product	button	vending machine
+000873	0.0006233787758111708	pick	product	appropriate buttons	vending machine
+000874	0.00023359765536337118	pick	product	any	vending machine
+000875	0.00041070949726638854	pick	product	you	vending machine
+000876	0.0018701363274335123	pick	product	product code	vending machine
+000877	0.002091979541100699	pick	product	code	vending machine
+000878	0.005020159146239665	pick	product	machine	vending machine
+000879	0.004973325283091476	select	desired item	item	vending machine
+000880	0.0019460259175322634	select	desired item	correct amount of change	vending machine
+000881	0.0038920518350645267	select	desired item	correct amount of money	vending machine
+000882	0.0006233787758111708	select	desired item	desired selection	vending machine
+000883	0.00244755384118469	select	desired item	selection	vending machine
+000884	0.002616274346022079	select	desired item	coins	vending machine
+000885	0.0026891387231845637	select	desired item	change	vending machine
+000886	0.0006233787758111708	select	desired item	right money	vending machine
+000887	0.006199453071399463	select	desired item	money	vending machine
+000888	0.008716581421252912	select	desired item	product	vending machine
+000889	0.0009738154459100127	select	desired item	goods	vending machine
+000890	0.0013633543391541143	select	desired item	button	vending machine
+000891	0.0006233787758111708	select	desired item	appropriate buttons	vending machine
+000892	0.00023359765536337118	select	desired item	any	vending machine
+000893	0.00041070949726638854	select	desired item	you	vending machine
+000894	0.0018701363274335123	select	desired item	product code	vending machine
+000895	0.002091979541100699	select	desired item	code	vending machine
+000896	0.005020159146239665	select	desired item	machine	vending machine
+000897	0.004973325283091476	put	correct money	item	vending machine
+000898	0.0018701363274335123	put	correct money	desired item	vending machine
+000899	0.0019460259175322634	put	correct money	correct amount of change	vending machine
+000900	0.0038920518350645267	put	correct money	correct amount of money	vending machine
+000901	0.0006233787758111708	put	correct money	desired selection	vending machine
+000902	0.00244755384118469	put	correct money	selection	vending machine
+000903	0.002616274346022079	put	correct money	coins	vending machine
+000904	0.0026891387231845637	put	correct money	change	vending machine
+000905	0.0006233787758111708	put	correct money	right money	vending machine
+000906	0.006199453071399463	put	correct money	money	vending machine
+000907	0.008716581421252912	put	correct money	product	vending machine
+000908	0.0009738154459100127	put	correct money	goods	vending machine
+000909	0.0013633543391541143	put	correct money	button	vending machine
+000910	0.0006233787758111708	put	correct money	appropriate buttons	vending machine
+000911	0.00023359765536337118	put	correct money	any	vending machine
+000912	0.00041070949726638854	put	correct money	you	vending machine
+000913	0.0018701363274335123	put	correct money	product code	vending machine
+000914	0.002091979541100699	put	correct money	code	vending machine
+000915	0.005020159146239665	put	correct money	machine	vending machine
+000916	0.004973325283091476	locate	coins	item	vending machine
+000917	0.0018701363274335123	locate	coins	desired item	vending machine
+000918	0.0019460259175322634	locate	coins	correct amount of change	vending machine
+000919	0.0038920518350645267	locate	coins	correct amount of money	vending machine
+000920	0.0006233787758111708	locate	coins	desired selection	vending machine
+000921	0.00244755384118469	locate	coins	selection	vending machine
+000922	0.0026891387231845637	locate	coins	change	vending machine
+000923	0.0006233787758111708	locate	coins	right money	vending machine
+000924	0.006199453071399463	locate	coins	money	vending machine
+000925	0.008716581421252912	locate	coins	product	vending machine
+000926	0.0009738154459100127	locate	coins	goods	vending machine
+000927	0.0013633543391541143	locate	coins	button	vending machine
+000928	0.0006233787758111708	locate	coins	appropriate buttons	vending machine
+000929	0.00023359765536337118	locate	coins	any	vending machine
+000930	0.00041070949726638854	locate	coins	you	vending machine
+000931	0.0018701363274335123	locate	coins	product code	vending machine
+000932	0.002091979541100699	locate	coins	code	vending machine
+000933	0.005020159146239665	locate	coins	machine	vending machine
+000934	0.004973325283091476	choose	vendindg machine	item	vending machine
+000935	0.0018701363274335123	choose	vendindg machine	desired item	vending machine
+000936	0.0019460259175322634	choose	vendindg machine	correct amount of change	vending machine
+000937	0.0038920518350645267	choose	vendindg machine	correct amount of money	vending machine
+000938	0.0006233787758111708	choose	vendindg machine	desired selection	vending machine
+000939	0.00244755384118469	choose	vendindg machine	selection	vending machine
+000940	0.002616274346022079	choose	vendindg machine	coins	vending machine
+000941	0.0026891387231845637	choose	vendindg machine	change	vending machine
+000942	0.0006233787758111708	choose	vendindg machine	right money	vending machine
+000943	0.006199453071399463	choose	vendindg machine	money	vending machine
+000944	0.008716581421252912	choose	vendindg machine	product	vending machine
+000945	0.0009738154459100127	choose	vendindg machine	goods	vending machine
+000946	0.0013633543391541143	choose	vendindg machine	button	vending machine
+000947	0.0006233787758111708	choose	vendindg machine	appropriate buttons	vending machine
+000948	0.00023359765536337118	choose	vendindg machine	any	vending machine
+000949	0.00041070949726638854	choose	vendindg machine	you	vending machine
+000950	0.0018701363274335123	choose	vendindg machine	product code	vending machine
+000951	0.002091979541100699	choose	vendindg machine	code	vending machine
+000952	0.005020159146239665	choose	vendindg machine	machine	vending machine
+000953	0.003936137851962995	press	number	item	vending machine
+000954	0.0014801192296367061	press	number	desired item	vending machine
+000955	0.0015401820389552969	press	number	correct amount of change	vending machine
+000956	0.0030803640779105937	press	number	correct amount of money	vending machine
+000957	0.0004933730765455687	press	number	desired selection	vending machine
+000958	0.0019371162694220424	press	number	selection	vending machine
+000959	0.002070650097935253	press	number	coins	vending machine
+000960	0.0021283186027451144	press	number	change	vending machine
+000961	0.0004933730765455687	press	number	right money	vending machine
+000962	0.0049065565807179965	press	number	money	vending machine
+000963	0.00689873758882381	press	number	product	vending machine
+000964	0.0007707261478561366	press	number	goods	vending machine
+000965	0.0010790266701893102	press	number	button	vending machine
+000966	0.0004933730765455687	press	number	appropriate buttons	vending machine
+000967	0.00018488084351362137	press	number	any	vending machine
+000968	0.00032505599499939026	press	number	you	vending machine
+000969	0.0014801192296367061	press	number	product code	vending machine
+000970	0.0016556970213177145	press	number	code	vending machine
+000971	0.003973204508776694	press	number	machine	vending machine
+000972	0.003248125872063837	get	item	desired item	vending machine
+000973	0.003379933878466427	get	item	correct amount of change	vending machine
+000974	0.006759867756932854	get	item	correct amount of money	vending machine
+000975	0.001082708624021279	get	item	desired selection	vending machine
+000976	0.00425100717963774	get	item	selection	vending machine
+000977	0.004544047547268093	get	item	coins	vending machine
+000978	0.004670601245595574	get	item	change	vending machine
+000979	0.001082708624021279	get	item	right money	vending machine
+000980	0.010767452414280808	get	item	money	vending machine
+000981	0.015139299320054053	get	item	product	vending machine
+000982	0.001691360730271761	get	item	goods	vending machine
+000983	0.0023679271060812073	get	item	button	vending machine
+000984	0.001082708624021279	get	item	appropriate buttons	vending machine
+000985	0.000405721538536443	get	item	any	vending machine
+000986	0.0007133363083770782	get	item	you	vending machine
+000987	0.003248125872063837	get	item	product code	vending machine
+000988	0.003633431836812972	get	item	code	vending machine
+000989	0.008719208629649316	get	item	machine	vending machine
+000990	0.004318932872762171	count	money	item	vending machine
+000991	0.0016240629360319185	count	money	desired item	vending machine
+000992	0.0016899669392332136	count	money	correct amount of change	vending machine
+000993	0.003379933878466427	count	money	correct amount of money	vending machine
+000994	0.0005413543120106395	count	money	desired selection	vending machine
+000995	0.00212550358981887	count	money	selection	vending machine
+000996	0.0022720237736340463	count	money	coins	vending machine
+000997	0.002335300622797787	count	money	change	vending machine
+000998	0.0005413543120106395	count	money	right money	vending machine
+000999	0.007569649660027026	count	money	product	vending machine
+001000	0.0008456803651358805	count	money	goods	vending machine
+001001	0.0011839635530406037	count	money	button	vending machine
+001002	0.0005413543120106395	count	money	appropriate buttons	vending machine
+001003	0.0002028607692682215	count	money	any	vending machine
+001004	0.0003566681541885391	count	money	you	vending machine
+001005	0.0016240629360319185	count	money	product code	vending machine
+001006	0.001816715918406486	count	money	code	vending machine
+001007	0.004359604314824658	count	money	machine	vending machine
+001008	0.004973325283091476	obtain	change	item	vending machine
+001009	0.0018701363274335123	obtain	change	desired item	vending machine
+001010	0.0019460259175322634	obtain	change	correct amount of change	vending machine
+001011	0.0038920518350645267	obtain	change	correct amount of money	vending machine
+001012	0.0006233787758111708	obtain	change	desired selection	vending machine
+001013	0.00244755384118469	obtain	change	selection	vending machine
+001014	0.002616274346022079	obtain	change	coins	vending machine
+001015	0.0006233787758111708	obtain	change	right money	vending machine
+001016	0.006199453071399463	obtain	change	money	vending machine
+001017	0.008716581421252912	obtain	change	product	vending machine
+001018	0.0009738154459100127	obtain	change	goods	vending machine
+001019	0.0013633543391541143	obtain	change	button	vending machine
+001020	0.0006233787758111708	obtain	change	appropriate buttons	vending machine
+001021	0.00023359765536337118	obtain	change	any	vending machine
+001022	0.00041070949726638854	obtain	change	you	vending machine
+001023	0.0018701363274335123	obtain	change	product code	vending machine
+001024	0.002091979541100699	obtain	change	code	vending machine
+001025	0.005020159146239665	obtain	change	machine	vending machine
+001026	0.029839951698548858	put	money	item	vending machine
+001027	0.011220817964601075	put	money	desired item	vending machine
+001028	0.01167615550519358	put	money	correct amount of change	vending machine
+001029	0.02335231101038716	put	money	correct amount of money	vending machine
+001030	0.0037402726548670245	put	money	desired selection	vending machine
+001031	0.01468532304710814	put	money	selection	vending machine
+001032	0.015697646076132474	put	money	coins	vending machine
+001033	0.016134832339107383	put	money	change	vending machine
+001034	0.0037402726548670245	put	money	right money	vending machine
+001035	0.05229948852751747	put	money	product	vending machine
+001036	0.0058428926754600765	put	money	goods	vending machine
+001037	0.008180126034924686	put	money	button	vending machine
+001038	0.0037402726548670245	put	money	appropriate buttons	vending machine
+001039	0.0014015859321802272	put	money	any	vending machine
+001040	0.0024642569835983314	put	money	you	vending machine
+001041	0.011220817964601075	put	money	product code	vending machine
+001042	0.012551877246604193	put	money	code	vending machine
+001043	0.030120954877437992	put	money	machine	vending machine
+001044	0.004973325283091476	open	slot	item	vending machine
+001045	0.0018701363274335123	open	slot	desired item	vending machine
+001046	0.0019460259175322634	open	slot	correct amount of change	vending machine
+001047	0.0038920518350645267	open	slot	correct amount of money	vending machine
+001048	0.0006233787758111708	open	slot	desired selection	vending machine
+001049	0.00244755384118469	open	slot	selection	vending machine
+001050	0.002616274346022079	open	slot	coins	vending machine
+001051	0.0026891387231845637	open	slot	change	vending machine
+001052	0.0006233787758111708	open	slot	right money	vending machine
+001053	0.006199453071399463	open	slot	money	vending machine
+001054	0.008716581421252912	open	slot	product	vending machine
+001055	0.0009738154459100127	open	slot	goods	vending machine
+001056	0.0013633543391541143	open	slot	button	vending machine
+001057	0.0006233787758111708	open	slot	appropriate buttons	vending machine
+001058	0.00023359765536337118	open	slot	any	vending machine
+001059	0.00041070949726638854	open	slot	you	vending machine
+001060	0.0018701363274335123	open	slot	product code	vending machine
+001061	0.002091979541100699	open	slot	code	vending machine
+001062	0.005020159146239665	open	slot	machine	vending machine
+001063	0.004973325283091476	buy	machine	item	vending machine
+001064	0.0018701363274335123	buy	machine	desired item	vending machine
+001065	0.0019460259175322634	buy	machine	correct amount of change	vending machine
+001066	0.0038920518350645267	buy	machine	correct amount of money	vending machine
+001067	0.0006233787758111708	buy	machine	desired selection	vending machine
+001068	0.00244755384118469	buy	machine	selection	vending machine
+001069	0.002616274346022079	buy	machine	coins	vending machine
+001070	0.0026891387231845637	buy	machine	change	vending machine
+001071	0.0006233787758111708	buy	machine	right money	vending machine
+001072	0.006199453071399463	buy	machine	money	vending machine
+001073	0.008716581421252912	buy	machine	product	vending machine
+001074	0.0009738154459100127	buy	machine	goods	vending machine
+001075	0.0013633543391541143	buy	machine	button	vending machine
+001076	0.0006233787758111708	buy	machine	appropriate buttons	vending machine
+001077	0.00023359765536337118	buy	machine	any	vending machine
+001078	0.00041070949726638854	buy	machine	you	vending machine
+001079	0.0018701363274335123	buy	machine	product code	vending machine
+001080	0.002091979541100699	buy	machine	code	vending machine
+001081	0.004973325283091476	consume	product	item	vending machine
+001082	0.0018701363274335123	consume	product	desired item	vending machine
+001083	0.0019460259175322634	consume	product	correct amount of change	vending machine
+001084	0.0038920518350645267	consume	product	correct amount of money	vending machine
+001085	0.0006233787758111708	consume	product	desired selection	vending machine
+001086	0.00244755384118469	consume	product	selection	vending machine
+001087	0.002616274346022079	consume	product	coins	vending machine
+001088	0.0026891387231845637	consume	product	change	vending machine
+001089	0.0006233787758111708	consume	product	right money	vending machine
+001090	0.006199453071399463	consume	product	money	vending machine
+001091	0.0009738154459100127	consume	product	goods	vending machine
+001092	0.0013633543391541143	consume	product	button	vending machine
+001093	0.0006233787758111708	consume	product	appropriate buttons	vending machine
+001094	0.00023359765536337118	consume	product	any	vending machine
+001095	0.00041070949726638854	consume	product	you	vending machine
+001096	0.0018701363274335123	consume	product	product code	vending machine
+001097	0.002091979541100699	consume	product	code	vending machine
+001098	0.005020159146239665	consume	product	machine	vending machine
+001099	0.004973325283091476	change	paper money	item	vending machine
+001100	0.0018701363274335123	change	paper money	desired item	vending machine
+001101	0.0019460259175322634	change	paper money	correct amount of change	vending machine
+001102	0.0038920518350645267	change	paper money	correct amount of money	vending machine
+001103	0.0006233787758111708	change	paper money	desired selection	vending machine
+001104	0.00244755384118469	change	paper money	selection	vending machine
+001105	0.002616274346022079	change	paper money	coins	vending machine
+001106	0.0026891387231845637	change	paper money	change	vending machine
+001107	0.0006233787758111708	change	paper money	right money	vending machine
+001108	0.006199453071399463	change	paper money	money	vending machine
+001109	0.008716581421252912	change	paper money	product	vending machine
+001110	0.0009738154459100127	change	paper money	goods	vending machine
+001111	0.0013633543391541143	change	paper money	button	vending machine
+001112	0.0006233787758111708	change	paper money	appropriate buttons	vending machine
+001113	0.00023359765536337118	change	paper money	any	vending machine
+001114	0.00041070949726638854	change	paper money	you	vending machine
+001115	0.0018701363274335123	change	paper money	product code	vending machine
+001116	0.002091979541100699	change	paper money	code	vending machine
+001117	0.005020159146239665	change	paper money	machine	vending machine
+001118	0.009946650566182953	enter	product code	item	vending machine
+001119	0.0037402726548670245	enter	product code	desired item	vending machine
+001120	0.0038920518350645267	enter	product code	correct amount of change	vending machine
+001121	0.0077841036701290535	enter	product code	correct amount of money	vending machine
+001122	0.0012467575516223416	enter	product code	desired selection	vending machine
+001123	0.00489510768236938	enter	product code	selection	vending machine
+001124	0.005232548692044158	enter	product code	coins	vending machine
+001125	0.005378277446369127	enter	product code	change	vending machine
+001126	0.0012467575516223416	enter	product code	right money	vending machine
+001127	0.012398906142798927	enter	product code	money	vending machine
+001128	0.017433162842505824	enter	product code	product	vending machine
+001129	0.0019476308918200255	enter	product code	goods	vending machine
+001130	0.0027267086783082286	enter	product code	button	vending machine
+001131	0.0012467575516223416	enter	product code	appropriate buttons	vending machine
+001132	0.00046719531072674235	enter	product code	any	vending machine
+001133	0.0008214189945327771	enter	product code	you	vending machine
+001134	0.004183959082201398	enter	product code	code	vending machine
+001135	0.01004031829247933	enter	product code	machine	vending machine
+001136	0.004973325283091476	press	selection	item	vending machine
+001137	0.0018701363274335123	press	selection	desired item	vending machine
+001138	0.0019460259175322634	press	selection	correct amount of change	vending machine
+001139	0.0038920518350645267	press	selection	correct amount of money	vending machine
+001140	0.0006233787758111708	press	selection	desired selection	vending machine
+001141	0.002616274346022079	press	selection	coins	vending machine
+001142	0.0026891387231845637	press	selection	change	vending machine
+001143	0.0006233787758111708	press	selection	right money	vending machine
+001144	0.006199453071399463	press	selection	money	vending machine
+001145	0.008716581421252912	press	selection	product	vending machine
+001146	0.0009738154459100127	press	selection	goods	vending machine
+001147	0.0013633543391541143	press	selection	button	vending machine
+001148	0.0006233787758111708	press	selection	appropriate buttons	vending machine
+001149	0.00023359765536337118	press	selection	any	vending machine
+001150	0.00041070949726638854	press	selection	you	vending machine
+001151	0.0018701363274335123	press	selection	product code	vending machine
+001152	0.002091979541100699	press	selection	code	vending machine
+001153	0.005020159146239665	press	selection	machine	vending machine
+001154	0.003936137851962995	get	change	item	vending machine
+001155	0.0014801192296367061	get	change	desired item	vending machine
+001156	0.0015401820389552969	get	change	correct amount of change	vending machine
+001157	0.0030803640779105937	get	change	correct amount of money	vending machine
+001158	0.0004933730765455687	get	change	desired selection	vending machine
+001159	0.0019371162694220424	get	change	selection	vending machine
+001160	0.002070650097935253	get	change	coins	vending machine
+001161	0.0004933730765455687	get	change	right money	vending machine
+001162	0.0049065565807179965	get	change	money	vending machine
+001163	0.00689873758882381	get	change	product	vending machine
+001164	0.0007707261478561366	get	change	goods	vending machine
+001165	0.0010790266701893102	get	change	button	vending machine
+001166	0.0004933730765455687	get	change	appropriate buttons	vending machine
+001167	0.00018488084351362137	get	change	any	vending machine
+001168	0.00032505599499939026	get	change	you	vending machine
+001169	0.0014801192296367061	get	change	product code	vending machine
+001170	0.0016556970213177145	get	change	code	vending machine
+001171	0.003973204508776694	get	change	machine	vending machine
+001172	0.005610408982300538	choose	item	desired item	vending machine
+001173	0.00583807775259679	choose	item	correct amount of change	vending machine
+001174	0.01167615550519358	choose	item	correct amount of money	vending machine
+001175	0.0018701363274335123	choose	item	desired selection	vending machine
+001176	0.00734266152355407	choose	item	selection	vending machine
+001177	0.007848823038066237	choose	item	coins	vending machine
+001178	0.008067416169553691	choose	item	change	vending machine
+001179	0.0018701363274335123	choose	item	right money	vending machine
+001180	0.018598359214198393	choose	item	money	vending machine
+001181	0.026149744263758736	choose	item	product	vending machine
+001182	0.0029214463377300382	choose	item	goods	vending machine
+001183	0.004090063017462343	choose	item	button	vending machine
+001184	0.0018701363274335123	choose	item	appropriate buttons	vending machine
+001185	0.0007007929660901136	choose	item	any	vending machine
+001186	0.0012321284917991657	choose	item	you	vending machine
+001187	0.005610408982300538	choose	item	product code	vending machine
+001188	0.006275938623302097	choose	item	code	vending machine
+001189	0.015060477438718996	choose	item	machine	vending machine
+001190	0.004973325283091476	insert	funds	item	vending machine
+001191	0.0018701363274335123	insert	funds	desired item	vending machine
+001192	0.0019460259175322634	insert	funds	correct amount of change	vending machine
+001193	0.0038920518350645267	insert	funds	correct amount of money	vending machine
+001194	0.0006233787758111708	insert	funds	desired selection	vending machine
+001195	0.00244755384118469	insert	funds	selection	vending machine
+001196	0.002616274346022079	insert	funds	coins	vending machine
+001197	0.0026891387231845637	insert	funds	change	vending machine
+001198	0.0006233787758111708	insert	funds	right money	vending machine
+001199	0.006199453071399463	insert	funds	money	vending machine
+001200	0.008716581421252912	insert	funds	product	vending machine
+001201	0.0009738154459100127	insert	funds	goods	vending machine
+001202	0.0013633543391541143	insert	funds	button	vending machine
+001203	0.0006233787758111708	insert	funds	appropriate buttons	vending machine
+001204	0.00023359765536337118	insert	funds	any	vending machine
+001205	0.00041070949726638854	insert	funds	you	vending machine
+001206	0.0018701363274335123	insert	funds	product code	vending machine
+001207	0.002091979541100699	insert	funds	code	vending machine
+001208	0.005020159146239665	insert	funds	machine	vending machine
+001209	0.004973325283091476	retreive	selection	item	vending machine
+001210	0.0018701363274335123	retreive	selection	desired item	vending machine
+001211	0.0019460259175322634	retreive	selection	correct amount of change	vending machine
+001212	0.0038920518350645267	retreive	selection	correct amount of money	vending machine
+001213	0.0006233787758111708	retreive	selection	desired selection	vending machine
+001214	0.002616274346022079	retreive	selection	coins	vending machine
+001215	0.0026891387231845637	retreive	selection	change	vending machine
+001216	0.0006233787758111708	retreive	selection	right money	vending machine
+001217	0.006199453071399463	retreive	selection	money	vending machine
+001218	0.008716581421252912	retreive	selection	product	vending machine
+001219	0.0009738154459100127	retreive	selection	goods	vending machine
+001220	0.0013633543391541143	retreive	selection	button	vending machine
+001221	0.0006233787758111708	retreive	selection	appropriate buttons	vending machine
+001222	0.00023359765536337118	retreive	selection	any	vending machine
+001223	0.00041070949726638854	retreive	selection	you	vending machine
+001224	0.0018701363274335123	retreive	selection	product code	vending machine
+001225	0.002091979541100699	retreive	selection	code	vending machine
+001226	0.005020159146239665	retreive	selection	machine	vending machine
+001227	0.0018701363274335123	grabbing	item	desired item	vending machine
+001228	0.0019460259175322634	grabbing	item	correct amount of change	vending machine
+001229	0.0038920518350645267	grabbing	item	correct amount of money	vending machine
+001230	0.0006233787758111708	grabbing	item	desired selection	vending machine
+001231	0.00244755384118469	grabbing	item	selection	vending machine
+001232	0.002616274346022079	grabbing	item	coins	vending machine
+001233	0.0026891387231845637	grabbing	item	change	vending machine
+001234	0.0006233787758111708	grabbing	item	right money	vending machine
+001235	0.006199453071399463	grabbing	item	money	vending machine
+001236	0.008716581421252912	grabbing	item	product	vending machine
+001237	0.0009738154459100127	grabbing	item	goods	vending machine
+001238	0.0013633543391541143	grabbing	item	button	vending machine
+001239	0.0006233787758111708	grabbing	item	appropriate buttons	vending machine
+001240	0.00023359765536337118	grabbing	item	any	vending machine
+001241	0.00041070949726638854	grabbing	item	you	vending machine
+001242	0.0018701363274335123	grabbing	item	product code	vending machine
+001243	0.002091979541100699	grabbing	item	code	vending machine
+001244	0.005020159146239665	grabbing	item	machine	vending machine
+001245	0.004973325283091476	press	selection button	item	vending machine
+001246	0.0018701363274335123	press	selection button	desired item	vending machine
+001247	0.0019460259175322634	press	selection button	correct amount of change	vending machine
+001248	0.0038920518350645267	press	selection button	correct amount of money	vending machine
+001249	0.0006233787758111708	press	selection button	desired selection	vending machine
+001250	0.00244755384118469	press	selection button	selection	vending machine
+001251	0.002616274346022079	press	selection button	coins	vending machine
+001252	0.0026891387231845637	press	selection button	change	vending machine
+001253	0.0006233787758111708	press	selection button	right money	vending machine
+001254	0.006199453071399463	press	selection button	money	vending machine
+001255	0.008716581421252912	press	selection button	product	vending machine
+001256	0.0009738154459100127	press	selection button	goods	vending machine
+001257	0.0013633543391541143	press	selection button	button	vending machine
+001258	0.0006233787758111708	press	selection button	appropriate buttons	vending machine
+001259	0.00023359765536337118	press	selection button	any	vending machine
+001260	0.00041070949726638854	press	selection button	you	vending machine
+001261	0.0018701363274335123	press	selection button	product code	vending machine
+001262	0.002091979541100699	press	selection button	code	vending machine
+001263	0.005020159146239665	press	selection button	machine	vending machine
+001264	0.012956798618286513	put	coins	item	vending machine
+001265	0.004872188808095756	put	coins	desired item	vending machine
+001266	0.005069900817699641	put	coins	correct amount of change	vending machine
+001267	0.010139801635399282	put	coins	correct amount of money	vending machine
+001268	0.0016240629360319185	put	coins	desired selection	vending machine
+001269	0.00637651076945661	put	coins	selection	vending machine
+001270	0.007005901868393361	put	coins	change	vending machine
+001271	0.0016240629360319185	put	coins	right money	vending machine
+001272	0.016151178621421212	put	coins	money	vending machine
+001273	0.02270894898008108	put	coins	product	vending machine
+001274	0.0025370410954076417	put	coins	goods	vending machine
+001275	0.0035518906591218108	put	coins	button	vending machine
+001276	0.0016240629360319185	put	coins	appropriate buttons	vending machine
+001277	0.0006085823078046644	put	coins	any	vending machine
+001278	0.0010700044625656174	put	coins	you	vending machine
+001279	0.004872188808095756	put	coins	product code	vending machine
+001280	0.005450147755219459	put	coins	code	vending machine
+001281	0.013078812944473975	put	coins	machine	vending machine
+001282	0.00942302256709702	push	button	item	vending machine
+001283	0.0035433710473085486	push	button	desired item	vending machine
+001284	0.003687160017344257	push	button	correct amount of change	vending machine
+001285	0.007374320034688514	push	button	correct amount of money	vending machine
+001286	0.0011811236824361827	push	button	desired selection	vending machine
+001287	0.004637411342885636	push	button	selection	vending machine
+001288	0.004957088225879793	push	button	coins	vending machine
+001289	0.005095145286549825	push	button	change	vending machine
+001290	0.0011811236824361827	push	button	right money	vending machine
+001291	0.0117461824574529	push	button	money	vending machine
+001292	0.01651541750539747	push	button	product	vending machine
+001293	0.0018451004912539348	push	button	goods	vending machine
+001294	0.0011811236824361827	push	button	appropriate buttons	vending machine
+001295	0.0004426004439310895	push	button	any	vending machine
+001296	0.0007781764998199629	push	button	you	vending machine
+001297	0.0035433710473085486	push	button	product code	vending machine
+001298	0.003963700201295392	push	button	code	vending machine
+001299	0.009511759282318549	push	button	machine	vending machine
+001300	0.004973325283091476	recieving	change	item	vending machine
+001301	0.0018701363274335123	recieving	change	desired item	vending machine
+001302	0.0019460259175322634	recieving	change	correct amount of change	vending machine
+001303	0.0038920518350645267	recieving	change	correct amount of money	vending machine
+001304	0.0006233787758111708	recieving	change	desired selection	vending machine
+001305	0.00244755384118469	recieving	change	selection	vending machine
+001306	0.002616274346022079	recieving	change	coins	vending machine
+001307	0.0006233787758111708	recieving	change	right money	vending machine
+001308	0.006199453071399463	recieving	change	money	vending machine
+001309	0.008716581421252912	recieving	change	product	vending machine
+001310	0.0009738154459100127	recieving	change	goods	vending machine
+001311	0.0013633543391541143	recieving	change	button	vending machine
+001312	0.0006233787758111708	recieving	change	appropriate buttons	vending machine
+001313	0.00023359765536337118	recieving	change	any	vending machine
+001314	0.00041070949726638854	recieving	change	you	vending machine
+001315	0.0018701363274335123	recieving	change	product code	vending machine
+001316	0.002091979541100699	recieving	change	code	vending machine
+001317	0.005020159146239665	recieving	change	machine	vending machine

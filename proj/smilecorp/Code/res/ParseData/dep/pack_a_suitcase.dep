@@ -1,0 +1,623 @@
+det(suitcase-3, a-2)
+dobj(find-1, suitcase-3)
+
+dobj(find-1, things-2)
+dobj(want-4, things-2)
+nsubj(want-4, you-3)
+xsubj(put-6, you-3)
+rcmod(things-2, want-4)
+aux(put-6, to-5)
+xcomp(want-4, put-6)
+det(suitcase-9, the-8)
+prep_into(put-6, suitcase-9)
+
+det(things-3, the-2)
+dobj(arrange-1, things-3)
+det(suitcase-6, the-5)
+prep_in(arrange-1, suitcase-6)
+
+nn(lid-3, suitcase-2)
+dobj(open-1, lid-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, item-3)
+
+dobj(fold-1, item-2)
+
+dobj(place-1, item-2)
+prep_in(place-1, suitcase-4)
+
+nn(lid-3, suitcase-2)
+dobj(close-1, lid-3)
+
+dobj(retrieve-1, suitcase-2)
+
+dobj(open-1, suitcase-2)
+
+dobj(fold-1, clothes-2)
+
+dobj(place-1, clothes-2)
+prep_in(place-1, suitcase-4)
+
+dobj(close-1, suticase-2)
+
+dobj(open-1, suitcase-2)
+
+dobj(put-1, things-2)
+aux(packed-5, to-3)
+auxpass(packed-5, be-4)
+infmod(things-2, packed-5)
+advmod(packed-5, inside-6)
+
+acomp(make-1, sure-2)
+nsubjpass(folded-5, clothes-3)
+auxpass(folded-5, are-4)
+ccomp(sure-2, folded-5)
+
+det(suitcase-3, the-2)
+dobj(close-1, suitcase-3)
+
+det(items-3, the-2)
+dobj(gather-1, items-3)
+aux(packed-6, to-4)
+auxpass(packed-6, be-5)
+xcomp(gather-1, packed-6)
+
+dobj(place-1, them-2)
+det(suitcase-5, the-4)
+prep_near(place-1, suitcase-5)
+
+det(item-3, each-2)
+dobj(fold-1, item-3)
+aux(be-5, to-4)
+infmod(item-3, be-5)
+advmod(compact-8, as-7)
+amod(form-9, compact-8)
+prep_in(be-5, form-9)
+prep_as(fold-1, possible-11)
+
+det(suitcase-3, the-2)
+dobj(open-1, suitcase-3)
+
+det(item-3, each-2)
+dobj(place-1, item-3)
+det(suitcase-6, the-5)
+prep_in(place-1, suitcase-6)
+
+det(suitcase-3, the-2)
+dobj(close-1, suitcase-3)
+
+dobj(gather-1, clothes-2)
+
+dobj(fold-1, cloth-2)
+
+dobj(get-1, suitcase-2)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, suitcase-4)
+
+dobj(close-1, suitcase-2)
+
+det(suitcase-3, the-2)
+dobj(open-1, suitcase-3)
+
+det(clothes-3, the-2)
+dobj(put-1, clothes-3)
+det(suitcase-6, the-5)
+prep_in(put-1, suitcase-6)
+
+amod(things\/documents-4, other-2)
+amod(things\/documents-4, important-3)
+dobj(put-1, things\/documents-4)
+det(suitcase-7, the-6)
+prep_in(put-1, suitcase-7)
+
+det(suitcase-3, the-2)
+dobj(close-1, suitcase-3)
+
+det(suitcase-3, the-2)
+dobj(open-1, suitcase-3)
+
+dobj(place-1, clothes-2)
+det(suitcase-5, the-4)
+prep_in(place-1, suitcase-5)
+
+dobj(place-1, shampoo-2)
+det(suitcase-5, the-4)
+prep_in(place-1, suitcase-5)
+
+dobj(place-1, toothbrush-2)
+amod(supplies-6, other-4)
+nn(supplies-6, bathroom-5)
+dobj(place-1, supplies-6)
+conj_and(toothbrush-2, supplies-6)
+det(suitcase-9, the-8)
+prep_in(place-1, suitcase-9)
+
+det(suitcase-3, the-2)
+dobj(close-1, suitcase-3)
+
+det(things-3, the-2)
+dobj(gather-1, things-3)
+aux(put-6, to-4)
+auxpass(put-6, be-5)
+infmod(things-3, put-6)
+det(suitcase-9, the-8)
+prep_into(put-6, suitcase-9)
+
+det(suitcase-3, the-2)
+dobj(open-1, suitcase-3)
+
+det(things-3, the-2)
+dobj(put-1, things-3)
+det(suitcase-6, the-5)
+prep_into(put-1, suitcase-6)
+
+det(suitcase-3, the-2)
+dobj(close-1, suitcase-3)
+
+dobj(fold-1, clothes-2)
+
+dobj(put-1, liquids-2)
+nn(bags-5, plastic-4)
+prep_into(put-1, bags-5)
+
+dobj(open-1, suitcase-2)
+
+dobj(put-1, items-2)
+prep_into(put-1, suitcase-4)
+amod(manner-7, space-efficient-6)
+prep_in(put-1, manner-7)
+
+dobj(close-1, suitcase-2)
+
+det(items-3, all-2)
+dobj(gather-1, items-3)
+aux(put-6, to-4)
+auxpass(put-6, be-5)
+xcomp(gather-1, put-6)
+det(suitcase-9, the-8)
+prep_into(put-6, suitcase-9)
+
+dobj(put-1, items-2)
+det(suitcase-5, the-4)
+prep_into(put-1, suitcase-5)
+
+det(suitcase-3, the-2)
+dobj(close-1, suitcase-3)
+
+dobj(gather-1, clothes-2)
+
+dobj(get-1, suitcase-2)
+
+dobj(arrange-1, clothes-2)
+prep_in(arrange-1, suitcase-4)
+
+dobj(close-1, suitcase-2)
+
+dobj(needed-5, what-2)
+nsubjpass(needed-5, items-3)
+auxpass(needed-5, are-4)
+ccomp(determine-1, needed-5)
+det(trip-8, the-7)
+prep_for(needed-5, trip-8)
+
+det(items-3, the-2)
+dobj(locate-1, items-3)
+nsubjpass(needed-6, items-3)
+auxpass(needed-6, are-5)
+rcmod(items-3, needed-6)
+
+nn(items-3, clothing-2)
+dobj(fold-1, items-3)
+
+det(suitcase-3, the-2)
+dobj(open-1, suitcase-3)
+
+det(items-3, all-2)
+dobj(place-1, items-3)
+det(fashion-7, a-5)
+amod(fashion-7, logical-6)
+prep_in(place-1, fashion-7)
+det(suitcase-10, the-9)
+prep_in(place-1, suitcase-10)
+
+det(suitcase-3, the-2)
+dobj(close-1, suitcase-3)
+
+dobj(gather-1, clothes-2)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, suitcase-4)
+
+dobj(close-1, suitcase-2)
+
+dobj(open-1, suitcase-2)
+
+dobj(fold-1, clothes-2)
+
+dobj(place-1, clothes-2)
+prep_in(place-1, suitcase-4)
+
+dobj(close-1, suitcase-2)
+
+dobj(secure-1, suitcase-2)
+
+dobj(gather-1, clothes-2)
+
+dobj(place-1, clothes-2)
+prep_inside(place-1, suitcase-4)
+
+dobj(close-1, suitecase-2)
+
+det(suitcase-3, the-2)
+dobj(get-1, suitcase-3)
+
+poss(clothe4s-3, your-2)
+dobj(get-1, clothe4s-3)
+det(wardrobe-6, the-5)
+prep_out(get-1, wardrobe-6)
+
+dobj(put-1, them-2)
+det(suitcase-5, the-4)
+prep_in(put-1, suitcase-5)
+
+det(suitcase-3, the-2)
+dobj(close-1, suitcase-3)
+
+det(suitcase-3, a-2)
+dobj(find-1, suitcase-3)
+
+det(suitcase-3, the-2)
+dobj(open-1, suitcase-3)
+
+dobj(find-1, items-2)
+aux(put-4, to-3)
+infmod(items-2, put-4)
+det(suitcase-7, the-6)
+prep_into(put-4, suitcase-7)
+
+det(item-3, an-2)
+dobj(put-1, item-3)
+det(suitcase-6, the-5)
+prep_into(put-1, suitcase-6)
+
+mark(are-5, until-2)
+det(items-4, all-3)
+nsubj(are-5, items-4)
+advcl(repeat-1, are-5)
+det(suitcase-8, the-7)
+prep_in(are-5, suitcase-8)
+mark(full-14, until-10)
+det(suitcase-12, the-11)
+nsubj(full-14, suitcase-12)
+cop(full-14, is-13)
+advcl(repeat-1, full-14)
+conj_or(are-5, full-14)
+
+det(suitcase-3, the-2)
+dobj(close-1, suitcase-3)
+
+dobj(get-1, suitcase-2)
+
+dobj(identify-1, essentials-2)
+
+dobj(pack-1, essentials-2)
+
+dobj(check-1, weather-2)
+prep_of(weather-2, destination-4)
+
+dobj(choose-1, clothing-2)
+
+dobj(pack-1, clothing-2)
+
+dobj(lock-1, suitcase-2)
+
+det(suitcase-4, an-2)
+amod(suitcase-4, empty-3)
+dobj(find-1, suitcase-4)
+
+dobj(gather-1, items-2)
+aux(packed-5, to-3)
+auxpass(packed-5, be-4)
+infmod(items-2, packed-5)
+
+dobj(put-1, items-2)
+prep_in(put-1, suitcase-4)
+
+dobj(close-1, suitcase-2)
+
+dobj(book-1, trip-2)
+
+dobj(find-1, suitcase-2)
+
+dobj(unpack-1, suitcase-2)
+amod(trip-5, last-4)
+prep_from(unpack-1, trip-5)
+
+amod(clothing-3, desired-2)
+dobj(gather-1, clothing-3)
+
+dobj(fold-1, clothing-2)
+advmod(fold-1, neatly-3)
+
+dobj(place-1, clothing-2)
+prep_into(place-1, suitcase-4)
+
+dobj(close-1, suitcase-2)
+
+det(suitcase-3, a-2)
+dobj(open-1, suitcase-3)
+
+dobj(fold-1, clothes-2)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, suitcase-4)
+
+dobj(close-1, suitcase-2)
+
+det(suitcase-3, the-2)
+dobj(open-1, suitcase-3)
+
+prt(gather-1, up-2)
+det(clothes-4, the-3)
+dobj(gather-1, clothes-4)
+
+det(clothes-3, the-2)
+dobj(put-1, clothes-3)
+det(suitcase-6, the-5)
+prep_in(put-1, suitcase-6)
+
+det(suitcase-3, the-2)
+dobj(close-1, suitcase-3)
+
+dobj(find-1, suitcase-2)
+
+dobj(open-1, suitcase-2)
+
+dobj(gather-1, items-2)
+prep_to(gather-1, pack-4)
+
+dobj(organize-1, items-2)
+
+advmod(put-4, where-2)
+aux(put-4, to-3)
+xcomp(plan-1, put-4)
+dobj(put-4, items-5)
+
+dobj(put-1, items-2)
+prep_into(put-1, suitcase-4)
+
+dobj(close-1, suitcase-2)
+
+dobj(select-1, clothes-2)
+
+dobj(fold-1, clothes-2)
+
+prep_in(place-1, suitcase-3)
+
+nsubj(thean-7, yell-1)
+prep_at(yell-1, spouse-3)
+amod(yell-1, louder-4)
+amod(yell-1, longer-6)
+conj_and(louder-4, longer-6)
+acomp(thean-7, usual-8)
+
+dobj(yank-1, suitcase-2)
+prep_out_of(yank-1, closet-5)
+
+det(hour-3, an-2)
+dobj(spend-1, hour-3)
+prep(spend-1, looking-4)
+dep(looking-4, at-5)
+nn(dress-7, wedding-6)
+pobj(at-5, dress-7)
+nn(case-10, suit-9)
+prep_in(spend-1, case-10)
+
+
+cc(makeup-3, and-2)
+dobj(kiss-1, makeup-3)
+
+dobj(put-1, suitcasr-2)
+advmod(put-1, back-3)
+prep_in(put-1, closet-5)
+
+dobj(pat-1, robot-2)
+
+dobj(find-1, suitcases-2)
+
+prt(lay-1, out-2)
+dobj(lay-1, outfits-3)
+
+dobj(wrap-1, shoes-2)
+prep_in(wrap-1, bags-4)
+
+prt(roll-1, up-2)
+nn(cases-6, clothing-3)
+conj_and(clothing-3, stuff-5)
+nn(cases-6, stuff-5)
+dobj(roll-1, cases-6)
+
+dobj(find-1, toiletries-2)
+dobj(find-1, put-4)
+conj_and(toiletries-2, put-4)
+partmod(toiletries-2, put-4)
+prep_in(put-4, suitcase-6)
+
+dep(find-1, jewelry-2)
+dep(jewelry-2, and-3)
+dep(jewelry-2, put-4)
+prep_in(put-4, case-6)
+
+dep(find-1, entertainment-2)
+dep(entertainment-2, and-3)
+dep(entertainment-2, put-4)
+prep_in(put-4, case-6)
+
+dobj(open-1, suitcase-2)
+
+dobj(fill-1, suitcase-2)
+prep_with(fill-1, clothes-4)
+
+dobj(close-1, suitcase-2)
+
+det(items-4, all-2)
+amod(items-4, necessary-3)
+dobj(locate-1, items-4)
+
+dobj(fold-1, clothing-2)
+
+dobj(put-1, clothing-2)
+prep_in(put-1, suitcase-4)
+
+amod(stuff-3, other-2)
+dobj(put-1, stuff-3)
+prep_on_top_of(put-1, clothing-7)
+
+prt(zip-1, up-2)
+dobj(zip-1, suitcase-3)
+
+dobj(open-1, suitcase-2)
+
+prep_with(fill-1, clothes-3)
+
+dobj(close-1, suitcase-2)
+
+dobj(put-1, suitcase-2)
+prep_on(put-1, bed-4)
+
+dobj(open-1, suitcase-2)
+
+dobj(take-1, clothes-2)
+prep_out_of(take-1, wardrobe-5)
+
+dobj(put-1, clothes-2)
+prep_in(put-1, suitcase-4)
+
+csubj(seal-3, close-1)
+cc(close-1, and-2)
+dobj(seal-3, suitcase-4)
+
+prt(pick-1, out-2)
+amod(clothes-4, clean-3)
+dobj(pick-1, clothes-4)
+nsubj(need-6, you-5)
+dep(pick-1, need-6)
+
+prep(gather-1, and-2)
+nn(toiletries-4, bag-3)
+dep(and-2, toiletries-4)
+
+advmod(place-1, neatly-2)
+prep_into(place-1, suitcase-4)
+
+prt(zip-1, up-2)
+dobj(zip-1, suitcase-3)
+
+dobj(remove-1, clothes-2)
+prep_from(remove-1, closet-4)
+
+dobj(open-1, suitcase-2)
+
+dobj(fold-1, clothes-2)
+
+amod(clothes-3, folded-2)
+dobj(place-1, clothes-3)
+prep_in(place-1, suitcase-5)
+
+advmod(distribution-3, even-2)
+dobj(ensure-1, distribution-3)
+
+dobj(close-1, suitcase-2)
+
+dobj(secure-1, zipper-2)
+
+dobj(open-1, suitcase-2)
+
+prt(pick-1, out-2)
+amod(items-4, wanted-3)
+dobj(pick-1, items-4)
+prep_for(items-4, trip-6)
+
+dobj(fold-1, them-2)
+advmod(fold-1, neatly-3)
+
+dobj(arrange-1, them-2)
+advmod(arrange-1, neatly-3)
+prep_in(arrange-1, suitcase-5)
+prep_in(arrange-1, pockets-7)
+conj_and(suitcase-5, pockets-7)
+
+dobj(close-1, suitcase-2)
+
+dobj(take-1, clothes-2)
+prep_from(take-1, closet-4)
+
+dobj(fold-1, clothes-2)
+
+dobj(place-1, clothes-2)
+prep_in(place-1, suitcase-4)
+
+dobj(arrange-1, clothes-2)
+advmod(arrange-1, carefully-3)
+
+dobj(close-1, suitcase-2)
+
+prep_towards(walk-1, suitcase-3)
+
+dobj(pack-1, everything-2)
+dobj(need-4, everything-2)
+nsubj(need-4, you-3)
+rcmod(everything-2, need-4)
+
+dobj(put-1, everything-2)
+prep_in(put-1, suitcase-4)
+
+dobj(close-1, suitcase-2)
+
+dobj(buckle-1, everything-2)
+prep_on(buckle-1, suitcase-4)
+
+
+dobj(choose-1, clothing-2)
+
+dobj(fold-1, clothes-2)
+
+dobj(place-1, clothes-2)
+prep_in(place-1, suitcase-4)
+
+dobj(close-1, suitcase-2)
+
+
+dobj(pack-1, suitcase-2)
+
+det(case4-4, the-2)
+nn(case4-4, suit-3)
+dobj(pack-1, case4-4)
+
+dobj(place-1, things-2)
+aux(bring-4, to-3)
+infmod(things-2, bring-4)
+prep_in(bring-4, suitcase-6)
+
+dobj(get-1, suitcase-2)
+
+prt(figure-1, out-2)
+nsubjpass(needed-5, what-3)
+auxpass(needed-5, is-4)
+ccomp(figure-1, needed-5)
+
+dobj(get-1, clothes-2)
+
+dobj(fold-1, clothes-2)
+
+prep_in(place-1, suitcase-3)
+
+nn(stuff-3, bathroom-2)
+dobj(put-1, stuff-3)
+prep_in(put-1, ziplock-5)
+prep_in(put-1, suitcase-7)
+
+dep(clothes-1, lid-2)
+

@@ -1,0 +1,574 @@
+det(paper-3, some-2)
+dobj(find-1, paper-3)
+
+det(pen-3, a-2)
+dobj(find-1, pen-3)
+
+det(letter-3, the-2)
+dobj(write-1, letter-3)
+
+dep(find-1, writing-2)
+dobj(writing-2, paper-3)
+
+det(pen-3, a-2)
+dobj(find-1, pen-3)
+dobj(find-1, pencil-5)
+conj_or(pen-3, pencil-5)
+
+det(message-3, a-2)
+dobj(write-1, message-3)
+det(paper-6, the-5)
+prep_on(write-1, paper-6)
+det(pen-9, the-8)
+prep_with(write-1, pen-9)
+prep_with(write-1, pencil-11)
+conj_or(pen-9, pencil-11)
+
+det(recipient-3, the-2)
+dobj(determine-1, recipient-3)
+det(letter-6, the-5)
+prep_of(recipient-3, letter-6)
+
+det(content-3, the-2)
+dobj(determine-1, content-3)
+det(letter-6, the-5)
+prep_of(content-3, letter-6)
+
+det(pieces-4, a-2)
+amod(pieces-4, few-3)
+dobj(locate-1, pieces-4)
+prep_of(pieces-4, paper-6)
+
+det(writing-3, a-2)
+dobj(locate-1, writing-3)
+dep(locate-1, implement-4)
+
+dep(transcribe-5, using-1)
+det(writing-3, the-2)
+dobj(using-1, writing-3)
+nsubj(transcribe-5, implement-4)
+det(thoughts-7, the-6)
+dobj(transcribe-5, thoughts-7)
+det(paper-10, the-9)
+prep_onto(transcribe-5, paper-10)
+
+dobj(find-1, paper-2)
+
+det(pen-3, a-2)
+dobj(find-1, pen-3)
+
+nsubj(write-4, who-2)
+aux(write-4, to-3)
+ccomp(decide-1, write-4)
+xcomp(decide-1, write-4)
+prep(write-4, to-5)
+
+dobj(use-1, pen-2)
+aux(write-4, to-3)
+xcomp(use-1, write-4)
+dobj(write-4, words-5)
+prep_on(write-4, paper-7)
+
+prt(pick-1, up-2)
+det(piece-4, a-3)
+dobj(pick-1, piece-4)
+prep_of(piece-4, paper-6)
+
+prt(pick-1, up-2)
+det(pen-4, a-3)
+dobj(pick-1, pen-4)
+
+det(letter-3, the-2)
+dobj(write-1, letter-3)
+prep_on(letter-3, paper-5)
+partmod(letter-3, using-6)
+det(pen-8, the-7)
+dobj(using-6, pen-8)
+
+det(letter-4, the-2)
+amod(letter-4, completed-3)
+dobj(put-1, letter-4)
+det(envelope-7, an-6)
+prep_in(put-1, envelope-7)
+
+det(envelope-3, the-2)
+dobj(close-1, envelope-3)
+
+det(information-4, the-2)
+nn(information-4, receiver-3)
+dobj(put-1, information-4)
+
+amod(stamps-3, appropriate-2)
+dobj(put-1, stamps-3)
+
+dobj(get-1, paper-2)
+
+dobj(get-1, pencil-2)
+
+prep_on(write-1, paper-3)
+
+dobj(fold-1, paper-2)
+
+prep_in(put-1, envelope-3)
+
+dobj(find-1, paper-2)
+
+dobj(find-1, pen-2)
+
+det(paper-4, the-3)
+prep_on(write-1, paper-4)
+partmod(paper-4, using-5)
+dobj(using-5, pen-6)
+
+dobj(find-1, envelope-2)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+dobj(write-1, address-2)
+prep_on(write-1, envelope-4)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+det(sheet-3, a-2)
+dobj(find-1, sheet-3)
+amod(paper-7, lined-5)
+amod(paper-7, stationary-6)
+prep_of(sheet-3, paper-7)
+
+det(pencil-3, a-2)
+dobj(find-1, pencil-3)
+dobj(find-1, pen-5)
+conj_or(pencil-3, pen-5)
+
+dobj(get-1, paper-2)
+
+dep(write-1, letter-2)
+dep(write-1, content-3)
+
+dobj(fold-1, paper-2)
+
+amod(paper-3, folded-2)
+dobj(put-1, paper-3)
+prep_in(put-1, envelope-5)
+
+nsubj(seal-1, envelope-2)
+
+dobj(write-1, address-2)
+prep_on(write-1, envelope-4)
+
+prep(stamp-1, and-2)
+nn(envelope-4, mail-3)
+dep(and-2, envelope-4)
+
+dobj(get-1, paper-2)
+
+dobj(get-1, pen-2)
+
+dobj(write-1, text-2)
+prep_of(text-2, letter-4)
+
+dobj(get-1, paper-2)
+dobj(get-1, pencil-4)
+conj_and(paper-2, pencil-4)
+
+dobj(write-1, message-2)
+prep_on(write-1, paper-4)
+
+dobj(sign-1, name-2)
+dobj(sign-1, date-4)
+conj_and(name-2, date-4)
+
+prep_in(put-1, envelope-3)
+
+prep_of(think-1, content-3)
+
+dobj(write-1, content-2)
+prepc_in(write-1, wordprocessing-4)
+dobj(wordprocessing-4, program-5)
+
+dobj(print-1, letter-2)
+
+dobj(locate-1, paper-2)
+
+dobj(record-1, message-2)
+prep_for(record-1, letter-4)
+
+dobj(print-1, letter-2)
+prep_onto(print-1, paper-4)
+
+dobj(prepare-1, letter-2)
+prep_for(prepare-1, mailing-4)
+
+det(pen-3, a-2)
+dobj(get-1, pen-3)
+
+det(paper-3, some-2)
+dobj(get-1, paper-3)
+
+det(letter-3, the-2)
+dobj(write-1, letter-3)
+
+iobj(collect-1, paper-2)
+det(envelope-4, an-3)
+dobj(collect-1, envelope-4)
+det(utensil-8, a-6)
+nn(utensil-8, writing-7)
+dobj(collect-1, utensil-8)
+conj_and(envelope-4, utensil-8)
+
+det(letter-3, the-2)
+dobj(address-1, letter-3)
+dobj(address-1, envelope-5)
+conj_and(letter-3, envelope-5)
+
+complm(which-3, that-2)
+dep(write-1, which-3)
+dep(which-3, needs-4)
+aux(written-7, to-5)
+auxpass(written-7, be-6)
+xcomp(needs-4, written-7)
+
+dobj(sign-1, it-2)
+
+det(letter-3, the-2)
+dobj(fold-1, letter-3)
+
+dobj(put-1, it-2)
+det(envelope-5, the-4)
+prep_in(put-1, envelope-5)
+
+det(envelope-3, the-2)
+dobj(seal-1, envelope-3)
+
+det(pen-3, a-2)
+dobj(get-1, pen-3)
+
+det(paper-3, some-2)
+dobj(get-1, paper-3)
+
+prt(write-1, down-2)
+dep(want-5, what-3)
+nsubj(want-5, you-4)
+xsubj(say-7, you-4)
+ccomp(write-1, want-5)
+aux(say-7, to-6)
+xcomp(want-5, say-7)
+
+dobj(put-1, it-2)
+det(envelope-5, an-4)
+prep_in(put-1, envelope-5)
+
+det(stamp-3, a-2)
+dobj(put-1, stamp-3)
+prep_on(put-1, it-5)
+
+dobj(post-1, it-2)
+det(box-6, a-4)
+nn(box-6, letter-5)
+prep_in(post-1, box-6)
+
+dobj(find-1, paper-2)
+
+dobj(find-1, pencil-2)
+
+dobj(written-5, who-2)
+nsubjpass(written-5, this-3)
+auxpass(written-5, is-4)
+ccomp(identify-1, written-5)
+prep(written-5, to-6)
+
+nsubj(write-4, what-2)
+aux(write-4, to-3)
+ccomp(decide-1, write-4)
+xcomp(decide-1, write-4)
+
+
+prep_in(place-1, envelope-3)
+
+dobj(mail-1, envelope-2)
+
+dobj(get-1, paper-2)
+
+det(pencil-3, a-2)
+dobj(get-1, pencil-3)
+
+dobj(write-1, letter-2)
+
+
+det(piece-3, a-2)
+dobj(find-1, piece-3)
+prep_of(piece-3, paper-5)
+
+det(pen-3, a-2)
+dobj(find-1, pen-3)
+dobj(find-1, pencil-5)
+conj_or(pen-3, pencil-5)
+
+dobj(write-1, words-2)
+det(paper-5, the-4)
+prep_on(write-1, paper-5)
+
+det(envelope-3, a-2)
+dobj(find-1, envelope-3)
+
+det(paper-3, the-2)
+dobj(put-1, paper-3)
+det(envelope-6, the-5)
+prep_in(put-1, envelope-6)
+
+nsubj(write-4, who-2)
+aux(write-4, to-3)
+ccomp(decide-1, write-4)
+xcomp(decide-1, write-4)
+
+dobj(find-1, paper-2)
+
+dobj(find-1, pen-2)
+
+dobj(address-1, envelope-2)
+
+dobj(write-1, letter-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(mail-1, letter-2)
+
+dobj(find-1, paper-2)
+
+dobj(write-1, letter-2)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+prt(take-1, out-2)
+det(paper-4, some-3)
+dobj(take-1, paper-4)
+
+det(letter-3, the-2)
+dobj(address-1, letter-3)
+
+det(letter-3, the-2)
+dobj(write-1, letter-3)
+det(paper-6, the-5)
+prep_on(letter-3, paper-6)
+
+det(paper-3, the-2)
+dobj(fold-1, paper-3)
+dobj(fold-1, put-5)
+conj_and(paper-3, put-5)
+partmod(paper-3, put-5)
+det(envelope-8, an-7)
+prep_in(put-5, envelope-8)
+
+det(envelope-3, the-2)
+dobj(address-1, envelope-3)
+
+det(envelope-3, the-2)
+dobj(seal-1, envelope-3)
+
+det(stamp-3, a-2)
+dobj(put-1, stamp-3)
+det(envelope-6, the-5)
+prep_on(put-1, envelope-6)
+prep_on(put-1, mail-8)
+conj_and(envelope-6, mail-8)
+
+det(piece-3, a-2)
+dobj(find-1, piece-3)
+prep_of(piece-3, paper-5)
+
+det(note-3, a-2)
+dobj(write-1, note-3)
+det(paper-6, the-5)
+prep_on(write-1, paper-6)
+
+det(note-3, the-2)
+dobj(put-1, note-3)
+det(envelope-6, an-5)
+prep_in(put-1, envelope-6)
+
+det(address-3, an-2)
+dobj(write-1, address-3)
+det(envelope-6, the-5)
+prep_on(address-3, envelope-6)
+
+det(stamp-3, a-2)
+dobj(put-1, stamp-3)
+det(envelope-6, the-5)
+prep_on(put-1, envelope-6)
+
+nsubj(seal-1, envelop-2)
+
+dobj(put-1, envelope-2)
+prep_in(put-1, mail-4)
+
+dobj(find-1, paper-2)
+
+dobj(find-1, pen-2)
+
+det(desk-4, a-3)
+prep_at(sit-1, desk-4)
+prep_at(sit-1, table-6)
+conj_or(desk-4, table-6)
+
+dobj(use-1, pen-2)
+aux(write-4, to-3)
+xcomp(use-1, write-4)
+dobj(write-4, letter-5)
+prep(write-4, on-6)
+dep(on-6, to-7)
+pobj(to-7, paper-8)
+
+poss(name-3, your-2)
+dobj(sign-1, name-3)
+
+prep_on(write-1, envelope-3)
+
+dobj(send-1, letter-2)
+
+prt(pick-1, up-2)
+det(pen-4, a-3)
+dobj(pick-1, pen-4)
+
+det(letter-3, a-2)
+dobj(write-1, letter-3)
+
+dobj(get-1, paper-2)
+
+prt(pick-1, up-2)
+dobj(pick-1, pen-3)
+
+prep_on(write-1, paper-3)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+dobj(mail-1, letter-2)
+
+dobj(get-1, paper-2)
+
+dobj(get-1, pen-2)
+
+dobj(set-1, pen-2)
+dobj(set-1, paper-4)
+conj_and(pen-2, paper-4)
+prep_on(set-1, desk-6)
+
+det(desk-4, a-3)
+prep_at(sit-1, desk-4)
+
+dobj(begin-1, writing-2)
+
+dobj(get-1, paper-2)
+
+dobj(get-1, pen-2)
+
+prep_at(sit-1, desk-3)
+prep_at(sit-1, table-5)
+conj_or(desk-3, table-5)
+
+dobj(put-1, paper-2)
+prt(put-1, down-3)
+prep_on(put-1, desk-5)
+prep_on(put-1, table-7)
+conj_or(desk-5, table-7)
+
+dobj(put-1, pen-2)
+prep_to(put-1, paper-4)
+aux(form-6, to-5)
+xcomp(put-1, form-6)
+dobj(form-6, words-7)
+
+
+
+dobj(have-1, idea-2)
+rel(want-5, what-3)
+nsubj(want-5, you-4)
+xsubj(write-7, you-4)
+rcmod(idea-2, want-5)
+aux(write-7, to-6)
+xcomp(want-5, write-7)
+
+dep(is-6, whom-3)
+det(letter-5, the-4)
+nsubj(is-6, letter-5)
+prepc_to(address-1, is-6)
+prep(is-6, for-7)
+
+acomp(find-1, stationary-2)
+
+dobj(write-1, letter-2)
+
+prep_in(place-1, envelope-3)
+
+nsubj(write-4, who-2)
+aux(write-4, to-3)
+dep(decide-1, write-4)
+prep(write-4, to-5)
+dep(decide-1, why-7)
+conj_and(write-4, why-7)
+
+prt(take-1, out-2)
+det(piece-4, a-3)
+dobj(take-1, piece-4)
+prep_of(piece-4, paper-6)
+det(pen-9, a-8)
+prep_of(piece-4, pen-9)
+conj_and(paper-6, pen-9)
+
+det(salutation-4, a-3)
+prep_with(start-1, salutation-4)
+
+det(body-3, the-2)
+dobj(write-1, body-3)
+poss(letter-6, your-5)
+prep_of(body-3, letter-6)
+
+det(piece-4, a-2)
+amod(piece-4, clean-3)
+dobj(get-1, piece-4)
+prep_of(piece-4, paper-6)
+
+csubj(address-5, write-1)
+det(person-3, the-2)
+dobj(write-1, person-3)
+cop(address-5, s-4)
+det(top-8, the-7)
+prep_at(address-5, top-8)
+
+det(date-3, the-2)
+dobj(write-1, date-3)
+det(address-6, the-5)
+prep_under(write-1, address-6)
+
+dobj(write-1, to-3)
+dobj(concern-7, whom-4)
+nsubj(concern-7, it-5)
+aux(concern-7, may-6)
+pcomp(to-3, concern-7)
+
+det(pen-3, a-2)
+dobj(get-1, pen-3)
+
+dobj(get-1, paper-2)
+
+dobj(write-1, letter-2)
+
+dobj(get-1, address-2)
+
+dobj(add-1, name-2)
+prep_of(name-2, recipient-4)
+
+dobj(add-1, address-2)
+
+dobj(leave-1, room-2)
+aux(sign-4, to-3)
+infmod(room-2, sign-4)
+
+
+prep_in(insert-1, envelope-3)
+
+

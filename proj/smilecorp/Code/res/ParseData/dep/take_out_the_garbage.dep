@@ -1,0 +1,683 @@
+det(garbage-3, the-2)
+nsubj(can-4, garbage-3)
+ccomp(find-1, can-4)
+
+prt(pick-1, up-2)
+det(garbage-4, the-3)
+nsubj(can-5, garbage-4)
+ccomp(pick-1, can-5)
+
+det(garbage-3, the-2)
+dobj(take-1, garbage-3)
+dep(take-1, can-4)
+advmod(can-4, outside-5)
+
+prt(put-1, down-2)
+det(garbage-4, the-3)
+nsubj(can-5, garbage-4)
+ccomp(put-1, can-5)
+
+prt(pick-1, up-2)
+det(garbage-4, the-3)
+dobj(pick-1, garbage-4)
+
+det(door-5, an-3)
+amod(door-5, outside-4)
+prep_to(move-1, door-5)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+nn(outside-3, garbage-2)
+dobj(take-1, outside-3)
+
+dobj(place-1, garbage-2)
+det(ground-5, the-4)
+prep_on(place-1, ground-5)
+
+nn(bag-3, garbage-2)
+dobj(remove-1, bag-3)
+
+prep_to(walk-1, door-3)
+
+dobj(open-1, door-2)
+
+nn(can-4, trash-3)
+prep_to(walk-1, can-4)
+
+prt(walk-1, over-2)
+det(garbage-5, the-4)
+prep_to(walk-1, garbage-5)
+
+dobj(pick-1, it-2)
+prt(pick-1, up-3)
+
+nsubj(move-1, outside-2)
+
+prt(walk-1, over-2)
+det(trashcan-6, the-4)
+amod(trashcan-6, outside-5)
+prep_to(walk-1, trashcan-6)
+
+det(garbage-3, the-2)
+dobj(put-1, garbage-3)
+det(trashcan-6, the-5)
+prep_in(put-1, trashcan-6)
+
+det(trashcan-3, the-2)
+dobj(close-1, trashcan-3)
+
+det(bag-4, the-2)
+nn(bag-4, trash-3)
+dobj(tie-1, bag-4)
+
+det(bag-4, the-2)
+nn(bag-4, trash-3)
+dobj(take-1, bag-4)
+det(can-8, the-7)
+prep_out_of(take-1, can-8)
+
+det(bag-3, the-2)
+dobj(take-1, bag-3)
+det(dumpster-6, the-5)
+prep_to(take-1, dumpster-6)
+
+det(dumpster-3, the-2)
+dobj(open-1, dumpster-3)
+
+det(bag-3, the-2)
+dobj(put-1, bag-3)
+det(dumpster-6, the-5)
+prep_in(put-1, dumpster-6)
+
+det(garbage-4, the-3)
+prep_to(go-1, garbage-4)
+rcmod(garbage-4, can-5)
+
+prt(tie-1, up-2)
+det(bag-5, the-3)
+nn(bag-5, garbage-4)
+dobj(tie-1, bag-5)
+
+det(bag-3, the-2)
+dobj(take-1, bag-3)
+conj_and(take-1, go-5)
+det(door-8, the-7)
+prep_to(go-5, door-8)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+dobj(open-1, walk-5)
+conj_and(door-3, walk-5)
+det(chute-9, the-7)
+nn(chute-9, garbage-8)
+prep_to(open-1, chute-9)
+
+det(chute-4, the-2)
+nn(chute-4, garbage-3)
+dobj(open-1, chute-4)
+conj_and(open-1, put-6)
+det(bag-8, the-7)
+dobj(put-6, bag-8)
+prep_into(put-6, it-10)
+
+det(chute-4, the-2)
+nn(chute-4, garbage-3)
+dobj(close-1, chute-4)
+
+nn(bag-3, trash-2)
+dobj(tie-1, bag-3)
+dep(tie-1, closed-4)
+
+nn(bag-3, trash-2)
+dobj(remove-1, bag-3)
+prep_from(remove-1, can-5)
+
+nn(bag-3, trash-2)
+nsubj(can-6, bag-3)
+prep_to(bag-3, garbage-5)
+ccomp(carry-1, can-6)
+
+amod(garbage-2, open-1)
+nsubj(can-3, garbage-2)
+
+nn(bag-3, trash-2)
+dobj(place-1, bag-3)
+prep_in(place-1, garbage-5)
+rcmod(garbage-5, can-6)
+
+amod(garbage-2, close-1)
+nsubj(can-3, garbage-2)
+
+nn(bag-3, garbage-2)
+dobj(get-1, bag-3)
+
+dobj(tie-1, it-2)
+prt(tie-1, up-3)
+
+dobj(remove-1, bag-2)
+
+dobj(take-1, bag-2)
+aux(trash-4, to-3)
+xcomp(take-1, trash-4)
+dobj(trash-4, bin-5)
+
+prt(tie-1, up-2)
+det(bag-5, the-3)
+nn(bag-5, garbage-4)
+dobj(tie-1, bag-5)
+
+det(bag-3, the-2)
+dobj(take-1, bag-3)
+det(can-7, the-5)
+nn(can-7, trash-6)
+prep_from(take-1, can-7)
+
+det(chute-5, the-3)
+nn(chute-5, garbage-4)
+prep_to(go-1, chute-5)
+
+det(bag-3, the-2)
+dobj(put-1, bag-3)
+det(chute-7, the-5)
+nn(chute-7, garbage-6)
+prep_into(put-1, chute-7)
+
+nn(bag-3, garbage-2)
+dobj(remove-1, bag-3)
+
+amod(bag-4, new-2)
+nn(bag-4, garbage-3)
+dobj(put-1, bag-4)
+nn(can-7, trash-6)
+prep_in(put-1, can-7)
+
+nn(bag-3, garbage-2)
+dobj(take-1, bag-3)
+prep_to(take-1, dumpster-5)
+
+dobj(take-1, bag-2)
+det(bin-5, the-4)
+prep_out(take-1, bin-5)
+
+det(door-3, the-2)
+dobj(open-1, door-3)
+
+prt(walk-1, out-2)
+det(end-5, the-4)
+prep_to(walk-1, end-5)
+det(drive-8, the-7)
+prep_of(end-5, drive-8)
+
+det(bag-3, the-2)
+dobj(leave-1, bag-3)
+advmod(leave-1, there-4)
+
+advmod(return-1, inside-2)
+
+det(door-3, the-2)
+dobj(close-1, door-3)
+
+det(receptacles-4, all-2)
+nn(receptacles-4, garbage-3)
+dobj(locate-1, receptacles-4)
+det(building-7, the-6)
+prep_in(locate-1, building-7)
+
+det(garbage-3, all-2)
+dobj(collate-1, garbage-3)
+advmod(few-6, as-5)
+amod(bags-7, few-6)
+prep_into(collate-1, bags-7)
+prep_as(collate-1, possible-9)
+
+dobj(take-1, bags-2)
+partmod(bags-2, filled-3)
+nn(outside-6, garbage-5)
+prep_with(filled-3, outside-6)
+
+nn(bags-3, garbage-2)
+dobj(place-1, bags-3)
+det(dumpster-6, a-5)
+prep_in(place-1, dumpster-6)
+nn(can-9, trash-8)
+prep_in(place-1, can-9)
+conj_or(dumpster-6, can-9)
+
+nn(bin-4, garbage-3)
+prep_to(go-1, bin-4)
+
+dobj(take-1, garbage-2)
+det(bin-6, the-5)
+prep_out_of(take-1, bin-6)
+
+dobj(close-1, garbage-2)
+
+amod(bag-3, new-2)
+dobj(put-1, bag-3)
+prep_in(put-1, bin-5)
+
+nn(outside-3, garbage-2)
+dobj(bring-1, outside-3)
+
+conj_and(close-1, seal-3)
+nn(bag-5, garbage-4)
+dobj(seal-3, bag-5)
+
+advmod(go-1, outside-2)
+
+prep_to(walk-1, dumpster-3)
+
+nn(bag-3, garbage-2)
+dobj(throw-1, bag-3)
+prep_in(throw-1, dumpster-5)
+
+dobj(return-1, home-2)
+
+amod(bag-4, new-2)
+nn(bag-4, garbage-3)
+dobj(place-1, bag-4)
+nn(can-7, trash-6)
+prep_in(place-1, can-7)
+
+dobj(gather-1, garbage-2)
+
+nn(bags-3, garbage-2)
+dobj(tie-1, bags-3)
+
+nn(day-4, garbage-3)
+prep_until(wait-1, day-4)
+
+det(outside-4, the-2)
+nn(outside-4, garbage-3)
+dobj(take-1, outside-4)
+
+dep(picks-10, put-1)
+det(garbage-3, the-2)
+dobj(put-1, garbage-3)
+det(place-6, the-5)
+prep_in(put-1, place-6)
+det(person-9, the-7)
+nn(person-9, garbage-8)
+nsubj(picks-10, person-9)
+dobj(picks-10, it-11)
+prt(picks-10, up-12)
+
+det(top-3, the-2)
+dobj(tie-1, top-3)
+det(bag-6, the-5)
+prep_of(top-3, bag-6)
+prep_of(bag-6, garbage-8)
+
+det(bag-3, the-2)
+dobj(put-1, bag-3)
+prep_of(bag-3, garbage-5)
+det(garbage-8, the-7)
+prep_in(put-1, garbage-8)
+rcmod(garbage-8, can-9)
+
+det(garbage-4, the-2)
+amod(garbage-4, inside-3)
+dobj(reline-1, garbage-4)
+dep(reline-1, can-5)
+det(bag-10, a-7)
+amod(bag-10, new-8)
+nn(bag-10, garbage-9)
+prep_with(reline-1, bag-10)
+
+dobj(gather-1, garbage-2)
+det(bag-5, a-4)
+prep_into(gather-1, bag-5)
+
+det(bag-3, the-2)
+dobj(tie-1, bag-3)
+
+det(bag-3, the-2)
+dobj(place-1, bag-3)
+det(can-7, a-5)
+nn(can-7, trash-6)
+prep_inside(place-1, can-7)
+
+nn(can-3, trash-2)
+dobj(carry-1, can-3)
+det(curb-6, the-5)
+prep_to(carry-1, curb-6)
+prep_for(curb-6, pickup-8)
+
+nn(bag-3, garbage-2)
+dobj(tie-1, bag-3)
+
+dobj(carry-1, bag-2)
+prep(carry-1, outside-3)
+
+nn(bin-3, trash-2)
+dobj(open-1, bin-3)
+
+nn(bag-3, garbage-2)
+dobj(put-1, bag-3)
+nn(bin-6, trash-5)
+prep_in(put-1, bin-6)
+
+nn(bin-3, trash-2)
+dobj(close-1, bin-3)
+
+dobj(empty-1, contents-2)
+nn(bins-5, trash-4)
+prep_of(contents-2, bins-5)
+nn(bag-8, garbage-7)
+prep_into(empty-1, bag-8)
+
+nn(bag-3, tie-1)
+nn(bag-3, garbage-2)
+nsubj(closed-4, bag-3)
+
+nn(door-3, kitchen-2)
+dobj(open-1, door-3)
+
+prt(pick-1, up-2)
+nn(bag-4, garbage-3)
+dobj(pick-1, bag-4)
+
+nn(bag-3, garbage-2)
+dobj(carry-1, bag-3)
+aux(curb-5, to-4)
+xcomp(carry-1, curb-5)
+
+nn(bag-3, garbage-2)
+dobj(place-1, bag-3)
+prep_between(place-1, sidewalk-5)
+prep_between(place-1, curb-7)
+conj_and(sidewalk-5, curb-7)
+
+prep_to(return-1, kitchen-3)
+
+nn(bag-3, garbage-2)
+dobj(take-1, bag-3)
+prt(take-1, out-4)
+prt(take-1, of-5)
+dobj(take-1, can-6)
+
+dobj(tie-1, bag-2)
+
+dobj(carry-1, bag-2)
+prep_to(carry-1, bin-4)
+
+dobj(throw-1, garbage-2)
+prep_in(throw-1, bin-4)
+
+nn(liner-4, trash-2)
+nn(liner-4, bag-3)
+dobj(remove-1, liner-4)
+nn(can-7, trash-6)
+prep_from(remove-1, can-7)
+
+dobj(place-1, trash-2)
+amod(resipticle-6, outside-4)
+nn(resipticle-6, trash-5)
+prep_in(place-1, resipticle-6)
+
+amod(liner-5, new-2)
+nn(liner-5, trash-3)
+nn(liner-5, bag-4)
+dobj(put-1, liner-5)
+amod(can-9, inside-7)
+nn(can-9, trash-8)
+prep_in(put-1, can-9)
+
+amod(bag-4, empty-2)
+nn(bag-4, garbage-3)
+dobj(get-1, bag-4)
+
+dobj(go-1, room-2)
+prep_to(go-1, room-4)
+partmod(room-4, gathering-5)
+dobj(gathering-5, trash-6)
+
+nn(bag-3, trash-2)
+dobj(close-1, bag-3)
+
+nn(bag-3, garbage-2)
+dobj(carry-1, bag-3)
+nn(can-6, trash-5)
+prep_to(carry-1, can-6)
+
+amod(garbage-2, open-1)
+nsubj(can-3, garbage-2)
+
+nn(bag-3, garbage-2)
+dobj(place-1, bag-3)
+prep(place-1, in-4)
+dep(in-4, can-5)
+
+dobj(put-1, lid-2)
+prep_on(put-1, garbage-4)
+rcmod(garbage-4, can-5)
+
+det(bag-4, the-2)
+nn(bag-4, garbage-3)
+dobj(tie-1, bag-4)
+
+nn(bag-3, garbage-2)
+dobj(carry-1, bag-3)
+prep_to(carry-1, dumpster-5)
+
+det(bag-4, the-2)
+nn(bag-4, garbage-3)
+dobj(replace-1, bag-4)
+
+dobj(carry-1, garbage-2)
+prt(carry-1, out-3)
+det(curb-6, the-5)
+prep_to(carry-1, curb-6)
+
+det(bag-3, the-2)
+dobj(pull-1, bag-3)
+advmod(pull-1, up-4)
+advmod(pull-1, slightly-5)
+
+prt(tie-1, off-2)
+det(bag-4, the-3)
+dobj(tie-1, bag-4)
+
+det(bag-3, the-2)
+dobj(pull-1, bag-3)
+det(rest-6, the-5)
+prep_out(pull-1, rest-6)
+det(way-9, the-8)
+prep_of(rest-6, way-9)
+
+dobj(carry-1, trash-2)
+amod(can-5, outside-4)
+prep_to(carry-1, can-5)
+
+amod(outsdie-3, inside-2)
+nsubj(can-4, outsdie-3)
+ccomp(put-1, can-4)
+
+amod(bag-3, new-2)
+dobj(put-1, bag-3)
+nn(can-6, trash-5)
+prep_in(put-1, can-6)
+
+dobj(push-1, trash-2)
+prt(push-1, down-3)
+prep_in(push-1, bag-5)
+
+dobj(pull-1, bag-2)
+nn(can-5, trash-4)
+prep_from(pull-1, can-5)
+
+nn(bag-3, trash-2)
+dobj(tie-1, bag-3)
+dep(tie-1, shut-4)
+
+dobj(open-1, door-2)
+
+amod(can-4, large-2)
+nn(can-4, trash-3)
+dobj(open-1, can-4)
+
+dobj(put-1, bag-2)
+amod(can-6, large-4)
+nn(can-6, trash-5)
+prep_into(put-1, can-6)
+
+dobj(close-1, lid-2)
+amod(can-6, large-4)
+nn(can-6, trash-5)
+prep_on(close-1, can-6)
+
+dobj(remove-1, bag-2)
+prep_from(remove-1, container-4)
+
+nn(bag-2, tie-1)
+nsubj(shut-3, bag-2)
+
+dobj(carry-1, bag-2)
+prep_to(carry-1, outside-4)
+
+nn(container-3, disposal-2)
+dobj(open-1, container-3)
+
+nn(bag-3, garbage-2)
+dobj(insert-1, bag-3)
+
+nn(container-3, disposal-2)
+dobj(close-1, container-3)
+
+prep_to(return-1, house-3)
+
+nn(container-3, garbage-2)
+dobj(open-1, container-3)
+
+nn(bag-3, garbage-2)
+dobj(fasten-1, bag-3)
+advmod(fasten-1, securely-4)
+
+nn(bag-3, garbage-2)
+dobj(remove-1, bag-3)
+
+nn(bag-3, garbage-2)
+dobj(throw-1, bag-3)
+prep_in(throw-1, trash-5)
+
+dobj(empty-1, garbage-2)
+nn(bag-5, garbage-4)
+prep_into(empty-1, bag-5)
+
+dobj(take-1, bag-2)
+prep_out_of(take-1, receptacle-5)
+
+det(top-3, the-2)
+dobj(tie-1, top-3)
+prep_of(top-3, bag-5)
+
+dobj(take-1, garbage-2)
+prt(take-1, out-3)
+nn(area-6, disposal-5)
+prep_to(take-1, area-6)
+
+dobj(gather-1, garbage-2)
+det(bag-6, a-4)
+amod(bag-6, single-5)
+prep_in(gather-1, bag-6)
+
+det(bag-3, the-2)
+dobj(tie-1, bag-3)
+
+det(bag-3, the-2)
+dobj(bring-1, bag-3)
+prep_of(bag-3, garbage-5)
+det(end-8, the-7)
+prep_to(bring-1, end-8)
+det(driveway-11, the-10)
+prep_of(end-8, driveway-11)
+
+dobj(collect-1, garbage-2)
+
+prep_in(place-1, bag-3)
+
+prep_into(dump-1, garbage-3)
+rcmod(garbage-3, can-4)
+
+prt(take-1, out-2)
+dobj(take-1, garbage-3)
+
+dobj(collect-1, garbage-2)
+prep(collect-1, from-3)
+dep(from-3, around-4)
+det(house-6, the-5)
+pobj(around-4, house-6)
+
+dobj(place-1, garbage-2)
+prep_in(place-1, bags-4)
+
+dobj(place-1, bags-2)
+prep_of(bags-2, garbage-4)
+det(end-7, the-6)
+prep_at(place-1, end-7)
+det(driveway-10, the-9)
+prep_of(end-7, driveway-10)
+
+dobj(place-1, garbage-2)
+num(bags-7, one-4)
+conj_or(one-4, more-6)
+quantmod(one-4, more-6)
+num(bags-7, more-6)
+prep_in(place-1, bags-7)
+
+det(knot-3, a-2)
+dobj(tie-1, knot-3)
+aux(close-5, to-4)
+infmod(knot-3, close-5)
+det(bags-7, the-6)
+dobj(close-5, bags-7)
+
+det(bag-4, the-2)
+nn(bag-4, garbage-3)
+dobj(place-1, bag-4)
+det(garbage-7, the-6)
+prep_in(place-1, garbage-7)
+rcmod(garbage-7, can-8)
+
+nn(garbage-2, place-1)
+nsubj(can-3, garbage-2)
+advmod(can-3, outside-4)
+
+dobj(get-1, garbage-2)
+
+dobj(put-1, garbage-2)
+nn(can-5, trash-4)
+prep_in(put-1, can-5)
+
+nn(can-3, trash-2)
+dobj(take-1, can-3)
+prt(take-1, out-4)
+
+det(bag-3, the-2)
+dobj(pull-1, bag-3)
+det(trash-7, the-6)
+prep_out_of(pull-1, trash-7)
+
+nn(garbage-4, kitchen-3)
+prep_to(go-1, garbage-4)
+
+prt(pull-1, out-2)
+dobj(pull-1, bag-3)
+prep_of(bag-3, garbage-5)
+
+det(bag-4, the-2)
+nn(bag-4, garbage-3)
+dobj(tie-1, bag-4)
+
+dobj(take-1, bag-2)
+nn(outside-5, garbage-4)
+prep_of(bag-2, outside-5)
+
+amod(bag-3, fresh-2)
+dobj(put-1, bag-3)
+prepc_in(put-1, kitshen-5)
+iobj(kitshen-5, s-6)
+nn(container-8, garbage-7)
+dobj(kitshen-5, container-8)
+

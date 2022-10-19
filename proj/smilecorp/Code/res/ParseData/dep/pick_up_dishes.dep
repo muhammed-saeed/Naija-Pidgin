@@ -1,0 +1,368 @@
+dobj(lift-1, dishes-2)
+
+prt(bend-1, over-2)
+
+det(dishes-3, the-2)
+dobj(grasp-1, dishes-3)
+
+prt(stand-1, up-2)
+advmod(stand-1, again-3)
+
+det(dishes-5, the-2)
+advmod(dirty-4, now-3)
+amod(dishes-5, dirty-4)
+dobj(place-1, dishes-5)
+det(sink-8, the-7)
+prep_in(dishes-5, sink-8)
+
+det(dish-3, a-2)
+dobj(pick-1, dish-3)
+prt(pick-1, up-4)
+conj_and(pick-1, place-6)
+dobj(place-6, it-7)
+det(dish-10, another-9)
+prep_on(place-6, dish-10)
+
+mark(are-5, until-2)
+det(dishes-4, all-3)
+nsubj(are-5, dishes-4)
+advcl(continue-1, are-5)
+prep_in(are-5, one-7)
+ccomp(are-5, stack-8)
+
+prt(pick-1, up-2)
+dobj(pick-1, the-3)
+dep(pick-1, stack-4)
+
+aux(stack-3, carry-1)
+nsubj(stack-3, the-2)
+det(sink-7, the-5)
+nn(sink-7, kitchen-6)
+prep_to(stack-3, sink-7)
+
+aux(stack-3, place-1)
+nsubj(stack-3, the-2)
+det(sink-6, the-5)
+prep_in(stack-3, sink-6)
+
+det(room-5, the-3)
+nn(room-5, dining-4)
+prep_into(walk-1, room-5)
+
+prt(pick-1, up-2)
+det(dishes-4, the-3)
+dobj(pick-1, dishes-4)
+det(table-7, the-6)
+prep_on(dishes-4, table-7)
+
+det(room-5, the-3)
+amod(room-5, living-4)
+prep_into(walk-1, room-5)
+
+prt(pick-1, up-2)
+det(dishes-4, the-3)
+dobj(pick-1, dishes-4)
+det(tables-7, the-6)
+prep_on(pick-1, tables-7)
+
+det(kitchen-4, the-3)
+prep_to(go-1, kitchen-4)
+
+prt(drop-1, off-2)
+det(dishes-4, the-3)
+dobj(drop-1, dishes-4)
+
+dobj(extend-1, hand-2)
+prep_toward(extend-1, dish-4)
+
+dobj(grab-1, dish-2)
+
+dobj(lift-1, dish-2)
+
+prep_to(walk-1, table-3)
+
+dobj(take-1, dishes-2)
+
+prep_to(go-1, dishes-3)
+
+dobj(pick-1, them-2)
+prt(pick-1, up-3)
+
+det(dish-3, a-2)
+dobj(find-1, dish-3)
+
+det(dish-4, the-3)
+prep_to(move-1, dish-4)
+
+prt(pick-1, up-2)
+det(dish-4, the-3)
+dobj(pick-1, dish-4)
+
+det(dish-3, the-2)
+dobj(put-1, dish-3)
+poss(place-7, its-5)
+nn(place-7, storage-6)
+prep_in(put-1, place-7)
+
+mark(picked-7, until-2)
+det(dishes-4, all-3)
+nsubjpass(picked-7, dishes-4)
+aux(picked-7, have-5)
+auxpass(picked-7, been-6)
+advcl(repeat-1, picked-7)
+prt(picked-7, up-8)
+
+dobj(go-1, the-2)
+advmod(are-5, where-3)
+nsubj(are-5, dishes-4)
+advcl(go-1, are-5)
+
+amod(hands-2, using-1)
+nsubj(lift-3, hands-2)
+dobj(lift-3, dishes-4)
+
+dobj(take-1, dishes-2)
+prep_to(take-1, kitchen-4)
+
+det(dishes-3, the-2)
+dobj(gather-1, dishes-3)
+det(pile-6, a-5)
+prep_into(gather-1, pile-6)
+
+det(dishes-3, the-2)
+dobj(raise-1, dishes-3)
+prt(raise-1, up-4)
+advmod(sitting-10, where-7)
+nsubj(sitting-10, they-8)
+aux(sitting-10, are-9)
+prepc_off_of(raise-1, sitting-10)
+
+det(dishes-3, the-2)
+dobj(carry-1, dishes-3)
+advmod(need-6, where-4)
+rel(need-6, where-4)
+nsubj(need-6, they-5)
+xsubj(taken-9, they-5)
+rcmod(dishes-3, need-6)
+aux(taken-9, to-7)
+auxpass(taken-9, be-8)
+xcomp(need-6, taken-9)
+
+prt(bend-1, down-2)
+
+det(dishes-3, the-2)
+dobj(grab-1, dishes-3)
+poss(hands-6, your-5)
+prep_with(grab-1, hands-6)
+det(floor-9, the-8)
+prep_from(grab-1, floor-9)
+
+prt(raise-1, back-2)
+advmod(raise-1, up-3)
+det(position-7, a-5)
+nn(position-7, standing-6)
+prep_to(raise-1, position-7)
+mark(holding-9, while-8)
+dep(position-7, holding-9)
+det(dishes-11, the-10)
+dobj(holding-9, dishes-11)
+
+dobj(locate-1, dishes-2)
+prep_in(locate-1, room-4)
+
+amod(dish-4, first-3)
+prep_to(move-1, dish-4)
+
+prt(pick-1, up-2)
+amod(dish-4, first-3)
+dobj(pick-1, dish-4)
+
+dobj(picked-6, if-1)
+det(dishes-3, all-2)
+nsubjpass(picked-6, dishes-3)
+aux(picked-6, have-4)
+auxpass(picked-6, been-5)
+csubj(continue-8, picked-6)
+prt(picked-6, up-7)
+prep_to(continue-8, kitchen-10)
+
+advmod(locate-2, otherwise-1)
+amod(dish-4, next-3)
+dobj(locate-2, dish-4)
+
+amod(dish-4, next-3)
+prep_to(move-1, dish-4)
+conj_and(move-1, pick-6)
+dobj(pick-6, it-7)
+prt(pick-6, up-8)
+
+dobj(check-1, step-2)
+num(step-2, 4-3)
+
+dobj(get-1, dishes-2)
+
+prep_to(take-1, kitchen-3)
+
+iobj(bend-1, you-2)
+dobj(bend-1, knees-3)
+
+prt(pick-1, up-2)
+det(dishes-4, the-3)
+dobj(pick-1, dishes-4)
+
+prt(pick-1, up-2)
+dobj(pick-1, dishes-3)
+amod(table-6, dining-5)
+prep_from(pick-1, table-6)
+
+dobj(take-1, dishes-2)
+prep_to(take-1, kitchen-4)
+
+det(dishes-4, the-3)
+prep_to(go-1, dishes-4)
+
+det(dishes-3, the-2)
+dobj(hold-1, dishes-3)
+poss(hand-6, your-5)
+prep_in(hold-1, hand-6)
+
+poss(hand-3, your-2)
+dobj(raise-1, hand-3)
+
+prt(pick-1, up-2)
+dobj(pick-1, dishes-3)
+
+prt(pick-1, up-2)
+det(dishes-4, the-3)
+dobj(pick-1, dishes-4)
+
+det(dish-3, a-2)
+dobj(locate-1, dish-3)
+det(room-6, the-5)
+prep_in(locate-1, room-6)
+
+prt(pick-1, up-2)
+det(dish-4, the-3)
+dobj(pick-1, dish-4)
+
+det(dish-3, a-2)
+dobj(locate-1, dish-3)
+det(room-6, the-5)
+prep_in(locate-1, room-6)
+
+prt(pick-1, up-2)
+det(dish-4, the-3)
+dobj(pick-1, dish-4)
+
+dobj(place-1, it-2)
+det(sink-5, the-4)
+prep_in(place-1, sink-5)
+prep_in(place-1, dishwasher-7)
+conj_or(sink-5, dishwasher-7)
+
+dobj(repeat-1, steps-2)
+dep(repeat-1, 1-3-3)
+mark(picked-8, until-4)
+det(dishes-6, all-5)
+nsubjpass(picked-8, dishes-6)
+auxpass(picked-8, are-7)
+ccomp(1-3-3, picked-8)
+prt(picked-8, up-9)
+
+prep_around(look-1, house-3)
+det(dishes-6, any-5)
+prep_for(look-1, dishes-6)
+nsubj(dirty-9, dishes-6)
+cop(dirty-9, are-8)
+rcmod(dishes-6, dirty-9)
+
+predet(dishes-4, all-2)
+det(dishes-4, those-3)
+dobj(place-1, dishes-4)
+det(sick-7, the-6)
+prep_in(place-1, sick-7)
+prep_for(place-1, washing-9)
+
+prep_to(walk-1, table-3)
+
+prt(pick-1, up-2)
+det(dishes-4, the-3)
+dobj(pick-1, dishes-4)
+det(table-7, the-6)
+prep_from(pick-1, table-7)
+
+aux(sink-3, to-2)
+xcomp(walk-1, sink-3)
+
+aux(gentle-3, place-1)
+nsubj(gentle-3, them-2)
+det(sink-6, the-5)
+prep_in(gentle-3, sink-6)
+
+prt(walk-1, over-2)
+prep_to(walk-1, dishes-4)
+
+csubj(grab-4, using-1)
+num(hands-3, two-2)
+dobj(using-1, hands-3)
+det(side-6, each-5)
+dobj(grab-4, side-6)
+prep_of(side-6, dish-8)
+
+prt(lift-1, off-2)
+dobj(lift-1, counter\/table-3)
+
+prt(bend-1, over-2)
+
+dobj(grap-1, dish-2)
+
+prt(put-1, down-2)
+dobj(put-1, dish-3)
+
+dobj(repeat-1, 1-2)
+dep(1-2, 3-4)
+mark(left-8, until-5)
+det(dishes-7, no-6)
+nsubj(left-8, dishes-7)
+advcl(repeat-1, left-8)
+
+prt(pick-1, up-2)
+dobj(pick-1, dishes-3)
+
+prt(reach-1, out-2)
+poss(hands-4, your-3)
+dobj(reach-1, hands-4)
+
+dobj(grasp-1, dishes-2)
+
+dobj(lift-1, them-2)
+prt(lift-1, up-3)
+
+prep_to(go-1, table-3)
+
+det(few-3, a-2)
+dobj(stack-1, few-3)
+prep_like(stack-1, dishes-5)
+advmod(stack-1, neatly-6)
+
+prep_to(bring-1, kitchen-3)
+
+conj_and(return-1, repeat-3)
+amod(dishes-6, more-5)
+prep_with(repeat-3, dishes-6)
+
+prt(bend-1, over-2)
+
+dobj(grab-1, dishes-2)
+
+prt(stand-1, up-2)
+
+dobj(return-1, dishes-2)
+det(place-6, a-4)
+amod(place-6, safe-5)
+prep_to(return-1, place-6)
+
+dobj(find-1, dishes-2)
+
+dobj(take-1, dishes-2)
+

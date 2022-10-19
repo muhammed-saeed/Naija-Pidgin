@@ -1,0 +1,1027 @@
+prt(pick-1, up-2)
+det(letter-4, a-3)
+dobj(pick-1, letter-4)
+
+det(mailbox-3, a-2)
+dobj(find-1, mailbox-3)
+
+det(letter-3, the-2)
+dobj(put-1, letter-3)
+det(mailbox-6, the-5)
+prep_in(put-1, mailbox-6)
+
+det(letter-3, the-2)
+dobj(place-1, letter-3)
+det(envelope-6, an-5)
+prep_in(place-1, envelope-6)
+
+advmod(address-2, properly-1)
+det(envelope-4, the-3)
+dobj(address-2, envelope-4)
+
+amod(postage-3, proper-2)
+dobj(affix-1, postage-3)
+det(envelope-6, the-5)
+prep_to(affix-1, envelope-6)
+
+det(mailbox-3, a-2)
+dobj(locate-1, mailbox-3)
+
+det(mailbox-4, the-3)
+prep_to(move-1, mailbox-4)
+
+det(letter-3, the-2)
+dobj(place-1, letter-3)
+det(mailbox-6, the-5)
+prep_in(place-1, mailbox-6)
+
+det(letter-3, the-2)
+dobj(locate-1, letter-3)
+aux(sent-6, to-4)
+auxpass(sent-6, be-5)
+infmod(letter-3, sent-6)
+
+det(evelope-3, an-2)
+dobj(locate-1, evelope-3)
+
+det(letter-3, the-2)
+dobj(place-1, letter-3)
+det(envelope-6, the-5)
+prep_in(place-1, envelope-6)
+
+advmod(address-2, properly-1)
+det(envelope-4, the-3)
+dobj(address-2, envelope-4)
+det(recipient-7, the-6)
+prep_to(address-2, recipient-7)
+
+amod(postage-3, proper-2)
+dobj(place-1, postage-3)
+det(envelope-6, the-5)
+prep_on(place-1, envelope-6)
+
+det(envelope-3, the-2)
+dobj(place-1, envelope-3)
+det(mailbox-6, a-5)
+prep_in(place-1, mailbox-6)
+
+dobj(write-1, letter-2)
+
+nsubj(seal-1, letter-2)
+
+dobj(affix-1, stamp-2)
+
+aux(post-3, to-2)
+xcomp(move-1, post-3)
+dobj(post-3, box-4)
+
+dobj(drop-1, letter-2)
+nn(box-5, post-4)
+prep_into(drop-1, box-5)
+
+det(envelope-3, an-2)
+dobj(find-1, envelope-3)
+
+dobj(fold-1, letter-2)
+aux(fit-4, to-3)
+infmod(letter-2, fit-4)
+prep_inside(fit-4, envelope-6)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+nn(envelope-7, seal-6)
+prep_in(put-1, envelope-7)
+conj_and(envelope-4, envelope-7)
+
+amod(postage-3, proper-2)
+dobj(place-1, postage-3)
+prep_on(place-1, envelope-5)
+
+nn(address-3, destination-2)
+dobj(write-1, address-3)
+prep_on(address-3, envelope-5)
+
+det(mailbox-3, a-2)
+dobj(find-1, mailbox-3)
+
+dobj(place-1, letter-2)
+prep_in(place-1, mailbox-4)
+
+aux(address-3, to-2)
+xcomp(write-1, address-3)
+
+nn(address-3, return-2)
+dobj(write-1, address-3)
+
+
+det(mailbox-4, a-3)
+prep_in(drop-1, mailbox-4)
+
+det(letter-3, the-2)
+dobj(seal-1, letter-3)
+det(envelope-6, an-5)
+prep_in(seal-1, envelope-6)
+
+det(address-4, the-2)
+nn(address-4, delivery-3)
+dobj(write-1, address-4)
+det(envelope-7, the-6)
+prep_on(address-4, envelope-7)
+
+det(address-4, the-2)
+nn(address-4, return-3)
+dobj(write-1, address-4)
+det(envelope-7, the-6)
+prep_on(address-4, envelope-7)
+
+nn(stamp-3, postage-2)
+dobj(place-1, stamp-3)
+det(envelope-6, the-5)
+prep_on(place-1, envelope-6)
+
+det(envelope-3, the-2)
+dobj(place-1, envelope-3)
+det(mailbox-6, a-5)
+prep_into(place-1, mailbox-6)
+
+det(address-3, the-2)
+dobj(write-1, address-3)
+det(letter-6, the-5)
+prep_on(address-3, letter-6)
+
+det(address-4, the-2)
+nn(address-4, return-3)
+dobj(write-1, address-4)
+det(letter-7, the-6)
+prep_on(write-1, letter-7)
+det(corner-12, the-9)
+amod(corner-12, upper-10)
+amod(corner-12, left-hand-11)
+prep_in(letter-7, corner-12)
+
+det(stamp-3, a-2)
+dobj(place-1, stamp-3)
+det(letter-6, the-5)
+prep_on(place-1, letter-6)
+det(corner-10, the-8)
+amod(corner-10, upper-right-hand-9)
+prep_in(place-1, corner-10)
+
+det(letter-3, the-2)
+dobj(place-1, letter-3)
+det(mailbox-6, a-5)
+prep_in(place-1, mailbox-6)
+
+amod(letter-3, completed-2)
+dobj(put-1, letter-3)
+prep_in(put-1, envelope-5)
+
+nsubj(seal-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+prep_to(go-1, mailbox-3)
+
+dobj(put-1, letter-2)
+prep_in(put-1, mailbox-4)
+
+dep(ready-5, get-1)
+dobj(ready-5, envelope-2)
+conj_and(envelope-2, stamps-4)
+dobj(ready-5, stamps-4)
+
+dobj(insert-1, letter-2)
+prep_into(insert-1, envelope-4)
+
+dobj(seal-1, envelope-2)
+prepc_by(seal-1, licking-4)
+det(strip-7, the-5)
+amod(strip-7, adhesive-6)
+dobj(licking-4, strip-7)
+conj_or(seal-1, remove-9)
+det(protection-11, the-10)
+dobj(remove-9, protection-11)
+det(adhesive-14, the-13)
+prep_over(remove-9, adhesive-14)
+
+dobj(close-1, envelope-2)
+
+dobj(put-1, letter-2)
+prep_in(put-1, mailbox-4)
+
+det(letter-3, the-2)
+dobj(put-1, letter-3)
+det(envelope-6, an-5)
+prep_into(put-1, envelope-6)
+
+det(address-4, the-2)
+nn(address-4, mailing-3)
+dobj(put-1, address-4)
+det(envelope-7, the-6)
+prep_on(put-1, envelope-7)
+
+det(letter-3, the-2)
+dobj(weigh-1, letter-3)
+
+amod(postage-3, enough-2)
+dobj(put-1, postage-3)
+det(envelope-6, the-5)
+prep_on(put-1, envelope-6)
+
+det(letter-3, the-2)
+dobj(get-1, letter-3)
+det(mailbox-7, the-5)
+amod(mailbox-7, next-6)
+prep_to(letter-3, mailbox-7)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+nsubj(seal-1, envelope-2)
+
+dobj(write-1, address-2)
+prep_on(write-1, envelope-4)
+
+dobj(stamp-1, letter-2)
+
+dobj(drop-1, letter-2)
+prep_in(drop-1, mailbox-4)
+
+det(letter-3, the-2)
+dobj(put-1, letter-3)
+det(envelope-6, an-5)
+prep_in(put-1, envelope-6)
+
+det(envelope-3, the-2)
+dobj(address-1, envelope-3)
+
+dobj(put-1, postage-2)
+det(envelope-5, the-4)
+prep_on(put-1, envelope-5)
+
+det(envelope-3, the-2)
+dobj(drop-1, envelope-3)
+det(mailbox-6, a-5)
+prep_in(drop-1, mailbox-6)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+nsubj(seal-1, envelope-2)
+
+aux(address-3, to-2)
+xcomp(write-1, address-3)
+prep_on(address-3, envelope-5)
+
+nn(address-3, return-2)
+dobj(write-1, address-3)
+prep_on(address-3, evelope-5)
+
+dobj(stamp-1, envelope-2)
+
+dobj(drop-1, envelope-2)
+prep_in(drop-1, mailbox-4)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+nsubj(seal-1, envelope-2)
+
+aux(address-3, to-2)
+xcomp(write-1, address-3)
+prep_on(address-3, envelope-5)
+
+nn(address-3, return-2)
+dobj(write-1, address-3)
+prep_on(address-3, envelope-5)
+
+dobj(stamp-1, envelope-2)
+
+dobj(place-1, envelope-2)
+amod(mailbox-5, outgoing-4)
+prep_in(place-1, mailbox-5)
+
+det(letter-3, a-2)
+dobj(writing-1, letter-3)
+
+det(letter-3, the-2)
+dobj(sign-1, letter-3)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+dobj(stick-1, stamp-2)
+prep_on(stick-1, envelope-4)
+
+dobj(write-1, adress-2)
+prep_on(write-1, envelope-4)
+
+dobj(bring-1, envelope-2)
+prep_to(bring-1, postbox-4)
+
+dobj(put-1, envelope-2)
+prep_in(put-1, postbox-4)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+amod(envelope-3, adresson-2)
+dobj(write-1, envelope-3)
+
+dobj(stick-1, stamp-2)
+prep_on(stick-1, envelope-4)
+
+prep_with(walk-1, envelope-3)
+aux(post-5, to-4)
+xcomp(walk-1, post-5)
+dobj(post-5, box-6)
+
+dobj(put-1, envelope-2)
+nn(box-5, post-4)
+prep_in(put-1, box-5)
+
+det(letter-3, the-2)
+dobj(address-1, letter-3)
+
+dobj(put-1, stamp-2)
+
+prep_in(put-1, postbox-3)
+
+det(letter-3, the-2)
+dobj(drop-1, letter-3)
+det(dropbox-7, a-5)
+amod(dropbox-7, postal-6)
+prep_into(drop-1, dropbox-7)
+
+dobj(address-1, envelope-2)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+dobj(stamp-1, envelope-2)
+
+dobj(place-1, envelope-2)
+amod(mailbox-5, outgoing-4)
+prep_in(place-1, mailbox-5)
+
+dobj(take-1, letter-2)
+
+dobj(place-1, stamp-2)
+prep_on(place-1, letter-4)
+
+dobj(take-1, letter-2)
+nn(office-5, post-4)
+prep_to(take-1, office-5)
+
+dobj(put-1, letter-2)
+prep_in(put-1, mailbox-4)
+
+dobj(take-1, letter-2)
+nn(box-5, mail-4)
+prep_to(take-1, box-5)
+
+dobj(open-1, mailbox-2)
+
+dobj(take-1, letter-2)
+nn(box-5, mail-4)
+prep_to(take-1, box-5)
+
+dobj(open-1, mailbox-2)
+
+dobj(drop-1, letter-2)
+prep_in(drop-1, mailbox-4)
+
+dobj(take-1, letter-2)
+nn(box-5, mail-4)
+prep_to(take-1, box-5)
+
+dobj(open-1, mailbox-2)
+
+dobj(take-1, letter-2)
+nn(box-5, mail-4)
+prep_to(take-1, box-5)
+
+dobj(open-1, mailbox-2)
+
+dobj(drop-1, letter-2)
+prep_in(drop-1, mailbox-4)
+
+dobj(discern-1, need-2)
+prep_for(need-2, letter-4)
+
+dobj(find-1, paper-2)
+
+dobj(find-1, pencil-2)
+dobj(find-1, pen-4)
+conj_or(pencil-2, pen-4)
+
+nsubj(write-4, what-2)
+aux(write-4, to-3)
+ccomp(decide-1, write-4)
+xcomp(decide-1, write-4)
+
+
+cc(place-3, and-2)
+dobj(fold-1, place-3)
+prep_in(fold-1, envelope-5)
+
+dobj(mail-1, letter-2)
+
+det(letter-3, the-2)
+dobj(put-1, letter-3)
+det(envelope-6, an-5)
+prep_into(put-1, envelope-6)
+
+det(address-3, the-2)
+dobj(write-1, address-3)
+det(envelope-6, the-5)
+prep_on(address-3, envelope-6)
+
+det(stamp-4, a-2)
+nn(stamp-4, postage-3)
+dobj(stick-1, stamp-4)
+det(envelope-7, the-6)
+prep_on(stick-1, envelope-7)
+
+det(envelope-3, the-2)
+dobj(seal-1, envelope-3)
+
+det(letter-3, the-2)
+dobj(put-1, letter-3)
+det(mailbox-6, a-5)
+prep_in(put-1, mailbox-6)
+
+dobj(write-1, letter-2)
+
+dobj(write-1, letter-2)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+dobj(address-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(put-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(put-1, box-5)
+
+dobj(write-1, letter-2)
+
+dobj(write-1, letter-2)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+dobj(address-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(put-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(put-1, box-5)
+
+dobj(write-1, letter-2)
+
+dobj(write-1, letter-2)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+dobj(address-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(put-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(put-1, box-5)
+
+dobj(write-1, letter-2)
+
+dobj(write-1, letter-2)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+dobj(address-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(put-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(put-1, box-5)
+
+dobj(write-1, letter-2)
+
+dobj(write-1, letter-2)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+dobj(address-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(put-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(put-1, box-5)
+
+dobj(write-1, letter-2)
+
+dobj(write-1, letter-2)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+dobj(address-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(put-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(put-1, box-5)
+
+dobj(write-1, letter-2)
+
+dobj(write-1, letter-2)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+dobj(address-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(put-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(put-1, box-5)
+
+dobj(write-1, letter-2)
+
+dobj(write-1, letter-2)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+dobj(address-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(put-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(put-1, box-5)
+
+dobj(address-1, envelope-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+nn(address-3, return-2)
+dobj(put-1, address-3)
+prep_on(put-1, envelope-5)
+
+dobj(put-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(put-1, box-5)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+nsubj(seal-1, envelope-2)
+
+det(sender-3, the-2)
+amod(name-8, sender-3)
+dep(sender-3, s-4)
+conj_and(sender-3, recipient-6)
+amod(name-8, recipient-6)
+dep(sender-3, s-7)
+dobj(put-1, name-8)
+det(envelope-11, the-10)
+prep_on(put-1, envelope-11)
+
+amod(stamps-3, sufficient-2)
+dobj(put-1, stamps-3)
+det(envelope-6, the-5)
+prep_on(put-1, envelope-6)
+
+dobj(drop-1, envelope-2)
+nn(box-5, mail-4)
+prep_in(drop-1, box-5)
+
+dobj(write-1, letter-2)
+
+dobj(write-1, letter-2)
+
+dobj(address-1, envelope-2)
+
+dobj(insert-1, letter-2)
+prep_in(insert-1, envelope-4)
+
+nsubj(seal-1, envelope-2)
+
+dobj(affix-1, stamp-2)
+
+dobj(take-1, letter-2)
+prep_to(take-1, postbox-4)
+
+dobj(insert-1, letter-2)
+amod(slot-5, postbox-4)
+prep_in(insert-1, slot-5)
+
+det(mailbox-3, the-2)
+dobj(open-1, mailbox-3)
+
+det(letter-3, the-2)
+dobj(put-1, letter-3)
+det(mailbox-6, a-5)
+prep_in(put-1, mailbox-6)
+
+det(mailbox-3, the-2)
+dobj(close-1, mailbox-3)
+
+dobj(write-1, letter-2)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+dobj(address-1, envelope-2)
+
+dobj(stamp-1, envelope-2)
+
+amod(office-6, box-3)
+conj_or(box-3, post-5)
+amod(office-6, post-5)
+prep_at(post-1, office-6)
+
+dobj(write-1, letter-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, letter-4)
+
+dobj(drop-1, letter-2)
+prep_in(drop-1, mailbox-4)
+
+dobj(write-1, letter-2)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+dobj(put-1, address-2)
+dobj(put-1, stamp-4)
+conj_and(address-2, stamp-4)
+det(front-7, the-6)
+prep_on(put-1, front-7)
+det(envelope-10, the-9)
+prep_of(front-7, envelope-10)
+
+amod(edges-3, wet-1)
+det(edges-3, the-2)
+det(back-6, the-5)
+prep_on(edges-3, back-6)
+aux(close-8, to-7)
+infmod(back-6, close-8)
+dobj(close-8, envelope-9)
+
+conj_or(drive-1, walk-3)
+det(box-7, the-5)
+nn(box-7, mail-6)
+prep_to(walk-3, box-7)
+
+det(letter-3, the-2)
+dobj(put-1, letter-3)
+det(box-7, the-5)
+nn(box-7, mail-6)
+prep_in(put-1, box-7)
+
+dobj(write-1, address-2)
+prep_on(write-1, envelope-4)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+nsubj(seal-1, envelope-2)
+
+dobj(buy-1, stamp-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, envelope-4)
+
+dobj(put-1, letter-2)
+nn(box-5, letter-4)
+prep_in(put-1, box-5)
+
+dobj(place-1, postage-2)
+det(letter-5, the-4)
+prep_on(place-1, letter-5)
+
+dobj(place-1, letter-2)
+nn(box-6, mail-4)
+nn(box-6, pickup-5)
+prep_in(place-1, box-6)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+nsubj(seal-1, envelope-2)
+
+dobj(address-1, envelope-2)
+
+dobj(apply-1, postage-2)
+
+prep_in(put-1, mailbox-3)
+
+nsubj(raise-1, flag-2)
+prep_on(raise-1, mailbox-4)
+
+dobj(fold-1, letter-2)
+prep_into(fold-1, thirds-4)
+
+dobj(place-1, letter-2)
+prep_in(place-1, envelope-4)
+
+det(envelope-3, the-2)
+dobj(address-1, envelope-3)
+
+det(envelope-3, the-2)
+dobj(seal-1, envelope-3)
+
+det(stamp-3, a-2)
+dobj(place-1, stamp-3)
+det(envelope-6, the-5)
+prep_on(place-1, envelope-6)
+
+det(envelope-3, the-2)
+dobj(place-1, envelope-3)
+det(box-8, the-5)
+amod(box-8, outgoing-6)
+nn(box-8, mail-7)
+prep_in(place-1, box-8)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envilope-4)
+
+acomp(seal-1, envilope-2)
+
+nn(stamp-3, postage-2)
+dobj(affix-1, stamp-3)
+
+dobj(post-1, letter-2)
+amod(box-6, red-4)
+nn(box-6, post-5)
+prep_in(post-1, box-6)
+
+csubj(sit-5, get-1)
+dobj(get-1, paper-2)
+dobj(get-1, pen-4)
+conj_and(paper-2, pen-4)
+prt(sit-5, down-6)
+
+nn(sign-3, information-2)
+dobj(write-1, sign-3)
+det(bottom-6, the-5)
+prep_at(write-1, bottom-6)
+
+cc(place-3, and-2)
+dobj(fold-1, place-3)
+prep_in(fold-1, envelope-5)
+det(stamp-8, a-7)
+prep_with(fold-1, stamp-8)
+
+nn(place-3, mailing-2)
+dobj(find-1, place-3)
+
+dobj(mail-1, letter-2)
+
+dobj(get-1, paper-2)
+
+dobj(get-1, pen-2)
+
+dobj(write-1, letter-2)
+
+dobj(fold-1, paper-2)
+
+prep_in(put-1, envelope-3)
+
+conj_and(seal-1, put-3)
+det(stamp-5, a-4)
+dobj(put-3, stamp-5)
+prep_on(put-3, it-7)
+
+det(box-5, a-3)
+nn(box-5, mail-4)
+prep_in(place-1, box-5)
+
+dobj(write-1, letter-2)
+
+dobj(print-1, letter-2)
+mark(possible-4, if-3)
+dep(print-1, possible-4)
+
+dobj(sign-1, letter-2)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+dobj(lick-1, end-2)
+prep_of(end-2, envelope-4)
+
+dobj(write-1, address-2)
+
+dobj(put-1, letter-2)
+prep_in(put-1, mailbox-4)
+
+dobj(put-1, letter-2)
+prep_into(put-1, envelope-4)
+
+nsubj(seal-1, envelope-2)
+
+nn(address-3, return-2)
+dobj(write-1, address-3)
+
+nn(address-3, forwarding-2)
+dobj(write-1, address-3)
+
+dobj(put-1, stamp-2)
+
+aux(post-3, to-2)
+xcomp(go-1, post-3)
+dobj(post-3, box-4)
+
+dobj(put-1, letter-2)
+prep_in(put-1, mailbox-4)
+
+dobj(insert-1, letter-2)
+prep_in(insert-1, envelope-4)
+
+dobj(insert-1, letter-2)
+prep_in(insert-1, envelope-4)
+
+dobj(adress-1, envelope-2)
+
+dobj(add-1, stamp-2)
+
+csubjpass(sealed-5, make-1)
+amod(envelope-3, sure-2)
+dobj(make-1, envelope-3)
+auxpass(sealed-5, is-4)
+
+dobj(put-1, letter-2)
+amod(box-6, postal-4)
+nn(box-6, mail-5)
+prep_in(put-1, box-6)
+
+det(letter-3, a-2)
+dobj(write-1, letter-3)
+
+det(letter-3, the-2)
+dobj(seal-1, letter-3)
+det(envelope-6, an-5)
+prep_in(seal-1, envelope-6)
+
+det(letter-3, the-2)
+dobj(put-1, letter-3)
+det(mailbox-6, the-5)
+prep_in(put-1, mailbox-6)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+conj_and(seal-1, address-3)
+dobj(address-3, envelope-4)
+
+dobj(add-1, postage-2)
+
+amod(mailbox-4, outgoing-3)
+prep_in(put-1, mailbox-4)
+
+nsubj(seal-1, envelope-2)
+
+dobj(write-1, address-2)
+prep_on(write-1, envelope-4)
+
+nn(stamp-3, postage-2)
+dobj(apply-1, stamp-3)
+
+nn(box-4, mail-3)
+prep_to(walk-1, box-4)
+
+prep_in(drop-1, mailbox-3)
+
+dobj(put-1, letter-2)
+prep_in(put-1, envelope-4)
+
+dobj(lick-1, flap-2)
+
+nsubj(seal-1, letter-2)
+
+dobj(attatch-1, stamp-2)
+
+nn(box-4, mail-3)
+prep_to(drive-1, box-4)
+
+dobj(put-1, letter-2)
+nn(box-5, mail-4)
+prep_into(put-1, box-5)
+
+
+dobj(write-1, letter-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, evelope-4)
+
+dobj(put-1, letter-2)
+prep_in(put-1, mailbox-4)
+
+advmod(walk-1, away-2)
+
+dobj(seal-1, letter-2)
+prep_in(seal-1, envelope-4)
+
+dobj(address-1, envelope-2)
+amod(middle-5, front-4)
+prep_in(address-1, middle-5)
+prep_of(middle-5, envelope-7)
+
+nn(address-3, return-2)
+dobj(write-1, address-3)
+amod(corner-7, top-5)
+amod(corner-7, left-6)
+prep_in(write-1, corner-7)
+
+amod(stamp-3, appropriate-2)
+dobj(stick-1, stamp-3)
+amod(corner-7, top-5)
+amod(corner-7, right-6)
+prep_in(stick-1, corner-7)
+
+dobj(bring-1, letter-2)
+prep_to(bring-1, mailbox-4)
+
+dobj(drop-1, letter-2)
+prep_in(drop-1, mailbox-4)
+
+det(letter-3, the-2)
+dobj(write-1, letter-3)
+
+dobj(put-1, it-2)
+det(envelope-5, an-4)
+prep_in(put-1, envelope-5)
+
+det(stamp-3, a-2)
+dobj(put-1, stamp-3)
+det(envelope-6, the-5)
+prep_on(put-1, envelope-6)
+
+det(address-3, the-2)
+dobj(write-1, address-3)
+aux(send-5, to-4)
+infmod(address-3, send-5)
+dobj(send-5, it-6)
+prep(send-5, to-7)
+
+dobj(bring-1, it-2)
+det(box-6, a-4)
+nn(box-6, mail-5)
+prep_to(bring-1, box-6)
+
+dobj(put-1, it-2)
+det(box-6, the-4)
+nn(box-6, mail-5)
+prep_in(put-1, box-6)
+
+nsubjpass(sent-4, it-1)
+aux(sent-4, will-2)
+auxpass(sent-4, be-3)
+prt(sent-4, out-5)
+det(address-8, the-7)
+prep_to(sent-4, address-8)
+
+dobj(get-1, letter-2)
+
+dobj(put-1, stamp-2)
+prep_on(put-1, letter-4)
+
+dobj(take-1, letter-2)
+prep_to(take-1, mailbox-4)
+
+dobj(drop-1, letter-2)
+prep_into(drop-1, mailbox-4)
+
+dobj(affix-1, stamp-2)
+amod(corner-7, front-4)
+dep(front-4, right-5)
+dep(front-4, hand-6)
+prep_on(stamp-2, corner-7)
+
+dobj(put-1, letter-2)
+prep_in(put-1, mailbox-4)
+
