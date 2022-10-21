@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 import logging
 import sacrebleu
 import pandas as pd
@@ -17,8 +17,8 @@ model_args.length_penalty = 1
 model_args.num_beams = 10
 
 model_output_dir = "/home/CE/musaeed/t5_translation/output_dir/checkpoint-4996-epoch-1"
-model_output_dir = "/home/CE/musaeed/t5_translation/output_using_the_prefix_for_training/checkpoint-6245-epoch-1"
-model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[7])
+model_output_dir = "/home/CE/musaeed/t5_translation/output_using_the_prefix_for_training/checkpoint-37470-epoch-6"
+model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[4])
 
 eval_df = pd.read_csv("/home/CE/musaeed/Naija-Pidgin/t5_translation/data/tsv/eval.tsv", sep="\t").astype(str)
 
@@ -29,6 +29,11 @@ pcm_truth_list = eval_df.loc[eval_df["prefix"] == "translate english to pcm"]["t
 english_truth = [eval_df.loc[eval_df["prefix"] == "translate pcm to english"]["target_text"].tolist()]
 to_english = eval_df.loc[eval_df["prefix"] == "translate pcm to english"]["input_text"].tolist()
 english_truth_list = eval_df.loc[eval_df["prefix"] == "translate pcm to english"]["target_text"].tolist()
+en2pcm = "translate english to pcm: "
+pcm2en = "translate pcm to english: "
+to_pcm = [en2pcm + s for s in to_pcm]
+to_english  = [pcm2en + s for s in to_english]
+
 
 print(f"the english data is {to_english[:10]}")
 print("#################################################")
@@ -50,6 +55,8 @@ print(f"the type of the prediction is type(pcm_preds)")
 with open("/home/CE/musaeed/Naija-Pidgin/t5_translation/eval_results/english2pcm.txt", "w", encoding="utf-8") as fb:
     counter=0
     for index,pcm in enumerate(pcm_preds):
+        source_line = "src: " + + str(to_pcm[counter]) + "\n"
+        fb.write(source_line)
         real_line = "real: " + str(pcm_truth_list[counter]) + "\n"
         fb.write(real_line)
         pred_line = "pred: " + str(pcm) +"\n"
@@ -66,6 +73,8 @@ print("Pidgin to English: ", pcm_en_bleu.score)
 counter=0
 with open("/home/CE/musaeed/Naija-Pidgin/t5_translation/eval_results/pcm2english.txt", "w", encoding="utf-8") as fb:
     for index,en in enumerate(english_preds):
+        source_line =  "src: " + + str(to_english[counter]) + "\n"
+        fb.write(source_line)
         real_line = "real: " + str(english_truth_list[counter]) + "\n"
         fb.write(real_line)
         pred_line = "pred: " + str(en) +"\n"

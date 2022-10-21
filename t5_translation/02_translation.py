@@ -31,11 +31,12 @@ model_args.overwrite_output_dir = True
 model_args.preprocess_inputs = False
 model_args.n_gpu = 2
 model_args.num_return_sequences = 1
-model_args.output_dir = "/home/CE/musaeed/t5_translation/output_dir"
+model_args.output_dir = "/home/CE/musaeed/t5_translation/output_dir_contine_from_epoch_7"
 
 model_args.wandb_project = "MT5 PCM-English Translation"
-
+model_dir = "/home/CE/musaeed/t5_translation/output_dir_backup_7_epoch/checkpoint-49960-epoch-8"
 # model = T5Model("mt5", "google/mt5-base", args=model_args, cuda_devices=[3,2])
-model = T5Model("mt5", "google/mt5-base", args=model_args, cuda_devices=[2])
+# model = T5Model("mt5", "google/mt5-base", args=model_args, cuda_devices=[2])
+model = T5Model("mt5", model_dir, args=model_args, cuda_devices=[2])
 
 model.train_model(train_df, eval_data=eval_df)
