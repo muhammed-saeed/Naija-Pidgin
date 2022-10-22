@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1,2"
 import logging
 import sacrebleu
 import pandas as pd
@@ -17,8 +17,8 @@ model_args.length_penalty = 1
 model_args.num_beams = 10
 
 model_output_dir = "/home/CE/musaeed/t5_translation/output_dir/checkpoint-4996-epoch-1"
-model_output_dir = "/home/CE/musaeed/t5_translation/output_using_the_prefix_for_training/checkpoint-6245-epoch-1"
-model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[7])
+model_output_dir = "/home/CE/musaeed/t5_translation/output_dir_contiue_from_checkpoint_7/checkpoint-56205-epoch-9"
+model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[1,2])
 
 eval_df = pd.read_csv("/home/CE/musaeed/Naija-Pidgin/t5_translation/data/tsv/eval.tsv", sep="\t").astype(str)
 
@@ -29,6 +29,8 @@ pcm_truth_list = eval_df.loc[eval_df["prefix"] == "translate english to pcm"]["t
 english_truth = [eval_df.loc[eval_df["prefix"] == "translate pcm to english"]["target_text"].tolist()]
 to_english = eval_df.loc[eval_df["prefix"] == "translate pcm to english"]["input_text"].tolist()
 english_truth_list = eval_df.loc[eval_df["prefix"] == "translate pcm to english"]["target_text"].tolist()
+
+
 
 print(f"the english data is {to_english[:10]}")
 print("#################################################")
