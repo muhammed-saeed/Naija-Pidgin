@@ -1,0 +1,98 @@
+Epochs 1/2. Running Loss:    8.9282:   0%|                           | 0/12489 [00:01<?, ?it/s]
+Traceback (most recent call last):2:   0%|                           | 0/12489 [00:00<?, ?it/s]
+  File "/home/CE/musaeed/Naija-Pidgin/mBART/translation/02_training_translation.py", line 55, in <module>
+    model.train_model(train_df, eval_data=eval_df)
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletransformers/seq2seq/seq2seq_model.py", line 447, in train_model
+    global_step, training_details = self.train(
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletransformers/seq2seq/seq2seq_model.py", line 790, in train
+    optimizer.step()
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/torch/optim/lr_scheduler.py", line 65, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/torch/optim/optimizer.py", line 113, in wrapper
+    return func(*args, **kwargs)
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/torch/optim/adamw.py", line 146, in step
+    state['exp_avg'] = torch.zeros_like(p, memory_format=torch.preserve_format)
+RuntimeError: CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 31.75 GiB total capacity; 9.50 GiB already allocated; 12.19 MiB free; 9.53 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[31m╭───────────────────────────── [39m[1mTraceback (most recent call last)[31m[22m ─────────────────────────────╮
+[31m│[39m /home/CE/musaeed/Naija-Pidgin/mBART/translation/[1m02_training_translation.py[22m:[94m55[39m in [92m<module>[39m   [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m   52 │   cuda_devices=[[94m6[39m]                                                                   [31m│
+[31m│[39m   53 )                                                                                      [31m│
+[31m│[39m   54                                                                                        [31m│
+[31m│[39m [31m❱ [39m55 model.train_model(train_df, eval_data=eval_df)                                         [31m│
+[31m│[39m   56                                                                                        [31m│
+[31m│[39m   57 to_predict = [                                                                         [31m│
+[31m│[39m   58 │   prefix + [33m": "[39m + [96mstr[39m(input_text)                                                    [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletransformers/seq2seq/[1ms[22m [31m│
+[31m│[39m [1meq2seq_model.py[22m:[94m447[39m in [92mtrain_model[39m                                                          [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m    444 │   │                                                                                [31m│
+[31m│[39m    445 │   │   os.makedirs(output_dir, exist_ok=[94mTrue[39m)                                       [31m│
+[31m│[39m    446 │   │                                                                                [31m│
+[31m│[39m [31m❱ [39m 447 │   │   global_step, training_details = [96mself[39m.train(                                  [31m│
+[31m│[39m    448 │   │   │   train_dataset,                                                           [31m│
+[31m│[39m    449 │   │   │   output_dir,                                                              [31m│
+[31m│[39m    450 │   │   │   show_running_loss=show_running_loss,                                     [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletransformers/seq2seq/[1ms[22m [31m│
+[31m│[39m [1meq2seq_model.py[22m:[94m790[39m in [92mtrain[39m                                                                [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m    787 │   │   │   │   │   │   scaler.step(optimizer)                                       [31m│
+[31m│[39m    788 │   │   │   │   │   │   scaler.update()                                              [31m│
+[31m│[39m    789 │   │   │   │   │   [94melse[39m:                                                            [31m│
+[31m│[39m [31m❱ [39m 790 │   │   │   │   │   │   optimizer.step()                                             [31m│
+[31m│[39m    791 │   │   │   │   │   scheduler.step()  # Update learning rate schedule                [31m│
+[31m│[39m    792 │   │   │   │   │   model.zero_grad()                                                [31m│
+[31m│[39m    793 │   │   │   │   │   global_step += [94m1[39m                                                 [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/torch/optim/[1mlr_scheduler.py[22m: [31m│
+[31m│[39m [94m65[39m in [92mwrapper[39m                                                                               [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m     62 │   │   │   │   instance = instance_ref()                                            [31m│
+[31m│[39m     63 │   │   │   │   instance._step_count += [94m1[39m                                            [31m│
+[31m│[39m     64 │   │   │   │   wrapped = func.[92m__get__[39m(instance, [96mcls[39m)                                [31m│
+[31m│[39m [31m❱ [39m  65 │   │   │   │   [94mreturn[39m wrapped(*args, **kwargs)                                      [31m│
+[31m│[39m     66 │   │   │                                                                            [31m│
+[31m│[39m     67 │   │   │   # Note that the returned function here is no longer a bound method,      [31m│
+[31m│[39m     68 │   │   │   # so attributes like `__func__` and `__self__` no longer exist.          [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/torch/optim/[1moptimizer.py[22m:[94m113[39m [31m│
+[31m│[39m in [92mwrapper[39m                                                                                  [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m   110 │   │   │   │   obj, *_ = args                                                        [31m│
+[31m│[39m   111 │   │   │   │   profile_name = [33m"Optimizer.step#{}.step"[39m.format(obj.[91m__class__[39m.[91m__name__[39m [31m│
+[31m│[39m   112 │   │   │   │   [94mwith[39m torch.autograd.profiler.record_function(profile_name):           [31m│
+[31m│[39m [31m❱ [39m113 │   │   │   │   │   [94mreturn[39m func(*args, **kwargs)                                      [31m│
+[31m│[39m   114 │   │   │   [94mreturn[39m wrapper                                                            [31m│
+[31m│[39m   115 │   │                                                                                 [31m│
+[31m│[39m   116 │   │   hooked = [96mgetattr[39m([96mself[39m.[91m__class__[39m.step, [33m"hooked"[39m, [94mNone[39m)                         [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/torch/autograd/[1mgrad_mode.py[22m: [31m│
+[31m│[39m [94m27[39m in [92mdecorate_context[39m                                                                      [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m    24 │   │   [1m@functools[22m.wraps(func)                                                        [31m│
+[31m│[39m    25 │   │   [94mdef[39m [92mdecorate_context[39m(*args, **kwargs):                                        [31m│
+[31m│[39m    26 │   │   │   [94mwith[39m [96mself[39m.clone():                                                        [31m│
+[31m│[39m [31m❱ [39m 27 │   │   │   │   [94mreturn[39m func(*args, **kwargs)                                          [31m│
+[31m│[39m    28 │   │   [94mreturn[39m cast(F, decorate_context)                                              [31m│
+[31m│[39m    29 │                                                                                     [31m│
+[31m│[39m    30 │   [94mdef[39m [92m_wrap_generator[39m([96mself[39m, func):                                                  [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/torch/optim/[1madamw.py[22m:[94m146[39m in  [31m│
+[31m│[39m [92mstep[39m                                                                                        [31m│
+[31m│[39m                                                                                             [31m│
+[31m│[39m   143 │   │   │   │   │   state[[33m'step'[39m] = torch.zeros(([94m1[39m,), dtype=torch.float, device=p.dev [31m│
+[31m│[39m   144 │   │   │   │   │   │   [94mif[39m [96mself[39m.defaults[[33m'capturable'[39m] [94melse[39m torch.tensor([94m0.[39m)          [31m│
+[31m│[39m   145 │   │   │   │   │   # Exponential moving average of gradient values                   [31m│
+[31m│[39m [31m❱ [39m146 │   │   │   │   │   state[[33m'exp_avg'[39m] = torch.zeros_like(p, memory_format=torch.preser [31m│
+[31m│[39m   147 │   │   │   │   │   # Exponential moving average of squared gradient values           [31m│
+[31m│[39m   148 │   │   │   │   │   state[[33m'exp_avg_sq'[39m] = torch.zeros_like(p, memory_format=torch.pre [31m│
+[31m│[39m   149 │   │   │   │   │   [94mif[39m amsgrad:                                                       [31m│
+[31m╰─────────────────────────────────────────────────────────────────────────────────────────────╯
+[1mRuntimeError: [22mCUDA out of memory. Tried to allocate [1m16.00[22m MiB [1m([22mGPU [1m0[22m; [1m31.75[22m GiB total capacity;
+[1m9.50[22m GiB already allocated; [1m12.19[22m MiB free; [1m9.53[22m GiB reserved in total by PyTorch[1m)[22m If reserved
+memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See
+documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

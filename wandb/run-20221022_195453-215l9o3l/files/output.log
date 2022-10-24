@@ -1,0 +1,839 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epochs 1/2. Running Loss:    2.0783:  20%|██▊           | 2499/12489 [20:06<1:/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3671: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and targets.| 0/4206 [00:00<?, ?it/s]
+Here is a short example:
+model_inputs = tokenizer(src_texts, text_target=tgt_texts, ...)
+If you either need to use different keyword arguments for the source and target texts, you should do two calls like
+this:
+model_inputs = tokenizer(src_texts, ...)
+labels = tokenizer(text_target=tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3545: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+  warnings.warn(
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3671: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, text_target=tgt_texts, ...)
+If you either need to use different keyword arguments for the source and target texts, you should do two calls like
+this:
+model_inputs = tokenizer(src_texts, ...)
+labels = tokenizer(text_target=tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3545: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+  warnings.warn(
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3671: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, text_target=tgt_texts, ...)
+If you either need to use different keyword arguments for the source and target texts, you should do two calls like
+this:
+model_inputs = tokenizer(src_texts, ...)
+labels = tokenizer(text_target=tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3545: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+  warnings.warn(
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3671: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, text_target=tgt_texts, ...)
+If you either need to use different keyword arguments for the source and target texts, you should do two calls like
+this:
+model_inputs = tokenizer(src_texts, ...)
+labels = tokenizer(text_target=tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3545: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+  warnings.warn(
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3671: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, text_target=tgt_texts, ...)
+If you either need to use different keyword arguments for the source and target texts, you should do two calls like
+this:
+model_inputs = tokenizer(src_texts, ...)
+labels = tokenizer(text_target=tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3671: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, text_target=tgt_texts, ...)
+If you either need to use different keyword arguments for the source and target texts, you should do two calls like
+this:
+model_inputs = tokenizer(src_texts, ...)
+labels = tokenizer(text_target=tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3545: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+  warnings.warn(
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3545: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+  warnings.warn(
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3671: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, text_target=tgt_texts, ...)
+If you either need to use different keyword arguments for the source and target texts, you should do two calls like
+this:
+model_inputs = tokenizer(src_texts, ...)
+labels = tokenizer(text_target=tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3545: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+  warnings.warn(
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3671: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, text_target=tgt_texts, ...)
+If you either need to use different keyword arguments for the source and target texts, you should do two calls like
+this:
+model_inputs = tokenizer(src_texts, ...)
+labels = tokenizer(text_target=tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3545: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+  warnings.warn(
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3671: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, text_target=tgt_texts, ...)
+If you either need to use different keyword arguments for the source and target texts, you should do two calls like
+this:
+model_inputs = tokenizer(src_texts, ...)
+labels = tokenizer(text_target=tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/local/home/CE/musaeed/transformers/src/transformers/tokenization_utils_base.py:3545: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+  warnings.warn(
+
+
+Traceback (most recent call last):       | 3001/4206 [00:13<00:03, 386.41it/s]
+  File "/home/CE/musaeed/Naija-Pidgin/mBART/translation/02_training_translation.py", line 54, in <module>
+    model.train_model(train_df, eval_data=eval_df)
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletransformers/seq2seq/seq2seq_model.py", line 447, in train_model
+    global_step, training_details = self.train(
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletransformers/seq2seq/seq2seq_model.py", line 830, in train
+    results = self.eval_model(
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletransformers/seq2seq/seq2seq_model.py", line 1150, in eval_model
+    result = self.evaluate(
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletransformers/seq2seq/seq2seq_model.py", line 1212, in evaluate
+    outputs = model(**inputs)
+  File "/home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/local/home/CE/musaeed/transformers/src/transformers/models/mbart/modeling_mbart.py", line 1370, in forward
+    lm_logits = self.lm_head(outputs[0]) + self.final_logits_bias
+RuntimeError: CUDA out of memory. Tried to allocate 7.63 GiB (GPU 0; 31.75 GiB total capacity; 25.42 GiB already allocated; 4.27 GiB free; 26.31 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[31m╭──────────────────── [39m[1mTraceback (most recent call last)[31m[22m ─────────────────────╮
+[31m│[39m /home/CE/musaeed/Naija-Pidgin/mBART/translation/[1m02_training_translation.py[22m [31m│
+[31m│[39m :[94m54[39m in [92m<module>[39m                                                            [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m   51 │   use_cuda=[94mTrue[39m                                                     [31m│
+[31m│[39m   52 )                                                                     [31m│
+[31m│[39m   53                                                                       [31m│
+[31m│[39m [31m❱ [39m54 model.train_model(train_df, eval_data=eval_df)                        [31m│
+[31m│[39m   55                                                                       [31m│
+[31m│[39m   56 to_predict = [                                                        [31m│
+[31m│[39m   57 │   prefix + [33m": "[39m + [96mstr[39m(input_text)                                   [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletrans [31m│
+[31m│[39m formers/seq2seq/[1mseq2seq_model.py[22m:[94m447[39m in [92mtrain_model[39m                        [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m    444 │   │                                                               [31m│
+[31m│[39m    445 │   │   os.makedirs(output_dir, exist_ok=[94mTrue[39m)                      [31m│
+[31m│[39m    446 │   │                                                               [31m│
+[31m│[39m [31m❱ [39m 447 │   │   global_step, training_details = [96mself[39m.train(                 [31m│
+[31m│[39m    448 │   │   │   train_dataset,                                          [31m│
+[31m│[39m    449 │   │   │   output_dir,                                             [31m│
+[31m│[39m    450 │   │   │   show_running_loss=show_running_loss,                    [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletrans [31m│
+[31m│[39m formers/seq2seq/[1mseq2seq_model.py[22m:[94m830[39m in [92mtrain[39m                              [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m    827 │   │   │   │   │   │   [95mand[39m global_step % args.evaluate_during_trai [31m│
+[31m│[39m    828 │   │   │   │   │   ):                                              [31m│
+[31m│[39m    829 │   │   │   │   │   │   # Only evaluate when single GPU otherwise m [31m│
+[31m│[39m [31m❱ [39m 830 │   │   │   │   │   │   results = [96mself[39m.eval_model(                  [31m│
+[31m│[39m    831 │   │   │   │   │   │   │   eval_data,                              [31m│
+[31m│[39m    832 │   │   │   │   │   │   │   verbose=verbose [95mand[39m args.evaluate_durin [31m│
+[31m│[39m    833 │   │   │   │   │   │   │   silent=args.evaluate_during_training_si [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletrans [31m│
+[31m│[39m formers/seq2seq/[1mseq2seq_model.py[22m:[94m1150[39m in [92meval_model[39m                        [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m   1147 │   │   )                                                           [31m│
+[31m│[39m   1148 │   │   os.makedirs(output_dir, exist_ok=[94mTrue[39m)                      [31m│
+[31m│[39m   1149 │   │                                                               [31m│
+[31m│[39m [31m❱ [39m1150 │   │   result = [96mself[39m.evaluate(                                     [31m│
+[31m│[39m   1151 │   │   │   eval_dataset, output_dir, verbose=verbose, silent=silen [31m│
+[31m│[39m   1152 │   │   )                                                           [31m│
+[31m│[39m   1153 │   │   [96mself[39m.results.update(result)                                 [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/simpletrans [31m│
+[31m│[39m formers/seq2seq/[1mseq2seq_model.py[22m:[94m1212[39m in [92mevaluate[39m                          [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m   1209 │   │   │   │   │   │   outputs = model(**inputs)                   [31m│
+[31m│[39m   1210 │   │   │   │   │   │   tmp_eval_loss = outputs[[94m0[39m]                  [31m│
+[31m│[39m   1211 │   │   │   │   [94melse[39m:                                               [31m│
+[31m│[39m [31m❱ [39m1212 │   │   │   │   │   outputs = model(**inputs)                       [31m│
+[31m│[39m   1213 │   │   │   │   │   tmp_eval_loss = outputs[[94m0[39m]                      [31m│
+[31m│[39m   1214 │   │   │   │   [94mif[39m [96mself[39m.args.n_gpu > [94m1[39m:                             [31m│
+[31m│[39m   1215 │   │   │   │   │   tmp_eval_loss = tmp_eval_loss.mean()            [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m /home/CE/musaeed/anaconda3/envs/t5/lib/python3.9/site-packages/torch/nn/mo [31m│
+[31m│[39m dules/[1mmodule.py[22m:[94m1130[39m in [92m_call_impl[39m                                         [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m   1127 │   │   # this function, and just call forward.                     [31m│
+[31m│[39m   1128 │   │   [94mif[39m [95mnot[39m ([96mself[39m._backward_hooks [95mor[39m [96mself[39m._forward_hooks [95mor[39m [96mself[39m [31m│
+[31m│[39m   1129 │   │   │   │   [95mor[39m _global_forward_hooks [95mor[39m _global_forward_pre_hoo [31m│
+[31m│[39m [31m❱ [39m1130 │   │   │   [94mreturn[39m forward_call(*[96minput[39m, **kwargs)                   [31m│
+[31m│[39m   1131 │   │   # Do not call functions when jit is used                    [31m│
+[31m│[39m   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []       [31m│
+[31m│[39m   1133 │   │   [94mif[39m [96mself[39m._backward_hooks [95mor[39m _global_backward_hooks:          [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m /local/home/CE/musaeed/transformers/src/transformers/models/mbart/[1mmodeling[22m [31m│
+[31m│[39m [1m_mbart.py[22m:[94m1370[39m in [92mforward[39m                                                  [31m│
+[31m│[39m                                                                            [31m│
+[31m│[39m   1367 │   │   │   output_hidden_states=output_hidden_states,              [31m│
+[31m│[39m   1368 │   │   │   return_dict=return_dict,                                [31m│
+[31m│[39m   1369 │   │   )                                                           [31m│
+[31m│[39m [31m❱ [39m1370 │   │   lm_logits = [96mself[39m.lm_head(outputs[[94m0[39m]) + [96mself[39m.final_logits_bi [31m│
+[31m│[39m   1371 │   │                                                               [31m│
+[31m│[39m   1372 │   │   masked_lm_loss = [94mNone[39m                                       [31m│
+[31m│[39m   1373 │   │   [94mif[39m labels [95mis[39m [95mnot[39m [94mNone[39m:                                      [31m│
+[31m╰────────────────────────────────────────────────────────────────────────────╯
+[1mRuntimeError: [22mCUDA out of memory. Tried to allocate [1m7.63[22m GiB [1m([22mGPU [1m0[22m; [1m31.75[22m GiB
+total capacity; [1m25.42[22m GiB already allocated; [1m4.27[22m GiB free; [1m26.31[22m GiB reserved
+in total by PyTorch[1m)[22m If reserved memory is >> allocated memory try setting
+max_split_size_mb to avoid fragmentation.  See documentation for Memory
+Management and PYTORCH_CUDA_ALLOC_CONF

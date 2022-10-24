@@ -1,0 +1,23 @@
+{
+    "os": "Linux-4.15.0-142-generic-x86_64-with-glibc2.23",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-10-22T17:47:34.248218",
+    "startedAt": "2022-10-22T17:47:33.540873",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 8,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/CE/musaeed/Naija-Pidgin/mBART/translation/02_training_translation.py",
+    "git": {
+        "remote": "https://github.com/muhammed-saeed/Naija-Pidgin.git",
+        "commit": "eab39775c98b075ad9b91a432235f84f34ff791e"
+    },
+    "email": null,
+    "root": "/local/home/CE/musaeed/Naija-Pidgin",
+    "host": "tony-1",
+    "username": "musaeed",
+    "executable": "/home/CE/musaeed/anaconda3/envs/t5/bin/python3"
+}
