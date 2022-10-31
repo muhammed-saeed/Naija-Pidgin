@@ -18,7 +18,8 @@ model_args.num_beams = 10
 
 # model_output_dir = "/home/CE/musaeed/t5_translation/output_dir/checkpoint-4996-epoch-1"
 # model_output_dir = "/home/CE/musaeed/t5_translation/output_using_the_prefix_for_training/checkpoint-37470-epoch-6"
-model_output_dir = "/home/CE/musaeed/t5_translation/contine_epoch_5_output_using_the_prefix_for_training_mt_small/checkpoint-74940-epoch-7"
+model_output_dir = "/home/CE/musaeed/t5_translation/contine_epoch_5_output_using_the_prefix_for_training_mt_small/checkpoint-124900-epoch-15"
+model_output_dir = "/home/CE/musaeed/t5_translation/cnt_epoch_15_output_using_the_prefix_for_training_mt_base/checkpoint-124900-epoch-5"
 model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[6])
 
 eval_df = pd.read_csv("/home/CE/musaeed/Naija-Pidgin/t5_translation/data/tsv/eval.tsv", sep="\t").astype(str)

@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "6"
+os.environ["CUDA_VISIBLE_DEVICES"] = "2,3,4"
 import logging
 import sacrebleu
 import pandas as pd
@@ -15,9 +15,13 @@ transformers_logger.setLevel(logging.WARNING)
 
 
 model_args = T5Args()
-model_args.max_length = 512
+model_args.max_length = 198
 model_args.length_penalty = 1
+model_args.fp16=False
+model_args.eval_batch_size=16
 model_args.num_beams = 10
+model_args.n_gpu=3
+
 
 
 
@@ -44,7 +48,7 @@ def prepare_translation_datasets(data_path):
 # model_output_dir = "/home/CE/musaeed/t5_translation/output_dir/checkpoint-4996-epoch-1"
 # model_output_dir = "/home/CE/musaeed/t5_translation/output_using_the_prefix_for_training/checkpoint-37470-epoch-6"
 model_output_dir = "/home/CE/musaeed/t5_translation/contine_epoch_5_output_using_the_prefix_for_training_mt_small/checkpoint-74940-epoch-7"
-model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[6])
+model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[2,3,4])
 
 # eval_df = pd.read_csv("/home/CE/musaeed/Naija-Pidgin/t5_translation/data/tsv/eval.tsv", sep="\t").astype(str)
 
@@ -71,11 +75,11 @@ print(f"the english data is {to_english[:10]}")
 print("#################################################")
 # string_ = " ".join(pcm_truth[0])
 # lines = pcm_truth[0].split(",")
-print(f"the lenght of pcm_truth is {len(pcm_truth_list)}")
+# print(f"the lenght of pcm_truth is {len(pcm_truth_list)}")
 # print(f"examples of pcm_truth {pcm_truth}")
 
 # Predict
-pcm_preds = model.predict(to_pcm_)
+# pcm_preds = model.predict(to_pcm_)
 
 
 
@@ -85,7 +89,7 @@ pcm_preds = model.predict(to_pcm_)
 
 en2pcm = "translate english to pcm: "
 pcm2en = "translate pcm to english: "
-to_pcm_ = [en2pcm + s for s in to_pcm]
+# to_pcm_ = [en2pcm + s for s in to_pcm]
 to_english_  = [pcm2en + s for s in to_english]
 
 
@@ -93,11 +97,11 @@ print(f"the english data is {to_english[:10]}")
 print("#################################################")
 # string_ = " ".join(pcm_truth[0])
 # lines = pcm_truth[0].split(",")
-print(f"the lenght of pcm_truth is {len(pcm_truth_list)}")
+# print(f"the lenght of pcm_truth is {len(pcm_truth_list)}")
 # print(f"examples of pcm_truth {pcm_truth}")
 
 # Predict
-pcm_preds = model.predict(to_pcm_)
+pcm_preds = model.predict(to_english_)
 
 with open("/home/CE/musaeed/t5_translation/backtranslation/pcmreal2en.txt","w", encoding="utf-8") as fb:
     for line in pcm_preds:
