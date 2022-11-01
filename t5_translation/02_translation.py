@@ -12,8 +12,8 @@ transformers_logger.setLevel(logging.WARNING)
 train_df = pd.read_csv("/home/CE/musaeed/t5_translation/data/tsv/train.tsv", sep="\t").astype(str)
 eval_df = pd.read_csv("/home/CE/musaeed/t5_translation/data/tsv/eval.tsv", sep="\t").astype(str)
 
-train_df["prefix"] = ""
-eval_df["prefix"] = ""
+# train_df["prefix"] = ""
+# eval_df["prefix"] = ""
 model_args = T5Args()
 model_args.max_seq_length = 128
 model_args.train_batch_size = 16

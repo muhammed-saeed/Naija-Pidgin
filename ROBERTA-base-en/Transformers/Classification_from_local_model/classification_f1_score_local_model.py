@@ -9,7 +9,12 @@ from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampl
 from transformers import BertTokenizer, BertModel, BertConfig
 
 
-model_path = "/home/CE/musaeed/checkpoint-53500"
+# model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/pretraining_from_scratch_train_eval_large_train_batch/checkpoint-49152"
+
+# model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre_training_from_scratch/roberta-scratch-pre-trained_100_epoch/checkpoint-232500"
+model_path_afri = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/afri_bert/more_training/checkpoint-276000"
+model_path_reglious= "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/religous_data/more_pretraining/checkpoint-81000"
+model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/enrich_sentiment_analysis/more_pretraining/checkpoint-40000"
 # import torch_xla
 # import torch_xla.core.xla_model as xm
 # device = xm.xla_device()
@@ -43,8 +48,8 @@ device = 'cuda' if cuda.is_available() else 'cpu'
 # Defining some key variables that will be used later on in the training
 MAX_LEN = 200
 #used to be 200
-TRAIN_BATCH_SIZE = 4
-VALID_BATCH_SIZE = 2
+TRAIN_BATCH_SIZE = 8
+VALID_BATCH_SIZE = 4
 EPOCHS = 10
 LEARNING_RATE = 1e-05
 from transformers import RobertaTokenizer, RobertaForMaskedLM
@@ -90,10 +95,10 @@ class CustomDataset(Dataset):
 mapping = {"positive":2, "neutral":1, "negative":0 }
 
 train_df = pd.read_csv("/home/CE/musaeed/ROBERTA-base-en/pidgin/pcm_train.csv")
-print('Training data...')
-dev_df = pd.read_csv("/home/CE/musaeed/ROBERTA-base-en/pidgin/pcm_dev.csv")
-train_df = pd.concat([train_df, dev_df], axis = 0,ignore_index = True)
 
+# /home/CE/musaeed/ROBERTA-base-en/pidgin
+
+print('Training data...')
 train_df_text = train_df.text.astype(str)
 train_df_label = train_df.label.map(mapping)
 print (train_df.head())
@@ -103,9 +108,6 @@ test_df = pd.read_csv("/home/CE/musaeed/ROBERTA-base-en/pidgin/pcm_test.csv")
 print('\nTesting data...')
 test_df_text = test_df.text.astype(str)
 test_df_label = test_df.label.map(mapping)
-
-
-
 print (test_df.head())
 print(f"{test_df_text[0]} | {test_df_label[0]}")
 train_data = pd.concat([train_df_text, train_df_label], axis=1, join='inner')
@@ -158,6 +160,8 @@ class RobertaClass(torch.nn.Module):
 
 from torch import cuda
 device = 'cuda' if cuda.is_available() else 'cpu'
+
+# device = 'cpu'
 model = RobertaClass()
 model.to(device)
 
@@ -189,7 +193,7 @@ def train(epoch):
 for epoch in range(EPOCHS):
     train(epoch)
 
-
+# device="cpu"
 def validation(epoch):
     model.eval()
     fin_targets=[]
@@ -202,8 +206,8 @@ def validation(epoch):
             targets = data['targets'].to(device, dtype = torch.float)
             one_hot_targets = one_hot(targets.to(torch.int64), num_classes=3).to(torch.float)
             outputs = model(ids, mask, token_type_ids)
-            fin_targets.extend(one_hot_targets.cpu().detach().numpy().tolist())
-            fin_outputs.extend(torch.sigmoid(outputs).cpu().detach().numpy().tolist())
+            fin_targets.extend(one_hot_targets.detach().cpu().numpy().tolist())
+            fin_outputs.extend(torch.sigmoid(outputs).detach().cpu().numpy().tolist())
     return fin_outputs, fin_targets
 
 for epoch in range(EPOCHS):
@@ -213,10 +217,7 @@ for epoch in range(EPOCHS):
     f1_score_micro = metrics.f1_score(targets, outputs, average='micro')
     f1_score_macro = metrics.f1_score(targets, outputs, average='macro')
     f1_score_weighted = metrics.f1_score(targets, outputs, average='weighted')
-
-    
-
     print(f"Accuracy Score = {accuracy}")
     print(f"F1 Score (Micro) = {f1_score_micro}")
     print(f"F1 Score (Macro) = {f1_score_macro}")
-    print(f"F1 Score (Weighted) = {f1_score_weighted}")
+    print(f"F1 Score (weighted) = {f1_score_weighted}")
