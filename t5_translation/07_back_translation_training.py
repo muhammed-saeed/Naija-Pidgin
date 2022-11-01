@@ -30,7 +30,7 @@ model_args.no_cache = True
 model_args.reprocess_input_data = True
 model_args.overwrite_output_dir = True
 model_args.preprocess_inputs = False
-# model_args.n_gpu = 2
+model_args.n_gpu = 2
 model_args.num_return_sequences = 1
 model_args.output_dir = "/home/CE/musaeed/t5_translation/both_real_en_pcm_back_translation"
 
