@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2,3,4"
+os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 import logging
 import pandas as pd
 from simpletransformers.t5 import T5Model, T5Args
@@ -17,9 +17,9 @@ model_args = T5Args()
 model_args.max_length = 198
 model_args.length_penalty = 1
 model_args.fp16=False
-model_args.eval_batch_size=16
+model_args.eval_batch_size=8
 model_args.num_beams = 10
-model_args.n_gpu=3
+# model_args.n_gpu=3
 
 
 

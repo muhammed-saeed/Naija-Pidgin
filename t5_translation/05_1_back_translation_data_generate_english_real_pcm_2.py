@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2,3,4"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 import logging
 import pandas as pd
 from simpletransformers.t5 import T5Model, T5Args
@@ -17,16 +17,17 @@ model_args = T5Args()
 model_args.max_length = 198
 model_args.length_penalty = 1
 model_args.fp16=False
-model_args.eval_batch_size=16
+model_args.eval_batch_size=8
 model_args.num_beams = 10
-model_args.n_gpu=3
+
+# model_args.n_gpu=3
 
 
 
 
 
 model_output_dir = "/home/CE/musaeed/checkpoint-124900-epoch-5"
-model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[3])
+model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[2])
 
 pcm_mono_path = "/home/CE/musaeed/ROBERTA-base-en/Mono_lingual_data/pcm_entire_mono.txt"
 english_mono_path = "/home/CE/musaeed/ende_2/"
