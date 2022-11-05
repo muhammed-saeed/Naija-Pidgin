@@ -26,10 +26,10 @@ model_args.n_gpu=3
 
 
 model_output_dir = "/home/CE/musaeed/checkpoint-124900-epoch-5"
-model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[4])
+model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[3])
 
 pcm_mono_path = "/home/CE/musaeed/ROBERTA-base-en/Mono_lingual_data/pcm_entire_mono.txt"
-english_mono_path = "/home/CE/musaeed/ende/"
+english_mono_path = "/home/CE/musaeed/ende_2/"
 # english_mono_path = "/home/CE/musaeed/t5_translation/english_back_translation/newfile.txt"
 
 def real_data_preperation(english_mono_path):
@@ -49,10 +49,11 @@ def real_data_preperation(english_mono_path):
 
 files = os.listdir(english_mono_path)
 print(f"{files}")
-output_folder = "/home/CE/musaeed/t5_translation/backtranslation/"
+output_folder = "/home/CE/musaeed/t5_translation/backtranslation_ende_2/"
 for file in files:
     output_file = output_folder + file + ".txt"
     input_file = english_mono_path + file
+
     to_pcm_ = real_data_preperation(input_file)
     pcm_preds = model.predict(to_pcm_)
 

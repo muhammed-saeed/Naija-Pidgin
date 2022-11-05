@@ -8,7 +8,9 @@ from torch.nn.functional import one_hot
 from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampler
 from transformers import BertTokenizer, BertModel, BertConfig
 
-# Preparing for TPU usage
+
+# model_path = "/home/CE/musaeed/checkpoint-53500"
+model_path = "/home/CE/musaeed/enrich_sentiment_analysis/more_pretraining/checkpoint-40000"
 # import torch_xla
 # import torch_xla.core.xla_model as xm
 # device = xm.xla_device()
@@ -41,10 +43,12 @@ device = 'cuda' if cuda.is_available() else 'cpu'
 
 # Defining some key variables that will be used later on in the training
 MAX_LEN = 200
-TRAIN_BATCH_SIZE = 8
-VALID_BATCH_SIZE = 4
-EPOCHS = 10
+#used to be 200
+TRAIN_BATCH_SIZE = 4
+VALID_BATCH_SIZE = 2
+EPOCHS = 1
 LEARNING_RATE = 1e-05
+from transformers import RobertaTokenizer, RobertaForMaskedLM
 tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 
 class CustomDataset(Dataset):
@@ -86,13 +90,16 @@ class CustomDataset(Dataset):
 
 mapping = {"positive":2, "neutral":1, "negative":0 }
 
-train_df = pd.read_csv("/home/CE/musaeed/ROBERTA-EN-TRANS/pidgin/pcm_train.csv")
+train_df = pd.read_csv("/home/CE/musaeed/ROBERTA-base-en/pidgin/pcm_train.csv")
 print('Training data...')
+dev_df = pd.read_csv("/home/CE/musaeed/ROBERTA-base-en/pidgin/pcm_dev.csv")
+train_df = pd.concat([train_df, dev_df], axis = 0,ignore_index = True)
+
 train_df_text = train_df.text.astype(str)
 train_df_label = train_df.label.map(mapping)
 print (train_df.head())
 
-test_df = pd.read_csv("/home/CE/musaeed/ROBERTA-EN-TRANS/pidgin/pcm_test.csv")
+test_df = pd.read_csv("/home/CE/musaeed/ROBERTA-base-en/pidgin/pcm_test.csv")
 # test_df = test_df.label.map(mapping)
 print('\nTesting data...')
 test_df_text = test_df.text.astype(str)
@@ -130,6 +137,7 @@ testing_loader = DataLoader(testing_set, **test_params)
 class RobertaClass(torch.nn.Module):
     def __init__(self):
         super(RobertaClass, self).__init__()
+        # self.l1 = RobertaModel.from_pretrained(model_path)
         self.l1 = RobertaModel.from_pretrained("roberta-base")
         self.pre_classifier = torch.nn.Linear(768, 768)
         self.dropout = torch.nn.Dropout(0.3)
@@ -199,10 +207,18 @@ def validation(epoch):
 
 for epoch in range(EPOCHS):
     outputs, targets = validation(epoch)
+    print(f"outputs {outputs}")
+    print("=========== ============== ============= ")
     outputs = np.array(outputs) >= 0.5
+    print(f"outputs {outputs}")
     accuracy = metrics.accuracy_score(targets, outputs)
     f1_score_micro = metrics.f1_score(targets, outputs, average='micro')
     f1_score_macro = metrics.f1_score(targets, outputs, average='macro')
+    f1_score_weighted = metrics.f1_score(targets, outputs, average='weighted')
+
+    
+
     print(f"Accuracy Score = {accuracy}")
     print(f"F1 Score (Micro) = {f1_score_micro}")
     print(f"F1 Score (Macro) = {f1_score_macro}")
+    print(f"F1 Score (Weighted) = {f1_score_weighted}")

@@ -41,8 +41,8 @@ model_args = {
 model_path="/home/CE/musaeed/ROBERTA-base-en/Transformers/Classification_from_hub/t5/t5_model_train/checkpoint-16500"
 # model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Classification_from_hub/t5/t5_model_train"
 best_more_pretrained_model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Classification_from_hub/t5/more_t5_model_train_11_epochs/checkpoint-15000"
-more_pretrained_model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Classification_from_hub/t5/more_t5_model_train_11_epochs/checkpoint-9000"
-model = T5Model("t5",more_pretrained_model_path, args=model_args)
+more_pretrained_model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Classification_from_hub/mt5_large/checkpoint-4000"
+model = T5Model("mt5",more_pretrained_model_path, args=model_args)
 
 # Load the evaluation data
 df = pd.read_csv("/home/CE/musaeed/ROBERTA-base-en/Transformers/Classification_from_hub/t5/mutli_label_pcm/test.tsv", sep="\t").astype(str)
