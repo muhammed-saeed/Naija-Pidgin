@@ -57,7 +57,7 @@ df_test['ENCODE_CAT'] = df_test['label'].apply(lambda x: encode_cat(x))
 MAX_LEN = 512
 TRAIN_BATCH_SIZE = 4
 VALID_BATCH_SIZE = 2
-EPOCHS = 10
+EPOCHS = 1
 LEARNING_RATE = 1e-05
 tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 # model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/enrich_sentiment_analysis/more_pretraining/checkpoint-40000"
@@ -127,7 +127,7 @@ testing_loader = DataLoader(testing_set, **test_params)
 
 model_path = "/home/CE/musaeed/checkpoint-53500"
 
-# model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/english_real_pcm_bt/more_pretrained/checkpoint-15000"
+model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/english_real_pcm_bt/more_pretrained/checkpoint-15000"
 # Creating the customized model, by adding a drop out and a dense layer on top of distil bert to get the final output for the model. 
 class RobertaClass(torch.nn.Module):
     def __init__(self):
@@ -222,12 +222,12 @@ def valid(model, testing_loader):
             mask = data['mask'].to(device, dtype = torch.long)
             targets = data['targets'].to(device, dtype = torch.long)
             outputs = model(ids, mask).squeeze()
-            output_.extend(outputs.cpu().detach().numpy().tolist())
+            # output_.extend(outputs.cpu().detach().numpy().tolist())
             loss = loss_function(outputs, targets)
-            target_.extend(targets.cpu().detach().numpy().tolist())
+            # target_.extend(targets.cpu().detach().numpy().tolist())
             tr_loss += loss.item()
             big_val, big_idx = torch.max(outputs.data, dim=1)
-            idx_.extend(big_idx.cpu().detach().numpy().tolist())
+            # idx_.extend(big_idx.cpu().detach().numpy().tolist())
             n_correct += calcuate_accu(big_idx, targets)
 
             nb_tr_steps += 1
@@ -264,17 +264,17 @@ from sklearn import metrics
 
 # print('All files saved')
 # print('This tutorial is completed')
-print(f"the length of the outputs is {len(output_)}")
-print(f"the lenght of the target is {len(target_)}")
-print(f"the length of the idx is {len(idx_)}")
-numpy_idx = idx_
-numpy_target = target_
+# print(f"the length of the outputs is {len(output_)}")
+# print(f"the lenght of the target is {len(target_)}")
+# print(f"the length of the idx is {len(idx_)}")
+# numpy_idx = idx_
+# numpy_target = target_
 # f1_weighted = f1_score(idx_, target_, average="weighted")
 # print(f"f1 score weighted is {f1_weighted}")
-# f1_weighted_2 = f1_score(output_, target_, average = "weighted")
-accuracy = metrics.accuracy_score(target_, idx_)
+# # f1_weighted_2 = f1_score(output_, target_, average = "weighted")
+# accuracy = metrics.accuracy_score(target_, idx_)
 
-print(f"accuracy score using output is {accuracy}")
-f1_score_weighted = metrics.f1_score(target_, idx_, average='weighted')
-print(f"f1 score using output is {f1_score_weighted}")
+# print(f"accuracy score using output is {accuracy}")
+# f1_score_weighted = metrics.f1_score(target_, idx_, average='weighted')
+# print(f"f1 score using output is {f1_score_weighted}")
 

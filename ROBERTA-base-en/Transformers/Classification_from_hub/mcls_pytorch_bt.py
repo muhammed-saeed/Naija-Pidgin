@@ -125,9 +125,9 @@ test_params = {'batch_size': VALID_BATCH_SIZE,
 training_loader = DataLoader(training_set, **train_params)
 testing_loader = DataLoader(testing_set, **test_params)
 
-model_path = "/home/CE/musaeed/checkpoint-53500"
+# model_path = "/home/CE/musaeed/checkpoint-53500"
 
-# model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/english_real_pcm_bt/more_pretrained/checkpoint-15000"
+model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/english_real_pcm_bt/more_pretrained/checkpoint-15000"
 # Creating the customized model, by adding a drop out and a dense layer on top of distil bert to get the final output for the model. 
 class RobertaClass(torch.nn.Module):
     def __init__(self):
