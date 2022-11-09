@@ -59,7 +59,12 @@ TRAIN_BATCH_SIZE = 4
 VALID_BATCH_SIZE = 2
 EPOCHS = 1
 LEARNING_RATE = 1e-05
-tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
+from transformers import BertForMaskedLM, BertTokenizer,BertModel
+
+tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+model =  BertForMaskedLM.from_pretrained("bert-base-uncased")
+
+# tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 # model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/enrich_sentiment_analysis/more_pretraining/checkpoint-40000"
 
 class Triage(Dataset):
@@ -126,14 +131,23 @@ training_loader = DataLoader(training_set, **train_params)
 testing_loader = DataLoader(testing_set, **test_params)
 
 model_path = "/home/CE/musaeed/checkpoint-53500"
-
 model_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/english_real_pcm_bt/more_pretrained/checkpoint-15000"
+
+
+
+# model = BertModel.from_pretrained("bert-base-uncased")
+
+
+
+
 # Creating the customized model, by adding a drop out and a dense layer on top of distil bert to get the final output for the model. 
 class RobertaClass(torch.nn.Module):
     def __init__(self):
         super(RobertaClass, self).__init__()
         # self.l1 = RobertaModel.from_pretrained("roberta-base")
-        self.l1 = RobertaModel.from_pretrained(model_path)
+        # self.l1 = RobertaModel.from_pretrained(model_path)
+        print("##################")
+        self.l1 = BertModel.from_pretrained("bert-base-uncased")
 
         self.pre_classifier = torch.nn.Linear(768, 768)
         self.dropout = torch.nn.Dropout(0.3)
