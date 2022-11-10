@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "6"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "6"
 import logging
 import sacrebleu
 import pandas as pd
@@ -12,7 +12,7 @@ transformers_logger.setLevel(logging.WARNING)
 
 
 model_args = T5Args()
-model_args.max_length = 512
+model_args.max_length = 256
 model_args.length_penalty = 1
 model_args.num_beams = 10
 
@@ -20,7 +20,8 @@ model_args.num_beams = 10
 # model_output_dir = "/home/CE/musaeed/t5_translation/output_using_the_prefix_for_training/checkpoint-37470-epoch-6"
 model_output_dir = "/home/CE/musaeed/t5_translation/contine_epoch_5_output_using_the_prefix_for_training_mt_small/checkpoint-124900-epoch-15"
 model_output_dir = "/home/CE/musaeed/t5_translation/cnt_epoch_15_output_using_the_prefix_for_training_mt_base/checkpoint-124900-epoch-5"
-model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[6])
+model_output_dir = "/home/CE/musaeed/t5_translation/mt5_bt_using_real_pcm_second_run/checkpoint-300644-epoch-4"
+model = T5Model("mt5", model_output_dir, args=model_args, cuda_devices=[2])
 
 eval_df = pd.read_csv("/home/CE/musaeed/Naija-Pidgin/t5_translation/data/tsv/eval.tsv", sep="\t").astype(str)
 
@@ -54,7 +55,7 @@ print("English to Pidgin: ", en_pcm_bleu.score)
 
 print(f"the type of the prediction is type(pcm_preds)")
 
-with open("/home/CE/musaeed/Naija-Pidgin/t5_translation/eval_results/english2pcm.txt", "w", encoding="utf-8") as fb:
+with open("/home/CE/musaeed/Naija-Pidgin/t5_translation/eval_results/real_pcm_bt_english2pcm.txt", "w", encoding="utf-8") as fb:
     counter=0
     for index,pcm in enumerate(pcm_preds):
         source_line = "src: " + to_pcm[counter] + "\n"
@@ -64,6 +65,8 @@ with open("/home/CE/musaeed/Naija-Pidgin/t5_translation/eval_results/english2pcm
         pred_line = "pred: " + str(pcm) +"\n"
         
         fb.write(pred_line)
+        splitter = "------------ --------------- ------------ ---------------- -------------- \n"
+        fb.write(splitter)
         counter +=1 
 
 
@@ -73,7 +76,7 @@ pcm_en_bleu = sacrebleu.corpus_bleu(english_preds, english_truth)
 print("Pidgin to English: ", pcm_en_bleu.score)
 
 counter=0
-with open("/home/CE/musaeed/Naija-Pidgin/t5_translation/eval_results/pcm2english.txt", "w", encoding="utf-8") as fb:
+with open("/home/CE/musaeed/Naija-Pidgin/t5_translation/eval_results/real_pcm_bt_pcm2english.txt", "w", encoding="utf-8") as fb:
     for index,en in enumerate(english_preds):
         source_line =  "src: " + to_english[counter] + "\n"
         fb.write(source_line)
@@ -82,3 +85,5 @@ with open("/home/CE/musaeed/Naija-Pidgin/t5_translation/eval_results/pcm2english
         pred_line = "pred: " + str(en) +"\n"
         counter +=1
         fb.write(pred_line)
+        splitter = "------------ --------------- ------------ ---------------- -------------- \n"
+        fb.write(splitter)
