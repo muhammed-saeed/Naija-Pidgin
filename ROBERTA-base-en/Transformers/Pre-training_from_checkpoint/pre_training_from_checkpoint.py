@@ -1,12 +1,13 @@
 from transformers import RobertaTokenizer, RobertaForMaskedLM
 
-
-mono_path = "/home/VD/cychang/ironside_roberta/ROBERTA-base-en/Mono_lingual_data/pcm_entire_mono.txt"
+import os
+mono_path = "/home/CE/musaeed/Naija-Pidgin/ROBERTA-base-en/Mono_lingual_data/pcm_parrellel.txt"
 tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 model = RobertaForMaskedLM.from_pretrained('roberta-base')
 
 
-
+model_folder = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/tree_bank/models/model"
+tokenizer_folder = "/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/tree_bank/models/tokenizer"
 isExist = os.path.exists(model_folder)
 
 if not isExist:
@@ -47,7 +48,7 @@ data_collator = DataCollatorForLanguageModeling(
 from transformers import Trainer, TrainingArguments
 
 training_args = TrainingArguments(
-    output_dir="./roberta-more-pre-trained",
+    output_dir="./tree_bank roberta-more-pre-trained",
     overwrite_output_dir=True,
     num_train_epochs=25,
     per_device_train_batch_size=64,
@@ -55,7 +56,7 @@ training_args = TrainingArguments(
     save_total_limit=2,
     seed=1,
     report_to="wandb",
-    run_name="RoBERTa more pre-training using Transfomers on PCM Data"
+    run_name="Treebank RoBERTa more pre-training using Transfomers on PCM Data"
 )
 trainer = Trainer(
     model=model,
@@ -67,13 +68,13 @@ trainer.train()
 
 
 
-trainer.save_model("/home/VD/cychang/ironside_roberta/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/roberta-retrained")
+trainer.save_model("/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/tree_bank/roberta-retrained")
 
 from transformers import pipeline
 
 fill_mask = pipeline(
     "fill-mask",
-    model="/home/VD/cychang/ironside_roberta/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/roberta-retrained",
+    model="/home/CE/musaeed/ROBERTA-base-en/Transformers/Pre-training_from_checkpoint/tree_bank/roberta-retrained",
     tokenizer="roberta-base"
 )
 fill_mask("Send these <mask> back!")
