@@ -9,8 +9,8 @@ import torch
 # torch.cuda.set_device("2")
 
 
-train_df = pd.read_csv("/home/CE/musaeed/ROBERTA-base-en/Transformers/Classification_from_hub/t5/mutli_label_pcm/train.tsv", sep="\t").astype(str)
-eval_df = pd.read_csv("/home/CE/musaeed/ROBERTA-base-en/Transformers/Classification_from_hub/t5/mutli_label_pcm/eval.tsv", sep="\t").astype(str)
+train_df = pd.read_csv("/home/CE/musaeed/Naija-Pidgin/ROBERTA-base-en/Transformers/Classification_from_hub/t5/mutli_label_pcm/train.tsv", sep="\t").astype(str)
+eval_df = pd.read_csv("/home/CE/musaeed/Naija-Pidgin/ROBERTA-base-en/Transformers/Classification_from_hub/t5/mutli_label_pcm/eval.tsv", sep="\t").astype(str)
 LEARNING_RATE = 1e-2
 
 model_args = {
@@ -29,13 +29,14 @@ model_args = {
     "save_model_every_epoch": False,
     "reprocess_input_data": True,
     "overwrite_output_dir": True,
-    "output_dir":"/home/CE/musaeed/ROBERTA-base-en/Transformers/Classification_from_hub/mt5_large/",
+    "output_dir":"/home/CE/musaeed/ROBERTA-base-en/Transformers/Classification_from_hub/t5_pretrained_en/",
     "wandb_project": "mT5-large  Multi-Label",
 }
-t5_pcm_plus_path = "/home/CE/musaeed/ROBERTA-base-en/Transformers/pre_training_tf5_from_checkpoint"
-model = T5Model("t5", "t5-large", args=model_args, cuda_devices=[6])
-model = T5Model("mt5", "google/mt5-large", args=model_args, cuda_devices=[1,0])
-# model = T5Model("t5", t5_pcm_plus_path, args=model_args, cuda_devices=[3,2])
+t5_pcm_plus_path = "/home/CE/musaeed/t5_pretrained_pcm/pre_training_tf5_from_checkpoint"
+# model = T5Model("t5", "t5-large", args=model_args, cuda_devices=[6])
+
+# model = T5Model("mt5", "google/mt5-large", args=model_args, cuda_devices=[1,0])
+model = T5Model("t5", t5_pcm_plus_path, args=model_args, cuda_devices=[4])
 
 
 model.train_model(train_df, eval_data=eval_df)
